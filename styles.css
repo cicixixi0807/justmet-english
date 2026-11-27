@@ -959,6 +959,12 @@ html[data-dark="true"] .site-header {
   inset: 0;
   z-index: 1;
   background: #14100E;
+  transition: opacity 0.2s ease;
+}
+
+.media-stage.audio-only .media-mount-slot {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .media-mount-slot video {

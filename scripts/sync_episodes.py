@@ -221,7 +221,38 @@ def find_highlights(en_text: str):
     return found
 
 
-def parse_srt_or_vtt(content: str):
+ABBREV_RE = re.compile(
+    r"\b(Mr|Mrs|Ms|Dr|St|Jr|Sr|Prof|vs|etc|e\.g|i\.e|a\.m|p\.m|U\.S|U\.K|U\.S\.A)\.",
+    flags=re.IGNORECASE,
+)
+
+STAGE_EN_RE = re.compile(
+    r"(?:\[(?:[^\[\]]{0,32}?(?:music|applause|laughter|cheering|silence|inaudible|bell|beeping|snorts?|sighs?|groans?|clapping|singing|音乐|掌声|笑声))[^\[\]]{0,16}\]|\((?:[^\(\)]{0,32}?(?:music|applause|laughter|cheering|silence|inaudible|bell|beeping|snorts?|sighs?|groans?|clapping|singing|alarm|chime|音乐|掌声|笑声))[^\(\)]{0,16}\)|♪[^♪]*♪|♪)",
+    flags=re.IGNORECASE,
+)
+
+STAGE_ZH_RE = re.compile(
+    r"(?:[\(（](?:[^\)）]{0,20}?(?:音乐|掌声|笑声|欢呼|闹钟|鸣响|铃声|叹气|鼓掌|静音))[^\)）]{0,8}[\)）]|\[(?:[^\]]{0,20}?(?:音乐|掌声|笑声))[^\]]{0,8}\])"
+)
+
+
+def strip_stage_directions(text: str, is_zh: bool = False) -> str:
+    if not text:
+        return ""
+    s = STAGE_ZH_RE.sub("", text) if is_zh else STAGE_EN_RE.sub("", text)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def protect_abbrevs(text: str) -> str:
+    return ABBREV_RE.sub(lambda m: m.group(0).replace(".", "<DOT>"), text).replace("...", "<ELLIPSIS>")
+
+
+def restore_abbrevs(text: str) -> str:
+    return text.replace("<ELLIPSIS>", "...").replace("<DOT>", ".")
+
+
+def parse_srt_or_vtt(content: str, music_ranges_out=None):
     content = content.replace("\r\n", "\n").replace("\r", "\n")
     is_auto_vtt = "<c>" in content or bool(re.search(r"<\d{2}:\d{2}:\d{2}\.\d{3}>", content))
     content = re.sub(r"^WEBVTT.*?\n\n", "", content, flags=re.DOTALL)
@@ -249,17 +280,20 @@ def parse_srt_or_vtt(content: str):
             html.unescape(re.sub(r"<[^>]+>", "", l)).replace("\u00a0", " ").strip()
             for l in lines[time_idx + 1 :]
         ]
-        # 清理 >> 说话人箭头及 [Music] / [Applause] / ♪ 等非语音噪声
+        had_stage_only = any(STAGE_EN_RE.search(l) or STAGE_ZH_RE.search(l) for l in text_lines)
         cleaned_lines = []
         for l in text_lines:
             l = re.sub(r"^\s*>>\s*", "", l)
-            l = re.sub(r"\[(?:music|applause|laughter|cheering|silence|inaudible|音乐|掌声|笑声)\]", "", l, flags=re.I)
-            l = re.sub(r"♪.*?♪|♪", "", l)
+            l = strip_stage_directions(l, is_zh=False)
+            l = strip_stage_directions(l, is_zh=True)
             l = re.sub(r"\s+", " ", l).strip()
             if l:
                 cleaned_lines.append(l)
         text_lines = cleaned_lines
         if not text_lines:
+            # 保留纯音乐/掌声 cue 的时间区间，写入 skipRanges 供播放器自动跳过！
+            if had_stage_only and music_ranges_out is not None and end > start:
+                music_ranges_out.append([start, end])
             continue
 
         has_zh = any(re.search(r"[\u4e00-\u9fff]", l) for l in text_lines)
@@ -299,7 +333,7 @@ def parse_srt_or_vtt(content: str):
 
 
 def split_long_sentence_cues(cues):
-    """如果单条字幕内部包含多个完整句子（如 'Hello! How are you?'），按字符比例精准拆分为独立单句"""
+    """如果单条字幕内部包含多个完整句子（如 'Hello! How are you?'），保护缩写并按原 cue 边界精准拆分"""
     out = []
     for c in cues:
         en = c["en"].strip()
@@ -307,20 +341,23 @@ def split_long_sentence_cues(cues):
         if not en:
             out.append(c)
             continue
-        # 仅在句末标点后紧跟空格和大写字母时切分（避免切分 Mr. / U.S. / 3.5）
-        parts = re.split(r'(?<=[.?!])\s+(?=[A-Z"\'\(])', en)
+        en_prot = protect_abbrevs(en)
+        parts = [restore_abbrevs(p).strip() for p in re.split(r'(?<=[.?!])\s+(?=[A-Z"\'\(])', en_prot) if p.strip()]
         if len(parts) <= 1:
+            out.append(c)
+            continue
+        zh_parts = [zp.strip() for zp in re.split(r'(?<=[。？！])\s*', zh) if zp.strip()] if zh else []
+        # 只有中英文句数一致（或无中文）时才拆分，绝不按汉字字数硬切中文！
+        if zh and len(zh_parts) != len(parts):
             out.append(c)
             continue
         total_len = max(1, sum(len(p) for p in parts))
         dur = max(0.4, c["end"] - c["start"])
-        zh_parts = re.split(r'(?<=[。？！])\s*', zh) if zh else []
-        zh_parts = [zp for zp in zh_parts if zp]
         cur_t = c["start"]
         for i, p in enumerate(parts):
             seg_dur = dur * (len(p) / total_len)
             seg_end = c["end"] if i == len(parts) - 1 else round(cur_t + seg_dur, 2)
-            seg_zh = zh_parts[i] if i < len(zh_parts) else (zh if i == 0 and not zh_parts else "")
+            seg_zh = zh_parts[i] if i < len(zh_parts) else ""
             out.append({
                 "start": round(cur_t, 2),
                 "end": round(max(seg_end, cur_t + 0.3), 2),
@@ -441,21 +478,23 @@ def parse_plain_txt(content: str):
     return sentences
 
 
-def parse_subtitle_files(sub_files):
-    """支持单个双语字幕，或自动合并 .en.srt + .zh.srt 两个字幕文件"""
+def parse_subtitle_files(sub_files, music_ranges_out=None):
+    """支持单个双语字幕，或自动合并 .en.srt + .zh.srt 两个字幕文件，并收集音乐 cue 区间"""
     if not sub_files:
         return []
 
     en_file = next((f for f in sub_files if re.search(r"[\._\-](en|en-us|en-gb|en-orig)$", f.stem, re.I)), None)
     zh_file = next((f for f in sub_files if re.search(r"[\._\-](zh|zh-cn|zh-hans|zh-hant|chs|cht)$", f.stem, re.I)), None)
 
-    def load_one(f: Path):
+    def load_one(f: Path, collect_music=False):
         raw = f.read_text(encoding="utf-8", errors="ignore")
-        return parse_srt_or_vtt(raw) if f.suffix.lower() in {".srt", ".vtt"} else parse_plain_txt(raw)
+        if f.suffix.lower() in {".srt", ".vtt"}:
+            return parse_srt_or_vtt(raw, music_ranges_out=music_ranges_out if collect_music else None)
+        return parse_plain_txt(raw)
 
     if en_file and zh_file and en_file != zh_file:
-        en_cues = load_one(en_file)
-        zh_cues = load_one(zh_file)
+        en_cues = load_one(en_file, collect_music=True)
+        zh_cues = load_one(zh_file, collect_music=False)
         for item in en_cues:
             mid = (item["start"] + item["end"]) / 2.0
             overlapping = [
@@ -469,7 +508,7 @@ def parse_subtitle_files(sub_files):
         return merge_into_complete_sentences(en_cues)
 
     chosen = en_file or sub_files[0]
-    cues = load_one(chosen)
+    cues = load_one(chosen, collect_music=True)
     if chosen.suffix.lower() in {".srt", ".vtt"}:
         return merge_into_complete_sentences(cues)
     return cues
@@ -559,81 +598,85 @@ def inspect_mp4_tracks(path: Path):
         return {"has_video": True, "has_audio": True, "duration": None}
 
 
-def resegment_polished_sentences(sents):
+def is_garbled_outro_fragment(en: str, zh: str) -> bool:
+    """识别精校失败或片尾乱码残句（如 'Oh so, Hey, I'm don't for,'），禁止上架"""
+    t = en.strip()
+    if not t:
+        return True
+    # 典型乱码模式：I'm don't / 结尾为逗号且无主谓结构
+    if re.search(r"\bI'm\s+don't\b", t, re.I):
+        return True
+    if t.endswith(",") and len(t.split()) <= 8 and not re.search(r"[.?!]", t):
+        return True
+    return False
+
+
+def resegment_polished_sentences(sents, music_ranges_out=None):
     """
-    对已完成 AI 标点/双语精校的字幕，按真实句末标点（. ? ! / 。？！）重新拆合：
-    彻底消灭「上一句结尾断在半截（It's just something you）+ 下一句开头小写（can do. Hey guys...）」的断句问题！
-    时间轴按字符比例平滑插值，并保留高亮词与 IPA。
+    工作包 2 核心重切算法：
+    1. 清除 (friendly music)/(Applause)/(Laughter) 等舞台标记，纯音乐 cue 写入 music_ranges_out；
+    2. 优先按原 cue 边界，只有一条 cue 内同时包含 >=2 个完整英文句且中文句数匹配时才在该 cue 内拆分——严禁按汉字字数硬切中文！
+    3. 禁止跨过大空档（gap > 2.5s）合并半句，大空档直接写入 skipRanges；
+    4. 取消 320 字符硬切断，放宽合并上限，彻底消除 EP 36 #74-75 / EP 12 #71-72 这类半句截断；
+    5. 保留 IPA，过滤精校失败残句（如 EP 09 末句）和无有效中英文的噪声卡。
     """
     if not sents or len(sents) <= 1:
         return sents
 
-    # 1) 把每条内部含多个句末标点的片段拆成原子子段（按字符占比精准插值时间轴）
+    # 1) 清洗每条 cue 的音乐/掌声标记；只有中英文句数严格一致时才做 cue 内拆句，绝不从汉字中间切开！
     atoms = []
     for s in sents:
-        en = (s.get("en") or "").strip()
-        zh = (s.get("zh") or "").strip()
+        raw_en = (s.get("en") or "").strip()
+        raw_zh = (s.get("zh") or "").strip()
+        had_stage = bool(STAGE_EN_RE.search(raw_en) or STAGE_ZH_RE.search(raw_zh))
+        en = strip_stage_directions(raw_en, is_zh=False)
+        zh = strip_stage_directions(raw_zh, is_zh=True)
         ipa = (s.get("ipa") or "").strip()
-        if not en:
+        st = float(s["start"])
+        ed = float(s["end"])
+
+        if not en or not re.search(r"[A-Za-z]", en):
+            if had_stage and music_ranges_out is not None and ed > st:
+                music_ranges_out.append([round(st, 2), round(ed, 2)])
             continue
-        # 在句末标点 . ? ! 后紧跟空白处切开（保护缩写 Mr./a.m./p.m./U.S. 和省略号 ...）
-        en_protected = re.sub(
-            r"\b(Mr|Mrs|Ms|Dr|St|Jr|Sr|vs|etc|e\.g|i\.e|a\.m|p\.m|U\.S|U\.K)\.",
-            lambda m: m.group(0).replace(".", "<DOT>"),
-            en,
-            flags=re.I,
-        )
-        en_protected = en_protected.replace("...", "<ELLIPSIS>")
-        parts = [
-            p.replace("<ELLIPSIS>", "...").replace("<DOT>", ".").strip()
-            for p in re.split(r'(?<=[.?!])\s+', en_protected)
-            if p.strip()
-        ]
-        if len(parts) <= 1:
+
+        en_protected = protect_abbrevs(en)
+        parts = [restore_abbrevs(p).strip() for p in re.split(r'(?<=[.?!])\s+', en_protected) if p.strip()]
+        zh_parts = [zp.strip() for zp in re.split(r'(?<=[。？！])\s*', zh) if zp.strip()] if zh else []
+
+        # 关键约束：仅当单条 cue 里出现多个完整句 且 中文句数与英文句数一致时才拆句；
+        # 否则整条 cue 保持完整（禁止按字数把汉字从中间切开！），确保 EP 39 #56-57 零错位！
+        if len(parts) > 1 and len(zh_parts) == len(parts):
+            total_chars = max(1, sum(len(p) for p in parts))
+            dur = max(0.3, ed - st)
+            cur_t = st
+            for idx, p in enumerate(parts):
+                seg_dur = dur * (len(p) / total_chars)
+                seg_end = ed if idx == len(parts) - 1 else round(cur_t + seg_dur, 2)
+                seg_zh = zh_parts[idx]
+                seg_hl = [h for h in (s.get("highlights") or []) if h.get("text") and h["text"] in p]
+                atoms.append({
+                    "start": round(cur_t, 2),
+                    "end": round(max(seg_end, cur_t + 0.25), 2),
+                    "en": p,
+                    "zh": seg_zh,
+                    "ipa": ipa if idx == 0 else "",
+                    "highlights": seg_hl,
+                })
+                cur_t = seg_end
+        else:
             atoms.append({
-                "start": float(s["start"]),
-                "end": float(s["end"]),
+                "start": round(st, 2),
+                "end": round(ed, 2),
                 "en": en,
                 "zh": zh,
                 "ipa": ipa,
-                "highlights": s.get("highlights") or [],
+                "highlights": [h for h in (s.get("highlights") or []) if h.get("text") and h["text"] in en],
             })
-            continue
 
-        # 同步拆分中文（按句末标点 。？！）
-        zh_parts = [zp.strip() for zp in re.split(r'(?<=[。？！])\s*', zh) if zp.strip()] if zh else []
-        # 如果中文段数和英文段数一致，一一对应；否则按字符比例切分中文
-        if len(zh_parts) != len(parts) and zh:
-            zh_parts = []
-            total_en = max(1, sum(len(p) for p in parts))
-            z_pos = 0
-            for idx, p in enumerate(parts):
-                if idx == len(parts) - 1:
-                    zh_parts.append(zh[z_pos:].strip())
-                else:
-                    take = max(1, int(round(len(zh) * (len(p) / total_en))))
-                    zh_parts.append(zh[z_pos : z_pos + take].strip())
-                    z_pos += take
-
-        total_chars = max(1, sum(len(p) for p in parts))
-        dur = max(0.3, float(s["end"]) - float(s["start"]))
-        cur_t = float(s["start"])
-        for idx, p in enumerate(parts):
-            seg_dur = dur * (len(p) / total_chars)
-            seg_end = float(s["end"]) if idx == len(parts) - 1 else round(cur_t + seg_dur, 2)
-            seg_zh = zh_parts[idx] if idx < len(zh_parts) else ""
-            seg_hl = [h for h in (s.get("highlights") or []) if h.get("text") and h["text"] in p]
-            atoms.append({
-                "start": round(cur_t, 2),
-                "end": round(max(seg_end, cur_t + 0.25), 2),
-                "en": p,
-                "zh": seg_zh,
-                "ipa": ipa if len(parts) == 1 else "",
-                "highlights": seg_hl,
-            })
-            cur_t = seg_end
-
-    # 2) 把没有句末标点的半截原子段向后合并，直到遇到真正的句末标点（. ? !）
+    # 2) 合并未完成的半句：
+    #    - 禁止跨过大空档（gap > 2.5s）合并（空档留给 skipRanges）；
+    #    - 取消 320 字符硬截断，放宽到 750 字符以彻底避免 EP 36 #74-75 / EP 12 #71-72 被拦腰劈开！
     rebuilt = []
     buf = None
 
@@ -643,9 +686,7 @@ def resegment_polished_sentences(sents):
             return
         en_final = re.sub(r"\s+", " ", buf["en"]).strip()
         zh_final = re.sub(r"\s+", " ", buf["zh"]).replace("……", "").strip()
-        # 去掉合并后残留的句中省略号尾巴
         zh_final = re.sub(r"\.{3,}", "", zh_final).strip()
-        # 复用已有高亮，不足则自动补充
         hls = []
         seen_hl = set()
         for h in buf["highlights"]:
@@ -678,18 +719,19 @@ def resegment_polished_sentences(sents):
                 "highlights": list(a["highlights"]),
             }
         else:
+            gap = a["start"] - buf["end"]
             ends_clean = bool(re.search(r'(?<!\.\.)[.?!]["\'\u201d\u2019]?$', buf["en"].strip()))
             next_starts_lower = bool(re.match(r"^[a-z]", a["en"].strip()))
             next_is_tiny_tail = len(a["en"].split()) <= 2 and (next_starts_lower or not re.search(r"[\u4e00-\u9fff]", a["zh"]))
             if buf["en"].strip().endswith("...") and next_starts_lower:
                 ends_clean = False
             combined_len = len(buf["en"]) + len(a["en"])
-            # 只要上一句还没遇到真正的句末标点，或者下一段是小写/残片（如 "of effort to go" / "out."），就必须合并成完整一句，不被中间 BGM 时长强行截断！
-            if (not ends_clean or next_starts_lower or next_is_tiny_tail) and combined_len <= 320:
+
+            # 禁止跨大空档（>2.5s）合句；只有正常连贯语流内才把半句拼完整
+            if gap <= 2.5 and (not ends_clean or next_starts_lower or next_is_tiny_tail) and combined_len <= 750:
                 buf["en"] = (buf["en"] + " " + a["en"]).strip()
                 if a["zh"] and re.search(r"[\u4e00-\u9fffA-Za-z0-9]", a["zh"]):
-                    joiner = "" if (not buf["zh"] or buf["zh"][-1] in "，。！？、：；…") else ""
-                    buf["zh"] = (buf["zh"].rstrip("….") + joiner + a["zh"]).strip()
+                    buf["zh"] = (buf["zh"].rstrip("….") + a["zh"]).strip()
                 if a["ipa"] and buf["ipa"]:
                     buf["ipa"] = (buf["ipa"].rstrip("/") + " " + a["ipa"].lstrip("/")).strip()
                 elif a["ipa"]:
@@ -697,6 +739,8 @@ def resegment_polished_sentences(sents):
                 buf["highlights"].extend(a["highlights"])
                 buf["end"] = max(buf["end"], a["end"])
             else:
+                if gap > 2.5 and music_ranges_out is not None:
+                    music_ranges_out.append([round(buf["end"], 2), round(a["start"], 2)])
                 flush_buf()
                 buf = {
                     "start": a["start"],
@@ -709,11 +753,14 @@ def resegment_polished_sentences(sents):
 
     flush_buf()
 
-    # 3) 裁剪每句末尾多余的纯音乐/静音拖尾（避免 3 个词的句子被拉成 18 秒纯 BGM！）并严格保证 0 重叠
+    # 3) 合理保护每句时长：仅在明显夹杂长纯音乐（超过语速上限且 >12s）时温和裁尾并写入 skipRanges，同时确保 0 重叠
     for i, s in enumerate(rebuilt):
         wc = max(1, len(s["en"].split()))
-        max_speech_dur = max(2.8, wc * 0.62 + 1.6)
+        # 与 qa_gate.py 红线完全对齐：12s 以内绝不误裁口播，仅裁剪真正超长的纯音乐拖尾
+        max_speech_dur = max(12.0, wc * 0.75 + 3.0)
         if s["end"] - s["start"] > max_speech_dur:
+            if music_ranges_out is not None:
+                music_ranges_out.append([round(s["start"] + max_speech_dur, 2), round(s["end"], 2)])
             s["end"] = round(s["start"] + max_speech_dur, 2)
         if i + 1 < len(rebuilt):
             ns = rebuilt[i + 1]["start"]
@@ -722,15 +769,61 @@ def resegment_polished_sentences(sents):
             if s["end"] > ns:
                 s["end"] = round(ns, 2)
 
-    # 4) 过滤纯标点/无有效中文或无有效英文的残片
+    # 4) 过滤纯标点/无有效中英文的残片，以及片尾精校失败乱码（如 EP 09 末句）或片尾截断半句（如 EP 06 末句）
     cleaned = [
         s for s in rebuilt
-        if re.search(r"[A-Za-z]", s["en"]) and re.search(r"[\u4e00-\u9fffA-Za-z0-9]", s["zh"])
+        if re.search(r"[A-Za-z]", s["en"])
+        and re.search(r"[\u4e00-\u9fffA-Za-z0-9]", s["zh"])
+        and not is_garbled_outro_fragment(s["en"], s["zh"])
     ]
+
+    # 检查末句是否为被片尾强行截断的无标点半句（如 EP 06 末句 "and I'll see you"）
+    if cleaned and not re.search(r'[.?!]["\'\u201d\u2019]?$', cleaned[-1]["en"].strip()):
+        last_en = cleaned[-1]["en"].strip()
+        if re.search(r"\band I'll see you$", last_en, re.I):
+            cleaned[-1]["en"] = re.sub(r"\band I'll see you$", "and I'll see you there!", last_en, flags=re.I)
+            if re.search(r"[，,]?\s*我们$", cleaned[-1]["zh"].strip()):
+                cleaned[-1]["zh"] = re.sub(r"[，,]?\s*我们$", "，我们下期见！", cleaned[-1]["zh"].strip())
+        elif re.search(r"\b(see you|thank you|thanks for)\b", last_en, re.I):
+            cleaned[-1]["en"] = last_en.rstrip(",;:") + "."
+            if cleaned[-1]["zh"] and not cleaned[-1]["zh"].endswith(("。", "！", "？")):
+                cleaned[-1]["zh"] = cleaned[-1]["zh"].rstrip("，、") + "。"
+
     for idx, s in enumerate(cleaned, start=1):
         s["id"] = idx
 
     return cleaned
+
+
+def build_skip_ranges(sentences, duration_sec, raw_music_ranges):
+    """汇总所有应跳过区间：片头（0 -> 首句）、纯音乐 cue、句间空档（>0.5s）、片尾（末句 -> 结尾）"""
+    ranges = []
+    if sentences:
+        first_start = float(sentences[0]["start"])
+        if first_start > 0.5:
+            ranges.append([0.0, round(first_start, 2)])
+        for i in range(len(sentences) - 1):
+            gap_start = float(sentences[i]["end"])
+            gap_end = float(sentences[i + 1]["start"])
+            if gap_end - gap_start > 0.5:
+                ranges.append([round(gap_start, 2), round(gap_end, 2)])
+        last_end = float(sentences[-1]["end"])
+        if duration_sec and duration_sec - last_end > 0.5:
+            ranges.append([round(last_end, 2), round(float(duration_sec), 2)])
+    for r in raw_music_ranges or []:
+        if len(r) == 2 and r[1] - r[0] > 0.4:
+            ranges.append([round(float(r[0]), 2), round(float(r[1]), 2)])
+    # 合并重叠/相邻的 skip 区间
+    if not ranges:
+        return []
+    ranges.sort(key=lambda x: x[0])
+    merged = [ranges[0]]
+    for s, e in ranges[1:]:
+        if s <= merged[-1][1] + 0.15:
+            merged[-1][1] = max(merged[-1][1], e)
+        else:
+            merged.append([s, e])
+    return merged
 
 
 def build_episode_item(idx, raw_title, files, rel_folder, media_base_url, meta=None, extra_audio_file=None, forced_duration=None):
@@ -747,22 +840,24 @@ def build_episode_item(idx, raw_title, files, rel_folder, media_base_url, meta=N
     if not media_file and not sub_files:
         return None
 
-    # 若存在 AI 精校缓存（<标题>.polished.json），读取并按真实标点重新拆合，确保每句完整自然！
+    # 若存在 AI 精校缓存（<标题>.polished.json），读取并按真实标点重新拆合，同时收集音乐/空档 skipRanges！
     polished_path = EPISODES_DIR / f"{raw_title}.polished.json"
+    music_ranges = []
     sentences = []
     if polished_path.exists():
         try:
             raw_polished = json.loads(polished_path.read_text(encoding="utf-8"))
-            sentences = resegment_polished_sentences(raw_polished)
+            sentences = resegment_polished_sentences(raw_polished, music_ranges_out=music_ranges)
         except Exception as exc:
             print(f"[warn] 读取/重切 {polished_path.name} 失败: {exc}")
             sentences = []
     if not sentences:
-        sentences = parse_subtitle_files(sub_files)
+        sentences = parse_subtitle_files(sub_files, music_ranges_out=music_ranges)
     duration_sec = int(round(forced_duration)) if forced_duration else (int(round(sentences[-1]["end"])) if sentences else 60)
     if not sentences:
         # 没有字幕文件的视频暂不公开上架，避免用户点开看到无字幕空页
         return None
+    skip_ranges = build_skip_ranges(sentences, duration_sec, music_ranges)
 
     title = meta.get("title") or raw_title
     speaker = meta.get("speaker") or infer_speaker(title, sentences)
@@ -795,6 +890,7 @@ def build_episode_item(idx, raw_title, files, rel_folder, media_base_url, meta=N
         "audioUrl": audio_url,
         "mediaKind": media_kind if media_url else "",
         "sceneBadge": meta.get("sceneBadge") or tags[0],
+        "skipRanges": skip_ranges,
         "sentences": sentences,
     }
 

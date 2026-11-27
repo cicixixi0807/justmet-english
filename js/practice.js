@@ -22,6 +22,7 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
   const { library, episode } = findEpisodeById(episodeId);
 
   // Local workspace UI state
+  let isDisposed = false;
   let currentIdx = 0;
   let isPlaying = false;
   let mode = 'bilingual'; // 'bilingual' | 'shadow' | 'cloze' | 'dictation'
@@ -33,7 +34,11 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
   let currentLoopRemaining = 0;
   let recordingSentenceId = null;
   let precisionTimer = null;
+  let stallPauseTimer = null;
+  let seekGuardUntil = 0;
   let userManualScrollUntil = 0;
+  let isProgrammaticScroll = false;
+  let lastListSignature = '';
   const revealedCloze = new Set();
   const dictationAnswers = {}; // `${sentId}:${hIdx}` -> string
   const dictationReveal = new Set();
@@ -44,15 +49,49 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     savedAutoContinue = true;
   }
 
-  // Persistent HTML5 video/audio element for episodes with real local/CDN mediaUrl
+  // Persistent HTML5 video/audio elements — mounted ONCE in mountShell() and NEVER detached on sentence change or audioOnly toggle
   const hasRealMedia = Boolean(episode.mediaUrl);
+  const skipRanges = Array.isArray(episode.skipRanges) ? episode.skipRanges : [];
   let mediaEl = null;
   let companionAudioEl = null;
+
+  function syncAudioRate() {
+    const rate = store.state.playbackRate;
+    if (mediaEl) mediaEl.playbackRate = rate;
+    if (companionAudioEl) companionAudioEl.playbackRate = rate;
+  }
+
+  function clearStallTimer() {
+    if (stallPauseTimer) {
+      clearTimeout(stallPauseTimer);
+      stallPauseTimer = null;
+    }
+  }
+
+  function seekMediaTo(targetSec, autoPlay = true) {
+    if (!mediaEl) return;
+    const rate = store.state.playbackRate;
+    seekGuardUntil = Date.now() + 450;
+    clearStallTimer();
+    mediaEl.playbackRate = rate;
+    mediaEl.currentTime = Math.max(0, targetSec);
+    if (companionAudioEl) {
+      companionAudioEl.playbackRate = rate;
+      companionAudioEl.currentTime = Math.max(0, targetSec);
+    }
+    if (autoPlay) {
+      mediaEl.play().catch(() => {});
+      if (companionAudioEl && mediaEl.readyState >= 2) {
+        companionAudioEl.play().catch(() => {});
+      }
+    }
+  }
+
   if (hasRealMedia) {
     mediaEl = document.createElement(episode.mediaKind === 'audio' ? 'audio' : 'video');
     mediaEl.src = episode.mediaUrl;
     mediaEl.playsInline = true;
-    mediaEl.preload = 'metadata';
+    mediaEl.preload = 'auto';
     mediaEl.playbackRate = store.state.playbackRate;
 
     if (episode.audioUrl) {
@@ -63,50 +102,73 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
       companionAudioEl.playbackRate = store.state.playbackRate;
       mediaEl.muted = true; // 声音由独立音轨负责，防止浏览器静音策略拦截
 
-      // 视频缓冲/拖动时自动暂停独立音轨，视频真正出画面继续播放时再对齐恢复，彻底杜绝卡顿复读杂音！
+      // 视频真正持续卡顿超过 240ms 才暂停伴音，避免句首解码短暂 waiting 导致“复读杂音”
       mediaEl.addEventListener('waiting', () => {
-        if (companionAudioEl && !companionAudioEl.paused) companionAudioEl.pause();
+        if (!companionAudioEl || companionAudioEl.paused) return;
+        clearStallTimer();
+        stallPauseTimer = setTimeout(() => {
+          if (mediaEl && (mediaEl.readyState < 3 || mediaEl.paused) && companionAudioEl && !companionAudioEl.paused) {
+            companionAudioEl.pause();
+          }
+        }, 240);
       });
-      mediaEl.addEventListener('seeking', () => {
-        if (companionAudioEl && !companionAudioEl.paused) companionAudioEl.pause();
-      });
+
       mediaEl.addEventListener('playing', () => {
+        clearStallTimer();
         if (isPlaying && companionAudioEl) {
           companionAudioEl.playbackRate = store.state.playbackRate;
           if (Math.abs(companionAudioEl.currentTime - mediaEl.currentTime) > 0.35) {
             companionAudioEl.currentTime = mediaEl.currentTime;
           }
-          companionAudioEl.play().catch(() => {});
+          if (companionAudioEl.paused) {
+            companionAudioEl.play().catch(() => {});
+          }
         }
       });
+
       mediaEl.addEventListener('pause', () => {
+        clearStallTimer();
         if (companionAudioEl && !companionAudioEl.paused) companionAudioEl.pause();
       });
     }
 
     let lastDriftFixAt = 0;
     const checkMediaBoundary = () => {
-      if (!isPlaying || !mediaEl) return;
-      // 如果视频正在缓冲或尚未就绪，绝不强行重置音轨时间（修复「一直鬼畜卡顿复读」的根因！）
-      if (mediaEl.readyState < 3 || mediaEl.seeking || mediaEl.paused) return;
+      if (isDisposed || !isPlaying || !mediaEl) return;
+      if (mediaEl.paused || mediaEl.seeking || mediaEl.readyState < 2) return;
+      const now = Date.now();
       const t = mediaEl.currentTime;
+
+      // 温和校准双轨漂移（绝不在刚 seek 后的保护期内反复重置音轨）
       if (
         companionAudioEl &&
         !companionAudioEl.paused &&
-        Date.now() - lastDriftFixAt > 2000 &&
-        Math.abs(companionAudioEl.currentTime - t) > 0.6
+        now > seekGuardUntil &&
+        now - lastDriftFixAt > 2500 &&
+        Math.abs(companionAudioEl.currentTime - t) > 0.55
       ) {
         companionAudioEl.currentTime = t;
-        lastDriftFixAt = Date.now();
+        lastDriftFixAt = now;
       }
-      const curSent = episode.sentences[currentIdx];
 
-      // 精准边界检测（每 40ms 检查一次，避免 250ms 的 timeupdate 导致播进下一句的第一个词）
-      if (curSent && t >= curSent.end - 0.04) {
+      const sents = episode.sentences;
+      if (!sents.length) return;
+      const firstSent = sents[0];
+      const lastSent = sents[sents.length - 1];
+
+      // 1) 跳过片头纯音乐（0 -> 第一句）
+      if (now > seekGuardUntil && firstSent.start > 0.45 && t < firstSent.start - 0.18) {
+        setActiveIndex(0, true);
+        seekMediaTo(firstSent.start, true);
+        return;
+      }
+
+      // 2) 检查当前句结束边界
+      const curSent = sents[currentIdx];
+      if (curSent && now > seekGuardUntil && t >= curSent.end - 0.04) {
         if (currentLoopRemaining > 1) {
           currentLoopRemaining -= 1;
-          mediaEl.currentTime = curSent.start;
-          if (companionAudioEl) companionAudioEl.currentTime = curSent.start;
+          seekMediaTo(curSent.start, true);
           return;
         }
         if (abRange && currentIdx >= abRange.endIdx) {
@@ -115,26 +177,64 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         }
         if (!store.state.autoContinue || mode === 'shadow' || mode === 'dictation') {
           stopPlayback();
-          render();
+          syncPlayStateUI();
           return;
         }
-        // 连播时如果当前句与下一句之间有超过 2.5 秒的纯音乐/静音空档，自动跳过纯 BGM 直达下一句开口！
-        const nextSent = episode.sentences[currentIdx + 1];
-        if (nextSent && nextSent.start - curSent.end > 2.5) {
-          playSentenceAt(currentIdx + 1, true);
+        // 最后一句播完立即暂停，绝不继续播放片尾纯音乐（如 EP 09 约 58 秒片尾）
+        if (currentIdx >= sents.length - 1) {
+          stopPlayback();
+          syncPlayStateUI();
+          return;
+        }
+        const nextSent = sents[currentIdx + 1];
+        const gap = nextSent.start - curSent.end;
+        // 句间空隙 > 0.45s 时平滑跳过纯音乐/空白；<= 0.45s 时自然连播，绝不再赋 currentTime
+        if (gap > 0.45) {
+          const lc = store.state.loopCount;
+          currentLoopRemaining = lc === 0 ? 9999 : lc;
+          setActiveIndex(currentIdx + 1, false);
+          seekMediaTo(nextSent.start, true);
           return;
         }
       }
 
-      // 连播模式下实时同步当前高亮句
-      const foundIdx = episode.sentences.findIndex((s) => t >= s.start - 0.05 && t < s.end);
+      // 3) 兜底：若已播到最后一句之后，立即停止
+      if (now > seekGuardUntil && t >= lastSent.end - 0.02) {
+        if (abRange) {
+          playSentenceAt(abRange.startIdx, true);
+        } else {
+          stopPlayback();
+          syncPlayStateUI();
+        }
+        return;
+      }
+
+      // 4) 若连播落入纯音乐 / skipRanges 区间，直接跳到该区间后的下一句（若无下一句则停止）
+      if (now > seekGuardUntil && store.state.autoContinue && skipRanges.length > 0) {
+        for (let r = 0; r < skipRanges.length; r++) {
+          const [rStart, rEnd] = skipRanges[r];
+          if (rEnd - rStart >= 0.45 && t >= rStart + 0.08 && t < rEnd - 0.08) {
+            const nextAfterSkip = sents.findIndex((s) => s.start >= rEnd - 0.15);
+            if (nextAfterSkip === -1) {
+              stopPlayback();
+              syncPlayStateUI();
+            } else {
+              const lc = store.state.loopCount;
+              currentLoopRemaining = lc === 0 ? 9999 : lc;
+              setActiveIndex(nextAfterSkip, false);
+              seekMediaTo(sents[nextAfterSkip].start, true);
+            }
+            return;
+          }
+        }
+      }
+
+      // 5) 自然连播跨句：只做轻量级高亮与当前句更新，绝不重绘整页、绝不拆装 video！
+      const foundIdx = sents.findIndex((s) => t >= s.start - 0.05 && t < s.end);
       if (foundIdx !== -1 && foundIdx !== currentIdx) {
-        currentIdx = foundIdx;
         const lc = store.state.loopCount;
         currentLoopRemaining = lc === 0 ? 9999 : lc;
-        store.updateEpisodeProgress(episode.id, ((currentIdx + 1) / episode.sentences.length) * 100);
-        render();
-        scrollActiveCardIntoView();
+        setActiveIndex(foundIdx, false);
       }
     };
 
@@ -142,12 +242,13 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     precisionTimer = setInterval(checkMediaBoundary, 40);
 
     mediaEl.addEventListener('ended', () => {
+      clearStallTimer();
       if (companionAudioEl) companionAudioEl.pause();
       if (abRange) {
         playSentenceAt(abRange.startIdx, true);
       } else {
         isPlaying = false;
-        render();
+        syncPlayStateUI();
       }
     });
   }
@@ -166,6 +267,7 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
 
   function stopPlayback() {
     isPlaying = false;
+    clearStallTimer();
     if (mediaEl) {
       mediaEl.pause();
     }
@@ -175,34 +277,39 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     speechEngine.stopSpeak();
   }
 
-  function playSentenceAt(idx, resetLoop = true) {
-    if (idx < 0 || idx >= episode.sentences.length) {
-      stopPlayback();
-      render();
-      return;
-    }
-    currentIdx = idx;
-    isPlaying = true;
-    const sent = episode.sentences[currentIdx];
+  function setActiveIndex(nextIdx, forceScroll = false) {
+    const prevIdx = currentIdx;
+    currentIdx = Math.max(0, Math.min(episode.sentences.length - 1, nextIdx));
     store.updateEpisodeProgress(episode.id, ((currentIdx + 1) / episode.sentences.length) * 100);
 
+    // 轻量原地切换高亮 class（绝不重建 .subtitle-list）
+    const prevCard = root.querySelector(`.sentence-card[data-idx="${prevIdx}"]`);
+    if (prevCard && prevIdx !== currentIdx) prevCard.classList.remove('active');
+    const nextCard = root.querySelector(`.sentence-card[data-idx="${currentIdx}"]`);
+    if (nextCard) nextCard.classList.add('active');
+
+    renderCurrentSentenceAreas();
+    scrollActiveCardIntoView(forceScroll);
+  }
+
+  function playSentenceAt(idx, resetLoop = true, forceScroll = false) {
+    if (idx < 0 || idx >= episode.sentences.length) {
+      stopPlayback();
+      syncPlayStateUI();
+      return;
+    }
+    isPlaying = true;
+    const sent = episode.sentences[idx];
     if (resetLoop) {
       const lc = store.state.loopCount;
       currentLoopRemaining = lc === 0 ? 9999 : lc;
     }
 
-    render();
-    scrollActiveCardIntoView();
+    setActiveIndex(idx, forceScroll);
+    syncPlayStateUI();
 
     if (mediaEl) {
-      mediaEl.playbackRate = store.state.playbackRate;
-      mediaEl.currentTime = sent.start;
-      if (companionAudioEl) {
-        companionAudioEl.pause();
-        companionAudioEl.playbackRate = store.state.playbackRate;
-        companionAudioEl.currentTime = sent.start;
-      }
-      mediaEl.play().catch(() => {});
+      seekMediaTo(sent.start, true);
       return;
     }
 
@@ -215,23 +322,21 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
           playSentenceAt(currentIdx, false);
           return;
         }
-        // Check AB range
         if (abRange) {
           const nextAb = currentIdx >= abRange.endIdx ? abRange.startIdx : currentIdx + 1;
           playSentenceAt(nextAb, true);
           return;
         }
-        // Auto-continue vs pause-per-sentence (跟读和听写词不连播)
         if (store.state.autoContinue && mode !== 'shadow' && mode !== 'dictation') {
           if (currentIdx + 1 < episode.sentences.length) {
             playSentenceAt(currentIdx + 1, true);
           } else {
             isPlaying = false;
-            render();
+            syncPlayStateUI();
           }
         } else {
           isPlaying = false;
-          render();
+          syncPlayStateUI();
         }
       }
     });
@@ -240,9 +345,9 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
   function togglePlay() {
     if (isPlaying) {
       stopPlayback();
-      render();
+      syncPlayStateUI();
     } else {
-      playSentenceAt(currentIdx, true);
+      playSentenceAt(currentIdx, true, false);
     }
   }
 
@@ -255,10 +360,12 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
       const listRect = list.getBoundingClientRect();
       const cardRect = activeEl.getBoundingClientRect();
       const margin = 48;
-      // 只有当当前句真正滚出可视区域时才轻柔定位，绝不每次跳回顶部乱滚！
+      // 只有当当前句真正滚出可视区域时才轻柔定位；用户手动翻页期间绝不抢回
       if (cardRect.top < listRect.top + margin || cardRect.bottom > listRect.bottom - margin) {
         const targetTop = activeEl.offsetTop - list.offsetTop - list.clientHeight * 0.25;
+        isProgrammaticScroll = true;
         list.scrollTo({ top: Math.max(0, targetTop), behavior: 'smooth' });
+        setTimeout(() => { isProgrammaticScroll = false; }, 500);
       }
     });
   }
@@ -290,7 +397,6 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
             : `<button class="cloze-btn" data-cloze="${clozeKey}" style="width:${widthCh}ch;" title="点击揭示单词" aria-label="点击揭示单词">&nbsp;</button>`;
           html = html.replace(escapedTarget, replacement);
         } else if (renderMode === 'dictation-preview') {
-          // SayBreeze 左侧「当前句」卡片在听写词模式下显示干净下划线
           const replacement = `<span class="dictation-underline" style="width:${widthCh}ch;"></span>`;
           html = html.replace(escapedTarget, replacement);
         } else {
@@ -299,7 +405,6 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
           const isCorrect = val.trim().toLowerCase() === h.text.toLowerCase();
           const cls = val ? (isCorrect ? 'correct' : 'wrong') : '';
           const displayVal = isRevealed ? h.text : val;
-          // 括号/输入框内不显示任何提示文字（与 SayBreeze 1:1 一致）
           const replacement = `<input class="dictation-input ${isRevealed ? 'correct' : cls}" style="width:${widthCh}ch;" data-dict="${clozeKey}" data-ans="${escapeHtml(h.text)}" value="${escapeHtml(displayVal)}" autocomplete="off" spellcheck="false" />`;
           html = html.replace(escapedTarget, replacement);
         }
@@ -348,40 +453,436 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
       .join('');
   }
 
-  function render() {
-    const prevListScrollTop = root.querySelector('.subtitle-list')?.scrollTop || 0;
+  // ===== Granular DOM updaters (ZERO full-page root.innerHTML rebuilds after mountShell) =====
+
+  function syncPlayStateUI() {
+    const stage = document.getElementById('media-stage');
+    if (stage) stage.classList.toggle('playing', isPlaying);
+
+    const stagePlayBtn = document.getElementById('stage-play-btn');
+    if (stagePlayBtn) {
+      stagePlayBtn.textContent = isPlaying ? '⏸' : '▶';
+      stagePlayBtn.title = isPlaying ? '暂停' : '播放';
+    }
+
+    const ctlPlay = document.getElementById('ctl-play');
+    if (ctlPlay) {
+      ctlPlay.innerHTML = `<span class="dock-circle">${isPlaying ? '⏸' : '▶'}</span><span>${isPlaying ? '暂停' : '播放'}</span>`;
+    }
+
+    const shPlay = document.getElementById('sh-play-video');
+    if (shPlay) {
+      shPlay.innerHTML = `<span class="shadow-circle-icon">${isPlaying ? '⏸' : '▶'}</span>`;
+    }
+  }
+
+  function syncChromeUI() {
     const s = store.state;
-    const curSent = episode.sentences[currentIdx];
     const isLearned = !!s.learnedEpisodes[episode.id];
     const isFav = !!s.favoriteEpisodes[episode.id];
+
+    const topNavSlot = document.getElementById('top-nav-slot');
+    if (topNavSlot) {
+      topNavSlot.innerHTML = showTopNav
+        ? `<div class="practice-mini-header">
+             <div style="display:flex;align-items:center;gap:12px;">
+               <a href="#/universe" class="brand-lockup" style="gap:8px;">
+                 <img src="./assets/icon-192.png" style="width:26px;height:26px;border-radius:50%;" alt="JM" />
+                 <strong style="font-family:var(--font-serif);">刚认识不久 Just met</strong>
+               </a>
+               <span style="color:var(--muted);">/</span>
+               <a href="#/library" style="color:var(--accent);font-weight:600;">返回英语自习室</a>
+             </div>
+             <div style="display:flex;align-items:center;gap:10px;">
+               <a href="https://justmet.pages.dev" target="_blank" rel="noopener" class="pill">💌 恋综模拟器 ↗</a>
+               <button class="btn btn-outline" id="btn-hide-top" style="padding:4px 12px;font-size:12px;">收起顶栏</button>
+             </div>
+           </div>`
+        : '';
+      document.getElementById('btn-hide-top')?.addEventListener('click', () => {
+        showTopNav = false;
+        syncChromeUI();
+      });
+    }
+
+    const toggleTopBtn = document.getElementById('toggle-top-nav');
+    if (toggleTopBtn) toggleTopBtn.textContent = showTopNav ? '▲ 收起导航' : '▼ 导航 / 返回英语自习室';
+
+    const railLearned = document.getElementById('rail-learned');
+    if (railLearned) {
+      railLearned.classList.toggle('active', isLearned);
+      railLearned.innerHTML = `<span class="rail-icon">${isLearned ? '✓' : '+'}</span><span>${isLearned ? '已学完' : '标记已学'}</span>`;
+    }
+    const railVocabBadge = document.getElementById('rail-vocab-badge');
+    if (railVocabBadge) railVocabBadge.textContent = String(s.vocabBook.length);
+
+    const epLearned = document.getElementById('ep-mark-learned');
+    if (epLearned) {
+      epLearned.classList.toggle('active', isLearned);
+      epLearned.textContent = isLearned ? '✓' : '+';
+    }
+    const epFav = document.getElementById('ep-fav-btn');
+    if (epFav) {
+      epFav.classList.toggle('active', isFav);
+      epFav.textContent = isFav ? '★' : '☆';
+    }
+
+    const stage = document.getElementById('media-stage');
+    if (stage) {
+      stage.classList.toggle('playing', isPlaying);
+      stage.classList.toggle('pip-mode', pipMode);
+      stage.classList.toggle('has-video', hasRealMedia && episode.mediaKind !== 'audio' && !s.audioOnly);
+      stage.classList.toggle('audio-only', !!s.audioOnly);
+      stage.style.background = s.audioOnly ? 'linear-gradient(135deg,#2B1F1B,#4E372F)' : episode.coverGradient;
+    }
+
+    const stageScenePill = document.getElementById('stage-scene-pill');
+    if (stageScenePill) {
+      stageScenePill.textContent = s.audioOnly ? '🎧 纯音频精听模式' : episode.sceneBadge;
+    }
+
+    // Mode tabs
+    root.querySelectorAll('.mode-tab').forEach((tab) => {
+      tab.classList.toggle('active', tab.dataset.mode === mode);
+      if (tab.dataset.mode === 'bilingual') {
+        tab.textContent = `⇄ ${langDisplay === 'both' ? '双语' : langDisplay === 'en' ? 'EN' : 'ZH'}`;
+      }
+    });
+
+    // Subtitle panel blind overlay
+    const panelBlind = document.getElementById('panel-blind-overlay');
+    if (panelBlind) panelBlind.style.display = s.blindListening ? '' : 'none';
+
+    // Dock buttons
+    document.getElementById('ctl-pip')?.classList.toggle('active', pipMode);
+    document.getElementById('ctl-subpos')?.classList.toggle('active', !!s.inVideoSubtitle);
+    document.getElementById('ctl-ab')?.classList.toggle('active', !!abRange);
+    document.getElementById('ctl-blind')?.classList.toggle('active', !!s.blindListening);
+    document.getElementById('ctl-ipa')?.classList.toggle('active', !!s.showIpa);
+    document.getElementById('ctl-screenvocab')?.classList.toggle('active', !!s.screenVocab);
+
+    const ctlSpeed = document.getElementById('ctl-speed');
+    if (ctlSpeed) ctlSpeed.innerHTML = `<span class="dock-circle">${s.playbackRate}x</span><span>倍速</span>`;
+    const speedLabel = document.getElementById('scrubber-speed');
+    if (speedLabel) speedLabel.textContent = `${s.playbackRate.toFixed(1)}x`;
+
+    const ctlLoop = document.getElementById('ctl-loop');
+    if (ctlLoop) {
+      ctlLoop.classList.toggle('active', s.loopCount !== 1 || !!s.audioOnly);
+      ctlLoop.innerHTML = `<span class="dock-circle">${s.loopCount === 0 ? '∞' : s.loopCount + 'x'}</span><span>循环</span>`;
+    }
+
+    const ctlAuto = document.getElementById('ctl-autocont');
+    if (ctlAuto) {
+      ctlAuto.classList.toggle('active', !!s.autoContinue);
+      ctlAuto.innerHTML = `<span class="dock-circle">${s.autoContinue ? '▶' : '⏸'}</span><span>${s.autoContinue ? '连播' : '句停'}</span>`;
+    }
+
+    syncAudioRate();
+    syncPlayStateUI();
+  }
+
+  function renderCurrentSentenceAreas() {
+    const s = store.state;
+    const curSent = episode.sentences[currentIdx];
+    if (!curSent) return;
+
+    const metaPill = document.getElementById('stage-meta-pill');
+    if (metaPill) metaPill.textContent = `${curSent.speaker} · #${curSent.id}/${episode.sentences.length}`;
+
+    const vocabSlot = document.getElementById('stage-vocab-slot');
+    if (vocabSlot) {
+      vocabSlot.innerHTML =
+        s.screenVocab && (curSent.highlights || []).length > 0
+          ? `<div class="stage-vocab-float">
+               ${curSent.highlights.map((h) => `<span class="stage-vocab-tag" data-word="${escapeHtml(h.key)}">✨ ${escapeHtml(h.text)}</span>`).join('')}
+             </div>`
+          : '';
+    }
+
+    const overlaySlot = document.getElementById('stage-overlay-sub-slot');
+    if (overlaySlot) {
+      overlaySlot.innerHTML =
+        s.inVideoSubtitle && !s.blindListening
+          ? `<div class="video-overlay-sub">
+               ${langDisplay !== 'zh' ? `<div class="en">${escapeHtml(curSent.en)}</div>` : ''}
+               ${langDisplay !== 'en' ? `<div class="zh">${escapeHtml(curSent.zh)}</div>` : ''}
+             </div>`
+          : '';
+    }
+
+    const curCardSlot = document.getElementById('current-sentence-slot');
+    if (curCardSlot) {
+      curCardSlot.innerHTML =
+        !s.inVideoSubtitle && mode !== 'shadow'
+          ? `<div class="current-sentence-card">
+               ${s.blindListening ? `<div class="blind-overlay"><span class="blind-pill">🙈 盲听中 · 点击底部盲听按钮揭示</span></div>` : ''}
+               <div>
+                 ${s.showIpa && mode === 'bilingual' && langDisplay !== 'zh' ? `<div class="sentence-ipa">${escapeHtml(curSent.ipa)}</div>` : ''}
+                 ${
+                   !(mode === 'bilingual' && langDisplay === 'zh')
+                     ? `<div class="sentence-en" style="font-size:${s.fontSize + 2}px;">
+                          ${renderInteractiveSentence(curSent, mode === 'cloze' ? 'cloze' : mode === 'dictation' ? 'dictation-preview' : 'bilingual')}
+                        </div>`
+                     : ''
+                 }
+                 ${
+                   mode === 'bilingual' && langDisplay !== 'en'
+                     ? `<div class="sentence-zh" style="font-size:${langDisplay === 'zh' ? s.fontSize + 1 : Math.max(13, s.fontSize - 2)}px;color:${langDisplay === 'zh' ? 'var(--text)' : 'var(--muted)'};font-weight:${langDisplay === 'zh' ? '600' : '400'};margin-top:${langDisplay === 'zh' ? '0' : '10px'};">${escapeHtml(curSent.zh || '（本句暂无中文翻译）')}</div>`
+                     : ''
+                 }
+               </div>
+               <div class="current-sentence-footer">
+                 <span class="pill">当前句</span>
+                 <span>#${curSent.id}</span>
+                 <span>${formatTime(curSent.start)} - ${formatTime(curSent.end)}</span>
+                 ${abRange ? `<span class="pill">AB 复读: #${abRange.startIdx + 1}–#${abRange.endIdx + 1}</span>` : ''}
+               </div>
+             </div>`
+          : '';
+    }
+
+    const scrubber = document.getElementById('dock-scrubber');
+    if (scrubber) scrubber.value = String(currentIdx);
+    const scrubberTime = document.getElementById('scrubber-time');
+    if (scrubberTime) scrubberTime.textContent = `${formatTime(curSent.start)} / ${episode.durationLabel}`;
+
+    if (mode === 'shadow') {
+      renderShadowFocus();
+    }
+  }
+
+  function renderShadowFocus() {
+    const body = document.getElementById('subtitle-panel-body');
+    if (!body) return;
+    const s = store.state;
+    const curSent = episode.sentences[currentIdx];
     const curRecKey = `${episode.id}:${curSent.id}`;
     const hasCurRec = !!speechEngine.recordings[curRecKey];
     const curEval = s.evalScores[curRecKey];
 
+    body.innerHTML = `
+      <div class="shadow-focus-box">
+        <div class="shadow-card">
+          <div style="width:100%;">
+            ${s.showIpa ? `<div class="sentence-ipa">${escapeHtml(curSent.ipa)}</div>` : ''}
+            <div class="sentence-en" style="font-size:${s.fontSize + 4}px;line-height:1.55;">
+              ${renderInteractiveSentence(curSent, 'bilingual')}
+            </div>
+            <div class="sentence-zh" style="margin-top:10px;font-size:${Math.max(14, s.fontSize - 2)}px;">${escapeHtml(curSent.zh)}</div>
+          </div>
+
+          <div class="shadow-controls">
+            <button class="shadow-circle-btn" id="sh-prev" title="上一句"><span class="shadow-circle-icon">‹</span></button>
+            <button class="shadow-circle-btn soft-fill" id="sh-play-video" title="播放视频片段"><span class="shadow-circle-icon">${isPlaying ? '⏸' : '▶'}</span></button>
+            <button class="shadow-circle-btn highlight" id="sh-play-orig" title="播放原音"><span class="shadow-circle-icon">♪</span></button>
+            <button class="shadow-circle-btn ${recordingSentenceId === curSent.id ? 'recording' : ''}" id="sh-record" title="${recordingSentenceId === curSent.id ? '停止录音' : '开始录音'}">
+              <span class="shadow-circle-icon">${recordingSentenceId === curSent.id ? '⏹' : '🎤'}</span>
+            </button>
+            <button class="shadow-circle-btn" id="sh-play-rec" title="播放我的录音" ${hasCurRec ? '' : 'style="opacity:0.42;"'}><span class="shadow-circle-icon">🎧</span></button>
+            <button class="shadow-circle-btn" id="sh-next" title="下一句"><span class="shadow-circle-icon">›</span></button>
+          </div>
+
+          <button class="sent-act-btn" id="sh-eval" title="AI 发音评测" style="width:42px;height:42px;font-size:20px;border:1px solid var(--border);background:var(--card);">
+            🤖<span class="score-mini-badge">${curEval ? curEval.overall : 0}</span>
+          </button>
+
+          <span class="pill" style="background:var(--card);border:1px solid var(--border);color:var(--muted);font-weight:500;">
+            #${curSent.id} · ${formatTime(curSent.start)} - ${formatTime(curSent.end)} · ${(curSent.end - curSent.start).toFixed(1)}s
+          </span>
+        </div>
+      </div>
+    `;
+
+    document.getElementById('sh-prev')?.addEventListener('click', () => setActiveIndex(Math.max(0, currentIdx - 1), true));
+    document.getElementById('sh-next')?.addEventListener('click', () => setActiveIndex(Math.min(episode.sentences.length - 1, currentIdx + 1), true));
+    document.getElementById('sh-play-video')?.addEventListener('click', () => togglePlay());
+    document.getElementById('sh-play-orig')?.addEventListener('click', () => playSentenceAt(currentIdx, true, false));
+    document.getElementById('sh-record')?.addEventListener('click', () => handleRecordToggle(currentIdx));
+    document.getElementById('sh-play-rec')?.addEventListener('click', () => {
+      const ok = speechEngine.playRecording(`${episode.id}:${episode.sentences[currentIdx].id}`);
+      if (!ok) showToast('请先点击「开始录音」录制你的跟读音频');
+    });
+    document.getElementById('sh-eval')?.addEventListener('click', () => openEvalDrawer(episode, episode.sentences[currentIdx], handleRecordToggle));
+  }
+
+  function renderSubtitleList(forceRebuild = false) {
+    const body = document.getElementById('subtitle-panel-body');
+    if (!body) return;
+    if (mode === 'shadow') {
+      lastListSignature = 'shadow';
+      renderShadowFocus();
+      return;
+    }
+
+    const s = store.state;
+    const sig = `${mode}|${langDisplay}|${s.fontSize}|${s.showIpa}|${recordingSentenceId}|${revealedCloze.size}|${dictationReveal.size}`;
+    if (!forceRebuild && sig === lastListSignature && body.querySelector('.subtitle-list')) {
+      return;
+    }
+    lastListSignature = sig;
+
+    const prevScrollTop = body.querySelector('.subtitle-list')?.scrollTop || 0;
+
+    body.innerHTML = `
+      <div class="subtitle-list" id="subtitle-list">
+        ${episode.sentences
+          .map((sent, idx) => {
+            const recKey = `${episode.id}:${sent.id}`;
+            const isStarred = !!s.starredSentences[recKey];
+            const hasRec = !!speechEngine.recordings[recKey];
+            const evalRes = s.evalScores[recKey];
+            const isRecThis = recordingSentenceId === sent.id;
+            return `
+              <article class="sentence-card ${idx === currentIdx ? 'active' : ''}" data-idx="${idx}">
+                ${s.showIpa && !(mode === 'bilingual' && langDisplay === 'zh') ? `<div class="sentence-ipa">${escapeHtml(sent.ipa)}</div>` : ''}
+                ${
+                  !(mode === 'bilingual' && langDisplay === 'zh')
+                    ? `<div class="sentence-en" style="font-size:${s.fontSize}px;">
+                         ${renderInteractiveSentence(sent, mode)}
+                       </div>`
+                    : ''
+                }
+                ${
+                  mode === 'bilingual' && langDisplay !== 'en'
+                    ? `<div class="sentence-zh" style="${langDisplay === 'zh' ? `font-size:${s.fontSize}px;color:var(--text);font-weight:600;` : ''}">${escapeHtml(sent.zh || (langDisplay === 'zh' ? '（本句暂无中文翻译）' : ''))}</div>`
+                    : ''
+                }
+                <div class="sentence-card-footer">
+                  <span>#${sent.id} &nbsp; ${formatTime(sent.start)} - ${formatTime(sent.end)}</span>
+                  <div class="sentence-actions">
+                    ${
+                      mode === 'dictation'
+                        ? `<button class="sent-act-btn reveal-dict-btn ${dictationReveal.has(sent.id) ? 'active' : ''}" data-sent-id="${sent.id}" title="${dictationReveal.has(sent.id) ? '隐藏答案' : '查看答案'}">👁</button>`
+                        : ''
+                    }
+                    <button class="sent-act-btn ${isStarred ? 'active' : ''}" data-act="star" data-idx="${idx}" title="收藏字幕">${isStarred ? '★' : '☆'}</button>
+                    <button class="sent-act-btn" data-act="copy" data-idx="${idx}" title="复制字幕">📋</button>
+                    <button class="sent-act-btn" data-act="play" data-idx="${idx}" title="播放原音">♪</button>
+                    <button class="sent-act-btn ${isRecThis ? 'recording' : ''}" data-act="record" data-idx="${idx}" title="${isRecThis ? '停止录音' : '开始录音'}">🎤</button>
+                    <button class="sent-act-btn" data-act="playrec" data-idx="${idx}" title="播放我的录音" ${hasRec ? '' : 'style="opacity:0.35;"'}>🎧</button>
+                    <button class="sent-act-btn" data-act="eval" data-idx="${idx}" title="发音评测">
+                      🤖<span class="score-mini-badge">${evalRes ? evalRes.overall : 0}</span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+            `;
+          })
+          .join('')}
+      </div>
+    `;
+
+    const listEl = document.getElementById('subtitle-list');
+    if (listEl) {
+      listEl.scrollTop = prevScrollTop;
+      const pauseAutoFollow = () => {
+        userManualScrollUntil = Date.now() + 6000;
+      };
+      listEl.addEventListener('wheel', pauseAutoFollow, { passive: true });
+      listEl.addEventListener('touchstart', pauseAutoFollow, { passive: true });
+      listEl.addEventListener('pointerdown', pauseAutoFollow, { passive: true });
+      listEl.addEventListener('scroll', () => {
+        if (!isProgrammaticScroll) {
+          userManualScrollUntil = Date.now() + 6000;
+        }
+      }, { passive: true });
+
+      // 听写词输入框事件
+      listEl.querySelectorAll('.dictation-input').forEach((inp) => {
+        inp.addEventListener('click', (e) => e.stopPropagation());
+        inp.addEventListener('focus', () => {
+          const shell = root.querySelector('.practice-shell');
+          if (window.innerWidth <= 768 && shell) shell.classList.add('keyboard-open');
+          setTimeout(() => inp.scrollIntoView({ behavior: 'smooth', block: 'center' }), 220);
+        });
+        inp.addEventListener('blur', () => {
+          setTimeout(() => {
+            const active = document.activeElement;
+            if (!active || !active.classList.contains('dictation-input')) {
+              root.querySelector('.practice-shell')?.classList.remove('keyboard-open');
+            }
+          }, 120);
+        });
+        inp.addEventListener('input', (e) => {
+          dictationAnswers[inp.dataset.dict] = e.target.value;
+          const match = e.target.value.trim().toLowerCase() === inp.dataset.ans.toLowerCase();
+          inp.classList.toggle('correct', match);
+          inp.classList.toggle('wrong', e.target.value.length > 0 && !match);
+
+          if (match) {
+            const allInputs = Array.from(listEl.querySelectorAll('.dictation-input'));
+            const pos = allInputs.indexOf(inp);
+            const nextInp = pos >= 0 ? allInputs[pos + 1] : null;
+            if (nextInp) {
+              const curCard = inp.closest('.sentence-card');
+              const nextCard = nextInp.closest('.sentence-card');
+              if (nextCard && curCard && nextCard !== curCard) {
+                const nextIdx = Number(nextCard.dataset.idx);
+                if (!Number.isNaN(nextIdx)) {
+                  playSentenceAt(nextIdx, true, false);
+                }
+              }
+              nextInp.focus();
+              nextInp.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+          }
+        });
+      });
+    }
+  }
+
+  function refreshUI(rebuildList = false) {
+    syncChromeUI();
+    renderCurrentSentenceAreas();
+    if (rebuildList || mode === 'shadow') {
+      renderSubtitleList(true);
+    }
+  }
+
+  function handleRecordToggle(idx) {
+    const sent = episode.sentences[idx];
+    const recKey = `${episode.id}:${sent.id}`;
+    if (recordingSentenceId === sent.id) {
+      speechEngine.stopRecording();
+      recordingSentenceId = null;
+      refreshUI(true);
+      return;
+    }
+    stopPlayback();
+    recordingSentenceId = sent.id;
+    refreshUI(true);
+    showToast('开始录音，请跟读当前英文句子...');
+    speechEngine.startRecording(
+      recKey,
+      sent.en,
+      (rec) => {
+        recordingSentenceId = null;
+        store.saveEvalScore(episode.id, sent.id, rec.evalResult);
+        showToast(`录音完成！AI 发音综合得分：${rec.evalResult.overall} 分`);
+        refreshUI(true);
+      },
+      () => {
+        recordingSentenceId = null;
+        const fallbackEval = speechEngine.evaluatePronunciation(sent.en, '');
+        store.saveEvalScore(episode.id, sent.id, fallbackEval);
+        showToast('未检测到麦克风权限，已生成示例发音评测供预览');
+        refreshUI(true);
+      }
+    );
+  }
+
+  function mountShell() {
+    const s = store.state;
+    const curSent = episode.sentences[currentIdx];
+
     root.innerHTML = `
       <div class="practice-shell">
-        ${
-          showTopNav
-            ? `<div class="practice-mini-header">
-                 <div style="display:flex;align-items:center;gap:12px;">
-                   <a href="#/universe" class="brand-lockup" style="gap:8px;">
-                     <img src="./assets/icon-192.png" style="width:26px;height:26px;border-radius:50%;" alt="JM" />
-                     <strong style="font-family:var(--font-serif);">刚认识不久 Just met</strong>
-                   </a>
-                   <span style="color:var(--muted);">/</span>
-                   <a href="#/library" style="color:var(--accent);font-weight:600;">返回英语自习室</a>
-                 </div>
-                 <div style="display:flex;align-items:center;gap:10px;">
-                   <a href="https://justmet.pages.dev" target="_blank" rel="noopener" class="pill">💌 恋综模拟器 ↗</a>
-                   <button class="btn btn-outline" id="btn-hide-top" style="padding:4px 12px;font-size:12px;">收起顶栏</button>
-                 </div>
-               </div>`
-            : ''
-        }
+        <div id="top-nav-slot"></div>
 
         <div class="practice-top-collapse">
           <button class="collapse-nav-btn" id="toggle-top-nav" title="展开/收起顶部导航">
-            ${showTopNav ? '▲ 收起导航' : '▼ 导航 / 返回英语自习室'}
+            ▼ 导航 / 返回英语自习室
           </button>
         </div>
 
@@ -393,12 +894,12 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
               <span class="rail-icon">🔖</span>
               <span>重点词</span>
             </button>
-            <button class="rail-btn ${isLearned ? 'active' : ''}" id="rail-learned">
-              <span class="rail-icon">${isLearned ? '✓' : '+'}</span>
-              <span>${isLearned ? '已学完' : '标记已学'}</span>
+            <button class="rail-btn" id="rail-learned">
+              <span class="rail-icon">+</span>
+              <span>标记已学</span>
             </button>
             <button class="rail-btn" id="rail-vocab">
-              <span class="rail-badge">${s.vocabBook.length}</span>
+              <span class="rail-badge" id="rail-vocab-badge">${s.vocabBook.length}</span>
               <span class="rail-icon">📒</span>
               <span>生词本</span>
             </button>
@@ -413,72 +914,29 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
             <div class="ep-title-bar">
               <span class="ep-pill-tag">${episode.number}</span>
               <h1 class="ep-title-text" title="${escapeHtml(episode.title)}">${escapeHtml(episode.title)}</h1>
-              <button class="icon-circle-sm ${isLearned ? 'active' : ''}" id="ep-mark-learned" title="标记已学">${isLearned ? '✓' : '+'}</button>
-              <button class="icon-circle-sm ${isFav ? 'active' : ''}" id="ep-fav-btn" title="收藏剧集">${isFav ? '★' : '☆'}</button>
+              <button class="icon-circle-sm" id="ep-mark-learned" title="标记已学">+</button>
+              <button class="icon-circle-sm" id="ep-fav-btn" title="收藏剧集">☆</button>
             </div>
 
-            <div class="media-stage ${isPlaying ? 'playing' : ''} ${pipMode ? 'pip-mode' : ''} ${hasRealMedia && episode.mediaKind !== 'audio' && !s.audioOnly ? 'has-video' : ''}" style="background:${s.audioOnly ? 'linear-gradient(135deg,#2B1F1B,#4E372F)' : episode.coverGradient};">
-              ${hasRealMedia && !s.audioOnly ? `<div class="media-mount-slot" id="media-mount"></div>` : ''}
+            <div class="media-stage" id="media-stage" style="background:${episode.coverGradient};">
+              ${hasRealMedia ? `<div class="media-mount-slot" id="media-mount"></div>` : ''}
               <div class="media-stage-header">
-                <span class="stage-pill">${s.audioOnly ? '🎧 纯音频精听模式' : episode.sceneBadge}</span>
-                <span class="stage-pill">${curSent.speaker} · #${curSent.id}/${episode.sentences.length}</span>
+                <span class="stage-pill" id="stage-scene-pill">${episode.sceneBadge}</span>
+                <span class="stage-pill" id="stage-meta-pill">${curSent.speaker} · #${curSent.id}/${episode.sentences.length}</span>
               </div>
 
               <div class="stage-center">
-                <button class="stage-play-btn" id="stage-play-btn" title="${isPlaying ? '暂停' : '播放'}">
-                  ${isPlaying ? '⏸' : '▶'}
-                </button>
+                <button class="stage-play-btn" id="stage-play-btn" title="播放">▶</button>
                 <div class="waveform-bars">
                   <span></span><span></span><span></span><span></span><span></span><span></span>
                 </div>
               </div>
 
-              ${
-                s.screenVocab && (curSent.highlights || []).length > 0
-                  ? `<div class="stage-vocab-float">
-                       ${curSent.highlights.map((h) => `<span class="stage-vocab-tag" data-word="${escapeHtml(h.key)}">✨ ${escapeHtml(h.text)}</span>`).join('')}
-                     </div>`
-                  : ''
-              }
-
-              ${
-                s.inVideoSubtitle && !s.blindListening
-                  ? `<div class="video-overlay-sub">
-                       ${langDisplay !== 'zh' ? `<div class="en">${escapeHtml(curSent.en)}</div>` : ''}
-                       ${langDisplay !== 'en' ? `<div class="zh">${escapeHtml(curSent.zh)}</div>` : ''}
-                     </div>`
-                  : '<div></div>'
-              }
+              <div id="stage-vocab-slot"></div>
+              <div id="stage-overlay-sub-slot"></div>
             </div>
 
-            ${
-              !s.inVideoSubtitle && mode !== 'shadow'
-                ? `<div class="current-sentence-card">
-                     ${s.blindListening ? `<div class="blind-overlay"><span class="blind-pill">🙈 盲听中 · 点击底部盲听按钮揭示</span></div>` : ''}
-                     <div>
-                       ${s.showIpa && mode === 'bilingual' && langDisplay !== 'zh' ? `<div class="sentence-ipa">${escapeHtml(curSent.ipa)}</div>` : ''}
-                       ${
-                         !(mode === 'bilingual' && langDisplay === 'zh')
-                           ? `<div class="sentence-en" style="font-size:${s.fontSize + 2}px;">
-                                ${renderInteractiveSentence(curSent, mode === 'cloze' ? 'cloze' : mode === 'dictation' ? 'dictation-preview' : 'bilingual')}
-                              </div>`
-                           : ''
-                       }
-                       ${
-                         mode === 'bilingual' && langDisplay !== 'en'
-                           ? `<div class="sentence-zh" style="font-size:${langDisplay === 'zh' ? s.fontSize + 1 : Math.max(13, s.fontSize - 2)}px;color:${langDisplay === 'zh' ? 'var(--text)' : 'var(--muted)'};font-weight:${langDisplay === 'zh' ? '600' : '400'};margin-top:${langDisplay === 'zh' ? '0' : '10px'};">${escapeHtml(curSent.zh || '（本句暂无中文翻译）')}</div>`
-                           : ''
-                       }
-                     </div>
-                     <div class="current-sentence-footer">
-                       <span class="pill">当前句</span>
-                       <span>#${curSent.id}</span>
-                       <span>${formatTime(curSent.start)} - ${formatTime(curSent.end)}</span>
-                       ${abRange ? `<span class="pill">AB 复读: #${abRange.startIdx + 1}–#${abRange.endIdx + 1}</span>` : ''}
-                     </div>
-                   </div>`
-                : ''
-            }
+            <div id="current-sentence-slot"></div>
           </section>
 
           <!-- 右侧动态字幕面板 -->
@@ -486,138 +944,47 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
             <div class="subtitle-panel-header">
               <span class="panel-heading">动态字幕</span>
               <div class="mode-tabs">
-                <button class="mode-tab ${mode === 'bilingual' ? 'active' : ''}" data-mode="bilingual" title="再次点击切换：双语 / EN / ZH">
-                  ⇄ ${langDisplay === 'both' ? '双语' : langDisplay === 'en' ? 'EN' : 'ZH'}
-                </button>
-                <button class="mode-tab ${mode === 'shadow' ? 'active' : ''}" data-mode="shadow">跟读</button>
-                <button class="mode-tab ${mode === 'cloze' ? 'active' : ''}" data-mode="cloze">挖空</button>
-                <button class="mode-tab ${mode === 'dictation' ? 'active' : ''}" data-mode="dictation">听写词</button>
+                <button class="mode-tab active" data-mode="bilingual" title="再次点击切换：双语 / EN / ZH">⇄ 双语</button>
+                <button class="mode-tab" data-mode="shadow">跟读</button>
+                <button class="mode-tab" data-mode="cloze">挖空</button>
+                <button class="mode-tab" data-mode="dictation">听写词</button>
               </div>
             </div>
 
-            ${s.blindListening ? `<div class="blind-overlay"><span class="blind-pill">🙈 盲听中</span></div>` : ''}
-
-            ${
-              mode === 'shadow'
-                ? `<div class="shadow-focus-box">
-                     <div class="shadow-card">
-                       <div style="width:100%;">
-                         ${s.showIpa ? `<div class="sentence-ipa">${escapeHtml(curSent.ipa)}</div>` : ''}
-                         <div class="sentence-en" style="font-size:${s.fontSize + 4}px;line-height:1.55;">
-                           ${renderInteractiveSentence(curSent, 'bilingual')}
-                         </div>
-                         <div class="sentence-zh" style="margin-top:10px;font-size:${Math.max(14, s.fontSize - 2)}px;">${escapeHtml(curSent.zh)}</div>
-                       </div>
-
-                       <div class="shadow-controls">
-                         <button class="shadow-circle-btn" id="sh-prev" title="上一句">
-                           <span class="shadow-circle-icon">‹</span>
-                         </button>
-                         <button class="shadow-circle-btn soft-fill" id="sh-play-video" title="播放视频片段">
-                           <span class="shadow-circle-icon">${isPlaying ? '⏸' : '▶'}</span>
-                         </button>
-                         <button class="shadow-circle-btn highlight" id="sh-play-orig" title="播放原音">
-                           <span class="shadow-circle-icon">♪</span>
-                         </button>
-                         <button class="shadow-circle-btn ${recordingSentenceId === curSent.id ? 'recording' : ''}" id="sh-record" title="${recordingSentenceId === curSent.id ? '停止录音' : '开始录音'}">
-                           <span class="shadow-circle-icon">${recordingSentenceId === curSent.id ? '⏹' : '🎤'}</span>
-                         </button>
-                         <button class="shadow-circle-btn" id="sh-play-rec" title="播放我的录音" ${hasCurRec ? '' : 'style="opacity:0.42;"'}>
-                           <span class="shadow-circle-icon">🎧</span>
-                         </button>
-                         <button class="shadow-circle-btn" id="sh-next" title="下一句">
-                           <span class="shadow-circle-icon">›</span>
-                         </button>
-                       </div>
-
-                       <button class="sent-act-btn" id="sh-eval" title="AI 发音评测" style="width:42px;height:42px;font-size:20px;border:1px solid var(--border);background:var(--card);">
-                         🤖<span class="score-mini-badge">${curEval ? curEval.overall : 0}</span>
-                       </button>
-
-                       <span class="pill" style="background:var(--card);border:1px solid var(--border);color:var(--muted);font-weight:500;">
-                         #${curSent.id} · ${formatTime(curSent.start)} - ${formatTime(curSent.end)} · ${(curSent.end - curSent.start).toFixed(1)}s
-                       </span>
-                     </div>
-                   </div>`
-                : `<div class="subtitle-list">
-                     ${episode.sentences
-                       .map((sent, idx) => {
-                         const recKey = `${episode.id}:${sent.id}`;
-                         const isStarred = !!s.starredSentences[recKey];
-                         const hasRec = !!speechEngine.recordings[recKey];
-                         const evalRes = s.evalScores[recKey];
-                         const isRecThis = recordingSentenceId === sent.id;
-                         return `
-                           <article class="sentence-card ${idx === currentIdx ? 'active' : ''}" data-idx="${idx}">
-                             ${s.showIpa && !(mode === 'bilingual' && langDisplay === 'zh') ? `<div class="sentence-ipa">${escapeHtml(sent.ipa)}</div>` : ''}
-                             ${
-                               !(mode === 'bilingual' && langDisplay === 'zh')
-                                 ? `<div class="sentence-en" style="font-size:${s.fontSize}px;">
-                                      ${renderInteractiveSentence(sent, mode)}
-                                    </div>`
-                                 : ''
-                             }
-                             ${
-                               mode === 'bilingual' && langDisplay !== 'en'
-                                 ? `<div class="sentence-zh" style="${langDisplay === 'zh' ? `font-size:${s.fontSize}px;color:var(--text);font-weight:600;` : ''}">${escapeHtml(sent.zh || (langDisplay === 'zh' ? '（本句暂无中文翻译）' : ''))}</div>`
-                                 : ''
-                             }
-                             <div class="sentence-card-footer">
-                               <span>#${sent.id} &nbsp; ${formatTime(sent.start)} - ${formatTime(sent.end)}</span>
-                               <div class="sentence-actions">
-                                 ${
-                                   mode === 'dictation'
-                                     ? `<button class="sent-act-btn reveal-dict-btn ${dictationReveal.has(sent.id) ? 'active' : ''}" data-sent-id="${sent.id}" title="${dictationReveal.has(sent.id) ? '隐藏答案' : '查看答案'}">👁</button>`
-                                     : ''
-                                 }
-                                 <button class="sent-act-btn ${isStarred ? 'active' : ''}" data-act="star" data-idx="${idx}" title="收藏字幕">${isStarred ? '★' : '☆'}</button>
-                                 <button class="sent-act-btn" data-act="copy" data-idx="${idx}" title="复制字幕">📋</button>
-                                 <button class="sent-act-btn" data-act="play" data-idx="${idx}" title="播放原音">♪</button>
-                                 <button class="sent-act-btn ${isRecThis ? 'recording' : ''}" data-act="record" data-idx="${idx}" title="${isRecThis ? '停止录音' : '开始录音'}">🎤</button>
-                                 <button class="sent-act-btn" data-act="playrec" data-idx="${idx}" title="播放我的录音" ${hasRec ? '' : 'style="opacity:0.35;"'}>🎧</button>
-                                 <button class="sent-act-btn" data-act="eval" data-idx="${idx}" title="发音评测">
-                                   🤖<span class="score-mini-badge">${evalRes ? evalRes.overall : 0}</span>
-                                 </button>
-                               </div>
-                             </div>
-                           </article>
-                         `;
-                       })
-                       .join('')}
-                   </div>`
-            }
+            <div class="blind-overlay" id="panel-blind-overlay" style="display:none;"><span class="blind-pill">🙈 盲听中</span></div>
+            <div id="subtitle-panel-body" style="display:flex;flex-direction:column;flex:1;min-height:0;"></div>
           </section>
         </div>
 
         <!-- 底部全宽 17 项播放控制栏 -->
         <footer class="player-dock">
           <div class="scrubber-row">
-            <span>${formatTime(curSent.start)} / ${episode.durationLabel}</span>
+            <span id="scrubber-time">${formatTime(curSent.start)} / ${episode.durationLabel}</span>
             <input class="scrubber-range" id="dock-scrubber" type="range" min="0" max="${episode.sentences.length - 1}" value="${currentIdx}" />
-            <span>${s.playbackRate.toFixed(1)}x</span>
+            <span id="scrubber-speed">${s.playbackRate.toFixed(1)}x</span>
           </div>
 
           <div class="dock-controls">
             <div class="dock-group">
-              <button class="dock-btn ${pipMode ? 'active' : ''}" id="ctl-pip"><span class="dock-circle">❐</span><span>小窗</span></button>
+              <button class="dock-btn" id="ctl-pip"><span class="dock-circle">❐</span><span>小窗</span></button>
               <button class="dock-btn" id="ctl-full"><span class="dock-circle">⛶</span><span>全屏</span></button>
-              <button class="dock-btn ${s.inVideoSubtitle ? 'active' : ''}" id="ctl-subpos"><span class="dock-circle">▤</span><span>字幕</span></button>
-              <button class="dock-btn ${abRange ? 'active' : ''}" id="ctl-ab"><span class="dock-circle">AB</span><span>复读</span></button>
+              <button class="dock-btn" id="ctl-subpos"><span class="dock-circle">▤</span><span>字幕</span></button>
+              <button class="dock-btn" id="ctl-ab"><span class="dock-circle">AB</span><span>复读</span></button>
               <button class="dock-btn" id="ctl-speed"><span class="dock-circle">${s.playbackRate}x</span><span>倍速</span></button>
-              <button class="dock-btn ${s.blindListening ? 'active' : ''}" id="ctl-blind"><span class="dock-circle">👁</span><span>盲听</span></button>
-              <button class="dock-btn ${s.loopCount !== 1 || s.audioOnly ? 'active' : ''}" id="ctl-loop"><span class="dock-circle">${s.loopCount === 0 ? '∞' : s.loopCount + 'x'}</span><span>循环</span></button>
+              <button class="dock-btn" id="ctl-blind"><span class="dock-circle">👁</span><span>盲听</span></button>
+              <button class="dock-btn" id="ctl-loop"><span class="dock-circle">1x</span><span>循环</span></button>
             </div>
 
             <div class="dock-group">
               <button class="dock-btn" id="ctl-prev"><span class="dock-circle">←</span><span>上句</span></button>
-              <button class="dock-btn play-main" id="ctl-play"><span class="dock-circle">${isPlaying ? '⏸' : '▶'}</span><span>${isPlaying ? '暂停' : '播放'}</span></button>
+              <button class="dock-btn play-main" id="ctl-play"><span class="dock-circle">▶</span><span>播放</span></button>
               <button class="dock-btn" id="ctl-next"><span class="dock-circle">→</span><span>下句</span></button>
             </div>
 
             <div class="dock-group">
-              <button class="dock-btn ${s.showIpa ? 'active' : ''}" id="ctl-ipa"><span class="dock-circle">音</span><span>音标</span></button>
-              <button class="dock-btn ${s.autoContinue ? 'active' : ''}" id="ctl-autocont"><span class="dock-circle">${s.autoContinue ? '▶' : '⏸'}</span><span>${s.autoContinue ? '连播' : '句停'}</span></button>
-              <button class="dock-btn ${s.screenVocab ? 'active' : ''}" id="ctl-screenvocab"><span class="dock-circle">词</span><span>屏词</span></button>
+              <button class="dock-btn" id="ctl-ipa"><span class="dock-circle">音</span><span>音标</span></button>
+              <button class="dock-btn" id="ctl-autocont"><span class="dock-circle">▶</span><span>连播</span></button>
+              <button class="dock-btn" id="ctl-screenvocab"><span class="dock-circle">词</span><span>屏词</span></button>
               <button class="dock-btn" id="ctl-font"><span class="dock-circle">T+</span><span>字号</span></button>
               <button class="dock-btn" id="ctl-cache"><span class="dock-circle">↓</span><span>缓存</span></button>
               <button class="dock-btn" id="ctl-theme"><span class="dock-circle">🎨</span><span>主题</span></button>
@@ -628,93 +995,40 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
       </div>
     `;
 
-    bindEvents();
-
-    // 恢复字幕列表滚动位置，彻底杜绝每次重绘跳回顶部再乱滚！
-    const newList = root.querySelector('.subtitle-list');
-    if (newList) {
-      newList.scrollTop = prevListScrollTop;
-      newList.addEventListener('wheel', () => { userManualScrollUntil = Date.now() + 4500; }, { passive: true });
-      newList.addEventListener('touchstart', () => { userManualScrollUntil = Date.now() + 4500; }, { passive: true });
-    }
-
-    // Mount persistent video/audio element without resetting playback
+    // Mount persistent video/audio nodes ONCE — they stay attached for the entire episode lifetime
     if (mediaEl) {
-      mediaEl.playbackRate = store.state.playbackRate;
       const mount = document.getElementById('media-mount');
-      if (mount && mediaEl.parentElement !== mount) {
+      if (mount) {
         mount.appendChild(mediaEl);
-      }
-      if (companionAudioEl) {
-        companionAudioEl.playbackRate = store.state.playbackRate;
-        if (mount && companionAudioEl.parentElement !== mount) {
-          mount.appendChild(companionAudioEl);
-        }
+        if (companionAudioEl) mount.appendChild(companionAudioEl);
       }
     }
+
+    bindShellEvents();
+    refreshUI(true);
   }
 
-  function handleRecordToggle(idx) {
-    const sent = episode.sentences[idx];
-    const recKey = `${episode.id}:${sent.id}`;
-    if (recordingSentenceId === sent.id) {
-      speechEngine.stopRecording();
-      recordingSentenceId = null;
-      render();
-      return;
-    }
-    stopPlayback();
-    recordingSentenceId = sent.id;
-    render();
-    showToast('开始录音，请跟读当前英文句子...');
-    speechEngine.startRecording(
-      recKey,
-      sent.en,
-      (rec) => {
-        recordingSentenceId = null;
-        store.saveEvalScore(episode.id, sent.id, rec.evalResult);
-        showToast(`录音完成！AI 发音综合得分：${rec.evalResult.overall} 分`);
-        render();
-      },
-      () => {
-        recordingSentenceId = null;
-        // Graceful fallback if mic permission denied in preview
-        const fallbackEval = speechEngine.evaluatePronunciation(sent.en, '');
-        store.saveEvalScore(episode.id, sent.id, fallbackEval);
-        showToast('未检测到麦克风权限，已生成示例发音评测供预览');
-        render();
-      }
-    );
-  }
-
-  function bindEvents() {
+  function bindShellEvents() {
     document.getElementById('toggle-top-nav')?.addEventListener('click', () => {
       showTopNav = !showTopNav;
-      render();
-    });
-    document.getElementById('btn-hide-top')?.addEventListener('click', () => {
-      showTopNav = false;
-      render();
+      syncChromeUI();
     });
 
     // Left rail
     document.getElementById('rail-keywords')?.addEventListener('click', () => openKeywordsModal(allEpisodeKeywords, episode, episode.sentences[currentIdx]));
-    document.getElementById('rail-learned')?.addEventListener('click', () => {
+    const toggleLearned = () => {
       const done = store.toggleLearnedEpisode(episode.id);
       showToast(done ? '已标记本集为已学完 🎉' : '已取消已学标记');
-      render();
-    });
-    document.getElementById('ep-mark-learned')?.addEventListener('click', () => {
-      const done = store.toggleLearnedEpisode(episode.id);
-      showToast(done ? '已标记本集为已学完 🎉' : '已取消已学标记');
-      render();
-    });
+      syncChromeUI();
+    };
+    document.getElementById('rail-learned')?.addEventListener('click', toggleLearned);
+    document.getElementById('ep-mark-learned')?.addEventListener('click', toggleLearned);
     document.getElementById('ep-fav-btn')?.addEventListener('click', () => {
       const f = store.toggleFavoriteEpisode(episode.id);
       showToast(f ? '已收藏本集' : '已取消收藏');
-      render();
+      syncChromeUI();
     });
-    document.getElementById('rail-vocab')?.addEventListener('click', () => openVocabModal(render));
+    document.getElementById('rail-vocab')?.addEventListener('click', () => openVocabModal(() => syncChromeUI()));
     document.getElementById('rail-catalog')?.addEventListener('click', () => openCatalogDrawer(library, episode.id, (nextEpId) => {
       stopPlayback();
       navigate(`#/episode/${nextEpId}`);
@@ -723,21 +1037,21 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     // Play controls
     document.getElementById('stage-play-btn')?.addEventListener('click', togglePlay);
     document.getElementById('ctl-play')?.addEventListener('click', togglePlay);
-    document.getElementById('ctl-prev')?.addEventListener('click', () => playSentenceAt(Math.max(0, currentIdx - 1)));
-    document.getElementById('ctl-next')?.addEventListener('click', () => playSentenceAt(Math.min(episode.sentences.length - 1, currentIdx + 1)));
+    document.getElementById('ctl-prev')?.addEventListener('click', () => playSentenceAt(Math.max(0, currentIdx - 1), true, true));
+    document.getElementById('ctl-next')?.addEventListener('click', () => playSentenceAt(Math.min(episode.sentences.length - 1, currentIdx + 1), true, true));
     document.getElementById('dock-scrubber')?.addEventListener('input', (e) => {
-      currentIdx = Number(e.target.value);
-      if (isPlaying) playSentenceAt(currentIdx);
-      else render();
+      const idx = Number(e.target.value);
+      if (isPlaying) playSentenceAt(idx, true, true);
+      else setActiveIndex(idx, true);
     });
 
-    // Mode tabs (点击第一个标签在「双语 / EN / ZH」间循环切换；跟读和听写词自动切为句停/不连播)
+    // Mode tabs
     root.querySelectorAll('.mode-tab').forEach((tab) => {
       tab.addEventListener('click', () => {
         const nextMode = tab.dataset.mode;
         if (nextMode === 'bilingual' && mode === 'bilingual') {
           langDisplay = langDisplay === 'both' ? 'en' : langDisplay === 'en' ? 'zh' : 'both';
-          render();
+          refreshUI(true);
           return;
         }
         const isPauseMode = (m) => m === 'shadow' || m === 'dictation';
@@ -748,52 +1062,58 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
           store.set({ autoContinue: savedAutoContinue });
         }
         mode = nextMode;
-        render();
+        refreshUI(true);
       });
     });
 
-    // Shadowing focus buttons (1:1 SayBreeze controls)
-    document.getElementById('sh-prev')?.addEventListener('click', () => {
-      currentIdx = Math.max(0, currentIdx - 1);
-      render();
-    });
-    document.getElementById('sh-next')?.addEventListener('click', () => {
-      currentIdx = Math.min(episode.sentences.length - 1, currentIdx + 1);
-      render();
-    });
-    document.getElementById('sh-play-video')?.addEventListener('click', () => togglePlay());
-    document.getElementById('sh-play-orig')?.addEventListener('click', () => playSentenceAt(currentIdx));
-    document.getElementById('sh-record')?.addEventListener('click', () => handleRecordToggle(currentIdx));
-    document.getElementById('sh-play-rec')?.addEventListener('click', () => {
-      const ok = speechEngine.playRecording(`${episode.id}:${episode.sentences[currentIdx].id}`);
-      if (!ok) showToast('请先点击「开始录音」录制你的跟读音频');
-    });
-    document.getElementById('sh-eval')?.addEventListener('click', () => openEvalDrawer(episode, episode.sentences[currentIdx], handleRecordToggle));
-
-    // Sentence cards click & per-sentence actions
-    root.querySelectorAll('.sentence-card').forEach((card) => {
-      card.addEventListener('click', (e) => {
-        if (e.target.closest('button, input, [data-word]')) return;
-        const idx = Number(card.dataset.idx);
-        if (!Number.isNaN(idx)) playSentenceAt(idx);
-      });
-    });
-
-    root.querySelectorAll('.sent-act-btn').forEach((btn) => {
-      btn.addEventListener('click', (e) => {
+    // Event delegation on .practice-shell (NOT persistent root) so leaving an episode automatically detaches it
+    const shellEl = root.querySelector('.practice-shell');
+    shellEl?.addEventListener('click', (e) => {
+      if (isDisposed) return;
+      const wordEl = e.target.closest('[data-word]');
+      if (wordEl) {
         e.stopPropagation();
-        const idx = Number(btn.dataset.idx);
+        const card = wordEl.closest('.sentence-card');
+        const idx = card ? Number(card.dataset.idx) : currentIdx;
+        const ctxSent = episode.sentences[Number.isNaN(idx) ? currentIdx : idx] || episode.sentences[currentIdx];
+        openWordDictionaryModal(wordEl.dataset.word, episode, () => syncChromeUI(), ctxSent);
+        return;
+      }
+
+      const clozeBtn = e.target.closest('.cloze-btn');
+      if (clozeBtn) {
+        e.stopPropagation();
+        revealedCloze.add(clozeBtn.dataset.cloze);
+        refreshUI(true);
+        return;
+      }
+
+      const revealBtn = e.target.closest('.reveal-dict-btn');
+      if (revealBtn) {
+        e.stopPropagation();
+        const sid = Number(revealBtn.dataset.sentId);
+        if (dictationReveal.has(sid)) dictationReveal.delete(sid);
+        else dictationReveal.add(sid);
+        refreshUI(true);
+        return;
+      }
+
+      const actBtn = e.target.closest('.sent-act-btn[data-act]');
+      if (actBtn) {
+        e.stopPropagation();
+        const idx = Number(actBtn.dataset.idx);
         const sent = episode.sentences[idx];
-        const act = btn.dataset.act;
+        const act = actBtn.dataset.act;
+        if (!sent) return;
         if (act === 'star') {
           const starred = store.toggleStarSentence(episode.id, sent.id);
           showToast(starred ? '已收藏该句字幕' : '已取消收藏');
-          render();
+          refreshUI(true);
         } else if (act === 'copy') {
           navigator.clipboard?.writeText(`${sent.en}\n${sent.zh}`).catch(() => {});
           showToast('已复制双语字幕');
         } else if (act === 'play') {
-          playSentenceAt(idx);
+          playSentenceAt(idx, true, false);
         } else if (act === 'record') {
           handleRecordToggle(idx);
         } else if (act === 'playrec') {
@@ -802,96 +1122,20 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         } else if (act === 'eval') {
           openEvalDrawer(episode, sent, () => handleRecordToggle(idx));
         }
-      });
-    });
+        return;
+      }
 
-    // Click word lookup
-    root.querySelectorAll('[data-word]').forEach((el) => {
-      el.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const card = el.closest('.sentence-card');
-        const idx = card ? Number(card.dataset.idx) : currentIdx;
-        const ctxSent = episode.sentences[Number.isNaN(idx) ? currentIdx : idx] || episode.sentences[currentIdx];
-        openWordDictionaryModal(el.dataset.word, episode, render, ctxSent);
-      });
-    });
-
-    // Cloze buttons
-    root.querySelectorAll('.cloze-btn').forEach((btn) => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        revealedCloze.add(btn.dataset.cloze);
-        render();
-      });
-    });
-
-    // Dictation inputs & reveal (with mobile virtual-keyboard auto-scroll fix)
-    root.querySelectorAll('.dictation-input').forEach((inp) => {
-      inp.addEventListener('click', (e) => e.stopPropagation());
-      inp.addEventListener('focus', () => {
-        const shell = root.querySelector('.practice-shell');
-        if (window.innerWidth <= 768 && shell) {
-          shell.classList.add('keyboard-open');
-        }
-        setTimeout(() => {
-          inp.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 220);
-      });
-      inp.addEventListener('blur', () => {
-        setTimeout(() => {
-          const active = document.activeElement;
-          if (!active || !active.classList.contains('dictation-input')) {
-            root.querySelector('.practice-shell')?.classList.remove('keyboard-open');
-          }
-        }, 120);
-      });
-      inp.addEventListener('input', (e) => {
-        dictationAnswers[inp.dataset.dict] = e.target.value;
-        const match = e.target.value.trim().toLowerCase() === inp.dataset.ans.toLowerCase();
-        inp.classList.toggle('correct', match);
-        inp.classList.toggle('wrong', e.target.value.length > 0 && !match);
-
-        // 填对当前词后自动跳到下一个空格（若进入下一句则顺带自动高亮并播下一句）
-        if (match) {
-          const allInputs = Array.from(root.querySelectorAll('.dictation-input'));
-          const pos = allInputs.indexOf(inp);
-          const nextInp = pos >= 0 ? allInputs[pos + 1] : null;
-          if (nextInp) {
-            const curCard = inp.closest('.sentence-card');
-            const nextCard = nextInp.closest('.sentence-card');
-            const nextDictKey = nextInp.dataset.dict;
-            if (nextCard && curCard && nextCard !== curCard) {
-              const nextIdx = Number(nextCard.dataset.idx);
-              if (!Number.isNaN(nextIdx)) {
-                playSentenceAt(nextIdx);
-                requestAnimationFrame(() => {
-                  const target = root.querySelector(`.dictation-input[data-dict="${nextDictKey}"]`);
-                  target?.focus();
-                  target?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                });
-                return;
-              }
-            }
-            nextInp.focus();
-            nextInp.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          }
-        }
-      });
-    });
-    root.querySelectorAll('.reveal-dict-btn').forEach((btn) => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const sid = Number(btn.dataset.sentId);
-        if (dictationReveal.has(sid)) dictationReveal.delete(sid);
-        else dictationReveal.add(sid);
-        render();
-      });
+      const card = e.target.closest('.sentence-card');
+      if (card && !e.target.closest('button, input, [data-word]')) {
+        const idx = Number(card.dataset.idx);
+        if (!Number.isNaN(idx)) playSentenceAt(idx, true, false);
+      }
     });
 
     // Bottom 17 dock controls
     document.getElementById('ctl-pip')?.addEventListener('click', () => {
       pipMode = !pipMode;
-      render();
+      syncChromeUI();
     });
     document.getElementById('ctl-full')?.addEventListener('click', () => {
       if (!document.fullscreenElement) document.documentElement.requestFullscreen?.().catch(() => {});
@@ -900,36 +1144,36 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     document.getElementById('ctl-subpos')?.addEventListener('click', () => {
       store.set({ inVideoSubtitle: !store.state.inVideoSubtitle });
       showToast(store.state.inVideoSubtitle ? '已切换为画面内字幕' : '已切换为画面下方字幕');
-      render();
+      refreshUI(false);
     });
     document.getElementById('ctl-ab')?.addEventListener('click', () => openABLoopModal(episode, abRange, (nextRange) => {
       abRange = nextRange;
-      if (abRange) playSentenceAt(abRange.startIdx, true);
-      else render();
+      if (abRange) playSentenceAt(abRange.startIdx, true, true);
+      else refreshUI(false);
     }));
-    document.getElementById('ctl-speed')?.addEventListener('click', () => openSpeedModal(render));
+    document.getElementById('ctl-speed')?.addEventListener('click', () => openSpeedModal(() => syncChromeUI()));
     document.getElementById('ctl-blind')?.addEventListener('click', () => {
       store.set({ blindListening: !store.state.blindListening });
       showToast(store.state.blindListening ? '已开启盲听模式' : '已关闭盲听模式');
-      render();
+      refreshUI(false);
     });
-    document.getElementById('ctl-loop')?.addEventListener('click', () => openLoopModal(render));
+    document.getElementById('ctl-loop')?.addEventListener('click', () => openLoopModal(() => syncChromeUI()));
     document.getElementById('ctl-ipa')?.addEventListener('click', () => {
       store.set({ showIpa: !store.state.showIpa });
-      render();
+      refreshUI(true);
     });
     document.getElementById('ctl-autocont')?.addEventListener('click', () => {
       store.set({ autoContinue: !store.state.autoContinue });
       showToast(store.state.autoContinue ? '已切换为自动连播' : '已切换为逐句暂停（句停）');
-      render();
+      syncChromeUI();
     });
     document.getElementById('ctl-screenvocab')?.addEventListener('click', () => {
       store.set({ screenVocab: !store.state.screenVocab });
-      render();
+      refreshUI(false);
     });
-    document.getElementById('ctl-font')?.addEventListener('click', () => openFontModal(render));
-    document.getElementById('ctl-cache')?.addEventListener('click', () => showToast('本集字幕与离线学习包已缓存在本地浏览器 ✓'));
-    document.getElementById('ctl-theme')?.addEventListener('click', () => openThemeModal(render));
+    document.getElementById('ctl-font')?.addEventListener('click', () => openFontModal(() => refreshUI(true)));
+    document.getElementById('ctl-cache')?.addEventListener('click', () => showToast('当前学习进度与生词笔记已保存在本地浏览器（音视频按需流式播放）'));
+    document.getElementById('ctl-theme')?.addEventListener('click', () => openThemeModal(() => syncChromeUI()));
     document.getElementById('ctl-pdf')?.addEventListener('click', () => openPdfPreviewModal(episode));
   }
 
@@ -941,11 +1185,22 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
   syncVisualViewport();
   window.visualViewport?.addEventListener('resize', syncVisualViewport);
 
-  render();
+  mountShell();
 
   return () => {
+    isDisposed = true;
     stopPlayback();
     if (precisionTimer) clearInterval(precisionTimer);
+    if (mediaEl) {
+      mediaEl.pause();
+      mediaEl.removeAttribute('src');
+      mediaEl.load();
+    }
+    if (companionAudioEl) {
+      companionAudioEl.pause();
+      companionAudioEl.removeAttribute('src');
+      companionAudioEl.load();
+    }
     speechEngine.stopRecording();
     window.visualViewport?.removeEventListener('resize', syncVisualViewport);
     document.documentElement.style.removeProperty('--vvh');
