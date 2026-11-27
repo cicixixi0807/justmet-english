@@ -1,0 +1,21 @@
+# 外部大体积视频/音频素材目录（存放于外接硬盘，不提交到 GitHub）
+content/episodes
+content/episodes/
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.wav
+*.webm
+*.part
+*.ytdl
+
+# 本地缓存与密钥
+.env
+.env.*
+*.key
+*_cache.json
+*.polished.json
+.DS_Store
+__pycache__/
+*.pyc
