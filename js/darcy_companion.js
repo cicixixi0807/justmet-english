@@ -221,6 +221,12 @@ function downloadPolaroidPng(phrases, whisper, mins, day) {
 function updateDarcyUI() {
   const wrap = document.getElementById('darcy-companion-root');
   if (!wrap) return;
+  const isEnterPage = !window.location.hash || window.location.hash === '#/login';
+  wrap.style.display = isEnterPage ? 'none' : 'block';
+  if (isEnterPage) {
+    nestOpen = false;
+    return;
+  }
   const { lv, pct, mins, goalMins } = getLevelInfo();
   const acc = ACCESSORIES[darcyState.accessoryIdx];
   const radius = 28;
@@ -384,6 +390,7 @@ export function mountDarcyCompanion() {
         updateDarcyUI();
       }
     });
+    window.addEventListener('hashchange', () => updateDarcyUI());
   }
   updateDarcyUI();
 

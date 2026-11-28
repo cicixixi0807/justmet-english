@@ -74,42 +74,18 @@ function getUserSafeAvatar() {
   return USER_AVATARS.includes(av) ? av : USER_AVATARS[1];
 }
 
-// 1. 登录 / 进场页（桌面端完整宇宙入口 + 移动端按 01_screen_enter 精简进场：写名字 + 按性别自动分配/任选 8 张原创头像）
+// 1. 登录 / 进场页（只需写下名字，系统自动分配专属小动物头像）
 export function renderLoginPage(root, navigate) {
-  const FEMALE_AVATARS = USER_AVATARS.slice(0, 5);
-  const MALE_AVATARS = USER_AVATARS.slice(5, 8);
-  let selectedGender = 'female';
-  let selectedAvatar = getUserSafeAvatar();
-  if (MALE_AVATARS.includes(selectedAvatar)) selectedGender = 'male';
-
   root.innerHTML = `
     <div class="tt-enter-mobile">
       <div class="tt-enter-card">
-        <img class="tt-enter-logo" src="./assets/logo-256.png" alt="JM" />
+        <img class="tt-enter-logo" src="./assets/icon-192.png" alt="JM" />
         <h1 class="tt-enter-title">Justmet · TalkTalk</h1>
         <div class="tt-enter-sub">刚认识小屋 · 英语自习室</div>
 
         <form id="tt-enter-form" class="tt-enter-form">
           <label class="tt-field-label" for="tt-enter-name">写下你的名字</label>
-          <input class="tt-name-input" id="tt-enter-name" type="text" placeholder="Mila" value="${escapeHtml(store.state.user?.name || 'Mila')}" required />
-
-          <div class="tt-avatar-head">
-            <span class="tt-field-label" style="margin:0;">选择头像</span>
-            <div class="tt-gender-switch" role="group" aria-label="按性别自动分配头像">
-              <button type="button" class="tt-gender-btn ${selectedGender === 'female' ? 'active' : ''}" data-gender="female">女生</button>
-              <button type="button" class="tt-gender-btn ${selectedGender === 'male' ? 'active' : ''}" data-gender="male">男生</button>
-            </div>
-          </div>
-
-          <div class="tt-avatar-grid" id="tt-avatar-grid">
-            ${USER_AVATARS.map(
-              (src, idx) => `
-              <button type="button" class="tt-avatar-item ${src === selectedAvatar ? 'selected' : ''}" data-avatar="${src}" aria-label="头像 ${idx + 1}">
-                <img src="${src}" alt="用户头像 ${idx + 1}" />
-              </button>
-            `
-            ).join('')}
-          </div>
+          <input class="tt-name-input" id="tt-enter-name" type="text" placeholder="例如：Mila" value="${escapeHtml(store.state.user?.name || '')}" required />
 
           <button type="submit" class="tt-enter-cta">进入自习室</button>
         </form>
@@ -199,7 +175,7 @@ export function renderLoginPage(root, navigate) {
 
         <section class="auth-panel">
           <div class="auth-header">
-            <img src="./assets/logo-256.png" alt="JM" />
+            <img src="./assets/icon-192.png" alt="JM" />
             <h2>Justmet · TalkTalk</h2>
             <p>刚认识小屋 · 英语自习室</p>
           </div>
@@ -207,25 +183,7 @@ export function renderLoginPage(root, navigate) {
           <form id="login-form">
             <div class="form-group">
               <label class="form-label" for="login-email">写下你的名字</label>
-              <input class="form-input" id="login-email" type="text" placeholder="Mila" value="${escapeHtml(store.state.user?.name || 'Mila')}" required />
-            </div>
-            <div class="form-group">
-              <div class="tt-avatar-head" style="margin-bottom:8px;">
-                <label class="form-label" style="margin:0;">选择头像（按性别自动分配）</label>
-                <div class="tt-gender-switch">
-                  <button type="button" class="tt-gender-btn ${selectedGender === 'female' ? 'active' : ''}" data-gender="female">女生</button>
-                  <button type="button" class="tt-gender-btn ${selectedGender === 'male' ? 'active' : ''}" data-gender="male">男生</button>
-                </div>
-              </div>
-              <div class="tt-avatar-grid compact">
-                ${USER_AVATARS.map(
-                  (src, idx) => `
-                  <button type="button" class="tt-avatar-item ${src === selectedAvatar ? 'selected' : ''}" data-avatar="${src}" aria-label="头像 ${idx + 1}">
-                    <img src="${src}" alt="用户头像 ${idx + 1}" />
-                  </button>
-                `
-                ).join('')}
-              </div>
+              <input class="form-input" id="login-email" type="text" placeholder="例如：Mila" value="${escapeHtml(store.state.user?.name || '')}" required />
             </div>
             <button type="submit" class="tt-enter-cta" style="margin-top:6px;">
               进入自习室
@@ -247,37 +205,18 @@ export function renderLoginPage(root, navigate) {
     </div>
   `;
 
-  const syncAvatarSelectionUI = () => {
-    root.querySelectorAll('.tt-avatar-item').forEach((btn) => {
-      btn.classList.toggle('selected', btn.dataset.avatar === selectedAvatar);
-    });
-    root.querySelectorAll('.tt-gender-btn').forEach((btn) => {
-      btn.classList.toggle('active', btn.dataset.gender === selectedGender);
-    });
+  const pickAnimalAvatarForName = (name) => {
+    let hash = 0;
+    const str = String(name || 'Mila');
+    for (let i = 0; i < str.length; i++) hash = (hash * 31 + str.charCodeAt(i)) >>> 0;
+    return USER_AVATARS[hash % USER_AVATARS.length];
   };
-
-  root.querySelectorAll('.tt-gender-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      selectedGender = btn.dataset.gender;
-      const pool = selectedGender === 'male' ? MALE_AVATARS : FEMALE_AVATARS;
-      const others = pool.filter((a) => a !== selectedAvatar);
-      selectedAvatar = others[Math.floor(Math.random() * others.length)] || pool[0];
-      syncAvatarSelectionUI();
-    });
-  });
-
-  root.querySelectorAll('.tt-avatar-item').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      selectedAvatar = btn.dataset.avatar;
-      selectedGender = MALE_AVATARS.includes(selectedAvatar) ? 'male' : 'female';
-      syncAvatarSelectionUI();
-    });
-  });
 
   const enterAs = (targetHash, inputId = 'login-email') => {
     const emailVal = document.getElementById(inputId)?.value || 'Mila';
     const name = emailVal.includes('@') ? emailVal.split('@')[0] : emailVal;
-    store.login({ name, email: emailVal, avatar: selectedAvatar });
+    const autoAvatar = pickAnimalAvatarForName(name);
+    store.login({ name, email: emailVal, avatar: autoAvatar });
     showToast(`欢迎来到自习室，${name}`);
     navigate(targetHash);
   };
