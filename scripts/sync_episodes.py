@@ -727,8 +727,13 @@ def resegment_polished_sentences(sents, music_ranges_out=None):
                 ends_clean = False
             combined_len = len(buf["en"]) + len(a["en"])
 
-            # 禁止跨大空档（>2.5s）合句；只有正常连贯语流内才把半句拼完整
-            if gap <= 2.5 and (not ends_clean or next_starts_lower or next_is_tiny_tail) and combined_len <= 750:
+            # 同一句话跨纯音乐/空档（如 EP 39 #1/#62/#153）也必须拼成一张完整学习卡，并把中间纯音乐/空白写入 skipRanges！
+            # 只有前一句已经完整结束（ends_clean）且遇到大空档（>2.5s）才断开成两张卡。
+            is_true_continuation = (not ends_clean) or (next_starts_lower and gap <= 2.5) or (next_is_tiny_tail and gap <= 15.0)
+            if is_true_continuation and combined_len <= 750:
+                if gap > 0.5 and music_ranges_out is not None:
+                    music_ranges_out.append([round(buf["end"], 2), round(a["start"], 2)])
+                buf["en"] = (buf["en"].rstrip("….") if buf["en"].strip().endswith("...") and next_starts_lower else buf["en"]).strip()
                 buf["en"] = (buf["en"] + " " + a["en"]).strip()
                 if a["zh"] and re.search(r"[\u4e00-\u9fffA-Za-z0-9]", a["zh"]):
                     buf["zh"] = (buf["zh"].rstrip("….") + a["zh"]).strip()
@@ -739,13 +744,16 @@ def resegment_polished_sentences(sents, music_ranges_out=None):
                 buf["highlights"].extend(a["highlights"])
                 buf["end"] = max(buf["end"], a["end"])
             else:
-                if gap > 2.5 and music_ranges_out is not None:
+                if gap > 0.5 and music_ranges_out is not None:
                     music_ranges_out.append([round(buf["end"], 2), round(a["start"], 2)])
                 flush_buf()
+                next_en = a["en"]
+                if next_starts_lower and ends_clean:
+                    next_en = next_en[0].upper() + next_en[1:]
                 buf = {
                     "start": a["start"],
                     "end": a["end"],
-                    "en": a["en"],
+                    "en": next_en,
                     "zh": a["zh"],
                     "ipa": a["ipa"],
                     "highlights": list(a["highlights"]),
@@ -753,15 +761,22 @@ def resegment_polished_sentences(sents, music_ranges_out=None):
 
     flush_buf()
 
-    # 3) 合理保护每句时长：仅在明显夹杂长纯音乐（超过语速上限且 >12s）时温和裁尾并写入 skipRanges，同时确保 0 重叠
+    # 3) 合理保护每句时长：扣除句内 skipRanges 后的实际口播时长若仍超长（> max(12s, wc*0.75+3s)），温和裁尾并写入 skipRanges
     for i, s in enumerate(rebuilt):
         wc = max(1, len(s["en"].split()))
-        # 与 qa_gate.py 红线完全对齐：12s 以内绝不误裁口播，仅裁剪真正超长的纯音乐拖尾
         max_speech_dur = max(12.0, wc * 0.75 + 3.0)
-        if s["end"] - s["start"] > max_speech_dur:
-            if music_ranges_out is not None:
-                music_ranges_out.append([round(s["start"] + max_speech_dur, 2), round(s["end"], 2)])
-            s["end"] = round(s["start"] + max_speech_dur, 2)
+        internal_skip = 0.0
+        for rs, re_ in (music_ranges_out or []):
+            ov = max(0.0, min(s["end"], re_) - max(s["start"], rs))
+            internal_skip += ov
+        spoken_dur = (s["end"] - s["start"]) - internal_skip
+        if spoken_dur > max_speech_dur:
+            excess = spoken_dur - max_speech_dur
+            new_end = round(s["end"] - excess, 2)
+            if new_end > s["start"] + 0.5:
+                if music_ranges_out is not None:
+                    music_ranges_out.append([new_end, round(s["end"], 2)])
+                s["end"] = new_end
         if i + 1 < len(rebuilt):
             ns = rebuilt[i + 1]["start"]
             if s["end"] > ns - 0.04:
@@ -895,6 +910,22 @@ def build_episode_item(idx, raw_title, files, rel_folder, media_base_url, meta=N
     }
 
 
+def probe_audio_duration(path: Path):
+    """优先用 macOS afinfo 读取伴音 .m4a 真实时长，避免不可靠的视频 metadata"""
+    if not path or not path.exists():
+        return None
+    try:
+        import subprocess
+        res = subprocess.run(["/usr/bin/afinfo", str(path)], capture_output=True, text=True, timeout=8)
+        if res.returncode == 0:
+            m = re.search(r"estimated duration:\s*([0-9.]+)\s*sec", res.stdout)
+            if m:
+                return float(m.group(1))
+    except Exception:
+        return None
+    return None
+
+
 def scan_episodes(media_base_url: str):
     EPISODES_DIR.mkdir(parents=True, exist_ok=True)
     episodes = []
@@ -929,7 +960,10 @@ def scan_episodes(media_base_url: str):
         if not vid and not aud:
             continue
         dur = None
-        if vid and vid.suffix.lower() == ".mp4":
+        # 有伴音 .m4a 时优先以伴音 afinfo 时长为准，不盲信视频 metadata
+        if aud:
+            dur = probe_audio_duration(aud)
+        if not dur and vid and vid.suffix.lower() == ".mp4":
             dur = inspect_mp4_tracks(vid).get("duration")
         ep = build_episode_item(
             counter,

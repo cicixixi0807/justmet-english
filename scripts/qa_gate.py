@@ -4,13 +4,14 @@
 任一红线不达标即返回非 0 退出码（FAIL），强制打回主 Agent 返工！
 
 用法：
-  python3 scripts/qa_gate.py            # 全量检查（含本地音视频/封面文件存在性）
-  python3 scripts/qa_gate.py --no-media # 无本地媒资环境专用（跳过硬盘音视频检查，严格执行全部字幕与品牌红线）
+  python3 scripts/qa_gate.py            # 全量检查（含本地音视频/封面存在性 + afinfo 伴音时长核对）
+  python3 scripts/qa_gate.py --no-media # 无本地媒资环境专用（跳过硬盘音视频检查，严格执行全部字幕、skipRanges 与品牌红线）
 """
 import argparse
 import json
 import pathlib
 import re
+import subprocess
 import sys
 from urllib.parse import unquote
 
@@ -28,12 +29,45 @@ STAGE_CARD_RE = re.compile(
 GARBLED_OUTRO_RE = re.compile(r"\bI'm\s+don't\b", re.I)
 
 
+def probe_afinfo_duration(path: pathlib.Path):
+    if not path.exists():
+        return None
+    try:
+        res = subprocess.run(["/usr/bin/afinfo", str(path)], capture_output=True, text=True, timeout=8)
+        if res.returncode == 0:
+            m = re.search(r"estimated duration:\s*([0-9.]+)\s*sec", res.stdout)
+            if m:
+                return float(m.group(1))
+    except Exception:
+        return None
+    return None
+
+
+def is_interval_covered(start: float, end: float, skip_ranges, tol: float = 0.25) -> bool:
+    """检查 [start, end] 是否被 skip_ranges 覆盖（允许边界容差 tol 秒）"""
+    if end - start <= 0.5:
+        return True
+    cur = start + tol
+    target = end - tol
+    if cur >= target:
+        return True
+    for rs, re_ in sorted((float(r[0]), float(r[1])) for r in skip_ranges if isinstance(r, list) and len(r) == 2):
+        if re_ <= cur:
+            continue
+        if rs > cur + 0.15:
+            return False
+        cur = max(cur, re_)
+        if cur >= target:
+            return True
+    return cur >= target
+
+
 def main():
     parser = argparse.ArgumentParser(description="Just Met 独立质检门禁脚本")
     parser.add_argument(
         "--no-media",
         action="store_true",
-        help="无本地 content/episodes 媒资时跳过音视频/封面磁盘存在性检查，仍严格执行全部字幕与品牌红线",
+        help="无本地 content/episodes 媒资时跳过音视频/封面磁盘存在性检查，仍严格执行全部字幕、skipRanges 与品牌红线",
     )
     args = parser.parse_args()
 
@@ -53,9 +87,16 @@ def main():
     garbled_cards = 0
     adj_dups = 0
     invalid_skips = 0
+    uncovered_intro = 0
+    uncovered_gaps = 0
+    uncovered_outro = 0
+    half_sent_pairs = 0
+    audio_dur_mismatch = 0
 
     for ep in data:
         sents = ep.get("sentences", [])
+        skips = ep.get("skipRanges", [])
+        dur_sec = float(ep.get("durationSec") or 0)
         if len(sents) <= 1:
             failures.append(f"{ep['number']} ({ep['title']}): 无有效字幕 (n={len(sents)})")
 
@@ -67,22 +108,54 @@ def main():
                     if not (ROOT / rel).exists():
                         missing_media += 1
                         failures.append(f"{ep['number']} 缺失文件: {rel}")
+            # 有伴音 .m4a 时以 afinfo 伴音时长为准校验 durationSec 与片尾覆盖
+            au = ep.get("audioUrl") or ""
+            if au.startswith("./"):
+                aud_path = ROOT / unquote(au[2:])
+                aud_dur = probe_afinfo_duration(aud_path)
+                if aud_dur is not None:
+                    if abs(aud_dur - dur_sec) > 2.5:
+                        audio_dur_mismatch += 1
+                        failures.append(
+                            f"{ep['number']} durationSec={dur_sec:.1f}s 与伴音 afinfo={aud_dur:.1f}s 不一致（请重跑 sync_episodes.py）"
+                        )
+                    dur_sec = aud_dur
 
-        for r in ep.get("skipRanges", []):
+        for r in skips:
             if not (isinstance(r, list) and len(r) == 2 and float(r[0]) < float(r[1])):
                 invalid_skips += 1
+
+        if sents:
+            # 1) 片头（0 -> 首句 > 0.5s）必须被 skipRanges 覆盖
+            first_start = float(sents[0]["start"])
+            if first_start > 0.5 and not is_interval_covered(0.0, first_start, skips):
+                uncovered_intro += 1
+                failures.append(f"{ep['number']} 片头 [0.0, {first_start:.2f}] 未被 skipRanges 覆盖")
+
+            # 2) 片尾（末句 -> durationSec > 0.5s）必须被 skipRanges 覆盖
+            last_end = float(sents[-1]["end"])
+            if dur_sec - last_end > 0.5 and not is_interval_covered(last_end, dur_sec, skips):
+                uncovered_outro += 1
+                failures.append(f"{ep['number']} 片尾 [{last_end:.2f}, {dur_sec:.2f}] 未被 skipRanges 覆盖")
 
         for i, s in enumerate(sents):
             total_sents += 1
             en = (s.get("en") or "").strip()
             zh = (s.get("zh") or "").strip()
-            dur = float(s["end"]) - float(s["start"])
+            s_start = float(s["start"])
+            s_end = float(s["end"])
+            internal_skip = sum(
+                max(0.0, min(s_end, float(r[1])) - max(s_start, float(r[0])))
+                for r in skips
+                if isinstance(r, list) and len(r) == 2
+            )
+            spoken_dur = (s_end - s_start) - internal_skip
             wc = max(1, len(en.split()))
             if not zh:
                 empty_zh += 1
             elif not re.search(r"[\u4e00-\u9fffA-Za-z0-9]", zh):
                 punct_only_zh += 1
-            if dur > max(12.0, wc * 0.75 + 3.0):
+            if spoken_dur > max(12.0, wc * 0.75 + 3.0):
                 bgm_bloated += 1
             if re.match(r"^[a-z]", en):
                 low_starts += 1
@@ -94,10 +167,25 @@ def main():
                 garbled_cards += 1
             if i + 1 < len(sents):
                 nxt = sents[i + 1]
-                if float(s["end"]) > float(nxt["start"]):
+                nxt_start = float(nxt["start"])
+                nxt_en = (nxt.get("en") or "").strip()
+                if s_end > nxt_start:
                     overlaps += 1
-                if en == (nxt.get("en") or "").strip() and float(s["start"]) == float(nxt["start"]):
+                if en == nxt_en and s_start == nxt_start:
                     adj_dups += 1
+                # 3) 句间空隙 > 0.5s 必须被 skipRanges 覆盖
+                if nxt_start - s_end > 0.5 and not is_interval_covered(s_end, nxt_start, skips):
+                    uncovered_gaps += 1
+                    if uncovered_gaps <= 5:
+                        failures.append(f"{ep['number']} #{s['id']}->{nxt['id']} 句间空隙 [{s_end:.2f}, {nxt_start:.2f}] 未被 skipRanges 覆盖")
+                # 4) 相邻半截句对检查：上一句缺真正句末标点（不含合法省略号+大写新句）或下一句小写续句
+                prev_has_end = bool(re.search(r'(?<!\.\.)[.?!]["\'\u201d\u2019]?$', en))
+                prev_ellipsis_to_upper = en.endswith("...") and bool(re.match(r"^[A-Z\"'\u201c]", nxt_en))
+                nxt_starts_lower = bool(re.match(r"^[a-z]", nxt_en))
+                if (not prev_has_end and not prev_ellipsis_to_upper) or nxt_starts_lower:
+                    half_sent_pairs += 1
+                    if half_sent_pairs <= 5:
+                        failures.append(f"{ep['number']} #{s['id']}->{nxt['id']} 相邻半截句对: '{en[-30:]}' | '{nxt_en[:30]}'")
 
     low_rate = (low_starts / max(1, total_sents)) * 100
     no_p_rate = (no_punct / max(1, total_sents)) * 100
@@ -118,6 +206,14 @@ def main():
         failures.append(f"存在 {adj_dups} 处相邻重复字幕卡片")
     if invalid_skips > 0:
         failures.append(f"存在 {invalid_skips} 处非法 skipRanges 区间")
+    if uncovered_intro > 0:
+        failures.append(f"存在 {uncovered_intro} 集片头未覆盖 skipRanges")
+    if uncovered_gaps > 0:
+        failures.append(f"存在 {uncovered_gaps} 处句间空隙(>0.5s)未覆盖 skipRanges")
+    if uncovered_outro > 0:
+        failures.append(f"存在 {uncovered_outro} 集片尾未覆盖 skipRanges")
+    if half_sent_pairs > 0:
+        failures.append(f"存在 {half_sent_pairs} 组相邻半截句对（上一句缺句末标点或下一句小写续句）")
     if low_rate > MAX_LOW_START_RATE:
         failures.append(f"小写开头半截句比例过高：{low_rate:.2f}% (> {MAX_LOW_START_RATE}%)")
     if no_p_rate > MAX_NO_PUNCT_RATE:
@@ -135,12 +231,16 @@ def main():
 
     print("=== Just Met 独立质检门禁报告 ===")
     if args.no_media:
-        print("[mode] --no-media（跳过本地硬盘媒资存在性检查，严格执行全部字幕与品牌红线）")
+        print("[mode] --no-media（跳过本地硬盘媒资存在性及 afinfo 检查，严格执行全部字幕、skipRanges 与品牌红线）")
     print(f"剧集数: {len(data)} | 总句数: {total_sents}")
     print(
         f"缺中文: {empty_zh} | 纯标点中文: {punct_only_zh} | 超长BGM拖尾: {bgm_bloated} | "
         f"重叠: {overlaps} | 舞台/音乐卡: {stage_cards} | 残句: {garbled_cards} | "
-        f"相邻重复: {adj_dups} | 缺文件: {missing_media}"
+        f"相邻重复: {adj_dups} | 半截句对: {half_sent_pairs} | 缺文件: {missing_media}"
+    )
+    print(
+        f"未覆盖片头: {uncovered_intro} | 未覆盖句间(>0.5s): {uncovered_gaps} | "
+        f"未覆盖片尾: {uncovered_outro} | 伴音时长偏差: {audio_dur_mismatch}"
     )
     print(
         f"小写开头: {low_starts} ({low_rate:.2f}% <= {MAX_LOW_START_RATE}%) | "

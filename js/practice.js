@@ -55,6 +55,15 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
   let mediaEl = null;
   let companionAudioEl = null;
 
+  // 纯音频模式下以伴音 companionAudioEl 作为主时钟，彻底与隐藏视频解耦（即使视频卡顿也不影响纯音频播放）
+  function isAudioClockMode() {
+    return Boolean(store.state.audioOnly && companionAudioEl);
+  }
+
+  function getClockEl() {
+    return isAudioClockMode() ? companionAudioEl : mediaEl;
+  }
+
   function syncAudioRate() {
     const rate = store.state.playbackRate;
     if (mediaEl) mediaEl.playbackRate = rate;
@@ -69,20 +78,56 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
   }
 
   function seekMediaTo(targetSec, autoPlay = true) {
-    if (!mediaEl) return;
+    const clockEl = getClockEl();
+    if (!clockEl) return;
     const rate = store.state.playbackRate;
-    seekGuardUntil = Date.now() + 450;
+    const safeSec = Math.max(0, targetSec);
+    seekGuardUntil = Date.now() + 480;
     clearStallTimer();
+
+    if (isAudioClockMode()) {
+      // 纯音频主钟模式：仅驱动 companionAudioEl，保持隐藏 video 暂停不拖累性能
+      if (mediaEl && !mediaEl.paused) mediaEl.pause();
+      companionAudioEl.playbackRate = rate;
+      companionAudioEl.currentTime = safeSec;
+      if (autoPlay) companionAudioEl.play().catch(() => {});
+      return;
+    }
+
     mediaEl.playbackRate = rate;
-    mediaEl.currentTime = Math.max(0, targetSec);
+    mediaEl.currentTime = safeSec;
     if (companionAudioEl) {
       companionAudioEl.playbackRate = rate;
-      companionAudioEl.currentTime = Math.max(0, targetSec);
+      companionAudioEl.currentTime = safeSec;
     }
     if (autoPlay) {
       mediaEl.play().catch(() => {});
       if (companionAudioEl && mediaEl.readyState >= 2) {
         companionAudioEl.play().catch(() => {});
+      }
+    }
+  }
+
+  function handleAudioOnlyModeChange() {
+    if (!mediaEl || !companionAudioEl) return;
+    const rate = store.state.playbackRate;
+    seekGuardUntil = Date.now() + 450;
+    if (isAudioClockMode()) {
+      const t = mediaEl.currentTime;
+      mediaEl.pause();
+      companionAudioEl.playbackRate = rate;
+      if (Math.abs(companionAudioEl.currentTime - t) > 0.25) {
+        companionAudioEl.currentTime = t;
+      }
+      if (isPlaying && companionAudioEl.paused) {
+        companionAudioEl.play().catch(() => {});
+      }
+    } else {
+      const t = companionAudioEl.currentTime;
+      mediaEl.playbackRate = rate;
+      mediaEl.currentTime = t;
+      if (isPlaying) {
+        mediaEl.play().catch(() => {});
       }
     }
   }
@@ -104,16 +149,17 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
 
       // 视频真正持续卡顿超过 240ms 才暂停伴音，避免句首解码短暂 waiting 导致“复读杂音”
       mediaEl.addEventListener('waiting', () => {
-        if (!companionAudioEl || companionAudioEl.paused) return;
+        if (isAudioClockMode() || !companionAudioEl || companionAudioEl.paused) return;
         clearStallTimer();
         stallPauseTimer = setTimeout(() => {
-          if (mediaEl && (mediaEl.readyState < 3 || mediaEl.paused) && companionAudioEl && !companionAudioEl.paused) {
+          if (!isAudioClockMode() && mediaEl && (mediaEl.readyState < 3 || mediaEl.paused) && companionAudioEl && !companionAudioEl.paused) {
             companionAudioEl.pause();
           }
         }, 240);
       });
 
       mediaEl.addEventListener('playing', () => {
+        if (isAudioClockMode()) return;
         clearStallTimer();
         if (isPlaying && companionAudioEl) {
           companionAudioEl.playbackRate = store.state.playbackRate;
@@ -126,21 +172,27 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         }
       });
 
+      // seek 保护期内或纯音频主钟模式下，视频的 pause 事件绝不掐断伴音！
       mediaEl.addEventListener('pause', () => {
+        if (isAudioClockMode() || Date.now() < seekGuardUntil) return;
         clearStallTimer();
-        if (companionAudioEl && !companionAudioEl.paused) companionAudioEl.pause();
+        if (!isPlaying && companionAudioEl && !companionAudioEl.paused) {
+          companionAudioEl.pause();
+        }
       });
     }
 
     let lastDriftFixAt = 0;
     const checkMediaBoundary = () => {
-      if (isDisposed || !isPlaying || !mediaEl) return;
-      if (mediaEl.paused || mediaEl.seeking || mediaEl.readyState < 2) return;
+      const clockEl = getClockEl();
+      if (isDisposed || !isPlaying || !clockEl) return;
+      if (clockEl.paused || clockEl.seeking || clockEl.readyState < 2) return;
       const now = Date.now();
-      const t = mediaEl.currentTime;
+      const t = clockEl.currentTime;
 
-      // 温和校准双轨漂移（绝不在刚 seek 后的保护期内反复重置音轨）
+      // 双轨视频模式下温和校准漂移（纯音频模式不依赖视频时钟）
       if (
+        !isAudioClockMode() &&
         companionAudioEl &&
         !companionAudioEl.paused &&
         now > seekGuardUntil &&
@@ -156,15 +208,27 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
       const firstSent = sents[0];
       const lastSent = sents[sents.length - 1];
 
-      // 1) 跳过片头纯音乐（0 -> 第一句）
-      if (now > seekGuardUntil && firstSent.start > 0.45 && t < firstSent.start - 0.18) {
+      // 1) 跳过片头纯音乐（0 -> 第一句 > 0.5s，如 EP 10 / EP 20 约 13 秒片头）
+      if (now > seekGuardUntil && firstSent.start > 0.5 && t < firstSent.start - 0.18) {
         setActiveIndex(0, true);
         seekMediaTo(firstSent.start, true);
         return;
       }
 
-      // 2) 检查当前句结束边界
+      // 2) 检查当前句内部是否包含纯音乐/空白 skipRange（如 EP 39 #1/#62/#153）：跳过后继续留在同一句！
       const curSent = sents[currentIdx];
+      if (curSent && now > seekGuardUntil && skipRanges.length > 0) {
+        for (let r = 0; r < skipRanges.length; r++) {
+          const [rStart, rEnd] = skipRanges[r];
+          const isInsideCur = rStart >= curSent.start + 0.05 && rEnd <= curSent.end - 0.05;
+          if (isInsideCur && rEnd - rStart >= 1.2 && t >= rStart + 0.06 && t < rEnd - 0.08) {
+            seekMediaTo(rEnd, true);
+            return;
+          }
+        }
+      }
+
+      // 3) 检查当前句结束边界
       if (curSent && now > seekGuardUntil && t >= curSent.end - 0.04) {
         if (currentLoopRemaining > 1) {
           currentLoopRemaining -= 1;
@@ -188,8 +252,8 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         }
         const nextSent = sents[currentIdx + 1];
         const gap = nextSent.start - curSent.end;
-        // 句间空隙 > 0.45s 时平滑跳过纯音乐/空白；<= 0.45s 时自然连播，绝不再赋 currentTime
-        if (gap > 0.45) {
+        // 句间空隙 >= 2.0s 时自动跳过纯音乐/长空白；< 2.0s 的自然口播停顿（如 EP 10 的 0.5–1.5s 换气停顿）保持平滑连播不切碎！
+        if (gap >= 2.0) {
           const lc = store.state.loopCount;
           currentLoopRemaining = lc === 0 ? 9999 : lc;
           setActiveIndex(currentIdx + 1, false);
@@ -198,7 +262,7 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         }
       }
 
-      // 3) 兜底：若已播到最后一句之后，立即停止
+      // 4) 兜底：若已播到最后一句之后，立即停止
       if (now > seekGuardUntil && t >= lastSent.end - 0.02) {
         if (abRange) {
           playSentenceAt(abRange.startIdx, true);
@@ -209,11 +273,11 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         return;
       }
 
-      // 4) 若连播落入纯音乐 / skipRanges 区间，直接跳到该区间后的下一句（若无下一句则停止）
+      // 5) 若连播落入长纯音乐 / skipRanges 区间（>= 2.0s），直接跳到该区间后的下一句（若无下一句则停止）
       if (now > seekGuardUntil && store.state.autoContinue && skipRanges.length > 0) {
         for (let r = 0; r < skipRanges.length; r++) {
           const [rStart, rEnd] = skipRanges[r];
-          if (rEnd - rStart >= 0.45 && t >= rStart + 0.08 && t < rEnd - 0.08) {
+          if (rEnd - rStart >= 2.0 && t >= rStart + 0.08 && t < rEnd - 0.08) {
             const nextAfterSkip = sents.findIndex((s) => s.start >= rEnd - 0.15);
             if (nextAfterSkip === -1) {
               stopPlayback();
@@ -229,7 +293,7 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         }
       }
 
-      // 5) 自然连播跨句：只做轻量级高亮与当前句更新，绝不重绘整页、绝不拆装 video！
+      // 6) 自然连播跨句：只做轻量级高亮与当前句更新，绝不重绘整页、绝不拆装 video！
       const foundIdx = sents.findIndex((s) => t >= s.start - 0.05 && t < s.end);
       if (foundIdx !== -1 && foundIdx !== currentIdx) {
         const lc = store.state.loopCount;
@@ -239,9 +303,22 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     };
 
     mediaEl.addEventListener('timeupdate', checkMediaBoundary);
+    if (companionAudioEl) {
+      companionAudioEl.addEventListener('timeupdate', checkMediaBoundary);
+      companionAudioEl.addEventListener('ended', () => {
+        if (!isAudioClockMode()) return;
+        if (abRange) {
+          playSentenceAt(abRange.startIdx, true);
+        } else {
+          isPlaying = false;
+          syncPlayStateUI();
+        }
+      });
+    }
     precisionTimer = setInterval(checkMediaBoundary, 40);
 
     mediaEl.addEventListener('ended', () => {
+      if (isAudioClockMode()) return;
       clearStallTimer();
       if (companionAudioEl) companionAudioEl.pause();
       if (abRange) {
@@ -1157,7 +1234,10 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
       showToast(store.state.blindListening ? '已开启盲听模式' : '已关闭盲听模式');
       refreshUI(false);
     });
-    document.getElementById('ctl-loop')?.addEventListener('click', () => openLoopModal(() => syncChromeUI()));
+    document.getElementById('ctl-loop')?.addEventListener('click', () => openLoopModal(() => {
+      handleAudioOnlyModeChange();
+      syncChromeUI();
+    }));
     document.getElementById('ctl-ipa')?.addEventListener('click', () => {
       store.set({ showIpa: !store.state.showIpa });
       refreshUI(true);

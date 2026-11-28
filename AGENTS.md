@@ -2,16 +2,17 @@
 
 ## 核心质量红线（交付前强制门禁）
 1. **每次调整默认全量检查**：无论改动大小（文案、样式、交互、字幕、接口），每次调整完成后都**默认执行全站/全量检查**（跑完 `python3 scripts/qa_gate.py` + 检查受影响的交互与接口 + 必要时派独立质检子 Agent 复核），绝不只改局部不验全局。
-   - 有外接硬盘媒资（`content/episodes` 已挂载）时运行：`python3 scripts/qa_gate.py`
-   - 无本地媒资环境（CI 或其他协作者机器未挂载硬盘）时运行：`python3 scripts/qa_gate.py --no-media`（跳过磁盘音视频文件存在性检查，但仍严格执行全部字幕与品牌红线）。
-2. **独立复核制度**：主开发 Agent 完成任何功能修改、素材同步或字幕精校后，**严禁直接宣称完成**，必须先由独立的质检子 Agent（`episode-qa-auditor`）运行 `python3 scripts/qa_gate.py` 并结合抽样核验出具 **PASS / FAIL** 报告。
+   - 有外接硬盘媒资（`content/episodes` 已挂载）时运行：`python3 scripts/qa_gate.py`（同时以 `afinfo` 核对 `.m4a` 伴音真实时长与片尾覆盖）。
+   - 无本地媒资环境（CI 或其他协作者机器未挂载硬盘）时运行：`python3 scripts/qa_gate.py --no-media`（跳过磁盘音视频文件检查，但仍严格执行全部字幕、`skipRanges` 与品牌红线）。
+2. **独立复核制度**：主开发 Agent 完成任何功能修改、素材同步或字幕精校后，**严禁直接宣称完成**，必须先由独立的质检子 Agent（`episode-qa-auditor`）运行 `python3 scripts/qa_gate.py`（或 `--no-media`）并结合抽样核验出具 **PASS / FAIL** 报告。
 3. **一票否决项（与 `scripts/qa_gate.py` 阈值 100% 对齐，任一项不达标即为 FAIL）**：
    - 任何上架剧集存在 `sentences <= 1`（无字幕空页）、`empty_zh > 0`（缺中文翻译）或 `punct_only_zh > 0`（纯标点无效中文）；
-   - 任何上架剧集存在 `overlaps > 0`（时间轴重叠串句）、`adj_dups > 0`（相邻重复卡片）或 `bgm_bloated > 0`（单句超长纯音乐拖尾）；
-   - 存在 `stage_cards > 0`（`(friendly music)` / `(Applause)` / `(Laughter)` 等舞台/音乐提示被当成学习卡片）或 `garbled_cards > 0`（精校失败残句）；
-   - 存在 `invalid_skips > 0`（非法 `skipRanges` 区间）；
+   - 任何上架剧集存在 `overlaps > 0`（时间轴重叠串句）、`adj_dups > 0`（相邻重复卡片）或 `bgm_bloated > 0`（扣除句内 `skipRanges` 后的实际口播时长超限）；
+   - 存在 `half_sent_pairs > 0`（相邻半截句对：上一句缺少真正句末标点或下一句小写续句）；
+   - 存在 `uncovered_intro > 0`（片头 `> 0.5s`）、`uncovered_gaps > 0`（句间空隙 `> 0.5s`）或 `uncovered_outro > 0`（片尾 `> 0.5s`）未被 `skipRanges` 覆盖；
+   - 存在 `stage_cards > 0`（`(friendly music)` / `(Applause)` / `(Laughter)` 等舞台/音乐提示被当成学习卡片）、`garbled_cards > 0`（精校失败残句）或 `invalid_skips > 0`（非法 `skipRanges` 区间）；
    - 全库小写开头半截句比例 `> 0.5%` 或缺句末标点比例 `> 0.6%`；
-   - （非 `--no-media` 模式）任何 `mediaUrl` / `audioUrl` / `coverImage` 指向磁盘上不存在的文件；
+   - （非 `--no-media` 模式）任何 `mediaUrl` / `audioUrl` / `coverImage` 指向磁盘上不存在的文件，或 `durationSec` 与 `.m4a` 伴音 `afinfo` 时长偏差 `> 2.5s`；
    - 出现非合规品牌词（「免费」、`CiCi` 大小写错误、「全年」等已否决文案）。
 4. **品牌规范**：
    - 主持人署名 `cici` 在前且全小写，`cici · Eddie` 为搭档关系，小屋管家为 `Darcy`；
