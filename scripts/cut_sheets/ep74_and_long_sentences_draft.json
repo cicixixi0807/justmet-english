@@ -9,8 +9,8 @@
     "unsplitCount": 0,
     "ellipsisBadCutCount": 0,
     "calibrationMethod": "acoustic_pause_afconvert_16k_rms",
-    "totalSplitPoints": 226,
-    "acousticPauseValleyHits": 224,
+    "totalSplitPoints": 219,
+    "acousticPauseValleyHits": 217,
     "ep74Status": "EP 74 已在 commit f574b83 完成非破坏性导出与声学断句，本表仅包含其余 106 条 / 48 集。"
   },
   "longSentences106": [
@@ -207,8 +207,8 @@
           "start": 303.06,
           "end": 305.99,
           "durationSec": 2.93,
-          "words": 11,
-          "en": "For example, if you want to sound formal, you would say.",
+          "words": 8,
+          "en": "For example, if you want to sound formal.",
           "splitAfterAcousticPause": {
             "cutEnd": 305.99,
             "cutNextStart": 306.03,
@@ -216,8 +216,8 @@
             "pauseEnd": 306.26,
             "pauseDurationSec": 0.5,
             "minRms": 424.8,
-            "searchAnchor": 306.45,
-            "deltaFromAnchorSec": -0.44,
+            "searchAnchor": 305.52,
+            "deltaFromAnchorSec": 0.49,
             "method": "acoustic_pause_valley"
           }
         },
@@ -226,8 +226,8 @@
           "start": 306.03,
           "end": 312.33,
           "durationSec": 6.3,
-          "words": 16,
-          "en": "\"I would like to order a Big Mac,\" or if you want to sound less formal.",
+          "words": 19,
+          "en": "You would say, \"I would like to order a Big Mac,\" or if you want to sound less formal.",
           "splitAfterAcousticPause": {
             "cutEnd": 312.33,
             "cutNextStart": 312.37,
@@ -323,29 +323,10 @@
         {
           "part": 2,
           "start": 444.78,
-          "end": 447.68,
-          "durationSec": 2.9,
-          "words": 6,
-          "en": "So I'm going to go ahead.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 447.68,
-            "cutNextStart": 447.72,
-            "pauseStart": 447.04,
-            "pauseEnd": 448.36,
-            "pauseDurationSec": 1.32,
-            "minRms": 460.7,
-            "searchAnchor": 446.08,
-            "deltaFromAnchorSec": 1.62,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 3,
-          "start": 447.72,
           "end": 451.82,
-          "durationSec": 4.1,
-          "words": 18,
-          "en": "Empty some of it out, ...and then I'm going to grab my large lid, put it on top.",
+          "durationSec": 7.04,
+          "words": 24,
+          "en": "So I'm going to go ahead, empty some of it out, ...and then I'm going to grab my large lid, put it on top.",
           "splitAfterAcousticPause": {
             "cutEnd": 451.82,
             "cutNextStart": 451.86,
@@ -359,7 +340,7 @@
           }
         },
         {
-          "part": 4,
+          "part": 3,
           "start": 451.86,
           "end": 455.04,
           "durationSec": 3.18,
@@ -538,29 +519,29 @@
         {
           "part": 3,
           "start": 70.37,
-          "end": 76.73,
-          "durationSec": 6.36,
-          "words": 19,
-          "en": "But if you're in business class or first class, you'll be the first group to board the plane, and.",
+          "end": 74.17,
+          "durationSec": 3.8,
+          "words": 18,
+          "en": "But if you're in business class or first class, you'll be the first group to board the plane.",
           "splitAfterAcousticPause": {
-            "cutEnd": 76.73,
-            "cutNextStart": 76.87,
-            "pauseStart": 76.73,
-            "pauseEnd": 76.87,
-            "pauseDurationSec": 0.14,
-            "minRms": 32.2,
-            "searchAnchor": 76.3,
-            "deltaFromAnchorSec": 0.5,
+            "cutEnd": 74.17,
+            "cutNextStart": 74.39,
+            "pauseStart": 74.17,
+            "pauseEnd": 74.39,
+            "pauseDurationSec": 0.22,
+            "minRms": 59.8,
+            "searchAnchor": 76.01,
+            "deltaFromAnchorSec": -1.73,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 4,
-          "start": 76.87,
+          "start": 74.39,
           "end": 79.19,
-          "durationSec": 2.32,
-          "words": 10,
-          "en": "Because I'm in economy, that's why I'm the last one."
+          "durationSec": 4.8,
+          "words": 11,
+          "en": "And because I'm in economy, that's why I'm the last one."
         }
       ]
     },
@@ -597,29 +578,10 @@
         {
           "part": 2,
           "start": 242.9,
-          "end": 248.38,
-          "durationSec": 5.48,
-          "words": 18,
-          "en": "So I came over here to this area and now I'm going to put my jacket back on.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 248.38,
-            "cutNextStart": 248.56,
-            "pauseStart": 248.38,
-            "pauseEnd": 248.56,
-            "pauseDurationSec": 0.18,
-            "minRms": 48.9,
-            "searchAnchor": 248.52,
-            "deltaFromAnchorSec": -0.05,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 3,
-          "start": 248.56,
           "end": 254.3,
-          "durationSec": 5.74,
-          "words": 11,
-          "en": "Because I had to take this off to get through security.",
+          "durationSec": 11.4,
+          "words": 29,
+          "en": "So I came over here to this area and now I'm going to put my jacket back on because I had to take this off to get through security.",
           "splitAfterAcousticPause": {
             "cutEnd": 254.3,
             "cutNextStart": 254.34,
@@ -633,7 +595,7 @@
           }
         },
         {
-          "part": 4,
+          "part": 3,
           "start": 254.34,
           "end": 257.28,
           "durationSec": 2.94,
@@ -793,67 +755,29 @@
         {
           "part": 1,
           "start": 382.96,
-          "end": 384.64,
-          "durationSec": 1.68,
-          "words": 20,
-          "en": "Not only do they have restaurants inside the gate area, they also have a mini market or just a store.",
+          "end": 385.34,
+          "durationSec": 2.38,
+          "words": 26,
+          "en": "Not only do they have restaurants inside the gate area, they also have a mini market or just a store, and it's called Over-the-Rhine.",
           "splitAfterAcousticPause": {
-            "cutEnd": 384.64,
-            "cutNextStart": 384.82,
-            "pauseStart": 384.64,
-            "pauseEnd": 384.82,
-            "pauseDurationSec": 0.18,
-            "minRms": 67.3,
-            "searchAnchor": 385.15,
-            "deltaFromAnchorSec": -0.42,
+            "cutEnd": 385.34,
+            "cutNextStart": 385.5,
+            "pauseStart": 385.34,
+            "pauseEnd": 385.5,
+            "pauseDurationSec": 0.16,
+            "minRms": 70.2,
+            "searchAnchor": 385.81,
+            "deltaFromAnchorSec": -0.39,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 2,
-          "start": 384.82,
-          "end": 386.46,
-          "durationSec": 1.64,
-          "words": 6,
-          "en": "And it's called Over-the-Rhine.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 386.46,
-            "cutNextStart": 386.62,
-            "pauseStart": 386.46,
-            "pauseEnd": 386.62,
-            "pauseDurationSec": 0.16,
-            "minRms": 94.0,
-            "searchAnchor": 385.81,
-            "deltaFromAnchorSec": 0.73,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 3,
-          "start": 386.62,
-          "end": 387.48,
-          "durationSec": 0.86,
-          "words": 15,
-          "en": "Because Cincinnati—in the center of the city—there's a part called Over-the-Rhine.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 387.48,
-            "cutNextStart": 387.74,
-            "pauseStart": 387.48,
-            "pauseEnd": 387.74,
-            "pauseDurationSec": 0.26,
-            "minRms": 1429.7,
-            "searchAnchor": 387.45,
-            "deltaFromAnchorSec": 0.16,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 4,
-          "start": 387.74,
+          "start": 385.5,
           "end": 388.76,
-          "durationSec": 1.02,
-          "words": 12,
-          "en": "And it's famous because it's right in the middle of the city."
+          "durationSec": 3.26,
+          "words": 27,
+          "en": "Because Cincinnati—in the center of the city—there's a part called Over-the-Rhine, and it's famous because it's right in the middle of the city."
         }
       ]
     },
@@ -877,61 +801,42 @@
           "en": "Not only do they have restaurants inside the gate area, they also have a mini market or just a store.",
           "splitAfterAcousticPause": {
             "cutEnd": 389.66,
-            "cutNextStart": 389.86,
+            "cutNextStart": 389.84,
             "pauseStart": 389.66,
-            "pauseEnd": 389.86,
-            "pauseDurationSec": 0.2,
+            "pauseEnd": 389.84,
+            "pauseDurationSec": 0.18,
             "minRms": 41.6,
             "searchAnchor": 390.62,
-            "deltaFromAnchorSec": -0.86,
+            "deltaFromAnchorSec": -0.87,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 2,
-          "start": 389.86,
-          "end": 391.18,
-          "durationSec": 1.32,
-          "words": 6,
-          "en": "And it's called Over-the-Rhine.",
+          "start": 389.84,
+          "end": 392.44,
+          "durationSec": 2.6,
+          "words": 22,
+          "en": "And it's called Over-the-Rhine because in Cincinnati, in the center of the city, there's a part called Over-the-Rhine.",
           "splitAfterAcousticPause": {
-            "cutEnd": 391.18,
-            "cutNextStart": 391.38,
-            "pauseStart": 391.18,
-            "pauseEnd": 391.38,
-            "pauseDurationSec": 0.2,
-            "minRms": 41.8,
-            "searchAnchor": 391.17,
-            "deltaFromAnchorSec": 0.11,
+            "cutEnd": 392.44,
+            "cutNextStart": 392.58,
+            "pauseStart": 392.44,
+            "pauseEnd": 392.58,
+            "pauseDurationSec": 0.14,
+            "minRms": 168.6,
+            "searchAnchor": 392.63,
+            "deltaFromAnchorSec": -0.12,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 3,
-          "start": 391.38,
-          "end": 392.46,
-          "durationSec": 1.08,
-          "words": 19,
-          "en": "Because in Cincinnati, in the center of the city, there's a part called Over-the-Rhine and it's famous.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 392.46,
-            "cutNextStart": 392.58,
-            "pauseStart": 392.46,
-            "pauseEnd": 392.58,
-            "pauseDurationSec": 0.12,
-            "minRms": 168.6,
-            "searchAnchor": 392.9,
-            "deltaFromAnchorSec": -0.38,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 4,
           "start": 392.58,
           "end": 393.72,
           "durationSec": 1.14,
-          "words": 9,
-          "en": "Because it's right in the middle of the city."
+          "words": 12,
+          "en": "And it's famous because it's right in the middle of the city."
         }
       ]
     },
@@ -949,29 +854,10 @@
         {
           "part": 1,
           "start": 393.76,
-          "end": 395.12,
-          "durationSec": 1.36,
-          "words": 10,
-          "en": "Not only do they have restaurants inside the gate area.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 395.12,
-            "cutNextStart": 395.34,
-            "pauseStart": 395.12,
-            "pauseEnd": 395.34,
-            "pauseDurationSec": 0.22,
-            "minRms": 57.5,
-            "searchAnchor": 394.6,
-            "deltaFromAnchorSec": 0.63,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 2,
-          "start": 395.34,
           "end": 396.36,
-          "durationSec": 1.02,
-          "words": 16,
-          "en": "They also have a mini market or just a store and it's called Over-the-Rhine.",
+          "durationSec": 2.6,
+          "words": 26,
+          "en": "Not only do they have restaurants inside the gate area, they also have a mini market or just a store and it's called Over-the-Rhine.",
           "splitAfterAcousticPause": {
             "cutEnd": 396.36,
             "cutNextStart": 396.48,
@@ -985,31 +871,31 @@
           }
         },
         {
-          "part": 3,
+          "part": 2,
           "start": 396.48,
-          "end": 397.44,
-          "durationSec": 0.96,
-          "words": 19,
-          "en": "Because in Cincinnati in the center of the city there's a part called Over-the-Rhine and it's famous.",
+          "end": 397.4,
+          "durationSec": 0.92,
+          "words": 16,
+          "en": "Because in Cincinnati in the center of the city there's a part called Over-the-Rhine.",
           "splitAfterAcousticPause": {
-            "cutEnd": 397.44,
-            "cutNextStart": 397.47,
-            "pauseStart": 397.44,
-            "pauseEnd": 397.47,
+            "cutEnd": 397.4,
+            "cutNextStart": 397.44,
+            "pauseStart": 397.4,
+            "pauseEnd": 397.44,
             "pauseDurationSec": 0.04,
-            "minRms": 1914.6,
-            "searchAnchor": 397.56,
-            "deltaFromAnchorSec": -0.1,
+            "minRms": 1884.6,
+            "searchAnchor": 397.31,
+            "deltaFromAnchorSec": 0.11,
             "method": "acoustic_min_energy_dip"
           }
         },
         {
-          "part": 4,
-          "start": 397.47,
+          "part": 3,
+          "start": 397.44,
           "end": 398.32,
-          "durationSec": 0.85,
-          "words": 9,
-          "en": "Because it's right in the middle of the city."
+          "durationSec": 0.88,
+          "words": 12,
+          "en": "And it's famous because it's right in the middle of the city."
         }
       ]
     },
@@ -1046,29 +932,10 @@
         {
           "part": 2,
           "start": 433.99,
-          "end": 434.91,
-          "durationSec": 0.92,
-          "words": 14,
-          "en": "So you will have more opportunities to learn a new language like I did.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 434.91,
-            "cutNextStart": 435.03,
-            "pauseStart": 434.91,
-            "pauseEnd": 435.03,
-            "pauseDurationSec": 0.12,
-            "minRms": 29.9,
-            "searchAnchor": 435.08,
-            "deltaFromAnchorSec": -0.11,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 3,
-          "start": 435.03,
           "end": 436.08,
-          "durationSec": 1.05,
-          "words": 10,
-          "en": "When I traveled to Poland a couple of months ago."
+          "durationSec": 2.09,
+          "words": 24,
+          "en": "So you will have more opportunities to learn a new language like I did when I traveled to Poland a couple of months ago."
         }
       ]
     },
@@ -1145,29 +1012,10 @@
         {
           "part": 1,
           "start": 126.21,
-          "end": 127.49,
-          "durationSec": 1.28,
-          "words": 5,
-          "en": "Also, in the U.S.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 127.49,
-            "cutNextStart": 127.67,
-            "pauseStart": 127.49,
-            "pauseEnd": 127.67,
-            "pauseDurationSec": 0.18,
-            "minRms": 86.9,
-            "searchAnchor": 127.84,
-            "deltaFromAnchorSec": -0.26,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 2,
-          "start": 127.67,
           "end": 132.77,
-          "durationSec": 5.1,
-          "words": 20,
-          "en": "Waiters and waitresses rely on a heavy portion of tipping as their pay so if you eat inside a restaurant.",
+          "durationSec": 6.56,
+          "words": 25,
+          "en": "Also, in the U.S. waiters and waitresses rely on a heavy portion of tipping as their pay so if you eat inside a restaurant.",
           "splitAfterAcousticPause": {
             "cutEnd": 132.77,
             "cutNextStart": 132.81,
@@ -1181,7 +1029,7 @@
           }
         },
         {
-          "part": 3,
+          "part": 2,
           "start": 132.81,
           "end": 143.85,
           "durationSec": 11.04,
@@ -1520,10 +1368,29 @@
         {
           "part": 2,
           "start": 31.16,
+          "end": 41.86,
+          "durationSec": 10.7,
+          "words": 12,
+          "en": "But I thought that that would be more fun and more spontaneous.",
+          "splitAfterAcousticPause": {
+            "cutEnd": 41.86,
+            "cutNextStart": 41.9,
+            "pauseStart": 41.52,
+            "pauseEnd": 42.24,
+            "pauseDurationSec": 0.72,
+            "minRms": 1927.1,
+            "searchAnchor": 41.28,
+            "deltaFromAnchorSec": 0.6,
+            "method": "acoustic_pause_valley"
+          }
+        },
+        {
+          "part": 3,
+          "start": 41.9,
           "end": 47.48,
-          "durationSec": 16.32,
-          "words": 19,
-          "en": "But I thought that that would be more fun and more spontaneous to just frolic around New York together."
+          "durationSec": 5.58,
+          "words": 7,
+          "en": "To just frolic around New York together."
         }
       ]
     },
@@ -1975,29 +1842,10 @@
         {
           "part": 1,
           "start": 41.5,
-          "end": 46.15,
-          "durationSec": 4.65,
-          "words": 17,
-          "en": "So the first thing I'm going to do to clean my room is change my bed sheets.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 46.15,
-            "cutNextStart": 46.19,
-            "pauseStart": 45.94,
-            "pauseEnd": 46.4,
-            "pauseDurationSec": 0.46,
-            "minRms": 5.2,
-            "searchAnchor": 47.85,
-            "deltaFromAnchorSec": -1.68,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 2,
-          "start": 46.19,
           "end": 51.06,
-          "durationSec": 4.87,
-          "words": 12,
-          "en": "Because these are my bed sheets and they may look very clean.",
+          "durationSec": 9.56,
+          "words": 23,
+          "en": "So the first thing I'm going to do to clean my room is change my bed sheets because these are my bed sheets.",
           "splitAfterAcousticPause": {
             "cutEnd": 51.06,
             "cutNextStart": 51.1,
@@ -2005,16 +1853,35 @@
             "pauseEnd": 51.32,
             "pauseDurationSec": 0.48,
             "minRms": 7.4,
+            "searchAnchor": 50.09,
+            "deltaFromAnchorSec": 0.99,
+            "method": "acoustic_pause_valley"
+          }
+        },
+        {
+          "part": 2,
+          "start": 51.1,
+          "end": 53.7,
+          "durationSec": 2.6,
+          "words": 6,
+          "en": "And they may look very clean.",
+          "splitAfterAcousticPause": {
+            "cutEnd": 53.7,
+            "cutNextStart": 53.74,
+            "pauseStart": 53.5,
+            "pauseEnd": 53.94,
+            "pauseDurationSec": 0.44,
+            "minRms": 6.8,
             "searchAnchor": 52.33,
-            "deltaFromAnchorSec": -1.25,
+            "deltaFromAnchorSec": 1.39,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 3,
-          "start": 51.1,
+          "start": 53.74,
           "end": 59.8,
-          "durationSec": 8.7,
+          "durationSec": 6.06,
           "words": 20,
           "en": "But if you look closely there may be a lot of dirt or hair because I live with two pets."
         }
@@ -2487,8 +2354,8 @@
           "start": 256.78,
           "end": 259.06,
           "durationSec": 2.28,
-          "words": 8,
-          "en": "Because it's such a real thing and it's.",
+          "words": 15,
+          "en": "Because it's such a real thing and it's, like, just an important reminder, I guess.",
           "splitAfterAcousticPause": {
             "cutEnd": 259.06,
             "cutNextStart": 259.42,
@@ -2496,37 +2363,37 @@
             "pauseEnd": 259.42,
             "pauseDurationSec": 0.36,
             "minRms": 460.4,
-            "searchAnchor": 257.24,
-            "deltaFromAnchorSec": 2.0,
+            "searchAnchor": 258.95,
+            "deltaFromAnchorSec": 0.29,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 4,
           "start": 259.42,
-          "end": 260.68,
-          "durationSec": 1.26,
-          "words": 18,
-          "en": "Like, just an important reminder, I guess, for me to get off my phone and just know that.",
+          "end": 264.2,
+          "durationSec": 4.78,
+          "words": 22,
+          "en": "For me to get off my phone and just know that, like, if you're ever feeling bad about yourself on social media.",
           "splitAfterAcousticPause": {
-            "cutEnd": 260.68,
-            "cutNextStart": 260.98,
-            "pauseStart": 260.68,
-            "pauseEnd": 260.98,
-            "pauseDurationSec": 0.3,
-            "minRms": 492.0,
-            "searchAnchor": 261.63,
-            "deltaFromAnchorSec": -0.8,
+            "cutEnd": 264.2,
+            "cutNextStart": 264.36,
+            "pauseStart": 264.2,
+            "pauseEnd": 264.36,
+            "pauseDurationSec": 0.16,
+            "minRms": 518.4,
+            "searchAnchor": 264.32,
+            "deltaFromAnchorSec": -0.04,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 5,
-          "start": 260.98,
+          "start": 264.36,
           "end": 265.78,
-          "durationSec": 4.8,
-          "words": 17,
-          "en": "Like, if you're ever feeling bad about yourself on social media, you're only seeing someone's highlight reel."
+          "durationSec": 1.42,
+          "words": 6,
+          "en": "You're only seeing someone's highlight reel."
         }
       ]
     },
@@ -3290,29 +3157,48 @@
         {
           "part": 2,
           "start": 49.81,
-          "end": 53.29,
-          "durationSec": 3.48,
-          "words": 21,
-          "en": "And I get up early, my the rest of my day is so much better, versus like if I sleep in.",
+          "end": 53.09,
+          "durationSec": 3.28,
+          "words": 15,
+          "en": "And I get up early, my the rest of my day is so much better.",
           "splitAfterAcousticPause": {
-            "cutEnd": 53.29,
-            "cutNextStart": 53.47,
-            "pauseStart": 53.29,
-            "pauseEnd": 53.47,
-            "pauseDurationSec": 0.18,
+            "cutEnd": 53.09,
+            "cutNextStart": 53.43,
+            "pauseStart": 53.09,
+            "pauseEnd": 53.43,
+            "pauseDurationSec": 0.34,
             "minRms": 448.7,
-            "searchAnchor": 53.23,
-            "deltaFromAnchorSec": 0.15,
+            "searchAnchor": 52.0,
+            "deltaFromAnchorSec": 1.26,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 3,
-          "start": 53.47,
+          "start": 53.43,
+          "end": 54.29,
+          "durationSec": 0.86,
+          "words": 11,
+          "en": "Versus like if I sleep in and I just am lazy.",
+          "splitAfterAcousticPause": {
+            "cutEnd": 54.29,
+            "cutNextStart": 54.53,
+            "pauseStart": 54.29,
+            "pauseEnd": 54.53,
+            "pauseDurationSec": 0.24,
+            "minRms": 500.8,
+            "searchAnchor": 54.27,
+            "deltaFromAnchorSec": 0.14,
+            "method": "acoustic_pause_valley"
+          }
+        },
+        {
+          "part": 4,
+          "start": 54.53,
           "end": 56.54,
-          "durationSec": 3.07,
-          "words": 16,
-          "en": "And I just am lazy, then the rest of my day is so much less productive."
+          "durationSec": 2.01,
+          "words": 11,
+          "en": "Then the rest of my day is so much less productive."
         }
       ]
     },
@@ -3642,29 +3528,29 @@
         {
           "part": 1,
           "start": 501.58,
-          "end": 513.94,
-          "durationSec": 12.36,
-          "words": 13,
-          "en": "Like, I've been out here like five times and every time I just.",
+          "end": 508.0,
+          "durationSec": 6.42,
+          "words": 8,
+          "en": "Like, I've been out here like five times.",
           "splitAfterAcousticPause": {
-            "cutEnd": 513.94,
-            "cutNextStart": 513.98,
-            "pauseStart": 513.58,
-            "pauseEnd": 514.34,
-            "pauseDurationSec": 0.76,
-            "minRms": 2838.7,
-            "searchAnchor": 513.36,
-            "deltaFromAnchorSec": 0.61,
+            "cutEnd": 508.0,
+            "cutNextStart": 508.36,
+            "pauseStart": 508.0,
+            "pauseEnd": 508.36,
+            "pauseDurationSec": 0.36,
+            "minRms": 213.8,
+            "searchAnchor": 508.83,
+            "deltaFromAnchorSec": -0.65,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 2,
-          "start": 513.98,
+          "start": 508.36,
           "end": 525.13,
-          "durationSec": 11.15,
-          "words": 13,
-          "en": "I don't know, I'm just it's a lot of effort to go out."
+          "durationSec": 16.77,
+          "words": 18,
+          "en": "And every time I just, I don't know, I'm just it's a lot of effort to go out."
         }
       ]
     },
@@ -3760,29 +3646,10 @@
         {
           "part": 2,
           "start": 71.88,
-          "end": 74.28,
-          "durationSec": 2.4,
-          "words": 9,
-          "en": "And they'll say, \"Oh, it's, you know, $2.15.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 74.28,
-            "cutNextStart": 74.5,
-            "pauseStart": 74.28,
-            "pauseEnd": 74.5,
-            "pauseDurationSec": 0.22,
-            "minRms": 406.7,
-            "searchAnchor": 74.8,
-            "deltaFromAnchorSec": -0.41,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 3,
-          "start": 74.5,
           "end": 80.14,
-          "durationSec": 5.64,
-          "words": 21,
-          "en": "But you get that will definitely change.\" You could get paid a lot of money if that restaurant gets good tips."
+          "durationSec": 8.26,
+          "words": 30,
+          "en": "And they'll say, \"Oh, it's, you know, $2.15, but you get that will definitely change.\" You could get paid a lot of money if that restaurant gets good tips."
         }
       ]
     },
@@ -4569,29 +4436,48 @@
         {
           "part": 2,
           "start": 66.76,
-          "end": 68.78,
-          "durationSec": 2.02,
+          "end": 68.18,
+          "durationSec": 1.42,
           "words": 11,
           "en": "You can go to the dealership and buy your own car.",
           "splitAfterAcousticPause": {
-            "cutEnd": 68.78,
-            "cutNextStart": 68.94,
-            "pauseStart": 68.78,
-            "pauseEnd": 68.94,
-            "pauseDurationSec": 0.16,
-            "minRms": 55.6,
+            "cutEnd": 68.18,
+            "cutNextStart": 68.32,
+            "pauseStart": 68.18,
+            "pauseEnd": 68.32,
+            "pauseDurationSec": 0.14,
+            "minRms": 87.7,
             "searchAnchor": 68.45,
-            "deltaFromAnchorSec": 0.41,
+            "deltaFromAnchorSec": -0.2,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 3,
-          "start": 68.94,
+          "start": 68.32,
+          "end": 69.6,
+          "durationSec": 1.28,
+          "words": 6,
+          "en": "Because dealerships will offer you credit.",
+          "splitAfterAcousticPause": {
+            "cutEnd": 69.6,
+            "cutNextStart": 69.72,
+            "pauseStart": 69.6,
+            "pauseEnd": 69.72,
+            "pauseDurationSec": 0.12,
+            "minRms": 93.1,
+            "searchAnchor": 69.37,
+            "deltaFromAnchorSec": 0.29,
+            "method": "acoustic_pause_valley"
+          }
+        },
+        {
+          "part": 4,
+          "start": 69.72,
           "end": 70.76,
-          "durationSec": 1.82,
-          "words": 15,
-          "en": "Because dealerships will offer you credit so you can pay your car month by month."
+          "durationSec": 1.04,
+          "words": 9,
+          "en": "So you can pay your car month by month."
         }
       ]
     },
@@ -4885,8 +4771,8 @@
           "start": 271.92,
           "end": 276.74,
           "durationSec": 4.82,
-          "words": 11,
-          "en": "But I try to ask for half of the vanilla, just.",
+          "words": 10,
+          "en": "But I try to ask for half of the vanilla.",
           "splitAfterAcousticPause": {
             "cutEnd": 276.74,
             "cutNextStart": 277.08,
@@ -4894,8 +4780,8 @@
             "pauseEnd": 277.08,
             "pauseDurationSec": 0.34,
             "minRms": 1158.9,
-            "searchAnchor": 276.2,
-            "deltaFromAnchorSec": 0.71,
+            "searchAnchor": 275.92,
+            "deltaFromAnchorSec": 0.99,
             "method": "acoustic_pause_valley"
           }
         },
@@ -4904,8 +4790,8 @@
           "start": 277.08,
           "end": 281.01,
           "durationSec": 3.93,
-          "words": 17,
-          "en": "Because I'm trying to slowly wean off sugar a little bit, at least just do my best."
+          "words": 18,
+          "en": "Just because I'm trying to slowly wean off sugar a little bit, at least just do my best."
         }
       ]
     },
@@ -5100,29 +4986,48 @@
         {
           "part": 1,
           "start": 436.6,
-          "end": 438.56,
-          "durationSec": 1.96,
-          "words": 7,
-          "en": "So far, going 8:00 a.m.",
+          "end": 441.86,
+          "durationSec": 5.26,
+          "words": 13,
+          "en": "So far, going 8:00 a.m. to Meyer getting some Jim Beam.",
           "splitAfterAcousticPause": {
-            "cutEnd": 438.56,
-            "cutNextStart": 438.96,
-            "pauseStart": 438.56,
-            "pauseEnd": 438.96,
+            "cutEnd": 441.86,
+            "cutNextStart": 442.26,
+            "pauseStart": 441.86,
+            "pauseEnd": 442.26,
             "pauseDurationSec": 0.4,
-            "minRms": 572.1,
-            "searchAnchor": 438.97,
-            "deltaFromAnchorSec": -0.21,
+            "minRms": 1.8,
+            "searchAnchor": 441.01,
+            "deltaFromAnchorSec": 1.05,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 2,
-          "start": 438.96,
+          "start": 442.26,
+          "end": 445.8,
+          "durationSec": 3.54,
+          "words": 15,
+          "en": "Putting it in like a Speedway cup, going down here, having a good old time.",
+          "splitAfterAcousticPause": {
+            "cutEnd": 445.8,
+            "cutNextStart": 446.02,
+            "pauseStart": 445.8,
+            "pauseEnd": 446.02,
+            "pauseDurationSec": 0.22,
+            "minRms": 54.0,
+            "searchAnchor": 446.1,
+            "deltaFromAnchorSec": -0.19,
+            "method": "acoustic_pause_valley"
+          }
+        },
+        {
+          "part": 3,
+          "start": 446.02,
           "end": 447.98,
-          "durationSec": 9.02,
-          "words": 23,
-          "en": "To Meyer getting some Jim Beam, putting it in like a Speedway cup, going down here, having a good old time, seeing everyone.",
+          "durationSec": 1.96,
+          "words": 7,
+          "en": "Seeing everyone, enjoying the view, the happiness.",
           "splitAfterAcousticPause": {
             "cutEnd": 447.98,
             "cutNextStart": 448.28,
@@ -5130,18 +5035,18 @@
             "pauseEnd": 448.28,
             "pauseDurationSec": 0.3,
             "minRms": 18.7,
-            "searchAnchor": 446.77,
-            "deltaFromAnchorSec": 1.36,
+            "searchAnchor": 448.47,
+            "deltaFromAnchorSec": -0.34,
             "method": "acoustic_pause_valley"
           }
         },
         {
-          "part": 3,
+          "part": 4,
           "start": 448.28,
           "end": 455.59,
           "durationSec": 7.31,
-          "words": 26,
-          "en": "Enjoying the view, the happiness, the enjoyment we get around seeing all these like empty boards everywhere on the street fills me with so much joy."
+          "words": 21,
+          "en": "The enjoyment we get around seeing all these like empty boards everywhere on the street fills me with so much joy."
         }
       ]
     },
@@ -5298,8 +5203,8 @@
           "start": 6.93,
           "end": 10.48,
           "durationSec": 3.55,
-          "words": 17,
-          "en": "In this English lesson, I will invite you along with me for part of my day so.",
+          "words": 16,
+          "en": "In this English lesson, I will invite you along with me for part of my day.",
           "splitAfterAcousticPause": {
             "cutEnd": 10.48,
             "cutNextStart": 10.52,
@@ -5307,8 +5212,8 @@
             "pauseEnd": 10.71,
             "pauseDurationSec": 0.42,
             "minRms": 27.0,
-            "searchAnchor": 12.06,
-            "deltaFromAnchorSec": -1.56,
+            "searchAnchor": 11.75,
+            "deltaFromAnchorSec": -1.25,
             "method": "acoustic_pause_valley"
           }
         },
@@ -5317,8 +5222,8 @@
           "start": 10.52,
           "end": 15.81,
           "durationSec": 5.29,
-          "words": 11,
-          "en": "That you can see my daily routine and along the way.",
+          "words": 12,
+          "en": "So that you can see my daily routine and along the way.",
           "splitAfterAcousticPause": {
             "cutEnd": 15.81,
             "cutNextStart": 15.85,
@@ -5473,29 +5378,29 @@
         {
           "part": 2,
           "start": 44.68,
-          "end": 46.0,
-          "durationSec": 1.32,
-          "words": 9,
-          "en": "Where our politicians can't speak to one another and.",
+          "end": 45.86,
+          "durationSec": 1.18,
+          "words": 8,
+          "en": "Where our politicians can't speak to one another.",
           "splitAfterAcousticPause": {
-            "cutEnd": 46.0,
-            "cutNextStart": 46.16,
-            "pauseStart": 46.0,
-            "pauseEnd": 46.16,
-            "pauseDurationSec": 0.16,
-            "minRms": 869.7,
-            "searchAnchor": 45.05,
-            "deltaFromAnchorSec": 1.03,
+            "cutEnd": 45.86,
+            "cutNextStart": 45.96,
+            "pauseStart": 45.86,
+            "pauseEnd": 45.96,
+            "pauseDurationSec": 0.1,
+            "minRms": 375.0,
+            "searchAnchor": 44.7,
+            "deltaFromAnchorSec": 1.21,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 3,
-          "start": 46.16,
+          "start": 45.96,
           "end": 52.09,
-          "durationSec": 5.93,
-          "words": 20,
-          "en": "Where even the most trivial of issues have someone fighting both passionately for it and against it, it's not normal."
+          "durationSec": 6.13,
+          "words": 21,
+          "en": "And where even the most trivial of issues have someone fighting both passionately for it and against it, it's not normal."
         }
       ]
     },
@@ -5711,29 +5616,10 @@
         {
           "part": 1,
           "start": 500.64,
-          "end": 501.5,
-          "durationSec": 0.86,
-          "words": 10,
-          "en": "And he'd say, \"Well, first, we're going to the car.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 501.5,
-            "cutNextStart": 501.74,
-            "pauseStart": 501.5,
-            "pauseEnd": 501.74,
-            "pauseDurationSec": 0.24,
-            "minRms": 194.4,
-            "searchAnchor": 502.9,
-            "deltaFromAnchorSec": -1.28,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 2,
-          "start": 501.74,
           "end": 504.56,
-          "durationSec": 2.82,
-          "words": 11,
-          "en": "And then we’ll get in the car, leave the driveway.",
+          "durationSec": 3.92,
+          "words": 18,
+          "en": "And he'd say, \"Well, first, we're going to the car and then we’ll get in the car\".",
           "splitAfterAcousticPause": {
             "cutEnd": 504.56,
             "cutNextStart": 504.96,
@@ -5741,37 +5627,18 @@
             "pauseEnd": 504.96,
             "pauseDurationSec": 0.4,
             "minRms": 304.8,
-            "searchAnchor": 505.38,
-            "deltaFromAnchorSec": -0.62,
+            "searchAnchor": 504.7,
+            "deltaFromAnchorSec": 0.06,
             "method": "acoustic_pause_valley"
           }
         },
         {
-          "part": 3,
+          "part": 2,
           "start": 504.96,
-          "end": 509.67,
-          "durationSec": 4.71,
-          "words": 13,
-          "en": "Turn left onto the main street until we get to the post office.",
-          "splitAfterAcousticPause": {
-            "cutEnd": 509.67,
-            "cutNextStart": 509.71,
-            "pauseStart": 509.44,
-            "pauseEnd": 509.94,
-            "pauseDurationSec": 0.5,
-            "minRms": 147.4,
-            "searchAnchor": 508.31,
-            "deltaFromAnchorSec": 1.38,
-            "method": "acoustic_pause_valley"
-          }
-        },
-        {
-          "part": 4,
-          "start": 509.71,
           "end": 511.02,
-          "durationSec": 1.31,
-          "words": 12,
-          "en": "And then turn right until we go to a big yellow building.\"."
+          "durationSec": 6.06,
+          "words": 28,
+          "en": "\"leave the driveway, turn left onto the main street until we get to the post office, and then turn right until we go to a big yellow building.\"."
         }
       ]
     },
@@ -6124,8 +5991,8 @@
           "start": 226.72,
           "end": 230.5,
           "durationSec": 3.78,
-          "words": 20,
-          "en": "I really like cats, but I also have physical books because I can't not do that. This is T.S.",
+          "words": 16,
+          "en": "I really like cats, but I also have physical books because I can't not do that.",
           "splitAfterAcousticPause": {
             "cutEnd": 230.5,
             "cutNextStart": 230.54,
@@ -6133,8 +6000,8 @@
             "pauseEnd": 230.76,
             "pauseDurationSec": 0.48,
             "minRms": 25.5,
-            "searchAnchor": 231.98,
-            "deltaFromAnchorSec": -1.46,
+            "searchAnchor": 230.93,
+            "deltaFromAnchorSec": -0.41,
             "method": "acoustic_pause_valley"
           }
         },
@@ -6143,8 +6010,8 @@
           "start": 230.54,
           "end": 233.86,
           "durationSec": 3.32,
-          "words": 7,
-          "en": "Eliot, it's the Love Song of J.",
+          "words": 13,
+          "en": "This is T.S. Eliot, it's the Love Song of J. Alfred Prufrock.",
           "splitAfterAcousticPause": {
             "cutEnd": 233.86,
             "cutNextStart": 234.02,
@@ -6152,8 +6019,8 @@
             "pauseEnd": 234.02,
             "pauseDurationSec": 0.16,
             "minRms": 34.2,
-            "searchAnchor": 233.83,
-            "deltaFromAnchorSec": 0.11,
+            "searchAnchor": 234.35,
+            "deltaFromAnchorSec": -0.41,
             "method": "acoustic_pause_valley"
           }
         },
@@ -6162,8 +6029,8 @@
           "start": 234.02,
           "end": 238.78,
           "durationSec": 4.76,
-          "words": 14,
-          "en": "Alfred Prufrock, but actually this copy has an inscription in it from Steve Chbosky.",
+          "words": 12,
+          "en": "But actually this copy has an inscription in it from Steve Chbosky.",
           "splitAfterAcousticPause": {
             "cutEnd": 238.78,
             "cutNextStart": 238.82,
@@ -6181,8 +6048,8 @@
           "start": 238.82,
           "end": 241.1,
           "durationSec": 2.28,
-          "words": 10,
-          "en": "Who I did The Perks of Being a Wallflower with.",
+          "words": 19,
+          "en": "Who I did The Perks of Being a Wallflower with, and it's so sweet the note that he wrote.",
           "splitAfterAcousticPause": {
             "cutEnd": 241.1,
             "cutNextStart": 241.14,
@@ -6190,8 +6057,8 @@
             "pauseEnd": 241.36,
             "pauseDurationSec": 0.48,
             "minRms": 137.9,
-            "searchAnchor": 240.14,
-            "deltaFromAnchorSec": 0.98,
+            "searchAnchor": 242.51,
+            "deltaFromAnchorSec": -1.39,
             "method": "acoustic_pause_valley"
           }
         },
@@ -6200,8 +6067,8 @@
           "start": 241.14,
           "end": 244.09,
           "durationSec": 2.95,
-          "words": 15,
-          "en": "And it's so sweet the note that he wrote, so I have to read it."
+          "words": 6,
+          "en": "So I have to read it."
         }
       ]
     },
@@ -6219,29 +6086,29 @@
         {
           "part": 1,
           "start": 294.88,
-          "end": 300.67,
-          "durationSec": 5.79,
-          "words": 15,
-          "en": "This is my ritual, this is my daily, every single day I write in this.",
+          "end": 298.58,
+          "durationSec": 3.7,
+          "words": 8,
+          "en": "This is my ritual, this is my daily.",
           "splitAfterAcousticPause": {
-            "cutEnd": 300.67,
-            "cutNextStart": 300.71,
-            "pauseStart": 300.4,
-            "pauseEnd": 300.98,
-            "pauseDurationSec": 0.58,
-            "minRms": 7.0,
-            "searchAnchor": 299.06,
-            "deltaFromAnchorSec": 1.63,
+            "cutEnd": 298.58,
+            "cutNextStart": 298.62,
+            "pauseStart": 298.36,
+            "pauseEnd": 298.84,
+            "pauseDurationSec": 0.48,
+            "minRms": 20.6,
+            "searchAnchor": 297.11,
+            "deltaFromAnchorSec": 1.49,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 2,
-          "start": 300.71,
+          "start": 298.62,
           "end": 304.16,
-          "durationSec": 3.45,
-          "words": 14,
-          "en": "And I write three things from the day before that were fun or joyful.",
+          "durationSec": 5.54,
+          "words": 21,
+          "en": "Every single day I write in this and I write three things from the day before that were fun or joyful.",
           "splitAfterAcousticPause": {
             "cutEnd": 304.16,
             "cutNextStart": 304.2,

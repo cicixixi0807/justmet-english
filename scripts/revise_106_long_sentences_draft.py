@@ -44,46 +44,94 @@ def clean_cap(s: str) -> str:
     return s
 
 
+DANGLING_LEFT_END = {
+    "and", "or", "but", "so", "that", "because", "just", "say", "said", "ahead",
+    "to", "of", "in", "on", "at", "with", "for", "from", "about", "into", "as",
+    "the", "a", "an", "my", "your", "our", "their", "his", "her", "this", "these",
+    "it's", "that's", "he's", "she's", "they're", "we're", "i'm", "you're",
+    "really", "very", "famous", "know", "think", "like", "when", "where", "which",
+    "who", "what", "if", "then", "also",
+}
+
+
+def has_unbalanced_quotes(s: str) -> bool:
+    return (s.count('"') % 2) != 0
+
+
+def is_bad_split(left: str, right: str) -> bool:
+    l_clean = left.strip()
+    r_clean = right.strip()
+    if not l_clean or not r_clean:
+        return True
+    # Never cut right after or before an ellipsis
+    if l_clean.endswith("...") or l_clean.endswith("…") or r_clean.startswith("...") or r_clean.startswith("…"):
+        return True
+    # Never leave unbalanced quotes on either side (e.g. splitting inside "...")
+    if has_unbalanced_quotes(l_clean) or has_unbalanced_quotes(r_clean):
+        return True
+    # Never split right before an opening quote after say/said/like/go
+    if r_clean.startswith('"') and re.search(r"\b(say|said|like|asked|go|went),?$", l_clean, flags=re.I):
+        return True
+    # Never end left side with a dangling conjunction/preposition/verb/contraction
+    last_tok_m = re.search(r"([A-Za-z']+)[,;:\s]*$", l_clean)
+    if last_tok_m and last_tok_m.group(1).lower() in DANGLING_LEFT_END:
+        return True
+    # Never cut tightly bound phrases
+    if re.search(r"\bgo\s+ahead,?$", l_clean, flags=re.I):
+        return True
+    if re.search(r"\bso$", l_clean, flags=re.I) and re.match(r"^that\b", r_clean, flags=re.I):
+        return True
+    if re.search(r"\bfamous$", l_clean, flags=re.I) and re.match(r"^because\b", r_clean, flags=re.I):
+        return True
+    if re.search(r"\bjust$", l_clean, flags=re.I) and re.match(r"^because\b", r_clean, flags=re.I):
+        return True
+    return False
+
+
 def split_sentence_cleanly(text: str, total_dur: float) -> list[str]:
     """
     Split a long sentence into >= 2 complete-thought chunks (~<=10s each).
-    NEVER splits on ellipses (`...` / `…`).
-    Always guarantees >= 2 parts for every target long sentence.
+    - Protects ALL ellipses (`...`/`…`), `a.m.`/`p.m.`, acronyms (`U.S.`, `T.S.`),
+      personal initials (`J. Alfred`), and honorifics (`etc.`, `Mr.`, `Dr.`).
+    - Rejects any split leaving dangling conjunctions, unbalanced quotes, or broken phrases.
+    - Guarantees >= 2 parts for every target long sentence.
     """
-    # Normalize caption-stitch double ellipses before splitting
     norm = re.sub(r"\.{2,}\s+\.{2,}", " ", text.strip())
     norm = re.sub(r"\s+", " ", norm)
 
-    # Step 1: Split ONLY on true sentence terminators (NOT `...` or `…`, NOT `etc.`)
-    # Protect `etc.`, `Mr.`, `Mrs.`, `Ms.`, `Dr.`, `St.`, `a.m.`, `p.m.`, `...`
+    # Step 1: Protect non-sentence periods cleanly
     protected = norm
     protected = re.sub(r"\.{2,}|…", "<ELLIP>", protected)
-    protected = re.sub(r"\b(etc|Mr|Mrs|Ms|Dr|St)\.", r"\1<DOT>", protected, flags=re.I)
+    protected = re.sub(r"\b([ap])\.m\.", r"\1<DOT>m<DOT>", protected, flags=re.I)
+    protected = re.sub(r"\b(?:[A-Z]\.){2,}", lambda m: m.group(0).replace(".", "<DOT>"), protected)
+    protected = re.sub(r"\b([A-Z])\.(?=\s+[A-Z])", r"\1<DOT>", protected)
+    protected = re.sub(r"\b(etc|Mr|Mrs|Ms|Dr|St|vs|Jr|Sr)\.", r"\1<DOT>", protected, flags=re.I)
 
     raw_parts = re.split(r"(?<=[.?!;])\s+", protected)
     parts = [p.replace("<ELLIP>", "...").replace("<DOT>", ".").strip() for p in raw_parts if p.strip()]
 
-    # Merge any tiny orphan fragment (< 5 words) back into its neighbor so we never create half-sentences
+    # Merge any tiny orphan fragment (< 5 words) or unbalanced-quote fragment back into its neighbor
     merged = []
     for p in parts:
-        if merged and word_count(p) < 5:
-            merged[-1] = merged[-1] + " " + p
-        elif not merged:
+        if not merged:
             merged.append(p)
-        elif word_count(merged[-1]) < 5:
+        elif word_count(p) < 5 or word_count(merged[-1]) < 5 or has_unbalanced_quotes(merged[-1]):
             merged[-1] = merged[-1] + " " + p
         else:
             merged.append(p)
     parts = merged
 
     # Clause boundary patterns ordered from strongest natural break to softest
+    # Note: compound conjunctions (`and because`, `and where`, `just because`, `so that`, `and it's famous because`)
+    # are matched BEFORE the leading conjunction so we never orphan `and.` / `just.` / `so.`!
     clause_patterns = [
-        r",\s+(?=(?:but|so|and then|and I|and we|and you|and they|and it|and that|and this|and there|and she|and he|because|which|when|while|however|though|even if|even though|or if)\b)",
+        r",\s+(?=(?:but|so that|so|and then|and because|and where|and I|and we|and you|and they|and it's|and it|and that|and this|and there|and she|and he|just because|because|which|when|while|however|though|even if|even though|or if)\b)",
         r"\s+[—–]\s+",
-        r"\s+(?=(?:but then|and then|so then|and that's|and she's|and he's|and I|and we|and you|and they|because|but I|but we|but you|but it|so I|so we|so you|or like)\b)",
-        r",\s+(?=(?:and|or|then|now|also|especially|like|with|even|where|who)\b)",
+        r"\s+(?=(?:but then|and then|and every time|and because|and where|and it's famous|so then|so that|just because|and that's|and she's|and he's|and I|and we|and you|and they|but I|but we|but you|but it|so I|so we|so you|or like)\b)",
+        r"\s+(?=(?:because|where our|where even)\b)",
+        r",\s+(?=(?:and|or|then|now|also|especially|like|with|even|where|who|enjoying|having|seeing|getting|putting)\b)",
         r",\s+",
-        r"\s+(?=(?:that you|with a|before|after|where|which|when|while|if you|until)\b)",
+        r"\s+(?=(?:to just|that you|with a|before|after|where|which|when|while|if you|until)\b)",
     ]
 
     def split_once(seg: str, min_side: int = 6):
@@ -97,8 +145,7 @@ def split_sentence_cleanly(text: str, total_dur: float) -> list[str]:
             for m in re.finditer(pat, seg, flags=re.I):
                 left = seg[: m.start()].strip()
                 right = seg[m.end() :].strip()
-                # Never cut right after or before an ellipsis
-                if left.endswith("...") or left.endswith("…") or right.startswith("...") or right.startswith("…"):
+                if is_bad_split(left, right):
                     continue
                 lw, rw = word_count(left), word_count(right)
                 if lw >= min_side and rw >= min_side:
@@ -116,8 +163,10 @@ def split_sentence_cleanly(text: str, total_dur: float) -> list[str]:
     while queue:
         seg = queue.pop(0)
         est_dur = total_dur * (word_count(seg) / total_w)
-        if (word_count(seg) >= 24 or est_dur >= 10.2) and word_count(seg) >= 12:
-            sp = split_once(seg, min_side=6)
+        # For super fast dense clips (< 6s total, like EP 68 #74 4.56s), split at most into 2-3 clean clauses
+        max_w_thresh = 28 if total_dur < 6.0 else 24
+        if (word_count(seg) >= max_w_thresh or est_dur >= 10.2) and word_count(seg) >= 12:
+            sp = split_once(seg, min_side=6) or (split_once(seg, min_side=5) if est_dur >= 12.0 else None)
             if sp:
                 queue.insert(0, sp[1])
                 queue.insert(0, sp[0])
@@ -127,6 +176,11 @@ def split_sentence_cleanly(text: str, total_dur: float) -> list[str]:
     # Guarantee every one of the 106 target sentences is genuinely split (>= 2 parts)
     if len(final_parts) < 2:
         sp = split_once(final_parts[0], min_side=5) or split_once(final_parts[0], min_side=4)
+        if not sp and final_parts[0].count('"') == 2:
+            # Long single quoted monologue (>= 30 words): split cleanly at natural ", and then " inside quote
+            m_q = re.search(r",\s+(?=(?:and then|until we|turn right|leave the)\b)", final_parts[0], flags=re.I)
+            if m_q and word_count(final_parts[0][: m_q.start()]) >= 8 and word_count(final_parts[0][m_q.end() :]) >= 8:
+                sp = (final_parts[0][: m_q.start()].strip() + '"', '"' + final_parts[0][m_q.end() :].strip())
         if sp:
             final_parts = [sp[0], sp[1]]
 
