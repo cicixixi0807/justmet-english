@@ -1543,24 +1543,19 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
-    "durationSec": 496,
-    "durationLabel": "08:16",
+    "durationSec": 483,
+    "durationLabel": "08:03",
     "date": "2026/11/25",
     "tags": [
       "旅行"
     ],
     "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "旅行",
-    "skipRanges": [
-      [
-        21.9,
-        35.4
-      ]
-    ],
+    "skipRanges": [],
     "sentences": [
       {
         "id": 1,
@@ -1649,8 +1644,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 35.4,
-        "end": 39.97,
+        "start": 21.9,
+        "end": 26.47,
         "speaker": "Speaker",
         "en": "Before skiing on the mountain, you need to buy a lift ticket.",
         "ipa": "/bɪˈfɔr ˈskiɪŋ ɑn ðə ˈmaʊntən, juː niːd tuː baɪ ə lɪft ˈtɪkɪt./",
@@ -1665,8 +1660,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 40.01,
-        "end": 44.53,
+        "start": 26.51,
+        "end": 31.03,
         "speaker": "Speaker",
         "en": "Yes, I bought a four-day pass and that cost me around $400.",
         "ipa": "/jɛs, aɪ bɔt ə fɔr-deɪ pæs ænd ðæt kɑst miː əˈraʊnd ˈfʊrˌhʌndrəd ˈdɑlərz./",
@@ -1686,8 +1681,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 44.57,
-        "end": 46.88,
+        "start": 31.07,
+        "end": 33.38,
         "speaker": "Speaker",
         "en": "This is my little ID card.",
         "ipa": "/ðɪs ɪz maɪ ˈlɪtəl aɪˈdiː kɑrd./",
@@ -1702,8 +1697,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 46.92,
-        "end": 53.22,
+        "start": 33.42,
+        "end": 39.72,
         "speaker": "Speaker",
         "en": "It's my lift ticket and it'll go right in my jacket and I'll scan it before getting on the lift.",
         "ipa": "/ɪts maɪ lɪft ˈtɪkɪt ænd ɪtəl ɡoʊ raɪt ɪn maɪ ˈdʒækɪt ænd aɪl skæn ɪt bɪˈfɔr ˈɡɛtɪŋ ɑn ðə lɪft./",
@@ -1723,8 +1718,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 53.26,
-        "end": 55.48,
+        "start": 39.76,
+        "end": 41.98,
         "speaker": "Speaker",
         "en": "And where do I buy a lift ticket?",
         "ipa": "/ænd wɛr duː aɪ baɪ ə lɪft ˈtɪkɪt?/",
@@ -1739,8 +1734,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 55.52,
-        "end": 57.25,
+        "start": 42.02,
+        "end": 43.75,
         "speaker": "Speaker",
         "en": "This is the correct place.",
         "ipa": "/ðɪs ɪz ðə kəˈrɛkt pleɪs./",
@@ -1755,8 +1750,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 57.29,
-        "end": 68.55,
+        "start": 43.79,
+        "end": 55.05,
         "speaker": "Speaker",
         "en": "Yes, you'll walk inside, go to the customer service desk and they have several different options like a one-day pass, a two-day pass, a four-day pass or a season pass.",
         "ipa": "/jɛs, jul wɔk ˈɪnˈsaɪd, ɡoʊ tuː ðə ˈkʌstəmər ˈsɜrvɪs dɛsk ænd ðeɪ hæv ˈsɛvərəl ˈdɪfərənt ˈɑpʃənz laɪk ə wʌn-deɪ pæs, ə tuː-deɪ pæs, ə fɔr-deɪ pæs ɔr ə ˈsizən pæs./",
@@ -1781,8 +1776,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 68.59,
-        "end": 73.65,
+        "start": 55.09,
+        "end": 60.15,
         "speaker": "Speaker",
         "en": "After picking up your lift ticket, you need to go and rent skis or a snowboard.",
         "ipa": "/ˈæftər ˈpɪkɪŋ ʌp jʊər lɪft ˈtɪkɪt, juː niːd tuː ɡoʊ ænd rɛnt skiːz ɔr ə ˈsnoʊˌbɔrd./",
@@ -1802,8 +1797,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 73.69,
-        "end": 75.87,
+        "start": 60.19,
+        "end": 62.37,
         "speaker": "Speaker",
         "en": "Over here they have different snowboards.",
         "ipa": "/ˈoʊvər hɪər ðeɪ hæv ˈdɪfərənt ˈsnoʊˌbɔrdz./",
@@ -1818,8 +1813,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 75.91,
-        "end": 78.83,
+        "start": 62.41,
+        "end": 65.33,
         "speaker": "Speaker",
         "en": "They have junior, basic, performance and demo.",
         "ipa": "/ðeɪ hæv ˈdʒunjər, ˈbeɪsɪk, pərˈfɔrməns ænd ˈdɛmoʊ./",
@@ -1834,8 +1829,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 78.87,
-        "end": 83.62,
+        "start": 65.37,
+        "end": 70.12,
         "speaker": "Speaker",
         "en": "I do not know how to snowboard so today I'm going to rent a pair of skis.",
         "ipa": "/aɪ duː nɑt noʊ haʊ tuː ˈsnoʊˌbɔrd soʊ təˈdeɪ aɪm ˈɡuɪŋ tuː rɛnt ə pɛr ʌv skiːz./",
@@ -1855,8 +1850,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 83.66,
-        "end": 89.74,
+        "start": 70.16,
+        "end": 76.24,
         "speaker": "Speaker",
         "en": "Over here you're going to rent some skis, poles, a helmet as well as boots.",
         "ipa": "/ˈoʊvər hɪər jʊr ˈɡuɪŋ tuː rɛnt sʌm skiːz, poʊlz, ə ˈhɛlmɪt æz wɛl æz buːts./",
@@ -1871,8 +1866,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 89.78,
-        "end": 94.85,
+        "start": 76.28,
+        "end": 81.35,
         "speaker": "Speaker",
         "en": "This is the place to grab your ski boots or your snow boots for snowboarding.",
         "ipa": "/ðɪs ɪz ðə pleɪs tuː ɡræb jʊər skiː buːts ɔr jʊər snoʊ buːts fɔr ˈsnoʊˌbɔrdɪŋ./",
@@ -1887,8 +1882,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 94.89,
-        "end": 99.2,
+        "start": 81.39,
+        "end": 85.7,
         "speaker": "Speaker",
         "en": "So they have different kinds of boots for skis versus a snowboard.",
         "ipa": "/soʊ ðeɪ hæv ˈdɪfərənt kaɪndz ʌv buːts fɔr skiːz ˈvɜrsəs ə ˈsnoʊˌbɔrd./",
@@ -1903,8 +1898,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 99.24,
-        "end": 105.01,
+        "start": 85.74,
+        "end": 91.51,
         "speaker": "Speaker",
         "en": "I'm a 9 and 1/2 or a 10, but I usually go with a 10 because I wear thick socks when I ski.",
         "ipa": "/aɪm ə naɪn ænd hæf ɔr ə tɛn, bʌt aɪ ˈjuʒəwəli ɡoʊ wɪð ə tɛn bɪˈkʌz aɪ wɛr θɪk sɑks wɛn aɪ skiː./",
@@ -1924,8 +1919,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 105.05,
-        "end": 108.73,
+        "start": 91.55,
+        "end": 95.23,
         "speaker": "Speaker",
         "en": "As you can see, they have different sizes of skis.",
         "ipa": "/æz juː kən siː, ðeɪ hæv ˈdɪfərənt ˈsaɪzɪz ʌv skiːz./",
@@ -1940,8 +1935,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 108.77,
-        "end": 111.13,
+        "start": 95.27,
+        "end": 97.63,
         "speaker": "Speaker",
         "en": "Some are shorter and some are taller.",
         "ipa": "/sʌm ɑr ˈʃɔrtər ænd sʌm ɑr ˈtɑlər./",
@@ -1956,8 +1951,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 111.17,
-        "end": 116.9,
+        "start": 97.67,
+        "end": 103.4,
         "speaker": "Speaker",
         "en": "I picked up my skis yesterday and normally if you do ski, they They go up to your chin level.",
         "ipa": "/aɪ pɪkt ʌp maɪ skiːz ˈjɛstərdeɪ ænd ˈnɔrməli ɪf juː duː skiː, ðeɪ ðeɪ ɡoʊ ʌp tuː jʊər ʧɪn ˈlɛvəl./",
@@ -1977,8 +1972,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 116.94,
-        "end": 120.14,
+        "start": 103.44,
+        "end": 106.64,
         "speaker": "Speaker",
         "en": "Snowboarding is way different than skiing.",
         "ipa": "/ˈsnoʊˌbɔrdɪŋ ɪz weɪ ˈdɪfərənt ðæn ˈskiɪŋ./",
@@ -1993,8 +1988,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 120.18,
-        "end": 124.72,
+        "start": 106.68,
+        "end": 111.22,
         "speaker": "Speaker",
         "en": "For example, you have two skis, one for each leg.",
         "ipa": "/fɔr ɪɡˈzæmpəl, juː hæv tuː skiːz, wʌn fɔr iːʧ lɛɡ./",
@@ -2009,8 +2004,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 124.76,
-        "end": 128.79,
+        "start": 111.26,
+        "end": 115.29,
         "speaker": "Speaker",
         "en": "But with snowboarding, your feet are sideways on one board.",
         "ipa": "/bʌt wɪð ˈsnoʊˌbɔrdɪŋ, jʊər fiːt ɑr ˈsaɪdˌweɪz ɑn wʌn bɔrd./",
@@ -2025,8 +2020,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 128.83,
-        "end": 133.84,
+        "start": 115.33,
+        "end": 120.34,
         "speaker": "Speaker",
         "en": "And when you rent a snowboard, they'll ask you how you want your foot position.",
         "ipa": "/ænd wɛn juː rɛnt ə ˈsnoʊˌbɔrd, ðeɪl æsk juː haʊ juː wɑnt jʊər fʊt pəˈzɪʃən./",
@@ -2041,8 +2036,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 133.88,
-        "end": 141.97,
+        "start": 120.38,
+        "end": 128.47,
         "speaker": "Speaker",
         "en": "For example, they'll say, \"Are you a regular or are you goofy?\" If they ask you if you're goofy, that doesn't mean you make a lot of jokes.",
         "ipa": "/fɔr ɪɡˈzæmpəl, ðeɪl seɪ, \"ɑr juː ə ˈrɛɡjələr ɔr ɑr juː ˈɡufi?\" ɪf ðeɪ æsk juː ɪf yʊər ˈɡufi, ðæt ˈdʌzənt miːn juː meɪk ə lɑt ʌv dʒoʊks./",
@@ -2062,8 +2057,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 142.01,
-        "end": 144.9,
+        "start": 128.51,
+        "end": 131.4,
         "speaker": "Speaker",
         "en": "No, they're talking about the foot position.",
         "ipa": "/noʊ, ðɛr ˈtɔkɪŋ əˈbaʊt ðə fʊt pəˈzɪʃən./",
@@ -2078,8 +2073,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 144.94,
-        "end": 151.41,
+        "start": 131.44,
+        "end": 137.91,
         "speaker": "Speaker",
         "en": "For example, if you're goofy, your right side, your right foot, will be at the front.",
         "ipa": "/fɔr ɪɡˈzæmpəl, ɪf yʊər ˈɡufi, jʊər raɪt saɪd, jʊər raɪt fʊt, wɪl biː æt ðə frʌnt./",
@@ -2094,8 +2089,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 151.45,
-        "end": 156.38,
+        "start": 137.95,
+        "end": 142.88,
         "speaker": "Speaker",
         "en": "But if you're regular, your left side will be at the front.",
         "ipa": "/bʌt ɪf yʊər ˈrɛɡjələr, jʊər lɛft saɪd wɪl biː æt ðə frʌnt./",
@@ -2110,8 +2105,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 156.42,
-        "end": 158.82,
+        "start": 142.92,
+        "end": 145.32,
         "speaker": "Speaker",
         "en": "Are you goofy or are you regular?",
         "ipa": "/ɑr juː ˈɡufi ɔr ɑr juː ˈrɛɡjələr?/",
@@ -2126,8 +2121,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 158.86,
-        "end": 160.16,
+        "start": 145.36,
+        "end": 146.66,
         "speaker": "Speaker",
         "en": "Let me know down below.",
         "ipa": "/lɛt miː noʊ daʊn bəˈloʊ./",
@@ -2142,8 +2137,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 160.2,
-        "end": 168.6,
+        "start": 146.7,
+        "end": 155.1,
         "speaker": "Speaker",
         "en": "These are my rental skis as well as my poles, and I'm going to leave them over here by the racks to show you guys around this ski resort.",
         "ipa": "/ðiːz ɑːr maɪ ˈrɛntl skiːz æz wɛl æz maɪ poʊlz, ænd aɪm ˈɡoʊɪŋ tuː liːv ðɛm ˈoʊvər hɪər baɪ ðə ræks tuː ʃoʊ juː ɡaɪz əˈraʊnd ðɪs skiː rɪˈzɔːrt./",
@@ -2163,8 +2158,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 168.64,
-        "end": 171.27,
+        "start": 155.14,
+        "end": 157.77,
         "speaker": "Speaker",
         "en": "When you rent skis, how do you know which skis are yours?",
         "ipa": "/wɛn juː rɛnt skiːz, haʊ duː juː noʊ wɪtʃ skiːz ɑːr jɔːrz?/",
@@ -2179,8 +2174,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 171.31,
-        "end": 177.51,
+        "start": 157.81,
+        "end": 164.01,
         "speaker": "Speaker",
         "en": "Because, look, there are snowboards here, multiple skis, and sometimes it can be difficult to remember.",
         "ipa": "/bɪˈkəz, lʊk, ðɛr ɑːr ˈsnoʊbɔːrdz hɪər, ˈmʌltɪpl skiːz, ænd ˈsʌmtaɪmz ɪt kæn biː ˈdɪfɪkəlt tuː rɪˈmɛmbər./",
@@ -2195,8 +2190,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 177.55,
-        "end": 181.15,
+        "start": 164.05,
+        "end": 167.65,
         "speaker": "Speaker",
         "en": "Well, when you rent skis, you have your initials.",
         "ipa": "/wɛl, wɛn juː rɛnt skiːz, juː hæv jɔːr ɪˈnɪʃlz./",
@@ -2211,8 +2206,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 181.19,
-        "end": 190.05,
+        "start": 167.69,
+        "end": 176.55,
         "speaker": "Speaker",
         "en": "My initials are A D, so that way I'll remember them, and I'll also remember the color of my skis as well as the color of my straps, which are red.",
         "ipa": "/maɪ ɪˈnɪʃlz ɑːr eɪ diː, soʊ ðæt weɪ aɪl rɪˈmɛmbər ðɛm, ænd aɪl ˈɔːlsoʊ rɪˈmɛmbər ðə ˈkʌlər əv maɪ skiːz æz wɛl æz ðə ˈkʌlər əv maɪ stræps, wɪtʃ ɑːr rɛd./",
@@ -2227,8 +2222,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 190.09,
-        "end": 192.68,
+        "start": 176.59,
+        "end": 179.18,
         "speaker": "Speaker",
         "en": "Let's leave these skis here on the rack.",
         "ipa": "/lɛts liːv ðiz skiːz hɪər ɑːn ðə ræk./",
@@ -2237,8 +2232,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 192.72,
-        "end": 195.45,
+        "start": 179.22,
+        "end": 181.95,
         "speaker": "Speaker",
         "en": "Let's walk around a little bit before we go ski.",
         "ipa": "/lɛts wɔːk əˈraʊnd ə ˈlɪtl bɪt bɪˈfɔːr wiː ɡoʊ skiː./",
@@ -2253,8 +2248,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 195.49,
-        "end": 201.68,
+        "start": 181.99,
+        "end": 188.18,
         "speaker": "Speaker",
         "en": "Copper Mountain, Colorado, is one of the most popular ski resorts in the Rocky Mountains.",
         "ipa": "/ˈkɑːpər ˈmaʊntn, ˌkɑːləˈrædoʊ, ɪz wʌn əv ðə moʊst ˈpɑːpjələr skiː rɪˈzɔːrts ɪn ðə ˈrɑːki ˈmaʊntnz./",
@@ -2269,8 +2264,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 201.72,
-        "end": 207.49,
+        "start": 188.22,
+        "end": 193.99,
         "speaker": "Speaker",
         "en": "It's about 75 mi west of Denver and sits at 9,700 ft.",
         "ipa": "/ɪts əˈbaʊt ˈsɛvnti-faɪv maɪlz wɛst əv ˈdɛnvər ænd sɪts æt ˈnaɪn θaʊznd ˈsɛvn ˈhʌndrəd fɪt./",
@@ -2285,8 +2280,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 207.53,
-        "end": 211.05,
+        "start": 194.03,
+        "end": 197.55,
         "speaker": "Speaker",
         "en": "It's known for great snow and beautiful views.",
         "ipa": "/ɪts noʊn fɔːr ɡreɪt snoʊ ænd ˈbjuːtɪfl vjuːz./",
@@ -2301,8 +2296,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 211.09,
-        "end": 216.06,
+        "start": 197.59,
+        "end": 202.56,
         "speaker": "Speaker",
         "en": "With over 150 trails and 24 lifts, there's something here for everyone.",
         "ipa": "/wɪð ˈoʊvər wʌn ˈhʌndrəd ˈfɪfti treɪlz ænd ˈtwɛnti-fɔːr lɪfts, ðɛrz ˈsʌmθɪŋ hɪər fɔːr ˈɛvriwʌn./",
@@ -2317,8 +2312,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 216.1,
-        "end": 222.66,
+        "start": 202.6,
+        "end": 209.16,
         "speaker": "Speaker",
         "en": "Copper Mountain also hosts international competitions and is a popular training spot for Olympic athletes.",
         "ipa": "/ˈkɑːpər ˈmaʊntn ˈɔːlsoʊ hoʊsts ˌɪntərˈnæʃnəl ˌkɑːmpəˈtɪʃnz ænd ɪz ə ˈpɑːpjələr ˈtreɪnɪŋ spɑːt fɔːr əˈlɪmpɪk ˈæθliːts./",
@@ -2333,8 +2328,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 222.7,
-        "end": 226.76,
+        "start": 209.2,
+        "end": 213.26,
         "speaker": "Speaker",
         "en": "This place is not only known for skiing or snowboarding.",
         "ipa": "/ðɪs pleɪs ɪz nɑːt ˈoʊnli noʊn fɔːr ˈskiːɪŋ ɔːr ˈsnoʊbɔːrdɪŋ./",
@@ -2349,8 +2344,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 226.8,
-        "end": 232.65,
+        "start": 213.3,
+        "end": 219.15,
         "speaker": "Speaker",
         "en": "No, they have many different restaurants or cafes in case you get hungry and if you do get cold.",
         "ipa": "/noʊ, ðeɪ hæv ˈmɛni ˈdɪfrənt ˈrɛstəˌrɑːnts ɔːr ˈkæfeɪz ɪn keɪs juː ɡɛt ˈhʌŋɡri ænd ɪf juː duː ɡɛt koʊld./",
@@ -2365,8 +2360,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 232.69,
-        "end": 237.28,
+        "start": 219.19,
+        "end": 223.78,
         "speaker": "Speaker",
         "en": "So, let's go ahead and check out a coffee shop.",
         "ipa": "/soʊ, lɛts ɡoʊ əˈhɛd ænd tʃɛk aʊt ə ˈkɑːfi ʃɑːp./",
@@ -2381,8 +2376,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 237.32,
-        "end": 242.44,
+        "start": 223.82,
+        "end": 228.94,
         "speaker": "Speaker",
         "en": "Something I've noticed here at this ski resort is that the prices are a bit expensive.",
         "ipa": "/ˈsʌmθɪŋ aɪv ˈnoʊtɪst hɪər æt ðɪs skiː rɪˈzɔːrt ɪz ðæt ðə ˈpraɪsɪz ɑːr ə bɪt ɪkˈspɛnsɪv./",
@@ -2397,8 +2392,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 242.48,
-        "end": 248.84,
+        "start": 228.98,
+        "end": 235.34,
         "speaker": "Speaker",
         "en": "For example, if I want to buy a bottle of water, this will cost $7.",
         "ipa": "/fɔːr ɪɡˈzæmpl, ɪf aɪ wɑːnt tuː baɪ ə ˈbɑːtl əv ˈwɔːtər, ðɪs wɪl kɔːst ˈsɛvn ˈdɑːlərz./",
@@ -2418,8 +2413,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 248.88,
-        "end": 251.72,
+        "start": 235.38,
+        "end": 238.22,
         "speaker": "Speaker",
         "en": "Would you pay $7 for a bottle of water?",
         "ipa": "/wʊd juː peɪ ˈsɛvn ˈdɑːlərz fɔːr ə ˈbɑːtl əv ˈwɔːtər?/",
@@ -2439,8 +2434,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 251.76,
-        "end": 252.93,
+        "start": 238.26,
+        "end": 239.43,
         "speaker": "Speaker",
         "en": "Let me know down below.",
         "ipa": "/lɛt miː noʊ daʊn bɪˈloʊ./",
@@ -2455,8 +2450,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 252.97,
-        "end": 265.41,
+        "start": 239.47,
+        "end": 251.91,
         "speaker": "Speaker",
         "en": "At this resort, they also have a huge store that sells jackets, vests, hats, just in case if you forgot anything at home, or in case you just want a souvenir from Copper Mountain.",
         "ipa": "/æt ðɪs rɪˈzɔːrt, ðeɪ ˈɔːlsoʊ hæv ə hjuːdʒ stɔːr ðæt sɛlz ˈdʒækɪts, vɛsts, hæts, dʒʌst ɪn keɪs ɪf juː fərˈɡɑːt ˈɛniθɪŋ æt hoʊm, ɔːr ɪn keɪs juː dʒʌst wɑːnt ə ˌsuːvəˈnɪr frəm ˈkɑːpər ˈmaʊntn./",
@@ -2476,8 +2471,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 265.45,
-        "end": 269.2,
+        "start": 251.95,
+        "end": 255.7,
         "speaker": "Speaker",
         "en": "Something that I've noticed here at this store is they sell oxygen.",
         "ipa": "/ˈsʌmθɪŋ ðæt aɪv ˈnoʊtɪst hɪər æt ðɪs stɔːr ɪz ðeɪ sɛl ˈɑːksɪdʒən./",
@@ -2497,8 +2492,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 269.24,
-        "end": 270.73,
+        "start": 255.74,
+        "end": 257.23,
         "speaker": "Speaker",
         "en": "So, I'm going to ask Emma.",
         "ipa": "/soʊ, aɪm ˈɡoʊɪŋ tuː æsk ˈɛmə./",
@@ -2507,8 +2502,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 270.77,
-        "end": 273.08,
+        "start": 257.27,
+        "end": 259.58,
         "speaker": "Speaker",
         "en": "So, why do you people buy oxygen here?",
         "ipa": "/soʊ, waɪ duː juː ˈpiːpl baɪ ˈɑːksɪdʒən hɪər?/",
@@ -2523,8 +2518,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 273.12,
-        "end": 280.47,
+        "start": 259.62,
+        "end": 266.97,
         "speaker": "Speaker",
         "en": "Yeah, honestly we get a lot of people who are coming from lower elevation, and literally the air is thinner, so they can get elevation sickness, or they find it hard to breathe.",
         "ipa": "/jæ, ˈɑːnɪstli wiː ɡɛt ə lɑːt əv ˈpiːpl huː ɑːr ˈkʌmɪŋ frəm ˈloʊər ˌɛlɪˈveɪʃn, ænd ˈlɪtərəli ði ɛr ɪz ˈθɪnər, soʊ ðeɪ kæn ɡɛt ˌɛlɪˈveɪʃn ˈsɪknəs, ɔːr ðeɪ faɪnd ɪt hɑːrd tuː briːð./",
@@ -2549,8 +2544,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 280.51,
-        "end": 282.15,
+        "start": 267.01,
+        "end": 268.65,
         "speaker": "Speaker",
         "en": "It takes a couple days to get used to it.",
         "ipa": "/ɪt teɪks ə ˈkʌpl deɪz tuː ɡɛt juːzd tuː ɪt./",
@@ -2565,8 +2560,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 282.19,
-        "end": 286.52,
+        "start": 268.69,
+        "end": 273.02,
         "speaker": "Speaker",
         "en": "I don't know if this actually does anything, but it does make them feel less like they're dying.",
         "ipa": "/aɪ doʊnt noʊ ɪf ðɪs ˈæktʃuəli dʌz ˈɛniθɪŋ, bʌt ɪt dʌz meɪk ðɛm fiːl lɛs laɪk ðeər ˈdaɪɪŋ./",
@@ -2581,8 +2576,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 286.56,
-        "end": 291.63,
+        "start": 273.06,
+        "end": 278.13,
         "speaker": "Speaker",
         "en": "After giving you guys a tour around this ski resort, I think we're ready to hit the slopes.",
         "ipa": "/ˈæftər ˈɡɪvɪŋ juː ɡaɪz ə tʊr əˈraʊnd ðɪs skiː rɪˈzɔːrt, aɪ θɪŋk wiːr ˈrɛdi tuː hɪt ðə sloʊps./",
@@ -2597,8 +2592,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 291.67,
-        "end": 300.58,
+        "start": 278.17,
+        "end": 287.08,
         "speaker": "Speaker",
         "en": "But first, I need to put on my ski boots, as well as change my gloves, because I have heated gloves, and the last thing is a helmet.",
         "ipa": "/bʌt fɜːrst, aɪ niːd tuː pʊt ɑːn maɪ skiː buːts, æz wɛl æz tʃeɪndʒ maɪ ɡlʌvz, bɪˈkəz aɪ hæv ˈhiːtɪd ɡlʌvz, ænd ðə læst θɪŋ ɪz ə ˈhɛlmɪt./",
@@ -2613,8 +2608,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 300.62,
-        "end": 302.88,
+        "start": 287.12,
+        "end": 289.38,
         "speaker": "Speaker",
         "en": "So, let's go inside and change.",
         "ipa": "/soʊ, lɛts ɡoʊ ɪnˈsaɪd ænd tʃeɪndʒ./",
@@ -2634,8 +2629,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 302.92,
-        "end": 308.32,
+        "start": 289.42,
+        "end": 294.82,
         "speaker": "Speaker",
         "en": "This area is where you can put on your ski gear, like your snowboarding boots, or your ski boots.",
         "ipa": "/ðɪs ˈɛriə ɪz wɛr juː kæn pʊt ɑːn jɔːr skiː ɡɪr, laɪk jɔːr ˈsnoʊbɔːrdɪŋ buːts, ɔːr jɔːr skiː buːts./",
@@ -2650,8 +2645,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 308.36,
-        "end": 315.62,
+        "start": 294.86,
+        "end": 302.12,
         "speaker": "Speaker",
         "en": "If you guys need extra help with your skis or snowboards, then you can come to the tuning center, where they have a full tune.",
         "ipa": "/ɪf juː ɡaɪz niːd ˈɛkstrə hɛlp wɪð jɔːr skiːz ɔːr ˈsnoʊbɔːrdz, ðɛn juː kæn kʌm tuː ðə ˈtuːnɪŋ ˈsɛntər, wɛr ðeɪ hæv ə fʊl tuːn./",
@@ -2666,8 +2661,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 315.66,
-        "end": 318.8,
+        "start": 302.16,
+        "end": 305.3,
         "speaker": "Speaker",
         "en": "They'll give your skis or a snowboard a hot wax.",
         "ipa": "/ðeɪl ɡɪv jɔːr skiːz ɔːr ə ˈsnoʊbɔːrd ə hɑːt wæks./",
@@ -2682,8 +2677,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 318.84,
-        "end": 322.92,
+        "start": 305.34,
+        "end": 309.42,
         "speaker": "Speaker",
         "en": "They can also bind your skis, and they can also adjust them as well.",
         "ipa": "/ðeɪ kæn ˈɔːlsoʊ baɪnd jʊər skiːz, ænd ðeɪ kæn ˈɔːlsoʊ əˈdʒʌst ðɛm æz wɛl./",
@@ -2698,8 +2693,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 322.96,
-        "end": 329.39,
+        "start": 309.46,
+        "end": 315.89,
         "speaker": "Speaker",
         "en": "And if you already know how to adjust your skis or your snowboard, you can just come over here and adjust them with the screwdriver.",
         "ipa": "/ænd ɪf juː ɔːlˈrɛdi noʊ haʊ tuː əˈdʒʌst jʊər skiːz ɔːr jʊər ˈsnoʊbɔːrd, juː kæn dʒʌst kʌm ˈoʊvər hɪər ænd əˈdʒʌst ðɛm wɪð ðə ˈskruːˌdraɪvər./",
@@ -2714,8 +2709,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 329.43,
-        "end": 331.28,
+        "start": 315.93,
+        "end": 317.78,
         "speaker": "Speaker",
         "en": "I changed into my ski boots.",
         "ipa": "/aɪ tʃeɪndʒd ˈɪntuː maɪ skiː buːts./",
@@ -2730,8 +2725,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 331.32,
-        "end": 334.9,
+        "start": 317.82,
+        "end": 321.4,
         "speaker": "Speaker",
         "en": "I finally am wearing gloves that are nice and warm.",
         "ipa": "/aɪ ˈfaɪnəli æm ˈwɛrɪŋ ɡlʌvz ðæt ɑːr naɪs ænd wɔːrm./",
@@ -2746,8 +2741,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 334.94,
-        "end": 338.39,
+        "start": 321.44,
+        "end": 324.89,
         "speaker": "Speaker",
         "en": "I have a helmet on, and I also have my ski goggles.",
         "ipa": "/aɪ hæv ə ˈhɛlmɪt ɑːn, ænd aɪ ˈɔːlsoʊ hæv maɪ skiː ˈɡɑːɡəlz./",
@@ -2762,8 +2757,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 338.43,
-        "end": 340.37,
+        "start": 324.93,
+        "end": 326.87,
         "speaker": "Speaker",
         "en": "I think it's time to hit the slopes.",
         "ipa": "/aɪ θɪŋk ɪts taɪm tuː hɪt ðə sloʊps./",
@@ -2778,8 +2773,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 340.41,
-        "end": 341.54,
+        "start": 326.91,
+        "end": 328.04,
         "speaker": "Speaker",
         "en": "Let's start skiing.",
         "ipa": "/lɛts stɑːrt ˈskiːɪŋ./",
@@ -2794,8 +2789,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 341.58,
-        "end": 344.35,
+        "start": 328.08,
+        "end": 330.85,
         "speaker": "Speaker",
         "en": "Today is one of the coldest days.",
         "ipa": "/təˈdeɪ ɪz wʌn əv ðə ˈkoʊldɪst deɪz./",
@@ -2810,8 +2805,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 344.39,
-        "end": 345.34,
+        "start": 330.89,
+        "end": 331.84,
         "speaker": "Speaker",
         "en": "It's 18°.",
         "ipa": "/ɪts eɪˈtiːn ˈdiːɡriːz./",
@@ -2826,8 +2821,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 345.38,
-        "end": 348.38,
+        "start": 331.88,
+        "end": 334.88,
         "speaker": "Speaker",
         "en": "The snow is so fresh and light.",
         "ipa": "/ðə snoʊ ɪz soʊ frɛʃ ænd laɪt./",
@@ -2842,8 +2837,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 348.42,
-        "end": 352.32,
+        "start": 334.92,
+        "end": 338.82,
         "speaker": "Speaker",
         "en": "We call this powder, which means it's perfect for skiing.",
         "ipa": "/wiː kɔːl ðɪs ˈpaʊdər, wɪtʃ miːnz ɪts ˈpɜːrfɪkt fɔːr ˈskiːɪŋ./",
@@ -2858,8 +2853,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 352.36,
-        "end": 357.6,
+        "start": 338.86,
+        "end": 344.1,
         "speaker": "Speaker",
         "en": "I'm carrying my skis and poles and I'm heading to the lift line.",
         "ipa": "/aɪm ˈkæriɪŋ maɪ skiːz ænd poʊlz ænd aɪm ˈhɛdɪŋ tuː ðə lɪft laɪn./",
@@ -2874,8 +2869,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 357.64,
-        "end": 360.76,
+        "start": 344.14,
+        "end": 347.26,
         "speaker": "Speaker",
         "en": "Right now, I'm waiting in line to go up the lift.",
         "ipa": "/raɪt naʊ, aɪm ˈweɪtɪŋ ɪn laɪn tuː ɡoʊ ʌp ðə lɪft./",
@@ -2890,8 +2885,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 360.8,
-        "end": 363.97,
+        "start": 347.3,
+        "end": 350.47,
         "speaker": "Speaker",
         "en": "As you can see the line is pretty long, but that's okay.",
         "ipa": "/æz juː kæn siː ðə laɪn ɪz ˈprɪti lɔːŋ, bʌt ðæts oʊˈkeɪ./",
@@ -2906,8 +2901,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 364.01,
-        "end": 373.95,
+        "start": 350.51,
+        "end": 360.45,
         "speaker": "Speaker",
         "en": "We have time to wait and before getting on the lift, you have to remember to bring your lift ticket or your ID card and I have that right in my pocket to scan.",
         "ipa": "/wiː hæv taɪm tuː weɪt ænd bɪˈfɔːr ˈɡɛtɪŋ ɑːn ðə lɪft, juː hæv tuː rɪˈmɛmbər tuː brɪŋ jʊər lɪft ˈtɪkɪt ɔːr jʊər aɪ-diː kɑːrd ænd aɪ hæv ðæt raɪt ɪn maɪ ˈpɑːkɪt tuː skæn./",
@@ -2927,8 +2922,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 373.99,
-        "end": 378.48,
+        "start": 360.49,
+        "end": 364.98,
         "speaker": "Speaker",
         "en": "We are getting on the ski lift.",
         "ipa": "/wiː ɑːr ˈɡɛtɪŋ ɑːn ðə skiː lɪft./",
@@ -2943,8 +2938,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 378.52,
-        "end": 383.96,
+        "start": 365.02,
+        "end": 370.46,
         "speaker": "Speaker",
         "en": "You let the chair come behind you, then you sit down.",
         "ipa": "/juː lɛt ðə tʃɛr kʌm bɪˈhaɪnd juː, ðɛn juː sɪt daʊn./",
@@ -2959,8 +2954,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 384.0,
-        "end": 386.98,
+        "start": 370.5,
+        "end": 373.48,
         "speaker": "Speaker",
         "en": "I am sitting on a chair lift.",
         "ipa": "/aɪ æm ˈsɪtɪŋ ɑːn ə tʃɛr lɪft./",
@@ -2975,8 +2970,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 387.02,
-        "end": 395.75,
+        "start": 373.52,
+        "end": 382.25,
         "speaker": "Speaker",
         "en": "This is a safety bar, so I don't fall off the chair lift and this is a blue covering to protect me from the snow and the wind.",
         "ipa": "/ðɪs ɪz ə ˈseɪfti bɑːr, soʊ aɪ doʊnt fɔːl ɔːf ðə tʃɛr lɪft ænd ðɪs ɪz ə bluː ˈkʌvərɪŋ tuː prəˈtɛkt miː frəm ðə snoʊ ænd ðə wɪnd./",
@@ -2991,8 +2986,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 395.79,
-        "end": 398.23,
+        "start": 382.29,
+        "end": 384.73,
         "speaker": "Speaker",
         "en": "This chair lift is very nice.",
         "ipa": "/ðɪs tʃɛr lɪft ɪz ˈvɛri naɪs./",
@@ -3007,8 +3002,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 398.27,
-        "end": 408.7,
+        "start": 384.77,
+        "end": 395.2,
         "speaker": "Speaker",
         "en": "You have a beautiful view of the trees, of skiers and the snow and it's very safe and it takes about 5 minutes to get to the very top of the mountain.",
         "ipa": "/juː hæv ə ˈbjuːtɪfəl vjuː əv ðə triːz, əv ˈskiːərz ænd ðə snoʊ ænd ɪts ˈvɛri seɪf ænd ɪt teɪks əˈbaʊt faɪv ˈmɪnɪts tuː ɡɛt tuː ðə ˈvɛri tɑːp əv ðə ˈmaʊntən./",
@@ -3028,8 +3023,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 408.74,
-        "end": 410.78,
+        "start": 395.24,
+        "end": 397.28,
         "speaker": "Speaker",
         "en": "I just went up the ski lift.",
         "ipa": "/aɪ dʒʌst wɛnt ʌp ðə skiː lɪft./",
@@ -3044,8 +3039,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 410.82,
-        "end": 419.09,
+        "start": 397.32,
+        "end": 405.59,
         "speaker": "Speaker",
         "en": "That's the ski lift and a ski lift takes you all the way up to the top of the mountain and this is the unloading area.",
         "ipa": "/ðæts ðə skiː lɪft ænd ə skiː lɪft teɪks juː ɔːl ðə weɪ ʌp tuː ðə tɑːp əv ðə ˈmaʊntən ænd ðɪs ɪz ðə ˌʌnˈloʊdɪŋ ˈɛriə./",
@@ -3060,8 +3055,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 419.13,
-        "end": 425.24,
+        "start": 405.63,
+        "end": 411.74,
         "speaker": "Speaker",
         "en": "As you can see snowboarders and skiers are unloading and they're going on to their trails.",
         "ipa": "/æz juː kæn siː ˈsnoʊˌbɔːrdərz ænd ˈskiːərz ɑːr ˌʌnˈloʊdɪŋ ænd ðeər ˈɡoʊɪŋ ɑːn tuː ðeər treɪlz./",
@@ -3076,8 +3071,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 425.28,
-        "end": 429.0,
+        "start": 411.78,
+        "end": 415.5,
         "speaker": "Speaker",
         "en": "Let's take a look at the map of Copper Mountain.",
         "ipa": "/lɛts teɪk ə lʊk æt ðə mæp əv ˈkɑːpər ˈmaʊntən./",
@@ -3092,8 +3087,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 429.04,
-        "end": 436.19,
+        "start": 415.54,
+        "end": 422.69,
         "speaker": "Speaker",
         "en": "It's all the way over here and it'll show you which trails are blue, red, black, etc.",
         "ipa": "/ɪts ɔːl ðə weɪ ˈoʊvər hɪər ænd ɪtəl ʃoʊ juː wɪtʃ treɪlz ɑːr bluː, rɛd, blæk, ɛtˈsɛtərə./",
@@ -3108,8 +3103,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 436.23,
-        "end": 440.24,
+        "start": 422.73,
+        "end": 426.74,
         "speaker": "Speaker",
         "en": "Now, why are these slopes different colors?",
         "ipa": "/naʊ, waɪ ɑːr ðiːz sloʊps ˈdɪfərənt ˈkʌlərz?/",
@@ -3124,8 +3119,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 440.28,
-        "end": 443.05,
+        "start": 426.78,
+        "end": 429.55,
         "speaker": "Speaker",
         "en": "This is the map of Copper Mountain.",
         "ipa": "/ðɪs ɪz ðə mæp əv ˈkɑːpər ˈmaʊntən./",
@@ -3140,8 +3135,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 443.09,
-        "end": 446.39,
+        "start": 429.59,
+        "end": 432.89,
         "speaker": "Speaker",
         "en": "Some runs are open, but some are closed.",
         "ipa": "/sʌm rʌnz ɑːr ˈoʊpən, bʌt sʌm ɑːr kloʊzd./",
@@ -3156,8 +3151,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 446.43,
-        "end": 447.92,
+        "start": 432.93,
+        "end": 434.42,
         "speaker": "Speaker",
         "en": "But what is a run?",
         "ipa": "/bʌt wʌt ɪz ə rʌn?/",
@@ -3172,8 +3167,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 447.96,
-        "end": 452.54,
+        "start": 434.46,
+        "end": 439.04,
         "speaker": "Speaker",
         "en": "Well, a run is a specific path all the way down the mountain.",
         "ipa": "/wɛl, ə rʌn ɪz ə spəˈsɪfɪk pæθ ɔːl ðə weɪ daʊn ðə ˈmaʊntən./",
@@ -3188,8 +3183,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 452.58,
-        "end": 454.14,
+        "start": 439.08,
+        "end": 440.64,
         "speaker": "Speaker",
         "en": "This is a green run.",
         "ipa": "/ðɪs ɪz ə ɡriːn rʌn./",
@@ -3204,8 +3199,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 454.18,
-        "end": 462.57,
+        "start": 440.68,
+        "end": 449.07,
         "speaker": "Speaker",
         "en": "This is a blue run and this is a red run and they have different colors because some are more difficult than others.",
         "ipa": "/ðɪs ɪz ə bluː rʌn ænd ðɪs ɪz ə rɛd rʌn ænd ðeɪ hæv ˈdɪfərənt ˈkʌlərz bɪˈkəz sʌm ɑːr mɔːr ˈdɪfɪkəlt ðæn ˈʌðərz./",
@@ -3220,8 +3215,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 462.61,
-        "end": 466.82,
+        "start": 449.11,
+        "end": 453.32,
         "speaker": "Speaker",
         "en": "A green run is an easy run, and it's great for beginners.",
         "ipa": "/ə ɡrin rʌn ɪz ən ˈizi rʌn, ænd ɪts ɡreɪt fɔr bɪˈɡɪnərz./",
@@ -3241,8 +3236,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 466.86,
-        "end": 471.98,
+        "start": 453.36,
+        "end": 458.48,
         "speaker": "Speaker",
         "en": "This is a green run, but a blue run is a little bit more difficult.",
         "ipa": "/ðɪs ɪz ə ɡrin rʌn, bʌt ə blu rʌn ɪz ə ˈlɪtəl bɪt mɔr ˈdɪfɪkəlt./",
@@ -3257,8 +3252,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 101,
-        "start": 472.02,
-        "end": 473.8,
+        "start": 458.52,
+        "end": 460.3,
         "speaker": "Speaker",
         "en": "This is a blue run.",
         "ipa": "/ðɪs ɪz ə blu rʌn./",
@@ -3267,8 +3262,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 102,
-        "start": 473.84,
-        "end": 476.4,
+        "start": 460.34,
+        "end": 462.9,
         "speaker": "Speaker",
         "en": "I am going to go down a run.",
         "ipa": "/aɪ æm ˈɡoʊɪŋ tu ɡoʊ daʊn ə rʌn./",
@@ -3283,8 +3278,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 103,
-        "start": 476.44,
-        "end": 485.82,
+        "start": 462.94,
+        "end": 472.32,
         "speaker": "Speaker",
         "en": "We are going down a blue run, and you know it's blue because it says Wind Song, and it has a blue color, and it says it's more difficult.",
         "ipa": "/wi ɑr ˈɡoʊɪŋ daʊn ə blu rʌn, ænd ju noʊ ɪts blu bɪˈkəz ɪt sɛz wɪnd sɔŋ, ænd ɪt hæz ə blu ˈkʌlər, ænd ɪt sɛz ɪts mɔr ˈdɪfɪkəlt./",
@@ -3299,8 +3294,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 104,
-        "start": 485.86,
-        "end": 488.51,
+        "start": 472.36,
+        "end": 475.01,
         "speaker": "Speaker",
         "en": "So, let's go down the more difficult run.",
         "ipa": "/soʊ, lɛts ɡoʊ daʊn ðə mɔr ˈdɪfɪkəlt rʌn./",
@@ -3320,8 +3315,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 105,
-        "start": 488.55,
-        "end": 496.1,
+        "start": 475.05,
+        "end": 482.6,
         "speaker": "Speaker",
         "en": "I'll see you guys down there.",
         "ipa": "/aɪl si ju ɡaɪz daʊn ðɛr./",
@@ -7061,8 +7056,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
-    "durationSec": 350,
-    "durationLabel": "05:50",
+    "durationSec": 343,
+    "durationLabel": "05:43",
     "date": "2026/11/21",
     "tags": [
       "日常对话",
@@ -7070,18 +7065,14 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "日常对话",
     "skipRanges": [
       [
-        13.19,
-        20.35
-      ],
-      [
-        349.41,
-        350.0
+        342.25,
+        343.0
       ]
     ],
     "sentences": [
@@ -7151,8 +7142,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 20.35,
-        "end": 21.51,
+        "start": 13.19,
+        "end": 14.35,
         "speaker": "Speaker",
         "en": "Hi, what's your name?",
         "ipa": "/haɪ, wʌts jʊr neɪm? -maɪ neɪmz ˈɔstɪn/",
@@ -7161,8 +7152,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 21.55,
-        "end": 22.57,
+        "start": 14.39,
+        "end": 15.41,
         "speaker": "Speaker",
         "en": "-My name's Austin.",
         "ipa": "",
@@ -7177,8 +7168,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 22.61,
-        "end": 24.68,
+        "start": 15.45,
+        "end": 17.52,
         "speaker": "Speaker",
         "en": "Hi Austin, what do you do for a living?",
         "ipa": "/haɪ ˈɔstɪn, wʌt du jʊ du fɔr ə ˈlɪvɪŋ? -aɪ wɜrk ˈdaʊnˌtaʊn æt dɪˈvɪʒənz ˈmeɪntənəns ɡrup/",
@@ -7198,8 +7189,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 24.72,
-        "end": 34.37,
+        "start": 17.56,
+        "end": 27.21,
         "speaker": "Speaker",
         "en": "-I work downtown at Division's Maintenance Group, and I manage a book of business for various different clients, and I help them with their facility maintenance.",
         "ipa": "/ənd aɪ ˈmænɪʤ ə bʊk ʌv ˈbɪznəs fɔr ˈvɛriəs ˈdɪfərənt ˈklaɪənts, ənd aɪ hɛlp ðɛm wɪð ðɛr fəˈsɪləti ˈmeɪntənəns/",
@@ -7219,8 +7210,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 34.41,
-        "end": 40.73,
+        "start": 27.25,
+        "end": 33.57,
         "speaker": "Speaker",
         "en": "When Americans ask \"What do you do for a living?\" they want to find out your job and what you do for work.",
         "ipa": "/wɛn əˈmɛrɪkənz æsk \"wʌt du jʊ du fɔr ə ˈlɪvɪŋ?\" ðeɪ wɑnt tu faɪnd aʊt jʊr ʤɑb ənd wʌt jʊ du fɔr wɜrk/",
@@ -7235,8 +7226,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 40.77,
-        "end": 42.54,
+        "start": 33.61,
+        "end": 35.38,
         "speaker": "Speaker",
         "en": "What's your favorite part about your job?",
         "ipa": "/wʌts jʊr ˈfeɪvərɪt pɑrt əˈbaʊt jʊr ʤɑb? -ˈprɑbəbli maɪ ˈfeɪvərɪt pɑrt ɪz ʤʌst ˈsiɪŋ maɪ ˈklaɪənts riˈækʃən wɛn aɪ sɑlv ə ˈprɑbləm fɔr ðɛm/",
@@ -7251,8 +7242,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 42.58,
-        "end": 46.79,
+        "start": 35.42,
+        "end": 39.63,
         "speaker": "Speaker",
         "en": "-Probably my favorite part is just seeing my clients' reaction when I solve a problem for them.",
         "ipa": "",
@@ -7267,8 +7258,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 46.83,
-        "end": 48.99,
+        "start": 39.67,
+        "end": 41.83,
         "speaker": "Speaker",
         "en": "And then what kind of projects do you work on?",
         "ipa": "/ənd ðɛn wʌt kaɪnd ʌv ˈprɑʤɛkts du jʊ wɜrk ɑn? -wɛl, raɪt naʊ aɪ woʊnt seɪ ðeɪ neɪm, bʌt aɪ wɜrk/",
@@ -7283,8 +7274,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 49.03,
-        "end": 55.76,
+        "start": 41.87,
+        "end": 48.6,
         "speaker": "Speaker",
         "en": "-Well, right now I won't say the name, but I work for a donut company, and I help them out with making sure their donut line's running.",
         "ipa": "/fɔr ə ˈdoʊnət ˈkʌmpəni, ənd aɪ hɛlp ðɛm aʊt wɪð ˈmeɪkɪŋ ʃʊr ðɛr ˈdoʊnət laɪnz ˈrʌnɪŋ/",
@@ -7299,8 +7290,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 55.8,
-        "end": 57.57,
+        "start": 48.64,
+        "end": 50.41,
         "speaker": "Speaker",
         "en": "How many hours do you work each week?",
         "ipa": "/haʊ ˈmɛni ˈaʊərz du jʊ wɜrk iʧ wik? -aɪm ˈpʊʃɪŋ laɪk ˈsɛvənti ˈaʊərz pɜr wik raɪt naʊ/",
@@ -7315,8 +7306,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 57.61,
-        "end": 59.85,
+        "start": 50.45,
+        "end": 52.69,
         "speaker": "Speaker",
         "en": "-I'm pushing like 70 hours per week right now.",
         "ipa": "",
@@ -7331,8 +7322,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 59.89,
-        "end": 61.08,
+        "start": 52.73,
+        "end": 53.92,
         "speaker": "Speaker",
         "en": "Just a lot of after-hours.",
         "ipa": "/ʤʌst ə lɑt ʌv ˈæftərˌaʊərz/",
@@ -7347,8 +7338,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 61.12,
-        "end": 64.1,
+        "start": 53.96,
+        "end": 56.94,
         "speaker": "Speaker",
         "en": "Sounds like you work a lot, and then how much do you earn each year?",
         "ipa": "/saʊndz laɪk jʊ wɜrk ə lɑt, ənd ðɛn haʊ mʌʧ du jʊ ɜrn iʧ jɪr/",
@@ -7363,8 +7354,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 64.14,
-        "end": 66.26,
+        "start": 56.98,
+        "end": 59.1,
         "speaker": "Speaker",
         "en": "Right now I'm tracking towards $115,000.",
         "ipa": "/raɪt naʊ aɪm ˈtrækɪŋ təˈwɔrdz ˈwʌn ˈhʌndrəd ˈfɪftɪˈθaʊzənd ˈdɑlɚz/",
@@ -7379,8 +7370,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 66.3,
-        "end": 67.42,
+        "start": 59.14,
+        "end": 60.26,
         "speaker": "Speaker",
         "en": "Hi, what's your name?",
         "ipa": "/haɪ, wʌts jʊr neɪm? -mɪʧ ˈkaɪzər/",
@@ -7395,8 +7386,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 67.46,
-        "end": 68.23,
+        "start": 60.3,
+        "end": 61.07,
         "speaker": "Speaker",
         "en": "-Mitch Keiser.",
         "ipa": "",
@@ -7416,8 +7407,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 68.27,
-        "end": 70.38,
+        "start": 61.11,
+        "end": 63.22,
         "speaker": "Speaker",
         "en": "Hi Mitch, what do you do for a living?",
         "ipa": "/haɪ mɪʧ, wʌt du jʊ du fɔr ə ˈlɪvɪŋ? -aɪ wɜrk fɔr proʊ ˈfʊtˌbɔl ˈfoʊkəs/",
@@ -7437,8 +7428,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 70.42,
-        "end": 72.17,
+        "start": 63.26,
+        "end": 65.01,
         "speaker": "Speaker",
         "en": "-I work for Pro Football Focus.",
         "ipa": "",
@@ -7453,8 +7444,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 72.21,
-        "end": 75.87,
+        "start": 65.05,
+        "end": 68.71,
         "speaker": "Speaker",
         "en": "I'm a college football analyst for PFF here in Cincinnati.",
         "ipa": "/aɪm ə ˈkɑlɪʤ ˈfʊtˌbɔl ˈænəlɪst fɔr pi-ɛf-ɛf hir ɪn ˌsɪnsəˈnæti/",
@@ -7469,8 +7460,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 75.91,
-        "end": 77.7,
+        "start": 68.75,
+        "end": 70.54,
         "speaker": "Speaker",
         "en": "What's your favorite part about your job?",
         "ipa": "/wʌts jʊr ˈfeɪvərɪt pɑrt əˈbaʊt jʊr ʤɑb? -ˈɡɛtɪŋ tu wɑʧ ˈɛvri ˈkɑlɪʤ ˈfʊtˌbɔl ɡeɪm ənd ðɛn raɪt əˈbaʊt ɪt ˈleɪtər ɑn/",
@@ -7485,8 +7476,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 77.74,
-        "end": 81.27,
+        "start": 70.58,
+        "end": 74.11,
         "speaker": "Speaker",
         "en": "-Getting to watch every college football game and then write about it later on.",
         "ipa": "",
@@ -7501,8 +7492,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 81.31,
-        "end": 83.26,
+        "start": 74.15,
+        "end": 76.1,
         "speaker": "Speaker",
         "en": "I write articles covering college football.",
         "ipa": "/aɪ raɪt ˈɑrtɪkəlz ˈkʌvərɪŋ ˈkɑlɪʤ ˈfʊtˌbɔl/",
@@ -7517,8 +7508,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 83.3,
-        "end": 85.33,
+        "start": 76.14,
+        "end": 78.17,
         "speaker": "Speaker",
         "en": "And what's your favorite article you've written?",
         "ipa": "/ənd wʌts jʊr ˈfeɪvərɪt ˈɑrtɪkəl jʊv ˈrɪtən? -aɪ roʊt ən ˈɑrtɪkəl læst fɔl əˈbaʊt waɪ ˈmaɪkəl ˈpɛnɪks ʃʊd həv wʌn ðə ˈhaɪzmən/",
@@ -7538,8 +7529,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 85.37,
-        "end": 88.91,
+        "start": 78.21,
+        "end": 81.75,
         "speaker": "Speaker",
         "en": "-I wrote an article last fall about why Michael Penix should have won the Heisman.",
         "ipa": "",
@@ -7554,8 +7545,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 88.95,
-        "end": 92.8,
+        "start": 81.79,
+        "end": 85.64,
         "speaker": "Speaker",
         "en": "I was pretty happy about it, and then he played really well, so that's probably my favorite article.",
         "ipa": "/aɪ wʌz ˈprɪti ˈhæpi əˈbaʊt ɪt, ənd ðɛn hi pleɪd ˈrɪli wɛl, soʊ ðæts ˈprɑbəbli maɪ ˈfeɪvərɪt ˈɑrtɪkəl/",
@@ -7570,8 +7561,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 92.84,
-        "end": 94.83,
+        "start": 85.68,
+        "end": 87.67,
         "speaker": "Speaker",
         "en": "How many hours a week do you work?",
         "ipa": "/haʊ ˈmɛni ˈaʊərz ə wik du jʊ wɜrk? -ˈfɔrti/",
@@ -7586,8 +7577,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 95.15,
-        "end": 96.83,
+        "start": 87.99,
+        "end": 89.67,
         "speaker": "Speaker",
         "en": "Sometimes more in the season.",
         "ipa": "/ˈsʌmˌtaɪmz mɔr ɪn ðə ˈsizən/",
@@ -7602,8 +7593,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 96.87,
-        "end": 103.28,
+        "start": 89.71,
+        "end": 96.12,
         "speaker": "Speaker",
         "en": "Summertimes you get probably less than 40 'cuz it's off-season, and then when fall rolls around, probably like 60 hours some weeks.",
         "ipa": "/ˈsʌmərˌtaɪmz jʊ ɡɛt ˈprɑbəbli lɛs ðæn ˈfɔrti kəz ɪts ˈɔfˌsizən, ənd ðɛn wɛn fɔl roʊlz əˈraʊnd, ˈprɑbəbli laɪk ˈsɪsti ˈaʊərz sʌm wiks/",
@@ -7618,8 +7609,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 103.32,
-        "end": 110.05,
+        "start": 96.16,
+        "end": 102.89,
         "speaker": "Speaker",
         "en": "In the U.S. a standard work week is 40 hours, usually 8 hours a day, 5 days a week.",
         "ipa": "/ɪn ðə ju-ɛs ə ˈstændərd wɜrk wik ɪz ˈfɔrti ˈaʊərz, ˈjuʒuəli eɪt ˈaʊərz ə deɪ, faɪv deɪz ə wik/",
@@ -7634,8 +7625,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 110.09,
-        "end": 114.28,
+        "start": 102.93,
+        "end": 107.12,
         "speaker": "Speaker",
         "en": "If you work more than 40 hours, that's overtime, and you get paid extra.",
         "ipa": "/ɪf jʊ wɜrk mɔr ðæn ˈfɔrti ˈaʊərz, ðæts ˈoʊvərˌtaɪm, ənd jʊ ɡɛt peɪd ˈɛkstrə/",
@@ -7650,8 +7641,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 114.32,
-        "end": 122.35,
+        "start": 107.16,
+        "end": 115.19,
         "speaker": "Speaker",
         "en": "For example, if you make $10 an hour, overtime is time and a half, so for every hour worked over 40 you'd make $15.",
         "ipa": "/fɔr ɪɡˈzæmpəl, ɪf jʊ meɪk ˈtɛn ˈdɑlɚz ən ˈaʊər, ˈoʊvərˌtaɪm ɪz taɪm ənd ə hæp, soʊ fɔr ˈɛvri ˈaʊər wɜrkt ˈoʊvər ˈfɔrti jʊd meɪk ˈfɪftiːn ˈdɑlɚz/",
@@ -7666,8 +7657,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 122.39,
-        "end": 124.56,
+        "start": 115.23,
+        "end": 117.4,
         "speaker": "Speaker",
         "en": "How much do you earn each year?",
         "ipa": "/haʊ mʌʧ du jʊ ɜrn iʧ jɪr? -nɑt ɪˈnʌf/",
@@ -7682,8 +7673,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 124.6,
-        "end": 125.46,
+        "start": 117.44,
+        "end": 118.3,
         "speaker": "Speaker",
         "en": "-Not enough.",
         "ipa": "",
@@ -7698,8 +7689,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 125.5,
-        "end": 126.24,
+        "start": 118.34,
+        "end": 119.08,
         "speaker": "Speaker",
         "en": "Not enough.",
         "ipa": "/nɑt ɪˈnʌf/",
@@ -7714,8 +7705,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 126.28,
-        "end": 127.79,
+        "start": 119.12,
+        "end": 120.63,
         "speaker": "Speaker",
         "en": "I'm going to say that.",
         "ipa": "/aɪm ˈɡoʊɪŋ tu seɪ ðæt/",
@@ -7730,8 +7721,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 127.83,
-        "end": 130.33,
+        "start": 120.67,
+        "end": 123.17,
         "speaker": "Speaker",
         "en": "What's the minimum you could earn if you just started out?",
         "ipa": "/wʌts ðə ˈmɪnəməm jʊ kʊd ɜrn ɪf jʊ ʤʌst ˈstɑrtɪd aʊt/",
@@ -7746,8 +7737,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 130.37,
-        "end": 133.39,
+        "start": 123.21,
+        "end": 126.23,
         "speaker": "Speaker",
         "en": "Probably like 30k would be the minimum (like the lowest).",
         "ipa": "/ˈprɑbəbli laɪk ˈθɜrti-keɪ wʊd bi ðə ˈmɪnəməm (laɪk ðə ˈloʊəst)/",
@@ -7762,8 +7753,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 133.43,
-        "end": 136.35,
+        "start": 126.27,
+        "end": 129.19,
         "speaker": "Speaker",
         "en": "I make a little more than that, but not great, you know.",
         "ipa": "/aɪ meɪk ə ˈlɪtəl mɔr ðæn ðæt, bʌt nɑt ɡreɪt, jʊ noʊ/",
@@ -7778,8 +7769,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 136.39,
-        "end": 137.39,
+        "start": 129.23,
+        "end": 130.23,
         "speaker": "Speaker",
         "en": "Hi, what's your name?",
         "ipa": "/haɪ, wʌts jʊr neɪm? -haɪ, maɪ neɪmz ˈkeɪti/",
@@ -7788,8 +7779,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 137.43,
-        "end": 138.46,
+        "start": 130.27,
+        "end": 131.3,
         "speaker": "Speaker",
         "en": "-Hi, my name's Katie.",
         "ipa": "",
@@ -7804,8 +7795,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 138.5,
-        "end": 140.58,
+        "start": 131.34,
+        "end": 133.42,
         "speaker": "Speaker",
         "en": "Hi Katie, what do you do for a living?",
         "ipa": "/haɪ ˈkeɪti, wʌt du du fɔːr ə ˈlɪvɪŋ? - aɪ əm ə ˈsɜːvər./",
@@ -7820,8 +7811,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 140.62,
-        "end": 141.51,
+        "start": 133.46,
+        "end": 134.35,
         "speaker": "Speaker",
         "en": "- I am a server.",
         "ipa": "",
@@ -7836,8 +7827,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 141.55,
-        "end": 143.94,
+        "start": 134.39,
+        "end": 136.78,
         "speaker": "Speaker",
         "en": "And what's your favorite part about your job?",
         "ipa": "/ænd wʌts jʊər ˈfeɪvərɪt pɑːrt əˈbaʊt jʊər ʤɑːb? - aɪ miːt soʊ ˈmɛni kuːl ˈpiːpəl./",
@@ -7852,8 +7843,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 143.98,
-        "end": 145.54,
+        "start": 136.82,
+        "end": 138.38,
         "speaker": "Speaker",
         "en": "- I meet so many cool people.",
         "ipa": "",
@@ -7868,8 +7859,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 145.58,
-        "end": 152.92,
+        "start": 138.42,
+        "end": 145.76,
         "speaker": "Speaker",
         "en": "Especially being downtown, I feel like it's such a wide variety of people that I get and it's just really cool to meet so many different kinds of people.",
         "ipa": "/ɪˈspɛʃli ˈbiːɪŋ ˈdaʊnˌtaʊn, aɪ fiːl laɪk ɪts sʌʧ ə waɪd vəˈraɪəti əv ˈpiːpəl ðæt aɪ gɛt ænd ɪts ʤʌst ˈriːəli kuːl tuː miːt soʊ ˈmɛni ˈdɪfərənt kaɪndz əv ˈpiːpəl./",
@@ -7894,8 +7885,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 152.96,
-        "end": 155.02,
+        "start": 145.8,
+        "end": 147.86,
         "speaker": "Speaker",
         "en": "What do you do every day for your job?",
         "ipa": "/wʌt du du ˈɛvri deɪ fɔːr jʊər ʤɑːb? - aɪ goʊ əˈraʊnd, aɪ gɛt ˈteɪbəlz, ænd aɪ ˈbeɪsɪkli/",
@@ -7904,8 +7895,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 155.06,
-        "end": 164.73,
+        "start": 147.9,
+        "end": 157.57,
         "speaker": "Speaker",
         "en": "- I go around, I get tables, and I basically just take their food and drink order, chat it up with them, and have a good time, do anything they need, fill up their waters, keep them happy.",
         "ipa": "/ʤʌst teɪk ðɛr fuːd ænd drɪŋk ˈɔːrdər, ʧæt ɪt ʌp wɪð ðɛm, ænd hæv ə gʊd taɪm du ˈɛniˌθɪŋ ðeɪ niːd, fɪl ʌp ðɛr ˈwɔtərz, kiːp ðɛm ˈhæpi./",
@@ -7930,8 +7921,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 164.77,
-        "end": 167.46,
+        "start": 157.61,
+        "end": 160.3,
         "speaker": "Speaker",
         "en": "And then what's your least favorite part about your job?",
         "ipa": "/ænd ðɛn wʌts jʊər liːst ˈfeɪvərɪt pɑːrt əˈbaʊt jʊər ʤɑːb? - ˈsʌmtaɪmz ɪt gɛts ˈriːəli ˌoʊvərˈwɛlmɪŋ./",
@@ -7946,8 +7937,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 167.5,
-        "end": 169.45,
+        "start": 160.34,
+        "end": 162.29,
         "speaker": "Speaker",
         "en": "- Sometimes it gets really overwhelming.",
         "ipa": "",
@@ -7962,8 +7953,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 169.49,
-        "end": 173.35,
+        "start": 162.33,
+        "end": 166.19,
         "speaker": "Speaker",
         "en": "I love to multitask, but sometimes it's like I'm not an octopus.",
         "ipa": "/aɪ lʌv tuː ˌmʌltiˈtæsk, bʌt ˈsʌmtaɪmz ɪts laɪk aɪm nɑːt ən ˈɑktəpʊs./",
@@ -7983,8 +7974,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 173.39,
-        "end": 179.34,
+        "start": 166.23,
+        "end": 172.18,
         "speaker": "Speaker",
         "en": "It's hard to do 20 million things at once, but that's not always all the time; that's just really busy days.",
         "ipa": "/ɪts hɑːrd tuː duː ˈtwɛnti ˈmɪljən θɪŋz æt wʌns, bʌt ðæts nɑːt ˈɔlweɪz ɔːl ðə taɪm; ðæts ʤʌst ˈriːəli ˈbɪzi deɪz./",
@@ -8004,8 +7995,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 179.38,
-        "end": 180.76,
+        "start": 172.22,
+        "end": 173.6,
         "speaker": "Speaker",
         "en": "It can be overwhelming for sure.",
         "ipa": "/ɪt kæn biː ˌoʊvərˈwɛlmɪŋ fɔːr ʃʊr./",
@@ -8020,8 +8011,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 180.8,
-        "end": 182.54,
+        "start": 173.64,
+        "end": 175.38,
         "speaker": "Speaker",
         "en": "How many hours each week do you work?",
         "ipa": "/haʊ ˈmɛni ˈaʊərz iːʧ wiːk du jʊ wɜːrk? - raɪt naʊ, aɪm ˈduːɪŋ əˈbaʊt ˈfɔrti./",
@@ -8036,8 +8027,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 182.58,
-        "end": 184.12,
+        "start": 175.42,
+        "end": 176.96,
         "speaker": "Speaker",
         "en": "- Right now, I'm doing about 40.",
         "ipa": "",
@@ -8052,8 +8043,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 184.16,
-        "end": 188.67,
+        "start": 177.0,
+        "end": 181.51,
         "speaker": "Speaker",
         "en": "During the school year I do like 25-30 hours, so a few days a week.",
         "ipa": "/ˈdʊrɪŋ ðə skuːl jɪr aɪ duː laɪk ˈtwɛnti-faɪv - ˈθɜrti ˈaʊərz, soʊ ə fjuː deɪz ə wiːk./",
@@ -8073,8 +8064,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 188.71,
-        "end": 189.93,
+        "start": 181.55,
+        "end": 182.77,
         "speaker": "Speaker",
         "en": "Okay, so you're a student as well?",
         "ipa": "/oʊˈkeɪ, soʊ jʊr ə ˈstudənt æz wɛl? - jæ./",
@@ -8089,8 +8080,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 189.97,
-        "end": 190.23,
+        "start": 182.81,
+        "end": 183.07,
         "speaker": "Speaker",
         "en": "- Yeah.",
         "ipa": "",
@@ -8099,8 +8090,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 190.27,
-        "end": 191.04,
+        "start": 183.11,
+        "end": 183.88,
         "speaker": "Speaker",
         "en": "What do you study?",
         "ipa": "/wʌt du jʊ ˈstʌdi? - ʌm./",
@@ -8115,8 +8106,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 191.08,
-        "end": 191.3,
+        "start": 183.92,
+        "end": 184.14,
         "speaker": "Speaker",
         "en": "- Um.",
         "ipa": "",
@@ -8125,8 +8116,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 191.34,
-        "end": 192.09,
+        "start": 184.18,
+        "end": 184.93,
         "speaker": "Speaker",
         "en": "Speech Pathology.",
         "ipa": "/spiːʧ pəˈθɑləʤi./",
@@ -8141,8 +8132,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 192.13,
-        "end": 193.27,
+        "start": 184.97,
+        "end": 186.11,
         "speaker": "Speaker",
         "en": "I just graduated, yeah.",
         "ipa": "/aɪ ʤʌst ˈgræʤuˌeɪtɪd, jæ. - oʊ kənˈgræts!/",
@@ -8157,8 +8148,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 193.31,
-        "end": 194.03,
+        "start": 186.15,
+        "end": 186.87,
         "speaker": "Speaker",
         "en": "- Oh congrats!",
         "ipa": "",
@@ -8173,8 +8164,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 194.07,
-        "end": 196.29,
+        "start": 186.91,
+        "end": 189.13,
         "speaker": "Speaker",
         "en": "And then how much do you earn each year?",
         "ipa": "/ænd ðɛn haʊ mʌʧ du jʊ ɜːrn iːʧ jɪr? - iːʧ jɪr aɪ θɪŋk ɪf aɪ wəz ˈwɜrkɪŋ fʊl-taɪm/",
@@ -8189,8 +8180,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 196.33,
-        "end": 209.77,
+        "start": 189.17,
+        "end": 202.61,
         "speaker": "Speaker",
         "en": "- Each year I think if I was working full-time it would be a lot more, but I think this year it was like $25,000, $22,000-$25,000 um and that's with full-time in the summer and then part-time during the school year.",
         "ipa": "/ɪt wʊd biː ə lɑt mɔːr, bʌt aɪ θɪŋk ðɪs jɪr ɪt wəz laɪk ˈtwɛnti-faɪv ˈθaʊzənd, ˈtwɛnti-tuː ˈθaʊzənd - ˈtwɛnti-faɪv ˈθaʊzənd ʌm ænd ðæts wɪð fʊl-taɪm ɪn ðə ˈsʌmər ænd ðɛn pɑːrt-taɪm ˈdʊrɪŋ ðə skuːl jɪr./",
@@ -8215,8 +8206,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 209.81,
-        "end": 218.43,
+        "start": 202.65,
+        "end": 211.27,
         "speaker": "Speaker",
         "en": "If you work full-time that means you work around 30 to 40 hours a week and you often get benefits like health insurance and paid time off.",
         "ipa": "/ɪf jʊ wɜːrk fʊl-taɪm ðæt miːnz jʊ wɜːrk əˈraʊnd ˈθɜrti tuː ˈfɔrti ˈaʊərz ə wiːk ænd jʊ ˈɔfən gɛt ˈbɛnəfɪts laɪk hɛlθ ɪnˈʃʊrəns ænd peɪd taɪm ɔf./",
@@ -8236,8 +8227,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 218.47,
-        "end": 223.66,
+        "start": 211.31,
+        "end": 216.5,
         "speaker": "Speaker",
         "en": "Katie works part-time so she works fewer hours, usually 20 hours or less a week.",
         "ipa": "/ˈkeɪti wɜːrks pɑːrt-taɪm soʊ ʃiː wɜːrks ˈfjuːər ˈaʊərz, ˈjuːʒuəli ˈtwɛnti ˈaʊərz ɔːr lɛs ə wiːk./",
@@ -8257,8 +8248,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 223.7,
-        "end": 224.59,
+        "start": 216.54,
+        "end": 217.43,
         "speaker": "Speaker",
         "en": "Hi, what's your name?",
         "ipa": "/haɪ, wʌts jʊər neɪm? - haɪ, maɪ neɪm ɪz ˈkæmərən./",
@@ -8273,8 +8264,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 224.63,
-        "end": 225.73,
+        "start": 217.47,
+        "end": 218.57,
         "speaker": "Speaker",
         "en": "- Hi, my name is Cameron.",
         "ipa": "",
@@ -8289,8 +8280,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 225.77,
-        "end": 227.79,
+        "start": 218.61,
+        "end": 220.63,
         "speaker": "Speaker",
         "en": "Hi Cameron, what do you do for a living?",
         "ipa": "/haɪ ˈkæmərən, wʌt du du fɔːr ə ˈlɪvɪŋ? - ˈkɜrəntli, aɪ wɜrk hɪər æt ˈstɑːrbʌks æt ˈfaɪv ˈeɪti./",
@@ -8310,8 +8301,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 227.83,
-        "end": 230.14,
+        "start": 220.67,
+        "end": 222.98,
         "speaker": "Speaker",
         "en": "- Currently, I work here at Starbucks at 580.",
         "ipa": "",
@@ -8331,8 +8322,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 230.18,
-        "end": 231.97,
+        "start": 223.02,
+        "end": 224.81,
         "speaker": "Speaker",
         "en": "What do you do for your job?",
         "ipa": "/wʌt du du fɔːr jʊər ʤɑːb? - aɪm ə bəˈristə./",
@@ -8341,8 +8332,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 232.01,
-        "end": 233.05,
+        "start": 224.85,
+        "end": 225.89,
         "speaker": "Speaker",
         "en": "- I'm a barista.",
         "ipa": "",
@@ -8357,8 +8348,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 233.09,
-        "end": 237.87,
+        "start": 225.93,
+        "end": 230.71,
         "speaker": "Speaker",
         "en": "I make coffees, do food here, bring out customers, and make sure everybody's met with what they need.",
         "ipa": "/aɪ meɪk ˈkɑfiz, du fuːd hɪər, brɪŋ aʊt ˈkʌstəmərz, ænd meɪk ʃʊr ˈɛvribɑdiz mɛt wɪð wʌt ðeɪ niːd./",
@@ -8378,8 +8369,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 237.91,
-        "end": 239.72,
+        "start": 230.75,
+        "end": 232.56,
         "speaker": "Speaker",
         "en": "What's your favorite part about your job?",
         "ipa": "/wʌts jʊər ˈfeɪvərɪt pɑːrt əˈbaʊt jʊər ʤɑːb? - wɪð ðə ˈkʌstəmərz fɔːr ʃʊr, ˈgɛtɪŋ tuː/",
@@ -8394,8 +8385,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 239.76,
-        "end": 245.27,
+        "start": 232.6,
+        "end": 238.11,
         "speaker": "Speaker",
         "en": "- With the customers for sure, getting to know people as they come in, and just being able to make those connections with everybody.",
         "ipa": "/noʊ ˈpiːpəl æz ðeɪ kʌm ɪn, ænd ʤʌst ˈbiːɪŋ ˈeɪbəl tuː meɪk ðoʊz kəˈnɛkʃənz wɪð ˈɛvribɑdi./",
@@ -8420,8 +8411,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 245.31,
-        "end": 247.38,
+        "start": 238.15,
+        "end": 240.22,
         "speaker": "Speaker",
         "en": "And then what's the least favorite part about your job?",
         "ipa": "/ænd ðɛn wʌts ðə liːst ˈfeɪvərɪt pɑːrt əˈbaʊt jʊər ʤɑːb? - aɪm ˈgɑnə hɪt ɪt wɪð ə ˈlɪtəl kəˈmɛdɪk ʤoʊk, aɪ wʊd seɪ ˈdɪʃəz./",
@@ -8436,8 +8427,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 247.42,
-        "end": 249.95,
+        "start": 240.26,
+        "end": 242.79,
         "speaker": "Speaker",
         "en": "- I'm gonna hit it with a little comedic joke, I would say dishes.",
         "ipa": "",
@@ -8452,8 +8443,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 249.99,
-        "end": 250.63,
+        "start": 242.83,
+        "end": 243.47,
         "speaker": "Speaker",
         "en": "Dishes?",
         "ipa": "/ˈdɪʃəz? - jæ./",
@@ -8468,8 +8459,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 250.67,
-        "end": 251.34,
+        "start": 243.51,
+        "end": 244.18,
         "speaker": "Speaker",
         "en": "- Yeah.",
         "ipa": "",
@@ -8478,8 +8469,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 251.38,
-        "end": 253.24,
+        "start": 244.22,
+        "end": 246.08,
         "speaker": "Speaker",
         "en": "How many hours do you work each week?",
         "ipa": "/haʊ ˈmɛni ˈaʊərz du jʊ wɜːrk iːʧ wiːk? - aɪ wɜːrk əˈbaʊt ˈθɜrti tuː ˈθɜrti-faɪv ˈaʊərz ə wiːk./",
@@ -8494,8 +8485,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 253.28,
-        "end": 255.19,
+        "start": 246.12,
+        "end": 248.03,
         "speaker": "Speaker",
         "en": "- I work about 30 to 35 hours a week.",
         "ipa": "",
@@ -8510,8 +8501,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 255.23,
-        "end": 256.35,
+        "start": 248.07,
+        "end": 249.19,
         "speaker": "Speaker",
         "en": "How much do you earn?",
         "ipa": "/haʊ mʌʧ du jʊ ɜːrn?/",
@@ -8526,8 +8517,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 256.39,
-        "end": 258.9,
+        "start": 249.23,
+        "end": 251.74,
         "speaker": "Speaker",
         "en": "Right now I'm currently making $16.75 an hour.",
         "ipa": "/raɪt naʊ aɪm ˈkɜrəntli ˈmeɪkɪŋ ˈsɪkˈstin ˈsɛvənti-faɪv ˈdɑlərz ən ˈaʊər./",
@@ -8547,8 +8538,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 258.94,
-        "end": 264.02,
+        "start": 251.78,
+        "end": 256.86,
         "speaker": "Speaker",
         "en": "\"How much do you earn?\" is just a way of asking someone how much money they make.",
         "ipa": "/\"haʊ mʌʧ du jʊ ɜːrn?\" ɪz ʤʌst ə weɪ əv ˈæskɪŋ ˈsʌmwʌn haʊ mʌʧ ˈmʌni ðeɪ meɪk./",
@@ -8563,8 +8554,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 264.06,
-        "end": 268.81,
+        "start": 256.9,
+        "end": 261.65,
         "speaker": "Speaker",
         "en": "Also, Cameron gets paid by the hour, so he earns more if he works more hours.",
         "ipa": "/ˈɔlsoʊ, ˈkæmərən gɛts peɪd baɪ ði ˈaʊər, soʊ hiː ɜːrnz mɔːr ɪf hiː wɜːrks mɔːr ˈaʊərz./",
@@ -8584,8 +8575,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 268.85,
-        "end": 275.96,
+        "start": 261.69,
+        "end": 268.8,
         "speaker": "Speaker",
         "en": "Another way to get paid is with a salary, where you get paid the same amount every pay period no matter how many hours you work.",
         "ipa": "/əˈnʌðər weɪ tu ɡɛt peɪd ɪz wɪð ə ˈsæləri, wɛr ju ɡɛt peɪd ðə seɪm əˈmaʊnt ˈɛvri peɪ ˈpɪriəd noʊ ˈmætər haʊ ˈmɛni ˈaʊərz ju wɜrk./",
@@ -8605,8 +8596,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 276.0,
-        "end": 277.31,
+        "start": 268.84,
+        "end": 270.15,
         "speaker": "Speaker",
         "en": "Hi, what's your name?",
         "ipa": "/haɪ, wʌts jʊr neɪm? - ɔrˈlændoʊ smɪθ./",
@@ -8621,8 +8612,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 277.35,
-        "end": 278.38,
+        "start": 270.19,
+        "end": 271.22,
         "speaker": "Speaker",
         "en": "- Orlando Smith.",
         "ipa": "",
@@ -8642,8 +8633,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 278.42,
-        "end": 280.45,
+        "start": 271.26,
+        "end": 273.29,
         "speaker": "Speaker",
         "en": "Hi Orlando, what do you do for a living?",
         "ipa": "/haɪ ɔrˈlændoʊ, wʌt du ju du fɔr ə ˈlɪvɪŋ? - ˈsɪnsəˌnæti lɔ ˈɛnfɔrsmənt./",
@@ -8658,8 +8649,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 280.49,
-        "end": 281.99,
+        "start": 273.33,
+        "end": 274.83,
         "speaker": "Speaker",
         "en": "- Cincinnati law enforcement.",
         "ipa": "",
@@ -8674,8 +8665,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 282.03,
-        "end": 284.53,
+        "start": 274.87,
+        "end": 277.37,
         "speaker": "Speaker",
         "en": "And then what's your favorite part about your job?",
         "ipa": "/ænd ðɛn wʌts jʊr ˈfeɪvərɪt pɑrt əˈbaʊt jʊr ʒɑb? - ˈfeɪvərɪt pɑrt.../",
@@ -8690,8 +8681,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 284.57,
-        "end": 286.01,
+        "start": 277.41,
+        "end": 278.85,
         "speaker": "Speaker",
         "en": "- Favorite part... Lunchtime.",
         "ipa": "/ˈlʌntʃˌtaɪm./",
@@ -8706,8 +8697,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 286.05,
-        "end": 289.98,
+        "start": 278.89,
+        "end": 282.82,
         "speaker": "Speaker",
         "en": "Lunchtime is good because we do so much; you never know when you're going to get a lunch break.",
         "ipa": "/ˈlʌntʃˌtaɪm ɪz ɡʊd bɪˈkəz wi du soʊ mʌtʃ; ju ˈnɛvər noʊ wɛn jʊr ˈɡoʊɪŋ tu ɡɛt ə lʌntʃ breɪk./",
@@ -8727,8 +8718,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 290.02,
-        "end": 290.34,
+        "start": 282.86,
+        "end": 283.18,
         "speaker": "Speaker",
         "en": "Exactly.",
         "ipa": "/ɪɡˈzæktli. - soʊ ju kʊd bi ɑn ə rʌn fɔr ˈsɛvrəl ˈaʊərz änd jʊr ˈstændɪŋ ðɛr ˈθɪŋkɪŋ.../",
@@ -8743,8 +8734,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 290.38,
-        "end": 296.32,
+        "start": 283.22,
+        "end": 289.16,
         "speaker": "Speaker",
         "en": "- So you could be on a run for several hours and you're standing there thinking... Cheeseburger's going to be great when it's time to eat.",
         "ipa": "/ˈtʃizˌbʌrgərz ˈɡoʊɪŋ tu bi ɡreɪt wɛn ɪts taɪm tu it./",
@@ -8769,8 +8760,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 296.36,
-        "end": 299.1,
+        "start": 289.2,
+        "end": 291.94,
         "speaker": "Speaker",
         "en": "What's your least favorite part about your job?",
         "ipa": "/wʌts jʊr list ˈfeɪvərɪt pɑrt əˈbaʊt jʊr ʒɑb? - oʊ mæn.../",
@@ -8785,8 +8776,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 101,
-        "start": 299.14,
-        "end": 301.65,
+        "start": 291.98,
+        "end": 294.49,
         "speaker": "Speaker",
         "en": "- Oh man... I think seeing so many victims.",
         "ipa": "/aɪ θɪŋk ˈsiɪŋ soʊ ˈmɛni ˈvɪktɪmz./",
@@ -8801,8 +8792,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 102,
-        "start": 301.69,
-        "end": 306.86,
+        "start": 294.53,
+        "end": 299.7,
         "speaker": "Speaker",
         "en": "I think we see so many victims of crimes, it can kind of put you in a not good space in your head.",
         "ipa": "/aɪ θɪŋk wi si soʊ ˈmɛni ˈvɪktɪmz ʌv kraɪmz, ɪt kæn kaɪnd ʌv pʊt ju ɪn ə nɑt ɡʊd speɪs ɪn jʊr hɛd./",
@@ -8822,8 +8813,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 103,
-        "start": 306.9,
-        "end": 308.84,
+        "start": 299.74,
+        "end": 301.68,
         "speaker": "Speaker",
         "en": "And then how many hours do you work each week?",
         "ipa": "/ænd ðɛn haʊ ˈmɛni ˈaʊərz du ju wɜrk iːtʃ wik? - aɪ du tɛn-ˈaʊər deɪz./",
@@ -8838,8 +8829,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 104,
-        "start": 308.88,
-        "end": 309.74,
+        "start": 301.72,
+        "end": 302.58,
         "speaker": "Speaker",
         "en": "- I do 10-hour days.",
         "ipa": "",
@@ -8854,8 +8845,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 105,
-        "start": 309.78,
-        "end": 310.66,
+        "start": 302.62,
+        "end": 303.5,
         "speaker": "Speaker",
         "en": "We do 10-hour shifts.",
         "ipa": "/wi du tɛn-ˈaʊər ʃɪfts./",
@@ -8870,8 +8861,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 106,
-        "start": 310.7,
-        "end": 314.39,
+        "start": 303.54,
+        "end": 307.23,
         "speaker": "Speaker",
         "en": "A shift is a set period of time that you work at your job.",
         "ipa": "/ə ʃɪft ɪz ə sɛt ˈpɪriəd ʌv taɪm ðæt ju wɜrk æt jʊr ʒɑb./",
@@ -8886,8 +8877,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 107,
-        "start": 314.43,
-        "end": 323.34,
+        "start": 307.27,
+        "end": 316.18,
         "speaker": "Speaker",
         "en": "For example, if you work dayshift you might work from 9:00 a.m. to 5:00 p.m., and if you work night shift you might work from 11:00 p.m. to 7:00 a.m.",
         "ipa": "/fɔr ɪɡˈzæmpəl, ɪf ju wɜrk ˈdeɪˌʃɪft ju maɪt wɜrk frʌm naɪn eɪˈɛm tu faɪv piˈɛm, ænd ɪf ju wɜrk naɪt ʃɪft ju maɪt wɜrk frʌm ɪˈlɛvən piˈɛm tu ˈsɛvən eɪˈɛm./",
@@ -8912,8 +8903,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 108,
-        "start": 323.38,
-        "end": 328.02,
+        "start": 316.22,
+        "end": 320.86,
         "speaker": "Speaker",
         "en": "We work four on four off for 3 weeks and we work five on three off for 3 weeks.",
         "ipa": "/wi wɜrk fɔr ɑn fɔr ɔf fɔr θri wiks ænd wi wɜrk faɪv ɑn θri ɔf fɔr θri wiks./",
@@ -8928,8 +8919,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 109,
-        "start": 328.06,
-        "end": 331.13,
+        "start": 320.9,
+        "end": 323.97,
         "speaker": "Speaker",
         "en": "If you don't mind me asking, how much do you earn every year?",
         "ipa": "/ɪf ju doʊnt maɪnd mi ˈæskɪŋ, haʊ mʌtʃ du ju ɜrn ˈɛvri jɪr? - aɪ meɪk əˈraʊnd ə lɪl sɪks ˈfɪɡjərz./",
@@ -8944,8 +8935,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 110,
-        "start": 331.17,
-        "end": 332.96,
+        "start": 324.01,
+        "end": 325.8,
         "speaker": "Speaker",
         "en": "- I make around a lil' six figures.",
         "ipa": "",
@@ -8960,8 +8951,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 111,
-        "start": 333.0,
-        "end": 336.67,
+        "start": 325.84,
+        "end": 329.51,
         "speaker": "Speaker",
         "en": "Six figures means someone makes more than $100,000 a year.",
         "ipa": "/sɪks ˈfɪɡjərz minz ˈsʌmwʌn meɪks mɔr ðæn wʌn ˈhʌndrəd ˈθaʊzənd ə jɪr./",
@@ -8976,8 +8967,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 112,
-        "start": 336.71,
-        "end": 339.62,
+        "start": 329.55,
+        "end": 332.46,
         "speaker": "Speaker",
         "en": "It's a way of saying they make a lot of money.",
         "ipa": "/ɪts ə weɪ ʌv ˈseɪɪŋ ðeɪ meɪk ə lɑt ʌv ˈmʌni./",
@@ -8992,8 +8983,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 113,
-        "start": 339.66,
-        "end": 343.15,
+        "start": 332.5,
+        "end": 335.99,
         "speaker": "Speaker",
         "en": "And then if someone was just starting out, how much would they make as a police officer?",
         "ipa": "/ænd ðɛn ɪf ˈsʌmwʌn wʌz dʒʌst ˈstɑrtɪŋ aʊt, haʊ mʌtʃ wʊd ðeɪ meɪk æz ə pəˈlis ˈɔfɪsər./",
@@ -9013,8 +9004,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 114,
-        "start": 343.19,
-        "end": 346.35,
+        "start": 336.03,
+        "end": 339.19,
         "speaker": "Speaker",
         "en": "I think top out's maybe $80,000 with the city of Cincinnati.",
         "ipa": "/aɪ θɪŋk tɑp aʊts ˈmeɪbi eɪti ˈθaʊzənd wɪð ðə ˈsɪti ʌv ˈsɪnsəˌnæti./",
@@ -9029,8 +9020,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 115,
-        "start": 346.39,
-        "end": 347.82,
+        "start": 339.23,
+        "end": 340.66,
         "speaker": "Speaker",
         "en": "Well, thank you so much, Orlando.",
         "ipa": "/wɛl, θæŋk ju soʊ mʌtʃ, ɔrˈlændoʊ./",
@@ -9045,8 +9036,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 116,
-        "start": 347.86,
-        "end": 348.57,
+        "start": 340.7,
+        "end": 341.41,
         "speaker": "Speaker",
         "en": "Nice to meet you.",
         "ipa": "/naɪs tu mit ju. - ɪts ə ˈplɛʒər./",
@@ -9061,8 +9052,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 117,
-        "start": 348.61,
-        "end": 349.41,
+        "start": 341.45,
+        "end": 342.25,
         "speaker": "Speaker",
         "en": "- It's a pleasure.",
         "ipa": "",
@@ -9338,32 +9329,19 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 2,
-    "durationSec": 234,
-    "durationLabel": "03:54",
+    "durationSec": 188,
+    "durationLabel": "03:08",
     "date": "2026/11/19",
     "tags": [
       "美食"
     ],
     "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.clean.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.clean.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
-    "skipRanges": [
-      [
-        13.4,
-        20.92
-      ],
-      [
-        149.77,
-        152.89
-      ],
-      [
-        154.99,
-        157.39
-      ]
-    ],
+    "skipRanges": [],
     "sentences": [
       {
         "id": 1,
@@ -9383,49 +9361,71 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 20.92,
-        "end": 44.61,
+        "start": 13.4,
+        "end": 24.73,
         "speaker": "Speaker",
-        "en": "I am so full of all the food that I ate inside the store, but now I'm going to show you the third way to order food and that is through the drive-thru, which I actually don't know what I'm going to order because I'm full, so maybe I'll order something for my dad.",
-        "ipa": "/ðæt aɪ eɪt ɪnˈsaɪd ðə stɔr, bʌt naʊ aɪm ˈɡʊɪntu ʃoʊ ju ðə θərd weɪ tu ˈɔrdər fuːd ænd ðæt ɪz θruː ðə ˈdraɪvˌθruː, wɪtʃ aɪ ˈæktʃuəli doʊnt noʊ wʌt aɪm ˈɡʊɪntu ˈɔrdər bɪˈkɔz aɪm fʊl, soʊ ˈmeɪbi aɪl ˈɔrdər ˈsʌmθɪŋ fɔr maɪ dæd. æz ju kən siː, ju ˈɔrdər fuːd θruː/",
-        "zh": "我吃了店里的所有食物，肚子饱得但现在我要向你们展示点餐的第三种方式那就是通过汽车餐厅（得来速），其实我甚至不知道我要点什么，因为我已经饱了，所以也许我会给我爸点点儿东西。",
+        "en": "I am so full of all the food that I ate inside the store.",
+        "ipa": "/aɪ æm soʊ fʊl əv ɔːl ðə fuːd ðæt aɪ eɪt ɪnˈsaɪd ðə stɔːr/",
+        "zh": "我在店里吃了好多东西，现在撑得不行。",
         "highlights": [
-          {
-            "text": "so full",
-            "key": "so full",
-            "chip": "indigo"
-          },
           {
             "text": "inside the store",
             "key": "inside the store",
-            "chip": "indigo"
-          },
-          {
-            "text": "third way",
-            "key": "third way",
-            "chip": "orange"
+            "chip": "teal"
           }
         ]
       },
       {
         "id": 3,
-        "start": 44.65,
-        "end": 55.77,
+        "start": 24.98,
+        "end": 30.53,
         "speaker": "Speaker",
-        "en": "As you can see, you order food through the drive-thru like this truck is doing right now, and it's called drive-thru because you need a car and you drive through it in a lane.",
-        "ipa": "/ðə ˈdraɪvˌθruː laɪk ðɪs trʌk ɪz ˈduɪŋ raɪt naʊ, ænd ɪts kɔld ˈdraɪvˌθruː bɪˈkɔz ju niːd ə kɑr ænd ju draɪv θruː ɪt ɪn ə leɪn. ænd ɪn sʌm ˈlætən əˈmɛrɪkən ˈkʌntriz, ˈdraɪvˌθruː ɪz kɔld/",
-        "zh": "如你所见，你通过得来速点餐，就像这辆卡车现在正在做的那样，它被称为得来速（drive-thru）是因为你需要一辆车，然后你在车道里开过去。",
+        "en": "But now I'm going to show you the third way to order food, and that is through the drive-thru.",
+        "ipa": "/bʌt naʊ aɪm ˈɡoʊɪŋ tə ʃoʊ ju ðə θɜːrd weɪ tu ˈɔːrdər fuːd ænd ðæt ɪz θruː ðə ˈdraɪv θruː/",
+        "zh": "但现在我要带你们看第三种点餐方式，就是免下车得来速点餐。",
         "highlights": [
           {
-            "text": "right now",
-            "key": "right now",
+            "text": "drive-thru",
+            "key": "drive-thru",
             "chip": "indigo"
-          },
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 30.73,
+        "end": 37.09,
+        "speaker": "Speaker",
+        "en": "I actually don't know what I'm going to order because I'm full, so maybe I'll order something for my dad.",
+        "ipa": "/aɪ ˈæktʃuəli doʊnt noʊ wʌt aɪm ˈɡoʊɪŋ tu ˈɔːrdər bɪˈkɔːz aɪm fʊl soʊ ˈmeɪbi aɪl ˈɔːrdər ˈsʌmθɪŋ fɔːr maɪ dæd/",
+        "zh": "其实我也不知道要再点什么，因为我已经很饱了，也许给爸爸点点什么吧。",
+        "highlights": []
+      },
+      {
+        "id": 5,
+        "start": 37.13,
+        "end": 42.38,
+        "speaker": "Speaker",
+        "en": "As you can see, you order food through the drive-thru like this truck is doing right now.",
+        "ipa": "/æz ju kæn siː ju ˈɔːrdər fuːd θruː ðə ˈdraɪv θruː laɪk ðɪs trʌk ɪz ˈduːɪŋ raɪt naʊ/",
+        "zh": "你看，就像前面那辆皮卡现在这样，直接开车走得来速车道点餐。",
+        "highlights": [
           {
-            "text": "because",
-            "key": "because",
-            "chip": "orange"
-          },
+            "text": "As you can see",
+            "key": "as you can see",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 42.58,
+        "end": 48.25,
+        "speaker": "Speaker",
+        "en": "And it's called drive-thru because you need a car and you drive through it in a lane.",
+        "ipa": "/ænd ɪts kɔːld ˈdraɪv θruː bɪˈkɔːz ju niːd ə kɑːr ænd ju draɪv θruː ɪt ɪn ə leɪn/",
+        "zh": "之所以叫 drive-thru，是因为你得开着车，沿着车道一路开过去点单取餐。",
+        "highlights": [
           {
             "text": "drive through",
             "key": "drive through",
@@ -9434,9 +9434,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 4,
-        "start": 55.81,
-        "end": 60.27,
+        "id": 7,
+        "start": 48.29,
+        "end": 52.75,
         "speaker": "Speaker",
         "en": "And in some Latin American countries, drive-thru is called Automac.",
         "ipa": "/ˈɔtəˌmæk. soʊ ɪf jʊər frəm ˈlætən əˈmɛrɪkə ɔr ˈdɪfrənt ˈkʌntriz laɪk ɪn ˈjʊrəp, lɛt mi noʊ/",
@@ -9455,9 +9455,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 5,
-        "start": 60.31,
-        "end": 67.61,
+        "id": 8,
+        "start": 52.79,
+        "end": 60.09,
         "speaker": "Speaker",
         "en": "So if you're from Latin America or different countries like in Europe, let me know what drive-thru is called in your country.",
         "ipa": "/wʌt ˈdraɪvˌθruː ɪz kɔld ɪn jʊər ˈkʌntri. ænd ˈʌðər fæst fuːd ˈrɛstərənts, laɪk ðə wʌn nɛkst/",
@@ -9476,9 +9476,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 6,
-        "start": 67.65,
-        "end": 74.26,
+        "id": 9,
+        "start": 60.13,
+        "end": 66.74,
         "speaker": "Speaker",
         "en": "And other fast food restaurants, like the one next to me, Arby's, it's the same thing; it's called drive-thru.",
         "ipa": "/tu mi, ˈɑrbiz, ɪts ðə seɪm θɪŋ; ɪts kɔld ˈdraɪvˌθruː. soʊ ɪf jʊər ˈjuːzɪŋ jʊər kɑr tu pɪk ʌp/",
@@ -9497,9 +9497,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 7,
-        "start": 74.3,
-        "end": 79.15,
+        "id": 10,
+        "start": 66.78,
+        "end": 71.63,
         "speaker": "Speaker",
         "en": "So if you're using your car to pick up some food, that's called the drive-thru.",
         "ipa": "/sʌm fuːd, ðæts kɔld ðə ˈdraɪvˌθruː. aɪm ˈɡʊɪntu ɡoʊ ɪnˈsaɪd maɪ kɑr ænd ˈɔrdər sʌm fæst/",
@@ -9513,9 +9513,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 8,
-        "start": 79.19,
-        "end": 82.54,
+        "id": 11,
+        "start": 71.67,
+        "end": 75.02,
         "speaker": "Speaker",
         "en": "I'm going to go inside my car and order some fast food.",
         "ipa": "/fuːd. lɛts ɡoʊ! aɪm ˈɡʊɪntu ˈɔrdər sʌm fuːd ɪn ðə ˈdraɪvˌθruː, soʊ aɪm ˈpʊlɪŋ ðə kɑr ˈfɔrwərd/",
@@ -9529,9 +9529,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 9,
-        "start": 82.58,
-        "end": 83.21,
+        "id": 12,
+        "start": 75.06,
+        "end": 75.69,
         "speaker": "Speaker",
         "en": "Let's go!",
         "ipa": "",
@@ -9545,9 +9545,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 10,
-        "start": 83.25,
-        "end": 91.52,
+        "id": 13,
+        "start": 75.73,
+        "end": 84.0,
         "speaker": "Speaker",
         "en": "I'm going to order some food in the drive-thru, so I'm pulling the car forward and going to order at the speaker.",
         "ipa": "/ænd ˈɡʊɪntu ˈɔrdər æt ðə ˈspikər. ju kən siː ə smɔːl ˈmɛnu raɪt hɪr ðæt hæz ˈbeɪkən ræntʃ məkˈkrɪspi, ðeɪ/",
@@ -9566,9 +9566,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 11,
-        "start": 91.56,
-        "end": 101.01,
+        "id": 14,
+        "start": 84.04,
+        "end": 93.49,
         "speaker": "Speaker",
         "en": "You can see a small menu right here that has Bacon Ranch McCrispy, they have a juicy burger, and they have some deals.",
         "ipa": "/hæv ə ˈdʒuːsi ˈbɜrɡər, ænd ðeɪ hæv sʌm diːlz. pliːz, noʊ. ɔl raɪt, wʌt kən aɪ ɡɛt fɔr ju?/",
@@ -9587,9 +9587,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 12,
-        "start": 101.05,
-        "end": 102.04,
+        "id": 15,
+        "start": 93.53,
+        "end": 94.52,
         "speaker": "Speaker",
         "en": "Please, no.",
         "ipa": "",
@@ -9597,9 +9597,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 13,
-        "start": 102.08,
-        "end": 105.27,
+        "id": 16,
+        "start": 94.56,
+        "end": 97.75,
         "speaker": "Speaker",
         "en": "All right, what can I get for you?",
         "ipa": "",
@@ -9613,9 +9613,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 14,
-        "start": 105.31,
-        "end": 107.65,
+        "id": 17,
+        "start": 97.79,
+        "end": 100.13,
         "speaker": "Speaker",
         "en": "Hi, could I have a small ice cream please?",
         "ipa": "/haɪ, kʊd aɪ hæv ə smɔːl aɪs kriːm pliːz? ˈɛniˌθɪŋ ɛls? noʊp, ðæts ɪt fɔr ðə fɜrst ˈwɪndoʊ, θæŋk/",
@@ -9629,9 +9629,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 15,
-        "start": 107.69,
-        "end": 108.44,
+        "id": 18,
+        "start": 100.17,
+        "end": 100.92,
         "speaker": "Speaker",
         "en": "Anything else?",
         "ipa": "",
@@ -9645,9 +9645,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 16,
-        "start": 108.48,
-        "end": 111.19,
+        "id": 19,
+        "start": 100.96,
+        "end": 103.67,
         "speaker": "Speaker",
         "en": "Nope, that's it for the first window, thank you.",
         "ipa": "/ju. æz ju kən siː, aɪ juːz ðə freɪz kʊd aɪ hæv tu ˈɔrdər. aɪ ˈɔrdərd ə smɔːl aɪs kriːm, wɪtʃ kʌmz/",
@@ -9661,9 +9661,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 17,
-        "start": 111.23,
-        "end": 115.13,
+        "id": 20,
+        "start": 103.71,
+        "end": 107.61,
         "speaker": "Speaker",
         "en": "As you can see, I use the phrase \"could I have\" to order.",
         "ipa": "",
@@ -9677,9 +9677,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 18,
-        "start": 115.17,
-        "end": 120.04,
+        "id": 21,
+        "start": 107.65,
+        "end": 112.52,
         "speaker": "Speaker",
         "en": "I ordered a small ice cream, which comes with a cone and ice cream on top.",
         "ipa": "/wɪð ə koʊn ænd aɪs kriːm ɑn tɑp. maɪ ˈfeɪvərɪt taɪp əv dɪˈzɜrt ɪz aɪs kriːm, ænd aɪ lʌv vəˈnɪlə aɪs/",
@@ -9698,9 +9698,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 19,
-        "start": 120.08,
-        "end": 124.54,
+        "id": 22,
+        "start": 112.56,
+        "end": 117.02,
         "speaker": "Speaker",
         "en": "My favorite type of dessert is ice cream, and I love vanilla ice cream.",
         "ipa": "/kriːm. lɛt mi noʊ wʌt jʊər ˈfeɪvərɪt dɪˈzɜrt ɪz daʊn bəˈloʊ! aɪm əˈbaʊt tu peɪ fɔr maɪ miːl/",
@@ -9719,9 +9719,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 20,
-        "start": 124.58,
-        "end": 127.84,
+        "id": 23,
+        "start": 117.06,
+        "end": 120.32,
         "speaker": "Speaker",
         "en": "Let me know what your favorite dessert is down below!",
         "ipa": "",
@@ -9735,9 +9735,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 21,
-        "start": 127.88,
-        "end": 131.92,
+        "id": 24,
+        "start": 120.36,
+        "end": 124.4,
         "speaker": "Speaker",
         "en": "I'm about to pay for my meal, so I'm going to pay at the first window.",
         "ipa": "/soʊ aɪm ˈɡʊɪntu peɪ æt ðə fɜrst ˈwɪndoʊ. aɪm ˈɡɑnə peɪ wɪð ə ˈkrɛdɪt kɑrd, bʌt ju kən ˈɔlsoʊ peɪ/",
@@ -9756,9 +9756,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 22,
-        "start": 131.96,
-        "end": 135.71,
+        "id": 25,
+        "start": 124.44,
+        "end": 128.19,
         "speaker": "Speaker",
         "en": "I'm gonna pay with a credit card, but you can also pay with Apple Pay.",
         "ipa": "/wɪð ˈæpəl peɪ. du ju ɡaɪz hæv ˈæpəl peɪ ɪn jʊər ˈkʌntri? lɛt mi noʊ daʊn bəˈloʊ! aɪm ˈɡʊɪntu/",
@@ -9777,9 +9777,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 23,
-        "start": 135.75,
-        "end": 137.84,
+        "id": 26,
+        "start": 128.23,
+        "end": 130.32,
         "speaker": "Speaker",
         "en": "Do you guys have Apple Pay in your country?",
         "ipa": "",
@@ -9798,9 +9798,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 24,
-        "start": 137.88,
-        "end": 138.98,
+        "id": 27,
+        "start": 130.36,
+        "end": 131.46,
         "speaker": "Speaker",
         "en": "Let me know down below!",
         "ipa": "",
@@ -9808,9 +9808,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 25,
-        "start": 139.02,
-        "end": 147.25,
+        "id": 28,
+        "start": 131.5,
+        "end": 139.73,
         "speaker": "Speaker",
         "en": "I'm going to go ahead and pay at the first window for my ice cream, and thank you guys so much for supporting me because this is paying for my ice cream!",
         "ipa": "/tu ɡoʊ əˈhɛd ænd peɪ æt ðə fɜrst ˈwɪndoʊ fɔr maɪ aɪs kriːm, ænd θæŋk ju ɡaɪz soʊ mʌtʃ fɔr səˈpɔrtɪŋ mi bɪˈkɔz ðɪs ɪz ˈpeɪɪŋ fɔr maɪ aɪs kriːm! ænd doʊnt fərˈɡɛt tu laɪk ænd səbˈskraɪb daʊn bəˈloʊ/",
@@ -9829,30 +9829,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 26,
-        "start": 147.29,
-        "end": 149.77,
-        "speaker": "Speaker",
-        "en": "And don't forget to like and subscribe down below.",
-        "ipa": "",
-        "zh": "别忘了在下面点赞并订阅哦。",
-        "highlights": [
-          {
-            "text": "don't forget to",
-            "key": "don't forget to",
-            "chip": "pink"
-          },
-          {
-            "text": "subscribe",
-            "key": "subscribe",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "start": 152.89,
-        "end": 154.99,
+        "id": 29,
+        "start": 139.73,
+        "end": 141.83,
         "speaker": "Speaker",
         "en": "Hi, thank you.",
         "ipa": "/haɪ, θæŋk ju./",
@@ -9866,9 +9845,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 28,
-        "start": 157.39,
-        "end": 158.49,
+        "id": 30,
+        "start": 141.83,
+        "end": 142.93,
         "speaker": "Speaker",
         "en": "I love her.",
         "ipa": "/aɪ lʌv hɜr. jɛs, aɪ lʌv ɪt! θæŋk ju soʊ mʌtʃ, hæv ə ɡʊd deɪ. æz ju kən siː, aɪ dʒʌst peɪd θruː/",
@@ -9876,9 +9855,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 29,
-        "start": 158.53,
-        "end": 160.04,
+        "id": 31,
+        "start": 142.97,
+        "end": 144.48,
         "speaker": "Speaker",
         "en": "Yes, I love it!",
         "ipa": "",
@@ -9886,9 +9865,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 30,
-        "start": 160.08,
-        "end": 163.66,
+        "id": 32,
+        "start": 144.52,
+        "end": 148.1,
         "speaker": "Speaker",
         "en": "Thank you so much, have a good day.",
         "ipa": "",
@@ -9902,35 +9881,41 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 31,
-        "start": 163.7,
-        "end": 176.36,
+        "id": 33,
+        "start": 148.14,
+        "end": 153.69,
         "speaker": "Speaker",
-        "en": "As you can see, I just paid through the first window for my ice cream, but I didn't get my ice cream just yet because I have to go to the second window and pick it up.",
-        "ipa": "/ðə fɜrst ˈwɪndoʊ fɔr maɪ aɪs kriːm, bʌt aɪ ˈdɪdnt ɡɛt maɪ aɪs kriːm dʒʌst jɛt bɪˈkɔz aɪ hæv tu ɡoʊ tu ðə ˈsɛkənd ˈwɪndoʊ ænd pɪk ɪt ʌp. ðɛr ˈɡɑnə slaɪd ðɪs ˈwɪndoʊ. θæŋk ju soʊ mʌtʃ! aɪ/",
-        "zh": "正如你所看到的，我刚通过第一个窗口为冰淇淋结了账，但我还没拿到冰淇淋，因为我得去第二个窗口去取。",
+        "en": "As you can see, I just paid through the first window for my ice cream.",
+        "ipa": "/æz ju kæn siː aɪ dʒʌst peɪd θruː ðə fɜːrst ˈwɪndoʊ fɔːr maɪ aɪs kriːm/",
+        "zh": "你看，我刚才在第一个窗口付了冰淇淋的钱。",
         "highlights": [
           {
-            "text": "As you can see",
-            "key": "As you can see",
-            "chip": "indigo"
-          },
-          {
-            "text": "just yet",
-            "key": "just yet",
-            "chip": "indigo"
-          },
-          {
-            "text": "have to",
-            "key": "have to",
-            "chip": "orange"
+            "text": "first window",
+            "key": "first window",
+            "chip": "teal"
           }
         ]
       },
       {
-        "id": 32,
-        "start": 176.4,
-        "end": 179.5,
+        "id": 34,
+        "start": 153.89,
+        "end": 160.8,
+        "speaker": "Speaker",
+        "en": "But I didn't get my ice cream just yet because I have to go to the second window and pick it up.",
+        "ipa": "/bʌt aɪ ˈdɪdənt ɡet maɪ aɪs kriːm dʒʌst jet bɪˈkɔːz aɪ hæv tə ɡoʊ tə ðə ˈsekənd ˈwɪndoʊ ænd pɪk ɪt ʌp/",
+        "zh": "不过我还没拿到冰淇淋，因为得开到第二个窗口去取餐。",
+        "highlights": [
+          {
+            "text": "pick it up",
+            "key": "pick it up",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "start": 160.84,
+        "end": 163.94,
         "speaker": "Speaker",
         "en": "They're gonna slide this window.",
         "ipa": "",
@@ -9949,9 +9934,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 33,
-        "start": 179.54,
-        "end": 181.27,
+        "id": 36,
+        "start": 163.98,
+        "end": 165.71,
         "speaker": "Speaker",
         "en": "Thank you so much!",
         "ipa": "",
@@ -9959,9 +9944,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 34,
-        "start": 181.31,
-        "end": 189.44,
+        "id": 37,
+        "start": 165.75,
+        "end": 173.88,
         "speaker": "Speaker",
         "en": "I have my ice cream cone with the vanilla swirl on top, and I'm gonna go ahead and park here and eat inside my car.",
         "ipa": "/hæv maɪ aɪs kriːm koʊn wɪð ðə vəˈnɪlə swɜrl ɑn tɑp, ænd aɪm ˈɡɑnə ɡoʊ əˈhɛd ænd pɑrk hɪr ænd iːt ɪnˈsaɪd maɪ kɑr. soʊ ə lɑt əv əˈmɛrɪkənz ˈæktʃuəli du ðɪs; ðeɪ wɪl pɑrk ˈaʊtˈsaɪd ðə ˈrɛstərənt/",
@@ -9980,9 +9965,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 35,
-        "start": 189.48,
-        "end": 197.32,
+        "id": 38,
+        "start": 173.92,
+        "end": 181.76,
         "speaker": "Speaker",
         "en": "So a lot of Americans actually do this; they will park outside the restaurant and they will eat inside of their car.",
         "ipa": "/ænd ðeɪ wɪl iːt ɪnˈsaɪd əv ðɛər kɑr. aɪm ˈɡɑnə ɡoʊ əˈhɛd ænd lɪk ðɪs aɪs kriːm, bɪˈkɔz ɪf nɑt/",
@@ -10006,128 +9991,18 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 36,
-        "start": 197.36,
-        "end": 207.63,
+        "id": 39,
+        "start": 181.8,
+        "end": 188.07,
         "speaker": "Speaker",
-        "en": "I'm gonna go ahead and lick this ice cream, because if not, It will melt down onto the cone, okay guys, that's it for today's YouTube video at McDonald's!",
-        "ipa": "/ɪt wɪl mɛlt daʊn ˈɑntu ðə koʊn, oʊkeɪ ɡaɪz, ðæts ɪt fɔr təˈdeɪz ˈjuˌtub ˈvɪdioʊ æt məkˈdɑnəldz/",
-        "zh": "我要赶紧舔一舔这个冰淇淋了，要不然的话它会融化到蛋筒上，好了，今天的麦当劳YouTube视频就到这里啦！",
+        "en": "I'm gonna go ahead and lick this ice cream, because if not, it will melt down onto the cone.",
+        "ipa": "/aɪm ˈɡʌnə ɡoʊ əˈhed ænd lɪk ðɪs aɪs kriːm bɪˈkɔːz ɪf nɑːt ɪt wɪl melt daʊn ˈɑːntu ðə koʊn/",
+        "zh": "我得赶紧舔一口这个冰淇淋，不然它就要化下来流到蛋筒上了。",
         "highlights": [
           {
             "text": "go ahead",
             "key": "go ahead",
             "chip": "indigo"
-          },
-          {
-            "text": "melt down",
-            "key": "melt down",
-            "chip": "indigo"
-          },
-          {
-            "text": "that's it",
-            "key": "that's it",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "start": 207.67,
-        "end": 210.93,
-        "speaker": "Speaker",
-        "en": "I hope you have enjoyed all of the English that I taught you today.",
-        "ipa": "/aɪ hoʊp ju həv ɪnˈdʒɔɪd ɔl ʌv ði ˈɪŋɡlɪʃ ðæt aɪ tɔt ju təˈdeɪ. aɪ həv maɪ aɪs krim raɪt hɪr/",
-        "zh": "希望你们喜欢我今天教给你们的所有英语。",
-        "highlights": [
-          {
-            "text": "enjoyed",
-            "key": "enjoy",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "start": 210.97,
-        "end": 217.77,
-        "speaker": "Speaker",
-        "en": "I have my ice cream right here, I'm gonna keep on eating it, but let me know down below what else you would like me to teach you.",
-        "ipa": "/aɪm ˈɡɑnə kip ɑn ˈitɪŋ ɪt, bət lɛt mi noʊ daʊn bəˈloʊ wʌt ɛls ju wʊd laɪk mi tu titʃ ju/",
-        "zh": "我的冰淇淋就在这儿，我会继续吃它，不过请在下方留言告诉我，你们还想让我教你们什么。",
-        "highlights": [
-          {
-            "text": "keep on",
-            "key": "keep on",
-            "chip": "indigo"
-          },
-          {
-            "text": "down below",
-            "key": "down below",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "start": 217.81,
-        "end": 221.13,
-        "speaker": "Speaker",
-        "en": "Do you want me to go to a different franchise, a different store?",
-        "ipa": "/du ju wɑnt mi tu ɡoʊ tu ə ˈdɪfərənt ˈfrænˌtʃaɪz, ə ˈdɪfərənt stɔr? du ju wɑnt mi tu ˈɔrdər səm mɔr/",
-        "zh": "你们想让我去不同的连锁店、不同的店铺吗？",
-        "highlights": [
-          {
-            "text": "franchise",
-            "key": "franchise",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "start": 221.17,
-        "end": 224.14,
-        "speaker": "Speaker",
-        "en": "Do you want me to order some more food at different places?",
-        "ipa": "/fud æt ˈdɪfərənt ˈpleɪsɪz? lɛt mi noʊ daʊn bəˈloʊ, bɪˈkəz aɪ wʊd lʌv tu hɪr jʊr rɪˈvju/",
-        "zh": "你们想让我点更多的不同地方的食物吗？",
-        "highlights": [
-          {
-            "text": "different",
-            "key": "different",
-            "chip": "orange"
-          },
-          {
-            "text": "places",
-            "key": "places",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "start": 224.18,
-        "end": 233.65,
-        "speaker": "Speaker",
-        "en": "Let me know down below, because I would love to hear your review about this video and make more content for the next video, and don't forget to like and subscribe, bye!",
-        "ipa": "/əˈbaʊt ðɪs ˈvɪdioʊ ənd meɪk mɔr ˈkɑntɛnt fɔr ðə nɛkst ˈvɪdioʊ, ənd doʊnt fərˈɡɛt tu laɪk ənd səbˈskraɪb, baɪ/",
-        "zh": "请在下方告诉我，因为我很想听听你们对这个视频的评价，以便为下一个视频制作更多内容，别忘了点赞和订阅哦，拜拜！",
-        "highlights": [
-          {
-            "text": "review",
-            "key": "review",
-            "chip": "orange"
-          },
-          {
-            "text": "don't forget to",
-            "key": "don't forget to",
-            "chip": "pink"
-          },
-          {
-            "text": "content",
-            "key": "content",
-            "chip": "orange"
           }
         ]
       }
@@ -28063,34 +27938,34 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 2,
-    "durationSec": 282,
-    "durationLabel": "04:42",
+    "durationSec": 275,
+    "durationLabel": "04:35",
     "date": "2026/11/04",
     "tags": [
       "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "生活",
     "skipRanges": [
       [
-        5.45,
-        12.97
+        10.9,
+        12.28
       ],
       [
-        18.42,
-        19.8
+        99.87,
+        108.16
       ],
       [
-        107.39,
-        115.68
+        182.42,
+        186.04
       ],
       [
-        189.94,
-        193.56
+        274.27,
+        275.0
       ]
     ],
     "sentences": [
@@ -28112,8 +27987,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 12.97,
-        "end": 18.42,
+        "start": 5.45,
+        "end": 10.9,
         "speaker": "Speaker",
         "en": "It's Sid.",
         "ipa": "/ɪts sɛd/",
@@ -28128,8 +28003,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 19.8,
-        "end": 23.77,
+        "start": 12.28,
+        "end": 16.25,
         "speaker": "Speaker",
         "en": "I was looking at my own YouTube channel last night, which sort of feels weird.",
         "ipa": "/aɪ wəz ˈlʊkɪŋ æt maɪ oʊn ˈjuːtjuːb ˈʧænl læst naɪt wɪʧ sɔrt ʌv fɪlz wɪrd/",
@@ -28144,8 +28019,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 23.81,
-        "end": 29.57,
+        "start": 16.29,
+        "end": 22.05,
         "speaker": "Speaker",
         "en": "I got really sad because I realized I haven't filmed an alone but not lonely video in I think like 4 months.",
         "ipa": "/aɪ ɡɑt ˈrɪli sæd bɪˈkəz aɪ ˈriəˌlaɪzd aɪ ˈhævənt fɪlmd ən əˈloʊn bʌt nɑt ˈloʊnli ˈvɪdioʊ ɪn aɪ θɪŋk laɪk fɔr mʌnθs/",
@@ -28160,8 +28035,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 29.61,
-        "end": 30.92,
+        "start": 22.09,
+        "end": 23.4,
         "speaker": "Speaker",
         "en": "So, obviously that's what we're doing today.",
         "ipa": "/soʊ ˈɑbviəsli ðæts wʌt wɪr ˈduɪŋ təˈdeɪ/",
@@ -28176,8 +28051,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 30.96,
-        "end": 31.5,
+        "start": 23.44,
+        "end": 23.98,
         "speaker": "Speaker",
         "en": "I'm getting ready.",
         "ipa": "/aɪm ˈɡɛtɪŋ ˈrɛdi/",
@@ -28192,8 +28067,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 31.54,
-        "end": 32.8,
+        "start": 24.02,
+        "end": 25.28,
         "speaker": "Speaker",
         "en": "We're going to hang out together.",
         "ipa": "/wɪr ˈɡʊɪŋ tu hæŋ aʊt təˈɡɛðər/",
@@ -28208,8 +28083,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 32.84,
-        "end": 55.0,
+        "start": 25.32,
+        "end": 47.48,
         "speaker": "Speaker",
         "en": "I actually have literally nothing planned, but I thought that that would be more fun and more spontaneous to just frolic around New York together.",
         "ipa": "/aɪ ˈækʧuəli hæv ˈlɪtərəli ˈnʌθɪŋ plænd bʌt aɪ θɔt ðæt ðæt wʊd bi mɔr fʌn ænd mɔr spɑnˈteɪniəs tu ʤʌst ˈfrɑlɪk əˈraʊnd nu jɔrk təˈɡɛðər/",
@@ -28229,8 +28104,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 55.04,
-        "end": 57.62,
+        "start": 47.52,
+        "end": 50.1,
         "speaker": "Speaker",
         "en": "So, I ended up in the West Village.",
         "ipa": "/soʊ aɪ ˈɛndɪd ʌp ɪn ðə wɛst ˈvɪlɪʤ/",
@@ -28245,8 +28120,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 57.66,
-        "end": 60.39,
+        "start": 50.14,
+        "end": 52.87,
         "speaker": "Speaker",
         "en": "Like I said, I have no plan for today.",
         "ipa": "/laɪk aɪ sɛd aɪ hæv noʊ plæn fɔr təˈdeɪ/",
@@ -28261,8 +28136,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 60.43,
-        "end": 61.69,
+        "start": 52.91,
+        "end": 54.17,
         "speaker": "Speaker",
         "en": "Also, I have a new camera.",
         "ipa": "/ˈɔlsoʊ aɪ hæv ə nu ˈkæmərə/",
@@ -28277,8 +28152,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 61.73,
-        "end": 62.65,
+        "start": 54.21,
+        "end": 55.13,
         "speaker": "Speaker",
         "en": "Do you guys like it?",
         "ipa": "/du ju ɡaɪz laɪk ɪt/",
@@ -28293,8 +28168,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 62.69,
-        "end": 63.57,
+        "start": 55.17,
+        "end": 56.05,
         "speaker": "Speaker",
         "en": "Can you tell?",
         "ipa": "/kæn ju tɛl/",
@@ -28309,8 +28184,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 63.61,
-        "end": 65.57,
+        "start": 56.09,
+        "end": 58.05,
         "speaker": "Speaker",
         "en": "Canon sent me this camera, guys.",
         "ipa": "/ˈkænən sɛnt mi ðɪs ˈkæmərə ɡaɪz/",
@@ -28325,8 +28200,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 65.61,
-        "end": 67.72,
+        "start": 58.09,
+        "end": 60.2,
         "speaker": "Speaker",
         "en": "Like probably biggest moment of my career.",
         "ipa": "/laɪk ˈprɑbəbli ˈbɪɡəst ˈmoʊmənt ʌv maɪ kəˈrɪr/",
@@ -28341,8 +28216,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 67.76,
-        "end": 68.64,
+        "start": 60.24,
+        "end": 61.12,
         "speaker": "Speaker",
         "en": "That is like crazy.",
         "ipa": "/ðæt ɪz laɪk ˈkreɪzi/",
@@ -28357,8 +28232,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 68.68,
-        "end": 72.09,
+        "start": 61.16,
+        "end": 64.57,
         "speaker": "Speaker",
         "en": "I've literally used Canon since I started my YouTube journey.",
         "ipa": "/aɪv ˈlɪtərəli juzd ˈkænən sɪns aɪ ˈstɑrtɪd maɪ ˈjuːtjuːb ˈʤɜrni/",
@@ -28373,8 +28248,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 72.13,
-        "end": 73.14,
+        "start": 64.61,
+        "end": 65.62,
         "speaker": "Speaker",
         "en": "I'm walking nowhere.",
         "ipa": "/aɪm ˈwɔkɪŋ ˈnoʊwɛr/",
@@ -28389,8 +28264,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 73.18,
-        "end": 75.37,
+        "start": 65.66,
+        "end": 67.85,
         "speaker": "Speaker",
         "en": "Oh, I think this is the Friends apartment building.",
         "ipa": "/oʊ aɪ θɪŋk ðɪs ɪz ðə frɛndz əˈpɑrtmənt ˈbɪldɪŋ/",
@@ -28405,8 +28280,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 75.41,
-        "end": 76.83,
+        "start": 67.89,
+        "end": 69.31,
         "speaker": "Speaker",
         "en": "I think right there, right?",
         "ipa": "/aɪ θɪŋk raɪt ðɛr raɪt/",
@@ -28421,8 +28296,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 76.87,
-        "end": 77.95,
+        "start": 69.35,
+        "end": 70.43,
         "speaker": "Speaker",
         "en": "Somewhere up there.",
         "ipa": "/ˈsʌmˌwɛr ʌp ðɛr/",
@@ -28437,8 +28312,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 77.99,
-        "end": 79.52,
+        "start": 70.47,
+        "end": 72.0,
         "speaker": "Speaker",
         "en": "I used to live over here, guys.",
         "ipa": "/aɪ juzd tu lɪv ˈoʊvər hir ɡaɪz/",
@@ -28453,8 +28328,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 79.56,
-        "end": 81.91,
+        "start": 72.04,
+        "end": 74.39,
         "speaker": "Speaker",
         "en": "This was my first neighborhood that I moved to in New York.",
         "ipa": "/ðɪs wʌz maɪ fɜrst ˈneɪbərˌhʊd ðæt aɪ muvd tu ɪn nu jɔrk/",
@@ -28469,8 +28344,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 81.95,
-        "end": 86.22,
+        "start": 74.43,
+        "end": 78.7,
         "speaker": "Speaker",
         "en": "And I would always go to the Brandy Cafe, and it just reopened apparently.",
         "ipa": "/ænd aɪ wʊd ˈɔlweɪz ɡoʊ tu ðə ˈbrændi kæˈfeɪ ænd ɪt ʤʌst riˈoʊpənd əˈpɛrəntli/",
@@ -28485,8 +28360,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 86.26,
-        "end": 88.66,
+        "start": 78.74,
+        "end": 81.14,
         "speaker": "Speaker",
         "en": "Yes, Brandy Melville has a cafe if you didn't know.",
         "ipa": "/jɛs ˈbrændi mɛlˈvɪl hæz ə kæˈfeɪ ɪf ju ˈdɪdnt noʊ/",
@@ -28501,8 +28376,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 88.7,
-        "end": 91.56,
+        "start": 81.18,
+        "end": 84.04,
         "speaker": "Speaker",
         "en": "Kind of blew my mind when I, you know, discovered this.",
         "ipa": "/kaɪnd ʌv blu maɪ maɪnd wɛn aɪ ju noʊ dɪˈskʌvərd ðɪs/",
@@ -28517,8 +28392,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 91.6,
-        "end": 92.6,
+        "start": 84.08,
+        "end": 85.08,
         "speaker": "Speaker",
         "en": "I used to go all the time.",
         "ipa": "/aɪ juzd tu ɡoʊ ɔl ðə taɪm/",
@@ -28533,8 +28408,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 92.64,
-        "end": 107.39,
+        "start": 85.12,
+        "end": 99.87,
         "speaker": "Speaker",
         "en": "Now that I'm here, I feel like I need to go solely for nostalgic purposes.",
         "ipa": "/naʊ ðæt aɪm hir aɪ fil laɪk aɪ nid tu ɡoʊ ˈsoʊli fɔr nəˈstælʤɪk ˈpɜrpəsɪz/",
@@ -28554,8 +28429,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 115.68,
-        "end": 117.48,
+        "start": 108.16,
+        "end": 109.96,
         "speaker": "Speaker",
         "en": "Guys, it feels so good to be back here.",
         "ipa": "/ɡaɪz ɪt filz soʊ ɡʊd tu bi bæk hir/",
@@ -28570,8 +28445,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 117.52,
-        "end": 121.37,
+        "start": 110.0,
+        "end": 113.85,
         "speaker": "Speaker",
         "en": "They actually closed this cafe down for I think like 6 months.",
         "ipa": "/ðeɪ ˈækʧuəli kloʊzd ðɪs kæˈfeɪ daʊn fɔr aɪ θɪŋk laɪk sɪks mʌnθs/",
@@ -28591,8 +28466,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 121.41,
-        "end": 122.64,
+        "start": 113.89,
+        "end": 115.12,
         "speaker": "Speaker",
         "en": "I don't know why.",
         "ipa": "/aɪ doʊnt noʊ waɪ/",
@@ -28607,8 +28482,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 122.68,
-        "end": 124.52,
+        "start": 115.16,
+        "end": 117.0,
         "speaker": "Speaker",
         "en": "It looks the exact same now.",
         "ipa": "/ɪt lʊks ði ɪɡˈzækt seɪm naʊ/",
@@ -28623,8 +28498,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 124.56,
-        "end": 126.58,
+        "start": 117.04,
+        "end": 119.06,
         "speaker": "Speaker",
         "en": "If anyone knows, please tell me.",
         "ipa": "/ɪf ˈɛniˌwʌn noʊz pliz tɛl mi/",
@@ -28639,8 +28514,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 126.62,
-        "end": 128.31,
+        "start": 119.1,
+        "end": 120.79,
         "speaker": "Speaker",
         "en": "I'm so glad that they're back.",
         "ipa": "/aɪm soʊ ɡlæd ðæt ðɛr bæk/",
@@ -28655,8 +28530,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 128.35,
-        "end": 129.6,
+        "start": 120.83,
+        "end": 122.08,
         "speaker": "Speaker",
         "en": "My prayers were answered.",
         "ipa": "/maɪ prɛrz wɜr ˈænsərd/",
@@ -28671,8 +28546,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 129.64,
-        "end": 131.21,
+        "start": 122.12,
+        "end": 123.69,
         "speaker": "Speaker",
         "en": "I actually can't believe how long I've lived in New York.",
         "ipa": "/aɪ ˈæktʃuəli kænt bəˈliv haʊ lɔŋ aɪv lɪvd ɪn nu jɔrk/",
@@ -28687,8 +28562,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 131.25,
-        "end": 132.73,
+        "start": 123.73,
+        "end": 125.21,
         "speaker": "Speaker",
         "en": "I think it's been almost 3 years now.",
         "ipa": "/aɪ θɪŋk ɪts bɪn ˈɔlmoʊst θri jɪrz naʊ/",
@@ -28703,8 +28578,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 132.77,
-        "end": 142.49,
+        "start": 125.25,
+        "end": 134.97,
         "speaker": "Speaker",
         "en": "So, I was thinking when I used to live here, I would always come to this spot and it just made me reminisce about moving and like living in New York and how far I've come.",
         "ipa": "/soʊ aɪ wʌz ˈθɪŋkɪŋ wɛn aɪ just tu lɪv hɪr aɪ wʊd ˈɔlweɪz kʌm tu ðɪs spɑt ænd ɪt dʒʌst meɪd mi ˌrɛməˈnɪs əˈbaʊt ˈmuvɪŋ ænd laɪk ˈlɪvɪŋ ɪn nu jɔrk ænd haʊ fɑr aɪv kʌm/",
@@ -28724,8 +28599,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 142.53,
-        "end": 144.86,
+        "start": 135.01,
+        "end": 137.34,
         "speaker": "Speaker",
         "en": "I moved here, I literally had no friends, guys.",
         "ipa": "/aɪ muvd hɪr aɪ ˈlɪtərəli hæd noʊ frɛndz ɡaɪz/",
@@ -28740,8 +28615,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 144.9,
-        "end": 147.24,
+        "start": 137.38,
+        "end": 139.72,
         "speaker": "Speaker",
         "en": "I'm not even like exaggerating.",
         "ipa": "/aɪm nɑt ˈivən laɪk ɪɡˈzædʒəˌreɪtɪŋ/",
@@ -28756,8 +28631,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 147.28,
-        "end": 148.34,
+        "start": 139.76,
+        "end": 140.82,
         "speaker": "Speaker",
         "en": "I knew zero people.",
         "ipa": "/aɪ nu ˈzɪroʊ ˈpipəl/",
@@ -28772,8 +28647,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 148.38,
-        "end": 151.12,
+        "start": 140.86,
+        "end": 143.6,
         "speaker": "Speaker",
         "en": "And now I feel like I have such a community of friends.",
         "ipa": "/ænd naʊ aɪ fil laɪk aɪ hæv sʌtʃ ə kəˈmjunəti ʌv frɛndz/",
@@ -28788,8 +28663,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 151.16,
-        "end": 152.29,
+        "start": 143.64,
+        "end": 144.77,
         "speaker": "Speaker",
         "en": "I feel so happy here now.",
         "ipa": "/aɪ fil soʊ ˈhæpi hɪr naʊ/",
@@ -28804,8 +28679,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 152.33,
-        "end": 157.6,
+        "start": 144.81,
+        "end": 150.08,
         "speaker": "Speaker",
         "en": "Okay, not me getting sentimental on a Friday morning at 11:00 a.m. going to hang out, people watch.",
         "ipa": "/oʊˈkeɪ nɑt mi ˈɡɛtɪŋ ˌsɛntɪˈmɛntəl ɑn ə ˈfraɪdeɪ ˈmɔrnɪŋ æt ˈlɛvən eɪˈɛm ˈɡoʊɪŋ tu hæŋ aʊt ˈpipəl wɑtʃ/",
@@ -28820,8 +28695,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 157.64,
-        "end": 160.38,
+        "start": 150.12,
+        "end": 152.86,
         "speaker": "Speaker",
         "en": "That's my favorite thing to do ever if you know me.",
         "ipa": "/ðæts maɪ ˈfeɪvərɪt θɪŋ tu du ˈɛvər ɪf ju noʊ mi/",
@@ -28836,8 +28711,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 160.42,
-        "end": 163.48,
+        "start": 152.9,
+        "end": 155.96,
         "speaker": "Speaker",
         "en": "And then I don't know what I'm going to do, which I usually hate.",
         "ipa": "/ænd ðɛn aɪ doʊnt noʊ wʌt aɪm ˈɡoʊɪŋ tu du wɪtʃ aɪ ˈjuʒuəli heɪt/",
@@ -28852,8 +28727,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 163.52,
-        "end": 172.64,
+        "start": 156.0,
+        "end": 165.12,
         "speaker": "Speaker",
         "en": "I'm so type A, but I'm trying to just go with the flow.",
         "ipa": "/aɪm soʊ taɪp eɪ bʌt aɪm ˈtraɪɪŋ tu dʒʌst ɡoʊ wɪð ðə floʊ/",
@@ -28868,8 +28743,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 172.68,
-        "end": 177.04,
+        "start": 165.16,
+        "end": 169.52,
         "speaker": "Speaker",
         "en": "So, I did stumble upon this.",
         "ipa": "/soʊ aɪ dɪd ˈstʌmbəl əˈpɑn ðɪs/",
@@ -28884,8 +28759,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 177.08,
-        "end": 178.35,
+        "start": 169.56,
+        "end": 170.83,
         "speaker": "Speaker",
         "en": "A rack full of city bikes.",
         "ipa": "/ə ræk fʊl ʌv ˈsɪti baɪks/",
@@ -28900,8 +28775,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 178.39,
-        "end": 189.94,
+        "start": 170.87,
+        "end": 182.42,
         "speaker": "Speaker",
         "en": "Something about me, I'm always going to pick the electric bike.",
         "ipa": "/ˈsʌmθɪŋ əˈbaʊt mi aɪm ˈɔlweɪz ˈɡoʊɪŋ tu pɪk ðə ɪˈlɛktrɪk baɪk/",
@@ -28921,8 +28796,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 193.56,
-        "end": 197.12,
+        "start": 186.04,
+        "end": 189.6,
         "speaker": "Speaker",
         "en": "Would you guys believe me if I told you I was about to go golf right now?",
         "ipa": "/wʊd ju ɡaɪz bəˈliv mi ɪf aɪ toʊld ju aɪ wʌz əˈbaʊt tu ɡoʊ ɡɑlf raɪt naʊ/",
@@ -28937,8 +28812,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 197.16,
-        "end": 198.05,
+        "start": 189.64,
+        "end": 190.53,
         "speaker": "Speaker",
         "en": "Because I am.",
         "ipa": "/bɪˈkəz aɪ æm/",
@@ -28953,8 +28828,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 198.09,
-        "end": 209.84,
+        "start": 190.57,
+        "end": 202.32,
         "speaker": "Speaker",
         "en": "Golf is the last thing I ever expected myself to enjoy, but my boyfriend loves to golf and since we started dating a couple years ago, I have also learned to enjoy it with him.",
         "ipa": "/ɡɑlf ɪz ðə læst θɪŋ aɪ ˈɛvər ɪkˈspɛktɪd maɪˈsɛlf tu ɪnˈdʒɔɪ bʌt maɪ ˈbɔɪˌfrɛnd lʌvz tu ɡɑlf ænd sɪns wi ˈstɑrtɪd ˈdeɪtɪŋ ə ˈkʌpəl jɪrz əˈɡoʊ aɪ hæv ˈɔlsoʊ lɜrnd tu ɪnˈdʒɔɪ ɪt wɪð hɪm/",
@@ -28974,8 +28849,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 209.88,
-        "end": 219.13,
+        "start": 202.36,
+        "end": 211.61,
         "speaker": "Speaker",
         "en": "At first I did hate it, but the more I did it, the more I like understood the art of golf, how hard it is, and I've kind of come to appreciate it.",
         "ipa": "/æt fɜrst aɪ dɪd heɪt ɪt bʌt ðə mɔr aɪ dɪd ɪt ðə mɔr aɪ laɪk ˌʌndərˈstʊd ði ɑrt ʌv ɡɑlf haʊ hɑrd ɪt ɪz ænd aɪv kaɪnd ʌv kʌm tu əˈpriʃiˌeɪt ɪt/",
@@ -28995,8 +28870,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 219.17,
-        "end": 223.99,
+        "start": 211.65,
+        "end": 216.47,
         "speaker": "Speaker",
         "en": "I was biking right past the Chelsea Pier, which is where I come to the driving range sometimes.",
         "ipa": "/aɪ wʌz ˈbaɪkɪŋ raɪt pæst ðə ˈtʃɛlsi pɪr wɪtʃ ɪz wɛr aɪ kʌm tu ðə ˈdraɪvɪŋ reɪndʒ ˈsʌmtaɪmz/",
@@ -29011,8 +28886,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 224.03,
-        "end": 225.53,
+        "start": 216.51,
+        "end": 218.01,
         "speaker": "Speaker",
         "en": "Forewarning, I'm not good, okay?",
         "ipa": "/ˈfɔrˌwɔrnɪŋ aɪm nɑt ɡʊd oʊˈkeɪ/",
@@ -29027,8 +28902,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 225.57,
-        "end": 227.25,
+        "start": 218.05,
+        "end": 219.73,
         "speaker": "Speaker",
         "en": "I just feel like I just hyped myself up.",
         "ipa": "/aɪ dʒʌst fil laɪk aɪ dʒʌst haɪpt maɪˈsɛlf ʌp/",
@@ -29043,8 +28918,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 227.29,
-        "end": 231.7,
+        "start": 219.77,
+        "end": 224.18,
         "speaker": "Speaker",
         "en": "I'm actually pretty bad, but I do think it's fun and I would come with someone though.",
         "ipa": "/aɪm ˈæktʃuəli ˈprɪti bæd bʌt aɪ du θɪŋk ɪts fʌn ænd aɪ wʊd kʌm wɪð ˈsʌmwʌn ðoʊ/",
@@ -29059,8 +28934,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 231.74,
-        "end": 232.81,
+        "start": 224.22,
+        "end": 225.29,
         "speaker": "Speaker",
         "en": "I'd never come alone.",
         "ipa": "/aɪd ˈnɛvər kʌm əˈloʊn/",
@@ -29075,8 +28950,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 232.85,
-        "end": 234.89,
+        "start": 225.33,
+        "end": 227.37,
         "speaker": "Speaker",
         "en": "So, do people do this alone?",
         "ipa": "/soʊ du ˈpipəl du ðɪs əˈloʊn/",
@@ -29091,8 +28966,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 234.93,
-        "end": 235.74,
+        "start": 227.41,
+        "end": 228.22,
         "speaker": "Speaker",
         "en": "I feel like yes.",
         "ipa": "/aɪ fil laɪk jɛs/",
@@ -29107,8 +28982,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 235.78,
-        "end": 244.88,
+        "start": 228.26,
+        "end": 237.36,
         "speaker": "Speaker",
         "en": "Um could I do the driving range for lefty?",
         "ipa": "/ʌm kʊd aɪ du ðə ˈdraɪvɪŋ reɪndʒ fɔr ˈlɛfti/",
@@ -29123,8 +28998,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 244.92,
-        "end": 247.72,
+        "start": 237.4,
+        "end": 240.2,
         "speaker": "Speaker",
         "en": "All right, I think I'm the only girl vlogging here right now.",
         "ipa": "/ɔl raɪt aɪ θɪŋk aɪm ði ˈoʊnli ɡɜrl ˈvlɑɡɪŋ hɪr raɪt naʊ/",
@@ -29139,8 +29014,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 247.76,
-        "end": 250.17,
+        "start": 240.24,
+        "end": 242.65,
         "speaker": "Speaker",
         "en": "It's just a bunch of middle-aged men.",
         "ipa": "/ɪts dʒʌst ə bʌntʃ ʌv ˈmɪdəlˌeɪdʒd mɛn/",
@@ -29155,8 +29030,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 250.21,
-        "end": 255.26,
+        "start": 242.69,
+        "end": 247.74,
         "speaker": "Speaker",
         "en": "I'm also a lefty, which is really tough as a female to get lefty golf clubs.",
         "ipa": "/aɪm ˈɔlsoʊ ə ˈlɛfti, wɪʧ ɪz ˈrɪli tʌf æz ə ˈfiˌmeɪl tu gɛt ˈlɛfti gɑlf klʌbz./",
@@ -29176,8 +29051,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 255.3,
-        "end": 259.12,
+        "start": 247.78,
+        "end": 251.6,
         "speaker": "Speaker",
         "en": "They never have them anywhere, but this place luckily has a spare for me.",
         "ipa": "/ðeɪ ˈnɛvər hæv ðɛm ˈɛniˌwɛr, bʌt ðɪs pleɪs ˈlʌkɪli hæz ə spɛr fɔr mi./",
@@ -29192,8 +29067,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 259.16,
-        "end": 261.92,
+        "start": 251.64,
+        "end": 254.4,
         "speaker": "Speaker",
         "en": "Don't know why I'm lefty and righty in everything else.",
         "ipa": "/doʊnt noʊ waɪ aɪm ˈlɛfti ænd ˈraɪti ɪn ˈɛvriˌθɪŋ ɛls./",
@@ -29208,8 +29083,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 261.96,
-        "end": 265.08,
+        "start": 254.44,
+        "end": 257.56,
         "speaker": "Speaker",
         "en": "I'm yapping cuz I'm nervous about showing you guys my swing.",
         "ipa": "/aɪm ˈjæpɪŋ kəz aɪm ˈnɜrvəs əˈbaʊt ˈʃoʊɪŋ ju gaɪz maɪ swɪŋ./",
@@ -29229,8 +29104,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 265.12,
-        "end": 269.84,
+        "start": 257.6,
+        "end": 262.32,
         "speaker": "Speaker",
         "en": "We're getting closer on a deeper level.",
         "ipa": "/wɪr ˈgɛtɪŋ ˈcloʊsər ɑn ə ˈdipər ˈlɛvəl./",
@@ -29245,8 +29120,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 269.88,
-        "end": 274.2,
+        "start": 262.36,
+        "end": 266.68,
         "speaker": "Speaker",
         "en": "God oh god oh god oh god, that was so bad.",
         "ipa": "/gɑd oʊ gɑd oʊ gɑd oʊ gɑd, ðæt wʌz soʊ bæd./",
@@ -29261,8 +29136,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 274.24,
-        "end": 281.79,
+        "start": 266.72,
+        "end": 274.27,
         "speaker": "Speaker",
         "en": "I just like hit the tarp.",
         "ipa": "/aɪ ʤʌst laɪk hɪt ðə tɑrp./",
@@ -34491,8 +34366,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
-    "durationSec": 410,
-    "durationLabel": "06:50",
+    "durationSec": 396,
+    "durationLabel": "06:36",
     "date": "2026/10/31",
     "tags": [
       "生活英语",
@@ -34500,130 +34375,122 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "生活英语",
     "skipRanges": [
       [
-        3.85,
-        12.75
+        10.08,
+        11.74
       ],
       [
-        15.99,
-        20.73
+        21.93,
+        31.21
       ],
       [
-        23.72,
-        25.38
+        39.0,
+        41.83
       ],
       [
-        35.57,
-        44.85
+        47.87,
+        52.41
       ],
       [
-        52.64,
-        55.47
+        60.39,
+        62.41
       ],
       [
-        61.51,
-        66.05
+        79.73,
+        81.8
       ],
       [
-        74.03,
-        76.05
+        97.66,
+        107.17
       ],
       [
-        93.37,
-        95.44
+        114.25,
+        116.27
       ],
       [
-        111.3,
-        120.81
+        121.29,
+        125.42
       ],
       [
-        127.89,
-        129.91
+        127.45,
+        131.73
       ],
       [
-        134.93,
-        139.06
+        136.63,
+        139.79
       ],
       [
-        141.09,
-        145.37
+        146.29,
+        151.99
       ],
       [
-        150.27,
-        153.43
+        157.57,
+        162.17
       ],
       [
-        159.93,
-        165.63
+        162.77,
+        166.97
       ],
       [
-        171.21,
-        175.81
+        172.07,
+        187.39
       ],
       [
-        176.41,
-        180.61
+        190.55,
+        193.13
       ],
       [
-        185.71,
-        201.03
+        200.4,
+        208.79
       ],
       [
-        204.19,
-        206.77
+        212.44,
+        216.53
       ],
       [
-        214.04,
-        222.43
+        221.17,
+        222.95
       ],
       [
-        226.08,
-        230.17
+        232.06,
+        243.38
       ],
       [
-        234.81,
-        236.59
+        248.61,
+        250.85
       ],
       [
-        245.7,
-        257.02
+        256.81,
+        258.14
       ],
       [
-        262.25,
-        264.49
+        294.88,
+        298.16
       ],
       [
-        270.45,
-        271.78
+        305.05,
+        318.21
       ],
       [
-        308.52,
-        311.8
+        319.13,
+        320.82
       ],
       [
-        318.69,
-        331.85
+        322.82,
+        328.47
       ],
       [
-        332.77,
-        334.46
+        330.47,
+        348.51
       ],
       [
-        336.46,
-        342.11
-      ],
-      [
-        344.11,
-        362.15
-      ],
-      [
-        375.15,
-        376.53
+        361.51,
+        362.89
       ]
     ],
     "sentences": [
@@ -34650,8 +34517,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 12.75,
-        "end": 15.99,
+        "start": 3.85,
+        "end": 7.09,
         "speaker": "Speaker",
         "en": "So I got some new makeup.",
         "ipa": "/səʊ aɪ ɡɒt sʌm nuː ˈmeɪkʌp/",
@@ -34666,8 +34533,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 20.73,
-        "end": 23.72,
+        "start": 7.09,
+        "end": 10.08,
         "speaker": "Speaker",
         "en": "This is all makeup that I will be using today.",
         "ipa": "/ðɪs ɪz ɔːl ˈmeɪkʌp ðæt aɪ wɪl biː ˈjuːzɪŋ təˈdeɪ/",
@@ -34682,8 +34549,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 25.38,
-        "end": 28.25,
+        "start": 11.74,
+        "end": 14.61,
         "speaker": "Speaker",
         "en": "Alrighty, well, let's get started.",
         "ipa": "/ɔːlˈraɪti, wel, lets ɡet ˈstɑːrtɪd. fɔːr feɪs, aɪm ˈɡɒnə juːs ə nuː faʊnˈdeɪʃən ðæt aɪ ɡɒt. ˈæktʃuəli, ʃʊd aɪ pʊt ɒn ˈpraɪmər/",
@@ -34698,8 +34565,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 28.29,
-        "end": 32.7,
+        "start": 14.65,
+        "end": 19.06,
         "speaker": "Speaker",
         "en": "For face, I'm gonna use a new foundation that I got.",
         "ipa": "",
@@ -34714,8 +34581,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 32.74,
-        "end": 35.57,
+        "start": 19.1,
+        "end": 21.93,
         "speaker": "Speaker",
         "en": "Actually, should I put on primer?",
         "ipa": "",
@@ -34730,8 +34597,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 44.85,
-        "end": 49.33,
+        "start": 31.21,
+        "end": 35.69,
         "speaker": "Speaker",
         "en": "I didn't actually get a chance to get the mustache waxed.",
         "ipa": "/aɪ ˈdɪdnt ˈæktʃuəli ɡet ə tʃɑːns tuː ɡet ðə ˈmʌstæʃ wækst/",
@@ -34751,8 +34618,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 49.37,
-        "end": 52.64,
+        "start": 35.73,
+        "end": 39.0,
         "speaker": "Speaker",
         "en": "I'm gonna use a little eyebrow razor.",
         "ipa": "/aɪm ˈɡɒnə juːs ə ˈlɪtəl ˈaɪbraʊ ˈreɪzər/",
@@ -34767,8 +34634,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 55.47,
-        "end": 58.89,
+        "start": 41.83,
+        "end": 45.25,
         "speaker": "Speaker",
         "en": "I have like little hairs here on my forehead.",
         "ipa": "/aɪ hæv laɪk ˈlɪtəl heərz hɪər ɒn maɪ ˈfɔːrhed/",
@@ -34783,8 +34650,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 58.93,
-        "end": 61.51,
+        "start": 45.29,
+        "end": 47.87,
         "speaker": "Speaker",
         "en": "I'm also just gonna go ahead and lightly shave it off.",
         "ipa": "/aɪm ˈɔːlsəʊ dʒʌst ˈɡɒnə ɡəʊ əˈhed ənd ˈlaɪtli ʃeɪv ɪt ɒf/",
@@ -34799,8 +34666,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 66.05,
-        "end": 74.03,
+        "start": 52.41,
+        "end": 60.39,
         "speaker": "Speaker",
         "en": "Next I'm gonna go in with concealer, and normally I would put little dots of it, but I'm just gonna go straight in.",
         "ipa": "/nekst aɪm ˈɡɒnə ɡəʊ ɪn wɪð kənˈsiːlər, ənd ˈnɔːrməli aɪ wʊd pʊt ˈlɪtəl dɒts ɒv ɪt, bʌt aɪm dʒʌst ˈɡɒnə ɡəʊ streɪt ɪn/",
@@ -34820,8 +34687,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 76.05,
-        "end": 79.3,
+        "start": 62.41,
+        "end": 65.66,
         "speaker": "Speaker",
         "en": "I'm gonna go straight in with this.",
         "ipa": "/aɪm ˈɡɒnə ɡəʊ streɪt ɪn wɪð ðɪs. wiː wɒnt ðæt lɪft/",
@@ -34836,8 +34703,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 79.34,
-        "end": 81.03,
+        "start": 65.7,
+        "end": 67.39,
         "speaker": "Speaker",
         "en": "We want that lift.",
         "ipa": "",
@@ -34852,8 +34719,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 81.07,
-        "end": 89.29,
+        "start": 67.43,
+        "end": 75.65,
         "speaker": "Speaker",
         "en": "I watched a few tutorials before doing this, but I don't remember if I'm doing the steps correctly.",
         "ipa": "/aɪ wɒtʃt ə fjuː tuːˈtɔːriəlz bɪˈfɔːr ˈduːɪŋ ðɪs, bʌt aɪ dəʊnt rɪˈmembər ɪf aɪm ˈduːɪŋ ðə steps kəˈrektli/",
@@ -34873,8 +34740,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 89.33,
-        "end": 93.37,
+        "start": 75.69,
+        "end": 79.73,
         "speaker": "Speaker",
         "en": "I think they put it on their nose, forehead and chin.",
         "ipa": "/aɪ θɪŋk ðeɪ pʊt ɪt ɒn ðeər nəʊz ˈfɔːrhed ənd tʃɪn/",
@@ -34894,8 +34761,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 95.44,
-        "end": 111.3,
+        "start": 81.8,
+        "end": 97.66,
         "speaker": "Speaker",
         "en": "Wait, I think they also do like contour at the same time, so... Now for the most exciting part, I'm going to be baking my face.",
         "ipa": "/weɪt, aɪ θɪŋk ðeɪ ˈɔːlsəʊ duː laɪk ˈkɒntʊər ət ðə seɪm taɪm, səʊ naʊ fɔːr ðə məʊst ɪkˈsaɪtɪŋ pɑːrt, aɪm ˈɡuːɪŋ tuː biː ˈbeɪkɪŋ maɪ feɪs/",
@@ -34920,8 +34787,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 120.81,
-        "end": 127.89,
+        "start": 107.17,
+        "end": 114.25,
         "speaker": "Speaker",
         "en": "So usually they kind of wait for this to set, so in the meantime, I guess I will do my brows.",
         "ipa": "/səʊ ˈjuːʒuəli ðeɪ kaɪnd ɒv weɪt fɔːr ðɪs tuː set, səʊ ɪn ðə ˈmiːntaɪm, aɪ ɡes aɪ wɪl duː maɪ braʊz/",
@@ -34941,8 +34808,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 129.91,
-        "end": 131.69,
+        "start": 116.27,
+        "end": 118.05,
         "speaker": "Speaker",
         "en": "How does that look?",
         "ipa": "/haʊ dʌz ðæt lʊk/",
@@ -34957,8 +34824,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 131.73,
-        "end": 134.93,
+        "start": 118.09,
+        "end": 121.29,
         "speaker": "Speaker",
         "en": "I'm gonna remove the powder now with a fluffy brush.",
         "ipa": "/aɪm ˈɡɒnə rɪˈmuːv ðə ˈpaʊdər naʊ wɪð ə ˈflʌfi brʌʃ/",
@@ -34978,8 +34845,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 139.06,
-        "end": 141.09,
+        "start": 125.42,
+        "end": 127.45,
         "speaker": "Speaker",
         "en": "Whoa, this is kind of cool.",
         "ipa": "/wəʊ, ðɪs ɪz kaɪnd ɒv kuːl/",
@@ -34994,8 +34861,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 145.37,
-        "end": 150.27,
+        "start": 131.73,
+        "end": 136.63,
         "speaker": "Speaker",
         "en": "Woah, I'm gonna use the Laguna bronzer from NARS.",
         "ipa": "/wəʊ, aɪm ˈɡɒnə juːs ðə ləˈɡuːnə ˈbrɒnzər frɒm nɑːrz/",
@@ -35010,8 +34877,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 153.43,
-        "end": 158.29,
+        "start": 139.79,
+        "end": 144.65,
         "speaker": "Speaker",
         "en": "I'm gonna use California Love palette from Colourpop, and I'm gonna use The Bay.",
         "ipa": "/aɪm ˈɡɒnə juːs ˌkælɪˈfɔːrnjə lʌv ˈpælɪt frɒm ˈkʌlərpɒp, ənd aɪm ˈɡɒnə juːs ðə beɪ/",
@@ -35026,8 +34893,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 158.33,
-        "end": 159.93,
+        "start": 144.69,
+        "end": 146.29,
         "speaker": "Speaker",
         "en": "Going in on my crease.",
         "ipa": "/ˈɡəʊɪŋ ɪn ɒn maɪ kriːs/",
@@ -35042,8 +34909,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 165.63,
-        "end": 171.21,
+        "start": 151.99,
+        "end": 157.57,
         "speaker": "Speaker",
         "en": "I'm going to use the Nude Mood palette in Ooh Natural.",
         "ipa": "/aɪm ˈɡoʊɪŋ tuː juːz ðə nuːd muːd ˈpælɪt ɪn uː ˈnæʧrəl/",
@@ -35058,8 +34925,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 175.81,
-        "end": 176.41,
+        "start": 162.17,
+        "end": 162.77,
         "speaker": "Speaker",
         "en": "Oooh!",
         "ipa": "/uː/",
@@ -35068,8 +34935,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 180.61,
-        "end": 185.71,
+        "start": 166.97,
+        "end": 172.07,
         "speaker": "Speaker",
         "en": "I'm going to pop that color right in the inner tear duct area.",
         "ipa": "/aɪm ˈɡoʊɪŋ tuː pɑːp ðæt ˈkʌlər raɪt ɪn ði ˈɪnər tɪr dʌkt ˈɛriə/",
@@ -35084,8 +34951,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 201.03,
-        "end": 204.19,
+        "start": 187.39,
+        "end": 190.55,
         "speaker": "Speaker",
         "en": "Blush, I'm gonna go in with Orgasm from NARS.",
         "ipa": "/blʌʃ, aɪm ˈɡɑːnə ɡoʊ ɪn wɪð ˈɔrɡæzəm frʌm nɑrz/",
@@ -35100,8 +34967,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 206.77,
-        "end": 214.04,
+        "start": 193.13,
+        "end": 200.4,
         "speaker": "Speaker",
         "en": "I'm going to line my lips for the very first time and I'm going to try to like overline it just to give my lips a fuller effect.",
         "ipa": "/aɪm ˈɡoʊɪŋ tuː laɪn maɪ lɪps fɔr ðə ˈvɛri fɜrst taɪm ænd aɪm ˈɡoʊɪŋ tuː traɪ tuː laɪk ˈoʊvərlaɪn ɪt ʤʌst tuː ɡɪv maɪ lɪps ə ˈfʊlər ɪˈfɛkt/",
@@ -35121,8 +34988,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 222.43,
-        "end": 226.08,
+        "start": 208.79,
+        "end": 212.44,
         "speaker": "Speaker",
         "en": "I'm going to use Pillow Talk in the lipstick version.",
         "ipa": "/aɪm ˈɡoʊɪŋ tuː juːz ˈpɪloʊ tɔk ɪn ðə ˈlɪpˌstɪk ˈvɜrʒən/",
@@ -35137,8 +35004,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 230.17,
-        "end": 234.81,
+        "start": 216.53,
+        "end": 221.17,
         "speaker": "Speaker",
         "en": "Like that, I like this color, I look so weird and different!",
         "ipa": "/laɪk ðæt, aɪ laɪk ðɪs ˈkʌlər, aɪ lʊk soʊ wɪrd ænd ˈdɪfərənt/",
@@ -35153,8 +35020,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 236.59,
-        "end": 242.19,
+        "start": 222.95,
+        "end": 228.55,
         "speaker": "Speaker",
         "en": "I'm not used to this at all, I also have some hair extensions, which I'm going to put on.",
         "ipa": "/aɪm nɑt ˈjuːzd tuː ðɪs ət ɔl, aɪ ˈɔlsoʊ hæv sʌm hɛr ɪkˈstɛnʃənz, wɪʧ aɪm ˈɡoʊɪŋ tuː pʊt ɑn/",
@@ -35169,8 +35036,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 242.23,
-        "end": 245.7,
+        "start": 228.59,
+        "end": 232.06,
         "speaker": "Speaker",
         "en": "And I'm also going to put on some colored contact lenses.",
         "ipa": "/ænd aɪm ˈɔlsoʊ ˈɡoʊɪŋ tuː pʊt ɑn sʌm ˈkʌlərd ˈkɑntækt ˈlɛnzəz/",
@@ -35185,8 +35052,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 257.02,
-        "end": 258.53,
+        "start": 243.38,
+        "end": 244.89,
         "speaker": "Speaker",
         "en": "See the difference?",
         "ipa": "/siː ðə ˈdɪfərəns? naʊ ɪts taɪm fɔr ði ˈaʊtˌfɪt ænd ækˈsɛsəriz/",
@@ -35201,8 +35068,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 258.57,
-        "end": 262.25,
+        "start": 244.93,
+        "end": 248.61,
         "speaker": "Speaker",
         "en": "Now it's time for the outfit and accessories.",
         "ipa": "",
@@ -35217,8 +35084,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 264.49,
-        "end": 266.16,
+        "start": 250.85,
+        "end": 252.52,
         "speaker": "Speaker",
         "en": "Some stuff from Forever 21.",
         "ipa": "/sʌm stʌf frʌm fəˈrɛvər ˈtwɛntiˌwʌn. ə lɑt ʌv juː ɡaɪz æskt miː haʊ aɪ wɛr laɪk tæŋk tɑps ænd ˈstræpləs/",
@@ -35233,8 +35100,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 266.2,
-        "end": 270.45,
+        "start": 252.56,
+        "end": 256.81,
         "speaker": "Speaker",
         "en": "A lot of you guys asked me how I wear like tank tops and strapless.",
         "ipa": "",
@@ -35249,8 +35116,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 271.78,
-        "end": 275.09,
+        "start": 258.14,
+        "end": 261.45,
         "speaker": "Speaker",
         "en": "I wear these guys, I call them my chicken cutlets.",
         "ipa": "/aɪ wɛr ðiːz ɡaɪz, aɪ kɔl ðɛm maɪ ˈʧɪkən ˈkʌtlɪts. ðɛr laɪk ˈstɪki ænd ðeɪ lʊk laɪk ˈʧɪkən ˈkʌtlɪts/",
@@ -35265,8 +35132,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 275.13,
-        "end": 278.81,
+        "start": 261.49,
+        "end": 265.17,
         "speaker": "Speaker",
         "en": "They're like sticky and they look like chicken cutlets.",
         "ipa": "",
@@ -35281,8 +35148,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 278.85,
-        "end": 283.57,
+        "start": 265.21,
+        "end": 269.93,
         "speaker": "Speaker",
         "en": "Okay, so this is my first outfit, it's like a tight dress.",
         "ipa": "/oʊˈkeɪ, soʊ ðɪs ɪs maɪ fɜrst ˈaʊtˌfɪt, ɪts laɪk ə taɪt drɛs/",
@@ -35297,8 +35164,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 283.61,
-        "end": 295.71,
+        "start": 269.97,
+        "end": 282.07,
         "speaker": "Speaker",
         "en": "That's not very tight on me because I don't really have much of a figure, and I also have a freaking Tiger Balm patch 'cause My shoulder and my neck were killing me.",
         "ipa": "/ðæts nɑt ˈvɛri taɪt ɑn miː bɪˈkʌz aɪ doʊnt ˈrɪəli hæv mʌʧ ʌv ə ˈfɪɡjər, ænd aɪ ˈɔlsoʊ hæv ə ˈfriːkɪŋ ˈtaɪɡər bɑm pæʧ kəz maɪ ˈʃoʊldər ænd maɪ nɛk wɜr ˈkɪlɪŋ miː/",
@@ -35318,8 +35185,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 295.75,
-        "end": 300.37,
+        "start": 282.11,
+        "end": 286.73,
         "speaker": "Speaker",
         "en": "I'm so excited to FaceTime Ivan after this!",
         "ipa": "/aɪm soʊ ɪkˈsaɪtɪd tuː ˈfeɪsˌtaɪm ˈaɪvən ˈæftər ðɪs! ɡɛt hɪz riˈækʃən. uː/",
@@ -35334,8 +35201,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 300.41,
-        "end": 302.21,
+        "start": 286.77,
+        "end": 288.57,
         "speaker": "Speaker",
         "en": "Get his reaction.",
         "ipa": "",
@@ -35350,8 +35217,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 302.25,
-        "end": 302.79,
+        "start": 288.61,
+        "end": 289.15,
         "speaker": "Speaker",
         "en": "Oooh!",
         "ipa": "",
@@ -35360,8 +35227,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 303.13,
-        "end": 308.52,
+        "start": 289.49,
+        "end": 294.88,
         "speaker": "Speaker",
         "en": "All right, got some rings, I also got myself some fake nose ring.",
         "ipa": "/ɔl raɪt, ɡɑt sʌm rɪŋz, aɪ ˈɔlsoʊ ɡɑt maɪˈsɛlf sʌm feɪk noʊz rɪŋ/",
@@ -35376,8 +35243,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 311.8,
-        "end": 315.44,
+        "start": 298.16,
+        "end": 301.8,
         "speaker": "Speaker",
         "en": "And I got something else: fake tattoos.",
         "ipa": "/ænd aɪ ɡɑt ˈsʌmθɪŋ ɛls: feɪk tæˈtuːz. ðiːz ɑr ˈækʧuəli kaɪnd ʌv ˈprɪti/",
@@ -35392,8 +35259,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 315.48,
-        "end": 318.69,
+        "start": 301.84,
+        "end": 305.05,
         "speaker": "Speaker",
         "en": "These are actually kind of pretty.",
         "ipa": "",
@@ -35413,8 +35280,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 331.85,
-        "end": 332.77,
+        "start": 318.21,
+        "end": 319.13,
         "speaker": "Speaker",
         "en": "Ohhhhhhh!",
         "ipa": "/oʊ/",
@@ -35429,8 +35296,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 334.46,
-        "end": 336.46,
+        "start": 320.82,
+        "end": 322.82,
         "speaker": "Speaker",
         "en": "My god!",
         "ipa": "/maɪ ɡɑd/",
@@ -35439,8 +35306,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 342.11,
-        "end": 344.11,
+        "start": 328.47,
+        "end": 330.47,
         "speaker": "Speaker",
         "en": "I feel like I need another one right here.",
         "ipa": "/aɪ fiːl laɪk aɪ niːd əˈnʌðər wʌn raɪt hɪr/",
@@ -35455,8 +35322,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 362.15,
-        "end": 364.9,
+        "start": 348.51,
+        "end": 351.26,
         "speaker": "Speaker",
         "en": "All right, so that completes the look.",
         "ipa": "/ɔl raɪt, soʊ ðæt kəmˈpliːts ðə lʊk. fiːl laɪk ðɪs ˈriəli ʤʌst kaɪnd ʌv taɪd ˈɛvriˌθɪŋ ɪn wɪð ðə hoʊl eɪ-bi-ʤiː lʊk/",
@@ -35471,8 +35338,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 364.94,
-        "end": 370.67,
+        "start": 351.3,
+        "end": 357.03,
         "speaker": "Speaker",
         "en": "Feel like this really just kind of tied everything in with the whole ABG look.",
         "ipa": "",
@@ -35492,8 +35359,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 370.85,
-        "end": 372.72,
+        "start": 357.21,
+        "end": 359.08,
         "speaker": "Speaker",
         "en": "Ivan: Oh my god!",
         "ipa": "/ˈaɪvən: oʊ maɪ ɡɑd! juː laɪk maɪ tæˈtuːz/",
@@ -35502,8 +35369,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 372.76,
-        "end": 375.15,
+        "start": 359.12,
+        "end": 361.51,
         "speaker": "Speaker",
         "en": "You like my tattoos?",
         "ipa": "",
@@ -35518,8 +35385,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 376.53,
-        "end": 378.45,
+        "start": 362.89,
+        "end": 364.81,
         "speaker": "Speaker",
         "en": "Ivan: Which club are you going to?",
         "ipa": "/ˈaɪvən: wɪʧ klʌb ɑr juː ˈɡoʊɪŋ tuː/",
@@ -35528,8 +35395,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 378.49,
-        "end": 380.24,
+        "start": 364.85,
+        "end": 366.6,
         "speaker": "Speaker",
         "en": "Ivan: You know what?",
         "ipa": "/ˈaɪvən: juː noʊ wʌt? ðə tæts ˈriəli æd ði eɪ-bi-ʤiː flɛr/",
@@ -35538,8 +35405,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 380.28,
-        "end": 383.31,
+        "start": 366.64,
+        "end": 369.67,
         "speaker": "Speaker",
         "en": "The tats really add the ABG flair.",
         "ipa": "",
@@ -35554,8 +35421,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 383.57,
-        "end": 384.51,
+        "start": 369.93,
+        "end": 370.87,
         "speaker": "Speaker",
         "en": "Ivan: Did you put contacts in too?",
         "ipa": "/ˈaɪvən: dɪd juː pʊt ˈkɑntækts ɪn tuː/",
@@ -35570,8 +35437,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 384.55,
-        "end": 386.25,
+        "start": 370.91,
+        "end": 372.61,
         "speaker": "Speaker",
         "en": "Michelle: Yea, I put coloured contacts.",
         "ipa": "/mɪˈʃɛl: jɛə, aɪ pʊt ˈkʌlərd ˈkɑntækts. ɔl raɪt, soʊ ðæt ˈprɪti mʌʧ kəmˈpliːts ˈɛvriˌθɪŋ. aɪ hæd soʊ mʌʧ fʌn ˈfɪlmɪŋ ðɪs ˈvɪdioʊ/",
@@ -35591,8 +35458,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 386.29,
-        "end": 388.57,
+        "start": 372.65,
+        "end": 374.93,
         "speaker": "Speaker",
         "en": "All right, so that pretty much completes everything.",
         "ipa": "",
@@ -35607,8 +35474,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 388.61,
-        "end": 390.25,
+        "start": 374.97,
+        "end": 376.61,
         "speaker": "Speaker",
         "en": "I had so much fun filming this video!",
         "ipa": "",
@@ -35623,8 +35490,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 390.29,
-        "end": 393.82,
+        "start": 376.65,
+        "end": 380.18,
         "speaker": "Speaker",
         "en": "It is so different than what I'm normally used to.",
         "ipa": "/ɪt ɪs soʊ ˈdɪfərənt ðæn wʌt aɪm ˈnɔrməli ˈjuːzd tuː. aɪv ˈnɛvər hæd ðɪs mʌʧ ˈmeɪˌkʌp ɑn bɪˈfɔr/",
@@ -35639,8 +35506,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 393.86,
-        "end": 396.85,
+        "start": 380.22,
+        "end": 383.21,
         "speaker": "Speaker",
         "en": "I've never had this much makeup on before.",
         "ipa": "",
@@ -35655,8 +35522,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 396.89,
-        "end": 399.63,
+        "start": 383.25,
+        "end": 385.99,
         "speaker": "Speaker",
         "en": "Let me know what you guys think of this transformation.",
         "ipa": "/lɛt miː noʊ wʌt juː ɡaɪz θɪŋk ʌv ðɪs ˌtrænsfərˈmeɪʃən. ɪf juː wɑnt tuː siː ˈsʌmθɪŋ ˈsɪmələr tuː ðɪs əˈɡɛn/",
@@ -35671,8 +35538,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 399.67,
-        "end": 407.16,
+        "start": 386.03,
+        "end": 393.52,
         "speaker": "Speaker",
         "en": "If you want to see something similar to this again, Please make sure to hit the like button and make sure to subscribe <3 Thank you guys so much for watching.",
         "ipa": "/pliːz meɪk ʃʊr tuː hɪt ðə laɪk ˈbʌtən ænd meɪk ʃʊr tuː səbˈskraɪb. ˈθæŋk juː ɡaɪz soʊ mʌʧ fɔr ˈwɑʧɪŋ/",
@@ -35687,8 +35554,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 407.2,
-        "end": 409.79,
+        "start": 393.56,
+        "end": 396.15,
         "speaker": "Speaker",
         "en": "I love you guys, and I will see you guys next week, bye!",
         "ipa": "/aɪ lʌv juː ɡaɪz, ænd aɪ wɪl siː juː ɡaɪz nɛkst wiːk, baɪ/",
@@ -41205,38 +41072,34 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
-    "durationSec": 149,
-    "durationLabel": "02:29",
+    "durationSec": 146,
+    "durationLabel": "02:26",
     "date": "2026/10/24",
     "tags": [
       "旅行"
     ],
     "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "旅行",
     "skipRanges": [
       [
-        6.93,
-        9.93
+        32.37,
+        34.17
       ],
       [
-        35.37,
-        37.17
+        44.73,
+        46.29
       ],
       [
-        47.73,
-        49.29
+        55.47,
+        56.07
       ],
       [
-        58.47,
-        59.07
-      ],
-      [
-        148.42,
-        149.0
+        145.42,
+        146.0
       ]
     ],
     "sentences": [
@@ -41274,8 +41137,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 9.93,
-        "end": 11.44,
+        "start": 6.93,
+        "end": 8.44,
         "speaker": "Speaker",
         "en": "Let's take the subway!",
         "ipa": "/lɛts teɪk ðə ˈsʌbˌweɪ!/",
@@ -41290,8 +41153,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 11.48,
-        "end": 17.49,
+        "start": 8.48,
+        "end": 14.49,
         "speaker": "Speaker",
         "en": "I'm walking down the stairs, and when you enter the subway you first need a metro card.",
         "ipa": "/aɪm ˈwɔkɪŋ daʊn ðə stɛrz, ænd wɛn ju ˈɛntər ðə ˈsʌbˌweɪ ju fɜrst nid ə ˈmɛtroʊ kɑrd./",
@@ -41306,8 +41169,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 17.53,
-        "end": 21.36,
+        "start": 14.53,
+        "end": 18.36,
         "speaker": "Speaker",
         "en": "This is the card that will let you enter the subway.",
         "ipa": "/ðɪs ɪz ðə kɑrd ðæt wɪl lɛt ju ˈɛntər ðə ˈsʌbˌweɪ./",
@@ -41322,8 +41185,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 21.4,
-        "end": 25.85,
+        "start": 18.4,
+        "end": 22.85,
         "speaker": "Speaker",
         "en": "You can buy a card right here at this MetroCard vending machine.",
         "ipa": "/ju kæn baɪ ə kɑrd raɪt hir æt ðɪs ˈmɛtroʊˌkɑrd ˈvɛndɪŋ məˈʃin./",
@@ -41338,8 +41201,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 25.89,
-        "end": 28.33,
+        "start": 22.89,
+        "end": 25.33,
         "speaker": "Speaker",
         "en": "And this costs around three dollars.",
         "ipa": "/ænd ðɪs kɔsts əˈraʊnd θri ˈdɑlərz./",
@@ -41354,8 +41217,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 28.37,
-        "end": 35.37,
+        "start": 25.37,
+        "end": 32.37,
         "speaker": "Speaker",
         "en": "You can enter the subway by paying with Apple Pay, but I already have a metro card, so I'm just going to swipe through.",
         "ipa": "/ju kæn ˈɛntər ðə ˈsʌbˌweɪ baɪ ˈpeɪɪŋ wɪð ˈæpəl peɪ, bʌt aɪ ɔlˈrɛdi hæv ə ˈmɛtroʊ kɑrd, soʊ aɪm dʒʌst ˈɡoʊɪŋ tu swaɪp θru./",
@@ -41370,8 +41233,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 37.17,
-        "end": 45.88,
+        "start": 34.17,
+        "end": 42.88,
         "speaker": "Speaker",
         "en": "Right now I'm on the subway platform and I'm waiting for my train to arrive because I am going to take you guys to a special place.",
         "ipa": "/raɪt naʊ aɪm ɑn ðə ˈsʌbˌweɪ ˈplætfɔrm ænd aɪm ˈweɪtɪŋ fɔr maɪ treɪn tu əˈraɪv bɪˈkɔz aɪ æm ˈɡoʊɪŋ tu teɪk ju ɡaɪz tu ə ˈspɛʃəl pleɪs./",
@@ -41386,8 +41249,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 45.92,
-        "end": 47.73,
+        "start": 42.92,
+        "end": 44.73,
         "speaker": "Speaker",
         "en": "Now I'm going to enter the train.",
         "ipa": "/naʊ aɪm ˈɡoʊɪŋ tu ˈɛntər ðə treɪn./",
@@ -41402,8 +41265,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 49.29,
-        "end": 51.45,
+        "start": 46.29,
+        "end": 48.45,
         "speaker": "Speaker",
         "en": "I'm exiting the train.",
         "ipa": "/aɪm ˈɛɡzɪtɪŋ ðə treɪn./",
@@ -41418,8 +41281,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 51.49,
-        "end": 54.04,
+        "start": 48.49,
+        "end": 51.04,
         "speaker": "Speaker",
         "en": "I just made it to my stop.",
         "ipa": "/aɪ dʒʌst meɪd ɪt tu maɪ stɑp./",
@@ -41434,8 +41297,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 54.08,
-        "end": 58.47,
+        "start": 51.08,
+        "end": 55.47,
         "speaker": "Speaker",
         "en": "Now, let's go upstairs and go to the street.",
         "ipa": "/naʊ, lɛts ɡoʊ ˈʌpˈstɛrz ænd ɡoʊ tu ðə strit./",
@@ -41450,8 +41313,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 59.07,
-        "end": 66.15,
+        "start": 56.07,
+        "end": 63.15,
         "speaker": "Speaker",
         "en": "I am finally on the street, and the subway is definitely one of the fastest ways to move around New York City.",
         "ipa": "/aɪ æm ˈfaɪnəli ɑn ðə strit, ænd ðə ˈsʌbˌweɪ ɪz ˈdɛfənətli wʌn ʌv ðə ˈfæstəst weɪz tu muv əˈraʊnd nu jɔrk ˈsɪti./",
@@ -41466,8 +41329,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 66.19,
-        "end": 71.12,
+        "start": 63.19,
+        "end": 68.12,
         "speaker": "Speaker",
         "en": "Let me know if you guys have a subway in your city, and let me know where you're from.",
         "ipa": "/lɛt mi noʊ ɪf ju ɡaɪz hæv ə ˈsʌbˌweɪ ɪn jɔr ˈsɪti, ænd lɛt mi noʊ wɛr jɔr frʌm./",
@@ -41482,8 +41345,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 71.16,
-        "end": 73.73,
+        "start": 68.16,
+        "end": 70.73,
         "speaker": "Speaker",
         "en": "Can you guys guess where the subway took me?",
         "ipa": "/kæn ju ɡaɪz ɡɛs wɛr ðə ˈsʌbˌweɪ tʊk mi?/",
@@ -41498,8 +41361,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 73.77,
-        "end": 76.99,
+        "start": 70.77,
+        "end": 73.99,
         "speaker": "Speaker",
         "en": "Right now I'm in the middle of Times Square.",
         "ipa": "/raɪt naʊ aɪm ɪn ðə ˈmɪdəl ʌv taɪmz skwɛr./",
@@ -41514,8 +41377,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 77.03,
-        "end": 84.17,
+        "start": 74.03,
+        "end": 81.17,
         "speaker": "Speaker",
         "en": "There are so many billboards and huge screens that are displaying ads of different companies and businesses.",
         "ipa": "/ðɛr ɑr soʊ ˈmɛni ˈbɪlˌbɔrdz ænd hjudʒ skrinz ðæt ɑr dɪˈspleɪɪŋ ædz ʌv ˈdɪfərənt ˈkʌmpəniz ænd ˈbɪznəsəz./",
@@ -41530,8 +41393,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 84.21,
-        "end": 86.59,
+        "start": 81.21,
+        "end": 83.59,
         "speaker": "Speaker",
         "en": "Almost every downtown has a coffee shop.",
         "ipa": "/ˈɔlmoʊst ˈɛvri ˈdaʊnˌtaʊn hæz ə ˈkɔfi ʃɑp./",
@@ -41546,8 +41409,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 86.63,
-        "end": 88.98,
+        "start": 83.63,
+        "end": 85.98,
         "speaker": "Speaker",
         "en": "Behind me is a Starbucks coffee shop.",
         "ipa": "/bɪˈhaɪnd mi ɪz ə ˈstɑrˌbʌks ˈkɔfi ʃɑp./",
@@ -41562,8 +41425,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 89.02,
-        "end": 95.6,
+        "start": 86.02,
+        "end": 92.6,
         "speaker": "Speaker",
         "en": "If you're a coffee lover, a coffee shop is something you cannot miss if you're downtown or in the city.",
         "ipa": "/ɪf jɔr ə ˈkɔfi ˈlʌvər, ə ˈkɔfi ʃɑp ɪz ˈsʌmθɪŋ ju ˈkænɑt mɪs ɪf jɔr ˈdaʊnˌtaʊn ɔr ɪn ðə ˈsɪti./",
@@ -41578,8 +41441,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 95.64,
-        "end": 106.68,
+        "start": 92.64,
+        "end": 103.68,
         "speaker": "Speaker",
         "en": "Also, if you want to learn how to order coffee at a coffee shop, I just recorded a brand new video ordering coffee and teaching you guys English on how to order coffee at the coffee shop.",
         "ipa": "/ˈɔlsoʊ, ɪf ju wɑnt tu lɜrn haʊ tu ˈɔrdər ˈkɔfi æt ə ˈkɔfi ʃɑp, aɪ dʒʌst rɪˈkɔrdəd ə brænd nu ˈvɪdioʊ ˈɔrdərɪŋ ˈkɔfi ænd ˈtitʃɪŋ ju ɡaɪz ˈɪŋɡlɪʃ ɑn haʊ tu ˈɔrdər ˈkɔfi æt ðə ˈkɔfi ʃɑp./",
@@ -41599,8 +41462,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 106.72,
-        "end": 109.4,
+        "start": 103.72,
+        "end": 106.4,
         "speaker": "Speaker",
         "en": "I just got to the final part of this video.",
         "ipa": "/aɪ dʒʌst ɡɑt tu ðə ˈfaɪnəl pɑrt ʌv ðɪs ˈvɪdioʊ./",
@@ -41615,8 +41478,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 109.44,
-        "end": 111.47,
+        "start": 106.44,
+        "end": 108.47,
         "speaker": "Speaker",
         "en": "Right now, I am in Central Park.",
         "ipa": "/raɪt naʊ, aɪ æm ɪn ˈsɛntrəl pɑrk./",
@@ -41631,8 +41494,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 111.51,
-        "end": 115.1,
+        "start": 108.51,
+        "end": 112.1,
         "speaker": "Speaker",
         "en": "This park is in the middle of downtown New York City.",
         "ipa": "/ðɪs pɑrk ɪz ɪn ðə ˈmɪdəl ʌv ˈdaʊnˌtaʊn nu jɔrk ˈsɪti./",
@@ -41647,8 +41510,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 115.14,
-        "end": 119.09,
+        "start": 112.14,
+        "end": 116.09,
         "speaker": "Speaker",
         "en": "Behind me, you can see the skyline of the beautiful skyscrapers.",
         "ipa": "/bɪˈhaɪnd mi, ju kæn si ðə ˈskaɪˌlaɪn ʌv ðə ˈbjutəfəl ˈskaɪˌskreɪpərz./",
@@ -41663,8 +41526,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 119.13,
-        "end": 124.14,
+        "start": 116.13,
+        "end": 121.14,
         "speaker": "Speaker",
         "en": "Also, I just got my hot dog and this hot dog costs four dollars and fifty cents.",
         "ipa": "/ˈɔlsoʊ, aɪ dʒʌst ɡɑt maɪ hɑt dɔɡ ænd ðɪs hɑt dɔɡ kɔsts fɔr ˈdɑlərz ænd ˈfɪfti sɛnts./",
@@ -41679,8 +41542,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 124.18,
-        "end": 131.98,
+        "start": 121.18,
+        "end": 128.98,
         "speaker": "Speaker",
         "en": "Normally where I'm from (Cincinnati, Ohio) these hot dogs would normally cost on the street around two dollars and fifty cents.",
         "ipa": "/ˈnɔrməli wɛr aɪm frʌm (ˌsɪnsɪˈnæti, oʊˈhaɪoʊ) ðiz hɑt dɔɡz wʊd ˈnɔrməli kɔst ɑn ðə strit əˈraʊnd tu ˈdɑlərz ænd ˈfɪfti sɛnts./",
@@ -41695,8 +41558,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 132.02,
-        "end": 133.29,
+        "start": 129.02,
+        "end": 130.29,
         "speaker": "Speaker",
         "en": "This is the hot dog bun.",
         "ipa": "/ðɪs ɪz ðə hɒt dɒɡ bʌn/",
@@ -41711,8 +41574,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 133.33,
-        "end": 135.68,
+        "start": 130.33,
+        "end": 132.68,
         "speaker": "Speaker",
         "en": "I have the hot dog and ketchup and mustard.",
         "ipa": "/aɪ hæv ðə hɒt dɒɡ ænd ˈkɛtʃəp ænd ˈmʌstərd/",
@@ -41732,8 +41595,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 135.72,
-        "end": 139.62,
+        "start": 132.72,
+        "end": 136.62,
         "speaker": "Speaker",
         "en": "If you guys made it to the end of this video, thank you for following along!",
         "ipa": "/ɪf ju ɡaɪz meɪd ɪt tu ði ɛnd ʌv ðɪs ˈvɪdioʊ, θæŋk ju fɔr ˈfɑloʊɪŋ əˈlɔŋ/",
@@ -41753,8 +41616,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 139.66,
-        "end": 142.51,
+        "start": 136.66,
+        "end": 139.51,
         "speaker": "Speaker",
         "en": "I'm really hungry, so I'm gonna finish eating my hot dog.",
         "ipa": "/aɪm ˈrɪli ˈhʌŋɡri, soʊ aɪm ˈɡɑnə ˈfɪnɪʃ ˈiːtɪŋ maɪ hɒt dɒɡ/",
@@ -41774,8 +41637,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 142.55,
-        "end": 147.98,
+        "start": 139.55,
+        "end": 144.98,
         "speaker": "Speaker",
         "en": "Don't forget to like, subscribe, and give me a super thanks if you enjoy my videos!",
         "ipa": "/doʊnt fərˈɡɛt tu laɪk, səbˈskraɪb, ænd ɡɪv mi ə ˈsupər θæŋks ɪf ju ɪnˈdʒɔɪ maɪ ˈvɪdioʊz/",
@@ -41795,8 +41658,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 148.02,
-        "end": 148.42,
+        "start": 145.02,
+        "end": 145.42,
         "speaker": "Speaker",
         "en": "Bye!",
         "ipa": "/baɪ/",
@@ -45476,8 +45339,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 409,
-    "durationLabel": "06:49",
+    "durationSec": 403,
+    "durationLabel": "06:43",
     "date": "2026/10/19",
     "tags": [
       "生活英语",
@@ -45485,34 +45348,26 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "生活英语",
     "skipRanges": [
       [
-        5.49,
-        7.99
+        73.77,
+        75.24
       ],
       [
-        13.94,
-        17.24
+        154.51,
+        168.28
       ],
       [
-        79.57,
-        81.04
+        179.77,
+        187.32
       ],
       [
-        160.31,
-        174.08
-      ],
-      [
-        185.57,
-        193.12
-      ],
-      [
-        306.25,
-        325.4
+        300.45,
+        319.6
       ]
     ],
     "sentences": [
@@ -45534,8 +45389,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 7.99,
-        "end": 13.94,
+        "start": 5.49,
+        "end": 11.44,
         "speaker": "Speaker",
         "en": "It's Sid, and welcome.",
         "ipa": "",
@@ -45550,8 +45405,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 17.24,
-        "end": 21.32,
+        "start": 11.44,
+        "end": 15.52,
         "speaker": "Speaker",
         "en": "Back.",
         "ipa": "/bæk/",
@@ -45560,8 +45415,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 21.36,
-        "end": 26.52,
+        "start": 15.56,
+        "end": 20.72,
         "speaker": "Speaker",
         "en": "So, let me explain: I didn't post last week, and to be honest, I didn't think.",
         "ipa": "/soʊ lɛt mi ɪkˈspleɪn aɪ ˈdɪdnt poʊst læst wiːk ænd tu bi ˈɑːnɪst aɪ ˈdɪdnt θɪŋk/",
@@ -45576,8 +45431,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 26.56,
-        "end": 31.16,
+        "start": 20.76,
+        "end": 25.36,
         "speaker": "Speaker",
         "en": "Anyone would notice, but actually quite a few of you guys did, and it was actually.",
         "ipa": "/ˈɛniwʌn wʊd ˈnoʊtɪs bʌt ˈæktʃuəli kwaɪt ə fjuː əv ju ɡaɪz dɪd ænd ɪt wʌz ˈæktʃuəli/",
@@ -45592,8 +45447,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 31.2,
-        "end": 35.52,
+        "start": 25.4,
+        "end": 29.72,
         "speaker": "Speaker",
         "en": "So sweet, cuz I was like, 'Wow, it mattered to some of you,' so thank you, guys.",
         "ipa": "/soʊ swiːt kəz aɪ wʌz laɪk waʊ ɪt ˈmætərd tu sʌm əv ju soʊ θæŋk ju ɡaɪz/",
@@ -45608,8 +45463,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 35.56,
-        "end": 40.88,
+        "start": 29.76,
+        "end": 35.08,
         "speaker": "Speaker",
         "en": "The reason I didn't post is I was just in a slump last week when I was kind.",
         "ipa": "/ðə ˈriːzən aɪ ˈdɪdnt poʊst ɪz aɪ wʌz dʒʌst ɪn ə slʌmp læst wiːk wɛn aɪ wʌz kaɪnd/",
@@ -45624,8 +45479,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 40.92,
-        "end": 42.81,
+        "start": 35.12,
+        "end": 37.01,
         "speaker": "Speaker",
         "en": "Of in this lonely mental state.",
         "ipa": "/əv ɪn ðɪs ˈloʊnli ˈmɛntl steɪt aɪ wʌz ˈθɪŋkɪŋ tu maɪˈsɛlf waʊ laɪk ju lɪv əˈloʊn/",
@@ -45640,8 +45495,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 42.85,
-        "end": 46.2,
+        "start": 37.05,
+        "end": 40.4,
         "speaker": "Speaker",
         "en": "I was thinking to myself, 'Wow, like, you live alone.'",
         "ipa": "",
@@ -45661,8 +45516,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 46.24,
-        "end": 51.8,
+        "start": 40.44,
+        "end": 46.0,
         "speaker": "Speaker",
         "en": "You're alone a lot of the time, that's so lonely, but then I realized being alone does not.",
         "ipa": "/jʊr əˈloʊn ə lɑːt əv ðə taɪm ðæts soʊ ˈloʊnli bʌt ðɛn aɪ ˈriːəlaɪzd ˈbiːɪŋ əˈloʊn dʌz nɑːt/",
@@ -45677,8 +45532,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 51.84,
-        "end": 56.68,
+        "start": 46.04,
+        "end": 50.88,
         "speaker": "Speaker",
         "en": "Have to be synonymous with being lonely; you can be alone and have such a good.",
         "ipa": "/hæv tu bi sɪˈnɑːnɪməs wɪθ ˈbiːɪŋ ˈloʊnli ju kæn bi əˈloʊn ænd hæv sʌtʃ ə ɡʊd/",
@@ -45693,8 +45548,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 56.72,
-        "end": 61.32,
+        "start": 50.92,
+        "end": 55.52,
         "speaker": "Speaker",
         "en": "Time with yourself, so I want to take today to just have fun with myself.",
         "ipa": "/taɪm wɪθ jɔːrˈsɛlf soʊ aɪ wɑːnt tu teɪk təˈdeɪ tu dʒʌst hæv fʌn wɪθ maɪˈsɛlf/",
@@ -45709,8 +45564,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 61.36,
-        "end": 63.25,
+        "start": 55.56,
+        "end": 57.45,
         "speaker": "Speaker",
         "en": "And just do things that I really love to do.",
         "ipa": "/ænd dʒʌst du θɪŋz ðæt aɪ ˈriːli lʌv tu du aɪ ˈɔːlsoʊ fiːl laɪk aɪm kaɪnd əv ɑːn ˈfeɪstaɪm/",
@@ -45725,8 +45580,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 63.29,
-        "end": 65.08,
+        "start": 57.49,
+        "end": 59.28,
         "speaker": "Speaker",
         "en": "I also feel like I'm kind of on FaceTime.",
         "ipa": "",
@@ -45741,8 +45596,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 65.12,
-        "end": 67.82,
+        "start": 59.32,
+        "end": 62.02,
         "speaker": "Speaker",
         "en": "With you guys sometimes, and it makes me feel less lonely.",
         "ipa": "/wɪθ ju ɡaɪz ˈsʌmtaɪmz ænd ɪt meɪks mi fiːl lɛs ˈloʊnli ðɪs ɪz laɪk haʊ aɪ tɔːk/",
@@ -45757,8 +45612,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 67.86,
-        "end": 69.0,
+        "start": 62.06,
+        "end": 63.2,
         "speaker": "Speaker",
         "en": "This is like how I talk.",
         "ipa": "",
@@ -45767,8 +45622,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 69.04,
-        "end": 72.81,
+        "start": 63.24,
+        "end": 67.01,
         "speaker": "Speaker",
         "en": "With my friends, so we're going to have a fun day together.",
         "ipa": "/wɪθ maɪ frɛndz soʊ wɪr ˈɡoʊɪŋ tu hæv ə fʌn deɪ təˈɡɛðər fɜːrst θɪŋz fɜːrst/",
@@ -45783,8 +45638,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 72.85,
-        "end": 74.08,
+        "start": 67.05,
+        "end": 68.28,
         "speaker": "Speaker",
         "en": "First things first.",
         "ipa": "",
@@ -45793,8 +45648,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 74.12,
-        "end": 79.57,
+        "start": 68.32,
+        "end": 73.77,
         "speaker": "Speaker",
         "en": "Coffee, let's.",
         "ipa": "/ˈkɑːfi lɛts/",
@@ -45809,8 +45664,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 81.04,
-        "end": 81.23,
+        "start": 75.24,
+        "end": 75.43,
         "speaker": "Speaker",
         "en": "Go.",
         "ipa": "/ɡoʊ oʊˈkeɪ soʊ aɪm æt ðə ˈkɑːfi ʃɑːp ænd ˌɪntrəˈduːs jɔːrˈsɛlf haɪ aɪm aɪˈliːn/",
@@ -45819,8 +45674,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 81.27,
-        "end": 85.39,
+        "start": 75.47,
+        "end": 79.59,
         "speaker": "Speaker",
         "en": "Okay, so I'm at the coffee shop and introduce yourself.",
         "ipa": "",
@@ -45835,8 +45690,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 85.43,
-        "end": 86.56,
+        "start": 79.63,
+        "end": 80.76,
         "speaker": "Speaker",
         "en": "Hi, I'm Eileen.",
         "ipa": "",
@@ -45851,8 +45706,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 86.6,
-        "end": 89.88,
+        "start": 80.8,
+        "end": 84.08,
         "speaker": "Speaker",
         "en": "And Eileen just like came up to me and was like, 'I watch your videos.' I was really.",
         "ipa": "/ænd aɪˈliːn dʒʌst laɪk keɪm ʌp tu mi ænd wʌz laɪk aɪ wɑːtʃ jɔːr ˈvɪdioʊz aɪ wʌz ˈriːli/",
@@ -45867,8 +45722,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 89.92,
-        "end": 93.41,
+        "start": 84.12,
+        "end": 87.61,
         "speaker": "Speaker",
         "en": "Awkward to come up, but no, you're so sweet, and you're from Amsterdam.",
         "ipa": "/ˈɔːkwərd tu kʌm ʌp bʌt noʊ jʊr soʊ swiːt ænd jʊr frəm ˈæmstərdæm ʌm aɪ lɪv/",
@@ -45883,8 +45738,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 93.45,
-        "end": 94.0,
+        "start": 87.65,
+        "end": 88.2,
         "speaker": "Speaker",
         "en": "Um, I live.",
         "ipa": "",
@@ -45893,8 +45748,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 94.04,
-        "end": 95.48,
+        "start": 88.24,
+        "end": 89.68,
         "speaker": "Speaker",
         "en": "In Amsterdam, but I grew up in LA.",
         "ipa": "/ɪn ˈæmstərdæm bʌt aɪ ɡruː ʌp ɪn ɛl-eɪ θæŋks fər ˈseɪɪŋ haɪ jʊr ˈlɪtərəli soʊ swiːt/",
@@ -45909,8 +45764,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 95.52,
-        "end": 97.6,
+        "start": 89.72,
+        "end": 91.8,
         "speaker": "Speaker",
         "en": "Thanks for saying hi, you're literally so sweet.",
         "ipa": "",
@@ -45930,8 +45785,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 97.64,
-        "end": 98.92,
+        "start": 91.84,
+        "end": 93.12,
         "speaker": "Speaker",
         "en": "Thank, thank you so much.",
         "ipa": "/θæŋk θæŋk ju soʊ mʌtʃ aɪ dɪˈsaɪdɪd tu kʌm ˈaʊtsaɪd aɪ lʌv ði ɛmˈplɔɪiːz/",
@@ -45940,8 +45795,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 98.96,
-        "end": 100.29,
+        "start": 93.16,
+        "end": 94.49,
         "speaker": "Speaker",
         "en": "I decided to come outside.",
         "ipa": "",
@@ -45956,8 +45811,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 100.33,
-        "end": 101.44,
+        "start": 94.53,
+        "end": 95.64,
         "speaker": "Speaker",
         "en": "I love the employees.",
         "ipa": "",
@@ -45972,8 +45827,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 101.48,
-        "end": 102.35,
+        "start": 95.68,
+        "end": 96.55,
         "speaker": "Speaker",
         "en": "In there, they're so nice.",
         "ipa": "/ɪn ðɛr ðɛr soʊ naɪs aɪm laɪk ˈkaɪnd əv frɛndz wɪð ðɛm naʊ wɛl aɪm nɑːt/",
@@ -45982,8 +45837,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 102.39,
-        "end": 103.71,
+        "start": 96.59,
+        "end": 97.91,
         "speaker": "Speaker",
         "en": "I'm like kind of friends with them now.",
         "ipa": "",
@@ -45998,8 +45853,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 103.75,
-        "end": 104.24,
+        "start": 97.95,
+        "end": 98.44,
         "speaker": "Speaker",
         "en": "Well, I'm not.",
         "ipa": "",
@@ -46008,8 +45863,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 104.28,
-        "end": 105.05,
+        "start": 98.48,
+        "end": 99.25,
         "speaker": "Speaker",
         "en": "Friends with them.",
         "ipa": "/frɛndz wɪð ðɛm aɪ wɪʃ aɪ wʌz frɛndz wɪð ðɛm tu bi ˈɑːnɪst bʌt ðeɪ pleɪ/",
@@ -46024,8 +45879,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 105.09,
-        "end": 107.8,
+        "start": 99.29,
+        "end": 102.0,
         "speaker": "Speaker",
         "en": "I wish I was friends with them, to be honest, but they play.",
         "ipa": "",
@@ -46040,8 +45895,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 107.84,
-        "end": 109.93,
+        "start": 102.04,
+        "end": 104.13,
         "speaker": "Speaker",
         "en": "Lana like so loud, and it's so fun.",
         "ipa": "/ˈlɑːnə laɪk soʊ laʊd ænd ɪts soʊ fʌn laɪk aɪ ˈjuːʒuəli lʌv ɪt ɪn ðɛr bʌt aɪ dʒʌst aɪ/",
@@ -46050,8 +45905,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 109.97,
-        "end": 112.88,
+        "start": 104.17,
+        "end": 107.08,
         "speaker": "Speaker",
         "en": "Like, I usually love it in there, but I just, I.",
         "ipa": "",
@@ -46060,8 +45915,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 112.92,
-        "end": 114.33,
+        "start": 107.12,
+        "end": 108.53,
         "speaker": "Speaker",
         "en": "Don't want to get copyrighted.",
         "ipa": "/doʊnt wɑːnt tu ɡɛt ˈkɑːpiraɪtɪd waʊ ðɪs ɪz soʊ ˈɔːkwərd aɪ heɪt ˈfɪlmɪŋ ɪn ˈpʌblɪk aɪ/",
@@ -46076,8 +45931,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 114.37,
-        "end": 115.49,
+        "start": 108.57,
+        "end": 109.69,
         "speaker": "Speaker",
         "en": "Wow, this is so awkward.",
         "ipa": "",
@@ -46092,8 +45947,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 115.53,
-        "end": 116.7,
+        "start": 109.73,
+        "end": 110.9,
         "speaker": "Speaker",
         "en": "I hate filming in public.",
         "ipa": "",
@@ -46108,8 +45963,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 116.74,
-        "end": 116.84,
+        "start": 110.94,
+        "end": 111.04,
         "speaker": "Speaker",
         "en": "I.",
         "ipa": "",
@@ -46118,8 +45973,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 116.88,
-        "end": 118.19,
+        "start": 111.08,
+        "end": 112.39,
         "speaker": "Speaker",
         "en": "Forgot that I hate it.",
         "ipa": "/fərˈɡɑːt ðæt aɪ heɪt ɪt ju ɡaɪz noʊ laɪk ˈfɪlmɪŋ ɪn ˈpʌblɪk ɪz dʒʌst laɪk hɑːrd/",
@@ -46134,8 +45989,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 118.23,
-        "end": 121.72,
+        "start": 112.43,
+        "end": 115.92,
         "speaker": "Speaker",
         "en": "You guys know, like, filming in public is just like hard.",
         "ipa": "",
@@ -46150,8 +46005,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 121.76,
-        "end": 127.0,
+        "start": 115.96,
+        "end": 121.2,
         "speaker": "Speaker",
         "en": "For me. I'm trying. One of the main reasons I think I wasn't feeling good last week.",
         "ipa": "/fər mi aɪm ˈtraɪɪŋ wʌn əv ðə meɪn ˈriːzənz aɪ θɪŋk aɪ ˈwʌznt ˈfiːlɪŋ ɡʊd læst wiːk/",
@@ -46166,8 +46021,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 127.04,
-        "end": 132.16,
+        "start": 121.24,
+        "end": 126.36,
         "speaker": "Speaker",
         "en": "Actually, I know this is why, is because I was just on social media so much.",
         "ipa": "/ˈæktʃuəli aɪ noʊ ðɪs ɪz waɪ ɪz bɪˈkəz aɪ wʌz dʒʌst ɑːn ˈsoʊʃl ˈmiːdiə soʊ mʌtʃ/",
@@ -46182,8 +46037,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 132.2,
-        "end": 135.49,
+        "start": 126.4,
+        "end": 129.69,
         "speaker": "Speaker",
         "en": "When I'm on it for extended periods of time, I just don't feel good.",
         "ipa": "/wɛn aɪm ɑːn ɪt fər ɪkˈstɛndɪd ˈpɪriədz əv taɪm aɪ dʒʌst doʊnt fiːl ɡʊd aɪ laɪk nɑːt ˈbiːɪŋ/",
@@ -46198,8 +46053,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 135.53,
-        "end": 136.36,
+        "start": 129.73,
+        "end": 130.56,
         "speaker": "Speaker",
         "en": "I like not being.",
         "ipa": "",
@@ -46208,8 +46063,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 136.4,
-        "end": 137.11,
+        "start": 130.6,
+        "end": 131.31,
         "speaker": "Speaker",
         "en": "Productive.",
         "ipa": "/prəˈdʌktɪv ˈsædli aɪ doʊnt hæv ˈsɛlf kənˈtroʊl ænd aɪ hæv tu dɪˈliːt ɪt tu nɑːt ɡoʊ ɑːn ɪt/",
@@ -46224,8 +46079,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 137.15,
-        "end": 142.16,
+        "start": 131.35,
+        "end": 136.36,
         "speaker": "Speaker",
         "en": "Sadly, I don't have self-control, and I have to delete it to not go on it.",
         "ipa": "",
@@ -46240,8 +46095,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 142.2,
-        "end": 147.68,
+        "start": 136.4,
+        "end": 141.88,
         "speaker": "Speaker",
         "en": "So my mom also got me this book a couple months ago, and I wanted to start it.",
         "ipa": "/soʊ maɪ mɑːm ˈɔːlsoʊ ɡɑːt mi ðɪs bʊk ə ˈkʌpl mʌnθs əˈɡoʊ ænd aɪ ˈwɑːntɪd tu stɑːrt ɪt/",
@@ -46261,8 +46116,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 147.72,
-        "end": 153.52,
+        "start": 141.92,
+        "end": 147.72,
         "speaker": "Speaker",
         "en": "Because one of my friends said it was really good too, and I usually read.",
         "ipa": "/bɪˈkəz wʌn əv maɪ frɛndz sɛd ɪt wʌz ˈriːli ɡʊd tuː ænd aɪ ˈjuːʒuəli riːd/",
@@ -46277,8 +46132,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 153.56,
-        "end": 160.31,
+        "start": 147.76,
+        "end": 154.51,
         "speaker": "Speaker",
         "en": "Oh, I love New York.",
         "ipa": "/oʊ aɪ lʌv nu jɔːrk/",
@@ -46287,8 +46142,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 174.08,
-        "end": 176.97,
+        "start": 168.28,
+        "end": 171.17,
         "speaker": "Speaker",
         "en": "I decided to come to this little cute neighborhood.",
         "ipa": "/dɪˈsaɪdɪd tu kʌm tu ðɪs ˈlɪtl kjuːt ˈneɪbərhʊd aɪ ˈwɑːntɪd tu dʒʌst riːd/",
@@ -46308,8 +46163,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 177.01,
-        "end": 178.28,
+        "start": 171.21,
+        "end": 172.48,
         "speaker": "Speaker",
         "en": "I wanted to just read.",
         "ipa": "",
@@ -46318,8 +46173,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 178.32,
-        "end": 180.08,
+        "start": 172.52,
+        "end": 174.28,
         "speaker": "Speaker",
         "en": "Here for a little bit because it's quiet.",
         "ipa": "/hɪr fər ə ˈlɪtl bɪt bɪˈkəz ɪts ˈkwaɪət/",
@@ -46334,8 +46189,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 180.12,
-        "end": 185.57,
+        "start": 174.32,
+        "end": 179.77,
         "speaker": "Speaker",
         "en": "Over here.",
         "ipa": "/ˈoʊvər hɪr/",
@@ -46344,8 +46199,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 193.12,
-        "end": 194.19,
+        "start": 187.32,
+        "end": 188.39,
         "speaker": "Speaker",
         "en": "Only in my teeth.",
         "ipa": "/ˈoʊnli ɪn maɪ tiːθ nɑːt ˈɡoʊɪŋ ɑːn ˈsoʊʃl ˈmiːdiə təˈdeɪ hæz ˈɔːlrɛdi dʒʌst laɪk/",
@@ -46360,8 +46215,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 194.23,
-        "end": 197.76,
+        "start": 188.43,
+        "end": 191.96,
         "speaker": "Speaker",
         "en": "Not going on social media today has already just like.",
         "ipa": "",
@@ -46376,8 +46231,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 197.8,
-        "end": 199.65,
+        "start": 192.0,
+        "end": 193.85,
         "speaker": "Speaker",
         "en": "Helped my mood be so much better.",
         "ipa": "/hɛlpt maɪ mud bi soʊ mʌtʃ ˈbɛtər. aɪm ˈitɪŋ maɪ ˈɡoʊtu snæk ˈrisəntli ˈæktʃuəli./",
@@ -46397,8 +46252,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 199.69,
-        "end": 202.2,
+        "start": 193.89,
+        "end": 196.4,
         "speaker": "Speaker",
         "en": "I'm eating my go-to snack recently actually.",
         "ipa": "",
@@ -46413,8 +46268,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 202.24,
-        "end": 204.54,
+        "start": 196.44,
+        "end": 198.74,
         "speaker": "Speaker",
         "en": "This has been my snack for like probably the past year.",
         "ipa": "/ðɪs hæz bɪn maɪ snæk fɔr laɪk ˈprɑbəbli ðə pæst jɪr. aɪ ɡɛt ðiz ˈlɪtəl θɪn/",
@@ -46429,8 +46284,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 204.58,
-        "end": 211.23,
+        "start": 198.78,
+        "end": 205.43,
         "speaker": "Speaker",
         "en": "I get these little thin pretzels from Trader Joe's, and then I have some little baby carrots with some hummus.",
         "ipa": "/ˈprɛtsəlz frʌm ˈtreɪdər dʒoʊz, ænd ðɛn aɪ hæv sʌm ˈlɪtəl ˈbeɪbi ˈkɛrəts wɪð sʌm ˈhʌməs. ɔl θri əv ðiz təˈɡɛðər, ɪts dʒʌst/",
@@ -46450,8 +46305,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 211.27,
-        "end": 216.21,
+        "start": 205.47,
+        "end": 210.41,
         "speaker": "Speaker",
         "en": "All three of these together, it's just a dream, dream combo!",
         "ipa": "/ə drim, drim ˈkɑmboʊ! ju kən tɛl aɪ lʌv ðɪs ˈhʌməs. aɪm ˈfilɪŋ ə lɑt ˈbɛtər/",
@@ -46466,8 +46321,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 216.25,
-        "end": 218.49,
+        "start": 210.45,
+        "end": 212.69,
         "speaker": "Speaker",
         "en": "You can tell I love this hummus.",
         "ipa": "",
@@ -46482,8 +46337,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 218.53,
-        "end": 221.04,
+        "start": 212.73,
+        "end": 215.24,
         "speaker": "Speaker",
         "en": "I'm feeling a lot better today, honestly.",
         "ipa": "/təˈdeɪ, ˈɑnstli. aɪ θɪŋk dʒʌst nɑt ˈbiɪŋ ɑn ˈsoʊʃəl ˈmidiə ɪz ˈsʌmθɪŋ ðæt aɪ ˈrɪəli/",
@@ -46503,8 +46358,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 221.08,
-        "end": 228.68,
+        "start": 215.28,
+        "end": 222.88,
         "speaker": "Speaker",
         "en": "I think just not being on social media is something that I really needed. It's so important to take breaks, and I forget to do that sometimes.",
         "ipa": "/ˈnidɪd. ɪts soʊ ɪmˈpɔrtənt tu teɪk breɪks, ænd aɪ fərˈɡɛt tu du ðæt ˈsʌmtaɪmz/",
@@ -46524,8 +46379,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 228.72,
-        "end": 236.38,
+        "start": 222.92,
+        "end": 230.58,
         "speaker": "Speaker",
         "en": "Social media definitely, like, I think affects everyone differently, cuz some of my friends aren't like me, where they get kind of compulsively comparing to other people.",
         "ipa": "/ˈsoʊʃəl ˈmidiə ˈdɛfənətli, laɪk, aɪ θɪŋk əˈfɛkts ˈɛvriwʌn ˈdɪfərəntli, kəz sʌm əv maɪ frɛndz ɑrnt laɪk mi, wɛr ðeɪ ɡɛt kaɪnd əv kəmˈpʌlsɪvli kəmˈpɛrɪŋ tu ˈʌðər ˈpipəl. bʌt wɛn aɪm dʒʌst, laɪk, ɑn maɪ foʊn fɔr tu lɔŋ, ænd aɪm dʒʌst/",
@@ -46545,8 +46400,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 236.42,
-        "end": 246.7,
+        "start": 230.62,
+        "end": 240.9,
         "speaker": "Speaker",
         "en": "But when I'm just, like, on my phone for too long, and I'm just scrolling endlessly, I feel like I just compare everything about me to everyone else, and then I feel bad about my own life when I shouldn't.",
         "ipa": "/ˈskroʊlɪŋ ˈɛndləsli, aɪ fil laɪk aɪ dʒʌst kəmˈpɛr ˈɛvriθɪŋ əˈbaʊt mi tu ˈɛvriwʌn ɛls, ænd ðɛn aɪ fil bæd əˈbaʊt maɪ oʊn laɪf wɛn aɪ ˈʃʊdənt. aɪ hæv, laɪk, sʌtʃ/",
@@ -46571,8 +46426,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 246.74,
-        "end": 248.48,
+        "start": 240.94,
+        "end": 242.68,
         "speaker": "Speaker",
         "en": "I have, like, such an amazing life!",
         "ipa": "/ən əˈmeɪzɪŋ laɪf! ɪts dʒʌst, laɪk, ðə trɪk ðæt ˈsoʊʃəl ˈmidiə kən pleɪ ɑn jʊr maɪnd/",
@@ -46587,8 +46442,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 248.52,
-        "end": 253.24,
+        "start": 242.72,
+        "end": 247.44,
         "speaker": "Speaker",
         "en": "It's just, like, the trick that social media can play on your mind, and I've talked about this before.",
         "ipa": "/ænd aɪv tɔkt əˈbaʊt ðɪs bɪˈfɔr. laɪk, ɪf ju ɡaɪz wɑtʃt maɪ ˈvɪdioʊ θri ɔr fɔr/",
@@ -46608,8 +46463,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 253.28,
-        "end": 271.58,
+        "start": 247.48,
+        "end": 265.78,
         "speaker": "Speaker",
         "en": "Like, if you guys watched my video three or four years ago, it was called Dear Teenage Girls, and I talked about how I struggled with just comparing myself online to people, because it's such a real thing and it's, like, just an important reminder, I guess, for me to get off my phone and just know that, like, if you're ever feeling bad about yourself on social media, you're only seeing someone's highlight reel.",
         "ipa": "/jɪrz əˈɡoʊ, ɪt wʌz kɔld dɪr ˈtinɪdʒ ɡɜrlz, ænd aɪ tɔkt əˈbaʊt haʊ aɪ ˈstrʌɡəld wɪð dʒʌst kəmˈpɛrɪŋ maɪˈsɛlf ˈɑnˌlaɪn tu ˈpipəl, bɪˈkʌz ɪts sʌtʃ ə riəl θɪŋ ænd ɪts, laɪk, dʒʌst ən ɪmˈpɔrtənt rɪˈmaɪndər, aɪ ɡɛs, fɔr mi tu ɡɛt ɔf maɪ foʊn ænd dʒʌst noʊ ðæt, laɪk, ɪf jʊr ˈɛvər ˈfilɪŋ bæd əˈbaʊt jʊrˈsɛlf ɑn ˈsoʊʃəl ˈmidiə, jʊr ˈoʊnli ˈsiɪŋ ˈsʌmwʌnz ˈhaɪˌlaɪt ril. aɪ noʊ ˈɛvriwʌn ˈɔlweɪz/",
@@ -46634,8 +46489,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 271.62,
-        "end": 276.9,
+        "start": 265.82,
+        "end": 271.1,
         "speaker": "Speaker",
         "en": "I know everyone always says this, but sometimes I need a reminder, so I'm actually, kind of, just saying this for myself too.",
         "ipa": "/sɛz ðɪs, bʌt ˈsʌmtaɪmz aɪ nid ə rɪˈmaɪndər, soʊ aɪm ˈæktʃuəli, kaɪnd əv, dʒʌst ˈseɪɪŋ ðɪs fɔr maɪˈsɛlf tu. aɪ θɪŋk aɪm ˈɡʌɪŋ tu ɡoʊ, ˈæktʃuəli, tu ðɪs ˈbʊkˌstɔr./",
@@ -46655,8 +46510,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 276.94,
-        "end": 279.88,
+        "start": 271.14,
+        "end": 274.08,
         "speaker": "Speaker",
         "en": "I think I'm going to go, actually, to this bookstore.",
         "ipa": "",
@@ -46676,8 +46531,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 279.92,
-        "end": 284.3,
+        "start": 274.12,
+        "end": 278.5,
         "speaker": "Speaker",
         "en": "I've been wanting to try out new bookstores in New York, because I feel like there's just so many of them.",
         "ipa": "/aɪv bɪn ˈwɑntɪŋ tu traɪ aʊt nu ˈbʊkˌstɔrz ɪn nu jɔrk, bɪˈkʌz aɪ fil laɪk ðɛrz dʒʌst soʊ ˈmɛni əv ðɛm. waʊ, aɪm dʒʌst, laɪk, ˈridɪŋ soʊ mʌtʃ, laɪk aɪ/",
@@ -46697,8 +46552,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 284.34,
-        "end": 289.8,
+        "start": 278.54,
+        "end": 284.0,
         "speaker": "Speaker",
         "en": "Wow, I'm just, like, reading so much, like I was reading in the beginning of this video. Now I'm going to a bookstore. We'll take the train there.",
         "ipa": "/wʌz ˈridɪŋ ɪn ðə bɪˈɡɪnɪŋ əv ðɪs ˈvɪdioʊ. naʊ aɪm ˈɡʌɪŋ tu ə ˈbʊkˌstɔr. wɪl teɪk ðə treɪn ðɛr. aɪ lʌv ˈbʊkˌstɔrz. ðɛrz ə spəˈsɪfɪk ˈfilɪŋ ðæt ju ɡɛt/",
@@ -46713,8 +46568,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 289.84,
-        "end": 290.66,
+        "start": 284.04,
+        "end": 284.86,
         "speaker": "Speaker",
         "en": "I love bookstores.",
         "ipa": "",
@@ -46729,8 +46584,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 290.7,
-        "end": 306.25,
+        "start": 284.9,
+        "end": 300.45,
         "speaker": "Speaker",
         "en": "There's a specific feeling that you get in a bookstore that you don't get anywhere else.",
         "ipa": "/ɪn ə ˈbʊkˌstɔr ðæt ju doʊnt ɡɛt ˈɛniˌwɛr ɛls./",
@@ -46755,8 +46610,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 325.4,
-        "end": 329.16,
+        "start": 319.6,
+        "end": 323.36,
         "speaker": "Speaker",
         "en": "Guys, that was the coolest bookstore I think I've ever been in!",
         "ipa": "/ɡaɪz, ðæt wʌz ðə ˈkulɪst ˈbʊkˌstɔr aɪ θɪŋk aɪv ˈɛvər bɪn ɪn! ɪt wʌz soʊ, laɪk,/",
@@ -46771,8 +46626,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 329.2,
-        "end": 331.06,
+        "start": 323.4,
+        "end": 325.26,
         "speaker": "Speaker",
         "en": "It was so, like, magical in there.",
         "ipa": "/ˈmædʒɪkəl ɪn ðɛr. bʌt aɪ ˈdɪdnt noʊ ðæt ə lʌt əv ɪt wʌz laɪk ˈæktɪŋ ˈpleɪˌbʊk/",
@@ -46787,8 +46642,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 331.1,
-        "end": 337.33,
+        "start": 325.3,
+        "end": 331.53,
         "speaker": "Speaker",
         "en": "But I didn't know that a lot of it was like acting playbook script type books, so I didn't find anything when I was in there.",
         "ipa": "/skrɪpt taɪp bʊks, soʊ aɪ ˈdɪdnt faɪnd ˈɛniθɪŋ wɛn aɪ wʌz ɪn ðɛr. bʌt, jæ/",
@@ -46808,8 +46663,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 337.37,
-        "end": 342.83,
+        "start": 331.57,
+        "end": 337.03,
         "speaker": "Speaker",
         "en": "But, yeah, now I'm just sitting here on this bench romanticizing my life.",
         "ipa": "/naʊ aɪm dʒʌst ˈsɪtɪŋ hir ɑn ðɪs bɛntʃ ˈroʊmæntəˌzaɪɪŋ maɪ laɪf. ˈɛvriwʌnz/",
@@ -46824,8 +46679,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 342.87,
-        "end": 344.36,
+        "start": 337.07,
+        "end": 338.56,
         "speaker": "Speaker",
         "en": "Everyone's looking at me!",
         "ipa": "/ˈlʊkɪŋ æt mi! waʊ, ɡaɪz, aɪv bɪn ˈvlɑɡɪŋ ɪn ˈpʌblɪk soʊ mʌtʃ təˈdeɪ. ɑr ju/",
@@ -46834,8 +46689,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 344.4,
-        "end": 346.98,
+        "start": 338.6,
+        "end": 341.18,
         "speaker": "Speaker",
         "en": "Wow, guys, I've been vlogging in public so much today.",
         "ipa": "",
@@ -46850,8 +46705,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 347.02,
-        "end": 347.95,
+        "start": 341.22,
+        "end": 342.15,
         "speaker": "Speaker",
         "en": "Are you guys proud?",
         "ipa": "/ɡaɪz praʊd? aɪm skɛrd raɪt naʊ. aɪm æt ðə ˈɡroʊsəri stɔr bɪˈkʌz aɪ nid tu ɡɛt/",
@@ -46866,8 +46721,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 347.99,
-        "end": 349.08,
+        "start": 342.19,
+        "end": 343.28,
         "speaker": "Speaker",
         "en": "I'm scared right now.",
         "ipa": "",
@@ -46882,8 +46737,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 349.12,
-        "end": 352.94,
+        "start": 343.32,
+        "end": 347.14,
         "speaker": "Speaker",
         "en": "I'm at the grocery store because I need to get a few things for dinner.",
         "ipa": "/ə fju θɪŋz fɔr ˈdɪnər. aɪ ɡɑt ðɪs nu ˈsæləd boʊl, ænd ɪts laɪk ˈmeɪkɪŋ mi wɑnt/",
@@ -46898,8 +46753,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 352.98,
-        "end": 364.92,
+        "start": 347.18,
+        "end": 359.12,
         "speaker": "Speaker",
         "en": "I got this new salad bowl, and it's like making me want to make more salads. I also got this milk. I usually don't even really drink, like, Normal milk, but this is so good that I can't not; it's the little Horizon.",
         "ipa": "/tu meɪk mɔr ˈsælədz. aɪ ˈɔlsoʊ ɡɑt ðɪs mɪlk. aɪ ˈjuʒəwəli ˈdoʊnt ˈivən ˈrɪəli drɪŋk, laɪk, ˈnɔːrməl mɪlk, bʌt ðɪs ɪz soʊ ɡʊd ðæt aɪ kænt nɑːt; ɪts ðə ˈlɪtəl həˈraɪzən./",
@@ -46924,8 +46779,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 364.96,
-        "end": 371.84,
+        "start": 359.16,
+        "end": 366.04,
         "speaker": "Speaker",
         "en": "Strawberry milks, like I said, I got this new salad.",
         "ipa": "/ˈstrɔːbɛri mɪlks, laɪk aɪ sɛd, aɪ ɡɑːt ðɪs nuː ˈsæləd./",
@@ -46940,8 +46795,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 371.88,
-        "end": 376.32,
+        "start": 366.08,
+        "end": 370.52,
         "speaker": "Speaker",
         "en": "Bowl, even something as simple as this has been like making me want to make.",
         "ipa": "/boʊl, ˈiːvən ˈsʌmθɪŋ æz ˈsɪmpəl æz ðɪs hæz biːn laɪk ˈmeɪkɪŋ mi wɑːnt tu meɪk./",
@@ -46956,8 +46811,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 376.36,
-        "end": 378.5,
+        "start": 370.56,
+        "end": 372.7,
         "speaker": "Speaker",
         "en": "More salads, so that's good for me.",
         "ipa": "/mɔːr ˈsælədz, soʊ ðæts ɡʊd fɔːr mi. aɪv biːn ˈmeɪkɪŋ ðɪs ˈsiːzər ˈsæləd./",
@@ -46972,8 +46827,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 378.54,
-        "end": 380.72,
+        "start": 372.74,
+        "end": 374.92,
         "speaker": "Speaker",
         "en": "I've been making this Caesar salad.",
         "ipa": "",
@@ -46993,8 +46848,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 380.76,
-        "end": 382.89,
+        "start": 374.96,
+        "end": 377.09,
         "speaker": "Speaker",
         "en": "With chicken; that's kind of been my go-to.",
         "ipa": "/wɪð ˈtʃɪkɪn; ðæts kaɪnd əv biːn maɪ ˈɡoʊ tuː. ˈɡroʊɪŋ ʌp, maɪ mɑːm wʊd ˈɔːlweɪz koʊt./",
@@ -47009,8 +46864,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 382.93,
-        "end": 384.8,
+        "start": 377.13,
+        "end": 379.0,
         "speaker": "Speaker",
         "en": "Growing up, my mom would always coat.",
         "ipa": "",
@@ -47025,8 +46880,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 384.84,
-        "end": 388.96,
+        "start": 379.04,
+        "end": 383.16,
         "speaker": "Speaker",
         "en": "The chicken breast in egg and then breadcrumb and flour; that's kind.",
         "ipa": "/ðə ˈtʃɪkɪn brɛst ɪn ɛɡ ænd ðɛn ˈbrɛdkrʌm ænd ˈflaʊər; ðæts kaɪnd./",
@@ -47041,8 +46896,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 389.0,
-        "end": 391.92,
+        "start": 383.2,
+        "end": 386.12,
         "speaker": "Speaker",
         "en": "Of what I like to do now just because she taught me that way.",
         "ipa": "/əv wʌt aɪ laɪk tu du naʊ dʒʌst bɪˈkəz ʃi tɔːt mi ðæt weɪ. aɪ ˈɔːlsoʊ laɪk kænt kʊk./",
@@ -47057,8 +46912,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 391.96,
-        "end": 393.08,
+        "start": 386.16,
+        "end": 387.28,
         "speaker": "Speaker",
         "en": "I also like can't cook.",
         "ipa": "",
@@ -47067,8 +46922,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 393.12,
-        "end": 397.96,
+        "start": 387.32,
+        "end": 392.16,
         "speaker": "Speaker",
         "en": "Without FaceTiming.",
         "ipa": "/wɪˈθaʊt ˈfeɪstaɪmɪŋ./",
@@ -47083,8 +46938,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 398.0,
-        "end": 398.6,
+        "start": 392.2,
+        "end": 392.8,
         "speaker": "Speaker",
         "en": "Someone.",
         "ipa": "/ˈsʌmwʌn. dæm, wɛl, ˈnɛvər maɪnd, ɪts dʒʌst./",
@@ -47093,8 +46948,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 398.64,
-        "end": 401.36,
+        "start": 392.84,
+        "end": 395.56,
         "speaker": "Speaker",
         "en": "Damn, well, never mind, it's just.",
         "ipa": "",
@@ -47109,8 +46964,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 401.4,
-        "end": 408.95,
+        "start": 395.6,
+        "end": 403.15,
         "speaker": "Speaker",
         "en": "You and us, you and me.",
         "ipa": "/ju ænd ʌs, ju ænd mi./",
@@ -53289,34 +53144,30 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
-    "durationSec": 314,
-    "durationLabel": "05:14",
+    "durationSec": 302,
+    "durationLabel": "05:02",
     "date": "2026/10/12",
     "tags": [
       "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "生活英语",
     "skipRanges": [
       [
-        7.38,
-        19.5
+        87.72,
+        88.74
       ],
       [
-        99.84,
-        100.86
+        114.18,
+        114.72
       ],
       [
-        126.3,
-        126.84
-      ],
-      [
-        133.68,
-        136.26
+        121.56,
+        124.14
       ]
     ],
     "sentences": [
@@ -53338,8 +53189,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 19.5,
-        "end": 31.49,
+        "start": 7.38,
+        "end": 19.37,
         "speaker": "Speaker",
         "en": "I wasn't allowed to record inside the LEGO store (the toy store), but I found one of their most expensive sets of Legos (The Eiffel Tower) at $629.99.",
         "ipa": "/aɪ ˈwʌzənt əˈlaʊd tu rɪˈkɔrd ɪnˈsaɪd ðə ˈlɛɡoʊ stɔr (ðə tɔɪ stɔr), bʌt aɪ faʊnd wʌn əv ðɛr moʊst ɪkˈspɛnsɪv sɛts əv ˈlɛɡoʊz (ði ˈaɪfəl ˈtaʊər) æt 629.99./",
@@ -53364,8 +53215,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 31.53,
-        "end": 33.08,
+        "start": 19.41,
+        "end": 20.96,
         "speaker": "Speaker",
         "en": "Is that pricey?",
         "ipa": "/ɪz ðæt ˈpraɪsi?/",
@@ -53380,8 +53231,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 33.12,
-        "end": 34.35,
+        "start": 21.0,
+        "end": 22.23,
         "speaker": "Speaker",
         "en": "Let me know.",
         "ipa": "/lɛt mi noʊ/",
@@ -53396,8 +53247,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 34.39,
-        "end": 38.62,
+        "start": 22.27,
+        "end": 26.5,
         "speaker": "Speaker",
         "en": "Also, that price tag $629 does not include the tax.",
         "ipa": "/ˈɔlsoʊ, ðæt praɪs tæɡ ˈsɪks ˈhʌndrəd ˈtwɛnti naɪn dʌz nɑt ɪnˈklud ðə tæks/",
@@ -53417,8 +53268,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 38.66,
-        "end": 44.57,
+        "start": 26.54,
+        "end": 32.45,
         "speaker": "Speaker",
         "en": "It can get very expensive when you're shopping for items over a hundred dollars.",
         "ipa": "/ɪt kæn ɡɛt ˈvɛri ɪkˈspɛnsɪv wɛn jʊr ˈʃɑpɪŋ fɔr ˈaɪtəmz ˈoʊvər ə ˈhʌndrəd ˈdɑlərz/",
@@ -53433,8 +53284,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 44.61,
-        "end": 52.52,
+        "start": 32.49,
+        "end": 40.4,
         "speaker": "Speaker",
         "en": "Over here, they have the Darth Vader display and that is just for display, but you can go inside and take a picture with it.",
         "ipa": "/ˈoʊvər hir, ðeɪ hæv ðə dɑrθ ˈveɪdər dɪˈspleɪ ænd ðæt ɪz dʒʌst fɔr dɪˈspleɪ, bʌt ju kæn ɡoʊ ɪnˈsaɪd ænd teɪk ə ˈpɪktʃər wɪð ɪt/",
@@ -53449,8 +53300,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 52.56,
-        "end": 58.0,
+        "start": 40.44,
+        "end": 45.88,
         "speaker": "Speaker",
         "en": "When I pass by this store it smells like a candy shop but it's not a candy shop.",
         "ipa": "/wɛn aɪ pæs baɪ ðɪs stɔr ɪt smɛlz laɪk ə ˈkændi ʃɑp bʌt ɪts nɑt ə ˈkændi ʃɑp/",
@@ -53465,8 +53316,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 58.04,
-        "end": 68.34,
+        "start": 45.92,
+        "end": 56.22,
         "speaker": "Speaker",
         "en": "This store, Bath and Body Works, sells things like candles, perfume, shampoo, conditioner, everything that would make your house smell so good.",
         "ipa": "/ðɪs stɔr, bæθ ænd ˈbɑdi wɜrks, sɛlz θɪŋz laɪk ˈkændəlz, pərˈfjum, ʃæmˈpu, kənˈdɪʃənər, ˈɛvriθɪŋ ðæt wʊd meɪk jʊr haʊs smɛl soʊ ɡʊd/",
@@ -53481,8 +53332,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 68.38,
-        "end": 74.42,
+        "start": 56.26,
+        "end": 62.3,
         "speaker": "Speaker",
         "en": "I'm going to pop in the store and check out their products and smell their candles.",
         "ipa": "/aɪm ˈɡoʊɪŋ tu pɑp ɪn ðə stɔr ænd tʃɛk aʊt ðɛr ˈprɑdəkts ænd smɛl ðɛr ˈkændəlz/",
@@ -53502,8 +53353,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 74.46,
-        "end": 78.24,
+        "start": 62.34,
+        "end": 66.12,
         "speaker": "Speaker",
         "en": "This is a beautiful display but it looks kind of weird.",
         "ipa": "/ðɪs ɪz ə ˈbjutəfəl dɪˈspleɪ bʌt ɪt lʊks kaɪnd əv wɪrd/",
@@ -53518,8 +53369,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 78.28,
-        "end": 79.09,
+        "start": 66.16,
+        "end": 66.97,
         "speaker": "Speaker",
         "en": "You know why?",
         "ipa": "/ju noʊ waɪ/",
@@ -53528,8 +53379,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 79.13,
-        "end": 81.89,
+        "start": 67.01,
+        "end": 69.77,
         "speaker": "Speaker",
         "en": "Because this display is just for Halloween.",
         "ipa": "/bɪˈkəz ðɪs dɪˈspleɪ ɪz dʒʌst fɔr ˈhæləwin/",
@@ -53544,8 +53395,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 81.93,
-        "end": 84.17,
+        "start": 69.81,
+        "end": 72.05,
         "speaker": "Speaker",
         "en": "Right now we are in the month of July.",
         "ipa": "/raɪt naʊ wi ɑr ɪn ðə mʌnθ əv dʒuˈlaɪ/",
@@ -53560,8 +53411,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 84.21,
-        "end": 88.4,
+        "start": 72.09,
+        "end": 76.28,
         "speaker": "Speaker",
         "en": "I'm recording this right now in July and they have things for Halloween.",
         "ipa": "/aɪm rɪˈkɔrdɪŋ ðɪs raɪt naʊ ɪn dʒuˈlaɪ ænd ðeɪ hæv θɪŋz fɔr ˈhæləwin/",
@@ -53576,8 +53427,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 88.44,
-        "end": 95.47,
+        "start": 76.32,
+        "end": 83.35,
         "speaker": "Speaker",
         "en": "July, August, September, October... We're almost four months away from Halloween and they have a huge display.",
         "ipa": "/dʒuˈlaɪ, ˈɔɡəst, sɛpˈtɛmbər, ɑkˈtoʊbər wɪr ˈɔlmoʊst fɔr mʌnθs əˈweɪ frəm ˈhæləwin ænd ðeɪ hæv ə hjudʒ dɪˈspleɪ/",
@@ -53602,8 +53453,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 95.51,
-        "end": 99.84,
+        "start": 83.39,
+        "end": 87.72,
         "speaker": "Speaker",
         "en": "I'm going to smell this candle and it's called pumpkin pecan waffles.",
         "ipa": "/aɪm ˈɡoʊɪŋ tu smɛl ðɪs ˈkændəl ænd ɪts kɔld ˈpʌmpkɪn piˈkɑn ˈwɑfəlz/",
@@ -53623,8 +53474,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 100.86,
-        "end": 103.47,
+        "start": 88.74,
+        "end": 91.35,
         "speaker": "Speaker",
         "en": "It smells like a pumpkin pecan waffle.",
         "ipa": "/ɪt smɛlz laɪk ə ˈpʌmpkɪn piˈkɑn ˈwɑfəl/",
@@ -53644,8 +53495,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 103.51,
-        "end": 110.85,
+        "start": 91.39,
+        "end": 98.73,
         "speaker": "Speaker",
         "en": "I was making fun of all of the products they have out for Halloween, but I picked out something I'm going to buy.",
         "ipa": "/aɪ wʌz ˈmeɪkɪŋ fʌn əv ɔl əv ðə ˈprɑdəkts ðeɪ hæv aʊt fɔr ˈhæləwin, bʌt aɪ pɪkt aʊt ˈsʌmθɪŋ aɪm ˈɡoʊɪŋ tu baɪ/",
@@ -53665,8 +53516,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 110.89,
-        "end": 122.02,
+        "start": 98.77,
+        "end": 109.9,
         "speaker": "Speaker",
         "en": "This is a pumpkin, but it lights up and I think you can see a skeleton light up inside so I'm gonna take this pumpkin and pay at the cash register over there.",
         "ipa": "/ðɪs ɪz ə ˈpʌmpkɪn, bʌt ɪt laɪts ʌp ænd aɪ θɪŋk ju kæn si ə ˈskɛlətən laɪt ʌp ɪnˈsaɪd soʊ aɪm ˈɡənə teɪk ðɪs ˈpʌmpkɪn ænd peɪ æt ðə kæʃ ˈrɛdʒɪstər ˈoʊvər ðɛr/",
@@ -53686,8 +53537,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 122.06,
-        "end": 126.3,
+        "start": 109.94,
+        "end": 114.18,
         "speaker": "Speaker",
         "en": "There's no one in line right now so I'm just going to walk up to the counter.",
         "ipa": "/ðɛrz noʊ wʌn ɪn laɪn raɪt naʊ soʊ aɪm dʒʌst ˈɡoʊɪŋ tu wɔk ʌp tu ðə ˈkaʊntər/",
@@ -53707,8 +53558,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 126.84,
-        "end": 130.59,
+        "start": 114.72,
+        "end": 118.47,
         "speaker": "Speaker",
         "en": "Now I'm going to pay with my phone using Apple pay.",
         "ipa": "/naʊ aɪm ˈɡoʊɪŋ tu peɪ wɪð maɪ foʊn ˈjuzɪŋ ˈæpəl peɪ/",
@@ -53728,8 +53579,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 130.63,
-        "end": 132.89,
+        "start": 118.51,
+        "end": 120.77,
         "speaker": "Speaker",
         "en": "The receipt is fine in the bag.",
         "ipa": "/ðə rɪˈsit ɪz faɪn ɪn ðə bæɡ/",
@@ -53744,8 +53595,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 132.93,
-        "end": 133.68,
+        "start": 120.81,
+        "end": 121.56,
         "speaker": "Speaker",
         "en": "Thank you.",
         "ipa": "/θæŋk ju/",
@@ -53754,8 +53605,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 136.26,
-        "end": 137.73,
+        "start": 124.14,
+        "end": 125.61,
         "speaker": "Speaker",
         "en": "Thank you so much!",
         "ipa": "/θæŋk ju soʊ mʌtʃ/",
@@ -53764,8 +53615,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 137.77,
-        "end": 149.05,
+        "start": 125.65,
+        "end": 136.93,
         "speaker": "Speaker",
         "en": "I spent $35 on a pumpkin and that's the good thing about going inside the stores and checking things out because you never know what you're gonna find or buy.",
         "ipa": "/aɪ spɛnt ˈθɜrdi-faɪv ˈdɑlərz ɑn ə ˈpʌmpkɪn ænd ðæts ðə ɡʊd θɪŋ əˈbaʊt ˈɡoʊɪŋ ɪnˈsaɪd ðə stɔrz ænd ˈtʃɛkɪŋ θɪŋz aʊt bɪˈkəz ju ˈnɛvər noʊ wʌt jʊr ˈɡənə faɪnd ɔr baɪ/",
@@ -53790,8 +53641,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 149.09,
-        "end": 152.17,
+        "start": 136.97,
+        "end": 140.05,
         "speaker": "Speaker",
         "en": "If you're a woman you probably know what this store is.",
         "ipa": "/ɪf jʊr ə ˈwʊmən ju ˈprɑbəbli noʊ wʌt ðɪs stɔr ɪz/",
@@ -53811,8 +53662,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 152.21,
-        "end": 155.69,
+        "start": 140.09,
+        "end": 143.57,
         "speaker": "Speaker",
         "en": "This is Sephora and they're famous for their makeup products.",
         "ipa": "/ðɪs ɪz səˈfɔrə ænd ðɛr ˈfeɪməs fɔr ðɛr ˈmeɪˌkʌp ˈprɑdəkts/",
@@ -53827,8 +53678,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 155.73,
-        "end": 160.21,
+        "start": 143.61,
+        "end": 148.09,
         "speaker": "Speaker",
         "en": "I'm not going to go inside the store because I'm not on a shopping spree.",
         "ipa": "/aɪm nɑt ˈɡoʊɪŋ tu ɡoʊ ɪnˈsaɪd ðə stɔr bɪˈkəz aɪm nɑt ɑn ə ˈʃɑpɪŋ spri/",
@@ -53843,8 +53694,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 160.25,
-        "end": 162.89,
+        "start": 148.13,
+        "end": 150.77,
         "speaker": "Speaker",
         "en": "I'm not trying to buy everything in each store.",
         "ipa": "/aɪm nɑt ˈtraɪɪŋ tu baɪ ˈɛvriθɪŋ ɪn itʃ stɔr/",
@@ -53859,8 +53710,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 162.93,
-        "end": 164.69,
+        "start": 150.81,
+        "end": 152.57,
         "speaker": "Speaker",
         "en": "I'm just trying to walk around.",
         "ipa": "/aɪm dʒʌst ˈtraɪɪŋ tu wɔk əˈraʊnd/",
@@ -53875,8 +53726,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 164.73,
-        "end": 173.64,
+        "start": 152.61,
+        "end": 161.52,
         "speaker": "Speaker",
         "en": "Now I'm inside a clothing store called Abercrombie and Fitch and I want to try on this shirt to see if it fits or to see if it's too small for me.",
         "ipa": "/naʊ aɪm ɪnˈsaɪd ə ˈkloʊðɪŋ stɔr kɔld ˌæbərˈkrɑmbi ænd fɪtʃ ænd aɪ wɑnt tu traɪ ɑn ðɪs ʃɜrt tu si ɪf ɪt fɪts ɔr tu si ɪf ɪts tu smɔl fɔr mi/",
@@ -53891,8 +53742,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 173.68,
-        "end": 178.72,
+        "start": 161.56,
+        "end": 166.6,
         "speaker": "Speaker",
         "en": "I'm not sure if I'm going to buy it or like it, but you can try things on at the fitting room.",
         "ipa": "/aɪm nɑt ʃʊr ɪf aɪm ˈɡoʊɪŋ tu baɪ ɪt ɔr laɪk ɪt, bʌt ju kæn traɪ θɪŋz ɑn æt ðə ˈfɪtɪŋ rum/",
@@ -53907,8 +53758,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 178.76,
-        "end": 180.7,
+        "start": 166.64,
+        "end": 168.58,
         "speaker": "Speaker",
         "en": "It's also called the dressing room.",
         "ipa": "/ɪts ˈɔlsoʊ kɔld ðə ˈdrɛsɪŋ rum/",
@@ -53923,8 +53774,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 180.74,
-        "end": 183.73,
+        "start": 168.62,
+        "end": 171.61,
         "speaker": "Speaker",
         "en": "So come along with me and I'm going to try this on.",
         "ipa": "/soʊ kʌm əˈlɔŋ wɪð mi ænd aɪm ˈɡuɪŋ tu traɪ ðɪs ɑn./",
@@ -53939,8 +53790,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 183.77,
-        "end": 190.48,
+        "start": 171.65,
+        "end": 178.36,
         "speaker": "Speaker",
         "en": "They have many fitting rooms, but they gave me fitting room 107 so I'm gonna go ahead and try it on.",
         "ipa": "/ðeɪ hæv ˈmɛni ˈfɪtɪŋ rumz, bʌt ðeɪ ɡeɪv mi ˈfɪtɪŋ rum wʌn ˈhʌzɪd ˈsɛvən soʊ aɪm ˈɡɑnə ɡoʊ əˈhɛd ænd traɪ ɪt ɑn./",
@@ -53955,8 +53806,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 190.52,
-        "end": 200.11,
+        "start": 178.4,
+        "end": 187.99,
         "speaker": "Speaker",
         "en": "I just tried on this white shirt but I didn't like it so I'm going to put it back on the hanger and now I'm going to check out another store.",
         "ipa": "/aɪ dʒʌst traɪd ɑn ðɪs waɪt ʃɜrt bʌt aɪ ˈdɪdənt laɪk ɪt soʊ aɪm ˈɡuɪŋ tu pʊt ɪt bæk ɑn ðə ˈhæŋər ænd naʊ aɪm ˈɡuɪŋ tu tʃɛk aʊt əˈnʌðər stɔr./",
@@ -53971,8 +53822,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 200.15,
-        "end": 201.76,
+        "start": 188.03,
+        "end": 189.64,
         "speaker": "Speaker",
         "en": "Now, I'm at the Apple Store.",
         "ipa": "/naʊ, aɪm æt ði ˈæpəl stɔr./",
@@ -53987,8 +53838,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 201.8,
-        "end": 205.72,
+        "start": 189.68,
+        "end": 193.6,
         "speaker": "Speaker",
         "en": "This is the electronic store at the mall and it's always busy.",
         "ipa": "/ðɪs ɪz ði ɪˌlɛkˈtrɑnɪk stɔr æt ðə mɔl ænd ɪts ˈɔlwɛz ˈbɪzi./",
@@ -54003,8 +53854,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 205.76,
-        "end": 214.04,
+        "start": 193.64,
+        "end": 201.92,
         "speaker": "Speaker",
         "en": "As you can see behind me, there are people inside trying to buy things like phones, iPads, tablets, computers... You name it!",
         "ipa": "/æz ju kən si bɪˈhaɪnd mi, ðɛr ɑr ˈpipəl ɪnˈsaɪd ˈtraɪɪŋ tu baɪ θɪŋz laɪk foʊnz, ˈaɪˌpædz, ˈtæblɪts, kəmˈpjutərz... ju neɪm ɪt!/",
@@ -54024,8 +53875,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 214.08,
-        "end": 216.59,
+        "start": 201.96,
+        "end": 204.47,
         "speaker": "Speaker",
         "en": "Now I'm at the other end of the mall.",
         "ipa": "/naʊ aɪm æt ði ˈʌðər ɛnd ʌv ðə mɔl./",
@@ -54040,8 +53891,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 216.63,
-        "end": 221.21,
+        "start": 204.51,
+        "end": 209.09,
         "speaker": "Speaker",
         "en": "Behind me are the luxury brands like Louis Vuitton, Gucci, and Rolex.",
         "ipa": "/bɪˈhaɪnd mi ɑr ðə ˈlʌɡʒəri brændz laɪk ˈlui viˈtɑn, ˈɡutʃi, ænd ˈroʊlɛks./",
@@ -54056,8 +53907,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 221.25,
-        "end": 229.82,
+        "start": 209.13,
+        "end": 217.7,
         "speaker": "Speaker",
         "en": "They have a lot of security guards here because as you guys know these luxury brands are very expensive and they are out of my budget.",
         "ipa": "/ðeɪ hæv ə lɑt ʌv sɪˈkjʊrəti ɡɑrdz hɪr bɪˈkɔz æz ju ɡaɪz noʊ ðiz ˈlʌɡʒəri brændz ɑr ˈvɛri ɪkˈspɛnsɪv ænd ðeɪ ɑr aʊt ʌv maɪ ˈbʌdʒɪt./",
@@ -54072,8 +53923,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 229.86,
-        "end": 233.51,
+        "start": 217.74,
+        "end": 221.39,
         "speaker": "Speaker",
         "en": "Which means I cannot afford these items inside the store.",
         "ipa": "/wɪtʃ minz aɪ ˈkænɑt əˈfɔrd ðiz ˈaɪtəmz ɪnˈsaɪd ðə stɔr./",
@@ -54088,8 +53939,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 233.55,
-        "end": 243.97,
+        "start": 221.43,
+        "end": 231.85,
         "speaker": "Speaker",
         "en": "Also, the furniture behind me is very comfortable for people shopping at these stores and feels like luxury compared to other parts of the mall where they have seating sections.",
         "ipa": "/ˈɔlsoʊ, ðə ˈfɜrnɪtʃər bɪˈhaɪnd mi ɪz ˈvɛri ˈkʌmfərtəbəl fər ˈpipəl ˈʃɑpɪŋ æt ðiz stɔrz ænd filz laɪk ˈlʌɡʒəri kəmˈpɛrd tu ˈʌðər pɑrts ʌv ðə mɔl wɛr ðeɪ hæv ˈsitɪŋ ˈsɛkʃənz./",
@@ -54109,8 +53960,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 244.01,
-        "end": 250.28,
+        "start": 231.89,
+        "end": 238.16,
         "speaker": "Speaker",
         "en": "I don't think I can record inside the store, but I'm going to try to find the most expensive Gucci item.",
         "ipa": "/aɪ doʊnt θɪŋk aɪ kən rɪˈkɔrd ɪnˈsaɪd ðə stɔr, bʌt aɪm ˈɡuɪŋ tu traɪ tu faɪnd ðə moʊst ɪkˈspɛnsɪv ˈɡutʃi ˈaɪtəm./",
@@ -54125,8 +53976,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 250.32,
-        "end": 257.89,
+        "start": 238.2,
+        "end": 245.77,
         "speaker": "Speaker",
         "en": "Of course, when I entered the Gucci store, I wasn't able to record anything inside and when I looked at the shoes there weren't any price tag.",
         "ipa": "/ʌv kɔrs, wɛn aɪ ˈɛntərd ðə ˈɡutʃi stɔr, aɪ ˈwʌzənt ˈeɪbəl tu rɪˈkɔrd ˈɛniˌθɪŋ ɪnˈsaɪd ænd wɛn aɪ lʊkt æt ðə ʃuz ðɛr wɜrənt ˈɛni praɪs tæɡ./",
@@ -54146,8 +53997,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 257.93,
-        "end": 259.62,
+        "start": 245.81,
+        "end": 247.5,
         "speaker": "Speaker",
         "en": "That means it was out of my budget.",
         "ipa": "/ðæt minz ɪt wʌz aʊt ʌv maɪ ˈbʌdʒɪt./",
@@ -54162,8 +54013,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 259.66,
-        "end": 262.79,
+        "start": 247.54,
+        "end": 250.67,
         "speaker": "Speaker",
         "en": "I'm going to go to this store right here called Nordstrom.",
         "ipa": "/aɪm ˈɡuɪŋ tu ɡoʊ tu ðɪs stɔr raɪt hɪr kɔld ˈnɔrdstrəm./",
@@ -54178,8 +54029,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 262.83,
-        "end": 269.51,
+        "start": 250.71,
+        "end": 257.39,
         "speaker": "Speaker",
         "en": "It's another department store like Macy's, but they have a lot of things on sale and it's a little bit more in my budget.",
         "ipa": "/ɪts əˈnʌðər dɪˈpɑrtmənt stɔr laɪk ˈmeɪsiz, bʌt ðeɪ hæv ə lɑt ʌv θɪŋz ɑn seɪl ænd ɪts ə ˈlɪtəl bɪt mɔr ɪn maɪ ˈbʌdʒɪt./",
@@ -54194,8 +54045,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 269.55,
-        "end": 281.55,
+        "start": 257.43,
+        "end": 269.43,
         "speaker": "Speaker",
         "en": "Now I'm at the end of the mall at my very last store called Nordstrom and they have things on sale. so on sale means at a reduced price so I'm going to see things on sale to see if it fits my budget.",
         "ipa": "/naʊ aɪm æt ði ɛnd ʌv ðə mɔl æt maɪ ˈvɛri læst stɔr kɔld ˈnɔrdstrəm ænd ðeɪ hæv θɪŋz ɑn seɪl. soʊ ɑn seɪl minz æt ə rɪˈdust praɪs soʊ aɪm ˈɡuɪŋ tu si θɪŋz ɑn seɪl tu si ɪf ɪt fɪts maɪ ˈbʌdʒɪt./",
@@ -54215,8 +54066,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 281.59,
-        "end": 286.43,
+        "start": 269.47,
+        "end": 274.31,
         "speaker": "Speaker",
         "en": "When something is on sale, that means it is at a reduced price.",
         "ipa": "/wɛn ˈsʌmθɪŋ ɪz ɑn seɪl, ðæt minz ɪt ɪz æt ə rɪˈdust praɪs./",
@@ -54231,8 +54082,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 286.47,
-        "end": 292.13,
+        "start": 274.35,
+        "end": 280.01,
         "speaker": "Speaker",
         "en": "For example, these boots right here were $170 and after the sale $100.",
         "ipa": "/fər ɪɡˈzæmpəl, ðiz buts raɪt hɪr wɜr wʌn ˈhʌndrəd ˈsɛvənti ˈdɑlərəz ænd ˈæftər ðə seɪl wʌn ˈhʌndrəd ˈdɑlərəz./",
@@ -54247,8 +54098,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 292.17,
-        "end": 296.31,
+        "start": 280.05,
+        "end": 284.19,
         "speaker": "Speaker",
         "en": "You can find things on sale like that all over the store.",
         "ipa": "/ju kən faɪnd θɪŋz ɑn seɪl laɪk ðæt ɔl ˈoʊvər ðə stɔr./",
@@ -54263,8 +54114,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 296.35,
-        "end": 301.7,
+        "start": 284.23,
+        "end": 289.58,
         "speaker": "Speaker",
         "en": "They have different brands at different tables and you can try to find things that would fit your budget.",
         "ipa": "/ðeɪ hæv ˈdɪfrənt brændz æt ˈdɪfrənt ˈteɪbəlz ænd ju kən traɪ tu faɪnd θɪŋz ðæt wʊd fɪt jʊər ˈbʌdʒɪt./",
@@ -54279,8 +54130,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 301.74,
-        "end": 306.16,
+        "start": 289.62,
+        "end": 294.04,
         "speaker": "Speaker",
         "en": "And what happens if someone takes something and walks out the store?",
         "ipa": "/ænd wʌt ˈhæpənz ɪf ˈsʌmwʌn teɪks ˈsʌmθɪŋ ænd wɔks aʊt ðə stɔr?/",
@@ -54295,8 +54146,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 306.2,
-        "end": 313.64,
+        "start": 294.08,
+        "end": 301.52,
         "speaker": "Speaker",
         "en": "Well that is called shoplifting and they have a security system right here that prevents people from shoplifting items.",
         "ipa": "/wɛl ðæt ɪz kɔld ˈʃɑpˌlɪftɪŋ ænd ðeɪ hæv ə sɪˈkjʊrəti ˈsɪstəm raɪt hɪr ðæt prɪˈvɛnts ˈpipəl frʌm ˈʃɑpˌlɪftɪŋ ˈaɪtəmz./",
@@ -54319,49 +54170,45 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
-    "durationSec": 536,
-    "durationLabel": "08:56",
+    "durationSec": 525,
+    "durationLabel": "08:45",
     "date": "2026/10/11",
     "tags": [
       "美食"
     ],
     "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        0.0,
-        11.02
+        108.89,
+        111.03
       ],
       [
-        119.91,
-        122.05
+        138.5,
+        149.19
       ],
       [
-        149.52,
-        160.21
+        171.38,
+        178.35
       ],
       [
-        182.4,
-        189.37
+        311.87,
+        315.31
       ],
       [
-        322.89,
-        326.33
-      ],
-      [
-        327.04,
-        334.13
+        316.02,
+        323.11
       ]
     ],
     "sentences": [
       {
         "id": 1,
-        "start": 11.02,
-        "end": 13.78,
+        "start": 0.0,
+        "end": 2.76,
         "speaker": "Speaker",
         "en": "Hey guys, good morning and welcome back!",
         "ipa": "",
@@ -54381,8 +54228,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 13.82,
-        "end": 24.74,
+        "start": 2.8,
+        "end": 13.72,
         "speaker": "Speaker",
         "en": "So this morning I am getting ready to go to a workout class, which I'm so excited for because I've been wanting to do a workout class here and this is going to be like my first one.",
         "ipa": "/tu ɡoʊ tu ə ˈwɜrkˌaʊt klæs wɪtʃ aɪm soʊ ɪkˈsaɪtɪd fɔr bɪˈkʌz aɪv bɪn ˈwɑntɪŋ tu du ə ˈwɜrkˌaʊt klæs hɪr ænd ðɪs ɪz ˈɡʌɪŋ tu bi laɪk maɪ fɜrst wʌn aɪ doʊnt/",
@@ -54407,8 +54254,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 24.78,
-        "end": 27.61,
+        "start": 13.76,
+        "end": 16.59,
         "speaker": "Speaker",
         "en": "I don't know if I should wear it over my ears.",
         "ipa": "/noʊ ɪf aɪ ʃʊd wɛr ɪt ˈoʊvər maɪ ɪrz ju noʊ ðæt lʊks ˈivən ˈwɜrdər ˈbeɪsɪkli wʌn/",
@@ -54417,8 +54264,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 27.65,
-        "end": 29.79,
+        "start": 16.63,
+        "end": 18.77,
         "speaker": "Speaker",
         "en": "You know, that looks even weirder.",
         "ipa": "",
@@ -54433,8 +54280,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 29.83,
-        "end": 35.34,
+        "start": 18.81,
+        "end": 24.32,
         "speaker": "Speaker",
         "en": "Basically, one of my friends, Ella—she's like from here, so she knows a lot more than me.",
         "ipa": "/ʌv maɪ frɛndz ˈɛlə ʃiz laɪk frʌm hɪr soʊ ʃi noʊz ə lɑt mɔr ðæn mi ʃi/",
@@ -54449,8 +54296,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 35.38,
-        "end": 42.92,
+        "start": 24.36,
+        "end": 31.9,
         "speaker": "Speaker",
         "en": "She was like, \"There's this like Alo workout class thing that we can do.\" I'm like, honestly kind of nervous.",
         "ipa": "/wʌz laɪk ðɛrz ðɪs laɪk ˈæloʊ ˈwɜrkˌaʊt klæs θɪŋ ðæt wi kæn du aɪm laɪk ˈɑnstəli kaɪnd ʌv ˈnɜrvəs ðə læst taɪm ðæt aɪ wɜrkt aʊt/",
@@ -54470,8 +54317,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 42.96,
-        "end": 49.85,
+        "start": 31.94,
+        "end": 38.83,
         "speaker": "Speaker",
         "en": "The last time that I worked out was—I can't even remember the last time I worked out.",
         "ipa": "/wʌz aɪ kænt ˈivən rɪˈmɛmbər ðə læst taɪm aɪ wɜrkt aʊt ˈhævɪŋ ə ˈmɔrnɪŋ ækˈtɪvɪti/",
@@ -54486,8 +54333,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 49.89,
-        "end": 58.43,
+        "start": 38.87,
+        "end": 47.41,
         "speaker": "Speaker",
         "en": "Having a morning activity that forces you to get up and like kind of just start your day on a good note completely changes like the rest of the trajectory of my day.",
         "ipa": "/ðæt ˈfɔrsɪz ju tu ɡɛt ʌp ænd laɪk kaɪnd ʌv dʒʌst stɑrt jʊər deɪ ɑn ə ɡʊd noʊt kəmˈplitli ˈtʃeɪndʒɪz laɪk ðə rɛst ʌv ðə trəˈdʒɛktəri ʌv maɪ deɪ ɪf aɪ wɜrk aʊt/",
@@ -54507,8 +54354,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 58.47,
-        "end": 67.56,
+        "start": 47.45,
+        "end": 56.54,
         "speaker": "Speaker",
         "en": "If I work out in the morning and I get up early, my the rest of my day is so much better, versus like if I sleep in and I just am lazy, then the rest of my day is so much less productive.",
         "ipa": "/ɪn ðə ˈmɔrnɪŋ ænd aɪ ɡɛt ʌp ˈɜrli maɪ ðə rɛst ʌv maɪ deɪ ɪz soʊ mʌtʃ ˈbɛtər ˈvɜrsəs laɪk ɪf aɪ slip ɪn ænd aɪ dʒʌst æm ˈleɪzi ðɛn ðə rɛst ʌv maɪ deɪ ɪz soʊ mʌtʃ lɛs prəˈdʌktɪv aɪ ˈɔlsoʊ bɪˈkʌz aɪ ˈhævənt wɜrkt aʊt ɪn soʊ lɔŋ hæv noʊ ˈwɜrkˌaʊt/",
@@ -54528,8 +54375,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 67.6,
-        "end": 72.0,
+        "start": 56.58,
+        "end": 60.98,
         "speaker": "Speaker",
         "en": "I also, because I haven't worked out in so long, have no workout clothes.",
         "ipa": "/kloʊðz ðɪs ˈɪzənt ˈivən ə ˈwɜrkˌaʊt tɑp laɪk ðɪs ɪz dʒʌst laɪk ə skɪmz tɑp/",
@@ -54544,8 +54391,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 72.04,
-        "end": 82.5,
+        "start": 61.02,
+        "end": 71.48,
         "speaker": "Speaker",
         "en": "This isn't even a workout top, like this is just like a Skims top, this just—I don't know, guys, oh my God, I need to hurry, what am I doing?",
         "ipa": "/ðɪs dʒʌst aɪ doʊnt noʊ ɡaɪz oʊ maɪ ɡɑd aɪ nid tu ˈhɜri wʌt æm aɪ ˈduɪŋ soʊ aɪm ˈbrɪŋɪŋ laɪk ə ˈlɪtəl ˈwɜrkˌaʊt bæɡ ænd aɪm ˈɡʌɪŋ tu brɪŋ/",
@@ -54565,8 +54412,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 82.54,
-        "end": 113.71,
+        "start": 71.52,
+        "end": 102.69,
         "speaker": "Speaker",
         "en": "So I'm bringing like a little workout bag and I'm going to bring these workout shoes, water, oh, I need my purse, vlog camera, think we're good, I have my outfit on. Guys, I think I finally figured out how to use the subway. It definitely took me like a couple months, not that it's that hard, but like when you have to transfer trains, that's where I always got lost.",
         "ipa": "/ðiz ˈwɜrkˌaʊt ʃuz ˈwɔtər oʊ aɪ nid maɪ pɜrs vɫɑɡ ˈkæmərə θɪŋk wɪr ɡʊd aɪ hæv maɪ ˈaʊtˌfɪt ɑn ɡaɪz aɪ θɪŋk aɪ ˈfaɪnəli ˈfɪɡərd aʊt haʊ tu juz ðə ˈsʌbˌweɪ ɪt ˈdɛfɪnətli tʊk mi laɪk ə ˈkʌpəl mʌnθs nɑt ðæt ɪts ðæt hɑrd bʌt laɪk wɛn ju hæv tu ˈtrænsfər treɪnz ðæts wɛr aɪ ˈɔlweɪz ɡɑt lɔst ɪts ˈrɪəli nɑt/",
@@ -54591,8 +54438,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 113.75,
-        "end": 116.18,
+        "start": 102.73,
+        "end": 105.16,
         "speaker": "Speaker",
         "en": "It's really not that complicated.",
         "ipa": "/ðæt ˈkɑmpləˌkeɪtɪd aɪm ˈɔlsoʊ dʒʌst dəˈrɛkʃənəli ˈtʃælɪndʒɪd/",
@@ -54607,8 +54454,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 116.22,
-        "end": 119.91,
+        "start": 105.2,
+        "end": 108.89,
         "speaker": "Speaker",
         "en": "I'm also just directionally challenged.",
         "ipa": "",
@@ -54623,8 +54470,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 122.05,
-        "end": 123.48,
+        "start": 111.03,
+        "end": 112.46,
         "speaker": "Speaker",
         "en": "Hey guys, we're here!",
         "ipa": "/heɪ ɡaɪz wɪr hɪr haɪ aɪm wɪð ˈɛlə wɪr æt ˈæloʊ lʊk haʊ kyut ɪt/",
@@ -54633,8 +54480,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 123.52,
-        "end": 124.74,
+        "start": 112.5,
+        "end": 113.72,
         "speaker": "Speaker",
         "en": "Hi, I'm with Ella.",
         "ipa": "",
@@ -54643,8 +54490,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 124.78,
-        "end": 125.65,
+        "start": 113.76,
+        "end": 114.63,
         "speaker": "Speaker",
         "en": "We're at Alo.",
         "ipa": "",
@@ -54653,8 +54500,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 125.69,
-        "end": 127.43,
+        "start": 114.67,
+        "end": 116.41,
         "speaker": "Speaker",
         "en": "Look how cute it is in here.",
         "ipa": "/ɪz ɪn hɪr aɪ bæk aɪ kænt du ðæt jɛr aɪm kaɪnd ʌv skɛrd fɔr ðæt aɪ ˈdɪdənt brɪŋ/",
@@ -54669,8 +54516,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 127.47,
-        "end": 128.72,
+        "start": 116.45,
+        "end": 117.7,
         "speaker": "Speaker",
         "en": "I back—I can't do that.",
         "ipa": "",
@@ -54679,8 +54526,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 128.76,
-        "end": 130.63,
+        "start": 117.74,
+        "end": 119.61,
         "speaker": "Speaker",
         "en": "Yeah, I'm kind of scared for that.",
         "ipa": "",
@@ -54695,8 +54542,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 130.67,
-        "end": 136.25,
+        "start": 119.65,
+        "end": 125.23,
         "speaker": "Speaker",
         "en": "I didn't bring any workout clothes, so they just gave us these, which is so nice of them.",
         "ipa": "/ˈɛni ˈwɜrkˌaʊt kloʊðz soʊ ðeɪ dʒʌst ɡeɪv ʌs ðiz wɪtʃ ɪz soʊ naɪs ʌv ðɛm/",
@@ -54711,8 +54558,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 136.29,
-        "end": 137.64,
+        "start": 125.27,
+        "end": 126.62,
         "speaker": "Speaker",
         "en": "I'm changed.",
         "ipa": "/aɪm tʃeɪndʒd ðɪs ɪz soʊ mʌtʃ ˈbɛtər/",
@@ -54727,8 +54574,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 137.68,
-        "end": 140.33,
+        "start": 126.66,
+        "end": 129.31,
         "speaker": "Speaker",
         "en": "This is so much better.",
         "ipa": "",
@@ -54743,8 +54590,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 140.37,
-        "end": 149.52,
+        "start": 129.35,
+        "end": 138.5,
         "speaker": "Speaker",
         "en": "Cute, 12 reps is the goal and one.",
         "ipa": "/kyut twɛlv rɛps ɪz ðə ɡoʊl ænd wʌn/",
@@ -54764,8 +54611,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 160.21,
-        "end": 163.71,
+        "start": 149.19,
+        "end": 152.69,
         "speaker": "Speaker",
         "en": "Okay guys, we just finished our workout class and we got smoothies.",
         "ipa": "/oʊˈkeɪ ɡaɪz wi dʒʌst ˈfɪnɪʃt ˈaʊər ˈwɜrkˌaʊt klæs ænd wi ɡɑt ˈsmuðiz weɪt/",
@@ -54780,8 +54627,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 163.75,
-        "end": 165.32,
+        "start": 152.73,
+        "end": 154.3,
         "speaker": "Speaker",
         "en": "Wait, let's do like a recap.",
         "ipa": "/lɛts du laɪk ə ˈriˌkæp ɪt wʌz ˈriəli hɑrd ɪt wʌz soʊ hɑrd wi wɜr ˈtaɪərd wi kɛpt laɪk ˈlʊkɪŋ/",
@@ -54796,8 +54643,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 165.36,
-        "end": 166.45,
+        "start": 154.34,
+        "end": 155.43,
         "speaker": "Speaker",
         "en": "It was really hard.",
         "ipa": "",
@@ -54806,8 +54653,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 166.49,
-        "end": 167.34,
+        "start": 155.47,
+        "end": 156.32,
         "speaker": "Speaker",
         "en": "It was so hard.",
         "ipa": "",
@@ -54816,8 +54663,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 167.38,
-        "end": 168.17,
+        "start": 156.36,
+        "end": 157.15,
         "speaker": "Speaker",
         "en": "We were tired.",
         "ipa": "",
@@ -54832,8 +54679,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 168.21,
-        "end": 175.61,
+        "start": 157.19,
+        "end": 164.59,
         "speaker": "Speaker",
         "en": "We kept like looking at each other, but we did it and we're going to like try to make this our weekly thing, motivate us to work out.",
         "ipa": "/æt iʧ ˈʌðər bʌt wi dɪd ɪt ænd wɪr ˈɡʌɪŋ tu laɪk traɪ tu meɪk ðɪs ˈaʊər ˈwikli θɪŋ ˈmoʊtəˌveɪt ʌs tu wɜrk aʊt/",
@@ -54853,8 +54700,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 175.65,
-        "end": 182.4,
+        "start": 164.63,
+        "end": 171.38,
         "speaker": "Speaker",
         "en": "Yeah, my legs are jelly.",
         "ipa": "/jɛæ maɪ lɛɡz ɑr ˈdʒɛli/",
@@ -54869,8 +54716,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 189.37,
-        "end": 199.29,
+        "start": 178.35,
+        "end": 188.27,
         "speaker": "Speaker",
         "en": "Okay, so I just got out of the shower, I dried my hair, and I'm just going to put On a little makeup today, mostly like SPF, just because it's actually pretty sunny out, which I'm happy.",
         "ipa": "/oʊˈkeɪ soʊ aɪ dʒʌst ɡɑt aʊt ʌv ðə ˈʃaʊər aɪ draɪd maɪ hɛr ænd aɪm dʒʌst ˈɡʌɪŋ tu pʊt ɑn ə ˈlɪtəl ˈmeɪkˌʌp təˈdeɪ, ˈmoʊstli laɪk ɛs-pi-ɛf, dʒʌst bɪˈkəz ɪts ˈæktʃuəli ˈprɪti ˈsʌni aʊt, wɪtʃ aɪm ˈhæpi. ðə sʌn, aɪ fil laɪk aɪv toʊld ju ɡaɪz ðɪs ə ˈmɪljən taɪmz,/",
@@ -54895,8 +54742,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 199.33,
-        "end": 203.85,
+        "start": 188.31,
+        "end": 192.83,
         "speaker": "Speaker",
         "en": "The sun, I feel like I've told you guys this a million times, really affects my mood.",
         "ipa": "/ˈriəli əˈfɛkts maɪ mud. ðə ˈwɪntərz ɪn ˌmɪnəˈsoʊtə wɛr aɪm frʌm ɑr laɪk/",
@@ -54916,8 +54763,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 203.89,
-        "end": 209.5,
+        "start": 192.87,
+        "end": 198.48,
         "speaker": "Speaker",
         "en": "The winters in Minnesota where I'm from are like especially dark, just like very dark and dreary.",
         "ipa": "/əˈspɛʃəli dɑrk, dʒʌst laɪk ˈvɛri dɑrk ænd ˈdrɪri. ðɛn wɛn aɪ muvd tu ˌkæləˈfɔrnjə, aɪ/",
@@ -54932,8 +54779,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 209.54,
-        "end": 213.18,
+        "start": 198.52,
+        "end": 202.16,
         "speaker": "Speaker",
         "en": "Then when I moved to California, I was like, this is amazing!",
         "ipa": "/wʌz laɪk, ðɪs ɪz əˈmeɪzɪŋ! waɪ ɪz ɪt ˈnɛvər ˈdrɪri hir? soʊ aɪ doʊnt noʊ, dʒʌst ˈbiɪŋ/",
@@ -54948,8 +54795,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 213.22,
-        "end": 215.05,
+        "start": 202.2,
+        "end": 204.03,
         "speaker": "Speaker",
         "en": "Why is it never dreary here?",
         "ipa": "",
@@ -54964,8 +54811,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 215.09,
-        "end": 222.0,
+        "start": 204.07,
+        "end": 210.98,
         "speaker": "Speaker",
         "en": "So I don't know, just being back in New York where it's not sunny every day is just something, just like a reality check.",
         "ipa": "/bæk ɪn nu jɔrk wɛr ɪts nɑt ˈsʌni ˈɛvəri deɪ ɪz dʒʌst ˈsʌmθɪŋ, dʒʌst laɪk ə riˈæləti tʃɛk. ju noʊ wʌt aɪ nid? aɪ nid ə ɡʊd ˈɡɛtɪŋ ˈrɛdi ˈpleɪˌlɪst. aɪ/",
@@ -54985,8 +54832,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 222.04,
-        "end": 223.4,
+        "start": 211.02,
+        "end": 212.38,
         "speaker": "Speaker",
         "en": "You know what I need?",
         "ipa": "",
@@ -54995,8 +54842,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 223.44,
-        "end": 225.87,
+        "start": 212.42,
+        "end": 214.85,
         "speaker": "Speaker",
         "en": "I need a good getting ready playlist.",
         "ipa": "",
@@ -55011,8 +54858,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 225.91,
-        "end": 228.24,
+        "start": 214.89,
+        "end": 217.22,
         "speaker": "Speaker",
         "en": "I haven't had one of those made in a long time.",
         "ipa": "/ˈhævənt hæd wʌn ʌv ðoʊz meɪd ɪn ə lɔŋ taɪm. ɪf ju ɡaɪz hæv ˈɛni, ɔr laɪk ɪf wʌn/",
@@ -55027,8 +54874,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 228.28,
-        "end": 233.42,
+        "start": 217.26,
+        "end": 222.4,
         "speaker": "Speaker",
         "en": "If you guys have any, or like if one of you guys have made one, can you go like, please link it for me?",
         "ipa": "/ʌv ju ɡaɪz hæv meɪd wʌn, kæn ju ɡoʊ laɪk, pliz lɪŋk ɪt fɔr mi? aɪ dʒʌst laɪk, aɪ/",
@@ -55043,8 +54890,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 233.46,
-        "end": 235.78,
+        "start": 222.44,
+        "end": 224.76,
         "speaker": "Speaker",
         "en": "I just like, I just don't want to make my own.",
         "ipa": "/dʒʌst doʊnt wɑnt tu meɪk maɪ oʊn. aɪ meɪd ə lɪst læst naɪt ʌv ˈɛvriˌθɪŋ ðæt/",
@@ -55059,8 +54906,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 235.82,
-        "end": 239.72,
+        "start": 224.8,
+        "end": 228.7,
         "speaker": "Speaker",
         "en": "I made a list last night of everything that I need to get done today.",
         "ipa": "/aɪ nid tu ɡɛt dʌn təˈdeɪ. ˈbeɪsɪkli, ˈɛvəri deɪ aɪ laɪk tu meɪk ə tu-du lɪst/",
@@ -55075,8 +54922,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 239.76,
-        "end": 250.96,
+        "start": 228.74,
+        "end": 239.94,
         "speaker": "Speaker",
         "en": "Basically, every day I like to make a to-do list for what I need to get done, and I usually do that like the night before the day ahead. It just helps to like keep me on track, because I think I can get really distracted.",
         "ipa": "/fɔr wʌt aɪ nid tu ɡɛt dʌn, ænd aɪ ˈjuʒuəli du ðæt laɪk ðə naɪt bɪˈfɔr ðə deɪ əˈhɛd. ɪt dʒʌst hɛlps tu laɪk kip mi ɑn træk, bɪˈkəz aɪ θɪŋk aɪ kæn ɡɛt ˈriəli dɪˈstræktɪd. soʊ aɪ ˈæktʃuəli wɛnt tu ˈtɑrɡɪt ði ˈʌðər deɪ ænd aɪ bɔt ðɪs ˈnoʊtˌbʊk/",
@@ -55101,8 +54948,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 251.0,
-        "end": 255.25,
+        "start": 239.98,
+        "end": 244.23,
         "speaker": "Speaker",
         "en": "So I actually went to Target the other day and I bought this notebook.",
         "ipa": "",
@@ -55117,8 +54964,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 255.29,
-        "end": 258.4,
+        "start": 244.27,
+        "end": 247.38,
         "speaker": "Speaker",
         "en": "It just helps me like visually, and I like it 10 times better.",
         "ipa": "/ɪt dʒʌst hɛlps mi laɪk ˈvɪʒuəli, ænd aɪ laɪk ɪt tɛn taɪmz ˈbɛtər. aɪ hæv ə lɑt/",
@@ -55133,8 +54980,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 258.44,
-        "end": 262.22,
+        "start": 247.42,
+        "end": 251.2,
         "speaker": "Speaker",
         "en": "I have a lot of stuff to do on my computer, like calls and appointments.",
         "ipa": "/ʌv stʌf tu du ɑn maɪ kəmˈpjutər, laɪk kɔlz ænd əˈpɔɪntmǝnts. aɪ nid tu klin bɪˈkəz/",
@@ -55149,8 +54996,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 262.26,
-        "end": 265.72,
+        "start": 251.24,
+        "end": 254.7,
         "speaker": "Speaker",
         "en": "I need to clean because my apartment is kind of getting messy.",
         "ipa": "/maɪ əˈpɑrtmənt ɪz kaɪnd ʌv ˈɡɛtɪŋ ˈmɛsi. maɪ mɑm ɪz ˈkʌmɪŋ tu ˈvɪzɪt mi/",
@@ -55165,8 +55012,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 265.76,
-        "end": 270.41,
+        "start": 254.74,
+        "end": 259.39,
         "speaker": "Speaker",
         "en": "My mom is coming to visit me tomorrow, so I have to have it spotless for her.",
         "ipa": "/təˈmɑroʊ, soʊ aɪ hæv tu hæv ɪt ˈspɑtlɪs fɔr hɜr. aɪ ˈɔlsoʊ nid tu du ˈlɔndri/",
@@ -55181,8 +55028,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 270.45,
-        "end": 275.22,
+        "start": 259.43,
+        "end": 264.2,
         "speaker": "Speaker",
         "en": "I also need to do laundry and get groceries and stuff.",
         "ipa": "/ænd ɡɛt ˈɡroʊsəriz ænd stʌf. wil si haʊ fɑr wi ɡɛt./",
@@ -55202,8 +55049,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 275.26,
-        "end": 278.13,
+        "start": 264.24,
+        "end": 267.11,
         "speaker": "Speaker",
         "en": "We'll see how far we get.",
         "ipa": "",
@@ -55212,8 +55059,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 278.17,
-        "end": 285.36,
+        "start": 267.15,
+        "end": 274.34,
         "speaker": "Speaker",
         "en": "Today I'm on my way out right now to go to this coffee shop, and I'm going to try to get some of the stuff done on my list.",
         "ipa": "/təˈdeɪ aɪm ɑn maɪ weɪ aʊt raɪt naʊ tu ɡoʊ tu ðɪs ˈkɑfi ʃɑp, ænd aɪm ˈɡʌɪɪŋ tu traɪ tu ɡɛt sʌm ʌv ðə stʌf dʌn ɑn maɪ lɪst. aɪ ɡɛt soʊ mʌtʃ mɔr dʌn wɛn aɪm æt laɪk/",
@@ -55228,8 +55075,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 285.4,
-        "end": 293.99,
+        "start": 274.38,
+        "end": 282.97,
         "speaker": "Speaker",
         "en": "I get so much more done when I'm at like a coffee shop for some reason. So this is my laptop bag. I'm just throwing in my laptop, and I'm bringing my journal.",
         "ipa": "/ə ˈkɑfi ʃɑp fɔr sʌm ˈrizən. soʊ ðɪs ɪz maɪ ˈlæpˌtɑp bæɡ. aɪm dʒʌst ˈθroʊɪŋ ɪn maɪ ˈlæpˌtɑp, ænd aɪm ˈbrɪŋɪŋ maɪ ˈdʒɜrnəl. aɪ nid ə ˈdʒækɪt ðoʊ, bɪˈkəz ɪt/",
@@ -55254,8 +55101,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 294.03,
-        "end": 296.79,
+        "start": 283.01,
+        "end": 285.77,
         "speaker": "Speaker",
         "en": "I need a jacket though, because it is actually pretty cold.",
         "ipa": "/ɪz ˈæktʃuəli ˈprɪti koʊld. oʊ, hæv aɪ ˈivən shoʊd ju ɡaɪz ðɪs jɛt? aɪ doʊnt θɪŋk aɪ/",
@@ -55270,8 +55117,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 296.83,
-        "end": 298.88,
+        "start": 285.81,
+        "end": 287.86,
         "speaker": "Speaker",
         "en": "Oh, have I even showed you guys this yet?",
         "ipa": "",
@@ -55286,8 +55133,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 298.92,
-        "end": 300.12,
+        "start": 287.9,
+        "end": 289.1,
         "speaker": "Speaker",
         "en": "I don't think I have.",
         "ipa": "/hæv. aɪ dɪd riˈdu maɪ rum—nɑt riˈdu, aɪ dʒʌst ˈædɪd ə fju θɪŋz. wʌn ʌv ðɛm/",
@@ -55296,8 +55143,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 300.16,
-        "end": 304.83,
+        "start": 289.14,
+        "end": 293.81,
         "speaker": "Speaker",
         "en": "I did redo my room—not redo, I just added a few things.",
         "ipa": "",
@@ -55312,8 +55159,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 304.87,
-        "end": 308.05,
+        "start": 293.85,
+        "end": 297.03,
         "speaker": "Speaker",
         "en": "One of them is this clothing rack in the corner.",
         "ipa": "/ɪz ðɪs ˈkloʊðɪŋ ræk ɪn ðə ˈkɔrnər. aɪ ˈnidɪd mɔr speɪs ænd ˈstɔrɪdʒ fɔr kloʊðz, soʊ aɪ/",
@@ -55328,8 +55175,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 308.09,
-        "end": 315.21,
+        "start": 297.07,
+        "end": 304.19,
         "speaker": "Speaker",
         "en": "I needed more space and storage for clothes, so I love it.",
         "ipa": "/lʌv ɪt. ɪt fɪts soʊ wɛl/",
@@ -55344,8 +55191,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 315.25,
-        "end": 327.04,
+        "start": 304.23,
+        "end": 316.02,
         "speaker": "Speaker",
         "en": "It fits so well in this corner.",
         "ipa": "/ɪn ðɪs ˈkɔrnər./",
@@ -55365,8 +55212,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 334.13,
-        "end": 335.35,
+        "start": 323.11,
+        "end": 324.33,
         "speaker": "Speaker",
         "en": "So I just got back.",
         "ipa": "/soʊ aɪ dʒʌst ɡɑt bæk. aɪ wʌz ˈæktʃuəli soʊ prəˈdʌktɪv təˈdeɪ. aɪv ˈɔlsoʊ bin ˈwɜrkɪŋ/",
@@ -55375,8 +55222,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 335.39,
-        "end": 337.67,
+        "start": 324.37,
+        "end": 326.65,
         "speaker": "Speaker",
         "en": "I was actually so productive today.",
         "ipa": "",
@@ -55391,8 +55238,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 337.71,
-        "end": 349.57,
+        "start": 326.69,
+        "end": 338.55,
         "speaker": "Speaker",
         "en": "I've also been working on something that I'm just so excited about, and I hate it when people are like, “Oh, I can't tell you yet.” But I actually—I actually can't. You guys will know soon.",
         "ipa": "/ɑn ˈsʌmθɪŋ ðæt aɪm dʒʌst soʊ ɪkˈsaɪtɪd əˈbaʊt, ænd aɪ heɪt ɪt wɛn ˈpipəl ɑr laɪk, ˈoʊ, aɪ kænt tɛl ju jɛt.” bʌt aɪ ˈæktʃuəli—aɪ ˈæktʃuəli kænt. ju ɡaɪz wɪl noʊ sun./",
@@ -55412,8 +55259,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 349.61,
-        "end": 354.78,
+        "start": 338.59,
+        "end": 343.76,
         "speaker": "Speaker",
         "en": "I just got this package, and I'm really not sure what it is.",
         "ipa": "/aɪ dʒʌst ɡɑt ðɪs ˈpækɪdʒ, ænd aɪm ˈriəli nɑt ʃʊr wʌt ɪt ɪz. soʊ lɛts ʌnˈbɑks ɪt/",
@@ -55428,8 +55275,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 354.82,
-        "end": 357.16,
+        "start": 343.8,
+        "end": 346.14,
         "speaker": "Speaker",
         "en": "So let's unbox it for fun.",
         "ipa": "/fɔr fʌn. oʊ, aɪ ɡɑt ə ˈpækɪdʒ frʌm ˈrɛr ˈbjuti!/",
@@ -55449,8 +55296,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 357.2,
-        "end": 361.25,
+        "start": 346.18,
+        "end": 350.23,
         "speaker": "Speaker",
         "en": "Oh, I got a package from Rare Beauty!",
         "ipa": "",
@@ -55470,8 +55317,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 361.29,
-        "end": 361.97,
+        "start": 350.27,
+        "end": 350.95,
         "speaker": "Speaker",
         "en": "I'm so excited!",
         "ipa": "/aɪm soʊ ɪkˈsaɪtɪd! ˈɛvəri taɪm aɪ ɡoʊ tu səˈfɔrə, ˈrɛr ˈbjuti ɪz soʊld aʊt. ðɪs ɪz ˈsupər naɪs./",
@@ -55486,8 +55333,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 362.01,
-        "end": 364.46,
+        "start": 350.99,
+        "end": 353.44,
         "speaker": "Speaker",
         "en": "Every time I go to Sephora, Rare Beauty is sold out.",
         "ipa": "",
@@ -55502,8 +55349,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 364.5,
-        "end": 365.41,
+        "start": 353.48,
+        "end": 354.39,
         "speaker": "Speaker",
         "en": "This is super nice.",
         "ipa": "",
@@ -55518,8 +55365,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 365.45,
-        "end": 367.27,
+        "start": 354.43,
+        "end": 356.25,
         "speaker": "Speaker",
         "en": "It looks like they sent a few things.",
         "ipa": "/ɪt lʊks laɪk ðeɪ sɛnt ə fju θɪŋz. ˈoʊkeɪ, ðɪs ɪz ə ˈlɪtəl ˈtʃɛri blʌʃ. ðæt ˈkʌlər lʊks/",
@@ -55534,8 +55381,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 367.31,
-        "end": 369.08,
+        "start": 356.29,
+        "end": 358.06,
         "speaker": "Speaker",
         "en": "Okay, this is a little cherry blush.",
         "ipa": "",
@@ -55550,8 +55397,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 369.12,
-        "end": 370.51,
+        "start": 358.1,
+        "end": 359.49,
         "speaker": "Speaker",
         "en": "That color looks So pretty!",
         "ipa": "/soʊ ˈprɪti ðɪs ɪz ə rɛd lɪp ˈlaɪnər weɪt ðɪs ɪz wʌt aɪm moʊst ɪkˈsaɪtɪd fɔːr aɪ/",
@@ -55571,8 +55418,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 370.55,
-        "end": 371.91,
+        "start": 359.53,
+        "end": 360.89,
         "speaker": "Speaker",
         "en": "This is a red lip liner.",
         "ipa": "",
@@ -55587,8 +55434,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 371.95,
-        "end": 374.82,
+        "start": 360.93,
+        "end": 363.8,
         "speaker": "Speaker",
         "en": "Wait, this is what I'm most excited for, I can tell.",
         "ipa": "/kən tɛl aɪ hæv ðɛər klɪr glɑːs wɪtʃ aɪ lʌv bʌt aɪ ˈdɪdnt noʊ ðeɪ mʌst hæv/",
@@ -55603,8 +55450,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 374.86,
-        "end": 386.44,
+        "start": 363.84,
+        "end": 375.42,
         "speaker": "Speaker",
         "en": "I have their clear gloss, which I love, but I didn't know they must have just came out with this one. It's a tinted gloss. This is so pretty, thank you RFI if you're watching this.",
         "ipa": "/dʒʌst keɪm aʊt wɪð ðɪs wʌn ɪts ə ˈtɪntɪd glɑːs ðɪs ɪz soʊ ˈprɪti θæŋk juː ɑːr.ɛf.ˈaɪ ɪf jʊr ˈwɑːtʃɪŋ ðɪs ɔːl raɪt fʌn ænd dʒoʊks ɑːr ˈoʊvər taɪm tuː gɛt bæk tuː wɜːrk/",
@@ -55629,8 +55476,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 386.48,
-        "end": 390.45,
+        "start": 375.46,
+        "end": 379.43,
         "speaker": "Speaker",
         "en": "All right, fun and jokes are over, time to get back to work.",
         "ipa": "",
@@ -55645,8 +55492,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 390.49,
-        "end": 391.37,
+        "start": 379.47,
+        "end": 380.35,
         "speaker": "Speaker",
         "en": "I'm just kidding.",
         "ipa": "/aɪm dʒʌst ˈkɪdɪŋ ðɛrz ə ˈwɑːʃər ænd ˈdraɪər ɪn maɪ əˈpɑːrtmənt ˈkɑːmplɛks/",
@@ -55661,8 +55508,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 391.41,
-        "end": 406.6,
+        "start": 380.39,
+        "end": 395.58,
         "speaker": "Speaker",
         "en": "There's a washer and dryer in my apartment complex on the bottom floor, but they broke, so I haven't been able to do my laundry for quite a bit now, and I really desperately need to, so I think I'm going to go to a laundry mat, which I've never been to before.",
         "ipa": "/ɑːn ðə ˈbɑːtəm flɔːr bʌt ðeɪ broʊk soʊ aɪ ˈhævnt biːn ˈeɪbəl tuː duː maɪ ˈlɔːndri fɔːr kwaɪt ə bɪt naʊ ænd aɪ ˈrɪəli ˈdɛspərətli niːd tuː soʊ aɪ θɪŋk aɪm ˈgʊɪŋ tuː goʊ tuː ə ˈlɔːndri mæt wɪtʃ aɪv ˈnɛvər biːn tuː bɪˈfɔːr əm aɪm kaɪnd ʌv laɪk ɪkˈsaɪtɪd fɔːr sʌm ˈriːzən/",
@@ -55687,8 +55534,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 406.64,
-        "end": 409.65,
+        "start": 395.62,
+        "end": 398.63,
         "speaker": "Speaker",
         "en": "Um, I'm kind of like excited for some reason.",
         "ipa": "",
@@ -55703,8 +55550,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 409.69,
-        "end": 417.36,
+        "start": 398.67,
+        "end": 406.34,
         "speaker": "Speaker",
         "en": "I'm just going to throw as many clothes as I can into this bag.",
         "ipa": "/aɪm dʒʌst ˈgʊɪŋ tuː θroʊ æz ˈmɛni kloʊðz æz aɪ kæn ˈɪntuː ðɪs bæg laɪk waɪ duː ðeɪ ɔːl fɪt ɪn hɪər/",
@@ -55724,8 +55571,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 417.4,
-        "end": 421.73,
+        "start": 406.38,
+        "end": 410.71,
         "speaker": "Speaker",
         "en": "Like, why do they all fit in here?",
         "ipa": "",
@@ -55740,8 +55587,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 421.77,
-        "end": 422.43,
+        "start": 410.75,
+        "end": 411.41,
         "speaker": "Speaker",
         "en": "I'm shocked.",
         "ipa": "/aɪm ʃɑːkt aɪ doʊnt ˌʌndərˈstænd haʊ ðə loʊˈdʒɪstɪks ʌv haʊ ðæt ɔːl fɪt/",
@@ -55756,8 +55603,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 422.47,
-        "end": 426.44,
+        "start": 411.45,
+        "end": 415.42,
         "speaker": "Speaker",
         "en": "I don't understand how the logistics of how that all fit, but whatever.",
         "ipa": "/bʌt ˈwʌvər waɪ duː aɪ ˈroʊməntɪˌsaɪz ˈɛvriˌθɪŋ aɪ doʊnt ðɛrz noʊ niːd laɪk aɪ/",
@@ -55772,8 +55619,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 426.48,
-        "end": 428.0,
+        "start": 415.46,
+        "end": 416.98,
         "speaker": "Speaker",
         "en": "Why do I romanticize everything?",
         "ipa": "",
@@ -55788,8 +55635,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 428.04,
-        "end": 429.22,
+        "start": 417.02,
+        "end": 418.2,
         "speaker": "Speaker",
         "en": "I don't, there's no need.",
         "ipa": "",
@@ -55798,8 +55645,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 429.26,
-        "end": 438.04,
+        "start": 418.24,
+        "end": 427.02,
         "speaker": "Speaker",
         "en": "Like, I romanticize going on the subway, I romanticize walking like in the street, and I romanticize like going to the laundry mat.",
         "ipa": "/ˈroʊməntɪˌsaɪz ˈgoʊɪŋ ɑːn ðə ˈsʌbˌweɪ aɪ ˈroʊməntɪˌsaɪz ˈwɔːkɪŋ laɪk ɪn ðə striːt ænd aɪ ˈroʊməntɪˌsaɪz laɪk ˈgoʊɪŋ tuː ðə ˈlɔːndri mæt aɪ doʊnt noʊ ɪts mɔːr fʌn/",
@@ -55819,8 +55666,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 438.08,
-        "end": 440.79,
+        "start": 427.06,
+        "end": 429.77,
         "speaker": "Speaker",
         "en": "I don't know, it's more fun that way.",
         "ipa": "/ðæt weɪ wɛn aɪ pɪk ʌp jæ wɛn ɪz ɪt ˈrɛdi ə təˈmɑːroʊ æt sɪks təˈmɑːroʊ æt sɪks piː.ɛm/",
@@ -55829,8 +55676,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 440.83,
-        "end": 443.11,
+        "start": 429.81,
+        "end": 432.09,
         "speaker": "Speaker",
         "en": "When I pick up, yeah, when is it ready?",
         "ipa": "",
@@ -55845,8 +55692,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 443.15,
-        "end": 445.53,
+        "start": 432.13,
+        "end": 434.51,
         "speaker": "Speaker",
         "en": "Uh, tomorrow at 6, tomorrow at 6:00 p.m.",
         "ipa": "",
@@ -55855,8 +55702,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 445.57,
-        "end": 446.32,
+        "start": 434.55,
+        "end": 435.3,
         "speaker": "Speaker",
         "en": "Okay, thank you.",
         "ipa": "/oʊˈkeɪ θæŋk juː soʊ aɪ hæd tuː goʊ tuː θriː ˈdɪfrənt ˈlɔːndri mæts dʒʌst tuː faɪnd wʌn/",
@@ -55865,8 +55712,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 446.36,
-        "end": 450.14,
+        "start": 435.34,
+        "end": 439.12,
         "speaker": "Speaker",
         "en": "So I had to go to three different laundry mats just to find one that was open.",
         "ipa": "/ðæt wʌz ˈoʊpən ˈwɑːznt æz fʌn æz aɪ ɪkˈspɛktɪd kəz aɪ ˈdɪdnt laɪk ɪt tuː duː ɪt/",
@@ -55881,8 +55728,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 450.18,
-        "end": 453.34,
+        "start": 439.16,
+        "end": 442.32,
         "speaker": "Speaker",
         "en": "Wasn't as fun as I expected, cuz I didn't like it to do it myself.",
         "ipa": "/maɪˈsɛlf bʌt aɪ ˈɔlsoʊ fərˈgɑt ɪz wʌz ˈhæloʊˌwiːn təˈdeɪ laɪk aɪ aɪ doʊnt noʊ/",
@@ -55897,8 +55744,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 453.38,
-        "end": 463.75,
+        "start": 442.36,
+        "end": 452.73,
         "speaker": "Speaker",
         "en": "But I also forgot it was Halloween today, like I I don't know how I had like, I just didn't realize, and all these kids are dressed up walking around in their costumes.",
         "ipa": "/haʊ aɪ hæd laɪk aɪ dʒʌst ˈdɪdnt ˈriːəˌlaɪz ænd ɔːl ðiːz kɪdz ɑːr drɛst ʌp ˈwɔːkɪŋ əˈraʊnd ɪn ðɛər ˈkɑːstumz ðæt wʌz ˈæktʃuəli ə lɑːt laɪk ˈiːziər ðæn aɪ ɪkˈspɛktɪd aɪ ˈtoʊtəli θɔːt/",
@@ -55923,8 +55770,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 463.79,
-        "end": 466.36,
+        "start": 452.77,
+        "end": 455.34,
         "speaker": "Speaker",
         "en": "That was actually a lot like easier than I expected.",
         "ipa": "",
@@ -55944,8 +55791,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 466.4,
-        "end": 471.39,
+        "start": 455.38,
+        "end": 460.37,
         "speaker": "Speaker",
         "en": "I totally thought that I was going to have to like watch it myself, but the place I went to, they like do it for you.",
         "ipa": "/ðæt aɪ wʌz ˈgʊɪŋ tuː hæv tuː laɪk wɑːtʃ ɪt maɪˈsɛlf bʌt ðə pleɪs aɪ wɛnt tuː ðeɪ laɪk duː ɪt fɔːr juː soʊ aɪm səˈpoʊst tuː goʊ bæk təˈmɑːroʊ naɪt ænd gɛt ɪt aɪm kaɪnd/",
@@ -55960,8 +55807,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 471.43,
-        "end": 473.46,
+        "start": 460.41,
+        "end": 462.44,
         "speaker": "Speaker",
         "en": "So I'm supposed to go back tomorrow night and get it.",
         "ipa": "",
@@ -55976,8 +55823,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 473.5,
-        "end": 474.42,
+        "start": 462.48,
+        "end": 463.4,
         "speaker": "Speaker",
         "en": "I'm kind of sad.",
         "ipa": "/ʌv sæd aɪ ˈwɑːntɪd tuː duː ɪt maɪˈsɛlf aɪ ˈwɑːntɪd tuː duː ðə ˈlɔːndri mæt/",
@@ -55992,8 +55839,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 474.46,
-        "end": 480.19,
+        "start": 463.44,
+        "end": 469.17,
         "speaker": "Speaker",
         "en": "I wanted to do it myself, I wanted to do the laundry mat experience.",
         "ipa": "/ɪkˈspɪriəns bʌt aɪ niːd tuː duː ə gʊd diːp kliːn ʌv maɪ əˈpɑːrtmənt maɪ mɑːmz ˈkʌmɪŋ/",
@@ -56008,8 +55855,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 480.23,
-        "end": 486.54,
+        "start": 469.21,
+        "end": 475.52,
         "speaker": "Speaker",
         "en": "But I need to do a good deep clean of my apartment, my mom's coming tomorrow, as you guys know.",
         "ipa": "/təˈmɑːroʊ æz juː gaɪz noʊ laɪk ðæts dʒʌst ˈsʌmθɪŋ juː kænt duː juː kænt/",
@@ -56029,8 +55876,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 486.58,
-        "end": 491.35,
+        "start": 475.56,
+        "end": 480.33,
         "speaker": "Speaker",
         "en": "Like, that's just something you can't do, you can't have your mom visit you and your apartment's messy.",
         "ipa": "/hæv jɔːr mɑːm ˈvɪzɪt juː ænd jɔːr əˈpɑːrtmɛnts ˈmɛsi aɪ dʒʌst niːd tuː pɪk ʌp/",
@@ -56050,8 +55897,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 101,
-        "start": 491.39,
-        "end": 498.6,
+        "start": 480.37,
+        "end": 487.58,
         "speaker": "Speaker",
         "en": "I just need to pick up like my bed area, I need to take out the trash, I have some dishes to do also because I don't have a dishwasher.",
         "ipa": "/laɪk maɪ bɛd ˈɛriə aɪ niːd tuː teɪk aʊt ðə træʃ aɪ hæv sʌm ˈdɪʃɪz tuː duː ˈɔːlsoʊ bɪˈkɔːz aɪ doʊnt hæv ə ˈdɪʃˌwɑːʃər aɪ doʊnt noʊ ɪf aɪv sɛd ðæt bɪˈfɔːr/",
@@ -56076,8 +55923,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 102,
-        "start": 498.64,
-        "end": 509.99,
+        "start": 487.62,
+        "end": 498.97,
         "speaker": "Speaker",
         "en": "I don't know if I've said that before, but my favorite part of the day is when it's night time and I know I'm not going anywhere, because then I can just get dressed in comfy clothes, light a candle, and I just like staying in more now, way more than I used to.",
         "ipa": "/bʌt maɪ ˈfeɪvərɪt pɑːrt ʌv ðə deɪ ɪz wɛn ɪts naɪt taɪm ænd aɪ noʊ aɪm nɑːt ˈgoʊɪŋ ˈɛniˌwɛr bɪˈkɔːz ðɛn aɪ kæn dʒʌst gɛt drɛst ɪn ˈkʌmfi kloʊðz laɪt ə ˈkændəl ænd aɪ dʒʌst laɪk ˈsteɪɪŋ ɪn mɔːr naʊ weɪ mɔːr ðæn aɪ ˈjuːzd tuː aɪ doʊnt noʊ/",
@@ -56102,8 +55949,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 103,
-        "start": 510.03,
-        "end": 512.56,
+        "start": 499.01,
+        "end": 501.54,
         "speaker": "Speaker",
         "en": "I don't know what changed after I graduated.",
         "ipa": "/wʌt tʃeɪndʒd ˈæftər aɪ ˈgrædʒuˌeɪtɪd laɪk aɪv biːn aʊt hɪər laɪk faɪv taɪmz ænd ˈɛvri taɪm/",
@@ -56118,8 +55965,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 104,
-        "start": 512.6,
-        "end": 536.15,
+        "start": 501.58,
+        "end": 525.13,
         "speaker": "Speaker",
         "en": "Like, I've been out here like five times and every time I just, I don't know, I'm just it's a lot of effort to go out.",
         "ipa": "/aɪ dʒʌst aɪ doʊnt noʊ aɪm dʒʌst ɪts ə lɑːt ʌv ˈɛfərt tuː goʊ aʊt/",
@@ -60212,8 +60059,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
-    "durationSec": 335,
-    "durationLabel": "05:35",
+    "durationSec": 333,
+    "durationLabel": "05:33",
     "date": "2026/10/08",
     "tags": [
       "购物",
@@ -60221,30 +60068,30 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "购物",
     "skipRanges": [
       [
-        26.82,
-        29.52
+        70.32,
+        70.98
       ],
       [
-        73.02,
-        73.68
+        155.04,
+        155.94
       ],
       [
-        157.74,
-        158.64
+        170.34,
+        176.58
       ],
       [
-        173.04,
-        179.28
+        321.36,
+        322.86
       ],
       [
-        324.06,
-        325.56
+        332.37,
+        333.0
       ]
     ],
     "sentences": [
@@ -60324,8 +60171,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 29.52,
-        "end": 34.41,
+        "start": 26.82,
+        "end": 31.71,
         "speaker": "Speaker",
         "en": "I just entered through the main entrance of the mall.",
         "ipa": "/aɪ dʒʌst ˈɛntərd θruː ðə meɪn ˈɛntrəns ʌv ðə mɔːl/",
@@ -60340,8 +60187,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 34.45,
-        "end": 39.2,
+        "start": 31.75,
+        "end": 36.5,
         "speaker": "Speaker",
         "en": "This mall has four entrances, but this is the main entrance.",
         "ipa": "/ðɪs mɔːl hæz fɔːr ˈɛntrənsɪz, bʌt ðɪs ɪz ðə meɪn ˈɛntrəns/",
@@ -60356,8 +60203,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 39.24,
-        "end": 52.65,
+        "start": 36.54,
+        "end": 49.95,
         "speaker": "Speaker",
         "en": "Also, it feels so nice and refreshing to be inside the mall because this mall has A/C and lots of cool air to cool me down, because right now we are in the middle of the summer and it's scorching hot.",
         "ipa": "/ˈɔːlsoʊ, ɪt fiːlz soʊ naɪs ænd rɪˈfrɛʃɪŋ tuː biː ɪnˈsaɪd ðə mɔːl bɪˈkɔːz ðɪs mɔːl hæz ˌeɪˈsiː ænd lɑːts ʌv kuːl er tuː kuːl miː daʊn, bɪˈkɔːz raɪt naʊ wiː ɑːr ɪn ðə ˈmɪdl ʌv ðə ˈsʌmər ænd ɪts ˈskɔːrtʃɪŋ hɑːt/",
@@ -60377,8 +60224,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 52.69,
-        "end": 54.52,
+        "start": 49.99,
+        "end": 51.82,
         "speaker": "Speaker",
         "en": "It feels so nice to be inside.",
         "ipa": "/ɪt fiːlz soʊ naɪs tuː biː ɪnˈsaɪd/",
@@ -60393,8 +60240,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 54.56,
-        "end": 65.38,
+        "start": 51.86,
+        "end": 62.68,
         "speaker": "Speaker",
         "en": "When you walk inside the main entrance, to my left, the first thing that you see is a restaurant called The Cheesecake Factory, and they're famous for their cheesecake.",
         "ipa": "/wɛn juː wɔːk ɪnˈsaɪd ðə meɪn ˈɛntrəns, tuː maɪ lɛft, ðə fɜːrst θɪŋ ðæt juː siː ɪz a ˈrɛstrɔːnt kɔːld ðə ˈtʃiːzket ˈfæktəri, ænd ðɛr ˈfeɪməs fɔːr ðɛr ˈtʃiːzket/",
@@ -60414,8 +60261,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 65.42,
-        "end": 71.31,
+        "start": 62.72,
+        "end": 68.61,
         "speaker": "Speaker",
         "en": "Here at the mall, they have a ton of different restaurants, but they also have a food court, which I'll show you guys later.",
         "ipa": "/hɪər æt ðə mɔːl, ðeɪ hæv ə tʌn ʌv ˈdɪfrənt ˈrɛstrɔːnts, bʌt ðeɪ ˈɔːlsoʊ hæv ə fuːd kɔːrt, wɪtʃ aɪl ʃoʊ juː ɡaɪz ˈleɪtər/",
@@ -60430,8 +60277,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 71.35,
-        "end": 73.02,
+        "start": 68.65,
+        "end": 70.32,
         "speaker": "Speaker",
         "en": "But let's continue on with the video.",
         "ipa": "/bʌt lɛts kənˈtɪnjuː ɑːn wɪð ðə ˈvɪdioʊ/",
@@ -60446,8 +60293,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 73.68,
-        "end": 81.31,
+        "start": 70.98,
+        "end": 78.61,
         "speaker": "Speaker",
         "en": "When you enter the mall, you can walk up these stairs right behind me, or you can choose to walk up this huge ramp.",
         "ipa": "/wɛn juː ˈɛntər ðə mɔːl, juː kən wɔːk ʌp ðiːz stɛrz raɪt bɪˈhaɪnd miː, ɔːr juː kən tʃuːz tuː wɔːk ʌp ðɪs hjuːdʒ ræmp/",
@@ -60462,8 +60309,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 81.35,
-        "end": 84.96,
+        "start": 78.65,
+        "end": 82.26,
         "speaker": "Speaker",
         "en": "And why do they have a ramp and a set of stairs?",
         "ipa": "/ænd waɪ duː ðeɪ hæv ə ræmp ænd ə sɛt ʌv stɛrz/",
@@ -60478,8 +60325,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 85.0,
-        "end": 94.54,
+        "start": 82.3,
+        "end": 91.84,
         "speaker": "Speaker",
         "en": "Well, they have a ramp so people who have a disability, or people who use a wheelchair or a cane, can go down this ramp instead of walking up the stairs.",
         "ipa": "/wɛl, ðeɪ hæv ə ræmp soʊ ˈpipəl huː hæv ə ˌdɪsəˈbɪləti, ɔːr ˈpipəl huː juːz ə ˈwiːlˌtʃɛr ɔːr ə keɪn, kən ɡoʊ daʊn ðɪs ræmp ɪnˈstɛd ʌv ˈwɔːkɪŋ ʌp ðə stɛrz/",
@@ -60504,8 +60351,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 94.58,
-        "end": 100.85,
+        "start": 91.88,
+        "end": 98.15,
         "speaker": "Speaker",
         "en": "When you go to the mall, you may know exactly what you want to buy and what store you want to go to.",
         "ipa": "/wɛn juː ɡoʊ tuː ðə mɔːl, juː meɪ noʊ ɪɡˈzæktli wʌt juː wɑːnt tuː baɪ ænd wʌt stɔːr juː wɑːnt tuː ɡoʊ tuː/",
@@ -60520,8 +60367,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 100.89,
-        "end": 110.94,
+        "start": 98.19,
+        "end": 108.24,
         "speaker": "Speaker",
         "en": "Well, behind me is a directory, and it has a huge map of all the stores that they have inside this mall, so it makes it a lot easier for you to go shopping.",
         "ipa": "/wɛl, bɪˈhaɪnd miː ɪz ə dɪˈrɛktəri, ænd ɪt hæz ə hjuːdʒ mæp ʌv ɔːl ðə stɔːrz ðæt ðeɪ hæv ɪnˈsaɪd ðɪs mɔːl, soʊ ɪt meɪks ɪt ə lɑːt ˈiːziər fɔːr juː tuː ɡoʊ ˈʃɑːpɪŋ/",
@@ -60541,8 +60388,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 110.98,
-        "end": 115.36,
+        "start": 108.28,
+        "end": 112.66,
         "speaker": "Speaker",
         "en": "This directory shows you all of the different sections of things you want to buy.",
         "ipa": "/ðɪs dɪˈrɛktəri ʃoʊz juː ɔːl ʌv ðə ˈdɪfrənt ˈsɛkʃənz ʌv θɪŋz juː wɑːnt tuː baɪ/",
@@ -60557,8 +60404,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 115.4,
-        "end": 120.96,
+        "start": 112.7,
+        "end": 118.26,
         "speaker": "Speaker",
         "en": "If you want to buy something specific, clothing for men, you would look at the apparel for men.",
         "ipa": "/ɪf juː wɑːnt tuː baɪ ˈsʌmθɪŋ spɪˈsɪfɪk, ˈklouðɪŋ fɔːr mɛn, juː wʊd lʊk æt ði əˈpɛr fɔːr mɛn/",
@@ -60573,8 +60420,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 121.0,
-        "end": 129.1,
+        "start": 118.3,
+        "end": 126.4,
         "speaker": "Speaker",
         "en": "Or if you want to look at a store that has clothing for both men and women, you will look at the section that has apparel for men and women.",
         "ipa": "/ɔːr ɪf juː wɑːnt tuː lʊk æt ə stɔːr ðæt hæz ˈklouðɪŋ fɔːr boʊθ mɛn ænd ˈwɪmən, juː wɪl lʊk æt ðə ˈsɛkʃən ðæt hæz əˈpɛr fɔːr mɛn ænd ˈwɪmən/",
@@ -60589,8 +60436,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 129.14,
-        "end": 136.94,
+        "start": 126.44,
+        "end": 134.24,
         "speaker": "Speaker",
         "en": "So they have different sections like electronics, eyewear, jewelry and accessories that you can see in this directory.",
         "ipa": "/soʊ ðeɪ hæv ˈdɪfrənt ˈsɛkʃənz laɪk ɪlɛkˈtrɑːnɪks, ˈaɪwɛr, ˈdʒuːəlri ænd əkˈsɛsəriz ðæt juː kən siː ɪn ðɪs dɪˈrɛktəri/",
@@ -60605,8 +60452,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 136.98,
-        "end": 140.34,
+        "start": 134.28,
+        "end": 137.64,
         "speaker": "Speaker",
         "en": "The main entrance leads me to the upper level.",
         "ipa": "/ðə meɪn ˈɛntrəns liːdz miː tuː ði ˈʌpər ˈlɛvəl/",
@@ -60621,8 +60468,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 140.38,
-        "end": 146.66,
+        "start": 137.68,
+        "end": 143.96,
         "speaker": "Speaker",
         "en": "Right now, I'm on the upper level, and this mall has two levels: the upper level and the lower level.",
         "ipa": "/raɪt naʊ, aɪm ɑːn ði ˈʌpər ˈlɛvəl, ænd ðɪs mɔːl hæz tuː ˈlɛvəlz: ði ˈʌpər ˈlɛvəl ænd ðə ˈloʊər ˈlɛvəl/",
@@ -60637,8 +60484,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 146.7,
-        "end": 156.65,
+        "start": 144.0,
+        "end": 153.95,
         "speaker": "Speaker",
         "en": "There are three different ways to go downstairs: the first one is using the stairs (going down the stairs), and the second one I'll show you, but first you guys have to name it.",
         "ipa": "/ðɛr ɑːr θriː ˈdɪfrənt weɪz tuː ɡoʊ ˈdaʊnstɛrz: ðə fɜːrst wʌn ɪz ˈjuːzɪŋ ðə stɛrz (ˈɡoʊɪŋ daʊn ðə stɛrz) ænd ðə ˈsɛkənd wʌn aɪl ʃoʊ juː, bʌt fɜːrst juː ɡaɪz hæv tuː neɪm ɪt/",
@@ -60658,8 +60505,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 156.69,
-        "end": 157.74,
+        "start": 153.99,
+        "end": 155.04,
         "speaker": "Speaker",
         "en": "So come along with me!",
         "ipa": "/soʊ kʌm əˈlɔːŋ wɪð miː/",
@@ -60674,8 +60521,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 158.64,
-        "end": 173.04,
+        "start": 155.94,
+        "end": 170.34,
         "speaker": "Speaker",
         "en": "I'm going to use this to go downstairs to the lower level, but first I'll give you three seconds to tell me what it's called... This is called an escalator, and I'm going to take you guys with me to go down.",
         "ipa": "/aɪm ˈɡoʊɪŋ tuː juːz ðɪs tuː ɡoʊ ˈdaʊnstɛrz tuː ðə ˈloʊər ˈlɛvəl, bʌt fɜːrst aɪl ɡɪv juː θriː ˈsɛkəndz tuː tɛl miː wʌt ɪts kɔːld ðɪs ɪz kɔːld ən ˈɛskəleɪtər, ænd aɪm ˈɡoʊɪŋ tuː teɪk juː ɡaɪz wɪð miː tuː ɡoʊ daʊn/",
@@ -60695,8 +60542,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 179.28,
-        "end": 181.44,
+        "start": 176.58,
+        "end": 178.74,
         "speaker": "Speaker",
         "en": "I just went down the escalator.",
         "ipa": "/aɪ dʒʌst wɛnt daʊn ði ˈɛskəleɪtər/",
@@ -60711,8 +60558,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 181.48,
-        "end": 187.06,
+        "start": 178.78,
+        "end": 184.36,
         "speaker": "Speaker",
         "en": "Now I'm on the lower level of the shopping mall, and behind me is the food court.",
         "ipa": "/naʊ aɪm ɑːn ðə ˈloʊər ˈlɛvəl ʌv ðə ˈʃɑːpɪŋ mɔːl, ænd bɪˈhaɪnd miː ɪz ðə fuːd kɔːrt/",
@@ -60727,8 +60574,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 187.1,
-        "end": 191.83,
+        "start": 184.4,
+        "end": 189.13,
         "speaker": "Speaker",
         "en": "As you can see, there is a sign that says we are at the food court.",
         "ipa": "/æz ju kæn si, ðɛr ɪz ə saɪn ðæt sɛz wi ɑr æt ðə fud kɔrt./",
@@ -60743,8 +60590,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 191.87,
-        "end": 196.64,
+        "start": 189.17,
+        "end": 193.94,
         "speaker": "Speaker",
         "en": "So let's see what kind of restaurants and fast food chains that they have here.",
         "ipa": "/soʊ lɛts si wʌt kaɪnd ʌv ˈrɛstərənts ænd fæst fud tʃeɪnz ðæt ðeɪ hæv hir./",
@@ -60759,8 +60606,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 196.68,
-        "end": 201.97,
+        "start": 193.98,
+        "end": 199.27,
         "speaker": "Speaker",
         "en": "In this food court they have fast food chains and local franchises at the mall.",
         "ipa": "/ɪn ðɪs fud kɔrt ðeɪ hæv fæst fud tʃeɪnz ænd ˈloʊkəl ˈfrænˌtʃaɪzɪz æt ðə mɔl./",
@@ -60775,8 +60622,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 202.01,
-        "end": 207.31,
+        "start": 199.31,
+        "end": 204.61,
         "speaker": "Speaker",
         "en": "So I'm gonna take a look to see what type of different fast food chains that they have.",
         "ipa": "/soʊ aɪm ˈgɑnə teɪk ə lʊk tu si wʌt taɪp ʌv ˈdɪfərənt fæst fud tʃeɪnz ðæt ðeɪ hæv./",
@@ -60791,8 +60638,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 207.35,
-        "end": 209.46,
+        "start": 204.65,
+        "end": 206.76,
         "speaker": "Speaker",
         "en": "Also, they don't have restaurants here.",
         "ipa": "/ˈɔlsoʊ, ðeɪ doʊnt hæv ˈrɛstərənts hir./",
@@ -60807,8 +60654,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 209.5,
-        "end": 216.21,
+        "start": 206.8,
+        "end": 213.51,
         "speaker": "Speaker",
         "en": "Normally the restaurants are by the exit of the mall like the Cheesecake Factory was by the main entrance of the mall.",
         "ipa": "/ˈnɔrməli ðə ˈrɛstərənts ɑr baɪ ði ˈɛgzɪt ʌv ðə mɔl laɪk ðə ˈtʃizˌkeɪk ˈfæktəri wʌz baɪ ðə meɪn ˈɛntrəns ʌv ðə mɔl./",
@@ -60828,8 +60675,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 216.25,
-        "end": 219.12,
+        "start": 213.55,
+        "end": 216.42,
         "speaker": "Speaker",
         "en": "So let's take a look at the food that they have.",
         "ipa": "/soʊ lɛts teɪk ə lʊk æt ðə fud ðæt ðeɪ hæv./",
@@ -60844,8 +60691,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 219.16,
-        "end": 220.39,
+        "start": 216.46,
+        "end": 217.69,
         "speaker": "Speaker",
         "en": "Right here is Sbarro.",
         "ipa": "/raɪt hir ɪz sɪˈbɑroʊ./",
@@ -60860,8 +60707,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 220.43,
-        "end": 224.48,
+        "start": 217.73,
+        "end": 221.78,
         "speaker": "Speaker",
         "en": "It's a fast food chain and they sell Italian food like pizza.",
         "ipa": "/ɪts ə fæst fud tʃeɪn ænd ðeɪ sɛl ɪˈtæljən fud laɪk ˈpitsə./",
@@ -60876,8 +60723,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 224.52,
-        "end": 227.24,
+        "start": 221.82,
+        "end": 224.54,
         "speaker": "Speaker",
         "en": "Here I'm at Sbarro and they sell pizza.",
         "ipa": "/hir aɪm æt sɪˈbɑroʊ ænd ðeɪ sɛl ˈpitsə./",
@@ -60892,8 +60739,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 227.28,
-        "end": 233.38,
+        "start": 224.58,
+        "end": 230.68,
         "speaker": "Speaker",
         "en": "I wanted to ask you guys... How much does one slice of pizza cost you guys in your country?",
         "ipa": "/aɪ ˈwɔntɪd tu æsk ju gaɪz... haʊ mʌtʃ dʌz wʌn slaɪs ʌv ˈpitsə kɔst ju gaɪz ɪn jʊr ˈkʌntri?/",
@@ -60913,8 +60760,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 233.42,
-        "end": 236.76,
+        "start": 230.72,
+        "end": 234.06,
         "speaker": "Speaker",
         "en": "Here in America it costs $4.99 for one slice of pizza.",
         "ipa": "/hir ɪn əˈmɛrɪkə ɪt kɔsts ˈfɔr ˈdɔlərərz nɪnˈti-naɪn fɔr wʌn slaɪs ʌv ˈpitsə./",
@@ -60929,8 +60776,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 236.8,
-        "end": 241.23,
+        "start": 234.1,
+        "end": 238.53,
         "speaker": "Speaker",
         "en": "Do you guys think that is cheap or do you guys think that is expensive?",
         "ipa": "/du ju gaɪz θɪŋk ðæt ɪz tʃip ɔr du ju gaɪz θɪŋk ðæt ɪz ɪkˈspɛnsɪv?/",
@@ -60945,8 +60792,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 241.27,
-        "end": 247.88,
+        "start": 238.57,
+        "end": 245.18,
         "speaker": "Speaker",
         "en": "If you wanted to make it a combo with an extra side and a drink that would be $8.99.",
         "ipa": "/ɪf ju ˈwɔntɪd tu meɪk ɪt ə ˈkɑmboʊ wɪð ən ˈɛkstrə saɪd ænd ə drɪŋk ðæt wʊd bi eɪt ˈdɔlərərz nɪnˈti-naɪn./",
@@ -60961,8 +60808,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 247.92,
-        "end": 249.97,
+        "start": 245.22,
+        "end": 247.27,
         "speaker": "Speaker",
         "en": "Let me know if you guys think that's expensive.",
         "ipa": "/lɛt mi noʊ ɪf ju gaɪz θɪŋk ðæts ɪkˈspɛnsɪv./",
@@ -60977,8 +60824,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 250.01,
-        "end": 254.57,
+        "start": 247.31,
+        "end": 251.87,
         "speaker": "Speaker",
         "en": "Let's keep on moving on and see what other franchises they have at this food court.",
         "ipa": "/lɛts kip ɑn ˈmuvɪŋ ɑn ænd si wʌt ˈʌðər ˈfrænˌtʃaɪzɪz ðeɪ hæv æt ðɪs fud kɔrt./",
@@ -60993,8 +60840,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 254.61,
-        "end": 262.09,
+        "start": 251.91,
+        "end": 259.39,
         "speaker": "Speaker",
         "en": "This is a local franchise called Gold Star Chili and they sell a hot dog with chili and cheese on top.",
         "ipa": "/ðɪs ɪz ə ˈloʊkəl ˈfrænˌtʃaɪz kɔld goʊld stɑr ˈtʃɪli ænd ðeɪ sɛl ə hɑt dɔg wɪð ˈtʃɪli ænd tʃiz ɑn tɑp./",
@@ -61009,8 +60856,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 262.13,
-        "end": 268.6,
+        "start": 259.43,
+        "end": 265.9,
         "speaker": "Speaker",
         "en": "If you guys saw my baseball video you guys would know exactly what I'm talking about and that is called a coney.",
         "ipa": "/ɪf ju gaɪz sɔ maɪ ˈbeɪsbɔl ˈvɪdioʊ ju gaɪz wʊd noʊ ɪgˈzæktli wʌt aɪm ˈtɔkɪŋ əˈbaʊt ænd ðæt ɪz kɔld ə ˈkoʊni./",
@@ -61025,8 +60872,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 268.64,
-        "end": 272.29,
+        "start": 265.94,
+        "end": 269.59,
         "speaker": "Speaker",
         "en": "Of course, you can't miss out on ordering Chinese food at the mall.",
         "ipa": "/ʌv kɔrs, ju kænt mɪs aʊt ɑn ˈɔrdərɪŋ ˌtʃaɪˈniz fud æt ðə mɔl./",
@@ -61041,8 +60888,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 272.33,
-        "end": 275.08,
+        "start": 269.63,
+        "end": 272.38,
         "speaker": "Speaker",
         "en": "I think almost every mall sells Chinese food.",
         "ipa": "/aɪ θɪŋk ˈɔlmoʊst ˈɛvri mɔl sɛlz ˌtʃaɪˈniz fud./",
@@ -61057,8 +60904,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 275.12,
-        "end": 278.83,
+        "start": 272.42,
+        "end": 276.13,
         "speaker": "Speaker",
         "en": "But, let's keep moving on and see what else they have.",
         "ipa": "/bʌt, lɛts kip ˈmuvɪŋ ɑn ænd si wʌt ɛls ðeɪ hæv./",
@@ -61073,8 +60920,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 278.87,
-        "end": 282.0,
+        "start": 276.17,
+        "end": 279.3,
         "speaker": "Speaker",
         "en": "How do you call this franchise behind me?",
         "ipa": "/haʊ du ju kɔl ðɪs ˈfrænˌtʃaɪz bɪˈhaɪnd mi?/",
@@ -61089,8 +60936,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 282.04,
-        "end": 289.45,
+        "start": 279.34,
+        "end": 286.75,
         "speaker": "Speaker",
         "en": "This is called Popeyes and they sell a lot of chicken and their main competitor is KFC (Kentucky Fried Chicken).",
         "ipa": "/ðɪs ɪz kɔld ˈpɑpaɪz ænd ðeɪ sɛl ə lɑt ʌv ˈtʃɪkən ænd ðɛr meɪn kəmˈpɛtɪtər ɪz keɪ-ɛf-si (kɛnˈtʌki fraɪd ˈtʃɪkən)./",
@@ -61105,8 +60952,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 289.49,
-        "end": 295.89,
+        "start": 286.79,
+        "end": 293.19,
         "speaker": "Speaker",
         "en": "And behind me are two of the most popular franchises in the U.S. they are called Chick-fil-A and Chipotle.",
         "ipa": "/ænd bɪˈhaɪnd mi ɑr tu ʌv ðə moʊst ˈpɑpjələr ˈfrænˌtʃaɪzɪz ɪn ðə ˌjuˈɛs ðeɪ ɑr kɔld tʃɪk-fɪl-eɪ ænd tʃəˈpoʊtleɪ./",
@@ -61121,8 +60968,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 295.93,
-        "end": 302.17,
+        "start": 293.23,
+        "end": 299.47,
         "speaker": "Speaker",
         "en": "As you can see, they're pretty popular because people are waiting in line long lines at the mall.",
         "ipa": "/æz ju kæn si, ðɛr ˈprɪti ˈpɑpjələr bɪˈkʌz ˈpipəl ɑr ˈweɪtɪŋ ɪn laɪn lɔŋ laɪnz æt ðə mɔl./",
@@ -61137,8 +60984,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 302.21,
-        "end": 306.08,
+        "start": 299.51,
+        "end": 303.38,
         "speaker": "Speaker",
         "en": "Compared to the other fast food chains these are more popular because there is a line.",
         "ipa": "/kəmˈpɛrd tu ðə ˈʌðər fæst fud tʃeɪnz ðiz ɑr mɔr ˈpɑpjələr bɪˈkʌz ðɛr ɪz ə laɪn./",
@@ -61153,8 +61000,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 306.12,
-        "end": 313.21,
+        "start": 303.42,
+        "end": 310.51,
         "speaker": "Speaker",
         "en": "Walking away from the food court, now I'm going to show you two different places where you can do your shopping.",
         "ipa": "/ˈwɔkɪŋ əˈweɪ frʌm ðə fud kɔrt, naʊ aɪm ˈgʊɪŋ tu ʃoʊ ju tu ˈdɪfərənt ˈpleɪsɪz wɛr ju kæn du jʊr ˈʃɑpɪŋ./",
@@ -61169,8 +61016,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 313.25,
-        "end": 315.79,
+        "start": 310.55,
+        "end": 313.09,
         "speaker": "Speaker",
         "en": "The first place is right behind me.",
         "ipa": "/ðə fɜrst pleɪs ɪz raɪt bɪˈhaɪnd mi./",
@@ -61185,8 +61032,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 315.83,
-        "end": 317.48,
+        "start": 313.13,
+        "end": 314.78,
         "speaker": "Speaker",
         "en": "This is called a store.",
         "ipa": "/ðɪs ɪz kɔld ə stɔr./",
@@ -61201,8 +61048,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 317.52,
-        "end": 319.1,
+        "start": 314.82,
+        "end": 316.4,
         "speaker": "Speaker",
         "en": "This store sells hats.",
         "ipa": "/ðɪs stɔr sɛlz hæts./",
@@ -61217,8 +61064,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 319.14,
-        "end": 323.0,
+        "start": 316.44,
+        "end": 320.3,
         "speaker": "Speaker",
         "en": "And another place where you can go shopping is this thing right here.",
         "ipa": "/ænd əˈnʌðər pleɪs wɛr ju kæn goʊ ˈʃɑpɪŋ ɪz ðɪs θɪŋ raɪt hir./",
@@ -61233,8 +61080,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 323.04,
-        "end": 324.06,
+        "start": 320.34,
+        "end": 321.36,
         "speaker": "Speaker",
         "en": "What is it called?",
         "ipa": "/wʌt ɪz ɪt kɔld?/",
@@ -61249,8 +61096,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 325.56,
-        "end": 335.07,
+        "start": 322.86,
+        "end": 332.37,
         "speaker": "Speaker",
         "en": "This is called a kiosk and this kiosk sells things for your phone like phone cases and chargers and it's a lot smaller compared to a store.",
         "ipa": "/ðɪs ɪz kɔld ə ˈkiɑsk ænd ðɪs ˈkiɑsk sɛlz θɪŋz fɔr jʊr foʊn laɪk foʊn ˈkeɪsɪz ænd ˈtʃɑrdʒərz ænd ɪts ə lɑt ˈsmɔlər kəmˈpɛrd tu ə stɔr./",
@@ -61273,8 +61120,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 2,
-    "durationSec": 326,
-    "durationLabel": "05:26",
+    "durationSec": 323,
+    "durationLabel": "05:23",
     "date": "2026/10/07",
     "tags": [
       "美食",
@@ -61282,50 +61129,46 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        27.24,
-        30.25
+        112.39,
+        120.84
       ],
       [
-        115.4,
-        123.85
+        132.15,
+        151.64
       ],
       [
-        135.16,
-        154.65
+        190.34,
+        206.52
       ],
       [
-        193.35,
-        209.53
+        211.97,
+        218.28
       ],
       [
-        214.98,
-        221.29
+        223.73,
+        238.68
       ],
       [
-        226.74,
-        241.69
+        244.13,
+        262.76
       ],
       [
-        247.14,
-        265.77
+        266.0,
+        270.2
       ],
       [
-        269.01,
-        273.21
+        275.65,
+        288.44
       ],
       [
-        278.66,
-        291.45
-      ],
-      [
-        296.72,
-        304.33
+        293.71,
+        301.32
       ]
     ],
     "sentences": [
@@ -61451,8 +61294,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 30.25,
-        "end": 34.93,
+        "start": 27.24,
+        "end": 31.92,
         "speaker": "Speaker",
         "en": "Oh my god, I look so nasty.",
         "ipa": "/oʊ maɪ ɡɑd, aɪ lʊk soʊ ˈnæsti./",
@@ -61467,8 +61310,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 34.97,
-        "end": 37.99,
+        "start": 31.96,
+        "end": 34.98,
         "speaker": "Speaker",
         "en": "We are all washed up and dressed to go to dinner.",
         "ipa": "/wi ɑr ɔl wɑʃt ʌp ænd drɛst tu ɡoʊ tu ˈdɪnər./",
@@ -61483,8 +61326,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 38.03,
-        "end": 39.88,
+        "start": 35.02,
+        "end": 36.87,
         "speaker": "Speaker",
         "en": "Where are we eating today again?",
         "ipa": "/wɛr ɑr wi ˈitɪŋ təˈdeɪ əˈɡɛn?/",
@@ -61499,8 +61342,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 39.92,
-        "end": 41.99,
+        "start": 36.91,
+        "end": 38.98,
         "speaker": "Speaker",
         "en": "Is it pasta or fish?",
         "ipa": "/ɪz ɪt ˈpɑstə ɔr fɪʃ?/",
@@ -61515,8 +61358,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 42.03,
-        "end": 46.29,
+        "start": 39.02,
+        "end": 43.28,
         "speaker": "Speaker",
         "en": "It's I think they're known for like a a fish pasta.",
         "ipa": "/ɪts aɪ θɪŋk ðɛr noʊn fɔr laɪk ə ə fɪʃ ˈpɑstə./",
@@ -61531,8 +61374,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 46.33,
-        "end": 47.2,
+        "start": 43.32,
+        "end": 44.19,
         "speaker": "Speaker",
         "en": "Actually, you know what?",
         "ipa": "/ˈæktʃuəli, ju noʊ wʌt?/",
@@ -61547,8 +61390,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 47.24,
-        "end": 48.09,
+        "start": 44.23,
+        "end": 45.08,
         "speaker": "Speaker",
         "en": "Don't ask me question.",
         "ipa": "/doʊnt æsk mi ˈkwɛstʃən./",
@@ -61563,8 +61406,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 48.13,
-        "end": 53.13,
+        "start": 45.12,
+        "end": 50.12,
         "speaker": "Speaker",
         "en": "Okay, we don't know what we were recommended this restaurant by the hotel that we're staying at.",
         "ipa": "/oʊˈkeɪ, wi doʊnt noʊ wʌt wi wɜr ˈrɛkəˌmɛndɪd ðɪs ˈrɛstərənt baɪ ðə hoʊˈtɛl ðæt wɜr ˈsteɪɪŋ æt./",
@@ -61579,8 +61422,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 53.17,
-        "end": 55.72,
+        "start": 50.16,
+        "end": 52.71,
         "speaker": "Speaker",
         "en": "By the way, we're staying at this really beautiful hotel.",
         "ipa": "/baɪ ðə weɪ, wɜr ˈsteɪɪŋ æt ðɪs ˈrɪli ˈbjutəfəl hoʊˈtɛl./",
@@ -61595,8 +61438,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 55.76,
-        "end": 58.21,
+        "start": 52.75,
+        "end": 55.2,
         "speaker": "Speaker",
         "en": "It's called Hotel Villa Schuler.",
         "ipa": "/ɪts kɔld hoʊˈtɛl ˈvɪlə ˈʃulər./",
@@ -61611,8 +61454,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 58.25,
-        "end": 60.4,
+        "start": 55.24,
+        "end": 57.39,
         "speaker": "Speaker",
         "en": "So stunning.",
         "ipa": "/soʊ ˈstʌnɪŋ./",
@@ -61627,8 +61470,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 60.44,
-        "end": 64.33,
+        "start": 57.43,
+        "end": 61.32,
         "speaker": "Speaker",
         "en": "And this view is breathtaking.",
         "ipa": "/ænd ðɪs vju ɪz ˈbrɛθˌteɪkɪŋ./",
@@ -61643,8 +61486,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 64.37,
-        "end": 68.39,
+        "start": 61.36,
+        "end": 65.38,
         "speaker": "Speaker",
         "en": "By the way, I am on a girls trip with Kristen.",
         "ipa": "/baɪ ðə weɪ, aɪ æm ɑn ə ɡɜrlz trɪp wɪð ˈkrɪstən./",
@@ -61659,8 +61502,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 68.43,
-        "end": 74.34,
+        "start": 65.42,
+        "end": 71.33,
         "speaker": "Speaker",
         "en": "The last time we had our girls trip was maybe how many years ago?",
         "ipa": "/ðə læst taɪm wi hæd aʊər ɡɜrlz trɪp wʌz ˈmeɪbi ˈhaʊ ˈmɛni jɪrz əˈɡoʊ?/",
@@ -61675,8 +61518,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 74.38,
-        "end": 76.82,
+        "start": 71.37,
+        "end": 73.81,
         "speaker": "Speaker",
         "en": "It was 2018.",
         "ipa": "/ɪt wʌz tuˈθaʊzənd ˈeɪtin./",
@@ -61691,8 +61534,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 76.86,
-        "end": 77.64,
+        "start": 73.85,
+        "end": 74.63,
         "speaker": "Speaker",
         "en": "7 years.",
         "ipa": "",
@@ -61707,8 +61550,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 77.68,
-        "end": 80.2,
+        "start": 74.67,
+        "end": 77.19,
         "speaker": "Speaker",
         "en": "Dude, it's been a really long time.",
         "ipa": "/dud, ɪts bɪn ə ˈrɪli lɔŋ taɪm./",
@@ -61723,8 +61566,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 80.24,
-        "end": 81.13,
+        "start": 77.23,
+        "end": 78.12,
         "speaker": "Speaker",
         "en": "Oh my goodness.",
         "ipa": "/oʊ maɪ ˈɡʊdnəs./",
@@ -61739,8 +61582,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 81.17,
-        "end": 84.61,
+        "start": 78.16,
+        "end": 81.6,
         "speaker": "Speaker",
         "en": "That was like I think we were just finishing up college.",
         "ipa": "/ðæt wʌz laɪk aɪ θɪŋk wi wɜr dʒʌst ˈfɪnɪʃɪŋ ʌp ˈkɑlɪdʒ./",
@@ -61755,8 +61598,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 84.65,
-        "end": 86.61,
+        "start": 81.64,
+        "end": 83.6,
         "speaker": "Speaker",
         "en": "Oh my god.",
         "ipa": "/oʊ maɪ ɡɑd./",
@@ -61771,8 +61614,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 86.65,
-        "end": 87.52,
+        "start": 83.64,
+        "end": 84.51,
         "speaker": "Speaker",
         "en": "7 years ago.",
         "ipa": "/ˈsɛvən jɪrz əˈɡoʊ./",
@@ -61787,8 +61630,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 87.56,
-        "end": 89.26,
+        "start": 84.55,
+        "end": 86.25,
         "speaker": "Speaker",
         "en": "I was still in college.",
         "ipa": "/aɪ wʌz stɪl ɪn ˈkɑlɪdʒ./",
@@ -61803,8 +61646,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 89.3,
-        "end": 97.57,
+        "start": 86.29,
+        "end": 94.56,
         "speaker": "Speaker",
         "en": "We were very long overdue for a girls trip and we are here in Sisley, Italy, which is such a dream destination.",
         "ipa": "/wi wɜr ˈvɛri lɔŋ ˌoʊvərˈdu fɔr ə ɡɜrlz trɪp ænd wi ɑr hir ɪn ˈsɪsli, ˈɪtəli, wɪtʃ ɪz sʌtʃ ə drim ˌdɛstəˈneɪʃən./",
@@ -61819,8 +61662,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 97.61,
-        "end": 103.33,
+        "start": 94.6,
+        "end": 100.32,
         "speaker": "Speaker",
         "en": "Should I wear these or these?",
         "ipa": "/ʃʊd aɪ wɛr ðiz ɔr ðiz?/",
@@ -61835,8 +61678,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 103.37,
-        "end": 105.58,
+        "start": 100.36,
+        "end": 102.57,
         "speaker": "Speaker",
         "en": "That looks better.",
         "ipa": "/ðæt lʊks ˈbɛtər./",
@@ -61851,8 +61694,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 105.62,
-        "end": 106.21,
+        "start": 102.61,
+        "end": 103.2,
         "speaker": "Speaker",
         "en": "Yeah.",
         "ipa": "/jæ./",
@@ -61867,8 +61710,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 106.25,
-        "end": 115.4,
+        "start": 103.24,
+        "end": 112.39,
         "speaker": "Speaker",
         "en": "For shoes, I'm going to wear my Dolce.",
         "ipa": "/fɔr ʃuz, aɪm ˈɡuɪŋ tu wɛr maɪ ˈdoʊtʃeɪ./",
@@ -61883,8 +61726,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 123.85,
-        "end": 129.17,
+        "start": 120.84,
+        "end": 126.16,
         "speaker": "Speaker",
         "en": "This one.",
         "ipa": "/ðɪs wʌn./",
@@ -61899,8 +61742,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 129.21,
-        "end": 135.16,
+        "start": 126.2,
+        "end": 132.15,
         "speaker": "Speaker",
         "en": "No, no, no, no.",
         "ipa": "/noʊ, noʊ, noʊ, noʊ./",
@@ -61915,8 +61758,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 154.65,
-        "end": 156.32,
+        "start": 151.64,
+        "end": 153.31,
         "speaker": "Speaker",
         "en": "Good morning everyone.",
         "ipa": "/ɡʊd ˈmɔrnɪŋ ˈɛvriwʌn./",
@@ -61931,8 +61774,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 156.36,
-        "end": 159.13,
+        "start": 153.35,
+        "end": 156.12,
         "speaker": "Speaker",
         "en": "We are walking over to breakfast right now.",
         "ipa": "/wi ɑr ˈwɔkɪŋ ˈoʊvər tu ˈbrɛkfəst raɪt naʊ./",
@@ -61947,8 +61790,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 159.17,
-        "end": 160.77,
+        "start": 156.16,
+        "end": 157.76,
         "speaker": "Speaker",
         "en": "I'm looking a little swollen.",
         "ipa": "/aɪm ˈlʊkɪŋ ə ˈlɪtəl ˈswoʊlən./",
@@ -61963,8 +61806,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 160.81,
-        "end": 164.93,
+        "start": 157.8,
+        "end": 161.92,
         "speaker": "Speaker",
         "en": "Yesterday we were trying to go to Bambar but the line was too long.",
         "ipa": "/ˈjɛstərˌdeɪ wi wɜr ˈtraɪɪŋ tu ɡoʊ tu ˈbæmbɑr bʌt ðə laɪn wʌz tu lɔŋ./",
@@ -61979,8 +61822,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 164.97,
-        "end": 166.97,
+        "start": 161.96,
+        "end": 163.96,
         "speaker": "Speaker",
         "en": "So we're going to try again today.",
         "ipa": "/soʊ wɜr ˈɡuɪŋ tu traɪ əˈɡɛn təˈdeɪ./",
@@ -61995,8 +61838,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 167.01,
-        "end": 170.42,
+        "start": 164.0,
+        "end": 167.41,
         "speaker": "Speaker",
         "en": "It will probably be very long still.",
         "ipa": "/ɪt wɪl ˈprɑbəbli bi ˈvɛri lɔŋ stɪl./",
@@ -62011,8 +61854,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 170.46,
-        "end": 177.41,
+        "start": 167.45,
+        "end": 174.4,
         "speaker": "Speaker",
         "en": "But today is exciting because we have a boat day planned.",
         "ipa": "/bʌt təˈdeɪ ɪz ɪkˈsaɪtɪŋ bɪˈkəz wi hæv ə boʊt deɪ plænd/",
@@ -62027,8 +61870,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 177.45,
-        "end": 183.01,
+        "start": 174.44,
+        "end": 180.0,
         "speaker": "Speaker",
         "en": "We're able to get seated outdoors, which is nice.",
         "ipa": "/wɪr ˈeɪbəl tu ɡɛt ˈsiṭɪd aʊtˈdɔrz, wɪʧ ɪz naɪs/",
@@ -62043,8 +61886,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 183.05,
-        "end": 188.27,
+        "start": 180.04,
+        "end": 185.26,
         "speaker": "Speaker",
         "en": "I got the lemon and peach, and Kristen got the raspberry and lemon.",
         "ipa": "/aɪ ɡɑt ðə ˈlɛmən ænd piʧ, ænd ˈkrɪstən ɡɑt ðə ˈræzˌbɛri ænd ˈlɛmən/",
@@ -62059,8 +61902,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 188.31,
-        "end": 193.35,
+        "start": 185.3,
+        "end": 190.34,
         "speaker": "Speaker",
         "en": "This is a bio.",
         "ipa": "/ðɪs ɪz ə ˈbaɪˌoʊ/",
@@ -62075,8 +61918,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 209.53,
-        "end": 214.98,
+        "start": 206.52,
+        "end": 211.97,
         "speaker": "Speaker",
         "en": "Oh my god.",
         "ipa": "/oʊ maɪ ɡɑd/",
@@ -62091,8 +61934,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 221.29,
-        "end": 226.74,
+        "start": 218.28,
+        "end": 223.73,
         "speaker": "Speaker",
         "en": "More.",
         "ipa": "/mɔr/",
@@ -62107,8 +61950,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 241.69,
-        "end": 247.14,
+        "start": 238.68,
+        "end": 244.13,
         "speaker": "Speaker",
         "en": "Awesome.",
         "ipa": "/ˈɔsəm/",
@@ -62123,8 +61966,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 265.77,
-        "end": 269.01,
+        "start": 262.76,
+        "end": 266.0,
         "speaker": "Speaker",
         "en": "By myself.",
         "ipa": "/baɪ maɪˈsɛlf/",
@@ -62139,8 +61982,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 273.21,
-        "end": 278.66,
+        "start": 270.2,
+        "end": 275.65,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/oʊˈkeɪ/",
@@ -62155,8 +61998,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 291.45,
-        "end": 296.72,
+        "start": 288.44,
+        "end": 293.71,
         "speaker": "Speaker",
         "en": "I am.",
         "ipa": "/aɪ æm/",
@@ -62171,8 +62014,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 304.33,
-        "end": 307.44,
+        "start": 301.32,
+        "end": 304.43,
         "speaker": "Speaker",
         "en": "Checked out of our hotel here in Terramina.",
         "ipa": "/ʧɛkt aʊt ʌv aʊr hoʊˈtɛl hɪr ɪn tɛrəˈminə/",
@@ -62187,8 +62030,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 307.48,
-        "end": 311.14,
+        "start": 304.47,
+        "end": 308.13,
         "speaker": "Speaker",
         "en": "Now we're going to spend a few days in Katana.",
         "ipa": "/naʊ wɪr ˈɡoʊɪŋ tu spɛnd ə fju deɪz ɪn kəˈtɑnə/",
@@ -62203,8 +62046,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 311.18,
-        "end": 326.13,
+        "start": 308.17,
+        "end": 323.12,
         "speaker": "Speaker",
         "en": "The days just felt very long and I like that we didn't have like a strict itinerary.",
         "ipa": "/ðə deɪz ʤʌst fɛlt ˈvɛri lɔŋ ænd aɪ laɪk ðæt wi ˈdɪdənt hæv laɪk ə strɪkt aɪˈtɪnəˌrɛri/",
@@ -76179,42 +76022,42 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 400,
-    "durationLabel": "06:40",
+    "durationSec": 396,
+    "durationLabel": "06:36",
     "date": "2026/09/26",
     "tags": [
       "美食"
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        7.82,
-        12.76
+        93.21,
+        94.74
       ],
       [
-        98.15,
-        99.68
+        140.46,
+        145.06
       ],
       [
-        145.4,
-        150.0
+        189.59,
+        206.94
       ],
       [
-        194.53,
-        211.88
+        292.17,
+        295.54
       ],
       [
-        297.11,
-        300.48
+        340.89,
+        353.06
       ],
       [
-        345.83,
-        358.0
+        395.26,
+        396.0
       ]
     ],
     "sentences": [
@@ -76252,8 +76095,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 12.76,
-        "end": 16.92,
+        "start": 7.82,
+        "end": 11.98,
         "speaker": "Speaker",
         "en": "Yesterday, I was trying to think of videos, and I was like, \"What do you guys even want to see from me now?\"",
         "ipa": "/ˈjɛstərdi aɪ wɒz ˈtraɪɪŋ tuː θɪŋk ɒv ˈvɪdiəʊz ənd aɪ wɒz laɪk wɒt duː juː ɡaɪz ˈiːvən wɒnt tuː siː frɒm miː naʊ/",
@@ -76268,8 +76111,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 16.96,
-        "end": 22.66,
+        "start": 12.02,
+        "end": 17.72,
         "speaker": "Speaker",
         "en": "I would say like the one of the top comments was asking for like what I eat in a day videos and just like healthy, easy recipes.",
         "ipa": "/aɪ wʊd seɪ laɪk ði wʌn ɒv ðə tɒp ˈkɒmɛnts wɒz ˈɑːskɪŋ fɔː laɪk wɒt aɪ iːt ɪn ə deɪ ˈvɪdiəʊz ənd ʤʌst laɪk ˈhɛlθi ˈiːzi ˈrɛsəpiz/",
@@ -76284,8 +76127,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 22.7,
-        "end": 24.79,
+        "start": 17.76,
+        "end": 19.85,
         "speaker": "Speaker",
         "en": "And I'm kind of honored, all right?",
         "ipa": "/ənd aɪm kaɪnd ɒv ˈɒnəd ɔːl raɪt/",
@@ -76300,8 +76143,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 24.83,
-        "end": 28.33,
+        "start": 19.89,
+        "end": 23.39,
         "speaker": "Speaker",
         "en": "I'm like a little flattered that you guys think I'm that much of a chef now.",
         "ipa": "/aɪm laɪk ə ˈlɪtᵊl ˈflætəd ðæt juː ɡaɪz θɪŋk aɪm ðæt mʌtʃ ɒv ə ʃɛf naʊ/",
@@ -76316,8 +76159,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 28.37,
-        "end": 31.45,
+        "start": 23.43,
+        "end": 26.51,
         "speaker": "Speaker",
         "en": "I like to consider myself a lazy girl chef.",
         "ipa": "/aɪ laɪk tuː kənˈsɪdə maɪˈsɛlf ə ˈleɪzi ɡɜːl ʃɛf/",
@@ -76332,8 +76175,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 31.49,
-        "end": 34.68,
+        "start": 26.55,
+        "end": 29.74,
         "speaker": "Speaker",
         "en": "I don't love to be in the kitchen for hours on end.",
         "ipa": "/aɪ doʊnt lʌv tuː biː ɪn ðə ˈkɪtʃɪn fɔːr ˈaʊərz ɒn ɛnd/",
@@ -76348,8 +76191,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 34.72,
-        "end": 41.0,
+        "start": 29.78,
+        "end": 36.06,
         "speaker": "Speaker",
         "en": "I just want to make something that's good and healthy, balanced, and just clean without like taking forever.",
         "ipa": "/aɪ ʤʌst wɒnt tuː meɪk ˈsʌmθɪŋ ðæts ɡʊd ənd ˈhɛlθi ˈbælənst ənd ʤʌst kliːn wɪˈaʊt laɪk ˈteɪkɪŋ fəˈrɛvə/",
@@ -76364,8 +76207,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 41.04,
-        "end": 44.56,
+        "start": 36.1,
+        "end": 39.62,
         "speaker": "Speaker",
         "en": "The past year, I've kind of gathered a few recipes of things that I really like.",
         "ipa": "/ðə pɑːst jɪər aɪv kaɪnd ɒv ˈɡæðəd ə fjuː ˈrɛsəpiz ɒv θɪŋz ðæt aɪ ˈrɪəli laɪk/",
@@ -76380,8 +76223,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 44.6,
-        "end": 45.76,
+        "start": 39.66,
+        "end": 40.82,
         "speaker": "Speaker",
         "en": "So, I'm going to share them with you guys.",
         "ipa": "/soʊ aɪm ˈɡuːɪŋ tuː ʃɛː ðɛm wɪð juː ɡaɪz/",
@@ -76396,8 +76239,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 45.8,
-        "end": 48.57,
+        "start": 40.86,
+        "end": 43.63,
         "speaker": "Speaker",
         "en": "Over the next few days, I'm going to do like a little what I eat.",
         "ipa": "/ˈoʊvə ðə nɛkst fjuː deɪz aɪm ˈɡuːɪŋ tuː duː laɪk ə ˈlɪtᵊl wɒt aɪ iːt/",
@@ -76412,8 +76255,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 48.61,
-        "end": 49.93,
+        "start": 43.67,
+        "end": 44.99,
         "speaker": "Speaker",
         "en": "I get really obsessed with something.",
         "ipa": "/aɪ ɡɛt ˈrɪəli əbˈsɛst wɪð ˈsʌmθɪŋ/",
@@ -76428,8 +76271,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 49.97,
-        "end": 53.74,
+        "start": 45.03,
+        "end": 48.8,
         "speaker": "Speaker",
         "en": "When I find a recipe that I like, it's over for the next 3 months.",
         "ipa": "/wɛn aɪ faɪnd ə ˈrɛsəpɪ ðæt aɪ laɪk ɪts ˈoʊvə fɔː ðə nɛkst θriː mʌnθs/",
@@ -76444,8 +76287,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 53.78,
-        "end": 60.42,
+        "start": 48.84,
+        "end": 55.48,
         "speaker": "Speaker",
         "en": "I will be eating that on repeat every single day until I hate it like deep in my bones and I never want to eat it again.",
         "ipa": "/aɪ wɪl biː ˈiːtɪŋ ðæt ɒn rɪˈpiːt ˈɛvri ˈsɪŋɡəl deɪ ʌnˈtɪl aɪ heɪt ɪt laɪk diːp ɪn maɪ boʊnz ənd aɪ ˈnɛvə wɒnt tuː iːt ɪt əˈɡɛn/",
@@ -76460,8 +76303,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 60.46,
-        "end": 66.35,
+        "start": 55.52,
+        "end": 61.41,
         "speaker": "Speaker",
         "en": "The current thing that I'm eating for breakfast, well, I'm actually drinking, is my favorite smoothie.",
         "ipa": "/ðə ˈkʌrənt θɪŋ ðæt aɪm ˈiːtɪŋ fɔːr ˈbrɛkfəst wɛl aɪm ˈækʧuəli ˈdrɪŋkɪŋ ɪz maɪ ˈfeɪvərɪt ˈsmuːði/",
@@ -76476,8 +76319,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 66.39,
-        "end": 70.95,
+        "start": 61.45,
+        "end": 66.01,
         "speaker": "Speaker",
         "en": "When I tell you guys I think I have the best smoothie recipe, I really mean it.",
         "ipa": "/wɛn aɪ tɛl juː ɡaɪz aɪ θɪŋk aɪ hæv ðə bɛst ˈsmuːði ˈrɛsəpɪ aɪ ˈrɪəli miːn ɪt/",
@@ -76492,8 +76335,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 70.99,
-        "end": 73.44,
+        "start": 66.05,
+        "end": 68.5,
         "speaker": "Speaker",
         "en": "Let's get the ingredients out.",
         "ipa": "/lɛts ɡɛt ði ɪnˈɡriːdiənts aʊt/",
@@ -76508,8 +76351,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 73.48,
-        "end": 74.87,
+        "start": 68.54,
+        "end": 69.93,
         "speaker": "Speaker",
         "en": "I freeze my bananas.",
         "ipa": "/aɪ friːz maɪ bəˈnɑːnəz/",
@@ -76524,8 +76367,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 74.91,
-        "end": 78.0,
+        "start": 69.97,
+        "end": 73.06,
         "speaker": "Speaker",
         "en": "So, I add about a full banana.",
         "ipa": "/soʊ aɪ æd əˈbaʊt ə fʊl bəˈnɑːnə/",
@@ -76540,8 +76383,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 78.04,
-        "end": 81.2,
+        "start": 73.1,
+        "end": 76.26,
         "speaker": "Speaker",
         "en": "I add a good handful of frozen strawberries.",
         "ipa": "/aɪ æd ə ɡʊd ˈhændfʊl ɒv ˈfroʊzən ˈstrɔːbəriz/",
@@ -76556,8 +76399,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 81.24,
-        "end": 84.96,
+        "start": 76.3,
+        "end": 80.02,
         "speaker": "Speaker",
         "en": "I add about, I want to say half a cup of Greek yogurt.",
         "ipa": "/aɪ æd əˈbaʊt aɪ wɒnt tuː seɪ hæf ə kʌp ɒv ɡriːk ˈjoʊɡərt/",
@@ -76572,8 +76415,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 85.0,
-        "end": 86.38,
+        "start": 80.06,
+        "end": 81.44,
         "speaker": "Speaker",
         "en": "I add stevia doll protein powder.",
         "ipa": "/aɪ æd ˈstiːviə dɒl ˈproʊtiːn ˈpaʊdə/",
@@ -76588,8 +76431,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 86.42,
-        "end": 88.26,
+        "start": 81.48,
+        "end": 83.32,
         "speaker": "Speaker",
         "en": "I love this one by Orgain.",
         "ipa": "/aɪ lʌv ðɪs wʌn baɪ ɔːrˈɡeɪn/",
@@ -76604,8 +76447,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 88.3,
-        "end": 90.2,
+        "start": 83.36,
+        "end": 85.26,
         "speaker": "Speaker",
         "en": "Oh, no, I forgot I'm out.",
         "ipa": "/oʊ noʊ aɪ fəˈɡɒt aɪm aʊt/",
@@ -76620,8 +76463,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 90.24,
-        "end": 92.16,
+        "start": 85.3,
+        "end": 87.22,
         "speaker": "Speaker",
         "en": "I ordered some on Amazon, though.",
         "ipa": "/aɪ ˈɔːdəd sʌm ɒn ˈæməzɒn ðoʊ/",
@@ -76636,8 +76479,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 92.2,
-        "end": 98.15,
+        "start": 87.26,
+        "end": 93.21,
         "speaker": "Speaker",
         "en": "Maybe Oh, it's here.",
         "ipa": "/ˈmeɪbi oʊ ɪts hɪə/",
@@ -76652,8 +76495,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 99.68,
-        "end": 104.24,
+        "start": 94.74,
+        "end": 99.3,
         "speaker": "Speaker",
         "en": "I'm adding two scoops, which is like a full serving of this protein powder.",
         "ipa": "/aɪm ˈædɪŋ tuː skuːps wɪʧ ɪz laɪk ə fʊl ˈsɜːvɪŋ ɒv ðɪs ˈproʊtiːn ˈpaʊdə/",
@@ -76668,8 +76511,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 104.28,
-        "end": 105.82,
+        "start": 99.34,
+        "end": 100.88,
         "speaker": "Speaker",
         "en": "1 Tbsp of peanut butter.",
         "ipa": "/wʌn tiːˈbiːˈɛspi ɒv ˈpiːnʌt ˈbʌtə/",
@@ -76684,8 +76527,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 105.86,
-        "end": 111.88,
+        "start": 100.92,
+        "end": 106.94,
         "speaker": "Speaker",
         "en": "I like to add a little bit of vanilla extract.",
         "ipa": "/aɪ laɪk tuː æd ə ˈlɪtᵊl bɪt ɒv vəˈnɪlə ˈɛkstrækt/",
@@ -76700,8 +76543,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 111.92,
-        "end": 113.53,
+        "start": 106.98,
+        "end": 108.59,
         "speaker": "Speaker",
         "en": "Quite a good amount of milk.",
         "ipa": "/kwaɪt ə ɡʊd əˈmaʊnt ɒv mɪlk/",
@@ -76716,8 +76559,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 113.57,
-        "end": 117.55,
+        "start": 108.63,
+        "end": 112.61,
         "speaker": "Speaker",
         "en": "And then lastly, what I think makes this so good are cacao nibs.",
         "ipa": "/ənd ðɛn ˈlɑːstli wɒt aɪ θɪŋk meɪks ðɪs soʊ ɡʊd ɑːr kəˈkaʊ nɪbz/",
@@ -76732,8 +76575,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 117.59,
-        "end": 119.73,
+        "start": 112.65,
+        "end": 114.79,
         "speaker": "Speaker",
         "en": "So, these add like a little bit of crunch.",
         "ipa": "/soʊ ðiːz æd laɪk ə ˈlɪtᵊl bɪt ɒv krʌnʧ/",
@@ -76748,8 +76591,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 119.77,
-        "end": 121.55,
+        "start": 114.83,
+        "end": 116.61,
         "speaker": "Speaker",
         "en": "I really just like the texture of them.",
         "ipa": "/aɪ ˈrɪəli ʤʌst laɪk ðə ˈtɛkstʃər ɒv ðɛm/",
@@ -76764,8 +76607,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 121.59,
-        "end": 129.64,
+        "start": 116.65,
+        "end": 124.7,
         "speaker": "Speaker",
         "en": "I remember I went to a smoothie bar once, and they did this, and that is what inspired me to add them to my own.",
         "ipa": "/aɪ rɪˈmɛmbər aɪ wɛnt tuː ə ˈsmuːði bɑːr wʌns ənd ðeɪ dɪd ðɪs ənd ðæt ɪz wɒt ˈɪnspɑɪəd miː tuː æd ðɛm tuː maɪ oʊn/",
@@ -76780,8 +76623,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 129.68,
-        "end": 131.55,
+        "start": 124.74,
+        "end": 126.61,
         "speaker": "Speaker",
         "en": "So, if I add space, one ice cube.",
         "ipa": "/soʊ, ɪf aɪ æd speɪs, wʌn aɪs kjuːb./",
@@ -76796,8 +76639,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 131.59,
-        "end": 134.14,
+        "start": 126.65,
+        "end": 129.2,
         "speaker": "Speaker",
         "en": "I'm saying one because these are like ginormous ice cubes.",
         "ipa": "/aɪm ˈseɪɪŋ wʌn bɪˈkəz ðiːz ɑːr laɪk dʒaɪˈnɔːrməs aɪs kjuːbz./",
@@ -76812,8 +76655,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 134.18,
-        "end": 138.86,
+        "start": 129.24,
+        "end": 133.92,
         "speaker": "Speaker",
         "en": "And that is everything in my smoothie.",
         "ipa": "/ænd ðæt ɪz ˈevriθɪŋ ɪn maɪ ˈsmuːði./",
@@ -76828,8 +76671,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 138.9,
-        "end": 145.4,
+        "start": 133.96,
+        "end": 140.46,
         "speaker": "Speaker",
         "en": "So, just blend it up.",
         "ipa": "/soʊ, dʒʌst blend ɪt ʌp./",
@@ -76844,8 +76687,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 150.0,
-        "end": 150.54,
+        "start": 145.06,
+        "end": 145.6,
         "speaker": "Speaker",
         "en": "And that's it.",
         "ipa": "/ænd ðæts ɪt./",
@@ -76860,8 +76703,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 150.58,
-        "end": 152.18,
+        "start": 145.64,
+        "end": 147.24,
         "speaker": "Speaker",
         "en": "That's my smoothie recipe, guys.",
         "ipa": "/ðæts maɪ ˈsmuːði ˈresəpi, ɡaɪz./",
@@ -76876,8 +76719,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 152.22,
-        "end": 158.07,
+        "start": 147.28,
+        "end": 153.13,
         "speaker": "Speaker",
         "en": "I really hope one person makes this and tells me just like your honest feedback, because I think it's so good.",
         "ipa": "/aɪ ˈrɪli hoʊp wʌn ˈpɜːrsn meɪks ðɪs ænd telz mi dʒʌst laɪk jɔːr ˈɑːnɪst ˈfiːdbæk, bɪˈkəz aɪ θɪŋk ɪts soʊ ɡʊd./",
@@ -76892,8 +76735,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 158.11,
-        "end": 159.93,
+        "start": 153.17,
+        "end": 154.99,
         "speaker": "Speaker",
         "en": "My boyfriend also really loves this.",
         "ipa": "/maɪ ˈbɔɪfrend ˈɔːlsoʊ ˈrɪli lʌvz ðɪs./",
@@ -76908,8 +76751,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 159.97,
-        "end": 161.76,
+        "start": 155.03,
+        "end": 156.82,
         "speaker": "Speaker",
         "en": "So, sometimes I'll make this for both of us.",
         "ipa": "/soʊ, ˈsʌmtaɪmz aɪl meɪk ðɪs fɔːr boʊθ əv ʌs./",
@@ -76924,8 +76767,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 161.8,
-        "end": 164.07,
+        "start": 156.86,
+        "end": 159.13,
         "speaker": "Speaker",
         "en": "As you can see, this makes like two full servings.",
         "ipa": "/æz ju kæn siː, ðɪs meɪks laɪk tuː fʊl ˈsɜːrvɪŋz./",
@@ -76940,8 +76783,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 164.11,
-        "end": 166.46,
+        "start": 159.17,
+        "end": 161.52,
         "speaker": "Speaker",
         "en": "You can see the little cacao nibs in there.",
         "ipa": "/ju kæn siː ðə ˈlɪtl kəˈkaʊ nɪbz ɪn ðer./",
@@ -76956,8 +76799,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 166.5,
-        "end": 172.72,
+        "start": 161.56,
+        "end": 167.78,
         "speaker": "Speaker",
         "en": "It just feels like I'm like eating something at the same time, and I just feel so satiated after having this, which for me is the biggest thing.",
         "ipa": "/ɪt dʒʌst fiːlz laɪk aɪm laɪk ˈiːtɪŋ ˈsʌmθɪŋ æt ðə seɪm taɪm, ænd aɪ dʒʌst fiːl soʊ ˈseɪʃieɪtɪd ˈæftər ˈhævɪŋ ðɪs, wɪtʃ fɔːr mi ɪz ðə ˈbɪɡɪst θɪŋ./",
@@ -76977,8 +76820,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 172.76,
-        "end": 175.67,
+        "start": 167.82,
+        "end": 170.73,
         "speaker": "Speaker",
         "en": "I don't want to like drink something like this and then be hungry an hour later.",
         "ipa": "/aɪ doʊnt wɑːnt tu laɪk drɪŋk ˈsʌmθɪŋ laɪk ðɪs ænd ðen bi ˈhʌŋɡri ən ˈaʊər ˈleɪtər./",
@@ -76993,8 +76836,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 175.71,
-        "end": 177.88,
+        "start": 170.77,
+        "end": 172.94,
         "speaker": "Speaker",
         "en": "I'm just going to plan for my day on my laptop.",
         "ipa": "/aɪm dʒʌst ˈɡoʊɪŋ tu plæn fɔːr maɪ deɪ ɑːn maɪ ˈlæptɑːp./",
@@ -77009,8 +76852,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 177.92,
-        "end": 180.08,
+        "start": 172.98,
+        "end": 175.14,
         "speaker": "Speaker",
         "en": "I like to do this when I have my smoothie.",
         "ipa": "/aɪ laɪk tu duː ðɪs wen aɪ hæv maɪ ˈsmuːði./",
@@ -77025,8 +76868,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 180.12,
-        "end": 194.53,
+        "start": 175.18,
+        "end": 189.59,
         "speaker": "Speaker",
         "en": "I'm just like write my whole to-do list in the morning cuz I get sort of distracted and I need to know exactly what I need to do for the day.",
         "ipa": "/aɪm dʒʌst laɪk raɪt maɪ hoʊl tu-du lɪst ɪn ðə ˈmɔːrnɪŋ kəz aɪ ɡet sɔːrt əv dɪˈstræktɪd ænd aɪ niːd tu noʊ ɪɡˈzæktli wʌt aɪ niːd tu duː fɔːr ðə deɪ./",
@@ -77046,8 +76889,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 211.88,
-        "end": 215.68,
+        "start": 206.94,
+        "end": 210.74,
         "speaker": "Speaker",
         "en": "I'm back at my favorite coffee shop.",
         "ipa": "/aɪm bæk æt maɪ ˈfeɪvərɪt ˈkɔːfi ʃɑːp./",
@@ -77062,8 +76905,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 215.72,
-        "end": 218.25,
+        "start": 210.78,
+        "end": 213.31,
         "speaker": "Speaker",
         "en": "What's happened is I've built a bit of a rapport here.",
         "ipa": "/wʌts ˈhæpənd ɪz aɪv bɪlt ə bɪt əv ə ræˈpɔːr hɪr./",
@@ -77078,8 +76921,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 218.29,
-        "end": 220.53,
+        "start": 213.35,
+        "end": 215.59,
         "speaker": "Speaker",
         "en": "I have my friends, the baristas.",
         "ipa": "/aɪ hæv maɪ frendz, ðə bəˈriːstəz./",
@@ -77094,8 +76937,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 220.57,
-        "end": 222.33,
+        "start": 215.63,
+        "end": 217.39,
         "speaker": "Speaker",
         "en": "I have my punch card.",
         "ipa": "/aɪ hæv maɪ pʌntʃ kɑːrd./",
@@ -77110,8 +76953,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 222.37,
-        "end": 223.45,
+        "start": 217.43,
+        "end": 218.51,
         "speaker": "Speaker",
         "en": "I'm a loyal member.",
         "ipa": "/aɪm ə ˈlɔɪəl ˈmembər./",
@@ -77126,8 +76969,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 223.49,
-        "end": 224.51,
+        "start": 218.55,
+        "end": 219.57,
         "speaker": "Speaker",
         "en": "I don't mess around.",
         "ipa": "/aɪ doʊnt mes əˈraʊnd./",
@@ -77142,8 +76985,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 224.55,
-        "end": 230.06,
+        "start": 219.61,
+        "end": 225.12,
         "speaker": "Speaker",
         "en": "I like their coffee, so I come here because I like to get out of the house, you guys know, when I work.",
         "ipa": "/aɪ laɪk ðer ˈkɔːfi, soʊ aɪ kʌm hɪr bɪˈkəz aɪ laɪk tu ɡet aʊt əv ðə haʊs, ju ɡaɪz noʊ, wen aɪ wɜːrk./",
@@ -77158,8 +77001,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 230.1,
-        "end": 236.28,
+        "start": 225.16,
+        "end": 231.34,
         "speaker": "Speaker",
         "en": "And I do get a lot of questions of people rightfully asking like, \"What are you even doing when you say that you're like working on your laptop?",
         "ipa": "/ænd aɪ du ɡet ə lɑːt əv ˈkwestʃənz əv ˈpiːpl ˈraɪtfəli ˈæskɪŋ laɪk, \"wʌt ɑːr ju ˈiːvn ˈduːɪŋ wen ju seɪ ðæt juːr laɪk ˈwɜːrkɪŋ ɑːn jɔːr ˈlæptɑːp?/",
@@ -77179,8 +77022,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 236.32,
-        "end": 237.99,
+        "start": 231.38,
+        "end": 233.05,
         "speaker": "Speaker",
         "en": "What does this entail?\" It depends.",
         "ipa": "/wʌt dʌz ðɪs enˈteɪl?\" ɪt dɪˈpendz./",
@@ -77195,8 +77038,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 238.03,
-        "end": 247.76,
+        "start": 233.09,
+        "end": 242.82,
         "speaker": "Speaker",
         "en": "Sometimes I'm editing a YouTube video or I'm working on a campaign for a brand or something, but I also have a jewelry brand, which takes up a lot of my time.",
         "ipa": "/ˈsʌmtaɪmz aɪm ˈedɪtɪŋ ə ˈjuːtuːb ˈvɪdioʊ ɔːr aɪm ˈwɜːrkɪŋ ɑːn ə kæmˈpeɪn fɔːr ə brænd ɔːr ˈsʌmθɪŋ, bʌt aɪ ˈɔːlsoʊ hæv ə ˈdʒuːəlri brænd, wɪtʃ teɪks ʌp ə lɑːt əv maɪ taɪm./",
@@ -77216,8 +77059,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 247.8,
-        "end": 253.99,
+        "start": 242.86,
+        "end": 249.05,
         "speaker": "Speaker",
         "en": "If anyone out there is also a small business owner, you know how much time goes into it, and it's all fun for me.",
         "ipa": "/ɪf ˈeniwʌn aʊt ðer ɪz ˈɔːlsoʊ ə smɔːl ˈbɪznəs ˈoʊnər, ju noʊ haʊ mʌtʃ taɪm ɡoʊz ˈɪntuː ɪt, ænd ɪts ɔːl fʌn fɔːr mi./",
@@ -77232,8 +77075,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 254.03,
-        "end": 256.27,
+        "start": 249.09,
+        "end": 251.33,
         "speaker": "Speaker",
         "en": "Like I doesn't even feel like I'm really working.",
         "ipa": "/laɪk aɪ ˈdʌznt ˈiːvn fiːl laɪk aɪm ˈrɪli ˈwɜːrkɪŋ./",
@@ -77248,8 +77091,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 256.31,
-        "end": 259.52,
+        "start": 251.37,
+        "end": 254.58,
         "speaker": "Speaker",
         "en": "For example, we're having a shoot for our next campaign on Thursday.",
         "ipa": "/fɔːr ɪɡˈzæmpl, wɪr ˈhævɪŋ ə ʃuːt fɔːr ˈaʊər nekst kæmˈpeɪn ɑːn ˈθɜːrzdeɪ./",
@@ -77264,8 +77107,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 259.56,
-        "end": 261.9,
+        "start": 254.62,
+        "end": 256.96,
         "speaker": "Speaker",
         "en": "So, I need to plan that with the photographer.",
         "ipa": "/soʊ, aɪ niːd tu plæn ðæt wɪð ðə fəˈtɑːɡrəfər./",
@@ -77280,8 +77123,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 261.94,
-        "end": 267.12,
+        "start": 257.0,
+        "end": 262.18,
         "speaker": "Speaker",
         "en": "We have the shoot location booked and the model and everything, but there's just like a couple last-minute things that I need to Work on for that.",
         "ipa": "/wi hæv ðə ʃuːt loʊˈkeɪʃn bʊkt ænd ðə ˈmɑːdl ænd ˈevriθɪŋ, bʌt ðerz dʒʌst laɪk ə ˈkʌpl læst-ˈmɪnɪt θɪŋz ðæt aɪ niːd tu ˈwɜrk ɑn fɔr ðæt/",
@@ -77301,8 +77144,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 267.16,
-        "end": 268.5,
+        "start": 262.22,
+        "end": 263.56,
         "speaker": "Speaker",
         "en": "So, that is why I'm here.",
         "ipa": "/soʊ ðæt ɪz waɪ aɪm hɪr/",
@@ -77317,8 +77160,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 268.54,
-        "end": 271.31,
+        "start": 263.6,
+        "end": 266.37,
         "speaker": "Speaker",
         "en": "I usually camp out here for quite a while.",
         "ipa": "/aɪ ˈjuʒəwəli kæmp aʊt hɪr fɔr kwaɪt ə waɪl/",
@@ -77333,8 +77176,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 271.35,
-        "end": 273.18,
+        "start": 266.41,
+        "end": 268.24,
         "speaker": "Speaker",
         "en": "A good 3, 4 hours.",
         "ipa": "/ə gʊd θri, fɔr ˈaʊərz/",
@@ -77349,8 +77192,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 273.22,
-        "end": 285.95,
+        "start": 268.28,
+        "end": 281.01,
         "speaker": "Speaker",
         "en": "My recent coffee order has been pretty much the same, an iced vanilla latte with skim milk, but I try to ask for half of the vanilla, just because I'm trying to slowly wean off sugar a little bit, at least just do my best.",
         "ipa": "/maɪ ˈrisənt ˈkɑfi ˈɔrdər hæz bɪn ˈprɪti mʌtʃ ðə seɪm, ən aɪst vəˈnælə ˈlɑti wɪð skɪm mɪlk, bʌt aɪ traɪ tu æsk fɔr hæf ʌv ðə vəˈnælə, dʒʌst bɪˈkəz aɪm ˈtraɪuŋ tu ˈsloʊli win ɔf ˈʃʊgər ə ˈlɪtəl bɪt, æt list dʒʌst du maɪ bɛst/",
@@ -77370,8 +77213,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 285.99,
-        "end": 287.04,
+        "start": 281.05,
+        "end": 282.1,
         "speaker": "Speaker",
         "en": "I am addicted.",
         "ipa": "/aɪ æm əˈdɪktɪd/",
@@ -77386,8 +77229,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 287.08,
-        "end": 288.97,
+        "start": 282.14,
+        "end": 284.03,
         "speaker": "Speaker",
         "en": "So, yeah, I'm just going to work for a little bit.",
         "ipa": "/soʊ, jæ, aɪm dʒʌst ˈgoʊɪŋ tu wɜrk fɔr ə ˈlɪtəl bɪt/",
@@ -77402,8 +77245,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 289.01,
-        "end": 290.32,
+        "start": 284.07,
+        "end": 285.38,
         "speaker": "Speaker",
         "en": "I might have a little snack.",
         "ipa": "/aɪ maɪt hæv ə ˈlɪtəl snæk/",
@@ -77418,8 +77261,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 290.36,
-        "end": 297.11,
+        "start": 285.42,
+        "end": 292.17,
         "speaker": "Speaker",
         "en": "I brought my Chomps stick.",
         "ipa": "/aɪ brɔt maɪ tʃɑmps stɪk/",
@@ -77434,8 +77277,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 300.48,
-        "end": 301.27,
+        "start": 295.54,
+        "end": 296.33,
         "speaker": "Speaker",
         "en": "I'm back home now.",
         "ipa": "/aɪm bæk hoʊm naʊ/",
@@ -77450,8 +77293,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 301.31,
-        "end": 306.18,
+        "start": 296.37,
+        "end": 301.24,
         "speaker": "Speaker",
         "en": "I ended up shooting a little campaign with my roommate, so that's why I did my makeup if you noticed.",
         "ipa": "/aɪ ˈɛndɪd ʌp ˈʃu-tɪŋ ə ˈlɪtəl kæmˈpeɪn wɪð maɪ ˈrumˌmeɪt, soʊ ðæts waɪ aɪ dɪd maɪ ˈmeɪˌkʌp ɪf ju ˈnoʊtɪst/",
@@ -77466,8 +77309,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 306.22,
-        "end": 308.93,
+        "start": 301.28,
+        "end": 303.99,
         "speaker": "Speaker",
         "en": "One of my friends has a bakery, and she gave this to me.",
         "ipa": "/wʌn ʌv maɪ frɛndz hæz ə ˈbeɪkəri, ænd ʃi geɪv ðɪs tu mi/",
@@ -77482,8 +77325,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 308.97,
-        "end": 310.96,
+        "start": 304.03,
+        "end": 306.02,
         "speaker": "Speaker",
         "en": "There is nothing better than fresh sourdough.",
         "ipa": "/ðɛr ɪz ˈnʌθɪŋ ˈbɛtər ðæn frɛʃ ˈsaʊərˌdoʊ/",
@@ -77498,8 +77341,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 311.0,
-        "end": 312.89,
+        "start": 306.06,
+        "end": 307.95,
         "speaker": "Speaker",
         "en": "Whenever I have a loaf, I just like want to use it up.",
         "ipa": "/wɛnˈɛvər aɪ hæv ə loʊf, aɪ dʒʌst laɪk wɑnt tu juz ɪt ʌp/",
@@ -77514,8 +77357,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 312.93,
-        "end": 315.6,
+        "start": 307.99,
+        "end": 310.66,
         "speaker": "Speaker",
         "en": "By the way, I'm trying to figure out how to make good sourdough.",
         "ipa": "/baɪ ðə weɪ, aɪm ˈtraɪuŋ tu ˈfɪgjər aʊt haʊ tu meɪk gʊd ˈsaʊərˌdoʊ/",
@@ -77530,8 +77373,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 315.64,
-        "end": 318.28,
+        "start": 310.7,
+        "end": 313.34,
         "speaker": "Speaker",
         "en": "So, if you have any um tips, let me know.",
         "ipa": "/soʊ, ɪf ju hæv ˈɛni ʌm tɪps, lɛt mi noʊ/",
@@ -77546,8 +77389,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 318.32,
-        "end": 319.84,
+        "start": 313.38,
+        "end": 314.9,
         "speaker": "Speaker",
         "en": "I don't have a ton of stuff in my fridge.",
         "ipa": "/aɪ doʊnt hæv ə tʌn ʌv stʌf ɪn maɪ frɪdʒ/",
@@ -77562,8 +77405,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 319.88,
-        "end": 326.31,
+        "start": 314.94,
+        "end": 321.37,
         "speaker": "Speaker",
         "en": "I think I need to run to the grocery store, but I have avocado and I have eggs, so I think I'm just going to throw together some avocado toast.",
         "ipa": "/aɪ θɪŋk aɪ nid tu rʌn tu ðə ˈgroʊsəri stɔr, bʌt aɪ hæv ˈævəˌkɑdoʊ ænd aɪ hæv ɛgz, soʊ aɪ θɪŋk aɪm dʒʌst ˈgoʊɪŋ tu θroʊ təˈgɛðər sʌm ˈævəˌkɑdoʊ toʊst/",
@@ -77583,8 +77426,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 326.35,
-        "end": 336.76,
+        "start": 321.41,
+        "end": 331.82,
         "speaker": "Speaker",
         "en": "Pretty simple, but it's going to be amazing because of this bread.",
         "ipa": "/ˈprɪti ˈsɪmpəl, bʌt ɪts ˈgoʊɪŋ tu bi əˈmeɪzɪŋ bɪˈkəz ʌv ðɪs brɛd/",
@@ -77599,8 +77442,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 336.8,
-        "end": 345.83,
+        "start": 331.86,
+        "end": 340.89,
         "speaker": "Speaker",
         "en": "I don't have a toaster for some reason, which poses its inconveniences, but I do have an air fryer.",
         "ipa": "/aɪ doʊnt hæv ə ˈtoʊstər fɔr sʌm ˈrizən, wɪtʃ poʊzɪz ɪts ˌɪnkənˈvinjənsɪz, bʌt aɪ du hæv ən ɛr ˈfraɪər/",
@@ -77615,8 +77458,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 358.0,
-        "end": 361.0,
+        "start": 353.06,
+        "end": 356.06,
         "speaker": "Speaker",
         "en": "I wasn't super hungry, but I did want to have something.",
         "ipa": "/aɪ ˈwʌzənt ˈsupər ˈhʌŋgri, bʌt aɪ dɪd wɑnt tu hæv ˈsʌmθɪŋ/",
@@ -77631,8 +77474,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 361.04,
-        "end": 367.34,
+        "start": 356.1,
+        "end": 362.4,
         "speaker": "Speaker",
         "en": "I do think I have also I'm really making this seem like a science, but I feel like I have perfected my avocado toast.",
         "ipa": "/aɪ du θɪŋk aɪ hæv ˈɔlsoʊ aɪm ˈrɪəli ˈmeɪkɪŋ ðɪs sim laɪk ə ˈsaɪəns, bʌt aɪ fil laɪk aɪ hæv pərˈfɛktɪd maɪ ˈævəˌkɑdoʊ toʊst/",
@@ -77647,8 +77490,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 367.38,
-        "end": 373.68,
+        "start": 362.44,
+        "end": 368.74,
         "speaker": "Speaker",
         "en": "I have had two different people, I'm realizing it's like my friend and my mom, tell me that they love my avocado toast.",
         "ipa": "/aɪ hæv hæd tu ˈdɪfərənt ˈpipəl, aɪm ˈriəˌlaɪzɪŋ ɪts laɪk maɪ frɛnd ænd maɪ mɑm, tɛl mi ðæt ðeɪ lʌv maɪ ˈævəˌkɑdoʊ toʊst/",
@@ -77663,8 +77506,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 373.72,
-        "end": 374.42,
+        "start": 368.78,
+        "end": 369.48,
         "speaker": "Speaker",
         "en": "So, I'll take it.",
         "ipa": "/soʊ, aɪl teɪk ɪt/",
@@ -77679,8 +77522,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 374.46,
-        "end": 375.56,
+        "start": 369.52,
+        "end": 370.62,
         "speaker": "Speaker",
         "en": "I'll take what I can get.",
         "ipa": "/aɪl teɪk wʌt aɪ kæn gɛt/",
@@ -77695,8 +77538,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 375.6,
-        "end": 378.42,
+        "start": 370.66,
+        "end": 373.48,
         "speaker": "Speaker",
         "en": "I did copy the Brandy Melville Cafe on this.",
         "ipa": "/aɪ dɪd ˈkɑpi ðə ˈbrændi mɛlˈvɪl kæˈfeɪ ɑn ðɪs/",
@@ -77711,8 +77554,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 378.46,
-        "end": 380.57,
+        "start": 373.52,
+        "end": 375.63,
         "speaker": "Speaker",
         "en": "They made their avocado toast with honey.",
         "ipa": "/ðeɪ meɪd ðɛr ˈævəˌkɑdoʊ toʊst wɪð ˈhʌni/",
@@ -77727,8 +77570,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 380.61,
-        "end": 386.33,
+        "start": 375.67,
+        "end": 381.39,
         "speaker": "Speaker",
         "en": "That to me was something I'd never thought of, and ever since then, I put honey on my avocado toast.",
         "ipa": "/ðæt tu mi wʌz ˈsʌmθɪŋ aɪd ˈnɛvər θɔt ʌv, ænd ˈɛvər sɪns ðɛn, aɪ pʊt ˈhʌni ɑn maɪ ˈævəˌkɑdoʊ toʊst/",
@@ -77743,8 +77586,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 386.37,
-        "end": 387.65,
+        "start": 381.43,
+        "end": 382.71,
         "speaker": "Speaker",
         "en": "But this time I did hot honey.",
         "ipa": "/bʌt ðɪs taɪm aɪ dɪd hɑt ˈhʌni/",
@@ -77759,8 +77602,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 387.69,
-        "end": 388.56,
+        "start": 382.75,
+        "end": 383.62,
         "speaker": "Speaker",
         "en": "Sometimes I'll do that.",
         "ipa": "/ˈsʌmˌtaɪmz aɪl du ðæt/",
@@ -77775,8 +77618,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 388.6,
-        "end": 389.56,
+        "start": 383.66,
+        "end": 384.62,
         "speaker": "Speaker",
         "en": "It's fun to switch it up.",
         "ipa": "/ɪts fʌn tu swɪtʃ ɪt ʌp/",
@@ -77791,8 +77634,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 389.6,
-        "end": 392.08,
+        "start": 384.66,
+        "end": 387.14,
         "speaker": "Speaker",
         "en": "And of course, you need everything bagel seasoning, too.",
         "ipa": "/ænd ʌv kɔrs, ju nid ˈɛvriˌθɪŋ ˈbeɪgəl ˈsizənɪŋ, tu/",
@@ -77807,8 +77650,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 392.12,
-        "end": 393.2,
+        "start": 387.18,
+        "end": 388.26,
         "speaker": "Speaker",
         "en": "It's kind of it.",
         "ipa": "/ɪts kaɪnd ʌv ɪt/",
@@ -77823,8 +77666,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 393.24,
-        "end": 400.2,
+        "start": 388.3,
+        "end": 395.26,
         "speaker": "Speaker",
         "en": "Anyways, I'm going to head to the gym.",
         "ipa": "/ˈɛniwɛz aɪm ˈɡoʊɪŋ tu hɛd tu ðə dʒɪm/",
@@ -79364,30 +79207,26 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "加拿大",
     "difficulty": 3,
-    "durationSec": 416,
-    "durationLabel": "06:56",
+    "durationSec": 411,
+    "durationLabel": "06:51",
     "date": "2026/09/24",
     "tags": [
       "旅行"
     ],
     "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "旅行",
     "skipRanges": [
       [
-        4.48,
-        8.54
+        160.63,
+        161.54
       ],
       [
-        164.69,
-        165.6
-      ],
-      [
-        415.28,
-        416.0
+        411.22,
+        411.47
       ]
     ],
     "sentences": [
@@ -79425,8 +79264,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 8.54,
-        "end": 11.98,
+        "start": 4.48,
+        "end": 7.92,
         "speaker": "Speaker",
         "en": "Well hey, it's Bob the Canadian here.",
         "ipa": "/wɛl heɪ, ɪts bɑb ðə kəˈneɪdiən hir./",
@@ -79441,8 +79280,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 12.02,
-        "end": 20.07,
+        "start": 7.96,
+        "end": 16.01,
         "speaker": "Speaker",
         "en": "We're going to check into this hotel and I'm going to show you a lot of different parts of this hotel so that you can learn some English.",
         "ipa": "/wɪr ˈɡoʊɪŋ tu tʃɛk ˈɪntu ðɪs hoʊˈtɛl ænd aɪm ˈɡoʊɪŋ tu ʃoʊ ju ə lɑt əv ˈdɪfrənt pɑrts əv ðɪs hoʊˈtɛl soʊ ðæt ju kæn lɜrn sʌm ˈɪŋɡlɪʃ./",
@@ -79457,8 +79296,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 20.11,
-        "end": 27.68,
+        "start": 16.05,
+        "end": 23.62,
         "speaker": "Speaker",
         "en": "We're here today at a hotel in Kitchener, Ontario and we're here because Jen has a conference today, so I said I would come with and I would make a video to help you learn English.",
         "ipa": "/wɪr hir təˈdeɪ æt ə hoʊˈtɛl ɪn ˈkɪtʃənər, ɑˈtɛrioʊ ænd wɪr hir bɪˈkəz dʒɛn hæz ə ˈkɑnfərəns təˈdeɪ, soʊ aɪ sɛd aɪ wʊd kʌm wɪð ænd aɪ wʊd meɪk ə ˈvɪdioʊ tu hɛlp ju lɜrn ˈɪŋɡlɪʃ./",
@@ -79473,8 +79312,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 27.72,
-        "end": 33.2,
+        "start": 23.66,
+        "end": 29.14,
         "speaker": "Speaker",
         "en": "But before we get started, don't forget to click that subscribe button down there and give me a thumbs up at some point during this video.",
         "ipa": "/bʌt bɪˈfɔr wi ɡɛt ˈstɑrtəd, doʊnt fərˈɡɛt tu klɪk ðæt səbˈskraɪb ˈbʌtən daʊn ðɛr ænd ɡɪv mi ə θʌmz ʌp æt sʌm pɔɪnt ˈdʊrɪŋ ðɪs ˈvɪdioʊ./",
@@ -79489,8 +79328,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 33.24,
-        "end": 39.78,
+        "start": 29.18,
+        "end": 35.72,
         "speaker": "Speaker",
         "en": "But I think we should head inside and we should check in.",
         "ipa": "/bʌt aɪ θɪŋk wi ʃʊd hɛd ɪnˈsaɪd ænd wi ʃʊd tʃɛk ɪn./",
@@ -79505,8 +79344,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 39.82,
-        "end": 43.68,
+        "start": 35.76,
+        "end": 39.62,
         "speaker": "Speaker",
         "en": "That's usually the first thing you do when you get to a hotel.",
         "ipa": "/ðæts ˈjuʒəwəli ðə fɜrst θɪŋ ju du wɛn ju ɡɛt tu ə hoʊˈtɛl./",
@@ -79521,8 +79360,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 43.72,
-        "end": 48.13,
+        "start": 39.66,
+        "end": 44.07,
         "speaker": "Speaker",
         "en": "So we're here in the hotel l-, oh, the doors just opened on me.",
         "ipa": "/soʊ wɪr hir ɪn ðə hoʊˈtɛl l-, oʊ, ðə dɔrz dʒʌst ˈoʊpənd ɑn mi./",
@@ -79537,8 +79376,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 48.17,
-        "end": 52.24,
+        "start": 44.11,
+        "end": 48.18,
         "speaker": "Speaker",
         "en": "They're automatic doors, by the way.",
         "ipa": "/ðɛr ˌɔtəˈmætɪk dɔrz, baɪ ðə weɪ./",
@@ -79553,8 +79392,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 52.28,
-        "end": 53.78,
+        "start": 48.22,
+        "end": 49.72,
         "speaker": "Speaker",
         "en": "We're here in the hotel lobby.",
         "ipa": "/wɪr hir ɪn ðə hoʊˈtɛl ˈlɑbi./",
@@ -79569,8 +79408,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 53.82,
-        "end": 55.94,
+        "start": 49.76,
+        "end": 51.88,
         "speaker": "Speaker",
         "en": "That's the front desk where I am going to walk over and check in.",
         "ipa": "/ðæts ðə frʌnt dɛsk wɛr aɪ æm ˈɡoʊɪŋ tu wɔk ˈoʊvər ænd tʃɛk ɪn./",
@@ -79585,8 +79424,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 55.98,
-        "end": 59.26,
+        "start": 51.92,
+        "end": 55.2,
         "speaker": "Speaker",
         "en": "It should go pretty quickly.",
         "ipa": "/ɪt ʃʊd ɡoʊ ˈprɪti ˈkwɪkli./",
@@ -79601,8 +79440,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 59.3,
-        "end": 60.66,
+        "start": 55.24,
+        "end": 56.6,
         "speaker": "Speaker",
         "en": "I already have a reservation.",
         "ipa": "/aɪ ɔlˈrɛdi hæv ə ˌrɛzərˈveɪʃən./",
@@ -79617,8 +79456,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 60.7,
-        "end": 62.74,
+        "start": 56.64,
+        "end": 58.68,
         "speaker": "Speaker",
         "en": "I booked the room online, so as long as I give my name, they should be able to check me in and I should get my keys and be able to head up to my room.",
         "ipa": "/aɪ bʊkt ðə rum ˈɑnˌlaɪn, soʊ æz lɔŋ æz aɪ ɡɪv maɪ neɪm, ðeɪ ʃʊd bi ˈeɪbəl tu tʃɛk mi ɪn ænd aɪ ʃʊd ɡɛt maɪ kiz ænd bi ˈeɪbəl tu hɛd ʌp tu maɪ rum./",
@@ -79633,8 +79472,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 62.78,
-        "end": 68.67,
+        "start": 58.72,
+        "end": 64.61,
         "speaker": "Speaker",
         "en": "So let's head over there.",
         "ipa": "/soʊ lɛts hɛd ˈoʊvər ðɛr./",
@@ -79649,8 +79488,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 68.71,
-        "end": 72.24,
+        "start": 64.65,
+        "end": 68.18,
         "speaker": "Speaker",
         "en": "Hi.",
         "ipa": "/haɪ./",
@@ -79659,8 +79498,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 72.28,
-        "end": 73.49,
+        "start": 68.22,
+        "end": 69.43,
         "speaker": "Speaker",
         "en": "Hi, welcome sir.",
         "ipa": "/haɪ, ˈwɛlkəm sɜr./",
@@ -79675,8 +79514,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 73.53,
-        "end": 74.49,
+        "start": 69.47,
+        "end": 70.43,
         "speaker": "Speaker",
         "en": "How may I help you today?",
         "ipa": "/haʊ meɪ aɪ hɛlp ju təˈdeɪ?/",
@@ -79691,8 +79530,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 74.53,
-        "end": 75.49,
+        "start": 70.47,
+        "end": 71.43,
         "speaker": "Speaker",
         "en": "I have a reservation under Bob the Canadian.",
         "ipa": "/aɪ hæv ə ˌrɛzərˈveɪʃən ˈʌndər bɑb ðə kəˈneɪdiən./",
@@ -79707,8 +79546,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 75.53,
-        "end": 76.49,
+        "start": 71.47,
+        "end": 72.43,
         "speaker": "Speaker",
         "en": "That is great.",
         "ipa": "/ðæt ɪz ɡreɪt./",
@@ -79717,8 +79556,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 76.53,
-        "end": 78.54,
+        "start": 72.47,
+        "end": 74.48,
         "speaker": "Speaker",
         "en": "Very nice to meet you.",
         "ipa": "/ˈvɛri naɪs tu mit ju./",
@@ -79727,8 +79566,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 78.58,
-        "end": 79.54,
+        "start": 74.52,
+        "end": 75.48,
         "speaker": "Speaker",
         "en": "Just need a piece of photo ID and a credit card as well so that I can assure the payment as well.",
         "ipa": "/dʒʌst nid ə pis əv ˈfoʊtoʊ aɪ-di ænd ə ˈkrɛdɪt kɑrd æz wɛl soʊ ðæt aɪ kæn əˈʃʊr ðə ˈpeɪmənt æz wɛl./",
@@ -79743,8 +79582,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 79.58,
-        "end": 80.54,
+        "start": 75.52,
+        "end": 76.48,
         "speaker": "Speaker",
         "en": "Here you go.",
         "ipa": "/hir ju ɡoʊ./",
@@ -79759,8 +79598,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 80.58,
-        "end": 84.3,
+        "start": 76.52,
+        "end": 80.24,
         "speaker": "Speaker",
         "en": "Thank you very much.",
         "ipa": "/θæŋk ju ˈvɛri mʌtʃ./",
@@ -79769,8 +79608,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 84.44,
-        "end": 85.6,
+        "start": 80.38,
+        "end": 81.54,
         "speaker": "Speaker",
         "en": "So Shrey's just checking me in.",
         "ipa": "/soʊ ʃreɪz dʒʌst ˈtʃɛkɪŋ mi ɪn./",
@@ -79785,8 +79624,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 85.64,
-        "end": 87.54,
+        "start": 81.58,
+        "end": 83.48,
         "speaker": "Speaker",
         "en": "I already booked online, so I don't have to do anything more than let him know my name.",
         "ipa": "/aɪ ɔlˈrɛdi bʊkt ˈɑnˌlaɪn, soʊ aɪ doʊnt hæv tu du ˈɛniˌθɪŋ mɔr ðæn lɛt hɪm noʊ maɪ neɪm./",
@@ -79801,8 +79640,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 87.58,
-        "end": 89.25,
+        "start": 83.52,
+        "end": 85.19,
         "speaker": "Speaker",
         "en": "And that should be enough.",
         "ipa": "/ænd ðæt ʃʊd bi ɪˈnʌf./",
@@ -79811,8 +79650,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 89.29,
-        "end": 95.06,
+        "start": 85.23,
+        "end": 91.0,
         "speaker": "Speaker",
         "en": "It looks like he has found my reservation, which is awesome.",
         "ipa": "/ɪt lʊks laɪk hi hæz faʊnd maɪ ˌrɛzərˈveɪʃən, wɪtʃ ɪz ˈɔsəm./",
@@ -79827,8 +79666,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 95.1,
-        "end": 96.17,
+        "start": 91.04,
+        "end": 92.11,
         "speaker": "Speaker",
         "en": "That is totally right, here's your registration card, sir.",
         "ipa": "/ðæt ɪz ˈtoʊtəli raɪt, hirz jɔr ˌrɛdʒɪˈstreɪʃən kɑrd, sɜr./",
@@ -79843,8 +79682,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 96.21,
-        "end": 99.18,
+        "start": 92.15,
+        "end": 95.12,
         "speaker": "Speaker",
         "en": "Just need your signatures at the bottom, initials by our smoking policy.",
         "ipa": "/dʒʌst nid jɔr ˈsɪɡnətʃərz æt ðə ˈbɑtəm, ɪˈnɪʃəlz baɪ ˈaʊər ˈsmoʊkɪŋ ˈpɑləsi./",
@@ -79859,8 +79698,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 99.22,
-        "end": 101.97,
+        "start": 95.16,
+        "end": 97.91,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/oʊˈkeɪ./",
@@ -79869,8 +79708,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 102.01,
-        "end": 104.68,
+        "start": 97.95,
+        "end": 100.62,
         "speaker": "Speaker",
         "en": "Stating that you will not smoke in the room.",
         "ipa": "/ˈsteɪtɪŋ ðæt ju wɪl nɑt smoʊk ɪn ðə rum./",
@@ -79885,8 +79724,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 104.72,
-        "end": 105.68,
+        "start": 100.66,
+        "end": 101.62,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/ˈoʊˈkeɪ/",
@@ -79901,8 +79740,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 105.72,
-        "end": 107.04,
+        "start": 101.66,
+        "end": 102.98,
         "speaker": "Speaker",
         "en": "Stating that you will not smoke in the room.",
         "ipa": "/ˈsteɪtɪŋ ðæt ju wɪl nɑt smoʊk ɪn ðə rum/",
@@ -79917,8 +79756,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 107.08,
-        "end": 107.8,
+        "start": 103.02,
+        "end": 103.74,
         "speaker": "Speaker",
         "en": "Yep.",
         "ipa": "/jɛp/",
@@ -79933,8 +79772,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 107.84,
-        "end": 109.62,
+        "start": 103.78,
+        "end": 105.56,
         "speaker": "Speaker",
         "en": "Email address for our record, and further details.",
         "ipa": "/ˈiˌmeɪl əˈdrɛs fɔr aʊr ˈrɛkərd, ænd ˈfɜrðər ˈditeɪlz/",
@@ -79949,8 +79788,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 109.66,
-        "end": 109.96,
+        "start": 105.6,
+        "end": 105.9,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/ˈoʊˈkeɪ/",
@@ -79965,8 +79804,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 110.0,
-        "end": 111.0,
+        "start": 105.94,
+        "end": 106.94,
         "speaker": "Speaker",
         "en": "I will do that.",
         "ipa": "/aɪ wɪl du ðæt/",
@@ -79981,8 +79820,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 111.04,
-        "end": 111.98,
+        "start": 106.98,
+        "end": 107.92,
         "speaker": "Speaker",
         "en": "I'll get the formalities in here.",
         "ipa": "/aɪl gɛt ðə ˌfɔrmˈælətiz ɪn hɪr/",
@@ -79997,8 +79836,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 112.02,
-        "end": 112.96,
+        "start": 107.96,
+        "end": 108.9,
         "speaker": "Speaker",
         "en": "Okay, thank you very much.",
         "ipa": "/ˈoʊˈkeɪ, θæŋk ju ˈvɛri mʌtʃ/",
@@ -80013,8 +79852,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 113.0,
-        "end": 116.02,
+        "start": 108.94,
+        "end": 111.96,
         "speaker": "Speaker",
         "en": "So I have to fill in just a little bit of information here.",
         "ipa": "/soʊ aɪ hæv tu fɪl ɪn ʤʌst ə ˈlɪtəl bɪt ʌv ˌɪnfərˈmeɪʃən hɪr/",
@@ -80029,8 +79868,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 116.06,
-        "end": 125.66,
+        "start": 112.0,
+        "end": 121.6,
         "speaker": "Speaker",
         "en": "My email address, the license plate of my vehicle so that I can park in the parking lot, and my signature on the bottom.",
         "ipa": "/maɪ ˈiˌmeɪl əˈdrɛs, ðə ˈlaɪsəns pleɪt ʌv maɪ ˈviɪkəl soʊ ðæt aɪ kæn pɑrk ɪn ðə ˈpɑrkɪŋ lɑt, ænd maɪ ˈsɪgnəʧər ɑn ðə ˈbɑtəm/",
@@ -80045,8 +79884,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 125.7,
-        "end": 127.34,
+        "start": 121.64,
+        "end": 123.28,
         "speaker": "Speaker",
         "en": "So I think that's all taken care of.",
         "ipa": "/soʊ aɪ θɪŋk ðæts ɔl ˈteɪkən kɛr ʌv/",
@@ -80061,8 +79900,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 127.38,
-        "end": 128.34,
+        "start": 123.32,
+        "end": 124.28,
         "speaker": "Speaker",
         "en": "There you go.",
         "ipa": "/ðɛr ju goʊ/",
@@ -80077,8 +79916,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 128.38,
-        "end": 129.34,
+        "start": 124.32,
+        "end": 125.28,
         "speaker": "Speaker",
         "en": "It is, it is.",
         "ipa": "/ɪt ɪz, ɪt ɪz/",
@@ -80093,8 +79932,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 129.38,
-        "end": 131.34,
+        "start": 125.32,
+        "end": 127.28,
         "speaker": "Speaker",
         "en": "I was just ask you how many keys you need for your room.",
         "ipa": "/aɪ wəz ʤʌst æsk ju haʊ ˈmɛni kiz ju nid fɔr jʊr rum/",
@@ -80109,8 +79948,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 131.38,
-        "end": 132.34,
+        "start": 127.32,
+        "end": 128.28,
         "speaker": "Speaker",
         "en": "Two, please.",
         "ipa": "/tu, pliz/",
@@ -80125,8 +79964,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 132.38,
-        "end": 132.85,
+        "start": 128.32,
+        "end": 128.79,
         "speaker": "Speaker",
         "en": "Two.",
         "ipa": "/tu/",
@@ -80141,8 +79980,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 132.89,
-        "end": 133.24,
+        "start": 128.83,
+        "end": 129.18,
         "speaker": "Speaker",
         "en": "Oh.",
         "ipa": "/oʊ/",
@@ -80157,8 +79996,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 133.28,
-        "end": 140.41,
+        "start": 129.22,
+        "end": 136.35,
         "speaker": "Speaker",
         "en": "So Shrey is making keys right now, because we don't use old fashioned keys any more in hotels in Canada.",
         "ipa": "/soʊ ʃreɪ ɪz ˈmeɪkɪŋ kiz raɪt naʊ, bɪkəz wi doʊnt juz oʊld ˈfæʃənd kiz ˈɛni mɔr ɪn hoʊˈtɛlz ɪn ˈkænədə/",
@@ -80173,8 +80012,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 140.45,
-        "end": 142.34,
+        "start": 136.39,
+        "end": 138.28,
         "speaker": "Speaker",
         "en": "We actually use key cards.",
         "ipa": "/wi ˈækʧuəli juz ki kɑrdz/",
@@ -80189,8 +80028,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 142.38,
-        "end": 144.55,
+        "start": 138.32,
+        "end": 140.49,
         "speaker": "Speaker",
         "en": "He's making one for me and one for Jen.",
         "ipa": "/hiz ˈmeɪkɪŋ wʌn fɔr mi ænd wʌn fɔr ʤɛn/",
@@ -80205,8 +80044,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 144.59,
-        "end": 147.84,
+        "start": 140.53,
+        "end": 143.78,
         "speaker": "Speaker",
         "en": "So in a moment, I think we'll be all set.",
         "ipa": "/soʊ ɪn ə ˈmoʊmənt, aɪ θɪŋk wil bi ɔl sɛt/",
@@ -80221,8 +80060,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 147.88,
-        "end": 148.84,
+        "start": 143.82,
+        "end": 144.78,
         "speaker": "Speaker",
         "en": "We'll see.",
         "ipa": "/wil si/",
@@ -80237,8 +80076,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 148.88,
-        "end": 149.84,
+        "start": 144.82,
+        "end": 145.78,
         "speaker": "Speaker",
         "en": "All set?",
         "ipa": "/ɔl sɛt/",
@@ -80253,8 +80092,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 149.88,
-        "end": 150.84,
+        "start": 145.82,
+        "end": 146.78,
         "speaker": "Speaker",
         "en": "All set, sir.",
         "ipa": "/ɔl sɛt, sɜr/",
@@ -80269,8 +80108,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 150.88,
-        "end": 151.84,
+        "start": 146.82,
+        "end": 147.78,
         "speaker": "Speaker",
         "en": "So this is your key.",
         "ipa": "/soʊ ðɪs ɪz jʊr ki/",
@@ -80285,8 +80124,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 151.88,
-        "end": 152.48,
+        "start": 147.82,
+        "end": 148.42,
         "speaker": "Speaker",
         "en": "Yep.",
         "ipa": "/jɛp/",
@@ -80301,8 +80140,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 152.52,
-        "end": 153.12,
+        "start": 148.46,
+        "end": 149.06,
         "speaker": "Speaker",
         "en": "It's going to be a room number.",
         "ipa": "/ɪts ˈgoʊɪŋ tu bi ə rum ˈnʌmbər/",
@@ -80317,8 +80156,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 153.26,
-        "end": 154.08,
+        "start": 149.2,
+        "end": 150.02,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/ˈoʊˈkeɪ/",
@@ -80333,8 +80172,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 154.26,
-        "end": 155.84,
+        "start": 150.2,
+        "end": 151.78,
         "speaker": "Speaker",
         "en": "And your wi-fi password is on the top.",
         "ipa": "/ænd jʊr ˈwaɪˌfaɪ ˈpæsˌwɜrd ɪz ɑn ðə tɑp/",
@@ -80349,8 +80188,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 155.88,
-        "end": 156.84,
+        "start": 151.82,
+        "end": 152.78,
         "speaker": "Speaker",
         "en": "Oh, excellent.",
         "ipa": "/oʊ, ˈɛksələnt/",
@@ -80365,8 +80204,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 156.88,
-        "end": 159.16,
+        "start": 152.82,
+        "end": 155.1,
         "speaker": "Speaker",
         "en": "As a repeat visitor, sir, I’m giving you a complimentary breakfast.",
         "ipa": "/æz ə rɪˈpit ˈvɪzɪtər, sɜr, aɪm ˈgɪvɪŋ ju ə ˌkɑmpləˈmɛntəri ˈbrɛkfəst/",
@@ -80386,8 +80225,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 159.2,
-        "end": 160.16,
+        "start": 155.14,
+        "end": 156.1,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/ˈoʊˈkeɪ/",
@@ -80402,8 +80241,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 160.2,
-        "end": 161.69,
+        "start": 156.14,
+        "end": 157.63,
         "speaker": "Speaker",
         "en": "Don't forget to grab the breakfast tomorrow.",
         "ipa": "/doʊnt fərˈgɛt tu græb ðə ˈbrɛkfəst təˈmɑroʊ/",
@@ -80418,8 +80257,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 161.73,
-        "end": 162.27,
+        "start": 157.67,
+        "end": 158.21,
         "speaker": "Speaker",
         "en": "I will.",
         "ipa": "/aɪ wɪl/",
@@ -80434,8 +80273,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 162.31,
-        "end": 162.86,
+        "start": 158.25,
+        "end": 158.8,
         "speaker": "Speaker",
         "en": "Yeah.",
         "ipa": "/jæ/",
@@ -80450,8 +80289,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 162.9,
-        "end": 163.49,
+        "start": 158.84,
+        "end": 159.43,
         "speaker": "Speaker",
         "en": "Thank you very much.",
         "ipa": "/ˈθæŋk ju ˈvɛri ˈmʌtʃ/",
@@ -80466,8 +80305,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 163.53,
-        "end": 164.25,
+        "start": 159.47,
+        "end": 160.19,
         "speaker": "Speaker",
         "en": "Thank you very much, sir.",
         "ipa": "/ˈθæŋk ju ˈvɛri mɑtʃ sɜr/",
@@ -80482,8 +80321,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 164.29,
-        "end": 164.69,
+        "start": 160.23,
+        "end": 160.63,
         "speaker": "Speaker",
         "en": "Thank you.",
         "ipa": "/ˈθæŋk ju/",
@@ -80498,8 +80337,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 165.6,
-        "end": 166.6,
+        "start": 161.54,
+        "end": 162.54,
         "speaker": "Speaker",
         "en": "It's my pleasure.",
         "ipa": "/ɪts maɪ ˈplɛʒər/",
@@ -80514,8 +80353,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 166.74,
-        "end": 168.72,
+        "start": 162.68,
+        "end": 164.66,
         "speaker": "Speaker",
         "en": "Well, I think we're going to head up to our room.",
         "ipa": "/wɛl, aɪ θɪŋk wɪr ˈɡoʊɪŋ tu hɛd ʌp tu aʊər rum/",
@@ -80530,8 +80369,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 168.76,
-        "end": 172.72,
+        "start": 164.7,
+        "end": 168.66,
         "speaker": "Speaker",
         "en": "So we're in room 1012, or room 1012.",
         "ipa": "/soʊ wɪr ɪn rum tɛn ˈtwɛlv, ɔr rum tɛn ˈtwɛlv/",
@@ -80546,8 +80385,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 172.76,
-        "end": 176.98,
+        "start": 168.7,
+        "end": 172.92,
         "speaker": "Speaker",
         "en": "I just hit the button, and the elevator has opened.",
         "ipa": "/aɪ dʒʌst hɪt ðə ˈbʌtən, ænd ði ˈɛləˌveɪtər hæz ˈoʊpənd/",
@@ -80562,8 +80401,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 177.02,
-        "end": 183.96,
+        "start": 172.96,
+        "end": 179.9,
         "speaker": "Speaker",
         "en": "So we're going to head in here and we're going to go to room 10, hopefully you can see that.",
         "ipa": "/soʊ wɪr ˈɡoʊɪŋ tu hɛd ɪn hɪər ænd wɪr ˈɡoʊɪŋ tu ɡoʊ tu rum tɛn, ˈhoʊpfli ju kən si ðæt/",
@@ -80578,8 +80417,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 184.0,
-        "end": 189.2,
+        "start": 179.94,
+        "end": 185.14,
         "speaker": "Speaker",
         "en": "The doors will close, and hopefully we make our way up there.",
         "ipa": "/ðə dɔrz wɪl kloʊz, ænd ˈhoʊpfli wi meɪk aʊər weɪ ʌp ðɛr/",
@@ -80594,8 +80433,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 189.24,
-        "end": 193.0,
+        "start": 185.18,
+        "end": 188.94,
         "speaker": "Speaker",
         "en": "You can see the numbers going pretty quickly.",
         "ipa": "/ju kən si ðə ˈnʌmbərz ˈɡoʊɪŋ ˈprɪti ˈkwɪkli/",
@@ -80610,8 +80449,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 193.04,
-        "end": 204.11,
+        "start": 188.98,
+        "end": 200.05,
         "speaker": "Speaker",
         "en": "Six, seven, eight, by the way, in Canada, we start with the lobby, and then we go to floor two, and then three.",
         "ipa": "/sɪks, ˈsɛvən, eɪt, baɪ ðə weɪ, ɪn ˈkænədə, wi stɑrt wɪð ðə ˈlɑbi, ænd ðɛn wi ɡoʊ tu flɔr tu, ænd ðɛn θri/",
@@ -80631,8 +80470,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 204.15,
-        "end": 209.11,
+        "start": 200.09,
+        "end": 205.05,
         "speaker": "Speaker",
         "en": "I know that if you are in Britain it might be slightly different, I have to check that online.",
         "ipa": "/aɪ noʊ ðæt ɪf ju ɑr ɪn ˈbrɪtən ɪt maɪt bi ˈslaɪtli ˈdɪfrənt, aɪ hæv tu tʃɛk ðæt ˈɑnˌlaɪn/",
@@ -80647,8 +80486,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 209.15,
-        "end": 211.5,
+        "start": 205.09,
+        "end": 207.44,
         "speaker": "Speaker",
         "en": "But here we are at floor 10, let's find our room.",
         "ipa": "/bʌt hɪər wi ɑr æt flɔr tɛn, lɛts faɪnd aʊər rum/",
@@ -80663,8 +80502,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 211.54,
-        "end": 215.68,
+        "start": 207.48,
+        "end": 211.62,
         "speaker": "Speaker",
         "en": "So that's kind of handy because this arrow tells us that room 1012 is that way.",
         "ipa": "/soʊ ðæts kaɪnd ʌv ˈhændi bɪˈkʌz ðɪs ˈæroʊ tɛlz ʌs ðæt rum tɛn ˈtwɛlv ɪz ðæt weɪ/",
@@ -80679,8 +80518,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 215.72,
-        "end": 222.75,
+        "start": 211.66,
+        "end": 218.69,
         "speaker": "Speaker",
         "en": "So let's walk down the hall, and oh, there it is.",
         "ipa": "/soʊ lɛts wɔk daʊn ðə hɔl, ænd oʊ, ðɛr ɪt ɪz/",
@@ -80695,8 +80534,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 222.79,
-        "end": 224.34,
+        "start": 218.73,
+        "end": 220.28,
         "speaker": "Speaker",
         "en": "We have found our room.",
         "ipa": "/wi hæv faʊnd aʊər rum/",
@@ -80711,8 +80550,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 224.38,
-        "end": 230.09,
+        "start": 220.32,
+        "end": 226.03,
         "speaker": "Speaker",
         "en": "So as I mentioned, we use key cards to open the doors in our hotels.",
         "ipa": "/soʊ æz aɪ ˈmɛntʃənd, wi juz ki kɑrdz tu ˈoʊpən ðə dɔrz ɪn aʊər hoʊˈtɛlz/",
@@ -80727,8 +80566,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 230.13,
-        "end": 235.02,
+        "start": 226.07,
+        "end": 230.96,
         "speaker": "Speaker",
         "en": "So this will be called a key card, because it's a key and it's a card.",
         "ipa": "/soʊ ðɪs wɪl bi kɔld ə ki kɑrd, bɪˈkʌz ɪts ə ki ænd ɪts ə kɑrd/",
@@ -80743,8 +80582,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 235.06,
-        "end": 237.22,
+        "start": 231.0,
+        "end": 233.16,
         "speaker": "Speaker",
         "en": "So we'll put it in here.",
         "ipa": "/soʊ wil pʊt ɪt ɪn hɪər/",
@@ -80759,8 +80598,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 237.26,
-        "end": 241.02,
+        "start": 233.2,
+        "end": 236.96,
         "speaker": "Speaker",
         "en": "If you go too fast, sometimes it doesn't work.",
         "ipa": "/ɪf ju ɡoʊ tu fæst, ˈsʌmˌtaɪmz ɪt ˈdʌzənt wɜrk/",
@@ -80775,8 +80614,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 241.06,
-        "end": 243.39,
+        "start": 237.0,
+        "end": 239.33,
         "speaker": "Speaker",
         "en": "But here we are in our hotel room.",
         "ipa": "/bʌt hɪər wi ɑr ɪn aʊər hoʊˈtɛl rum/",
@@ -80791,8 +80630,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 243.43,
-        "end": 244.93,
+        "start": 239.37,
+        "end": 240.87,
         "speaker": "Speaker",
         "en": "Well, we made it.",
         "ipa": "/wɛl, wi meɪd ɪt/",
@@ -80807,8 +80646,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 244.97,
-        "end": 250.9,
+        "start": 240.91,
+        "end": 246.84,
         "speaker": "Speaker",
         "en": "I'm just going to put my suitcase down over here.",
         "ipa": "/aɪm dʒʌst ˈɡoʊɪŋ tu pʊt maɪ ˈsutˌkeɪs daʊn ˈoʊvər hɪər/",
@@ -80823,8 +80662,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 250.94,
-        "end": 253.69,
+        "start": 246.88,
+        "end": 249.63,
         "speaker": "Speaker",
         "en": "There's a nice little spot for my suitcase, and I brought my banana.",
         "ipa": "/ðɛrz ə naɪs ˈlɪtəl spɑt fɔr maɪ ˈsutˌkeɪs, ænd aɪ brɔt maɪ bəˈnænə/",
@@ -80839,8 +80678,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 253.73,
-        "end": 258.59,
+        "start": 249.67,
+        "end": 254.53,
         "speaker": "Speaker",
         "en": "Again, thank you to all of you that live in countries that produce bananas.",
         "ipa": "/əˈɡɛn, θæŋk ju tu ɔl ʌv ju ðæt lɪv ɪn ˈkʌntriz ðæt ˈprɑdus bəˈnænəz/",
@@ -80855,8 +80694,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 258.63,
-        "end": 259.59,
+        "start": 254.57,
+        "end": 255.53,
         "speaker": "Speaker",
         "en": "I love them.",
         "ipa": "/aɪ lʌv ðɛm/",
@@ -80871,8 +80710,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 259.63,
-        "end": 262.36,
+        "start": 255.57,
+        "end": 258.3,
         "speaker": "Speaker",
         "en": "So we came in through the door here.",
         "ipa": "/soʊ wi keɪm ɪn θru ðə dɔr hɪər/",
@@ -80887,8 +80726,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 262.4,
-        "end": 268.68,
+        "start": 258.34,
+        "end": 264.62,
         "speaker": "Speaker",
         "en": "There's a little bit of information here for how to evacuate the building if there was an emergency.",
         "ipa": "/ðɛrz ə ˈlɪtəl bɪt ʌv ˌɪnfərˈmeɪʃən hɪər fɔr haʊ tu ɪˈvækjueɪt ðə ˈbɪldɪŋ ɪf ðɛr wʌz ən ɪˈmɜrdʒənsi/",
@@ -80903,8 +80742,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 268.72,
-        "end": 271.39,
+        "start": 264.66,
+        "end": 267.33,
         "speaker": "Speaker",
         "en": "So on the back of every hotel door, you have that.",
         "ipa": "/soʊ ɑn ðə bæk ʌv ˈɛvri hoʊˈtɛl dɔr, ju hæv ðæt/",
@@ -80919,8 +80758,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 271.43,
-        "end": 276.35,
+        "start": 267.37,
+        "end": 272.29,
         "speaker": "Speaker",
         "en": "A nice mirror, and behind it, a closet.",
         "ipa": "/ə naɪs ˈmɪrər, ænd bɪˈhaɪnd ɪt, ə ˈklɑzət/",
@@ -80935,8 +80774,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 276.39,
-        "end": 279.51,
+        "start": 272.33,
+        "end": 275.45,
         "speaker": "Speaker",
         "en": "This is the bathroom, we'll look at that in a little bit.",
         "ipa": "/ðɪs ɪz ðə ˈbæθrum, wil lʊk æt ðæt ɪn ə ˈlɪtəl bɪt/",
@@ -80951,8 +80790,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 279.55,
-        "end": 284.33,
+        "start": 275.49,
+        "end": 280.27,
         "speaker": "Speaker",
         "en": "But this is the hotel room.",
         "ipa": "/bʌt ðɪs ɪz ðə hoʊˈtɛl rum/",
@@ -80967,8 +80806,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 101,
-        "start": 284.37,
-        "end": 289.05,
+        "start": 280.31,
+        "end": 284.99,
         "speaker": "Speaker",
         "en": "So you can see there's two queen sized beds.",
         "ipa": "/soʊ ju kən si ðɛrz tu kwin-saɪzd bɛdz/",
@@ -80983,8 +80822,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 102,
-        "start": 289.09,
-        "end": 290.45,
+        "start": 285.03,
+        "end": 286.39,
         "speaker": "Speaker",
         "en": "There's a desk with a chair.",
         "ipa": "/ðɛrz ə dɛsk wɪð ə tʃɛr/",
@@ -80999,8 +80838,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 103,
-        "start": 290.49,
-        "end": 297.05,
+        "start": 286.43,
+        "end": 292.99,
         "speaker": "Speaker",
         "en": "It's kind of nice that there's a desk, because I'm going to be editing a movie there later today.",
         "ipa": "/ɪts kaɪnd ʌv naɪs ðæt ðɛrz ə dɛsk, bɪˈkʌz aɪm ˈɡoʊɪŋ tu bi ˈɛdətɪŋ ə ˈmuvi ðɛr ˈleɪtər təˈdeɪ/",
@@ -81015,8 +80854,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 104,
-        "start": 297.09,
-        "end": 298.55,
+        "start": 293.03,
+        "end": 294.49,
         "speaker": "Speaker",
         "en": "A television.",
         "ipa": "/ə ˈtɛləˌvɪʒən./",
@@ -81031,8 +80870,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 105,
-        "start": 298.59,
-        "end": 303.52,
+        "start": 294.53,
+        "end": 299.46,
         "speaker": "Speaker",
         "en": "There's a microwave, and there is a small coffeemaker.",
         "ipa": "/ðɛrz ə ˈmaɪkrowˌweɪv, ænd ðɛr ɪz ə smɔl ˈkɔfiˌmeɪkər./",
@@ -81052,8 +80891,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 106,
-        "start": 303.56,
-        "end": 306.71,
+        "start": 299.5,
+        "end": 302.65,
         "speaker": "Speaker",
         "en": "That will be yummy for tomorrow morning, when I make my decaf coffee.",
         "ipa": "/ðæt wɪl bi ˈjʌmi fɔr təˈmɑˌroʊ ˈmɔrnɪŋ, wɛn aɪ meɪk maɪ ˈdiˌkæf ˈkɔfi./",
@@ -81073,8 +80912,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 107,
-        "start": 306.75,
-        "end": 309.4,
+        "start": 302.69,
+        "end": 305.34,
         "speaker": "Speaker",
         "en": "And down here we have a refrigerator.",
         "ipa": "/ænd daʊn hir wi hæv ə rɪˈfrɪdʒəˌreɪtər./",
@@ -81089,8 +80928,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 108,
-        "start": 309.44,
-        "end": 312.09,
+        "start": 305.38,
+        "end": 308.03,
         "speaker": "Speaker",
         "en": "There's also a dresser.",
         "ipa": "/ðɛrz ˈɔlsoʊ ə ˈdrɛsər./",
@@ -81105,8 +80944,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 109,
-        "start": 312.13,
-        "end": 319.45,
+        "start": 308.07,
+        "end": 315.39,
         "speaker": "Speaker",
         "en": "We usually don't put our clothes in the dresser in a hotel though, we just usually just leave them in our suitcase.",
         "ipa": "/wi ˈjuʒəwəli doʊnt pʊt ˈaʊər kloʊðz ɪn ðə ˈdrɛsər ɪn ə hoʊˈtɛl ðoʊ, wi dʒʌst ˈjuʒəwəli dʒʌst liv ðɛm ɪn ˈaʊər ˈsutˌkeɪs./",
@@ -81126,8 +80965,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 110,
-        "start": 319.49,
-        "end": 322.86,
+        "start": 315.43,
+        "end": 318.8,
         "speaker": "Speaker",
         "en": "The other thing that I want to show you is the view.",
         "ipa": "/ði ˈʌðər θɪŋ ðæt aɪ wɑnt tu ʃoʊ ju ɪz ðə vju./",
@@ -81142,8 +80981,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 111,
-        "start": 322.9,
-        "end": 328.27,
+        "start": 318.84,
+        "end": 324.21,
         "speaker": "Speaker",
         "en": "So if you look behind me here, we are on the 10th floor.",
         "ipa": "/soʊ ɪf ju lʊk bɪˈhaɪnd mi hir, wi ɑr ɑn ðə tɛnθ flɔr./",
@@ -81158,8 +80997,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 112,
-        "start": 328.31,
-        "end": 334.63,
+        "start": 324.25,
+        "end": 330.57,
         "speaker": "Speaker",
         "en": "So you get a pretty nice view of the city of Kitchener, Ontario.",
         "ipa": "/soʊ ju gɛt ə ˈprɪti naɪs vju ʌv ðə ˈsɪti ʌv ˈkɪtʃənər, ɑnˈtɛriˌoʊ./",
@@ -81174,8 +81013,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 113,
-        "start": 334.67,
-        "end": 340.26,
+        "start": 330.61,
+        "end": 336.2,
         "speaker": "Speaker",
         "en": "So sometimes people book certain hotel rooms just because of the view.",
         "ipa": "/soʊ ˈsʌmˌtaɪmz ˈpipəl bʊk ˈsɜrtən hoʊˈtɛl rumz dʒʌst bɪˈkəz ʌv ðə vju./",
@@ -81190,8 +81029,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 114,
-        "start": 340.3,
-        "end": 345.47,
+        "start": 336.24,
+        "end": 341.41,
         "speaker": "Speaker",
         "en": "They're interested in seeing what is outside of their window.",
         "ipa": "/ðɛr ˈɪntrəstəd ɪn ˈsiɪŋ wʌt ɪz ˈaʊtˌsaɪd ʌv ðɛr ˈwɪndoʊ./",
@@ -81206,8 +81045,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 115,
-        "start": 345.51,
-        "end": 352.27,
+        "start": 341.45,
+        "end": 348.21,
         "speaker": "Speaker",
         "en": "So here you can see that we have a pretty nice view of the city of Kitchener, which is nice and cool.",
         "ipa": "/soʊ hir ju kæn si ðæt wi hæv ə ˈprɪti naɪs vju ʌv ðə ˈsɪti ʌv ˈkɪtʃənər, wɪtʃ ɪz naɪs ænd kul./",
@@ -81222,8 +81061,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 116,
-        "start": 352.31,
-        "end": 356.05,
+        "start": 348.25,
+        "end": 351.99,
         "speaker": "Speaker",
         "en": "Again, there is a desk lamp on the desk.",
         "ipa": "/əˈgɛn, ðɛr ɪz ə dɛsk læmp ɑn ðə dɛsk./",
@@ -81238,8 +81077,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 117,
-        "start": 356.09,
-        "end": 365.25,
+        "start": 352.03,
+        "end": 361.19,
         "speaker": "Speaker",
         "en": "They also have little earplugs in case the traffic is too loud outside, or maybe your neighbors in the hotel are too loud.",
         "ipa": "/ðeɪ ˈɔlsoʊ hæv ˈlɪtəl ˈɪrˌplʌgz ɪn keɪs ðə ˈtræfɪk ɪz tu laʊd ˈaʊtˌsaɪd, ɔr ˈmeɪbi ˈjɔr ˈneɪbərz ɪn ðə hoʊˈtɛl ɑr tu laʊd./",
@@ -81259,8 +81098,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 118,
-        "start": 365.29,
-        "end": 368.81,
+        "start": 361.23,
+        "end": 364.75,
         "speaker": "Speaker",
         "en": "You put these in your ear, so that you don't hear them.",
         "ipa": "/ju pʊt ðiz ɪn ˈjɔr ɪr, soʊ ðæt ju doʊnt hir ðɛm./",
@@ -81275,8 +81114,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 119,
-        "start": 368.85,
-        "end": 376.48,
+        "start": 364.79,
+        "end": 372.42,
         "speaker": "Speaker",
         "en": "So anyways, there's a nice alarm clock right here, and there is a phone in case you wanted room service.",
         "ipa": "/soʊ ˈɛniˌweɪz, ðɛrz ə naɪs əˈlɑrm klɑk raɪt hir, ænd ðɛr ɪz ə foʊn ɪn keɪs ju ˈwɑntəd rum ˈsɜrvɪs./",
@@ -81296,8 +81135,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 120,
-        "start": 376.52,
-        "end": 380.88,
+        "start": 372.46,
+        "end": 376.82,
         "speaker": "Speaker",
         "en": "Room service is when you order food from the hotel restaurant.",
         "ipa": "/rum ˈsɜrvɪs ɪz wɛn ju ˈɔrdər fud frʌm ðə hoʊˈtɛl ˈrɛstəˌrɑnt./",
@@ -81312,8 +81151,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 121,
-        "start": 380.92,
-        "end": 385.05,
+        "start": 376.86,
+        "end": 380.99,
         "speaker": "Speaker",
         "en": "Most hotels have a restaurant in the main area downstairs.",
         "ipa": "/moʊst hoʊˈtɛlz hæv ə ˈrɛstəˌrɑnt ɪn ðə meɪn ˈɛriə ˈdaʊnˌstɛrz./",
@@ -81328,8 +81167,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 122,
-        "start": 385.09,
-        "end": 391.15,
+        "start": 381.03,
+        "end": 387.09,
         "speaker": "Speaker",
         "en": "But before you think this is a really fancy room, it's really not.",
         "ipa": "/bʌt bɪˈfɔr ju θɪŋk ðɪs ɪz ə ˈrɪli ˈfænsi rum, ɪts ˈrɪli nɑt./",
@@ -81344,8 +81183,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 123,
-        "start": 391.19,
-        "end": 394.96,
+        "start": 387.13,
+        "end": 390.9,
         "speaker": "Speaker",
         "en": "This is a pretty standard room in Canada.",
         "ipa": "/ðɪs ɪz ə ˈprɪti ˈstændərd rum ɪn ˈkænədə./",
@@ -81360,8 +81199,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 124,
-        "start": 395.0,
-        "end": 398.04,
+        "start": 390.94,
+        "end": 393.98,
         "speaker": "Speaker",
         "en": "Most rooms come with two queen sized beds.",
         "ipa": "/moʊst rumz kʌm wɪð tu kwin saɪzd bɛdz./",
@@ -81376,8 +81215,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 125,
-        "start": 398.08,
-        "end": 401.24,
+        "start": 394.02,
+        "end": 397.18,
         "speaker": "Speaker",
         "en": "And the price of this room, I got a pretty good deal.",
         "ipa": "/ænd ðə praɪs ʌv ðɪs rum, aɪ gɑt ə ˈprɪti gʊd dil./",
@@ -81392,8 +81231,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 126,
-        "start": 401.28,
-        "end": 405.24,
+        "start": 397.22,
+        "end": 401.18,
         "speaker": "Speaker",
         "en": "It was about $120 Canadian per night.",
         "ipa": "/ɪt wʌz əˈbaʊt wʌn ˈhʌndrəd ˈtwɛnti kəˈneɪdiən pər naɪt./",
@@ -81408,8 +81247,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 127,
-        "start": 405.28,
-        "end": 411.84,
+        "start": 401.22,
+        "end": 407.78,
         "speaker": "Speaker",
         "en": "So I know that might sound like a lot of money, but that is about what a hotel room costs in Canada.",
         "ipa": "/soʊ aɪ noʊ ðæt maɪt saʊnd laɪk ə lɑt ʌv ˈmʌni, bʌt ðæt ɪz əˈbaʊt wʌt ə hoʊˈtɛl rum kɑsts ɪn ˈkænədə./",
@@ -81424,8 +81263,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 128,
-        "start": 411.88,
-        "end": 415.28,
+        "start": 407.82,
+        "end": 411.22,
         "speaker": "Speaker",
         "en": "So anyways, welcome to a hotel in Canada.",
         "ipa": "/soʊ ˈɛniˌweɪz, ˈwɛlkəm tu ə hoʊˈtɛl ɪn ˈkænədə./",
@@ -82577,8 +82416,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
-    "durationSec": 217,
-    "durationLabel": "03:37",
+    "durationSec": 205,
+    "durationLabel": "03:25",
     "date": "2026/09/22",
     "tags": [
       "美食",
@@ -82586,8 +82425,8 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
     "skipRanges": [
@@ -82596,36 +82435,32 @@ export const LOCAL_EPISODES = [
         8.65
       ],
       [
-        17.8,
-        29.85
+        46.49,
+        49.83
       ],
       [
-        58.54,
-        61.88
+        55.78,
+        71.67
       ],
       [
-        67.83,
-        83.72
+        77.12,
+        82.95
       ],
       [
-        89.17,
-        95.0
+        113.75,
+        117.48
       ],
       [
-        125.8,
-        129.53
+        132.27,
+        139.88
       ],
       [
-        144.32,
-        151.93
+        143.56,
+        160.52
       ],
       [
-        155.61,
-        172.57
-      ],
-      [
-        180.12,
-        181.92
+        168.07,
+        169.87
       ]
     ],
     "sentences": [
@@ -82663,8 +82498,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 29.85,
-        "end": 35.3,
+        "start": 17.8,
+        "end": 23.25,
         "speaker": "Speaker",
         "en": "Uh, so, now.",
         "ipa": "/ʌ soʊ naʊ/",
@@ -82684,8 +82519,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 35.8,
-        "end": 44.5,
+        "start": 23.75,
+        "end": 32.45,
         "speaker": "Speaker",
         "en": "I'm gonna cook some soybean sprouts, just a little bit, and put it all together.",
         "ipa": "/aɪm ˈɡɑnə kʊk sʌm ˈsɔɪˌbin spraʊts, ʤʌst ə ˈlɪtəl bɪt ænd pʊt ɪt ɔl təˈɡɛðər. nɛkst ʌp, wi həv fɪʃ keɪk/",
@@ -82700,8 +82535,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 44.54,
-        "end": 51.6,
+        "start": 32.49,
+        "end": 39.55,
         "speaker": "Speaker",
         "en": "Next up, we have fish cake, which I just got at the grocery store.",
         "ipa": "/wɪʧ aɪ ʤʌst ɡɑt æt ðə ˈɡroʊsəri stɔr/",
@@ -82721,8 +82556,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 51.64,
-        "end": 58.54,
+        "start": 39.59,
+        "end": 46.49,
         "speaker": "Speaker",
         "en": "Another type of kimchi, this is radish.",
         "ipa": "/əˈnʌðər taɪp ʌv ˈkɪmˌʧi, ðɪs ɪz ˈrædɪʃ/",
@@ -82737,8 +82572,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 61.88,
-        "end": 67.83,
+        "start": 49.83,
+        "end": 55.78,
         "speaker": "Speaker",
         "en": "Bean sprouts go in.",
         "ipa": "/bin spraʊts ɡoʊ ɪn/",
@@ -82753,8 +82588,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 83.72,
-        "end": 89.17,
+        "start": 71.67,
+        "end": 77.12,
         "speaker": "Speaker",
         "en": "I'm so excited.",
         "ipa": "/aɪm soʊ ɪkˈsaɪtɪd/",
@@ -82769,8 +82604,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 95.0,
-        "end": 108.95,
+        "start": 82.95,
+        "end": 96.9,
         "speaker": "Speaker",
         "en": "They're on a Korean drama too, while you're at it, Um, it's quite spicy.",
         "ipa": "/ðɛr ɑn ə kəˈriən ˈdrɑmə tu, waɪl jʊr æt ɪt ʌm ɪts kwaɪt ˈspaɪsi/",
@@ -82790,8 +82625,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 109.45,
-        "end": 125.8,
+        "start": 97.4,
+        "end": 113.75,
         "speaker": "Speaker",
         "en": "All right, today I'm gonna be making garlic pork belly pasta with a little bit of chili.",
         "ipa": "/ɔl raɪt təˈdeɪ aɪm ˈɡɑnə bi ˈmeɪkɪŋ ˈɡɑrlɪk pɔrk ˈbɛli ˈpɑstə wɪð ə ˈlɪtəl bɪt ʌv ˈʧɪli/",
@@ -82806,8 +82641,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 129.53,
-        "end": 133.6,
+        "start": 117.48,
+        "end": 121.55,
         "speaker": "Speaker",
         "en": "I've never made it before, but we're gonna try it out today.",
         "ipa": "/aɪv ˈnɛvər meɪd ɪt bɪˈfɔr, bʌt wɪr ˈɡɑnə traɪ ɪt aʊt təˈdeɪ. aɪ həv ðiːz taɪ ˈʧɪli/",
@@ -82822,8 +82657,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 133.64,
-        "end": 135.78,
+        "start": 121.59,
+        "end": 123.73,
         "speaker": "Speaker",
         "en": "I have these Thai chili peppers.",
         "ipa": "/ˈpɛpərz. aɪ doʊnt noʊ ɪf ðiːz θɪŋz ɑr ˈspaɪsi/",
@@ -82838,8 +82673,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 135.82,
-        "end": 144.32,
+        "start": 123.77,
+        "end": 132.27,
         "speaker": "Speaker",
         "en": "I don't know if these things are spicy, but they look really spicy.",
         "ipa": "/bʌt ðeɪ lʊk ˈrɪli ˈspaɪsi/",
@@ -82854,8 +82689,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 151.93,
-        "end": 155.61,
+        "start": 139.88,
+        "end": 143.56,
         "speaker": "Speaker",
         "en": "Me.",
         "ipa": "/mi/",
@@ -82864,8 +82699,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 172.57,
-        "end": 180.12,
+        "start": 160.52,
+        "end": 168.07,
         "speaker": "Speaker",
         "en": "So, Spicy, and this is dinner.",
         "ipa": "/soʊ ˈspaɪsi, ænd ðɪs ɪz ˈdɪnər. hɪr wi ɡoʊ/",
@@ -82885,8 +82720,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 181.92,
-        "end": 186.08,
+        "start": 169.87,
+        "end": 174.03,
         "speaker": "Speaker",
         "en": "Here we go, taste test!",
         "ipa": "/teɪst tɛst! maɪ maʊθ ɪz ˈwɔtəɹɪŋ/",
@@ -82901,8 +82736,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 186.12,
-        "end": 190.29,
+        "start": 174.07,
+        "end": 178.24,
         "speaker": "Speaker",
         "en": "My mouth is watering.",
         "ipa": "",
@@ -82917,8 +82752,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 190.33,
-        "end": 194.69,
+        "start": 178.28,
+        "end": 182.64,
         "speaker": "Speaker",
         "en": "Hmm.",
         "ipa": "/həm/",
@@ -82927,8 +82762,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 194.73,
-        "end": 199.81,
+        "start": 182.68,
+        "end": 187.76,
         "speaker": "Speaker",
         "en": "Spicy.",
         "ipa": "/ˈspaɪsi/",
@@ -82943,8 +82778,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 199.85,
-        "end": 210.53,
+        "start": 187.8,
+        "end": 198.48,
         "speaker": "Speaker",
         "en": "I should probably incorporate some more greens into my diet.",
         "ipa": "/aɪ ʃʊd ˈprɑbəbli ɪnˈkɔrpəˌreɪt sʌm mɔr ɡrinz ˈɪntu maɪ ˈdaɪət/",
@@ -82964,8 +82799,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 210.57,
-        "end": 214.3,
+        "start": 198.52,
+        "end": 202.25,
         "speaker": "Speaker",
         "en": "Surprisingly, the salad mix goes really well with this.",
         "ipa": "/sərˈpraɪzɪŋli, ðə ˈsæləd mɪks ɡoʊz ˈrɪli wɛl wɪð ðɪs. ɔl raɪt, soʊ ðæt kənˈkludz ðə ˈvɪdioʊ/",
@@ -82980,8 +82815,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 214.34,
-        "end": 217.01,
+        "start": 202.29,
+        "end": 204.96,
         "speaker": "Speaker",
         "en": "All right, so that concludes the video.",
         "ipa": "",
@@ -87517,8 +87352,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
-    "durationSec": 342,
-    "durationLabel": "05:42",
+    "durationSec": 336,
+    "durationLabel": "05:36",
     "date": "2026/09/19",
     "tags": [
       "购物",
@@ -87526,58 +87361,58 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "购物",
     "skipRanges": [
       [
-        7.04,
-        13.12
+        58.56,
+        59.36
       ],
       [
-        64.64,
-        65.44
+        84.8,
+        86.16
       ],
       [
-        90.88,
-        92.24
+        99.28,
+        102.16
       ],
       [
-        105.36,
-        108.24
+        112.88,
+        114.24
       ],
       [
-        118.96,
-        120.32
+        155.04,
+        159.52
       ],
       [
-        161.12,
-        165.6
+        183.6,
+        184.56
       ],
       [
-        189.68,
-        190.64
+        209.28,
+        209.92
       ],
       [
-        215.36,
-        216.0
+        291.92,
+        292.88
       ],
       [
-        298.0,
-        298.96
+        299.04,
+        300.88
       ],
       [
-        305.12,
-        306.96
+        308.08,
+        309.52
       ],
       [
-        314.16,
-        315.6
+        317.76,
+        319.04
       ],
       [
-        323.84,
-        325.12
+        335.47,
+        336.0
       ]
     ],
     "sentences": [
@@ -87631,8 +87466,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 13.12,
-        "end": 15.08,
+        "start": 7.04,
+        "end": 9.0,
         "speaker": "Speaker",
         "en": "Have you ever been grocery shopping?",
         "ipa": "/hæv ju ˈɛvər bɪn ˈɡroʊsəri ˈʃɑːpɪŋ?/",
@@ -87647,8 +87482,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 15.12,
-        "end": 20.15,
+        "start": 9.04,
+        "end": 14.07,
         "speaker": "Speaker",
         "en": "Of course you have, but have you ever been grocery shopping in an American grocery store?",
         "ipa": "/əv kɔːrs ju hæv, bʌt hæv ju ˈɛvər bɪn ˈɡroʊsəri ˈʃɑːpɪŋ ɪn ən əˈmɛrɪkən ˈɡroʊsəri stɔːr?/",
@@ -87663,8 +87498,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 20.19,
-        "end": 28.6,
+        "start": 14.11,
+        "end": 22.52,
         "speaker": "Speaker",
         "en": "Well, today I would like to invite you to join me and my young son, Freddie, as we go into this grocery store and pick up a couple things.",
         "ipa": "/wɛl, təˈdeɪ aɪ wʊd laɪk tu ɪnˈvaɪt ju tu dʒɔɪn mi ænd maɪ jʌŋ sʌn, ˈfrɛdi, æz wi ɡoʊ ˈɪntu ðɪs ˈɡroʊsəri stɔːr ænd pɪk ʌp ə ˈkʌpəl θɪŋz./",
@@ -87679,8 +87514,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 28.64,
-        "end": 30.36,
+        "start": 22.56,
+        "end": 24.28,
         "speaker": "Speaker",
         "en": "I will explain along the way.",
         "ipa": "/aɪ wɪl ɪkˈspleɪn əˈlɔːŋ ðə weɪ./",
@@ -87695,8 +87530,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 30.4,
-        "end": 37.86,
+        "start": 24.32,
+        "end": 31.78,
         "speaker": "Speaker",
         "en": "Hopefully you will learn some useful vocabulary, some expressions, and hopefully I will not be too embarrassed to be filming in public.",
         "ipa": "/ˈhoʊpfəli ju wɪl lɜːrn sʌm ˈjuːsfəl vəˈkæbjəˌlɛri, sʌm ɪkˈsprɛʃənz, ænd ˈhoʊpfəli aɪ wɪl nɑːt bi tuː ɪmˈbærəst tu bi ˈfɪlmɪŋ ɪn ˈpʌblɪk./",
@@ -87711,8 +87546,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 37.9,
-        "end": 43.59,
+        "start": 31.82,
+        "end": 37.51,
         "speaker": "Speaker",
         "en": "And you'll be able to use this in your daily life and learn something about American culture.",
         "ipa": "/ænd juːl bi ˈeɪbəl tu juːz ðɪs ɪn jɔːr ˈdeɪli laɪf ænd lɜːrn ˈsʌmθɪŋ əˈbaʊt əˈmɛrɪkən ˈkʌltʃər./",
@@ -87727,8 +87562,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 43.63,
-        "end": 57.54,
+        "start": 37.55,
+        "end": 51.46,
         "speaker": "Speaker",
         "en": "And like always, I have created a free PDF worksheet that you can download with a link in the description with all of today's phrases, expressions, ideas, and at the bottom of the PDF worksheet, you can answer Vanessa's challenge question.",
         "ipa": "/ænd laɪk ˈɔːlweɪz, aɪ hæv kriˈeɪtɪd ə friː piː-diː-ɛf ˈwɜːrkˌʃiːt ðæt ju kæn ˈdaʊnˌloʊd wɪð ə lɪŋk ɪn ðə dɪˈskrɪpʃən wɪð ɔːl əv təˈdeɪz ˈfreɪzɪz, ɪkˈsprɛʃənz, aɪˈdiːəz, ænd æt ðə ˈbɑːtəm əv ðə piː-diː-ɛf ˈwɜːrkˌʃiːt, ju kæn ˈænsər vəˈnɛsəz ˈtʃælɪndʒ ˈkwɛstʃən./",
@@ -87748,8 +87583,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 57.58,
-        "end": 61.4,
+        "start": 51.5,
+        "end": 55.32,
         "speaker": "Speaker",
         "en": "So don't forget to download that PDF and continue learning.",
         "ipa": "/soʊ doʊnt fərˈɡɛt tu ˈdaʊnˌloʊd ðæt piː-diː-ɛf ænd kənˈtɪnjuː ˈlɜːrnɪŋ./",
@@ -87764,8 +87599,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 61.44,
-        "end": 62.92,
+        "start": 55.36,
+        "end": 56.84,
         "speaker": "Speaker",
         "en": "Never forget what you've learned today.",
         "ipa": "/ˈnɛvər fərˈɡɛt wʌt juːv lɜːrnd təˈdeɪ./",
@@ -87780,8 +87615,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 62.96,
-        "end": 64.64,
+        "start": 56.88,
+        "end": 58.56,
         "speaker": "Speaker",
         "en": "All right, let's go into the grocery store.",
         "ipa": "/ɔːl raɪt, lɛts ɡoʊ ˈɪntu ðə ˈɡroʊsəri stɔːr./",
@@ -87796,8 +87631,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 65.44,
-        "end": 66.16,
+        "start": 59.36,
+        "end": 60.08,
         "speaker": "Speaker",
         "en": "All right.",
         "ipa": "/ɔːl raɪt./",
@@ -87806,8 +87641,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 66.2,
-        "end": 72.05,
+        "start": 60.12,
+        "end": 65.97,
         "speaker": "Speaker",
         "en": "First things first, we are going to go through the parking lot and get a cart.",
         "ipa": "/fɜːrst θɪŋz fɜːrst, wi ɑːr ˈɡoʊɪŋ tu ɡoʊ θruː ðə ˈpɑːrkɪŋ lɑːt ænd ɡɛt ə kɑːrt./",
@@ -87822,8 +87657,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 72.09,
-        "end": 76.08,
+        "start": 66.01,
+        "end": 70.0,
         "speaker": "Speaker",
         "en": "I call this just a cart, but some people call it a shopping cart.",
         "ipa": "/aɪ kɔːl ðɪs dʒʌst ə kɑːrt, bʌt sʌm ˈpiːpəl kɔːl ɪt ə ˈʃɑːpɪŋ kɑːrt./",
@@ -87838,8 +87673,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 76.12,
-        "end": 80.43,
+        "start": 70.04,
+        "end": 74.35,
         "speaker": "Speaker",
         "en": "And here in the south where I live, people call it a buggy.",
         "ipa": "/ænd hɪr ɪn ðə saʊθ wɛr aɪ lɪv, ˈpiːpəl kɔːl ɪt ə ˈbʌɡi./",
@@ -87854,8 +87689,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 80.47,
-        "end": 84.92,
+        "start": 74.39,
+        "end": 78.84,
         "speaker": "Speaker",
         "en": "Our first stop is the free fruit snack for kids.",
         "ipa": "/ˈaʊər fɜːrst stɑːp ɪz ðə friː fruːt snæk fɔːr kɪdz./",
@@ -87870,8 +87705,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 84.96,
-        "end": 90.88,
+        "start": 78.88,
+        "end": 84.8,
         "speaker": "Speaker",
         "en": "This is Freddie's favorite thing to do in the grocery store, so I sure hope they have something for him.",
         "ipa": "/ðɪs ɪz ˈfrɛdiz ˈfeɪvərɪt θɪŋ tu duː ɪn ðə ˈɡroʊsəri stɔːr, soʊ aɪ ʃʊr hoʊp ðeɪ hæv ˈsʌmθɪŋ fɔːr hɪm./",
@@ -87886,8 +87721,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 92.24,
-        "end": 93.35,
+        "start": 86.16,
+        "end": 87.27,
         "speaker": "Speaker",
         "en": "Look at this, Freddie.",
         "ipa": "/lʊk æt ðɪs, ˈfrɛdi./",
@@ -87902,8 +87737,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 93.39,
-        "end": 94.0,
+        "start": 87.31,
+        "end": 87.92,
         "speaker": "Speaker",
         "en": "Freddie: Yeah.",
         "ipa": "/jæ./",
@@ -87918,8 +87753,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 94.04,
-        "end": 95.39,
+        "start": 87.96,
+        "end": 89.31,
         "speaker": "Speaker",
         "en": "Vanessa: You want a banana?",
         "ipa": "/ju wɑːnt ə bəˈnænə?/",
@@ -87939,8 +87774,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 95.43,
-        "end": 96.24,
+        "start": 89.35,
+        "end": 90.16,
         "speaker": "Speaker",
         "en": "Freddie: ‘Nana.",
         "ipa": "/ˈnænə./",
@@ -87955,8 +87790,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 96.28,
-        "end": 97.54,
+        "start": 90.2,
+        "end": 91.46,
         "speaker": "Speaker",
         "en": "Vanessa: Yeah?",
         "ipa": "/jæ?/",
@@ -87971,8 +87806,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 97.58,
-        "end": 98.32,
+        "start": 91.5,
+        "end": 92.24,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/oʊˈkeɪ./",
@@ -87981,8 +87816,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 98.36,
-        "end": 100.81,
+        "start": 92.28,
+        "end": 94.73,
         "speaker": "Speaker",
         "en": "Can you open it?",
         "ipa": "/kæn ju ˈoʊpən ɪt?/",
@@ -87991,8 +87826,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 100.85,
-        "end": 104.7,
+        "start": 94.77,
+        "end": 98.62,
         "speaker": "Speaker",
         "en": "Maybe you need some help.",
         "ipa": "/ˈmeɪbi ju niːd sʌm hɛlp./",
@@ -88007,8 +87842,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 104.74,
-        "end": 105.36,
+        "start": 98.66,
+        "end": 99.28,
         "speaker": "Speaker",
         "en": "Wow.",
         "ipa": "/waʊ./",
@@ -88017,8 +87852,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 108.24,
-        "end": 110.68,
+        "start": 102.16,
+        "end": 104.6,
         "speaker": "Speaker",
         "en": "Hold it down there.",
         "ipa": "/hoʊld ɪt daʊn ðɛr./",
@@ -88033,8 +87868,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 110.72,
-        "end": 111.46,
+        "start": 104.64,
+        "end": 105.38,
         "speaker": "Speaker",
         "en": "Yummy.",
         "ipa": "/ˈjʌmi./",
@@ -88049,8 +87884,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 111.5,
-        "end": 114.06,
+        "start": 105.42,
+        "end": 107.98,
         "speaker": "Speaker",
         "en": "Dan: All right.",
         "ipa": "/ɔːl raɪt./",
@@ -88059,8 +87894,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 114.1,
-        "end": 116.26,
+        "start": 108.02,
+        "end": 110.18,
         "speaker": "Speaker",
         "en": "Vanessa: All right.",
         "ipa": "/ɔːl raɪt./",
@@ -88075,8 +87910,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 116.3,
-        "end": 118.96,
+        "start": 110.22,
+        "end": 112.88,
         "speaker": "Speaker",
         "en": "Let's go get some stuff from the produce section.",
         "ipa": "/lɛts ɡoʊ ɡɛt sʌm stʌf frʌm ðə ˈproʊduːs ˈsɛkʃən./",
@@ -88091,8 +87926,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 120.32,
-        "end": 123.34,
+        "start": 114.24,
+        "end": 117.26,
         "speaker": "Speaker",
         "en": "Notice that I said the word produce section.",
         "ipa": "/ˈnoʊtɪs ðæt aɪ sɛd ðə wɜːrd ˈproʊduːs ˈsɛkʃən./",
@@ -88107,8 +87942,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 123.38,
-        "end": 130.88,
+        "start": 117.3,
+        "end": 124.8,
         "speaker": "Speaker",
         "en": "This just means where you can buy fruits and vegetables, but let's pay attention to the pronunciation of that word produce.",
         "ipa": "/ðɪs dʒʌst minz wɛr ju kæn baɪ fruts ænd ˈvɛdʒtəbəlz, bʌt lɛts peɪ əˈtɛnʃən tu ðə prəˌnʌnsiˈeɪʃən ʌv ðæt wɜrd ˈprɑdus./",
@@ -88123,8 +87958,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 130.92,
-        "end": 134.86,
+        "start": 124.84,
+        "end": 128.78,
         "speaker": "Speaker",
         "en": "The emphasis is at the beginning, produce.",
         "ipa": "/ðə ˈɛmfəsɪs ɪz æt ðə bɪˈɡɪnɪŋ, ˈprɑdus./",
@@ -88139,8 +87974,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 134.9,
-        "end": 140.33,
+        "start": 128.82,
+        "end": 134.25,
         "speaker": "Speaker",
         "en": "There's another word, which is a verb to produce something.",
         "ipa": "/ðɛrz əˈnʌðər wɜrd, wɪtʃ ɪz ə vɜrb tu prəˈdus ˈsʌmθɪŋ./",
@@ -88155,8 +87990,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 140.37,
-        "end": 143.99,
+        "start": 134.29,
+        "end": 137.91,
         "speaker": "Speaker",
         "en": "I produce one YouTube video every week.",
         "ipa": "/aɪ prəˈdus wʌn ˈjutub ˈvɪdioʊ ˈɛvri wik./",
@@ -88171,8 +88006,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 144.03,
-        "end": 147.77,
+        "start": 137.95,
+        "end": 141.69,
         "speaker": "Speaker",
         "en": "Here the emphasis is at the end, produce.",
         "ipa": "/hir ðə ˈɛmfəsɪs ɪz æt ði ɛnd, prəˈdus./",
@@ -88192,8 +88027,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 147.81,
-        "end": 149.5,
+        "start": 141.73,
+        "end": 143.42,
         "speaker": "Speaker",
         "en": "I produce a video.",
         "ipa": "/aɪ prəˈdus ə ˈvɪdioʊ./",
@@ -88208,8 +88043,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 149.54,
-        "end": 153.64,
+        "start": 143.46,
+        "end": 147.56,
         "speaker": "Speaker",
         "en": "This is different than the produce section.",
         "ipa": "/ðɪs ɪz ˈdɪfrənt ðæn ðə ˈprɑdus ˈsɛkʃən./",
@@ -88224,8 +88059,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 153.68,
-        "end": 159.2,
+        "start": 147.6,
+        "end": 153.12,
         "speaker": "Speaker",
         "en": "We're in the produce section right now and let's see what's going to happen next.",
         "ipa": "/wir ɪn ðə ˈprɑdus ˈsɛkʃən raɪt naʊ ænd lɛts si wʌts ˈɡoʊɪŋ tu ˈhæpən nɛkst./",
@@ -88245,8 +88080,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 159.24,
-        "end": 159.81,
+        "start": 153.16,
+        "end": 153.73,
         "speaker": "Speaker",
         "en": "Who knows.",
         "ipa": "/hu noʊz./",
@@ -88261,8 +88096,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 159.85,
-        "end": 161.12,
+        "start": 153.77,
+        "end": 155.04,
         "speaker": "Speaker",
         "en": "It could be anything.",
         "ipa": "/ɪt kʊd bi ˈɛniˌθɪŋ./",
@@ -88271,8 +88106,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 165.6,
-        "end": 168.86,
+        "start": 159.52,
+        "end": 162.78,
         "speaker": "Speaker",
         "en": "Should I get the single ones or should I get the bag?",
         "ipa": "/ʃʊd aɪ ɡɛt ðə ˈsɪŋɡəl wʌnz ɔr ʃʊd aɪ ɡɛt ðə bæɡ?/",
@@ -88287,8 +88122,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 168.9,
-        "end": 170.23,
+        "start": 162.82,
+        "end": 164.15,
         "speaker": "Speaker",
         "en": "Dan: Get a bag.",
         "ipa": "/dæn: ɡɛt ə bæɡ./",
@@ -88297,8 +88132,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 170.27,
-        "end": 171.23,
+        "start": 164.19,
+        "end": 165.15,
         "speaker": "Speaker",
         "en": "We can make the sparkling water.",
         "ipa": "/wi kæn meɪk ðə ˈspɑrklɪŋ ˈwɔtər./",
@@ -88318,8 +88153,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 171.27,
-        "end": 173.04,
+        "start": 165.19,
+        "end": 166.96,
         "speaker": "Speaker",
         "en": "Vanessa: Well, let's see.",
         "ipa": "/vəˈnɛsə: wɛl, lɛts si./",
@@ -88334,8 +88169,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 173.08,
-        "end": 175.57,
+        "start": 167.0,
+        "end": 169.49,
         "speaker": "Speaker",
         "en": "There's 94 cents for this.",
         "ipa": "/ðɛrz ˈnaɪnti-fɔr sɛnts fɔr ðɪs./",
@@ -88350,8 +88185,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 175.61,
-        "end": 179.6,
+        "start": 169.53,
+        "end": 173.52,
         "speaker": "Speaker",
         "en": "And there's 1, 2, 3, 4, 5, 6 in here for $5.",
         "ipa": "/ænd ðɛrz wʌn, tu, θri, fɔr, faɪv, sɪks ɪn hir fɔr faɪv ˈdɑlərz./",
@@ -88360,8 +88195,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 179.64,
-        "end": 182.67,
+        "start": 173.56,
+        "end": 176.59,
         "speaker": "Speaker",
         "en": "It's a better deal, but they're in a bag.",
         "ipa": "/ɪts ə ˈbɛtər dil, bʌt ðɛr ɪn ə bæɡ./",
@@ -88376,8 +88211,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 182.71,
-        "end": 183.8,
+        "start": 176.63,
+        "end": 177.72,
         "speaker": "Speaker",
         "en": "We'll get this.",
         "ipa": "/wil ɡɛt ðɪs./",
@@ -88386,8 +88221,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 183.84,
-        "end": 185.68,
+        "start": 177.76,
+        "end": 179.6,
         "speaker": "Speaker",
         "en": "Dan: What do you think?",
         "ipa": "/dæn: wʌt du ju θɪŋk?/",
@@ -88396,8 +88231,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 185.72,
-        "end": 187.4,
+        "start": 179.64,
+        "end": 181.32,
         "speaker": "Speaker",
         "en": "Should we get lemons?",
         "ipa": "/ʃʊd wi ɡɛt ˈlɛmənz?/",
@@ -88412,8 +88247,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 187.44,
-        "end": 189.68,
+        "start": 181.36,
+        "end": 183.6,
         "speaker": "Speaker",
         "en": "Vanessa: Yeah, let's get some lemons.",
         "ipa": "/vəˈnɛsə: jæ, lɛts ɡɛt sʌm ˈlɛmənz./",
@@ -88433,8 +88268,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 190.64,
-        "end": 193.71,
+        "start": 184.56,
+        "end": 187.63,
         "speaker": "Speaker",
         "en": "When you're buying produce, you have two options.",
         "ipa": "/wɛn jʊr ˈbaɪɪŋ ˈprɑdus, ju hæv tu ˈɑpʃənz./",
@@ -88449,8 +88284,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 193.75,
-        "end": 205.32,
+        "start": 187.67,
+        "end": 199.24,
         "speaker": "Speaker",
         "en": "You can buy loose produce like the broccoli that I bought, or you can buy bagged produce like the lemons that I bought, or here like the potatoes.",
         "ipa": "/ju kæn baɪ lus ˈprɑdus laɪk ðə ˈbrɑkəli ðæt aɪ bɔt, ɔr ju kæn baɪ bæɡd ˈprɑdus laɪk ðə ˈlɛmənz ðæt aɪ bɔt, ɔr hir laɪk ðə pəˈteɪtoʊz./",
@@ -88470,8 +88305,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 205.36,
-        "end": 208.29,
+        "start": 199.28,
+        "end": 202.21,
         "speaker": "Speaker",
         "en": "And really there are so many to choose from.",
         "ipa": "/ænd ˈrɪli ðɛr ɑr soʊ ˈmɛni tu tʃuz frʌm./",
@@ -88486,8 +88321,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 208.33,
-        "end": 212.82,
+        "start": 202.25,
+        "end": 206.74,
         "speaker": "Speaker",
         "en": "It's pretty unbelievable the type of options that we have these days.",
         "ipa": "/ɪts ˈprɪti ˌʌnbiˈlivəbəl ðə taɪp ʌv ˈɑpʃənz ðæt wi hæv ðiz deɪz./",
@@ -88502,8 +88337,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 212.86,
-        "end": 215.36,
+        "start": 206.78,
+        "end": 209.28,
         "speaker": "Speaker",
         "en": "I feel so lucky to have these options.",
         "ipa": "/aɪ fil soʊ ˈlʌki tu hæv ðiz ˈɑpʃənz./",
@@ -88523,8 +88358,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 216.0,
-        "end": 224.75,
+        "start": 209.92,
+        "end": 218.67,
         "speaker": "Speaker",
         "en": "As we go through the bulk section where you can buy items in bulk, you'll see these bananas in a bag that are on sale.",
         "ipa": "/æz wi ɡoʊ θru ðə bʌlk ˈsɛkʃən wɛr ju kæn baɪ ˈaɪtəmz ɪn bʌlk, jul si ðiz bəˈnænəz ɪn ə bæɡ ðæt ɑr ɑn seɪl./",
@@ -88544,8 +88379,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 224.79,
-        "end": 230.2,
+        "start": 218.71,
+        "end": 224.12,
         "speaker": "Speaker",
         "en": "I want you to know the difference between on sale and for sale.",
         "ipa": "/aɪ wɑnt ju tu noʊ ðə ˈdɪfrəns bɪˈtwin ɑn seɪl ænd fɔr seɪl./",
@@ -88560,8 +88395,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 230.24,
-        "end": 234.76,
+        "start": 224.16,
+        "end": 228.68,
         "speaker": "Speaker",
         "en": "These bananas are on sale, that means there's a discount.",
         "ipa": "/ðiz bəˈnænəz ɑr ɑn seɪl, ðæt minz ðɛrz ə ˈdɪskaʊnt./",
@@ -88576,8 +88411,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 234.8,
-        "end": 239.9,
+        "start": 228.72,
+        "end": 233.82,
         "speaker": "Speaker",
         "en": "It's on sale, but really every item in the grocery store is for sale.",
         "ipa": "/ɪts ɑn seɪl, bʌt ˈrɪli ˈɛvri ˈaɪtəm ɪn ðə ˈɡroʊsəri stɔr ɪz fɔr seɪl./",
@@ -88592,8 +88427,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 239.94,
-        "end": 242.38,
+        "start": 233.86,
+        "end": 236.3,
         "speaker": "Speaker",
         "en": "For sale means that you can buy it.",
         "ipa": "/fɔr seɪl minz ðæt ju kæn baɪ ɪt./",
@@ -88608,8 +88443,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 242.42,
-        "end": 244.36,
+        "start": 236.34,
+        "end": 238.28,
         "speaker": "Speaker",
         "en": "There's no special discount.",
         "ipa": "/ðɛrz noʊ ˈspɛʃəl ˈdɪskaʊnt./",
@@ -88629,8 +88464,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 244.4,
-        "end": 246.22,
+        "start": 238.32,
+        "end": 240.14,
         "speaker": "Speaker",
         "en": "There's no special price.",
         "ipa": "/ðɛrz noʊ ˈspɛʃəl praɪs./",
@@ -88650,8 +88485,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 246.26,
-        "end": 247.64,
+        "start": 240.18,
+        "end": 241.56,
         "speaker": "Speaker",
         "en": "It's just for sale.",
         "ipa": "/ɪts dʒʌst fɔr seɪl./",
@@ -88660,8 +88495,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 247.68,
-        "end": 250.02,
+        "start": 241.6,
+        "end": 243.94,
         "speaker": "Speaker",
         "en": "Here we are at the deli counter.",
         "ipa": "/hɪr wi ɑːr æt ðə ˈdɛli ˈkaʊntər/",
@@ -88676,8 +88511,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 250.06,
-        "end": 254.19,
+        "start": 243.98,
+        "end": 248.11,
         "speaker": "Speaker",
         "en": "At the deli counter, you can order freshly sliced lunch meat.",
         "ipa": "/æt ðə ˈdɛli ˈkaʊntər, ju kæn ˈɔrdər ˈfrɛʃli slaɪst lʌntʃ mit/",
@@ -88692,8 +88527,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 254.23,
-        "end": 257.48,
+        "start": 248.15,
+        "end": 251.4,
         "speaker": "Speaker",
         "en": "You might say, \"I'd like half a pound of Turkey, please.\"",
         "ipa": "/ju maɪt seɪ, aɪd laɪk hæf ə paʊnd ʌv ˈtɜrki, pliz/",
@@ -88708,8 +88543,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 257.52,
-        "end": 270.98,
+        "start": 251.44,
+        "end": 264.9,
         "speaker": "Speaker",
         "en": "Or, \"I'd like a pound of cheddar cheese, please.\" We decided to not order anything today because there was only one person working early in the morning and the wait was too long, but that's all right.",
         "ipa": "/ɔr, aɪd laɪk ə paʊnd ʌv ˈtʃɛdər tʃiz, pliz. wi dɪˈsaɪdɪd tu nɑt ˈɔrdər ˈɛniˌθɪŋ təˈdeɪ bɪˈkəz ðɛr wʌz ˈoʊnli wʌn ˈpɜrsən ˈwɜrkɪŋ ˈɜrli ɪn ðə ˈmɔrnɪŋ ænd ðə weɪt wʌz tu lɔŋ, bʌt ðæts ɔl raɪt/",
@@ -88729,8 +88564,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 271.02,
-        "end": 273.72,
+        "start": 264.94,
+        "end": 267.64,
         "speaker": "Speaker",
         "en": "Let's move on to the next thing.",
         "ipa": "/lɛts muv ɑn tu ðə nɛkst θɪŋ/",
@@ -88745,8 +88580,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 273.76,
-        "end": 279.54,
+        "start": 267.68,
+        "end": 273.46,
         "speaker": "Speaker",
         "en": "In the bakery you can get some freshly baked donuts, bread, or cakes.",
         "ipa": "/ɪn ðə ˈbeɪkəri ju kæn gɛt sʌm ˈfrɛʃli beɪkt ˈdoʊnəts, brɛd, ɔr keɪks/",
@@ -88761,8 +88596,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 279.58,
-        "end": 287.36,
+        "start": 273.5,
+        "end": 281.28,
         "speaker": "Speaker",
         "en": "Because Freddie is turning two soon, at the end of March, we've been talking about cakes a lot recently.",
         "ipa": "/bɪˈkəz ˈfrɛdi ɪz ˈtɜrnɪŋ tu sun, æt ði ɛnd ʌv mɑrtʃ, wiv bɪn ˈtɔkɪŋ əˈbaʊt keɪks ə lɑt ˈrisəntli/",
@@ -88777,8 +88612,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 287.4,
-        "end": 291.26,
+        "start": 281.32,
+        "end": 285.18,
         "speaker": "Speaker",
         "en": "He's very excited about getting a birthday cake or cupcakes.",
         "ipa": "/hiz ˈvɛri ɪkˈsaɪtɪd əˈbaʊt ˈgɛtɪŋ ə ˈbɜrθˌdeɪ keɪk ɔr ˈkʌpˌkeɪks/",
@@ -88793,8 +88628,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 291.3,
-        "end": 291.95,
+        "start": 285.22,
+        "end": 285.87,
         "speaker": "Speaker",
         "en": "Let's see.",
         "ipa": "/lɛts si/",
@@ -88809,8 +88644,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 291.99,
-        "end": 294.92,
+        "start": 285.91,
+        "end": 288.84,
         "speaker": "Speaker",
         "en": "What cake would you like for your birthday?",
         "ipa": "/wʌt keɪk wʊd ju laɪk fɔr jʊər ˈbɜrθˌdeɪ/",
@@ -88825,8 +88660,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 294.96,
-        "end": 295.32,
+        "start": 288.88,
+        "end": 289.24,
         "speaker": "Speaker",
         "en": "Freddie: This.",
         "ipa": "/ˈfrɛdi: ðɪs/",
@@ -88841,8 +88676,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 295.36,
-        "end": 296.2,
+        "start": 289.28,
+        "end": 290.12,
         "speaker": "Speaker",
         "en": "Vanessa: This one?",
         "ipa": "/vəˈnɛsə: ðɪs wʌn/",
@@ -88857,8 +88692,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 296.24,
-        "end": 296.76,
+        "start": 290.16,
+        "end": 290.68,
         "speaker": "Speaker",
         "en": "Freddie: Yeah.",
         "ipa": "/ˈfrɛdi: jæ/",
@@ -88873,8 +88708,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 296.8,
-        "end": 298.0,
+        "start": 290.72,
+        "end": 291.92,
         "speaker": "Speaker",
         "en": "Vanessa: This one or this one?",
         "ipa": "/vəˈnɛsə: ðɪs wʌn ɔr ðɪs wʌn/",
@@ -88889,8 +88724,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 298.96,
-        "end": 301.16,
+        "start": 292.88,
+        "end": 295.08,
         "speaker": "Speaker",
         "en": "Freddie: This one.",
         "ipa": "/ˈfrɛdi: ðɪs wʌn/",
@@ -88905,8 +88740,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 301.2,
-        "end": 301.54,
+        "start": 295.12,
+        "end": 295.46,
         "speaker": "Speaker",
         "en": "Vanessa: This one?",
         "ipa": "/vəˈnɛsə: ðɪs wʌn/",
@@ -88921,8 +88756,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 301.58,
-        "end": 301.92,
+        "start": 295.5,
+        "end": 295.84,
         "speaker": "Speaker",
         "en": "Freddie: This one.",
         "ipa": "/ˈfrɛdi: ðɪs wʌn/",
@@ -88937,8 +88772,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 301.96,
-        "end": 302.29,
+        "start": 295.88,
+        "end": 296.21,
         "speaker": "Speaker",
         "en": "Vanessa: This one.",
         "ipa": "/vəˈnɛsə: ðɪs wʌn/",
@@ -88953,8 +88788,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 302.33,
-        "end": 302.58,
+        "start": 296.25,
+        "end": 296.5,
         "speaker": "Speaker",
         "en": "Freddie: Yeah.",
         "ipa": "/ˈfrɛdi: jæ/",
@@ -88969,8 +88804,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 302.62,
-        "end": 303.36,
+        "start": 296.54,
+        "end": 297.28,
         "speaker": "Speaker",
         "en": "Vanessa: This one?",
         "ipa": "/vəˈnɛsə: ðɪs wʌn/",
@@ -88985,8 +88820,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 303.4,
-        "end": 305.12,
+        "start": 297.32,
+        "end": 299.04,
         "speaker": "Speaker",
         "en": "Oh, the one with the cereal all over it?",
         "ipa": "/oʊ, ðə wʌn wɪð ðə ˈsɪriəl ɔl ˈoʊvər ɪt/",
@@ -89001,8 +88836,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 306.96,
-        "end": 308.72,
+        "start": 300.88,
+        "end": 302.64,
         "speaker": "Speaker",
         "en": "That looks exciting.",
         "ipa": "/ðæt lʊks ɪkˈsaɪtɪŋ/",
@@ -89017,8 +88852,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 308.76,
-        "end": 311.88,
+        "start": 302.68,
+        "end": 305.8,
         "speaker": "Speaker",
         "en": "You know what would be really good?",
         "ipa": "/ju noʊ wʌt wʊd bi ˈrɪli gʊd/",
@@ -89033,8 +88868,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 311.92,
-        "end": 312.52,
+        "start": 305.84,
+        "end": 306.44,
         "speaker": "Speaker",
         "en": "Freddie: Yeah.",
         "ipa": "/ˈfrɛdi: jæ/",
@@ -89049,8 +88884,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 312.56,
-        "end": 314.16,
+        "start": 306.48,
+        "end": 308.08,
         "speaker": "Speaker",
         "en": "Vanessa: You get some hummus.",
         "ipa": "/vəˈnɛsə: ju gɛt sʌm ˈhʌməs/",
@@ -89065,8 +88900,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 315.6,
-        "end": 316.6,
+        "start": 309.52,
+        "end": 310.52,
         "speaker": "Speaker",
         "en": "You want some hummus?",
         "ipa": "/ju wɑnt sʌm ˈhʌməs/",
@@ -89081,8 +88916,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 316.64,
-        "end": 317.88,
+        "start": 310.56,
+        "end": 311.8,
         "speaker": "Speaker",
         "en": "That's bell pepper hummus.",
         "ipa": "/ðæts bɛl ˈpɛpər ˈhʌməs/",
@@ -89097,8 +88932,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 317.92,
-        "end": 318.52,
+        "start": 311.84,
+        "end": 312.44,
         "speaker": "Speaker",
         "en": "That's yummy.",
         "ipa": "/ðæts ˈjʌmi/",
@@ -89113,8 +88948,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 318.56,
-        "end": 320.36,
+        "start": 312.48,
+        "end": 314.28,
         "speaker": "Speaker",
         "en": "Dan: Yummus, Freddie.",
         "ipa": "/dæn: ˈjʌməs, ˈfrɛdi/",
@@ -89129,8 +88964,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 320.4,
-        "end": 323.84,
+        "start": 314.32,
+        "end": 317.76,
         "speaker": "Speaker",
         "en": "Vanessa: Thank you.",
         "ipa": "/vəˈnɛsə: θæŋk ju/",
@@ -89145,8 +88980,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 325.12,
-        "end": 336.59,
+        "start": 319.04,
+        "end": 330.51,
         "speaker": "Speaker",
         "en": "In the grocery store, you have the option to get fresh fish or frozen fish, but watch out because usually the fresh fish has been previously frozen.",
         "ipa": "/ɪn ðə ˈgroʊsəri stɔr, ju hæv ði ˈɑpʃən tu gɛt frɛʃ fɪʃ ɔr ˈfroʊzən fɪʃ, bʌt wɑtʃ aʊt bɪˈkəz ˈjuʒuəli ðə frɛʃ fɪʃ hæz bɪn ˈpriviəsli ˈfroʊzən/",
@@ -89166,8 +89001,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 336.63,
-        "end": 341.55,
+        "start": 330.55,
+        "end": 335.47,
         "speaker": "Speaker",
         "en": "You can also get fresh cuts of meat, or you can get pre-packaged meat.",
         "ipa": "/ju kæn ˈɔlsoʊ gɛt frɛʃ kʌts ʌv mit, ɔr ju kæn gɛt pri-ˈpækɪdʒd mit/",
@@ -89190,8 +89025,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "加拿大",
     "difficulty": 3,
-    "durationSec": 465,
-    "durationLabel": "07:45",
+    "durationSec": 454,
+    "durationLabel": "07:34",
     "date": "2026/09/18",
     "tags": [
       "美食",
@@ -89199,57 +89034,53 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.webp",
-    "mediaUrl": "./content/episodes/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.f399.mp4",
-    "audioUrl": "./content/episodes/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.f140.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.f399.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.f399.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        0.0,
-        10.51
+        30.38,
+        31.62
       ],
       [
-        40.89,
-        42.13
+        53.34,
+        55.32
       ],
       [
-        63.85,
-        65.83
+        68.42,
+        69.26
       ],
       [
-        78.93,
-        79.77
+        104.0,
+        106.77
       ],
       [
-        114.51,
-        117.28
+        285.85,
+        286.94
       ],
       [
-        296.36,
-        297.45
+        318.54,
+        320.29
       ],
       [
-        329.05,
-        330.8
+        327.03,
+        328.19
       ],
       [
-        337.54,
-        338.7
+        330.31,
+        331.8
       ],
       [
-        340.82,
-        342.31
-      ],
-      [
-        450.82,
-        465.0
+        440.31,
+        454.12
       ]
     ],
     "sentences": [
       {
         "id": 1,
-        "start": 10.51,
-        "end": 11.97,
+        "start": 0.0,
+        "end": 1.46,
         "speaker": "Speaker",
         "en": "Hi, Bob the Canadian here.",
         "ipa": "/haɪ, bɒb ðə kəˈneɪdiən hɪər./",
@@ -89264,8 +89095,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 12.01,
-        "end": 17.4,
+        "start": 1.5,
+        "end": 6.89,
         "speaker": "Speaker",
         "en": "As you continue to learn English, you want to be able to talk about your daily routine.",
         "ipa": "/æz ju kənˈtɪnjuː tu lɜːrn ˈɪŋɡlɪʃ, ju wɒnt tu bi ˈeɪbl tu tɔːk əˈbaʊt jɔːr ˈdeɪli ruːˈtiːn./",
@@ -89280,8 +89111,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 17.44,
-        "end": 29.5,
+        "start": 6.93,
+        "end": 18.99,
         "speaker": "Speaker",
         "en": "In this English lesson, I will invite you along with me for part of my day so that you can see my daily routine and along the way, you'll be able to learn how to talk about your daily routine.",
         "ipa": "/ɪn ðɪs ˈɪŋɡlɪʃ ˈlɛsən, aɪ wɪl ɪnˈvaɪt ju əˈlɒŋ wɪð mi fɔːr pɑːrt əv maɪ deɪ soʊ ðæt ju kæn siː maɪ ˈdeɪli ruːˈtiːn ænd əˈlɒŋ ðə weɪ, juːl bi ˈeɪbl tu lɜːrn haʊ tu tɔːk əˈbaʊt jɔːr ˈdeɪli ruːˈtiːn./",
@@ -89301,8 +89132,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 29.54,
-        "end": 35.56,
+        "start": 19.03,
+        "end": 25.05,
         "speaker": "Speaker",
         "en": "So in this video, we'll go from the moment I wake up until about the end of my work day.",
         "ipa": "/soʊ ɪn ðɪs ˈvɪdioʊ, wiːl ɡoʊ frɒm ðə ˈmoʊmənt aɪ weɪk ʌp ənˈtɪl əˈbaʊt ði ɛnd əv maɪ wɜːrk deɪ./",
@@ -89317,8 +89148,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 35.6,
-        "end": 40.89,
+        "start": 25.09,
+        "end": 30.38,
         "speaker": "Speaker",
         "en": "This is part one of two videos where you're going to learn to talk about your daily routine.",
         "ipa": "/ðɪs ɪz pɑːrt wʌn əv tuː ˈvɪdioʊz wɛr jʊr ˈɡoʊɪŋ tu lɜːrn tu tɔːk əˈbaʊt jɔːr ˈdeɪli ruːˈtiːn./",
@@ -89333,8 +89164,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 42.13,
-        "end": 53.35,
+        "start": 31.62,
+        "end": 42.84,
         "speaker": "Speaker",
         "en": "The very first thing I do every day is I wake up and then I usually press the snooze button on my alarm clock.",
         "ipa": "/əˈlɑːrm ˈbiːpɪŋ/ ðə ˈvɛri fɜːrst θɪŋ aɪ duː ˈɛvri deɪ ɪz aɪ weɪk ʌp ænd ðɛn aɪ ˈjuːʒuəli prɛs ðə snuːz ˈbʌtən ɒn maɪ əˈlɑːrm klɒk./",
@@ -89354,8 +89185,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 53.39,
-        "end": 62.26,
+        "start": 42.88,
+        "end": 51.75,
         "speaker": "Speaker",
         "en": "When you wake up, it means you go from being asleep to being awake, but when my alarm first goes off, I usually wanna sleep just a little bit more.",
         "ipa": "/wɛn ju weɪk ʌp, ɪt miːnz ju ɡoʊ frɒm ˈbiːɪŋ əˈsliːp tu ˈbiːɪŋ əˈweɪk, bʌt wɛn maɪ əˈlɑːrm fɜːrst ɡoʊz ɔːf, aɪ ˈjuːʒuəli ˈwɒnə sliːp dʒʌst ə ˈlɪtəl bɪt mɔːr./",
@@ -89375,8 +89206,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 62.3,
-        "end": 63.85,
+        "start": 51.79,
+        "end": 53.34,
         "speaker": "Speaker",
         "en": "So I'm gonna do that right now.",
         "ipa": "/soʊ aɪm ˈɡɒnə duː ðæt raɪt naʊ./",
@@ -89391,8 +89222,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 65.83,
-        "end": 71.54,
+        "start": 55.32,
+        "end": 61.03,
         "speaker": "Speaker",
         "en": "So the second thing I do in the morning is I get up.",
         "ipa": "/əˈlɑːrm ˈbiːpɪŋ/ soʊ ðə ˈsɛkənd θɪŋ aɪ duː ɪn ðə ˈmɔːrnɪŋ ɪz aɪ ɡɛt ʌp./",
@@ -89407,8 +89238,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 71.58,
-        "end": 76.46,
+        "start": 61.07,
+        "end": 65.95,
         "speaker": "Speaker",
         "en": "When you get up, it means you actually get out of bed.",
         "ipa": "/wɛn ju ɡɛt ʌp, ɪt miːnz ju ˈæktʃuəli ɡɛt aʊt əv bɛd./",
@@ -89423,8 +89254,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 76.5,
-        "end": 78.93,
+        "start": 65.99,
+        "end": 68.42,
         "speaker": "Speaker",
         "en": "So I think it's time for me to get up.",
         "ipa": "/soʊ aɪ θɪŋk ɪts taɪm fɔːr mi tu ɡɛt ʌp./",
@@ -89439,8 +89270,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 79.77,
-        "end": 84.62,
+        "start": 69.26,
+        "end": 74.11,
         "speaker": "Speaker",
         "en": "The first thing I like to do after I get up is I like to make the bed.",
         "ipa": "/ðə fɜːrst θɪŋ aɪ laɪk tu duː ˈæftər aɪ ɡɛt ʌp ɪz aɪ laɪk tu meɪk ðə bɛd./",
@@ -89455,8 +89286,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 84.66,
-        "end": 87.56,
+        "start": 74.15,
+        "end": 77.05,
         "speaker": "Speaker",
         "en": "It's always nice when you have your bed made.",
         "ipa": "/ɪts ˈɔːlweɪz naɪs wɛn ju hæv jɔːr bɛd meɪd./",
@@ -89471,8 +89302,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 87.6,
-        "end": 93.26,
+        "start": 77.09,
+        "end": 82.75,
         "speaker": "Speaker",
         "en": "So after I get up and after I make the bed, I usually use the bathroom.",
         "ipa": "/soʊ ˈæftər aɪ ɡɛt ʌp ænd ˈæftər aɪ meɪk ðə bɛd, aɪ ˈjuːʒuəli juːz ðə ˈbæθruːm./",
@@ -89487,8 +89318,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 93.3,
-        "end": 98.01,
+        "start": 82.79,
+        "end": 87.5,
         "speaker": "Speaker",
         "en": "This room behind me is our bathroom and in English you can say this a number of ways.",
         "ipa": "/ðɪs ruːm bɪˈhaɪnd mi ɪz ˈaʊər ˈbæθruːm ænd ɪn ˈɪŋɡlɪʃ ju kæn seɪ ðɪs ə ˈnʌmbər əv weɪz./",
@@ -89503,8 +89334,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 98.05,
-        "end": 109.88,
+        "start": 87.54,
+        "end": 99.37,
         "speaker": "Speaker",
         "en": "You can say, \"I use the bathroom,\" you can say, \"I go to the bathroom,\" you can also in Canadian English say, \"I use the washroom,\" or, \"I go to the washroom.\"",
         "ipa": "/ju kæn seɪ, \"aɪ juːz ðə ˈbæθruːm,\" ju kæn seɪ, \"aɪ ɡoʊ tu ðə ˈbæθruːm,\" ju kæn ˈɔːlsoʊ ɪn kəˈneɪdiən ˈɪŋɡlɪʃ seɪ, \"aɪ juːz ðə ˈwɒʃruːm,\" ɔːr, \"aɪ ɡoʊ tu ðə ˈwɒʃruːm.\"/",
@@ -89524,8 +89355,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 109.92,
-        "end": 113.52,
+        "start": 99.41,
+        "end": 103.01,
         "speaker": "Speaker",
         "en": "This is the one part of the lesson though where I'm not taking the camera with me.",
         "ipa": "/ðɪs ɪz ðə wʌn pɑːrt əv ðə ˈlɛsən ðoʊ wɛr aɪm nɒt ˈteɪkɪŋ ðə ˈkæmərə wɪð mi./",
@@ -89540,8 +89371,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 113.56,
-        "end": 114.51,
+        "start": 103.05,
+        "end": 104.0,
         "speaker": "Speaker",
         "en": "I'll be right back.",
         "ipa": "/aɪl bi raɪt bæk./",
@@ -89556,8 +89387,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 117.28,
-        "end": 120.54,
+        "start": 106.77,
+        "end": 110.03,
         "speaker": "Speaker",
         "en": "So the next thing I do every day is make breakfast.",
         "ipa": "/soʊ ðə nɛkst θɪŋ aɪ duː ˈɛvri deɪ ɪz meɪk ˈbrɛkfəst./",
@@ -89572,8 +89403,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 120.58,
-        "end": 132.81,
+        "start": 110.07,
+        "end": 122.3,
         "speaker": "Speaker",
         "en": "I usually fry two eggs in a frying pan, I usually make myself two pieces of toast in the toaster, and I make myself a mug of coffee.",
         "ipa": "/aɪ ˈjuːʒuəli fraɪ tuː ɛɡz ɪn ə ˈfraɪɪŋ pæn, aɪ ˈjuːʒuəli meɪk maɪˈsɛlf tuː ˈpiːsɪz əv toʊst ɪn ðə ˈtoʊstər, ænd aɪ meɪk maɪˈsɛlf ə mʌɡ əv ˈkɒfi./",
@@ -89593,8 +89424,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 132.85,
-        "end": 136.6,
+        "start": 122.34,
+        "end": 126.09,
         "speaker": "Speaker",
         "en": "That is a pretty standard Bob the Canadian breakfast.",
         "ipa": "/ðæt ɪz ə ˈprɪti ˈstændərd bɒb ðə kəˈneɪdiən ˈbrɛkfəst./",
@@ -89609,8 +89440,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 136.64,
-        "end": 139.93,
+        "start": 126.13,
+        "end": 129.42,
         "speaker": "Speaker",
         "en": "So after I make breakfast, I eat breakfast.",
         "ipa": "/soʊ ˈæftər aɪ meɪk ˈbrɛkfəst, aɪ iːt ˈbrɛkfəst./",
@@ -89625,8 +89456,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 139.97,
-        "end": 142.49,
+        "start": 129.46,
+        "end": 131.98,
         "speaker": "Speaker",
         "en": "There's actually two ways to say this, though, in English.",
         "ipa": "/ðɛrz ˈæktʃuəli tuː weɪz tu seɪ ðɪs, ðoʊ, ɪn ˈɪŋɡlɪʃ./",
@@ -89642,8 +89473,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 142.53,
-        "end": 147.32,
+        "start": 132.02,
+        "end": 136.81,
         "speaker": "Speaker",
         "en": "You can say, \"I eat breakfast,\" but you can also say, \"I have breakfast.\"",
         "ipa": "/ju kæn seɪ, \"aɪ iːt ˈbrɛkfəst,\" bʌt ju kæn ˈɔːlsoʊ seɪ, \"aɪ hæv ˈbrɛkfəst.\"/",
@@ -89658,8 +89489,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 147.36,
-        "end": 152.36,
+        "start": 136.85,
+        "end": 141.85,
         "speaker": "Speaker",
         "en": "So I eat my egg on toast and I drink my coffee from my favorite mug.",
         "ipa": "/soʊ aɪ iːt maɪ ɛɡ ɒn toʊst ænd aɪ drɪŋk maɪ ˈkɒfi frɒm maɪ ˈfeɪvərɪt mʌɡ./",
@@ -89674,8 +89505,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 152.4,
-        "end": 156.07,
+        "start": 141.89,
+        "end": 145.56,
         "speaker": "Speaker",
         "en": "This actually says, \"Love the World, Bob the Canadian.\"",
         "ipa": "/ðɪs ˈæktʃuəli sɛz, \"lʌv ðə wɜːrld, bɒb ðə kəˈneɪdiən.\"/",
@@ -89690,8 +89521,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 156.11,
-        "end": 157.94,
+        "start": 145.6,
+        "end": 147.43,
         "speaker": "Speaker",
         "en": "This is from a friend of mine named Miroslav.",
         "ipa": "/ðɪs ɪz frɒm ə frɛnd əv maɪn neɪmd ˈmiːroʊslɑːv./",
@@ -89706,8 +89537,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 157.98,
-        "end": 160.29,
+        "start": 147.47,
+        "end": 149.78,
         "speaker": "Speaker",
         "en": "Thanks again Miroslav for the mug.",
         "ipa": "/θæŋks əˈɡɛn ˈmiːroʊslɑːv fɔːr ðə mʌɡ./",
@@ -89722,8 +89553,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 160.33,
-        "end": 165.33,
+        "start": 149.82,
+        "end": 154.82,
         "speaker": "Speaker",
         "en": "But again, every day I eat breakfast or I have breakfast.",
         "ipa": "/bʌt əˈɡɛn, ˈɛvri deɪ aɪ iːt ˈbrɛkfəst ɔːr aɪ hæv ˈbrɛkfəst./",
@@ -89738,8 +89569,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 165.5,
-        "end": 170.77,
+        "start": 154.99,
+        "end": 160.26,
         "speaker": "Speaker",
         "en": "The next thing I do is I use my computer to check my email and to read the news.",
         "ipa": "/ðə nɛkst θɪŋ aɪ du ɪz aɪ juz maɪ kəmˈpyutər tu tʃɛk maɪ ˈimeɪl ænd tu rid ðə nuz/",
@@ -89759,8 +89590,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 170.81,
-        "end": 175.87,
+        "start": 160.3,
+        "end": 165.36,
         "speaker": "Speaker",
         "en": "I like to check my email every morning and I like to read the news every morning.",
         "ipa": "/aɪ laɪk tu tʃɛk maɪ ˈimeɪl ˈɛvri ˈmɔrnɪŋ ænd aɪ laɪk tu rid ðə nuz ˈɛvri ˈmɔrnɪŋ/",
@@ -89775,8 +89606,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 175.91,
-        "end": 183.52,
+        "start": 165.4,
+        "end": 173.01,
         "speaker": "Speaker",
         "en": "I also spend a little bit of time checking my social media accounts like Facebook and Instagram and TikTok.",
         "ipa": "/aɪ ˈɔlsoʊ spɛnd ə ˈlɪtəl bɪt əv taɪm ˈtʃɛkɪŋ maɪ ˈsoʊʃəl ˈmidiə əˈkaʊnts laɪk ˈfeɪsbʊk ænd ˈɪnstəˌɡræm ænd ˈtɪkˌtɑk/",
@@ -89796,8 +89627,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 183.56,
-        "end": 186.3,
+        "start": 173.05,
+        "end": 175.79,
         "speaker": "Speaker",
         "en": "I probably spend a little bit too much time doing that.",
         "ipa": "/aɪ ˈprɑbəbli spɛnd ə ˈlɪtəl bɪt tu mʌtʃ taɪm ˈduɪŋ ðæt/",
@@ -89812,8 +89643,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 186.34,
-        "end": 192.84,
+        "start": 175.83,
+        "end": 182.33,
         "speaker": "Speaker",
         "en": "So this next part of my day you are not invited to because every day I take a shower.",
         "ipa": "/soʊ ðɪs nɛkst pɑrt əv maɪ deɪ ju ɑr nɑt ɪnˈvaɪtəd tu bɪˈkəz ˈɛvri deɪ aɪ teɪk ə ˈʃaʊər/",
@@ -89828,8 +89659,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 192.88,
-        "end": 195.17,
+        "start": 182.37,
+        "end": 184.66,
         "speaker": "Speaker",
         "en": "There are two ways to say this, though, in English.",
         "ipa": "/ðɛr ɑr tu weɪz tu seɪ ðɪs, ðoʊ, ɪn ˈɪŋɡlɪʃ/",
@@ -89844,8 +89675,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 195.21,
-        "end": 197.82,
+        "start": 184.7,
+        "end": 187.31,
         "speaker": "Speaker",
         "en": "You can say, \"Every day I take a shower.\"",
         "ipa": "/ju kən seɪ, ˈɛvri deɪ aɪ teɪk ə ˈʃaʊər/",
@@ -89860,8 +89691,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 197.86,
-        "end": 201.27,
+        "start": 187.35,
+        "end": 190.76,
         "speaker": "Speaker",
         "en": "You can also say, \"Every day I have a shower.\"",
         "ipa": "/ju kən ˈɔlsoʊ seɪ, ˈɛvri deɪ aɪ hæv ə ˈʃaʊər/",
@@ -89876,8 +89707,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 201.31,
-        "end": 205.56,
+        "start": 190.8,
+        "end": 195.05,
         "speaker": "Speaker",
         "en": "I usually take a shower every day before I go to work.",
         "ipa": "/aɪ ˈjuʒuəli teɪk ə ˈʃaʊər ˈɛvri deɪ bɪˈfɔr aɪ ɡoʊ tu wɜrk/",
@@ -89892,8 +89723,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 205.6,
-        "end": 212.1,
+        "start": 195.09,
+        "end": 201.59,
         "speaker": "Speaker",
         "en": "After my shower, I dry off with a towel and then I put on some deodorant.",
         "ipa": "/ˈæftər maɪ ˈʃaʊər, aɪ draɪ ɔf wɪð ə ˈtaʊəl ænd ðɛn aɪ pʊt ɑn sʌm diˈoʊdərənt/",
@@ -89913,8 +89744,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 212.14,
-        "end": 214.8,
+        "start": 201.63,
+        "end": 204.29,
         "speaker": "Speaker",
         "en": "After that, I get dressed.",
         "ipa": "/ˈæftər ðæt, aɪ ɡɛt drɛst/",
@@ -89929,8 +89760,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 214.84,
-        "end": 221.42,
+        "start": 204.33,
+        "end": 210.91,
         "speaker": "Speaker",
         "en": "I decide what I'm going to wear for the day and then I get dressed and I get ready to go to work.",
         "ipa": "/aɪ dɪˈsaɪd wʌt aɪm ˈɡoʊɪŋ tu wɛr fɔr ðə deɪ ænd ðɛn aɪ ɡɛt drɛst ænd aɪ ɡɛt ˈrɛdi tu ɡoʊ tu wɜrk/",
@@ -89945,8 +89776,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 221.46,
-        "end": 228.78,
+        "start": 210.95,
+        "end": 218.27,
         "speaker": "Speaker",
         "en": "After I get dressed, I go back to the bathroom and if I need to, I will shave, but I don't actually shave every day.",
         "ipa": "/ˈæftər aɪ ɡɛt drɛst, aɪ ɡoʊ bæk tu ðə ˈbæθˌrum ænd ɪf aɪ nid tu, aɪ wɪl ʃeɪv, bʌt aɪ doʊnt ˈæktʃuəli ʃeɪv ˈɛvri deɪ/",
@@ -89966,8 +89797,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 228.82,
-        "end": 231.95,
+        "start": 218.31,
+        "end": 221.44,
         "speaker": "Speaker",
         "en": "But if it's a day where I need to shave, I shave.",
         "ipa": "/bʌt ɪf ɪts ə deɪ wɛr aɪ nid tu ʃeɪv, aɪ ʃeɪv/",
@@ -89982,8 +89813,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 231.99,
-        "end": 237.26,
+        "start": 221.48,
+        "end": 226.75,
         "speaker": "Speaker",
         "en": "After that, I get some toothpaste and my toothbrush and I will brush my teeth.",
         "ipa": "/ˈæftər ðæt, aɪ ɡɛt sʌm ˈtuθˌpeɪst ænd maɪ ˈtuθˌbrʌʃ ænd aɪ wɪl brʌʃ maɪ tiθ/",
@@ -90003,8 +89834,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 237.3,
-        "end": 241.25,
+        "start": 226.79,
+        "end": 230.74,
         "speaker": "Speaker",
         "en": "So the next thing I do is I come back to the kitchen and I make a lunch.",
         "ipa": "/soʊ ðə nɛkst θɪŋ aɪ du ɪz aɪ kʌm bæk tu ðə ˈkɪtʃən ænd aɪ meɪk ə lʌntʃ/",
@@ -90019,8 +89850,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 241.29,
-        "end": 243.52,
+        "start": 230.78,
+        "end": 233.01,
         "speaker": "Speaker",
         "en": "I don't like to buy lunch every day.",
         "ipa": "/aɪ doʊnt laɪk tu baɪ lʌntʃ ˈɛvri deɪ/",
@@ -90035,8 +89866,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 243.56,
-        "end": 245.45,
+        "start": 233.05,
+        "end": 234.94,
         "speaker": "Speaker",
         "en": "I don't like to spend money.",
         "ipa": "/aɪ doʊnt laɪk tu spɛnd ˈmʌni/",
@@ -90051,8 +89882,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 245.49,
-        "end": 250.68,
+        "start": 234.98,
+        "end": 240.17,
         "speaker": "Speaker",
         "en": "So I usually make a sandwich and I grab a banana, and this will be my lunch for today.",
         "ipa": "/soʊ aɪ ˈjuʒuəli meɪk ə ˈsænwɪtʃ ænd aɪ ɡræb ə bəˈnænə, ænd ðɪs wɪl bi maɪ lʌntʃ fɔr təˈdeɪ/",
@@ -90072,8 +89903,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 250.72,
-        "end": 254.48,
+        "start": 240.21,
+        "end": 243.97,
         "speaker": "Speaker",
         "en": "So in English, we would say, \"Every day I make a lunch.\"",
         "ipa": "/soʊ ɪn ˈɪŋɡlɪʃ, wi wʊd seɪ, ˈɛvri deɪ aɪ meɪk ə lʌntʃ/",
@@ -90088,8 +89919,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 254.52,
-        "end": 258.19,
+        "start": 244.01,
+        "end": 247.68,
         "speaker": "Speaker",
         "en": "We can also, though, say, \"Every day I pack a lunch.\"",
         "ipa": "/wi kən ˈɔlsoʊ, ðoʊ, seɪ, ˈɛvri deɪ aɪ pæk ə lʌntʃ/",
@@ -90104,8 +89935,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 258.23,
-        "end": 263.78,
+        "start": 247.72,
+        "end": 253.27,
         "speaker": "Speaker",
         "en": "When you pack a lunch, it means that you put your lunch in a nice lunch bag like this one.",
         "ipa": "/wɛn ju pæk ə lʌntʃ, ɪt minz ðæt ju pʊt jʊr lʌntʃ ɪn ə naɪs lʌntʃ bæɡ laɪk ðɪs wʌn/",
@@ -90125,8 +89956,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 263.82,
-        "end": 268.41,
+        "start": 253.31,
+        "end": 257.9,
         "speaker": "Speaker",
         "en": "So every day I make a lunch, and every day I pack a lunch.",
         "ipa": "/soʊ ˈɛvri deɪ aɪ meɪk ə lʌntʃ, ænd ˈɛvri deɪ aɪ pæk ə lʌntʃ/",
@@ -90146,8 +89977,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 268.45,
-        "end": 271.26,
+        "start": 257.94,
+        "end": 260.75,
         "speaker": "Speaker",
         "en": "The next thing I do every day is I grab my things.",
         "ipa": "/ðə nɛkst θɪŋ aɪ du ˈɛvri deɪ ɪz aɪ ɡræb maɪ θɪŋz/",
@@ -90162,8 +89993,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 271.3,
-        "end": 287.48,
+        "start": 260.79,
+        "end": 276.97,
         "speaker": "Speaker",
         "en": "When I say I grab my things, it means that I grab my keys, I grab my phone, I grab my wallet, I grab my laptop, and I grab the lunch that I made because I'm just about ready to head out the door and go to work.",
         "ipa": "/wɛn aɪ seɪ aɪ ɡræb maɪ θɪŋz, ɪt minz ðæt aɪ ɡræb maɪ kiz, aɪ ɡræb maɪ foʊn, aɪ ɡræb maɪ ˈwɑlɪt, aɪ ɡræb maɪ ˈlæpˌtɑp ænd aɪ ɡræb ðə lʌntʃ ðæt aɪ meɪd bɪˈkəz aɪm dʒʌst əˈbaʊt ˈrɛdi tu hɛd aʊt ðə dɔr ænd ɡoʊ tu wɜrk/",
@@ -90188,8 +90019,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 287.52,
-        "end": 291.32,
+        "start": 277.01,
+        "end": 280.81,
         "speaker": "Speaker",
         "en": "So the next thing I do in my daily routine is I go to work.",
         "ipa": "/soʊ ðə nɛkst θɪŋ aɪ du ɪn maɪ ˈdeɪli ruˈtin ɪz aɪ ɡoʊ tu wɜrk/",
@@ -90209,8 +90040,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 291.36,
-        "end": 296.36,
+        "start": 280.85,
+        "end": 285.85,
         "speaker": "Speaker",
         "en": "Every day at about 7:30 Monday through Friday, I go to work.",
         "ipa": "/ˈɛvri deɪ æt əˈbaʊt ˈsɛvənˈθɜrti ˈmʌndeɪ θru ˈfraɪdeɪ, aɪ ɡoʊ tu wɜrk/",
@@ -90225,8 +90056,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 297.45,
-        "end": 302.46,
+        "start": 286.94,
+        "end": 291.95,
         "speaker": "Speaker",
         "en": "If you were someone who was in school though, you would say, \"I go to school.\"",
         "ipa": "/ɪf ju wɜr ˈsʌmwʌn hu wʌz ɪn skul ðoʊ, ju wʊd seɪ, aɪ ɡoʊ tu skul/",
@@ -90241,8 +90072,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 302.5,
-        "end": 308.05,
+        "start": 291.99,
+        "end": 297.54,
         "speaker": "Speaker",
         "en": "If you are someone who stays home, at this point in your routine you might stay home.",
         "ipa": "/ɪf ju ɑr ˈsʌmwʌn hu steɪz hoʊm, æt ðɪs pɔɪnt ɪn jʊr ruˈtin ju maɪt steɪ hoʊm/",
@@ -90257,8 +90088,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 308.09,
-        "end": 312.03,
+        "start": 297.58,
+        "end": 301.52,
         "speaker": "Speaker",
         "en": "But for me, every day at this time, I go to work.",
         "ipa": "/bʌt fɔr mi, ˈɛvri deɪ æt ðɪs taɪm, aɪ ɡoʊ tu wɜrk/",
@@ -90273,8 +90104,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 312.07,
-        "end": 317.2,
+        "start": 301.56,
+        "end": 306.69,
         "speaker": "Speaker",
         "en": "One of the things I like about my drive to work is that there are no traffic jams, ever.",
         "ipa": "/wʌn əv ðə θɪŋz aɪ laɪk əˈbaʊt maɪ draɪv tu wɜrk ɪz ðæt ðɛr ɑr noʊ ˈtræfɪk dʒæmz, ˈɛvər/",
@@ -90294,8 +90125,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 317.24,
-        "end": 322.35,
+        "start": 306.73,
+        "end": 311.84,
         "speaker": "Speaker",
         "en": "It takes me only 10 minutes to drive from my house to the school that I work at.",
         "ipa": "/ɪt teɪks mi ˈoʊnli tɛn ˈmɪnɪts tu draɪv frʌm maɪ haʊs tu ðə skul ðæt aɪ wɜrk æt/",
@@ -90310,8 +90141,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 322.39,
-        "end": 334.2,
+        "start": 311.88,
+        "end": 323.69,
         "speaker": "Speaker",
         "en": "When I get to work, I take off my jacket and I hang up my jacket, and then I say hi to all the other teachers in the staffroom.",
         "ipa": "/wɛn aɪ ɡɛt tu wɜrk, aɪ teɪk ɔf maɪ ˈdʒækɪt ænd aɪ hæŋ ʌp maɪ ˈdʒækɪt ænd ðɛn aɪ seɪ haɪ tu ɔl ði ˈʌðər ˈtitʃərz ɪn ðə ˈstæfˌrum/",
@@ -90336,8 +90167,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 334.24,
-        "end": 335.83,
+        "start": 323.73,
+        "end": 325.32,
         "speaker": "Speaker",
         "en": "Hi everybody.",
         "ipa": "/haɪ ˈevribɑdi/",
@@ -90352,8 +90183,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 335.87,
-        "end": 336.66,
+        "start": 325.36,
+        "end": 326.15,
         "speaker": "Speaker",
         "en": "Hi.",
         "ipa": "/haɪ/",
@@ -90362,8 +90193,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 336.7,
-        "end": 337.54,
+        "start": 326.19,
+        "end": 327.03,
         "speaker": "Speaker",
         "en": "Hi, Bob.",
         "ipa": "/haɪ bɑb/",
@@ -90372,8 +90203,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 338.7,
-        "end": 340.82,
+        "start": 328.19,
+        "end": 330.31,
         "speaker": "Speaker",
         "en": "I put my lunch in the fridge.",
         "ipa": "/aɪ pʊt maɪ lʌntʃ ɪn ðə frɪdʒ/",
@@ -90388,8 +90219,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 342.31,
-        "end": 353.26,
+        "start": 331.8,
+        "end": 342.75,
         "speaker": "Speaker",
         "en": "I teach my first class of the day, which is grade nine French, this is our textbook, to a lot of students who are usually very interested in learning a new language.",
         "ipa": "/aɪ tiːtʃ maɪ fɜrst klæs əv ðə deɪ, wɪtʃ ɪz ɡreɪd naɪn frɛntʃ, ðɪs ɪz ˈaʊər ˈtekstˌbʊk, tu ə lɑt əv ˈstudənts hu ɑr ˈjuʒəwəli ˈveri ˈɪntrəstəd ɪn ˈlɜrnɪŋ ə nu ˈlæŋɡwɪdʒ/",
@@ -90409,8 +90240,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 353.3,
-        "end": 368.68,
+        "start": 342.79,
+        "end": 358.17,
         "speaker": "Speaker",
         "en": "Every day after teaching my first class, I go to my teacher work area and I grade student work with my red pen and I plan my lessons for my next two classes.",
         "ipa": "/ˈevri deɪ ˈæftər ˈtiːtʃɪŋ maɪ fɜrst klæs, aɪ ɡoʊ tu maɪ ˈtiːtʃər wɜrk ˈeriə ænd aɪ ɡreɪd ˈstudənt wɜrk wɪð maɪ red pɛn ænd aɪ plæn maɪ ˈlesənz fɔr maɪ nekst tu ˈklæsəz/",
@@ -90435,8 +90266,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 368.72,
-        "end": 377.39,
+        "start": 358.21,
+        "end": 366.88,
         "speaker": "Speaker",
         "en": "After that it's lunch time, so I eat my lunch and I talk to the other teachers who are in the staffroom eating their lunch as well.",
         "ipa": "/ˈæftər ðæt ɪts lʌntʃ taɪm, soʊ aɪ iːt maɪ lʌntʃ ænd aɪ tɔk tu ði ˈʌðər ˈtiːtʃərz hu ɑr ɪn ðə ˈstæfˌrum ˈiːtɪŋ ðer lʌntʃ æz wel/",
@@ -90451,8 +90282,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 377.43,
-        "end": 379.88,
+        "start": 366.92,
+        "end": 369.37,
         "speaker": "Speaker",
         "en": "Hey, did you see that hockey game the other night?",
         "ipa": "/heɪ, dɪd ju si ðæt ˈhɑki ɡeɪm ði ˈʌðər naɪt/",
@@ -90467,8 +90298,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 379.92,
-        "end": 384.94,
+        "start": 369.41,
+        "end": 374.43,
         "speaker": "Speaker",
         "en": "I know this doesn't sound very Canadian but I don't actually watch hockey.",
         "ipa": "/aɪ noʊ ðɪs ˈdʌzənt saʊnd ˈveri kəˈneɪdiən bʌt aɪ doʊnt ˈæktʃuəli wɑtʃ ˈhɑki/",
@@ -90483,8 +90314,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 384.98,
-        "end": 389.0,
+        "start": 374.47,
+        "end": 378.49,
         "speaker": "Speaker",
         "en": "After lunch, I teach my next class of the day, which is computer class.",
         "ipa": "/ˈæftər lʌntʃ, aɪ tiːtʃ maɪ nekst klæs əv ðə deɪ, wɪtʃ ɪz kəmˈpjutər klæs/",
@@ -90504,8 +90335,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 389.04,
-        "end": 392.66,
+        "start": 378.53,
+        "end": 382.15,
         "speaker": "Speaker",
         "en": "In computer class, I teach students how to make video games.",
         "ipa": "/ɪn kəmˈpjutər klæs, aɪ tiːtʃ ˈstudənts haʊ tu meɪk ˈvɪdioʊ ɡeɪmz/",
@@ -90520,8 +90351,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 392.7,
-        "end": 395.04,
+        "start": 382.19,
+        "end": 384.53,
         "speaker": "Speaker",
         "en": "It is a really, really fun class.",
         "ipa": "/ɪt ɪz ə ˈrɪli, ˈrɪli fʌn klæs/",
@@ -90536,8 +90367,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 395.08,
-        "end": 399.59,
+        "start": 384.57,
+        "end": 389.08,
         "speaker": "Speaker",
         "en": "And then I teach my last class of the day, which is grade 10 French.",
         "ipa": "/ænd ðɛn aɪ tiːtʃ maɪ læst klæs əv ðə deɪ, wɪtʃ ɪz ɡreɪd tɛn frɛntʃ/",
@@ -90557,8 +90388,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 399.63,
-        "end": 401.15,
+        "start": 389.12,
+        "end": 390.64,
         "speaker": "Speaker",
         "en": "This is our textbook.",
         "ipa": "/ðɪs ɪz ˈaʊər ˈtekstˌbʊk/",
@@ -90573,8 +90404,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 401.19,
-        "end": 407.56,
+        "start": 390.68,
+        "end": 397.05,
         "speaker": "Speaker",
         "en": "And that's pretty much the end of my workday.",
         "ipa": "/ænd ðæts ˈprɪti mʌtʃ ði ɛnd əv maɪ ˈwɜrkˌdeɪ/",
@@ -90589,8 +90420,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 407.6,
-        "end": 414.52,
+        "start": 397.09,
+        "end": 404.01,
         "speaker": "Speaker",
         "en": "I usually put on my jacket at the end of the day and I say bye, bye everybody, to all of my colleagues.",
         "ipa": "/aɪ ˈjuʒəwəli pʊt ɑn maɪ ˈdʒækət æt ði ɛnd əv ðə deɪ ænd aɪ seɪ baɪ, baɪ ˈevribɑdi, tu ɔl əv maɪ ˈkɑliɡz/",
@@ -90605,8 +90436,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 414.56,
-        "end": 417.38,
+        "start": 404.05,
+        "end": 406.87,
         "speaker": "Speaker",
         "en": "Well hey, thanks for coming along with me for part of my day.",
         "ipa": "/wel heɪ, θæŋks fɔr ˈkʌmɪŋ əˈlɔŋ wɪð mi fɔr pɑrt əv maɪ deɪ/",
@@ -90621,8 +90452,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 417.42,
-        "end": 424.0,
+        "start": 406.91,
+        "end": 413.49,
         "speaker": "Speaker",
         "en": "I hope you were able to learn a few more English words and phrases to talk about your daily routine.",
         "ipa": "/aɪ hoʊp ju wɜr ˈeɪbəl tu lɜrn ə fju mɔr ˈɪŋɡlɪʃ wɜrdz ænd ˈfreɪzəz tu tɔk əˈbaʊt jɔr ˈdeɪli ruˈtin/",
@@ -90637,8 +90468,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 424.04,
-        "end": 432.29,
+        "start": 413.53,
+        "end": 421.78,
         "speaker": "Speaker",
         "en": "Don't forget that next week, part two of this video will come out where I will talk some more about the things that I normally do in the evening.",
         "ipa": "/doʊnt fərˈɡet ðæt nekst wik, pɑrt tu əv ðɪs ˈvɪdioʊ wɪl kʌm aʊt wer aɪ wɪl tɔk sʌm mɔr əˈbaʊt ðə θɪŋz ðæt aɪ ˈnɔrməli du ɪn ði ˈivnɪŋ/",
@@ -90663,8 +90494,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 432.33,
-        "end": 439.57,
+        "start": 421.82,
+        "end": 429.06,
         "speaker": "Speaker",
         "en": "But I hope this English lesson helped you learn just a few more English words and phrases to talk about your daily routines.",
         "ipa": "/bʌt aɪ hoʊp ðɪs ˈɪŋɡlɪʃ ˈlesən hɛlpt ju lɜrn dʒʌst ə fju mɔr ˈɪŋɡlɪʃ wɜrdz ænd ˈfreɪzəz tu tɔk əˈbaʊt jɔr ˈdeɪli ruˈtinz/",
@@ -90684,8 +90515,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 439.61,
-        "end": 442.22,
+        "start": 429.1,
+        "end": 431.71,
         "speaker": "Speaker",
         "en": "I'm Bob the Canadian and you're learning English with me.",
         "ipa": "/aɪm bɑb ðə kəˈneɪdiən ænd jɔr ˈlɜrnɪŋ ˈɪŋɡlɪʃ wɪð mi/",
@@ -90705,8 +90536,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 442.26,
-        "end": 448.89,
+        "start": 431.75,
+        "end": 438.38,
         "speaker": "Speaker",
         "en": "Don't forget to subscribe if you are new here and give me a thumbs up if this video helped you learn just a little bit more English.",
         "ipa": "/doʊnt fərˈɡet tu səbˈskraɪb ɪf ju ɑr nu hir ænd ɡɪv mi ə θʌmz ʌp ɪf ðɪs ˈvɪdioʊ hɛlpt ju lɜrn dʒʌst ə ˈlɪtəl bɪt mɔr ˈɪŋɡlɪʃ/",
@@ -90726,8 +90557,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 448.93,
-        "end": 450.82,
+        "start": 438.42,
+        "end": 440.31,
         "speaker": "Speaker",
         "en": "Thanks for watching and have a great day.",
         "ipa": "/θæŋks fɔr ˈwɑtʃɪŋ ænd hæv ə ɡreɪt deɪ/",
@@ -93246,8 +93077,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
-    "durationSec": 704,
-    "durationLabel": "11:44",
+    "durationSec": 691,
+    "durationLabel": "11:31",
     "date": "2026/09/15",
     "tags": [
       "个人成长",
@@ -93255,113 +93086,109 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED.webp",
-    "mediaUrl": "./content/episodes/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED.f399-sr.mp4",
-    "audioUrl": "./content/episodes/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED.f140.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED.f399-sr.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED.f399-sr.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "个人成长",
     "skipRanges": [
       [
-        0.0,
-        12.83
+        102.4,
+        103.33
       ],
       [
-        115.23,
-        116.16
+        170.9,
+        171.97
       ],
       [
-        183.73,
-        184.8
+        324.6,
+        325.37
       ],
       [
-        337.43,
-        338.2
+        339.3,
+        340.03
       ],
       [
-        352.13,
-        352.86
+        343.73,
+        344.4
       ],
       [
-        356.56,
-        357.23
+        348.93,
+        350.33
       ],
       [
-        361.76,
-        363.16
+        390.23,
+        390.9
       ],
       [
-        403.06,
-        403.73
+        432.7,
+        433.23
       ],
       [
-        445.53,
-        446.06
+        436.97,
+        437.97
       ],
       [
-        449.8,
-        450.8
+        453.17,
+        453.8
       ],
       [
-        466.0,
-        466.63
+        457.5,
+        458.43
       ],
       [
-        470.33,
-        471.26
+        481.6,
+        482.3
       ],
       [
-        494.43,
-        495.13
+        493.6,
+        495.73
       ],
       [
-        506.43,
-        508.56
+        496.97,
+        498.6
       ],
       [
-        509.8,
-        511.43
+        511.73,
+        512.8
       ],
       [
-        524.56,
-        525.63
+        528.5,
+        529.03
       ],
       [
-        541.33,
-        541.86
+        563.53,
+        564.1
       ],
       [
-        576.36,
-        576.93
+        566.03,
+        566.63
       ],
       [
-        578.86,
-        579.46
+        614.73,
+        616.13
       ],
       [
-        627.56,
-        628.96
+        647.93,
+        648.53
       ],
       [
-        660.76,
-        661.36
+        651.43,
+        651.97
       ],
       [
-        664.26,
-        664.8
+        670.6,
+        671.2
       ],
       [
-        683.43,
-        684.03
-      ],
-      [
-        685.2,
-        704.14
+        672.37,
+        691.31
       ]
     ],
     "sentences": [
       {
         "id": 1,
-        "start": 12.83,
-        "end": 17.49,
+        "start": 0.0,
+        "end": 4.66,
         "speaker": "Speaker",
         "en": "All right, I want to see a show of hands: how many of you have unfriended someone on Facebook?",
         "ipa": "/ɔl raɪt, aɪ wɑnt tu si ə ʃoʊ əv hændz: haʊ mɛni əv ju hæv ˌʌnˈfrɛndɪd ˈsʌmwʌn ɑn ˈfeɪsˌbʊk?/",
@@ -93376,8 +93203,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 17.53,
-        "end": 23.22,
+        "start": 4.7,
+        "end": 10.39,
         "speaker": "Speaker",
         "en": "Because they said something offensive about politics or religion, childcare, food?",
         "ipa": "/bɪˈkəz ðeɪ sɛd ˈsʌmθɪŋ əˈfɛnsɪv əˈbaʊt ˈpɑləˌtɪks ɔr rɪˈlɪdʒən, ˈʧaɪldˌkɛr, fud?/",
@@ -93392,8 +93219,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 23.26,
-        "end": 30.36,
+        "start": 10.43,
+        "end": 17.53,
         "speaker": "Speaker",
         "en": "And how many of you know at least one person that you avoid because you just don't want to talk to them?",
         "ipa": "/(ˈlæftər) ænd haʊ mɛni əv ju noʊ ət list wʌn ˈpɜrsən ðæt ju əˈvɔɪd bɪˈkəz ju ʤʌst doʊnt wɑnt tu tɔk tu ðɛm?/",
@@ -93408,8 +93235,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 30.86,
-        "end": 41.22,
+        "start": 18.03,
+        "end": 28.39,
         "speaker": "Speaker",
         "en": "You know, it used to be that in order to have a polite conversation, we just had to follow the advice of Henry Higgins in \"My Fair Lady\": Stick to the weather and your health.",
         "ipa": "/(ˈlæftər) ju noʊ, ɪt juzd tu bi ðæt ɪn ˈɔrdər tu hæv ə pəˈlaɪt ˌkɑnvərˈseɪʃən, wi ʤʌst hæd tu ˈfɑloʊ ði ədˈvaɪs əv ˈhɛnri ˈhɪɡɪnz ɪn \"maɪ fɛr ˈleɪdi\": stɪk tu ðə ˈwɛðər ænd jʊər hɛlθ./",
@@ -93429,8 +93256,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 41.26,
-        "end": 47.29,
+        "start": 28.43,
+        "end": 34.46,
         "speaker": "Speaker",
         "en": "But these days, with climate change and anti-vaxxing, those subjects -- are not safe either.",
         "ipa": "/bʌt ðiz deɪz, wɪð ˈklaɪmət ʧeɪnʤ ænd ˈænti-ˈvæksɪŋ, ðoʊz ˈsʌbʤɪkts -- (ˈlæftər) ɑr nɑt seɪf ˈiðər./",
@@ -93445,8 +93272,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 47.33,
-        "end": 64.92,
+        "start": 34.5,
+        "end": 52.09,
         "speaker": "Speaker",
         "en": "So this world that we live in, this world in which every conversation has the potential to devolve into an argument, where our politicians can't speak to one another and where even the most trivial of issues have someone fighting both passionately for it and against it, it's not normal.",
         "ipa": "/soʊ ðɪs wɜrld ðæt wi lɪv ɪn, ðɪs wɜrld ɪn wɪʧ ˈɛvri ˌkɑnvərˈseɪʃən hæz ðə pəˈtɛnʃəl tu dɪˈvɑlv ˈɪntu ən ˈɑrɡjəmənt, wɛr ˈaʊər ˌpɑləˈtɪʃənz kænt spik tu wʌn əˈnʌðər ænd wɛr ˈivən ðə moʊst ˈtrɪviəl əv ˈɪʃuz hæv ˈsʌmwʌn ˈfaɪtɪŋ boʊθ ˈpæʃənətli fɔr ɪt ænd əˈɡɛnst ɪt, ɪts nɑt ˈnɔrməl./",
@@ -93471,8 +93298,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 64.96,
-        "end": 74.92,
+        "start": 52.13,
+        "end": 62.09,
         "speaker": "Speaker",
         "en": "Pew Research did a study of 10,000 American adults, and they found that at this moment, we are more polarized, we are more divided, than we ever have been in history.",
         "ipa": "/pju rɪˈsɜrʧ dɪd ə ˈstʌdi əv ˈtɛn ˈθaʊzənd əˈmɛrɪkən əˈdʌlts, ænd ðeɪ faʊnd ðæt æt ðɪs ˈmoʊmənt, wi ɑr mɔr ˈpoʊləˌraɪzd, wi ɑr mɔr dɪˈvaɪdɪd, ðæn wi ˈɛvər hæv bin ɪn ˈhɪstəri./",
@@ -93492,8 +93319,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 74.96,
-        "end": 78.72,
+        "start": 62.13,
+        "end": 65.89,
         "speaker": "Speaker",
         "en": "We're less likely to compromise, which means we're not listening to each other.",
         "ipa": "/wɪr lɛs ˈlaɪkli tu ˈkɑmprəˌmaɪz, wɪʧ minz wɪr nɑt ˈlɪsənɪŋ tu iʧ ˈʌðər./",
@@ -93508,8 +93335,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 78.76,
-        "end": 86.02,
+        "start": 65.93,
+        "end": 73.19,
         "speaker": "Speaker",
         "en": "And we make decisions about where to live, who to marry and even who our friends are going to be, based on what we already believe.",
         "ipa": "/ænd wi meɪk dɪˈɪʒənz əˈbaʊt wɛr tu lɪv, hu tu ˈmɛri ænd ˈivən hu ˈaʊər frɛndz ɑr ˈɡoʊɪŋ tu bi, beɪst ɑn wʌt wi ɔlˈrɛdi bɪˈliv./",
@@ -93524,8 +93351,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 86.06,
-        "end": 89.02,
+        "start": 73.23,
+        "end": 76.19,
         "speaker": "Speaker",
         "en": "Again, that means we're not listening to each other.",
         "ipa": "/əˈɡɛn, ðæt minz wɪr nɑt ˈlɪsənɪŋ tu iʧ ˈʌðər./",
@@ -93540,8 +93367,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 89.06,
-        "end": 95.09,
+        "start": 76.23,
+        "end": 82.26,
         "speaker": "Speaker",
         "en": "A conversation requires a balance between talking and listening, and somewhere along the way, we lost that balance.",
         "ipa": "/ə ˌkɑnvərˈseɪʃən rɪˈkwaɪərz ə ˈbæləns bɪˈtwin ˈtɔkɪŋ ænd ˈlɪsənɪŋ, ænd ˈsʌmˌwɛr əˈlɔŋ ðə weɪ, wi lɔst ðæt ˈbæləns./",
@@ -93556,8 +93383,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 95.13,
-        "end": 96.99,
+        "start": 82.3,
+        "end": 84.16,
         "speaker": "Speaker",
         "en": "Now, part of that is due to technology.",
         "ipa": "/naʊ, pɑrt əv ðæt ɪz du tu tɛkˈnɑləʤi./",
@@ -93572,8 +93399,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 97.03,
-        "end": 102.29,
+        "start": 84.2,
+        "end": 89.46,
         "speaker": "Speaker",
         "en": "The smartphones that you all either have in your hands or close enough that you could grab them really quickly.",
         "ipa": "/ðə ˈsmɑrtˌfoʊnz ðæt ju ɔl ˈiðər hæv ɪn jʊər hændz ɔr kloʊs ɪˈnʌf ðæt ju kʊd ɡræb ðɛm ˈrɪli ˈkwɪkli./",
@@ -93588,8 +93415,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 102.33,
-        "end": 108.52,
+        "start": 89.5,
+        "end": 95.69,
         "speaker": "Speaker",
         "en": "According to Pew Research, about a third of American teenagers send more than a hundred texts a day.",
         "ipa": "/əˈkɔrdɪŋ tu pju rɪˈsɜrʧ, əˈbaʊt ə θɜrd əv əˈmɛrɪkən ˈtinˌeɪʤərz sɛnd mɔr ðæn ə ˈhʌndrəd tɛksts ə deɪ./",
@@ -93604,8 +93431,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 108.56,
-        "end": 115.23,
+        "start": 95.73,
+        "end": 102.4,
         "speaker": "Speaker",
         "en": "And many of them, almost most of them, are more likely to text their friends than they are to talk to them face to face.",
         "ipa": "/ænd ˈmɛni əv ðɛm, ˈɔlˌmoʊst moʊst əv ðɛm, ɑr mɔr ˈlaɪkli tu tɛkst ðɛr frɛndz ðæn ðeɪ ɑr tu tɔk tu ðɛm feɪs tu feɪs./",
@@ -93620,8 +93447,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 116.16,
-        "end": 118.12,
+        "start": 103.33,
+        "end": 105.29,
         "speaker": "Speaker",
         "en": "There's this great piece in The Atlantic.",
         "ipa": "/ðɛrz ðɪs ɡreɪt pis ɪn ði ætˈlæntɪk./",
@@ -93636,8 +93463,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 118.16,
-        "end": 120.99,
+        "start": 105.33,
+        "end": 108.16,
         "speaker": "Speaker",
         "en": "It was written by a high school teacher named Paul Barnwell.",
         "ipa": "/ɪt wʌz ˈrɪtən baɪ ə haɪ skul ˈtiʧər neɪmd pɔl ˈbɑrnˌwɛl./",
@@ -93652,8 +93479,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 121.03,
-        "end": 123.16,
+        "start": 108.2,
+        "end": 110.33,
         "speaker": "Speaker",
         "en": "And he gave his kids a communication project.",
         "ipa": "/ænd hi ɡeɪv hɪz kɪdz ə kəˌmjunɪˈkeɪʃən ˈprɑˌʤɛkt./",
@@ -93668,8 +93495,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 123.2,
-        "end": 126.92,
+        "start": 110.37,
+        "end": 114.09,
         "speaker": "Speaker",
         "en": "He wanted to teach them how to speak on a specific subject without using notes.",
         "ipa": "/hi ˈwɑntɪd tu tiʧ ðɛm haʊ tu spik ɑn ə spəˈsɪfɪk ˈsʌbʤɪkt wɪˈθaʊt ˈjuzɪŋ noʊts./",
@@ -93684,8 +93511,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 126.96,
-        "end": 139.49,
+        "start": 114.13,
+        "end": 126.66,
         "speaker": "Speaker",
         "en": "And he said this: “I came to realize...” \"I came to realize that conversational competence might be the single most overlooked skill we fail to teach.",
         "ipa": "/ænd hi sɛd ðɪs: “aɪ keɪm tu ˈriəˌlaɪz...” (ˈlæftər) \"aɪ keɪm tu ˈriəˌlaɪz ðæt ˌkɑnvərˈseɪʃənəl ˈkɑmpətəns maɪt bi ðə ˈsɪŋɡəl moʊst ˈoʊvərˌlʊkt skɪl wi feɪl tu tiʧ./",
@@ -93705,8 +93532,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 139.53,
-        "end": 148.29,
+        "start": 126.7,
+        "end": 135.46,
         "speaker": "Speaker",
         "en": "Kids spend hours each day engaging with ideas and each other through screens, but rarely do they have an opportunity to hone their interpersonal communications skills.",
         "ipa": "/kɪdz spɛnd ˈaʊərz iʧ deɪ ɛnˈɡeɪʤɪŋ wɪð aɪˈdiəz ænd iʧ ˈʌðər θru skrinz, bʌt ˈrɛrli du ðeɪ hæv ən ˌɑpərˈtunɪti tu hoʊn ðɛr ˌɪntərˈpɜrsənəl kəˌmjunɪˈkeɪʃənz skɪlz./",
@@ -93726,8 +93553,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 148.33,
-        "end": 159.02,
+        "start": 135.5,
+        "end": 146.19,
         "speaker": "Speaker",
         "en": "It might sound like a funny question, but we have to ask ourselves: Is there any 21st-century skill more important than being able to sustain coherent, confident conversation?\"",
         "ipa": "/ɪt maɪt saʊnd laɪk ə ˈfʌni ˈkwɛsʧən, bʌt wi hæv tu æsk ˈaʊərˌsɛlvz: ɪz ðɛr ˈɛni ˈtwɛnti-fɜrst-ˈsɛnʧəri skɪl mɔr ɪmˈpɔrtənt ðæn ˈbiɪŋ ˈeɪbəl tu səˈsteɪn koʊˈhɪrənt, ˈkɑnfɪdənt ˌkɑnvərˈseɪʃən?\"/",
@@ -93747,8 +93574,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 159.06,
-        "end": 168.56,
+        "start": 146.23,
+        "end": 155.73,
         "speaker": "Speaker",
         "en": "Now, I make my living talking to people: Nobel Prize winners, truck drivers, billionaires, kindergarten teachers, heads of state, plumbers.",
         "ipa": "/naʊ, aɪ meɪk maɪ ˈlɪvɪŋ ˈtɔkɪŋ tu ˈpipəl: noʊˈbɛl praɪz ˈwɪnərz, trʌk ˈdraɪvərz, ˈbɪljəˌnɛrz, ˈkɪndərˌɡɑrtən ˈtiʧərz, hɛdz əv steɪt, ˈplʌmərz./",
@@ -93763,8 +93590,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 168.63,
-        "end": 170.03,
+        "start": 155.8,
+        "end": 157.2,
         "speaker": "Speaker",
         "en": "I talk to people that I like.",
         "ipa": "/aɪ tɔk tu ˈpipəl ðæt aɪ laɪk./",
@@ -93779,8 +93606,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 170.07,
-        "end": 171.79,
+        "start": 157.24,
+        "end": 158.96,
         "speaker": "Speaker",
         "en": "I talk to people that I don’t like.",
         "ipa": "/aɪ tɔk tu ˈpipəl ðæt aɪ doʊnt laɪk./",
@@ -93789,8 +93616,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 171.83,
-        "end": 175.59,
+        "start": 159.0,
+        "end": 162.76,
         "speaker": "Speaker",
         "en": "I talk to some people that I disagree with deeply on a personal level.",
         "ipa": "/aɪ tɔk tu sʌm ˈpipəl ðæt aɪ ˌdɪsəˈɡri wɪð ˈdipli ɑn ə ˈpɜrsənəl ˈlɛvəl./",
@@ -93805,8 +93632,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 175.63,
-        "end": 178.39,
+        "start": 162.8,
+        "end": 165.56,
         "speaker": "Speaker",
         "en": "But I still have a great conversation with them.",
         "ipa": "/bʌt aɪ stɪl hæv ə ɡreɪt ˌkɑnvərˈseɪʃən wɪð ðɛm./",
@@ -93821,8 +93648,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 178.43,
-        "end": 183.73,
+        "start": 165.6,
+        "end": 170.9,
         "speaker": "Speaker",
         "en": "So I'd like to spend the next 10 minutes or so teaching you how to talk and how to listen.",
         "ipa": "/soʊ aɪd laɪk tu spɛnd ðə nɛkst 10 ˈmɪnɪts ɔr soʊ ˈtiʧɪŋ ju haʊ tu tɔk ænd haʊ tu ˈlɪsən./",
@@ -93837,8 +93664,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 184.8,
-        "end": 200.96,
+        "start": 171.97,
+        "end": 188.13,
         "speaker": "Speaker",
         "en": "Many of you have already heard a lot of advice on this, things like look the person in the eye, think of interesting topics to discuss in advance, look, nod and smile to show that you're paying attention, repeat back what you just heard or summarize it.",
         "ipa": "/ˈmɛni əv ju həv ɔlˈrɛdi hɜrd ə lɑt əv ædˈvaɪs ɑn ðɪs, θɪŋz laɪk lʊk ðə ˈpɜrsən ɪn ði aɪ, θɪŋk əv ˈɪntrəstɪŋ ˈtɑpɪks tu dɪˈskʌs ɪn ædˈvæns, lʊk, nɑd ənd smaɪl tu ʃoʊ ðæt jʊr ˈpeɪɪŋ əˈtɛnʃən, rɪˈpit bæk wʌt ju ʤʌst hɜrd ɔr ˈsʌməˌraɪz ɪt./",
@@ -93863,8 +93690,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 201.0,
-        "end": 202.72,
+        "start": 188.17,
+        "end": 189.89,
         "speaker": "Speaker",
         "en": "So I want you to forget all of that.",
         "ipa": "/soʊ aɪ wɑnt ju tu fərˈɡɛt ɔl əv ðæt./",
@@ -93879,8 +93706,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 202.76,
-        "end": 203.96,
+        "start": 189.93,
+        "end": 191.13,
         "speaker": "Speaker",
         "en": "It is crap.",
         "ipa": "/ɪt ɪz kræp./",
@@ -93895,8 +93722,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 204.0,
-        "end": 214.96,
+        "start": 191.17,
+        "end": 202.13,
         "speaker": "Speaker",
         "en": "There is no reason to learn how to show you're paying attention if you are in fact paying attention.",
         "ipa": "/(ˈlæftər) ðɛr ɪz noʊ ˈrizən tu lɜrn haʊ tu ʃoʊ jʊr ˈpeɪɪŋ əˈtɛnʃən ɪf ju ɑr ɪn fækt ˈpeɪɪŋ əˈtɛnʃən./",
@@ -93916,8 +93743,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 215.0,
-        "end": 226.39,
+        "start": 202.17,
+        "end": 213.56,
         "speaker": "Speaker",
         "en": "Now, I actually use the exact same skills as a professional interviewer that I do in regular life.",
         "ipa": "/(ˈlæftər) (əˈplɔz) naʊ, aɪ ˈæktʃuəli juz ði ɪɡˈzækt seɪm skɪlz æz ə prəˈfɛʃənəl ˈɪntəˌvjuər ðæt aɪ du ɪn ˈrɛɡjələr laɪf./",
@@ -93937,8 +93764,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 226.43,
-        "end": 233.72,
+        "start": 213.6,
+        "end": 220.89,
         "speaker": "Speaker",
         "en": "So, I'm going to teach you how to interview people, and that's actually going to help you learn how to be better conversationalists.",
         "ipa": "/soʊ, aɪm ˈɡoʊɪŋ tu tiːtʃ ju haʊ tu ˈɪntəˌvju ˈpipəl, ənd ðæts ˈæktʃuəli ˈɡoʊɪŋ tu hɛlp ju lɜrn haʊ tu bi ˈbɛtər ˌkɑnvərˈseɪʃənəlɪsts./",
@@ -93953,8 +93780,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 233.76,
-        "end": 240.79,
+        "start": 220.93,
+        "end": 227.96,
         "speaker": "Speaker",
         "en": "Learn to have a conversation without wasting your time, without getting bored, and, please God, without offending anybody.",
         "ipa": "/lɜrn tu hæv ə ˌkɑnvərˈseɪʃən wɪˈaʊt ˈweɪstɪŋ jʊər taɪm, wɪˈaʊt ˈɡɛtɪŋ bɔrd, ənd, pliz ɡɑd, wɪˈaʊt əˈfɛndɪŋ ˈɛniˌbɑdi./",
@@ -93974,8 +93801,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 240.83,
-        "end": 243.02,
+        "start": 228.0,
+        "end": 230.19,
         "speaker": "Speaker",
         "en": "We've all had really great conversations.",
         "ipa": "/wiv ɔl hæd ˈrɪli ɡreɪt ˌkɑnvərˈseɪʃənz./",
@@ -93990,8 +93817,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 243.06,
-        "end": 244.1,
+        "start": 230.23,
+        "end": 231.27,
         "speaker": "Speaker",
         "en": "We've had them before.",
         "ipa": "/wiv hæd ðɛm bɪˈfɔr./",
@@ -94006,8 +93833,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 244.14,
-        "end": 245.22,
+        "start": 231.31,
+        "end": 232.39,
         "speaker": "Speaker",
         "en": "We know what it's like.",
         "ipa": "/wi noʊ wʌt ɪts laɪk./",
@@ -94022,8 +93849,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 245.26,
-        "end": 253.56,
+        "start": 232.43,
+        "end": 240.73,
         "speaker": "Speaker",
         "en": "The kind of conversation where you walk away feeling engaged and inspired, or where you feel like you've made a real connection or you've been perfectly understood.",
         "ipa": "/ðə kaɪnd əv ˌkɑnvərˈseɪʃən wɛr ju wɔk əˈweɪ ˈfilɪŋ ɪnˈɡeɪʤd ənd ɪnˈspaɪərd, ɔr wɛr ju fil laɪk ðiv meɪd ə riəl kəˈnɛkʃən ɔr juv bin ˈpɜrfɪktli ˌʌndərˈstʊd./",
@@ -94048,8 +93875,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 253.6,
-        "end": 258.09,
+        "start": 240.77,
+        "end": 245.26,
         "speaker": "Speaker",
         "en": "There is no reason why most of your interactions can't be like that.",
         "ipa": "/ðɛr ɪz noʊ ˈrizən waɪ moʊst əv jʊər ˌɪntərˈækʃənz kænt bi laɪk ðæt./",
@@ -94064,8 +93891,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 258.13,
-        "end": 259.28,
+        "start": 245.3,
+        "end": 246.45,
         "speaker": "Speaker",
         "en": "So I have 10 basic rules.",
         "ipa": "/soʊ aɪ hæv tɛn ˈbeɪsɪk rulz./",
@@ -94080,8 +93907,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 259.32,
-        "end": 267.82,
+        "start": 246.49,
+        "end": 254.99,
         "speaker": "Speaker",
         "en": "I'm going to walk you through all of them, but honestly, if you just choose one of them and master it, you'll already enjoy better conversations.",
         "ipa": "/aɪm ˈɡoʊɪŋ tu wɔk ju θru ɔl əv ðɛm, bət ˈɑnstli, ɪf ju ʤʌst ʧuz wʌn əv ðɛm ənd ˈmæstər ɪt, jul ɔlˈrɛdi ɪnˈʤɔɪ ˈbɛtər ˌkɑnvərˈseɪʃənz./",
@@ -94101,8 +93928,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 267.86,
-        "end": 270.09,
+        "start": 255.03,
+        "end": 257.26,
         "speaker": "Speaker",
         "en": "Number one: Don't multitask.",
         "ipa": "/ˈnʌmbər wʌn: doʊnt ˈmʌltiˌtæsk./",
@@ -94117,8 +93944,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 270.13,
-        "end": 275.16,
+        "start": 257.3,
+        "end": 262.33,
         "speaker": "Speaker",
         "en": "And I don't mean just set down your cell phone or your tablet or your car keys or whatever is in your hand.",
         "ipa": "/ænd aɪ doʊnt min ʤʌst sɛt daʊn jʊər sɛl foʊn ɔr jʊər ˈtæblət ɔr jʊər kɑr kiz ɔr wʌtˈɛvər ɪz ɪn jʊər hænd./",
@@ -94133,8 +93960,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 275.2,
-        "end": 277.09,
+        "start": 262.37,
+        "end": 264.26,
         "speaker": "Speaker",
         "en": "I mean, be present.",
         "ipa": "/aɪ min, bi ˈprɛzənt./",
@@ -94149,8 +93976,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 277.13,
-        "end": 279.36,
+        "start": 264.3,
+        "end": 266.53,
         "speaker": "Speaker",
         "en": "Be in that moment.",
         "ipa": "/bi ɪn ðæt ˈmoʊmənt./",
@@ -94165,8 +93992,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 279.4,
-        "end": 281.99,
+        "start": 266.57,
+        "end": 269.16,
         "speaker": "Speaker",
         "en": "Don't think about your argument you had with your boss.",
         "ipa": "/doʊnt θɪŋk əˈbaʊt jʊər ˈɑrɡjəmənt ju hæd wɪd jʊər bɑs./",
@@ -94181,8 +94008,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 282.03,
-        "end": 284.62,
+        "start": 269.2,
+        "end": 271.79,
         "speaker": "Speaker",
         "en": "Don't think about what you're going to have for dinner.",
         "ipa": "/doʊnt θɪŋk əˈbaʊt wʌt jʊr ˈɡoʊɪŋ tu hæv fɔr ˈdɪnər./",
@@ -94197,8 +94024,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 284.66,
-        "end": 290.29,
+        "start": 271.83,
+        "end": 277.46,
         "speaker": "Speaker",
         "en": "If you want to get out of the conversation, get out of the conversation, but don't be half in it and half out of it.",
         "ipa": "/ɪf ju wɑnt tu ɡɛt aʊt əv ðə ˌkɑnvərˈseɪʃən, ɡɛt aʊt əv ðə ˌkɑnvərˈseɪʃən, bət doʊnt bi hæf ɪn ɪt ənd hæf aʊt əv ɪt./",
@@ -94213,8 +94040,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 290.33,
-        "end": 292.89,
+        "start": 277.5,
+        "end": 280.06,
         "speaker": "Speaker",
         "en": "Number two: Don't pontificate.",
         "ipa": "/ˈnʌmbər tu: doʊnt pɑnˈtɪfəˌkeɪt./",
@@ -94229,8 +94056,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 292.93,
-        "end": 302.52,
+        "start": 280.1,
+        "end": 289.69,
         "speaker": "Speaker",
         "en": "If you want to state your opinion without any opportunity for response or argument or pushback or growth, write a blog.",
         "ipa": "/ɪf ju wɑnt tu steɪt jʊər əˈpɪnjən wɪˈaʊt ˈɛni ˌɑpərˈtunəti fɔr rɪˈspɑns ɔr ˈɑrɡjəmənt ɔr ˈpʊʃˌbæk ɔr ɡroʊθ, raɪt ə blɑɡ./",
@@ -94250,8 +94077,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 302.56,
-        "end": 310.79,
+        "start": 289.73,
+        "end": 297.96,
         "speaker": "Speaker",
         "en": "Now, there's a really good reason why I don't allow pundits on my show: Because they're really boring.",
         "ipa": "/(ˈlæftər) naʊ, ðɛrz ə ˈrɪli ɡʊd ˈrizən waɪ aɪ doʊnt əˈlaʊ ˈpʌndɪts ɑn maɪ ʃoʊ: bɪˈkəz ðɛr ˈrɪli ˈbɔrɪŋ./",
@@ -94266,8 +94093,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 310.83,
-        "end": 314.69,
+        "start": 298.0,
+        "end": 301.86,
         "speaker": "Speaker",
         "en": "If they're conservative, they're going to hate Obama and food stamps and abortion.",
         "ipa": "/ɪf ðɛr kənˈsɜrvətɪv, ðɛr ˈɡoʊɪŋ tu heɪt oʊˈbɑmə ənd fud stæmps ənd əˈbɔrʃən./",
@@ -94282,8 +94109,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 314.73,
-        "end": 318.92,
+        "start": 301.9,
+        "end": 306.09,
         "speaker": "Speaker",
         "en": "If they're liberal, they're going to hate big banks and oil corporations and Dick Cheney.",
         "ipa": "/ɪf ðɛr ˈlɪbərəl, ðɛr ˈɡoʊɪŋ tu heɪt bɪɡ bæŋks ənd ɔɪl ˌkɔrpəˈreɪʃənz ənd dɪk ˈʧeɪni./",
@@ -94298,8 +94125,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 318.96,
-        "end": 320.19,
+        "start": 306.13,
+        "end": 307.36,
         "speaker": "Speaker",
         "en": "Totally predictable.",
         "ipa": "/ˈtoʊtəli prɪˈdɪktəbəl./",
@@ -94314,8 +94141,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 320.23,
-        "end": 321.92,
+        "start": 307.4,
+        "end": 309.09,
         "speaker": "Speaker",
         "en": "And you don't want to be like that.",
         "ipa": "/ænd ju doʊnt wɑnt tu bi laɪk ðæt./",
@@ -94330,8 +94157,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 321.96,
-        "end": 327.49,
+        "start": 309.13,
+        "end": 314.66,
         "speaker": "Speaker",
         "en": "You need to enter every conversation assuming that you have something to learn.",
         "ipa": "/ju nid tu ˈɛntər ˈɛvri ˌkɑnvərˈseɪʃən əˈsumɪŋ ðæt ju hæv ˈsʌmθɪŋ tu lɜrn./",
@@ -94346,8 +94173,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 327.53,
-        "end": 328.76,
+        "start": 314.7,
+        "end": 315.93,
         "speaker": "Speaker",
         "en": "The famed therapist M. Scott Peck said that true listening requires a setting aside of oneself.",
         "ipa": "/ðə feɪmd ˈθɛrəpɪst ɛm skɑt pɛk sɛd ðæt tru ˈlɪsənɪŋ rɪˈkwaɪərz ə ˈsɛtɪŋ əˈsaɪd ʌv wʌnˈsɛlf/",
@@ -94362,8 +94189,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 328.8,
-        "end": 334.09,
+        "start": 315.97,
+        "end": 321.26,
         "speaker": "Speaker",
         "en": "And sometimes that means setting aside your personal opinion.",
         "ipa": "/ænd ˈsʌmtaɪmz ðæt minz ˈsɛtɪŋ əˈsaɪd jʊər ˈpɜrsənəl əˈpɪnjən/",
@@ -94378,8 +94205,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 334.13,
-        "end": 337.43,
+        "start": 321.3,
+        "end": 324.6,
         "speaker": "Speaker",
         "en": "He said that sensing this acceptance, the speaker will become less and less vulnerable and more and more likely to open up the inner recesses of his or her mind to the listener.",
         "ipa": "/hi sɛd ðæt ˈsɛnsɪŋ ðɪs ækˈsɛptəns, ðə ˈspikər wɪl bɪˈkʌm lɛs ænd lɛs ˈvʌlnərəbəl ænd mɔr ænd mɔr ˈlaɪkli tu ˈoʊpən ʌp ði ˈɪnər ˈrisɛsəz ʌv hɪz ɔr hɜr maɪnd tu ðə ˈlɪsənər/",
@@ -94399,8 +94226,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 338.2,
-        "end": 346.62,
+        "start": 325.37,
+        "end": 333.79,
         "speaker": "Speaker",
         "en": "Again, assume that you have something to learn.",
         "ipa": "/əˈɡɛn, əˈsum ðæt ju hæv ˈsʌmθɪŋ tu lɜrn/",
@@ -94415,8 +94242,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 346.66,
-        "end": 349.32,
+        "start": 333.83,
+        "end": 336.49,
         "speaker": "Speaker",
         "en": "Bill Nye: \"Everyone you will ever meet knows something that you don't.\"",
         "ipa": "/bɪl naɪ: ˈɛvriˌwʌn ju wɪl ˈɛvər mit noʊz ˈsʌmθɪŋ ðæt ju doʊnt/",
@@ -94431,8 +94258,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 349.36,
-        "end": 352.13,
+        "start": 336.53,
+        "end": 339.3,
         "speaker": "Speaker",
         "en": "I put it this way: Everybody is an expert in something.",
         "ipa": "/aɪ pʊt ɪt ðɪs weɪ: ˈɛvriˌbɑdi ɪz ən ˈɛkspɜrt ɪn ˈsʌmθɪŋ/",
@@ -94447,8 +94274,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 352.86,
-        "end": 356.56,
+        "start": 340.03,
+        "end": 343.73,
         "speaker": "Speaker",
         "en": "Number three: Use open-ended questions.",
         "ipa": "/ˈnʌmbər θri: juz ˈoʊpən-ˈɛndəd ˈkwɛstʃənz/",
@@ -94463,8 +94290,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 357.23,
-        "end": 361.76,
+        "start": 344.4,
+        "end": 348.93,
         "speaker": "Speaker",
         "en": "In this case, take a cue from journalists.",
         "ipa": "/ɪn ðɪs keɪs, teɪk ə kju frʌm ˈdʒɜrnəlɪsts/",
@@ -94479,8 +94306,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 363.16,
-        "end": 365.96,
+        "start": 350.33,
+        "end": 353.13,
         "speaker": "Speaker",
         "en": "Start your questions with who, what, when, where, why or how.",
         "ipa": "/stɑrt jʊər ˈkwɛstʃənz wɪð hu, wʌt, wɛn, wɛr, waɪ ɔr haʊ/",
@@ -94495,8 +94322,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 366.0,
-        "end": 368.02,
+        "start": 353.17,
+        "end": 355.19,
         "speaker": "Speaker",
         "en": "If you put in a complicated question, you're going to get a simple answer out.",
         "ipa": "/ɪf ju pʊt ɪn ə ˈkɑmpləˌkeɪtəd ˈkwɛstʃən, jʊr ˈɡoʊɪŋ tu ɡɛt ə ˈsɪmpəl ˈænsər aʊt/",
@@ -94511,8 +94338,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 368.06,
-        "end": 371.16,
+        "start": 355.23,
+        "end": 358.33,
         "speaker": "Speaker",
         "en": "If I ask you, \"Were you terrified?\" you're going to respond to the most powerful word in that sentence, which is \"terrified,\" and the answer is \"Yes, I was\" or \"No, I wasn't.\"",
         "ipa": "/ɪf aɪ æsk ju, wɜr ju ˈtɛrəˌfaɪd? jʊr ˈɡoʊɪŋ tu rɪˈspɑnd tu ðə moʊst ˈpaʊərfəl wɜrd ɪn ðæt ˈsɛntəns, wɪtʃ ɪz ˈtɛrəˌfaɪd, ænd ði ˈænsər ɪz jɛs, aɪ wʌz ɔr noʊ, aɪ ˈwʌzənt/",
@@ -94532,8 +94359,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 371.2,
-        "end": 374.89,
+        "start": 358.37,
+        "end": 362.06,
         "speaker": "Speaker",
         "en": "\"Were you angry?\" \"Yes, I was very angry.\"",
         "ipa": "/wɜr ju ˈæŋɡri? jɛs, aɪ wʌz ˈvɛri ˈæŋɡri/",
@@ -94548,8 +94375,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 374.93,
-        "end": 377.22,
+        "start": 362.1,
+        "end": 364.39,
         "speaker": "Speaker",
         "en": "Let them describe it.",
         "ipa": "/lɛt ðɛm dɪˈskraɪb ɪt/",
@@ -94564,8 +94391,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 377.26,
-        "end": 383.79,
+        "start": 364.43,
+        "end": 370.96,
         "speaker": "Speaker",
         "en": "They're the ones that know.",
         "ipa": "/ðɛr ði wʌnz ðæt noʊ/",
@@ -94580,8 +94407,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 383.83,
-        "end": 385.82,
+        "start": 371.0,
+        "end": 372.99,
         "speaker": "Speaker",
         "en": "Try asking them things like, \"What was that like?\"",
         "ipa": "/traɪ ˈæskɪŋ ðɛm θɪŋz laɪk, wʌt wʌz ðæt laɪk/",
@@ -94596,8 +94423,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 385.86,
-        "end": 387.16,
+        "start": 373.03,
+        "end": 374.33,
         "speaker": "Speaker",
         "en": "\"How did that feel?\"",
         "ipa": "/haʊ dɪd ðæt fil/",
@@ -94612,8 +94439,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 387.2,
-        "end": 388.92,
+        "start": 374.37,
+        "end": 376.09,
         "speaker": "Speaker",
         "en": "Because then they might have to stop for a moment and think about it, and you're going to get a much more interesting response.",
         "ipa": "/bɪˈkəz ðɛn ðeɪ maɪt hæv tu stɑp fɔr ə ˈmoʊmənt ænd θɪŋk əˈbaʊt ɪt, ænd jʊr ˈɡoʊɪŋ tu ɡɛt ə mʌtʃ mɔr ˈɪntrəstɪŋ rɪˈspɑns/",
@@ -94628,8 +94455,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 388.96,
-        "end": 391.92,
+        "start": 376.13,
+        "end": 379.09,
         "speaker": "Speaker",
         "en": "Number four: Go with the flow.",
         "ipa": "/ˈnʌmbər fɔr: ɡoʊ wɪð ðə floʊ/",
@@ -94644,8 +94471,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 391.96,
-        "end": 393.39,
+        "start": 379.13,
+        "end": 380.56,
         "speaker": "Speaker",
         "en": "That means thoughts will come into your mind and you need to let them go out of your mind.",
         "ipa": "/ðæt minz θɔts wɪl kʌm ˈɪntu jʊər maɪnd ænd ju nid tu lɛt ðɛm ɡoʊ aʊt ʌv jʊər maɪnd/",
@@ -94660,8 +94487,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 393.43,
-        "end": 400.72,
+        "start": 380.6,
+        "end": 387.89,
         "speaker": "Speaker",
         "en": "We've heard interviews often in which a guest is talking for several minutes and then the host comes back in and asks a question which seems like it comes out of nowhere, or it's already been answered.",
         "ipa": "/wiv hɜrd ˈɪntərvjuːz ˈɔfən ɪn wɪtʃ ə ɡɛst ɪz ˈtɔkɪŋ fɔr ˈsɛvrəl ˈmɪnəts ænd ðɛn ðə hoʊst kʌmz bæk ɪn ænd æsks ə ˈkwɛstʃən wɪtʃ simz laɪk ɪt kʌmz aʊt ʌv ˈnoʊˌwɛr, ɔr ɪts ɔlˈrɛdi bin ˈænsərd/",
@@ -94676,8 +94503,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 400.76,
-        "end": 403.06,
+        "start": 387.93,
+        "end": 390.23,
         "speaker": "Speaker",
         "en": "That means the host probably stopped listening two minutes ago because he thought of this really clever question, and he was just bound and determined to say that.",
         "ipa": "/ðæt minz ðə hoʊst ˈprɑbəbli stɑpt ˈlɪsənɪŋ tu ˈmɪnəts əˈɡoʊ bɪˈkəz hi θɔt ʌv ðɪs ˈrɪli ˈklɛvər ˈkwɛstʃən, ænd hi wʌz dʒʌst baʊnd ænd dɪˈtɜrmɪnd tu seɪ ðæt/",
@@ -94692,8 +94519,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 403.73,
-        "end": 409.59,
+        "start": 390.9,
+        "end": 396.76,
         "speaker": "Speaker",
         "en": "And we do the exact same thing.",
         "ipa": "/ænd wi du ði ɪɡˈzækt seɪm θɪŋ/",
@@ -94708,8 +94535,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 409.63,
-        "end": 416.52,
+        "start": 396.8,
+        "end": 403.69,
         "speaker": "Speaker",
         "en": "We're sitting there having a conversation with someone, and then we remember that time that we met Hugh Jackman in a coffee shop.",
         "ipa": "/wʊr ˈsɪtɪŋ ðɛr ˈhævɪŋ ə ˌkɑnvərˈseɪʃən wɪð ˈsʌmˌwʌn, ænd ðɛn wi rɪˈmɛmbər ðæt taɪm ðæt wi mɛt hju ˈdʒækmən ɪn ə ˈkɑfi ʃɑp/",
@@ -94724,8 +94551,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 416.56,
-        "end": 419.96,
+        "start": 403.73,
+        "end": 407.13,
         "speaker": "Speaker",
         "en": "And we stop listening.",
         "ipa": "/ˈlæftər ænd wi stɑp ˈlɪsənɪŋ/",
@@ -94740,8 +94567,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 420.0,
-        "end": 426.36,
+        "start": 407.17,
+        "end": 413.53,
         "speaker": "Speaker",
         "en": "Stories and ideas are going to come to you.",
         "ipa": "/ˈstɔriz ænd aɪˈdiəz ɑr ˈɡoʊɪŋ tu kʌm tu ju/",
@@ -94756,8 +94583,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 426.4,
-        "end": 429.39,
+        "start": 413.57,
+        "end": 416.56,
         "speaker": "Speaker",
         "en": "You need to let them come and let them go.",
         "ipa": "/ju nid tu lɛt ðɛm kʌm ænd lɛt ðɛm ɡoʊ/",
@@ -94772,8 +94599,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 429.43,
-        "end": 431.39,
+        "start": 416.6,
+        "end": 418.56,
         "speaker": "Speaker",
         "en": "Number five: If you don't know, say that you don't know.",
         "ipa": "/ˈnʌmbər faɪv: ɪf ju doʊnt noʊ, seɪ ðæt ju doʊnt noʊ/",
@@ -94788,8 +94615,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 431.43,
-        "end": 437.52,
+        "start": 418.6,
+        "end": 424.69,
         "speaker": "Speaker",
         "en": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record, and so they're more careful about what they claim to be an expert in and what they claim to know for sure.",
         "ipa": "/naʊ, ˈpipəl ɑn ðə ˈreɪdiˌoʊ, əˈpɛʃəli ɑn ɛn-pi-ɑr, ɑr mʌtʃ mɔr əˈwɛr ðæt ðeɪr ˈɡoʊɪŋ ɑn ðə ˈrɛkərd, ænd soʊ ðeɪr mɔr ˈkɛrfəl əˈbaʊt wʌt ðeɪ kleɪm tu bi ən ˈɛkspɜrt ɪn ænd wʌt ðeɪ kleɪm tu noʊ fɔr ʃʊr/",
@@ -94809,8 +94636,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 437.56,
-        "end": 440.52,
+        "start": 424.73,
+        "end": 427.69,
         "speaker": "Speaker",
         "en": "Do that.",
         "ipa": "/du ðæt/",
@@ -94825,8 +94652,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 440.56,
-        "end": 442.59,
+        "start": 427.73,
+        "end": 429.76,
         "speaker": "Speaker",
         "en": "Stories and ideas are going to come to you.",
         "ipa": "/ˈstɔriz ənd aɪˈdiəz ər ˈɡuɪŋ tu kʌm tu ju/",
@@ -94841,8 +94668,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 442.63,
-        "end": 445.53,
+        "start": 429.8,
+        "end": 432.7,
         "speaker": "Speaker",
         "en": "You need to let them come and let them go.",
         "ipa": "/ju nid tu lɛt ðəm kʌm ənd lɛt ðəm ɡo/",
@@ -94857,8 +94684,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 446.06,
-        "end": 449.8,
+        "start": 433.23,
+        "end": 436.97,
         "speaker": "Speaker",
         "en": "Number five: If you don't know, say that you don't know.",
         "ipa": "/ˈnʌmbər faɪv: ɪf ju doʊnt noʊ, seɪ ðæt ju doʊnt noʊ/",
@@ -94873,8 +94700,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 450.8,
-        "end": 461.79,
+        "start": 437.97,
+        "end": 448.96,
         "speaker": "Speaker",
         "en": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record, and so they're more careful about what they claim to be an expert in and what they claim to know for sure.",
         "ipa": "/naʊ, ˈpipəl ɑn ðə ˈreɪdioʊ, ɪˈspɛʃəli ɑn ɛn-pi-ɑr, ər mʌʧ mɔər əˈwɛr ðæt ðɛr ˈɡuɪŋ ɑn ðə ˈrɛkərd ənd soʊ ðɛr mɔər ˈkɛrfəl əˈbaʊt wʌt ðeɪ kleɪm tu bi ən ˈɛkspərt ɪn ənd wʌt ðeɪ kleɪm tu noʊ fɔr ʃʊr/",
@@ -94894,8 +94721,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 461.83,
-        "end": 462.33,
+        "start": 449.0,
+        "end": 449.5,
         "speaker": "Speaker",
         "en": "Do that.",
         "ipa": "/du ðæt/",
@@ -94910,8 +94737,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 462.37,
-        "end": 464.19,
+        "start": 449.54,
+        "end": 451.36,
         "speaker": "Speaker",
         "en": "Err on the side of caution.",
         "ipa": "/ɜr ɑn ðə saɪd əv ˈkɔʃən/",
@@ -94926,8 +94753,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 464.23,
-        "end": 466.0,
+        "start": 451.4,
+        "end": 453.17,
         "speaker": "Speaker",
         "en": "Talk should not be cheap.",
         "ipa": "/tɔk ʃʊd nɑt bi tʃip/",
@@ -94942,8 +94769,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 466.63,
-        "end": 470.33,
+        "start": 453.8,
+        "end": 457.5,
         "speaker": "Speaker",
         "en": "Number six: Don't equate your experience with theirs.",
         "ipa": "/ˈnʌmbər sɪks: doʊnt ɪˈkweɪt jʊər ɪkˈspɪriəns wɪð ðɛrz/",
@@ -94958,8 +94785,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 471.26,
-        "end": 476.92,
+        "start": 458.43,
+        "end": 464.09,
         "speaker": "Speaker",
         "en": "If they're talking about having lost a family member, don't start talking about the time you lost a family member.",
         "ipa": "/ɪf ðɛr ˈtɔkɪŋ əˈbaʊt ˈhævɪŋ lɔst ə ˈfæməli ˈmɛmbər, doʊnt stɑrt ˈtɔkɪŋ əˈbaʊt ðə taɪm ju lɔst ə ˈfæməli ˈmɛmbər/",
@@ -94974,8 +94801,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 476.96,
-        "end": 482.16,
+        "start": 464.13,
+        "end": 469.33,
         "speaker": "Speaker",
         "en": "If they're talking about the trouble they're having at work, don't tell them about how much you hate your job.",
         "ipa": "/ɪf ðɛr ˈtɔkɪŋ əˈbaʊt ðə ˈtrʌbəl ðeɪr ˈhævɪŋ æt wɜrk, doʊnt tɛl ðɛm əˈbaʊt haʊ mʌtʃ ju heɪt jʊər dʒɑb/",
@@ -94990,8 +94817,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 482.2,
-        "end": 483.05,
+        "start": 469.37,
+        "end": 470.22,
         "speaker": "Speaker",
         "en": "It's not the same.",
         "ipa": "/ɪts nɑt ðə seɪm/",
@@ -95000,8 +94827,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 483.09,
-        "end": 484.12,
+        "start": 470.26,
+        "end": 471.29,
         "speaker": "Speaker",
         "en": "It is never the same.",
         "ipa": "/ɪt ɪz ˈnɛvər ðə seɪm/",
@@ -95010,8 +94837,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 484.16,
-        "end": 485.92,
+        "start": 471.33,
+        "end": 473.09,
         "speaker": "Speaker",
         "en": "All experiences are individual.",
         "ipa": "/ɔl ɪkˈspɪriənsɪz ɑr ˌɪndəˈvɪdʒuəl/",
@@ -95026,8 +94853,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 485.96,
-        "end": 488.63,
+        "start": 473.13,
+        "end": 475.8,
         "speaker": "Speaker",
         "en": "And, more importantly, it is not about you.",
         "ipa": "/ænd, mɔr ˈɪmpɔrtəntli, ɪt ɪz nɑt əˈbaʊt ju/",
@@ -95042,8 +94869,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 101,
-        "start": 489.13,
-        "end": 494.43,
+        "start": 476.3,
+        "end": 481.6,
         "speaker": "Speaker",
         "en": "You don't need to take that moment to prove how amazing you are or how much you've suffered.",
         "ipa": "/ju doʊnt nid tu teɪk ðæt ˈmoʊmənt tu pruv haʊ əˈmeɪzɪŋ ju ɑr ɔr haʊ mʌtʃ juv ˈsʌfərd/",
@@ -95058,8 +94885,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 102,
-        "start": 495.13,
-        "end": 499.06,
+        "start": 482.3,
+        "end": 486.23,
         "speaker": "Speaker",
         "en": "Somebody asked Stephen Hawking once what his IQ was, and he said, \"I have no idea.",
         "ipa": "/ˈsʌmbɑdi æskt ˈstivən ˈhɔkɪŋ wʌns wʌt hɪz aɪ-kju wʌz, ænd hi sɛd, \"aɪ hæv noʊ aɪˈdiə./",
@@ -95079,8 +94906,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 103,
-        "start": 499.1,
-        "end": 501.19,
+        "start": 486.27,
+        "end": 488.36,
         "speaker": "Speaker",
         "en": "People who brag about their IQs are losers.\"",
         "ipa": "/ˈpipəl hu bræg əˈbaʊt ðɛr aɪ-kjuz ɑr ˈluzərz./",
@@ -95095,8 +94922,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 104,
-        "start": 501.23,
-        "end": 506.43,
+        "start": 488.4,
+        "end": 493.6,
         "speaker": "Speaker",
         "en": "Conversations are not a promotional opportunity.",
         "ipa": "/ˈkɑnvərˈseɪʃənz ɑr nɑt ə prəˈmoʊʃənəl ˌɑpərˈtunəti./",
@@ -95111,8 +94938,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 105,
-        "start": 508.56,
-        "end": 512.79,
+        "start": 495.73,
+        "end": 499.96,
         "speaker": "Speaker",
         "en": "Number seven: Try not to repeat yourself.",
         "ipa": "/ˈnʌmbər ˈsɛvən traɪ nɑt tu rɪˈpit jʊərˈsɛlf./",
@@ -95137,8 +94964,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 106,
-        "start": 512.83,
-        "end": 516.89,
+        "start": 500.0,
+        "end": 504.06,
         "speaker": "Speaker",
         "en": "It's condescending, and it's really boring, and we tend to do it a lot.",
         "ipa": "/ɪts ˌkɑndəˈsɛndɪŋ, ænd ɪts ˈrɪli ˈbɔrɪŋ, ænd wi tɛnd tu du ɪt ə lɑt./",
@@ -95153,8 +94980,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 107,
-        "start": 516.93,
-        "end": 524.56,
+        "start": 504.1,
+        "end": 511.73,
         "speaker": "Speaker",
         "en": "Especially in work conversations or in conversations with our kids, we have a point to make, so we just keep rephrasing it over and over.",
         "ipa": "/əˈpɛʃəli ɪn wɜrk ˌkɑnvərˈseɪʃənz ɔr ɪn ˌkɑnvərˈseɪʃənz wɪð ˈaʊər kɪdz, wi hæv ə pɔɪnt tu meɪk, soʊ wi dʒʌst kip riˈfreɪzɪŋ ɪt ˈoʊvər ænd ˈoʊvər./",
@@ -95169,8 +94996,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 108,
-        "start": 525.63,
-        "end": 526.82,
+        "start": 512.8,
+        "end": 513.99,
         "speaker": "Speaker",
         "en": "Don't do that.",
         "ipa": "/doʊnt du ðæt./",
@@ -95179,8 +95006,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 109,
-        "start": 526.86,
-        "end": 529.16,
+        "start": 514.03,
+        "end": 516.33,
         "speaker": "Speaker",
         "en": "Number eight: Stay out of the weeds.",
         "ipa": "/ˈnʌmbər eɪt: steɪ aʊt əv ðə widz./",
@@ -95200,8 +95027,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 110,
-        "start": 529.2,
-        "end": 539.09,
+        "start": 516.37,
+        "end": 526.26,
         "speaker": "Speaker",
         "en": "Frankly, people don't care about the years, the names, the dates, all those details that you're struggling to come up with in your mind.",
         "ipa": "/ˈfræŋkli, ˈpipəl doʊnt kɛr əˈbaʊt ðə jɪrz, ðə neɪmz, ðə deɪts, ɔl ðoʊz ˈditeɪlz ðæt jʊr ˈstrʌɡəlɪŋ tu kʌm ʌp wɪð ɪn jʊər maɪnd./",
@@ -95216,8 +95043,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 111,
-        "start": 539.13,
-        "end": 539.89,
+        "start": 526.3,
+        "end": 527.06,
         "speaker": "Speaker",
         "en": "They don't care.",
         "ipa": "/ðeɪ doʊnt kɛr./",
@@ -95226,8 +95053,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 112,
-        "start": 539.93,
-        "end": 541.33,
+        "start": 527.1,
+        "end": 528.5,
         "speaker": "Speaker",
         "en": "What they care about is you.",
         "ipa": "/wʌt ðeɪ kɛr əˈbaʊt ɪz ju./",
@@ -95236,8 +95063,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 113,
-        "start": 541.86,
-        "end": 545.76,
+        "start": 529.03,
+        "end": 532.93,
         "speaker": "Speaker",
         "en": "They care about what you're like, what you have in common.",
         "ipa": "/ðeɪ kɛr əˈbaʊt wʌt jʊr laɪk, wʌt ju hæv ɪn ˈkɑmən./",
@@ -95252,8 +95079,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 114,
-        "start": 545.8,
-        "end": 547.32,
+        "start": 532.97,
+        "end": 534.49,
         "speaker": "Speaker",
         "en": "So forget the details.",
         "ipa": "/soʊ fərˈɡɛt ðə ˈditeɪlz./",
@@ -95273,8 +95100,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 115,
-        "start": 547.36,
-        "end": 548.43,
+        "start": 534.53,
+        "end": 535.6,
         "speaker": "Speaker",
         "en": "Leave them out.",
         "ipa": "/liv ðɛm aʊt./",
@@ -95283,8 +95110,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 116,
-        "start": 548.86,
-        "end": 553.36,
+        "start": 536.03,
+        "end": 540.53,
         "speaker": "Speaker",
         "en": "Number nine: This is not the last one, but it is the most important one.",
         "ipa": "/ˈnʌmbər naɪn: ðɪs ɪz nɑt ðə læst wʌn, bʌt ɪt ɪz ðə moʊst ɪmˈpɔrtənt wʌn./",
@@ -95304,8 +95131,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 117,
-        "start": 553.4,
-        "end": 554.6,
+        "start": 540.57,
+        "end": 541.77,
         "speaker": "Speaker",
         "en": "Listen.",
         "ipa": "/ˈlɪsən./",
@@ -95320,8 +95147,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 118,
-        "start": 554.96,
-        "end": 563.52,
+        "start": 542.13,
+        "end": 550.69,
         "speaker": "Speaker",
         "en": "I cannot tell you how many really important people have said that listening is perhaps the most, the number one most important skill that you could develop.",
         "ipa": "/aɪ ˈkænɑt tɛl ju haʊ ˈmɛni ˈrɪli ɪmˈpɔrtənt ˈpipəl hæv sɛd ðæt ˈlɪsənɪŋ ɪz pərˈhæps ðə moʊst, ðə ˈnʌmbər wʌn moʊst ɪmˈpɔrtənt skɪl ðæt ju kʊd dɪˈvɛləp./",
@@ -95341,8 +95168,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 119,
-        "start": 563.56,
-        "end": 567.99,
+        "start": 550.73,
+        "end": 555.16,
         "speaker": "Speaker",
         "en": "Buddha said, and I'm paraphrasing, \"If your mouth is open, you're not learning.\"",
         "ipa": "/ˈbuːdə sɛd, ænd aɪm ˈpærəˌfreɪzɪŋ, \"ɪf jʊər maʊθ ɪz ˈoʊpən, jʊr nɑt ˈlɜrnɪŋ.\"/",
@@ -95357,8 +95184,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 120,
-        "start": 568.03,
-        "end": 572.33,
+        "start": 555.2,
+        "end": 559.5,
         "speaker": "Speaker",
         "en": "And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
         "ipa": "/ænd ˈkælvɪn ˈkulɪdʒ sɛd, \"noʊ mæn ˈɛvər ˈlɪsənd hɪz weɪ aʊt əv ə dʒɑb.\"/",
@@ -95378,8 +95205,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 121,
-        "start": 572.66,
-        "end": 576.36,
+        "start": 559.83,
+        "end": 563.53,
         "speaker": "Speaker",
         "en": "Why do we not listen to each other?",
         "ipa": "/waɪ du wi nɑt ˈlɪsən tu iːtʃ ˈʌðər?/",
@@ -95394,8 +95221,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 122,
-        "start": 576.93,
-        "end": 578.86,
+        "start": 564.1,
+        "end": 566.03,
         "speaker": "Speaker",
         "en": "Number one, we'd rather talk.",
         "ipa": "/ˈnʌmbər wʌn, wid ˈræðər tɔk./",
@@ -95415,8 +95242,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 123,
-        "start": 579.46,
-        "end": 581.29,
+        "start": 566.63,
+        "end": 568.46,
         "speaker": "Speaker",
         "en": "When I'm talking, I'm in control.",
         "ipa": "/wɛn aɪm ˈtɔkɪŋ, aɪm ɪn kənˈtroʊl./",
@@ -95431,8 +95258,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 124,
-        "start": 581.33,
-        "end": 583.76,
+        "start": 568.5,
+        "end": 570.93,
         "speaker": "Speaker",
         "en": "I don't have to hear anything I'm not interested in.",
         "ipa": "/aɪ doʊnt hæv tu hɪr ˈɛniˌθɪŋ aɪm nɑt ˈɪntrəstɪd ɪn./",
@@ -95447,8 +95274,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 125,
-        "start": 583.8,
-        "end": 585.16,
+        "start": 570.97,
+        "end": 572.33,
         "speaker": "Speaker",
         "en": "I'm the center of attention.",
         "ipa": "/aɪm ðə ˈsɛntər ʌv əˈtɛnʃən/",
@@ -95463,8 +95290,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 126,
-        "start": 585.2,
-        "end": 587.09,
+        "start": 572.37,
+        "end": 574.26,
         "speaker": "Speaker",
         "en": "I can bolster my own identity.",
         "ipa": "/aɪ kən ˈboʊstər maɪ oʊn aɪˈdɛntəti/",
@@ -95479,8 +95306,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 127,
-        "start": 587.13,
-        "end": 589.96,
+        "start": 574.3,
+        "end": 577.13,
         "speaker": "Speaker",
         "en": "But there's another reason: We get distracted.",
         "ipa": "/bʌt ðɛrz əˈnʌðər ˈrizən: wi gɛt dɪˈstræktɪd/",
@@ -95495,8 +95322,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 128,
-        "start": 590.0,
-        "end": 597.82,
+        "start": 577.17,
+        "end": 584.99,
         "speaker": "Speaker",
         "en": "The average person talks at about 225 words per minute, but we can listen at up to 500 words per minute.",
         "ipa": "/ði ˈævərɪdʒ ˈpɜrsən tɔks ət əˈbaʊt ˈtuː ˈhʌndrəd ˈtwɛnti faɪv wɜrdz pɜr ˈmɪnɪt, bʌt wi kən ˈlɪsən ət ʌp tu faɪv ˈhʌndrəd wɜrdz pɜr ˈmɪnɪt/",
@@ -95511,8 +95338,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 129,
-        "start": 597.86,
-        "end": 601.82,
+        "start": 585.03,
+        "end": 588.99,
         "speaker": "Speaker",
         "en": "So our minds are filling in those other 275 words.",
         "ipa": "/soʊ ˈaʊər maɪndz ɑr ˈfɪlɪŋ ɪn ðoʊz ˈʌðər ˈtuː ˈhʌndrəd ˈsɛvənti faɪv wɜrdz/",
@@ -95527,8 +95354,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 130,
-        "start": 601.86,
-        "end": 610.36,
+        "start": 589.03,
+        "end": 597.53,
         "speaker": "Speaker",
         "en": "And look, I know, it takes effort and energy to actually pay attention to someone, but if you can't do that, you're not in a conversation.",
         "ipa": "/ænd lʊk, aɪ noʊ, ɪt teɪks ˈɛfərt ənd ˈɛnərdʒi tu ˈæktʃuəli peɪ əˈtɛnʃən tu ˈsʌmwʌn, bʌt ɪf ju kænt du ðæt, jʊr nɑt ɪn ə ˌkɑnvəˈseɪʃən/",
@@ -95543,8 +95370,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 131,
-        "start": 610.4,
-        "end": 614.52,
+        "start": 597.57,
+        "end": 601.69,
         "speaker": "Speaker",
         "en": "You're just two people shouting out barely related sentences in the same place.",
         "ipa": "/jʊr dʒʌst tu ˈpipəl ˈʃaʊtɪŋ aʊt ˈbɛrli rɪˈleɪtɪd ˈsɛntənsɪz ɪn ðə seɪm pleɪs/",
@@ -95559,8 +95386,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 132,
-        "start": 614.56,
-        "end": 618.96,
+        "start": 601.73,
+        "end": 606.13,
         "speaker": "Speaker",
         "en": "You have to listen to one another.",
         "ipa": "/(ˈlæftər) ju hæv tu ˈlɪsən tu wʌn əˈnʌðər/",
@@ -95575,8 +95402,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 133,
-        "start": 619.0,
-        "end": 620.89,
+        "start": 606.17,
+        "end": 608.06,
         "speaker": "Speaker",
         "en": "Stephen Covey said it very beautifully.",
         "ipa": "/ˈstivən ˈkʌvi sɛd ɪt ˈvɛri ˈbjutəfʊli/",
@@ -95591,8 +95418,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 134,
-        "start": 620.93,
-        "end": 624.82,
+        "start": 608.1,
+        "end": 611.99,
         "speaker": "Speaker",
         "en": "He said, \"Most of us don't listen with the intent to understand.",
         "ipa": "/hi sɛd, \"moʊst ʌv ʌs doʊnt ˈlɪsən wɪð ði ɪnˈtɛnt tu ˌʌndərˈstænd/",
@@ -95607,8 +95434,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 135,
-        "start": 624.86,
-        "end": 627.56,
+        "start": 612.03,
+        "end": 614.73,
         "speaker": "Speaker",
         "en": "We listen with the intent to reply.\"",
         "ipa": "/wi ˈlɪsən wɪð ði ɪnˈtɛnt tu rɪˈplaɪ.\"",
@@ -95623,8 +95450,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 136,
-        "start": 628.96,
-        "end": 632.8,
+        "start": 616.13,
+        "end": 619.97,
         "speaker": "Speaker",
         "en": "One more rule, number 10, and it’s this one: Be brief.",
         "ipa": "/wʌn mɔr rul, ˈnʌmbər tɛn, ənd ɪts ðɪs wʌn: bi brif/",
@@ -95639,8 +95466,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 137,
-        "start": 633.0,
-        "end": 635.83,
+        "start": 620.17,
+        "end": 623.0,
         "speaker": "Speaker",
         "en": "Be interested in other people.",
         "ipa": "/bi ˈɪntrɪstɪd ɪn ˈʌðər ˈpipəl/",
@@ -95655,8 +95482,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 138,
-        "start": 635.9,
-        "end": 640.4,
+        "start": 623.07,
+        "end": 627.57,
         "speaker": "Speaker",
         "en": "You know, I grew up with a very famous grandfather, and there was kind of a ritual in my home.",
         "ipa": "/ju noʊ, aɪ gru ʌp wɪð ə ˈvɛri ˈfeɪməs ˈgrændˌfɑðər, ənd ðɛr wʌz kaɪnd ʌv ə ˈrɪtʃuəl ɪn maɪ hoʊm/",
@@ -95671,8 +95498,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 139,
-        "start": 640.46,
-        "end": 648.09,
+        "start": 627.63,
+        "end": 635.26,
         "speaker": "Speaker",
         "en": "People would come over to talk to my grandparents, and after they would leave, my mother would come over to us, and she’d say, “Do you know who that was?",
         "ipa": "/ˈpipəl wʊd kʌm ˈoʊvər tu tɔk tu maɪ ˈgrændˌpɛrənts, ənd ˈæftər ðeɪ wʊd liv, maɪ ˈmʌðər wʊd kʌm ˈoʊvər tu ʌs ænd ʃid seɪ, “du ju noʊ hu ðæt wʌz/",
@@ -95692,8 +95519,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 140,
-        "start": 648.13,
-        "end": 649.99,
+        "start": 635.3,
+        "end": 637.16,
         "speaker": "Speaker",
         "en": "She was the runner-up to Miss America.",
         "ipa": "/ʃi wʌz ðə ˈrʌnərˌʌp tu mɪs əˈmɛrɪkə/",
@@ -95708,8 +95535,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 141,
-        "start": 650.03,
-        "end": 651.72,
+        "start": 637.2,
+        "end": 638.89,
         "speaker": "Speaker",
         "en": "He was the mayor of Sacramento.",
         "ipa": "/hi wʌz ðə ˈmeɪər ʌv ˈsækrəˌmɛntoʊ/",
@@ -95724,8 +95551,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 142,
-        "start": 651.76,
-        "end": 652.97,
+        "start": 638.93,
+        "end": 640.14,
         "speaker": "Speaker",
         "en": "She won a Pulitzer Prize.",
         "ipa": "/ʃi wʌn ə ˈpʊlɪtsər praɪz/",
@@ -95740,8 +95567,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 143,
-        "start": 653.01,
-        "end": 654.5,
+        "start": 640.18,
+        "end": 641.67,
         "speaker": "Speaker",
         "en": "He's a Russian ballet dancer.\"",
         "ipa": "/hiz ə ˈrʌʃən bæˈleɪ ˈdænsər.\"",
@@ -95756,8 +95583,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 144,
-        "start": 654.56,
-        "end": 660.76,
+        "start": 641.73,
+        "end": 647.93,
         "speaker": "Speaker",
         "en": "And I kind of grew up assuming everyone has some hidden, amazing thing about them.",
         "ipa": "/ænd aɪ kaɪnd ʌv gru ʌp əˈsumɪŋ ˈɛvriˌwʌn hæz sʌm ˈhɪdən, əˈmeɪzɪŋ θɪŋ əˈbaʊt ðɛm/",
@@ -95772,8 +95599,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 145,
-        "start": 661.36,
-        "end": 664.26,
+        "start": 648.53,
+        "end": 651.43,
         "speaker": "Speaker",
         "en": "And honestly, I think it's what makes me a better host.",
         "ipa": "/ænd ˈɑnəstli, aɪ θɪŋk ɪts hwʌt meɪks mi ə ˈbɛtər hoʊst/",
@@ -95788,8 +95615,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 146,
-        "start": 664.8,
-        "end": 667.6,
+        "start": 651.97,
+        "end": 654.77,
         "speaker": "Speaker",
         "en": "I keep my mouth shut as often as I possibly can.",
         "ipa": "/aɪ kip maɪ maʊθ ʃʌt æz ˈɔfən æz aɪ ˈpɑsəbli kæn/",
@@ -95804,8 +95631,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 147,
-        "start": 667.66,
-        "end": 669.56,
+        "start": 654.83,
+        "end": 656.73,
         "speaker": "Speaker",
         "en": "I keep my mind open.",
         "ipa": "/aɪ kip maɪ maɪnd ˈoʊpən/",
@@ -95820,8 +95647,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 148,
-        "start": 669.63,
-        "end": 674.4,
+        "start": 656.8,
+        "end": 661.57,
         "speaker": "Speaker",
         "en": "And I’m always prepared to be amazed, and I'm never disappointed.",
         "ipa": "/ænd aɪm ˈɔlweɪz prɪˈpɛrd tu bi əˈmeɪzd, ənd aɪm ˈnɛvər ˌdɪsəˈpɔɪntɪd/",
@@ -95836,8 +95663,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 149,
-        "start": 674.46,
-        "end": 676.16,
+        "start": 661.63,
+        "end": 663.33,
         "speaker": "Speaker",
         "en": "You do the same thing.",
         "ipa": "/ju du ðə seɪm θɪŋ/",
@@ -95852,8 +95679,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 150,
-        "start": 676.26,
-        "end": 683.43,
+        "start": 663.43,
+        "end": 670.6,
         "speaker": "Speaker",
         "en": "Go out, talk to people, listen to people, and, most importantly, be prepared to be amazed.",
         "ipa": "/goʊ aʊt, tɔk tu ˈpipəl, ˈlɪsən tu ˈpipəl, ənd, moʊst ɪmˈpɔrtəntli, bi prɪˈpɛrd tu bi əˈmeɪzd/",
@@ -95868,8 +95695,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 151,
-        "start": 684.03,
-        "end": 685.2,
+        "start": 671.2,
+        "end": 672.37,
         "speaker": "Speaker",
         "en": "Thanks.",
         "ipa": "/ðæŋks/",
@@ -95892,8 +95719,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
-    "durationSec": 667,
-    "durationLabel": "11:07",
+    "durationSec": 663,
+    "durationLabel": "11:03",
     "date": "2026/09/14",
     "tags": [
       "个人成长",
@@ -95901,293 +95728,289 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED.webp",
-    "mediaUrl": "./content/episodes/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED.f399.mp4",
-    "audioUrl": "./content/episodes/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED.f140.m4a",
+    "mediaUrl": "./content/episodes/trimmed/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED.f399.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED.f399.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "个人成长",
     "skipRanges": [
       [
-        0.0,
-        4.26
+        5.06,
+        6.88
       ],
       [
-        9.32,
-        11.14
+        13.94,
+        14.5
       ],
       [
-        18.2,
-        18.76
+        22.74,
+        23.82
       ],
       [
-        27.0,
-        28.08
+        26.66,
+        27.62
       ],
       [
-        30.92,
-        31.88
+        42.16,
+        43.12
       ],
       [
-        46.42,
-        47.38
+        44.48,
+        45.0
       ],
       [
-        48.74,
-        49.26
+        48.78,
+        50.54
       ],
       [
-        53.04,
-        54.8
+        52.24,
+        52.76
       ],
       [
-        56.5,
-        57.02
+        56.92,
+        57.6
       ],
       [
-        61.18,
-        61.86
+        59.98,
+        60.96
       ],
       [
-        64.24,
-        65.22
+        64.64,
+        65.52
       ],
       [
-        68.9,
-        69.78
+        68.28,
+        69.28
       ],
       [
-        72.54,
-        73.54
+        73.88,
+        75.68
       ],
       [
-        78.14,
-        79.94
+        82.74,
+        83.86
       ],
       [
-        87.0,
-        88.12
+        88.06,
+        88.92
       ],
       [
-        92.32,
-        93.18
+        93.78,
+        94.58
       ],
       [
-        98.04,
-        98.84
+        101.36,
+        104.0
       ],
       [
-        105.62,
-        108.26
+        118.28,
+        118.98
       ],
       [
-        122.54,
-        123.24
+        123.34,
+        123.96
       ],
       [
-        127.6,
-        128.22
+        135.2,
+        135.92
       ],
       [
-        139.46,
-        140.18
+        141.48,
+        142.22
       ],
       [
-        145.74,
-        146.48
+        143.36,
+        144.56
       ],
       [
-        147.62,
-        148.82
+        159.22,
+        160.28
       ],
       [
-        163.48,
-        164.54
+        163.98,
+        164.88
       ],
       [
-        168.24,
-        169.14
+        186.9,
+        187.82
       ],
       [
-        191.16,
-        192.08
+        211.74,
+        212.48
       ],
       [
-        216.0,
-        216.74
+        216.04,
+        217.8
       ],
       [
-        220.3,
-        222.06
+        219.74,
+        221.44
       ],
       [
-        224.0,
-        225.7
+        234.28,
+        235.02
       ],
       [
-        238.54,
-        239.28
+        246.24,
+        247.46
       ],
       [
-        250.5,
-        251.72
+        251.92,
+        252.44
       ],
       [
-        256.18,
-        256.7
+        261.82,
+        262.36
       ],
       [
-        266.08,
-        266.62
+        271.28,
+        272.16
       ],
       [
-        275.54,
-        276.42
+        280.06,
+        281.38
       ],
       [
-        284.32,
-        285.64
+        297.34,
+        298.14
       ],
       [
-        301.6,
-        302.4
+        302.98,
+        304.24
       ],
       [
-        307.24,
-        308.5
+        312.82,
+        313.98
       ],
       [
-        317.08,
-        318.24
+        323.64,
+        324.18
       ],
       [
-        327.9,
-        328.44
+        330.94,
+        332.12
       ],
       [
-        335.2,
-        336.38
+        349.66,
+        351.18
       ],
       [
-        353.92,
-        355.44
+        358.7,
+        359.5
       ],
       [
-        362.96,
-        363.76
+        363.28,
+        364.62
       ],
       [
-        367.54,
-        368.88
+        375.4,
+        375.92
       ],
       [
-        379.66,
-        380.18
+        384.7,
+        385.64
       ],
       [
-        388.96,
-        389.9
+        389.98,
+        390.58
       ],
       [
-        394.24,
-        394.84
+        410.84,
+        412.4
       ],
       [
-        415.1,
-        416.66
+        420.02,
+        420.7
       ],
       [
-        424.28,
-        424.96
+        439.68,
+        440.26
       ],
       [
-        443.94,
-        444.52
+        444.82,
+        445.56
       ],
       [
-        449.08,
-        449.82
+        450.64,
+        451.74
       ],
       [
-        454.9,
-        456.0
+        460.66,
+        462.18
       ],
       [
-        464.92,
-        466.44
+        479.44,
+        480.02
       ],
       [
-        483.7,
-        484.28
+        493.94,
+        495.16
       ],
       [
-        498.2,
-        499.42
+        523.74,
+        524.66
       ],
       [
-        528.0,
-        528.92
+        540.2,
+        541.64
       ],
       [
-        544.46,
-        545.9
+        548.02,
+        549.0
       ],
       [
-        552.28,
-        553.26
+        566.44,
+        567.2
       ],
       [
-        570.7,
-        571.46
+        584.98,
+        586.82
       ],
       [
-        589.24,
-        591.08
+        603.06,
+        603.78
       ],
       [
-        607.32,
-        608.04
+        605.24,
+        605.92
       ],
       [
-        609.5,
-        610.18
+        611.98,
+        612.8
       ],
       [
-        616.24,
-        617.06
+        617.36,
+        618.1
       ],
       [
-        621.62,
-        622.36
+        629.56,
+        630.26
       ],
       [
-        633.82,
-        634.52
+        636.64,
+        637.92
       ],
       [
-        640.9,
-        642.18
+        641.32,
+        642.88
       ],
       [
-        645.58,
-        647.14
+        651.16,
+        652.5
       ],
       [
-        655.42,
-        656.76
+        657.4,
+        658.46
       ],
       [
-        661.66,
-        662.72
-      ],
-      [
-        663.84,
-        667.41
+        659.58,
+        663.15
       ]
     ],
     "sentences": [
       {
         "id": 1,
-        "start": 4.26,
-        "end": 9.32,
+        "start": 0.0,
+        "end": 5.06,
         "speaker": "Speaker",
         "en": "I want to be long-winded and unclear.",
         "ipa": "/aɪ wɑnt tu bi lɔŋ ˈwɪndɪd ænd ˌʌnˈklɪr/",
@@ -96202,8 +96025,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 11.14,
-        "end": 12.94,
+        "start": 6.88,
+        "end": 8.68,
         "speaker": "Speaker",
         "en": "It's not a common opening line.",
         "ipa": "/ɪts nɑt ə ˈkɑmən ˈoʊpənɪŋ laɪn/",
@@ -96218,8 +96041,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 13.36,
-        "end": 18.2,
+        "start": 9.1,
+        "end": 13.94,
         "speaker": "Speaker",
         "en": "Most people won't tell us when they're going to be long-winded, but we know.",
         "ipa": "/moʊst ˈpipəl woʊnt tɛl ʌs wɛn ðɛr ˈgoʊɪŋ tu bi lɔŋ ˈwɪndɪd, bʌt wi noʊ/",
@@ -96234,8 +96057,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 18.76,
-        "end": 27.0,
+        "start": 14.5,
+        "end": 22.74,
         "speaker": "Speaker",
         "en": "We can tell pretty quickly if someone’s going to get to the point or if we are in for a long and painful conversation.",
         "ipa": "/wi kən tɛl ˈprɪti ˈkwɪkli ɪf ˈsʌmwʌnz ˈgoʊɪŋ tu gɛt tu ðə pɔɪnt ɔr ɪf wi ɑr ɪn fɔr ə lɔŋ ænd ˈpeɪnfəl ˌkɑnvərˈseɪʃən/",
@@ -96255,8 +96078,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 28.08,
-        "end": 30.92,
+        "start": 23.82,
+        "end": 26.66,
         "speaker": "Speaker",
         "en": "And this is especially true at work.",
         "ipa": "/ænd ðɪs ɪz ɪˈspɛʃəli tru æt wɜrk/",
@@ -96271,8 +96094,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 31.88,
-        "end": 38.72,
+        "start": 27.62,
+        "end": 34.46,
         "speaker": "Speaker",
         "en": "Every year, poor communication costs businesses hundreds of billions of dollars in lost productivity.",
         "ipa": "/ˈɛvri jɪr, pur kəˌmjunəˈkeɪʃən kɔsts ˈbɪznəsɪz ˈhʌndrədz ʌv ˈbɪljənz ʌv ˈdɑlərz ɪn lɔst ˌprʌdʌkˈtɪvəti/",
@@ -96287,8 +96110,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 39.1,
-        "end": 46.42,
+        "start": 34.84,
+        "end": 42.16,
         "speaker": "Speaker",
         "en": "And I have to confess, in the early part of my career, I was responsible for at least some of that.",
         "ipa": "/ænd aɪ hæv tu kənˈfɛs, ɪn ði ˈɜrli pɑrt ʌv maɪ kəˈrɪr, aɪ wʌz rɪˈspɑnsəbəl fɔr æt liːst sʌm ʌv ðæt/",
@@ -96308,8 +96131,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 47.38,
-        "end": 48.74,
+        "start": 43.12,
+        "end": 44.48,
         "speaker": "Speaker",
         "en": "But I'm not alone.",
         "ipa": "/bʌt aɪm nɑt əˈloʊn/",
@@ -96324,8 +96147,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 49.26,
-        "end": 53.04,
+        "start": 45.0,
+        "end": 48.78,
         "speaker": "Speaker",
         "en": "Hands up if you work with someone who is long winded or unclear.",
         "ipa": "/hændz ʌp ɪf ju wɜrk wɪð ˈsʌmwʌn hu ɪz lɔŋ ˈwɪndɪd ɔr ˌʌnˈklɪr/",
@@ -96340,8 +96163,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 54.8,
-        "end": 56.5,
+        "start": 50.54,
+        "end": 52.24,
         "speaker": "Speaker",
         "en": "That's a lot of hands.",
         "ipa": "/ðæts ə lɑt ʌv hændz/",
@@ -96356,8 +96179,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 57.02,
-        "end": 61.18,
+        "start": 52.76,
+        "end": 56.92,
         "speaker": "Speaker",
         "en": "Now I’m sure we are all thinking about people outside this room, right?",
         "ipa": "/naʊ aɪm ʃʊr wi ɑr ɔl ˈθɪŋkɪŋ əˈbaʊt ˈpipəl ˈaʊtˈsaɪd ðɪs rum, raɪt/",
@@ -96372,8 +96195,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 61.86,
-        "end": 64.24,
+        "start": 57.6,
+        "end": 59.98,
         "speaker": "Speaker",
         "en": "Except for those of you pointing at each other.",
         "ipa": "/ɪkˈsɛpt fɔr ðoʊz ʌv ju ˈpɔɪntɪŋ æt ˈiʧ ˈʌðər/",
@@ -96388,8 +96211,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 65.22,
-        "end": 68.9,
+        "start": 60.96,
+        "end": 64.64,
         "speaker": "Speaker",
         "en": "But what would happen if we asked the people outside this room?",
         "ipa": "/bʌt wʌt wʊd ˈhæpən ɪf wi æskt ðə ˈpipəl ˈaʊtˈsaɪd ðɪs rum/",
@@ -96404,8 +96227,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 69.78,
-        "end": 72.54,
+        "start": 65.52,
+        "end": 68.28,
         "speaker": "Speaker",
         "en": "They might be thinking about us.",
         "ipa": "/ðeɪ maɪt bi ˈθɪŋkɪŋ əˈbaʊt ʌs/",
@@ -96420,8 +96243,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 73.54,
-        "end": 78.14,
+        "start": 69.28,
+        "end": 73.88,
         "speaker": "Speaker",
         "en": "And while our goal is to be clear and concise, do we really know how?",
         "ipa": "/ænd waɪl ˈaʊər goʊl ɪz tu bi klɪr ænd kənˈsaɪs, du wi ˈrɪəli noʊ haʊ/",
@@ -96436,8 +96259,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 79.94,
-        "end": 87.0,
+        "start": 75.68,
+        "end": 82.74,
         "speaker": "Speaker",
         "en": "Every time we communicate, we have an opportunity to create clarity or confusion.",
         "ipa": "/ˈɛvri taɪm wi kəˈmjunəˌkeɪt, wi hæv ən ˌɑpərˈtunəti tu kriˈeɪt ˈklɛrəti ɔr kənˈfjuʒən/",
@@ -96457,8 +96280,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 88.12,
-        "end": 92.32,
+        "start": 83.86,
+        "end": 88.06,
         "speaker": "Speaker",
         "en": "And clarity begins from the very first minute.",
         "ipa": "/ænd ˈklɛrəti bɪˈgɪnz frʌm ðə ˈvɛri fɜrst ˈmɪnɪt/",
@@ -96473,8 +96296,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 93.18,
-        "end": 98.04,
+        "start": 88.92,
+        "end": 93.78,
         "speaker": "Speaker",
         "en": "If you get the first minute right, you set your conversation up for success.",
         "ipa": "/ɪf ju gɛt ðə fɜrst ˈmɪnɪt raɪt, ju sɛt jʊr ˌkɑnvərˈseɪʃən ʌp fɔr səkˈsɛs/",
@@ -96494,8 +96317,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 98.84,
-        "end": 105.62,
+        "start": 94.58,
+        "end": 101.36,
         "speaker": "Speaker",
         "en": "Get it wrong, and your conversations will be longer, less effective and more frustrating.",
         "ipa": "/gɛt ɪt rɔŋ, ænd jʊr ˌkɑnvərˈseɪʃənz wɪl bi ˈlɔŋgər, lɛs ɪˈfɛktɪv ænd mɔr ˈfrʌstreɪtɪŋ/",
@@ -96515,8 +96338,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 108.26,
-        "end": 116.88,
+        "start": 104.0,
+        "end": 112.62,
         "speaker": "Speaker",
         "en": "Now on the off chance we could all use a little more clarity, I'm going to share a tip with you today.",
         "ipa": "/naʊ ɑn ði ɔf ʧæns wi kʊd ɔl juz ə ˈlɪtəl mɔr ˈklɛrəti, aɪm ˈgoʊɪŋ tu ʃɛr ə tɪp wɪð ju təˈdeɪ/",
@@ -96536,8 +96359,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 116.92,
-        "end": 122.54,
+        "start": 112.66,
+        "end": 118.28,
         "speaker": "Speaker",
         "en": "A tip that will help each of you improve the success of your communication at work.",
         "ipa": "/ə tɪp ðæt wɪl hɛlp iʧ ʌv ju ɪmˈpruv ðə səkˈsɛs ʌv jʊr kəˌmjunəˈkeɪʃən æt wɜrk/",
@@ -96552,8 +96375,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 123.24,
-        "end": 127.6,
+        "start": 118.98,
+        "end": 123.34,
         "speaker": "Speaker",
         "en": "A tip that has been tested by more than 75,000 people around the world.",
         "ipa": "/ə tɪp ðæt hæz bɪn ˈtɛstɪd baɪ mɔr ðæn ˈsɛvəti-faɪv ˈθaʊzənd ˈpipəl əˈraʊnd ðə wɜrld/",
@@ -96568,8 +96391,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 128.22,
-        "end": 132.44,
+        "start": 123.96,
+        "end": 128.18,
         "speaker": "Speaker",
         "en": "And a tip that will help each of you get the first minute right.",
         "ipa": "/ænd ə tɪp ðæt wɪl hɛlp iʧ ʌv ju gɛt ðə fɜrst ˈmɪnɪt raɪt/",
@@ -96584,8 +96407,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 132.9,
-        "end": 134.08,
+        "start": 128.64,
+        "end": 129.82,
         "speaker": "Speaker",
         "en": "And here it is.",
         "ipa": "/ænd hɪr ɪt ɪz/",
@@ -96600,8 +96423,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 134.12,
-        "end": 139.46,
+        "start": 129.86,
+        "end": 135.2,
         "speaker": "Speaker",
         "en": "There are three things we must include at the start of our work messages.",
         "ipa": "/ðɛr ɑr θri θɪŋz wi mʌst ɪnˈklud æt ðə stɑrt ʌv ˈaʊər wɜrk ˈmɛsəjɪz/",
@@ -96621,8 +96444,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 140.18,
-        "end": 145.74,
+        "start": 135.92,
+        "end": 141.48,
         "speaker": "Speaker",
         "en": "And those three things begin with T, I and P.",
         "ipa": "/ænd ðoʊz θri θɪŋz bɪˈgɪn wɪð ti, aɪ ænd pɪp/",
@@ -96637,8 +96460,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 146.48,
-        "end": 147.62,
+        "start": 142.22,
+        "end": 143.36,
         "speaker": "Speaker",
         "en": "It's a TIP.",
         "ipa": "/ɪts ə tɪp/",
@@ -96653,8 +96476,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 148.82,
-        "end": 153.56,
+        "start": 144.56,
+        "end": 149.3,
         "speaker": "Speaker",
         "en": "Now the first part of the tip is the T, and T stands for topic.",
         "ipa": "/naʊ ðə fɜrst pɑrt ʌv ðə tɪp ɪz ðə ti, ænd ti stændz fɔr ˈtɑpɪk/",
@@ -96674,8 +96497,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 153.86,
-        "end": 156.42,
+        "start": 149.6,
+        "end": 152.16,
         "speaker": "Speaker",
         "en": "Every conversation at work needs a clear topic.",
         "ipa": "/ˈɛvri ˌkɑnvərˈseɪʃən æt wɜrk nidz ə klɪr ˈtɑpɪk/",
@@ -96690,8 +96513,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 156.46,
-        "end": 160.38,
+        "start": 152.2,
+        "end": 156.12,
         "speaker": "Speaker",
         "en": "When the topic is clear, everyone knows what we're talking about.",
         "ipa": "/wɛn ðə ˈtɑpɪk ɪz klɪr, ˈɛvriwʌn noʊz wʌt wɪr ˈtɑkɪŋ əˈbaʊt/",
@@ -96706,8 +96529,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 160.42,
-        "end": 161.66,
+        "start": 156.16,
+        "end": 157.4,
         "speaker": "Speaker",
         "en": "Everyone's in sync.",
         "ipa": "/ˈɛvriwʌnz ɪn sɪŋk/",
@@ -96722,8 +96545,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 161.7,
-        "end": 163.48,
+        "start": 157.44,
+        "end": 159.22,
         "speaker": "Speaker",
         "en": "Everybody understands.",
         "ipa": "/ˈɛvriˌbɑdi ˌʌndərˈstændz/",
@@ -96738,8 +96561,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 164.54,
-        "end": 168.24,
+        "start": 160.28,
+        "end": 163.98,
         "speaker": "Speaker",
         "en": "Unfortunately, reality isn't always like this, is it?",
         "ipa": "/ʌnˈfɔrʧənətli, riˈæləti ˈɪzənt ˈɔlweɪz laɪk ðɪs, ɪz ɪt/",
@@ -96759,8 +96582,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 169.14,
-        "end": 174.96,
+        "start": 164.88,
+        "end": 170.7,
         "speaker": "Speaker",
         "en": "How often are you in a conversation and you find yourself thinking, what are you talking about?",
         "ipa": "/haʊ ˈɔfən ɑr jʊr ɪn ə ˌkɑnvərˈseɪʃən ænd ju faɪnd jʊrˈsɛlf ˈθɪŋkɪŋ, wʌt ɑr ju ˈtɑkɪŋ əˈbaʊt/",
@@ -96775,8 +96598,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 175.0,
-        "end": 180.32,
+        "start": 170.74,
+        "end": 176.06,
         "speaker": "Speaker",
         "en": "That happens when the topic is not clear.",
         "ipa": "/(ˈlæftər) ðæt ˈhæpənz wɛn ðə ˈtɑpɪk ɪz nɑt klɪr/",
@@ -96791,8 +96614,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 180.74,
-        "end": 191.16,
+        "start": 176.48,
+        "end": 186.9,
         "speaker": "Speaker",
         "en": "Now usually the consequences are pretty minor -- a little bit of wasted time, some minor frustration -- but sometimes, the consequences are more significant.",
         "ipa": "/naʊ ˈjuːʒuəli ðə ˈkɑːnsəkwənsɪz ɑːr ˈprɪti ˈmaɪnər -- ə ˈlɪtəl bɪt əv ˈweɪstɪd taɪm, sʌm ˈmaɪnər frʌˈstreɪʃən -- bʌt ˈsʌmtaɪmz, ðə ˈkɑːnsəkwənsɪz ɑːr mɔːr sɪɡˈnɪfɪkənt/",
@@ -96817,8 +96640,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 192.08,
-        "end": 199.14,
+        "start": 187.82,
+        "end": 194.88,
         "speaker": "Speaker",
         "en": "In 2006, I was part of an engineering team writing a bid -- a proposal -- that was worth a lot of money to our company.",
         "ipa": "/ɪn ˈtwɛntɪ ˈzɪroʊ ˈsɪks, aɪ wʌz pɑːrt əv ən ˌɛndʒɪˈnɪərɪŋ tiːm ˈraɪtɪŋ ə bɪd -- ə prəˈpoʊzəl -- ðæt wʌz wɜːrθ ə lɑːt əv ˈmʌni tuː ˈaʊər ˈkʌmpəni/",
@@ -96838,8 +96661,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 199.58,
-        "end": 206.6,
+        "start": 195.32,
+        "end": 202.34,
         "speaker": "Speaker",
         "en": "And a couple of days before the big meeting, my boss came up to me and said, \"Hey, Chris, I need you to change the meeting from Tuesday to Thursday.\"",
         "ipa": "/ænd ə ˈkʌpəl əv deɪz bɪˈfɔːr ðə bɪɡ ˈmiːtɪŋ, maɪ bɑːs keɪm ʌp tuː miː aɪnd sɛd heɪ, krɪs, aɪ niːd juː tuː tʃeɪndʒ ðə ˈmiːtɪŋ frʌm ˈtuːzdeɪ tuː ˈθɜːrzdeɪ/",
@@ -96859,8 +96682,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 206.64,
-        "end": 208.94,
+        "start": 202.38,
+        "end": 204.68,
         "speaker": "Speaker",
         "en": "So off I went and I changed the meeting.",
         "ipa": "/soʊ ɔːf aɪ wɛnt ænd aɪ tʃeɪndʒd ðə ˈmiːtɪŋ/",
@@ -96875,8 +96698,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 208.98,
-        "end": 213.22,
+        "start": 204.72,
+        "end": 208.96,
         "speaker": "Speaker",
         "en": "I typed an email, sent it to the client saying, \"Something’s come up, we've got to change.\"",
         "ipa": "/aɪ taɪpt ən ˈiːmeɪl, sɛnt ɪt tuː ðə ˈklaɪənt ˈseɪɪŋ, ˈsʌmθɪŋz kʌm ʌp, wiːv ɡɑːt tuː tʃeɪndʒ/",
@@ -96896,8 +96719,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 213.26,
-        "end": 216.0,
+        "start": 209.0,
+        "end": 211.74,
         "speaker": "Speaker",
         "en": "And about a minute after I hit send, my phone rings.",
         "ipa": "/ænd əˈbaʊt ə ˈmɪnɪt ˈæftər aɪ hɪt sɛnd, maɪ foʊn rɪŋz/",
@@ -96912,8 +96735,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 216.74,
-        "end": 218.14,
+        "start": 212.48,
+        "end": 213.88,
         "speaker": "Speaker",
         "en": "It's my boss.",
         "ipa": "/ɪts maɪ bɑːs/",
@@ -96922,8 +96745,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 218.18,
-        "end": 224.0,
+        "start": 213.92,
+        "end": 219.74,
         "speaker": "Speaker",
         "en": "He had one question: \"Why did you change the meeting?\"",
         "ipa": "/hiː hæd wʌn ˈkwɛstʃən waɪ dɪd juː tʃeɪndʒ ðə ˈmiːtɪŋ/",
@@ -96948,8 +96771,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 225.7,
-        "end": 231.76,
+        "start": 221.44,
+        "end": 227.5,
         "speaker": "Speaker",
         "en": "You see, he was talking about our one-to-one, and I was thinking about the client meeting.",
         "ipa": "/juː siː, hiː wʌz ˈtɔːkɪŋ əˈbaʊt ˈaʊər wʌn tuː wʌn, ænd aɪ wʌz ˈθɪŋkɪŋ əˈbaʊt ðə ˈklaɪənt ˈmiːtɪŋ/",
@@ -96964,8 +96787,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 232.26,
-        "end": 238.54,
+        "start": 228.0,
+        "end": 234.28,
         "speaker": "Speaker",
         "en": "The lack of a clear topic meant he and I were thinking about two very different things.",
         "ipa": "/ðə læk əv ə klɪr ˈtɑːpɪk mɛnt hiː ænd aɪ wɜːr ˈθɪŋkɪŋ əˈbaʊt tuː ˈvɛri ˈdɪfrənt θɪŋz/",
@@ -96980,8 +96803,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 239.28,
-        "end": 250.5,
+        "start": 235.02,
+        "end": 246.24,
         "speaker": "Speaker",
         "en": "Now that might be the single biggest contribution I’ve made to the cost of bad communication, but it also marks the moment at which I began to be interested in improving how we communicate at work.",
         "ipa": "/naʊ ðæt maɪt biː ðə ˈsɪŋɡəl ˈbɪɡɪst ˌkɑːntrɪˈbjuːʃən aɪv meɪd tuː ðə kɑːst əv bæd ˌkɑːmjuːnɪˈkeɪʃən, bʌt ɪt ˈɔːlsoʊ mɑːrks ðə ˈmoʊmənt æt wɪtʃ aɪ bɪˈɡæn tuː biː ˈɪntrɪstɪd ɪn ɪmˈпруːvɪŋ haʊ wiː kəˈmjuːnɪkeɪt æt wɜːrk/",
@@ -97006,8 +96829,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 251.72,
-        "end": 254.62,
+        "start": 247.46,
+        "end": 250.36,
         "speaker": "Speaker",
         "en": "So all our messages have to begin with a clear topic.",
         "ipa": "/soʊ ɔːl ˈaʊər ˈmɛsɪdʒɪz hæv tuː bɪˈɡɪn wɪθ ə klɪr ˈtɑːpɪk/",
@@ -97022,8 +96845,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 254.66,
-        "end": 255.09,
+        "start": 250.4,
+        "end": 250.83,
         "speaker": "Speaker",
         "en": "But how?",
         "ipa": "/bʌt haʊ/",
@@ -97032,8 +96855,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 255.13,
-        "end": 256.18,
+        "start": 250.87,
+        "end": 251.92,
         "speaker": "Speaker",
         "en": "How do we do this?",
         "ipa": "/haʊ duː wiː duː ðɪs/",
@@ -97042,8 +96865,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 256.7,
-        "end": 258.14,
+        "start": 252.44,
+        "end": 253.88,
         "speaker": "Speaker",
         "en": "It's really easy.",
         "ipa": "/ɪts ˈriːəli ˈiːzi/",
@@ -97052,8 +96875,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 258.46,
-        "end": 266.08,
+        "start": 254.2,
+        "end": 261.82,
         "speaker": "Speaker",
         "en": "Start your message with one sentence that names the topic you want to talk about, and the more specific, the better.",
         "ipa": "/stɑːrt jʊər ˈmɛsɪdʒ wɪθ wʌn ˈsɛntəns ðæt neɪmz ðə ˈtɑːpɪk juː wɑːnt tuː tɔːk əˈbaʊt, ænd ðə mɔːr spɪˈsɪfɪk, ðə ˈbɛtər/",
@@ -97068,8 +96891,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 266.62,
-        "end": 269.56,
+        "start": 262.36,
+        "end": 265.3,
         "speaker": "Speaker",
         "en": "You could say, \"I'd like to talk about July sales figures.\"",
         "ipa": "/juː kʊd seɪ, aɪd laɪk tuː tɔːk əˈbaʊt dʒuˈlaɪ seɪlz ˈfɪɡjərz/",
@@ -97084,8 +96907,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 269.6,
-        "end": 272.54,
+        "start": 265.34,
+        "end": 268.28,
         "speaker": "Speaker",
         "en": "\"I want to talk about Project Everest's timeline.\"",
         "ipa": "/aɪ wɑːnt tuː tɔːk əˈbaʊt ˈprɑːdʒɛkt ˈɛvərɪsts ˈtaɪmˌlaɪn/",
@@ -97100,8 +96923,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 272.58,
-        "end": 275.54,
+        "start": 268.32,
+        "end": 271.28,
         "speaker": "Speaker",
         "en": "Or \"Can I talk about our one-to-one this week?\"",
         "ipa": "/ɔːr kæn aɪ tɔːk əˈbaʊt ˈaʊər wʌn tuː wʌn ðɪs wiːk/",
@@ -97110,8 +96933,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 276.42,
-        "end": 280.76,
+        "start": 272.16,
+        "end": 276.5,
         "speaker": "Speaker",
         "en": "One message, one sentence that lets your audience know what the topic is.",
         "ipa": "/wʌn ˈmɛsɪdʒ, wʌn ˈsɛntəns ðæt lɛts jʊər ˈɔːdiəns noʊ wʌt ðə ˈtɑːpɪk ɪz/",
@@ -97126,8 +96949,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 280.8,
-        "end": 284.32,
+        "start": 276.54,
+        "end": 280.06,
         "speaker": "Speaker",
         "en": "They won't be thinking, \"What are you talking about?\"",
         "ipa": "/ðeɪ woʊnt biː ˈθɪŋkɪŋ, wʌt ɑːr juː ˈtɔːkɪŋ əˈbaʊt/",
@@ -97142,8 +96965,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 285.64,
-        "end": 289.74,
+        "start": 281.38,
+        "end": 285.48,
         "speaker": "Speaker",
         "en": "Now having a clear topic is a great start, but it's not enough.",
         "ipa": "/naʊ ˈhævɪŋ ə klɪr ˈtɑːpɪk ɪz ə ɡreɪt stɑːrt, bʌt ɪts nɑːt ɪˈnʌf/",
@@ -97158,8 +96981,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 289.78,
-        "end": 294.3,
+        "start": 285.52,
+        "end": 290.04,
         "speaker": "Speaker",
         "en": "We need the second part of the tip, which is the I.",
         "ipa": "/wiː niːd ðə ˈsɛkənd pɑːrt əv ðə tɪp, wɪtʃ ɪz ði aɪ/",
@@ -97168,8 +96991,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 294.34,
-        "end": 296.64,
+        "start": 290.08,
+        "end": 292.38,
         "speaker": "Speaker",
         "en": "And I stands for intent.",
         "ipa": "/ænd aɪ stændz fɔːr ɪnˈtɛnt/",
@@ -97189,8 +97012,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 296.68,
-        "end": 301.6,
+        "start": 292.42,
+        "end": 297.34,
         "speaker": "Speaker",
         "en": "Intent is what we want the other person to do with our message.",
         "ipa": "/ɪnˈtɛnt ɪz wʌt wiː wɑːnt ði ˈʌðər ˈpɜːrsən tuː duː wɪθ ˈaʊər ˈmɛsɪdʒ/",
@@ -97205,8 +97028,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 302.4,
-        "end": 307.24,
+        "start": 298.14,
+        "end": 302.98,
         "speaker": "Speaker",
         "en": "Have you ever been in a conversation and a few minutes in thought, \"Why are you telling me this?\"",
         "ipa": "/hæv juː ˈɛvər biːn ɪn ə ˌkɑːnvərˈseɪʃən ænd ə fjuː ˈmɪnɪts ɪn θɔːt, waɪ ɑːr juː ˈtɛlɪŋ miː ðɪs/",
@@ -97221,8 +97044,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 308.5,
-        "end": 317.08,
+        "start": 304.24,
+        "end": 312.82,
         "speaker": "Speaker",
         "en": "That happens when the intent isn't clear, when the speaker hasn't told you what to do with the information that they are giving you.",
         "ipa": "/ðæt ˈhæpənz wɛn ði ɪnˈtɛnt ˈɪzənt klɪr, wɛn ðə ˈspiːkər ˈhæzənt toʊld juː wʌt tuː duː wɪθ ði ˌɪnfərˈmeɪʃən ðæt ðeɪ ɑːr ˈɡɪvɪŋ juː/",
@@ -97237,8 +97060,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 318.24,
-        "end": 327.9,
+        "start": 313.98,
+        "end": 323.64,
         "speaker": "Speaker",
         "en": "Now there’s a process in our brains called selective attention, and this filters incoming information and tells you what is important and what is not.",
         "ipa": "/naʊ ðɛrz ə ˈprɑːsɛs ɪn ˈaʊər breɪnz kɔːld sɪˈlɛktɪv əˈtɛnʃən, ænd ðɪs ˈfɪltərz ˈɪnkʌmɪŋ ˌɪnfərˈmeɪʃən ænd tɛlz juː wʌt ɪz ɪmˈpɔːrtənt ænd wʌt ɪz nɑːt/",
@@ -97258,8 +97081,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 328.44,
-        "end": 333.24,
+        "start": 324.18,
+        "end": 328.98,
         "speaker": "Speaker",
         "en": "And if you don't know what to do with a message, your brain says, not important.",
         "ipa": "/ænd ɪf juː doʊnt noʊ wʌt tuː duː wɪθ ə ˈmɛsɪdʒ, jʊər breɪn sɛz, nɑːt ɪmˈpɔːrtənt/",
@@ -97274,8 +97097,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 333.28,
-        "end": 335.2,
+        "start": 329.02,
+        "end": 330.94,
         "speaker": "Speaker",
         "en": "And we stop listening.",
         "ipa": "/ænd wiː stɑːp ˈlɪsənɪŋ/",
@@ -97290,8 +97113,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 336.38,
-        "end": 342.92,
+        "start": 332.12,
+        "end": 338.66,
         "speaker": "Speaker",
         "en": "At the beginning of this talk, I told you I would give you a tip that would help improve the success of your communication at work.",
         "ipa": "/æt ðə bɪˈɡɪnɪŋ ʌv ðɪs tɔːk, aɪ toʊld juː aɪ wʊd ɡɪv juː ə tɪp ðæt wʊd hɛlp ɪmˈpruːv ðə səkˈsɛs ʌv jʊər kəˌmjuːnɪˈkeɪʃən ət wɜːrk./",
@@ -97306,8 +97129,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 342.96,
-        "end": 346.14,
+        "start": 338.7,
+        "end": 341.88,
         "speaker": "Speaker",
         "en": "That told your brains what to do with this information.",
         "ipa": "/ðæt toʊld jʊər breɪnz wʌt tuː duː wɪð ðɪs ˌɪnfərˈmeɪʃən./",
@@ -97322,8 +97145,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 346.62,
-        "end": 353.92,
+        "start": 342.36,
+        "end": 349.66,
         "speaker": "Speaker",
         "en": "If I hadn't done that, I could be faced with a room full of people smiling politely while all thinking, \"Why are you telling us this?\"",
         "ipa": "/ɪf aɪ ˈhædənt dʌn ðæt, aɪ kʊd biː feɪst wɪð ə ruːm fʊl ʌv ˈpiːpəl ˈsmaɪlɪŋ pəˈlaɪtli waɪl ɔːl ˈθɪŋɪŋ, 'waɪ ɑː juː ˈtɛlɪŋ ʌs ðɪs?'/",
@@ -97338,8 +97161,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 355.44,
-        "end": 357.84,
+        "start": 351.18,
+        "end": 353.58,
         "speaker": "Speaker",
         "en": "Now that is something we want to avoid at work.",
         "ipa": "/naʊ ðæt ɪz ˈsʌmθɪŋ wiː wɒnt tuː əˈvɔɪd ət wɜːrk./",
@@ -97354,8 +97177,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 357.88,
-        "end": 362.96,
+        "start": 353.62,
+        "end": 358.7,
         "speaker": "Speaker",
         "en": "But there is another, and perhaps more important reason to make your intent clear.",
         "ipa": "/bʌt ðɛər ɪz əˈnʌðər, ənd pərˈhæps mɔːr ɪmˈpɔːrtənt ˈriːzən tuː meɪk jʊər ɪnˈtɛnt klɪər./",
@@ -97370,8 +97193,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 363.76,
-        "end": 367.54,
+        "start": 359.5,
+        "end": 363.28,
         "speaker": "Speaker",
         "en": "You want to avoid frustrating the people you're talking to.",
         "ipa": "/juː wɒnt tuː əˈvɔɪd ˈfrʌstreɪtɪŋ ðə ˈpiːpəl jʊər ˈtɔːkɪŋ tuː./",
@@ -97386,8 +97209,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 368.88,
-        "end": 379.66,
+        "start": 364.62,
+        "end": 375.4,
         "speaker": "Speaker",
         "en": "I'd had a particularly bad day, and I walked into my colleague Tina's office, and I sat down with my head in my hands, and I told her how I'd messed up on an important call with a senior leader.",
         "ipa": "/aɪd hæd ə pərˈtɪkjələrli bæd deɪ, ənd aɪ wɔːkt ˈɪntuː maɪ ˈkɑːliːɡ ˈtiːnəz ˈɔːfɪs, ənd aɪ sæt daʊn wɪð maɪ hɛd ɪn maɪ hændz, ənd aɪ toʊld hɜːr haʊ aɪd mɛst ʌp ɒn ən ɪmˈpɔːrtənt kɔːl wɪð ə ˈsiːniər ˈliːdər./",
@@ -97407,8 +97230,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 380.18,
-        "end": 386.68,
+        "start": 375.92,
+        "end": 382.42,
         "speaker": "Speaker",
         "en": "And when I finished talking, Tina very, very helpfully said, \"Oh, why don't you try this and maybe we can avoid this next time.\"",
         "ipa": "/ənd wɛn aɪ ˈfɪnɪʃt ˈtɔːkɪŋ, ˈtiːnə ˈvɛri, ˈvɛri ˈhɛlpfəli sɛd, 'oʊ, waɪ doʊnt juː traɪ ðɪs ənd ˈmeɪbiː wiː kæn əˈvɔɪd ðɪs nɛkst taɪm.'/",
@@ -97423,8 +97246,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 386.72,
-        "end": 388.96,
+        "start": 382.46,
+        "end": 384.7,
         "speaker": "Speaker",
         "en": "And she was giving me all sorts of advice.",
         "ipa": "/ənd ʃiː wɒz ˈɡɪvɪŋ miː ɔːl sɔːrts ʌv ədˈvaɪs./",
@@ -97439,8 +97262,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 389.9,
-        "end": 394.24,
+        "start": 385.64,
+        "end": 389.98,
         "speaker": "Speaker",
         "en": "The more she spoke, the more frustrated I became.",
         "ipa": "/ðə mɔːr ʃiː spoʊk, ðə mɔːr ˈfrʌstreɪtɪd aɪ bɪˈkeɪm./",
@@ -97460,8 +97283,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 394.84,
-        "end": 396.32,
+        "start": 390.58,
+        "end": 392.06,
         "speaker": "Speaker",
         "en": "I didn't want her help.",
         "ipa": "/aɪ ˈdɪdnt wɒnt hɜːr hɛlp./",
@@ -97476,8 +97299,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 396.72,
-        "end": 402.1,
+        "start": 392.46,
+        "end": 397.84,
         "speaker": "Speaker",
         "en": "And that must have been quite obvious because she just put up her hands and said, \"You clearly don't want my help.",
         "ipa": "/ənd ðæt mʌst həv biːn kwaɪt ˈɑːbviəs bɪˈkʌz ʃiː dʒʌst pʊt ʌp hɜːr hændz ənd sɛd, 'juː ˈklɪrli doʊnt wɒnt maɪ hɛlp./",
@@ -97497,8 +97320,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 402.14,
-        "end": 403.6,
+        "start": 397.88,
+        "end": 399.34,
         "speaker": "Speaker",
         "en": "So why are you here?\"",
         "ipa": "/soʊ waɪ ɑː juː hɪər?'/",
@@ -97507,8 +97330,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 403.64,
-        "end": 405.16,
+        "start": 399.38,
+        "end": 400.9,
         "speaker": "Speaker",
         "en": "I said, \"Tina, I'm really sorry.",
         "ipa": "/aɪ sɛd, 'ˈtiːnə, aɪm ˈrɪəli ˈsɑːri./",
@@ -97523,8 +97346,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 405.2,
-        "end": 407.02,
+        "start": 400.94,
+        "end": 402.76,
         "speaker": "Speaker",
         "en": "I just want to get this off my chest.",
         "ipa": "/aɪ dʒʌst wɒnt tuː ɡɛt ðɪs ɔːf maɪ tʃɛst./",
@@ -97539,8 +97362,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 407.06,
-        "end": 409.24,
+        "start": 402.8,
+        "end": 404.98,
         "speaker": "Speaker",
         "en": "Can I just talk for a minute?\"",
         "ipa": "/kæn aɪ dʒʌst tɔːk fɔːr ə ˈmɪnɪt?'/",
@@ -97555,8 +97378,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 409.28,
-        "end": 415.1,
+        "start": 405.02,
+        "end": 410.84,
         "speaker": "Speaker",
         "en": "And like a mother talking to a small child, she rolled her eyes and said, \"Well, why didn't you start with that?\"",
         "ipa": "/ənd laɪk ə ˈmʌðər ˈtɔːkɪŋ tuː ə smɔːl tʃaɪld, ʃiː roʊld hɜːr aɪz ənd sɛd, 'wɛl, waɪ ˈdɪdnt juː stɑːrt wɪð ðæt?'/",
@@ -97571,8 +97394,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 416.66,
-        "end": 420.98,
+        "start": 412.4,
+        "end": 416.72,
         "speaker": "Speaker",
         "en": "We need to tell our audience what to do with the information we're giving them.",
         "ipa": "/wiː niːd tuː tɛl ˈɔːdiəns wʌt tuː duː wɪð ðə ˌɪnfərˈmeɪʃən wɪər ˈɡɪvɪŋ ðɛm./",
@@ -97587,8 +97410,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 421.02,
-        "end": 424.28,
+        "start": 416.76,
+        "end": 420.02,
         "speaker": "Speaker",
         "en": "Tina was working hard from the moment I started talking.",
         "ipa": "/ˈtiːnə wɒz ˈwɜːrkɪŋ hɑːrd frʌm ðə ˈmoʊmənt aɪ ˈstɑːrtɪd ˈtɔːkɪŋ./",
@@ -97603,8 +97426,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 424.96,
-        "end": 429.1,
+        "start": 420.7,
+        "end": 424.84,
         "speaker": "Speaker",
         "en": "And all the way through, she was working hard to help me and I didn't want or need that.",
         "ipa": "/ənd ɔːl ðə weɪ θruː, ʃiː wɒz ˈwɜːrkɪŋ hɑːrd tuː hɛlp miː ənd aɪ ˈdɪdnt wɒnt ɔːr niːd ðæt./",
@@ -97619,8 +97442,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 429.14,
-        "end": 431.32,
+        "start": 424.88,
+        "end": 427.06,
         "speaker": "Speaker",
         "en": "She was annoyed and rightly so.",
         "ipa": "/ʃiː wɒz əˈnɔɪd ənd ˈraɪtli soʊ./",
@@ -97635,8 +97458,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 431.66,
-        "end": 436.6,
+        "start": 427.4,
+        "end": 432.34,
         "speaker": "Speaker",
         "en": "So when you start your message, after you've given a clear topic, tell your audience what to do with it.",
         "ipa": "/soʊ wɛn juː stɑːrt jʊər ˈmɛsɪdʒ, ˈæftər juːv ˈɡɪvɪn ə klɪər ˈtɑːpɪk, tɛl jʊər ˈɔːdiəns wʌt tuː duː wɪð ɪt./",
@@ -97651,8 +97474,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 436.64,
-        "end": 438.88,
+        "start": 432.38,
+        "end": 434.62,
         "speaker": "Speaker",
         "en": "And again, you can do this with one line.",
         "ipa": "/ənd əˈɡɛn, juː kæn duː ðɪs wɪð wʌn laɪn./",
@@ -97667,8 +97490,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 438.92,
-        "end": 440.38,
+        "start": 434.66,
+        "end": 436.12,
         "speaker": "Speaker",
         "en": "Make your intent clear.",
         "ipa": "/meɪk jʊər ɪnˈtɛnt klɪər./",
@@ -97688,8 +97511,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 440.42,
-        "end": 443.94,
+        "start": 436.16,
+        "end": 439.68,
         "speaker": "Speaker",
         "en": "If you have a question, say, \"Can I ask you a question?\"",
         "ipa": "/ɪf juː hæv ə ˈkwɛstʃən, seɪ, 'kæn aɪ ɑːsk juː ə ˈkwɛstʃən?'/",
@@ -97704,8 +97527,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 444.52,
-        "end": 449.08,
+        "start": 440.26,
+        "end": 444.82,
         "speaker": "Speaker",
         "en": "If you want someone to make a decision, say, \"I'd like your help with this decision.\"",
         "ipa": "/ɪf juː wɒnt ˈsʌmwʌn tuː meɪk ə dɪˈsɪʒən, seɪ, 'aɪd laɪk jʊər hɛlp wɪð ðɪs dɪˈsɪʒən.'/",
@@ -97720,8 +97543,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 449.82,
-        "end": 454.9,
+        "start": 445.56,
+        "end": 450.64,
         "speaker": "Speaker",
         "en": "If you want to get something off your chest, just say, \"Is it OK if I vent for a minute?\"",
         "ipa": "/ɪf juː wɒnt tuː ɡɛt ˈsʌmθɪŋ ɔːf jʊər tʃɛst, dʒʌst seɪ, 'ɪz ɪt oʊˈkeɪ ɪf aɪ vɛnt fɔːr ə ˈmɪnɪt?'/",
@@ -97736,8 +97559,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 456.0,
-        "end": 463.28,
+        "start": 451.74,
+        "end": 459.02,
         "speaker": "Speaker",
         "en": "If you tell your audience what to do with your message, not only will their brains pay more attention, you will avoid frustrating them.",
         "ipa": "/ɪf juː tɛl jʊər ˈɔːdiəns wʌt tuː duː wɪð jʊər ˈmɛsɪdʒ, nɑːt ˈoʊnli wɪl ðɛər breɪnz peɪ mɔːr əˈtɛnʃən, juː wɪl əˈvɔɪd ˈfrʌstreɪtɪŋ ðɛm./",
@@ -97757,8 +97580,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 463.68,
-        "end": 464.92,
+        "start": 459.42,
+        "end": 460.66,
         "speaker": "Speaker",
         "en": "That's kind of useful.",
         "ipa": "/ðæts kaɪnd ʌv ˈjuːsfʊl./",
@@ -97773,8 +97596,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 466.44,
-        "end": 468.24,
+        "start": 462.18,
+        "end": 463.98,
         "speaker": "Speaker",
         "en": "So we've made our topic clear.",
         "ipa": "/soʊ wɪv meɪd ɑːr ˈtɑːpɪk klɪər./",
@@ -97789,8 +97612,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 468.64,
-        "end": 471.34,
+        "start": 464.38,
+        "end": 467.08,
         "speaker": "Speaker",
         "en": "We've told our audience what we intend for them to do.",
         "ipa": "/wɪv toʊld ɑːr ˈɔːdiəns wʌt wiː ɪnˈtɛnd fɔːr ðɛm tuː duː./",
@@ -97805,8 +97628,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 471.38,
-        "end": 473.48,
+        "start": 467.12,
+        "end": 469.22,
         "speaker": "Speaker",
         "en": "It's time to get down into the detail, right?",
         "ipa": "/ɪts taɪm tuː ɡɛt daʊn ˈɪntuː ðə ˈdiːteɪl, raɪt?/",
@@ -97821,8 +97644,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 473.52,
-        "end": 474.96,
+        "start": 469.26,
+        "end": 470.7,
         "speaker": "Speaker",
         "en": "Get into the message.",
         "ipa": "/ɡɛt ˈɪntuː ðə ˈmɛsɪdʒ./",
@@ -97837,8 +97660,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 475.36,
-        "end": 476.6,
+        "start": 471.1,
+        "end": 472.34,
         "speaker": "Speaker",
         "en": "Wrong.",
         "ipa": "/rɔːŋ./",
@@ -97853,8 +97676,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 477.04,
-        "end": 480.4,
+        "start": 472.78,
+        "end": 476.14,
         "speaker": "Speaker",
         "en": "This is where we need the third part of the tip.",
         "ipa": "/ðɪs ɪz wɛr wi nid ðə θərd pɑrt ʌv ðə tɪp/",
@@ -97869,8 +97692,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 101,
-        "start": 480.78,
-        "end": 481.98,
+        "start": 476.52,
+        "end": 477.72,
         "speaker": "Speaker",
         "en": "The P.",
         "ipa": "/ðə pi/",
@@ -97885,8 +97708,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 102,
-        "start": 482.02,
-        "end": 483.7,
+        "start": 477.76,
+        "end": 479.44,
         "speaker": "Speaker",
         "en": "And P stands for point.",
         "ipa": "/ænd pi stændz fɔr pɔɪnt/",
@@ -97901,8 +97724,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 103,
-        "start": 484.28,
-        "end": 488.0,
+        "start": 480.02,
+        "end": 483.74,
         "speaker": "Speaker",
         "en": "Point is the most important part of our message.",
         "ipa": "/pɔɪnt ɪz ðə moʊst ɪmˈpɔrtənt pɑrt ʌv ˈaʊər ˈmɛsɪdʒ/",
@@ -97917,8 +97740,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 104,
-        "start": 488.42,
-        "end": 493.0,
+        "start": 484.16,
+        "end": 488.74,
         "speaker": "Speaker",
         "en": "If you only had five seconds to speak, it's what you would say.",
         "ipa": "/ɪf ju ˈoʊnli hæd faɪv ˈsɛkənz tu spik, ɪts wʌt ju wʊd seɪ/",
@@ -97933,8 +97756,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 105,
-        "start": 493.5,
-        "end": 498.2,
+        "start": 489.24,
+        "end": 493.94,
         "speaker": "Speaker",
         "en": "And usually it's what your audience cares about the most.",
         "ipa": "/ænd ˈjuʒəwəli ɪts wʌt jʊər ˈɔdiəns kɛrz əˈbaʊt ðə moʊst/",
@@ -97949,8 +97772,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 106,
-        "start": 499.42,
-        "end": 501.74,
+        "start": 495.16,
+        "end": 497.48,
         "speaker": "Speaker",
         "en": "When I was a kid, my dad played a game with me.",
         "ipa": "/wɛn aɪ wəz ə kɪd, maɪ dæd pleɪd ə geɪm wɪð mi/",
@@ -97965,8 +97788,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 107,
-        "start": 501.78,
-        "end": 504.86,
+        "start": 497.52,
+        "end": 500.6,
         "speaker": "Speaker",
         "en": "If we were going on a journey, I'd go, \"Dad, where are we going?\"",
         "ipa": "/ɪf wi wər ˈgoʊɪng ɑn ə ˈdʒɜrni, aɪd goʊ, \"dæd, wɛr ɑr wi ˈgoʊɪŋ?\"",
@@ -97981,8 +97804,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 108,
-        "start": 504.9,
-        "end": 515.28,
+        "start": 500.64,
+        "end": 511.02,
         "speaker": "Speaker",
         "en": "And he'd say, \"Well, first, we're going to the car and then we’ll get in the car, leave the driveway, turn left onto the main street until we get to the post office, and then turn right until we go to a big yellow building.\"",
         "ipa": "/ænd hid seɪ, \"wɛl, fɜrst, wɪr ˈgoʊɪng tu ðə kɑr ənd ðɛn wil gɛt ɪn ðə kɑr, liv ðə ˈdraɪvˌweɪ, tɜrn lɛft ˈɑntu ðə meɪn strit ənˈtɪl wi gɛt tu ðə poʊst ˈɔfɪs, ənd ðɛn tɜrn raɪt ənˈtɪl wi goʊ tu ə bɪg ˈjɛloʊ ˈbɪldɪŋ.\"",
@@ -98002,8 +97825,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 109,
-        "start": 515.32,
-        "end": 517.56,
+        "start": 511.06,
+        "end": 513.3,
         "speaker": "Speaker",
         "en": "I just wanted to scream, \"Where are we going?\"",
         "ipa": "/aɪ dʒʌst ˈwɑntɪd tu skrim, \"wɛr ɑr wi ˈgoʊɪŋ?\"",
@@ -98018,8 +97841,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 110,
-        "start": 517.88,
-        "end": 519.68,
+        "start": 513.62,
+        "end": 515.42,
         "speaker": "Speaker",
         "en": "I wanted the short version.",
         "ipa": "/aɪ ˈwɑntɪd ðə ʃɔrt ˈvɜrʒən/",
@@ -98034,8 +97857,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 111,
-        "start": 519.72,
-        "end": 522.14,
+        "start": 515.46,
+        "end": 517.88,
         "speaker": "Speaker",
         "en": "I think he just wanted to wind me up a little bit.",
         "ipa": "/aɪ θɪŋk hi dʒʌst ˈwɑntɪd tu waɪnd mi ʌp ə ˈlɪtəl bɪt/",
@@ -98050,8 +97873,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 112,
-        "start": 522.6,
-        "end": 528.0,
+        "start": 518.34,
+        "end": 523.74,
         "speaker": "Speaker",
         "en": "But fast forward a few years, I was doing the same thing at work.",
         "ipa": "/bʌt fæst ˈfɔrwərd ə fju jɪrz, aɪ wəz ˈduɪng ðə seɪm θɪŋ æt wɜrk/",
@@ -98066,8 +97889,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 113,
-        "start": 528.92,
-        "end": 537.18,
+        "start": 524.66,
+        "end": 532.92,
         "speaker": "Speaker",
         "en": "Someone would ask me a question, or I’d start a conversation, and I would give all the detail, step by step information.",
         "ipa": "/ˈsʌmwʌn wʊd æsk mi ə ˈkwɛstʃən, ɔr aɪd stɑrt ə ˌkɑnvərˈseɪʃən, ənd aɪ wʊd gɪv ɔl ðə ˈdɪteɪl, stɛp baɪ stɛp ˌɪnfərˈmeɪʃən/",
@@ -98082,8 +97905,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 114,
-        "start": 537.64,
-        "end": 544.46,
+        "start": 533.38,
+        "end": 540.2,
         "speaker": "Speaker",
         "en": "And every so often -- OK, quite often -- people would say, \"Chris, just get to the point.\"",
         "ipa": "/ænd ˈɛvri soʊ ˈɔfən -- oʊˈkeɪ, kwaɪt ˈɔfən -- ˈpipəl wʊd seɪ, \"krɪs, dʒʌst gɛt tu ðə pɔɪnt.\"",
@@ -98098,8 +97921,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 115,
-        "start": 545.9,
-        "end": 547.12,
+        "start": 541.64,
+        "end": 542.86,
         "speaker": "Speaker",
         "en": "And that's what we need.",
         "ipa": "/ænd ðæts wʌt wi nid/",
@@ -98114,8 +97937,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 116,
-        "start": 547.16,
-        "end": 552.28,
+        "start": 542.9,
+        "end": 548.02,
         "speaker": "Speaker",
         "en": "We need a point, we need a headline, something that tells us where this conversation is going.",
         "ipa": "/wi nid ə pɔɪnt, wi nid ə ˈhɛdˌlaɪn, ˈsʌmθɪŋ ðæt tɛlz ʌs wɛr ðɪs ˌkɑnvərˈseɪʃən ɪz ˈgoʊɪŋ/",
@@ -98131,8 +97954,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 117,
-        "start": 553.26,
-        "end": 557.84,
+        "start": 549.0,
+        "end": 553.58,
         "speaker": "Speaker",
         "en": "Now, of course, there's a lot more information we could include, but that comes later.",
         "ipa": "/naʊ, ʌv kɔrs, ðɛrz ə lɑt mɔr ˌɪnfərˈmeɪʃən wi kʊd ɪnˈklud, bʌt ðæt kʌmz ˈleɪtər/",
@@ -98147,8 +97970,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 118,
-        "start": 557.88,
-        "end": 563.8,
+        "start": 553.62,
+        "end": 559.54,
         "speaker": "Speaker",
         "en": "That comes after we've set up the audience to understand what the conversation is about.",
         "ipa": "/ðæt kʌmz ˈæftər wiv sɛt ʌp ðə ˈɔdiəns tu ˌʌndərˈstænd wʌt ðə ˌkɑnvərˈseɪʃən ɪz əˈbaʊt/",
@@ -98163,8 +97986,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 119,
-        "start": 563.84,
-        "end": 570.7,
+        "start": 559.58,
+        "end": 566.44,
         "speaker": "Speaker",
         "en": "And we can do this quite simply, as the military likes to say, “Put the bottom line up front.”",
         "ipa": "/ænd wi kʊd du ðɪs kwaɪt ˈsɪmpli, æz ðə ˈmɪləˌtɛri laɪks tu seɪ, \"pʊt ðə ˈbɑtəm laɪn ʌp frʌnt.\"",
@@ -98179,8 +98002,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 120,
-        "start": 571.46,
-        "end": 575.46,
+        "start": 567.2,
+        "end": 571.2,
         "speaker": "Speaker",
         "en": "In one sentence, deliver the most important piece of information.",
         "ipa": "/ɪn wʌn ˈsɛntəns, dɪˈlɪvər ðə moʊst ɪmˈpɔrtənt pis ʌv ˌɪnfərˈmeɪʃən/",
@@ -98195,8 +98018,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 121,
-        "start": 575.5,
-        "end": 578.18,
+        "start": 571.24,
+        "end": 573.92,
         "speaker": "Speaker",
         "en": "\"I want to give a refund for a late delivery.\"",
         "ipa": "/\"aɪ wɑnt tu gɪv ə ˈriˌfʌnd fɔr ə leɪt dɪˈlɪvəri.\"",
@@ -98211,8 +98034,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 122,
-        "start": 578.22,
-        "end": 580.82,
+        "start": 573.96,
+        "end": 576.56,
         "speaker": "Speaker",
         "en": "\"Our project launch is going to be delayed by a month.\"",
         "ipa": "/\"ˈaʊər ˈprɑˌdʒɛkt lɔntʃ ɪz ˈgoʊɪng tu bi dɪˈleɪd baɪ ə mʌnθ.\"",
@@ -98227,8 +98050,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 123,
-        "start": 580.86,
-        "end": 589.24,
+        "start": 576.6,
+        "end": 584.98,
         "speaker": "Speaker",
         "en": "Say the most important thing, and your audience will know where that conversation is going and they won't be thinking, \"What is your point?\"",
         "ipa": "/seɪ ðə moʊst ɪmˈpɔrtənt θɪŋ, ənd jʊər ˈɔdiəns wɪl noʊ wɛr ðæt ˌkɑnvərˈseɪʃən ɪz ˈgoʊɪŋ ənd ðeɪ woʊnt bi ˈθɪŋkɪŋ, \"wʌt ɪz jʊər pɔɪnt?\"",
@@ -98243,8 +98066,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 124,
-        "start": 591.08,
-        "end": 603.72,
+        "start": 586.82,
+        "end": 599.46,
         "speaker": "Speaker",
         "en": "Now if you start your conversation with topic, intent and point, you are starting with a clear and concise introduction, an introduction that answers the three questions we all have: What are you talking about?",
         "ipa": "/naʊ ɪf ju stɑrt jʊər ˌkɑnvərˈseɪʃən wɪð ˈtɑpɪk, ɪnˈtɛnt ənd pɔɪnt, ju ɑr ˈstɑrtɪng wɪð ə klɪr ənd kənˈsaɪs ˌɪntrəˈdʌkʃən ən ˌɪntrəˈdʌkʃən ðæt ˈænsərz ðə θri ˈkwɛstʃənz wi ɔl hæv: wʌt ɑr ju ˈtɔkɪŋ əˈbaʊt?",
@@ -98264,8 +98087,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 125,
-        "start": 603.76,
-        "end": 605.46,
+        "start": 599.5,
+        "end": 601.2,
         "speaker": "Speaker",
         "en": "Why are you telling me this?",
         "ipa": "/waɪ ɑr ju ˈtɛlɪŋ mi ðɪs?",
@@ -98280,8 +98103,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 126,
-        "start": 605.5,
-        "end": 607.32,
+        "start": 601.24,
+        "end": 603.06,
         "speaker": "Speaker",
         "en": "And what is your point?",
         "ipa": "/ænd wʌt ɪz jʊər pɔɪnt?",
@@ -98296,8 +98119,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 127,
-        "start": 608.04,
-        "end": 609.5,
+        "start": 603.78,
+        "end": 605.24,
         "speaker": "Speaker",
         "en": "Because here's the truth.",
         "ipa": "/bɪˈkɔz hɪrz ðə truθ/",
@@ -98312,8 +98135,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 128,
-        "start": 610.18,
-        "end": 616.24,
+        "start": 605.92,
+        "end": 611.98,
         "speaker": "Speaker",
         "en": "Every time we communicate, it is an opportunity to create clarity or confusion.",
         "ipa": "/ˈɛvri taɪm wi kəmˈjunɪkeɪt, ɪt ɪz ən ˌɑpərˈtunɪti tu kriˈeɪt ˈklærəti ɔr kənˈfjuzʒən/",
@@ -98328,8 +98151,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 129,
-        "start": 617.06,
-        "end": 621.62,
+        "start": 612.8,
+        "end": 617.36,
         "speaker": "Speaker",
         "en": "And topic, intent and point is clarity.",
         "ipa": "/ænd ˈtɑpɪk, ɪnˈtɛnt ənd pɔɪnt ɪz ˈklærəti/",
@@ -98345,8 +98168,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 130,
-        "start": 622.36,
-        "end": 624.04,
+        "start": 618.1,
+        "end": 619.78,
         "speaker": "Speaker",
         "en": "So I have a challenge for you.",
         "ipa": "/soʊ aɪ hæv ə ˈtʃælənʒ fɔr ju/",
@@ -98361,8 +98184,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 131,
-        "start": 624.48,
-        "end": 633.82,
+        "start": 620.22,
+        "end": 629.56,
         "speaker": "Speaker",
         "en": "The next time you start a conversation at work, the next time you write a message, take a moment and think to yourself, what is my topic?",
         "ipa": "/ðə lɛkst taɪm ju stɑrt ə ˌkɑnvərˈseɪʃən æt wɜrk, ðə nɛkst taɪm ju raɪt ə ˈmɛsɪdʒ, teɪk ə ˈmoʊmənt ənd θɪŋk tu jʊərˈsɛlf, wʌt ɪz maɪ ˈtɑpɪk?",
@@ -98377,8 +98200,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 132,
-        "start": 634.52,
-        "end": 638.0,
+        "start": 630.26,
+        "end": 633.74,
         "speaker": "Speaker",
         "en": "What do I intend for the other person to do with this message?",
         "ipa": "/wʌt du aɪ ɪnˈtɛnd fɔr ðə ˈʌðər ˈpɜrsən tu du wɪð ðɪs ˈmɛsɪdʒ/",
@@ -98393,8 +98216,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 133,
-        "start": 638.04,
-        "end": 640.9,
+        "start": 633.78,
+        "end": 636.64,
         "speaker": "Speaker",
         "en": "And what point do I want to deliver?",
         "ipa": "/ænd wʌt pɔɪnt du aɪ wɑnt tu dɪˈlɪvər?/",
@@ -98409,8 +98232,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 134,
-        "start": 642.18,
-        "end": 645.58,
+        "start": 637.92,
+        "end": 641.32,
         "speaker": "Speaker",
         "en": "Imagine working somewhere where everybody did this.",
         "ipa": "/ɪˈmædʒɪn ˈwɜrkɪŋ ˈsʌmˌwɛr wɛr ˈɛvriˌbɑdi dɪd ðɪs./",
@@ -98425,8 +98248,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 135,
-        "start": 647.14,
-        "end": 652.22,
+        "start": 642.88,
+        "end": 647.96,
         "speaker": "Speaker",
         "en": "Imagine if everyone always knew what to do with the message you gave them, or understood what it was about.",
         "ipa": "/ɪˈmædʒɪn ɪf ˈɛvriˌwʌn ˈɔlˌweɪz nu wʌt tu du wɪð ðə ˈmɛsɪdʒ ju ɡeɪv ðɛm, ɔr ˌʌndərˈstʊd wʌt ɪt wʌz əˈbaʊt./",
@@ -98441,8 +98264,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 136,
-        "start": 652.26,
-        "end": 655.42,
+        "start": 648.0,
+        "end": 651.16,
         "speaker": "Speaker",
         "en": "How much smoother, how much easier would our jobs be?",
         "ipa": "/haʊ mʌtʃ ˈsmuðər, haʊ mʌtʃ ˈiziər wʊd ˈaʊər dʒɑbz bi?/",
@@ -98457,8 +98280,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 137,
-        "start": 656.76,
-        "end": 661.66,
+        "start": 652.5,
+        "end": 657.4,
         "speaker": "Speaker",
         "en": "That, ladies and gentlemen, is the power of the first minute.",
         "ipa": "/ðæt, ˈleɪdiz ænd ˈdʒɛntəlmən, ɪz ðə ˈpaʊər ʌv ðə fɜrst ˈmɪnɪt./",
@@ -98473,8 +98296,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 138,
-        "start": 662.72,
-        "end": 663.84,
+        "start": 658.46,
+        "end": 659.58,
         "speaker": "Speaker",
         "en": "Thank you.",
         "ipa": "/θæŋk ju./",
@@ -98491,33 +98314,29 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 259,
-    "durationLabel": "04:19",
+    "durationSec": 251,
+    "durationLabel": "04:11",
     "date": "2026/09/13",
     "tags": [
       "个人成长"
     ],
     "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/What%20is%20imposter%20syndrome%20and%20how%20can%20you%20combat%20it%EF%BC%9F%20-%20Elizabeth%20Cox.webp",
-    "mediaUrl": "./content/episodes/What%20is%20imposter%20syndrome%20and%20how%20can%20you%20combat%20it%EF%BC%9F%20-%20Elizabeth%20Cox.f399.mp4",
-    "audioUrl": "./content/episodes/What%20is%20imposter%20syndrome%20and%20how%20can%20you%20combat%20it%EF%BC%9F%20-%20Elizabeth%20Cox.f140.m4a",
+    "mediaUrl": "./content/episodes/trimmed/What%20is%20imposter%20syndrome%20and%20how%20can%20you%20combat%20it%EF%BC%9F%20-%20Elizabeth%20Cox.f399.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/What%20is%20imposter%20syndrome%20and%20how%20can%20you%20combat%20it%EF%BC%9F%20-%20Elizabeth%20Cox.f399.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "个人成长",
     "skipRanges": [
       [
-        0.0,
-        7.75
-      ],
-      [
-        241.36,
-        259.0
+        233.61,
+        250.99
       ]
     ],
     "sentences": [
       {
         "id": 1,
-        "start": 7.75,
-        "end": 18.27,
+        "start": 0.0,
+        "end": 10.52,
         "speaker": "Speaker",
         "en": "Even after writing eleven books and winning several prestigious awards, Maya Angelou couldn’t escape the nagging doubt that she hadn’t really earned her accomplishments.",
         "ipa": "/ˈivən ˈæftər ˈraɪtɪŋ ɪˈlɛvən bʊks ænd ˈwɪnɪŋ ˈsɛvrəl prɛˈstɪdʒəs əˈwɔrdz, ˈmaɪə ˈændʒəloʊ ˈkʊdənt ɪˈskeɪp ðə ˈnæɡɪŋ daʊt ðæt ʃi ˈhædnt ˈriəli ɜrnd hɜr əˈkɑmplɪʃmənts/",
@@ -98542,8 +98361,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 18.31,
-        "end": 28.15,
+        "start": 10.56,
+        "end": 20.4,
         "speaker": "Speaker",
         "en": "Albert Einstein experienced something similar: he described himself as an “involuntary swindler” whose work didn’t deserve as much attention as it had received.",
         "ipa": "/ˈælbərt ˈaɪnstən ɪkˈspɪriənst ˈsʌmθɪŋ ˈsɪmələr: hi dɪˈskraɪbd hɪˈsɛlf æz ən ɪnˈvɑləntɛri ˈswɪndlər huz wɜrk ˈdɪdnt dɪˈzɜrv æz mʌtʃ əˈtɛntʃən æz ɪt hæd rɪˈsivd/",
@@ -98568,8 +98387,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 28.19,
-        "end": 35.03,
+        "start": 20.44,
+        "end": 27.28,
         "speaker": "Speaker",
         "en": "Accomplishments at the level of Angelou’s or Einstein’s are rare, but their feeling of fraudulence is extremely common.",
         "ipa": "/əˈkɑmplɪʃmənts æt ðə ˈlɛvəl ʌv ˈændʒəloʊz ɔr ˈaɪnstənz ɑr rɛr, bʌt ðɛr ˈfilɪŋ ʌv ˈfrɔdʒələnsɪ z ɪkˈstrimli ˈkɑmən/",
@@ -98589,8 +98408,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 35.07,
-        "end": 43.62,
+        "start": 27.32,
+        "end": 35.87,
         "speaker": "Speaker",
         "en": "Why can’t so many of us shake feelings that we haven’t earned our accomplishments, or that our ideas and skills aren’t worthy of others’ attention?",
         "ipa": "/waɪ kænt soʊ ˈmɛni ʌv ʌs ʃeɪk ˈfilɪŋz ðæt wi ˈhævnt ɜrnd ˈaʊər əˈkɑmplɪʃmənts ɔr ðæt ˈaʊər aɪˈdiəz ænd skɪlz ˈɑrnt ˈwɜrði ʌv ˈʌðərz əˈtɛntʃən/",
@@ -98610,8 +98429,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 43.66,
-        "end": 49.55,
+        "start": 35.91,
+        "end": 41.8,
         "speaker": "Speaker",
         "en": "Psychologist Pauline Rose Clance was the first to study this unwarranted sense of insecurity.",
         "ipa": "/saɪˈkɑlədʒɪst ˈpɔlin roʊz klæns wʌz ðə fɜrst tu ˈstʌdi ðɪs ʌnˈwɔrəntɪd sɛns ʌv ˌɪnsɪˈkjʊrəti/",
@@ -98631,8 +98450,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 49.59,
-        "end": 60.43,
+        "start": 41.84,
+        "end": 52.68,
         "speaker": "Speaker",
         "en": "In her work as a therapist, she noticed many of her undergraduate patients shared a concern: though they had high grades, they didn’t believe they deserved their spots at the university.",
         "ipa": "/ɪn hɜr wɜrk æz ə ˈθɛrəpɪst, ʃi ˈnoʊtɪst ˈmɛni ʌv hɜr ˈʌndəˌɡrædʒuət ˈpeɪʃənts ʃɛrd ə kənˈsɜrn: ðoʊ ðeɪ hæd haɪ ɡreɪdz ðeɪ ˈdɪdnt bɪˈliv ðeɪ dɪˈzɜrvd ðɛr spɑts æt ðə ˌjunəˈvɜrsəti/",
@@ -98652,8 +98471,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 60.47,
-        "end": 63.69,
+        "start": 52.72,
+        "end": 55.94,
         "speaker": "Speaker",
         "en": "Some even believed their acceptance had been an admissions error.",
         "ipa": "/sʌm ˈivən bɪˈlivd ðɛr ækˈsɛptəns hæd bɪn ən ədˈmɪʃənz ˈɛrər/",
@@ -98668,8 +98487,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 63.73,
-        "end": 69.4,
+        "start": 55.98,
+        "end": 61.65,
         "speaker": "Speaker",
         "en": "While Clance knew these fears were unfounded, she could also remember feeling the exact same way in graduate school.",
         "ipa": "/waɪl klæns nu ðiz fɪrz wɜr ʌnˈfaʊndɪd, ʃi kʊd ˈolsoʊ rɪˈmɛmbər ˈfilɪŋ ði ɪɡˈzækt seɪm weɪ ɪn ˈɡrædʒuət skul/",
@@ -98689,8 +98508,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 69.44,
-        "end": 78.53,
+        "start": 61.69,
+        "end": 70.78,
         "speaker": "Speaker",
         "en": "She and her patients experienced something that goes by a number of names-- imposter phenomenon, imposter experience, and imposter syndrome.",
         "ipa": "/ʃi ænd hɜr ˈpeɪʃənts ɪkˈspɪriənst ˈsʌmθɪŋ ðæt ɡoʊz baɪ ə ˈnʌmbər ʌv neɪmz-- ɪmˈpɑstər fəˈnɑmənən, ɪmˈpɑstər ɪkˈspɪriəns, ænd ɪmˈpɑstər ˈsɪndroʊm/",
@@ -98710,8 +98529,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 78.57,
-        "end": 85.29,
+        "start": 70.82,
+        "end": 77.54,
         "speaker": "Speaker",
         "en": "Together with colleague Suzanne Imes, Clance first studied imposterism in female college students and faculty.",
         "ipa": "/təˈɡɛðər wɪð ˈkɑliɡ suˈzæn aɪmz, klæns fɜrst ˈstʌdid ɪmˈpɑstərɪzəm ɪn ˈfiˌmeɪl ˈkɑlɪdʒ ˈstudənts ænd ˈfækəlti/",
@@ -98726,8 +98545,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 85.33,
-        "end": 88.84,
+        "start": 77.58,
+        "end": 81.09,
         "speaker": "Speaker",
         "en": "Their work established pervasive feelings of fraudulence in this group.",
         "ipa": "/ðɛr wɜrk ɪˈstæblɪʃt pərˈveɪsɪv ˈfilɪŋz ʌv ˈfrɔdʒələnsɪ ɪn ðɪs ɡrup/",
@@ -98742,8 +98561,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 88.88,
-        "end": 103.43,
+        "start": 81.13,
+        "end": 95.68,
         "speaker": "Speaker",
         "en": "Since that first study, the same thing has been established across gender, race, age, and a huge range of occupations, though it may be more prevalent and disproportionately affect the experiences of underrepresented or disadvantaged groups.",
         "ipa": "/sɪns ðæt fɜrst ˈstʌdi, ðə seɪm θɪŋ hæz bɪn ɪˈstæblɪʃt əˈkrɔs ˈdʒɛndər, reɪs, eɪdʒ, ænd ə hjudʒ reɪndʒ ʌv ˌɑkjuˈpeɪʃənz ðoʊ ɪt meɪ bi mɔr ˈprɛvələnt ænd ˌdɪsprəˈpɔrʃənətli əˈfɛkt ði ɪkˈspɪriənsɪz ʌv ˌʌndəˌrɛprəˈzɛntɪd ɔr ˌdɪsədˈvæntɪdd ɡrups/",
@@ -98768,8 +98587,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 103.47,
-        "end": 106.98,
+        "start": 95.72,
+        "end": 99.23,
         "speaker": "Speaker",
         "en": "To call it a syndrome is to downplay how universal it is.",
         "ipa": "/tu kɔl ɪt ə ˈsɪndroʊm ɪz tu ˈdaʊnˌpleɪ haʊ ˌjunəˈvɜrsəl ɪt ɪz/",
@@ -98789,8 +98608,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 107.02,
-        "end": 115.24,
+        "start": 99.27,
+        "end": 107.49,
         "speaker": "Speaker",
         "en": "It's not a disease or an abnormality, and it isn’t necessarily tied to depression, anxiety, or self-esteem.",
         "ipa": "/ɪts nɑt ə dɪˈziz ɔr ən æbnɔrˈmæləti, ænd ɪt ˈìznt ˈnɛsəˌsɛrəli taɪd tu dɪˈprɛʃən, æŋˈzaɪəti, ɔr ˌsɛlf-əˈstim/",
@@ -98810,8 +98629,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 115.28,
-        "end": 117.7,
+        "start": 107.53,
+        "end": 109.95,
         "speaker": "Speaker",
         "en": "Where do these feelings of fraudulence come from?",
         "ipa": "/wɛr du ðiz ˈfilɪŋz ʌv ˈfrɔdʒələnsɪ kʌm frʌm/",
@@ -98826,8 +98645,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 117.74,
-        "end": 121.91,
+        "start": 109.99,
+        "end": 114.16,
         "speaker": "Speaker",
         "en": "People who are highly skilled or accomplished tend to think others are just as skilled.",
         "ipa": "/ˈpipəl hu ɑr ˈhaɪli skɪld ɔr əˈkɑmplɪʃt tɛnd tu θɪŋk ˈʌðərz ɑr dʒʌst æz skɪld/",
@@ -98847,8 +98666,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 121.95,
-        "end": 127.29,
+        "start": 114.2,
+        "end": 119.54,
         "speaker": "Speaker",
         "en": "This can spiral into feelings that they don’t deserve accolades and opportunities over other people.",
         "ipa": "/ðɪs kæn ˈspaɪrəl ˈɪntu ˈfilɪŋz ðæt ðeɪ ˈdoʊnt dɪˈzɜrv ˈækəˌleɪdz ænd ˌɑpərˈtunətiz ˈoʊvər ˈʌðər ˈpipəl/",
@@ -98868,8 +98687,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 127.33,
-        "end": 134.26,
+        "start": 119.58,
+        "end": 126.51,
         "speaker": "Speaker",
         "en": "And as Angelou and Einstein experienced, there’s often no threshold of accomplishment that puts these feelings to rest.",
         "ipa": "/ænd æz ˈændʒəloʊ ænd ˈaɪnstən ɪkˈspɪriənst, ðɛrz ˈɔfən noʊ ˈθrɛʃhoʊld ʌv əˈkɑmplɪʃmənt ðæt pʊts ðiz ˈfilɪŋz tu rɛst/",
@@ -98884,8 +98703,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 134.3,
-        "end": 139.09,
+        "start": 126.55,
+        "end": 131.34,
         "speaker": "Speaker",
         "en": "Feelings of imposterism aren’t restricted to highly skilled individuals, either.",
         "ipa": "/ˈfilɪŋz ʌv ɪmˈpɑstərɪzəm ˈɑrnt rɪˈstrɪktɪd tu ˈhaɪli skɪld ˌɪndəˈvɪdʒuəlz, ˈiðər/",
@@ -98905,8 +98724,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 139.13,
-        "end": 149.98,
+        "start": 131.38,
+        "end": 142.23,
         "speaker": "Speaker",
         "en": "Everyone is susceptible to a phenomenon known as pluralistic ignorance, where we each doubt ourselves privately, but believe we’re alone in thinking that way because no one else voices their doubts.",
         "ipa": "/ˈɛvriˌwʌn ɪz səˈsɛptəbəl tu ə fəˈnɑmənən noʊn æz ˈplʊrəˌlɪstɪk ˈɪɡnərəns, wɛr wi iːtʃ daʊt aʊrˈsɛlvz ˈpraɪvətli bʌt bɪˈliv wir əˈloʊn ɪn ˈθɪŋkɪŋ ðæt weɪ bɪˈkɑz noʊ wʌn ɛls ˈvɔɪsɪz ðɛr daʊts/",
@@ -98931,8 +98750,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 150.02,
-        "end": 163.45,
+        "start": 142.27,
+        "end": 155.7,
         "speaker": "Speaker",
         "en": "Since it’s tough to really know how hard our peers work, how difficult they find certain tasks, or how much they doubt themselves, there’s no easy way to dismiss feelings that we’re less capable than the people around us.",
         "ipa": "/sɪns ɪts tʌf tu ˈriəli noʊ haʊ hɑrd aʊər pɪrz wɜrk, haʊ ˈdɪfəkəlt ðeɪ faɪnd ˈsɜrtən tæsks, ɔr haʊ mʌtʃ ðeɪ daʊt aʊrˈsɛlvz ðɛrz noʊ ˈizi weɪ tu dɪˈsmɪs ˈfilɪŋz ðæt wir lɛs ˈkeɪpəbəl ðæn ðə ˈpipəl əˈraʊnd ʌs/",
@@ -98957,8 +98776,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 163.49,
-        "end": 171.42,
+        "start": 155.74,
+        "end": 163.67,
         "speaker": "Speaker",
         "en": "Intense feelings of imposterism can prevent people from sharing their great ideas or applying for jobs and programs where they’d excel.",
         "ipa": "/ɪnˈtɛns ˈfilɪŋz ʌv ɪmˈpɑstərɪzəm kæn prɪˈvɛnt ˈpipəl frʌm ˈʃɛrɪŋ ðɛr ɡreɪt aɪˈdiəz ɔr əˈplaɪɪŋ fɔr dʒɑbz ænd ˈproʊɡræmz wɛr ðeɪd ɛkˈsɛl/",
@@ -98973,8 +98792,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 171.46,
-        "end": 176.59,
+        "start": 163.71,
+        "end": 168.84,
         "speaker": "Speaker",
         "en": "At least so far, the most surefire way to combat imposter syndrome is to talk about it.",
         "ipa": "/æt list soʊ fɑr, ðə moʊst ˈʃʊrˌfaɪər weɪ tu ˈkɑmbæt ɪmˈpɑstər ˈsɪndroʊm ɪz tu tɔk əˈbaʊt ɪt/",
@@ -98994,8 +98813,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 176.63,
-        "end": 182.76,
+        "start": 168.88,
+        "end": 175.01,
         "speaker": "Speaker",
         "en": "Many people suffering from imposter syndrome are afraid that if they ask about their performance, their fears will be confirmed.",
         "ipa": "/ˈmɛni ˈpipəl ˈsʌfərɪŋ frʌm ɪmˈpɑstər ˈsɪndroʊm ɑr əˈfreɪd ðæt ɪf ðeɪ æsk əˈbaʊt ðɛr pərˈfɔrməns, ðɛr fɪrz wɪl bi kənˈfɜrmd/",
@@ -99015,8 +98834,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 182.8,
-        "end": 187.93,
+        "start": 175.05,
+        "end": 180.18,
         "speaker": "Speaker",
         "en": "And even when they receive positive feedback, it often fails to ease feelings of fraudulence.",
         "ipa": "/ænd ˈivən wɛn ðeɪ rɪˈsiv ˈpɑzətɪv ˈfidˌbæk, ɪt ˈɔfən feɪlz tu iz ˈfilɪŋz ʌv ˈfrɔdʒələnsɪ/",
@@ -99036,8 +98855,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 187.97,
-        "end": 194.9,
+        "start": 180.22,
+        "end": 187.15,
         "speaker": "Speaker",
         "en": "But on the other hand, hearing that an advisor or mentor has experienced feelings of imposterism can help relieve those feelings.",
         "ipa": "/bʌt ɑn ði ˈʌðər hænd, ˈhɪrɪŋ ðæt ən ədˈvaɪzər ɔr ˈmɛntər hæz ɪkˈspɪriənst ˈfilɪŋz ʌv ɪmˈpɑstərɪzəm kæn hɛlp rɪˈliv ðoʊz ˈfilɪŋz/",
@@ -99057,8 +98876,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 194.94,
-        "end": 196.78,
+        "start": 187.19,
+        "end": 189.03,
         "speaker": "Speaker",
         "en": "The same goes for peers.",
         "ipa": "/ðə seɪm ɡoʊz fɔr pɪrz/",
@@ -99073,8 +98892,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 196.82,
-        "end": 201.2,
+        "start": 189.07,
+        "end": 193.45,
         "speaker": "Speaker",
         "en": "Even simply finding out there’s a term for these feelings can be an incredible relief.",
         "ipa": "/ˈivən ˈsɪmpli ˈfaɪndɪŋ aʊt ðɛrz ə tɜrm fɔr ðiz ˈfilɪŋz kæn bi ən ɪnˈkrɛdəbəl rɪˈlif/",
@@ -99094,8 +98913,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 201.24,
-        "end": 208.16,
+        "start": 193.49,
+        "end": 200.41,
         "speaker": "Speaker",
         "en": "Once you’re aware of the phenomenon, you can combat your own imposter syndrome by collecting and revisiting positive feedback.",
         "ipa": "/wʌns jʊr əˈwɛr ʌv ðə fəˈnɑmənən, jʊ kən ˈkɑmbæt jʊər oʊn ɪmˈpɑstər ˈsɪndroʊm baɪ kəˈlɛktɪŋ ənd ˈrivɪzɪtɪŋ ˈpɑzətɪv ˈfidˌbæk./",
@@ -99115,8 +98934,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 208.2,
-        "end": 214.34,
+        "start": 200.45,
+        "end": 206.59,
         "speaker": "Speaker",
         "en": "One scientist who kept blaming herself for problems in her lab started to document the causes every time something went wrong.",
         "ipa": "/wʌn ˈsaɪəntɪst hu kɛpt ˈbleɪmɪŋ hɜrsɛlf fɔr ˈprɑbləmz ɪn hɜr læb ˈstɑrtɪd tu ˈdɑkjumɛnt ðə ˈkɑzɪz ˈɛvri taɪm ˈsʌmθɪŋ wɛnt rɔŋ./",
@@ -99136,8 +98955,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 214.38,
-        "end": 220.97,
+        "start": 206.63,
+        "end": 213.22,
         "speaker": "Speaker",
         "en": "Eventually, she realized most of the problems came from equipment failure, and came to recognize her own competence.",
         "ipa": "/ɪˈvɛntʃuəli, ʃi ˈriəˌlaɪzd moʊst ʌv ðə ˈprɑbləmz keɪm frʌm ɪˈkwɪpmənt ˈfeɪljər, ənd keɪm tu ˈrɛkəɡˌnaɪz hɜr oʊn ˈkɑmpətəns./",
@@ -99157,8 +98976,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 221.01,
-        "end": 228.35,
+        "start": 213.26,
+        "end": 220.6,
         "speaker": "Speaker",
         "en": "We may never be able to banish these feelings entirely, but we can have open conversations about academic or professional challenges.",
         "ipa": "/wi meɪ ˈnɛvər bi ˈeɪbəl tu ˈbænɪʃ ðiz ˈfilɪŋz ɪnˈtaɪrli, bət wi kən hæv ˈoʊpən ˌkɑnvəˈseɪʃənz əˈbaʊt ˌækəˈdɛmɪk ɔr prəˈfɛʃənəl ˈtʃælənʤɪz./",
@@ -99178,8 +98997,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 228.39,
-        "end": 241.36,
+        "start": 220.64,
+        "end": 233.61,
         "speaker": "Speaker",
         "en": "With increasing awareness of how common these experiences are, perhaps we can feel freer to be frank about our feelings and build confidence in some simple truths: you have talent, you are capable, and you belong.",
         "ipa": "/wɪð ɪnˈkrisɪŋ əˈwɛrnəs ʌv haʊ ˈkɑmən ðiz ɪkˈspɪriənsɪz ɑr, pərˈhæps wi kən fil friər tu bi fræŋk əˈbaʊt ˈaʊər ˈfilɪŋz ənd bɪld ˈkɑnfədəns ɪn sʌm ˈsɪmpəl truθs: ju hæv ˈtælənt, ju ɑr ˈkeɪpəbəl, ənd ju bɪˈlɔŋ./",
@@ -100758,33 +100577,29 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
-    "durationSec": 448,
-    "durationLabel": "07:28",
+    "durationSec": 444,
+    "durationLabel": "07:24",
     "date": "2026/09/11",
     "tags": [
       "名人访谈"
     ],
     "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/73%20Questions%20With%20Kendall%20Jenner%20%EF%BD%9C%20Vogue.webp",
-    "mediaUrl": "./content/episodes/73%20Questions%20With%20Kendall%20Jenner%20%EF%BD%9C%20Vogue.f616.mp4",
-    "audioUrl": "./content/episodes/73%20Questions%20With%20Kendall%20Jenner%20%EF%BD%9C%20Vogue.f140.m4a",
+    "mediaUrl": "./content/episodes/trimmed/73%20Questions%20With%20Kendall%20Jenner%20%EF%BD%9C%20Vogue.f616.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/73%20Questions%20With%20Kendall%20Jenner%20%EF%BD%9C%20Vogue.f616.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "名人访谈",
     "skipRanges": [
       [
-        0.0,
-        3.6
-      ],
-      [
-        447.16,
-        448.0
+        443.56,
+        444.19
       ]
     ],
     "sentences": [
       {
         "id": 1,
-        "start": 3.6,
-        "end": 4.86,
+        "start": 0.0,
+        "end": 1.26,
         "speaker": "Speaker",
         "en": "Hey Kendall Jenner, hi!",
         "ipa": "/heɪ ˈkɛndəl ˈdʒɛnər, haɪ! aɪ keɪm hɪr tu æsk ju ˈsɛvənti-θri ˈkwɛstʃənz, ˈvɛri, ˈvɛri ˈkwɪkli./",
@@ -100804,8 +100619,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 4.9,
-        "end": 8.08,
+        "start": 1.3,
+        "end": 4.48,
         "speaker": "Speaker",
         "en": "I came here to ask you 73 questions, very, very quickly.",
         "ipa": "",
@@ -100820,8 +100635,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 8.12,
-        "end": 8.76,
+        "start": 4.52,
+        "end": 5.16,
         "speaker": "Speaker",
         "en": "Let's do it!",
         "ipa": "/lɛts du ɪt! kʌm ɑn ɪn. ɔl raɪt, soʊ hɪr wi ɑr ɪn ðə hoʊm ju ɡru ʌp ɪn, jæ?/",
@@ -100830,8 +100645,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 8.8,
-        "end": 9.38,
+        "start": 5.2,
+        "end": 5.78,
         "speaker": "Speaker",
         "en": "Come on in.",
         "ipa": "",
@@ -100840,8 +100655,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 9.42,
-        "end": 12.76,
+        "start": 5.82,
+        "end": 9.16,
         "speaker": "Speaker",
         "en": "All right, so here we are in the home you grew up in, yeah?",
         "ipa": "",
@@ -100856,8 +100671,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 12.8,
-        "end": 14.37,
+        "start": 9.2,
+        "end": 10.77,
         "speaker": "Speaker",
         "en": "How often do you hang out here?",
         "ipa": "/haʊ ˈɔfən du ju hæŋ aʊt hɪr? ʌm, nɑt tu ˈɔfən ɛniˌmɔr./",
@@ -100872,8 +100687,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 14.41,
-        "end": 15.76,
+        "start": 10.81,
+        "end": 12.16,
         "speaker": "Speaker",
         "en": "Um, not too often anymore.",
         "ipa": "",
@@ -100888,8 +100703,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 15.8,
-        "end": 17.25,
+        "start": 12.2,
+        "end": 13.65,
         "speaker": "Speaker",
         "en": "What's your favorite memory in this home?",
         "ipa": "/wʌts jʊr ˈfeɪvərɪt ˈmɛməri ɪn ðɪs hoʊm? ˈsnikɪŋ aʊt leɪt. wʌts jʊr ˈfeɪvərɪt ˈhɑləˌdeɪ?/",
@@ -100904,8 +100719,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 17.29,
-        "end": 17.9,
+        "start": 13.69,
+        "end": 14.3,
         "speaker": "Speaker",
         "en": "Sneaking out late.",
         "ipa": "",
@@ -100920,8 +100735,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 17.94,
-        "end": 19.0,
+        "start": 14.34,
+        "end": 15.4,
         "speaker": "Speaker",
         "en": "What's your favorite holiday?",
         "ipa": "",
@@ -100936,8 +100751,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 19.04,
-        "end": 20.76,
+        "start": 15.44,
+        "end": 17.16,
         "speaker": "Speaker",
         "en": "To celebrate in this home?",
         "ipa": "/tu ˈsɛləˌbreɪt ɪn ðɪs hoʊm? ˈkrɪsməs. oʊˈkeɪ, wʌt ɪz ðə moʊst æbˈsɜrd ˈnɪkˌneɪm?/",
@@ -100952,8 +100767,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 20.8,
-        "end": 21.44,
+        "start": 17.2,
+        "end": 17.84,
         "speaker": "Speaker",
         "en": "Christmas.",
         "ipa": "",
@@ -100968,8 +100783,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 21.48,
-        "end": 24.12,
+        "start": 17.88,
+        "end": 20.52,
         "speaker": "Speaker",
         "en": "Okay, what is the most absurd nickname?",
         "ipa": "",
@@ -100984,8 +100799,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 24.16,
-        "end": 25.47,
+        "start": 20.56,
+        "end": 21.87,
         "speaker": "Speaker",
         "en": "That someone has ever given you?",
         "ipa": "/ðæt ˈsʌmˌwʌn hæz ˈɛvər ˈɡɪvən ju? ʌm, ˈkɪlə, bʌt aɪ ˈhævənt bin kɔld ðæt sɪns haɪ skul./",
@@ -101000,8 +100815,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 25.51,
-        "end": 28.04,
+        "start": 21.91,
+        "end": 24.44,
         "speaker": "Speaker",
         "en": "Um, Killa, but I haven't been called that since high school.",
         "ipa": "",
@@ -101021,8 +100836,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 28.08,
-        "end": 29.14,
+        "start": 24.48,
+        "end": 25.54,
         "speaker": "Speaker",
         "en": "What was your first job?",
         "ipa": "/wʌt wʌz jʊr fɜrst dʒɑb? dɔɡ ˈwɔkɪŋ. wʌts ˈsʌmθɪŋ əˈbaʊt ju ðæt ju wɪʃ mɔr ˈpipəl ˈfoʊkəst ɑn?/",
@@ -101031,8 +100846,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 29.18,
-        "end": 29.69,
+        "start": 25.58,
+        "end": 26.09,
         "speaker": "Speaker",
         "en": "Dog walking.",
         "ipa": "",
@@ -101047,8 +100862,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 29.73,
-        "end": 32.68,
+        "start": 26.13,
+        "end": 29.08,
         "speaker": "Speaker",
         "en": "What's something about you that you wish more people focused on?",
         "ipa": "",
@@ -101063,8 +100878,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 32.72,
-        "end": 33.27,
+        "start": 29.12,
+        "end": 29.67,
         "speaker": "Speaker",
         "en": "My ass.",
         "ipa": "/maɪ æs. wʌt skɛrz ju ðə moʊst? ʌm, ˈluzɪŋ ˈsʌmˌwʌn. wʌt ˈæŋɡərz ju ðə moʊst?/",
@@ -101073,8 +100888,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 33.31,
-        "end": 35.39,
+        "start": 29.71,
+        "end": 31.79,
         "speaker": "Speaker",
         "en": "What scares you the most?",
         "ipa": "",
@@ -101089,8 +100904,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 35.43,
-        "end": 37.0,
+        "start": 31.83,
+        "end": 33.4,
         "speaker": "Speaker",
         "en": "Um, losing someone.",
         "ipa": "",
@@ -101105,8 +100920,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 37.04,
-        "end": 39.16,
+        "start": 33.44,
+        "end": 35.56,
         "speaker": "Speaker",
         "en": "What angers you the most?",
         "ipa": "",
@@ -101121,8 +100936,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 39.2,
-        "end": 39.95,
+        "start": 35.6,
+        "end": 36.35,
         "speaker": "Speaker",
         "en": "Delayed flights.",
         "ipa": "/dɪˈleɪd flaɪts. wʌt meɪks ju læf ðə moʊst? ʌm, maɪ frɛnd ˈtaɪlər./",
@@ -101142,8 +100957,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 39.99,
-        "end": 41.42,
+        "start": 36.39,
+        "end": 37.82,
         "speaker": "Speaker",
         "en": "What makes you laugh the most?",
         "ipa": "",
@@ -101163,8 +100978,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 41.46,
-        "end": 42.44,
+        "start": 37.86,
+        "end": 38.84,
         "speaker": "Speaker",
         "en": "Um, my friend Tyler.",
         "ipa": "",
@@ -101184,8 +100999,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 42.48,
-        "end": 44.82,
+        "start": 38.88,
+        "end": 41.22,
         "speaker": "Speaker",
         "en": "What's your favorite curse word?",
         "ipa": "/wʌts jʊr ˈfeɪvərɪt kɜrs wɜrd? wʌt ɪz ˈɡoʊɪŋ ɑn ðɛr, mɑm? wʌt ɑr ju ˈduɪŋ?/",
@@ -101205,8 +101020,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 44.86,
-        "end": 46.9,
+        "start": 41.26,
+        "end": 43.3,
         "speaker": "Speaker",
         "en": "What is going on there, Mom?",
         "ipa": "",
@@ -101221,8 +101036,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 46.94,
-        "end": 48.36,
+        "start": 43.34,
+        "end": 44.76,
         "speaker": "Speaker",
         "en": "What are you doing?",
         "ipa": "",
@@ -101231,8 +101046,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 48.4,
-        "end": 49.46,
+        "start": 44.8,
+        "end": 45.86,
         "speaker": "Speaker",
         "en": "I'm doing a major renovation to your room.",
         "ipa": "/aɪm ˈduɪŋ ə ˈmeɪdʒər ˌrɛnəˈveɪʃən tu jʊr rum. bʌt wʌt ʃʊd aɪ meɪk ɪt ˈɪntu? ə ˌplænəˈtɛriəm./",
@@ -101247,8 +101062,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 49.5,
-        "end": 50.27,
+        "start": 45.9,
+        "end": 46.67,
         "speaker": "Speaker",
         "en": "But what should I make it into?",
         "ipa": "",
@@ -101257,8 +101072,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 50.31,
-        "end": 50.68,
+        "start": 46.71,
+        "end": 47.08,
         "speaker": "Speaker",
         "en": "A planetarium.",
         "ipa": "",
@@ -101273,8 +101088,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 50.72,
-        "end": 52.31,
+        "start": 47.12,
+        "end": 48.71,
         "speaker": "Speaker",
         "en": "So, what is modeling really like?",
         "ipa": "/soʊ, wʌt ɪz ˈmɑdəlɪŋ ˈrɪli laɪk? ʌm, ə drim kʌm tru. wɛrz wʌn pleɪs ju laɪk tu ɡoʊ ænd nɑt bi ˈrɛkəɡˌnaɪzd?/",
@@ -101289,8 +101104,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 52.35,
-        "end": 53.4,
+        "start": 48.75,
+        "end": 49.8,
         "speaker": "Speaker",
         "en": "Um, a dream come true.",
         "ipa": "",
@@ -101305,8 +101120,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 53.44,
-        "end": 56.16,
+        "start": 49.84,
+        "end": 52.56,
         "speaker": "Speaker",
         "en": "Where's one place you like to go and not be recognized?",
         "ipa": "",
@@ -101321,8 +101136,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 56.2,
-        "end": 56.8,
+        "start": 52.6,
+        "end": 53.2,
         "speaker": "Speaker",
         "en": "The beach.",
         "ipa": "/ðə bitʃ. oʊˈkeɪ, soʊ ðɪs ɪz jʊr ˈmʌðərz ˈklɑzət. waʊ, ðæt ɪz ən əˈbʌndəns ʌv ʃuz./",
@@ -101337,8 +101152,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 56.84,
-        "end": 59.24,
+        "start": 53.24,
+        "end": 55.64,
         "speaker": "Speaker",
         "en": "Okay, so this is your mother's closet.",
         "ipa": "",
@@ -101358,8 +101173,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 59.28,
-        "end": 61.52,
+        "start": 55.68,
+        "end": 57.92,
         "speaker": "Speaker",
         "en": "Wow, that is an abundance of shoes.",
         "ipa": "",
@@ -101374,8 +101189,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 61.56,
-        "end": 61.92,
+        "start": 57.96,
+        "end": 58.32,
         "speaker": "Speaker",
         "en": "Yeah.",
         "ipa": "/jæ. wʌts ðə prɪˈsaɪs ˈnʌmbər ʌv ʃuz ɪn ðæt ˈklɑzət? ʌm, ˈsɛvənti-θri, bʌt ˈoʊnli ˈsnikərz./",
@@ -101384,8 +101199,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 61.96,
-        "end": 65.87,
+        "start": 58.36,
+        "end": 62.27,
         "speaker": "Speaker",
         "en": "What's the precise number of shoes in that closet?",
         "ipa": "",
@@ -101400,8 +101215,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 65.91,
-        "end": 67.96,
+        "start": 62.31,
+        "end": 64.36,
         "speaker": "Speaker",
         "en": "Um, 73, but only sneakers.",
         "ipa": "",
@@ -101416,8 +101231,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 68.0,
-        "end": 68.81,
+        "start": 64.4,
+        "end": 65.21,
         "speaker": "Speaker",
         "en": "That's a good number.",
         "ipa": "/ðæts ə ɡʊd ˈnʌmbər. bɛst ˈfæʃən tɪp ju lɜrnd frʌm jʊr mɑm? ʌm, ˈɔlweɪz tu teɪk kɛr ʌv maɪ θɪŋz./",
@@ -101432,8 +101247,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 68.85,
-        "end": 70.55,
+        "start": 65.25,
+        "end": 66.95,
         "speaker": "Speaker",
         "en": "Best fashion tip you learned from your mom?",
         "ipa": "",
@@ -101453,8 +101268,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 70.59,
-        "end": 72.08,
+        "start": 66.99,
+        "end": 68.48,
         "speaker": "Speaker",
         "en": "Um, always to take care of my things.",
         "ipa": "",
@@ -101469,8 +101284,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 72.12,
-        "end": 74.05,
+        "start": 68.52,
+        "end": 70.45,
         "speaker": "Speaker",
         "en": "What is your must-have beauty product?",
         "ipa": "/wʌt ɪz jʊr mʌst-hæv ˈbjuti ˈprɑdəkt? rɛd ˈlɪpˌstɪk. wʌts ðə wɜrst ˈbjuti trɛnd juv ˈɛvər traɪd?/",
@@ -101485,8 +101300,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 74.09,
-        "end": 74.72,
+        "start": 70.49,
+        "end": 71.12,
         "speaker": "Speaker",
         "en": "Red lipstick.",
         "ipa": "",
@@ -101501,8 +101316,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 74.76,
-        "end": 77.24,
+        "start": 71.16,
+        "end": 73.64,
         "speaker": "Speaker",
         "en": "What's the worst beauty trend you've ever tried?",
         "ipa": "",
@@ -101522,8 +101337,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 77.28,
-        "end": 78.61,
+        "start": 73.68,
+        "end": 75.01,
         "speaker": "Speaker",
         "en": "Plucking my eyebrows too much.",
         "ipa": "/ˈplʌkɪŋ maɪ ˈaɪˌbraʊz tu mʌtʃ. wʌts ðə wɜrst ˈfæʃən trɛnd ʌv ɔl taɪm? ʌm, wɛdʒ ˈsnikərz./",
@@ -101543,8 +101358,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 78.65,
-        "end": 80.57,
+        "start": 75.05,
+        "end": 76.97,
         "speaker": "Speaker",
         "en": "What's the worst fashion trend of all time?",
         "ipa": "",
@@ -101559,8 +101374,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 80.61,
-        "end": 81.48,
+        "start": 77.01,
+        "end": 77.88,
         "speaker": "Speaker",
         "en": "Um, wedge sneakers.",
         "ipa": "",
@@ -101580,8 +101395,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 81.52,
-        "end": 83.44,
+        "start": 77.92,
+        "end": 79.84,
         "speaker": "Speaker",
         "en": "What's your morning beauty ritual?",
         "ipa": "/wʌts jʊr ˈmɔrnɪŋ ˈbjuti ˈrɪtʃuəl? ˈdrɪŋkɪŋ tʌnz ʌv ˈwɔtər ænd ˈbrʌʃɪŋ maɪ tiθ./",
@@ -101596,8 +101411,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 83.48,
-        "end": 86.08,
+        "start": 79.88,
+        "end": 82.48,
         "speaker": "Speaker",
         "en": "Drinking tons of water and brushing my teeth.",
         "ipa": "",
@@ -101617,8 +101432,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 86.12,
-        "end": 88.37,
+        "start": 82.52,
+        "end": 84.77,
         "speaker": "Speaker",
         "en": "What's your spirit animal? Tupac Shakur.",
         "ipa": "/wʌts jʊr ˈspɪrɪt ˈænəməl? tu-pɑk ʃə-kʊr. ˈkɛndəl, lɛts du ə kwɪk ˈtʌtʃ-ʌp. haɪ!/",
@@ -101638,8 +101453,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 88.41,
-        "end": 90.42,
+        "start": 84.81,
+        "end": 86.82,
         "speaker": "Speaker",
         "en": "Kendall, let's do a quick touch-up.",
         "ipa": "",
@@ -101654,8 +101469,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 90.46,
-        "end": 90.64,
+        "start": 86.86,
+        "end": 87.04,
         "speaker": "Speaker",
         "en": "Hi!",
         "ipa": "",
@@ -101664,8 +101479,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 90.68,
-        "end": 92.64,
+        "start": 87.08,
+        "end": 89.04,
         "speaker": "Speaker",
         "en": "Okay, do you have a secret beauty tip?",
         "ipa": "/oʊˈkeɪ, du ju hæv ə ˈsikrət ˈbjuti tɪp? ʌm, ˈdrɪŋkɪŋ tʌnz ʌv ˈwɔtər. du ju hæv ə ˈsikrət ˈhɑbi?/",
@@ -101680,8 +101495,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 92.68,
-        "end": 94.06,
+        "start": 89.08,
+        "end": 90.46,
         "speaker": "Speaker",
         "en": "Um, drinking tons of water.",
         "ipa": "",
@@ -101701,8 +101516,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 94.1,
-        "end": 95.52,
+        "start": 90.5,
+        "end": 91.92,
         "speaker": "Speaker",
         "en": "Do you have a secret hobby?",
         "ipa": "",
@@ -101717,8 +101532,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 95.56,
-        "end": 96.17,
+        "start": 91.96,
+        "end": 92.57,
         "speaker": "Speaker",
         "en": "Photography.",
         "ipa": "/fəˈtɑɡrəfi. du ju hæv ə ˈsikrət? ɪf aɪ toʊld ju, ɪt ˈwʊdənt bi ə ˈsikrət ɛniˌmɔr./",
@@ -101733,8 +101548,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 96.21,
-        "end": 97.3,
+        "start": 92.61,
+        "end": 93.7,
         "speaker": "Speaker",
         "en": "Do you have a secret?",
         "ipa": "",
@@ -101749,8 +101564,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 97.34,
-        "end": 99.88,
+        "start": 93.74,
+        "end": 96.28,
         "speaker": "Speaker",
         "en": "If I told you, it wouldn't be a secret anymore.",
         "ipa": "",
@@ -101765,8 +101580,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 99.92,
-        "end": 100.66,
+        "start": 96.32,
+        "end": 97.06,
         "speaker": "Speaker",
         "en": "Okay, good to go.",
         "ipa": "/oʊˈkeɪ, ɡʊd tu ɡoʊ. wʌts ðə moʊst ɪkˈspɛnsɪv θɪŋ juv ˈɛvər splɜrdʒd ɑn? ʌm, maɪ ˈvɪntɪdʒ kɑr./",
@@ -101775,8 +101590,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 100.7,
-        "end": 103.24,
+        "start": 97.1,
+        "end": 99.64,
         "speaker": "Speaker",
         "en": "What's the most expensive thing you've ever splurged on?",
         "ipa": "",
@@ -101791,8 +101606,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 103.28,
-        "end": 104.16,
+        "start": 99.68,
+        "end": 100.56,
         "speaker": "Speaker",
         "en": "Um, my vintage car.",
         "ipa": "",
@@ -101807,8 +101622,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 104.2,
-        "end": 107.02,
+        "start": 100.6,
+        "end": 103.42,
         "speaker": "Speaker",
         "en": "What do you wear when nobody's watching?",
         "ipa": "/wʌt du ju wɛr wɛn ˈnoʊˌbɑdiz ˈwɑtʃɪŋ? ˈnʌθɪŋ. wʌt ɪz jʊr ˈfeɪvərɪt θɪŋ juv ˈɛvər wɔrn?/",
@@ -101823,8 +101638,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 107.06,
-        "end": 107.59,
+        "start": 103.46,
+        "end": 103.99,
         "speaker": "Speaker",
         "en": "Nothing.",
         "ipa": "",
@@ -101833,8 +101648,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 107.63,
-        "end": 110.84,
+        "start": 104.03,
+        "end": 107.24,
         "speaker": "Speaker",
         "en": "What is your favorite thing you've ever worn?",
         "ipa": "",
@@ -101849,8 +101664,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 110.88,
-        "end": 113.47,
+        "start": 107.28,
+        "end": 109.87,
         "speaker": "Speaker",
         "en": "Um, anything a little controversial.",
         "ipa": "/ʌm, ˈɛniˌθɪŋ ə ˈlɪtəl ˌkɑntrəˈvɜrʃəl. oʊˈkeɪ, hɪrz ən ˈɑnˌslɔt ʌv ˈsɪstər ˈkwɛstʃənz./",
@@ -101865,8 +101680,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 113.51,
-        "end": 116.88,
+        "start": 109.91,
+        "end": 113.28,
         "speaker": "Speaker",
         "en": "Okay, here's an onslaught of sister questions.",
         "ipa": "",
@@ -101881,8 +101696,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 116.92,
-        "end": 118.98,
+        "start": 113.32,
+        "end": 115.38,
         "speaker": "Speaker",
         "en": "Okay, who is your favorite sister right now?",
         "ipa": "/oʊˈkeɪ, hu ɪz jʊr ˈfeɪvərɪt ˈsɪstər raɪt naʊ? ʌm, ˈkloʊi. huz jʊr ˈfeɪvərɪt tu poʊz wɪð æt ðɪs ˈkɜrənt ˈmoʊmənt?/",
@@ -101897,8 +101712,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 119.02,
-        "end": 119.46,
+        "start": 115.42,
+        "end": 115.86,
         "speaker": "Speaker",
         "en": "Um, Khloe.",
         "ipa": "",
@@ -101913,8 +101728,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 119.5,
-        "end": 122.16,
+        "start": 115.9,
+        "end": 118.56,
         "speaker": "Speaker",
         "en": "Who's your favorite to pose with at this current moment?",
         "ipa": "",
@@ -101934,8 +101749,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 122.2,
-        "end": 122.85,
+        "start": 118.6,
+        "end": 119.25,
         "speaker": "Speaker",
         "en": "All of them.",
         "ipa": "/ɔl ʌv ðɛm. hu ɪz ðə ˈfʌniɪst ˈsɪblɪŋ ænd waɪ? aɪ θɪŋk ˈkaɪli, kəz ʃiz ˈsupər sɑrˈkæstɪk./",
@@ -101944,8 +101759,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 122.89,
-        "end": 124.92,
+        "start": 119.29,
+        "end": 121.32,
         "speaker": "Speaker",
         "en": "Who is the funniest sibling and why?",
         "ipa": "",
@@ -101965,8 +101780,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 124.96,
-        "end": 127.32,
+        "start": 121.36,
+        "end": 123.72,
         "speaker": "Speaker",
         "en": "I think Kylie, cuz she's super sarcastic.",
         "ipa": "",
@@ -101981,8 +101796,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 127.36,
-        "end": 130.03,
+        "start": 123.76,
+        "end": 126.43,
         "speaker": "Speaker",
         "en": "Who is the craziest sibling and why?",
         "ipa": "/hu ɪz ðə ˈkreɪziɪst ˈsɪblɪŋ ænd waɪ? drʌŋk ɔr ˈsoʊbər? hu ɪz ðə ˈnidiɪst ˈsɪblɪŋ ænd waɪ?/",
@@ -102002,8 +101817,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 130.07,
-        "end": 131.16,
+        "start": 126.47,
+        "end": 127.56,
         "speaker": "Speaker",
         "en": "Drunk or sober?",
         "ipa": "",
@@ -102023,8 +101838,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 131.2,
-        "end": 133.92,
+        "start": 127.6,
+        "end": 130.32,
         "speaker": "Speaker",
         "en": "Who is the neediest sibling and why?",
         "ipa": "",
@@ -102039,8 +101854,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 133.96,
-        "end": 134.69,
+        "start": 130.36,
+        "end": 131.09,
         "speaker": "Speaker",
         "en": "Um, none of us.",
         "ipa": "/ʌm, nʌn ʌv ʌs. wɪr ɔl ˈsupər ˌɪndɪˈpɛndənt ˈwɪmɪn. wɪtʃ ˈsɪstərz ˈklɑzət wʊd ju lʌv tu reɪd?/",
@@ -102049,8 +101864,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 134.73,
-        "end": 136.44,
+        "start": 131.13,
+        "end": 132.84,
         "speaker": "Speaker",
         "en": "We're all super independent women.",
         "ipa": "",
@@ -102070,8 +101885,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 136.48,
-        "end": 138.8,
+        "start": 132.88,
+        "end": 135.2,
         "speaker": "Speaker",
         "en": "Which sister's closet would you love to raid?",
         "ipa": "",
@@ -102086,8 +101901,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 138.84,
-        "end": 139.41,
+        "start": 135.24,
+        "end": 135.81,
         "speaker": "Speaker",
         "en": "Um, Kim, always.",
         "ipa": "/ʌm, kɪm, ˈɔlweɪz. wʌts wʌn θɪŋ ˈoʊnli ju noʊ əˈbaʊt kɪm? ʌm, ʃi kæn du ˈɔlmoʊst ˈɛniˌθɪŋ wɪð hɜr toʊz./",
@@ -102096,8 +101911,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 139.45,
-        "end": 140.97,
+        "start": 135.85,
+        "end": 137.37,
         "speaker": "Speaker",
         "en": "What's one thing only you know about Kim?",
         "ipa": "",
@@ -102112,8 +101927,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 141.01,
-        "end": 142.72,
+        "start": 137.41,
+        "end": 139.12,
         "speaker": "Speaker",
         "en": "Um, she can do almost anything with her toes.",
         "ipa": "",
@@ -102122,8 +101937,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 142.76,
-        "end": 145.04,
+        "start": 139.16,
+        "end": 141.44,
         "speaker": "Speaker",
         "en": "Is your favorite sister right now, um, Khloe?",
         "ipa": "/ɪz jʊər ˈfeɪvərɪt ˈsɪstər raɪt naʊ, ʌm, ˈkloʊi? huːz jʊər ˈfeɪvərɪt tuː poʊz wɪð æt ðɪs ˈkɜːrənt ˈmoʊmənt/",
@@ -102138,8 +101953,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 145.08,
-        "end": 147.96,
+        "start": 141.48,
+        "end": 144.36,
         "speaker": "Speaker",
         "en": "Who's your favorite to pose with at this current moment?",
         "ipa": "",
@@ -102159,8 +101974,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 148.0,
-        "end": 153.88,
+        "start": 144.4,
+        "end": 150.28,
         "speaker": "Speaker",
         "en": "All of them. Who is the funniest sibling and why? I think Kylie 'cause she's super sarcastic.",
         "ipa": "/ɔːl ʌv ðɛm. huː ɪz ðə ˈfʌniɪs ˈsɪblɪŋ ənd waɪ? aɪ θɪŋk ˈkaɪli kəz ʃiːz ˈsuːpər sɑːrˈkæstɪk/",
@@ -102180,8 +101995,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 153.92,
-        "end": 159.64,
+        "start": 150.32,
+        "end": 156.04,
         "speaker": "Speaker",
         "en": "Who is the craziest sibling and why? Drunk or sober?",
         "ipa": "/huː ɪz ðə ˈkreɪziɪs ˈsɪblɪŋ ənd waɪ? drʌŋk ɔːr ˈsoʊbər/",
@@ -102201,8 +102016,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 159.68,
-        "end": 165.4,
+        "start": 156.08,
+        "end": 161.8,
         "speaker": "Speaker",
         "en": "Who is the neediest sibling and why? Um, none of us, we're all super independent women.",
         "ipa": "/huː ɪz ðə ˈniːdiɪs ˈsɪblɪŋ ənd waɪ? ʌm, nʌn ʌv ʌs, wɪr ɔːl ˈsuːpər ˌɪndɪˈpɛndənt ˈwɪmɪn/",
@@ -102222,8 +102037,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 165.44,
-        "end": 168.84,
+        "start": 161.84,
+        "end": 165.24,
         "speaker": "Speaker",
         "en": "Which sister's closet would you love to raid?",
         "ipa": "/wɪtʃ ˈsɪstərz ˈklɑːzɪt wʊd juː lʌv tuː reɪd? ʌm, kɪm, ˈɔːlweɪz. wʌts wʌn θɪŋ ˈoʊnli juː noʊ/",
@@ -102238,8 +102053,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 168.88,
-        "end": 170.06,
+        "start": 165.28,
+        "end": 166.46,
         "speaker": "Speaker",
         "en": "Um, Kim, always.",
         "ipa": "",
@@ -102254,8 +102069,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 170.1,
-        "end": 173.16,
+        "start": 166.5,
+        "end": 169.56,
         "speaker": "Speaker",
         "en": "What's one thing only you know about Kim?",
         "ipa": "/əˈbaʊt kɪm? ʌm, ʃiː kən duː ˈɔːlmoʊst ˈɛniˌθɪŋ wɪð hɜːr toʊz. wʌts ɪt laɪk ˈbiːɪŋ/",
@@ -102264,8 +102079,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 173.2,
-        "end": 176.59,
+        "start": 169.6,
+        "end": 172.99,
         "speaker": "Speaker",
         "en": "Um, she can do almost anything with her toes.",
         "ipa": "",
@@ -102280,8 +102095,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 176.63,
-        "end": 182.52,
+        "start": 173.03,
+        "end": 178.92,
         "speaker": "Speaker",
         "en": "What's it like being An aunt great because I can give them back if Kim has another kid.",
         "ipa": "/ən ænt ɡreɪt bɪˈkəz aɪ kən ɡɪv ðəm bæk ɪf kɪm hæz əˈnʌðər kɪd/",
@@ -102301,8 +102116,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 182.56,
-        "end": 184.59,
+        "start": 178.96,
+        "end": 180.99,
         "speaker": "Speaker",
         "en": "What should she call him or her?",
         "ipa": "/wʌt ʃʊd ʃi kɔːl hɪm ɔːr hɜːr əm ˈkɛndəl kən ju neɪm fɔːr əv ðɛr neɪmz ðæt stɑːrt/",
@@ -102311,8 +102126,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 184.63,
-        "end": 195.19,
+        "start": 181.03,
+        "end": 191.59,
         "speaker": "Speaker",
         "en": "Um, Kendall, can you name four of their names that start with K: Cat, Katie, Karen, Cassandra, that works.",
         "ipa": "/wɪð keɪ kæt ˈkeɪti ˈkɛrən kəˈsændrə ðæt wɜːrks ˈfeɪvərɪt ˈmuːvi əv ɔːl taɪm əm ðə ˈnoʊtbʊk/",
@@ -102332,8 +102147,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 195.23,
-        "end": 197.68,
+        "start": 191.63,
+        "end": 194.08,
         "speaker": "Speaker",
         "en": "Favorite movie of all time?",
         "ipa": "",
@@ -102348,8 +102163,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 197.72,
-        "end": 199.28,
+        "start": 194.12,
+        "end": 195.68,
         "speaker": "Speaker",
         "en": "Um, The Notebook.",
         "ipa": "",
@@ -102364,8 +102179,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 199.32,
-        "end": 201.99,
+        "start": 195.72,
+        "end": 198.39,
         "speaker": "Speaker",
         "en": "What movies made you cry the hardest and laugh the hardest?",
         "ipa": "/wʌt ˈmuːviz meɪd ju kraɪ ðə ˈhɑːrdɪst ənd læf ðə ˈhɑːrdɪst kraɪ ðə ˈhɑːrdɪst ˈmɑːrli/",
@@ -102380,8 +102195,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 202.03,
-        "end": 205.78,
+        "start": 198.43,
+        "end": 202.18,
         "speaker": "Speaker",
         "en": "Cry the hardest, Marley and Me; and laugh the hardest, Bridesmaids.",
         "ipa": "/ənd mi ənd læf ðə ˈhɑːrdɪst ˈbraɪdzmeɪdz oʊˈkeɪ ju kən ˈoʊnli dæns/",
@@ -102396,8 +102211,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 205.82,
-        "end": 210.3,
+        "start": 202.22,
+        "end": 206.7,
         "speaker": "Speaker",
         "en": "Okay, you can only dance to one song for the rest of your life, what song is it?",
         "ipa": "/tu wʌn sɔːŋ fɔːr ðə rɛst əv jʊər laɪf wʌt sɔːŋ ɪz ɪt ˈwɪtni ˈhjuːstən aɪ ˈwɑːnə/",
@@ -102412,8 +102227,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 101,
-        "start": 210.34,
-        "end": 213.45,
+        "start": 206.74,
+        "end": 209.85,
         "speaker": "Speaker",
         "en": "Whitney Houston, I Wanna Dance with Somebody, of course.",
         "ipa": "/dæns wɪð ˈsʌmbədi əv kɔːrs ɪf ju dʒɔɪnd ðə spaɪs ɡɜːrlz/",
@@ -102428,8 +102243,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 102,
-        "start": 213.49,
-        "end": 216.54,
+        "start": 209.89,
+        "end": 212.94,
         "speaker": "Speaker",
         "en": "If you joined the Spice Girls, what would your name be?",
         "ipa": "/wʌt wʊd jʊər neɪm bi ˈkɪtən spaɪs ɪf jʊər laɪf wʌz ə sɔːŋ ɔːr ˈmuːvi wʌt wʊd ðə ˈtaɪtəl bi əm/",
@@ -102444,8 +102259,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 103,
-        "start": 216.58,
-        "end": 217.25,
+        "start": 212.98,
+        "end": 213.65,
         "speaker": "Speaker",
         "en": "Kitten Spice.",
         "ipa": "",
@@ -102465,8 +102280,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 104,
-        "start": 217.29,
-        "end": 220.4,
+        "start": 213.69,
+        "end": 216.8,
         "speaker": "Speaker",
         "en": "If your life was a song or movie, what would the title be?",
         "ipa": "",
@@ -102486,8 +102301,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 105,
-        "start": 220.44,
-        "end": 222.66,
+        "start": 216.84,
+        "end": 219.06,
         "speaker": "Speaker",
         "en": "Um, It Ain't As Easy As It Looks.",
         "ipa": "/ɪt eɪnt æz ˈiːzi æz ɪt lʊks oʊˈkeɪ wʌt ɪz ðə ˈkreɪziɪs taɪm juːv ˈɛvər hæd/",
@@ -102502,8 +102317,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 106,
-        "start": 222.7,
-        "end": 226.67,
+        "start": 219.1,
+        "end": 223.07,
         "speaker": "Speaker",
         "en": "Okay, what is the craziest time you've ever had with Gigi?",
         "ipa": "/wɪð ˈdʒiːdʒi əm wʌn taɪm wi wɜːr ɪn kæn ənd pʊld ən ɔːl ˈnaɪtər ənd ˈɛndɪd ʌp/",
@@ -102518,8 +102333,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 107,
-        "start": 226.71,
-        "end": 231.93,
+        "start": 223.11,
+        "end": 228.33,
         "speaker": "Speaker",
         "en": "Um, one time we were in Cannes and pulled an all-nighter and ended up in Monaco.",
         "ipa": "/ɪn ˈmɑːnəkoʊ wʌt ɪz jʊər ˈnɪkˌneɪm fɔːr ˈdʒiːdʒi ˈwiːdʒə ˈjuːzɪŋ ðə ˈfjuːɪst wɜːrdz/",
@@ -102534,8 +102349,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 108,
-        "start": 231.97,
-        "end": 235.21,
+        "start": 228.37,
+        "end": 231.61,
         "speaker": "Speaker",
         "en": "What is your nickname for Gigi? Ouija.",
         "ipa": "",
@@ -102550,8 +102365,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 109,
-        "start": 235.25,
-        "end": 243.26,
+        "start": 231.65,
+        "end": 239.66,
         "speaker": "Speaker",
         "en": "Using the fewest words possible, can you explain to me how you are related to Gigi?",
         "ipa": "/ˈpɑːsəbəl kən ju ɪkˈspleɪn tu mi haʊ ju ɑːr rɪˈleɪtɪd tu ˈdʒiːdʒi əm/",
@@ -102571,8 +102386,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 110,
-        "start": 243.3,
-        "end": 248.92,
+        "start": 239.7,
+        "end": 245.32,
         "speaker": "Speaker",
         "en": "Um, so her stepdad is my half brother's stepdad's ex- stepdad.",
         "ipa": "/soʊ hɜːr ˈstɛpˌdæd ɪz maɪ hæf ˈbrʌðərz ˈstɛpˌdædz ɛks ˈstɛpˌdæd dʌz ðæt meɪk sɛns nɑːt ət ɔːl oʊˈkeɪ ˈsɑːri du ju riːd ˈɪntərnɛt ˈkɑːmɛnts/",
@@ -102587,8 +102402,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 111,
-        "start": 248.96,
-        "end": 250.27,
+        "start": 245.36,
+        "end": 246.67,
         "speaker": "Speaker",
         "en": "Does that make sense?",
         "ipa": "",
@@ -102603,8 +102418,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 112,
-        "start": 250.31,
-        "end": 250.98,
+        "start": 246.71,
+        "end": 247.38,
         "speaker": "Speaker",
         "en": "Not at all.",
         "ipa": "",
@@ -102613,8 +102428,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 113,
-        "start": 251.02,
-        "end": 251.75,
+        "start": 247.42,
+        "end": 248.15,
         "speaker": "Speaker",
         "en": "Okay, sorry.",
         "ipa": "",
@@ -102623,8 +102438,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 114,
-        "start": 251.79,
-        "end": 253.72,
+        "start": 248.19,
+        "end": 250.12,
         "speaker": "Speaker",
         "en": "Do you read internet comments?",
         "ipa": "",
@@ -102644,8 +102459,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 115,
-        "start": 253.76,
-        "end": 253.91,
+        "start": 250.16,
+        "end": 250.31,
         "speaker": "Speaker",
         "en": "No.",
         "ipa": "/noʊ wʌts ðə ˈfʌniɪst θɪŋ juːv ˈɛvər riːd əˈbaʊt jərˈsɛlf ɑːn ðə ˈɪntərnɛt/",
@@ -102654,8 +102469,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 116,
-        "start": 253.93,
-        "end": 258.0,
+        "start": 250.33,
+        "end": 254.4,
         "speaker": "Speaker",
         "en": "What's the funniest thing you've ever read about yourself on the internet?",
         "ipa": "",
@@ -102670,8 +102485,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 117,
-        "start": 258.04,
-        "end": 260.18,
+        "start": 254.44,
+        "end": 256.58,
         "speaker": "Speaker",
         "en": "That I'm having Justin Bieber's spirit child.",
         "ipa": "/ðæt aɪm ˈhævɪŋ ˈdʒʌstɪn ˈbiːbərz ˈspɪrɪt tʃaɪld wʌt du ju wʌnt tu seɪ tu jʊər fænz ə/",
@@ -102686,8 +102501,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 118,
-        "start": 260.22,
-        "end": 261.97,
+        "start": 256.62,
+        "end": 258.37,
         "speaker": "Speaker",
         "en": "What do you want to say to your fans?",
         "ipa": "",
@@ -102696,8 +102511,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 119,
-        "start": 262.01,
-        "end": 262.95,
+        "start": 258.41,
+        "end": 259.35,
         "speaker": "Speaker",
         "en": "Uh, I love you.",
         "ipa": "/aɪ lʌv ju ɔːl raɪt wʌts ðə ˈstɔːri/",
@@ -102712,8 +102527,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 120,
-        "start": 262.99,
-        "end": 267.29,
+        "start": 259.39,
+        "end": 263.69,
         "speaker": "Speaker",
         "en": "All right, what's the story behind this Instagram photo?",
         "ipa": "/bɪˈhaɪnd ðɪs ˈɪnstəˌɡræm ˈfoʊtoʊ əm ðɪs ɪz mi ˈɡɛtɪŋ ˈrɛdi fɔːr ən ɪˈvɛnt/",
@@ -102733,8 +102548,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 121,
-        "start": 267.33,
-        "end": 274.12,
+        "start": 263.73,
+        "end": 270.52,
         "speaker": "Speaker",
         "en": "Um, this is me getting ready for an event with my stylist and my seamstress in some sick boots.",
         "ipa": "/wɪð maɪ ˈstaɪlɪst ənd maɪ ˈsiːmstrɪs ɪn sʌm sɪk buːts wʌts ðə ˈstɔːri bɪˈhaɪnd/",
@@ -102754,8 +102569,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 122,
-        "start": 274.16,
-        "end": 276.98,
+        "start": 270.56,
+        "end": 273.38,
         "speaker": "Speaker",
         "en": "What's the story behind this Instagram photo?",
         "ipa": "/ðɪs ˈɪnstəˌɡræm ˈfoʊtoʊ ðɪs ɪz mi ənd maɪ ˈsɪstərz ət maɪ ˈsɪstərz ˈbeɪbi ˈʃaʊər/",
@@ -102775,8 +102590,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 123,
-        "start": 277.02,
-        "end": 282.61,
+        "start": 273.42,
+        "end": 279.01,
         "speaker": "Speaker",
         "en": "This is me and my sisters at my sister's baby shower, having some sister time.",
         "ipa": "/ˈhævɪŋ sʌm ˈsɪstər taɪm wʌts ðə ˈstɔːri bɪˈhaɪnd ðɪs ˈɪnstəˌɡræm ˈfoʊtoʊ/",
@@ -102796,8 +102611,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 124,
-        "start": 282.65,
-        "end": 286.56,
+        "start": 279.05,
+        "end": 282.96,
         "speaker": "Speaker",
         "en": "What's the story behind this Instagram photo?",
         "ipa": "",
@@ -102817,8 +102632,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 125,
-        "start": 286.6,
-        "end": 288.13,
+        "start": 283.0,
+        "end": 284.53,
         "speaker": "Speaker",
         "en": "This is my always mood.",
         "ipa": "/ðɪs ɪz maɪ ˈɔːlweɪz muːd wɪl ju poʊst ə ˈsɛlfi əv ju wɪð mi ɑːn jʊər ˈɪnstəˌɡræm noʊ lɛts ɡoʊ/",
@@ -102833,8 +102648,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 126,
-        "start": 288.17,
-        "end": 291.96,
+        "start": 284.57,
+        "end": 288.36,
         "speaker": "Speaker",
         "en": "Will you post a selfie of you with me on your Instagram?",
         "ipa": "",
@@ -102854,8 +102669,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 127,
-        "start": 292.0,
-        "end": 292.17,
+        "start": 288.4,
+        "end": 288.57,
         "speaker": "Speaker",
         "en": "No.",
         "ipa": "",
@@ -102864,8 +102679,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 128,
-        "start": 292.21,
-        "end": 293.79,
+        "start": 288.61,
+        "end": 290.19,
         "speaker": "Speaker",
         "en": "Let's go to the pool.",
         "ipa": "/tu ðə puːl neɪm wʌn θɪŋ ju ˈkænɑːt lɪv wɪˈðaʊt ˈpɑːstə ˈkɛndəl haɪ aɪ dʒʌst hæd/",
@@ -102880,8 +102695,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 129,
-        "start": 293.83,
-        "end": 297.14,
+        "start": 290.23,
+        "end": 293.54,
         "speaker": "Speaker",
         "en": "Name one thing you cannot live without?",
         "ipa": "",
@@ -102896,8 +102711,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 130,
-        "start": 297.18,
-        "end": 297.66,
+        "start": 293.58,
+        "end": 294.06,
         "speaker": "Speaker",
         "en": "Pasta.",
         "ipa": "",
@@ -102912,8 +102727,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 131,
-        "start": 297.7,
-        "end": 304.02,
+        "start": 294.1,
+        "end": 300.42,
         "speaker": "Speaker",
         "en": "Kendall, hi, I just had a baby, what should I do to celebrate?",
         "ipa": "/ə ˈbeɪbi wʌt ʃʊd aɪ du tu ˈsɛlɪˌbreɪt ˈmeɪbi ɡoʊ hæŋ aʊt/",
@@ -102933,8 +102748,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 132,
-        "start": 304.06,
-        "end": 306.98,
+        "start": 300.46,
+        "end": 303.38,
         "speaker": "Speaker",
         "en": "Maybe go hang out with your wife.",
         "ipa": "/wɪð jʊər waɪf wʌt ˈtiːˈviː ʃoʊ wʊd ju kɪl tu meɪk ə ˈkæmioʊ ɪn ə ðə ˈbætʃələrɛt du ju/",
@@ -102949,8 +102764,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 133,
-        "start": 307.02,
-        "end": 310.06,
+        "start": 303.42,
+        "end": 306.46,
         "speaker": "Speaker",
         "en": "What TV show would you kill to make a cameo in?",
         "ipa": "",
@@ -102965,8 +102780,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 134,
-        "start": 310.1,
-        "end": 311.44,
+        "start": 306.5,
+        "end": 307.84,
         "speaker": "Speaker",
         "en": "Uh, The Bachelorette.",
         "ipa": "",
@@ -102981,8 +102796,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 135,
-        "start": 311.48,
-        "end": 314.82,
+        "start": 307.88,
+        "end": 311.22,
         "speaker": "Speaker",
         "en": "Do you have a favorite episode of Keeping Up with the Kardashians?",
         "ipa": "/hæv ə ˈfeɪvərɪt ˈɛpɪsoʊd əv ˈkiːpɪŋ ʌp wɪð ðə kɑːrˈdɑːʃiənz jæj ˈprɑːbəbli/",
@@ -102997,8 +102812,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 136,
-        "start": 314.86,
-        "end": 318.06,
+        "start": 311.26,
+        "end": 314.46,
         "speaker": "Speaker",
         "en": "Yeah, probably the one where I did prosthetics with my sisters.",
         "ipa": "/ðə wʌn wɛr aɪ dɪd prɑːsˈθɛtɪks wɪð maɪ ˈsɪstərz wʊd ju ˈɛvər du ə ˈspɪnˌɔːf noʊ/",
@@ -103018,8 +102833,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 137,
-        "start": 318.1,
-        "end": 319.57,
+        "start": 314.5,
+        "end": 315.97,
         "speaker": "Speaker",
         "en": "Would you ever do a spin-off?",
         "ipa": "",
@@ -103034,8 +102849,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 138,
-        "start": 319.61,
-        "end": 321.86,
+        "start": 316.01,
+        "end": 318.26,
         "speaker": "Speaker",
         "en": "No, I like working with my family too much.",
         "ipa": "/aɪ laɪk ˈwɜːrkɪŋ wɪð maɪ ˈfæməli tuː mʌtʃ wʌt ɑːr θriː θɪŋz ju lʊk/",
@@ -103050,8 +102865,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 139,
-        "start": 321.9,
-        "end": 324.3,
+        "start": 318.3,
+        "end": 320.7,
         "speaker": "Speaker",
         "en": "What are three things you look for in a man?",
         "ipa": "/fɔːr ɪn ə mæn ə ˈkɑːnfɪdəns ɡʊd sɛns əv ˈhjuːmər ənd ɡreɪt staɪl huː dɪd ju hæv ə krʌʃ/",
@@ -103066,8 +102881,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 140,
-        "start": 324.34,
-        "end": 327.48,
+        "start": 320.74,
+        "end": 323.88,
         "speaker": "Speaker",
         "en": "Uh, confidence, good sense of humor, and great style.",
         "ipa": "",
@@ -103082,8 +102897,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 141,
-        "start": 327.52,
-        "end": 330.62,
+        "start": 323.92,
+        "end": 327.02,
         "speaker": "Speaker",
         "en": "Who did you have a crush on when you were younger?",
         "ipa": "/ɑːn wɛn ju wɜːr ˈjʌŋɡər ˈbɛni ðə dʒɛt roʊˈdriːɡɛz ɔːl raɪt wʌt wʌz jʊər fɜːrst/",
@@ -103098,8 +102913,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 142,
-        "start": 330.66,
-        "end": 332.21,
+        "start": 327.06,
+        "end": 328.61,
         "speaker": "Speaker",
         "en": "Benny the Jet Rodriguez.",
         "ipa": "",
@@ -103114,8 +102929,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 143,
-        "start": 332.25,
-        "end": 334.69,
+        "start": 328.65,
+        "end": 331.09,
         "speaker": "Speaker",
         "en": "All right, what was your first memory?",
         "ipa": "/ˈmɛməri əm mi ˈrʌnɪŋ daʊn ðə hɔːlz ɪn maɪ haʊs ɪn ə ˈlɪtəl ˈlɛpərd koʊt/",
@@ -103130,8 +102945,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 144,
-        "start": 334.73,
-        "end": 339.08,
+        "start": 331.13,
+        "end": 335.48,
         "speaker": "Speaker",
         "en": "Um, me running down the halls in my house in a little leopard coat.",
         "ipa": "",
@@ -103151,8 +102966,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 145,
-        "start": 339.12,
-        "end": 341.07,
+        "start": 335.52,
+        "end": 337.47,
         "speaker": "Speaker",
         "en": "Who would make you totally starstruck?",
         "ipa": "/huː wʊd meɪk ju ˈtoʊtəli ˈstɑːrˌstrʌk ænˌdʒɛliːnə ʒoʊˈliː əv kɔːrs ɔːl raɪt/",
@@ -103167,8 +102982,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 146,
-        "start": 341.11,
-        "end": 342.43,
+        "start": 337.51,
+        "end": 338.83,
         "speaker": "Speaker",
         "en": "Angelina Jolie, of course.",
         "ipa": "",
@@ -103188,8 +103003,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 147,
-        "start": 342.47,
-        "end": 345.35,
+        "start": 338.87,
+        "end": 341.75,
         "speaker": "Speaker",
         "en": "All right, favorite place to visit that's not a home?",
         "ipa": "/ˈfeɪvərɪt pleɪs tu ˈvɪzɪt ðæts nɑːt ə hoʊm pɑːm sprɪŋz du ju hæv ə ˈhɪdən/",
@@ -103204,8 +103019,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 148,
-        "start": 345.39,
-        "end": 346.08,
+        "start": 341.79,
+        "end": 342.48,
         "speaker": "Speaker",
         "en": "Palm Springs.",
         "ipa": "",
@@ -103220,8 +103035,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 149,
-        "start": 346.12,
-        "end": 348.41,
+        "start": 342.52,
+        "end": 344.81,
         "speaker": "Speaker",
         "en": "Do you have a hidden talent?",
         "ipa": "/ˈtælənt jæj aɪ kən meɪk bɜːrd ˈnɔɪzɪz pruːv/",
@@ -103236,8 +103051,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 150,
-        "start": 348.45,
-        "end": 353.25,
+        "start": 344.85,
+        "end": 349.65,
         "speaker": "Speaker",
         "en": "Yeah, I can make bird noises.",
         "ipa": "",
@@ -103252,8 +103067,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 151,
-        "start": 353.29,
-        "end": 356.99,
+        "start": 349.69,
+        "end": 353.39,
         "speaker": "Speaker",
         "en": "Prove It, Kendall, get your ass in here.",
         "ipa": "/ɪt ˈkɛndəl ɡɛt jʊər æs ɪn hɪər wʌz ðə neɪm ʌv jʊər fɜːst pɛt ʌ/",
@@ -103268,8 +103083,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 152,
-        "start": 357.03,
-        "end": 360.4,
+        "start": 353.43,
+        "end": 356.8,
         "speaker": "Speaker",
         "en": "What was the name of your first pet, uh?",
         "ipa": "",
@@ -103278,8 +103093,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 153,
-        "start": 360.44,
-        "end": 364.19,
+        "start": 356.84,
+        "end": 360.59,
         "speaker": "Speaker",
         "en": "Harley, yes, Mom, what's up?",
         "ipa": "/ˈhɑːrli jɛs mɑːm wʌts ʌp wɛl aɪ ˈfɪnɪʃt/",
@@ -103294,8 +103109,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 154,
-        "start": 364.23,
-        "end": 373.11,
+        "start": 360.63,
+        "end": 369.51,
         "speaker": "Speaker",
         "en": "Well, I finished your Planetarium, and wanted to know what's the most embarrassing thing that your mom's ever done?",
         "ipa": "/jʊər ˌplænɪˈtɛriəm ænd ˈwɑːntɪd tuː noʊ wʌts ðə moʊst ɪmˈbɛrəsɪŋ θɪŋ ðæt jʊər mɑːmz ˈɛvər dʌn ˈmeɪbi ðɪs ɔːl/",
@@ -103315,8 +103130,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 155,
-        "start": 373.15,
-        "end": 375.6,
+        "start": 369.55,
+        "end": 372.0,
         "speaker": "Speaker",
         "en": "Maybe this, all your magazines.",
         "ipa": "/jʊər ˈmæɡəziːnz lʌv juː lʌv juː ɪf juː hæd tuː tʃuːz əˈnʌðər kəˈrɪər wʌt wʊd juː/",
@@ -103331,8 +103146,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 156,
-        "start": 375.64,
-        "end": 376.66,
+        "start": 372.04,
+        "end": 373.06,
         "speaker": "Speaker",
         "en": "Love you, love you.",
         "ipa": "",
@@ -103341,8 +103156,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 157,
-        "start": 376.7,
-        "end": 379.75,
+        "start": 373.1,
+        "end": 376.15,
         "speaker": "Speaker",
         "en": "If you had to choose another career, what would you do?",
         "ipa": "/duː ʌm ˈprɑːbəbli ˈwɜːrkɪŋ ɑːn ə fɑːrm ˈsʌmweər haʊ wʊd juː dɪˈskraɪb/",
@@ -103357,8 +103172,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 158,
-        "start": 379.79,
-        "end": 382.36,
+        "start": 376.19,
+        "end": 378.76,
         "speaker": "Speaker",
         "en": "Um, probably working on a farm somewhere.",
         "ipa": "",
@@ -103378,8 +103193,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 159,
-        "start": 382.4,
-        "end": 385.54,
+        "start": 378.8,
+        "end": 381.94,
         "speaker": "Speaker",
         "en": "How would you describe yourself in three words?",
         "ipa": "/jʊərˈsɛlf ɪn θriː wɜːrdz ʌm aɪm ə ˈwɪrdoʊ aɪm ˈmoʊtɪveɪtɪd ænd aɪm dʒɛt læɡd ɪf juː/",
@@ -103394,8 +103209,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 160,
-        "start": 385.58,
-        "end": 389.32,
+        "start": 381.98,
+        "end": 385.72,
         "speaker": "Speaker",
         "en": "Um, I'm a weirdo, I'm motivated, and I'm jet-lagged.",
         "ipa": "",
@@ -103415,8 +103230,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 161,
-        "start": 389.36,
-        "end": 392.52,
+        "start": 385.76,
+        "end": 388.92,
         "speaker": "Speaker",
         "en": "If you could have a superpower, what would it be?",
         "ipa": "/kʊd hæv ə ˈsuːpərpwaʊər wʌt wʊd ɪt biː ʌm ɡɑːʃ ˈprɑːbəbli tuː biː ɪnˈvɪzəbəl/",
@@ -103431,8 +103246,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 162,
-        "start": 392.56,
-        "end": 395.8,
+        "start": 388.96,
+        "end": 392.2,
         "speaker": "Speaker",
         "en": "Um, gosh, probably to be invisible whenever I want it to be.",
         "ipa": "/wɛnˈɛvər aɪ wɑːnt ɪt tuː biː wʌts ðə ˈbɪɡɪst sərˈpraɪz juːv ˈɛvər hæd ˈmeɪbi/",
@@ -103447,8 +103262,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 163,
-        "start": 395.84,
-        "end": 397.63,
+        "start": 392.24,
+        "end": 394.03,
         "speaker": "Speaker",
         "en": "What's the biggest surprise you've ever had?",
         "ipa": "",
@@ -103463,8 +103278,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 164,
-        "start": 397.67,
-        "end": 402.0,
+        "start": 394.07,
+        "end": 398.4,
         "speaker": "Speaker",
         "en": "Maybe when one of my sisters got pregnant, or when Kanye proposed to Kim.",
         "ipa": "/wɛn wʌn ʌv maɪ ˈsɪstərz ɡɑːt ˈprɛɡnənt ɔːr wɛn ˈkɑːnjeɪ prəˈpoʊzd tuː kɪm/",
@@ -103479,8 +103294,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 165,
-        "start": 402.04,
-        "end": 403.95,
+        "start": 398.44,
+        "end": 400.35,
         "speaker": "Speaker",
         "en": "What is the best piece of advice you've ever received?",
         "ipa": "/wʌt ɪz ðə bɛst piːs ʌv ədˈvaɪs juːv ˈɛvər rɪˈsiːvd ʌm triːt ˈpiːpəl ðə weɪ juː/",
@@ -103495,8 +103310,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 166,
-        "start": 403.99,
-        "end": 406.15,
+        "start": 400.39,
+        "end": 402.55,
         "speaker": "Speaker",
         "en": "Um, treat people the way you want to be treated.",
         "ipa": "/wɑːnt tuː biː ˈtriːtɪd wʌt ədˈvaɪs wʊd juː ɡɪv jʊər ˈjʌŋɡər sɛlf doʊnt wɛər/",
@@ -103516,8 +103331,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 167,
-        "start": 406.19,
-        "end": 408.87,
+        "start": 402.59,
+        "end": 405.27,
         "speaker": "Speaker",
         "en": "What advice would you give your younger self?",
         "ipa": "",
@@ -103532,8 +103347,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 168,
-        "start": 408.91,
-        "end": 409.87,
+        "start": 405.31,
+        "end": 406.27,
         "speaker": "Speaker",
         "en": "Don't wear that!",
         "ipa": "/ðæt wʌt duː juː hoʊp fɔːr baɪ ðə taɪm jʊər ˈθɜːrti ʌm ˈhæpinəs lʌv ænd ə ˈfæməli/",
@@ -103542,8 +103357,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 169,
-        "start": 409.91,
-        "end": 412.91,
+        "start": 406.31,
+        "end": 409.31,
         "speaker": "Speaker",
         "en": "What do you hope for by the time you're 30?",
         "ipa": "",
@@ -103558,8 +103373,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 170,
-        "start": 412.95,
-        "end": 415.36,
+        "start": 409.35,
+        "end": 411.76,
         "speaker": "Speaker",
         "en": "Um, happiness, love, and a family.",
         "ipa": "",
@@ -103579,8 +103394,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 171,
-        "start": 415.4,
-        "end": 417.92,
+        "start": 411.8,
+        "end": 414.32,
         "speaker": "Speaker",
         "en": "What are you doing immediately after this interview?",
         "ipa": "/wʌt ɑːr juː ˈduːɪŋ ɪˈmiːdiətli ˈæftər ðɪs ˈɪntərvjuː ˈɡoʊɪŋ tuː ðə dʒɪm ðɪs ˈbɑːdi ˈdʌzənt duː ɪt ɪtˈsɛlf/",
@@ -103600,8 +103415,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 172,
-        "start": 417.96,
-        "end": 418.76,
+        "start": 414.36,
+        "end": 415.16,
         "speaker": "Speaker",
         "en": "Going to the gym.",
         "ipa": "",
@@ -103610,8 +103425,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 173,
-        "start": 418.8,
-        "end": 420.32,
+        "start": 415.2,
+        "end": 416.72,
         "speaker": "Speaker",
         "en": "This body doesn't do it itself.",
         "ipa": "",
@@ -103631,8 +103446,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 174,
-        "start": 420.36,
-        "end": 425.4,
+        "start": 416.76,
+        "end": 421.8,
         "speaker": "Speaker",
         "en": "All right, last question before I leave: Can I film you with some crazy filters on your face?",
         "ipa": "/ɔːl raɪt læst ˈkwɛstʃən bɪˈfɔːr aɪ liːv kæn aɪ fɪlm juː wɪð sʌm ˈkreɪzi ˈfɪltərz ɑːn jʊər feɪs θɔːt juːd ˈnɛvər æsk ˈoʊkeɪ soʊ hɪər juː ɑːr wɪð sʌm ɪnˈseɪn/",
@@ -103647,8 +103462,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 175,
-        "start": 425.44,
-        "end": 426.87,
+        "start": 421.84,
+        "end": 423.27,
         "speaker": "Speaker",
         "en": "Thought you'd never ask!",
         "ipa": "",
@@ -103663,8 +103478,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 176,
-        "start": 426.91,
-        "end": 429.84,
+        "start": 423.31,
+        "end": 426.24,
         "speaker": "Speaker",
         "en": "Okay, so here you are with some insane eyeballs.",
         "ipa": "/ˈaɪbɔːlz ænd lɛts siː wʌt ɛls wiː hæv ʌ oʊ lʊks laɪk juː hæv ə bɪrd naʊ/",
@@ -103679,8 +103494,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 177,
-        "start": 429.88,
-        "end": 431.98,
+        "start": 426.28,
+        "end": 428.38,
         "speaker": "Speaker",
         "en": "And let's see what else we have.",
         "ipa": "",
@@ -103689,8 +103504,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 178,
-        "start": 432.02,
-        "end": 434.64,
+        "start": 428.42,
+        "end": 431.04,
         "speaker": "Speaker",
         "en": "Uh-oh, looks like you have a beard now.",
         "ipa": "",
@@ -103705,8 +103520,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 179,
-        "start": 434.68,
-        "end": 439.8,
+        "start": 431.08,
+        "end": 436.2,
         "speaker": "Speaker",
         "en": "Okay, uh, do that breathing again.",
         "ipa": "/ˈoʊkeɪ ʌ duː ðæt ˈbriːðɪŋ əˈɡɛn/",
@@ -103721,8 +103536,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 180,
-        "start": 439.84,
-        "end": 440.28,
+        "start": 436.24,
+        "end": 436.68,
         "speaker": "Speaker",
         "en": "Sure.",
         "ipa": "/ʃʊr ˈoʊkeɪ ˈoʊkeɪ ðæts ɪˈnʌf ɡoʊ naʊ/",
@@ -103731,8 +103546,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 181,
-        "start": 440.32,
-        "end": 440.76,
+        "start": 436.72,
+        "end": 437.16,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "",
@@ -103741,8 +103556,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 182,
-        "start": 440.8,
-        "end": 442.68,
+        "start": 437.2,
+        "end": 439.08,
         "speaker": "Speaker",
         "en": "Okay, that's enough.",
         "ipa": "",
@@ -103757,8 +103572,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 183,
-        "start": 442.72,
-        "end": 443.4,
+        "start": 439.12,
+        "end": 439.8,
         "speaker": "Speaker",
         "en": "Go now.",
         "ipa": "",
@@ -103767,8 +103582,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 184,
-        "start": 443.44,
-        "end": 447.16,
+        "start": 439.84,
+        "end": 443.56,
         "speaker": "Speaker",
         "en": "Thanks, guys. Bye.",
         "ipa": "/θæŋks ɡaɪz baɪ/",
@@ -103791,8 +103606,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 327,
-    "durationLabel": "05:27",
+    "durationSec": 311,
+    "durationLabel": "05:11",
     "date": "2026/09/10",
     "tags": [
       "美食",
@@ -103800,70 +103615,66 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        13.92,
-        29.98
+        54.65,
+        55.92
       ],
       [
-        70.71,
-        71.98
+        63.68,
+        69.87
       ],
       [
-        79.74,
-        85.93
+        86.27,
+        88.8
       ],
       [
-        102.33,
-        104.86
+        125.52,
+        126.46
       ],
       [
-        141.58,
-        142.52
+        133.89,
+        135.13
       ],
       [
-        149.95,
-        151.19
+        144.0,
+        187.11
       ],
       [
-        160.06,
-        203.17
+        200.6,
+        203.01
       ],
       [
-        216.66,
-        219.07
+        216.68,
+        217.44
       ],
       [
-        232.74,
-        233.5
+        219.62,
+        220.22
       ],
       [
-        235.68,
-        236.28
+        233.9,
+        234.51
       ],
       [
-        249.96,
-        250.57
+        246.8,
+        268.5
       ],
       [
-        262.86,
-        284.56
+        271.07,
+        278.34
       ],
       [
-        287.13,
-        294.4
+        283.64,
+        286.02
       ],
       [
-        299.7,
-        302.08
-      ],
-      [
-        304.08,
-        309.49
+        288.02,
+        293.43
       ]
     ],
     "sentences": [
@@ -103917,8 +103728,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 29.98,
-        "end": 33.07,
+        "start": 13.92,
+        "end": 17.01,
         "speaker": "Speaker",
         "en": "I'll share with you guys what I am feeding Dobby because it's changed.",
         "ipa": "/aɪl ʃɛr wɪð ju ɡaɪz wʌt aɪ æm ˈfidɪŋ ˈdɑbi bɪˈkəz ɪts tʃeɪndʒd./",
@@ -103934,8 +103745,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 33.11,
-        "end": 40.31,
+        "start": 17.05,
+        "end": 24.25,
         "speaker": "Speaker",
         "en": "If you guys have been following my quarantine vlogs... You guys know I stopped feeding Dobby kibbles after watching a documentary called Pet Fooled.",
         "ipa": "/ɪf ju ɡaɪz hæv bin ˈfɑloʊɪŋ maɪ ˈkwɔrəˌtin vlɑɡz... ju ɡaɪz noʊ aɪ stɑpt ˈfidɪŋ ˈdɑbi ˈkɪbəlz ˈæftər ˈwɑtʃɪŋ ə ˌdɑkjuˈmɛntəri kɔld pɛt fuld./",
@@ -103955,8 +103766,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 40.35,
-        "end": 42.47,
+        "start": 24.29,
+        "end": 26.41,
         "speaker": "Speaker",
         "en": "I started cooking his meals, which he loved.",
         "ipa": "/aɪ ˈstɑrtəd ˈkʊkɪŋ hɪz milz, wɪtʃ hi lʌvd./",
@@ -103971,8 +103782,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 42.51,
-        "end": 47.06,
+        "start": 26.45,
+        "end": 31.0,
         "speaker": "Speaker",
         "en": "So the only little issue that we had was trying to find ground meat in our area.",
         "ipa": "/soʊ ði ˈoʊnli ˈlɪtəl ˈɪʃu ðæt wi hæd wʌz ˈtraɪɪŋ tu faɪnd ɡraʊnd mit ɪn ˈaʊər ˈɛriə./",
@@ -103987,8 +103798,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 47.1,
-        "end": 51.51,
+        "start": 31.04,
+        "end": 35.45,
         "speaker": "Speaker",
         "en": "It is a little time-consuming to make Dobby his food because he just goes through it so quickly.",
         "ipa": "/ɪt ɪz ə ˈlɪtəl ˈtaɪm-kənˌsumɪŋ tu meɪk ˈdɑbi hɪz fud bɪˈkəz hi dʒʌst ɡoʊz θru ɪt soʊ ˈkwɪkli./",
@@ -104003,8 +103814,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 51.76,
-        "end": 54.49,
+        "start": 35.7,
+        "end": 38.43,
         "speaker": "Speaker",
         "en": "So I put him on Open Farm freeze-dried raw.",
         "ipa": "/soʊ aɪ pʊt hɪm ɑn ˈoʊpən fɑrm ˈfri-draɪd rɔ. ðɪs ɪz nɑt ˈspɑnsərd./",
@@ -104019,8 +103830,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 54.53,
-        "end": 55.94,
+        "start": 38.47,
+        "end": 39.88,
         "speaker": "Speaker",
         "en": "This is not sponsored.",
         "ipa": "",
@@ -104035,8 +103846,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 55.98,
-        "end": 62.15,
+        "start": 39.92,
+        "end": 46.09,
         "speaker": "Speaker",
         "en": "But I want to share it with you guys in case you guys are pet parents and you are interested in taking your dog off of kibbles.",
         "ipa": "/bʌt aɪ wɑnt tu ʃɛr ɪt wɪð ju ɡaɪz ɪn keɪs ju ɡaɪz ɑr pɛt ˈpɛrənts ænd ju... ɑr ˈɪntrəstəd ɪn ˈteɪkɪŋ jɔr dɔɡ ɔf ʌv ˈkɪbəlz./",
@@ -104056,8 +103867,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 62.19,
-        "end": 67.16,
+        "start": 46.13,
+        "end": 51.1,
         "speaker": "Speaker",
         "en": "They are very transparent, and you can actually trace every ingredient that was used to make this.",
         "ipa": "/ðeɪ ɑr ˈvɛri trænsˈpɛrənt, ænd ju kæn ˈæktʃuəli treɪs ˈɛvri ɪnˈɡridiənt ðæt wʌz juzd tu meɪk ðɪs./",
@@ -104072,8 +103883,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 67.2,
-        "end": 69.83,
+        "start": 51.14,
+        "end": 53.77,
         "speaker": "Speaker",
         "en": "They have a number on here, which you can look up online.",
         "ipa": "/ðeɪ hæv ə ˈnʌmbər ɑn hɪr, wɪtʃ ju kæn lʊk ʌp ˈɑnˌlaɪn./",
@@ -104088,8 +103899,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 69.87,
-        "end": 70.71,
+        "start": 53.81,
+        "end": 54.65,
         "speaker": "Speaker",
         "en": "It looks like this.",
         "ipa": "/ɪt lʊks laɪk ðɪs./",
@@ -104104,8 +103915,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 71.98,
-        "end": 79.74,
+        "start": 55.92,
+        "end": 63.68,
         "speaker": "Speaker",
         "en": "Okay, so... If you guys are interested, I will leave in the description bar what I feed Dobby.",
         "ipa": "/ˈoʊˌkeɪ, soʊ... ɪf ju ɡaɪz ɑr ˈɪntrəstəd, aɪ wɪl liv ɪn ðə dɪˈskrɪpʃən bɑr wʌt aɪ fid ˈdɑbi./",
@@ -104120,8 +103931,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 85.93,
-        "end": 92.93,
+        "start": 69.87,
+        "end": 76.87,
         "speaker": "Speaker",
         "en": "The necklace that I'm wearing is my necklace set from, you know, Luisa; it comes with all three, but you can customize it.",
         "ipa": "/ðə ˈnɛkləs ðæt aɪm ˈwɛrɪŋ ɪz maɪ ˈnɛkləs sɛt frʌm, ju noʊ, luˈisa; ɪt kʌmz wɪð ɔl θri, bʌt ju kæn ˈkʌstəˌmaɪz ɪt./",
@@ -104136,8 +103947,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 92.97,
-        "end": 98.6,
+        "start": 76.91,
+        "end": 82.54,
         "speaker": "Speaker",
         "en": "However you want, this is what it looks like with just two—these are my earrings as well.",
         "ipa": "/haʊˈɛvər ju wɑnt, ðɪs ɪz wʌt ɪt lʊks laɪk wɪð dʒʌst tu—ðiz ɑr maɪ ˈɪrɪŋz æz wɛl./",
@@ -104152,8 +103963,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 98.64,
-        "end": 102.33,
+        "start": 82.58,
+        "end": 86.27,
         "speaker": "Speaker",
         "en": "I will have the links in the description for those who are curious.",
         "ipa": "/aɪ wɪl hæv ðə lɪŋks ɪn ðə dɪˈskrɪpʃən fɔr ðoʊz hu ɑr ˈkjʊriəs./",
@@ -104168,8 +103979,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 104.86,
-        "end": 108.69,
+        "start": 88.8,
+        "end": 92.63,
         "speaker": "Speaker",
         "en": "I like wearing this in the summer; it's so easy to wear, though.",
         "ipa": "/aɪ laɪk ˈwɛrɪŋ ðɪs ɪn ðə ˈsʌmər; ɪts soʊ ˈizi tu wɛr, ðoʊ./",
@@ -104184,8 +103995,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 108.73,
-        "end": 111.87,
+        "start": 92.67,
+        "end": 95.81,
         "speaker": "Speaker",
         "en": "I need to bring my canvas tote bag for my groceries.",
         "ipa": "/aɪ nid tu brɪŋ maɪ ˈkænvəs toʊt bæɡ fɔr maɪ ˈɡroʊsəriz./",
@@ -104200,8 +104011,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 112.37,
-        "end": 115.0,
+        "start": 96.31,
+        "end": 98.94,
         "speaker": "Speaker",
         "en": "I would like to disinfect my phone first.",
         "ipa": "/aɪ wʊd laɪk tu ˌdɪsɪnˈfɛkt maɪ foʊn fɜrst./",
@@ -104216,8 +104027,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 115.36,
-        "end": 120.33,
+        "start": 99.3,
+        "end": 104.27,
         "speaker": "Speaker",
         "en": "So for breakfast today, I'm gonna be making an egg toast, and I'm also gonna add cheese.",
         "ipa": "/soʊ fɔr ˈbrɛkfəst təˈdeɪ, aɪm ˈɡʌnə bi ˈmeɪkɪŋ ən ɛɡ toʊst, ænd aɪm ˈɔlsoʊ ˈɡʌnə æd tʃiz./",
@@ -104232,8 +104043,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 120.37,
-        "end": 126.39,
+        "start": 104.31,
+        "end": 110.33,
         "speaker": "Speaker",
         "en": "I know if you guys have been following me from the very beginning, you guys know I stopped eating dairy.",
         "ipa": "/aɪ noʊ ɪf ju ɡaɪz hæv bin ˈfɑloʊɪŋ mi frʌm ðə ˈvɛri bɪˈɡɪnɪŋ, ju ɡaɪz noʊ aɪ stɑpt ˈitɪŋ ˈdɛri./",
@@ -104248,8 +104059,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 126.43,
-        "end": 130.37,
+        "start": 110.37,
+        "end": 114.31,
         "speaker": "Speaker",
         "en": "Because I was struggling with PCOS and really bad breakouts.",
         "ipa": "/bɪˈkəz aɪ wʌz ˈstrʌɡəlɪŋ wɪð pi-si-oʊ-ɛs ænd ˈrɪli bæd ˈbreɪkˌaʊts./",
@@ -104269,8 +104080,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 130.41,
-        "end": 140.04,
+        "start": 114.35,
+        "end": 123.98,
         "speaker": "Speaker",
         "en": "And during quarantine, I had ice cream and pizza, for like the first time in years.",
         "ipa": "/ænd ˈdʊrɪŋ ˈkwɔːrəntiːn, aɪ hæd aɪs kriːm ænd ˈpiːtsə, fɔːr laɪk ðə fɜːrst taɪm ɪn jɪrz./",
@@ -104290,8 +104101,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 140.08,
-        "end": 141.58,
+        "start": 124.02,
+        "end": 125.52,
         "speaker": "Speaker",
         "en": "I can't believe I went like five, six years without eating pizza.",
         "ipa": "/aɪ kænt bɪˈliːv aɪ wɛnt laɪk faɪv, sɪks jɪrz wɪˈaʊt ˈiːtɪŋ ˈpiːtsə./",
@@ -104306,8 +104117,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 142.52,
-        "end": 147.63,
+        "start": 126.46,
+        "end": 131.57,
         "speaker": "Speaker",
         "en": "My stomach hurt only the first time I had dairy, and then after that, I was perfectly fine.",
         "ipa": "/maɪ ˈstʌmək hɜːrt ˈoʊnli ðə fɜːrst taɪm aɪ hæd ˈdɛri, ænd ðɛn ˈæftər ðæt, aɪ wʌz ˈpɜːrfɪktli faɪn./",
@@ -104322,8 +104133,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 147.67,
-        "end": 149.95,
+        "start": 131.61,
+        "end": 133.89,
         "speaker": "Speaker",
         "en": "And I wasn't really breaking out either.",
         "ipa": "/ænd aɪ ˈwʌznt ˈriːəli ˈbreɪkɪŋ aʊt ˈiːðər./",
@@ -104338,8 +104149,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 151.19,
-        "end": 152.22,
+        "start": 135.13,
+        "end": 136.16,
         "speaker": "Speaker",
         "en": "So guess what I got!",
         "ipa": "/soʊ gɛs wʌt aɪ gɑːt!/",
@@ -104354,8 +104165,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 152.26,
-        "end": 158.38,
+        "start": 136.2,
+        "end": 142.32,
         "speaker": "Speaker",
         "en": "I saw this recipe on YouTube, and it reminded me of the times that I would buy this on the street before I go to class and stuff.",
         "ipa": "/aɪ sɔː ðɪs ˈrɛsəpi ɑːn ˈjuːˌtuːb, ænd ɪt ˈrɪmaɪndɪd miː ʌv ðə taɪmz ðæt aɪ wʊd baɪ ðɪs ɑːn ðə striːt bɪˈfɔːr aɪ goʊ tuː klæs ænd stʌf./",
@@ -104375,8 +104186,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 158.42,
-        "end": 160.06,
+        "start": 142.36,
+        "end": 144.0,
         "speaker": "Speaker",
         "en": "So yeah, I'm gonna try making it.",
         "ipa": "/soʊ jæ, aɪm ˈgɑːnə traɪ ˈmeɪkɪŋ ɪt./",
@@ -104391,8 +104202,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 203.17,
-        "end": 204.23,
+        "start": 187.11,
+        "end": 188.17,
         "speaker": "Speaker",
         "en": "Slightly a fail.",
         "ipa": "/ˈslaɪtli ə feɪl./",
@@ -104407,8 +104218,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 204.73,
-        "end": 207.22,
+        "start": 188.67,
+        "end": 191.16,
         "speaker": "Speaker",
         "en": "I finished that easily in like two days.",
         "ipa": "/aɪ ˈfɪnɪʃt ðæt ˈiːzɪli ɪn laɪk tuː deɪz./",
@@ -104423,8 +104234,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 207.26,
-        "end": 208.3,
+        "start": 191.2,
+        "end": 192.24,
         "speaker": "Speaker",
         "en": "I love that show.",
         "ipa": "/aɪ lʌv ðæt ʃoʊ./",
@@ -104439,8 +104250,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 208.34,
-        "end": 211.27,
+        "start": 192.28,
+        "end": 195.21,
         "speaker": "Speaker",
         "en": "I'm not gonna ruin it, don't worry, but it's on Netflix.",
         "ipa": "/aɪm nɑːt ˈgɑːnə ˈruːɪn ɪt, doʊnt ˈwɜːri, bʌt ɪts ɑːn ˈnɛtflɪks./",
@@ -104455,8 +104266,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 211.31,
-        "end": 213.86,
+        "start": 195.25,
+        "end": 197.8,
         "speaker": "Speaker",
         "en": "So if you guys haven't watched it, please go watch it.",
         "ipa": "/soʊ ɪf juː gaɪz ˈhævnt ˈwɑːtʃt ɪt, pliːz goʊ wɑːtʃ ɪt./",
@@ -104471,8 +104282,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 213.9,
-        "end": 216.66,
+        "start": 197.84,
+        "end": 200.6,
         "speaker": "Speaker",
         "en": "I wish there was like a video call feature on YouTube.",
         "ipa": "/aɪ wɪʃ ðɛr wʌz laɪk ə ˈvɪdioʊ kɔːl ˈfiːtʃər ɑːn ˈjuːˌtuːb./",
@@ -104487,8 +104298,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 219.07,
-        "end": 221.9,
+        "start": 203.01,
+        "end": 205.84,
         "speaker": "Speaker",
         "en": "I am also looking forward to finishing Normal People.",
         "ipa": "/aɪ æm ˈɔːlsoʊ ˈlʊkɪŋ ˈfɔːrwərd tuː ˈfɪnɪʃɪŋ ˈnɔːrməl ˈpiːpəl./",
@@ -104503,8 +104314,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 221.94,
-        "end": 224.37,
+        "start": 205.88,
+        "end": 208.31,
         "speaker": "Speaker",
         "en": "I think I can finish the book today.",
         "ipa": "/aɪ θɪŋk aɪ kæn ˈfɪnɪʃ ðə bʊk təˈdeɪ. ðɛr ɪz ə ˌtiːˈviː ˈsɪriːz wɪð ˈnɔrməl ˈpipəl ðæt ʤʌst keɪm aʊt./",
@@ -104519,8 +104330,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 224.41,
-        "end": 228.47,
+        "start": 208.35,
+        "end": 212.41,
         "speaker": "Speaker",
         "en": "There is a TV series with Normal People that just came out.",
         "ipa": "",
@@ -104535,8 +104346,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 228.51,
-        "end": 232.74,
+        "start": 212.45,
+        "end": 216.68,
         "speaker": "Speaker",
         "en": "I heard people cry watching the show, and honestly, I'm in the mood to cry.",
         "ipa": "/aɪ hɜrd ˈpipəl kraɪ ˈwɑʧɪŋ ðə ʃoʊ, ænd ˈɑnstli, aɪm ɪn ðə mud tu kraɪ./",
@@ -104556,8 +104367,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 233.5,
-        "end": 235.68,
+        "start": 217.44,
+        "end": 219.62,
         "speaker": "Speaker",
         "en": "So I'm gonna finish this book, hopefully today.",
         "ipa": "/soʊ aɪm ˈgɑnə ˈfɪnɪʃ ðɪs bʊk, ˈhoʊpfəli təˈdeɪ./",
@@ -104577,8 +104388,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 236.28,
-        "end": 238.41,
+        "start": 220.22,
+        "end": 222.35,
         "speaker": "Speaker",
         "en": "And watch Normal People.",
         "ipa": "/ænd wɑʧ ˈnɔrməl ˈpipəl./",
@@ -104593,8 +104404,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 238.45,
-        "end": 239.58,
+        "start": 222.39,
+        "end": 223.52,
         "speaker": "Speaker",
         "en": "I think it's on Hulu.",
         "ipa": "/aɪ θɪŋk ɪts ɑn ˈhulu. fɔr lʌnʧ təˈdeɪ, aɪ æm ˈgɑnə bi ˈmeɪkɪŋ ˈsoʊbə ˈnudəlz./",
@@ -104603,8 +104414,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 239.62,
-        "end": 242.45,
+        "start": 223.56,
+        "end": 226.39,
         "speaker": "Speaker",
         "en": "For lunch today, I am gonna be making soba noodles.",
         "ipa": "",
@@ -104619,8 +104430,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 242.49,
-        "end": 244.74,
+        "start": 226.43,
+        "end": 228.68,
         "speaker": "Speaker",
         "en": "I have been obsessed with soba noodles.",
         "ipa": "/aɪ hæv bɪn əbˈsɛst wɪð ˈsoʊbə ˈnudəlz./",
@@ -104635,8 +104446,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 244.78,
-        "end": 249.96,
+        "start": 228.72,
+        "end": 233.9,
         "speaker": "Speaker",
         "en": "I'm sure you can dress up your soba noodles, but I make it very simple: buckwheat noodles.",
         "ipa": "/aɪm ʃʊr ju kæn drɛs ʌp jʊər ˈsoʊbə ˈnudəlz, bʌt aɪ meɪk ɪt ˈvɛri ˈsɪmpəl: ˈbʌkˌhwɪt ˈnudəlz./",
@@ -104656,8 +104467,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 250.57,
-        "end": 255.78,
+        "start": 234.51,
+        "end": 239.72,
         "speaker": "Speaker",
         "en": "Green onions, soba sauce, and you can use daikon.",
         "ipa": "/grin ˈʌnjənz, ˈsoʊbə sɔs, ænd ju kæn juz ˈdaɪkɑn./",
@@ -104677,8 +104488,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 256.2,
-        "end": 260.77,
+        "start": 240.14,
+        "end": 244.71,
         "speaker": "Speaker",
         "en": "But the daikon that I have right now is so like bitter tasting.",
         "ipa": "/bʌt ðə ˈdaɪkɑn ðæt aɪ hæv raɪt naʊ ɪz soʊ laɪk ˈbɪtər ˈteɪstɪŋ./",
@@ -104693,8 +104504,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 260.81,
-        "end": 262.86,
+        "start": 244.75,
+        "end": 246.8,
         "speaker": "Speaker",
         "en": "I just prefer it without it.",
         "ipa": "/aɪ ʤʌst prɪˈfɜr ɪt wɪˈðaʊt ɪt./",
@@ -104709,8 +104520,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 284.56,
-        "end": 287.13,
+        "start": 268.5,
+        "end": 271.07,
         "speaker": "Speaker",
         "en": "Ice cubes, just to make it really cool.",
         "ipa": "/aɪs kjubz, ʤʌst tu meɪk ɪt ˈriəli kul./",
@@ -104725,8 +104536,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 294.4,
-        "end": 294.89,
+        "start": 278.34,
+        "end": 278.83,
         "speaker": "Speaker",
         "en": "Voila!",
         "ipa": "/vɑˈlɑ! ðæt ɪz ˈnudəlz hɪr./",
@@ -104741,8 +104552,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 294.93,
-        "end": 296.79,
+        "start": 278.87,
+        "end": 280.73,
         "speaker": "Speaker",
         "en": "That is noodles here.",
         "ipa": "",
@@ -104757,8 +104568,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 296.83,
-        "end": 299.7,
+        "start": 280.77,
+        "end": 283.64,
         "speaker": "Speaker",
         "en": "Just take a little bit at a time.",
         "ipa": "/ʤʌst teɪk ə ˈlɪtəl bɪt æt ə taɪm./",
@@ -104773,8 +104584,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 302.08,
-        "end": 304.08,
+        "start": 286.02,
+        "end": 288.02,
         "speaker": "Speaker",
         "en": "I love how refreshing it is.",
         "ipa": "/aɪ lʌv haʊ rɪˈfɛʃɪŋ ɪt ɪz./",
@@ -104789,8 +104600,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 309.49,
-        "end": 313.76,
+        "start": 293.43,
+        "end": 297.7,
         "speaker": "Speaker",
         "en": "Thank you guys for spending the morning and afternoon with me.",
         "ipa": "/θæŋk ju gaɪz fɔr ˈspɛndɪŋ ðə ˈmɔrnɪŋ ænd ˈæftərˌnun wɪð mi./",
@@ -104805,8 +104616,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 313.8,
-        "end": 322.07,
+        "start": 297.74,
+        "end": 306.01,
         "speaker": "Speaker",
         "en": "I know it wasn't much, especially during this time, doing small little tasks in my daily life has brought me so much comfort.",
         "ipa": "/aɪ noʊ ɪt ˈwɑzənt mʌʧ, ɪˈspɛʃəli ˈdʊrɪŋ ðɪs taɪm, ˈduɪŋ smɔl ˈlɪtəl... tæsks ɪn maɪ ˈdeɪli laɪf hæz brɔt mi soʊ mʌʧ ˈkʌmfərt./",
@@ -104831,8 +104642,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 322.11,
-        "end": 325.85,
+        "start": 306.05,
+        "end": 309.79,
         "speaker": "Speaker",
         "en": "I hope you guys enjoyed it, and I will see you guys in my next video!",
         "ipa": "/aɪ hoʊp ju gaɪz ɛnˈʤɔɪd ɪt, ænd aɪ wɪl si ju gaɪz ɪn maɪ nɛkst ˈvɪdioʊ!/",
@@ -104852,8 +104663,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 326.31,
-        "end": 326.93,
+        "start": 310.25,
+        "end": 310.87,
         "speaker": "Speaker",
         "en": "Byeeeeeeeeee!",
         "ipa": "/ˈbaɪiiiiiiiii!/",
@@ -104876,8 +104687,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
-    "durationSec": 503,
-    "durationLabel": "08:23",
+    "durationSec": 495,
+    "durationLabel": "08:15",
     "date": "2026/09/09",
     "tags": [
       "美食",
@@ -104885,50 +104696,46 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        3.92,
-        11.32
+        37.57,
+        45.76
       ],
       [
-        44.97,
-        53.16
+        94.77,
+        96.32
       ],
       [
-        102.17,
-        103.72
+        136.4,
+        141.8
       ],
       [
-        143.8,
-        149.2
+        190.4,
+        194.68
       ],
       [
-        197.8,
-        202.08
+        275.82,
+        280.08
       ],
       [
-        283.22,
-        287.48
+        331.36,
+        340.6
       ],
       [
-        338.76,
-        348.0
+        391.49,
+        394.92
       ],
       [
-        398.89,
-        402.32
+        420.96,
+        422.08
       ],
       [
-        428.36,
-        429.48
-      ],
-      [
-        502.38,
-        503.0
+        494.98,
+        495.23
       ]
     ],
     "sentences": [
@@ -104950,8 +104757,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 11.32,
-        "end": 18.32,
+        "start": 3.92,
+        "end": 10.92,
         "speaker": "Speaker",
         "en": "I've been avoiding filming this video because I don't want to know how much I spent in New York and I also don't want you guys to know how much I spent in New York.",
         "ipa": "/aɪv bɪn əˈvɔɪdɪŋ ˈfɪlmɪŋ ðɪs ˈvɪdioʊ bɪˈkəz aɪ doʊnt wɑːnt tuː noʊ haʊ mʌtʃ aɪ spent ɪn nuː jɔːrk ənd aɪ ˈɔlsoʊ doʊnt wɑːnt juː ɡaɪz tuː noʊ haʊ mʌtʃ aɪ spent ɪn nuː jɔːrk/",
@@ -104971,8 +104778,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 18.36,
-        "end": 21.52,
+        "start": 10.96,
+        "end": 14.12,
         "speaker": "Speaker",
         "en": "Every time I leave my apartment, minimum $100 down the drain.",
         "ipa": "/ˈɛvri taɪm aɪ liːv maɪ əˈpɑːrtmənt ˈmɪnɪməm wʌn ˈhʌndrəd dɑːlz daʊn ðə dreɪn/",
@@ -104987,8 +104794,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 21.56,
-        "end": 23.39,
+        "start": 14.16,
+        "end": 15.99,
         "speaker": "Speaker",
         "en": "And I I don't know how.",
         "ipa": "/ənd aɪ aɪ doʊnt noʊ haʊ/",
@@ -105003,8 +104810,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 23.43,
-        "end": 28.7,
+        "start": 16.03,
+        "end": 21.3,
         "speaker": "Speaker",
         "en": "That is what inspired this video is I looked at my credit card and I was like what happened?",
         "ipa": "/ðæt ɪz wʌt ɪnˈspaɪərd ðɪs ˈvɪdioʊ ɪz aɪ lʊkt æt maɪ ˈkrɛdɪt kɑːrd ənd aɪ wəz laɪk wʌt ˈhæpənd/",
@@ -105019,8 +104826,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 28.74,
-        "end": 30.5,
+        "start": 21.34,
+        "end": 23.1,
         "speaker": "Speaker",
         "en": "So yeah, I'm getting my day started late.",
         "ipa": "/soʊ jæ aɪm ˈɡɛtɪŋ maɪ deɪ ˈstɑːrtɪd leɪt/",
@@ -105035,8 +104842,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 30.54,
-        "end": 37.38,
+        "start": 23.14,
+        "end": 29.98,
         "speaker": "Speaker",
         "en": "It's 1:00 p.m. but I thought I would pick up my camera, film how much I spend every single day in a week living in New York.",
         "ipa": "/ɪts wʌn piː ɛm bət aɪ θɔːt aɪ wʊd pɪk ʌp maɪ ˈkæmərə fɪlm haʊ mʌtʃ aɪ spɛnd ˈɛvri ˈsɪŋɡəl deɪ ɪn ə wiːk ˈlɪvɪŋ ɪn nuː jɔːrk/",
@@ -105051,8 +104858,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 37.42,
-        "end": 44.97,
+        "start": 30.02,
+        "end": 37.57,
         "speaker": "Speaker",
         "en": "Please go easy on me, guys.",
         "ipa": "/pliːz ɡoʊ ˈiːzi ɑːn miː ɡaɪz/",
@@ -105072,8 +104879,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 53.16,
-        "end": 54.75,
+        "start": 45.76,
+        "end": 47.35,
         "speaker": "Speaker",
         "en": "Starting the day off strong.",
         "ipa": "/ˈstɑːrtɪŋ ðə deɪ ɔːf strɔːŋ/",
@@ -105088,8 +104895,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 54.79,
-        "end": 57.72,
+        "start": 47.39,
+        "end": 50.32,
         "speaker": "Speaker",
         "en": "Just spent $9 on a latte.",
         "ipa": "/dʒʌst spent naɪn ˈdɑːlərəz ɑːn ə ˈlɑːti/",
@@ -105104,8 +104911,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 57.76,
-        "end": 62.27,
+        "start": 50.36,
+        "end": 54.87,
         "speaker": "Speaker",
         "en": "Something about me that I'm not proud of is I will spend all of my money on coffee.",
         "ipa": "/ˈsʌmθɪŋ əˈbaʊt miː ðæt aɪm nɑːt praʊd ʌv ɪz aɪ wɪl spɛnd ɔːl ʌv maɪ ˈmʌni ɑːn ˈkɔfi/",
@@ -105120,8 +104927,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 62.31,
-        "end": 64.08,
+        "start": 54.91,
+        "end": 56.68,
         "speaker": "Speaker",
         "en": "Here is how I justify this.",
         "ipa": "/hɪər ɪz haʊ aɪ ˈdʒʌstɪfaɪ ðɪs/",
@@ -105136,8 +104943,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 64.12,
-        "end": 68.0,
+        "start": 56.72,
+        "end": 60.6,
         "speaker": "Speaker",
         "en": "Because I work for myself, I work from home, and I don't have an office space.",
         "ipa": "/bɪˈkəz aɪ wɜːrk fɔːr maɪˈsɛlf aɪ wɜːrk frʌm hoʊm ənd aɪ doʊnt hæv ən ˈɔfɪs speɪs/",
@@ -105152,8 +104959,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 68.04,
-        "end": 72.65,
+        "start": 60.64,
+        "end": 65.25,
         "speaker": "Speaker",
         "en": "I like to go out to a coffee shop every single morning because it gets me out, it gets me in like a routine.",
         "ipa": "/aɪ laɪk tuː ɡoʊ aʊt tuː ə ˈkɔfi ʃɑːp ˈɛvri ˈsɪŋɡəl ˈmɔːrnɪŋ bɪˈkəz ɪt ɡɛts miː aʊt ɪt ɡɛts miː ɪn laɪk ə ruːˈtiːn/",
@@ -105168,8 +104975,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 72.69,
-        "end": 79.35,
+        "start": 65.29,
+        "end": 71.95,
         "speaker": "Speaker",
         "en": "So I consider this $9 latte basically my rent to work at the coffee shop for about 3-4 hours.",
         "ipa": "/soʊ aɪ kənˈsɪdər ðɪs naɪn ˈdɑːlərəz ˈlɑːti ˈbeɪsɪkli maɪ rɛnt tuː wɜːrk æt ðə ˈkɔfi ʃɑːp fɔːr əˈbaʊt θriː fɔːr ˈaʊərz/",
@@ -105184,8 +104991,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 79.39,
-        "end": 81.95,
+        "start": 71.99,
+        "end": 74.55,
         "speaker": "Speaker",
         "en": "This is how I can justify this in my head.",
         "ipa": "/ðɪs ɪz haʊ aɪ kæn ˈdʒʌstɪfaɪ ðɪs ɪn maɪ hɛd/",
@@ -105200,8 +105007,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 81.99,
-        "end": 83.91,
+        "start": 74.59,
+        "end": 76.51,
         "speaker": "Speaker",
         "en": "This is how I it makes sense to me.",
         "ipa": "/ðɪs ɪz haʊ aɪ ɪt meɪks sɛns tuː miː/",
@@ -105216,8 +105023,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 83.95,
-        "end": 88.95,
+        "start": 76.55,
+        "end": 81.55,
         "speaker": "Speaker",
         "en": "Even though $9 is actually absurd, I do have a punch card here.",
         "ipa": "/ˈiːvən ðoʊ naɪn ˈdɑːlərəz ɪz ˈæktʃuəli əbˈsɜːrd aɪ duː hæv ə pʌntʃ kɑːrd hɪər/",
@@ -105232,8 +105039,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 88.99,
-        "end": 90.09,
+        "start": 81.59,
+        "end": 82.69,
         "speaker": "Speaker",
         "en": "I'm a loyal member.",
         "ipa": "/aɪm ə ˈlɔɪəl ˈmɛmbər/",
@@ -105248,8 +105055,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 90.13,
-        "end": 91.97,
+        "start": 82.73,
+        "end": 84.57,
         "speaker": "Speaker",
         "en": "Every eight coffees I get a free one.",
         "ipa": "/ˈɛvri eɪt ˈkɔfiz aɪ ɡɛt ə friː wʌn/",
@@ -105264,8 +105071,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 92.01,
-        "end": 92.97,
+        "start": 84.61,
+        "end": 85.57,
         "speaker": "Speaker",
         "en": "Everything adds up.",
         "ipa": "/ˈɛvriθɪŋ ædz ʌp/",
@@ -105280,8 +105087,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 93.01,
-        "end": 102.17,
+        "start": 85.61,
+        "end": 94.77,
         "speaker": "Speaker",
         "en": "So I'm going to work here and enjoy this $9 latte.",
         "ipa": "/soʊ aɪm ˈɡuːɪŋ tuː wɜːrk hɪər ənd ɪnˈdʒɔɪ ðɪs naɪn ˈdɑːlərəz ˈlɑːti/",
@@ -105296,8 +105103,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 103.72,
-        "end": 106.13,
+        "start": 96.32,
+        "end": 98.73,
         "speaker": "Speaker",
         "en": "When I got home, I desperately needed to do laundry.",
         "ipa": "/wɛn aɪ ɡɑːt hoʊm aɪ ˈdɛspərətli ˈniːdɪd tuː duː ˈlɔːndri/",
@@ -105312,8 +105119,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 106.17,
-        "end": 111.64,
+        "start": 98.77,
+        "end": 104.24,
         "speaker": "Speaker",
         "en": "One thing about my apartment is I don't have any unit laundry, which means I do have to pay for it.",
         "ipa": "/wʌn θɪŋ əˈbaʊt maɪ əˈpɑːrtmənt ɪz aɪ doʊnt hæv ˈɛni ˈjuːnɪt ˈlɔːndri wɪtʃ miːnz aɪ duː hæv tuː peɪ fɔːr ɪt/",
@@ -105328,8 +105135,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 111.68,
-        "end": 120.24,
+        "start": 104.28,
+        "end": 112.84,
         "speaker": "Speaker",
         "en": "It's $3 to wash, so threw my laundry in.",
         "ipa": "/ɪts θriː ˈdɑːlərəz tuː wɑːʃ soʊ θruː maɪ ˈlɔːndri ɪn/",
@@ -105349,8 +105156,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 120.28,
-        "end": 122.93,
+        "start": 112.88,
+        "end": 115.53,
         "speaker": "Speaker",
         "en": "While my laundry's going, I thought I'd go for a little walk.",
         "ipa": "/waɪl maɪ ˈlɔːndriz ˈɡoʊɪŋ aɪ θɔːt aɪd ɡoʊ fɔːr ə ˈlɪtəl wɔːk/",
@@ -105365,8 +105172,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 122.97,
-        "end": 125.14,
+        "start": 115.57,
+        "end": 117.74,
         "speaker": "Speaker",
         "en": "I love walking on the West Side Highway.",
         "ipa": "/aɪ lʌv ˈwɔːkɪŋ ɑːn ðə wɛst saɪd ˈhaɪweɪ/",
@@ -105381,8 +105188,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 125.18,
-        "end": 126.06,
+        "start": 117.78,
+        "end": 118.66,
         "speaker": "Speaker",
         "en": "It's so beautiful.",
         "ipa": "/ɪts soʊ ˈbjuːtɪfəl/",
@@ -105397,8 +105204,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 126.1,
-        "end": 129.98,
+        "start": 118.7,
+        "end": 122.58,
         "speaker": "Speaker",
         "en": "This is my like gym replacement in the summertime often, and it's also free.",
         "ipa": "/ðɪs ɪz maɪ laɪk dʒɪm rɪˈpleɪsmənt ɪn ðə ˈsʌmərtaɪm ˈɔfən ənd ɪts ˈɔlsoʊ friː/",
@@ -105413,8 +105220,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 130.02,
-        "end": 130.97,
+        "start": 122.62,
+        "end": 123.57,
         "speaker": "Speaker",
         "en": "So, that's a perk.",
         "ipa": "/soʊ ðæts ə pɜːrk/",
@@ -105429,8 +105236,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 131.01,
-        "end": 134.75,
+        "start": 123.61,
+        "end": 127.35,
         "speaker": "Speaker",
         "en": "So, I just texted one of my friends, and she's going to meet me down there in 20 minutes.",
         "ipa": "/soʊ aɪ dʒʌst ˈtɛkstɪd wʌn ʌv maɪ frɛndz ənd ʃiːz ˈɡuːɪŋ tuː miːt miː daʊn ðɛər ɪn ˈtwɛnti ˈmɪnɪts/",
@@ -105445,8 +105252,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 134.79,
-        "end": 135.75,
+        "start": 127.39,
+        "end": 128.35,
         "speaker": "Speaker",
         "en": "That's my update.",
         "ipa": "/ðæts maɪ ˈʌpdeɪt/",
@@ -105461,8 +105268,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 135.79,
-        "end": 143.8,
+        "start": 128.39,
+        "end": 136.4,
         "speaker": "Speaker",
         "en": "It is a little bit chilly.",
         "ipa": "/ɪt ɪz ə ə ˈlɪtəl bɪt ˈtʃɪli./",
@@ -105482,8 +105289,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 149.2,
-        "end": 152.59,
+        "start": 141.8,
+        "end": 145.19,
         "speaker": "Speaker",
         "en": "I'm having one of those weeks where I just, I've been feeling so lonely.",
         "ipa": "/aɪm ˈhævɪŋ wʌn əv ðoʊz wiːks wɛr aɪ dʒʌst, aɪv biːn ˈfiːlɪŋ soʊ ˈloʊnli./",
@@ -105498,8 +105305,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 152.63,
-        "end": 155.78,
+        "start": 145.23,
+        "end": 148.38,
         "speaker": "Speaker",
         "en": "I feel like I miss my family like extra.",
         "ipa": "/aɪ fiːl laɪk aɪ mɪs maɪ ˈfæməli laɪk ˈɛkstrə./",
@@ -105514,8 +105321,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 155.82,
-        "end": 156.89,
+        "start": 148.42,
+        "end": 149.49,
         "speaker": "Speaker",
         "en": "Oh, hold on.",
         "ipa": "/oʊ, hoʊld ɑn./",
@@ -105530,8 +105337,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 156.93,
-        "end": 157.52,
+        "start": 149.53,
+        "end": 150.12,
         "speaker": "Speaker",
         "en": "Hello?",
         "ipa": "/həˈloʊ?/",
@@ -105540,8 +105347,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 157.56,
-        "end": 159.63,
+        "start": 150.16,
+        "end": 152.23,
         "speaker": "Speaker",
         "en": "Melissa, I think you have the wrong number.",
         "ipa": "/məˈlɪsə, aɪ θɪŋk ju hæv ðə rɔŋ ˈnʌmbər./",
@@ -105556,8 +105363,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 159.67,
-        "end": 161.67,
+        "start": 152.27,
+        "end": 154.27,
         "speaker": "Speaker",
         "en": "I'm with Helga.",
         "ipa": "/aɪm wɪð ˈhɛlgə./",
@@ -105572,8 +105379,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 161.71,
-        "end": 162.08,
+        "start": 154.31,
+        "end": 154.68,
         "speaker": "Speaker",
         "en": "Hi.",
         "ipa": "/haɪ./",
@@ -105582,8 +105389,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 162.12,
-        "end": 162.8,
+        "start": 154.72,
+        "end": 155.4,
         "speaker": "Speaker",
         "en": "Hi, everyone.",
         "ipa": "/haɪ, ˈɛvriˌwʌn./",
@@ -105592,8 +105399,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 162.84,
-        "end": 164.71,
+        "start": 155.44,
+        "end": 157.31,
         "speaker": "Speaker",
         "en": "Guys, Helga's like a real-life angel.",
         "ipa": "/gaɪz, ˈhɛlgəz laɪk ə ˈriəl laɪf ˈeɪndʒəl./",
@@ -105608,8 +105415,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 164.75,
-        "end": 166.89,
+        "start": 157.35,
+        "end": 159.49,
         "speaker": "Speaker",
         "en": "She's just like the sweetest person ever.",
         "ipa": "/ʃiz dʒʌst laɪk ðə ˈswitəst ˈpɜrsən ˈɛvər./",
@@ -105624,8 +105431,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 166.93,
-        "end": 168.49,
+        "start": 159.53,
+        "end": 161.09,
         "speaker": "Speaker",
         "en": "My mood's always lifted.",
         "ipa": "/maɪ mudz ˈɔlweɪz ˈlɪftəd./",
@@ -105640,8 +105447,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 168.53,
-        "end": 170.44,
+        "start": 161.13,
+        "end": 163.04,
         "speaker": "Speaker",
         "en": "I'm no longer lonely.",
         "ipa": "/aɪm noʊ ˈlɔŋgər ˈloʊnli./",
@@ -105661,8 +105468,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 170.48,
-        "end": 171.2,
+        "start": 163.08,
+        "end": 163.8,
         "speaker": "Speaker",
         "en": "Literally same.",
         "ipa": "/ˈlɪtərəli seɪm./",
@@ -105677,8 +105484,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 171.24,
-        "end": 172.72,
+        "start": 163.84,
+        "end": 165.32,
         "speaker": "Speaker",
         "en": "I should have your nails.",
         "ipa": "/aɪ ʃʊd hæv jʊər neɪlz./",
@@ -105693,8 +105500,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 172.76,
-        "end": 173.73,
+        "start": 165.36,
+        "end": 166.33,
         "speaker": "Speaker",
         "en": "Oh, yes, of course.",
         "ipa": "/oʊ, jɛs, əv kɔrs./",
@@ -105709,8 +105516,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 173.77,
-        "end": 174.68,
+        "start": 166.37,
+        "end": 167.28,
         "speaker": "Speaker",
         "en": "Look at her nails.",
         "ipa": "/lʊk æt hər neɪlz./",
@@ -105725,8 +105532,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 174.72,
-        "end": 175.86,
+        "start": 167.32,
+        "end": 168.46,
         "speaker": "Speaker",
         "en": "These are real, right?",
         "ipa": "/ðiz ɑr riəl, raɪt?/",
@@ -105735,8 +105542,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 175.9,
-        "end": 176.56,
+        "start": 168.5,
+        "end": 169.16,
         "speaker": "Speaker",
         "en": "They're real.",
         "ipa": "/ðɛr riəl./",
@@ -105745,8 +105552,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 176.6,
-        "end": 176.85,
+        "start": 169.2,
+        "end": 169.45,
         "speaker": "Speaker",
         "en": "Yeah.",
         "ipa": "/jæ./",
@@ -105755,8 +105562,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 176.89,
-        "end": 177.49,
+        "start": 169.49,
+        "end": 170.09,
         "speaker": "Speaker",
         "en": "Yeah, yeah.",
         "ipa": "/jæ, jæ./",
@@ -105765,8 +105572,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 177.53,
-        "end": 178.12,
+        "start": 170.13,
+        "end": 170.72,
         "speaker": "Speaker",
         "en": "Real nails.",
         "ipa": "/riəl neɪlz./",
@@ -105781,8 +105588,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 178.16,
-        "end": 178.64,
+        "start": 170.76,
+        "end": 171.24,
         "speaker": "Speaker",
         "en": "Always real.",
         "ipa": "/ˈɔlweɪz riəl./",
@@ -105791,8 +105598,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 178.68,
-        "end": 179.68,
+        "start": 171.28,
+        "end": 172.28,
         "speaker": "Speaker",
         "en": "Look how beautiful.",
         "ipa": "/lʊk haʊ ˈbjuːtəfəl./",
@@ -105807,8 +105614,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 179.72,
-        "end": 179.91,
+        "start": 172.32,
+        "end": 172.51,
         "speaker": "Speaker",
         "en": "Aw.",
         "ipa": "/ɔ./",
@@ -105817,8 +105624,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 179.95,
-        "end": 181.52,
+        "start": 172.55,
+        "end": 174.12,
         "speaker": "Speaker",
         "en": "My nails could never.",
         "ipa": "/maɪ neɪlz kʊd ˈnɛvər./",
@@ -105833,8 +105640,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 181.56,
-        "end": 183.59,
+        "start": 174.16,
+        "end": 176.19,
         "speaker": "Speaker",
         "en": "Thank you.",
         "ipa": "/θæŋk ju./",
@@ -105843,8 +105650,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 183.63,
-        "end": 188.56,
+        "start": 176.23,
+        "end": 181.16,
         "speaker": "Speaker",
         "en": "No, I can do your nails.",
         "ipa": "/noʊ, aɪ kæn du jʊər neɪlz./",
@@ -105859,8 +105666,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 188.6,
-        "end": 190.96,
+        "start": 181.2,
+        "end": 183.56,
         "speaker": "Speaker",
         "en": "All right, guys, I'm back from laundry.",
         "ipa": "/ɔl raɪt, gaɪz, aɪm bæk frʌm ˈlɔndri./",
@@ -105875,8 +105682,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 191.0,
-        "end": 197.8,
+        "start": 183.6,
+        "end": 190.4,
         "speaker": "Speaker",
         "en": "That means I'm about to spend three more dollars.",
         "ipa": "/ðæt minz aɪm əˈbaʊt tu spɛnd θri mɔr ˈdɑlərz./",
@@ -105891,8 +105698,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 202.08,
-        "end": 204.45,
+        "start": 194.68,
+        "end": 197.05,
         "speaker": "Speaker",
         "en": "Dinner is served.",
         "ipa": "/ˈdɪnər ɪz sɜrvd./",
@@ -105907,8 +105714,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 204.49,
-        "end": 206.44,
+        "start": 197.09,
+        "end": 199.04,
         "speaker": "Speaker",
         "en": "This... Oh, wait.",
         "ipa": "/ðɪs... oʊ, weɪt./",
@@ -105917,8 +105724,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 206.48,
-        "end": 208.17,
+        "start": 199.08,
+        "end": 200.77,
         "speaker": "Speaker",
         "en": "Wait, do you care if you're in the background?",
         "ipa": "/weɪt, du ju kɛr ɪf jʊər ɪn ðə ˈbækˌgraʊnd?/",
@@ -105933,8 +105740,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 208.21,
-        "end": 209.21,
+        "start": 200.81,
+        "end": 201.81,
         "speaker": "Speaker",
         "en": "Like, hey, am I right?",
         "ipa": "/laɪk, heɪ, æm aɪ raɪt? ʃiz ˈkʊkɪŋ ˈdɪnər./",
@@ -105943,8 +105750,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 209.25,
-        "end": 210.24,
+        "start": 201.85,
+        "end": 202.84,
         "speaker": "Speaker",
         "en": "She's cooking dinner.",
         "ipa": "",
@@ -105964,8 +105771,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 210.28,
-        "end": 211.64,
+        "start": 202.88,
+        "end": 204.24,
         "speaker": "Speaker",
         "en": "I'm about to sit down to eat dinner.",
         "ipa": "/aɪm əˈbaʊt tu sɪt daʊn tu it ˈdɪnər./",
@@ -105980,8 +105787,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 211.68,
-        "end": 213.33,
+        "start": 204.28,
+        "end": 205.93,
         "speaker": "Speaker",
         "en": "We actually usually eat together.",
         "ipa": "/wi ˈæktʃuəli ˈjuʒəwəli it təˈɡɛðər/",
@@ -105996,8 +105803,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 213.37,
-        "end": 217.35,
+        "start": 205.97,
+        "end": 209.95,
         "speaker": "Speaker",
         "en": "We usually like to coordinate our meals, but I was just in a rush.",
         "ipa": "/wi ˈjuʒəwəli laɪk tu koʊˈɔrdɪˌneɪt ˈaʊər milz, bʌt aɪ wʌz dʒʌst ɪn ə rʌʃ/",
@@ -106012,8 +105819,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 217.39,
-        "end": 218.66,
+        "start": 209.99,
+        "end": 211.26,
         "speaker": "Speaker",
         "en": "I'm having leftovers.",
         "ipa": "/aɪm ˈhævɪŋ ˈlɛftˌoʊvərz/",
@@ -106028,8 +105835,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 218.7,
-        "end": 220.65,
+        "start": 211.3,
+        "end": 213.25,
         "speaker": "Speaker",
         "en": "This is one of our favorite meals to have.",
         "ipa": "/ðɪs ɪz wʌn ʌv ˈaʊər ˈfeɪvərɪt milz tu hæv/",
@@ -106044,8 +105851,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 220.69,
-        "end": 223.68,
+        "start": 213.29,
+        "end": 216.28,
         "speaker": "Speaker",
         "en": "It's just so easy, and it actually makes for good leftovers.",
         "ipa": "/ɪts dʒʌst soʊ ˈizi, ænd ɪt ˈæktʃuəli meɪks fɔr ɡʊd ˈlɛftˌoʊvərz/",
@@ -106060,8 +105867,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 223.72,
-        "end": 225.22,
+        "start": 216.32,
+        "end": 217.82,
         "speaker": "Speaker",
         "en": "This is one of my rotation dinners, though.",
         "ipa": "/ðɪs ɪz wʌn ʌv maɪ roʊˈteɪʃən ˈdɪnərz, ðoʊ/",
@@ -106076,8 +105883,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 225.26,
-        "end": 227.87,
+        "start": 217.86,
+        "end": 220.47,
         "speaker": "Speaker",
         "en": "It's ground beef, white sweet potato, cottage cheese.",
         "ipa": "/ɪts ɡraʊnd bif, waɪt swit pəˈteɪtoʊ, ˈkɑtɪdʒ tʃiz/",
@@ -106092,8 +105899,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 227.91,
-        "end": 229.02,
+        "start": 220.51,
+        "end": 221.62,
         "speaker": "Speaker",
         "en": "Okay, hear me out.",
         "ipa": "/ˈoʊˌkeɪ, hir mi aʊt/",
@@ -106108,8 +105915,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 229.06,
-        "end": 229.87,
+        "start": 221.66,
+        "end": 222.47,
         "speaker": "Speaker",
         "en": "It's good.",
         "ipa": "/ɪts ɡʊd/",
@@ -106118,8 +105925,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 229.91,
-        "end": 230.97,
+        "start": 222.51,
+        "end": 223.57,
         "speaker": "Speaker",
         "en": "I know why.",
         "ipa": "/aɪ noʊ waɪ/",
@@ -106128,8 +105935,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 231.01,
-        "end": 233.89,
+        "start": 223.61,
+        "end": 226.49,
         "speaker": "Speaker",
         "en": "I really doubted this, but together it tastes great.",
         "ipa": "/aɪ ˈrɪli ˈdaʊtɪd ðɪs, bʌt təˈɡɛðər ɪt teɪsts ɡreɪt/",
@@ -106144,8 +105951,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 233.93,
-        "end": 235.56,
+        "start": 226.53,
+        "end": 228.16,
         "speaker": "Speaker",
         "en": "Iceberg lettuce and hot honey.",
         "ipa": "/ˈaɪsˌbɜrɡ ˈlɛtɪs ænd hɑt ˈhʌni/",
@@ -106165,8 +105972,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 235.6,
-        "end": 238.57,
+        "start": 228.2,
+        "end": 231.17,
         "speaker": "Speaker",
         "en": "This is kind of like a little bowl that Olivia came up with and showed me.",
         "ipa": "/ðɪs ɪz kaɪnd ʌv laɪk ə ˈlɪtəl boʊl ðæt oʊˈlɪviə keɪm ʌp wɪð ænd ʃoʊd mi/",
@@ -106181,8 +105988,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 238.61,
-        "end": 241.53,
+        "start": 231.21,
+        "end": 234.13,
         "speaker": "Speaker",
         "en": "I've been trying to not eat out so much during the week.",
         "ipa": "/aɪv bin ˈtraɪɪŋ tu nɑt it aʊt soʊ mʌtʃ ˈdʊrɪŋ ðə wik/",
@@ -106197,8 +106004,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 241.57,
-        "end": 245.45,
+        "start": 234.17,
+        "end": 238.05,
         "speaker": "Speaker",
         "en": "One 'cause financially, two just it's like so much better, healthier.",
         "ipa": "/wʌn kəz faɪˈnænʃəli, tu dʒʌst ɪts laɪk soʊ mʌtʃ ˈbɛtər, ˈhɛlθiər/",
@@ -106213,8 +106020,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 245.49,
-        "end": 247.65,
+        "start": 238.09,
+        "end": 240.25,
         "speaker": "Speaker",
         "en": "And I think I've been doing a lot better at that this year.",
         "ipa": "/ænd aɪ θɪŋk aɪv bin ˈduɪŋ ə lɑt ˈbɛtər æt ðæt ðɪs jir/",
@@ -106229,8 +106036,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 247.69,
-        "end": 251.31,
+        "start": 240.29,
+        "end": 243.91,
         "speaker": "Speaker",
         "en": "You guys know I've been golfing and I really don't have any golf clothes.",
         "ipa": "/ju ɡaɪz noʊ aɪv bin ˈɡɑlfɪŋ ænd aɪ ˈrɪli doʊnt hæv ˈɛni ɡɑlf kloʊðz/",
@@ -106250,8 +106057,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 251.35,
-        "end": 256.08,
+        "start": 243.95,
+        "end": 248.68,
         "speaker": "Speaker",
         "en": "Not that I need this perfect outfit, but for the club, I need something to wear.",
         "ipa": "/nɑt ðæt aɪ nid ðɪs ˈpɜrfɪkt ˈaʊtˌfɪt, bʌt fɔr ðə klʌb, aɪ nid ˈsʌmθɪŋ tu wɛr/",
@@ -106266,8 +106073,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 256.12,
-        "end": 257.57,
+        "start": 248.72,
+        "end": 250.17,
         "speaker": "Speaker",
         "en": "I've literally been just wearing leggings.",
         "ipa": "/aɪv ˈlɪtərəli bin dʒʌst ˈwɛrɪŋ ˈlɛɡɪŋz/",
@@ -106282,8 +106089,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 257.61,
-        "end": 259.88,
+        "start": 250.21,
+        "end": 252.48,
         "speaker": "Speaker",
         "en": "So I just went on ThreadUp and I found a couple things.",
         "ipa": "/soʊ aɪ dʒʌst wɛnt ɑn θrɛd-ʌp ænd aɪ faʊnd ə ˈkʌpəl θɪŋz/",
@@ -106298,8 +106105,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 259.92,
-        "end": 260.4,
+        "start": 252.52,
+        "end": 253.0,
         "speaker": "Speaker",
         "en": "I don't know.",
         "ipa": "/aɪ doʊnt noʊ/",
@@ -106308,8 +106115,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 260.44,
-        "end": 261.68,
+        "start": 253.04,
+        "end": 254.28,
         "speaker": "Speaker",
         "en": "I just got this skirt on like TikTok.",
         "ipa": "/aɪ dʒʌst ɡɑt ðɪs skɜrt ɑn laɪk ˈtɪkˌtɑk/",
@@ -106324,8 +106131,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 261.72,
-        "end": 262.26,
+        "start": 254.32,
+        "end": 254.86,
         "speaker": "Speaker",
         "en": "I love ThreadUp.",
         "ipa": "/aɪ lʌv θrɛd-ʌp/",
@@ -106334,8 +106141,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 262.3,
-        "end": 262.8,
+        "start": 254.9,
+        "end": 255.4,
         "speaker": "Speaker",
         "en": "It's so great.",
         "ipa": "/ɪts soʊ ɡreɪt/",
@@ -106344,8 +106151,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 262.84,
-        "end": 264.97,
+        "start": 255.44,
+        "end": 257.57,
         "speaker": "Speaker",
         "en": "They have good pieces that are inexpensive.",
         "ipa": "/ðeɪ hæv ɡʊd ˈpisəz ðæt ɑr ˌɪnɪkˈspɛnsɪv/",
@@ -106360,8 +106167,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 265.01,
-        "end": 268.16,
+        "start": 257.61,
+        "end": 260.76,
         "speaker": "Speaker",
         "en": "My total, $55.03.",
         "ipa": "/maɪ ˈtoʊtəl, ˈfɪfti-faɪv ˈdɑlərz ˈθri ˈsɛnts/",
@@ -106376,8 +106183,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 268.2,
-        "end": 268.69,
+        "start": 260.8,
+        "end": 261.29,
         "speaker": "Speaker",
         "en": "Not too bad.",
         "ipa": "/nɑt tu bæd/",
@@ -106392,8 +106199,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 268.73,
-        "end": 270.04,
+        "start": 261.33,
+        "end": 262.64,
         "speaker": "Speaker",
         "en": "These are the things that I got.",
         "ipa": "/ðiz ɑr ðə θɪŋz ðæt aɪ ɡɑt/",
@@ -106402,8 +106209,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 270.08,
-        "end": 271.47,
+        "start": 262.68,
+        "end": 264.07,
         "speaker": "Speaker",
         "en": "I think I'm safe for the night, though.",
         "ipa": "/aɪ θɪŋk aɪm seɪf fɔr ðə naɪt, ðoʊ/",
@@ -106418,8 +106225,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 271.51,
-        "end": 272.73,
+        "start": 264.11,
+        "end": 265.33,
         "speaker": "Speaker",
         "en": "I think I'm done spending money today.",
         "ipa": "/aɪ θɪŋk aɪm dʌn ˈspɛndɪŋ ˈmʌni təˈdeɪ/",
@@ -106434,8 +106241,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 272.77,
-        "end": 277.73,
+        "start": 265.37,
+        "end": 270.33,
         "speaker": "Speaker",
         "en": "I don't think I'll buy anything else.",
         "ipa": "/aɪ doʊnt θɪŋk aɪl baɪ ˈɛniˌθɪŋ ɛls/",
@@ -106444,8 +106251,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 277.77,
-        "end": 283.22,
+        "start": 270.37,
+        "end": 275.82,
         "speaker": "Speaker",
         "en": "I better not.",
         "ipa": "/aɪ ˈbɛtər nɑt/",
@@ -106460,8 +106267,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 101,
-        "start": 287.48,
-        "end": 288.16,
+        "start": 280.08,
+        "end": 280.76,
         "speaker": "Speaker",
         "en": "Good morning.",
         "ipa": "/ɡʊd ˈmɔrnɪŋ/",
@@ -106476,8 +106283,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 102,
-        "start": 288.2,
-        "end": 290.08,
+        "start": 280.8,
+        "end": 282.68,
         "speaker": "Speaker",
         "en": "I was supposed to go to the gym.",
         "ipa": "/aɪ wʌz səˈpoʊzd tu ɡoʊ tu ðə dʒɪm/",
@@ -106492,8 +106299,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 103,
-        "start": 290.12,
-        "end": 291.2,
+        "start": 282.72,
+        "end": 283.8,
         "speaker": "Speaker",
         "en": "Didn't happen.",
         "ipa": "/ˈdɪdənt ˈhæpən/",
@@ -106508,8 +106315,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 104,
-        "start": 291.24,
-        "end": 293.07,
+        "start": 283.84,
+        "end": 285.67,
         "speaker": "Speaker",
         "en": "Actually, I'm kind of upset.",
         "ipa": "/ˈæktʃuəli aɪm kaɪnd ʌv ʌpˈsɛt/",
@@ -106524,8 +106331,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 105,
-        "start": 293.11,
-        "end": 294.93,
+        "start": 285.71,
+        "end": 287.53,
         "speaker": "Speaker",
         "en": "I like upset with myself about it.",
         "ipa": "/aɪ laɪk ʌpˈsɛt wɪð maɪˈsɛlf əˈbaʊt ɪt/",
@@ -106540,8 +106347,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 106,
-        "start": 294.97,
-        "end": 297.07,
+        "start": 287.57,
+        "end": 289.67,
         "speaker": "Speaker",
         "en": "I'm starting my morning making a smoothie.",
         "ipa": "/aɪm ˈstɑrtɪŋ maɪ ˈmɔrnɪŋ ˈmeɪkɪŋ ə ˈsmuði/",
@@ -106556,8 +106363,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 107,
-        "start": 297.11,
-        "end": 298.96,
+        "start": 289.71,
+        "end": 291.56,
         "speaker": "Speaker",
         "en": "This is my favorite smoothie ever.",
         "ipa": "/ðɪs ɪz maɪ ˈfeɪvərɪt ˈsmuði ˈɛvər/",
@@ -106572,8 +106379,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 108,
-        "start": 299.0,
-        "end": 301.9,
+        "start": 291.6,
+        "end": 294.5,
         "speaker": "Speaker",
         "en": "I actually got DMs from you guys saying that you made this.",
         "ipa": "/aɪ ˈæktʃuəli gɑt di-ɛmz frʌm ju gaɪz ˈseɪɪŋ ðæt ju meɪd ðɪs/",
@@ -106588,8 +106395,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 109,
-        "start": 301.94,
-        "end": 306.38,
+        "start": 294.54,
+        "end": 298.98,
         "speaker": "Speaker",
         "en": "Can't even explain how happy that made me to see you guys making something that I make every day.",
         "ipa": "/kænt ˈivən ɪkˈspleɪn haʊ ˈhæpi ðæt meɪd mi tu si ju gaɪz ˈmeɪkɪŋ ˈsʌmθɪŋ ðæt aɪ meɪk ˈɛvri deɪ/",
@@ -106604,8 +106411,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 110,
-        "start": 306.42,
-        "end": 306.83,
+        "start": 299.02,
+        "end": 299.43,
         "speaker": "Speaker",
         "en": "I don't know.",
         "ipa": "/aɪ doʊnt noʊ/",
@@ -106620,8 +106427,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 111,
-        "start": 306.87,
-        "end": 308.72,
+        "start": 299.47,
+        "end": 301.32,
         "speaker": "Speaker",
         "en": "It's just so cool and so many of you guys love it.",
         "ipa": "/ɪts ʤʌst soʊ kul ænd soʊ ˈmɛni ʌv ju gaɪz lʌv ɪt/",
@@ -106636,8 +106443,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 112,
-        "start": 308.76,
-        "end": 310.24,
+        "start": 301.36,
+        "end": 302.84,
         "speaker": "Speaker",
         "en": "It's just the best smoothie recipe ever.",
         "ipa": "/ɪts ʤʌst ðə bɛst ˈsmuði ˈrɛsəpi ˈɛvər/",
@@ -106652,8 +106459,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 113,
-        "start": 310.28,
-        "end": 311.84,
+        "start": 302.88,
+        "end": 304.44,
         "speaker": "Speaker",
         "en": "I feel like I've really perfected it.",
         "ipa": "/aɪ fil laɪk aɪv ˈrɪəli pərˈfɛktɪd ɪt/",
@@ -106668,8 +106475,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 114,
-        "start": 311.88,
-        "end": 315.29,
+        "start": 304.48,
+        "end": 307.89,
         "speaker": "Speaker",
         "en": "I'm getting coffee with actually a girl who does YouTube too.",
         "ipa": "/aɪm ˈgɛtɪŋ ˈkɑfi wɪð ˈæktʃuəli ə gɜrl hu dʌz ˈjuˌtub tu/",
@@ -106684,8 +106491,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 115,
-        "start": 315.33,
-        "end": 316.13,
+        "start": 307.93,
+        "end": 308.73,
         "speaker": "Speaker",
         "en": "Her name's Isa.",
         "ipa": "/hɜr neɪmz ˈaɪzə/",
@@ -106700,8 +106507,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 116,
-        "start": 316.17,
-        "end": 320.81,
+        "start": 308.77,
+        "end": 313.41,
         "speaker": "Speaker",
         "en": "If any of you guys watch her or know her, I don't think I meet a lot of other creators that often.",
         "ipa": "/ɪf ˈɛni ʌv ju gaɪz wɑtʃ hɜr ɔr noʊ hɜr aɪ doʊnt θɪŋk aɪ mit ə lɑt ʌv ˈʌðər kriˈeɪtərz ðæt ˈɔfən/",
@@ -106716,8 +106523,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 117,
-        "start": 320.85,
-        "end": 323.36,
+        "start": 313.45,
+        "end": 315.96,
         "speaker": "Speaker",
         "en": "Like I feel like most people socialize more than me.",
         "ipa": "/laɪk aɪ fil laɪk moʊst ˈpipəl ˈsoʊʃəˌlaɪz mɔr ðæn mi/",
@@ -106732,8 +106539,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 118,
-        "start": 323.4,
-        "end": 325.22,
+        "start": 316.0,
+        "end": 317.82,
         "speaker": "Speaker",
         "en": "I think I'm just antisocial or something.",
         "ipa": "/aɪ θɪŋk aɪm ʤʌst ˌæntiˈsoʊʃəl ɔr ˈsʌmθɪŋ/",
@@ -106748,8 +106555,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 119,
-        "start": 325.26,
-        "end": 327.17,
+        "start": 317.86,
+        "end": 319.77,
         "speaker": "Speaker",
         "en": "But I'm really excited to meet her in person.",
         "ipa": "/bʌt aɪm ˈrɪəli ɪkˈsaɪtɪd tu mit hɜr ɪn ˈpɜrsən/",
@@ -106764,8 +106571,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 120,
-        "start": 327.21,
-        "end": 338.76,
+        "start": 319.81,
+        "end": 331.36,
         "speaker": "Speaker",
         "en": "This is the secret ingredient in my smoothies, the cacao nibs.",
         "ipa": "/ðɪs ɪz ðə ˈsikrət ɪnˈgridiənt ɪn maɪ ˈsmuðiz ðə kəˈkaʊ nɪbz/",
@@ -106785,8 +106592,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 121,
-        "start": 348.0,
-        "end": 350.72,
+        "start": 340.6,
+        "end": 343.32,
         "speaker": "Speaker",
         "en": "Hey guys, I'm with Isa.",
         "ipa": "/heɪ gaɪz aɪm wɪð ˈaɪzə/",
@@ -106801,8 +106608,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 122,
-        "start": 350.76,
-        "end": 351.08,
+        "start": 343.36,
+        "end": 343.68,
         "speaker": "Speaker",
         "en": "Hi.",
         "ipa": "/haɪ/",
@@ -106817,8 +106624,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 123,
-        "start": 351.12,
-        "end": 352.64,
+        "start": 343.72,
+        "end": 345.24,
         "speaker": "Speaker",
         "en": "Wait guys, we have the same camera look.",
         "ipa": "/weɪt gaɪz wi hæv ðə seɪm ˈkæmərə lʊk/",
@@ -106833,8 +106640,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 124,
-        "start": 352.68,
-        "end": 353.68,
+        "start": 345.28,
+        "end": 346.28,
         "speaker": "Speaker",
         "en": "Well, you guys can't see mine.",
         "ipa": "/wɛl ju gaɪz kænt si maɪn/",
@@ -106849,8 +106656,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 125,
-        "start": 353.72,
-        "end": 355.01,
+        "start": 346.32,
+        "end": 347.61,
         "speaker": "Speaker",
         "en": "This is the best camera.",
         "ipa": "/ðɪs ɪz ðə bɛst ˈkæmərə/",
@@ -106865,8 +106672,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 126,
-        "start": 355.05,
-        "end": 356.1,
+        "start": 347.65,
+        "end": 348.7,
         "speaker": "Speaker",
         "en": "Canon, the best.",
         "ipa": "/ˈkænən ðə bɛst/",
@@ -106881,8 +106688,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 127,
-        "start": 356.14,
-        "end": 358.09,
+        "start": 348.74,
+        "end": 350.69,
         "speaker": "Speaker",
         "en": "Based on like what I spend in a week.",
         "ipa": "/beɪst ɑn laɪk wʌt aɪ spɛnd ɪn ə wik/",
@@ -106897,8 +106704,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 128,
-        "start": 358.13,
-        "end": 360.98,
+        "start": 350.73,
+        "end": 353.58,
         "speaker": "Speaker",
         "en": "Wait, I'm spending I'm doing what I spend in a day.",
         "ipa": "/weɪt aɪm ˈspɛndɪŋ aɪm ˈduɪŋ wʌt aɪ spɛnd ɪn ə deɪ/",
@@ -106913,8 +106720,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 129,
-        "start": 361.02,
-        "end": 361.67,
+        "start": 353.62,
+        "end": 354.27,
         "speaker": "Speaker",
         "en": "Today?",
         "ipa": "/təˈdeɪ/",
@@ -106929,8 +106736,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 130,
-        "start": 361.71,
-        "end": 362.59,
+        "start": 354.31,
+        "end": 355.19,
         "speaker": "Speaker",
         "en": "Yes.",
         "ipa": "/jɛs/",
@@ -106945,8 +106752,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 131,
-        "start": 362.63,
-        "end": 362.93,
+        "start": 355.23,
+        "end": 355.53,
         "speaker": "Speaker",
         "en": "No.",
         "ipa": "/noʊ/",
@@ -106961,8 +106768,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 132,
-        "start": 362.97,
-        "end": 364.24,
+        "start": 355.57,
+        "end": 356.84,
         "speaker": "Speaker",
         "en": "Wait, so funny.",
         "ipa": "/weɪt soʊ ˈfʌni/",
@@ -106977,8 +106784,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 133,
-        "start": 364.28,
-        "end": 365.57,
+        "start": 356.88,
+        "end": 358.17,
         "speaker": "Speaker",
         "en": "That's That's crazy.",
         "ipa": "/ðæts ðæts ˈkreɪzi/",
@@ -106993,8 +106800,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 134,
-        "start": 365.61,
-        "end": 368.48,
+        "start": 358.21,
+        "end": 361.08,
         "speaker": "Speaker",
         "en": "I spent $0 because Isa bought me my coffee, guys.",
         "ipa": "/aɪ spɛnt ˈzɪroʊ ˈdɑlərz bɪˈkʌz ˈaɪzə bɔt mi maɪ ˈkɑfi gaɪz/",
@@ -107009,8 +106816,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 135,
-        "start": 368.52,
-        "end": 369.36,
+        "start": 361.12,
+        "end": 361.96,
         "speaker": "Speaker",
         "en": "How sweet.",
         "ipa": "/haʊ swit/",
@@ -107025,8 +106832,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 136,
-        "start": 369.4,
-        "end": 372.06,
+        "start": 362.0,
+        "end": 364.66,
         "speaker": "Speaker",
         "en": "I spent Yeah, so Isa spent too nice.",
         "ipa": "/aɪ spɛnt jæ soʊ ˈaɪzə spɛnt tu naɪs/",
@@ -107041,8 +106848,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 137,
-        "start": 372.1,
-        "end": 374.0,
+        "start": 364.7,
+        "end": 366.6,
         "speaker": "Speaker",
         "en": "Wait, she bought some pastries, guys.",
         "ipa": "/weɪt, ʃi bɔt sʌm ˈpeɪstriz, ɡaɪz./",
@@ -107057,8 +106864,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 138,
-        "start": 374.04,
-        "end": 377.08,
+        "start": 366.64,
+        "end": 369.68,
         "speaker": "Speaker",
         "en": "You guys have to try Radio Bakery if you're a New Yorker.",
         "ipa": "/ju ɡaɪz hæv tu traɪ ˈreɪdiˌoʊ ˈbeɪkəri ɪf jʊr ə nu ˈjɔrkər./",
@@ -107073,8 +106880,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 139,
-        "start": 377.12,
-        "end": 380.02,
+        "start": 369.72,
+        "end": 372.62,
         "speaker": "Speaker",
         "en": "Earl Grey Morning Bun and a PB&J croissant.",
         "ipa": "/ɜrl ɡreɪ ˈmɔrnɪŋ bʌn ænd ə pi bi ˈdʒeɪ krwɑˈsɑŋ./",
@@ -107089,8 +106896,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 140,
-        "start": 380.06,
-        "end": 381.28,
+        "start": 372.66,
+        "end": 373.88,
         "speaker": "Speaker",
         "en": "We're going to do a taste test.",
         "ipa": "/wɪr ˈɡʊɪŋ tu du ə teɪst tɛst./",
@@ -107105,8 +106912,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 141,
-        "start": 381.32,
-        "end": 384.64,
+        "start": 373.92,
+        "end": 377.24,
         "speaker": "Speaker",
         "en": "Yes, I have no original ideas.",
         "ipa": "/jɛs, aɪ hæv noʊ əˈrɪdʒənəl aɪˈdiəz./",
@@ -107121,8 +106928,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 142,
-        "start": 384.68,
-        "end": 390.44,
+        "start": 377.28,
+        "end": 383.04,
         "speaker": "Speaker",
         "en": "Cheers.",
         "ipa": "/tʃɪrz./",
@@ -107137,8 +106944,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 143,
-        "start": 390.48,
-        "end": 391.36,
+        "start": 383.08,
+        "end": 383.96,
         "speaker": "Speaker",
         "en": "They're good.",
         "ipa": "/ðɛr ɡʊd./",
@@ -107153,8 +106960,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 144,
-        "start": 391.4,
-        "end": 391.88,
+        "start": 384.0,
+        "end": 384.48,
         "speaker": "Speaker",
         "en": "So fresh.",
         "ipa": "/soʊ frɛʃ./",
@@ -107169,8 +106976,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 145,
-        "start": 391.92,
-        "end": 393.26,
+        "start": 384.52,
+        "end": 385.86,
         "speaker": "Speaker",
         "en": "They bake every morning.",
         "ipa": "/ðeɪ beɪk ˈɛvri ˈmɔrnɪŋ./",
@@ -107185,8 +106992,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 146,
-        "start": 393.3,
-        "end": 394.22,
+        "start": 385.9,
+        "end": 386.82,
         "speaker": "Speaker",
         "en": "What do you rate it?",
         "ipa": "/wʌt du jʊ reɪt ɪt./",
@@ -107201,8 +107008,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 147,
-        "start": 394.26,
-        "end": 395.16,
+        "start": 386.86,
+        "end": 387.76,
         "speaker": "Speaker",
         "en": "I'd give it a nine.",
         "ipa": "/aɪd ɡɪv ɪt ə naɪn./",
@@ -107217,8 +107024,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 148,
-        "start": 395.2,
-        "end": 398.89,
+        "start": 387.8,
+        "end": 391.49,
         "speaker": "Speaker",
         "en": "Ooh, yeah, that's good.",
         "ipa": "/u, jæɪ, ðæts ɡʊd./",
@@ -107233,8 +107040,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 149,
-        "start": 402.32,
-        "end": 404.1,
+        "start": 394.92,
+        "end": 396.7,
         "speaker": "Speaker",
         "en": "So, I stumbled upon this market.",
         "ipa": "/soʊ, aɪ ˈstʌmbəld əˈpɑn ðɪs ˈmɑrkɪt./",
@@ -107249,8 +107056,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 150,
-        "start": 404.14,
-        "end": 411.09,
+        "start": 396.74,
+        "end": 403.69,
         "speaker": "Speaker",
         "en": "One of the things I love the most about New York is there's just the most random pop-ups and markets and foods to try.",
         "ipa": "/wʌn ʌv ðə θɪŋz aɪ lʌv ðə moʊst əˈbaʊt nu jɔrk ɪz ðɛrz dʒʌst ðə moʊst ˈrændəm ˈpɑpˌʌps ænd ˈmɑrkɪts ænd fudz tu traɪ./",
@@ -107265,8 +107072,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 151,
-        "start": 411.13,
-        "end": 419.0,
+        "start": 403.73,
+        "end": 411.6,
         "speaker": "Speaker",
         "en": "It looks like they have some Jamaican food, kind of like a lot of random things and honestly I'm like a little bit hungry and I kind of want to try something.",
         "ipa": "/ɪt lʊks laɪk ðeɪ hæv sʌm dʒəˈmeɪkən fud, kaɪnd ʌv laɪk ə lʌt ʌv ˈrændəm θɪŋz ænd ˈɑnstli aɪm laɪk ə ˈlɪtəl bɪt ˈhʌŋɡri ænd aɪ kaɪnd ʌv wɑnt tu traɪ ˈsʌmθɪŋ./",
@@ -107286,8 +107093,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 152,
-        "start": 419.04,
-        "end": 420.49,
+        "start": 411.64,
+        "end": 413.09,
         "speaker": "Speaker",
         "en": "Just something small.",
         "ipa": "/dʒʌst ˈsʌmθɪŋ smɔl./",
@@ -107302,8 +107109,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 153,
-        "start": 420.53,
-        "end": 422.15,
+        "start": 413.13,
+        "end": 414.75,
         "speaker": "Speaker",
         "en": "I feel like I I need to.",
         "ipa": "/aɪ fil laɪk aɪ aɪ nid tu./",
@@ -107318,8 +107125,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 154,
-        "start": 422.19,
-        "end": 423.78,
+        "start": 414.79,
+        "end": 416.38,
         "speaker": "Speaker",
         "en": "This is so cool, guys.",
         "ipa": "/ðɪs ɪz soʊ kul, ɡaɪz./",
@@ -107334,8 +107141,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 155,
-        "start": 423.82,
-        "end": 428.36,
+        "start": 416.42,
+        "end": 420.96,
         "speaker": "Speaker",
         "en": "Like what is happening?",
         "ipa": "/laɪk wʌt ɪz ˈhæpənɪŋ./",
@@ -107350,8 +107157,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 156,
-        "start": 429.48,
-        "end": 432.87,
+        "start": 422.08,
+        "end": 425.47,
         "speaker": "Speaker",
         "en": "I just spent $12 on these Brazilian cheese balls.",
         "ipa": "/aɪ dʒʌst spɛnt ˈtwɛlv ˈdɑlərz ɑn ðiz brəˈzɪljən tʃiz bɔlz./",
@@ -107366,8 +107173,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 157,
-        "start": 432.91,
-        "end": 435.98,
+        "start": 425.51,
+        "end": 428.58,
         "speaker": "Speaker",
         "en": "It comes with this little chive sauce.",
         "ipa": "/ɪt kʌmz wɪð ðɪs ˈlɪtəl tʃaɪv sɔs./",
@@ -107382,8 +107189,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 158,
-        "start": 436.02,
-        "end": 440.36,
+        "start": 428.62,
+        "end": 432.96,
         "speaker": "Speaker",
         "en": "I feel like a food reviewer.",
         "ipa": "/aɪ fil laɪk ə fud rɪˈvjuər./",
@@ -107398,8 +107205,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 159,
-        "start": 440.4,
-        "end": 442.08,
+        "start": 433.0,
+        "end": 434.68,
         "speaker": "Speaker",
         "en": "Mhm.",
         "ipa": "/m̩hm̩./",
@@ -107414,8 +107221,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 160,
-        "start": 442.12,
-        "end": 443.05,
+        "start": 434.72,
+        "end": 435.65,
         "speaker": "Speaker",
         "en": "This is really good.",
         "ipa": "/ðɪs ɪz ˈrɪli ɡʊd./",
@@ -107430,8 +107237,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 161,
-        "start": 443.09,
-        "end": 446.64,
+        "start": 435.69,
+        "end": 439.24,
         "speaker": "Speaker",
         "en": "It's like a little bit doughy, which I love.",
         "ipa": "/ɪts laɪk ə ˈlɪtəl bɪt ˈdoʊi, wɪtʃ aɪ lʌv./",
@@ -107446,8 +107253,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 162,
-        "start": 446.68,
-        "end": 449.52,
+        "start": 439.28,
+        "end": 442.12,
         "speaker": "Speaker",
         "en": "When my parents visit me in a couple weeks, I'm going to take them here.",
         "ipa": "/wɛn maɪ ˈpɛrənts ˈvɪzɪt mi ɪn ə ˈkʌpəl wiks, aɪm ˈɡʊɪŋ tu teɪk ðɛm hir./",
@@ -107462,8 +107269,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 163,
-        "start": 449.56,
-        "end": 454.96,
+        "start": 442.16,
+        "end": 447.56,
         "speaker": "Speaker",
         "en": "Worth every penny.",
         "ipa": "/wɜrθ ˈɛvri ˈpɛni./",
@@ -107478,8 +107285,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 164,
-        "start": 455.0,
-        "end": 458.76,
+        "start": 447.6,
+        "end": 451.36,
         "speaker": "Speaker",
         "en": "And then this is me running really late later to meet my friend Hugo for dinner.",
         "ipa": "/ænd ðɛn ðɪs ɪz mi ˈrʌnɪŋ ˈrɪli leɪt ˈleɪtər tu mit maɪ frɛnd ˈhjuɡoʊ fɔr ˈdɪnər./",
@@ -107494,8 +107301,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 165,
-        "start": 458.8,
-        "end": 461.99,
+        "start": 451.4,
+        "end": 454.59,
         "speaker": "Speaker",
         "en": "I was at home and suddenly fell asleep for 2 hours.",
         "ipa": "/aɪ wʌz æt hoʊm ænd ˈsʌdənli fɛl əˈslip fɔr tu ˈaʊərz./",
@@ -107510,8 +107317,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 166,
-        "start": 462.03,
-        "end": 465.68,
+        "start": 454.63,
+        "end": 458.28,
         "speaker": "Speaker",
         "en": "I literally never napped, so I don't know what the heck happened.",
         "ipa": "/aɪ ˈlɪtərəli ˈnɛvər næpt, soʊ aɪ doʊnt noʊ wʌt ðə hɛk ˈhæpənd./",
@@ -107526,8 +107333,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 167,
-        "start": 465.72,
-        "end": 470.34,
+        "start": 458.32,
+        "end": 462.94,
         "speaker": "Speaker",
         "en": "Anyways, I am going to dinner with my same friend as last night, Helga.",
         "ipa": "/ˈɛniˌweɪz, aɪ æm ˈɡʊɪŋ tu ˈdɪnər wɪð maɪ seɪm frɛnd æz læst naɪt, ˈhɛlɡə./",
@@ -107542,8 +107349,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 168,
-        "start": 470.38,
-        "end": 471.58,
+        "start": 462.98,
+        "end": 464.18,
         "speaker": "Speaker",
         "en": "I It's kind of last minute.",
         "ipa": "/aɪ ɪts kaɪnd ʌv læst ˈmɪnɪt./",
@@ -107558,8 +107365,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 169,
-        "start": 471.62,
-        "end": 474.4,
+        "start": 464.22,
+        "end": 467.0,
         "speaker": "Speaker",
         "en": "I just like, \"Wait, what are you doing?\" So yeah, we're going to get Cava.",
         "ipa": "/aɪ dʒʌst laɪk, \"weɪt, wʌt ɑr ju ˈduɪŋ?\" soʊ jæɪ, wɪr ˈɡʊɪŋ tu ɡɛt ˈkɑvə./",
@@ -107568,8 +107375,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 170,
-        "start": 474.44,
-        "end": 475.97,
+        "start": 467.04,
+        "end": 468.57,
         "speaker": "Speaker",
         "en": "I literally love this spot.",
         "ipa": "/aɪ ˈlɪtərəli lʌv ðɪs spɑt/",
@@ -107589,8 +107396,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 171,
-        "start": 476.01,
-        "end": 477.02,
+        "start": 468.61,
+        "end": 469.62,
         "speaker": "Speaker",
         "en": "It's so good.",
         "ipa": "/ɪts soʊ gʊd/",
@@ -107605,8 +107412,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 172,
-        "start": 477.06,
-        "end": 477.99,
+        "start": 469.66,
+        "end": 470.59,
         "speaker": "Speaker",
         "en": "Dinner time.",
         "ipa": "/ˈdɪnər taɪm/",
@@ -107621,8 +107428,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 173,
-        "start": 478.03,
-        "end": 480.33,
+        "start": 470.63,
+        "end": 472.93,
         "speaker": "Speaker",
         "en": "She's back. 2 days in a row.",
         "ipa": "/ʃiz bæk tu deɪz ɪn ə roʊ/",
@@ -107637,8 +107444,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 174,
-        "start": 480.37,
-        "end": 484.57,
+        "start": 472.97,
+        "end": 477.17,
         "speaker": "Speaker",
         "en": "I got a summer chicken bowl with pepper avocado, pineapple.",
         "ipa": "/aɪ gɑt ə ˈsʌmər ˈʧɪkən boʊl wɪθ ˈpɛpər ˈævəˌkɑdoʊ ˈpaɪˌnæpəl/",
@@ -107658,8 +107465,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 175,
-        "start": 484.61,
-        "end": 485.08,
+        "start": 477.21,
+        "end": 477.68,
         "speaker": "Speaker",
         "en": "Helga?",
         "ipa": "/ˈhɛlgə/",
@@ -107674,8 +107481,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 176,
-        "start": 485.12,
-        "end": 486.44,
+        "start": 477.72,
+        "end": 479.04,
         "speaker": "Speaker",
         "en": "I got a salmon bowl.",
         "ipa": "/aɪ gɑt ə ˈsæmən boʊl/",
@@ -107690,8 +107497,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 177,
-        "start": 486.48,
-        "end": 488.93,
+        "start": 479.08,
+        "end": 481.53,
         "speaker": "Speaker",
         "en": "We're so far away from each other.",
         "ipa": "/wɪr soʊ fɑr əˈweɪ frəm iʧ ˈʌðər/",
@@ -107706,8 +107513,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 178,
-        "start": 488.97,
-        "end": 490.52,
+        "start": 481.57,
+        "end": 483.12,
         "speaker": "Speaker",
         "en": "This is $20 dinner.",
         "ipa": "/ðɪs ɪz ˈtwɛnti ˈdɑlərz ˈdɪnər/",
@@ -107722,8 +107529,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 179,
-        "start": 490.56,
-        "end": 491.55,
+        "start": 483.16,
+        "end": 484.15,
         "speaker": "Speaker",
         "en": "It's going to be so worth it.",
         "ipa": "/ɪts ˈgoʊɪŋ tu bi soʊ wɜrθ ɪt/",
@@ -107738,8 +107545,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 180,
-        "start": 491.59,
-        "end": 492.4,
+        "start": 484.19,
+        "end": 485.0,
         "speaker": "Speaker",
         "en": "I love this place.",
         "ipa": "/aɪ lʌv ðɪs pleɪs/",
@@ -107754,8 +107561,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 181,
-        "start": 492.44,
-        "end": 498.88,
+        "start": 485.04,
+        "end": 491.48,
         "speaker": "Speaker",
         "en": "This is a crazy Friday night for us.",
         "ipa": "/ðɪs ɪz ə ˈkreɪzi ˈfraɪdeɪ naɪt fɔr ʌs/",
@@ -107770,8 +107577,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 182,
-        "start": 498.92,
-        "end": 502.38,
+        "start": 491.52,
+        "end": 494.98,
         "speaker": "Speaker",
         "en": "Yeah.",
         "ipa": "/jæ/",
@@ -107794,33 +107601,29 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "英国",
     "difficulty": 5,
-    "durationSec": 368,
-    "durationLabel": "06:08",
+    "durationSec": 359,
+    "durationLabel": "05:59",
     "date": "2026/09/08",
     "tags": [
       "名人访谈"
     ],
     "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.webp",
-    "mediaUrl": "./content/episodes/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.f616.mp4",
-    "audioUrl": "./content/episodes/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.f140.m4a",
+    "mediaUrl": "./content/episodes/trimmed/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.f616.introcut.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.f616.introcut.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "名人访谈",
     "skipRanges": [
       [
-        0.0,
-        9.16
-      ],
-      [
-        365.08,
-        368.0
+        355.92,
+        359.0
       ]
     ],
     "sentences": [
       {
         "id": 1,
-        "start": 9.16,
-        "end": 13.59,
+        "start": 0.0,
+        "end": 4.43,
         "speaker": "Speaker",
         "en": "Hey, Daniel, how are you? I'm good. How are you? Good, Victoria, good. Hey, it's good to see you.",
         "ipa": "/heɪ ˈdænjəl haʊ ɑːr juː aɪm gʊd haʊ ɑːr juː gʊd vɪkˈtɔːriə gʊd heɪ ɪts gʊd tuː siː juː heɪ ˈwɛlkəm θæŋk juː aɪ keɪm frəm əˈmɛrɪkə tuː ɑːsk juː ˈsɛvnti θriː ˈkwɛstʃənz/",
@@ -107835,8 +107638,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 2,
-        "start": 13.63,
-        "end": 14.24,
+        "start": 4.47,
+        "end": 5.08,
         "speaker": "Speaker",
         "en": "Hey, welcome.",
         "ipa": "",
@@ -107851,8 +107654,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 3,
-        "start": 14.28,
-        "end": 14.74,
+        "start": 5.12,
+        "end": 5.58,
         "speaker": "Speaker",
         "en": "Thank you.",
         "ipa": "",
@@ -107861,8 +107664,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 14.78,
-        "end": 17.64,
+        "start": 5.62,
+        "end": 8.48,
         "speaker": "Speaker",
         "en": "I came from America to ask you 73 questions in your new store.",
         "ipa": "/ɪn jʊər nuː stɔːr θæŋk juː wɒts ðə fɜːrst θɪŋ juː duː wɛn juː weɪk ʌp/",
@@ -107882,8 +107685,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 5,
-        "start": 17.68,
-        "end": 18.04,
+        "start": 8.52,
+        "end": 8.88,
         "speaker": "Speaker",
         "en": "Thank you.",
         "ipa": "",
@@ -107892,8 +107695,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 6,
-        "start": 18.08,
-        "end": 20.62,
+        "start": 8.92,
+        "end": 11.46,
         "speaker": "Speaker",
         "en": "What's the first thing you do when you wake up in the morning?",
         "ipa": "/ɪn ðə ˈmɔːrnɪŋ aɪ tʃɛk ɒn maɪ kɪdz wɒts ðə ˈdeɪli ˈrɪtʃuəl aɪm ʌp æt sɪks eɪ ɛm/",
@@ -107908,8 +107711,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
-        "start": 20.66,
-        "end": 21.51,
+        "start": 11.5,
+        "end": 12.35,
         "speaker": "Speaker",
         "en": "I check on my kids.",
         "ipa": "",
@@ -107924,8 +107727,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 21.55,
-        "end": 22.63,
+        "start": 12.39,
+        "end": 13.47,
         "speaker": "Speaker",
         "en": "What's the daily ritual?",
         "ipa": "",
@@ -107945,8 +107748,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 9,
-        "start": 22.67,
-        "end": 24.15,
+        "start": 13.51,
+        "end": 14.99,
         "speaker": "Speaker",
         "en": "I'm up at 6:00 a.m. working out.",
         "ipa": "/ˈwɜːrkɪŋ aʊt duː juː hæv ˈɛni pɛts ðæt wʊd biː ˈkoʊkoʊ ʃəˈnɛl ðə ˈbʊldɔːɡ/",
@@ -107961,8 +107764,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 10,
-        "start": 24.19,
-        "end": 25.18,
+        "start": 15.03,
+        "end": 16.02,
         "speaker": "Speaker",
         "en": "Do you have any pets?",
         "ipa": "",
@@ -107971,8 +107774,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 11,
-        "start": 25.22,
-        "end": 27.75,
+        "start": 16.06,
+        "end": 18.59,
         "speaker": "Speaker",
         "en": "That would be Coco Chanel, the bulldog who lives in LA.",
         "ipa": "/huː lɪvz ɪn ɛl eɪ duː juː hæv ˈɛni pɛt neɪmz fɔːr jʊər kɪdz aɪ duː bʌt ɪf aɪ tɛl juː/",
@@ -107992,8 +107795,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 12,
-        "start": 27.79,
-        "end": 29.43,
+        "start": 18.63,
+        "end": 20.27,
         "speaker": "Speaker",
         "en": "Do you have any pet names for your kids?",
         "ipa": "",
@@ -108008,8 +107811,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 13,
-        "start": 29.47,
-        "end": 31.72,
+        "start": 20.31,
+        "end": 22.56,
         "speaker": "Speaker",
         "en": "I do, but if I tell you, they'll be mortified.",
         "ipa": "/ðeɪl biː ˈmɔːrtɪfaɪd wɒts wʌn ruːl jʊər kɪdz kənˈsɪstəntli/",
@@ -108024,8 +107827,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 14,
-        "start": 31.76,
-        "end": 34.3,
+        "start": 22.6,
+        "end": 25.14,
         "speaker": "Speaker",
         "en": "What's one rule your kids consistently ignore?",
         "ipa": "/ɪgˈnɔːr doʊnt pleɪ ˈfʊtbɔːl ɪn ðə haʊs wɒts ðə ˈɡreɪtɪst θɪŋ juːv lɜːrnd/",
@@ -108040,8 +107843,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 15,
-        "start": 34.34,
-        "end": 35.72,
+        "start": 25.18,
+        "end": 26.56,
         "speaker": "Speaker",
         "en": "Don't play football in the house.",
         "ipa": "",
@@ -108061,8 +107864,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 16,
-        "start": 35.76,
-        "end": 38.2,
+        "start": 26.6,
+        "end": 29.04,
         "speaker": "Speaker",
         "en": "What's the greatest thing you've learned from your kids?",
         "ipa": "/frəm jʊər kɪdz haʊ tuː pleɪ ˈfʊtbɔːl ɪn ðə haʊs ænd haʊ tuː lʌv/",
@@ -108082,8 +107885,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 17,
-        "start": 38.24,
-        "end": 41.46,
+        "start": 29.08,
+        "end": 32.3,
         "speaker": "Speaker",
         "en": "How to play football in the house and how to love unconditionally.",
         "ipa": "/ˌʌnkənˈdɪʃənəli dɪd juː pɪk ʌp ˈɛni slæŋ frəm ðɛm aɪ hæv noʊ aɪˈdiːə duːd ɔːl raɪt/",
@@ -108103,8 +107906,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 18,
-        "start": 41.5,
-        "end": 43.4,
+        "start": 32.34,
+        "end": 34.24,
         "speaker": "Speaker",
         "en": "Did you pick up any slang from them?",
         "ipa": "",
@@ -108119,8 +107922,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 19,
-        "start": 43.44,
-        "end": 44.53,
+        "start": 34.28,
+        "end": 35.37,
         "speaker": "Speaker",
         "en": "I have no idea, dude.",
         "ipa": "",
@@ -108129,8 +107932,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 20,
-        "start": 44.57,
-        "end": 46.79,
+        "start": 35.41,
+        "end": 37.63,
         "speaker": "Speaker",
         "en": "All right, let's check out this store.",
         "ipa": "/lɛts tʃɛk aʊt ðɪs stɔːr wɒt ɪz jʊər ˈfeɪvərɪt ˈkʌlər ˈsʌnsɛt ˈɔːrɪndʒ/",
@@ -108145,8 +107948,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 21,
-        "start": 46.83,
-        "end": 48.53,
+        "start": 37.67,
+        "end": 39.37,
         "speaker": "Speaker",
         "en": "What is your favorite color?",
         "ipa": "",
@@ -108166,8 +107969,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 22,
-        "start": 48.57,
-        "end": 49.44,
+        "start": 39.41,
+        "end": 40.28,
         "speaker": "Speaker",
         "en": "Sunset orange.",
         "ipa": "",
@@ -108187,8 +107990,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 23,
-        "start": 49.48,
-        "end": 51.32,
+        "start": 40.32,
+        "end": 42.16,
         "speaker": "Speaker",
         "en": "What's your favorite flavor?",
         "ipa": "/wɒts jʊər ˈfeɪvərɪt ˈfleɪvər sɔːlt wɒts jʊər ˈfeɪvərɪt spaɪs pɒʃ wɒts jʊər ˈsiːkrɪt/",
@@ -108203,8 +108006,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 24,
-        "start": 51.36,
-        "end": 51.65,
+        "start": 42.2,
+        "end": 42.49,
         "speaker": "Speaker",
         "en": "Salt.",
         "ipa": "",
@@ -108213,8 +108016,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 25,
-        "start": 51.69,
-        "end": 53.46,
+        "start": 42.53,
+        "end": 44.3,
         "speaker": "Speaker",
         "en": "What's your favorite spice?",
         "ipa": "",
@@ -108234,8 +108037,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 26,
-        "start": 53.5,
-        "end": 53.79,
+        "start": 44.34,
+        "end": 44.63,
         "speaker": "Speaker",
         "en": "Posh.",
         "ipa": "",
@@ -108244,8 +108047,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 27,
-        "start": 53.83,
-        "end": 55.45,
+        "start": 44.67,
+        "end": 46.29,
         "speaker": "Speaker",
         "en": "What's your secret talent?",
         "ipa": "/ˈtælənt aɪ juːzd tuː biː ˈeɪbl tuː ˈdʌɡəl wɒts ə ˈmuːvi ðæt meɪd juː kraɪ ðə ˈhɑːrdɪst twɛlv/",
@@ -108265,8 +108068,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 28,
-        "start": 55.49,
-        "end": 57.08,
+        "start": 46.33,
+        "end": 47.92,
         "speaker": "Speaker",
         "en": "I used to be able to juggle.",
         "ipa": "",
@@ -108281,8 +108084,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 29,
-        "start": 57.12,
-        "end": 59.7,
+        "start": 47.96,
+        "end": 50.54,
         "speaker": "Speaker",
         "en": "What's a movie that made you cry the hardest?",
         "ipa": "",
@@ -108302,8 +108105,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 30,
-        "start": 59.74,
-        "end": 60.82,
+        "start": 50.58,
+        "end": 51.66,
         "speaker": "Speaker",
         "en": "Twelve Years a Slave.",
         "ipa": "/jɪərz ə sleɪv ˈmuːvi ðæt meɪd juː læf ðə ˈhɑːrdɪst wɪə ðə ˈmɪlərz hiːlz/",
@@ -108323,8 +108126,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 31,
-        "start": 60.86,
-        "end": 62.83,
+        "start": 51.7,
+        "end": 53.67,
         "speaker": "Speaker",
         "en": "Movie that made you laugh the hardest?",
         "ipa": "",
@@ -108339,8 +108142,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 32,
-        "start": 62.87,
-        "end": 63.78,
+        "start": 53.71,
+        "end": 54.62,
         "speaker": "Speaker",
         "en": "We're the Millers.",
         "ipa": "",
@@ -108355,8 +108158,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 33,
-        "start": 63.82,
-        "end": 64.81,
+        "start": 54.66,
+        "end": 55.65,
         "speaker": "Speaker",
         "en": "Heels or flats?",
         "ipa": "/ɔːr flæts boʊθ ˈdaɪməndz ɔːr pɜːrlz boʊθ wiː lʌv prɪns ˈhæri ɔːr ˈwɪljəm oʊ juː/",
@@ -108376,8 +108179,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 34,
-        "start": 64.85,
-        "end": 65.22,
+        "start": 55.69,
+        "end": 56.06,
         "speaker": "Speaker",
         "en": "Both.",
         "ipa": "",
@@ -108392,8 +108195,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 35,
-        "start": 65.26,
-        "end": 66.77,
+        "start": 56.1,
+        "end": 57.61,
         "speaker": "Speaker",
         "en": "Diamonds or pearls?",
         "ipa": "",
@@ -108413,8 +108216,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 36,
-        "start": 66.81,
-        "end": 67.18,
+        "start": 57.65,
+        "end": 58.02,
         "speaker": "Speaker",
         "en": "Both.",
         "ipa": "",
@@ -108429,8 +108232,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 67.22,
-        "end": 69.79,
+        "start": 58.06,
+        "end": 60.63,
         "speaker": "Speaker",
         "en": "We love Prince Harry or William.",
         "ipa": "",
@@ -108450,8 +108253,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 38,
-        "start": 69.83,
-        "end": 71.95,
+        "start": 60.67,
+        "end": 62.79,
         "speaker": "Speaker",
         "en": "Oh, you can't make me choose.",
         "ipa": "/kænt meɪk miː tʃuːz jʊər stɔːr ɪz ˈlʌvli θæŋk juː/",
@@ -108466,8 +108269,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 39,
-        "start": 71.99,
-        "end": 73.5,
+        "start": 62.83,
+        "end": 64.34,
         "speaker": "Speaker",
         "en": "Your store is lovely.",
         "ipa": "",
@@ -108482,8 +108285,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 40,
-        "start": 73.54,
-        "end": 74.28,
+        "start": 64.38,
+        "end": 65.12,
         "speaker": "Speaker",
         "en": "Thank you.",
         "ipa": "",
@@ -108492,8 +108295,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 41,
-        "start": 74.32,
-        "end": 76.14,
+        "start": 65.16,
+        "end": 66.98,
         "speaker": "Speaker",
         "en": "What's your favorite item for sale?",
         "ipa": "/wɒts jʊər ˈfeɪvərɪt ˈaɪtəm fɔːr seɪl aɪ ˈrɪəli laɪk ðɪs braɪt pɪŋ ˈflʌfi drɛs ˈoʊvər hɪər/",
@@ -108508,8 +108311,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 42,
-        "start": 76.18,
-        "end": 79.04,
+        "start": 67.02,
+        "end": 69.88,
         "speaker": "Speaker",
         "en": "I really like this bright pink fluffy dress over here.",
         "ipa": "",
@@ -108524,8 +108327,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 43,
-        "start": 79.08,
-        "end": 81.25,
+        "start": 69.92,
+        "end": 72.09,
         "speaker": "Speaker",
         "en": "What's the best fashion secret you've ever learned?",
         "ipa": "/wɒts ðə bɛst ˈfæʃən ˈsiːkrɪt juːv ˈɛvər lɜːrnd lɛs ɪz mɔːr ɪf juː ræn ðə wɜːrld/",
@@ -108545,8 +108348,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 44,
-        "start": 81.29,
-        "end": 81.81,
+        "start": 72.13,
+        "end": 72.65,
         "speaker": "Speaker",
         "en": "Less is more.",
         "ipa": "",
@@ -108561,8 +108364,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 45,
-        "start": 81.85,
-        "end": 84.33,
+        "start": 72.69,
+        "end": 75.17,
         "speaker": "Speaker",
         "en": "If you ran the world, what's one law you would enact?",
         "ipa": "/wɒts wʌn lɔː juː wʊd ɪˈnækt ɪf duː juː miːn wɛn wɛn aɪ rʌn ðə wɜːrld aɪm ˈɡoʊɪŋ/",
@@ -108577,8 +108380,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 46,
-        "start": 84.37,
-        "end": 90.63,
+        "start": 75.21,
+        "end": 81.47,
         "speaker": "Speaker",
         "en": "If—do you mean when—when I run the world, I'm going to make it the law that everybody has to do a little something philanthropic.",
         "ipa": "/tuː meɪk ɪt ðə lɔː ðæt ˈɛvribɒdi hæz tuː duː ə ˈlɪtɫ ˈsʌmθɪŋ ˌfɪlənˈθrɒpɪk ɪf juː/",
@@ -108593,8 +108396,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 47,
-        "start": 90.67,
-        "end": 93.39,
+        "start": 81.51,
+        "end": 84.23,
         "speaker": "Speaker",
         "en": "If you had to wear one thing for the rest of your life, what would it be?",
         "ipa": "/hæd tuː wɛr wʌn θɪŋ fɔːr ðə rɛst ʌv jʊər laɪf wɒt wʊd ɪt biː ˈnɪkərz/",
@@ -108609,8 +108412,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 48,
-        "start": 93.43,
-        "end": 93.76,
+        "start": 84.27,
+        "end": 84.6,
         "speaker": "Speaker",
         "en": "Knickers.",
         "ipa": "",
@@ -108625,8 +108428,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 49,
-        "start": 93.8,
-        "end": 96.14,
+        "start": 84.64,
+        "end": 86.98,
         "speaker": "Speaker",
         "en": "How do you get dressed in the morning?",
         "ipa": "/haʊ duː juː gɛt drɛst ɪn ðə ˈmɔːrnɪŋ sɒks ˈnɪkərz vɛst drɛs wɒt duː juː wɛr/",
@@ -108641,8 +108444,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 50,
-        "start": 96.18,
-        "end": 97.96,
+        "start": 87.02,
+        "end": 88.8,
         "speaker": "Speaker",
         "en": "Socks, knickers, vest, dress.",
         "ipa": "",
@@ -108662,8 +108465,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 51,
-        "start": 98.0,
-        "end": 100.18,
+        "start": 88.84,
+        "end": 91.02,
         "speaker": "Speaker",
         "en": "What do you wear when you need to relax?",
         "ipa": "/wɛn juː niːd tuː rɪˈlæks maɪ ˈlɑʊŋmən pəˈdʒɑːməz bɪˈsaɪdz ə sɛl foʊn ænd ə pɜːrs/",
@@ -108678,8 +108481,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 52,
-        "start": 100.22,
-        "end": 101.26,
+        "start": 91.06,
+        "end": 92.1,
         "speaker": "Speaker",
         "en": "My Loungeman pajamas.",
         "ipa": "",
@@ -108699,8 +108502,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 53,
-        "start": 101.3,
-        "end": 106.14,
+        "start": 92.14,
+        "end": 96.98,
         "speaker": "Speaker",
         "en": "Besides a cell phone and a purse, what are three things you always have in your bag?",
         "ipa": "/wɒt ɑːr θriː θɪŋz juː ˈɔːlweɪz hæv ɪn jʊər bæɡ biː waɪ tɛri hænd kriːm ˈnʌmbər ˈtwɛnti ˈθriː ˈmeɪkʌp fəˈrɛvər/",
@@ -108720,8 +108523,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 54,
-        "start": 106.18,
-        "end": 110.55,
+        "start": 97.02,
+        "end": 101.39,
         "speaker": "Speaker",
         "en": "BY Terry hand cream, number 23 Makeup Forever lip liner, and my credit card.",
         "ipa": "/lɪp ˈlaɪnər ænd maɪ ˈkrɛdɪt kɑːrd vɪkˈtɔːriə wʊd juː maɪnd ˈpʊtɪŋ ɒn ðæt ˈʌðər/",
@@ -108741,8 +108544,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 55,
-        "start": 110.59,
-        "end": 113.83,
+        "start": 101.43,
+        "end": 104.67,
         "speaker": "Speaker",
         "en": "Victoria, would you mind putting on that other pair of sunglasses?",
         "ipa": "/pɛr ʌv ˈsʌnˌɡlæsɪz aɪ θɪŋk ðeɪl meɪk ə ˈpɜːrfɪkt ɡɪft fɔːr ˈsʌmwʌn wɒts wʌn/",
@@ -108757,8 +108560,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 56,
-        "start": 113.87,
-        "end": 116.02,
+        "start": 104.71,
+        "end": 106.86,
         "speaker": "Speaker",
         "en": "I think they'll make a perfect gift for someone.",
         "ipa": "",
@@ -108773,8 +108576,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 57,
-        "start": 116.06,
-        "end": 118.24,
+        "start": 106.9,
+        "end": 109.08,
         "speaker": "Speaker",
         "en": "What's one question you like to be asked more often?",
         "ipa": "/ˈkwɛstʃən juː laɪk tuː biː ɑːskd mɔːr ˈɔːfən wʊd juː laɪk ən ˈɜːrli naɪt wɒts wʌn/",
@@ -108789,8 +108592,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 58,
-        "start": 118.28,
-        "end": 119.5,
+        "start": 109.12,
+        "end": 110.34,
         "speaker": "Speaker",
         "en": "Would you like an early night?",
         "ipa": "",
@@ -108810,8 +108613,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 119.54,
-        "end": 121.24,
+        "start": 110.38,
+        "end": 112.08,
         "speaker": "Speaker",
         "en": "What's one question you hate being asked?",
         "ipa": "/ˈkwɛstʃən juː heɪt ˈbiːɪŋ ɑːskd waɪ doʊnt juː smaɪl gʊd ˈkwɛstʃən waɪ doʊnt juː/",
@@ -108826,8 +108629,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 60,
-        "start": 121.28,
-        "end": 122.09,
+        "start": 112.12,
+        "end": 112.93,
         "speaker": "Speaker",
         "en": "Why don't you smile?",
         "ipa": "",
@@ -108842,8 +108645,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 61,
-        "start": 122.13,
-        "end": 122.69,
+        "start": 112.97,
+        "end": 113.53,
         "speaker": "Speaker",
         "en": "Good question.",
         "ipa": "",
@@ -108858,8 +108661,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 62,
-        "start": 122.73,
-        "end": 123.6,
+        "start": 113.57,
+        "end": 114.44,
         "speaker": "Speaker",
         "en": "Why don't you smile?",
         "ipa": "/smaɪl aɪm ˈsmaɪlɪŋ ɒn ði ˈɪnsaɪd aɪ fiːl ðæt aɪ hæv ə rɪˌspɒnsəˈbɪlɪti/",
@@ -108874,8 +108677,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 63,
-        "start": 123.64,
-        "end": 125.0,
+        "start": 114.48,
+        "end": 115.84,
         "speaker": "Speaker",
         "en": "I'm smiling on the inside.",
         "ipa": "",
@@ -108890,8 +108693,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 125.04,
-        "end": 127.94,
+        "start": 115.88,
+        "end": 118.78,
         "speaker": "Speaker",
         "en": "I feel that I have a responsibility to the fashion community.",
         "ipa": "/tuː ðə ˈfæʃən kəˈmjuːnɪti ðoʊz læst ˈsʌnˌɡlæsɪz ɑːr greɪt aɪ θɪŋk aɪl teɪk ðɛm θæŋk/",
@@ -108906,8 +108709,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 65,
-        "start": 127.98,
-        "end": 129.25,
+        "start": 118.82,
+        "end": 120.09,
         "speaker": "Speaker",
         "en": "Those last sunglasses are great.",
         "ipa": "",
@@ -108922,8 +108725,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 66,
-        "start": 129.29,
-        "end": 130.19,
+        "start": 120.13,
+        "end": 121.03,
         "speaker": "Speaker",
         "en": "I think I'll take them.",
         "ipa": "",
@@ -108932,8 +108735,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 67,
-        "start": 130.23,
-        "end": 130.65,
+        "start": 121.07,
+        "end": 121.49,
         "speaker": "Speaker",
         "en": "Thank you.",
         "ipa": "/juː lɛt miː ræp ðɛm ʌp doʊnt fərˈɡɛt ælz ɪn ðə kæˈfeɪ ˈʌpˌstɛrɪz ɪf juː wɒnt/",
@@ -108942,8 +108745,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 68,
-        "start": 130.69,
-        "end": 131.7,
+        "start": 121.53,
+        "end": 122.54,
         "speaker": "Speaker",
         "en": "Let me wrap them up.",
         "ipa": "",
@@ -108952,8 +108755,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 131.74,
-        "end": 135.29,
+        "start": 122.58,
+        "end": 126.13,
         "speaker": "Speaker",
         "en": "Don't forget, Al's in the café upstairs if you want to check them out.",
         "ipa": "/tuː tʃɛk ðɛm aʊt θæŋk juː soʊ mʌtʃ wɒts jʊər ˈfeɪvərɪt veɪˈkeɪʃən spɒt ˈnæpə ˈvæli/",
@@ -108973,8 +108776,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 70,
-        "start": 135.33,
-        "end": 136.18,
+        "start": 126.17,
+        "end": 127.02,
         "speaker": "Speaker",
         "en": "Thank you so much.",
         "ipa": "",
@@ -108983,8 +108786,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 71,
-        "start": 136.22,
-        "end": 137.92,
+        "start": 127.06,
+        "end": 128.76,
         "speaker": "Speaker",
         "en": "What's your favorite vacation spot?",
         "ipa": "",
@@ -108999,8 +108802,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 137.96,
-        "end": 138.56,
+        "start": 128.8,
+        "end": 129.4,
         "speaker": "Speaker",
         "en": "Napa Valley.",
         "ipa": "",
@@ -109015,8 +108818,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 73,
-        "start": 138.6,
-        "end": 140.29,
+        "start": 129.44,
+        "end": 131.13,
         "speaker": "Speaker",
         "en": "What's a country you'd like to visit?",
         "ipa": "/wɒts ə ˈkʌntri juːd laɪk tuː ˈvɪzɪt aɪd lʌv tuː goʊ tuː ˈkɛnjə ɪf juː kʊd brɪŋ wʌn/",
@@ -109036,8 +108839,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 74,
-        "start": 140.33,
-        "end": 141.41,
+        "start": 131.17,
+        "end": 132.25,
         "speaker": "Speaker",
         "en": "I'd love to go to Kenya.",
         "ipa": "",
@@ -109052,8 +108855,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 75,
-        "start": 141.45,
-        "end": 144.85,
+        "start": 132.29,
+        "end": 135.69,
         "speaker": "Speaker",
         "en": "If you could bring one thing from the States to England, what would it be?",
         "ipa": "/θɪŋ frəm ðə steɪts tuː ˈɪŋɡlənd wɒt wʊd ɪt biː ə ˈfæni pæk wɒts wʌn/",
@@ -109073,8 +108876,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 76,
-        "start": 144.89,
-        "end": 145.45,
+        "start": 135.73,
+        "end": 136.29,
         "speaker": "Speaker",
         "en": "A fanny pack.",
         "ipa": "",
@@ -109089,8 +108892,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 77,
-        "start": 145.49,
-        "end": 148.27,
+        "start": 136.33,
+        "end": 139.11,
         "speaker": "Speaker",
         "en": "What's one piece of clothing in your wardrobe that David hates?",
         "ipa": "/piːs ʌv ˈkloʊðɪŋ ɪn jʊər ˈwɔːrdroʊb ðæt ˈdeɪvɪd heɪts hiː lʌvz ˈɛvriθɪŋ/",
@@ -109105,8 +108908,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 78,
-        "start": 148.31,
-        "end": 149.2,
+        "start": 139.15,
+        "end": 140.04,
         "speaker": "Speaker",
         "en": "He loves everything.",
         "ipa": "",
@@ -109121,8 +108924,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 79,
-        "start": 149.24,
-        "end": 152.14,
+        "start": 140.08,
+        "end": 142.98,
         "speaker": "Speaker",
         "en": "In my wardrobe, what's one piece of clothing in David's wardrobe that you hate?",
         "ipa": "/ɪn maɪ ˈwɔːrdroʊb, wʌts wʌn piːs ʌv ˈklouðɪŋ ɪn ˈdeɪvɪdz ˈwɔːrdroʊb ðæt juː heɪt? aɪ doʊnt/",
@@ -109142,8 +108945,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 80,
-        "start": 152.18,
-        "end": 156.24,
+        "start": 143.02,
+        "end": 147.08,
         "speaker": "Speaker",
         "en": "I don't really like that full-on Gucci look that he, uh, that he pushed a few years ago.",
         "ipa": "/ˈrɪli laɪk ðæt ˈfʊl ɑːn ˈɡuːtʃi lʊk ðæt hiː, ʌ, ðæt hiː pʊʃt ə fjuː jɪrz əˈɡoʊ./",
@@ -109163,8 +108966,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 81,
-        "start": 156.28,
-        "end": 159.03,
+        "start": 147.12,
+        "end": 149.87,
         "speaker": "Speaker",
         "en": "If you could take back one look you ever wore, what would it be?",
         "ipa": "/ɪf juː kʊd teɪk bæk wʌn lʊk juː ˈɛvər wɔːr, wʌt wʊd ɪt biː? ðə fʊl ˈɡuːtʃi/",
@@ -109179,8 +108982,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 82,
-        "start": 159.07,
-        "end": 161.91,
+        "start": 149.91,
+        "end": 152.75,
         "speaker": "Speaker",
         "en": "The full Gucci look in leather that I wore a few years ago.",
         "ipa": "/lʊk ɪn ˈlɛðər ðæt aɪ wɔːr ə fjuː jɪrz əˈɡoʊ. ðɪs mʌst biː əˈliːnə. juː lʊk/",
@@ -109195,8 +108998,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 83,
-        "start": 161.95,
-        "end": 162.87,
+        "start": 152.79,
+        "end": 153.71,
         "speaker": "Speaker",
         "en": "This must be Alina.",
         "ipa": "",
@@ -109211,8 +109014,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 84,
-        "start": 162.91,
-        "end": 164.47,
+        "start": 153.75,
+        "end": 155.31,
         "speaker": "Speaker",
         "en": "You look beautiful, thank you.",
         "ipa": "/ˈbjuːtɪfʊl, ˈθæŋk juː. ɪf juː kʊd tiːtʃ ˈɛni ˈsʌbdʒɪkt æt skuːl, wʌt wʊd ɪt/",
@@ -109227,8 +109030,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 85,
-        "start": 164.51,
-        "end": 170.8,
+        "start": 155.35,
+        "end": 161.64,
         "speaker": "Speaker",
         "en": "If you could teach any subject at school, what would it be? Singing. I'm going to get you another dress. Thank you, Victoria.",
         "ipa": "/biː? ˈsɪŋɪŋ. aɪm ˈɡuːɪŋ tuː ɡɛt juː əˈnʌðər drɛs. ˈθæŋk juː, vɪkˈtɔːriə./",
@@ -109248,8 +109051,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 170.84,
-        "end": 172.35,
+        "start": 161.68,
+        "end": 163.19,
         "speaker": "Speaker",
         "en": "What's your favorite food?",
         "ipa": "/wʌts jʊər ˈfeɪvərɪt fuːd? ˌdʒæpəˈniːz. ˈfeɪvərɪt drɪŋk? hɑːt ˈsɑːki. ɪf juː kʊd hæv ə deɪt/",
@@ -109264,8 +109067,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 87,
-        "start": 172.39,
-        "end": 172.89,
+        "start": 163.23,
+        "end": 163.73,
         "speaker": "Speaker",
         "en": "Japanese.",
         "ipa": "",
@@ -109280,8 +109083,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 88,
-        "start": 172.93,
-        "end": 173.79,
+        "start": 163.77,
+        "end": 164.63,
         "speaker": "Speaker",
         "en": "Favorite drink?",
         "ipa": "",
@@ -109301,8 +109104,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 89,
-        "start": 173.83,
-        "end": 174.33,
+        "start": 164.67,
+        "end": 165.17,
         "speaker": "Speaker",
         "en": "Hot saki.",
         "ipa": "",
@@ -109311,8 +109114,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 90,
-        "start": 174.37,
-        "end": 178.27,
+        "start": 165.21,
+        "end": 169.11,
         "speaker": "Speaker",
         "en": "If you could have a date with someone living or dead, who would it be?",
         "ipa": "/wɪð ˈsʌmwʌn ˈlɪvɪŋ ɔːr dɛd, huː wʊd ɪt biː? maɪ ˈhʌzbənd. wʌt ɪz wʌn θɪŋ/",
@@ -109327,8 +109130,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 91,
-        "start": 178.31,
-        "end": 178.87,
+        "start": 169.15,
+        "end": 169.71,
         "speaker": "Speaker",
         "en": "My husband.",
         "ipa": "",
@@ -109343,8 +109146,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 92,
-        "start": 178.91,
-        "end": 182.05,
+        "start": 169.75,
+        "end": 172.89,
         "speaker": "Speaker",
         "en": "What is one thing in this world that we need to get rid of?",
         "ipa": "/ɪn ðɪs wɜːrld ðæt wiː niːd tuː ɡɛt rɪd ʌv? duː juː bɪˈliːv ɪn friː wɪl ɔːr ˈdɛstəni?/",
@@ -109359,8 +109162,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 93,
-        "start": 182.09,
-        "end": 184.2,
+        "start": 172.93,
+        "end": 175.04,
         "speaker": "Speaker",
         "en": "Do you believe in free will or destiny?",
         "ipa": "",
@@ -109375,8 +109178,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 94,
-        "start": 184.24,
-        "end": 186.68,
+        "start": 175.08,
+        "end": 177.52,
         "speaker": "Speaker",
         "en": "I believe that free will leads you to your destiny.",
         "ipa": "/aɪ bɪˈliːv ðæt friː wɪl liːdz juː tuː jʊər ˈdɛstəni. wʌts wʌn θɪŋ juː ˈkænɑːt lɪv/",
@@ -109396,8 +109199,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 95,
-        "start": 186.72,
-        "end": 199.08,
+        "start": 177.56,
+        "end": 189.92,
         "speaker": "Speaker",
         "en": "What's one thing you cannot live without? My velcro rollers. What is the definition of misery? Kathy Bates. Besides L.A., what city do you visit the most? Paris.",
         "ipa": "/wɪˈaʊt? maɪ ˈvɛlkroʊ ˈroʊlərz. wʌt ɪz ðə ˌdɛfɪˈnɪʃən ʌv ˈmɪzəri? ˈkæθi beɪts. bɪˈsaɪdz ɛlˌeɪ, wʌt ˈsɪti duː juː ˈvɪzɪt ðə moʊst? ˈpærɪs./",
@@ -109417,8 +109220,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 96,
-        "start": 199.12,
-        "end": 200.74,
+        "start": 189.96,
+        "end": 191.58,
         "speaker": "Speaker",
         "en": "What is your idea of a perfect day?",
         "ipa": "/wʌt ɪz jʊər aɪˈdiːə ʌv ə ˈpɜːrfɪkt deɪ? ə naɪt ɪn wɪð maɪ ˈhʌzbənd. duː juː bɪˈliːv ɪn lʌv æt fɜːrst/",
@@ -109433,8 +109236,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 97,
-        "start": 200.78,
-        "end": 202.02,
+        "start": 191.62,
+        "end": 192.86,
         "speaker": "Speaker",
         "en": "A night in with my husband.",
         "ipa": "",
@@ -109449,8 +109252,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 98,
-        "start": 202.06,
-        "end": 203.94,
+        "start": 192.9,
+        "end": 194.78,
         "speaker": "Speaker",
         "en": "Do you believe in love at first sight?",
         "ipa": "/saɪt? ˈæbsəluːtli, æt fɜːrst saɪt. wʌt meɪd juː fɔːl ɪn lʌv wɪð ˈdeɪvɪd? dʌ./",
@@ -109470,8 +109273,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 99,
-        "start": 203.98,
-        "end": 205.81,
+        "start": 194.82,
+        "end": 196.65,
         "speaker": "Speaker",
         "en": "Absolutely, at first sight.",
         "ipa": "",
@@ -109486,8 +109289,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 100,
-        "start": 205.85,
-        "end": 208.44,
+        "start": 196.69,
+        "end": 199.28,
         "speaker": "Speaker",
         "en": "What made you fall in love with David?",
         "ipa": "",
@@ -109502,8 +109305,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 101,
-        "start": 208.48,
-        "end": 208.76,
+        "start": 199.32,
+        "end": 199.6,
         "speaker": "Speaker",
         "en": "Duh.",
         "ipa": "",
@@ -109512,8 +109315,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 102,
-        "start": 208.8,
-        "end": 211.55,
+        "start": 199.64,
+        "end": 202.39,
         "speaker": "Speaker",
         "en": "At what age were you the happiest?",
         "ipa": "/æt wʌt eɪdʒ wɜːr juː ðə ˈhæpiɪst? aɪm ˈrɪli ˈhæpi raɪt naʊ. ɡreɪt. haɪ, vɪkˈtɔːriə./",
@@ -109528,8 +109331,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 103,
-        "start": 211.59,
-        "end": 213.76,
+        "start": 202.43,
+        "end": 204.6,
         "speaker": "Speaker",
         "en": "I'm really happy right now.",
         "ipa": "",
@@ -109544,8 +109347,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 104,
-        "start": 213.8,
-        "end": 214.25,
+        "start": 204.64,
+        "end": 205.09,
         "speaker": "Speaker",
         "en": "Great.",
         "ipa": "",
@@ -109554,8 +109357,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 105,
-        "start": 214.29,
-        "end": 215.36,
+        "start": 205.13,
+        "end": 206.2,
         "speaker": "Speaker",
         "en": "Hi, Victoria.",
         "ipa": "",
@@ -109570,8 +109373,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 106,
-        "start": 215.4,
-        "end": 217.94,
+        "start": 206.24,
+        "end": 208.78,
         "speaker": "Speaker",
         "en": "A man from America would like to ask you a question.",
         "ipa": "/ə mæn frəm əˈmɛrɪkə wʊd laɪk tuː ɑːsk juː ə ˈkwɛstʃən. oʊˈkeɪ. heɪ, vɪkˈtɔːriə, aɪm ˈfaɪnəli/",
@@ -109586,8 +109389,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 107,
-        "start": 217.98,
-        "end": 218.19,
+        "start": 208.82,
+        "end": 209.03,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "",
@@ -109596,8 +109399,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 108,
-        "start": 218.23,
-        "end": 220.64,
+        "start": 209.07,
+        "end": 211.48,
         "speaker": "Speaker",
         "en": "Hey, Victoria, I'm finally ready to propose to my girlfriend.",
         "ipa": "/ˈrɛdi tuː prəˈpoʊz tuː maɪ ˈɡɜːrlfrɛnd. aɪ dʒʌst niːd tuː noʊ, ʃʊd aɪ juːz maɪ ˈɡrænmɑːz/",
@@ -109612,8 +109415,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 109,
-        "start": 220.68,
-        "end": 225.25,
+        "start": 211.52,
+        "end": 216.09,
         "speaker": "Speaker",
         "en": "I just need to know, should I use my grandma's old wedding ring, or should I get a brand-new diamond ring?",
         "ipa": "/oʊld ˈwɛdɪŋ rɪŋ, ɔːr ʃʊd aɪ ɡɛt ə brænd nuː ˈdaɪmənd rɪŋ? naʊ, ðæt ɪz ə tʌf/",
@@ -109628,8 +109431,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 110,
-        "start": 225.29,
-        "end": 226.77,
+        "start": 216.13,
+        "end": 217.61,
         "speaker": "Speaker",
         "en": "Now, that is a tough question.",
         "ipa": "/ˈkwɛstʃən. wʌts ɪt ˈɡoʊɪŋ tuː biː? aɪd ɡɛt ə nuː wʌn. doʊnt ɡɪv hɜːr ðæt oʊld hiːl/",
@@ -109649,8 +109452,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 111,
-        "start": 226.81,
-        "end": 227.87,
+        "start": 217.65,
+        "end": 218.71,
         "speaker": "Speaker",
         "en": "What's it going to be?",
         "ipa": "",
@@ -109659,8 +109462,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 112,
-        "start": 227.91,
-        "end": 228.77,
+        "start": 218.75,
+        "end": 219.61,
         "speaker": "Speaker",
         "en": "I'd get a new one.",
         "ipa": "",
@@ -109675,8 +109478,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 113,
-        "start": 228.81,
-        "end": 230.54,
+        "start": 219.65,
+        "end": 221.38,
         "speaker": "Speaker",
         "en": "Don't give her that old-heel thing.",
         "ipa": "/θɪŋ. wʌts jʊər ˈspɪrɪt ˈænɪməl? ə swɑːn. wʌts jʊər ˈfeɪvərɪt taɪp ʌv ˈænɪməl/",
@@ -109685,8 +109488,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 114,
-        "start": 230.58,
-        "end": 232.0,
+        "start": 221.42,
+        "end": 222.84,
         "speaker": "Speaker",
         "en": "What's your spirit animal?",
         "ipa": "",
@@ -109701,8 +109504,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 115,
-        "start": 232.04,
-        "end": 232.39,
+        "start": 222.88,
+        "end": 223.23,
         "speaker": "Speaker",
         "en": "A swan.",
         "ipa": "",
@@ -109711,8 +109514,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 116,
-        "start": 232.43,
-        "end": 234.75,
+        "start": 223.27,
+        "end": 225.59,
         "speaker": "Speaker",
         "en": "What's your favorite type of animal print?",
         "ipa": "/prɪnt? ˈlɛpərd. ɪf jʊər laɪf wɜːr ə ˈmuːvi, wʌt wʊd ðə ˈtaɪtəl biː? ðə ˈhʌŋɡər ɡeɪmz./",
@@ -109732,8 +109535,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 117,
-        "start": 234.79,
-        "end": 235.22,
+        "start": 225.63,
+        "end": 226.06,
         "speaker": "Speaker",
         "en": "Leopard.",
         "ipa": "",
@@ -109748,8 +109551,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 118,
-        "start": 235.26,
-        "end": 238.23,
+        "start": 226.1,
+        "end": 229.07,
         "speaker": "Speaker",
         "en": "If your life were a movie, what would the title be?",
         "ipa": "",
@@ -109764,8 +109567,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 119,
-        "start": 238.27,
-        "end": 239.28,
+        "start": 229.11,
+        "end": 230.12,
         "speaker": "Speaker",
         "en": "The Hunger Games.",
         "ipa": "",
@@ -109785,8 +109588,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 120,
-        "start": 239.32,
-        "end": 243.6,
+        "start": 230.16,
+        "end": 234.44,
         "speaker": "Speaker",
         "en": "Let's take really... If you could have any superpower in the world, what would it be?",
         "ipa": "/lɛts teɪk ˈrɪli... ɪf juː kʊd hæv ˈɛni ˈsuːpərpaʊər ɪn ðə wɜːrld, wʌt wʊd ɪt biː?/",
@@ -109801,8 +109604,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 121,
-        "start": 243.64,
-        "end": 246.68,
+        "start": 234.48,
+        "end": 237.52,
         "speaker": "Speaker",
         "en": "I would be able to work out and sleep at the same time.",
         "ipa": "/aɪ wʊd biː ˈeɪbəl tuː wɜːrk aʊt ənd sliːp æt ðə seɪm taɪm. wʌts wʌn sɔːŋ ðæt ˈɔːlweɪz meɪks juː/",
@@ -109822,8 +109625,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 122,
-        "start": 246.72,
-        "end": 249.23,
+        "start": 237.56,
+        "end": 240.07,
         "speaker": "Speaker",
         "en": "What's one song that always makes you dance?",
         "ipa": "/dæns? ˈmɑːrvɪn ɡeɪ, ɡɑːt tuː ɡɪv ɪt ʌp. wʌt ɑːr θriː wɜːrdz tuː dɪˈskraɪb ˈlʌndən?/",
@@ -109843,8 +109646,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 123,
-        "start": 249.27,
-        "end": 251.6,
+        "start": 240.11,
+        "end": 242.44,
         "speaker": "Speaker",
         "en": "Marvin Gaye, \"Got to Give It Up\".",
         "ipa": "",
@@ -109859,8 +109662,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 124,
-        "start": 251.64,
-        "end": 254.52,
+        "start": 242.48,
+        "end": 245.36,
         "speaker": "Speaker",
         "en": "What are three words to describe London?",
         "ipa": "",
@@ -109875,8 +109678,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 125,
-        "start": 254.56,
-        "end": 256.7,
+        "start": 245.4,
+        "end": 247.54,
         "speaker": "Speaker",
         "en": "Inspiring, energetic, multicultural.",
         "ipa": "/ɪnˈspaɪərɪŋ, ˌɛnərˈdʒɛtɪk, ˌmʌltiˈkʌltʃərəl. wʌts ðə wʌn θɪŋ ˈɛvriwʌn ʃʊd/",
@@ -109891,8 +109694,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 126,
-        "start": 256.74,
-        "end": 259.88,
+        "start": 247.58,
+        "end": 250.72,
         "speaker": "Speaker",
         "en": "What's the one thing everyone should do when in London?",
         "ipa": "/duː wɛn ɪn ˈlʌndən? kʌm tuː ˈlʌndən ənd ˈvɪzɪt maɪ stɔːr. wʌt duː juː laɪk moʊst əˈbaʊt əˈmɛrɪkənz?/",
@@ -109907,8 +109710,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 127,
-        "start": 259.92,
-        "end": 261.69,
+        "start": 250.76,
+        "end": 252.53,
         "speaker": "Speaker",
         "en": "Come to London and visit my store.",
         "ipa": "",
@@ -109923,8 +109726,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 128,
-        "start": 261.73,
-        "end": 263.76,
+        "start": 252.57,
+        "end": 254.6,
         "speaker": "Speaker",
         "en": "What do you like most about Americans?",
         "ipa": "",
@@ -109939,8 +109742,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 129,
-        "start": 263.8,
-        "end": 265.02,
+        "start": 254.64,
+        "end": 255.86,
         "speaker": "Speaker",
         "en": "The positive energy.",
         "ipa": "/ðə ˈpɑːzətɪv ˈɛnərdʒi. bɪˈsaɪdz ɛlˌeɪ, wɛr wʊd juː lɪv? nuː jɔːrk./",
@@ -109955,8 +109758,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 130,
-        "start": 265.06,
-        "end": 267.23,
+        "start": 255.9,
+        "end": 258.07,
         "speaker": "Speaker",
         "en": "Besides L.A., where would you live?",
         "ipa": "",
@@ -109971,8 +109774,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 131,
-        "start": 267.27,
-        "end": 267.84,
+        "start": 258.11,
+        "end": 258.68,
         "speaker": "Speaker",
         "en": "New York.",
         "ipa": "",
@@ -109981,8 +109784,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 132,
-        "start": 267.88,
-        "end": 268.89,
+        "start": 258.72,
+        "end": 259.73,
         "speaker": "Speaker",
         "en": "How would your kids answer that?",
         "ipa": "/haʊ wʊd jʊər kɪdz ˈænsər ðæt? nuː jɔːrk. ɪf juː kʊd brɪŋ bæk wʌn lʊk frəm jʊər ˈtwɛntiz,/",
@@ -109997,8 +109800,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 133,
-        "start": 268.93,
-        "end": 269.18,
+        "start": 259.77,
+        "end": 260.02,
         "speaker": "Speaker",
         "en": "New York.",
         "ipa": "",
@@ -110007,8 +109810,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 134,
-        "start": 269.22,
-        "end": 271.52,
+        "start": 260.06,
+        "end": 262.36,
         "speaker": "Speaker",
         "en": "If you could bring back one look from your 20s, what would it be?",
         "ipa": "/wʌt wʊd ɪt biː? nʌn. hæv juː siːn ðoʊz spaɪs ɡɜːrlz fɪlmz? aɪ wʌz ɪn ˈmɪdl skuːl/",
@@ -110023,8 +109826,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 135,
-        "start": 271.56,
-        "end": 271.74,
+        "start": 262.4,
+        "end": 262.58,
         "speaker": "Speaker",
         "en": "None.",
         "ipa": "",
@@ -110033,8 +109836,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 136,
-        "start": 271.78,
-        "end": 273.45,
+        "start": 262.62,
+        "end": 264.29,
         "speaker": "Speaker",
         "en": "Have you seen those Spice Girls films?",
         "ipa": "",
@@ -110054,8 +109857,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 137,
-        "start": 273.49,
-        "end": 275.23,
+        "start": 264.33,
+        "end": 266.07,
         "speaker": "Speaker",
         "en": "I was in middle school at the time.",
         "ipa": "/æt ðə taɪm. əv kɔːrs aɪ dɪd. oʊˈkeɪ, vɪkˈtɔːriə, wʌts ðə wʌn wɜːrd juː juːz tuː/",
@@ -110070,8 +109873,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 138,
-        "start": 275.27,
-        "end": 276.23,
+        "start": 266.11,
+        "end": 267.07,
         "speaker": "Speaker",
         "en": "Of course I did.",
         "ipa": "",
@@ -110086,8 +109889,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 139,
-        "start": 276.27,
-        "end": 284.99,
+        "start": 267.11,
+        "end": 275.83,
         "speaker": "Speaker",
         "en": "Okay, Victoria, what's the one word you use too much? Gray area—and I know that's two words. What's one vice you wish you would give up?",
         "ipa": "/mʌtʃ? ɡreɪ ˈɛriə—ənd aɪ noʊ ðæts tuː wɜːrdz. wʌts wʌn vaɪs juː wɪʃ juː wʊd ɡɪv ʌp? aɪ doʊnt hæv ə vaɪs. ɪf juː kʊd biː ə proʊ æt ˈɛni spɔːrt, wʌt wʊd ɪt biː?/",
@@ -110112,8 +109915,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 140,
-        "start": 285.03,
-        "end": 285.89,
+        "start": 275.87,
+        "end": 276.73,
         "speaker": "Speaker",
         "en": "I don't have a vice.",
         "ipa": "",
@@ -110122,8 +109925,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 141,
-        "start": 285.93,
-        "end": 288.32,
+        "start": 276.77,
+        "end": 279.16,
         "speaker": "Speaker",
         "en": "If you could be a pro at any sport, what would it be?",
         "ipa": "",
@@ -110138,8 +109941,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 142,
-        "start": 288.36,
-        "end": 288.66,
+        "start": 279.2,
+        "end": 279.5,
         "speaker": "Speaker",
         "en": "Tennis.",
         "ipa": "/ˈtɛnɪs. ɪf juː kʊd stɑːr ɪn wʌn ˈmuːvi, wʌt wʊd ɪt biː? aɪ stɑːrd ɪn spaɪs/",
@@ -110154,8 +109957,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 143,
-        "start": 288.7,
-        "end": 291.04,
+        "start": 279.54,
+        "end": 281.88,
         "speaker": "Speaker",
         "en": "If you could star in one movie, what would it be?",
         "ipa": "",
@@ -110170,8 +109973,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 144,
-        "start": 291.08,
-        "end": 296.04,
+        "start": 281.92,
+        "end": 286.88,
         "speaker": "Speaker",
         "en": "I starred in Spice World: The Movie, and I am still waiting for my Outstanding Achievement Award.",
         "ipa": "/wɜːrld: ðə ˈmuːvi, ənd aɪ æm stɪl ˈweɪtɪŋ fɔːr maɪ aʊtˈstændɪŋ əˈtʃiːvmənt əˈwɔːrd./",
@@ -110191,8 +109994,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 145,
-        "start": 296.08,
-        "end": 297.9,
+        "start": 286.92,
+        "end": 288.74,
         "speaker": "Speaker",
         "en": "Who would you want to write your biography?",
         "ipa": "/huː wʊd juː wɑːnt tuː raɪt jʊər baɪˈɑːɡrəfi? miː. wʌt wʊd ðə neɪm biː ʌv jʊər ˈɔːtoʊ.../",
@@ -110207,8 +110010,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 146,
-        "start": 297.94,
-        "end": 298.07,
+        "start": 288.78,
+        "end": 288.91,
         "speaker": "Speaker",
         "en": "Me.",
         "ipa": "",
@@ -110217,8 +110020,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 147,
-        "start": 298.07,
-        "end": 302.1,
+        "start": 288.91,
+        "end": 292.94,
         "speaker": "Speaker",
         "en": "What would the name be of your auto... Biography, it's a work in progress.",
         "ipa": "/baɪˈɑːɡrəfi, ɪts ə wɜːrk ɪn ˈprɑːɡrɛs. wʌt freɪz wʊd dɪˈfaɪn haʊ ju lɪv?/",
@@ -110233,8 +110036,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 148,
-        "start": 302.14,
-        "end": 304.72,
+        "start": 292.98,
+        "end": 295.56,
         "speaker": "Speaker",
         "en": "What phrase would define how you live?",
         "ipa": "",
@@ -110254,8 +110057,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 149,
-        "start": 304.76,
-        "end": 308.49,
+        "start": 295.6,
+        "end": 299.33,
         "speaker": "Speaker",
         "en": "Your life: positive energy and creative visualization.",
         "ipa": "/jʊər laɪf: ˈpɑːzətɪv ˈɛnərdʒi ænd kriˈeɪtɪv ˌvɪʒuəˈleɪʃn. wʌts jʊər ˈbɪɡəst ɡoʊl?/",
@@ -110270,8 +110073,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 150,
-        "start": 308.53,
-        "end": 310.28,
+        "start": 299.37,
+        "end": 301.12,
         "speaker": "Speaker",
         "en": "What's your biggest goal?",
         "ipa": "",
@@ -110286,8 +110089,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 151,
-        "start": 310.32,
-        "end": 315.84,
+        "start": 301.16,
+        "end": 306.68,
         "speaker": "Speaker",
         "en": "For 2015, to really learn more and figure out what I can do to really help and make a difference.",
         "ipa": "/fɔːr 2015, tu ˈrɪli lɜːrn mɔːr ænd ˈfɪɡjər aʊt wʌt aɪ kæn du tu ˈrɪli hɛlp ænd meɪk ə ˈdɪfrəns./",
@@ -110307,8 +110110,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 152,
-        "start": 315.88,
-        "end": 317.19,
+        "start": 306.72,
+        "end": 308.03,
         "speaker": "Speaker",
         "en": "Where do you go when you need to be alone?",
         "ipa": "/wɛr du ju ɡoʊ wɛn ju niːd tu bi əˈloʊn? aɪ kænt ɡoʊ ˈɛniwɛr ɑːn maɪ oʊn; maɪ kɪdz ˈfɑːloʊ mi ˈɛvriwɛr./",
@@ -110323,8 +110126,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 153,
-        "start": 317.23,
-        "end": 319.16,
+        "start": 308.07,
+        "end": 310.0,
         "speaker": "Speaker",
         "en": "I can't go anywhere on my own; my kids follow me everywhere.",
         "ipa": "",
@@ -110339,8 +110142,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 154,
-        "start": 319.2,
-        "end": 322.72,
+        "start": 310.04,
+        "end": 313.56,
         "speaker": "Speaker",
         "en": "What's one thing about you people would be surprised to know?",
         "ipa": "/wʌts wʌn θɪŋ əˈbaʊt ju ˈpiːpl wʊd bi sərˈpraɪzd tu noʊ?/",
@@ -110355,8 +110158,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 155,
-        "start": 322.76,
-        "end": 323.12,
+        "start": 313.6,
+        "end": 313.96,
         "speaker": "Speaker",
         "en": "Comedy gold.",
         "ipa": "/ˈkɑːmədi ɡoʊld. ɪf ju kʊd tʃuːz ˈɛniwʌn ɪn ðə wɜːrld tu lɪv nɛkst dɔːr tu ju, hu wʊd ɪt bi?/",
@@ -110371,8 +110174,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 156,
-        "start": 323.16,
-        "end": 325.88,
+        "start": 314.0,
+        "end": 316.72,
         "speaker": "Speaker",
         "en": "If you could choose anyone in the world to live next door to you, who would it be?",
         "ipa": "",
@@ -110392,8 +110195,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 157,
-        "start": 325.92,
-        "end": 329.36,
+        "start": 316.76,
+        "end": 320.2,
         "speaker": "Speaker",
         "en": "Mr. Valentino lives next door to me, and it doesn't get much better than that.",
         "ipa": "/ˈmɪstər ˌvælɛnˈtiːnoʊ lɪvz nɛkst dɔːr tu mi, ænd ɪt ˈdʌznt ɡɛt mʌtʃ ˈbɛtər ðæn ðæt./",
@@ -110408,8 +110211,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 158,
-        "start": 329.4,
-        "end": 332.36,
+        "start": 320.24,
+        "end": 323.2,
         "speaker": "Speaker",
         "en": "If you could do a duet with one person, who would it be?",
         "ipa": "/ɪf ju kʊd du ə duˈɛt wɪð wʌn ˈpɜːrsn, hu wʊd ɪt bi?/",
@@ -110424,8 +110227,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 159,
-        "start": 332.4,
-        "end": 336.16,
+        "start": 323.24,
+        "end": 327.0,
         "speaker": "Speaker",
         "en": "I've duetted with Sir Elton John, and it doesn't get much better than that.",
         "ipa": "/aɪv duˈɛtɪd wɪð sɜːr ˈɛltən dʒɑːn, ænd ɪt ˈdʌznt ɡɛt mʌtʃ ˈbɛtər ðæn ðæt./",
@@ -110440,8 +110243,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 160,
-        "start": 336.2,
-        "end": 339.6,
+        "start": 327.04,
+        "end": 330.44,
         "speaker": "Speaker",
         "en": "If you could give yourself advice at age 13, what would it be?",
         "ipa": "/ɪf ju kʊd ɡɪv jʊərˈsɛlf ədˈvaɪs æt eɪdʒ 13, wʌt wʊd ɪt bi?/",
@@ -110456,8 +110259,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 161,
-        "start": 339.64,
-        "end": 342.6,
+        "start": 330.48,
+        "end": 333.44,
         "speaker": "Speaker",
         "en": "Your skin's going to clear up, and it's all going to be fine.",
         "ipa": "/jʊər skɪnz ˈɡoʊɪŋ tu klɪr ʌp, ænd ɪts ɔːl ˈɡoʊɪŋ tu bi faɪn./",
@@ -110472,8 +110275,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 162,
-        "start": 342.64,
-        "end": 346.0,
+        "start": 333.48,
+        "end": 336.84,
         "speaker": "Speaker",
         "en": "If you could do something else with your life, what would it be?",
         "ipa": "/ɪf ju kʊd du ˈsʌmθɪŋ ɛls wɪð jʊər laɪf, wʌt wʊd ɪt bi?/",
@@ -110488,8 +110291,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 163,
-        "start": 346.04,
-        "end": 348.21,
+        "start": 336.88,
+        "end": 339.05,
         "speaker": "Speaker",
         "en": "I wouldn't do anything else with my life.",
         "ipa": "/aɪ ˈwʊdnt du ˈɛniθɪŋ ɛls wɪð maɪ laɪf. vɪkˈtɔːriə, læst ˈkwɛstʃən: du ju teɪk əˈmɛrɪkən ɪkˈsprɛs?/",
@@ -110504,8 +110307,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 164,
-        "start": 348.25,
-        "end": 351.16,
+        "start": 339.09,
+        "end": 342.0,
         "speaker": "Speaker",
         "en": "Victoria, last question: do you take American Express?",
         "ipa": "",
@@ -110525,8 +110328,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 165,
-        "start": 351.2,
-        "end": 352.21,
+        "start": 342.04,
+        "end": 343.05,
         "speaker": "Speaker",
         "en": "It's on the house.",
         "ipa": "/ɪts ɑːn ðə haʊs. ju ɑːr tu kaɪnd, ðæt ɪz soʊ naɪs əv ju. θæŋk ju soʊ mʌtʃ. θæŋk ju, vɪkˈtɔːriə. seɪf ˈdʒɜːrni!/",
@@ -110541,8 +110344,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 166,
-        "start": 352.25,
-        "end": 354.6,
+        "start": 343.09,
+        "end": 345.44,
         "speaker": "Speaker",
         "en": "You are too kind, that is so nice of you.",
         "ipa": "",
@@ -110551,8 +110354,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 167,
-        "start": 354.64,
-        "end": 355.65,
+        "start": 345.48,
+        "end": 346.49,
         "speaker": "Speaker",
         "en": "Thank you so much.",
         "ipa": "",
@@ -110561,8 +110364,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 168,
-        "start": 355.69,
-        "end": 356.81,
+        "start": 346.53,
+        "end": 347.65,
         "speaker": "Speaker",
         "en": "Thank you, Victoria.",
         "ipa": "",
@@ -110577,8 +110380,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 169,
-        "start": 356.85,
-        "end": 357.6,
+        "start": 347.69,
+        "end": 348.44,
         "speaker": "Speaker",
         "en": "Safe journey!",
         "ipa": "",
@@ -110593,8 +110396,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 170,
-        "start": 357.64,
-        "end": 365.08,
+        "start": 348.48,
+        "end": 355.92,
         "speaker": "Speaker",
         "en": "For more 73 Questions, subscribe to The Vogue Channel.",
         "ipa": "/fɔːr mɔːr 73 ˈkwɛstʃənz, səbˈskraɪb tu ðə voʊɡ ˈtʃænl./",

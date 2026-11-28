@@ -1,0 +1,400 @@
+{
+  "ep74": {
+    "number": "EP 74",
+    "id": "local-49-trimmed-49-part2",
+    "speaker": "Ariannita la Gringa",
+    "oldDuration": "03:54",
+    "newDuration": "03:08",
+    "actualDurationSec": 188.1,
+    "oldDifficulty": 2,
+    "newDifficulty": 2,
+    "sentenceCount": 39,
+    "skipRangesCount": 0,
+    "firstSentence": "#1 [0.25-13.4] Okay guys, I just finished my meal and wow, I am so stuffed!",
+    "lastSentence": "#39 [181.8-188.07] I'm gonna go ahead and lick this ice cream, because if not, it will melt down onto the cone."
+  },
+  "introCut24Segments": [
+    {
+      "number": "EP 02",
+      "id": "local-8-73-Questions-with-Victoria-Beckh",
+      "speaker": "Victoria Beckham",
+      "cutRanges": [
+        [
+          0.0,
+          9.16
+        ]
+      ],
+      "cutTotalSec": 9.16,
+      "oldDuration": "06:08",
+      "newDuration": "05:59",
+      "actualDurationSec": 358.53,
+      "oldSkipCount": 2,
+      "remainingSkipCount": 1
+    },
+    {
+      "number": "EP 03",
+      "id": "local-38-trimmed-38-part1",
+      "speaker": "Sydney Serena",
+      "cutRanges": [
+        [
+          3.92,
+          11.32
+        ]
+      ],
+      "cutTotalSec": 7.4,
+      "oldDuration": "08:23",
+      "newDuration": "08:15",
+      "actualDurationSec": 495.23,
+      "oldSkipCount": 10,
+      "remainingSkipCount": 9
+    },
+    {
+      "number": "EP 04",
+      "id": "local-24-Living-Alone-Diaries-trimmed",
+      "speaker": "Michelle Choi",
+      "cutRanges": [
+        [
+          13.92,
+          29.98
+        ]
+      ],
+      "cutTotalSec": 16.06,
+      "oldDuration": "05:27",
+      "newDuration": "05:11",
+      "actualDurationSec": 311.12,
+      "oldSkipCount": 15,
+      "remainingSkipCount": 14
+    },
+    {
+      "number": "EP 05",
+      "id": "local-2-73-Questions-With-Kendall-Jenner",
+      "speaker": "Kendall Jenner",
+      "cutRanges": [
+        [
+          0.0,
+          3.6
+        ]
+      ],
+      "cutTotalSec": 3.6,
+      "oldDuration": "07:28",
+      "newDuration": "07:24",
+      "actualDurationSec": 444.19,
+      "oldSkipCount": 2,
+      "remainingSkipCount": 1
+    },
+    {
+      "number": "EP 07",
+      "id": "local-4-What-is-imposter-syndrome-and-ho",
+      "speaker": "Elizabeth Cox",
+      "cutRanges": [
+        [
+          0.0,
+          7.75
+        ]
+      ],
+      "cutTotalSec": 7.75,
+      "oldDuration": "04:19",
+      "newDuration": "04:11",
+      "actualDurationSec": 250.99,
+      "oldSkipCount": 2,
+      "remainingSkipCount": 1
+    },
+    {
+      "number": "EP 08",
+      "id": "local-5-How-to-Start-Any-Conversation-th",
+      "speaker": "Chris Fenning",
+      "cutRanges": [
+        [
+          0.0,
+          4.26
+        ]
+      ],
+      "cutTotalSec": 4.26,
+      "oldDuration": "11:07",
+      "newDuration": "11:03",
+      "actualDurationSec": 663.15,
+      "oldSkipCount": 69,
+      "remainingSkipCount": 68
+    },
+    {
+      "number": "EP 09",
+      "id": "local-1-Celeste-Headlee-10-ways-to-have-",
+      "speaker": "Celeste Headlee",
+      "cutRanges": [
+        [
+          0.0,
+          12.83
+        ]
+      ],
+      "cutTotalSec": 12.83,
+      "oldDuration": "11:44",
+      "newDuration": "11:31",
+      "actualDurationSec": 691.31,
+      "oldSkipCount": 24,
+      "remainingSkipCount": 23
+    },
+    {
+      "number": "EP 12",
+      "id": "local-9-Learn-How-To-Talk-About-Your-Dai",
+      "speaker": "Bob the Canadian",
+      "cutRanges": [
+        [
+          0.0,
+          10.51
+        ]
+      ],
+      "cutTotalSec": 10.51,
+      "oldDuration": "07:45",
+      "newDuration": "07:34",
+      "actualDurationSec": 454.12,
+      "oldSkipCount": 10,
+      "remainingSkipCount": 9
+    },
+    {
+      "number": "EP 13",
+      "id": "local-20-trimmed-20-part1",
+      "speaker": "Vanessa",
+      "cutRanges": [
+        [
+          7.04,
+          13.12
+        ]
+      ],
+      "cutTotalSec": 6.08,
+      "oldDuration": "05:42",
+      "newDuration": "05:36",
+      "actualDurationSec": 335.72,
+      "oldSkipCount": 12,
+      "remainingSkipCount": 11
+    },
+    {
+      "number": "EP 16",
+      "id": "local-25-Living-Alone-Diaries-trimmed",
+      "speaker": "Michelle Choi",
+      "cutRanges": [
+        [
+          17.8,
+          29.85
+        ]
+      ],
+      "cutTotalSec": 12.05,
+      "oldDuration": "03:37",
+      "newDuration": "03:25",
+      "actualDurationSec": 205.21,
+      "oldSkipCount": 9,
+      "remainingSkipCount": 8
+    },
+    {
+      "number": "EP 18",
+      "id": "local-54-trimmed-54-part1",
+      "speaker": "Bob the Canadian",
+      "cutRanges": [
+        [
+          4.48,
+          8.54
+        ]
+      ],
+      "cutTotalSec": 4.06,
+      "oldDuration": "06:56",
+      "newDuration": "06:51",
+      "actualDurationSec": 411.47,
+      "oldSkipCount": 3,
+      "remainingSkipCount": 2
+    },
+    {
+      "number": "EP 20",
+      "id": "local-40-trimmed-40-part1",
+      "speaker": "Sydney Serena",
+      "cutRanges": [
+        [
+          7.82,
+          12.76
+        ]
+      ],
+      "cutTotalSec": 4.94,
+      "oldDuration": "06:40",
+      "newDuration": "06:36",
+      "actualDurationSec": 395.53,
+      "oldSkipCount": 6,
+      "remainingSkipCount": 5
+    },
+    {
+      "number": "EP 31",
+      "id": "local-59-trimmed-59-part2",
+      "speaker": "Michelle Choi",
+      "cutRanges": [
+        [
+          27.24,
+          30.25
+        ]
+      ],
+      "cutTotalSec": 3.01,
+      "oldDuration": "05:26",
+      "newDuration": "05:23",
+      "actualDurationSec": 323.37,
+      "oldSkipCount": 10,
+      "remainingSkipCount": 9
+    },
+    {
+      "number": "EP 32",
+      "id": "local-17-trimmed-17-part1",
+      "speaker": "Ariannita la Gringa",
+      "cutRanges": [
+        [
+          26.82,
+          29.52
+        ]
+      ],
+      "cutTotalSec": 2.7,
+      "oldDuration": "05:35",
+      "newDuration": "05:33",
+      "actualDurationSec": 332.64,
+      "oldSkipCount": 5,
+      "remainingSkipCount": 4
+    },
+    {
+      "number": "EP 35",
+      "id": "local-50-trimmed-50-part1",
+      "speaker": "Sydney Serena",
+      "cutRanges": [
+        [
+          0.0,
+          11.02
+        ]
+      ],
+      "cutTotalSec": 11.02,
+      "oldDuration": "08:56",
+      "newDuration": "08:45",
+      "actualDurationSec": 525.38,
+      "oldSkipCount": 6,
+      "remainingSkipCount": 5
+    },
+    {
+      "number": "EP 36",
+      "id": "local-19-trimmed-19-part3",
+      "speaker": "Ariannita la Gringa",
+      "cutRanges": [
+        [
+          7.38,
+          19.5
+        ]
+      ],
+      "cutTotalSec": 12.12,
+      "oldDuration": "05:14",
+      "newDuration": "05:02",
+      "actualDurationSec": 301.79,
+      "oldSkipCount": 4,
+      "remainingSkipCount": 3
+    },
+    {
+      "number": "EP 43",
+      "id": "local-60-trimmed-60-part1",
+      "speaker": "Sydney Serena",
+      "cutRanges": [
+        [
+          5.49,
+          7.99
+        ],
+        [
+          13.94,
+          17.24
+        ]
+      ],
+      "cutTotalSec": 5.8,
+      "oldDuration": "06:49",
+      "newDuration": "06:43",
+      "actualDurationSec": 403.44,
+      "oldSkipCount": 6,
+      "remainingSkipCount": 4
+    },
+    {
+      "number": "EP 48",
+      "id": "local-29-trimmed-29-part2",
+      "speaker": "Ariannita la Gringa",
+      "cutRanges": [
+        [
+          6.93,
+          9.93
+        ]
+      ],
+      "cutTotalSec": 3.0,
+      "oldDuration": "02:29",
+      "newDuration": "02:26",
+      "actualDurationSec": 145.7,
+      "oldSkipCount": 5,
+      "remainingSkipCount": 4
+    },
+    {
+      "number": "EP 55",
+      "id": "local-63-ABG-part2",
+      "speaker": "Michelle Choi",
+      "cutRanges": [
+        [
+          3.85,
+          12.75
+        ],
+        [
+          15.99,
+          20.73
+        ]
+      ],
+      "cutTotalSec": 13.64,
+      "oldDuration": "06:50",
+      "newDuration": "06:36",
+      "actualDurationSec": 396.43,
+      "oldSkipCount": 30,
+      "remainingSkipCount": 28
+    },
+    {
+      "number": "EP 59",
+      "id": "local-64-trimmed-64-part1",
+      "speaker": "Sydney Serena",
+      "cutRanges": [
+        [
+          5.45,
+          12.97
+        ]
+      ],
+      "cutTotalSec": 7.52,
+      "oldDuration": "04:42",
+      "newDuration": "04:35",
+      "actualDurationSec": 274.55,
+      "oldSkipCount": 4,
+      "remainingSkipCount": 3
+    },
+    {
+      "number": "EP 76",
+      "id": "local-52-trimmed-52-part1",
+      "speaker": "Ariannita la Gringa",
+      "cutRanges": [
+        [
+          13.19,
+          20.35
+        ]
+      ],
+      "cutTotalSec": 7.16,
+      "oldDuration": "05:50",
+      "newDuration": "05:43",
+      "actualDurationSec": 342.51,
+      "oldSkipCount": 2,
+      "remainingSkipCount": 1
+    },
+    {
+      "number": "EP 80",
+      "id": "local-56-trimmed-56-part1",
+      "speaker": "Ariannita la Gringa",
+      "cutRanges": [
+        [
+          21.9,
+          35.4
+        ]
+      ],
+      "cutTotalSec": 13.5,
+      "oldDuration": "08:16",
+      "newDuration": "08:03",
+      "actualDurationSec": 482.87,
+      "oldSkipCount": 1,
+      "remainingSkipCount": 0
+    }
+  ]
+}
