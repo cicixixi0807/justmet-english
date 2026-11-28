@@ -1,18 +1,37 @@
 {
   "scheme": "Option B - Version 2 (Part 1 / Part 2 splits for 3 samples)",
   "replacesTitles": [
+    "Alone but Not Lonely - ep. 1",
+    "Asking people 'What do you do for a living？' in USA",
+    "Can you understand my friend？ ｜ English Conversation",
     "Car Vocabulary",
+    "Celeste Headlee： 10 ways to have a better conversation ｜ TED",
     "Downtown Vocabulary In New York",
+    "English Lesson At The Airport",
     "English Phrases for Ordering Food",
+    "Essential English for Skiing",
     "Grocery Store Vocabulary： shop in English",
     "Grocery shopping with your English Teacher",
+    "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food!",
+    "Household Chores In English",
+    "How To Order Food In a Restaurant",
+    "How to Buy a House in USA",
+    "How to Order Fast Food in English",
+    "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+    "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles",
     "Living Alone Diaries ｜ My simple, quiet morning and afternoon!",
     "Living Alone Diaries ｜ What I Eat in a Day in the new apartment!",
     "Mall Vocabulary In English",
+    "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock)",
     "Order FOOD in English： Daily Life English",
+    "Order PIZZA in English： Daily Life English Lesson",
     "Real Life ENGLISH Around the City",
     "Religious Vocabulary in English",
-    "Speak American English Around Town"
+    "Speak American English Around Town",
+    "VLOG ★ a productive & busy day in my life",
+    "alone in new york (but not lonely)",
+    "what i eat as a busy girl living in nyc ｜ healthy & easy meals",
+    "what i spend in a week living in nyc"
   ],
   "entries": [
     {
@@ -544,7 +563,7 @@
       "sourceNumber": "EP 05",
       "sourceTitle": "Living Alone Diaries ｜ My simple, quiet morning and afternoon!",
       "part": "trimmed",
-      "title": "Living Alone Diaries（精编版：独居女孩的静谧晨间与午后）",
+      "title": "Living Alone Diaries（独居女孩的静谧晨间与午后）",
       "speaker": "Michelle Choi",
       "region": "美国",
       "difficulty": 1,
@@ -578,7 +597,7 @@
       "sourceNumber": "EP 16",
       "sourceTitle": "Living Alone Diaries ｜ What I Eat in a Day in the new apartment!",
       "part": "trimmed",
-      "title": "Living Alone Diaries（精编版：独居一日三餐与蒜香意面）",
+      "title": "Living Alone Diaries（独居一日三餐与蒜香意面）",
       "speaker": "Michelle Choi",
       "region": "美国",
       "difficulty": 1,
@@ -704,6 +723,1025 @@
         [
           396.39,
           545.06
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 01",
+      "sourceTitle": "Order PIZZA in English： Daily Life English Lesson",
+      "part": "part1",
+      "title": "Order PIZZA in English： Daily Life English Lesson (Part 1)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Order PIZZA in English： Daily Life English Lesson (Part 1).trimmed.mp4",
+      "audioFile": "Order PIZZA in English： Daily Life English Lesson (Part 1).trimmed.m4a",
+      "coverFile": "Order PIZZA in English： Daily Life English Lesson (Part 1).jpg",
+      "polishedFile": "Order PIZZA in English： Daily Life English Lesson (Part 1).polished.json",
+      "durationSec": 443.89,
+      "windows": [
+        [
+          0.0,
+          443.89
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 01",
+      "sourceTitle": "Order PIZZA in English： Daily Life English Lesson",
+      "part": "part2",
+      "title": "Order PIZZA in English： Daily Life English Lesson (Part 2)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Order PIZZA in English： Daily Life English Lesson (Part 2).trimmed.mp4",
+      "audioFile": "Order PIZZA in English： Daily Life English Lesson (Part 2).trimmed.m4a",
+      "coverFile": "Order PIZZA in English： Daily Life English Lesson (Part 2).jpg",
+      "polishedFile": "Order PIZZA in English： Daily Life English Lesson (Part 2).polished.json",
+      "durationSec": 476.78,
+      "windows": [
+        [
+          443.43,
+          920.21
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 01",
+      "sourceTitle": "Order PIZZA in English： Daily Life English Lesson",
+      "part": "part3",
+      "title": "Order PIZZA in English： Daily Life English Lesson (Part 3)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Order PIZZA in English： Daily Life English Lesson (Part 3).trimmed.mp4",
+      "audioFile": "Order PIZZA in English： Daily Life English Lesson (Part 3).trimmed.m4a",
+      "coverFile": "Order PIZZA in English： Daily Life English Lesson (Part 3).jpg",
+      "polishedFile": "Order PIZZA in English： Daily Life English Lesson (Part 3).polished.json",
+      "durationSec": 335.19,
+      "windows": [
+        [
+          919.75,
+          1254.944
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 16",
+      "sourceTitle": "Household Chores In English",
+      "part": "part1",
+      "title": "Household Chores In English (Part 1)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 3,
+      "tags": [
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "Household Chores In English (Part 1).trimmed.mp4",
+      "audioFile": "Household Chores In English (Part 1).trimmed.m4a",
+      "coverFile": "Household Chores In English (Part 1).jpg",
+      "polishedFile": "Household Chores In English (Part 1).polished.json",
+      "durationSec": 265.9,
+      "windows": [
+        [
+          0.0,
+          265.9
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 16",
+      "sourceTitle": "Household Chores In English",
+      "part": "part2",
+      "title": "Household Chores In English (Part 2)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 3,
+      "tags": [
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "Household Chores In English (Part 2).trimmed.mp4",
+      "audioFile": "Household Chores In English (Part 2).trimmed.m4a",
+      "coverFile": "Household Chores In English (Part 2).jpg",
+      "polishedFile": "Household Chores In English (Part 2).polished.json",
+      "durationSec": 442.71,
+      "windows": [
+        [
+          272.18,
+          714.89
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 16",
+      "sourceTitle": "Household Chores In English",
+      "part": "part3",
+      "title": "Household Chores In English (Part 3)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 3,
+      "tags": [
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "Household Chores In English (Part 3).trimmed.mp4",
+      "audioFile": "Household Chores In English (Part 3).trimmed.m4a",
+      "coverFile": "Household Chores In English (Part 3).jpg",
+      "polishedFile": "Household Chores In English (Part 3).polished.json",
+      "durationSec": 450.23,
+      "windows": [
+        [
+          714.43,
+          1164.66
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 17",
+      "sourceTitle": "How to Buy a House in USA",
+      "part": "part1",
+      "title": "How to Buy a House in USA (Part 1)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "购物",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "How to Buy a House in USA (Part 1).trimmed.mp4",
+      "audioFile": "How to Buy a House in USA (Part 1).trimmed.m4a",
+      "coverFile": "How to Buy a House in USA (Part 1).jpg",
+      "polishedFile": "How to Buy a House in USA (Part 1).polished.json",
+      "durationSec": 512.29,
+      "windows": [
+        [
+          0.0,
+          512.29
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 17",
+      "sourceTitle": "How to Buy a House in USA",
+      "part": "part2",
+      "title": "How to Buy a House in USA (Part 2)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "购物",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "How to Buy a House in USA (Part 2).trimmed.mp4",
+      "audioFile": "How to Buy a House in USA (Part 2).trimmed.m4a",
+      "coverFile": "How to Buy a House in USA (Part 2).jpg",
+      "polishedFile": "How to Buy a House in USA (Part 2).polished.json",
+      "durationSec": 539.15,
+      "windows": [
+        [
+          511.83,
+          1050.98
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 26",
+      "sourceTitle": "what i spend in a week living in nyc",
+      "part": "part1",
+      "title": "what i spend in a week living in nyc (Part 1)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "旅行",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "what i spend in a week living in nyc (Part 1).trimmed.mp4",
+      "audioFile": "what i spend in a week living in nyc (Part 1).trimmed.m4a",
+      "coverFile": "what i spend in a week living in nyc (Part 1).jpg",
+      "polishedFile": "what i spend in a week living in nyc (Part 1).polished.json",
+      "durationSec": 502.63,
+      "windows": [
+        [
+          0.0,
+          502.63
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 26",
+      "sourceTitle": "what i spend in a week living in nyc",
+      "part": "part2",
+      "title": "what i spend in a week living in nyc (Part 2)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "旅行",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "what i spend in a week living in nyc (Part 2).trimmed.mp4",
+      "audioFile": "what i spend in a week living in nyc (Part 2).trimmed.m4a",
+      "coverFile": "what i spend in a week living in nyc (Part 2).jpg",
+      "polishedFile": "what i spend in a week living in nyc (Part 2).polished.json",
+      "durationSec": 439.82,
+      "windows": [
+        [
+          514.11,
+          953.93
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 23",
+      "sourceTitle": "what i eat as a busy girl living in nyc ｜ healthy & easy meals",
+      "part": "part1",
+      "title": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 1)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "美食",
+        "旅行"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 1).trimmed.mp4",
+      "audioFile": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 1).trimmed.m4a",
+      "coverFile": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 1).jpg",
+      "polishedFile": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 1).polished.json",
+      "durationSec": 400.45,
+      "windows": [
+        [
+          0.0,
+          400.45
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 23",
+      "sourceTitle": "what i eat as a busy girl living in nyc ｜ healthy & easy meals",
+      "part": "part2",
+      "title": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 2)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "美食",
+        "旅行"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 2).trimmed.mp4",
+      "audioFile": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 2).trimmed.m4a",
+      "coverFile": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 2).jpg",
+      "polishedFile": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 2).polished.json",
+      "durationSec": 540.18,
+      "windows": [
+        [
+          409.23,
+          949.41
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 15",
+      "sourceTitle": "Can you understand my friend？ ｜ English Conversation",
+      "part": "part1",
+      "title": "Can you understand my friend？ ｜ English Conversation (Part 1)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "日常对话",
+        "生活英语"
+      ],
+      "sceneBadge": "日常对话",
+      "videoFile": "Can you understand my friend？ ｜ English Conversation (Part 1).trimmed.mp4",
+      "audioFile": "Can you understand my friend？ ｜ English Conversation (Part 1).trimmed.m4a",
+      "coverFile": "Can you understand my friend？ ｜ English Conversation (Part 1).jpg",
+      "polishedFile": "Can you understand my friend？ ｜ English Conversation (Part 1).polished.json",
+      "durationSec": 546.25,
+      "windows": [
+        [
+          0.0,
+          546.25
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 15",
+      "sourceTitle": "Can you understand my friend？ ｜ English Conversation",
+      "part": "part2",
+      "title": "Can you understand my friend？ ｜ English Conversation (Part 2)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "日常对话",
+        "生活英语"
+      ],
+      "sceneBadge": "日常对话",
+      "videoFile": "Can you understand my friend？ ｜ English Conversation (Part 2).trimmed.mp4",
+      "audioFile": "Can you understand my friend？ ｜ English Conversation (Part 2).trimmed.m4a",
+      "coverFile": "Can you understand my friend？ ｜ English Conversation (Part 2).jpg",
+      "polishedFile": "Can you understand my friend？ ｜ English Conversation (Part 2).polished.json",
+      "durationSec": 365.58,
+      "windows": [
+        [
+          545.79,
+          911.37
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 19",
+      "sourceTitle": "How To Order Food In a Restaurant",
+      "part": "part1",
+      "title": "How To Order Food In a Restaurant (Part 1)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "生活英语"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "How To Order Food In a Restaurant (Part 1).trimmed.mp4",
+      "audioFile": "How To Order Food In a Restaurant (Part 1).trimmed.m4a",
+      "coverFile": "How To Order Food In a Restaurant (Part 1).jpg",
+      "polishedFile": "How To Order Food In a Restaurant (Part 1).polished.json",
+      "durationSec": 544.92,
+      "windows": [
+        [
+          0.11,
+          545.03
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 19",
+      "sourceTitle": "How To Order Food In a Restaurant",
+      "part": "part2",
+      "title": "How To Order Food In a Restaurant (Part 2)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "生活英语"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "How To Order Food In a Restaurant (Part 2).trimmed.mp4",
+      "audioFile": "How To Order Food In a Restaurant (Part 2).trimmed.m4a",
+      "coverFile": "How To Order Food In a Restaurant (Part 2).jpg",
+      "polishedFile": "How To Order Food In a Restaurant (Part 2).polished.json",
+      "durationSec": 313.06,
+      "windows": [
+        [
+          556.23,
+          869.29
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 11",
+      "sourceTitle": "English Lesson At The Airport",
+      "part": "part1",
+      "title": "English Lesson At The Airport (Part 1)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "旅行",
+        "生活英语"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "English Lesson At The Airport (Part 1).trimmed.mp4",
+      "audioFile": "English Lesson At The Airport (Part 1).trimmed.m4a",
+      "coverFile": "English Lesson At The Airport (Part 1).jpg",
+      "polishedFile": "English Lesson At The Airport (Part 1).polished.json",
+      "durationSec": 534.65,
+      "windows": [
+        [
+          0.0,
+          534.65
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 11",
+      "sourceTitle": "English Lesson At The Airport",
+      "part": "part2",
+      "title": "English Lesson At The Airport (Part 2)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "旅行",
+        "生活英语"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "English Lesson At The Airport (Part 2).trimmed.mp4",
+      "audioFile": "English Lesson At The Airport (Part 2).trimmed.m4a",
+      "coverFile": "English Lesson At The Airport (Part 2).jpg",
+      "polishedFile": "English Lesson At The Airport (Part 2).polished.json",
+      "durationSec": 286.42,
+      "windows": [
+        [
+          542.55,
+          828.974
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 10",
+      "sourceTitle": "How to Order Fast Food in English",
+      "part": "part1",
+      "title": "How to Order Fast Food in English (Part 1)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "生活英语"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "How to Order Fast Food in English (Part 1).trimmed.mp4",
+      "audioFile": "How to Order Fast Food in English (Part 1).trimmed.m4a",
+      "coverFile": "How to Order Fast Food in English (Part 1).jpg",
+      "polishedFile": "How to Order Fast Food in English (Part 1).polished.json",
+      "durationSec": 511.93,
+      "windows": [
+        [
+          0.0,
+          511.93
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 10",
+      "sourceTitle": "How to Order Fast Food in English",
+      "part": "part2",
+      "title": "How to Order Fast Food in English (Part 2)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "生活英语"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "How to Order Fast Food in English (Part 2).trimmed.mp4",
+      "audioFile": "How to Order Fast Food in English (Part 2).trimmed.m4a",
+      "coverFile": "How to Order Fast Food in English (Part 2).jpg",
+      "polishedFile": "How to Order Fast Food in English (Part 2).polished.json",
+      "durationSec": 233.9,
+      "windows": [
+        [
+          576.35,
+          810.25
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 27",
+      "sourceTitle": "VLOG ★ a productive & busy day in my life",
+      "part": "part1",
+      "title": "VLOG ★ a productive & busy day in my life (Part 1)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "旅行",
+        "生活"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "VLOG ★ a productive & busy day in my life (Part 1).trimmed.mp4",
+      "audioFile": "VLOG ★ a productive & busy day in my life (Part 1).trimmed.m4a",
+      "coverFile": "VLOG ★ a productive & busy day in my life (Part 1).jpg",
+      "polishedFile": "VLOG ★ a productive & busy day in my life (Part 1).polished.json",
+      "durationSec": 536.4,
+      "windows": [
+        [
+          2.15,
+          538.55
+        ]
+      ],
+      "internalSkips": [
+        [
+          5.13,
+          10.53
+        ],
+        [
+          322.89,
+          326.33
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 27",
+      "sourceTitle": "VLOG ★ a productive & busy day in my life",
+      "part": "part2",
+      "title": "VLOG ★ a productive & busy day in my life (Part 2)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "旅行",
+        "生活"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "VLOG ★ a productive & busy day in my life (Part 2).trimmed.mp4",
+      "audioFile": "VLOG ★ a productive & busy day in my life (Part 2).trimmed.m4a",
+      "coverFile": "VLOG ★ a productive & busy day in my life (Part 2).jpg",
+      "polishedFile": "VLOG ★ a productive & busy day in my life (Part 2).polished.json",
+      "durationSec": 250.57,
+      "windows": [
+        [
+          554.19,
+          804.756
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 18",
+      "sourceTitle": "Asking people 'What do you do for a living？' in USA",
+      "part": "part1",
+      "title": "Asking people 'What do you do for a living？' in USA (Part 1)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "生活英语"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "Asking people 'What do you do for a living？' in USA (Part 1).trimmed.mp4",
+      "audioFile": "Asking people 'What do you do for a living？' in USA (Part 1).trimmed.m4a",
+      "coverFile": "Asking people 'What do you do for a living？' in USA (Part 1).jpg",
+      "polishedFile": "Asking people 'What do you do for a living？' in USA (Part 1).polished.json",
+      "durationSec": 349.66,
+      "windows": [
+        [
+          0.0,
+          349.66
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 18",
+      "sourceTitle": "Asking people 'What do you do for a living？' in USA",
+      "part": "part2",
+      "title": "Asking people 'What do you do for a living？' in USA (Part 2)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 5,
+      "tags": [
+        "生活英语"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "Asking people 'What do you do for a living？' in USA (Part 2).trimmed.mp4",
+      "audioFile": "Asking people 'What do you do for a living？' in USA (Part 2).trimmed.m4a",
+      "coverFile": "Asking people 'What do you do for a living？' in USA (Part 2).jpg",
+      "polishedFile": "Asking people 'What do you do for a living？' in USA (Part 2).polished.json",
+      "durationSec": 398.79,
+      "windows": [
+        [
+          357.18,
+          755.97
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 22",
+      "sourceTitle": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles",
+      "part": "part1",
+      "title": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 1)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "旅行",
+        "生活英语"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 1).trimmed.mp4",
+      "audioFile": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 1).trimmed.m4a",
+      "coverFile": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 1).jpg",
+      "polishedFile": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 1).polished.json",
+      "durationSec": 415.53,
+      "windows": [
+        [
+          0.0,
+          415.53
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 22",
+      "sourceTitle": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles",
+      "part": "part2",
+      "title": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 2)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "旅行",
+        "生活英语"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 2).trimmed.mp4",
+      "audioFile": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 2).trimmed.m4a",
+      "coverFile": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 2).jpg",
+      "polishedFile": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 2).polished.json",
+      "durationSec": 348.77,
+      "windows": [
+        [
+          415.07,
+          763.842
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 13",
+      "sourceTitle": "Essential English for Skiing",
+      "part": "part1",
+      "title": "Essential English for Skiing (Part 1)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "购物",
+        "旅行",
+        "生活英语"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Essential English for Skiing (Part 1).trimmed.mp4",
+      "audioFile": "Essential English for Skiing (Part 1).trimmed.m4a",
+      "coverFile": "Essential English for Skiing (Part 1).jpg",
+      "polishedFile": "Essential English for Skiing (Part 1).polished.json",
+      "durationSec": 496.35,
+      "windows": [
+        [
+          0.0,
+          496.35
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 13",
+      "sourceTitle": "Essential English for Skiing",
+      "part": "part2",
+      "title": "Essential English for Skiing (Part 2)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "购物",
+        "旅行",
+        "生活英语"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Essential English for Skiing (Part 2).trimmed.mp4",
+      "audioFile": "Essential English for Skiing (Part 2).trimmed.m4a",
+      "coverFile": "Essential English for Skiing (Part 2).jpg",
+      "polishedFile": "Essential English for Skiing (Part 2).polished.json",
+      "durationSec": 242.34,
+      "windows": [
+        [
+          498.27,
+          740.61
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 02",
+      "sourceTitle": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food!",
+      "part": "part1",
+      "title": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 1)",
+      "speaker": "Michelle Choi",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "旅行"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 1).trimmed.mp4",
+      "audioFile": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 1).trimmed.m4a",
+      "coverFile": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 1).jpg",
+      "polishedFile": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 1).polished.json",
+      "durationSec": 334.24,
+      "windows": [
+        [
+          0.0,
+          334.24
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 02",
+      "sourceTitle": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food!",
+      "part": "part2",
+      "title": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 2)",
+      "speaker": "Michelle Choi",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "旅行"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 2).trimmed.mp4",
+      "audioFile": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 2).trimmed.m4a",
+      "coverFile": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 2).jpg",
+      "polishedFile": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 2).polished.json",
+      "durationSec": 326.38,
+      "windows": [
+        [
+          358.79,
+          685.17
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 24",
+      "sourceTitle": "Alone but Not Lonely - ep. 1",
+      "part": "part1",
+      "title": "Alone but Not Lonely - ep. 1 (Part 1)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "生活英语",
+        "日常对话"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "Alone but Not Lonely - ep. 1 (Part 1).trimmed.mp4",
+      "audioFile": "Alone but Not Lonely - ep. 1 (Part 1).trimmed.m4a",
+      "coverFile": "Alone but Not Lonely - ep. 1 (Part 1).jpg",
+      "polishedFile": "Alone but Not Lonely - ep. 1 (Part 1).polished.json",
+      "durationSec": 409.2,
+      "windows": [
+        [
+          0.0,
+          409.2
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 24",
+      "sourceTitle": "Alone but Not Lonely - ep. 1",
+      "part": "part2",
+      "title": "Alone but Not Lonely - ep. 1 (Part 2)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "生活英语",
+        "日常对话"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "Alone but Not Lonely - ep. 1 (Part 2).trimmed.mp4",
+      "audioFile": "Alone but Not Lonely - ep. 1 (Part 2).trimmed.m4a",
+      "coverFile": "Alone but Not Lonely - ep. 1 (Part 2).jpg",
+      "polishedFile": "Alone but Not Lonely - ep. 1 (Part 2).polished.json",
+      "durationSec": 319.31,
+      "windows": [
+        [
+          422.31,
+          741.621
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 12",
+      "sourceTitle": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock)",
+      "part": "part1",
+      "title": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 1)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 2,
+      "tags": [
+        "生活英语",
+        "日常对话"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 1).trimmed.mp4",
+      "audioFile": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 1).trimmed.m4a",
+      "coverFile": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 1).jpg",
+      "polishedFile": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 1).polished.json",
+      "durationSec": 288.48,
+      "windows": [
+        [
+          12.81,
+          301.29
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 12",
+      "sourceTitle": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock)",
+      "part": "part2",
+      "title": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 2)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 2,
+      "tags": [
+        "生活英语",
+        "日常对话"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 2).trimmed.mp4",
+      "audioFile": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 2).trimmed.m4a",
+      "coverFile": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 2).jpg",
+      "polishedFile": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 2).polished.json",
+      "durationSec": 410.04,
+      "windows": [
+        [
+          311.01,
+          721.05
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 03",
+      "sourceTitle": "Celeste Headlee： 10 ways to have a better conversation ｜ TED",
+      "part": "part1",
+      "title": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 1)",
+      "speaker": "Celeste Headlee · TED",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "个人成长",
+        "日常对话"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 1).trimmed.mp4",
+      "audioFile": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 1).trimmed.m4a",
+      "coverFile": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 1).jpg",
+      "polishedFile": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 1).polished.json",
+      "durationSec": 494.1,
+      "windows": [
+        [
+          12.58,
+          506.68
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 03",
+      "sourceTitle": "Celeste Headlee： 10 ways to have a better conversation ｜ TED",
+      "part": "part2",
+      "title": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 2)",
+      "speaker": "Celeste Headlee · TED",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "个人成长",
+        "日常对话"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 2).trimmed.mp4",
+      "audioFile": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 2).trimmed.m4a",
+      "coverFile": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 2).jpg",
+      "polishedFile": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 2).polished.json",
+      "durationSec": 177.14,
+      "windows": [
+        [
+          508.31,
+          685.45
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 07",
+      "sourceTitle": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+      "part": "part1",
+      "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 1)",
+      "speaker": "Chris Fenning · TED",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "个人成长",
+        "日常对话"
+      ],
+      "sceneBadge": "个人成长",
+      "videoFile": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 1).trimmed.mp4",
+      "audioFile": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 1).trimmed.m4a",
+      "coverFile": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 1).jpg",
+      "polishedFile": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 1).polished.json",
+      "durationSec": 350.16,
+      "windows": [
+        [
+          4.01,
+          354.17
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 07",
+      "sourceTitle": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+      "part": "part2",
+      "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 2)",
+      "speaker": "Chris Fenning · TED",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "个人成长",
+        "日常对话"
+      ],
+      "sceneBadge": "个人成长",
+      "videoFile": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 2).trimmed.mp4",
+      "audioFile": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 2).trimmed.m4a",
+      "coverFile": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 2).jpg",
+      "polishedFile": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 2).polished.json",
+      "durationSec": 308.9,
+      "windows": [
+        [
+          355.19,
+          664.09
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 25",
+      "sourceTitle": "alone in new york (but not lonely)",
+      "part": "part1",
+      "title": "alone in new york (but not lonely) (Part 1)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "生活英语",
+        "日常对话"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "alone in new york (but not lonely) (Part 1).trimmed.mp4",
+      "audioFile": "alone in new york (but not lonely) (Part 1).trimmed.m4a",
+      "coverFile": "alone in new york (but not lonely) (Part 1).jpg",
+      "polishedFile": "alone in new york (but not lonely) (Part 1).polished.json",
+      "durationSec": 282.04,
+      "windows": [
+        [
+          0.0,
+          282.04
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 25",
+      "sourceTitle": "alone in new york (but not lonely)",
+      "part": "part2",
+      "title": "alone in new york (but not lonely) (Part 2)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "生活英语",
+        "日常对话"
+      ],
+      "sceneBadge": "生活英语",
+      "videoFile": "alone in new york (but not lonely) (Part 2).trimmed.mp4",
+      "audioFile": "alone in new york (but not lonely) (Part 2).trimmed.m4a",
+      "coverFile": "alone in new york (but not lonely) (Part 2).jpg",
+      "polishedFile": "alone in new york (but not lonely) (Part 2).polished.json",
+      "durationSec": 321.7,
+      "windows": [
+        [
+          290.47,
+          612.17
         ]
       ]
     }

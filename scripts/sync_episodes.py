@@ -1041,7 +1041,7 @@ def scan_episodes(media_base_url: str):
             dur = probe_audio_duration(a_file) or float(entry.get("durationSec") or 0)
             exact_dur = round(float(dur), 2)
             dur_sec = int(round(exact_dur))
-            skips = build_skip_ranges(raw_sents, max(exact_dur, float(dur_sec)), [])
+            skips = build_skip_ranges(raw_sents, max(exact_dur, float(dur_sec)), entry.get("internalSkips") or [])
             rel_prefix = media_base_url.rstrip("/") if media_base_url else "./content/episodes"
             sub_path = f"{rel_prefix}/trimmed"
             slug = re.sub(r"[^a-zA-Z0-9_-]+", "-", entry["title"]).strip("-")[:32] or f"trimmed-{counter}"
