@@ -1,8 +1,5140 @@
 // 本文件由 scripts/sync_episodes.py 自动生成，请勿手工修改
 export const LOCAL_EPISODES = [
   {
-    "id": "local-71-trimmed-71-part2",
+    "id": "local-76-trimmed-76-micro9",
+    "number": "EP 76",
+    "title": "甜品柜台点单：问招牌、点焦糖布蕾与无现金刷卡",
+    "speaker": "Speak English With Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 105,
+    "durationLabel": "01:45",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverImage": "./content/episodes/trimmed/%E7%94%9C%E5%93%81%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A%E9%97%AE%E6%8B%9B%E7%89%8C%E3%80%81%E7%82%B9%E7%84%A6%E7%B3%96%E5%B8%83%E8%95%BE%E4%B8%8E%E6%97%A0%E7%8E%B0%E9%87%91%E5%88%B7%E5%8D%A1.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E7%94%9C%E5%93%81%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A%E9%97%AE%E6%8B%9B%E7%89%8C%E3%80%81%E7%82%B9%E7%84%A6%E7%B3%96%E5%B8%83%E8%95%BE%E4%B8%8E%E6%97%A0%E7%8E%B0%E9%87%91%E5%88%B7%E5%8D%A1.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E7%94%9C%E5%93%81%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A%E9%97%AE%E6%8B%9B%E7%89%8C%E3%80%81%E7%82%B9%E7%84%A6%E7%B3%96%E5%B8%83%E8%95%BE%E4%B8%8E%E6%97%A0%E7%8E%B0%E9%87%91%E5%88%B7%E5%8D%A1.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [
+      [
+        100.47,
+        101.28
+      ],
+      [
+        104.38,
+        105.0
+      ]
+    ],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 6.04,
+        "speaker": "Speaker",
+        "en": "Um what was the most popular thing that people bought when you were working here?",
+        "ipa": "/ʌm wʌt wʌz ðə moʊst ˈpɑpjələr θɪŋ ðæt ˈpipəl bɑt wɛn ju wɜr ˈwɜrkɪŋ hɪr?/",
+        "zh": "嗯，你在这里工作的时候，人们买得最多的东西是什么？",
+        "highlights": [
+          {
+            "text": "most popular",
+            "key": "最受欢迎的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 6.08,
+        "end": 9.24,
+        "speaker": "Speaker",
+        "en": "Or the most Yeah, common thing.",
+        "ipa": "/ɔr ðə moʊst jæ, ˈkɑmən θɪŋ./",
+        "zh": "或者最对，最常见的东西。",
+        "highlights": [
+          {
+            "text": "common thing",
+            "key": "常见的东西",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 9.28,
+        "end": 11.32,
+        "speaker": "Speaker",
+        "en": "Honestly, probably a chocolate chip cookie.",
+        "ipa": "/ˈɑnəstli, ˈprɑbəbli ə ˈtʃɑklət tʃɪp ˈkʊki./",
+        "zh": "老实说，大概是巧克力豆曲奇。",
+        "highlights": [
+          {
+            "text": "Honestly",
+            "key": "老实说",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 11.36,
+        "end": 12.2,
+        "speaker": "Speaker",
+        "en": "Yeah.",
+        "ipa": "/jæ./",
+        "zh": "是啊。",
+        "highlights": []
+      },
+      {
+        "id": 5,
+        "start": 12.24,
+        "end": 14.88,
+        "speaker": "Speaker",
+        "en": "Yeah, that and there's liquid chocolate.",
+        "ipa": "/jæ, ðæt ænd ðɛrz ˈlɪkwəd ˈtʃɑklət./",
+        "zh": "对，还有那个液态巧克力。",
+        "highlights": [
+          {
+            "text": "liquid chocolate",
+            "key": "液态巧克力",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 14.92,
+        "end": 15.56,
+        "speaker": "Speaker",
+        "en": "Oh, yeah.",
+        "ipa": "/oʊ, jæ./",
+        "zh": "哦，对。",
+        "highlights": []
+      },
+      {
+        "id": 7,
+        "start": 15.6,
+        "end": 16.56,
+        "speaker": "Speaker",
+        "en": "Hot chocolate.",
+        "ipa": "/hɑt ˈtʃɑklət./",
+        "zh": "热巧克力。",
+        "highlights": [
+          {
+            "text": "Hot chocolate",
+            "key": "热巧克力",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 16.6,
+        "end": 17.68,
+        "speaker": "Speaker",
+        "en": "Yeah.",
+        "ipa": "/jæ./",
+        "zh": "没错。",
+        "highlights": []
+      },
+      {
+        "id": 9,
+        "start": 17.72,
+        "end": 18.8,
+        "speaker": "Speaker",
+        "en": "It's not just hot chocolate.",
+        "ipa": "/ɪts nɑt ʤʌst hɑt ˈtʃɑklət./",
+        "zh": "它不仅仅是热巧克力。",
+        "highlights": [
+          {
+            "text": "chocolate",
+            "key": "chocolate",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 18.84,
+        "end": 21.63,
+        "speaker": "Speaker",
+        "en": "Like, it doesn't have water or milk in it.",
+        "ipa": "/laɪk, ɪt ˈdʌzənt hæv ˈwɔtər ɔr mɪlk ɪn ɪt./",
+        "zh": "就是说，里面没有加水或牛奶。",
+        "highlights": [
+          {
+            "text": "doesn't have",
+            "key": "没有",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 21.67,
+        "end": 27.05,
+        "speaker": "Speaker",
+        "en": "It's literally just like a melted chocolate bar that you can drink.",
+        "ipa": "/ɪts ˈlɪtərəli ʤʌst laɪk ə ˈmɛltəd ˈtʃɑklət bɑr ðæt ju kæn drɪŋk./",
+        "zh": "它简直就像是可以喝的融化巧克力棒。",
+        "highlights": [
+          {
+            "text": "literally",
+            "key": "简直/确实",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 27.09,
+        "end": 27.88,
+        "speaker": "Speaker",
+        "en": "So good.",
+        "ipa": "/soʊ gʊd./",
+        "zh": "太好喝了。",
+        "highlights": []
+      },
+      {
+        "id": 13,
+        "start": 27.92,
+        "end": 30.38,
+        "speaker": "Speaker",
+        "en": "So decadent and dangerous.",
+        "ipa": "/soʊ ˈdɛkədənt ænd ˈdeɪnʤərəs./",
+        "zh": "太浓郁、太让人上瘾了。",
+        "highlights": [
+          {
+            "text": "decadent",
+            "key": "（食物）极其美味/浓郁的",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 30.42,
+        "end": 32.68,
+        "speaker": "Speaker",
+        "en": "Like you can't have that too much.",
+        "ipa": "/laɪk ju kænt hæv ðæt tu mʌtʃ./",
+        "zh": "就是说你不能喝太多。",
+        "highlights": [
+          {
+            "text": "can't have that too much",
+            "key": "不能喝太多",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 32.72,
+        "end": 35.6,
+        "speaker": "Speaker",
+        "en": "Uh when you worked here, did you eat that a lot?",
+        "ipa": "/ʌ wɛn ju wɜrkt hɪr, dɪd ju it ðæt ə lɑt?/",
+        "zh": "呃，你在这里工作的时候，经常吃那个吗？",
+        "highlights": [
+          {
+            "text": "eat that a lot",
+            "key": "经常吃那个",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 35.64,
+        "end": 37.28,
+        "speaker": "Speaker",
+        "en": "Like did you try little things a lot?",
+        "ipa": "/laɪk dɪd ju traɪ ˈlɪtəl θɪŋz ə lɑt?/",
+        "zh": "就是说你经常试吃各种小东西吗？",
+        "highlights": [
+          {
+            "text": "try",
+            "key": "尝试/试吃",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 37.32,
+        "end": 39.84,
+        "speaker": "Speaker",
+        "en": "Oh yeah, ice cream actually is mainly what got me.",
+        "ipa": "/oʊ jæ, aɪs krim ˈækʃəli ɪz ˈmeɪnli wʌt gɑt mi./",
+        "zh": "哦，是的，其实冰淇淋才是让我最着迷的。",
+        "highlights": [
+          {
+            "text": "what got me",
+            "key": "让我着迷的东西",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 39.88,
+        "end": 40.47,
+        "speaker": "Speaker",
+        "en": "Oh yeah?",
+        "ipa": "/oʊ jæ?/",
+        "zh": "哦，是吗？",
+        "highlights": []
+      },
+      {
+        "id": 19,
+        "start": 40.51,
+        "end": 43.69,
+        "speaker": "Speaker",
+        "en": "Yeah, I'm going to get the chocolate creme brulee, please.",
+        "ipa": "/jæ, aɪm ˈgoʊɪŋ tu gɛt ðə ˈtʃɑklət krɛm bruˈleɪ, pliz./",
+        "zh": "是的，我要一份巧克力焦糖布丁，谢谢。",
+        "highlights": [
+          {
+            "text": "creme brulee",
+            "key": "焦糖布丁",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 43.73,
+        "end": 45.4,
+        "speaker": "Speaker",
+        "en": "And that's all.",
+        "ipa": "/ænd ðæts ɔl/",
+        "zh": "就这样啦。",
+        "highlights": [
+          {
+            "text": "that's all",
+            "key": "that's all",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 45.44,
+        "end": 47.6,
+        "speaker": "Speaker",
+        "en": "For here, please.",
+        "ipa": "/fɔr hɪr pliz/",
+        "zh": "在这里吃，谢谢。",
+        "highlights": [
+          {
+            "text": "For here",
+            "key": "for here",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "start": 47.64,
+        "end": 48.32,
+        "speaker": "Speaker",
+        "en": "All right.",
+        "ipa": "/ɔl raɪt/",
+        "zh": "好的。",
+        "highlights": [
+          {
+            "text": "All right",
+            "key": "all right",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "start": 48.36,
+        "end": 50.92,
+        "speaker": "Speaker",
+        "en": "So, I'm going to buy this with my card.",
+        "ipa": "/soʊ aɪm ˈɡuɪŋ tu baɪ ðɪs wɪð maɪ kɑrd/",
+        "zh": "所以，我打算用卡来付这个。",
+        "highlights": [
+          {
+            "text": "going to",
+            "key": "going to",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "start": 50.96,
+        "end": 53.84,
+        "speaker": "Speaker",
+        "en": "And there's a little touch pad here.",
+        "ipa": "/ænd ðɛrz ə ˈlɪtəl tʌtʃ pæd hɪr/",
+        "zh": "这里有一个小触控板。",
+        "highlights": [
+          {
+            "text": "touch pad",
+            "key": "touch pad",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "start": 53.88,
+        "end": 56.36,
+        "speaker": "Speaker",
+        "en": "And that's basically all I have to do.",
+        "ipa": "/ænd ðæts ˈbeɪsɪkli ɔl aɪ hæv tu du/",
+        "zh": "基本上我只需要做这些。",
+        "highlights": [
+          {
+            "text": "basically",
+            "key": "basically",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "start": 56.4,
+        "end": 57.04,
+        "speaker": "Speaker",
+        "en": "It's so simple.",
+        "ipa": "/ɪts soʊ ˈsɪmpəl/",
+        "zh": "太简单了。",
+        "highlights": [
+          {
+            "text": "simple",
+            "key": "simple",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "start": 57.08,
+        "end": 60.49,
+        "speaker": "Speaker",
+        "en": "Just touch it and the creme brulee is mine.",
+        "ipa": "/dʒʌst tʌtʃ ɪt ænd ðə krɛm bruˈleɪ ɪz maɪn/",
+        "zh": "碰一下，焦糖布蕾就是我的了。",
+        "highlights": [
+          {
+            "text": "creme brulee",
+            "key": "creme brulee",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "start": 60.53,
+        "end": 61.68,
+        "speaker": "Speaker",
+        "en": "And yours.",
+        "ipa": "/ænd jʊrz/",
+        "zh": "也是你的。",
+        "highlights": [
+          {
+            "text": "yours",
+            "key": "yours",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "start": 61.72,
+        "end": 67.26,
+        "speaker": "Speaker",
+        "en": "Um you can also tip, but you also have the option to tip with your card at the same time.",
+        "ipa": "/ʌm ju kæn ˈɔlsoʊ tɪp bʌt ju ˈɔlsoʊ hæv ði ˈɑpʃən tu tɪp wɪð jʊər kɑrd æt ðə seɪm taɪm/",
+        "zh": "嗯，你也可以给小费，不过你同时也可以选择用卡付小费。",
+        "highlights": [
+          {
+            "text": "at the same time",
+            "key": "at the same time",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "start": 67.3,
+        "end": 69.16,
+        "speaker": "Speaker",
+        "en": "You don't have to tip with cash.",
+        "ipa": "/ju doʊnt hæv tu tɪp wɪð kæʃ/",
+        "zh": "你不一定非得给现金小费。",
+        "highlights": [
+          {
+            "text": "don't have to",
+            "key": "don't have to",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "start": 69.2,
+        "end": 72.52,
+        "speaker": "Speaker",
+        "en": "But if you have cash, they say cash is king.",
+        "ipa": "/bʌt ɪf ju hæv kæʃ ðeɪ seɪ kæʃ ɪz kɪŋ/",
+        "zh": "不过如果你有现金的话，俗话说现金为王。",
+        "highlights": [
+          {
+            "text": "cash is king",
+            "key": "cash is king",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "start": 72.56,
+        "end": 78.46,
+        "speaker": "Speaker",
+        "en": "It's very appreciated to give a cash tip, but you can tip with your card, too.",
+        "ipa": "/ɪts ˈvɛri əˈpriʃieɪtɪd tu ɡɪv ə kæʃ tɪp bʌt ju kæn tɪp wɪð jʊər kɑrd tu/",
+        "zh": "给现金小费很受欢迎，但你也可以用卡付小费。",
+        "highlights": [
+          {
+            "text": "appreciated",
+            "key": "appreciated",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "start": 78.5,
+        "end": 85.24,
+        "speaker": "Speaker",
+        "en": "Which is what I'm going to do because I don't have any cash.",
+        "ipa": "/wɪtʃ ɪz wʌt aɪm ˈɡuɪŋ tu du bɪˈkʌz aɪ doʊnt hæv ˈɛni kæʃ/",
+        "zh": "这就是我打算做的，因为我身上没有任何现金。",
+        "highlights": [
+          {
+            "text": "going to",
+            "key": "going to",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "start": 85.28,
+        "end": 87.64,
+        "speaker": "Speaker",
+        "en": "Here it comes.",
+        "ipa": "/hɪr ɪt kʌmz/",
+        "zh": "来啦。",
+        "highlights": [
+          {
+            "text": "Here it comes",
+            "key": "here it comes",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "start": 87.68,
+        "end": 92.88,
+        "speaker": "Speaker",
+        "en": "Thank you.",
+        "ipa": "/θæŋk ju/",
+        "zh": "谢谢你。",
+        "highlights": [
+          {
+            "text": "Thank you",
+            "key": "thank you",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "start": 92.92,
+        "end": 100.47,
+        "speaker": "Speaker",
+        "en": "Let's go sit in the window.",
+        "ipa": "/lɛts ɡoʊ sɪt ɪn ðə ˈwɪndoʊ/",
+        "zh": "我们去窗户边的座位坐吧。",
+        "highlights": [
+          {
+            "text": "Let's go",
+            "key": "let's go",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "start": 101.28,
+        "end": 101.57,
+        "speaker": "Speaker",
+        "en": "Okay.",
+        "ipa": "/oʊˈkeɪ/",
+        "zh": "好啊。",
+        "highlights": [
+          {
+            "text": "Okay",
+            "key": "okay",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "start": 101.61,
+        "end": 104.38,
+        "speaker": "Speaker",
+        "en": "So, here we have our chocolate creme brulee.",
+        "ipa": "/soʊ hɪr wi hæv ˈaʊər ˈtʃɑklət krɛm bruˈleɪ/",
+        "zh": "那么，这就是我们的巧克力焦糖布蕾。",
+        "highlights": [
+          {
+            "text": "chocolate",
+            "key": "chocolate",
+            "chip": "orange"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-75-trimmed-75-micro8",
+    "number": "EP 75",
+    "title": "手工松露巧克力店：挑礼盒与甜品店趣事",
+    "speaker": "Speak English With Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 119,
+    "durationLabel": "01:59",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverImage": "./content/episodes/trimmed/%E6%89%8B%E5%B7%A5%E6%9D%BE%E9%9C%B2%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%BA%97%EF%BC%9A%E6%8C%91%E7%A4%BC%E7%9B%92%E4%B8%8E%E7%94%9C%E5%93%81%E5%BA%97%E8%B6%A3%E4%BA%8B.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E6%89%8B%E5%B7%A5%E6%9D%BE%E9%9C%B2%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%BA%97%EF%BC%9A%E6%8C%91%E7%A4%BC%E7%9B%92%E4%B8%8E%E7%94%9C%E5%93%81%E5%BA%97%E8%B6%A3%E4%BA%8B.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E6%89%8B%E5%B7%A5%E6%9D%BE%E9%9C%B2%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%BA%97%EF%BC%9A%E6%8C%91%E7%A4%BC%E7%9B%92%E4%B8%8E%E7%94%9C%E5%93%81%E5%BA%97%E8%B6%A3%E4%BA%8B.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 14.36,
+        "speaker": "Speaker",
+        "en": "Um lots of They have ice cream, they have little truffles, they have hot chocolate, they have so many different chocolate things, and I think it's not too busy right now, so I guess we should go.",
+        "ipa": "/ʌm lɑts ʌv ðeɪ hæv aɪs krim, ðeɪ hæv ˈlɪtəl ˈtrʌfəlz, ðeɪ hæv hɑt ˈtʃɑklət, ðeɪ hæv soʊ ˈmɛni ˈdɪfərənt ˈtʃɑklət θɪŋz, ənd aɪ θɪŋk ɪts nɑt tu ˈbɪzi raɪt naʊ, soʊ aɪ gɛs wi ʃʊd goʊ./",
+        "zh": "嗯，有好多他们有冰淇淋、有小松露巧克力、有热巧克力，有各种各样不同的巧克力制品，还有我觉得现在人不是太多，所以我想我们应该进去吧。",
+        "highlights": [
+          {
+            "text": "ice cream",
+            "key": "ice cream",
+            "chip": "orange"
+          },
+          {
+            "text": "hot chocolate",
+            "key": "hot chocolate",
+            "chip": "orange"
+          },
+          {
+            "text": "right now",
+            "key": "right now",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 14.4,
+        "end": 16.96,
+        "speaker": "Speaker",
+        "en": "All right, let's go in.",
+        "ipa": "/ɔl raɪt, lɛts goʊ ɪn./",
+        "zh": "好吧，我们进去吧。",
+        "highlights": [
+          {
+            "text": "go in",
+            "key": "go in",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 17.0,
+        "end": 19.08,
+        "speaker": "Speaker",
+        "en": "Thank you.",
+        "ipa": "/ˈθæŋk ju./",
+        "zh": "谢谢。",
+        "highlights": [
+          {
+            "text": "Thank you",
+            "key": "thank you",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 19.12,
+        "end": 22.7,
+        "speaker": "Speaker",
+        "en": "So, the one thing is when you get farm to table food, it is expensive.",
+        "ipa": "/soʊ, ðə wʌn θɪŋ ɪz wɛn ju gɛt fɑrm tə ˈteɪbəl fud, ɪt ɪz ɪkˈspɛnsɪv./",
+        "zh": "所以，有一点是，当你购买“从农场到餐桌”的食物时，它是很贵的。",
+        "highlights": [
+          {
+            "text": "farm to table",
+            "key": "farm to table",
+            "chip": "pink"
+          },
+          {
+            "text": "expensive",
+            "key": "expensive",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 22.74,
+        "end": 26.12,
+        "speaker": "Speaker",
+        "en": "So, you have to be willing to shell out some money.",
+        "ipa": "/soʊ, ju hæv tə bi ˈwɪlɪŋ tə ʃɛl aʊt sʌm ˈmʌni./",
+        "zh": "因此，你得做好掏大钱的心理准备。",
+        "highlights": [
+          {
+            "text": "shell out",
+            "key": "shell out",
+            "chip": "pink"
+          },
+          {
+            "text": "be willing to",
+            "key": "be willing to",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 26.16,
+        "end": 30.96,
+        "speaker": "Speaker",
+        "en": "Uh for example, let's take a look.",
+        "ipa": "/ʌ fər ɪgˈzæmpəl, lɛts teɪk ə lʊk./",
+        "zh": "呃，比如，我们来看一看。",
+        "highlights": [
+          {
+            "text": "take a look",
+            "key": "take a look",
+            "chip": "pink"
+          },
+          {
+            "text": "for example",
+            "key": "for example",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 31.0,
+        "end": 39.9,
+        "speaker": "Speaker",
+        "en": "This is a box of truffles or bonbons, and it's these in here.",
+        "ipa": "/ðɪs ɪz ə bɑks əv ˈtrʌfəlz ɔr ˈbɑnbɑnz, ænd ɪts ðiz ɪn hɪr./",
+        "zh": "这是一盒松露巧克力或夹心巧克力，里面装的就是这些。",
+        "highlights": [
+          {
+            "text": "truffles",
+            "key": "松露巧克力",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 39.94,
+        "end": 49.48,
+        "speaker": "Speaker",
+        "en": "You can get six, and this costs $20 for six of these.",
+        "ipa": "/ju kæn gɛt sɪks, ænd ðɪs kɑsts ˈtwɛnti dɑlərz fɔr sɪks əv ðiz./",
+        "zh": "你可以买六个，六个装的价格是20美元。",
+        "highlights": [
+          {
+            "text": "costs",
+            "key": "花费/价格为",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 49.52,
+        "end": 50.47,
+        "speaker": "Speaker",
+        "en": "But, you know what?",
+        "ipa": "/bʌt, ju noʊ wʌt?/",
+        "zh": "但是，你知道吗？",
+        "highlights": [
+          {
+            "text": "you know what",
+            "key": "你知道吗（引出话题）",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 50.51,
+        "end": 58.04,
+        "speaker": "Speaker",
+        "en": "I always buy these for people as a gift because everyone, at least everyone in Asheville, knows this is really special chocolate.",
+        "ipa": "/aɪ ˈɔlˌweɪz baɪ ðiz fɔr ˈpipəl æz ə gɪft bɪˈkəz ˈɛvriˌwʌn, æt list ˈɛvriˌwʌn ɪn ˈæʃˌvɪl, noʊz ðɪs ɪz ˈrɪli ˈspɛʃəl ˈtʃɑklət./",
+        "zh": "我总是买这些送人当礼物，因为每个人，至少在阿什维尔的每个人，都知道这是非常特别的巧克力。",
+        "highlights": [
+          {
+            "text": "as a gift",
+            "key": "作为礼物",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 58.08,
+        "end": 68.62,
+        "speaker": "Speaker",
+        "en": "So, it feels worthwhile to spend a lot of money on something that's Asheville-crafted, very special, and um yeah, it's a really good gift.",
+        "ipa": "/soʊ, ɪt filz ˈwɜrθˌwaɪl tu spɛnd ə lɑt əv ˈmʌni ɑn ˈsʌmθɪŋ ðæts ˈæʃˌvɪl-kræftəd, ˈvɛri ˈspɛʃəl, ænd ʌm jæ, ɪts ə ˈrɪli gʊd gɪft./",
+        "zh": "所以，花很多钱买一些阿什维尔手工制作的、非常特别的东西，感觉很值得。嗯，没错，这确实是个很好的礼物。",
+        "highlights": [
+          {
+            "text": "worthwhile",
+            "key": "值得的",
+            "chip": "orange"
+          },
+          {
+            "text": "really good",
+            "key": "非常好的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 68.66,
+        "end": 75.32,
+        "speaker": "Speaker",
+        "en": "So, I just bought these actually earlier today at their other location as a gift for some people.",
+        "ipa": "/soʊ, aɪ ʤʌst bɑt ðiz ˈækʃəli ˈɜrliər təˈdeɪ æt ðɛr ˈʌðər loʊˈkeɪʃən æz ə gɪft fɔr sʌm ˈpipəl./",
+        "zh": "其实我今天早些时候刚在他们的另一家分店买了这些，打算送人。",
+        "highlights": [
+          {
+            "text": "earlier today",
+            "key": "今天早些时候",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 75.36,
+        "end": 76.82,
+        "speaker": "Speaker",
+        "en": "But, I'm not going to buy anything to go.",
+        "ipa": "/bʌt, aɪm nɑt ˈgoʊɪŋ tu baɪ ˈɛniˌθɪŋ tu goʊ./",
+        "zh": "不过，我这次不打算买外带的东西。",
+        "highlights": [
+          {
+            "text": "to go",
+            "key": "外带",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 76.86,
+        "end": 85.6,
+        "speaker": "Speaker",
+        "en": "Let's go to their front and order something good.",
+        "ipa": "/lɛts goʊ tu ðɛr frʌnt ænd ˈɔrdər ˈsʌmθɪŋ gʊd./",
+        "zh": "我们去前台点些好吃的吧。",
+        "highlights": [
+          {
+            "text": "order",
+            "key": "点餐",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 85.64,
+        "end": 90.68,
+        "speaker": "Speaker",
+        "en": "When Dan used to work here, I used to come here and plan videos for you.",
+        "ipa": "/wɛn dæn juzd tu wɜrk hɪr, aɪ juzd tu kʌm hɪr ænd plæn ˈvɪdioʊz fɔr ju./",
+        "zh": "丹以前在这里工作的时候，我常来这里为你策划视频。",
+        "highlights": [
+          {
+            "text": "used to",
+            "key": "过去常常",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 90.72,
+        "end": 99.48,
+        "speaker": "Speaker",
+        "en": "I would sit in the corner with my laptop, and it was the best job ever for me because all of the staff knew that I was Dan's wife.",
+        "ipa": "/aɪ wʊd sɪt ɪn ðə ˈkɔrnər wɪð maɪ ˈlæpˌtɑp, ænd ɪt wʌz ðə bɛst ʤɑb ˈɛvər fɔr mi bɪˈkəz ɔl əv ðə stæf noʊ ðæt aɪ wʌz dænz waɪf./",
+        "zh": "我会带着笔记本电脑坐在角落里，那对我来说是最好的工作，因为所有的员工都知道我是丹的妻子。",
+        "highlights": [
+          {
+            "text": "best job ever",
+            "key": "有史以来最好的工作",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 99.52,
+        "end": 101.55,
+        "speaker": "Speaker",
+        "en": "I wasn't just like a regular customer.",
+        "ipa": "/aɪ ˈwʌzənt ʤʌst laɪk ə ˈrɛgjələr ˈkʌstəmər./",
+        "zh": "我不仅仅是个普通顾客。",
+        "highlights": [
+          {
+            "text": "regular customer",
+            "key": "普通顾客",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 101.59,
+        "end": 107.6,
+        "speaker": "Speaker",
+        "en": "So, if something broke, like a piece of cake broke and they couldn't sell it, they'd go, \"Vanessa, do you want this?\"",
+        "ipa": "/soʊ, ɪf ˈsʌmθɪŋ broʊk, laɪk ə pis əv keɪk broʊk ænd ðeɪ ˈkʊdənt sɛl ɪt, ðeɪd goʊ, \"vəˈnɛsə, du ju wɑnt ðɪs?\"/",
+        "zh": "所以，如果有什么东西弄坏了，比如一块蛋糕碎了，他们没法卖了，他们就会说：“凡妮莎，你想要这个吗？”",
+        "highlights": [
+          {
+            "text": "do you want this",
+            "key": "你想要这个吗",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "start": 107.64,
+        "end": 113.44,
+        "speaker": "Speaker",
+        "en": "Or if they had something new that they wanted to test out on someone, I would get to try it.",
+        "ipa": "/ɔr ɪf ðeɪ hæd ˈsʌmθɪŋ nu ðæt ðeɪ ˈwɑntəd tu tɛst aʊt ɑn ˈsʌmˌwʌn, aɪ wʊd gɛt tu traɪ ɪt./",
+        "zh": "或者如果他们有什么想找人试吃的新品，我总能尝到。",
+        "highlights": [
+          {
+            "text": "test out",
+            "key": "测试/试用",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 113.48,
+        "end": 114.67,
+        "speaker": "Speaker",
+        "en": "It was the best.",
+        "ipa": "/ɪt wʌz ðə bɛst./",
+        "zh": "那真是太棒了。",
+        "highlights": [
+          {
+            "text": "the best",
+            "key": "最棒的",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 114.71,
+        "end": 118.92,
+        "speaker": "Speaker",
+        "en": "It's the best job that Dan has ever had for me.",
+        "ipa": "/ɪts ðə bɛst ʤɑb ðæt dæn hæz ˈɛvər hæd fɔr mi./",
+        "zh": "这是丹为我找过的最好的工作。",
+        "highlights": [
+          {
+            "text": "ever had",
+            "key": "曾经有过",
+            "chip": "indigo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-74-trimmed-74-micro7",
+    "number": "EP 74",
+    "title": "小镇伴手礼店：风铃、明信片与焦糖爆米花",
+    "speaker": "Speak English With Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 71,
+    "durationLabel": "01:11",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverImage": "./content/episodes/trimmed/%E5%B0%8F%E9%95%87%E4%BC%B4%E6%89%8B%E7%A4%BC%E5%BA%97%EF%BC%9A%E9%A3%8E%E9%93%83%E3%80%81%E6%98%8E%E4%BF%A1%E7%89%87%E4%B8%8E%E7%84%A6%E7%B3%96%E7%88%86%E7%B1%B3%E8%8A%B1.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E5%B0%8F%E9%95%87%E4%BC%B4%E6%89%8B%E7%A4%BC%E5%BA%97%EF%BC%9A%E9%A3%8E%E9%93%83%E3%80%81%E6%98%8E%E4%BF%A1%E7%89%87%E4%B8%8E%E7%84%A6%E7%B3%96%E7%88%86%E7%B1%B3%E8%8A%B1.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E5%B0%8F%E9%95%87%E4%BC%B4%E6%89%8B%E7%A4%BC%E5%BA%97%EF%BC%9A%E9%A3%8E%E9%93%83%E3%80%81%E6%98%8E%E4%BF%A1%E7%89%87%E4%B8%8E%E7%84%A6%E7%B3%96%E7%88%86%E7%B1%B3%E8%8A%B1.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 3.49,
+        "speaker": "Speaker",
+        "en": "Oh, yeah, do you know what these are called?",
+        "ipa": "/oʊ, jæ, du ju noʊ wʌt ðiːz ɑɹ kɔːld?/",
+        "zh": "哦，对啦，你知道这些叫什么名字吗？",
+        "highlights": [
+          {
+            "text": "do you know",
+            "key": "du ju noʊ",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 3.53,
+        "end": 7.8,
+        "speaker": "Speaker",
+        "en": "Wind chimes, wind chimes.",
+        "ipa": "/wɪnd tʃaɪmz, wɪnd tʃaɪmz./",
+        "zh": "[铃声] 风铃，风铃。",
+        "highlights": [
+          {
+            "text": "Wind chimes",
+            "key": "wɪnd tʃaɪmz",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 7.84,
+        "end": 13.04,
+        "speaker": "Speaker",
+        "en": "We have one of these on our deck and it's so peaceful and nice.",
+        "ipa": "/wi hæv wʌn ʌv ðiːz ɑn aʊɹ dɛk ænd ɪts soʊ ˈpiːs.fəl ænd naɪs./",
+        "zh": "我们的露台挂着一个这个，既宁静又美好。",
+        "highlights": [
+          {
+            "text": "peaceful and nice",
+            "key": "ˈpiːs.fəl ænd naɪs",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 13.08,
+        "end": 18.04,
+        "speaker": "Speaker",
+        "en": "There are t-shirts of every type.",
+        "ipa": "/ðɛɹ ɑɹ ˈtiː.ʃɚts ʌv ˈɛ.vɹi taɪp./",
+        "zh": "这里有各种各样的T恤。",
+        "highlights": [
+          {
+            "text": "every type",
+            "key": "ˈɛ.vɹi taɪp",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 18.08,
+        "end": 21.36,
+        "speaker": "Speaker",
+        "en": "Postcards.",
+        "ipa": "/ˈpoʊstˌkɑːɹdz./",
+        "zh": "明信片。",
+        "highlights": [
+          {
+            "text": "Postcards",
+            "key": "ˈpoʊstˌkɑːɹdz",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 21.4,
+        "end": 22.12,
+        "speaker": "Speaker",
+        "en": "Asheville postcards.",
+        "ipa": "/ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz./",
+        "zh": "阿什维尔明信片。",
+        "highlights": [
+          {
+            "text": "Asheville postcards",
+            "key": "ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 22.16,
+        "end": 25.0,
+        "speaker": "Speaker",
+        "en": "Oh, these are some Asheville postcards I've never seen.",
+        "ipa": "/oʊ, ðiːz ɑɹ sʌm ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz aɪv ˈnɛ.vɚ siːn./",
+        "zh": "哦，这些有些阿什维尔的明信片我以前没见过。",
+        "highlights": [
+          {
+            "text": "never seen",
+            "key": "ˈnɛ.vɚ siːn",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 25.04,
+        "end": 33.24,
+        "speaker": "Speaker",
+        "en": "Sometimes when my students send me postcards, I try to send them a postcard back if I have their address and I try to buy cool Asheville postcards to send to them.",
+        "ipa": "/ˈsʌmˌtaɪmz wɛn maɪ ˈstuː.dənts sɛnd mi ˈpoʊstˌkɑːɹdz, aɪ tɹaɪ tu sɛnd ðɛm ə ˈpoʊstˌkɑːɹd bæk ɪf aɪ hæv ðɛɹ əˈdɹɛs ænd aɪ tɹaɪ tu baɪ kuːl ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz tu sɛnd tu ðɛm./",
+        "zh": "有时当我的学生给我寄明信片时，如果我有他们的地址，我也会尽量回寄一张明信片，而且我努力去买一些很酷的阿什维尔明信片寄给他们。",
+        "highlights": [
+          {
+            "text": "send me",
+            "key": "sɛnd mi",
+            "chip": "indigo"
+          },
+          {
+            "text": "cool",
+            "key": "kuːl",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 33.28,
+        "end": 35.05,
+        "speaker": "Speaker",
+        "en": "So now I know where to go.",
+        "ipa": "/soʊ naʊ aɪ noʊ wɛɹ tu ɡoʊ./",
+        "zh": "所以现在我知道该去哪儿了。",
+        "highlights": [
+          {
+            "text": "where to go",
+            "key": "wɛɹ tu ɡoʊ",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 35.09,
+        "end": 35.32,
+        "speaker": "Speaker",
+        "en": "Huh.",
+        "ipa": "/hʌ./",
+        "zh": "哈。",
+        "highlights": [
+          {
+            "text": "Huh",
+            "key": "hʌ",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 35.36,
+        "end": 38.48,
+        "speaker": "Speaker",
+        "en": "I've been sending the same Asheville postcards for years.",
+        "ipa": "/aɪv bɪn ˈsɛnd.ɪŋ ðə seɪm ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz fɔːɹ jɪɹz./",
+        "zh": "我都好几年一直在寄同款阿什维尔明信片了。",
+        "highlights": [
+          {
+            "text": "for years",
+            "key": "fɔːɹ jɪɹz",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 38.52,
+        "end": 40.48,
+        "speaker": "Speaker",
+        "en": "This is the place to get them.",
+        "ipa": "/ðɪs ɪz ðə pleɪs tu ɡɛt ðəm./",
+        "zh": "这才是买它们的地方。",
+        "highlights": [
+          {
+            "text": "the place to get",
+            "key": "ðə pleɪs tu ɡɛt",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 40.52,
+        "end": 45.32,
+        "speaker": "Speaker",
+        "en": "Oh, we got to see something.",
+        "ipa": "/oʊ, wi ɡɑt tu siː ˈsʌm.θɪŋ./",
+        "zh": "哦，我们得看看这个。",
+        "highlights": [
+          {
+            "text": "got to see",
+            "key": "ɡɑt tu siː",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 45.36,
+        "end": 49.4,
+        "speaker": "Speaker",
+        "en": "What is in the Asheville popcorn mix?",
+        "ipa": "/wʌt ɪz ɪn ðə ˈæʃ.vɪl ˈpɑːp.kɔːɹn mɪks?/",
+        "zh": "阿什维尔混合爆米花里都有什么？",
+        "highlights": [
+          {
+            "text": "popcorn mix",
+            "key": "ˈpɑːp.kɔːɹn mɪks",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 49.44,
+        "end": 53.69,
+        "speaker": "Speaker",
+        "en": "It is popcorn with a purpose.",
+        "ipa": "/ɪt ɪz ˈpɑːp.kɔːɹn wɪð ə ˈpɝː.pəs./",
+        "zh": "这可是带有使命感的爆米花。",
+        "highlights": [
+          {
+            "text": "with a purpose",
+            "key": "wɪð ə ˈpɝː.pəs",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 53.73,
+        "end": 54.16,
+        "speaker": "Speaker",
+        "en": "Okay.",
+        "ipa": "/oʊˈkeɪ./",
+        "zh": "好啦。",
+        "highlights": [
+          {
+            "text": "Okay",
+            "key": "oʊˈkeɪ",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 54.2,
+        "end": 56.61,
+        "speaker": "Speaker",
+        "en": "White cheddar and salted caramel.",
+        "ipa": "/waɪt ˈtʃɛ.dɚ ænd ˈsɑːl.tɪd ˈkɛɹ.ə.məl./",
+        "zh": "白切达干酪和海盐焦糖味。",
+        "highlights": [
+          {
+            "text": "White cheddar",
+            "key": "waɪt ˈtʃɛ.dɚ",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 56.65,
+        "end": 60.72,
+        "speaker": "Speaker",
+        "en": "So that is what makes Asheville white cheddar popcorn and salted caramel.",
+        "ipa": "/soʊ ðæt ɪz wʌt meɪks ˈæʃ.vɪl waɪt ˈtʃɛ.dɚ ˈpɑːp.kɔːɹn ænd ˈsɑːl.tɪd ˈkɛɹ.ə.məl./",
+        "zh": "所以这就是阿什维尔白切达爆米花和海盐焦糖味的由来。",
+        "highlights": [
+          {
+            "text": "what makes",
+            "key": "wʌt meɪks",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "start": 60.76,
+        "end": 64.04,
+        "speaker": "Speaker",
+        "en": "Little salty, little sweet.",
+        "ipa": "/ˈlɪtəl ˈsɔlti, ˈlɪtəl swit/",
+        "zh": "有点咸，有点甜。",
+        "highlights": [
+          {
+            "text": "Little salty, little sweet",
+            "key": "略带咸甜的口味",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 64.08,
+        "end": 65.96,
+        "speaker": "Speaker",
+        "en": "It's probably about true.",
+        "ipa": "/ɪts ˈprɑbəbli əˈbaʊt tru/",
+        "zh": "这大概差不多是真的。",
+        "highlights": [
+          {
+            "text": "probably",
+            "key": "很可能，大概",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 66.0,
+        "end": 71.12,
+        "speaker": "Speaker",
+        "en": "All right, let's go out of the store and keep walking down the street.",
+        "ipa": "/ɔl raɪt, lɛts goʊ aʊt ʌv ðə stɔr ænd kip ˈwɔkɪŋ daʊn ðə strit/",
+        "zh": "好了，我们出店继续沿着街往前走吧。",
+        "highlights": [
+          {
+            "text": "keep walking",
+            "key": "继续走",
+            "chip": "indigo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-73-trimmed-73-micro6",
+    "number": "EP 73",
+    "title": "美国复古糖果店：盐水太妃糖与童年零食",
+    "speaker": "Speak English With Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 2,
+    "durationSec": 185,
+    "durationLabel": "03:05",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%A4%8D%E5%8F%A4%E7%B3%96%E6%9E%9C%E5%BA%97%EF%BC%9A%E7%9B%90%E6%B0%B4%E5%A4%AA%E5%A6%83%E7%B3%96%E4%B8%8E%E7%AB%A5%E5%B9%B4%E9%9B%B6%E9%A3%9F.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%A4%8D%E5%8F%A4%E7%B3%96%E6%9E%9C%E5%BA%97%EF%BC%9A%E7%9B%90%E6%B0%B4%E5%A4%AA%E5%A6%83%E7%B3%96%E4%B8%8E%E7%AB%A5%E5%B9%B4%E9%9B%B6%E9%A3%9F.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%A4%8D%E5%8F%A4%E7%B3%96%E6%9E%9C%E5%BA%97%EF%BC%9A%E7%9B%90%E6%B0%B4%E5%A4%AA%E5%A6%83%E7%B3%96%E4%B8%8E%E7%AB%A5%E5%B9%B4%E9%9B%B6%E9%A3%9F.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 5.26,
+        "speaker": "Speaker",
+        "en": "I used to love this too as a kid.",
+        "ipa": "/aɪ juːst tuː lʌv ðɪs tuː æz ə kɪd/",
+        "zh": "我小时候也很喜欢这个。",
+        "highlights": [
+          {
+            "text": "used to love",
+            "key": "过去常常喜欢",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 5.3,
+        "end": 8.09,
+        "speaker": "Speaker",
+        "en": "Oh, this is something very American.",
+        "ipa": "/oʊ ðɪs ɪz ˈsʌmθɪŋ ˈvɛri əˈmɛrɪkən/",
+        "zh": "噢，这非常有美国特色。",
+        "highlights": [
+          {
+            "text": "very American",
+            "key": "极具美国特色的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 8.13,
+        "end": 9.49,
+        "speaker": "Speaker",
+        "en": "Have you ever seen this?",
+        "ipa": "/hæv juː ˈɛvər siːn ðɪs/",
+        "zh": "你见过这个吗？",
+        "highlights": [
+          {
+            "text": "ever seen",
+            "key": "曾经见过",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 9.53,
+        "end": 11.94,
+        "speaker": "Speaker",
+        "en": "Saltwater taffy.",
+        "ipa": "/ˈsɔːltˌwɔːtər ˈtæfi/",
+        "zh": "海盐太妃糖。",
+        "highlights": [
+          {
+            "text": "Saltwater taffy",
+            "key": "海盐太妃糖",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 11.98,
+        "end": 25.02,
+        "speaker": "Speaker",
+        "en": "Saltwater taffy is It's of like the texture of caramel, but it's different flavors and sweet and it's always associated with the beach, I guess because it's made with salt water somehow.",
+        "ipa": "/ˈsɔːltˌwɔːtər ˈtæfi ɪz ɪts əv laɪk ðə ˈtɛkstʃər əv ˈkɑːrəməl bʌt ɪts ˈdɪfrənt ˈfleɪvərz ænd swiːt ænd ɪts ˈɔːlweɪz əˈsoʊʃieɪtɪd wɪð ðə biːtʃ aɪ gɛs bɪˈkʌz ɪts meɪd wɪð sɔːlt ˈwɔːtər ˈsʌmhaʊ/",
+        "zh": "海盐太妃糖有点像焦糖的质地，但是有不同的口味，而且很甜，并且它总是让人联想到海滩，我猜是因为它不知怎么的是用盐水做出来的吧。",
+        "highlights": [
+          {
+            "text": "texture",
+            "key": "口感，质地",
+            "chip": "orange"
+          },
+          {
+            "text": "associated with",
+            "key": "与……联系在一起",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 25.06,
+        "end": 29.78,
+        "speaker": "Speaker",
+        "en": "I have no idea how it's made, but they are very good.",
+        "ipa": "/aɪ hæv noʊ aɪˈdiːaʊ ˈɪts meɪd bʌt ðeɪ ɑːr ˈvɛri gʊd/",
+        "zh": "我不知道它是怎么做的，但它们非常好吃。",
+        "highlights": [
+          {
+            "text": "I have no idea",
+            "key": "我完全不知道",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 29.82,
+        "end": 32.02,
+        "speaker": "Speaker",
+        "en": "All the super old school ones are over here.",
+        "ipa": "/ɔːl ðə ˈsuːpər oʊld skuːl wʌnz ɑːr ˈoʊvər hɪər/",
+        "zh": "所有那些超级老派的都在这边。",
+        "highlights": [
+          {
+            "text": "old school",
+            "key": "老派的，传统的",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 32.06,
+        "end": 36.06,
+        "speaker": "Speaker",
+        "en": "Yeah, you want to see some old school candies?",
+        "ipa": "/jæ juː wɑːnt tuː siː sʌm oʊld skuːl ˈkændiz/",
+        "zh": "对，你想看一些怀旧老式糖果吗？",
+        "highlights": [
+          {
+            "text": "old school candies",
+            "key": "怀旧老式糖果",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 36.1,
+        "end": 37.66,
+        "speaker": "Speaker",
+        "en": "These.",
+        "ipa": "/ðiːz/",
+        "zh": "这些。",
+        "highlights": [
+          {
+            "text": "These",
+            "key": "这些",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 37.7,
+        "end": 46.54,
+        "speaker": "Speaker",
+        "en": "I don't know who chooses these anymore over the the less old things, but Bit of Bit of honey.",
+        "ipa": "/aɪ doʊnt noʊ huː ˈtʃuːzɪz ðiːz ˈɛniˌmɔːr ˈoʊvər ðə ðə lɛs oʊld θɪŋz bʌt bɪt əv bɪt əv ˈhʌni/",
+        "zh": "我不知道现在还有谁会放弃那些不那么老旧的东西而选择这些，不过，这是蜂糖酥（Bit of Honey）。",
+        "highlights": [
+          {
+            "text": "anymore",
+            "key": "再也不，不再",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 46.58,
+        "end": 51.49,
+        "speaker": "Speaker",
+        "en": "Are these uh very old type of hard candies, we call these hard candies.",
+        "ipa": "/ɑː ðiːz ʌ ˈvɛri oʊld taɪp əv hɑːrd ˈkændiz wiː kɔːl ðiːz hɑːrd ˈkændiz/",
+        "zh": "这些是那种非常老式的硬糖，我们管这叫硬糖。",
+        "highlights": [
+          {
+            "text": "hard candies",
+            "key": "硬糖",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 51.53,
+        "end": 62.5,
+        "speaker": "Speaker",
+        "en": "These are the ones that you would find in my grandma's house and they're probably still like 40 years old at her house.",
+        "ipa": "/ðiːz ɑː ðə wʌnz ðæt juː wʊd faɪnd ɪn maɪ ˈgrænmɑːz haʊs ænd ðeɪr ˈprɑːbəbli stɪl laɪk ˈfɔːrti jɪrz oʊld æt hɜːr haʊs/",
+        "zh": "这些是你会在我奶奶家找到的糖果，而且它们在她家可能已经放了大概40年了就在她家里。",
+        "highlights": [
+          {
+            "text": "grandma's house",
+            "key": "奶奶家",
+            "chip": "orange"
+          },
+          {
+            "text": "at her house",
+            "key": "在她家里",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 62.54,
+        "end": 67.95,
+        "speaker": "Speaker",
+        "en": "Oh, these are These are the thing that I would always try to get um at Halloween.",
+        "ipa": "/oʊ ðiːz ɑː ðiːz ɑː ðə θɪŋ ðæt aɪ wʊd ˈɔːlweɪz traɪ tuː gɛt ʌm æt ˈhæloʊˌiːn/",
+        "zh": "噢，这些是这些是我在万圣节时总是想弄到手的糖果。",
+        "highlights": [
+          {
+            "text": "try to get",
+            "key": "设法得到",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 67.99,
+        "end": 71.69,
+        "speaker": "Speaker",
+        "en": "These are called a bull's eye Okay. or it's a cow tail.",
+        "ipa": "/ðiːz ɑː kɔːld ə bʊlz aɪ oʊˈkeɪ ɔːr ɪts ə kaʊ teɪl/",
+        "zh": "这些被称为牛眼糖，好吧。或者叫牛尾糖。",
+        "highlights": [
+          {
+            "text": "bull's eye",
+            "key": "牛眼糖（靶心糖）",
+            "chip": "orange"
+          },
+          {
+            "text": "cow tail",
+            "key": "牛尾糖",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 71.73,
+        "end": 73.78,
+        "speaker": "Speaker",
+        "en": "If it's long, it's called a cow tail.",
+        "ipa": "/ɪf ɪts lɔːŋ ɪts kɔːld ə kaʊ teɪl/",
+        "zh": "如果它是长的，就叫牛尾糖。",
+        "highlights": [
+          {
+            "text": "long",
+            "key": "长的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 73.82,
+        "end": 80.12,
+        "speaker": "Speaker",
+        "en": "If it's small like this, it's called a bull's eye and it's not caramel, but it's it's so good.",
+        "ipa": "/ɪf ɪts smɔːl laɪk ðɪs ɪts kɔːld ə bʊlz aɪ ænd ɪts nɑːt ˈkɑːrəməl bʌt ɪts ɪts soʊ gʊd/",
+        "zh": "如果像这样比较小，就叫牛眼糖，它虽然不是焦糖，但真的超级好吃。",
+        "highlights": [
+          {
+            "text": "so good",
+            "key": "非常好吃，太棒了",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 80.16,
+        "end": 82.46,
+        "speaker": "Speaker",
+        "en": "If you come to the US, try it.",
+        "ipa": "/ɪf juː kʌm tuː ðə juːɛs traɪ ɪt/",
+        "zh": "如果你来美国，尝尝看。",
+        "highlights": [
+          {
+            "text": "come to the US",
+            "key": "来美国",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 82.5,
+        "end": 86.9,
+        "speaker": "Speaker",
+        "en": "Look at this one.",
+        "ipa": "/lʊk æt ðɪs wʌn/",
+        "zh": "看看这个。",
+        "highlights": [
+          {
+            "text": "Look at",
+            "key": "看……",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "start": 86.94,
+        "end": 90.82,
+        "speaker": "Speaker",
+        "en": "Gummy brains.",
+        "ipa": "/ˈgʌmi breɪnz/",
+        "zh": "软糖脑子。",
+        "highlights": [
+          {
+            "text": "Gummy brains",
+            "key": "脑形软糖",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 90.86,
+        "end": 94.82,
+        "speaker": "Speaker",
+        "en": "I've never seen that before.",
+        "ipa": "/aɪv ˈnɛvər siːn ðæt bɪˈfɔːr/",
+        "zh": "我以前从没见过那个。",
+        "highlights": [
+          {
+            "text": "never seen",
+            "key": "从未见过",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 94.86,
+        "end": 96.37,
+        "speaker": "Speaker",
+        "en": "They have gummy everything.",
+        "ipa": "/ðeɪ hæv ˈgʌmi ˈɛvriˌθɪŋ/",
+        "zh": "他们什么东西都有软糖版的。",
+        "highlights": [
+          {
+            "text": "gummy everything",
+            "key": "万物皆可软糖",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "start": 96.41,
+        "end": 99.58,
+        "speaker": "Speaker",
+        "en": "Gummy eyeballs, gummy brains.",
+        "ipa": "/ˈgʌmi ˈaɪˌbɔːlz ˈgʌmi breɪnz/",
+        "zh": "软糖眼球，软糖脑子。",
+        "highlights": [
+          {
+            "text": "eyeballs",
+            "key": "眼球",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "start": 99.62,
+        "end": 103.14,
+        "speaker": "Speaker",
+        "en": "What are some of those gummy Gummy snakes.",
+        "ipa": "/wʌt ɑː sʌm əv ðoʊz ˈgʌmi ˈgʌmi sneɪks/",
+        "zh": "还有哪些那种软糖软糖蛇。",
+        "highlights": [
+          {
+            "text": "snakes",
+            "key": "蛇",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "start": 103.18,
+        "end": 104.86,
+        "speaker": "Speaker",
+        "en": "It's pretty good.",
+        "ipa": "/ɪts ˈprɪti gʊd/",
+        "zh": "挺不错的。",
+        "highlights": [
+          {
+            "text": "pretty good",
+            "key": "相当不错",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "start": 104.9,
+        "end": 109.06,
+        "speaker": "Speaker",
+        "en": "Gummy building blocks with like LEGOs that are gummies.",
+        "ipa": "/ˈgʌmi ˈbɪldɪŋ blɑːks wɪð laɪk ˈleɪgoʊz ðæt ɑːr ˈgʌmiz/",
+        "zh": "软糖积木，就像乐高那样的软糖。",
+        "highlights": [
+          {
+            "text": "building blocks",
+            "key": "积木",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "start": 109.1,
+        "end": 110.34,
+        "speaker": "Speaker",
+        "en": "Wow.",
+        "ipa": "/waʊ/",
+        "zh": "哇。",
+        "highlights": [
+          {
+            "text": "Wow",
+            "key": "哇",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "start": 110.38,
+        "end": 110.69,
+        "speaker": "Speaker",
+        "en": "What?",
+        "ipa": "/wʌt/",
+        "zh": "什么？",
+        "highlights": [
+          {
+            "text": "What",
+            "key": "什么",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "start": 110.73,
+        "end": 112.46,
+        "speaker": "Speaker",
+        "en": "Do you know what this is?",
+        "ipa": "/duː juː noʊ wʌt ðɪs ɪz/",
+        "zh": "你知道这是什么吗？",
+        "highlights": [
+          {
+            "text": "Do you know",
+            "key": "你知道吗",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "start": 112.5,
+        "end": 113.86,
+        "speaker": "Speaker",
+        "en": "Well, I got that one at the dentist.",
+        "ipa": "/wɛl aɪ gɑːt ðæt wʌn æt ðə ˈdɛntɪst/",
+        "zh": "嗯，那个是我在牙医那儿拿到的。",
+        "highlights": [
+          {
+            "text": "at the dentist",
+            "key": "在牙医诊所",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "start": 113.9,
+        "end": 115.78,
+        "speaker": "Speaker",
+        "en": "This is a jawbreaker.",
+        "ipa": "/ðɪs ɪz ə ˈdʒɔːˌbreɪkər/",
+        "zh": "这是一个超级大硬糖（耐嚼硬糖）。",
+        "highlights": [
+          {
+            "text": "jawbreaker",
+            "key": "超大硬糖（需长时间含着化开）",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "start": 115.82,
+        "end": 120.86,
+        "speaker": "Speaker",
+        "en": "So, usually usually they're this size and you can't chew it.",
+        "ipa": "/soʊ ˈjuːʒuəli ˈjuːʒuəli ðeɪr ðɪs saɪz ænd juː kænt tʃuː ɪt/",
+        "zh": "所以，通常它们有这么大，而且你根本咬不动。",
+        "highlights": [
+          {
+            "text": "this size",
+            "key": "这个尺寸",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "start": 120.9,
+        "end": 122.3,
+        "speaker": "Speaker",
+        "en": "It breaks your jaw.",
+        "ipa": "/ɪt breɪks jʊər dʒɔː/",
+        "zh": "它能把你的下巴硌碎。",
+        "highlights": [
+          {
+            "text": "breaks your jaw",
+            "key": "硌碎下巴（夸张形容极硬）",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "start": 122.34,
+        "end": 128.98,
+        "speaker": "Speaker",
+        "en": "You have to suck on it for a really long time, but this—what?",
+        "ipa": "/ju hæv tu sʌk ɑn ɪt fɔɹ ə ˈɹɪli lɔŋ taɪm, bʌt ðɪs wʌt?/",
+        "zh": "你得含着它好长时间，但是这个什么？",
+        "highlights": [
+          {
+            "text": "suck on",
+            "key": "sʌk ɑn",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "start": 129.02,
+        "end": 131.14,
+        "speaker": "Speaker",
+        "en": "It's so big.",
+        "ipa": "/ɪts soʊ bɪɡ./",
+        "zh": "它太大了。",
+        "highlights": [
+          {
+            "text": "so big",
+            "key": "soʊ bɪɡ",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "start": 131.18,
+        "end": 132.54,
+        "speaker": "Speaker",
+        "en": "You know what?",
+        "ipa": "/ju noʊ wʌt?/",
+        "zh": "你知道吗？",
+        "highlights": [
+          {
+            "text": "You know what",
+            "key": "ju noʊ wʌt",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "start": 132.58,
+        "end": 135.62,
+        "speaker": "Speaker",
+        "en": "These sour straws.",
+        "ipa": "/ðiːz ˈsaʊ.ɚ stɹɔːz./",
+        "zh": "这些酸扁带糖。",
+        "highlights": [
+          {
+            "text": "sour straws",
+            "key": "ˈsaʊ.ɚ stɹɔːz",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "start": 135.66,
+        "end": 139.5,
+        "speaker": "Speaker",
+        "en": "They're sour sugar gummy straws, let me show you.",
+        "ipa": "/ðeɹ ˈsaʊ.ɚ ˈʃʊ.ɡɚ ˈɡʌ.mi stɹɔːz, lɛt mi ʃoʊ ju./",
+        "zh": "它们是裹着酸糖的软糖吸管，我给你看看。",
+        "highlights": [
+          {
+            "text": "let me show you",
+            "key": "lɛt mi ʃoʊ ju",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "start": 139.54,
+        "end": 149.35,
+        "speaker": "Speaker",
+        "en": "These when I was a kid, we used to sneak out of our neighborhood and find any kind of change that we could like quarters and dimes with our friends.",
+        "ipa": "/ðiːz wɛn aɪ wʌz ə kɪd, wi juzd tu sniːk aʊt ʌv aʊɹ ˈneɪ.bɚ.hʊd ænd faɪnd ˈɛ.ni kaɪnd ʌv tʃeɪndʒ ðæt wi kʊd laɪk ˈkwɔːɹ.tɚz ænd daɪmz wɪð aʊɹ fɹɛndz./",
+        "zh": "这些糖，我小时候经常偷偷溜出社区，找各种能找到的零钱，比如25美分和10美分的硬币和我们的朋友一起。",
+        "highlights": [
+          {
+            "text": "sneak out of",
+            "key": "sniːk aʊt ʌv",
+            "chip": "indigo"
+          },
+          {
+            "text": "friends",
+            "key": "fɹɛndz",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "start": 149.39,
+        "end": 153.82,
+        "speaker": "Speaker",
+        "en": "We would sneak to the grocery store and we maybe had like a dollar and 25 cents.",
+        "ipa": "/wi wʊd sniːk tu ðə ˈɡɹoʊ.sɚ.i stɔːɹ ænd wi ˈmeɪ.bi hæd laɪk ə ˈdɑː.lɚ ænd ˈtwɛn.ti-faɪv sɛnts./",
+        "zh": "我们会偷偷溜去杂货店，身上大概只有1美元25美分。",
+        "highlights": [
+          {
+            "text": "grocery store",
+            "key": "ˈɡɹoʊ.sɚ.i stɔːɹ",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "start": 153.86,
+        "end": 159.61,
+        "speaker": "Speaker",
+        "en": "We hardly had any money, but we would buy these and eat them and it was always before dinner.",
+        "ipa": "/wi ˈhɑːɹd.li hæd ˈɛ.ni ˈmʌ.ni, bʌt wi wʊd baɪ ðiːz ænd iːt ðəm ænd ɪt wʌz ˈɔːl.weɪz bɪˈfɔːɹ ˈdɪ.nɚ./",
+        "zh": "我们几乎没什么钱，但我们会买这些来吃，而且总是在晚饭前吃。",
+        "highlights": [
+          {
+            "text": "hardly",
+            "key": "ˈhɑːɹd.li",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "start": 159.65,
+        "end": 161.22,
+        "speaker": "Speaker",
+        "en": "So we would come home.",
+        "ipa": "/soʊ wi wʊd kʌm hoʊm./",
+        "zh": "所以我们就回家了。",
+        "highlights": [
+          {
+            "text": "come home",
+            "key": "kʌm hoʊm",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "start": 161.26,
+        "end": 164.34,
+        "speaker": "Speaker",
+        "en": "If my mom's watching this, shh, don't tell her.",
+        "ipa": "/ɪf maɪ mɑmz ˈwɑːtʃ.ɪŋ ðɪs, ʃː, doʊnt tɛl hɚ./",
+        "zh": "如果我妈正在看这个，嘘，别告诉她。",
+        "highlights": [
+          {
+            "text": "don't tell her",
+            "key": "doʊnt tɛl hɚ",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "start": 164.38,
+        "end": 165.91,
+        "speaker": "Speaker",
+        "en": "Oh, we would all we would go home.",
+        "ipa": "/oʊ, wi wʊd ɔːl wi wʊd ɡoʊ hoʊm./",
+        "zh": "哦，我们都会回家。",
+        "highlights": [
+          {
+            "text": "go home",
+            "key": "ɡoʊ hoʊm",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "start": 165.95,
+        "end": 171.67,
+        "speaker": "Speaker",
+        "en": "We'd eat them and then when it came time for dinner, we would pretend that we were so hungry.",
+        "ipa": "/wid iːt ðəm ænd ðɛn wɛn ɪt keɪm taɪm fɔːɹ ˈdɪ.nɚ, wi wʊd pɹɪˈtɛnd ðæt wi wɚ soʊ ˈhʌŋ.ɡɹi./",
+        "zh": "我们吃完后，到了吃晚饭的时候，就会假装我们饿得不行。",
+        "highlights": [
+          {
+            "text": "pretend",
+            "key": "pɹɪˈtɛnd",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "start": 171.71,
+        "end": 172.93,
+        "speaker": "Speaker",
+        "en": "Oh, I'm so hungry.",
+        "ipa": "/oʊ, aɪm soʊ ˈhʌŋ.ɡɹi./",
+        "zh": "哦，我好饿啊。",
+        "highlights": [
+          {
+            "text": "so hungry",
+            "key": "soʊ ˈhʌŋ.ɡɹi",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "start": 172.97,
+        "end": 181.02,
+        "speaker": "Speaker",
+        "en": "This dinner is so good because we didn't want to give away that we had already eaten a whole pack of sour straws.",
+        "ipa": "/ðɪs ˈdɪ.nɚ ɪz soʊ ɡʊd bɪˈkəz wi ˈdɪd.ənt wɑnt tu ɡɪv əˈweɪ ðæt wi hæd ɔːlˈɹɛ.di ˈiː.tən ə hoʊl pæk ʌv ˈsaʊ.ɚ stɹɔːz./",
+        "zh": "这晚饭真好吃，因为我们不想暴露我们已经吃了一整包酸扁带糖的事实。",
+        "highlights": [
+          {
+            "text": "give away",
+            "key": "ɡɪv əˈweɪ",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "start": 181.06,
+        "end": 184.58,
+        "speaker": "Speaker",
+        "en": "Mhm, my secret's safe with you, right?",
+        "ipa": "/m̩ˈhʌm, maɪ ˈsiː.kɹɪts seɪf wɪð ju, ɹaɪt?/",
+        "zh": "嗯哼，我的秘密对你保密，对吧？",
+        "highlights": [
+          {
+            "text": "safe with you",
+            "key": "seɪf wɪð ju",
+            "chip": "indigo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-72-Asheville-Greenway-micro5",
+    "number": "EP 72",
+    "title": "Asheville 五角街区：过马路，走向 Greenway",
+    "speaker": "Speak English With Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 137,
+    "durationLabel": "02:17",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverImage": "./content/episodes/trimmed/Asheville%20%E4%BA%94%E8%A7%92%E8%A1%97%E5%8C%BA%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%EF%BC%8C%E8%B5%B0%E5%90%91%20Greenway.jpg",
+    "mediaUrl": "./content/episodes/trimmed/Asheville%20%E4%BA%94%E8%A7%92%E8%A1%97%E5%8C%BA%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%EF%BC%8C%E8%B5%B0%E5%90%91%20Greenway.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/Asheville%20%E4%BA%94%E8%A7%92%E8%A1%97%E5%8C%BA%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%EF%BC%8C%E8%B5%B0%E5%90%91%20Greenway.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [
+      [
+        136.36,
+        137.0
+      ]
+    ],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 5.27,
+        "speaker": "Speaker",
+        "en": "So here we are going to go down the street and cross what's called Five Points.",
+        "ipa": "/soʊ hir wi ɑr ˈɡoʊɪŋ tu ɡoʊ daʊn ðə strit ənd krɔs wʌts kɔld faɪv pɔɪnts./",
+        "zh": "所以，我们现在要沿着这条街走，穿过所谓的五岔路口。",
+        "highlights": [
+          {
+            "text": "go down",
+            "key": "go down",
+            "chip": "indigo"
+          },
+          {
+            "text": "what's called",
+            "key": "what's called",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 5.31,
+        "end": 8.16,
+        "speaker": "Speaker",
+        "en": "This is the Five Points neighborhood in Asheville.",
+        "ipa": "/ðɪs ɪz ðə faɪv pɔɪnts ˈneɪbərˌhʊd ɪn ˈæʃvɪl./",
+        "zh": "这是阿什维尔的五岔路口社区。",
+        "highlights": [
+          {
+            "text": "neighborhood",
+            "key": "neighborhood",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 8.2,
+        "end": 20.0,
+        "speaker": "Speaker",
+        "en": "And that means there's five different roads going into it, and we are going to attempt to cross the street without Dan smashing himself and recording at the same time.",
+        "ipa": "/ənd ðæt minz ðɛrz faɪv ˈdɪfrənt roʊdz ˈɡoʊɪŋ ˈɪntʊ ɪt, ənd wi ɑr ˈɡoʊɪŋ tu əˈtɛmpt tu krɔs ðə strit wɪˈdaʊt dæn ˈsmæʃɪŋ hɪmˈsɛlf ənd rɪˈkɔrdɪŋ æt ðə seɪm taɪm./",
+        "zh": "这意味着有五条不同的路通往那里，我们要尝试在丹不摔倒的情况下穿过马路同时还要进行拍摄。",
+        "highlights": [
+          {
+            "text": "different",
+            "key": "different",
+            "chip": "orange"
+          },
+          {
+            "text": "attempt",
+            "key": "attempt",
+            "chip": "orange"
+          },
+          {
+            "text": "at the same time",
+            "key": "at the same time",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 20.04,
+        "end": 22.28,
+        "speaker": "Speaker",
+        "en": "I appreciate how hard this is.",
+        "ipa": "/aɪ əˈpriʃiˌeɪt haʊ hɑrd ðɪs ɪz./",
+        "zh": "我知道这有多难。",
+        "highlights": [
+          {
+            "text": "appreciate",
+            "key": "appreciate",
+            "chip": "orange"
+          },
+          {
+            "text": "how hard",
+            "key": "how hard",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 22.32,
+        "end": 24.12,
+        "speaker": "Speaker",
+        "en": "Let's give it a try.",
+        "ipa": "/lɛts ɡɪv ɪt ə traɪ./",
+        "zh": "我们来试一试。",
+        "highlights": [
+          {
+            "text": "give it a try",
+            "key": "give it a try",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 24.16,
+        "end": 25.21,
+        "speaker": "Speaker",
+        "en": "Got to push the button.",
+        "ipa": "/ɡɑt tu pʊʃ ðə ˈbʌtən./",
+        "zh": "得按下按钮。",
+        "highlights": [
+          {
+            "text": "push the button",
+            "key": "push the button",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 25.25,
+        "end": 27.74,
+        "speaker": "Speaker",
+        "en": "I don't actually know which one goes where.",
+        "ipa": "/aɪ doʊnt ˈæktʃuəli noʊ wɪtʃ wʌn ɡoʊz wɛr./",
+        "zh": "我其实不知道哪个该按哪一个。",
+        "highlights": [
+          {
+            "text": "actually",
+            "key": "actually",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 27.78,
+        "end": 30.12,
+        "speaker": "Speaker",
+        "en": "I think this one is for here.",
+        "ipa": "/aɪ θɪŋk ðɪs wʌn ɪz fɔr hir./",
+        "zh": "我觉得这个应该是这里的。",
+        "highlights": [
+          {
+            "text": "I think",
+            "key": "I think",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 30.16,
+        "end": 32.76,
+        "speaker": "Speaker",
+        "en": "I just pushed both of them.",
+        "ipa": "/aɪ dʒʌst pʊʃt boʊθ ʌv ðɛm./",
+        "zh": "我刚刚把两个都按了。",
+        "highlights": [
+          {
+            "text": "both of them",
+            "key": "both of them",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 32.8,
+        "end": 44.12,
+        "speaker": "Speaker",
+        "en": "And we're going to cross the street, but we have to wait for the hand to turn green or the little man, little walking man to be over there.",
+        "ipa": "/ənd wɪr ˈɡoʊɪŋ tu krɔs ðə strit, bʌt wɪ hæv tu wet fɔr ðə hænd tu tɜrn ɡrin ɔr ðə ˈlɪtəl mæn, ˈlɪtəl ˈwɔkɪŋ mæn tu bi ˈoʊvər ðɛr./",
+        "zh": "我们要过马路了，但是我们得等绿灯亮起，或者等那个走路的小人儿出现在那里。",
+        "highlights": [
+          {
+            "text": "cross the street",
+            "key": "cross the street",
+            "chip": "indigo"
+          },
+          {
+            "text": "have to wait",
+            "key": "have to wait",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 44.16,
+        "end": 44.68,
+        "speaker": "Speaker",
+        "en": "All right.",
+        "ipa": "/ɔl raɪt./",
+        "zh": "好的。",
+        "highlights": [
+          {
+            "text": "All right",
+            "key": "All right",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 44.72,
+        "end": 48.48,
+        "speaker": "Speaker",
+        "en": "I always try to look even though the signal says it's okay.",
+        "ipa": "/aɪ ˈɔlˌweɪz traɪ tu lʊk ˈivən ðoʊ ðə ˈsɪɡnəl sɛz ɪts oʊˈkeɪ./",
+        "zh": "即使信号灯显示可以通行，我也会尽量左右看看。",
+        "highlights": [
+          {
+            "text": "always",
+            "key": "always",
+            "chip": "orange"
+          },
+          {
+            "text": "even though",
+            "key": "even though",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 48.52,
+        "end": 51.96,
+        "speaker": "Speaker",
+        "en": "In the US we always do right, left, right.",
+        "ipa": "/ɪn ði juˈɛs wi ˈɔlˌweɪz du raɪt, lɛft, raɪt./",
+        "zh": "在美国，我们过马路总是先向右看，再向左看，再向右看。",
+        "highlights": [
+          {
+            "text": "always",
+            "key": "always",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 52.0,
+        "end": 53.66,
+        "speaker": "Speaker",
+        "en": "At least that's what I was taught as a kid.",
+        "ipa": "/æt liːst ðæts wʌt aɪ wʌz tɔːt æz ə kɪd/",
+        "zh": "至少我小时候是这么被教导的。",
+        "highlights": [
+          {
+            "text": "as a kid",
+            "key": "as a kid",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 53.7,
+        "end": 56.2,
+        "speaker": "Speaker",
+        "en": "Right, left, right.",
+        "ipa": "/raɪt lɛft raɪt/",
+        "zh": "右，左，右。",
+        "highlights": [
+          {
+            "text": "Right",
+            "key": "right",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 56.24,
+        "end": 60.96,
+        "speaker": "Speaker",
+        "en": "Right now we're walking along Broadway, which is one of the main streets.",
+        "ipa": "/raɪt naʊ wɪər ˈwɔːkɪŋ əˈlɔːŋ ˈbrɔːdˌweɪ wɪtʃ ɪz wʌn ʌv ðə meɪn striːts/",
+        "zh": "我们现在正沿着百老汇大街走，这是主要街道之一。",
+        "highlights": [
+          {
+            "text": "walking along",
+            "key": "walk along",
+            "chip": "indigo"
+          },
+          {
+            "text": "main streets",
+            "key": "main street",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 61.0,
+        "end": 63.96,
+        "speaker": "Speaker",
+        "en": "Wow, do you hear that hawk?",
+        "ipa": "/waʊ duː juː hɪər ðæt hɔːk/",
+        "zh": "哇，你听到那只鹰的声音了吗？",
+        "highlights": [
+          {
+            "text": "hear",
+            "key": "hear",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 64.0,
+        "end": 67.64,
+        "speaker": "Speaker",
+        "en": "I love hearing falcons, birds of prey.",
+        "ipa": "/aɪ lʌv ˈhɪərɪŋ ˈfælkənz bɜːrdz ʌv preɪ/",
+        "zh": "我喜欢听猎鹰和猛禽的叫声。",
+        "highlights": [
+          {
+            "text": "birds of prey",
+            "key": "bird of prey",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "start": 67.68,
+        "end": 69.24,
+        "speaker": "Speaker",
+        "en": "It's always so exciting.",
+        "ipa": "/ɪts ˈɔːlweɪz soʊ ɪkˈsaɪtɪŋ/",
+        "zh": "总是那么令人兴奋。",
+        "highlights": [
+          {
+            "text": "exciting",
+            "key": "exciting",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 69.28,
+        "end": 76.55,
+        "speaker": "Speaker",
+        "en": "So we are headed towards the Greenway and the Greenway is an area that has no houses on either side.",
+        "ipa": "/soʊ wiː ɑːr ˈhɛdɪd təˈwɔːrdz ðə ˈɡriːnˌweɪ ænd ðə ˈɡriːnˌweɪ ɪz ən ˈɛriə ðæt hæz noʊ ˈhaʊzɪz ɒn ˈiːðər saɪd/",
+        "zh": "所以我们现在正前往绿道，绿道两旁都没有房屋。",
+        "highlights": [
+          {
+            "text": "headed towards",
+            "key": "head towards",
+            "chip": "indigo"
+          },
+          {
+            "text": "either side",
+            "key": "either side",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 76.59,
+        "end": 85.6,
+        "speaker": "Speaker",
+        "en": "It's just a public almost like a park, but it's just a sidewalk going straight through a natural area.",
+        "ipa": "/ɪts dʒʌst ə ˈpʌblɪk ˈɔːlmoʊst laɪk ə pɑːrk bʌt ɪts dʒʌst ə ˈsaɪdˌwɔːk ˈɡoʊɪŋ streɪt θruː ə ˈnætʃərəl ˈɛriə/",
+        "zh": "它就像一个公共场所，有点像公园，但实际上只是一条直接穿过自然区域的人行道。",
+        "highlights": [
+          {
+            "text": "sidewalk",
+            "key": "sidewalk",
+            "chip": "orange"
+          },
+          {
+            "text": "straight through",
+            "key": "straight through",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "start": 85.64,
+        "end": 90.48,
+        "speaker": "Speaker",
+        "en": "So we are walking down one of the main streets in order to get to that greenway.",
+        "ipa": "/soʊ wiː ɑːr ˈwɔːkɪŋ daʊn wʌn ʌv ðə meɪn striːts ɪn ˈɔːrdər tuː ɡɛt tuː ðæt ˈɡriːnˌweɪ/",
+        "zh": "所以我们现在正沿着一条主干道走，以前往那条绿道。",
+        "highlights": [
+          {
+            "text": "walking down",
+            "key": "walk down",
+            "chip": "indigo"
+          },
+          {
+            "text": "in order to",
+            "key": "in order to",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "start": 90.52,
+        "end": 91.08,
+        "speaker": "Speaker",
+        "en": "Let's go.",
+        "ipa": "/lɛts ɡoʊ/",
+        "zh": "我们走吧。",
+        "highlights": [
+          {
+            "text": "Let's go",
+            "key": "let's go",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "start": 91.12,
+        "end": 99.72,
+        "speaker": "Speaker",
+        "en": "All right, before we cross the street and go into the greenway, I wanted to show you this lovely iron fence.",
+        "ipa": "/ɔːl raɪt bɪˈfɔːr wiː krɔːs ðə striːt ænd ɡoʊ ˈɪntuː ðə ˈɡriːnˌweɪ aɪ ˈwɒntɪd tuː ʃoʊ juː ðɪs ˈlʌvli ˈaɪərn fɛns/",
+        "zh": "好了，在我们过马路进入绿道之前，我想给你们看看这漂亮的铁栅栏。",
+        "highlights": [
+          {
+            "text": "cross the street",
+            "key": "cross the street",
+            "chip": "indigo"
+          },
+          {
+            "text": "iron fence",
+            "key": "iron fence",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "start": 99.76,
+        "end": 104.03,
+        "speaker": "Speaker",
+        "en": "Back here is a little creek and the neighborhood behind me is called Montford.",
+        "ipa": "/bæk hɪər ɪz ə ˈlɪtəl kriːk ænd ðə ˈneɪbərˌhʊd bɪˈhaɪnd miː ɪz kɔːld ˈmɒntfərd/",
+        "zh": "后面有一条小溪，我身后的街区叫做蒙特福德。",
+        "highlights": [
+          {
+            "text": "neighborhood",
+            "key": "neighborhood",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "start": 104.07,
+        "end": 107.25,
+        "speaker": "Speaker",
+        "en": "It's one of the historic neighborhoods of Asheville.",
+        "ipa": "/ɪts wʌn ʌv ðə hɪˈstɔːrɪk ˈneɪbərˌhʊdz ʌv ˈæʃvɪl/",
+        "zh": "这是阿什维尔的历史街区之一。",
+        "highlights": [
+          {
+            "text": "historic",
+            "key": "historic",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "start": 107.29,
+        "end": 109.21,
+        "speaker": "Speaker",
+        "en": "There's a lot of big older houses.",
+        "ipa": "/ðɛərz ə lɒt ʌv bɪɡ ˈoʊldər ˈhaʊzɪz/",
+        "zh": "这里有很多老旧的大房子。",
+        "highlights": [
+          {
+            "text": "older houses",
+            "key": "older house",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "start": 109.25,
+        "end": 112.56,
+        "speaker": "Speaker",
+        "en": "And when I say older, I mean older for the US.",
+        "ipa": "/ænd wɛn aɪ seɪ ˈoʊldər aɪ miːn ˈoʊldər fɔːr ðə juːɛs/",
+        "zh": "我说的“年纪大”是指对美国人来说年纪大。",
+        "highlights": [
+          {
+            "text": "I mean",
+            "key": "I mean",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "start": 112.6,
+        "end": 118.76,
+        "speaker": "Speaker",
+        "en": "If you're from Europe and there's houses from the 1300s, well, it's not that old here.",
+        "ipa": "/ɪf jʊər frəm ˈjʊərəp ænd ðɛərz ˈhaʊzɪz frəm ðə ˈθɜːrtiːn ˈhʌndrɪdz wɛl ɪts nɒt ðæt oʊld hɪər/",
+        "zh": "如果你来自Europe，看到14世纪的房子，那这里就不算古老了。",
+        "highlights": [
+          {
+            "text": "from Europe",
+            "key": "from Europe",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "start": 118.8,
+        "end": 126.03,
+        "speaker": "Speaker",
+        "en": "But, for the US, it's old and I feel like the US doesn't really do a good job of preserving historical places.",
+        "ipa": "/bʌt fɔːr ðə juːɛs ɪts oʊld ænd aɪ fiːl laɪk ðə juːɛs ˈdʌzənt ˈriːəli duː ə ɡʊd dʒɒb ʌv prɪˈzɜːrvɪŋ hɪˈstɔːrɪkəl ˈpleɪsɪz/",
+        "zh": "但是，对美国来说，它年代久远，我觉得美国在保护历史遗迹方面做得并不好。",
+        "highlights": [
+          {
+            "text": "do a good job of",
+            "key": "do a good job of",
+            "chip": "pink"
+          },
+          {
+            "text": "preserving",
+            "key": "preserve",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "start": 126.07,
+        "end": 129.81,
+        "speaker": "Speaker",
+        "en": "So, when there are historical places to see in the US, it's kind of special.",
+        "ipa": "/soʊ wɛn ðɛər ɑːr hɪˈstɔːrɪkəl ˈpleɪsɪz tuː siː ɪn ðə juːɛs ɪts kaɪnd ʌv ˈspɛʃəl/",
+        "zh": "所以，在美国，如果能参观一些历史古迹，那就显得格外特别。",
+        "highlights": [
+          {
+            "text": "kind of",
+            "key": "kind of",
+            "chip": "pink"
+          },
+          {
+            "text": "historical places",
+            "key": "historical place",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "start": 129.85,
+        "end": 132.8,
+        "speaker": "Speaker",
+        "en": "All right, let's cross the street and go to the greenway.",
+        "ipa": "/ɔːl raɪt lɛts krɔːs ðə striːt ænd ɡoʊ tuː ðə ˈɡriːnˌweɪ/",
+        "zh": "好的，我们过马路去绿道吧。",
+        "highlights": [
+          {
+            "text": "cross the street",
+            "key": "cross the street",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "start": 132.84,
+        "end": 136.36,
+        "speaker": "Speaker",
+        "en": "There is indeed a little crosswalk here.",
+        "ipa": "/ðɛər ɪz ɪnˈdiːd ə ˈlɪtəl ˈkrɔːsˌwɔːk hɪər/",
+        "zh": "这里确实有一条小型人行横道。",
+        "highlights": [
+          {
+            "text": "indeed",
+            "key": "indeed",
+            "chip": "orange"
+          },
+          {
+            "text": "crosswalk",
+            "key": "crosswalk",
+            "chip": "orange"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-71-trimmed-71-micro4",
     "number": "EP 71",
+    "title": "美国社区回收日：门前垃圾桶与横穿马路",
+    "speaker": "Speak English With Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 75,
+    "durationLabel": "01:15",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E7%A4%BE%E5%8C%BA%E5%9B%9E%E6%94%B6%E6%97%A5%EF%BC%9A%E9%97%A8%E5%89%8D%E5%9E%83%E5%9C%BE%E6%A1%B6%E4%B8%8E%E6%A8%AA%E7%A9%BF%E9%A9%AC%E8%B7%AF.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E7%A4%BE%E5%8C%BA%E5%9B%9E%E6%94%B6%E6%97%A5%EF%BC%9A%E9%97%A8%E5%89%8D%E5%9E%83%E5%9C%BE%E6%A1%B6%E4%B8%8E%E6%A8%AA%E7%A9%BF%E9%A9%AC%E8%B7%AF.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E7%A4%BE%E5%8C%BA%E5%9B%9E%E6%94%B6%E6%97%A5%EF%BC%9A%E9%97%A8%E5%89%8D%E5%9E%83%E5%9C%BE%E6%A1%B6%E4%B8%8E%E6%A8%AA%E7%A9%BF%E9%A9%AC%E8%B7%AF.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 5.05,
+        "speaker": "Speaker",
+        "en": "Um in the US, we have these big trash bins that we use to collect trash and recycling.",
+        "ipa": "/ʌm ɪn ðə juˈɛs wi hæv ðiz bɪɡ træʃ bɪnz ðæt wi juz tu kəˈlɛkt træʃ ənd ˈrisɪklɪŋ/",
+        "zh": "在美国，我们有那种很大的垃圾桶，用来装垃圾和可回收物。",
+        "highlights": [
+          {
+            "text": "trash bins",
+            "key": "trash bins",
+            "chip": "indigo"
+          },
+          {
+            "text": "recycling",
+            "key": "recycling",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 5.09,
+        "end": 9.84,
+        "speaker": "Speaker",
+        "en": "And on certain days, the trash collector will come and you you wheel them.",
+        "ipa": "/ænd ɑn ˈsɜrtən deɪz ðə træʃ kəˈlɛktər wɪl kʌm ənd ju ju wil ðɛm/",
+        "zh": "到了特定的日子，垃圾收集车会来，然后你得把它们推出去。",
+        "highlights": [
+          {
+            "text": "trash collector",
+            "key": "trash collector",
+            "chip": "indigo"
+          },
+          {
+            "text": "wheel",
+            "key": "wheel",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 9.88,
+        "end": 11.36,
+        "speaker": "Speaker",
+        "en": "We use that verb to wheel.",
+        "ipa": "/wi juz ðæt vɜrb tu wil/",
+        "zh": "我们用“wheel”这个动词来表达（推着带轮子的垃圾桶）。",
+        "highlights": [
+          {
+            "text": "verb",
+            "key": "verb",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 11.4,
+        "end": 19.28,
+        "speaker": "Speaker",
+        "en": "We wheel the bin to the road, and the trash collector comes and dumps it into the back of the trash or recycling bin.",
+        "ipa": "/wi wil ðə bɪn tu ðə roʊd, ənd ðə træʃ kəˈlɛktər kʌmz ənd dʌmps ɪt ˈɪntʊ ðə bæk əv ðə træʃ ɔr ˈrisɪklɪŋ bɪn./",
+        "zh": "我们把垃圾桶推到路边，然后垃圾收集员过来，把它倒进垃圾桶或回收桶的后面。",
+        "highlights": [
+          {
+            "text": "wheel",
+            "key": "wheel",
+            "chip": "orange"
+          },
+          {
+            "text": "trash collector",
+            "key": "trash collector",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 19.32,
+        "end": 22.45,
+        "speaker": "Speaker",
+        "en": "We never sort recycling in North Carolina.",
+        "ipa": "/wi ˈnɛvər sɔrt ˈrisɪklɪŋ ɪn nɔrθ kærəˈlaɪnə./",
+        "zh": "在北卡罗来纳州，我们从不对回收物进行分类。",
+        "highlights": [
+          {
+            "text": "sort",
+            "key": "sort",
+            "chip": "orange"
+          },
+          {
+            "text": "North Carolina",
+            "key": "North Carolina",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 22.49,
+        "end": 25.26,
+        "speaker": "Speaker",
+        "en": "It's just everything in one recycling bin.",
+        "ipa": "/ɪts ˈdʒʌst ˈɛvriˌθɪŋ ɪn wʌn ˈrisɪklɪŋ bɪn./",
+        "zh": "就是把所有东西都放在一个回收箱里。",
+        "highlights": [
+          {
+            "text": "everything",
+            "key": "everything",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 25.3,
+        "end": 27.4,
+        "speaker": "Speaker",
+        "en": "Glass, paper, anything like that.",
+        "ipa": "/ɡlæs, ˈpeɪpər, ˈɛniˌθɪŋ laɪk ðæt./",
+        "zh": "玻璃、纸张，诸如此类的东西。",
+        "highlights": [
+          {
+            "text": "anything like that",
+            "key": "anything like that",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 27.44,
+        "end": 28.96,
+        "speaker": "Speaker",
+        "en": "It's all just in one spot.",
+        "ipa": "/ɪts ɔl dʒʌst ɪn wʌn spɑt./",
+        "zh": "所有东西都在同一个地方。",
+        "highlights": [
+          {
+            "text": "in one spot",
+            "key": "in one spot",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 29.0,
+        "end": 31.98,
+        "speaker": "Speaker",
+        "en": "Oh, you have to look over here and see this amazing tree.",
+        "ipa": "/oʊ, ju hæv tu lʊk ˈoʊvər hir ənd si ðɪs əˈmeɪzɪŋ tri./",
+        "zh": "哦，你一定要看看这边，瞧瞧这棵神奇的树。",
+        "highlights": [
+          {
+            "text": "look over here",
+            "key": "look over here",
+            "chip": "indigo"
+          },
+          {
+            "text": "amazing",
+            "key": "amazing",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 32.02,
+        "end": 34.8,
+        "speaker": "Speaker",
+        "en": "Isn't this tree so cool?",
+        "ipa": "/ˈɪzənt ðɪs tri soʊ kul?/",
+        "zh": "这棵树是不是很酷？",
+        "highlights": [
+          {
+            "text": "so cool",
+            "key": "so cool",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 34.84,
+        "end": 39.69,
+        "speaker": "Speaker",
+        "en": "Has this giant bulbous I think it's probably not healthy cuz of that giant bulb.",
+        "ipa": "/hæz ðɪs ˈdʒaɪənt ˈbʌlbəs aɪ θɪŋk ɪts ˈprɑbəbli nɑt ˈhɛlθi kʌz ʌv ðæt ˈdʒaɪənt bʌlb./",
+        "zh": "它长了个巨大的球状物，我觉得它可能不太健康，就是因为这个巨大的球状物。",
+        "highlights": [
+          {
+            "text": "probably",
+            "key": "probably",
+            "chip": "orange"
+          },
+          {
+            "text": "healthy",
+            "key": "healthy",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 39.73,
+        "end": 40.66,
+        "speaker": "Speaker",
+        "en": "I'm not sure.",
+        "ipa": "/aɪm nɑt ʃʊr./",
+        "zh": "我不知道。",
+        "highlights": [
+          {
+            "text": "not sure",
+            "key": "not sure",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 40.7,
+        "end": 45.6,
+        "speaker": "Speaker",
+        "en": "But this tree is so magnificent, especially in the springtime with all of the leaves.",
+        "ipa": "/bʌt ðɪs tri ɪz soʊ mæɡˈnɪfɪsənt, ɪˈspɛʃəli ɪn ðə ˈsprɪŋˌtaɪm wɪð ɔl ʌv ðə livz. ənd aɪ lʌv ðæt ɪts ɑn ðə ˈhɪlˌsaɪd./",
+        "zh": "但这棵树真是太壮观了，尤其是在春天树叶茂盛的时候。",
+        "highlights": [
+          {
+            "text": "magnificent",
+            "key": "magnificent",
+            "chip": "orange"
+          },
+          {
+            "text": "especially",
+            "key": "especially",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 45.64,
+        "end": 47.79,
+        "speaker": "Speaker",
+        "en": "And I love that it's on the hillside.",
+        "ipa": "",
+        "zh": "而且我喜欢它建在山坡上。",
+        "highlights": [
+          {
+            "text": "hillside",
+            "key": "hillside",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 47.83,
+        "end": 48.28,
+        "speaker": "Speaker",
+        "en": "So cool.",
+        "ipa": "/soʊ kul./",
+        "zh": "太酷了。",
+        "highlights": [
+          {
+            "text": "So cool",
+            "key": "So cool",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 48.32,
+        "end": 50.0,
+        "speaker": "Speaker",
+        "en": "I love those little things in a city.",
+        "ipa": "/aɪ lʌv ðoʊz ˈlɪtəl θɪŋz ɪn ə ˈsɪti./",
+        "zh": "我喜欢城市里那些小细节。",
+        "highlights": [
+          {
+            "text": "little things",
+            "key": "little things",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 50.04,
+        "end": 51.4,
+        "speaker": "Speaker",
+        "en": "All right, let's go down here.",
+        "ipa": "/ɔl raɪt, lɛts ɡoʊ daʊn hir./",
+        "zh": "好了，我们下去吧。",
+        "highlights": [
+          {
+            "text": "All right",
+            "key": "All right",
+            "chip": "pink"
+          },
+          {
+            "text": "go down",
+            "key": "go down",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 51.44,
+        "end": 54.16,
+        "speaker": "Speaker",
+        "en": "We are actually going to cross the street here.",
+        "ipa": "/wi ɑr ˈæktʃuəli ˈɡoʊɪŋ tu krɔs ðə strit hir./",
+        "zh": "我们正要从这里过马路。",
+        "highlights": [
+          {
+            "text": "actually",
+            "key": "actually",
+            "chip": "orange"
+          },
+          {
+            "text": "cross the street",
+            "key": "cross the street",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "start": 54.2,
+        "end": 62.24,
+        "speaker": "Speaker",
+        "en": "Now there's no street crossing, so we're going to have to just be careful; maybe technically it's jaywalking, but in the US people don't care.",
+        "ipa": "/naʊ ðɛrz noʊ strit ˈkrɔsɪŋ, soʊ wɪr ˈɡoʊɪŋ tu hæv tu dʒʌst bi ˈkɛrfəl; ˈmeɪbi ˈtɛknɪkli ɪts ˈdʒeɪˌwɔkɪŋ, bʌt ɪn ði juˈɛs ˈpipəl doʊnt kɛr./",
+        "zh": "现在没有过马路的地方了，所以我们只能小心点；也许从技术上讲这算是乱穿马路，但在美国人们并不在意。",
+        "highlights": [
+          {
+            "text": "be careful",
+            "key": "be careful",
+            "chip": "indigo"
+          },
+          {
+            "text": "jaywalking",
+            "key": "jaywalking",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 62.28,
+        "end": 65.2,
+        "speaker": "Speaker",
+        "en": "I just have to be careful that nobody hits my baby.",
+        "ipa": "/aɪ dʒʌst hæv tu bi ˈkɛrfəl ðæt ˈnoʊˌbɑdi hɪts maɪ ˈbeɪbi./",
+        "zh": "我只需要小心别让车撞到我的孩子。",
+        "highlights": [
+          {
+            "text": "be careful",
+            "key": "be careful",
+            "chip": "indigo"
+          },
+          {
+            "text": "nobody",
+            "key": "nobody",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 65.24,
+        "end": 67.24,
+        "speaker": "Speaker",
+        "en": "Let's take a look.",
+        "ipa": "/lɛts teɪk ə lʊk./",
+        "zh": "我们来看一下。",
+        "highlights": [
+          {
+            "text": "take a look",
+            "key": "take a look",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "start": 67.28,
+        "end": 71.84,
+        "speaker": "Speaker",
+        "en": "No one's coming.",
+        "ipa": "/noʊ wʌnz ˈkʌmɪŋ./",
+        "zh": "没人来。",
+        "highlights": [
+          {
+            "text": "No one's coming",
+            "key": "No one's coming",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "start": 71.88,
+        "end": 74.44,
+        "speaker": "Speaker",
+        "en": "Let's go.",
+        "ipa": "/lɛts ɡoʊ./",
+        "zh": "我们走吧。",
+        "highlights": [
+          {
+            "text": "Let's go",
+            "key": "Let's go",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "start": 74.48,
+        "end": 74.72,
+        "speaker": "Speaker",
+        "en": "Huh.",
+        "ipa": "/hʌ./",
+        "zh": "嗯。",
+        "highlights": [
+          {
+            "text": "Huh",
+            "key": "Huh",
+            "chip": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-70-trimmed-70-micro3",
+    "number": "EP 70",
+    "title": "美式老街区散步：过马路、百年老宅与风铃",
+    "speaker": "Speak English With Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 2,
+    "durationSec": 175,
+    "durationLabel": "02:55",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%BC%8F%E8%80%81%E8%A1%97%E5%8C%BA%E6%95%A3%E6%AD%A5%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%E3%80%81%E7%99%BE%E5%B9%B4%E8%80%81%E5%AE%85%E4%B8%8E%E9%A3%8E%E9%93%83.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%BC%8F%E8%80%81%E8%A1%97%E5%8C%BA%E6%95%A3%E6%AD%A5%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%E3%80%81%E7%99%BE%E5%B9%B4%E8%80%81%E5%AE%85%E4%B8%8E%E9%A3%8E%E9%93%83.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%BC%8F%E8%80%81%E8%A1%97%E5%8C%BA%E6%95%A3%E6%AD%A5%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%E3%80%81%E7%99%BE%E5%B9%B4%E8%80%81%E5%AE%85%E4%B8%8E%E9%A3%8E%E9%93%83.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [
+      [
+        174.45,
+        175.0
+      ]
+    ],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 2.18,
+        "speaker": "Speaker",
+        "en": "So, they park on the streets.",
+        "ipa": "/soʊ, ðeɪ pɑrk ɑn ðə strits./",
+        "zh": "所以，他们就把车停在街上。",
+        "highlights": [
+          {
+            "text": "park on the streets",
+            "key": "park on the streets",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 2.22,
+        "end": 4.45,
+        "speaker": "Speaker",
+        "en": "We call this street parking.",
+        "ipa": "/wi kɔl ðis strit ˈpɑrkɪŋ/",
+        "zh": "我们称之为路边停车。",
+        "highlights": [
+          {
+            "text": "street parking",
+            "key": "路边停车",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 4.49,
+        "end": 5.41,
+        "speaker": "Speaker",
+        "en": "Oh.",
+        "ipa": "/oʊ/",
+        "zh": "哦。",
+        "highlights": [
+          {
+            "text": "Oh",
+            "key": "哦",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 5.45,
+        "end": 7.61,
+        "speaker": "Speaker",
+        "en": "Look at this lovely mural.",
+        "ipa": "/lʊk æt ðis ˈlʌvli ˈmjʊrəl/",
+        "zh": "看看这幅美丽的壁画。",
+        "highlights": [
+          {
+            "text": "mural",
+            "key": "壁画",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 7.65,
+        "end": 11.89,
+        "speaker": "Speaker",
+        "en": "I love you.",
+        "ipa": "/aɪ lʌv ju/",
+        "zh": "我爱你。",
+        "highlights": [
+          {
+            "text": "love",
+            "key": "爱",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 11.93,
+        "end": 29.17,
+        "speaker": "Speaker",
+        "en": "Yes, I think my city Asheville is kind of known for art known for some other types of like uh music on the street, these types of things, but where we are is a neighborhood and not where people are playing music on the streets.",
+        "ipa": "/jɛs, aɪ θɪŋk maɪ ˈsɪti ˈæʃvɪl ɪz kaɪnd ʌv noʊn fɔr ɑrt noʊn fɔr sʌm ˈʌðər taɪps ʌv laɪk ʌ ˈmjuzɪk ɑn ðə strit, ðiz taɪps ʌv θɪŋz, bʌt wɛr wi ɑr ɪz ə ˈneɪbərhʊd ænd nɑt wɛr ˈpipəl ɑr ˈpleɪɪŋ ˈmjuzɪk ɑn ðə strits/",
+        "zh": "是的，我觉得我的家乡阿什维尔以艺术闻名，也以街头音乐之类的其他类型而闻名，但我们这里是一个居民区，而不是人们在街头演奏音乐的地方。",
+        "highlights": [
+          {
+            "text": "known for",
+            "key": "以……闻名",
+            "chip": "indigo"
+          },
+          {
+            "text": "neighborhood",
+            "key": "居民区，街区",
+            "chip": "orange"
+          },
+          {
+            "text": "playing music",
+            "key": "演奏音乐",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 29.21,
+        "end": 31.77,
+        "speaker": "Speaker",
+        "en": "So, let's keep going down this street.",
+        "ipa": "/soʊ, lɛts kip ˈgoʊɪŋ daʊn ðɪs strit/",
+        "zh": "那么，我们继续沿着这条街走吧。",
+        "highlights": [
+          {
+            "text": "keep going",
+            "key": "继续前进",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 31.81,
+        "end": 39.92,
+        "speaker": "Speaker",
+        "en": "Actually, what I would like to do is I'd like to cut across the street in just a moment, but let's keep going down here.",
+        "ipa": "/ˈæktʃuəli, wʌt aɪ wʊd laɪk tu du ɪz aɪd laɪk tu kʌt əˈkrɔs ðə strit ɪn dʒʌst ə ˈmoʊmənt, bʌt lɛts kip ˈgoʊɪŋ daʊn hɪr/",
+        "zh": "其实，我一会儿想直接穿过马路，但我们还是先顺着这里往下走吧。",
+        "highlights": [
+          {
+            "text": "cut across",
+            "key": "横穿，穿过",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 39.96,
+        "end": 42.17,
+        "speaker": "Speaker",
+        "en": "The sidewalk is nice and big.",
+        "ipa": "/ðə ˈsaɪdwɔk ɪz naɪs ænd bɪɡ/",
+        "zh": "人行道又宽敞又好走。",
+        "highlights": [
+          {
+            "text": "sidewalk",
+            "key": "人行道",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 42.21,
+        "end": 45.13,
+        "speaker": "Speaker",
+        "en": "So, Dan doesn't fall on his face.",
+        "ipa": "/soʊ, dæn ˈdʌzənt fɔl ɑn hɪz feɪs/",
+        "zh": "这样丹就不会摔个狗吃屎了。",
+        "highlights": [
+          {
+            "text": "fall on his face",
+            "key": "脸朝下跌倒",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 45.17,
+        "end": 55.81,
+        "speaker": "Speaker",
+        "en": "These people over here they are were our old neighbors and they used to have talking about music, they used to play music on their lawn out front and just the neighbors would come over and listen.",
+        "ipa": "/ðiz ˈpipəl ˈoʊvər hɪr ðeɪ ɑr wɜr ˈaʊər oʊld ˈneɪbərz ænd ðeɪ just tu hæv ˈtɔkɪŋ əˈbaʊt ˈmjuzɪk, ðeɪ just tu pleɪ ˈmjuzɪk ɑn ðɛr lɔn aʊt frʌnt ænd dʒʌst ðə ˈneɪbərz wʊd kʌm ˈoʊvər ænd ˈlɪsən/",
+        "zh": "那边这些人以前是我们的邻居，他们经常——说到音乐，他们以前经常在自家前院的草坪上演奏音乐然后邻居们就会过来听。",
+        "highlights": [
+          {
+            "text": "used to",
+            "key": "过去常常",
+            "chip": "indigo"
+          },
+          {
+            "text": "come over",
+            "key": "过来，串门",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 55.85,
+        "end": 57.13,
+        "speaker": "Speaker",
+        "en": "It's quite nice.",
+        "ipa": "/ɪts kwaɪt naɪs/",
+        "zh": "挺不错的。",
+        "highlights": [
+          {
+            "text": "quite nice",
+            "key": "相当不错",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 57.17,
+        "end": 59.04,
+        "speaker": "Speaker",
+        "en": "Do you remember this house?",
+        "ipa": "/du ju rɪˈmɛbər ðɪs haʊs/",
+        "zh": "你还记得这栋房子吗？",
+        "highlights": [
+          {
+            "text": "remember",
+            "key": "记得",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 59.08,
+        "end": 61.93,
+        "speaker": "Speaker",
+        "en": "[panting] They're always doing construction on it.",
+        "ipa": "/ˈpæntɪŋ ðɛr ˈɔlweɪz ˈduɪŋ kənˈstrʌkʃən ɑn ɪt/",
+        "zh": "[喘气] 他们一直在那栋房子里搞施工。",
+        "highlights": [
+          {
+            "text": "construction",
+            "key": "建设，施工",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 61.97,
+        "end": 62.77,
+        "speaker": "Speaker",
+        "en": "Always new construction.",
+        "ipa": "/ˈɔlweɪz nu kənˈstrʌkʃən/",
+        "zh": "总是在搞新的建设。",
+        "highlights": [
+          {
+            "text": "Always",
+            "key": "总是",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 62.81,
+        "end": 68.09,
+        "speaker": "Speaker",
+        "en": "They painted it like four different times and it looks like they're still painting it.",
+        "ipa": "/ðeɪ ˈpeɪntɪd ɪt laɪk fɔr ˈdɪfərənt taɪmz ænd ɪt lʊks laɪk ðɛr stɪl ˈpeɪntɪŋ ɪt/",
+        "zh": "他们好像已经刷了四次漆了，而且看起来还在继续刷。",
+        "highlights": [
+          {
+            "text": "different times",
+            "key": "不同的次数",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 68.13,
+        "end": 74.89,
+        "speaker": "Speaker",
+        "en": "Um I don't know if anyone actually lives there, but certainly seems like an expensive endeavor.",
+        "ipa": "/ʌm aɪ doʊnt noʊ ɪf ˈɛniwʌn ˈæktʃuəli lɪvz ðɛr, bʌt ˈsɜrtənli simz laɪk ən ɪkˈspɛnsɪv ɛnˈdɛvər/",
+        "zh": "嗯，我不知道到底有没有人住在里面，但这绝对是一项花钱不少的工程。",
+        "highlights": [
+          {
+            "text": "expensive endeavor",
+            "key": "昂贵的尝试/工程",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 74.93,
+        "end": 79.37,
+        "speaker": "Speaker",
+        "en": "All right, we are coming to the end of the sidewalk.",
+        "ipa": "/ɔl raɪt, wi ɑr ˈkʌmɪŋ tu ði ɛnd ʌv ðə ˈsaɪdwɔk/",
+        "zh": "好了，我们快走到人行道的尽头了。",
+        "highlights": [
+          {
+            "text": "end of",
+            "key": "……的尽头",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "start": 79.41,
+        "end": 82.45,
+        "speaker": "Speaker",
+        "en": "Let's see if we can cross the street.",
+        "ipa": "/lɛts si ɪf wi kən krɔs ðə strit/",
+        "zh": "看看我们能不能过马路。",
+        "highlights": [
+          {
+            "text": "cross the street",
+            "key": "过马路",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 82.49,
+        "end": 90.38,
+        "speaker": "Speaker",
+        "en": "We'll go past the old apartment building we used to live in and you will see one of the most exciting houses in all of Asheville, in my opinion.",
+        "ipa": "/wil goʊ pæst ðə oʊld əˈpɑrtmənt ˈbɪldɪŋ wi just tu lɪv ɪn ænd ju wɪl si wʌn ʌv ðə moʊst ɪkˈsaɪtɪŋ ˈhaʊzɪz ɪn ɔl ʌv ˈæʃvɪl, ɪn maɪ əˈpɪnjən/",
+        "zh": "我们会经过我们以前住过的那栋老公寓楼，然后你会看到全阿什维尔最令人惊叹的房子之一。在我看来是这样的。",
+        "highlights": [
+          {
+            "text": "go past",
+            "key": "经过",
+            "chip": "indigo"
+          },
+          {
+            "text": "in my opinion",
+            "key": "依我来看",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 90.42,
+        "end": 92.53,
+        "speaker": "Speaker",
+        "en": "So, let's see if we can cross the street.",
+        "ipa": "/soʊ, lɛts si ɪf wi kən krɔs ðə strit/",
+        "zh": "那么，我们看看能不能过马路。",
+        "highlights": [
+          {
+            "text": "cross",
+            "key": "cross",
+            "chip": "pink"
+          },
+          {
+            "text": "street",
+            "key": "street",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "start": 92.57,
+        "end": 94.17,
+        "speaker": "Speaker",
+        "en": "I think there she goes.",
+        "ipa": "/aɪ θɪŋk ðɛr ʃi goʊz/",
+        "zh": "我想她走了/机会来了。",
+        "highlights": [
+          {
+            "text": "there she goes",
+            "key": "她走啦/就是这样",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "start": 94.21,
+        "end": 96.77,
+        "speaker": "Speaker",
+        "en": "All right, let's go over here.",
+        "ipa": "/ɔl raɪt, lɛts goʊ ˈoʊvər hɪr/",
+        "zh": "好吧，我们去那边。",
+        "highlights": [
+          {
+            "text": "go over",
+            "key": "过去，前往",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "start": 96.81,
+        "end": 104.89,
+        "speaker": "Speaker",
+        "en": "We're going to go down the street away from the grocery stores and this is a lovely apartment complex.",
+        "ipa": "/wɪr ˈgoʊɪŋ tu goʊ daʊn ðə strit əˈweɪ frʌm ðə ˈgroʊsəri stɔrz ænd ðis ɪz ə ˈlʌvli əˈpɑrtmənt ˈkɑmplɛks/",
+        "zh": "我们要顺着这条街走，远离那些杂货店，这里是一个很漂亮的公寓小区。",
+        "highlights": [
+          {
+            "text": "apartment complex",
+            "key": "公寓小区",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "start": 104.93,
+        "end": 106.17,
+        "speaker": "Speaker",
+        "en": "Uh this is where we used to live.",
+        "ipa": "/ʌ ðɪs ɪz wɛr wi just tu lɪv/",
+        "zh": "呃，这就是我们以前住的地方。",
+        "highlights": [
+          {
+            "text": "used to live",
+            "key": "曾经居住",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "start": 106.21,
+        "end": 107.01,
+        "speaker": "Speaker",
+        "en": "Our old home.",
+        "ipa": "/ˈaʊər oʊld hoʊm/",
+        "zh": "我们以前的家。",
+        "highlights": [
+          {
+            "text": "old home",
+            "key": "老家，旧居",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "start": 107.05,
+        "end": 109.29,
+        "speaker": "Speaker",
+        "en": "We don't live there anymore.",
+        "ipa": "/wi doʊnt lɪv ðɛr ˈɛniˌmɔr/",
+        "zh": "我们现在不住在那里了。",
+        "highlights": [
+          {
+            "text": "anymore",
+            "key": "不再",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "start": 109.33,
+        "end": 120.64,
+        "speaker": "Speaker",
+        "en": "In the US, a lot of apartment buildings are new as in they were built within the last 30 or 40 years, but this building is over 100 years old.",
+        "ipa": "/ɪn ðə juˈɛs, ə lɑt ʌv əˈpɑrtmənt ˈbɪldɪŋz ɑr nu æz ɪn ðeɪ wɜr bɪlt wɪˈðɪn ðə læst ˈθɜrti ɔr ˈfɔrti jɪrz, bʌt ðɪs ˈbɪldɪŋ ɪz ˈoʊvər wʌn ˈhʌndrəd jɪrz oʊld/",
+        "zh": "在美国，很多公寓楼都很新，也就是最近三四十年内建造的，但这座建筑已经有100多年的历史了。",
+        "highlights": [
+          {
+            "text": "a lot of",
+            "key": "许多",
+            "chip": "indigo"
+          },
+          {
+            "text": "years old",
+            "key": "……岁/年历史",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "start": 120.68,
+        "end": 124.78,
+        "speaker": "Speaker",
+        "en": "I think the 1920s, which for the US is pretty old.",
+        "ipa": "/aɪ θɪŋk ðə naɪˈtin ˈtwɛntiz, wɪtʃ fɔr ðə juˈɛs ɪz ˈprɪti oʊld/",
+        "zh": "建于20世纪20年代吧，这在美国已经相当古老了。",
+        "highlights": [
+          {
+            "text": "pretty old",
+            "key": "相当古老",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "start": 124.82,
+        "end": 128.29,
+        "speaker": "Speaker",
+        "en": "All right, are you ready for something very exciting?",
+        "ipa": "/ɔl raɪt, ɑr ju ˈrɛdi fɔr ˈsʌmθɪŋ ˈvɛri ɪkˈsaɪtɪŋ/",
+        "zh": "好了，准备好迎接非常刺激的事情了吗？",
+        "highlights": [
+          {
+            "text": "ready for",
+            "key": "为……做好准备",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "start": 128.33,
+        "end": 130.77,
+        "speaker": "Speaker",
+        "en": "It is coming up right here.",
+        "ipa": "/ɪt ɪz ˈkʌmɪŋ ʌp raɪt hɪr/",
+        "zh": "马上就在这里出现了。",
+        "highlights": [
+          {
+            "text": "coming up",
+            "key": "即将到来",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "start": 130.81,
+        "end": 133.81,
+        "speaker": "Speaker",
+        "en": "Some might call this an eclectic house.",
+        "ipa": "/sʌm maɪt kɔl ðɪs ən ɪˈklɛktɪk haʊs/",
+        "zh": "有些人可能会称这栋房子风格多元。",
+        "highlights": [
+          {
+            "text": "eclectic",
+            "key": "eclectic",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "start": 133.85,
+        "end": 137.67,
+        "speaker": "Speaker",
+        "en": "This is where a guy named Jesse used to live when we lived in this apartment building.",
+        "ipa": "/ðɪs ɪz wɛr ə ɡaɪ neɪmd ˈdʒɛsi ˈjuzd tu lɪv wɛn wi lɪvd ɪn ðɪs əˈpɑrtmənt ˈbɪldɪŋ/",
+        "zh": "以前我们住在这个公寓楼里时，一个叫杰西的家伙就住在这一带。",
+        "highlights": [
+          {
+            "text": "used to live",
+            "key": "used to live",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "start": 137.71,
+        "end": 144.54,
+        "speaker": "Speaker",
+        "en": "I'd come down here and he was always sitting on his front porch around his most precious possessions.",
+        "ipa": "/aɪd kʌm daʊn hɪər ənd hi wɪz ˈɔlwɛz ˈsɪtɪŋ ɑn hɪz frʌnt pɔrtʃ əˈraʊnd hɪz moʊst ˈprɛʃəs pəˈzɛʃənz/",
+        "zh": "我来到这里时，总是看到他坐在前廊上，身边摆放着他最珍贵的物品。",
+        "highlights": [
+          {
+            "text": "front porch",
+            "key": "front porch",
+            "chip": "indigo"
+          },
+          {
+            "text": "precious possessions",
+            "key": "precious possessions",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "start": 144.58,
+        "end": 147.18,
+        "speaker": "Speaker",
+        "en": "Do you know what these lovely things are called?",
+        "ipa": "/du ju noʊ wʌt ðiz ˈlʌvli θɪŋz ɑr kɔld/",
+        "zh": "你知道这些可爱的东西叫什么吗？",
+        "highlights": [
+          {
+            "text": "lovely things",
+            "key": "lovely things",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "start": 147.22,
+        "end": 148.3,
+        "speaker": "Speaker",
+        "en": "Wind chimes.",
+        "ipa": "/wɪnd tʃaɪmz/",
+        "zh": "风铃。",
+        "highlights": [
+          {
+            "text": "Wind chimes",
+            "key": "Wind chimes",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "start": 148.34,
+        "end": 154.34,
+        "speaker": "Speaker",
+        "en": "So, wind chimes have those little metal poles and they clang and dangle in the wind.",
+        "ipa": "/soʊ wɪnd tʃaɪmz hæv ðoʊz ˈlɪtəl ˈmɛtəl poʊlz ənd ðeɪ klæŋ ənd ˈdæŋɡəl ɪn ðə wɪnd/",
+        "zh": "风铃就是那种带有小金属管的东西，它们会在风中发出叮当声并摇曳。",
+        "highlights": [
+          {
+            "text": "clang and dangle",
+            "key": "clang and dangle",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "start": 154.38,
+        "end": 162.82,
+        "speaker": "Speaker",
+        "en": "Well, when people heard that he liked wind chimes, he started collecting so many of them that now the entire front is covered with wind chimes.",
+        "ipa": "/wɛl wɛn ˈpipəl hɜrd ðæt hi laɪkt wɪnd tʃaɪmz hi ˈstɑrtɪd kəˈlɛktɪŋ soʊ ˈmɛni əv ðɛm ðæt naʊ ði ɪnˈtaɪr frʌnt ɪz ˈkʌvərd wɪð wɪnd tʃaɪmz/",
+        "zh": "后来，当人们听说他喜欢风铃时，他就开始疯狂收集，以至于现在整个正面都挂满了风铃。",
+        "highlights": [
+          {
+            "text": "started collecting",
+            "key": "started collecting",
+            "chip": "indigo"
+          },
+          {
+            "text": "wind chimes",
+            "key": "wind chimes",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "start": 162.86,
+        "end": 164.22,
+        "speaker": "Speaker",
+        "en": "I think it's pretty exciting.",
+        "ipa": "/aɪ θɪŋk ɪts ˈprɪti ɪkˈsaɪtɪŋ/",
+        "zh": "我觉得这挺让人兴奋的。",
+        "highlights": [
+          {
+            "text": "pretty exciting",
+            "key": "pretty exciting",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "start": 164.26,
+        "end": 174.45,
+        "speaker": "Speaker",
+        "en": "It's not what I would want at my house, but I think it's pretty exciting and it's kind of one of those things that gives your city a little bit of excitement and flare, right?",
+        "ipa": "/ɪts nɑt wʌt aɪ wʊd wɑnt æt maɪ haʊs bʌt aɪ θɪŋk ɪts ˈprɪti ɪkˈsaɪtɪŋ ənd ɪts kaɪnd əv wʌn əv ðoʊz θɪŋz ðæt ɡɪvz jʊər ˈsɪti ə ˈlɪtəl bɪt əv ɪkˈsaɪtɪŋmɪnt ənd flɛr raɪt/",
+        "zh": "虽然我不会在自己家里搞成这样，但我觉得这挺有意思的，而且它也算是那种能给你的城市增添一些活力和独特魅力的事物之一，对吧？",
+        "highlights": [
+          {
+            "text": "kind of",
+            "key": "kind of",
+            "chip": "pink"
+          },
+          {
+            "text": "a little bit of",
+            "key": "a little bit of",
+            "chip": "indigo"
+          },
+          {
+            "text": "flare",
+            "key": "flare",
+            "chip": "orange"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-69-trimmed-69-micro2",
+    "number": "EP 69",
+    "title": "美国邮局外景打卡：给团队寄出当地手工巧克力",
+    "speaker": "Speak English With Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 75,
+    "durationLabel": "01:15",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语"
+    ],
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E9%82%AE%E5%B1%80%E5%A4%96%E6%99%AF%E6%89%93%E5%8D%A1%EF%BC%9A%E7%BB%99%E5%9B%A2%E9%98%9F%E5%AF%84%E5%87%BA%E5%BD%93%E5%9C%B0%E6%89%8B%E5%B7%A5%E5%B7%A7%E5%85%8B%E5%8A%9B.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E9%82%AE%E5%B1%80%E5%A4%96%E6%99%AF%E6%89%93%E5%8D%A1%EF%BC%9A%E7%BB%99%E5%9B%A2%E9%98%9F%E5%AF%84%E5%87%BA%E5%BD%93%E5%9C%B0%E6%89%8B%E5%B7%A5%E5%B7%A7%E5%85%8B%E5%8A%9B.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E9%82%AE%E5%B1%80%E5%A4%96%E6%99%AF%E6%89%93%E5%8D%A1%EF%BC%9A%E7%BB%99%E5%9B%A2%E9%98%9F%E5%AF%84%E5%87%BA%E5%BD%93%E5%9C%B0%E6%89%8B%E5%B7%A5%E5%B7%A7%E5%85%8B%E5%8A%9B.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 10.08,
+        "speaker": "Speaker",
+        "en": "Now, unfortunately, I'm not going to be taking you into the post office with me, but we will drive up to the post office and you'll see what happens.",
+        "ipa": "/naʊ ənˈfɔrtʃənətli aɪm nɑt ˈɡoʊɪŋ tu bi ˈteɪkɪŋ ju ˈɪntə ðə poʊst ˈɔfɪs wɪð mi bʌt wi wɪl draɪv ʌp tu ðə poʊst ˈɔfɪs ænd jul si wʌt ˈhæpənz/",
+        "zh": "现在，很遗憾我不能带你一起进邮局，但我们会开车到邮局门口然后你就会看到会发生什么。",
+        "highlights": [
+          {
+            "text": "unfortunately",
+            "key": "unfortunately",
+            "chip": "orange"
+          },
+          {
+            "text": "what happens",
+            "key": "what happens",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 10.12,
+        "end": 10.83,
+        "speaker": "Speaker",
+        "en": "Let's go.",
+        "ipa": "/lɛts ɡoʊ/",
+        "zh": "我们走吧。",
+        "highlights": [
+          {
+            "text": "Let's go",
+            "key": "let's go",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 10.87,
+        "end": 13.63,
+        "speaker": "Speaker",
+        "en": "Our final errand is going to the post office.",
+        "ipa": "/ˈaʊər ˈfaɪnəl ˈɛrənd ɪz ˈɡoʊɪŋ tu ðə poʊst ˈɔfɪs/",
+        "zh": "我们最后要办的事是去邮局。",
+        "highlights": [
+          {
+            "text": "final",
+            "key": "final",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 13.67,
+        "end": 18.31,
+        "speaker": "Speaker",
+        "en": "Unfortunately, this is not one of my favorite errands, but the people who work here are really nice.",
+        "ipa": "/ənˈfɔrtʃənətli ðɪs ɪz nɑt wʌn ʌv maɪ ˈfeɪvərɪt ˈɛrəndz bʌt ðə ˈpipəl hu wɜrk hɪr ɑr ˈrɪəli naɪs/",
+        "zh": "很遗憾，这不是我最喜欢的差事，但在这里工作的人都非常友善。",
+        "highlights": [
+          {
+            "text": "favorite",
+            "key": "favorite",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 18.35,
+        "end": 25.28,
+        "speaker": "Speaker",
+        "en": "I'm going to be sending these little chocolate packages to some of my team members who had birthdays recently.",
+        "ipa": "/aɪm ˈɡoʊɪŋ tu bi ˈsɛndɪŋ ðiz ˈlɪtəl ˈtʃɑklət ˈpækɪdʒɪz tu sʌm ʌv maɪ tim ˈmɛmbərz hu hæd ˈbɜrθdeɪz ˈrisəntli/",
+        "zh": "我打算把这些小巧克力礼盒寄给最近过生日的一些团队成员。",
+        "highlights": [
+          {
+            "text": "team members",
+            "key": "team members",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 25.32,
+        "end": 27.72,
+        "speaker": "Speaker",
+        "en": "I like to try to send them local chocolate.",
+        "ipa": "/aɪ laɪk tu traɪ tu sɛnd ðɛm ˈloʊkəl ˈtʃɑklət/",
+        "zh": "我喜欢尽量送他们当地的巧克力。",
+        "highlights": [
+          {
+            "text": "local",
+            "key": "local",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 27.76,
+        "end": 34.24,
+        "speaker": "Speaker",
+        "en": "It's something I would love to receive for my birthday, so I'm sending this to them and I need to go into the post office to do that.",
+        "ipa": "/ɪts ˈsʌmθɪŋ aɪ wʊd lʌv tu rɪˈsiv fɔr maɪ ˈbɜrθdeɪ soʊ aɪm ˈsɛndɪŋ ðɪs tu ðɛm ænd aɪ nid tu ɡoʊ ˈɪntə ðə poʊst ˈɔfɪs tu du ðæt/",
+        "zh": "这也是我生日时很想收到的礼物，所以我打算寄给他们，为此我需要亲自去一趟邮局。",
+        "highlights": [
+          {
+            "text": "receive",
+            "key": "receive",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 34.28,
+        "end": 36.11,
+        "speaker": "Speaker",
+        "en": "But, I'm not going to take you with me.",
+        "ipa": "/bʌt aɪm nɑt ˈɡoʊɪŋ tu teɪk ju wɪð mi/",
+        "zh": "但是，我不会带你一起去。",
+        "highlights": [
+          {
+            "text": "take you with me",
+            "key": "take with",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 36.15,
+        "end": 37.71,
+        "speaker": "Speaker",
+        "en": "Sorry about that.",
+        "ipa": "/ˈsɑri əˈbaʊt ðæt/",
+        "zh": "抱歉啦。",
+        "highlights": [
+          {
+            "text": "Sorry about that",
+            "key": "sorry about that",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 37.75,
+        "end": 50.91,
+        "speaker": "Speaker",
+        "en": "So, you'll have to be satisfied with just this shot outside the post office and I'll see you after I go in.",
+        "ipa": "/soʊ jul hæv tu bi ˈsætɪsfaɪd wɪð dʒʌst ðɪs ʃɑt ˈaʊtsaɪd ðə poʊst ˈɔfɪs ænd aɪl si ju ˈæftər aɪ ɡoʊ ɪn/",
+        "zh": "所以，你们就只能看看邮局外面的这个镜头了，等我之后再见。进去之后。",
+        "highlights": [
+          {
+            "text": "satisfied with",
+            "key": "satisfied with",
+            "chip": "indigo"
+          },
+          {
+            "text": "go in",
+            "key": "go in",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 50.95,
+        "end": 56.65,
+        "speaker": "Speaker",
+        "en": "All right, I just finished at the post office and I sent those lovely gifts to two of my team members.",
+        "ipa": "/ɔl raɪt aɪ dʒʌst ˈfɪnɪʃt æt ðə poʊst ˈɔfɪs ænd aɪ sɛnt ðoʊz ˈlʌvli ɡɪfts tu tu ʌv maɪ tim ˈmɛmbərz/",
+        "zh": "好了，我刚从邮局办完事，已经把那两份可爱的礼物寄给了我的两位团队成员。",
+        "highlights": [
+          {
+            "text": "finished",
+            "key": "finish",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 56.69,
+        "end": 60.22,
+        "speaker": "Speaker",
+        "en": "Thank you so much for joining me today to run some errands.",
+        "ipa": "/θæŋk ju soʊ mʌtʃ fɔr ˈdʒɔɪnɪŋ mi təˈdeɪ tu rʌn sʌm ˈɛrəndz/",
+        "zh": "非常感谢大家今天陪我一起跑腿办事。",
+        "highlights": [
+          {
+            "text": "run some errands",
+            "key": "run errands",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 60.26,
+        "end": 70.1,
+        "speaker": "Speaker",
+        "en": "Running errands isn't my favorite activity, but it's certainly a necessary part of life, so I hope that you learned some useful English phrases for daily life in today's lesson.",
+        "ipa": "/ˈrʌnɪŋ ˈɛrəndz ˈɪzənt maɪ ˈfeɪvərɪt ækˈtɪvɪti bʌt ɪts ˈsɜrtənli ə ˈnɛsəˌsɛri pɑrt ʌv laɪf soʊ aɪ hoʊp ðæt ju lɜrnd sʌm ˈjusfəl ˈɪŋɡlɪʃ ˈfreɪzɪz fɔr ˈdeɪli laɪf ɪn təˈdeɪz ˈlɛsən/",
+        "zh": "跑腿办事虽然不是我最喜欢的活动，但它绝对是生活中必不可少的一部分，所以我希望你能在今天的课程中学到一些日常生活中的实用英语短语。",
+        "highlights": [
+          {
+            "text": "necessary",
+            "key": "necessary",
+            "chip": "orange"
+          },
+          {
+            "text": "useful",
+            "key": "useful",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 70.14,
+        "end": 74.9,
+        "speaker": "Speaker",
+        "en": "Thank you for joining me for these errands around town in English.",
+        "ipa": "/θæŋk ju fɔr ˈdʒɔɪnɪŋ mi fɔr ðiz ˈɛrəndz əˈraʊnd taʊn ɪn ˈɪŋɡlɪʃ/",
+        "zh": "谢谢你们用英语陪我一起在城里办这些事。",
+        "highlights": [
+          {
+            "text": "around town",
+            "key": "around town",
+            "chip": "indigo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-68-Drive-thru-micro1",
+    "number": "EP 68",
+    "title": "免下车存款：美国银行 Drive-thru 气动管道实景",
+    "speaker": "Speak English With Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 2,
+    "durationSec": 182,
+    "durationLabel": "03:02",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverImage": "./content/episodes/trimmed/%E5%85%8D%E4%B8%8B%E8%BD%A6%E5%AD%98%E6%AC%BE%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E6%B0%94%E5%8A%A8%E7%AE%A1%E9%81%93%E5%AE%9E%E6%99%AF.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E5%85%8D%E4%B8%8B%E8%BD%A6%E5%AD%98%E6%AC%BE%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E6%B0%94%E5%8A%A8%E7%AE%A1%E9%81%93%E5%AE%9E%E6%99%AF.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E5%85%8D%E4%B8%8B%E8%BD%A6%E5%AD%98%E6%AC%BE%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E6%B0%94%E5%8A%A8%E7%AE%A1%E9%81%93%E5%AE%9E%E6%99%AF.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 6.72,
+        "speaker": "Speaker",
+        "en": "All right, our next errand is to go to the bank and I need to deposit some checks that we were given.",
+        "ipa": "/ɔːl raɪt ˈaʊər nekst ˈerənd ɪz tuː ɡoʊ tuː ðə bæŋk ənd aɪ niːd tuː dɪˈpɑːzɪt sʌm tʃeks ðæt wiː wɜːr ˈɡɪvn/",
+        "zh": "好的，我们接下来的差事是去银行，我需要存入一些别人给我们的支票。",
+        "highlights": [
+          {
+            "text": "errand",
+            "key": "errand",
+            "chip": "orange"
+          },
+          {
+            "text": "deposit",
+            "key": "deposit",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 6.76,
+        "end": 8.2,
+        "speaker": "Speaker",
+        "en": "One of them's a tax check.",
+        "ipa": "/wʌn əv ðemz ə tæks tʃek/",
+        "zh": "其中一张是退税支票。",
+        "highlights": [
+          {
+            "text": "tax check",
+            "key": "tax check",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 8.24,
+        "end": 13.42,
+        "speaker": "Speaker",
+        "en": "One of them is a check given to Dan, my husband, from his grandparents for his birthday.",
+        "ipa": "/wʌn əv ðem ɪz ə tʃek ˈɡɪvn tuː dæn maɪ ˈhʌzbənd frʌm hɪz ˈɡrændpeərənts fɔːr hɪz ˈbɜːrθdeɪ/",
+        "zh": "其中一张是我丈夫丹的祖父母送给他的生日支票。",
+        "highlights": [
+          {
+            "text": "grandparents",
+            "key": "grandparents",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 13.46,
+        "end": 16.86,
+        "speaker": "Speaker",
+        "en": "It's kind of uh an American tradition.",
+        "ipa": "/ɪts kaɪnd əv ʌ ən əˈmerɪkən trəˈdɪʃn/",
+        "zh": "这有点像美国的一种传统。",
+        "highlights": [
+          {
+            "text": "kind of",
+            "key": "kind of",
+            "chip": "pink"
+          },
+          {
+            "text": "tradition",
+            "key": "tradition",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 16.9,
+        "end": 30.67,
+        "speaker": "Speaker",
+        "en": "I don't know if it's a tradition, but in my family and in Dan's family, grandparents like to give their grandchildren some money for their birthday and the older generation will often use a check to do that.",
+        "ipa": "/aɪ doʊnt noʊ ɪf ɪts ə trəˈdɪʃn bʌt ɪn maɪ ˈfæmli ənd ɪn dænz ˈfæmli ˈɡrændpeərənts laɪk tuː ɡɪv ðeɪr ˈɡrændtʃɪldrən sʌm ˈmʌni fɔːr ðeər ˈbɜːrθdeɪ ənd ði ˈoʊldər ˌdʒenəˈreɪʃn wɪl ˈɔːfn juːz ə tʃek tuː duː ðæt/",
+        "zh": "我不知道这算不算传统，但在我和丹的家庭里，爷爷奶奶喜欢给孙辈一些钱作为生日礼物，而老一辈人通常会用支票来给。",
+        "highlights": [
+          {
+            "text": "grandchildren",
+            "key": "grandchildren",
+            "chip": "orange"
+          },
+          {
+            "text": "older generation",
+            "key": "older generation",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 30.71,
+        "end": 34.21,
+        "speaker": "Speaker",
+        "en": "So, we have to deposit it in the bank and let's go.",
+        "ipa": "/soʊ wiː hæv tuː dɪˈpɑːzɪt ɪt ɪn ðə bæŋk ənd lets ɡoʊ/",
+        "zh": "所以，我们得把它存到银行去，我们走吧。",
+        "highlights": [
+          {
+            "text": "deposit it",
+            "key": "deposit it",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 34.25,
+        "end": 35.16,
+        "speaker": "Speaker",
+        "en": "Let's see what happens.",
+        "ipa": "/lets siː wʌt ˈhæpnz/",
+        "zh": "让我们拭目以待吧。",
+        "highlights": [
+          {
+            "text": "Let's see",
+            "key": "let's see",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 35.2,
+        "end": 39.88,
+        "speaker": "Speaker",
+        "en": "I'm going to use the drive-thru to show you the true American experience.",
+        "ipa": "/aɪm ˈɡuːɪŋ tuː juːz ðə ˈdraɪv θruː tuː ʃoʊ juː ðə truː əˈmerɪkən ɪkˈspɪriəns/",
+        "zh": "我打算去开免下车通道（drive-thru），带你们体验真正的美国生活方式。",
+        "highlights": [
+          {
+            "text": "drive-thru",
+            "key": "drive-thru",
+            "chip": "orange"
+          },
+          {
+            "text": "experience",
+            "key": "experience",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 39.92,
+        "end": 47.28,
+        "speaker": "Speaker",
+        "en": "And I'm not exactly sure what's going to happen, but let's just give it a shot.",
+        "ipa": "/ænd aɪm nɑːt ɪɡˈzæktli ʃʊr wʌts ˈɡuːɪŋ tuː ˈhæpn bʌt lets dʒʌst ɡɪv ɪt ə ʃɑːt/",
+        "zh": "我不太确定接下来会发生什么，但我们不妨试试看。",
+        "highlights": [
+          {
+            "text": "give it a shot",
+            "key": "give it a shot",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 47.32,
+        "end": 52.96,
+        "speaker": "Speaker",
+        "en": "All right, so All right, park.",
+        "ipa": "/ɔːl raɪt soʊ ɔːl raɪt pɑːrk/",
+        "zh": "好勒，那么好啦，停车。",
+        "highlights": [
+          {
+            "text": "All right",
+            "key": "all right",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 53.0,
+        "end": 57.16,
+        "speaker": "Speaker",
+        "en": "There's this little cool tube.",
+        "ipa": "/ðerz ðɪs ˈlɪtl kuːl tuːb/",
+        "zh": "这里有一个很酷炫的小管道。",
+        "highlights": [
+          {
+            "text": "cool tube",
+            "key": "cool tube",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 57.2,
+        "end": 60.36,
+        "speaker": "Speaker",
+        "en": "Mhm.",
+        "ipa": "/m̩həm/",
+        "zh": "嗯哼。",
+        "highlights": []
+      },
+      {
+        "id": 13,
+        "start": 60.4,
+        "end": 63.08,
+        "speaker": "Speaker",
+        "en": "Here it is.",
+        "ipa": "/hɪr ɪt ɪz/",
+        "zh": "就是这个。",
+        "highlights": [
+          {
+            "text": "Here it is",
+            "key": "here it is",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 63.12,
+        "end": 65.04,
+        "speaker": "Speaker",
+        "en": "You take the tube out.",
+        "ipa": "/juː teɪk ðə tuːb aʊt/",
+        "zh": "你把这个管子抽出来。",
+        "highlights": []
+      },
+      {
+        "id": 15,
+        "start": 65.08,
+        "end": 68.93,
+        "speaker": "Speaker",
+        "en": "It has a pen inside if you need to sign anything.",
+        "ipa": "/ɪt hæz ə pen ɪnˈsaɪd ɪf juː niːd tuː saɪn ˈeniθɪŋ/",
+        "zh": "里面备了一支笔，如果你需要签名的话。",
+        "highlights": [
+          {
+            "text": "inside",
+            "key": "inside",
+            "chip": "orange"
+          },
+          {
+            "text": "sign",
+            "key": "sign",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 68.97,
+        "end": 70.7,
+        "speaker": "Speaker",
+        "en": "I already signed everything.",
+        "ipa": "/aɪ ɔːlˈredi saɪnd ˈevriθɪŋ/",
+        "zh": "我已经把所有的东西都签好字了。",
+        "highlights": [
+          {
+            "text": "already",
+            "key": "already",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 70.74,
+        "end": 72.68,
+        "speaker": "Speaker",
+        "en": "I was prepared.",
+        "ipa": "/aɪ wəz prɪˈperd/",
+        "zh": "我做好了准备。",
+        "highlights": [
+          {
+            "text": "prepared",
+            "key": "prepared",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 72.72,
+        "end": 79.0,
+        "speaker": "Speaker",
+        "en": "So, I'm just going to put my driver's license and the checks in here.",
+        "ipa": "/soʊ aɪm dʒʌst ˈɡuːɪŋ tuː pʊt maɪ ˈdraɪvərz ˈlaɪsns ənd ðə tʃeks ɪn hɪr/",
+        "zh": "所以，我只需把我的驾照和支票放进这里面。",
+        "highlights": [
+          {
+            "text": "driver's license",
+            "key": "driver's license",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "start": 79.04,
+        "end": 81.02,
+        "speaker": "Speaker",
+        "en": "Close it up.",
+        "ipa": "/kloʊz ɪt ʌp/",
+        "zh": "把它合上。",
+        "highlights": [
+          {
+            "text": "Close it up",
+            "key": "close it up",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 81.06,
+        "end": 83.88,
+        "speaker": "Speaker",
+        "en": "Watch this magic.",
+        "ipa": "/wɑːtʃ ðɪs ˈmædʒɪk/",
+        "zh": "见证奇迹的时刻到了。",
+        "highlights": [
+          {
+            "text": "magic",
+            "key": "magic",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 83.92,
+        "end": 85.44,
+        "speaker": "Speaker",
+        "en": "Are you ready?",
+        "ipa": "/ɑːr juː ˈredi/",
+        "zh": "准备好了吗？",
+        "highlights": [
+          {
+            "text": "ready",
+            "key": "ready",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "start": 85.48,
+        "end": 89.24,
+        "speaker": "Speaker",
+        "en": "I push uh send carrier.",
+        "ipa": "/aɪ pʊʃ ʌ send ˈkæriər/",
+        "zh": "我按下呃发送载体的按钮。",
+        "highlights": [
+          {
+            "text": "carrier",
+            "key": "carrier",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "start": 89.28,
+        "end": 93.12,
+        "speaker": "Speaker",
+        "en": "Watch this tube up here.",
+        "ipa": "/wɑːtʃ ðɪs tuːb ʌp hɪr/",
+        "zh": "注意看上面这个管道。",
+        "highlights": [
+          {
+            "text": "Watch",
+            "key": "watch",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "start": 93.16,
+        "end": 95.71,
+        "speaker": "Speaker",
+        "en": "What?",
+        "ipa": "/wʌt/",
+        "zh": "什么？",
+        "highlights": []
+      },
+      {
+        "id": 25,
+        "start": 95.75,
+        "end": 100.92,
+        "speaker": "Speaker",
+        "en": "[gasps] As a kid, this is always the most exciting part about going to the bank.",
+        "ipa": "/æz ə kɪd ðɪs ɪz ˈɔːlweɪz ðə moʊst ɪkˈsaɪtɪŋ pɑːrt əˈbaʊt ˈɡuːɪŋ tuː ðə bæŋk/",
+        "zh": "[倒吸一口气] 小时候，去银行最让人兴奋的总是这个环节。",
+        "highlights": [
+          {
+            "text": "As a kid",
+            "key": "as a kid",
+            "chip": "pink"
+          },
+          {
+            "text": "exciting",
+            "key": "exciting",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "start": 100.96,
+        "end": 107.12,
+        "speaker": "Speaker",
+        "en": "Watching the tube get sucked up into this area and go into the bank.",
+        "ipa": "/ˈwɑːtʃɪŋ ðə tuːb ɡet sʌkt ʌp ˈɪntuː ðɪs ˈeriə ənd ɡoʊ ˈɪntuː ðə bæŋk/",
+        "zh": "看着管子被吸进这个区域，然后送进银行里面。",
+        "highlights": [
+          {
+            "text": "sucked up",
+            "key": "sucked up",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "start": 107.16,
+        "end": 109.94,
+        "speaker": "Speaker",
+        "en": "Um I used to actually work at the bank a long time ago.",
+        "ipa": "/ʌm aɪ juːzd tuː ˈæktʃuəli wɜːrk æt ðə bæŋk ə lɔːŋ taɪm əˈɡoʊ/",
+        "zh": "嗯，其实很久以前我曾在银行工作过。",
+        "highlights": [
+          {
+            "text": "used to",
+            "key": "used to",
+            "chip": "pink"
+          },
+          {
+            "text": "a long time ago",
+            "key": "a long time ago",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "start": 109.98,
+        "end": 115.98,
+        "speaker": "Speaker",
+        "en": "It was a great job and my bank that I worked at did not have this type of device.",
+        "ipa": "/ɪt wəz ə ɡreɪt dʒɑːb ənd maɪ bæŋk ðæt aɪ wɜːrkt æt dɪd nɑːt hæv ðɪs taɪp əv dɪˈvaɪs/",
+        "zh": "那是一份很棒的工作，但我之前工作的银行并没有这种设备。",
+        "highlights": [
+          {
+            "text": "great job",
+            "key": "great job",
+            "chip": "indigo"
+          },
+          {
+            "text": "device",
+            "key": "device",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "start": 116.02,
+        "end": 129.29,
+        "speaker": "Speaker",
+        "en": "There was only one drive-thru lane, and if you go to the closest drive-thru lane where this other car is over here, there's just a door that opens in the wall, and you put things directly in there, and the bank teller grabs it directly out.",
+        "ipa": "/ðer wəz ˈoʊnli wʌn ˈdraɪv θruː leɪn ənd ɪf juː ɡoʊ tuː ðə ˈkloʊsɪst ˈdraɪv θruː leɪn wer ðɪs ˈʌðər kɑːr ɪz ˈoʊvər hɪr ðerz dʒʌst ə dɔːr ðæt ˈoʊpənz ɪn ðə wɔːl ənd juː pʊt θɪŋz dəˈrektli ɪn ðer ənd ðə bæŋk ˈtelər ɡræbz ɪt dəˈrektli aʊt/",
+        "zh": "那里只有一个免下车车道，如果你去最近的那条车道——也就是旁边那辆车停的地方，那里只有一个墙上会打开一个小门，你可以直接把东西放进去，银行柜员会直接从里面拿出来。",
+        "highlights": [
+          {
+            "text": "drive-thru lane",
+            "key": "drive-thru lane",
+            "chip": "indigo"
+          },
+          {
+            "text": "closest",
+            "key": "closest",
+            "chip": "orange"
+          },
+          {
+            "text": "directly",
+            "key": "directly",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "start": 129.33,
+        "end": 130.39,
+        "speaker": "Speaker",
+        "en": "There's no cool tube.",
+        "ipa": "/ðerz noʊ kuːl tuːb/",
+        "zh": "没有这么酷炫的管道。",
+        "highlights": [
+          {
+            "text": "cool tube",
+            "key": "cool tube",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "start": 130.43,
+        "end": 132.41,
+        "speaker": "Speaker",
+        "en": "But, I wanted to show you the tube.",
+        "ipa": "/bʌt ˈaɪ ˈwɪntɪd tu ˈʃoʊ ju ðə tub/",
+        "zh": "不过，我想让你看看这个管子。",
+        "highlights": [
+          {
+            "text": "wanted to",
+            "key": "want to",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "start": 132.45,
+        "end": 136.04,
+        "speaker": "Speaker",
+        "en": "All right, let's see if it's my turn to get serviced.",
+        "ipa": "/ɔl ˈraɪt lɛts ˈsiː ɪf ɪts maɪ tɜrn tu ɡɛt ˈsɜrvɪst/",
+        "zh": "好的，看看是不是轮到我接受服务了。",
+        "highlights": [
+          {
+            "text": "my turn",
+            "key": "my turn",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "start": 136.08,
+        "end": 136.88,
+        "speaker": "Speaker",
+        "en": "Good morning.",
+        "ipa": "/ɡʊd ˈmɔrnɪŋ/",
+        "zh": "早上好。",
+        "highlights": [
+          {
+            "text": "Good morning",
+            "key": "good morning",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "start": 136.92,
+        "end": 138.0,
+        "speaker": "Speaker",
+        "en": "Hi, good morning.",
+        "ipa": "/haɪ ɡʊd ˈmɔrnɪŋ/",
+        "zh": "嗨，早上好。",
+        "highlights": [
+          {
+            "text": "good morning",
+            "key": "good morning",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "start": 138.04,
+        "end": 138.6,
+        "speaker": "Speaker",
+        "en": "How are you?",
+        "ipa": "/haʊ ɑr ju/",
+        "zh": "你好吗？",
+        "highlights": [
+          {
+            "text": "How are you",
+            "key": "how are you",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "start": 138.64,
+        "end": 139.1,
+        "speaker": "Speaker",
+        "en": "Good.",
+        "ipa": "/ɡʊd/",
+        "zh": "很好。",
+        "highlights": [
+          {
+            "text": "Good",
+            "key": "good",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "start": 139.14,
+        "end": 141.12,
+        "speaker": "Speaker",
+        "en": "I just like to deposit those checks.",
+        "ipa": "/aɪ dʒʌst laɪk tu dɪˈpɑzɪt ðoʊz tʃɛks/",
+        "zh": "我只是想把那些支票存起来。",
+        "highlights": [
+          {
+            "text": "deposit",
+            "key": "deposit",
+            "chip": "orange"
+          },
+          {
+            "text": "checks",
+            "key": "check",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "start": 141.16,
+        "end": 141.26,
+        "speaker": "Speaker",
+        "en": "Yes.",
+        "ipa": "/jɛs/",
+        "zh": "是的。",
+        "highlights": [
+          {
+            "text": "Yes",
+            "key": "yes",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "start": 141.3,
+        "end": 142.68,
+        "speaker": "Speaker",
+        "en": "Would you like to deposit in your checking?",
+        "ipa": "/wʊd ju laɪk tu dɪˈpɑzɪt ɪn jʊər ˈtʃɛkɪŋ/",
+        "zh": "你想存进你的支票账户吗？",
+        "highlights": [
+          {
+            "text": "Would you like to",
+            "key": "would you like to",
+            "chip": "pink"
+          },
+          {
+            "text": "checking",
+            "key": "checking",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "start": 142.72,
+        "end": 145.5,
+        "speaker": "Speaker",
+        "en": "That would be great.",
+        "ipa": "/ðæt wʊd bi ɡreɪt/",
+        "zh": "那太好了。",
+        "highlights": []
+      },
+      {
+        "id": 41,
+        "start": 145.54,
+        "end": 146.92,
+        "speaker": "Speaker",
+        "en": "Thank you.",
+        "ipa": "/θæŋk ju/",
+        "zh": "谢谢你。",
+        "highlights": [
+          {
+            "text": "Thank you",
+            "key": "thank you",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "start": 146.96,
+        "end": 147.32,
+        "speaker": "Speaker",
+        "en": "Success.",
+        "ipa": "/səkˈsɛs/",
+        "zh": "成功。",
+        "highlights": [
+          {
+            "text": "Success",
+            "key": "success",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "start": 147.36,
+        "end": 150.72,
+        "speaker": "Speaker",
+        "en": "She might ask because we have a couple different checking accounts.",
+        "ipa": "/ʃi maɪt æsk bɪˈkəz wi hæv ə ˈkʌpəl ˈdɪfərənt ˈtʃɛkɪŋ əˈkaʊnts/",
+        "zh": "她可能会问，因为我们有几个不同的支票账户。",
+        "highlights": [
+          {
+            "text": "might ask",
+            "key": "might ask",
+            "chip": "indigo"
+          },
+          {
+            "text": "a couple different",
+            "key": "a couple of",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "start": 150.76,
+        "end": 155.09,
+        "speaker": "Speaker",
+        "en": "She might ask me which checking account do you want to get it deposited into?",
+        "ipa": "/ʃi maɪt æsk mi wɪtʃ ˈtʃɛkɪŋ əˈkaʊnt du ju wɑnt tu ɡɛt ɪt dɪˈpɑzɪtɪd ˈɪntuː/",
+        "zh": "她可能会问我你想把钱存入哪个支票账户？",
+        "highlights": [
+          {
+            "text": "checking account",
+            "key": "checking account",
+            "chip": "indigo"
+          },
+          {
+            "text": "want to",
+            "key": "want to",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "start": 155.13,
+        "end": 156.04,
+        "speaker": "Speaker",
+        "en": "I don't know.",
+        "ipa": "/aɪ doʊnt noʊ/",
+        "zh": "我不知道。",
+        "highlights": [
+          {
+            "text": "I don't know",
+            "key": "i don't know",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "start": 156.08,
+        "end": 158.63,
+        "speaker": "Speaker",
+        "en": "Maybe she'll just guess and put it in one of them.",
+        "ipa": "/ˈmeɪbi ʃil dʒʌst ɡɛs ænd pʊt ɪt ɪn wʌn ʌv ðɛm/",
+        "zh": "也许她会随便猜一个然后存进去。",
+        "highlights": [
+          {
+            "text": "guess",
+            "key": "guess",
+            "chip": "orange"
+          },
+          {
+            "text": "one of them",
+            "key": "one of them",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "start": 158.67,
+        "end": 159.8,
+        "speaker": "Speaker",
+        "en": "Let's see.",
+        "ipa": "/lɛts siː/",
+        "zh": "我们来看看。",
+        "highlights": [
+          {
+            "text": "Let's see",
+            "key": "let's see",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "start": 159.84,
+        "end": 173.65,
+        "speaker": "Speaker",
+        "en": "While we're waiting for the checks to get deposited, I wanted to let you know that if you do live in the US and you want to go to the bank, if you want to just deposit a check or if you want to get some cash out, you don't need to go into the bank.",
+        "ipa": "/waɪl wɪər ˈweɪtɪŋ fɔr ðə tʃɛks tu ɡɛt dɪˈpɑzɪtɪd, aɪ ˈwɪntɪd tu lɛt ju noʊ ðæt ɪf ju du lɪv ɪn ði ˌjuˈɛs ænd ju wɑnt tu ɡoʊ tu ðə bæŋk, ɪf ju wɑnt tu dʒʌst dɪˈpɑzɪt ə tʃɛk ɔr ɪf ju wɑnt tu ɡɛt sʌm kæʃ aʊt, ju doʊnt niːd tu ɡoʊ ˈɪntuː ðə bæŋk/",
+        "zh": "在我们等待支票存入的这段时间里，我想告诉大家，如果你确实住在美国，并且你想去银行，如果你只是想存支票或者取现金，你根本不需要走进银行大厅。",
+        "highlights": [
+          {
+            "text": "waiting for",
+            "key": "wait for",
+            "chip": "indigo"
+          },
+          {
+            "text": "live in",
+            "key": "live in",
+            "chip": "indigo"
+          },
+          {
+            "text": "deposit a check",
+            "key": "deposit a check",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "start": 173.69,
+        "end": 177.68,
+        "speaker": "Speaker",
+        "en": "You can use the machine over here, or you can just drive up like this.",
+        "ipa": "/ju kən juz ðə məˈʃin ˈoʊvər hɪr, ɔr ju kən dʒʌst draɪv ʌp laɪk ðɪs/",
+        "zh": "你可以使用这边的机器，或者直接像这样开车过来办理。",
+        "highlights": [
+          {
+            "text": "machine",
+            "key": "machine",
+            "chip": "orange"
+          },
+          {
+            "text": "drive up",
+            "key": "drive up",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "start": 177.72,
+        "end": 182.2,
+        "speaker": "Speaker",
+        "en": "But, if you want to open a bank account, you have to go into the bank.",
+        "ipa": "/bʌt, ɪf ju wɑnt tu ˈoʊpən ə bæŋk əˈkaʊnt, ju hæv tu ɡoʊ ˈɪntuː ðə bæŋk/",
+        "zh": "但是，如果你想开一个银行账户，你就必须亲自走进银行。",
+        "highlights": [
+          {
+            "text": "open a bank account",
+            "key": "open a bank account",
+            "chip": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-67-trimmed-67-part2",
+    "number": "EP 67",
     "title": "纽约暴走与贝果探店：一个人的大城市治愈时光",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -15,7 +5147,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%202%29.trimmed.m4a",
@@ -1972,8 +7104,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-70-trimmed-70-part1",
-    "number": "EP 70",
+    "id": "local-66-trimmed-66-part1",
+    "number": "EP 66",
     "title": "独自在纽约的清晨：打卡运动课与城市日常",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -1985,7 +7117,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.trimmed.m4a",
@@ -3194,8 +8326,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-69-ABG-part2",
-    "number": "EP 69",
+    "id": "local-65-ABG-part2",
+    "number": "EP 65",
     "title": "ABG 欧美妆全流程教学：修容、烘焙定妆与惊艳变装",
     "speaker": "待补讲者",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -3208,7 +8340,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.trimmed.m4a",
@@ -4408,8 +9540,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-68-trimmed-68-part1",
-    "number": "EP 68",
+    "id": "local-64-trimmed-64-part1",
+    "number": "EP 64",
     "title": "韩系淡妆挑战欧美辣妹风：种睫毛、修眉与逛街挑衣服",
     "speaker": "待补讲者",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -4421,7 +9553,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%201%29.trimmed.m4a",
@@ -5438,8 +10570,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-67-trimmed-67-part2",
-    "number": "EP 67",
+    "id": "local-63-trimmed-63-part2",
+    "number": "EP 63",
     "title": "一个人的居家沙拉与逛书店：享受独处的松弛感",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -5452,7 +10584,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%202%29.trimmed.m4a",
@@ -6808,8 +11940,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-66-trimmed-66-part1",
-    "number": "EP 66",
+    "id": "local-62-trimmed-62-part1",
+    "number": "EP 62",
     "title": "独处但不孤独：纽约一个人的漫步与内心独白",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -6822,7 +11954,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.trimmed.m4a",
@@ -8459,8 +13591,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-65-trimmed-65-part2",
-    "number": "EP 65",
+    "id": "local-61-trimmed-61-part2",
+    "number": "EP 61",
     "title": "西西里陶尔米纳与卡塔尼亚：慢节奏海边度假日记",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -8473,7 +13605,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.trimmed.m4a",
@@ -9418,8 +14550,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-64-trimmed-64-part1",
-    "number": "EP 64",
+    "id": "local-60-trimmed-60-part1",
+    "number": "EP 60",
     "title": "宅女的夏日海岛假期：出发、美食与悠闲时光",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -9432,7 +14564,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.trimmed.m4a",
@@ -10444,8 +15576,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-63-trimmed-63-part2",
-    "number": "EP 63",
+    "id": "local-59-trimmed-59-part2",
+    "number": "EP 59",
     "title": "雪山半山腰餐厅歇脚与滑雪体验地道表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -10458,7 +15590,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%202%29.trimmed.m4a",
@@ -11425,8 +16557,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-62-trimmed-62-part1",
-    "number": "EP 62",
+    "id": "local-58-trimmed-58-part1",
+    "number": "EP 58",
     "title": "滑雪场必备英语：租雪具、买雪票与初上雪道",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -11438,7 +16570,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.trimmed.m4a",
@@ -13226,8 +18358,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-61-trimmed-61-part2",
-    "number": "EP 61",
+    "id": "local-57-trimmed-57-part2",
+    "number": "EP 57",
     "title": "酒店卫浴细节、早餐咖啡与退房告别英语",
     "speaker": "Bob the Canadian",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -13240,7 +18372,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%202%29.trimmed.m4a",
@@ -14623,8 +19755,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-60-trimmed-60-part1",
-    "number": "EP 60",
+    "id": "local-56-trimmed-56-part1",
+    "number": "EP 56",
     "title": "加拿大酒店入住实景：前台办理与客房设施英语",
     "speaker": "Bob the Canadian",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -14636,7 +19768,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.trimmed.m4a",
@@ -16707,8 +21839,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-59-trimmed-59-part2",
-    "number": "EP 59",
+    "id": "local-55-trimmed-55-part2",
+    "number": "EP 55",
     "title": "美国街头采访：不同职业的真实工作时长与故事",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -16720,7 +21852,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%202%29.trimmed.m4a",
@@ -19339,8 +24471,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-58-trimmed-58-part1",
-    "number": "EP 58",
+    "id": "local-54-trimmed-54-part1",
+    "number": "EP 54",
     "title": "美国街头采访：你是做什么工作的？（职场日常篇）",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -19353,7 +24485,7 @@ export const LOCAL_EPISODES = [
       "日常对话",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.trimmed.m4a",
@@ -21363,8 +26495,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-57-trimmed-57-part2",
-    "number": "EP 57",
+    "id": "local-53-trimmed-53-part2",
+    "number": "EP 53",
     "title": "独居公寓采购日：超市买菜、万圣节街景与睡前复盘",
     "speaker": "待补讲者",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -21377,7 +26509,7 @@ export const LOCAL_EPISODES = [
       "购物",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%202%29.trimmed.m4a",
@@ -22178,8 +27310,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-56-trimmed-56-part1",
-    "number": "EP 56",
+    "id": "local-52-trimmed-52-part1",
+    "number": "EP 52",
     "title": "高效充实的一天：晨间健身课、整理房间与咖啡馆办公",
     "speaker": "待补讲者",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -22191,7 +27323,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.trimmed.m4a",
@@ -24011,8 +29143,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-55-trimmed-55-part2",
-    "number": "EP 55",
+    "id": "local-51-trimmed-51-part2",
+    "number": "EP 51",
     "title": "美式快餐开箱试吃与口味评价地道表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -24024,7 +29156,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.trimmed.m4a",
@@ -24814,8 +29946,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-54-Drive-thru-part1",
-    "number": "EP 54",
+    "id": "local-50-Drive-thru-part1",
+    "number": "EP 50",
     "title": "美国得来速快餐实景：点咖啡与 Drive-thru 下单",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -24827,7 +29959,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%201%29.trimmed.m4a",
@@ -26450,8 +31582,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-53-trimmed-53-part2",
-    "number": "EP 53",
+    "id": "local-49-trimmed-49-part2",
+    "number": "EP 49",
     "title": "机场候机与美食区：登机前购物与餐饮表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -26465,7 +31597,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%202%29.trimmed.m4a",
@@ -27482,8 +32614,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-52-trimmed-52-part1",
-    "number": "EP 52",
+    "id": "local-48-trimmed-48-part1",
+    "number": "EP 48",
     "title": "美国机场出行实战：值机、安检与登机口英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -27496,7 +32628,7 @@ export const LOCAL_EPISODES = [
       "旅行",
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%201%29.trimmed.m4a",
@@ -29317,8 +34449,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-51-trimmed-51-part2",
-    "number": "EP 51",
+    "id": "local-47-trimmed-47-part2",
+    "number": "EP 47",
     "title": "用餐中途怎么沟通：续杯加酱、打包与买单英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -29331,7 +34463,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%202%29.trimmed.m4a",
@@ -30531,8 +35663,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-50-trimmed-50-part1",
-    "number": "EP 50",
+    "id": "local-46-trimmed-46-part1",
+    "number": "EP 46",
     "title": "美国餐厅点餐实战：入座、看菜单与向服务员咨询",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -30544,7 +35676,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%201%29.trimmed.m4a",
@@ -32734,8 +37866,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-49-trimmed-49-part2",
-    "number": "EP 49",
+    "id": "local-45-trimmed-45-part2",
+    "number": "EP 45",
     "title": "美式街头俚语精讲：正式说法与地道口语对比",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -32748,7 +37880,7 @@ export const LOCAL_EPISODES = [
       "日常对话",
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%202%29.trimmed.m4a",
@@ -34525,8 +39657,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-48-trimmed-48-part1",
-    "number": "EP 48",
+    "id": "local-44-trimmed-44-part1",
+    "number": "EP 44",
     "title": "你能听懂美国年轻人的俚语吗？辛辛那提好友访谈",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -34538,7 +39670,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%201%29.trimmed.m4a",
@@ -37246,8 +42378,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-47-trimmed-47-part2",
-    "number": "EP 47",
+    "id": "local-43-trimmed-43-part2",
+    "number": "EP 43",
     "title": "健身后的高蛋白晚餐与纽约居家备餐日常",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -37259,7 +42391,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%202%29.trimmed.m4a",
@@ -40310,8 +45442,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-46-trimmed-46-part1",
-    "number": "EP 46",
+    "id": "local-42-trimmed-42-part1",
+    "number": "EP 42",
     "title": "纽约上班族的一日三餐：快手健康早餐与健身前加餐",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -40323,7 +45455,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.trimmed.m4a",
@@ -41978,8 +47110,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-45-trimmed-45-part2",
-    "number": "EP 45",
+    "id": "local-41-trimmed-41-part2",
+    "number": "EP 41",
     "title": "纽约周末夜生活与账单复盘：大城市生活开销",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -41991,7 +47123,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%202%29.trimmed.m4a",
@@ -44540,8 +49672,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-44-trimmed-44-part1",
-    "number": "EP 44",
+    "id": "local-40-trimmed-40-part1",
+    "number": "EP 40",
     "title": "纽约独居一周消费实录：咖啡、出行与日常开支",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -44554,7 +49686,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.trimmed.m4a",
@@ -47458,8 +52590,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-43-trimmed-43-part2",
-    "number": "EP 43",
+    "id": "local-39-trimmed-39-part2",
+    "number": "EP 39",
     "title": "美国买房流程与二楼卧室参观：房产英语实战",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -47472,7 +52604,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%202%29.trimmed.m4a",
@@ -49744,8 +54876,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-42-trimmed-42-part1",
-    "number": "EP 42",
+    "id": "local-38-trimmed-38-part1",
+    "number": "EP 38",
     "title": "美国看房实景：客厅、厨房与后院空间介绍",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -49758,7 +54890,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%201%29.trimmed.m4a",
@@ -52036,8 +57168,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-41-trimmed-41-part3",
-    "number": "EP 41",
+    "id": "local-37-trimmed-37-part3",
+    "number": "EP 37",
     "title": "洗衣服与收纳整理：美式家庭家务高频短语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -52050,7 +57182,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%203%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%203%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%203%29.trimmed.m4a",
@@ -53359,8 +58491,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-40-trimmed-40-part2",
-    "number": "EP 40",
+    "id": "local-36-trimmed-36-part2",
+    "number": "EP 36",
     "title": "厨房与客厅清洁：擦拭、抛光与吸尘实用动词",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -53373,7 +58505,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%202%29.trimmed.m4a",
@@ -54528,8 +59660,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-39-trimmed-39-part1",
-    "number": "EP 39",
+    "id": "local-35-trimmed-35-part1",
+    "number": "EP 35",
     "title": "居家大扫除英语：整理房间与日常家务表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -54541,7 +59673,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%201%29.trimmed.m4a",
@@ -55322,8 +60454,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-38-trimmed-38-part3",
-    "number": "EP 38",
+    "id": "local-34-trimmed-34-part3",
+    "number": "EP 34",
     "title": "享用美式披萨与结账打包：完整餐厅收尾对话",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -55336,7 +60468,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%203%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%203%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%203%29.trimmed.m4a",
@@ -57055,8 +62187,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-37-trimmed-37-part2",
-    "number": "EP 37",
+    "id": "local-33-trimmed-33-part2",
+    "number": "EP 33",
     "title": "披萨店餐桌闲聊：餐厅打工趣事与地道口语",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -57069,7 +62201,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%202%29.trimmed.m4a",
@@ -59721,8 +64853,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-36-trimmed-36-part1",
-    "number": "EP 36",
+    "id": "local-32-trimmed-32-part1",
+    "number": "EP 32",
     "title": "美式披萨店实景点单：菜单解读与开胃小食",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -59734,7 +64866,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%201%29.trimmed.m4a",
@@ -62603,8 +67735,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-35-trimmed-35-part2",
-    "number": "EP 35",
+    "id": "local-31-trimmed-31-part2",
+    "number": "EP 31",
     "title": "纽约街头出行：人行横道、地铁与街头热狗摊",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -62616,7 +67748,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.trimmed.m4a",
@@ -63217,8 +68349,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-34-trimmed-34-part1",
-    "number": "EP 34",
+    "id": "local-30-trimmed-30-part1",
+    "number": "EP 30",
     "title": "漫步纽约曼哈顿：摩天大楼、人行道与自行车道",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -63231,7 +68363,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%201%EF%BC%9A%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E4%B8%8E%E8%A1%97%E9%81%93%E4%BA%BA%E8%A1%8C%E9%81%93%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%201%EF%BC%9A%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E4%B8%8E%E8%A1%97%E9%81%93%E4%BA%BA%E8%A1%8C%E9%81%93%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%201%EF%BC%9A%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E4%B8%8E%E8%A1%97%E9%81%93%E4%BA%BA%E8%A1%8C%E9%81%93%29.trimmed.m4a",
@@ -64110,8 +69242,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-33-Chipotle-part2",
-    "number": "EP 33",
+    "id": "local-29-Chipotle-part2",
+    "number": "EP 29",
     "title": "Chipotle 柜台实景点单：选肉选酱与地道句型",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -64123,7 +69255,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%202%EF%BC%9A%E6%9F%9C%E5%8F%B0%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E5%85%A8%E6%B5%81%E7%A8%8B%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%202%EF%BC%9A%E6%9F%9C%E5%8F%B0%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E5%85%A8%E6%B5%81%E7%A8%8B%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%202%EF%BC%9A%E6%9F%9C%E5%8F%B0%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E5%85%A8%E6%B5%81%E7%A8%8B%29.trimmed.m4a",
@@ -65241,8 +70373,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-32-Chipotle-part1",
-    "number": "EP 32",
+    "id": "local-28-Chipotle-part1",
+    "number": "EP 28",
     "title": "Chipotle 墨西哥卷点餐前必懂：菜单与加料计价",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -65254,7 +70386,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%201%EF%BC%9A%E8%8F%9C%E5%8D%95%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8A%A0%E6%96%99%E4%BB%B7%E6%A0%BC%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%201%EF%BC%9A%E8%8F%9C%E5%8D%95%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8A%A0%E6%96%99%E4%BB%B7%E6%A0%BC%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%201%EF%BC%9A%E8%8F%9C%E5%8D%95%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8A%A0%E6%96%99%E4%BB%B7%E6%A0%BC%29.trimmed.m4a",
@@ -65900,8 +71032,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-31-Living-Alone-Diaries-trimmed",
-    "number": "EP 31",
+    "id": "local-27-Living-Alone-Diaries-trimmed",
+    "number": "EP 27",
     "title": "Living Alone Diaries（独居一日三餐与蒜香意面）",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -65914,7 +71046,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.jpg",
     "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.trimmed.m4a",
@@ -66327,8 +71459,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-30-Living-Alone-Diaries-trimmed",
-    "number": "EP 30",
+    "id": "local-26-Living-Alone-Diaries-trimmed",
+    "number": "EP 26",
     "title": "Living Alone Diaries（独居女孩的静谧晨间与午后）",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -66341,7 +71473,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.jpg",
     "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.trimmed.m4a",
@@ -67412,8 +72544,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-29-trimmed-29-part2",
-    "number": "EP 29",
+    "id": "local-25-trimmed-25-part2",
+    "number": "EP 25",
     "title": "超市烘焙区、保质期怎么看与自助结账机",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -67426,7 +72558,7 @@ export const LOCAL_EPISODES = [
       "购物",
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%202%EF%BC%9A%E7%83%98%E7%84%99%E5%8C%BA%E3%80%81%E4%B9%B3%E5%88%B6%E5%93%81%E4%B8%8E%E8%87%AA%E5%8A%A9%E7%BB%93%E8%B4%A6%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%202%EF%BC%9A%E7%83%98%E7%84%99%E5%8C%BA%E3%80%81%E4%B9%B3%E5%88%B6%E5%93%81%E4%B8%8E%E8%87%AA%E5%8A%A9%E7%BB%93%E8%B4%A6%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%202%EF%BC%9A%E7%83%98%E7%84%99%E5%8C%BA%E3%80%81%E4%B9%B3%E5%88%B6%E5%93%81%E4%B8%8E%E8%87%AA%E5%8A%A9%E7%BB%93%E8%B4%A6%29.trimmed.m4a",
@@ -68535,8 +73667,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-28-trimmed-28-part1",
-    "number": "EP 28",
+    "id": "local-24-trimmed-24-part1",
+    "number": "EP 24",
     "title": "跟外教逛超市：有机果蔬区与挑选成熟牛油果",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -68548,7 +73680,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%201%EF%BC%9A%E6%9C%89%E6%9C%BA%E6%9E%9C%E8%94%AC%E5%8C%BA%E4%B8%8E%E6%8C%91%E9%80%89%E7%89%9B%E6%B2%B9%E6%9E%9C%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%201%EF%BC%9A%E6%9C%89%E6%9C%BA%E6%9E%9C%E8%94%AC%E5%8C%BA%E4%B8%8E%E6%8C%91%E9%80%89%E7%89%9B%E6%B2%B9%E6%9E%9C%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%201%EF%BC%9A%E6%9C%89%E6%9C%BA%E6%9E%9C%E8%94%AC%E5%8C%BA%E4%B8%8E%E6%8C%91%E9%80%89%E7%89%9B%E6%B2%B9%E6%9E%9C%29.trimmed.m4a",
@@ -69476,8 +74608,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-27-trimmed-27-part2",
-    "number": "EP 27",
+    "id": "local-23-trimmed-23-part2",
+    "number": "EP 23",
     "title": "美国超市结账全流程：纸袋塑料袋、会员卡与刷卡",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -69489,7 +74621,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%202%EF%BC%9A%E6%97%A5%E7%94%A8%E8%B4%A7%E6%9E%B6%E4%B8%8E%E8%B6%85%E5%B8%82%E7%BB%93%E8%B4%A6%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%202%EF%BC%9A%E6%97%A5%E7%94%A8%E8%B4%A7%E6%9E%B6%E4%B8%8E%E8%B6%85%E5%B8%82%E7%BB%93%E8%B4%A6%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%202%EF%BC%9A%E6%97%A5%E7%94%A8%E8%B4%A7%E6%9E%B6%E4%B8%8E%E8%B6%85%E5%B8%82%E7%BB%93%E8%B4%A6%29.trimmed.m4a",
@@ -70993,8 +76125,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-26-trimmed-26-part1",
-    "number": "EP 26",
+    "id": "local-22-trimmed-22-part1",
+    "number": "EP 22",
     "title": "逛美国超市前半程：散装区、果蔬与生鲜海产",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -71007,7 +76139,7 @@ export const LOCAL_EPISODES = [
       "购物",
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.trimmed.m4a",
@@ -72666,8 +77798,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-25-trimmed-25-part3",
-    "number": "EP 25",
+    "id": "local-21-trimmed-21-part3",
+    "number": "EP 21",
     "title": "乐高玩具店、柜台结账与商场防盗词汇",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -72679,7 +77811,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.trimmed.m4a",
@@ -73696,8 +78828,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-24-trimmed-24-part2",
-    "number": "EP 24",
+    "id": "local-20-trimmed-20-part2",
+    "number": "EP 20",
     "title": "美式商场淘宝：潮流服饰、游戏店与综合百货",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -73709,7 +78841,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%202%EF%BC%9A%E6%BD%AE%E6%B5%81%E6%9C%8D%E9%A5%B0%E3%80%81%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%A9%E5%85%B7%E5%BA%97%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%202%EF%BC%9A%E6%BD%AE%E6%B5%81%E6%9C%8D%E9%A5%B0%E3%80%81%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%A9%E5%85%B7%E5%BA%97%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%202%EF%BC%9A%E6%BD%AE%E6%B5%81%E6%9C%8D%E9%A5%B0%E3%80%81%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%A9%E5%85%B7%E5%BA%97%29.trimmed.m4a",
@@ -75090,8 +80222,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-23-trimmed-23-part1",
-    "number": "EP 23",
+    "id": "local-19-trimmed-19-part1",
+    "number": "EP 19",
     "title": "逛美国购物中心：楼层分区与美食广场点餐",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -75104,7 +80236,7 @@ export const LOCAL_EPISODES = [
       "购物",
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.trimmed.m4a",
@@ -76151,8 +81283,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-22-trimmed-22-part3",
-    "number": "EP 22",
+    "id": "local-18-trimmed-18-part3",
+    "number": "EP 18",
     "title": "中控台、换挡杆与车内清洁：汽车内饰英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -76164,7 +81296,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B8%AD%E6%8E%A7%E5%8F%B0%E3%80%81%E6%8D%A2%E6%8C%A1%E6%9D%86%E4%B8%8E%E8%BD%A6%E5%86%85%E6%B8%85%E6%B4%81%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B8%AD%E6%8E%A7%E5%8F%B0%E3%80%81%E6%8D%A2%E6%8C%A1%E6%9D%86%E4%B8%8E%E8%BD%A6%E5%86%85%E6%B8%85%E6%B4%81%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B8%AD%E6%8E%A7%E5%8F%B0%E3%80%81%E6%8D%A2%E6%8C%A1%E6%9D%86%E4%B8%8E%E8%BD%A6%E5%86%85%E6%B8%85%E6%B4%81%29.trimmed.m4a",
@@ -76987,8 +82119,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-21-trimmed-21-part2",
-    "number": "EP 21",
+    "id": "local-17-trimmed-17-part2",
+    "number": "EP 17",
     "title": "爆胎、轮毂与仪表盘：自驾必备汽车英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -77001,7 +82133,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%202%EF%BC%9A%E8%BD%AE%E8%83%8E%E3%80%81%E7%88%86%E8%83%8E%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%202%EF%BC%9A%E8%BD%AE%E8%83%8E%E3%80%81%E7%88%86%E8%83%8E%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%202%EF%BC%9A%E8%BD%AE%E8%83%8E%E3%80%81%E7%88%86%E8%83%8E%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98%29.trimmed.m4a",
@@ -77827,8 +82959,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-20-trimmed-20-part1",
-    "number": "EP 20",
+    "id": "local-16-trimmed-16-part1",
+    "number": "EP 16",
     "title": "自助洗车与车身外观：入门汽车英语词汇",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -77840,7 +82972,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%201%EF%BC%9A%E6%B4%97%E8%BD%A6%E4%B8%8E%E8%BD%A6%E8%BA%AB%E5%A4%96%E8%A7%82%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%201%EF%BC%9A%E6%B4%97%E8%BD%A6%E4%B8%8E%E8%BD%A6%E8%BA%AB%E5%A4%96%E8%A7%82%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%201%EF%BC%9A%E6%B4%97%E8%BD%A6%E4%B8%8E%E8%BD%A6%E8%BA%AB%E5%A4%96%E8%A7%82%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
@@ -78912,8 +84044,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-19-trimmed-19-part3",
-    "number": "EP 19",
+    "id": "local-15-trimmed-15-part3",
+    "number": "EP 15",
     "title": "探访印度教寺庙与犹太会堂：多元宗教文化英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -78926,7 +84058,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%203%EF%BC%9A%E5%A4%9A%E5%85%83%E5%AE%97%E6%95%99%E6%96%87%E5%8C%96%E4%B8%8E%E6%80%BB%E7%BB%93%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%203%EF%BC%9A%E5%A4%9A%E5%85%83%E5%AE%97%E6%95%99%E6%96%87%E5%8C%96%E4%B8%8E%E6%80%BB%E7%BB%93%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%203%EF%BC%9A%E5%A4%9A%E5%85%83%E5%AE%97%E6%95%99%E6%96%87%E5%8C%96%E4%B8%8E%E6%80%BB%E7%BB%93%29.trimmed.m4a",
@@ -80241,8 +85373,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-18-trimmed-18-part2",
-    "number": "EP 18",
+    "id": "local-14-trimmed-14-part2",
+    "number": "EP 14",
     "title": "聊信仰与宗教礼仪：讲道、捐赠与跨文化表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -80255,7 +85387,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BF%A1%E4%BB%B0%E4%BA%A4%E6%B5%81%E4%B8%8E%E7%BB%8F%E5%85%B8%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BF%A1%E4%BB%B0%E4%BA%A4%E6%B5%81%E4%B8%8E%E7%BB%8F%E5%85%B8%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BF%A1%E4%BB%B0%E4%BA%A4%E6%B5%81%E4%B8%8E%E7%BB%8F%E5%85%B8%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
@@ -81493,8 +86625,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-17-trimmed-17-part1",
-    "number": "EP 17",
+    "id": "local-13-trimmed-13-part1",
+    "number": "EP 13",
     "title": "走进美国教堂：弥撒、圣经与神职英语词汇",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -81506,7 +86638,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%99%E5%A0%82%E5%BC%A5%E6%92%92%E4%B8%8E%E7%A5%9E%E8%81%8C%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%99%E5%A0%82%E5%BC%A5%E6%92%92%E4%B8%8E%E7%A5%9E%E8%81%8C%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%99%E5%A0%82%E5%BC%A5%E6%92%92%E4%B8%8E%E7%A5%9E%E8%81%8C%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
@@ -82622,3962 +87754,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-16-Drive-thru-part2",
-    "number": "EP 16",
-    "title": "美国银行 Drive-thru 气动管道存款与邮局寄件",
-    "speaker": "Speak English With Vanessa",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 3,
-    "durationSec": 371,
-    "durationLabel": "06:11",
-    "date": "2026/11/26",
-    "tags": [
-      "生活英语",
-      "日常对话"
-    ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
-    "coverImage": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%202%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E4%B8%8E%E9%82%AE%E5%B1%80%E5%AE%9E%E6%88%98%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%202%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E4%B8%8E%E9%82%AE%E5%B1%80%E5%AE%9E%E6%88%98%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%202%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E4%B8%8E%E9%82%AE%E5%B1%80%E5%AE%9E%E6%88%98%29.trimmed.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "生活英语",
-    "skipRanges": [
-      [
-        369.67,
-        371.15
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.25,
-        "end": 3.93,
-        "speaker": "Speaker",
-        "en": "All right, a one million.",
-        "ipa": "/ɔːl raɪt, ə wʌn ˈmɪljən/",
-        "zh": "好勒，简直一百万分赞。",
-        "highlights": [
-          {
-            "text": "All right",
-            "key": "all right",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 3.97,
-        "end": 6.29,
-        "speaker": "Speaker",
-        "en": "Maybe this can be someone special.",
-        "ipa": "/ˈmeɪbi ðɪs kən biː ˈsʌmwʌn ˈspɛʃəl/",
-        "zh": "也许这个能送给某个特别的人。",
-        "highlights": [
-          {
-            "text": "someone special",
-            "key": "someone special",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 6.33,
-        "end": 7.17,
-        "speaker": "Speaker",
-        "en": "Here we go.",
-        "ipa": "/hɪər wiː ɡoʊ/",
-        "zh": "我们走吧（搞定）。",
-        "highlights": [
-          {
-            "text": "Here we go",
-            "key": "here we go",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 7.21,
-        "end": 9.09,
-        "speaker": "Speaker",
-        "en": "Okay, thank you so much.",
-        "ipa": "/oʊˈkeɪ, ˈθæŋk juː soʊ mʌtʃ/",
-        "zh": "好的，非常感谢。",
-        "highlights": [
-          {
-            "text": "thank you so much",
-            "key": "thank you so much",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 9.13,
-        "end": 9.88,
-        "speaker": "Speaker",
-        "en": "Have a good day.",
-        "ipa": "/hæv ə ɡʊd deɪ/",
-        "zh": "祝你过得愉快。",
-        "highlights": [
-          {
-            "text": "Have a good day",
-            "key": "have a good day",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 9.92,
-        "end": 17.69,
-        "speaker": "Speaker",
-        "en": "All right, let's go across the street and donate this door to the other charity that takes doors, apparently.",
-        "ipa": "/ɔːl raɪt, lɛts ɡoʊ əˈkrɔːs ðə striːt ənd ˈdoʊneɪt ðɪs dɔːr tuː ði ˈʌðər ˈtʃɛrəti ðæt teɪks dɔːrz, əˈpɛrəntli/",
-        "zh": "好吧，我们过马路去，把这扇门捐给另一家据说收门板的慈善机构吧。",
-        "highlights": [
-          {
-            "text": "across the street",
-            "key": "across the street",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 17.73,
-        "end": 19.21,
-        "speaker": "Speaker",
-        "en": "Let's go.",
-        "ipa": "/lɛts ɡoʊ/",
-        "zh": "我们走吧。",
-        "highlights": [
-          {
-            "text": "Let's go",
-            "key": "let's go",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 19.25,
-        "end": 24.51,
-        "speaker": "Speaker",
-        "en": "So, I was wondering a couple years ago I got this door here.",
-        "ipa": "/soʊ, aɪ wʌz ˈwʌndərɪŋ ə ˈkʌpəl jɪrz əˈɡoʊ aɪ ɡɑːt ðɪs dɔːr hɪər/",
-        "zh": "是这样的，我在想几年前我在这儿弄到了这扇门。",
-        "highlights": [
-          {
-            "text": "a couple years ago",
-            "key": "a couple years ago",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 24.55,
-        "end": 25.84,
-        "speaker": "Speaker",
-        "en": "Can I return it?",
-        "ipa": "/kæn aɪ rɪˈtɜːrn ɪt/",
-        "zh": "我可以退货吗？",
-        "highlights": [
-          {
-            "text": "return it",
-            "key": "return it",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 25.88,
-        "end": 27.05,
-        "speaker": "Speaker",
-        "en": "All right.",
-        "ipa": "/ɔːl raɪt/",
-        "zh": "好吧。",
-        "highlights": [
-          {
-            "text": "All right",
-            "key": "all right",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 27.09,
-        "end": 28.33,
-        "speaker": "Speaker",
-        "en": "I mean, you can donate it back.",
-        "ipa": "/aɪ miːn, juː kən ˈdoʊneɪt ɪt bæk/",
-        "zh": "我是说，你可以把它捐回来。",
-        "highlights": [
-          {
-            "text": "donate it back",
-            "key": "donate back",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 28.37,
-        "end": 29.61,
-        "speaker": "Speaker",
-        "en": "Yeah, yeah.",
-        "ipa": "/jæ, jæ/",
-        "zh": "对，对。",
-        "highlights": [
-          {
-            "text": "Yeah",
-            "key": "yeah",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 29.65,
-        "end": 32.24,
-        "speaker": "Speaker",
-        "en": "We have loved it and used it well.",
-        "ipa": "/wiː hæv lʌvd ɪt ənd juːzd ɪt wɛl/",
-        "zh": "我们一直很喜欢它，也用得很充分。",
-        "highlights": [
-          {
-            "text": "used it well",
-            "key": "use well",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 32.28,
-        "end": 35.01,
-        "speaker": "Speaker",
-        "en": "Um it does have some markings on it.",
-        "ipa": "/ʌm ɪt dʌz hæv sʌm ˈmɑːrkɪŋz ɑːn ɪt/",
-        "zh": "嗯，上面确实有些印记。",
-        "highlights": [
-          {
-            "text": "markings on it",
-            "key": "markings",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 35.05,
-        "end": 36.81,
-        "speaker": "Speaker",
-        "en": "We used it as a table.",
-        "ipa": "/wiː juːzd ɪt æz ə ˈteɪbəl/",
-        "zh": "我们把它当桌子用了。",
-        "highlights": [
-          {
-            "text": "used it as",
-            "key": "use as",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 36.85,
-        "end": 37.77,
-        "speaker": "Speaker",
-        "en": "Yeah, absolutely.",
-        "ipa": "/jæ, ˈæbsəˌluːtli/",
-        "zh": "对，完全没问题。",
-        "highlights": [
-          {
-            "text": "absolutely",
-            "key": "absolutely",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "start": 37.81,
-        "end": 38.82,
-        "speaker": "Speaker",
-        "en": "Okay, awesome.",
-        "ipa": "/oʊˈkeɪ, ˈɔːsəm/",
-        "zh": "好的，太棒了。",
-        "highlights": [
-          {
-            "text": "awesome",
-            "key": "awesome",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 38.86,
-        "end": 39.57,
-        "speaker": "Speaker",
-        "en": "Thank you.",
-        "ipa": "/ˈθæŋk juː/",
-        "zh": "谢谢你。",
-        "highlights": [
-          {
-            "text": "Thank you",
-            "key": "thank you",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "start": 39.61,
-        "end": 40.03,
-        "speaker": "Speaker",
-        "en": "You got it.",
-        "ipa": "/juː ˈɡɑːt ɪt/",
-        "zh": "没问题，包在我身上。",
-        "highlights": [
-          {
-            "text": "You got it",
-            "key": "you got it",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "start": 40.07,
-        "end": 41.09,
-        "speaker": "Speaker",
-        "en": "You have a wonderful day.",
-        "ipa": "/juː hæv ə ˈwʌndərfl deɪ/",
-        "zh": "祝您过个愉快的一天。",
-        "highlights": [
-          {
-            "text": "wonderful day",
-            "key": "wonderful day",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "start": 41.13,
-        "end": 42.73,
-        "speaker": "Speaker",
-        "en": "Thanks, you too.",
-        "ipa": "/θæŋks juː tuː/",
-        "zh": "谢谢，你也是。",
-        "highlights": [
-          {
-            "text": "you too",
-            "key": "you too",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "start": 42.77,
-        "end": 49.29,
-        "speaker": "Speaker",
-        "en": "All right, our next errand is to go to the bank and I need to deposit some checks that we were given.",
-        "ipa": "/ɔːl raɪt ˈaʊər nekst ˈerənd ɪz tuː ɡoʊ tuː ðə bæŋk ənd aɪ niːd tuː dɪˈpɑːzɪt sʌm tʃeks ðæt wiː wɜːr ˈɡɪvn/",
-        "zh": "好的，我们接下来的差事是去银行，我需要存入一些别人给我们的支票。",
-        "highlights": [
-          {
-            "text": "errand",
-            "key": "errand",
-            "chip": "orange"
-          },
-          {
-            "text": "deposit",
-            "key": "deposit",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "start": 49.33,
-        "end": 50.77,
-        "speaker": "Speaker",
-        "en": "One of them's a tax check.",
-        "ipa": "/wʌn əv ðemz ə tæks tʃek/",
-        "zh": "其中一张是退税支票。",
-        "highlights": [
-          {
-            "text": "tax check",
-            "key": "tax check",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "start": 50.81,
-        "end": 55.99,
-        "speaker": "Speaker",
-        "en": "One of them is a check given to Dan, my husband, from his grandparents for his birthday.",
-        "ipa": "/wʌn əv ðem ɪz ə tʃek ˈɡɪvn tuː dæn maɪ ˈhʌzbənd frʌm hɪz ˈɡrændpeərənts fɔːr hɪz ˈbɜːrθdeɪ/",
-        "zh": "其中一张是我丈夫丹的祖父母送给他的生日支票。",
-        "highlights": [
-          {
-            "text": "grandparents",
-            "key": "grandparents",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "start": 56.03,
-        "end": 59.43,
-        "speaker": "Speaker",
-        "en": "It's kind of uh an American tradition.",
-        "ipa": "/ɪts kaɪnd əv ʌ ən əˈmerɪkən trəˈdɪʃn/",
-        "zh": "这有点像美国的一种传统。",
-        "highlights": [
-          {
-            "text": "kind of",
-            "key": "kind of",
-            "chip": "pink"
-          },
-          {
-            "text": "tradition",
-            "key": "tradition",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "start": 59.47,
-        "end": 73.24,
-        "speaker": "Speaker",
-        "en": "I don't know if it's a tradition, but in my family and in Dan's family, grandparents like to give their grandchildren some money for their birthday and the older generation will often use a check to do that.",
-        "ipa": "/aɪ doʊnt noʊ ɪf ɪts ə trəˈdɪʃn bʌt ɪn maɪ ˈfæmli ənd ɪn dænz ˈfæmli ˈɡrændpeərənts laɪk tuː ɡɪv ðeɪr ˈɡrændtʃɪldrən sʌm ˈmʌni fɔːr ðeər ˈbɜːrθdeɪ ənd ði ˈoʊldər ˌdʒenəˈreɪʃn wɪl ˈɔːfn juːz ə tʃek tuː duː ðæt/",
-        "zh": "我不知道这算不算传统，但在我和丹的家庭里，爷爷奶奶喜欢给孙辈一些钱作为生日礼物，而老一辈人通常会用支票来给。",
-        "highlights": [
-          {
-            "text": "grandchildren",
-            "key": "grandchildren",
-            "chip": "orange"
-          },
-          {
-            "text": "older generation",
-            "key": "older generation",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "start": 73.28,
-        "end": 76.78,
-        "speaker": "Speaker",
-        "en": "So, we have to deposit it in the bank and let's go.",
-        "ipa": "/soʊ wiː hæv tuː dɪˈpɑːzɪt ɪt ɪn ðə bæŋk ənd lets ɡoʊ/",
-        "zh": "所以，我们得把它存到银行去，我们走吧。",
-        "highlights": [
-          {
-            "text": "deposit it",
-            "key": "deposit it",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "start": 76.82,
-        "end": 77.73,
-        "speaker": "Speaker",
-        "en": "Let's see what happens.",
-        "ipa": "/lets siː wʌt ˈhæpnz/",
-        "zh": "让我们拭目以待吧。",
-        "highlights": [
-          {
-            "text": "Let's see",
-            "key": "let's see",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "start": 77.77,
-        "end": 82.45,
-        "speaker": "Speaker",
-        "en": "I'm going to use the drive-thru to show you the true American experience.",
-        "ipa": "/aɪm ˈɡuːɪŋ tuː juːz ðə ˈdraɪv θruː tuː ʃoʊ juː ðə truː əˈmerɪkən ɪkˈspɪriəns/",
-        "zh": "我打算去开免下车通道（drive-thru），带你们体验真正的美国生活方式。",
-        "highlights": [
-          {
-            "text": "drive-thru",
-            "key": "drive-thru",
-            "chip": "orange"
-          },
-          {
-            "text": "experience",
-            "key": "experience",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "start": 82.49,
-        "end": 89.85,
-        "speaker": "Speaker",
-        "en": "And I'm not exactly sure what's going to happen, but let's just give it a shot.",
-        "ipa": "/ænd aɪm nɑːt ɪɡˈzæktli ʃʊr wʌts ˈɡuːɪŋ tuː ˈhæpn bʌt lets dʒʌst ɡɪv ɪt ə ʃɑːt/",
-        "zh": "我不太确定接下来会发生什么，但我们不妨试试看。",
-        "highlights": [
-          {
-            "text": "give it a shot",
-            "key": "give it a shot",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "start": 89.89,
-        "end": 95.53,
-        "speaker": "Speaker",
-        "en": "All right, so All right, park.",
-        "ipa": "/ɔːl raɪt soʊ ɔːl raɪt pɑːrk/",
-        "zh": "好勒，那么好啦，停车。",
-        "highlights": [
-          {
-            "text": "All right",
-            "key": "all right",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "start": 95.57,
-        "end": 99.73,
-        "speaker": "Speaker",
-        "en": "There's this little cool tube.",
-        "ipa": "/ðerz ðɪs ˈlɪtl kuːl tuːb/",
-        "zh": "这里有一个很酷炫的小管道。",
-        "highlights": [
-          {
-            "text": "cool tube",
-            "key": "cool tube",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "start": 99.77,
-        "end": 102.93,
-        "speaker": "Speaker",
-        "en": "Mhm.",
-        "ipa": "/m̩həm/",
-        "zh": "嗯哼。",
-        "highlights": []
-      },
-      {
-        "id": 34,
-        "start": 102.97,
-        "end": 105.65,
-        "speaker": "Speaker",
-        "en": "Here it is.",
-        "ipa": "/hɪr ɪt ɪz/",
-        "zh": "就是这个。",
-        "highlights": [
-          {
-            "text": "Here it is",
-            "key": "here it is",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "start": 105.69,
-        "end": 107.61,
-        "speaker": "Speaker",
-        "en": "You take the tube out.",
-        "ipa": "/juː teɪk ðə tuːb aʊt/",
-        "zh": "你把这个管子抽出来。",
-        "highlights": []
-      },
-      {
-        "id": 36,
-        "start": 107.65,
-        "end": 111.5,
-        "speaker": "Speaker",
-        "en": "It has a pen inside if you need to sign anything.",
-        "ipa": "/ɪt hæz ə pen ɪnˈsaɪd ɪf juː niːd tuː saɪn ˈeniθɪŋ/",
-        "zh": "里面备了一支笔，如果你需要签名的话。",
-        "highlights": [
-          {
-            "text": "inside",
-            "key": "inside",
-            "chip": "orange"
-          },
-          {
-            "text": "sign",
-            "key": "sign",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "start": 111.54,
-        "end": 113.27,
-        "speaker": "Speaker",
-        "en": "I already signed everything.",
-        "ipa": "/aɪ ɔːlˈredi saɪnd ˈevriθɪŋ/",
-        "zh": "我已经把所有的东西都签好字了。",
-        "highlights": [
-          {
-            "text": "already",
-            "key": "already",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "start": 113.31,
-        "end": 115.25,
-        "speaker": "Speaker",
-        "en": "I was prepared.",
-        "ipa": "/aɪ wəz prɪˈperd/",
-        "zh": "我做好了准备。",
-        "highlights": [
-          {
-            "text": "prepared",
-            "key": "prepared",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "start": 115.29,
-        "end": 121.57,
-        "speaker": "Speaker",
-        "en": "So, I'm just going to put my driver's license and the checks in here.",
-        "ipa": "/soʊ aɪm dʒʌst ˈɡuːɪŋ tuː pʊt maɪ ˈdraɪvərz ˈlaɪsns ənd ðə tʃeks ɪn hɪr/",
-        "zh": "所以，我只需把我的驾照和支票放进这里面。",
-        "highlights": [
-          {
-            "text": "driver's license",
-            "key": "driver's license",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "start": 121.61,
-        "end": 123.59,
-        "speaker": "Speaker",
-        "en": "Close it up.",
-        "ipa": "/kloʊz ɪt ʌp/",
-        "zh": "把它合上。",
-        "highlights": [
-          {
-            "text": "Close it up",
-            "key": "close it up",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "start": 123.63,
-        "end": 126.45,
-        "speaker": "Speaker",
-        "en": "Watch this magic.",
-        "ipa": "/wɑːtʃ ðɪs ˈmædʒɪk/",
-        "zh": "见证奇迹的时刻到了。",
-        "highlights": [
-          {
-            "text": "magic",
-            "key": "magic",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "start": 126.49,
-        "end": 128.01,
-        "speaker": "Speaker",
-        "en": "Are you ready?",
-        "ipa": "/ɑːr juː ˈredi/",
-        "zh": "准备好了吗？",
-        "highlights": [
-          {
-            "text": "ready",
-            "key": "ready",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "start": 128.05,
-        "end": 131.81,
-        "speaker": "Speaker",
-        "en": "I push uh send carrier.",
-        "ipa": "/aɪ pʊʃ ʌ send ˈkæriər/",
-        "zh": "我按下呃发送载体的按钮。",
-        "highlights": [
-          {
-            "text": "carrier",
-            "key": "carrier",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "start": 131.85,
-        "end": 135.69,
-        "speaker": "Speaker",
-        "en": "Watch this tube up here.",
-        "ipa": "/wɑːtʃ ðɪs tuːb ʌp hɪr/",
-        "zh": "注意看上面这个管道。",
-        "highlights": [
-          {
-            "text": "Watch",
-            "key": "watch",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "start": 135.73,
-        "end": 138.28,
-        "speaker": "Speaker",
-        "en": "What?",
-        "ipa": "/wʌt/",
-        "zh": "什么？",
-        "highlights": []
-      },
-      {
-        "id": 46,
-        "start": 138.32,
-        "end": 143.49,
-        "speaker": "Speaker",
-        "en": "[gasps] As a kid, this is always the most exciting part about going to the bank.",
-        "ipa": "/æz ə kɪd ðɪs ɪz ˈɔːlweɪz ðə moʊst ɪkˈsaɪtɪŋ pɑːrt əˈbaʊt ˈɡuːɪŋ tuː ðə bæŋk/",
-        "zh": "[倒吸一口气] 小时候，去银行最让人兴奋的总是这个环节。",
-        "highlights": [
-          {
-            "text": "As a kid",
-            "key": "as a kid",
-            "chip": "pink"
-          },
-          {
-            "text": "exciting",
-            "key": "exciting",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "start": 143.53,
-        "end": 149.69,
-        "speaker": "Speaker",
-        "en": "Watching the tube get sucked up into this area and go into the bank.",
-        "ipa": "/ˈwɑːtʃɪŋ ðə tuːb ɡet sʌkt ʌp ˈɪntuː ðɪs ˈeriə ənd ɡoʊ ˈɪntuː ðə bæŋk/",
-        "zh": "看着管子被吸进这个区域，然后送进银行里面。",
-        "highlights": [
-          {
-            "text": "sucked up",
-            "key": "sucked up",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "start": 149.73,
-        "end": 152.51,
-        "speaker": "Speaker",
-        "en": "Um I used to actually work at the bank a long time ago.",
-        "ipa": "/ʌm aɪ juːzd tuː ˈæktʃuəli wɜːrk æt ðə bæŋk ə lɔːŋ taɪm əˈɡoʊ/",
-        "zh": "嗯，其实很久以前我曾在银行工作过。",
-        "highlights": [
-          {
-            "text": "used to",
-            "key": "used to",
-            "chip": "pink"
-          },
-          {
-            "text": "a long time ago",
-            "key": "a long time ago",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 49,
-        "start": 152.55,
-        "end": 158.55,
-        "speaker": "Speaker",
-        "en": "It was a great job and my bank that I worked at did not have this type of device.",
-        "ipa": "/ɪt wəz ə ɡreɪt dʒɑːb ənd maɪ bæŋk ðæt aɪ wɜːrkt æt dɪd nɑːt hæv ðɪs taɪp əv dɪˈvaɪs/",
-        "zh": "那是一份很棒的工作，但我之前工作的银行并没有这种设备。",
-        "highlights": [
-          {
-            "text": "great job",
-            "key": "great job",
-            "chip": "indigo"
-          },
-          {
-            "text": "device",
-            "key": "device",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 50,
-        "start": 158.59,
-        "end": 171.86,
-        "speaker": "Speaker",
-        "en": "There was only one drive-thru lane, and if you go to the closest drive-thru lane where this other car is over here, there's just a door that opens in the wall, and you put things directly in there, and the bank teller grabs it directly out.",
-        "ipa": "/ðer wəz ˈoʊnli wʌn ˈdraɪv θruː leɪn ənd ɪf juː ɡoʊ tuː ðə ˈkloʊsɪst ˈdraɪv θruː leɪn wer ðɪs ˈʌðər kɑːr ɪz ˈoʊvər hɪr ðerz dʒʌst ə dɔːr ðæt ˈoʊpənz ɪn ðə wɔːl ənd juː pʊt θɪŋz dəˈrektli ɪn ðer ənd ðə bæŋk ˈtelər ɡræbz ɪt dəˈrektli aʊt/",
-        "zh": "那里只有一个免下车车道，如果你去最近的那条车道——也就是旁边那辆车停的地方，那里只有一个墙上会打开一个小门，你可以直接把东西放进去，银行柜员会直接从里面拿出来。",
-        "highlights": [
-          {
-            "text": "drive-thru lane",
-            "key": "drive-thru lane",
-            "chip": "indigo"
-          },
-          {
-            "text": "closest",
-            "key": "closest",
-            "chip": "orange"
-          },
-          {
-            "text": "directly",
-            "key": "directly",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 51,
-        "start": 171.9,
-        "end": 172.96,
-        "speaker": "Speaker",
-        "en": "There's no cool tube.",
-        "ipa": "/ðerz noʊ kuːl tuːb/",
-        "zh": "没有这么酷炫的管道。",
-        "highlights": [
-          {
-            "text": "cool tube",
-            "key": "cool tube",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 52,
-        "start": 173.0,
-        "end": 174.98,
-        "speaker": "Speaker",
-        "en": "But, I wanted to show you the tube.",
-        "ipa": "/bʌt ˈaɪ ˈwɪntɪd tu ˈʃoʊ ju ðə tub/",
-        "zh": "不过，我想让你看看这个管子。",
-        "highlights": [
-          {
-            "text": "wanted to",
-            "key": "want to",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 53,
-        "start": 175.02,
-        "end": 178.61,
-        "speaker": "Speaker",
-        "en": "All right, let's see if it's my turn to get serviced.",
-        "ipa": "/ɔl ˈraɪt lɛts ˈsiː ɪf ɪts maɪ tɜrn tu ɡɛt ˈsɜrvɪst/",
-        "zh": "好的，看看是不是轮到我接受服务了。",
-        "highlights": [
-          {
-            "text": "my turn",
-            "key": "my turn",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 54,
-        "start": 178.65,
-        "end": 179.45,
-        "speaker": "Speaker",
-        "en": "Good morning.",
-        "ipa": "/ɡʊd ˈmɔrnɪŋ/",
-        "zh": "早上好。",
-        "highlights": [
-          {
-            "text": "Good morning",
-            "key": "good morning",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 55,
-        "start": 179.49,
-        "end": 180.57,
-        "speaker": "Speaker",
-        "en": "Hi, good morning.",
-        "ipa": "/haɪ ɡʊd ˈmɔrnɪŋ/",
-        "zh": "嗨，早上好。",
-        "highlights": [
-          {
-            "text": "good morning",
-            "key": "good morning",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 56,
-        "start": 180.61,
-        "end": 181.17,
-        "speaker": "Speaker",
-        "en": "How are you?",
-        "ipa": "/haʊ ɑr ju/",
-        "zh": "你好吗？",
-        "highlights": [
-          {
-            "text": "How are you",
-            "key": "how are you",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 57,
-        "start": 181.21,
-        "end": 181.67,
-        "speaker": "Speaker",
-        "en": "Good.",
-        "ipa": "/ɡʊd/",
-        "zh": "很好。",
-        "highlights": [
-          {
-            "text": "Good",
-            "key": "good",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 58,
-        "start": 181.71,
-        "end": 183.69,
-        "speaker": "Speaker",
-        "en": "I just like to deposit those checks.",
-        "ipa": "/aɪ dʒʌst laɪk tu dɪˈpɑzɪt ðoʊz tʃɛks/",
-        "zh": "我只是想把那些支票存起来。",
-        "highlights": [
-          {
-            "text": "deposit",
-            "key": "deposit",
-            "chip": "orange"
-          },
-          {
-            "text": "checks",
-            "key": "check",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 59,
-        "start": 183.73,
-        "end": 183.87,
-        "speaker": "Speaker",
-        "en": "Yes.",
-        "ipa": "/jɛs/",
-        "zh": "是的。",
-        "highlights": [
-          {
-            "text": "Yes",
-            "key": "yes",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "start": 183.87,
-        "end": 185.25,
-        "speaker": "Speaker",
-        "en": "Would you like to deposit in your checking?",
-        "ipa": "/wʊd ju laɪk tu dɪˈpɑzɪt ɪn jʊər ˈtʃɛkɪŋ/",
-        "zh": "你想存进你的支票账户吗？",
-        "highlights": [
-          {
-            "text": "Would you like to",
-            "key": "would you like to",
-            "chip": "pink"
-          },
-          {
-            "text": "checking",
-            "key": "checking",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 61,
-        "start": 185.29,
-        "end": 188.07,
-        "speaker": "Speaker",
-        "en": "That would be great.",
-        "ipa": "/ðæt wʊd bi ɡreɪt/",
-        "zh": "那太好了。",
-        "highlights": []
-      },
-      {
-        "id": 62,
-        "start": 188.11,
-        "end": 189.49,
-        "speaker": "Speaker",
-        "en": "Thank you.",
-        "ipa": "/θæŋk ju/",
-        "zh": "谢谢你。",
-        "highlights": [
-          {
-            "text": "Thank you",
-            "key": "thank you",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "start": 189.53,
-        "end": 189.89,
-        "speaker": "Speaker",
-        "en": "Success.",
-        "ipa": "/səkˈsɛs/",
-        "zh": "成功。",
-        "highlights": [
-          {
-            "text": "Success",
-            "key": "success",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 64,
-        "start": 189.93,
-        "end": 193.29,
-        "speaker": "Speaker",
-        "en": "She might ask because we have a couple different checking accounts.",
-        "ipa": "/ʃi maɪt æsk bɪˈkəz wi hæv ə ˈkʌpəl ˈdɪfərənt ˈtʃɛkɪŋ əˈkaʊnts/",
-        "zh": "她可能会问，因为我们有几个不同的支票账户。",
-        "highlights": [
-          {
-            "text": "might ask",
-            "key": "might ask",
-            "chip": "indigo"
-          },
-          {
-            "text": "a couple different",
-            "key": "a couple of",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 65,
-        "start": 193.33,
-        "end": 197.66,
-        "speaker": "Speaker",
-        "en": "She might ask me which checking account do you want to get it deposited into?",
-        "ipa": "/ʃi maɪt æsk mi wɪtʃ ˈtʃɛkɪŋ əˈkaʊnt du ju wɑnt tu ɡɛt ɪt dɪˈpɑzɪtɪd ˈɪntuː/",
-        "zh": "她可能会问我你想把钱存入哪个支票账户？",
-        "highlights": [
-          {
-            "text": "checking account",
-            "key": "checking account",
-            "chip": "indigo"
-          },
-          {
-            "text": "want to",
-            "key": "want to",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "start": 197.7,
-        "end": 198.61,
-        "speaker": "Speaker",
-        "en": "I don't know.",
-        "ipa": "/aɪ doʊnt noʊ/",
-        "zh": "我不知道。",
-        "highlights": [
-          {
-            "text": "I don't know",
-            "key": "i don't know",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "start": 198.65,
-        "end": 201.2,
-        "speaker": "Speaker",
-        "en": "Maybe she'll just guess and put it in one of them.",
-        "ipa": "/ˈmeɪbi ʃil dʒʌst ɡɛs ænd pʊt ɪt ɪn wʌn ʌv ðɛm/",
-        "zh": "也许她会随便猜一个然后存进去。",
-        "highlights": [
-          {
-            "text": "guess",
-            "key": "guess",
-            "chip": "orange"
-          },
-          {
-            "text": "one of them",
-            "key": "one of them",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "start": 201.24,
-        "end": 202.37,
-        "speaker": "Speaker",
-        "en": "Let's see.",
-        "ipa": "/lɛts siː/",
-        "zh": "我们来看看。",
-        "highlights": [
-          {
-            "text": "Let's see",
-            "key": "let's see",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 69,
-        "start": 202.41,
-        "end": 216.22,
-        "speaker": "Speaker",
-        "en": "While we're waiting for the checks to get deposited, I wanted to let you know that if you do live in the US and you want to go to the bank, if you want to just deposit a check or if you want to get some cash out, you don't need to go into the bank.",
-        "ipa": "/waɪl wɪər ˈweɪtɪŋ fɔr ðə tʃɛks tu ɡɛt dɪˈpɑzɪtɪd, aɪ ˈwɪntɪd tu lɛt ju noʊ ðæt ɪf ju du lɪv ɪn ði ˌjuˈɛs ænd ju wɑnt tu ɡoʊ tu ðə bæŋk, ɪf ju wɑnt tu dʒʌst dɪˈpɑzɪt ə tʃɛk ɔr ɪf ju wɑnt tu ɡɛt sʌm kæʃ aʊt, ju doʊnt niːd tu ɡoʊ ˈɪntuː ðə bæŋk/",
-        "zh": "在我们等待支票存入的这段时间里，我想告诉大家，如果你确实住在美国，并且你想去银行，如果你只是想存支票或者取现金，你根本不需要走进银行大厅。",
-        "highlights": [
-          {
-            "text": "waiting for",
-            "key": "wait for",
-            "chip": "indigo"
-          },
-          {
-            "text": "live in",
-            "key": "live in",
-            "chip": "indigo"
-          },
-          {
-            "text": "deposit a check",
-            "key": "deposit a check",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 70,
-        "start": 216.26,
-        "end": 220.25,
-        "speaker": "Speaker",
-        "en": "You can use the machine over here, or you can just drive up like this.",
-        "ipa": "/ju kən juz ðə məˈʃin ˈoʊvər hɪr, ɔr ju kən dʒʌst draɪv ʌp laɪk ðɪs/",
-        "zh": "你可以使用这边的机器，或者直接像这样开车过来办理。",
-        "highlights": [
-          {
-            "text": "machine",
-            "key": "machine",
-            "chip": "orange"
-          },
-          {
-            "text": "drive up",
-            "key": "drive up",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 71,
-        "start": 220.29,
-        "end": 224.77,
-        "speaker": "Speaker",
-        "en": "But, if you want to open a bank account, you have to go into the bank.",
-        "ipa": "/bʌt, ɪf ju wɑnt tu ˈoʊpən ə bæŋk əˈkaʊnt, ju hæv tu ɡoʊ ˈɪntuː ðə bæŋk/",
-        "zh": "但是，如果你想开一个银行账户，你就必须亲自走进银行。",
-        "highlights": [
-          {
-            "text": "open a bank account",
-            "key": "open a bank account",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 72,
-        "start": 225.27,
-        "end": 235.15,
-        "speaker": "Speaker",
-        "en": "Now, unfortunately, I'm not going to be taking you into the post office with me, but we will drive up to the post office and you'll see what happens.",
-        "ipa": "/naʊ ənˈfɔrtʃənətli aɪm nɑt ˈɡoʊɪŋ tu bi ˈteɪkɪŋ ju ˈɪntə ðə poʊst ˈɔfɪs wɪð mi bʌt wi wɪl draɪv ʌp tu ðə poʊst ˈɔfɪs ænd jul si wʌt ˈhæpənz/",
-        "zh": "现在，很遗憾我不能带你一起进邮局，但我们会开车到邮局门口然后你就会看到会发生什么。",
-        "highlights": [
-          {
-            "text": "unfortunately",
-            "key": "unfortunately",
-            "chip": "orange"
-          },
-          {
-            "text": "what happens",
-            "key": "what happens",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 73,
-        "start": 235.19,
-        "end": 235.9,
-        "speaker": "Speaker",
-        "en": "Let's go.",
-        "ipa": "/lɛts ɡoʊ/",
-        "zh": "我们走吧。",
-        "highlights": [
-          {
-            "text": "Let's go",
-            "key": "let's go",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 74,
-        "start": 235.94,
-        "end": 238.7,
-        "speaker": "Speaker",
-        "en": "Our final errand is going to the post office.",
-        "ipa": "/ˈaʊər ˈfaɪnəl ˈɛrənd ɪz ˈɡoʊɪŋ tu ðə poʊst ˈɔfɪs/",
-        "zh": "我们最后要办的事是去邮局。",
-        "highlights": [
-          {
-            "text": "final",
-            "key": "final",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 75,
-        "start": 238.74,
-        "end": 243.38,
-        "speaker": "Speaker",
-        "en": "Unfortunately, this is not one of my favorite errands, but the people who work here are really nice.",
-        "ipa": "/ənˈfɔrtʃənətli ðɪs ɪz nɑt wʌn ʌv maɪ ˈfeɪvərɪt ˈɛrəndz bʌt ðə ˈpipəl hu wɜrk hɪr ɑr ˈrɪəli naɪs/",
-        "zh": "很遗憾，这不是我最喜欢的差事，但在这里工作的人都非常友善。",
-        "highlights": [
-          {
-            "text": "favorite",
-            "key": "favorite",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 76,
-        "start": 243.42,
-        "end": 250.35,
-        "speaker": "Speaker",
-        "en": "I'm going to be sending these little chocolate packages to some of my team members who had birthdays recently.",
-        "ipa": "/aɪm ˈɡoʊɪŋ tu bi ˈsɛndɪŋ ðiz ˈlɪtəl ˈtʃɑklət ˈpækɪdʒɪz tu sʌm ʌv maɪ tim ˈmɛmbərz hu hæd ˈbɜrθdeɪz ˈrisəntli/",
-        "zh": "我打算把这些小巧克力礼盒寄给最近过生日的一些团队成员。",
-        "highlights": [
-          {
-            "text": "team members",
-            "key": "team members",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 77,
-        "start": 250.39,
-        "end": 252.79,
-        "speaker": "Speaker",
-        "en": "I like to try to send them local chocolate.",
-        "ipa": "/aɪ laɪk tu traɪ tu sɛnd ðɛm ˈloʊkəl ˈtʃɑklət/",
-        "zh": "我喜欢尽量送他们当地的巧克力。",
-        "highlights": [
-          {
-            "text": "local",
-            "key": "local",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 78,
-        "start": 252.83,
-        "end": 259.31,
-        "speaker": "Speaker",
-        "en": "It's something I would love to receive for my birthday, so I'm sending this to them and I need to go into the post office to do that.",
-        "ipa": "/ɪts ˈsʌmθɪŋ aɪ wʊd lʌv tu rɪˈsiv fɔr maɪ ˈbɜrθdeɪ soʊ aɪm ˈsɛndɪŋ ðɪs tu ðɛm ænd aɪ nid tu ɡoʊ ˈɪntə ðə poʊst ˈɔfɪs tu du ðæt/",
-        "zh": "这也是我生日时很想收到的礼物，所以我打算寄给他们，为此我需要亲自去一趟邮局。",
-        "highlights": [
-          {
-            "text": "receive",
-            "key": "receive",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 79,
-        "start": 259.35,
-        "end": 261.18,
-        "speaker": "Speaker",
-        "en": "But, I'm not going to take you with me.",
-        "ipa": "/bʌt aɪm nɑt ˈɡoʊɪŋ tu teɪk ju wɪð mi/",
-        "zh": "但是，我不会带你一起去。",
-        "highlights": [
-          {
-            "text": "take you with me",
-            "key": "take with",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 80,
-        "start": 261.22,
-        "end": 262.78,
-        "speaker": "Speaker",
-        "en": "Sorry about that.",
-        "ipa": "/ˈsɑri əˈbaʊt ðæt/",
-        "zh": "抱歉啦。",
-        "highlights": [
-          {
-            "text": "Sorry about that",
-            "key": "sorry about that",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 81,
-        "start": 262.82,
-        "end": 275.98,
-        "speaker": "Speaker",
-        "en": "So, you'll have to be satisfied with just this shot outside the post office and I'll see you after I go in.",
-        "ipa": "/soʊ jul hæv tu bi ˈsætɪsfaɪd wɪð dʒʌst ðɪs ʃɑt ˈaʊtsaɪd ðə poʊst ˈɔfɪs ænd aɪl si ju ˈæftər aɪ ɡoʊ ɪn/",
-        "zh": "所以，你们就只能看看邮局外面的这个镜头了，等我之后再见。进去之后。",
-        "highlights": [
-          {
-            "text": "satisfied with",
-            "key": "satisfied with",
-            "chip": "indigo"
-          },
-          {
-            "text": "go in",
-            "key": "go in",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 82,
-        "start": 276.02,
-        "end": 281.72,
-        "speaker": "Speaker",
-        "en": "All right, I just finished at the post office and I sent those lovely gifts to two of my team members.",
-        "ipa": "/ɔl raɪt aɪ dʒʌst ˈfɪnɪʃt æt ðə poʊst ˈɔfɪs ænd aɪ sɛnt ðoʊz ˈlʌvli ɡɪfts tu tu ʌv maɪ tim ˈmɛmbərz/",
-        "zh": "好了，我刚从邮局办完事，已经把那两份可爱的礼物寄给了我的两位团队成员。",
-        "highlights": [
-          {
-            "text": "finished",
-            "key": "finish",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 83,
-        "start": 281.76,
-        "end": 285.29,
-        "speaker": "Speaker",
-        "en": "Thank you so much for joining me today to run some errands.",
-        "ipa": "/θæŋk ju soʊ mʌtʃ fɔr ˈdʒɔɪnɪŋ mi təˈdeɪ tu rʌn sʌm ˈɛrəndz/",
-        "zh": "非常感谢大家今天陪我一起跑腿办事。",
-        "highlights": [
-          {
-            "text": "run some errands",
-            "key": "run errands",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 84,
-        "start": 285.33,
-        "end": 295.17,
-        "speaker": "Speaker",
-        "en": "Running errands isn't my favorite activity, but it's certainly a necessary part of life, so I hope that you learned some useful English phrases for daily life in today's lesson.",
-        "ipa": "/ˈrʌnɪŋ ˈɛrəndz ˈɪzənt maɪ ˈfeɪvərɪt ækˈtɪvɪti bʌt ɪts ˈsɜrtənli ə ˈnɛsəˌsɛri pɑrt ʌv laɪf soʊ aɪ hoʊp ðæt ju lɜrnd sʌm ˈjusfəl ˈɪŋɡlɪʃ ˈfreɪzɪz fɔr ˈdeɪli laɪf ɪn təˈdeɪz ˈlɛsən/",
-        "zh": "跑腿办事虽然不是我最喜欢的活动，但它绝对是生活中必不可少的一部分，所以我希望你能在今天的课程中学到一些日常生活中的实用英语短语。",
-        "highlights": [
-          {
-            "text": "necessary",
-            "key": "necessary",
-            "chip": "orange"
-          },
-          {
-            "text": "useful",
-            "key": "useful",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 85,
-        "start": 295.21,
-        "end": 299.97,
-        "speaker": "Speaker",
-        "en": "Thank you for joining me for these errands around town in English.",
-        "ipa": "/θæŋk ju fɔr ˈdʒɔɪnɪŋ mi fɔr ðiz ˈɛrəndz əˈraʊnd taʊn ɪn ˈɪŋɡlɪʃ/",
-        "zh": "谢谢你们用英语陪我一起在城里办这些事。",
-        "highlights": [
-          {
-            "text": "around town",
-            "key": "around town",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 86,
-        "start": 300.01,
-        "end": 303.61,
-        "speaker": "Speaker",
-        "en": "Don't forget to download today's free PDF worksheet.",
-        "ipa": "/doʊnt fərˈɡɛt tu ˈdaʊnˌloʊd təˈdeɪz fri ˌpiˌdiˈɛf ˈwɜrkˌʃit/",
-        "zh": "别忘了下载今天的免费 PDF 练习页。",
-        "highlights": [
-          {
-            "text": "Don't forget to",
-            "key": "don't forget to",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 87,
-        "start": 303.65,
-        "end": 310.22,
-        "speaker": "Speaker",
-        "en": "It includes all of the vocabulary you saw come up on the screen plus the bonus speaking practice.",
-        "ipa": "/ɪt ɪnˈkludɪz ɔl ʌv ðə voʊˈkæbjəˌlɛri ju sɔ kʌm ʌp ɑn ðə skrin plʌs ðə ˈboʊnəs ˈspikɪŋ ˈpræktɪs/",
-        "zh": "它包含了你在屏幕上看到的所有词汇，外加额外的口语练习。",
-        "highlights": [
-          {
-            "text": "vocabulary",
-            "key": "vocabulary",
-            "chip": "orange"
-          },
-          {
-            "text": "speaking practice",
-            "key": "speaking practice",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 88,
-        "start": 310.26,
-        "end": 315.15,
-        "speaker": "Speaker",
-        "en": "This is an essential part of helping you actually to become a fluent English speaker.",
-        "ipa": "/ðɪs ɪz ən ɪˈsɛnʃəl pɑrt ʌv ˈhɛlpɪŋ ju ˈæktʃuəli tu bɪˈkʌm ə ˈfluənt ˈɪŋglɪʃ ˈspikər/",
-        "zh": "这是帮助你真正成为流利英语使用者的重要组成部分。",
-        "highlights": [
-          {
-            "text": "essential part",
-            "key": "essential part",
-            "chip": "indigo"
-          },
-          {
-            "text": "fluent",
-            "key": "fluent",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 89,
-        "start": 315.19,
-        "end": 330.77,
-        "speaker": "Speaker",
-        "en": "You need to practice speaking in English and with the speaking practice, you'll imitate with my voice and you'll be able to use a fluent pronunciation, vocabulary, and grammar and you will be well on your way to using English with confidence.",
-        "ipa": "/ju nid tu ˈpræktɪs ˈspikɪŋ ɪn ˈɪŋglɪʃ ænd wɪð ðə ˈspikɪŋ ˈpræktɪs, jul ˈɪmɪˌteɪt wɪð maɪ vɔɪs ænd jul bi ˈeɪbəl tu juz ə ˈfluənt prəˌnʌnsiˈeɪʃən, voʊˈkæbjəˌlɛri, ænd ˈɡræmər ænd ju wɪl bi wɛl ɑn jʊər weɪ tu ˈjuːzɪŋ ˈɪŋglɪʃ wɪð ˈkɑnfɪdəns/",
-        "zh": "你需要练习说英语，通过口语练习，你可以模仿我的声音，这样你就能掌握流利的发音、词汇和语法，并最终能够自信地使用英语。",
-        "highlights": [
-          {
-            "text": "practice speaking",
-            "key": "practice speaking",
-            "chip": "indigo"
-          },
-          {
-            "text": "imitate",
-            "key": "imitate",
-            "chip": "orange"
-          },
-          {
-            "text": "pronunciation",
-            "key": "pronunciation",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 90,
-        "start": 330.81,
-        "end": 332.42,
-        "speaker": "Speaker",
-        "en": "So, how can you get this worksheet?",
-        "ipa": "/soʊ, haʊ kæn ju gɛt ðɪs ˈwɜrkˌʃit/",
-        "zh": "那么，如何才能获得这份工作表呢？",
-        "highlights": [
-          {
-            "text": "worksheet",
-            "key": "worksheet",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 91,
-        "start": 332.46,
-        "end": 341.36,
-        "speaker": "Speaker",
-        "en": "All you need to do is click the link in the description, enter your name and email address, and voila, just like that it will land in your email inbox.",
-        "ipa": "/ɔl ju nid tu du ɪz klɪk ðə lɪŋk ɪn ðə dɪˈskrɪpʃən, ˈɛntər jʊər neɪm ænd ˈimɛl əˈdrɛs, ænd vwɑˈlɑ, dʒʌst laɪk ðæt ɪt wɪl lænd ɪn jʊər ˈimɛl ˈɪnˌbɑks/",
-        "zh": "你只需要点击说明中的链接，输入你的姓名和电子邮件地址，瞧，就这样它就会发送到你的电子邮件收件箱。",
-        "highlights": [
-          {
-            "text": "description",
-            "key": "description",
-            "chip": "orange"
-          },
-          {
-            "text": "just like that",
-            "key": "just like that",
-            "chip": "pink"
-          },
-          {
-            "text": "inbox",
-            "key": "inbox",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 92,
-        "start": 341.4,
-        "end": 344.91,
-        "speaker": "Speaker",
-        "en": "It is my gift to you to help you speak fluent English.",
-        "ipa": "/ɪt ɪz maɪ gɪft tu ju tu hɛlp ju spik ˈfluənt ˈɪŋglɪʃ/",
-        "zh": "帮助你流利地说英语是我送给你的礼物。",
-        "highlights": [
-          {
-            "text": "gift to you",
-            "key": "gift to you",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 93,
-        "start": 344.95,
-        "end": 352.55,
-        "speaker": "Speaker",
-        "en": "Well, thank you so much for learning English with me and I'll see you again next Friday for a new lesson here on my YouTube channel.",
-        "ipa": "/wɛl, θæŋk ju soʊ mʌtʃ fɔr ˈlɜrnɪŋ ˈɪŋglɪʃ wɪð mi ænd aɪl si ju əˈgɛn nɛkst ˈfraɪdi fɔr ə nu ˈlɛsən hɪr ɑn maɪ ˈjubˌtub ˈtʃænəl/",
-        "zh": "非常感谢你和我一起学习英语，下周五我会在我的YouTube频道上带来新的课程，届时再见！",
-        "highlights": [
-          {
-            "text": "thank you so much",
-            "key": "thank you so much",
-            "chip": "pink"
-          },
-          {
-            "text": "new lesson",
-            "key": "new lesson",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 94,
-        "start": 352.59,
-        "end": 352.87,
-        "speaker": "Speaker",
-        "en": "Bye.",
-        "ipa": "/baɪ/",
-        "zh": "再见。",
-        "highlights": [
-          {
-            "text": "Bye",
-            "key": "bye",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 95,
-        "start": 352.91,
-        "end": 354.48,
-        "speaker": "Speaker",
-        "en": "But wait, do you want more?",
-        "ipa": "/bʌt weɪt, du ju wɑnt mɔr/",
-        "zh": "等等，你还想要更多吗？",
-        "highlights": [
-          {
-            "text": "want more",
-            "key": "want more",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 96,
-        "start": 354.52,
-        "end": 369.67,
-        "speaker": "Speaker",
-        "en": "I recommend watching this video next where you will join me around town at the grocery store, the pharmacy, and the gas station so that you can continue to immerse yourself in the real world to be able to use real-life English.",
-        "ipa": "/aɪ ˈrɛkəˌmɛnd ˈwɑtʃɪŋ ðɪs ˈvɪdioʊ nɛkst wɛr ju wɪl dʒɔɪn mi əˈraʊnd taʊn æt ðə ˈɡroʊsəri stɔr, ðə ˈfɑrməsi, ænd ðə ɡæs ˈsteɪʃən soʊ ðæt ju kæn kənˈtɪnyu tu ˈɪˌmɜrs jʊrˈsɛlf ɪn ðə riəl wɜrld tu bi ˈeɪbəl tu juz ˈriəlˌlaɪf ˈɪŋglɪʃ/",
-        "zh": "我建议你接下来观看这个视频，视频中你会和我一起去城里的杂货店、药店和加油站，这样你就可以继续沉浸在真实世界中，从而能够使用真实的英语。",
-        "highlights": [
-          {
-            "text": "recommend",
-            "key": "recommend",
-            "chip": "orange"
-          },
-          {
-            "text": "grocery store",
-            "key": "grocery store",
-            "chip": "indigo"
-          },
-          {
-            "text": "immerse yourself",
-            "key": "immerse yourself",
-            "chip": "pink"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-15-trimmed-15-part1",
-    "number": "EP 15",
-    "title": "美式社区日常漫步：街边停车、过马路与垃圾回收",
-    "speaker": "Speak English With Vanessa",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 4,
-    "durationSec": 507,
-    "durationLabel": "08:27",
-    "date": "2026/11/26",
-    "tags": [
-      "生活英语",
-      "生活"
-    ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
-    "coverImage": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%201%EF%BC%9A%E7%BE%8E%E5%BC%8F%E7%A4%BE%E5%8C%BA%E6%BC%AB%E6%AD%A5%E4%B8%8E%E6%97%A5%E5%B8%B8%E8%AE%BE%E6%96%BD%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%201%EF%BC%9A%E7%BE%8E%E5%BC%8F%E7%A4%BE%E5%8C%BA%E6%BC%AB%E6%AD%A5%E4%B8%8E%E6%97%A5%E5%B8%B8%E8%AE%BE%E6%96%BD%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%201%EF%BC%9A%E7%BE%8E%E5%BC%8F%E7%A4%BE%E5%8C%BA%E6%BC%AB%E6%AD%A5%E4%B8%8E%E6%97%A5%E5%B8%B8%E8%AE%BE%E6%96%BD%29.trimmed.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "生活英语",
-    "skipRanges": [
-      [
-        505.22,
-        507.0
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.0,
-        "end": 8.0,
-        "speaker": "Speaker",
-        "en": "Today, you are coming with me to walk around in my neighborhood and go to the bank and the post office so that you can.",
-        "ipa": "/təˈdeɪ, ju ɑr ˈkʌmɪŋ wɪð mi tu wɔk əˈraʊnd ɪn maɪ ˈneɪbərˌhʊd ænd ɡoʊ tu ðə bæŋk ænd ðə poʊst ˈɔfɪs soʊ ðæt ju kæn./",
-        "zh": "今天，你将和我一起在我家附近走走，去银行和邮局，以便你能够",
-        "highlights": [
-          {
-            "text": "walk around",
-            "key": "walk around",
-            "chip": "indigo"
-          },
-          {
-            "text": "neighborhood",
-            "key": "neighborhood",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 8.04,
-        "end": 11.4,
-        "speaker": "Speaker",
-        "en": "Immerse yourself in real life English.",
-        "ipa": "/ˈɪmərs jərˈsɛlf ɪn riəl laɪf ˈɪŋɡlɪʃ./",
-        "zh": "沉浸在真实的英语环境中。",
-        "highlights": [
-          {
-            "text": "yourself",
-            "key": "yourself",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 11.44,
-        "end": 17.52,
-        "speaker": "Speaker",
-        "en": "No amount of AI English classes or training will prepare you for the real world.",
-        "ipa": "/noʊ əˈmaʊnt ʌv eɪ-aɪ ˈɪŋɡlɪʃ ˈklæsəz ɔr ˈtreɪnɪŋ wɪl priˈpɛr ju fɔr ðə riəl wɜrld./",
-        "zh": "再多的AI英语课程或培训也无法让你为现实世界做好准备。",
-        "highlights": [
-          {
-            "text": "No amount of",
-            "key": "No amount of",
-            "chip": "indigo"
-          },
-          {
-            "text": "prepare you for",
-            "key": "prepare you for",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 17.56,
-        "end": 26.3,
-        "speaker": "Speaker",
-        "en": "So, by the end of this real life English lesson, you are going to be able to go out into the real world and use English with confidence.",
-        "ipa": "/soʊ, baɪ ði ɛnd ʌv ðɪs riəl laɪf ˈɪŋɡlɪʃ ˈlɛsən, ju ɑr ˈɡoʊɪŋ tu bi ˈeɪbəl tu ɡoʊ aʊt ˈɪntu ðə riəl wɜrld ænd juz ˈɪŋɡlɪʃ wɪð ˈkɑnfɪdəns./",
-        "zh": "所以，通过这堂真实的英语课程，你将能够自信地走向现实世界，并使用英语。",
-        "highlights": [
-          {
-            "text": "with confidence",
-            "key": "with confidence",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 26.34,
-        "end": 34.6,
-        "speaker": "Speaker",
-        "en": "If you're new here, hi, I'm Vanessa from Speak English with vanessa.com and I have been teaching real life English here on my.",
-        "ipa": "/ɪf jʊr nu hir, haɪ, aɪm vəˈnɛsə frʌm spik ˈɪŋɡlɪʃ wɪð vəˈnɛsə.kɑm ænd aɪ hæv bɪn ˈtiʧɪŋ riəl laɪf ˈɪŋɡlɪʃ hir ɑn maɪ./",
-        "zh": "如果你是新来的，你好，我是Vanessa，来自Speak English with vanessa.com，我一直在这里教授真实的英语。",
-        "highlights": [
-          {
-            "text": "If you're new here",
-            "key": "If you're new here",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 34.64,
-        "end": 41.44,
-        "speaker": "Speaker",
-        "en": "YouTube channel for over the past 10 years to now more than 7 million of you.",
-        "ipa": "/ˈjuˌtub ˈʧænəl fɔr ˈoʊvər ðə pæst tɛn jɪrz tu naʊ mɔr ðæn ˈsɛvən ˈmɪljən ʌv ju./",
-        "zh": "在我的YouTube频道上教授真实的英语，至今已有超过700万的观众。",
-        "highlights": [
-          {
-            "text": "over the past",
-            "key": "over the past",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 41.48,
-        "end": 43.12,
-        "speaker": "Speaker",
-        "en": "I can't believe it.",
-        "ipa": "/aɪ kænt bɪˈliv ɪt./",
-        "zh": "我简直不敢相信。",
-        "highlights": [
-          {
-            "text": "can't believe it",
-            "key": "can't believe it",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 43.16,
-        "end": 44.72,
-        "speaker": "Speaker",
-        "en": "Thank you so much.",
-        "ipa": "/θæŋk ju soʊ mʌʧ./",
-        "zh": "太感谢了。",
-        "highlights": [
-          {
-            "text": "Thank you so much",
-            "key": "Thank you so much",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 44.76,
-        "end": 53.31,
-        "speaker": "Speaker",
-        "en": "And like always, I have created a free PDF worksheet that includes everything valuable that you are going to learn today.",
-        "ipa": "/ænd laɪk ˈɔlˌweɪz, aɪ hæv kriˈeɪtəd ə fri pi-di-ɛf ˈwɜrkˌʃit ðæt ɪnˈkludz ˈɛvriˌθɪŋ ˈvæljuəbəl ðæt ju ɑr ˈɡoʊɪŋ tu lɜrn təˈdeɪ./",
-        "zh": "和往常一样，我制作了一份免费的PDF工作表，其中包含了你今天将要学习的所有有价值的内容。",
-        "highlights": [
-          {
-            "text": "like always",
-            "key": "like always",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 53.81,
-        "end": 55.79,
-        "speaker": "Speaker",
-        "en": "So, they park on the streets.",
-        "ipa": "/soʊ, ðeɪ pɑrk ɑn ðə strits./",
-        "zh": "所以，他们就把车停在街上。",
-        "highlights": [
-          {
-            "text": "park on the streets",
-            "key": "park on the streets",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 55.83,
-        "end": 58.06,
-        "speaker": "Speaker",
-        "en": "We call this street parking.",
-        "ipa": "/wi kɔl ðis strit ˈpɑrkɪŋ/",
-        "zh": "我们称之为路边停车。",
-        "highlights": [
-          {
-            "text": "street parking",
-            "key": "路边停车",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 58.1,
-        "end": 59.02,
-        "speaker": "Speaker",
-        "en": "Oh.",
-        "ipa": "/oʊ/",
-        "zh": "哦。",
-        "highlights": [
-          {
-            "text": "Oh",
-            "key": "哦",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 59.06,
-        "end": 61.22,
-        "speaker": "Speaker",
-        "en": "Look at this lovely mural.",
-        "ipa": "/lʊk æt ðis ˈlʌvli ˈmjʊrəl/",
-        "zh": "看看这幅美丽的壁画。",
-        "highlights": [
-          {
-            "text": "mural",
-            "key": "壁画",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 61.26,
-        "end": 65.5,
-        "speaker": "Speaker",
-        "en": "I love you.",
-        "ipa": "/aɪ lʌv ju/",
-        "zh": "我爱你。",
-        "highlights": [
-          {
-            "text": "love",
-            "key": "爱",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 65.54,
-        "end": 82.78,
-        "speaker": "Speaker",
-        "en": "Yes, I think my city Asheville is kind of known for art known for some other types of like uh music on the street, these types of things, but where we are is a neighborhood and not where people are playing music on the streets.",
-        "ipa": "/jɛs, aɪ θɪŋk maɪ ˈsɪti ˈæʃvɪl ɪz kaɪnd ʌv noʊn fɔr ɑrt noʊn fɔr sʌm ˈʌðər taɪps ʌv laɪk ʌ ˈmjuzɪk ɑn ðə strit, ðiz taɪps ʌv θɪŋz, bʌt wɛr wi ɑr ɪz ə ˈneɪbərhʊd ænd nɑt wɛr ˈpipəl ɑr ˈpleɪɪŋ ˈmjuzɪk ɑn ðə strits/",
-        "zh": "是的，我觉得我的家乡阿什维尔以艺术闻名，也以街头音乐之类的其他类型而闻名，但我们这里是一个居民区，而不是人们在街头演奏音乐的地方。",
-        "highlights": [
-          {
-            "text": "known for",
-            "key": "以……闻名",
-            "chip": "indigo"
-          },
-          {
-            "text": "neighborhood",
-            "key": "居民区，街区",
-            "chip": "orange"
-          },
-          {
-            "text": "playing music",
-            "key": "演奏音乐",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 82.82,
-        "end": 85.38,
-        "speaker": "Speaker",
-        "en": "So, let's keep going down this street.",
-        "ipa": "/soʊ, lɛts kip ˈgoʊɪŋ daʊn ðɪs strit/",
-        "zh": "那么，我们继续沿着这条街走吧。",
-        "highlights": [
-          {
-            "text": "keep going",
-            "key": "继续前进",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "start": 85.42,
-        "end": 93.53,
-        "speaker": "Speaker",
-        "en": "Actually, what I would like to do is I'd like to cut across the street in just a moment, but let's keep going down here.",
-        "ipa": "/ˈæktʃuəli, wʌt aɪ wʊd laɪk tu du ɪz aɪd laɪk tu kʌt əˈkrɔs ðə strit ɪn dʒʌst ə ˈmoʊmənt, bʌt lɛts kip ˈgoʊɪŋ daʊn hɪr/",
-        "zh": "其实，我一会儿想直接穿过马路，但我们还是先顺着这里往下走吧。",
-        "highlights": [
-          {
-            "text": "cut across",
-            "key": "横穿，穿过",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 93.57,
-        "end": 95.78,
-        "speaker": "Speaker",
-        "en": "The sidewalk is nice and big.",
-        "ipa": "/ðə ˈsaɪdwɔk ɪz naɪs ænd bɪɡ/",
-        "zh": "人行道又宽敞又好走。",
-        "highlights": [
-          {
-            "text": "sidewalk",
-            "key": "人行道",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "start": 95.82,
-        "end": 98.74,
-        "speaker": "Speaker",
-        "en": "So, Dan doesn't fall on his face.",
-        "ipa": "/soʊ, dæn ˈdʌzənt fɔl ɑn hɪz feɪs/",
-        "zh": "这样丹就不会摔个狗吃屎了。",
-        "highlights": [
-          {
-            "text": "fall on his face",
-            "key": "脸朝下跌倒",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "start": 98.78,
-        "end": 109.42,
-        "speaker": "Speaker",
-        "en": "These people over here they are were our old neighbors and they used to have talking about music, they used to play music on their lawn out front and just the neighbors would come over and listen.",
-        "ipa": "/ðiz ˈpipəl ˈoʊvər hɪr ðeɪ ɑr wɜr ˈaʊər oʊld ˈneɪbərz ænd ðeɪ just tu hæv ˈtɔkɪŋ əˈbaʊt ˈmjuzɪk, ðeɪ just tu pleɪ ˈmjuzɪk ɑn ðɛr lɔn aʊt frʌnt ænd dʒʌst ðə ˈneɪbərz wʊd kʌm ˈoʊvər ænd ˈlɪsən/",
-        "zh": "那边这些人以前是我们的邻居，他们经常——说到音乐，他们以前经常在自家前院的草坪上演奏音乐然后邻居们就会过来听。",
-        "highlights": [
-          {
-            "text": "used to",
-            "key": "过去常常",
-            "chip": "indigo"
-          },
-          {
-            "text": "come over",
-            "key": "过来，串门",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "start": 109.46,
-        "end": 110.74,
-        "speaker": "Speaker",
-        "en": "It's quite nice.",
-        "ipa": "/ɪts kwaɪt naɪs/",
-        "zh": "挺不错的。",
-        "highlights": [
-          {
-            "text": "quite nice",
-            "key": "相当不错",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "start": 110.78,
-        "end": 112.65,
-        "speaker": "Speaker",
-        "en": "Do you remember this house?",
-        "ipa": "/du ju rɪˈmɛbər ðɪs haʊs/",
-        "zh": "你还记得这栋房子吗？",
-        "highlights": [
-          {
-            "text": "remember",
-            "key": "记得",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "start": 112.69,
-        "end": 115.54,
-        "speaker": "Speaker",
-        "en": "[panting] They're always doing construction on it.",
-        "ipa": "/ˈpæntɪŋ ðɛr ˈɔlweɪz ˈduɪŋ kənˈstrʌkʃən ɑn ɪt/",
-        "zh": "[喘气] 他们一直在那栋房子里搞施工。",
-        "highlights": [
-          {
-            "text": "construction",
-            "key": "建设，施工",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "start": 115.58,
-        "end": 116.38,
-        "speaker": "Speaker",
-        "en": "Always new construction.",
-        "ipa": "/ˈɔlweɪz nu kənˈstrʌkʃən/",
-        "zh": "总是在搞新的建设。",
-        "highlights": [
-          {
-            "text": "Always",
-            "key": "总是",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "start": 116.42,
-        "end": 121.7,
-        "speaker": "Speaker",
-        "en": "They painted it like four different times and it looks like they're still painting it.",
-        "ipa": "/ðeɪ ˈpeɪntɪd ɪt laɪk fɔr ˈdɪfərənt taɪmz ænd ɪt lʊks laɪk ðɛr stɪl ˈpeɪntɪŋ ɪt/",
-        "zh": "他们好像已经刷了四次漆了，而且看起来还在继续刷。",
-        "highlights": [
-          {
-            "text": "different times",
-            "key": "不同的次数",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "start": 121.74,
-        "end": 128.5,
-        "speaker": "Speaker",
-        "en": "Um I don't know if anyone actually lives there, but certainly seems like an expensive endeavor.",
-        "ipa": "/ʌm aɪ doʊnt noʊ ɪf ˈɛniwʌn ˈæktʃuəli lɪvz ðɛr, bʌt ˈsɜrtənli simz laɪk ən ɪkˈspɛnsɪv ɛnˈdɛvər/",
-        "zh": "嗯，我不知道到底有没有人住在里面，但这绝对是一项花钱不少的工程。",
-        "highlights": [
-          {
-            "text": "expensive endeavor",
-            "key": "昂贵的尝试/工程",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "start": 128.54,
-        "end": 132.98,
-        "speaker": "Speaker",
-        "en": "All right, we are coming to the end of the sidewalk.",
-        "ipa": "/ɔl raɪt, wi ɑr ˈkʌmɪŋ tu ði ɛnd ʌv ðə ˈsaɪdwɔk/",
-        "zh": "好了，我们快走到人行道的尽头了。",
-        "highlights": [
-          {
-            "text": "end of",
-            "key": "……的尽头",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "start": 133.02,
-        "end": 136.06,
-        "speaker": "Speaker",
-        "en": "Let's see if we can cross the street.",
-        "ipa": "/lɛts si ɪf wi kən krɔs ðə strit/",
-        "zh": "看看我们能不能过马路。",
-        "highlights": [
-          {
-            "text": "cross the street",
-            "key": "过马路",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "start": 136.1,
-        "end": 143.99,
-        "speaker": "Speaker",
-        "en": "We'll go past the old apartment building we used to live in and you will see one of the most exciting houses in all of Asheville, in my opinion.",
-        "ipa": "/wil goʊ pæst ðə oʊld əˈpɑrtmənt ˈbɪldɪŋ wi just tu lɪv ɪn ænd ju wɪl si wʌn ʌv ðə moʊst ɪkˈsaɪtɪŋ ˈhaʊzɪz ɪn ɔl ʌv ˈæʃvɪl, ɪn maɪ əˈpɪnjən/",
-        "zh": "我们会经过我们以前住过的那栋老公寓楼，然后你会看到全阿什维尔最令人惊叹的房子之一。在我看来是这样的。",
-        "highlights": [
-          {
-            "text": "go past",
-            "key": "经过",
-            "chip": "indigo"
-          },
-          {
-            "text": "in my opinion",
-            "key": "依我来看",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "start": 144.03,
-        "end": 146.14,
-        "speaker": "Speaker",
-        "en": "So, let's see if we can cross the street.",
-        "ipa": "/soʊ, lɛts si ɪf wi kən krɔs ðə strit/",
-        "zh": "那么，我们看看能不能过马路。",
-        "highlights": [
-          {
-            "text": "cross",
-            "key": "cross",
-            "chip": "pink"
-          },
-          {
-            "text": "street",
-            "key": "street",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "start": 146.18,
-        "end": 147.78,
-        "speaker": "Speaker",
-        "en": "I think there she goes.",
-        "ipa": "/aɪ θɪŋk ðɛr ʃi goʊz/",
-        "zh": "我想她走了/机会来了。",
-        "highlights": [
-          {
-            "text": "there she goes",
-            "key": "她走啦/就是这样",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "start": 147.82,
-        "end": 150.38,
-        "speaker": "Speaker",
-        "en": "All right, let's go over here.",
-        "ipa": "/ɔl raɪt, lɛts goʊ ˈoʊvər hɪr/",
-        "zh": "好吧，我们去那边。",
-        "highlights": [
-          {
-            "text": "go over",
-            "key": "过去，前往",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "start": 150.42,
-        "end": 158.5,
-        "speaker": "Speaker",
-        "en": "We're going to go down the street away from the grocery stores and this is a lovely apartment complex.",
-        "ipa": "/wɪr ˈgoʊɪŋ tu goʊ daʊn ðə strit əˈweɪ frʌm ðə ˈgroʊsəri stɔrz ænd ðis ɪz ə ˈlʌvli əˈpɑrtmənt ˈkɑmplɛks/",
-        "zh": "我们要顺着这条街走，远离那些杂货店，这里是一个很漂亮的公寓小区。",
-        "highlights": [
-          {
-            "text": "apartment complex",
-            "key": "公寓小区",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "start": 158.54,
-        "end": 159.78,
-        "speaker": "Speaker",
-        "en": "Uh this is where we used to live.",
-        "ipa": "/ʌ ðɪs ɪz wɛr wi just tu lɪv/",
-        "zh": "呃，这就是我们以前住的地方。",
-        "highlights": [
-          {
-            "text": "used to live",
-            "key": "曾经居住",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "start": 159.82,
-        "end": 160.62,
-        "speaker": "Speaker",
-        "en": "Our old home.",
-        "ipa": "/ˈaʊər oʊld hoʊm/",
-        "zh": "我们以前的家。",
-        "highlights": [
-          {
-            "text": "old home",
-            "key": "老家，旧居",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "start": 160.66,
-        "end": 162.9,
-        "speaker": "Speaker",
-        "en": "We don't live there anymore.",
-        "ipa": "/wi doʊnt lɪv ðɛr ˈɛniˌmɔr/",
-        "zh": "我们现在不住在那里了。",
-        "highlights": [
-          {
-            "text": "anymore",
-            "key": "不再",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "start": 162.94,
-        "end": 174.25,
-        "speaker": "Speaker",
-        "en": "In the US, a lot of apartment buildings are new as in they were built within the last 30 or 40 years, but this building is over 100 years old.",
-        "ipa": "/ɪn ðə juˈɛs, ə lɑt ʌv əˈpɑrtmənt ˈbɪldɪŋz ɑr nu æz ɪn ðeɪ wɜr bɪlt wɪˈðɪn ðə læst ˈθɜrti ɔr ˈfɔrti jɪrz, bʌt ðɪs ˈbɪldɪŋ ɪz ˈoʊvər wʌn ˈhʌndrəd jɪrz oʊld/",
-        "zh": "在美国，很多公寓楼都很新，也就是最近三四十年内建造的，但这座建筑已经有100多年的历史了。",
-        "highlights": [
-          {
-            "text": "a lot of",
-            "key": "许多",
-            "chip": "indigo"
-          },
-          {
-            "text": "years old",
-            "key": "……岁/年历史",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "start": 174.29,
-        "end": 178.39,
-        "speaker": "Speaker",
-        "en": "I think the 1920s, which for the US is pretty old.",
-        "ipa": "/aɪ θɪŋk ðə naɪˈtin ˈtwɛntiz, wɪtʃ fɔr ðə juˈɛs ɪz ˈprɪti oʊld/",
-        "zh": "建于20世纪20年代吧，这在美国已经相当古老了。",
-        "highlights": [
-          {
-            "text": "pretty old",
-            "key": "相当古老",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "start": 178.43,
-        "end": 181.9,
-        "speaker": "Speaker",
-        "en": "All right, are you ready for something very exciting?",
-        "ipa": "/ɔl raɪt, ɑr ju ˈrɛdi fɔr ˈsʌmθɪŋ ˈvɛri ɪkˈsaɪtɪŋ/",
-        "zh": "好了，准备好迎接非常刺激的事情了吗？",
-        "highlights": [
-          {
-            "text": "ready for",
-            "key": "为……做好准备",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "start": 181.94,
-        "end": 184.38,
-        "speaker": "Speaker",
-        "en": "It is coming up right here.",
-        "ipa": "/ɪt ɪz ˈkʌmɪŋ ʌp raɪt hɪr/",
-        "zh": "马上就在这里出现了。",
-        "highlights": [
-          {
-            "text": "coming up",
-            "key": "即将到来",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "start": 184.42,
-        "end": 187.42,
-        "speaker": "Speaker",
-        "en": "Some might call this an eclectic house.",
-        "ipa": "/sʌm maɪt kɔl ðɪs ən ɪˈklɛktɪk haʊs/",
-        "zh": "有些人可能会称这栋房子风格多元。",
-        "highlights": [
-          {
-            "text": "eclectic",
-            "key": "eclectic",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "start": 187.46,
-        "end": 191.28,
-        "speaker": "Speaker",
-        "en": "This is where a guy named Jesse used to live when we lived in this apartment building.",
-        "ipa": "/ðɪs ɪz wɛr ə ɡaɪ neɪmd ˈdʒɛsi ˈjuzd tu lɪv wɛn wi lɪvd ɪn ðɪs əˈpɑrtmənt ˈbɪldɪŋ/",
-        "zh": "以前我们住在这个公寓楼里时，一个叫杰西的家伙就住在这一带。",
-        "highlights": [
-          {
-            "text": "used to live",
-            "key": "used to live",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "start": 191.32,
-        "end": 198.15,
-        "speaker": "Speaker",
-        "en": "I'd come down here and he was always sitting on his front porch around his most precious possessions.",
-        "ipa": "/aɪd kʌm daʊn hɪər ənd hi wɪz ˈɔlwɛz ˈsɪtɪŋ ɑn hɪz frʌnt pɔrtʃ əˈraʊnd hɪz moʊst ˈprɛʃəs pəˈzɛʃənz/",
-        "zh": "我来到这里时，总是看到他坐在前廊上，身边摆放着他最珍贵的物品。",
-        "highlights": [
-          {
-            "text": "front porch",
-            "key": "front porch",
-            "chip": "indigo"
-          },
-          {
-            "text": "precious possessions",
-            "key": "precious possessions",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "start": 198.19,
-        "end": 200.79,
-        "speaker": "Speaker",
-        "en": "Do you know what these lovely things are called?",
-        "ipa": "/du ju noʊ wʌt ðiz ˈlʌvli θɪŋz ɑr kɔld/",
-        "zh": "你知道这些可爱的东西叫什么吗？",
-        "highlights": [
-          {
-            "text": "lovely things",
-            "key": "lovely things",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "start": 200.83,
-        "end": 201.91,
-        "speaker": "Speaker",
-        "en": "Wind chimes.",
-        "ipa": "/wɪnd tʃaɪmz/",
-        "zh": "风铃。",
-        "highlights": [
-          {
-            "text": "Wind chimes",
-            "key": "Wind chimes",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "start": 201.95,
-        "end": 207.95,
-        "speaker": "Speaker",
-        "en": "So, wind chimes have those little metal poles and they clang and dangle in the wind.",
-        "ipa": "/soʊ wɪnd tʃaɪmz hæv ðoʊz ˈlɪtəl ˈmɛtəl poʊlz ənd ðeɪ klæŋ ənd ˈdæŋɡəl ɪn ðə wɪnd/",
-        "zh": "风铃就是那种带有小金属管的东西，它们会在风中发出叮当声并摇曳。",
-        "highlights": [
-          {
-            "text": "clang and dangle",
-            "key": "clang and dangle",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "start": 207.99,
-        "end": 216.43,
-        "speaker": "Speaker",
-        "en": "Well, when people heard that he liked wind chimes, he started collecting so many of them that now the entire front is covered with wind chimes.",
-        "ipa": "/wɛl wɛn ˈpipəl hɜrd ðæt hi laɪkt wɪnd tʃaɪmz hi ˈstɑrtɪd kəˈlɛktɪŋ soʊ ˈmɛni əv ðɛm ðæt naʊ ði ɪnˈtaɪr frʌnt ɪz ˈkʌvərd wɪð wɪnd tʃaɪmz/",
-        "zh": "后来，当人们听说他喜欢风铃时，他就开始疯狂收集，以至于现在整个正面都挂满了风铃。",
-        "highlights": [
-          {
-            "text": "started collecting",
-            "key": "started collecting",
-            "chip": "indigo"
-          },
-          {
-            "text": "wind chimes",
-            "key": "wind chimes",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "start": 216.47,
-        "end": 217.83,
-        "speaker": "Speaker",
-        "en": "I think it's pretty exciting.",
-        "ipa": "/aɪ θɪŋk ɪts ˈprɪti ɪkˈsaɪtɪŋ/",
-        "zh": "我觉得这挺让人兴奋的。",
-        "highlights": [
-          {
-            "text": "pretty exciting",
-            "key": "pretty exciting",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 49,
-        "start": 217.87,
-        "end": 228.06,
-        "speaker": "Speaker",
-        "en": "It's not what I would want at my house, but I think it's pretty exciting and it's kind of one of those things that gives your city a little bit of excitement and flare, right?",
-        "ipa": "/ɪts nɑt wʌt aɪ wʊd wɑnt æt maɪ haʊs bʌt aɪ θɪŋk ɪts ˈprɪti ɪkˈsaɪtɪŋ ənd ɪts kaɪnd əv wʌn əv ðoʊz θɪŋz ðæt ɡɪvz jʊər ˈsɪti ə ˈlɪtəl bɪt əv ɪkˈsaɪtɪŋmɪnt ənd flɛr raɪt/",
-        "zh": "虽然我不会在自己家里搞成这样，但我觉得这挺有意思的，而且它也算是那种能给你的城市增添一些活力和独特魅力的事物之一，对吧？",
-        "highlights": [
-          {
-            "text": "kind of",
-            "key": "kind of",
-            "chip": "pink"
-          },
-          {
-            "text": "a little bit of",
-            "key": "a little bit of",
-            "chip": "indigo"
-          },
-          {
-            "text": "flare",
-            "key": "flare",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 50,
-        "start": 228.1,
-        "end": 230.98,
-        "speaker": "Speaker",
-        "en": "Um because as we walk, let's talk about it.",
-        "ipa": "/ʌm bɪˈkəz æz wi wɔk lɛts tɔk əˈbaʊt ɪt/",
-        "zh": "嗯，那我们边走边聊吧。",
-        "highlights": [
-          {
-            "text": "as we walk",
-            "key": "as we walk",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 51,
-        "start": 231.02,
-        "end": 236.02,
-        "speaker": "Speaker",
-        "en": "Woo!",
-        "ipa": "/wu/",
-        "zh": "哇哦！",
-        "highlights": [
-          {
-            "text": "Woo",
-            "key": "Woo",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 52,
-        "start": 236.06,
-        "end": 241.1,
-        "speaker": "Speaker",
-        "en": "So, I want to talk tell you about the two different types of people that live in Asheville.",
-        "ipa": "/soʊ aɪ wɑnt tu tɔk tɛl ju əˈbaʊt ðə tu ˈdɪfərənt taɪps əv ˈpipəl ðæt lɪv ɪn ˈæʃvɪl/",
-        "zh": "所以，我想跟大家聊聊住在阿什维尔的两种不同类型的人。",
-        "highlights": [
-          {
-            "text": "different types of",
-            "key": "different types of",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 53,
-        "start": 241.14,
-        "end": 244.16,
-        "speaker": "Speaker",
-        "en": "One are the people who have lived here forever like Jesse.",
-        "ipa": "/wʌn ɑr ðə ˈpipəl hu hæv lɪvd hɪər fəˈrɛvər laɪk ˈdʒɛsi/",
-        "zh": "一类是像杰西这样世世代代居住在这里的人。",
-        "highlights": [
-          {
-            "text": "lived here forever",
-            "key": "lived here forever",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 54,
-        "start": 244.2,
-        "end": 246.28,
-        "speaker": "Speaker",
-        "en": "They have these older style houses.",
-        "ipa": "/ðeɪ hæv ðiz ˈoʊldər staɪl ˈhaʊzɪz/",
-        "zh": "他们住的都是这种老式风格的房子。",
-        "highlights": [
-          {
-            "text": "older style houses",
-            "key": "older style houses",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 55,
-        "start": 246.32,
-        "end": 256.66,
-        "speaker": "Speaker",
-        "en": "And the second are people like this who build either a fancy gigantic new house and they've moved from somewhere else.",
-        "ipa": "/ænd ðə ˈsɛkənd ɑr ˈpipəl laɪk ðɪs hu bɪld ˈiðər ə ˈfænsi dʒaɪˈɡæntɪk nu haʊs ənd ðeɪv muvd frʌm ˈsʌmˌwɛr ɛls/",
-        "zh": "第二类人就像这样，他们从别的地方搬过来，建造了一座豪华又巨大的新房子。",
-        "highlights": [
-          {
-            "text": "gigantic new house",
-            "key": "gigantic new house",
-            "chip": "indigo"
-          },
-          {
-            "text": "moved from somewhere else",
-            "key": "moved from somewhere else",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 56,
-        "start": 256.7,
-        "end": 257.79,
-        "speaker": "Speaker",
-        "en": "And you know what?",
-        "ipa": "/ænd ju noʊ wʌt/",
-        "zh": "你知道吗？",
-        "highlights": [
-          {
-            "text": "you know what",
-            "key": "you know what",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 57,
-        "start": 257.83,
-        "end": 263.31,
-        "speaker": "Speaker",
-        "en": "For us, I haven't lived in Asheville forever, so I'm technically part of the second group.",
-        "ipa": "/fɔr ʌs aɪ ˈhævənt lɪvd ɪn ˈæʃvɪl fəˈrɛvər soʊ aɪm ˈtɛknɪkəli pɑrt əv ðə ˈsɛkənd ɡrup/",
-        "zh": "对我们来说，我并没有在阿什维尔住很久，所以严格来讲，我属于第二类人。",
-        "highlights": [
-          {
-            "text": "technically",
-            "key": "technically",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 58,
-        "start": 263.35,
-        "end": 264.26,
-        "speaker": "Speaker",
-        "en": "We moved here.",
-        "ipa": "/wi muvd hɪr/",
-        "zh": "我们是搬来这里的。",
-        "highlights": [
-          {
-            "text": "moved here",
-            "key": "moved here",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 59,
-        "start": 264.3,
-        "end": 266.41,
-        "speaker": "Speaker",
-        "en": "We are not Asheville natives.",
-        "ipa": "/wi ɑr nɑt ˈæʃvɪl ˈneɪtɪvz/",
-        "zh": "我们并非阿什维尔本地人。",
-        "highlights": [
-          {
-            "text": "natives",
-            "key": "natives",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "start": 266.45,
-        "end": 267.83,
-        "speaker": "Speaker",
-        "en": "But you know what?",
-        "ipa": "/bʌt ju noʊ wʌt/",
-        "zh": "但你知道吗？",
-        "highlights": [
-          {
-            "text": "you know what",
-            "key": "you know what",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 61,
-        "start": 267.87,
-        "end": 270.95,
-        "speaker": "Speaker",
-        "en": "It's something that is our new home.",
-        "ipa": "/ɪts ˈsʌmθɪŋ ðæt ɪz ˈaʊər nu hoʊm/",
-        "zh": "这里已经是我们的新家了。",
-        "highlights": [
-          {
-            "text": "new home",
-            "key": "new home",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 62,
-        "start": 270.99,
-        "end": 272.53,
-        "speaker": "Speaker",
-        "en": "This is where we live now.",
-        "ipa": "/ðɪs ɪz wɛr wi lɪv naʊ/",
-        "zh": "这就是我们现在居住的地方。",
-        "highlights": [
-          {
-            "text": "live now",
-            "key": "live now",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "start": 272.57,
-        "end": 274.45,
-        "speaker": "Speaker",
-        "en": "So, um there's still some empty lots.",
-        "ipa": "/soʊ ʌm ðɛrz stɪl sʌm ˈɛmpti lɑts/",
-        "zh": "所以，嗯，这里还有一些空地。",
-        "highlights": [
-          {
-            "text": "empty lots",
-            "key": "empty lots",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 64,
-        "start": 274.49,
-        "end": 278.74,
-        "speaker": "Speaker",
-        "en": "I guess nobody lives here in this special lot at the moment.",
-        "ipa": "/aɪ ɡɛs ˈnoʊˌbɑdi lɪvz hɪər ɪn ðɪs ˈspɛʃəl lɑt æt ðə ˈmoʊmənt/",
-        "zh": "我猜目前这块特殊的空地上还没有人居住。",
-        "highlights": [
-          {
-            "text": "at the moment",
-            "key": "at the moment",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 65,
-        "start": 278.78,
-        "end": 280.23,
-        "speaker": "Speaker",
-        "en": "Um but there's other houses.",
-        "ipa": "/ʌm bʌt ðɛrz ˈʌðər ˈhaʊzɪz/",
-        "zh": "不过周围还有其他房子。",
-        "highlights": [
-          {
-            "text": "other houses",
-            "key": "other houses",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "start": 280.27,
-        "end": 283.3,
-        "speaker": "Speaker",
-        "en": "These houses have probably been here for a while.",
-        "ipa": "/ðiz ˈhaʊzɪz hæv ˈprɑbəbli bin hɪər fɔr ə waɪl/",
-        "zh": "这些房子可能已经在这里立了一段时间了。",
-        "highlights": [
-          {
-            "text": "for a while",
-            "key": "for a while",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "start": 283.34,
-        "end": 288.82,
-        "speaker": "Speaker",
-        "en": "And uh because it's the middle of winter, there's scraggy grass.",
-        "ipa": "/ænd ʌ bɪˈkəz ɪts ðə ˈmɪdəl əv ˈwɪntər ðɛrz ˈskræɡi ɡræs/",
-        "zh": "而且因为正值隆冬，草木看起来稀疏又枯黄。",
-        "highlights": [
-          {
-            "text": "middle of winter",
-            "key": "middle of winter",
-            "chip": "indigo"
-          },
-          {
-            "text": "scraggy",
-            "key": "scraggy",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "start": 288.86,
-        "end": 289.72,
-        "speaker": "Speaker",
-        "en": "Nothing's very green.",
-        "ipa": "/ˈnʌθɪŋz ˈvɛri ɡrin/",
-        "zh": "四周没什么绿色。",
-        "highlights": [
-          {
-            "text": "very green",
-            "key": "very green",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 69,
-        "start": 289.76,
-        "end": 292.1,
-        "speaker": "Speaker",
-        "en": "Well, there's some green grass, I guess.",
-        "ipa": "/wɛl ðɛrz sʌm ɡrin ɡræs aɪ ɡɛs/",
-        "zh": "不过，我猜多少还是有些绿草的。",
-        "highlights": [
-          {
-            "text": "green grass",
-            "key": "green grass",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 70,
-        "start": 292.14,
-        "end": 294.46,
-        "speaker": "Speaker",
-        "en": "Depending on your perspective.",
-        "ipa": "/dɪˈpɛndɪŋ ɑn jʊər pərˈspɛktɪv/",
-        "zh": "这就要看你从什么角度去看了。",
-        "highlights": [
-          {
-            "text": "Depending on",
-            "key": "Depending on",
-            "chip": "pink"
-          },
-          {
-            "text": "perspective",
-            "key": "perspective",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 71,
-        "start": 294.5,
-        "end": 299.35,
-        "speaker": "Speaker",
-        "en": "Um in the US, we have these big trash bins that we use to collect trash and recycling.",
-        "ipa": "/ʌm ɪn ðə juˈɛs wi hæv ðiz bɪɡ træʃ bɪnz ðæt wi juz tu kəˈlɛkt træʃ ənd ˈrisɪklɪŋ/",
-        "zh": "在美国，我们有那种很大的垃圾桶，用来装垃圾和可回收物。",
-        "highlights": [
-          {
-            "text": "trash bins",
-            "key": "trash bins",
-            "chip": "indigo"
-          },
-          {
-            "text": "recycling",
-            "key": "recycling",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 72,
-        "start": 299.39,
-        "end": 304.14,
-        "speaker": "Speaker",
-        "en": "And on certain days, the trash collector will come and you you wheel them.",
-        "ipa": "/ænd ɑn ˈsɜrtən deɪz ðə træʃ kəˈlɛktər wɪl kʌm ənd ju ju wil ðɛm/",
-        "zh": "到了特定的日子，垃圾收集车会来，然后你得把它们推出去。",
-        "highlights": [
-          {
-            "text": "trash collector",
-            "key": "trash collector",
-            "chip": "indigo"
-          },
-          {
-            "text": "wheel",
-            "key": "wheel",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 73,
-        "start": 304.18,
-        "end": 305.66,
-        "speaker": "Speaker",
-        "en": "We use that verb to wheel.",
-        "ipa": "/wi juz ðæt vɜrb tu wil/",
-        "zh": "我们用“wheel”这个动词来表达（推着带轮子的垃圾桶）。",
-        "highlights": [
-          {
-            "text": "verb",
-            "key": "verb",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 74,
-        "start": 305.7,
-        "end": 313.58,
-        "speaker": "Speaker",
-        "en": "We wheel the bin to the road, and the trash collector comes and dumps it into the back of the trash or recycling bin.",
-        "ipa": "/wi wil ðə bɪn tu ðə roʊd, ənd ðə træʃ kəˈlɛktər kʌmz ənd dʌmps ɪt ˈɪntʊ ðə bæk əv ðə træʃ ɔr ˈrisɪklɪŋ bɪn./",
-        "zh": "我们把垃圾桶推到路边，然后垃圾收集员过来，把它倒进垃圾桶或回收桶的后面。",
-        "highlights": [
-          {
-            "text": "wheel",
-            "key": "wheel",
-            "chip": "orange"
-          },
-          {
-            "text": "trash collector",
-            "key": "trash collector",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 75,
-        "start": 313.62,
-        "end": 316.75,
-        "speaker": "Speaker",
-        "en": "We never sort recycling in North Carolina.",
-        "ipa": "/wi ˈnɛvər sɔrt ˈrisɪklɪŋ ɪn nɔrθ kærəˈlaɪnə./",
-        "zh": "在北卡罗来纳州，我们从不对回收物进行分类。",
-        "highlights": [
-          {
-            "text": "sort",
-            "key": "sort",
-            "chip": "orange"
-          },
-          {
-            "text": "North Carolina",
-            "key": "North Carolina",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 76,
-        "start": 316.79,
-        "end": 319.56,
-        "speaker": "Speaker",
-        "en": "It's just everything in one recycling bin.",
-        "ipa": "/ɪts ˈdʒʌst ˈɛvriˌθɪŋ ɪn wʌn ˈrisɪklɪŋ bɪn./",
-        "zh": "就是把所有东西都放在一个回收箱里。",
-        "highlights": [
-          {
-            "text": "everything",
-            "key": "everything",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 77,
-        "start": 319.6,
-        "end": 321.7,
-        "speaker": "Speaker",
-        "en": "Glass, paper, anything like that.",
-        "ipa": "/ɡlæs, ˈpeɪpər, ˈɛniˌθɪŋ laɪk ðæt./",
-        "zh": "玻璃、纸张，诸如此类的东西。",
-        "highlights": [
-          {
-            "text": "anything like that",
-            "key": "anything like that",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 78,
-        "start": 321.74,
-        "end": 323.26,
-        "speaker": "Speaker",
-        "en": "It's all just in one spot.",
-        "ipa": "/ɪts ɔl dʒʌst ɪn wʌn spɑt./",
-        "zh": "所有东西都在同一个地方。",
-        "highlights": [
-          {
-            "text": "in one spot",
-            "key": "in one spot",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 79,
-        "start": 323.3,
-        "end": 326.28,
-        "speaker": "Speaker",
-        "en": "Oh, you have to look over here and see this amazing tree.",
-        "ipa": "/oʊ, ju hæv tu lʊk ˈoʊvər hir ənd si ðɪs əˈmeɪzɪŋ tri./",
-        "zh": "哦，你一定要看看这边，瞧瞧这棵神奇的树。",
-        "highlights": [
-          {
-            "text": "look over here",
-            "key": "look over here",
-            "chip": "indigo"
-          },
-          {
-            "text": "amazing",
-            "key": "amazing",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 80,
-        "start": 326.32,
-        "end": 329.1,
-        "speaker": "Speaker",
-        "en": "Isn't this tree so cool?",
-        "ipa": "/ˈɪzənt ðɪs tri soʊ kul?/",
-        "zh": "这棵树是不是很酷？",
-        "highlights": [
-          {
-            "text": "so cool",
-            "key": "so cool",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 81,
-        "start": 329.14,
-        "end": 333.99,
-        "speaker": "Speaker",
-        "en": "Has this giant bulbous I think it's probably not healthy cuz of that giant bulb.",
-        "ipa": "/hæz ðɪs ˈdʒaɪənt ˈbʌlbəs aɪ θɪŋk ɪts ˈprɑbəbli nɑt ˈhɛlθi kʌz ʌv ðæt ˈdʒaɪənt bʌlb./",
-        "zh": "它长了个巨大的球状物，我觉得它可能不太健康，就是因为这个巨大的球状物。",
-        "highlights": [
-          {
-            "text": "probably",
-            "key": "probably",
-            "chip": "orange"
-          },
-          {
-            "text": "healthy",
-            "key": "healthy",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 82,
-        "start": 334.03,
-        "end": 334.96,
-        "speaker": "Speaker",
-        "en": "I'm not sure.",
-        "ipa": "/aɪm nɑt ʃʊr./",
-        "zh": "我不知道。",
-        "highlights": [
-          {
-            "text": "not sure",
-            "key": "not sure",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 83,
-        "start": 335.0,
-        "end": 339.9,
-        "speaker": "Speaker",
-        "en": "But this tree is so magnificent, especially in the springtime with all of the leaves.",
-        "ipa": "/bʌt ðɪs tri ɪz soʊ mæɡˈnɪfɪsənt, ɪˈspɛʃəli ɪn ðə ˈsprɪŋˌtaɪm wɪð ɔl ʌv ðə livz. ənd aɪ lʌv ðæt ɪts ɑn ðə ˈhɪlˌsaɪd./",
-        "zh": "但这棵树真是太壮观了，尤其是在春天树叶茂盛的时候。",
-        "highlights": [
-          {
-            "text": "magnificent",
-            "key": "magnificent",
-            "chip": "orange"
-          },
-          {
-            "text": "especially",
-            "key": "especially",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 84,
-        "start": 339.94,
-        "end": 342.09,
-        "speaker": "Speaker",
-        "en": "And I love that it's on the hillside.",
-        "ipa": "",
-        "zh": "而且我喜欢它建在山坡上。",
-        "highlights": [
-          {
-            "text": "hillside",
-            "key": "hillside",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 85,
-        "start": 342.13,
-        "end": 342.58,
-        "speaker": "Speaker",
-        "en": "So cool.",
-        "ipa": "/soʊ kul./",
-        "zh": "太酷了。",
-        "highlights": [
-          {
-            "text": "So cool",
-            "key": "So cool",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 86,
-        "start": 342.62,
-        "end": 344.3,
-        "speaker": "Speaker",
-        "en": "I love those little things in a city.",
-        "ipa": "/aɪ lʌv ðoʊz ˈlɪtəl θɪŋz ɪn ə ˈsɪti./",
-        "zh": "我喜欢城市里那些小细节。",
-        "highlights": [
-          {
-            "text": "little things",
-            "key": "little things",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 87,
-        "start": 344.34,
-        "end": 345.7,
-        "speaker": "Speaker",
-        "en": "All right, let's go down here.",
-        "ipa": "/ɔl raɪt, lɛts ɡoʊ daʊn hir./",
-        "zh": "好了，我们下去吧。",
-        "highlights": [
-          {
-            "text": "All right",
-            "key": "All right",
-            "chip": "pink"
-          },
-          {
-            "text": "go down",
-            "key": "go down",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 88,
-        "start": 345.74,
-        "end": 348.46,
-        "speaker": "Speaker",
-        "en": "We are actually going to cross the street here.",
-        "ipa": "/wi ɑr ˈæktʃuəli ˈɡoʊɪŋ tu krɔs ðə strit hir./",
-        "zh": "我们正要从这里过马路。",
-        "highlights": [
-          {
-            "text": "actually",
-            "key": "actually",
-            "chip": "orange"
-          },
-          {
-            "text": "cross the street",
-            "key": "cross the street",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 89,
-        "start": 348.5,
-        "end": 356.54,
-        "speaker": "Speaker",
-        "en": "Now there's no street crossing, so we're going to have to just be careful; maybe technically it's jaywalking, but in the US people don't care.",
-        "ipa": "/naʊ ðɛrz noʊ strit ˈkrɔsɪŋ, soʊ wɪr ˈɡoʊɪŋ tu hæv tu dʒʌst bi ˈkɛrfəl; ˈmeɪbi ˈtɛknɪkli ɪts ˈdʒeɪˌwɔkɪŋ, bʌt ɪn ði juˈɛs ˈpipəl doʊnt kɛr./",
-        "zh": "现在没有过马路的地方了，所以我们只能小心点；也许从技术上讲这算是乱穿马路，但在美国人们并不在意。",
-        "highlights": [
-          {
-            "text": "be careful",
-            "key": "be careful",
-            "chip": "indigo"
-          },
-          {
-            "text": "jaywalking",
-            "key": "jaywalking",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 90,
-        "start": 356.58,
-        "end": 359.5,
-        "speaker": "Speaker",
-        "en": "I just have to be careful that nobody hits my baby.",
-        "ipa": "/aɪ dʒʌst hæv tu bi ˈkɛrfəl ðæt ˈnoʊˌbɑdi hɪts maɪ ˈbeɪbi./",
-        "zh": "我只需要小心别让车撞到我的孩子。",
-        "highlights": [
-          {
-            "text": "be careful",
-            "key": "be careful",
-            "chip": "indigo"
-          },
-          {
-            "text": "nobody",
-            "key": "nobody",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 91,
-        "start": 359.54,
-        "end": 361.54,
-        "speaker": "Speaker",
-        "en": "Let's take a look.",
-        "ipa": "/lɛts teɪk ə lʊk./",
-        "zh": "我们来看一下。",
-        "highlights": [
-          {
-            "text": "take a look",
-            "key": "take a look",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 92,
-        "start": 361.58,
-        "end": 366.14,
-        "speaker": "Speaker",
-        "en": "No one's coming.",
-        "ipa": "/noʊ wʌnz ˈkʌmɪŋ./",
-        "zh": "没人来。",
-        "highlights": [
-          {
-            "text": "No one's coming",
-            "key": "No one's coming",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 93,
-        "start": 366.18,
-        "end": 368.74,
-        "speaker": "Speaker",
-        "en": "Let's go.",
-        "ipa": "/lɛts ɡoʊ./",
-        "zh": "我们走吧。",
-        "highlights": [
-          {
-            "text": "Let's go",
-            "key": "Let's go",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 94,
-        "start": 368.78,
-        "end": 369.02,
-        "speaker": "Speaker",
-        "en": "Huh.",
-        "ipa": "/hʌ./",
-        "zh": "嗯。",
-        "highlights": [
-          {
-            "text": "Huh",
-            "key": "Huh",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 95,
-        "start": 369.06,
-        "end": 374.13,
-        "speaker": "Speaker",
-        "en": "So here we are going to go down the street and cross what's called Five Points.",
-        "ipa": "/soʊ hir wi ɑr ˈɡoʊɪŋ tu ɡoʊ daʊn ðə strit ənd krɔs wʌts kɔld faɪv pɔɪnts./",
-        "zh": "所以，我们现在要沿着这条街走，穿过所谓的五岔路口。",
-        "highlights": [
-          {
-            "text": "go down",
-            "key": "go down",
-            "chip": "indigo"
-          },
-          {
-            "text": "what's called",
-            "key": "what's called",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 96,
-        "start": 374.17,
-        "end": 377.02,
-        "speaker": "Speaker",
-        "en": "This is the Five Points neighborhood in Asheville.",
-        "ipa": "/ðɪs ɪz ðə faɪv pɔɪnts ˈneɪbərˌhʊd ɪn ˈæʃvɪl./",
-        "zh": "这是阿什维尔的五岔路口社区。",
-        "highlights": [
-          {
-            "text": "neighborhood",
-            "key": "neighborhood",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 97,
-        "start": 377.06,
-        "end": 388.86,
-        "speaker": "Speaker",
-        "en": "And that means there's five different roads going into it, and we are going to attempt to cross the street without Dan smashing himself and recording at the same time.",
-        "ipa": "/ənd ðæt minz ðɛrz faɪv ˈdɪfrənt roʊdz ˈɡoʊɪŋ ˈɪntʊ ɪt, ənd wi ɑr ˈɡoʊɪŋ tu əˈtɛmpt tu krɔs ðə strit wɪˈdaʊt dæn ˈsmæʃɪŋ hɪmˈsɛlf ənd rɪˈkɔrdɪŋ æt ðə seɪm taɪm./",
-        "zh": "这意味着有五条不同的路通往那里，我们要尝试在丹不摔倒的情况下穿过马路同时还要进行拍摄。",
-        "highlights": [
-          {
-            "text": "different",
-            "key": "different",
-            "chip": "orange"
-          },
-          {
-            "text": "attempt",
-            "key": "attempt",
-            "chip": "orange"
-          },
-          {
-            "text": "at the same time",
-            "key": "at the same time",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 98,
-        "start": 388.9,
-        "end": 391.14,
-        "speaker": "Speaker",
-        "en": "I appreciate how hard this is.",
-        "ipa": "/aɪ əˈpriʃiˌeɪt haʊ hɑrd ðɪs ɪz./",
-        "zh": "我知道这有多难。",
-        "highlights": [
-          {
-            "text": "appreciate",
-            "key": "appreciate",
-            "chip": "orange"
-          },
-          {
-            "text": "how hard",
-            "key": "how hard",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 99,
-        "start": 391.18,
-        "end": 392.98,
-        "speaker": "Speaker",
-        "en": "Let's give it a try.",
-        "ipa": "/lɛts ɡɪv ɪt ə traɪ./",
-        "zh": "我们来试一试。",
-        "highlights": [
-          {
-            "text": "give it a try",
-            "key": "give it a try",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 100,
-        "start": 393.02,
-        "end": 394.07,
-        "speaker": "Speaker",
-        "en": "Got to push the button.",
-        "ipa": "/ɡɑt tu pʊʃ ðə ˈbʌtən./",
-        "zh": "得按下按钮。",
-        "highlights": [
-          {
-            "text": "push the button",
-            "key": "push the button",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 101,
-        "start": 394.11,
-        "end": 396.6,
-        "speaker": "Speaker",
-        "en": "I don't actually know which one goes where.",
-        "ipa": "/aɪ doʊnt ˈæktʃuəli noʊ wɪtʃ wʌn ɡoʊz wɛr./",
-        "zh": "我其实不知道哪个该按哪一个。",
-        "highlights": [
-          {
-            "text": "actually",
-            "key": "actually",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 102,
-        "start": 396.64,
-        "end": 398.98,
-        "speaker": "Speaker",
-        "en": "I think this one is for here.",
-        "ipa": "/aɪ θɪŋk ðɪs wʌn ɪz fɔr hir./",
-        "zh": "我觉得这个应该是这里的。",
-        "highlights": [
-          {
-            "text": "I think",
-            "key": "I think",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 103,
-        "start": 399.02,
-        "end": 401.62,
-        "speaker": "Speaker",
-        "en": "I just pushed both of them.",
-        "ipa": "/aɪ dʒʌst pʊʃt boʊθ ʌv ðɛm./",
-        "zh": "我刚刚把两个都按了。",
-        "highlights": [
-          {
-            "text": "both of them",
-            "key": "both of them",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 104,
-        "start": 401.66,
-        "end": 412.98,
-        "speaker": "Speaker",
-        "en": "And we're going to cross the street, but we have to wait for the hand to turn green or the little man, little walking man to be over there.",
-        "ipa": "/ənd wɪr ˈɡoʊɪŋ tu krɔs ðə strit, bʌt wɪ hæv tu wet fɔr ðə hænd tu tɜrn ɡrin ɔr ðə ˈlɪtəl mæn, ˈlɪtəl ˈwɔkɪŋ mæn tu bi ˈoʊvər ðɛr./",
-        "zh": "我们要过马路了，但是我们得等绿灯亮起，或者等那个走路的小人儿出现在那里。",
-        "highlights": [
-          {
-            "text": "cross the street",
-            "key": "cross the street",
-            "chip": "indigo"
-          },
-          {
-            "text": "have to wait",
-            "key": "have to wait",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 105,
-        "start": 413.02,
-        "end": 413.54,
-        "speaker": "Speaker",
-        "en": "All right.",
-        "ipa": "/ɔl raɪt./",
-        "zh": "好的。",
-        "highlights": [
-          {
-            "text": "All right",
-            "key": "All right",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 106,
-        "start": 413.58,
-        "end": 417.34,
-        "speaker": "Speaker",
-        "en": "I always try to look even though the signal says it's okay.",
-        "ipa": "/aɪ ˈɔlˌweɪz traɪ tu lʊk ˈivən ðoʊ ðə ˈsɪɡnəl sɛz ɪts oʊˈkeɪ./",
-        "zh": "即使信号灯显示可以通行，我也会尽量左右看看。",
-        "highlights": [
-          {
-            "text": "always",
-            "key": "always",
-            "chip": "orange"
-          },
-          {
-            "text": "even though",
-            "key": "even though",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 107,
-        "start": 417.38,
-        "end": 420.82,
-        "speaker": "Speaker",
-        "en": "In the US we always do right, left, right.",
-        "ipa": "/ɪn ði juˈɛs wi ˈɔlˌweɪz du raɪt, lɛft, raɪt./",
-        "zh": "在美国，我们过马路总是先向右看，再向左看，再向右看。",
-        "highlights": [
-          {
-            "text": "always",
-            "key": "always",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 108,
-        "start": 420.86,
-        "end": 422.52,
-        "speaker": "Speaker",
-        "en": "At least that's what I was taught as a kid.",
-        "ipa": "/æt liːst ðæts wʌt aɪ wʌz tɔːt æz ə kɪd/",
-        "zh": "至少我小时候是这么被教导的。",
-        "highlights": [
-          {
-            "text": "as a kid",
-            "key": "as a kid",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 109,
-        "start": 422.56,
-        "end": 425.06,
-        "speaker": "Speaker",
-        "en": "Right, left, right.",
-        "ipa": "/raɪt lɛft raɪt/",
-        "zh": "右，左，右。",
-        "highlights": [
-          {
-            "text": "Right",
-            "key": "right",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 110,
-        "start": 425.1,
-        "end": 429.82,
-        "speaker": "Speaker",
-        "en": "Right now we're walking along Broadway, which is one of the main streets.",
-        "ipa": "/raɪt naʊ wɪər ˈwɔːkɪŋ əˈlɔːŋ ˈbrɔːdˌweɪ wɪtʃ ɪz wʌn ʌv ðə meɪn striːts/",
-        "zh": "我们现在正沿着百老汇大街走，这是主要街道之一。",
-        "highlights": [
-          {
-            "text": "walking along",
-            "key": "walk along",
-            "chip": "indigo"
-          },
-          {
-            "text": "main streets",
-            "key": "main street",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 111,
-        "start": 429.86,
-        "end": 432.82,
-        "speaker": "Speaker",
-        "en": "Wow, do you hear that hawk?",
-        "ipa": "/waʊ duː juː hɪər ðæt hɔːk/",
-        "zh": "哇，你听到那只鹰的声音了吗？",
-        "highlights": [
-          {
-            "text": "hear",
-            "key": "hear",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 112,
-        "start": 432.86,
-        "end": 436.5,
-        "speaker": "Speaker",
-        "en": "I love hearing falcons, birds of prey.",
-        "ipa": "/aɪ lʌv ˈhɪərɪŋ ˈfælkənz bɜːrdz ʌv preɪ/",
-        "zh": "我喜欢听猎鹰和猛禽的叫声。",
-        "highlights": [
-          {
-            "text": "birds of prey",
-            "key": "bird of prey",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 113,
-        "start": 436.54,
-        "end": 438.1,
-        "speaker": "Speaker",
-        "en": "It's always so exciting.",
-        "ipa": "/ɪts ˈɔːlweɪz soʊ ɪkˈsaɪtɪŋ/",
-        "zh": "总是那么令人兴奋。",
-        "highlights": [
-          {
-            "text": "exciting",
-            "key": "exciting",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 114,
-        "start": 438.14,
-        "end": 445.41,
-        "speaker": "Speaker",
-        "en": "So we are headed towards the Greenway and the Greenway is an area that has no houses on either side.",
-        "ipa": "/soʊ wiː ɑːr ˈhɛdɪd təˈwɔːrdz ðə ˈɡriːnˌweɪ ænd ðə ˈɡriːnˌweɪ ɪz ən ˈɛriə ðæt hæz noʊ ˈhaʊzɪz ɒn ˈiːðər saɪd/",
-        "zh": "所以我们现在正前往绿道，绿道两旁都没有房屋。",
-        "highlights": [
-          {
-            "text": "headed towards",
-            "key": "head towards",
-            "chip": "indigo"
-          },
-          {
-            "text": "either side",
-            "key": "either side",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 115,
-        "start": 445.45,
-        "end": 454.46,
-        "speaker": "Speaker",
-        "en": "It's just a public almost like a park, but it's just a sidewalk going straight through a natural area.",
-        "ipa": "/ɪts dʒʌst ə ˈpʌblɪk ˈɔːlmoʊst laɪk ə pɑːrk bʌt ɪts dʒʌst ə ˈsaɪdˌwɔːk ˈɡoʊɪŋ streɪt θruː ə ˈnætʃərəl ˈɛriə/",
-        "zh": "它就像一个公共场所，有点像公园，但实际上只是一条直接穿过自然区域的人行道。",
-        "highlights": [
-          {
-            "text": "sidewalk",
-            "key": "sidewalk",
-            "chip": "orange"
-          },
-          {
-            "text": "straight through",
-            "key": "straight through",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 116,
-        "start": 454.5,
-        "end": 459.34,
-        "speaker": "Speaker",
-        "en": "So we are walking down one of the main streets in order to get to that greenway.",
-        "ipa": "/soʊ wiː ɑːr ˈwɔːkɪŋ daʊn wʌn ʌv ðə meɪn striːts ɪn ˈɔːrdər tuː ɡɛt tuː ðæt ˈɡriːnˌweɪ/",
-        "zh": "所以我们现在正沿着一条主干道走，以前往那条绿道。",
-        "highlights": [
-          {
-            "text": "walking down",
-            "key": "walk down",
-            "chip": "indigo"
-          },
-          {
-            "text": "in order to",
-            "key": "in order to",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 117,
-        "start": 459.38,
-        "end": 459.94,
-        "speaker": "Speaker",
-        "en": "Let's go.",
-        "ipa": "/lɛts ɡoʊ/",
-        "zh": "我们走吧。",
-        "highlights": [
-          {
-            "text": "Let's go",
-            "key": "let's go",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 118,
-        "start": 459.98,
-        "end": 468.58,
-        "speaker": "Speaker",
-        "en": "All right, before we cross the street and go into the greenway, I wanted to show you this lovely iron fence.",
-        "ipa": "/ɔːl raɪt bɪˈfɔːr wiː krɔːs ðə striːt ænd ɡoʊ ˈɪntuː ðə ˈɡriːnˌweɪ aɪ ˈwɒntɪd tuː ʃoʊ juː ðɪs ˈlʌvli ˈaɪərn fɛns/",
-        "zh": "好了，在我们过马路进入绿道之前，我想给你们看看这漂亮的铁栅栏。",
-        "highlights": [
-          {
-            "text": "cross the street",
-            "key": "cross the street",
-            "chip": "indigo"
-          },
-          {
-            "text": "iron fence",
-            "key": "iron fence",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 119,
-        "start": 468.62,
-        "end": 472.89,
-        "speaker": "Speaker",
-        "en": "Back here is a little creek and the neighborhood behind me is called Montford.",
-        "ipa": "/bæk hɪər ɪz ə ˈlɪtəl kriːk ænd ðə ˈneɪbərˌhʊd bɪˈhaɪnd miː ɪz kɔːld ˈmɒntfərd/",
-        "zh": "后面有一条小溪，我身后的街区叫做蒙特福德。",
-        "highlights": [
-          {
-            "text": "neighborhood",
-            "key": "neighborhood",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 120,
-        "start": 472.93,
-        "end": 476.11,
-        "speaker": "Speaker",
-        "en": "It's one of the historic neighborhoods of Asheville.",
-        "ipa": "/ɪts wʌn ʌv ðə hɪˈstɔːrɪk ˈneɪbərˌhʊdz ʌv ˈæʃvɪl/",
-        "zh": "这是阿什维尔的历史街区之一。",
-        "highlights": [
-          {
-            "text": "historic",
-            "key": "historic",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 121,
-        "start": 476.15,
-        "end": 478.07,
-        "speaker": "Speaker",
-        "en": "There's a lot of big older houses.",
-        "ipa": "/ðɛərz ə lɒt ʌv bɪɡ ˈoʊldər ˈhaʊzɪz/",
-        "zh": "这里有很多老旧的大房子。",
-        "highlights": [
-          {
-            "text": "older houses",
-            "key": "older house",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 122,
-        "start": 478.11,
-        "end": 481.42,
-        "speaker": "Speaker",
-        "en": "And when I say older, I mean older for the US.",
-        "ipa": "/ænd wɛn aɪ seɪ ˈoʊldər aɪ miːn ˈoʊldər fɔːr ðə juːɛs/",
-        "zh": "我说的“年纪大”是指对美国人来说年纪大。",
-        "highlights": [
-          {
-            "text": "I mean",
-            "key": "I mean",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 123,
-        "start": 481.46,
-        "end": 487.62,
-        "speaker": "Speaker",
-        "en": "If you're from Europe and there's houses from the 1300s, well, it's not that old here.",
-        "ipa": "/ɪf jʊər frəm ˈjʊərəp ænd ðɛərz ˈhaʊzɪz frəm ðə ˈθɜːrtiːn ˈhʌndrɪdz wɛl ɪts nɒt ðæt oʊld hɪər/",
-        "zh": "如果你来自Europe，看到14世纪的房子，那这里就不算古老了。",
-        "highlights": [
-          {
-            "text": "from Europe",
-            "key": "from Europe",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 124,
-        "start": 487.66,
-        "end": 494.89,
-        "speaker": "Speaker",
-        "en": "But, for the US, it's old and I feel like the US doesn't really do a good job of preserving historical places.",
-        "ipa": "/bʌt fɔːr ðə juːɛs ɪts oʊld ænd aɪ fiːl laɪk ðə juːɛs ˈdʌzənt ˈriːəli duː ə ɡʊd dʒɒb ʌv prɪˈzɜːrvɪŋ hɪˈstɔːrɪkəl ˈpleɪsɪz/",
-        "zh": "但是，对美国来说，它年代久远，我觉得美国在保护历史遗迹方面做得并不好。",
-        "highlights": [
-          {
-            "text": "do a good job of",
-            "key": "do a good job of",
-            "chip": "pink"
-          },
-          {
-            "text": "preserving",
-            "key": "preserve",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 125,
-        "start": 494.93,
-        "end": 498.67,
-        "speaker": "Speaker",
-        "en": "So, when there are historical places to see in the US, it's kind of special.",
-        "ipa": "/soʊ wɛn ðɛər ɑːr hɪˈstɔːrɪkəl ˈpleɪsɪz tuː siː ɪn ðə juːɛs ɪts kaɪnd ʌv ˈspɛʃəl/",
-        "zh": "所以，在美国，如果能参观一些历史古迹，那就显得格外特别。",
-        "highlights": [
-          {
-            "text": "kind of",
-            "key": "kind of",
-            "chip": "pink"
-          },
-          {
-            "text": "historical places",
-            "key": "historical place",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 126,
-        "start": 498.71,
-        "end": 501.66,
-        "speaker": "Speaker",
-        "en": "All right, let's cross the street and go to the greenway.",
-        "ipa": "/ɔːl raɪt lɛts krɔːs ðə striːt ænd ɡoʊ tuː ðə ˈɡriːnˌweɪ/",
-        "zh": "好的，我们过马路去绿道吧。",
-        "highlights": [
-          {
-            "text": "cross the street",
-            "key": "cross the street",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 127,
-        "start": 501.7,
-        "end": 505.22,
-        "speaker": "Speaker",
-        "en": "There is indeed a little crosswalk here.",
-        "ipa": "/ðɛər ɪz ɪnˈdiːd ə ˈlɪtəl ˈkrɔːsˌwɔːk hɪər/",
-        "zh": "这里确实有一条小型人行横道。",
-        "highlights": [
-          {
-            "text": "indeed",
-            "key": "indeed",
-            "chip": "orange"
-          },
-          {
-            "text": "crosswalk",
-            "key": "crosswalk",
-            "chip": "orange"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-14-trimmed-14-part2",
-    "number": "EP 14",
+    "id": "local-12-trimmed-12-part2",
+    "number": "EP 12",
     "title": "麦当劳柜台实景点单与美式小费文化",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -86589,7 +87767,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%202%EF%BC%9A%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%E4%B8%8E%E7%BE%8E%E5%BC%8F%E5%B0%8F%E8%B4%B9%E8%A7%84%E5%88%99%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%202%EF%BC%9A%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%E4%B8%8E%E7%BE%8E%E5%BC%8F%E5%B0%8F%E8%B4%B9%E8%A7%84%E5%88%99%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%202%EF%BC%9A%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%E4%B8%8E%E7%BE%8E%E5%BC%8F%E5%B0%8F%E8%B4%B9%E8%A7%84%E5%88%99%29.trimmed.m4a",
@@ -88372,8 +89550,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-13-Chick-fil-A-part1",
-    "number": "EP 13",
+    "id": "local-11-Chick-fil-A-part1",
+    "number": "EP 11",
     "title": "Chick-fil-A 实景点单：鸡肉三明治与酱料表达",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -88385,7 +89563,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%201%EF%BC%9AChick-fil-A%20%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E4%B8%8E%E9%85%B1%E6%96%99%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%201%EF%BC%9AChick-fil-A%20%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E4%B8%8E%E9%85%B1%E6%96%99%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%201%EF%BC%9AChick-fil-A%20%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E4%B8%8E%E9%85%B1%E6%96%99%29.trimmed.m4a",
@@ -90313,8 +91491,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-12-Busking-part2",
-    "number": "EP 12",
+    "id": "local-10-Busking-part2",
+    "number": "EP 10",
     "title": "漫步美国市中心：街头艺人 Busking 与复古咖啡馆",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -90326,7 +91504,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%202%EF%BC%9A%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%E3%80%81%E5%9F%8E%E5%B8%82%E6%BC%AB%E6%AD%A5%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%202%EF%BC%9A%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%E3%80%81%E5%9F%8E%E5%B8%82%E6%BC%AB%E6%AD%A5%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%202%EF%BC%9A%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%E3%80%81%E5%9F%8E%E5%B8%82%E6%BC%AB%E6%AD%A5%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%29.trimmed.m4a",
@@ -91970,2386 +93148,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-11-Asheville-part1",
-    "number": "EP 11",
-    "title": "Asheville 小镇漫步：糖果店与美式街头美食",
-    "speaker": "Speak English With Vanessa",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 4,
-    "durationSec": 558,
-    "durationLabel": "09:18",
-    "date": "2026/11/26",
-    "tags": [
-      "美食"
-    ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
-    "coverImage": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%201%EF%BC%9A%E5%B0%8F%E9%95%87%E7%B3%96%E6%9E%9C%E5%BA%97%E4%B8%8E%E7%BE%8E%E9%A3%9F%E8%AF%8D%E6%B1%87%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%201%EF%BC%9A%E5%B0%8F%E9%95%87%E7%B3%96%E6%9E%9C%E5%BA%97%E4%B8%8E%E7%BE%8E%E9%A3%9F%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%201%EF%BC%9A%E5%B0%8F%E9%95%87%E7%B3%96%E6%9E%9C%E5%BA%97%E4%B8%8E%E7%BE%8E%E9%A3%9F%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "美食",
-    "skipRanges": [
-      [
-        553.58,
-        554.39
-      ],
-      [
-        557.49,
-        558.0
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.0,
-        "end": 6.8,
-        "speaker": "Speaker",
-        "en": "Welcome to my town here in the US, this small town, Asheville, North Carolina, where I live.",
-        "ipa": "/ˈwɛlkəm tu maɪ taʊn hir ɪn ðə juˈɛs, ðɪs smɔl taʊn, ˈæʃˌvɪl, ˈnɔrθ ˌkærəˈlaɪnə, wɛr aɪ lɪv./",
-        "zh": "欢迎来到我住的美国小镇——北卡罗来纳州的阿什维尔。",
-        "highlights": [
-          {
-            "text": "small town",
-            "key": "小镇",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 6.84,
-        "end": 10.44,
-        "speaker": "Speaker",
-        "en": "Today, I'm inviting you to walk around downtown with me.",
-        "ipa": "/təˈdeɪ, aɪm ɪnˈvaɪtɪŋ ju tu wɔk əˈraʊnd ˈdaʊnˌtaʊn wɪð mi./",
-        "zh": "今天，我想邀请你们和我一起逛逛市中心。",
-        "highlights": [
-          {
-            "text": "walk around",
-            "key": "四处走走/逛逛",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 10.48,
-        "end": 11.71,
-        "speaker": "Speaker",
-        "en": "I don't know what's going to happen.",
-        "ipa": "/aɪ doʊnt noʊ wʌts ˈgoʊɪŋ tu ˈhæpən./",
-        "zh": "我也不知道会发生什么。",
-        "highlights": [
-          {
-            "text": "what's going to happen",
-            "key": "会发生什么",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 11.75,
-        "end": 16.44,
-        "speaker": "Speaker",
-        "en": "We're going to pass a lot of stuff, see a lot of people, and I'm going to teach you English along the way.",
-        "ipa": "/wir ˈgoʊɪŋ tu pæs ə lɑt əv stʌf, si ə lɑt əv ˈpipəl, ænd aɪm ˈgoʊɪŋ tu titʃ ju ˈɪŋglɪʃ əˈlɔŋ ðə weɪ./",
-        "zh": "我们会经过很多地方，见到很多人，我也会在路上教你们英语。",
-        "highlights": [
-          {
-            "text": "along the way",
-            "key": "在路上/沿途",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 16.48,
-        "end": 23.52,
-        "speaker": "Speaker",
-        "en": "I'm going to talk about whatever we see, and hopefully you'll be able to learn a lot of useful vocabulary and see something interesting.",
-        "ipa": "/aɪm ˈgoʊɪŋ tu tɔk əˈbaʊt wʌtˈɛvər wi si, ænd ˈhoʊpfəli jul bi ˈeɪbəl tu lɜrn ə lɑt əv ˈjusfəl vəˈkæbjəˌlɛri ænd si ˈsʌmθɪŋ ˈɪntrəstɪŋ./",
-        "zh": "我会谈论我们看到的任何事物，希望你们能学到很多有用的词汇，并看到一些有趣的东西。",
-        "highlights": [
-          {
-            "text": "useful vocabulary",
-            "key": "有用的词汇",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 23.56,
-        "end": 24.46,
-        "speaker": "Speaker",
-        "en": "Along the way.",
-        "ipa": "/əˈlɔŋ ðə weɪ./",
-        "zh": "沿途。",
-        "highlights": [
-          {
-            "text": "Along",
-            "key": "along",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 24.5,
-        "end": 37.43,
-        "speaker": "Speaker",
-        "en": "If you're new here, hi, I'm Vanessa from speakenglishwithvanessa.com, and I have been teaching real life English here on my YouTube channel for over the past 10 years to now more than 7 million of you.",
-        "ipa": "/ɪf yur nu hir, haɪ, aɪm vəˈnɛsə frʌm speakenglishwithvanessa.com, ænd aɪ hæv bin ˈtitʃɪŋ ril laɪf ˈɪŋglɪʃ hir ɑn maɪ ˈjutub ˈtʃænəl fɔr ˈoʊvər ðə pæst 10 jɪrz tu naʊ mɔr ðæn 7 ˈmɪljən əv ju./",
-        "zh": "如果你是新来的，嗨，我是来自 speakenglishwithvanessa.com 的 Vanessa，过去十多年来，我一直在这个 YouTube 频道教大家地道的英语，现在已经有超过 700 万学员了。",
-        "highlights": [
-          {
-            "text": "real life",
-            "key": "真实的/地道的",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 37.93,
-        "end": 42.99,
-        "speaker": "Speaker",
-        "en": "I used to love this too as a kid.",
-        "ipa": "/aɪ juːst tuː lʌv ðɪs tuː æz ə kɪd/",
-        "zh": "我小时候也很喜欢这个。",
-        "highlights": [
-          {
-            "text": "used to love",
-            "key": "过去常常喜欢",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 43.03,
-        "end": 45.82,
-        "speaker": "Speaker",
-        "en": "Oh, this is something very American.",
-        "ipa": "/oʊ ðɪs ɪz ˈsʌmθɪŋ ˈvɛri əˈmɛrɪkən/",
-        "zh": "噢，这非常有美国特色。",
-        "highlights": [
-          {
-            "text": "very American",
-            "key": "极具美国特色的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 45.86,
-        "end": 47.22,
-        "speaker": "Speaker",
-        "en": "Have you ever seen this?",
-        "ipa": "/hæv juː ˈɛvər siːn ðɪs/",
-        "zh": "你见过这个吗？",
-        "highlights": [
-          {
-            "text": "ever seen",
-            "key": "曾经见过",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 47.26,
-        "end": 49.67,
-        "speaker": "Speaker",
-        "en": "Saltwater taffy.",
-        "ipa": "/ˈsɔːltˌwɔːtər ˈtæfi/",
-        "zh": "海盐太妃糖。",
-        "highlights": [
-          {
-            "text": "Saltwater taffy",
-            "key": "海盐太妃糖",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 49.71,
-        "end": 62.75,
-        "speaker": "Speaker",
-        "en": "Saltwater taffy is It's of like the texture of caramel, but it's different flavors and sweet and it's always associated with the beach, I guess because it's made with salt water somehow.",
-        "ipa": "/ˈsɔːltˌwɔːtər ˈtæfi ɪz ɪts əv laɪk ðə ˈtɛkstʃər əv ˈkɑːrəməl bʌt ɪts ˈdɪfrənt ˈfleɪvərz ænd swiːt ænd ɪts ˈɔːlweɪz əˈsoʊʃieɪtɪd wɪð ðə biːtʃ aɪ gɛs bɪˈkʌz ɪts meɪd wɪð sɔːlt ˈwɔːtər ˈsʌmhaʊ/",
-        "zh": "海盐太妃糖有点像焦糖的质地，但是有不同的口味，而且很甜，并且它总是让人联想到海滩，我猜是因为它不知怎么的是用盐水做出来的吧。",
-        "highlights": [
-          {
-            "text": "texture",
-            "key": "口感，质地",
-            "chip": "orange"
-          },
-          {
-            "text": "associated with",
-            "key": "与……联系在一起",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 62.79,
-        "end": 67.51,
-        "speaker": "Speaker",
-        "en": "I have no idea how it's made, but they are very good.",
-        "ipa": "/aɪ hæv noʊ aɪˈdiːaʊ ˈɪts meɪd bʌt ðeɪ ɑːr ˈvɛri gʊd/",
-        "zh": "我不知道它是怎么做的，但它们非常好吃。",
-        "highlights": [
-          {
-            "text": "I have no idea",
-            "key": "我完全不知道",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 67.55,
-        "end": 69.75,
-        "speaker": "Speaker",
-        "en": "All the super old school ones are over here.",
-        "ipa": "/ɔːl ðə ˈsuːpər oʊld skuːl wʌnz ɑːr ˈoʊvər hɪər/",
-        "zh": "所有那些超级老派的都在这边。",
-        "highlights": [
-          {
-            "text": "old school",
-            "key": "老派的，传统的",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 69.79,
-        "end": 73.79,
-        "speaker": "Speaker",
-        "en": "Yeah, you want to see some old school candies?",
-        "ipa": "/jæ juː wɑːnt tuː siː sʌm oʊld skuːl ˈkændiz/",
-        "zh": "对，你想看一些怀旧老式糖果吗？",
-        "highlights": [
-          {
-            "text": "old school candies",
-            "key": "怀旧老式糖果",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 73.83,
-        "end": 75.39,
-        "speaker": "Speaker",
-        "en": "These.",
-        "ipa": "/ðiːz/",
-        "zh": "这些。",
-        "highlights": [
-          {
-            "text": "These",
-            "key": "这些",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "start": 75.43,
-        "end": 84.27,
-        "speaker": "Speaker",
-        "en": "I don't know who chooses these anymore over the the less old things, but Bit of Bit of honey.",
-        "ipa": "/aɪ doʊnt noʊ huː ˈtʃuːzɪz ðiːz ˈɛniˌmɔːr ˈoʊvər ðə ðə lɛs oʊld θɪŋz bʌt bɪt əv bɪt əv ˈhʌni/",
-        "zh": "我不知道现在还有谁会放弃那些不那么老旧的东西而选择这些，不过，这是蜂糖酥（Bit of Honey）。",
-        "highlights": [
-          {
-            "text": "anymore",
-            "key": "再也不，不再",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 84.31,
-        "end": 89.22,
-        "speaker": "Speaker",
-        "en": "Are these uh very old type of hard candies, we call these hard candies.",
-        "ipa": "/ɑː ðiːz ʌ ˈvɛri oʊld taɪp əv hɑːrd ˈkændiz wiː kɔːl ðiːz hɑːrd ˈkændiz/",
-        "zh": "这些是那种非常老式的硬糖，我们管这叫硬糖。",
-        "highlights": [
-          {
-            "text": "hard candies",
-            "key": "硬糖",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "start": 89.26,
-        "end": 100.23,
-        "speaker": "Speaker",
-        "en": "These are the ones that you would find in my grandma's house and they're probably still like 40 years old at her house.",
-        "ipa": "/ðiːz ɑː ðə wʌnz ðæt juː wʊd faɪnd ɪn maɪ ˈgrænmɑːz haʊs ænd ðeɪr ˈprɑːbəbli stɪl laɪk ˈfɔːrti jɪrz oʊld æt hɜːr haʊs/",
-        "zh": "这些是你会在我奶奶家找到的糖果，而且它们在她家可能已经放了大概40年了就在她家里。",
-        "highlights": [
-          {
-            "text": "grandma's house",
-            "key": "奶奶家",
-            "chip": "orange"
-          },
-          {
-            "text": "at her house",
-            "key": "在她家里",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "start": 100.27,
-        "end": 105.68,
-        "speaker": "Speaker",
-        "en": "Oh, these are These are the thing that I would always try to get um at Halloween.",
-        "ipa": "/oʊ ðiːz ɑː ðiːz ɑː ðə θɪŋ ðæt aɪ wʊd ˈɔːlweɪz traɪ tuː gɛt ʌm æt ˈhæloʊˌiːn/",
-        "zh": "噢，这些是这些是我在万圣节时总是想弄到手的糖果。",
-        "highlights": [
-          {
-            "text": "try to get",
-            "key": "设法得到",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "start": 105.72,
-        "end": 109.42,
-        "speaker": "Speaker",
-        "en": "These are called a bull's eye Okay. or it's a cow tail.",
-        "ipa": "/ðiːz ɑː kɔːld ə bʊlz aɪ oʊˈkeɪ ɔːr ɪts ə kaʊ teɪl/",
-        "zh": "这些被称为牛眼糖，好吧。或者叫牛尾糖。",
-        "highlights": [
-          {
-            "text": "bull's eye",
-            "key": "牛眼糖（靶心糖）",
-            "chip": "orange"
-          },
-          {
-            "text": "cow tail",
-            "key": "牛尾糖",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "start": 109.46,
-        "end": 111.51,
-        "speaker": "Speaker",
-        "en": "If it's long, it's called a cow tail.",
-        "ipa": "/ɪf ɪts lɔːŋ ɪts kɔːld ə kaʊ teɪl/",
-        "zh": "如果它是长的，就叫牛尾糖。",
-        "highlights": [
-          {
-            "text": "long",
-            "key": "长的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "start": 111.55,
-        "end": 117.85,
-        "speaker": "Speaker",
-        "en": "If it's small like this, it's called a bull's eye and it's not caramel, but it's it's so good.",
-        "ipa": "/ɪf ɪts smɔːl laɪk ðɪs ɪts kɔːld ə bʊlz aɪ ænd ɪts nɑːt ˈkɑːrəməl bʌt ɪts ɪts soʊ gʊd/",
-        "zh": "如果像这样比较小，就叫牛眼糖，它虽然不是焦糖，但真的超级好吃。",
-        "highlights": [
-          {
-            "text": "so good",
-            "key": "非常好吃，太棒了",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "start": 117.89,
-        "end": 120.19,
-        "speaker": "Speaker",
-        "en": "If you come to the US, try it.",
-        "ipa": "/ɪf juː kʌm tuː ðə juːɛs traɪ ɪt/",
-        "zh": "如果你来美国，尝尝看。",
-        "highlights": [
-          {
-            "text": "come to the US",
-            "key": "来美国",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "start": 120.23,
-        "end": 124.63,
-        "speaker": "Speaker",
-        "en": "Look at this one.",
-        "ipa": "/lʊk æt ðɪs wʌn/",
-        "zh": "看看这个。",
-        "highlights": [
-          {
-            "text": "Look at",
-            "key": "看……",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "start": 124.67,
-        "end": 128.55,
-        "speaker": "Speaker",
-        "en": "Gummy brains.",
-        "ipa": "/ˈgʌmi breɪnz/",
-        "zh": "软糖脑子。",
-        "highlights": [
-          {
-            "text": "Gummy brains",
-            "key": "脑形软糖",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "start": 128.59,
-        "end": 132.55,
-        "speaker": "Speaker",
-        "en": "I've never seen that before.",
-        "ipa": "/aɪv ˈnɛvər siːn ðæt bɪˈfɔːr/",
-        "zh": "我以前从没见过那个。",
-        "highlights": [
-          {
-            "text": "never seen",
-            "key": "从未见过",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "start": 132.59,
-        "end": 134.1,
-        "speaker": "Speaker",
-        "en": "They have gummy everything.",
-        "ipa": "/ðeɪ hæv ˈgʌmi ˈɛvriˌθɪŋ/",
-        "zh": "他们什么东西都有软糖版的。",
-        "highlights": [
-          {
-            "text": "gummy everything",
-            "key": "万物皆可软糖",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "start": 134.14,
-        "end": 137.31,
-        "speaker": "Speaker",
-        "en": "Gummy eyeballs, gummy brains.",
-        "ipa": "/ˈgʌmi ˈaɪˌbɔːlz ˈgʌmi breɪnz/",
-        "zh": "软糖眼球，软糖脑子。",
-        "highlights": [
-          {
-            "text": "eyeballs",
-            "key": "眼球",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "start": 137.35,
-        "end": 140.87,
-        "speaker": "Speaker",
-        "en": "What are some of those gummy Gummy snakes.",
-        "ipa": "/wʌt ɑː sʌm əv ðoʊz ˈgʌmi ˈgʌmi sneɪks/",
-        "zh": "还有哪些那种软糖软糖蛇。",
-        "highlights": [
-          {
-            "text": "snakes",
-            "key": "蛇",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "start": 140.91,
-        "end": 142.59,
-        "speaker": "Speaker",
-        "en": "It's pretty good.",
-        "ipa": "/ɪts ˈprɪti gʊd/",
-        "zh": "挺不错的。",
-        "highlights": [
-          {
-            "text": "pretty good",
-            "key": "相当不错",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "start": 142.63,
-        "end": 146.79,
-        "speaker": "Speaker",
-        "en": "Gummy building blocks with like LEGOs that are gummies.",
-        "ipa": "/ˈgʌmi ˈbɪldɪŋ blɑːks wɪð laɪk ˈleɪgoʊz ðæt ɑːr ˈgʌmiz/",
-        "zh": "软糖积木，就像乐高那样的软糖。",
-        "highlights": [
-          {
-            "text": "building blocks",
-            "key": "积木",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "start": 146.83,
-        "end": 148.07,
-        "speaker": "Speaker",
-        "en": "Wow.",
-        "ipa": "/waʊ/",
-        "zh": "哇。",
-        "highlights": [
-          {
-            "text": "Wow",
-            "key": "哇",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "start": 148.11,
-        "end": 148.42,
-        "speaker": "Speaker",
-        "en": "What?",
-        "ipa": "/wʌt/",
-        "zh": "什么？",
-        "highlights": [
-          {
-            "text": "What",
-            "key": "什么",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "start": 148.46,
-        "end": 150.19,
-        "speaker": "Speaker",
-        "en": "Do you know what this is?",
-        "ipa": "/duː juː noʊ wʌt ðɪs ɪz/",
-        "zh": "你知道这是什么吗？",
-        "highlights": [
-          {
-            "text": "Do you know",
-            "key": "你知道吗",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "start": 150.23,
-        "end": 151.59,
-        "speaker": "Speaker",
-        "en": "Well, I got that one at the dentist.",
-        "ipa": "/wɛl aɪ gɑːt ðæt wʌn æt ðə ˈdɛntɪst/",
-        "zh": "嗯，那个是我在牙医那儿拿到的。",
-        "highlights": [
-          {
-            "text": "at the dentist",
-            "key": "在牙医诊所",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "start": 151.63,
-        "end": 153.51,
-        "speaker": "Speaker",
-        "en": "This is a jawbreaker.",
-        "ipa": "/ðɪs ɪz ə ˈdʒɔːˌbreɪkər/",
-        "zh": "这是一个超级大硬糖（耐嚼硬糖）。",
-        "highlights": [
-          {
-            "text": "jawbreaker",
-            "key": "超大硬糖（需长时间含着化开）",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "start": 153.55,
-        "end": 158.59,
-        "speaker": "Speaker",
-        "en": "So, usually usually they're this size and you can't chew it.",
-        "ipa": "/soʊ ˈjuːʒuəli ˈjuːʒuəli ðeɪr ðɪs saɪz ænd juː kænt tʃuː ɪt/",
-        "zh": "所以，通常它们有这么大，而且你根本咬不动。",
-        "highlights": [
-          {
-            "text": "this size",
-            "key": "这个尺寸",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "start": 158.63,
-        "end": 160.03,
-        "speaker": "Speaker",
-        "en": "It breaks your jaw.",
-        "ipa": "/ɪt breɪks jʊər dʒɔː/",
-        "zh": "它能把你的下巴硌碎。",
-        "highlights": [
-          {
-            "text": "breaks your jaw",
-            "key": "硌碎下巴（夸张形容极硬）",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "start": 160.07,
-        "end": 166.71,
-        "speaker": "Speaker",
-        "en": "You have to suck on it for a really long time, but this—what?",
-        "ipa": "/ju hæv tu sʌk ɑn ɪt fɔɹ ə ˈɹɪli lɔŋ taɪm, bʌt ðɪs wʌt?/",
-        "zh": "你得含着它好长时间，但是这个什么？",
-        "highlights": [
-          {
-            "text": "suck on",
-            "key": "sʌk ɑn",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "start": 166.75,
-        "end": 168.87,
-        "speaker": "Speaker",
-        "en": "It's so big.",
-        "ipa": "/ɪts soʊ bɪɡ./",
-        "zh": "它太大了。",
-        "highlights": [
-          {
-            "text": "so big",
-            "key": "soʊ bɪɡ",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "start": 168.91,
-        "end": 170.27,
-        "speaker": "Speaker",
-        "en": "You know what?",
-        "ipa": "/ju noʊ wʌt?/",
-        "zh": "你知道吗？",
-        "highlights": [
-          {
-            "text": "You know what",
-            "key": "ju noʊ wʌt",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "start": 170.31,
-        "end": 173.35,
-        "speaker": "Speaker",
-        "en": "These sour straws.",
-        "ipa": "/ðiːz ˈsaʊ.ɚ stɹɔːz./",
-        "zh": "这些酸扁带糖。",
-        "highlights": [
-          {
-            "text": "sour straws",
-            "key": "ˈsaʊ.ɚ stɹɔːz",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "start": 173.39,
-        "end": 177.23,
-        "speaker": "Speaker",
-        "en": "They're sour sugar gummy straws, let me show you.",
-        "ipa": "/ðeɹ ˈsaʊ.ɚ ˈʃʊ.ɡɚ ˈɡʌ.mi stɹɔːz, lɛt mi ʃoʊ ju./",
-        "zh": "它们是裹着酸糖的软糖吸管，我给你看看。",
-        "highlights": [
-          {
-            "text": "let me show you",
-            "key": "lɛt mi ʃoʊ ju",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "start": 177.27,
-        "end": 187.08,
-        "speaker": "Speaker",
-        "en": "These when I was a kid, we used to sneak out of our neighborhood and find any kind of change that we could like quarters and dimes with our friends.",
-        "ipa": "/ðiːz wɛn aɪ wʌz ə kɪd, wi juzd tu sniːk aʊt ʌv aʊɹ ˈneɪ.bɚ.hʊd ænd faɪnd ˈɛ.ni kaɪnd ʌv tʃeɪndʒ ðæt wi kʊd laɪk ˈkwɔːɹ.tɚz ænd daɪmz wɪð aʊɹ fɹɛndz./",
-        "zh": "这些糖，我小时候经常偷偷溜出社区，找各种能找到的零钱，比如25美分和10美分的硬币和我们的朋友一起。",
-        "highlights": [
-          {
-            "text": "sneak out of",
-            "key": "sniːk aʊt ʌv",
-            "chip": "indigo"
-          },
-          {
-            "text": "friends",
-            "key": "fɹɛndz",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "start": 187.12,
-        "end": 191.55,
-        "speaker": "Speaker",
-        "en": "We would sneak to the grocery store and we maybe had like a dollar and 25 cents.",
-        "ipa": "/wi wʊd sniːk tu ðə ˈɡɹoʊ.sɚ.i stɔːɹ ænd wi ˈmeɪ.bi hæd laɪk ə ˈdɑː.lɚ ænd ˈtwɛn.ti-faɪv sɛnts./",
-        "zh": "我们会偷偷溜去杂货店，身上大概只有1美元25美分。",
-        "highlights": [
-          {
-            "text": "grocery store",
-            "key": "ˈɡɹoʊ.sɚ.i stɔːɹ",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "start": 191.59,
-        "end": 197.34,
-        "speaker": "Speaker",
-        "en": "We hardly had any money, but we would buy these and eat them and it was always before dinner.",
-        "ipa": "/wi ˈhɑːɹd.li hæd ˈɛ.ni ˈmʌ.ni, bʌt wi wʊd baɪ ðiːz ænd iːt ðəm ænd ɪt wʌz ˈɔːl.weɪz bɪˈfɔːɹ ˈdɪ.nɚ./",
-        "zh": "我们几乎没什么钱，但我们会买这些来吃，而且总是在晚饭前吃。",
-        "highlights": [
-          {
-            "text": "hardly",
-            "key": "ˈhɑːɹd.li",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "start": 197.38,
-        "end": 198.95,
-        "speaker": "Speaker",
-        "en": "So we would come home.",
-        "ipa": "/soʊ wi wʊd kʌm hoʊm./",
-        "zh": "所以我们就回家了。",
-        "highlights": [
-          {
-            "text": "come home",
-            "key": "kʌm hoʊm",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 49,
-        "start": 198.99,
-        "end": 202.07,
-        "speaker": "Speaker",
-        "en": "If my mom's watching this, shh, don't tell her.",
-        "ipa": "/ɪf maɪ mɑmz ˈwɑːtʃ.ɪŋ ðɪs, ʃː, doʊnt tɛl hɚ./",
-        "zh": "如果我妈正在看这个，嘘，别告诉她。",
-        "highlights": [
-          {
-            "text": "don't tell her",
-            "key": "doʊnt tɛl hɚ",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 50,
-        "start": 202.11,
-        "end": 203.64,
-        "speaker": "Speaker",
-        "en": "Oh, we would all we would go home.",
-        "ipa": "/oʊ, wi wʊd ɔːl wi wʊd ɡoʊ hoʊm./",
-        "zh": "哦，我们都会回家。",
-        "highlights": [
-          {
-            "text": "go home",
-            "key": "ɡoʊ hoʊm",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 51,
-        "start": 203.68,
-        "end": 209.4,
-        "speaker": "Speaker",
-        "en": "We'd eat them and then when it came time for dinner, we would pretend that we were so hungry.",
-        "ipa": "/wid iːt ðəm ænd ðɛn wɛn ɪt keɪm taɪm fɔːɹ ˈdɪ.nɚ, wi wʊd pɹɪˈtɛnd ðæt wi wɚ soʊ ˈhʌŋ.ɡɹi./",
-        "zh": "我们吃完后，到了吃晚饭的时候，就会假装我们饿得不行。",
-        "highlights": [
-          {
-            "text": "pretend",
-            "key": "pɹɪˈtɛnd",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 52,
-        "start": 209.44,
-        "end": 210.66,
-        "speaker": "Speaker",
-        "en": "Oh, I'm so hungry.",
-        "ipa": "/oʊ, aɪm soʊ ˈhʌŋ.ɡɹi./",
-        "zh": "哦，我好饿啊。",
-        "highlights": [
-          {
-            "text": "so hungry",
-            "key": "soʊ ˈhʌŋ.ɡɹi",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 53,
-        "start": 210.7,
-        "end": 218.75,
-        "speaker": "Speaker",
-        "en": "This dinner is so good because we didn't want to give away that we had already eaten a whole pack of sour straws.",
-        "ipa": "/ðɪs ˈdɪ.nɚ ɪz soʊ ɡʊd bɪˈkəz wi ˈdɪd.ənt wɑnt tu ɡɪv əˈweɪ ðæt wi hæd ɔːlˈɹɛ.di ˈiː.tən ə hoʊl pæk ʌv ˈsaʊ.ɚ stɹɔːz./",
-        "zh": "这晚饭真好吃，因为我们不想暴露我们已经吃了一整包酸扁带糖的事实。",
-        "highlights": [
-          {
-            "text": "give away",
-            "key": "ɡɪv əˈweɪ",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 54,
-        "start": 218.79,
-        "end": 222.31,
-        "speaker": "Speaker",
-        "en": "Mhm, my secret's safe with you, right?",
-        "ipa": "/m̩ˈhʌm, maɪ ˈsiː.kɹɪts seɪf wɪð ju, ɹaɪt?/",
-        "zh": "嗯哼，我的秘密对你保密，对吧？",
-        "highlights": [
-          {
-            "text": "safe with you",
-            "key": "seɪf wɪð ju",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 55,
-        "start": 222.35,
-        "end": 225.64,
-        "speaker": "Speaker",
-        "en": "Oh, yeah, do you know what these are called?",
-        "ipa": "/oʊ, jæ, du ju noʊ wʌt ðiːz ɑɹ kɔːld?/",
-        "zh": "哦，对啦，你知道这些叫什么名字吗？",
-        "highlights": [
-          {
-            "text": "do you know",
-            "key": "du ju noʊ",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 56,
-        "start": 225.68,
-        "end": 229.95,
-        "speaker": "Speaker",
-        "en": "Wind chimes, wind chimes.",
-        "ipa": "/wɪnd tʃaɪmz, wɪnd tʃaɪmz./",
-        "zh": "[铃声] 风铃，风铃。",
-        "highlights": [
-          {
-            "text": "Wind chimes",
-            "key": "wɪnd tʃaɪmz",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 57,
-        "start": 229.99,
-        "end": 235.19,
-        "speaker": "Speaker",
-        "en": "We have one of these on our deck and it's so peaceful and nice.",
-        "ipa": "/wi hæv wʌn ʌv ðiːz ɑn aʊɹ dɛk ænd ɪts soʊ ˈpiːs.fəl ænd naɪs./",
-        "zh": "我们的露台挂着一个这个，既宁静又美好。",
-        "highlights": [
-          {
-            "text": "peaceful and nice",
-            "key": "ˈpiːs.fəl ænd naɪs",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 58,
-        "start": 235.23,
-        "end": 240.19,
-        "speaker": "Speaker",
-        "en": "There are t-shirts of every type.",
-        "ipa": "/ðɛɹ ɑɹ ˈtiː.ʃɚts ʌv ˈɛ.vɹi taɪp./",
-        "zh": "这里有各种各样的T恤。",
-        "highlights": [
-          {
-            "text": "every type",
-            "key": "ˈɛ.vɹi taɪp",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 59,
-        "start": 240.23,
-        "end": 243.51,
-        "speaker": "Speaker",
-        "en": "Postcards.",
-        "ipa": "/ˈpoʊstˌkɑːɹdz./",
-        "zh": "明信片。",
-        "highlights": [
-          {
-            "text": "Postcards",
-            "key": "ˈpoʊstˌkɑːɹdz",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "start": 243.55,
-        "end": 244.27,
-        "speaker": "Speaker",
-        "en": "Asheville postcards.",
-        "ipa": "/ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz./",
-        "zh": "阿什维尔明信片。",
-        "highlights": [
-          {
-            "text": "Asheville postcards",
-            "key": "ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 61,
-        "start": 244.31,
-        "end": 247.15,
-        "speaker": "Speaker",
-        "en": "Oh, these are some Asheville postcards I've never seen.",
-        "ipa": "/oʊ, ðiːz ɑɹ sʌm ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz aɪv ˈnɛ.vɚ siːn./",
-        "zh": "哦，这些有些阿什维尔的明信片我以前没见过。",
-        "highlights": [
-          {
-            "text": "never seen",
-            "key": "ˈnɛ.vɚ siːn",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 62,
-        "start": 247.19,
-        "end": 255.39,
-        "speaker": "Speaker",
-        "en": "Sometimes when my students send me postcards, I try to send them a postcard back if I have their address and I try to buy cool Asheville postcards to send to them.",
-        "ipa": "/ˈsʌmˌtaɪmz wɛn maɪ ˈstuː.dənts sɛnd mi ˈpoʊstˌkɑːɹdz, aɪ tɹaɪ tu sɛnd ðɛm ə ˈpoʊstˌkɑːɹd bæk ɪf aɪ hæv ðɛɹ əˈdɹɛs ænd aɪ tɹaɪ tu baɪ kuːl ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz tu sɛnd tu ðɛm./",
-        "zh": "有时当我的学生给我寄明信片时，如果我有他们的地址，我也会尽量回寄一张明信片，而且我努力去买一些很酷的阿什维尔明信片寄给他们。",
-        "highlights": [
-          {
-            "text": "send me",
-            "key": "sɛnd mi",
-            "chip": "indigo"
-          },
-          {
-            "text": "cool",
-            "key": "kuːl",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "start": 255.43,
-        "end": 257.2,
-        "speaker": "Speaker",
-        "en": "So now I know where to go.",
-        "ipa": "/soʊ naʊ aɪ noʊ wɛɹ tu ɡoʊ./",
-        "zh": "所以现在我知道该去哪儿了。",
-        "highlights": [
-          {
-            "text": "where to go",
-            "key": "wɛɹ tu ɡoʊ",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 64,
-        "start": 257.24,
-        "end": 257.47,
-        "speaker": "Speaker",
-        "en": "Huh.",
-        "ipa": "/hʌ./",
-        "zh": "哈。",
-        "highlights": [
-          {
-            "text": "Huh",
-            "key": "hʌ",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 65,
-        "start": 257.51,
-        "end": 260.63,
-        "speaker": "Speaker",
-        "en": "I've been sending the same Asheville postcards for years.",
-        "ipa": "/aɪv bɪn ˈsɛnd.ɪŋ ðə seɪm ˈæʃ.vɪl ˈpoʊstˌkɑːɹdz fɔːɹ jɪɹz./",
-        "zh": "我都好几年一直在寄同款阿什维尔明信片了。",
-        "highlights": [
-          {
-            "text": "for years",
-            "key": "fɔːɹ jɪɹz",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "start": 260.67,
-        "end": 262.63,
-        "speaker": "Speaker",
-        "en": "This is the place to get them.",
-        "ipa": "/ðɪs ɪz ðə pleɪs tu ɡɛt ðəm./",
-        "zh": "这才是买它们的地方。",
-        "highlights": [
-          {
-            "text": "the place to get",
-            "key": "ðə pleɪs tu ɡɛt",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "start": 262.67,
-        "end": 267.47,
-        "speaker": "Speaker",
-        "en": "Oh, we got to see something.",
-        "ipa": "/oʊ, wi ɡɑt tu siː ˈsʌm.θɪŋ./",
-        "zh": "哦，我们得看看这个。",
-        "highlights": [
-          {
-            "text": "got to see",
-            "key": "ɡɑt tu siː",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "start": 267.51,
-        "end": 271.55,
-        "speaker": "Speaker",
-        "en": "What is in the Asheville popcorn mix?",
-        "ipa": "/wʌt ɪz ɪn ðə ˈæʃ.vɪl ˈpɑːp.kɔːɹn mɪks?/",
-        "zh": "阿什维尔混合爆米花里都有什么？",
-        "highlights": [
-          {
-            "text": "popcorn mix",
-            "key": "ˈpɑːp.kɔːɹn mɪks",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 69,
-        "start": 271.59,
-        "end": 275.84,
-        "speaker": "Speaker",
-        "en": "It is popcorn with a purpose.",
-        "ipa": "/ɪt ɪz ˈpɑːp.kɔːɹn wɪð ə ˈpɝː.pəs./",
-        "zh": "这可是带有使命感的爆米花。",
-        "highlights": [
-          {
-            "text": "with a purpose",
-            "key": "wɪð ə ˈpɝː.pəs",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 70,
-        "start": 275.88,
-        "end": 276.31,
-        "speaker": "Speaker",
-        "en": "Okay.",
-        "ipa": "/oʊˈkeɪ./",
-        "zh": "好啦。",
-        "highlights": [
-          {
-            "text": "Okay",
-            "key": "oʊˈkeɪ",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 71,
-        "start": 276.35,
-        "end": 278.76,
-        "speaker": "Speaker",
-        "en": "White cheddar and salted caramel.",
-        "ipa": "/waɪt ˈtʃɛ.dɚ ænd ˈsɑːl.tɪd ˈkɛɹ.ə.məl./",
-        "zh": "白切达干酪和海盐焦糖味。",
-        "highlights": [
-          {
-            "text": "White cheddar",
-            "key": "waɪt ˈtʃɛ.dɚ",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 72,
-        "start": 278.8,
-        "end": 282.87,
-        "speaker": "Speaker",
-        "en": "So that is what makes Asheville white cheddar popcorn and salted caramel.",
-        "ipa": "/soʊ ðæt ɪz wʌt meɪks ˈæʃ.vɪl waɪt ˈtʃɛ.dɚ ˈpɑːp.kɔːɹn ænd ˈsɑːl.tɪd ˈkɛɹ.ə.məl./",
-        "zh": "所以这就是阿什维尔白切达爆米花和海盐焦糖味的由来。",
-        "highlights": [
-          {
-            "text": "what makes",
-            "key": "wʌt meɪks",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 73,
-        "start": 282.91,
-        "end": 286.19,
-        "speaker": "Speaker",
-        "en": "Little salty, little sweet.",
-        "ipa": "/ˈlɪtəl ˈsɔlti, ˈlɪtəl swit/",
-        "zh": "有点咸，有点甜。",
-        "highlights": [
-          {
-            "text": "Little salty, little sweet",
-            "key": "略带咸甜的口味",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 74,
-        "start": 286.23,
-        "end": 288.11,
-        "speaker": "Speaker",
-        "en": "It's probably about true.",
-        "ipa": "/ɪts ˈprɑbəbli əˈbaʊt tru/",
-        "zh": "这大概差不多是真的。",
-        "highlights": [
-          {
-            "text": "probably",
-            "key": "很可能，大概",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 75,
-        "start": 288.15,
-        "end": 293.27,
-        "speaker": "Speaker",
-        "en": "All right, let's go out of the store and keep walking down the street.",
-        "ipa": "/ɔl raɪt, lɛts goʊ aʊt ʌv ðə stɔr ænd kip ˈwɔkɪŋ daʊn ðə strit/",
-        "zh": "好了，我们出店继续沿着街往前走吧。",
-        "highlights": [
-          {
-            "text": "keep walking",
-            "key": "继续走",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 76,
-        "start": 293.31,
-        "end": 295.83,
-        "speaker": "Speaker",
-        "en": "Oh, yeah, this is the famous restaurant.",
-        "ipa": "/oʊ, jæ, ðɪs ɪz ðə ˈfeɪməs ˈrɛstəˌrɑnt/",
-        "zh": "哦，对啦，这就是那家很有名的餐厅。",
-        "highlights": [
-          {
-            "text": "famous restaurant",
-            "key": "知名餐厅",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 77,
-        "start": 295.87,
-        "end": 298.53,
-        "speaker": "Speaker",
-        "en": "The chef had lots of awards.",
-        "ipa": "/ðə ʃɛf hæd lɑts ʌv əˈwɔrdz/",
-        "zh": "这位主厨拿过很多奖项。",
-        "highlights": [
-          {
-            "text": "lots of awards",
-            "key": "许多奖项",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 78,
-        "start": 298.57,
-        "end": 303.99,
-        "speaker": "Speaker",
-        "en": "It's Spanish pork and Spanish inspired dishes.",
-        "ipa": "/ɪts ˈspænɪʃ pɔrk ænd ˈspænɪʃ ɪnˈspaɪərd ˈdɪʃəz/",
-        "zh": "这里有西班牙猪肉和西班牙风味的菜肴。",
-        "highlights": [
-          {
-            "text": "Spanish inspired",
-            "key": "西班牙灵感的，西班牙风味的",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 79,
-        "start": 304.03,
-        "end": 304.46,
-        "speaker": "Speaker",
-        "en": "Tapas stuff.",
-        "ipa": "/ˈtɑpəs stʌf/",
-        "zh": "就是西班牙小吃那类东西。",
-        "highlights": [
-          {
-            "text": "Tapas",
-            "key": "西班牙小吃（塔帕斯）",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 80,
-        "start": 304.5,
-        "end": 307.06,
-        "speaker": "Speaker",
-        "en": "We've been there a couple times and it's pretty good.",
-        "ipa": "/wiv bɪn ðɛr ə ˈkʌpəl taɪmz ænd ɪts ˈprɪti gʊd/",
-        "zh": "我们去过好几次了，感觉挺不错的。",
-        "highlights": [
-          {
-            "text": "a couple times",
-            "key": "几次，数次",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 81,
-        "start": 307.1,
-        "end": 309.75,
-        "speaker": "Speaker",
-        "en": "All right, let's keep going.",
-        "ipa": "/ɔl raɪt, lɛts kip ˈgoʊɪŋ/",
-        "zh": "行吧，我们继续往前走。",
-        "highlights": [
-          {
-            "text": "keep going",
-            "key": "继续前进",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 82,
-        "start": 309.79,
-        "end": 313.59,
-        "speaker": "Speaker",
-        "en": "This is a classic Asheville shop called Hippie Shop.",
-        "ipa": "/ðɪs ɪz ə ˈklæsɪk ˈæʃvɪl ʃɑp kɔld ˈhɪpi ʃɑp/",
-        "zh": "这是阿什维尔一家很经典的店铺，叫嬉皮士商店。",
-        "highlights": [
-          {
-            "text": "classic",
-            "key": "经典的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 83,
-        "start": 313.63,
-        "end": 320.67,
-        "speaker": "Speaker",
-        "en": "Everything, lots of tie-dye, lots of stained glass, lots of beads, lots of feathers.",
-        "ipa": "/ˈɛvriˌθɪŋ, lɑts ʌv ˈtaɪˌdaɪ, lɑts ʌv steɪnd glæs, lɑts ʌv bidz, lɑts ʌv ˈfɛðərz/",
-        "zh": "什么都有，有好多扎染织物、好多彩绘玻璃、好多串珠、好多羽毛。",
-        "highlights": [
-          {
-            "text": "tie-dye",
-            "key": "扎染",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 84,
-        "start": 320.71,
-        "end": 324.03,
-        "speaker": "Speaker",
-        "en": "Lots of Everything.",
-        "ipa": "/lɑts ʌv ˈɛvriˌθɪŋ/",
-        "zh": "各种各样应有尽有。",
-        "highlights": [
-          {
-            "text": "Lots of",
-            "key": "许多，大量",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 85,
-        "start": 324.07,
-        "end": 329.87,
-        "speaker": "Speaker",
-        "en": "Everything hippie.",
-        "ipa": "/ˈɛvriˌθɪŋ ˈhɪpi. ˈɛvriˌθɪŋ ˈhɪpi/",
-        "zh": "全都是嬉皮士风格。",
-        "highlights": [
-          {
-            "text": "hippie",
-            "key": "嬉皮士的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 86,
-        "start": 329.91,
-        "end": 334.05,
-        "speaker": "Speaker",
-        "en": "This is what some people say is the best Indian restaurant in Asheville, Mayfel's.",
-        "ipa": "/ðɪs ɪz wʌt sʌm ˈpipəl seɪ ɪz ðə bɛst ˈɪndiən ˈrɛstəˌrɑnt ɪn ˈæʃvɪl, ˈmeɪfəlz/",
-        "zh": "这就是有些人说的阿什维尔最棒的印度餐厅——Mayfel's。",
-        "highlights": [
-          {
-            "text": "some people say",
-            "key": "有些人说",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 87,
-        "start": 334.55,
-        "end": 348.71,
-        "speaker": "Speaker",
-        "en": "Um lots of They have ice cream, they have little truffles, they have hot chocolate, they have so many different chocolate things, and I think it's not too busy right now, so I guess we should go.",
-        "ipa": "/ʌm lɑts ʌv ðeɪ hæv aɪs krim, ðeɪ hæv ˈlɪtəl ˈtrʌfəlz, ðeɪ hæv hɑt ˈtʃɑklət, ðeɪ hæv soʊ ˈmɛni ˈdɪfərənt ˈtʃɑklət θɪŋz, ənd aɪ θɪŋk ɪts nɑt tu ˈbɪzi raɪt naʊ, soʊ aɪ gɛs wi ʃʊd goʊ./",
-        "zh": "嗯，有好多他们有冰淇淋、有小松露巧克力、有热巧克力，有各种各样不同的巧克力制品，还有我觉得现在人不是太多，所以我想我们应该进去吧。",
-        "highlights": [
-          {
-            "text": "ice cream",
-            "key": "ice cream",
-            "chip": "orange"
-          },
-          {
-            "text": "hot chocolate",
-            "key": "hot chocolate",
-            "chip": "orange"
-          },
-          {
-            "text": "right now",
-            "key": "right now",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 88,
-        "start": 348.75,
-        "end": 351.31,
-        "speaker": "Speaker",
-        "en": "All right, let's go in.",
-        "ipa": "/ɔl raɪt, lɛts goʊ ɪn./",
-        "zh": "好吧，我们进去吧。",
-        "highlights": [
-          {
-            "text": "go in",
-            "key": "go in",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 89,
-        "start": 351.35,
-        "end": 353.43,
-        "speaker": "Speaker",
-        "en": "Thank you.",
-        "ipa": "/ˈθæŋk ju./",
-        "zh": "谢谢。",
-        "highlights": [
-          {
-            "text": "Thank you",
-            "key": "thank you",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 90,
-        "start": 353.47,
-        "end": 357.05,
-        "speaker": "Speaker",
-        "en": "So, the one thing is when you get farm to table food, it is expensive.",
-        "ipa": "/soʊ, ðə wʌn θɪŋ ɪz wɛn ju gɛt fɑrm tə ˈteɪbəl fud, ɪt ɪz ɪkˈspɛnsɪv./",
-        "zh": "所以，有一点是，当你购买“从农场到餐桌”的食物时，它是很贵的。",
-        "highlights": [
-          {
-            "text": "farm to table",
-            "key": "farm to table",
-            "chip": "pink"
-          },
-          {
-            "text": "expensive",
-            "key": "expensive",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 91,
-        "start": 357.09,
-        "end": 360.47,
-        "speaker": "Speaker",
-        "en": "So, you have to be willing to shell out some money.",
-        "ipa": "/soʊ, ju hæv tə bi ˈwɪlɪŋ tə ʃɛl aʊt sʌm ˈmʌni./",
-        "zh": "因此，你得做好掏大钱的心理准备。",
-        "highlights": [
-          {
-            "text": "shell out",
-            "key": "shell out",
-            "chip": "pink"
-          },
-          {
-            "text": "be willing to",
-            "key": "be willing to",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 92,
-        "start": 360.51,
-        "end": 365.31,
-        "speaker": "Speaker",
-        "en": "Uh for example, let's take a look.",
-        "ipa": "/ʌ fər ɪgˈzæmpəl, lɛts teɪk ə lʊk./",
-        "zh": "呃，比如，我们来看一看。",
-        "highlights": [
-          {
-            "text": "take a look",
-            "key": "take a look",
-            "chip": "pink"
-          },
-          {
-            "text": "for example",
-            "key": "for example",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 93,
-        "start": 365.35,
-        "end": 374.25,
-        "speaker": "Speaker",
-        "en": "This is a box of truffles or bonbons, and it's these in here.",
-        "ipa": "/ðɪs ɪz ə bɑks əv ˈtrʌfəlz ɔr ˈbɑnbɑnz, ænd ɪts ðiz ɪn hɪr./",
-        "zh": "这是一盒松露巧克力或夹心巧克力，里面装的就是这些。",
-        "highlights": [
-          {
-            "text": "truffles",
-            "key": "松露巧克力",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 94,
-        "start": 374.29,
-        "end": 383.83,
-        "speaker": "Speaker",
-        "en": "You can get six, and this costs $20 for six of these.",
-        "ipa": "/ju kæn gɛt sɪks, ænd ðɪs kɑsts ˈtwɛnti dɑlərz fɔr sɪks əv ðiz./",
-        "zh": "你可以买六个，六个装的价格是20美元。",
-        "highlights": [
-          {
-            "text": "costs",
-            "key": "花费/价格为",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 95,
-        "start": 383.87,
-        "end": 384.82,
-        "speaker": "Speaker",
-        "en": "But, you know what?",
-        "ipa": "/bʌt, ju noʊ wʌt?/",
-        "zh": "但是，你知道吗？",
-        "highlights": [
-          {
-            "text": "you know what",
-            "key": "你知道吗（引出话题）",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 96,
-        "start": 384.86,
-        "end": 392.39,
-        "speaker": "Speaker",
-        "en": "I always buy these for people as a gift because everyone, at least everyone in Asheville, knows this is really special chocolate.",
-        "ipa": "/aɪ ˈɔlˌweɪz baɪ ðiz fɔr ˈpipəl æz ə gɪft bɪˈkəz ˈɛvriˌwʌn, æt list ˈɛvriˌwʌn ɪn ˈæʃˌvɪl, noʊz ðɪs ɪz ˈrɪli ˈspɛʃəl ˈtʃɑklət./",
-        "zh": "我总是买这些送人当礼物，因为每个人，至少在阿什维尔的每个人，都知道这是非常特别的巧克力。",
-        "highlights": [
-          {
-            "text": "as a gift",
-            "key": "作为礼物",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 97,
-        "start": 392.43,
-        "end": 402.97,
-        "speaker": "Speaker",
-        "en": "So, it feels worthwhile to spend a lot of money on something that's Asheville-crafted, very special, and um yeah, it's a really good gift.",
-        "ipa": "/soʊ, ɪt filz ˈwɜrθˌwaɪl tu spɛnd ə lɑt əv ˈmʌni ɑn ˈsʌmθɪŋ ðæts ˈæʃˌvɪl-kræftəd, ˈvɛri ˈspɛʃəl, ænd ʌm jæ, ɪts ə ˈrɪli gʊd gɪft./",
-        "zh": "所以，花很多钱买一些阿什维尔手工制作的、非常特别的东西，感觉很值得。嗯，没错，这确实是个很好的礼物。",
-        "highlights": [
-          {
-            "text": "worthwhile",
-            "key": "值得的",
-            "chip": "orange"
-          },
-          {
-            "text": "really good",
-            "key": "非常好的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 98,
-        "start": 403.01,
-        "end": 409.67,
-        "speaker": "Speaker",
-        "en": "So, I just bought these actually earlier today at their other location as a gift for some people.",
-        "ipa": "/soʊ, aɪ ʤʌst bɑt ðiz ˈækʃəli ˈɜrliər təˈdeɪ æt ðɛr ˈʌðər loʊˈkeɪʃən æz ə gɪft fɔr sʌm ˈpipəl./",
-        "zh": "其实我今天早些时候刚在他们的另一家分店买了这些，打算送人。",
-        "highlights": [
-          {
-            "text": "earlier today",
-            "key": "今天早些时候",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 99,
-        "start": 409.71,
-        "end": 411.17,
-        "speaker": "Speaker",
-        "en": "But, I'm not going to buy anything to go.",
-        "ipa": "/bʌt, aɪm nɑt ˈgoʊɪŋ tu baɪ ˈɛniˌθɪŋ tu goʊ./",
-        "zh": "不过，我这次不打算买外带的东西。",
-        "highlights": [
-          {
-            "text": "to go",
-            "key": "外带",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 100,
-        "start": 411.21,
-        "end": 419.95,
-        "speaker": "Speaker",
-        "en": "Let's go to their front and order something good.",
-        "ipa": "/lɛts goʊ tu ðɛr frʌnt ænd ˈɔrdər ˈsʌmθɪŋ gʊd./",
-        "zh": "我们去前台点些好吃的吧。",
-        "highlights": [
-          {
-            "text": "order",
-            "key": "点餐",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 101,
-        "start": 419.99,
-        "end": 425.03,
-        "speaker": "Speaker",
-        "en": "When Dan used to work here, I used to come here and plan videos for you.",
-        "ipa": "/wɛn dæn juzd tu wɜrk hɪr, aɪ juzd tu kʌm hɪr ænd plæn ˈvɪdioʊz fɔr ju./",
-        "zh": "丹以前在这里工作的时候，我常来这里为你策划视频。",
-        "highlights": [
-          {
-            "text": "used to",
-            "key": "过去常常",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 102,
-        "start": 425.07,
-        "end": 433.83,
-        "speaker": "Speaker",
-        "en": "I would sit in the corner with my laptop, and it was the best job ever for me because all of the staff knew that I was Dan's wife.",
-        "ipa": "/aɪ wʊd sɪt ɪn ðə ˈkɔrnər wɪð maɪ ˈlæpˌtɑp, ænd ɪt wʌz ðə bɛst ʤɑb ˈɛvər fɔr mi bɪˈkəz ɔl əv ðə stæf noʊ ðæt aɪ wʌz dænz waɪf./",
-        "zh": "我会带着笔记本电脑坐在角落里，那对我来说是最好的工作，因为所有的员工都知道我是丹的妻子。",
-        "highlights": [
-          {
-            "text": "best job ever",
-            "key": "有史以来最好的工作",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 103,
-        "start": 433.87,
-        "end": 435.9,
-        "speaker": "Speaker",
-        "en": "I wasn't just like a regular customer.",
-        "ipa": "/aɪ ˈwʌzənt ʤʌst laɪk ə ˈrɛgjələr ˈkʌstəmər./",
-        "zh": "我不仅仅是个普通顾客。",
-        "highlights": [
-          {
-            "text": "regular customer",
-            "key": "普通顾客",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 104,
-        "start": 435.94,
-        "end": 441.95,
-        "speaker": "Speaker",
-        "en": "So, if something broke, like a piece of cake broke and they couldn't sell it, they'd go, \"Vanessa, do you want this?\"",
-        "ipa": "/soʊ, ɪf ˈsʌmθɪŋ broʊk, laɪk ə pis əv keɪk broʊk ænd ðeɪ ˈkʊdənt sɛl ɪt, ðeɪd goʊ, \"vəˈnɛsə, du ju wɑnt ðɪs?\"/",
-        "zh": "所以，如果有什么东西弄坏了，比如一块蛋糕碎了，他们没法卖了，他们就会说：“凡妮莎，你想要这个吗？”",
-        "highlights": [
-          {
-            "text": "do you want this",
-            "key": "你想要这个吗",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 105,
-        "start": 441.99,
-        "end": 447.79,
-        "speaker": "Speaker",
-        "en": "Or if they had something new that they wanted to test out on someone, I would get to try it.",
-        "ipa": "/ɔr ɪf ðeɪ hæd ˈsʌmθɪŋ nu ðæt ðeɪ ˈwɑntəd tu tɛst aʊt ɑn ˈsʌmˌwʌn, aɪ wʊd gɛt tu traɪ ɪt./",
-        "zh": "或者如果他们有什么想找人试吃的新品，我总能尝到。",
-        "highlights": [
-          {
-            "text": "test out",
-            "key": "测试/试用",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 106,
-        "start": 447.83,
-        "end": 449.02,
-        "speaker": "Speaker",
-        "en": "It was the best.",
-        "ipa": "/ɪt wʌz ðə bɛst./",
-        "zh": "那真是太棒了。",
-        "highlights": [
-          {
-            "text": "the best",
-            "key": "最棒的",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 107,
-        "start": 449.06,
-        "end": 453.27,
-        "speaker": "Speaker",
-        "en": "It's the best job that Dan has ever had for me.",
-        "ipa": "/ɪts ðə bɛst ʤɑb ðæt dæn hæz ˈɛvər hæd fɔr mi./",
-        "zh": "这是丹为我找过的最好的工作。",
-        "highlights": [
-          {
-            "text": "ever had",
-            "key": "曾经有过",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 108,
-        "start": 453.31,
-        "end": 459.15,
-        "speaker": "Speaker",
-        "en": "Um what was the most popular thing that people bought when you were working here?",
-        "ipa": "/ʌm wʌt wʌz ðə moʊst ˈpɑpjələr θɪŋ ðæt ˈpipəl bɑt wɛn ju wɜr ˈwɜrkɪŋ hɪr?/",
-        "zh": "嗯，你在这里工作的时候，人们买得最多的东西是什么？",
-        "highlights": [
-          {
-            "text": "most popular",
-            "key": "最受欢迎的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 109,
-        "start": 459.19,
-        "end": 462.35,
-        "speaker": "Speaker",
-        "en": "Or the most Yeah, common thing.",
-        "ipa": "/ɔr ðə moʊst jæ, ˈkɑmən θɪŋ./",
-        "zh": "或者最对，最常见的东西。",
-        "highlights": [
-          {
-            "text": "common thing",
-            "key": "常见的东西",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 110,
-        "start": 462.39,
-        "end": 464.43,
-        "speaker": "Speaker",
-        "en": "Honestly, probably a chocolate chip cookie.",
-        "ipa": "/ˈɑnəstli, ˈprɑbəbli ə ˈtʃɑklət tʃɪp ˈkʊki./",
-        "zh": "老实说，大概是巧克力豆曲奇。",
-        "highlights": [
-          {
-            "text": "Honestly",
-            "key": "老实说",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 111,
-        "start": 464.47,
-        "end": 465.31,
-        "speaker": "Speaker",
-        "en": "Yeah.",
-        "ipa": "/jæ./",
-        "zh": "是啊。",
-        "highlights": []
-      },
-      {
-        "id": 112,
-        "start": 465.35,
-        "end": 467.99,
-        "speaker": "Speaker",
-        "en": "Yeah, that and there's liquid chocolate.",
-        "ipa": "/jæ, ðæt ænd ðɛrz ˈlɪkwəd ˈtʃɑklət./",
-        "zh": "对，还有那个液态巧克力。",
-        "highlights": [
-          {
-            "text": "liquid chocolate",
-            "key": "液态巧克力",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 113,
-        "start": 468.03,
-        "end": 468.67,
-        "speaker": "Speaker",
-        "en": "Oh, yeah.",
-        "ipa": "/oʊ, jæ./",
-        "zh": "哦，对。",
-        "highlights": []
-      },
-      {
-        "id": 114,
-        "start": 468.71,
-        "end": 469.67,
-        "speaker": "Speaker",
-        "en": "Hot chocolate.",
-        "ipa": "/hɑt ˈtʃɑklət./",
-        "zh": "热巧克力。",
-        "highlights": [
-          {
-            "text": "Hot chocolate",
-            "key": "热巧克力",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 115,
-        "start": 469.71,
-        "end": 470.79,
-        "speaker": "Speaker",
-        "en": "Yeah.",
-        "ipa": "/jæ./",
-        "zh": "没错。",
-        "highlights": []
-      },
-      {
-        "id": 116,
-        "start": 470.83,
-        "end": 471.91,
-        "speaker": "Speaker",
-        "en": "It's not just hot chocolate.",
-        "ipa": "/ɪts nɑt ʤʌst hɑt ˈtʃɑklət./",
-        "zh": "它不仅仅是热巧克力。",
-        "highlights": [
-          {
-            "text": "chocolate",
-            "key": "chocolate",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 117,
-        "start": 471.95,
-        "end": 474.74,
-        "speaker": "Speaker",
-        "en": "Like, it doesn't have water or milk in it.",
-        "ipa": "/laɪk, ɪt ˈdʌzənt hæv ˈwɔtər ɔr mɪlk ɪn ɪt./",
-        "zh": "就是说，里面没有加水或牛奶。",
-        "highlights": [
-          {
-            "text": "doesn't have",
-            "key": "没有",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 118,
-        "start": 474.78,
-        "end": 480.16,
-        "speaker": "Speaker",
-        "en": "It's literally just like a melted chocolate bar that you can drink.",
-        "ipa": "/ɪts ˈlɪtərəli ʤʌst laɪk ə ˈmɛltəd ˈtʃɑklət bɑr ðæt ju kæn drɪŋk./",
-        "zh": "它简直就像是可以喝的融化巧克力棒。",
-        "highlights": [
-          {
-            "text": "literally",
-            "key": "简直/确实",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 119,
-        "start": 480.2,
-        "end": 480.99,
-        "speaker": "Speaker",
-        "en": "So good.",
-        "ipa": "/soʊ gʊd./",
-        "zh": "太好喝了。",
-        "highlights": []
-      },
-      {
-        "id": 120,
-        "start": 481.03,
-        "end": 483.49,
-        "speaker": "Speaker",
-        "en": "So decadent and dangerous.",
-        "ipa": "/soʊ ˈdɛkədənt ænd ˈdeɪnʤərəs./",
-        "zh": "太浓郁、太让人上瘾了。",
-        "highlights": [
-          {
-            "text": "decadent",
-            "key": "（食物）极其美味/浓郁的",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 121,
-        "start": 483.53,
-        "end": 485.79,
-        "speaker": "Speaker",
-        "en": "Like you can't have that too much.",
-        "ipa": "/laɪk ju kænt hæv ðæt tu mʌtʃ./",
-        "zh": "就是说你不能喝太多。",
-        "highlights": [
-          {
-            "text": "can't have that too much",
-            "key": "不能喝太多",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 122,
-        "start": 485.83,
-        "end": 488.71,
-        "speaker": "Speaker",
-        "en": "Uh when you worked here, did you eat that a lot?",
-        "ipa": "/ʌ wɛn ju wɜrkt hɪr, dɪd ju it ðæt ə lɑt?/",
-        "zh": "呃，你在这里工作的时候，经常吃那个吗？",
-        "highlights": [
-          {
-            "text": "eat that a lot",
-            "key": "经常吃那个",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 123,
-        "start": 488.75,
-        "end": 490.39,
-        "speaker": "Speaker",
-        "en": "Like did you try little things a lot?",
-        "ipa": "/laɪk dɪd ju traɪ ˈlɪtəl θɪŋz ə lɑt?/",
-        "zh": "就是说你经常试吃各种小东西吗？",
-        "highlights": [
-          {
-            "text": "try",
-            "key": "尝试/试吃",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 124,
-        "start": 490.43,
-        "end": 492.95,
-        "speaker": "Speaker",
-        "en": "Oh yeah, ice cream actually is mainly what got me.",
-        "ipa": "/oʊ jæ, aɪs krim ˈækʃəli ɪz ˈmeɪnli wʌt gɑt mi./",
-        "zh": "哦，是的，其实冰淇淋才是让我最着迷的。",
-        "highlights": [
-          {
-            "text": "what got me",
-            "key": "让我着迷的东西",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 125,
-        "start": 492.99,
-        "end": 493.58,
-        "speaker": "Speaker",
-        "en": "Oh yeah?",
-        "ipa": "/oʊ jæ?/",
-        "zh": "哦，是吗？",
-        "highlights": []
-      },
-      {
-        "id": 126,
-        "start": 493.62,
-        "end": 496.8,
-        "speaker": "Speaker",
-        "en": "Yeah, I'm going to get the chocolate creme brulee, please.",
-        "ipa": "/jæ, aɪm ˈgoʊɪŋ tu gɛt ðə ˈtʃɑklət krɛm bruˈleɪ, pliz./",
-        "zh": "是的，我要一份巧克力焦糖布丁，谢谢。",
-        "highlights": [
-          {
-            "text": "creme brulee",
-            "key": "焦糖布丁",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 127,
-        "start": 496.84,
-        "end": 498.51,
-        "speaker": "Speaker",
-        "en": "And that's all.",
-        "ipa": "/ænd ðæts ɔl/",
-        "zh": "就这样啦。",
-        "highlights": [
-          {
-            "text": "that's all",
-            "key": "that's all",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 128,
-        "start": 498.55,
-        "end": 500.71,
-        "speaker": "Speaker",
-        "en": "For here, please.",
-        "ipa": "/fɔr hɪr pliz/",
-        "zh": "在这里吃，谢谢。",
-        "highlights": [
-          {
-            "text": "For here",
-            "key": "for here",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 129,
-        "start": 500.75,
-        "end": 501.43,
-        "speaker": "Speaker",
-        "en": "All right.",
-        "ipa": "/ɔl raɪt/",
-        "zh": "好的。",
-        "highlights": [
-          {
-            "text": "All right",
-            "key": "all right",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 130,
-        "start": 501.47,
-        "end": 504.03,
-        "speaker": "Speaker",
-        "en": "So, I'm going to buy this with my card.",
-        "ipa": "/soʊ aɪm ˈɡuɪŋ tu baɪ ðɪs wɪð maɪ kɑrd/",
-        "zh": "所以，我打算用卡来付这个。",
-        "highlights": [
-          {
-            "text": "going to",
-            "key": "going to",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 131,
-        "start": 504.07,
-        "end": 506.95,
-        "speaker": "Speaker",
-        "en": "And there's a little touch pad here.",
-        "ipa": "/ænd ðɛrz ə ˈlɪtəl tʌtʃ pæd hɪr/",
-        "zh": "这里有一个小触控板。",
-        "highlights": [
-          {
-            "text": "touch pad",
-            "key": "touch pad",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 132,
-        "start": 506.99,
-        "end": 509.47,
-        "speaker": "Speaker",
-        "en": "And that's basically all I have to do.",
-        "ipa": "/ænd ðæts ˈbeɪsɪkli ɔl aɪ hæv tu du/",
-        "zh": "基本上我只需要做这些。",
-        "highlights": [
-          {
-            "text": "basically",
-            "key": "basically",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 133,
-        "start": 509.51,
-        "end": 510.15,
-        "speaker": "Speaker",
-        "en": "It's so simple.",
-        "ipa": "/ɪts soʊ ˈsɪmpəl/",
-        "zh": "太简单了。",
-        "highlights": [
-          {
-            "text": "simple",
-            "key": "simple",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 134,
-        "start": 510.19,
-        "end": 513.6,
-        "speaker": "Speaker",
-        "en": "Just touch it and the creme brulee is mine.",
-        "ipa": "/dʒʌst tʌtʃ ɪt ænd ðə krɛm bruˈleɪ ɪz maɪn/",
-        "zh": "碰一下，焦糖布蕾就是我的了。",
-        "highlights": [
-          {
-            "text": "creme brulee",
-            "key": "creme brulee",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 135,
-        "start": 513.64,
-        "end": 514.79,
-        "speaker": "Speaker",
-        "en": "And yours.",
-        "ipa": "/ænd jʊrz/",
-        "zh": "也是你的。",
-        "highlights": [
-          {
-            "text": "yours",
-            "key": "yours",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 136,
-        "start": 514.83,
-        "end": 520.37,
-        "speaker": "Speaker",
-        "en": "Um you can also tip, but you also have the option to tip with your card at the same time.",
-        "ipa": "/ʌm ju kæn ˈɔlsoʊ tɪp bʌt ju ˈɔlsoʊ hæv ði ˈɑpʃən tu tɪp wɪð jʊər kɑrd æt ðə seɪm taɪm/",
-        "zh": "嗯，你也可以给小费，不过你同时也可以选择用卡付小费。",
-        "highlights": [
-          {
-            "text": "at the same time",
-            "key": "at the same time",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 137,
-        "start": 520.41,
-        "end": 522.27,
-        "speaker": "Speaker",
-        "en": "You don't have to tip with cash.",
-        "ipa": "/ju doʊnt hæv tu tɪp wɪð kæʃ/",
-        "zh": "你不一定非得给现金小费。",
-        "highlights": [
-          {
-            "text": "don't have to",
-            "key": "don't have to",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 138,
-        "start": 522.31,
-        "end": 525.63,
-        "speaker": "Speaker",
-        "en": "But if you have cash, they say cash is king.",
-        "ipa": "/bʌt ɪf ju hæv kæʃ ðeɪ seɪ kæʃ ɪz kɪŋ/",
-        "zh": "不过如果你有现金的话，俗话说现金为王。",
-        "highlights": [
-          {
-            "text": "cash is king",
-            "key": "cash is king",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 139,
-        "start": 525.67,
-        "end": 531.57,
-        "speaker": "Speaker",
-        "en": "It's very appreciated to give a cash tip, but you can tip with your card, too.",
-        "ipa": "/ɪts ˈvɛri əˈpriʃieɪtɪd tu ɡɪv ə kæʃ tɪp bʌt ju kæn tɪp wɪð jʊər kɑrd tu/",
-        "zh": "给现金小费很受欢迎，但你也可以用卡付小费。",
-        "highlights": [
-          {
-            "text": "appreciated",
-            "key": "appreciated",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 140,
-        "start": 531.61,
-        "end": 538.35,
-        "speaker": "Speaker",
-        "en": "Which is what I'm going to do because I don't have any cash.",
-        "ipa": "/wɪtʃ ɪz wʌt aɪm ˈɡuɪŋ tu du bɪˈkʌz aɪ doʊnt hæv ˈɛni kæʃ/",
-        "zh": "这就是我打算做的，因为我身上没有任何现金。",
-        "highlights": [
-          {
-            "text": "going to",
-            "key": "going to",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 141,
-        "start": 538.39,
-        "end": 540.75,
-        "speaker": "Speaker",
-        "en": "Here it comes.",
-        "ipa": "/hɪr ɪt kʌmz/",
-        "zh": "来啦。",
-        "highlights": [
-          {
-            "text": "Here it comes",
-            "key": "here it comes",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 142,
-        "start": 540.79,
-        "end": 545.99,
-        "speaker": "Speaker",
-        "en": "Thank you.",
-        "ipa": "/θæŋk ju/",
-        "zh": "谢谢你。",
-        "highlights": [
-          {
-            "text": "Thank you",
-            "key": "thank you",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 143,
-        "start": 546.03,
-        "end": 553.58,
-        "speaker": "Speaker",
-        "en": "Let's go sit in the window.",
-        "ipa": "/lɛts ɡoʊ sɪt ɪn ðə ˈwɪndoʊ/",
-        "zh": "我们去窗户边的座位坐吧。",
-        "highlights": [
-          {
-            "text": "Let's go",
-            "key": "let's go",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 144,
-        "start": 554.39,
-        "end": 554.68,
-        "speaker": "Speaker",
-        "en": "Okay.",
-        "ipa": "/oʊˈkeɪ/",
-        "zh": "好啊。",
-        "highlights": [
-          {
-            "text": "Okay",
-            "key": "okay",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 145,
-        "start": 554.72,
-        "end": 557.49,
-        "speaker": "Speaker",
-        "en": "So, here we have our chocolate creme brulee.",
-        "ipa": "/soʊ hɪr wi hæv ˈaʊər ˈtʃɑklət krɛm bruˈleɪ/",
-        "zh": "那么，这就是我们的巧克力焦糖布蕾。",
-        "highlights": [
-          {
-            "text": "chocolate",
-            "key": "chocolate",
-            "chip": "orange"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-10-Learn-How-To-Talk-About-Your-Dai",
-    "number": "EP 10",
+    "id": "local-9-Learn-How-To-Talk-About-Your-Dai",
+    "number": "EP 09",
     "title": "Learn How To Talk About Your Daily Routine in English by Watching Me Act Out Mine",
     "speaker": "Bob the Canadian",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -94362,7 +93162,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.webp",
     "mediaUrl": "./content/episodes/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.f399.mp4",
     "audioUrl": "./content/episodes/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.f140.m4a",
@@ -95908,8 +94708,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-9-73-Questions-with-Victoria-Beckh",
-    "number": "EP 09",
+    "id": "local-8-73-Questions-with-Victoria-Beckh",
+    "number": "EP 08",
     "title": "73 Questions with Victoria Beckham ｜ Vogue",
     "speaker": "Victoria Beckham",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -95921,7 +94721,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "名人访谈"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.webp",
     "mediaUrl": "./content/episodes/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.f616.mp4",
     "audioUrl": "./content/episodes/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.f140.m4a",
@@ -98731,8 +97531,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-8-Interviewing-Native-English-Spea",
-    "number": "EP 08",
+    "id": "local-7-Interviewing-Native-English-Spea",
+    "number": "EP 07",
     "title": "Interviewing Native English Speakers on St. Patrick’s Day",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -98744,7 +97544,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/Interviewing%20Native%20English%20Speakers%20on%20St.%20Patrick%E2%80%99s%20Day.webp",
     "mediaUrl": "./content/episodes/Interviewing%20Native%20English%20Speakers%20on%20St.%20Patrick%E2%80%99s%20Day.f401.mp4",
     "audioUrl": "./content/episodes/Interviewing%20Native%20English%20Speakers%20on%20St.%20Patrick%E2%80%99s%20Day.f140-17.m4a",
@@ -100682,8 +99482,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-7-How-To-Order-Coffee-In-English",
-    "number": "EP 07",
+    "id": "local-6-How-To-Order-Coffee-In-English",
+    "number": "EP 06",
     "title": "How To Order Coffee In English",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -100695,7 +99495,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/How%20To%20Order%20Coffee%20In%20English.webp",
     "mediaUrl": "./content/episodes/How%20To%20Order%20Coffee%20In%20English.f401.mp4",
     "audioUrl": "./content/episodes/How%20To%20Order%20Coffee%20In%20English.f140-12.m4a",
@@ -102872,383 +101672,6 @@ export const LOCAL_EPISODES = [
             "text": "Bye",
             "key": "bye",
             "chip": "orange"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-6-Why-Adding-More-Is-Slowing-Your-",
-    "number": "EP 06",
-    "title": "Why Adding More Is Slowing Your Business Down",
-    "speaker": "待补讲者",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 4,
-    "durationSec": 97,
-    "durationLabel": "01:37",
-    "date": "2026/11/26",
-    "tags": [
-      "个人成长"
-    ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
-    "coverImage": "./content/episodes/Why%20Adding%20More%20Is%20Slowing%20Your%20Business%20Down.webp",
-    "mediaUrl": "./content/episodes/Why%20Adding%20More%20Is%20Slowing%20Your%20Business%20Down.f399.mp4",
-    "audioUrl": "./content/episodes/Why%20Adding%20More%20Is%20Slowing%20Your%20Business%20Down.f140-19.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "个人成长",
-    "skipRanges": [
-      [
-        88.53,
-        97.0
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.1,
-        "end": 6.3,
-        "speaker": "Speaker",
-        "en": "And then we had a meeting with Taki, whom he called the reducer.",
-        "ipa": "/ænd ðɛn wi hæd ə ˈmitɪŋ wɪð ˈtɑki, hum hi kɔld ðə rɪˈdusər./",
-        "zh": "然后我们和Taki进行了一次会面，他被称为“还原器”。",
-        "highlights": [
-          {
-            "text": "reducer",
-            "key": "reducer",
-            "chip": "orange"
-          },
-          {
-            "text": "had a meeting",
-            "key": "have a meeting",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 6.34,
-        "end": 12.5,
-        "speaker": "Speaker",
-        "en": "The whole premise of this meeting was so inspiring.",
-        "ipa": "/ðə hoʊl ˈprɛmɪs ʌv ðɪs ˈmitɪŋ wʌz soʊ ɪnˈspaɪərɪŋ./",
-        "zh": "这次会议的构想本身就极具启发性。",
-        "highlights": [
-          {
-            "text": "premise",
-            "key": "premise",
-            "chip": "orange"
-          },
-          {
-            "text": "inspiring",
-            "key": "inspiring",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 12.54,
-        "end": 17.75,
-        "speaker": "Speaker",
-        "en": "Reduced by Rick Rubin instead of produced by Rick Rubin.",
-        "ipa": "/rɪˈdust baɪ rɪk ˈrubɪn ɪnˈstɛd ʌv prəˈdust baɪ rɪk ˈrubɪn./",
-        "zh": "“由里克·鲁宾减少”而不是“由里克·鲁宾制作”。",
-        "highlights": [
-          {
-            "text": "instead of",
-            "key": "instead of",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 17.79,
-        "end": 23.27,
-        "speaker": "Speaker",
-        "en": "When a business grows and scales, it starts dropping things, it gets too heavy.",
-        "ipa": "/wɛn ə ˈbɪznəs groʊz ænd skeɪlz, ɪt stɑrts ˈdrɑpɪŋ θɪŋz, ɪt gɛts tu ˈhɛvi./",
-        "zh": "当企业发展壮大时，它就开始放弃一些东西，变得太沉重了。",
-        "highlights": [
-          {
-            "text": "grows and scales",
-            "key": "grow and scale",
-            "chip": "indigo"
-          },
-          {
-            "text": "dropping",
-            "key": "drop",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 23.31,
-        "end": 30.19,
-        "speaker": "Speaker",
-        "en": "And most people's typical reaction, right, is to add new things.",
-        "ipa": "/ænd moʊst ˈpipəlz ˈtɪpɪkəl riˈækʃən, raɪt, ɪz tu æd nu θɪŋz./",
-        "zh": "而大多数人的典型反应，就是去增添一些新的东西。",
-        "highlights": [
-          {
-            "text": "typical reaction",
-            "key": "typical reaction",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 30.23,
-        "end": 33.36,
-        "speaker": "Speaker",
-        "en": "We think, how can we make more money?",
-        "ipa": "/wi θɪŋk, haʊ kæn wi meɪk mɔr ˈmʌni? wɛl, wɪr ˈædɪŋ nu ˈprɑdʌkts./",
-        "zh": "我们认为，如何才能赚更多钱？",
-        "highlights": [
-          {
-            "text": "make more money",
-            "key": "make more money",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 33.4,
-        "end": 36.14,
-        "speaker": "Speaker",
-        "en": "Well, we're adding new products.",
-        "ipa": "",
-        "zh": "当然是通过增加新产品。",
-        "highlights": [
-          {
-            "text": "adding",
-            "key": "adding",
-            "chip": "pink"
-          },
-          {
-            "text": "products",
-            "key": "products",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 36.18,
-        "end": 37.63,
-        "speaker": "Speaker",
-        "en": "We're adding new customers.",
-        "ipa": "/wɪr ˈædɪŋ nu ˈkʌstəmərz. haʊ kæn wi meɪk ˈkʌstəmərz ˈhæpiər? wɛl, wi æd nu ˈfiʧərz ænd nu ˈprɑpərtiz./",
-        "zh": "我们增加新客户。",
-        "highlights": [
-          {
-            "text": "adding",
-            "key": "adding",
-            "chip": "pink"
-          },
-          {
-            "text": "customers",
-            "key": "customers",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 37.67,
-        "end": 39.51,
-        "speaker": "Speaker",
-        "en": "How can we make customers happier?",
-        "ipa": "",
-        "zh": "如何让客户更满意？",
-        "highlights": [
-          {
-            "text": "customers",
-            "key": "customers",
-            "chip": "orange"
-          },
-          {
-            "text": "happier",
-            "key": "happier",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 39.55,
-        "end": 42.04,
-        "speaker": "Speaker",
-        "en": "Well, we add new features and new properties.",
-        "ipa": "",
-        "zh": "嗯，我们添加新功能和新特性。",
-        "highlights": [
-          {
-            "text": "features",
-            "key": "feature",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 42.08,
-        "end": 47.89,
-        "speaker": "Speaker",
-        "en": "But the result is often a business that becomes way too heavy for the founder and for the team.",
-        "ipa": "/bʌt ðə rɪˈzʌt ɪz ˈɔfən ə ˈbɪznəs ðæt bɪˈkʌmz weɪ tu ˈhɛvi fɔr ðə ˈfaʊndər ænd fɔr ðə tim./",
-        "zh": "但其结果往往是一家企业，这会给创始人及团队带来过重的负担。",
-        "highlights": [
-          {
-            "text": "the result is often",
-            "key": "the result is often",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 47.93,
-        "end": 54.27,
-        "speaker": "Speaker",
-        "en": "And often the result is also too difficult for the customer themselves.",
-        "ipa": "/ænd ˈɔfən ðə rɪˈzʌt ɪz ˈɔlsoʊ tu ˈdɪfɪkəlt fɔr ðə ˈkʌstəmər ðəmˈsɛlvz./",
-        "zh": "而且往往结果对客户自身而言也很困难。",
-        "highlights": [
-          {
-            "text": "difficult for",
-            "key": "difficult for",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 54.31,
-        "end": 60.51,
-        "speaker": "Speaker",
-        "en": "So this meeting was kind of a strategic meeting using sticky notes to discuss with people in the room who have relevant experience.",
-        "ipa": "/soʊ ðɪs ˈmitɪŋ wʌz kaɪnd ʌv ə strəˈtiʤɪk ˈmitɪŋ ˈjuzɪŋ ˈstɪki noʊts tu dɪˈskʌs wɪð ˈpipəl ɪn ðə rum hu hæv ˈrɛləvənt ɪkˈspɪriəns./",
-        "zh": "所以这次会议是一种战略性的会议，使用便签与房间里有相关经验的人进行讨论。",
-        "highlights": [
-          {
-            "text": "strategic",
-            "key": "strategic",
-            "chip": "orange"
-          },
-          {
-            "text": "sticky notes",
-            "key": "sticky notes",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 60.55,
-        "end": 67.01,
-        "speaker": "Speaker",
-        "en": "To figure out what can be removed from the business to make it simpler and more efficient, instead of always just thinking about adding.",
-        "ipa": "/tu ˈfɪgər aʊt wʌt kæn bi riˈmuvd frʌm ðə ˈbɪznəs tu meɪk ɪt ˈsɪmpələr ænd mɔr ɪˈfɪʃənt, ɪnˈstɛd ʌv ˈɔlwɛz ʤʌst ˈθɪŋkɪŋ əˈbaʊt ˈædɪŋ./",
-        "zh": "了解可以从业务中移除什么使其更简单高效，而不是总是只想着“添加”。",
-        "highlights": [
-          {
-            "text": "figure out",
-            "key": "figure out",
-            "chip": "pink"
-          },
-          {
-            "text": "efficient",
-            "key": "efficient",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 67.05,
-        "end": 72.41,
-        "speaker": "Speaker",
-        "en": "Because there is a danger of going to such an event and getting a lot of ideas, wanting to add all of them to your business, and it gets even heavier.",
-        "ipa": "/bɪˈkɔz ðɛr ɪz ə ˈdeɪnʤər ʌv ˈgoʊɪŋ tu sʌʧ ən ɪˈvɛnt ænd ˈgɛtɪŋ ə lɑt ʌv aɪˈdiəz, ˈwɑntɪŋ tu æd ɔl ʌv ðɛm tu jʊər ˈbɪznəs, ænd ɪt gɛts ˈivən ˈhɛviər./",
-        "zh": "因为参加此类活动存在危险，这样你就会获得很多想法，想把它们全部添加到你的企业中，结果变得更重了。",
-        "highlights": [
-          {
-            "text": "danger of",
-            "key": "danger of",
-            "chip": "indigo"
-          },
-          {
-            "text": "a lot of ideas",
-            "key": "a lot of ideas",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 72.45,
-        "end": 78.97,
-        "speaker": "Speaker",
-        "en": "So the real skill is deciding which ones we just add a little bit or which ones we remove without harming everybody's business.",
-        "ipa": "/soʊ ðə riəl skɪl ɪz dɪˈsaɪdɪŋ wɪʧ wʌnz wi ʤʌst æd ə ˈlɪtəl bɪt ɔr wɪʧ wʌnz wi riˈmuvd wɪˈaʊt ˈhɑrmɪŋ ˈɛvribodiz ˈbɪznəs./",
-        "zh": "因此，真正的技能是决定哪些我们只需稍加添加，或者哪些我们将在不影响大家业务的情况下将其移除。",
-        "highlights": [
-          {
-            "text": "real skill",
-            "key": "real skill",
-            "chip": "indigo"
-          },
-          {
-            "text": "without harming",
-            "key": "without harming",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "start": 79.01,
-        "end": 85.05,
-        "speaker": "Speaker",
-        "en": "And if you watch this before the 21st of November, I'm doing a completely free masterclass teaching you how to launch your online business before Christmas.",
-        "ipa": "/ænd ɪf ju wɑʧ ðɪs bɪˈfɔr ðə ˈtwɛnti-fɪrst ʌv noʊˈvɛmbər, aɪm ˈduɪŋ ə kəmˈплиtli fri ˈmæstərˌklæs ˈtiʧɪŋ ju haʊ tu lɔnʧ jʊər ˈɑnˌlaɪn ˈbɪznəs bɪˈfɔr ˈkrɪsməs./",
-        "zh": "如果你在11月21日之前观看此片，我有一个完全免费的大师班，教你如何在圣诞节前启动你的在线业务。",
-        "highlights": [
-          {
-            "text": "masterclass",
-            "key": "masterclass",
-            "chip": "orange"
-          },
-          {
-            "text": "launch",
-            "key": "launch",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 85.09,
-        "end": 88.53,
-        "speaker": "Speaker",
-        "en": "To find your first high-paying clients until January, if this sounds interesting and you've always wanted to do this, but you lacked the implementation framework, more details of the masterclass can be found in the video description.",
-        "ipa": "/tu faɪnd jʊər fɜrst haɪ-ˈpeɪɪŋ ˈklaɪənts ʌnˈtɪl ˈʤænjuˌɛri, ɪf ðɪs saʊnds ˈɪntrəstɪŋ ænd juv ˈɔlwɛz ˈwɑntɪŋ tu du ðɪs, bʌt ju lækt ði ˈɪmpləmɛnˈteɪʃən ˈfreɪmˌwɜrk, mɔr ˈdɪteɪlz ʌv ðə ˈmæstərˌklæs kæn bi faʊnd ɪn ðə ˈvɪdioʊ dɪˈskrɪpʃən./",
-        "zh": "在一月份之前找到你的第一批高薪客户。如果这听起来很有趣，并且你一直都想做这件事，但缺乏实施框架，大师班的更多详细信息可在视频描述中找到。",
-        "highlights": [
-          {
-            "text": "high-paying clients",
-            "key": "high-paying clients",
-            "chip": "pink"
-          },
-          {
-            "text": "implementation framework",
-            "key": "implementation framework",
-            "chip": "indigo"
           }
         ]
       }

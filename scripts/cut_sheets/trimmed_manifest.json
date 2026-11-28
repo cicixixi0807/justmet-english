@@ -35,32 +35,6 @@
     {
       "sourceNumber": "EP 05",
       "sourceTitle": "Real Life ENGLISH Around the City",
-      "part": "part1",
-      "title": "Asheville 小镇漫步：糖果店与美式街头美食",
-      "videoFile": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇).trimmed.mp4",
-      "audioFile": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇).trimmed.m4a",
-      "coverFile": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇).jpg",
-      "polishedFile": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇).polished.json",
-      "durationSec": 557.74,
-      "windows": [
-        [
-          0.0,
-          37.68
-        ],
-        [
-          471.59,
-          768.21
-        ],
-        [
-          955.65,
-          1179.09
-        ]
-      ],
-      "date": "2026/11/26"
-    },
-    {
-      "sourceNumber": "EP 05",
-      "sourceTitle": "Real Life ENGLISH Around the City",
       "part": "part2",
       "title": "漫步美国市中心：街头艺人 Busking 与复古咖啡馆",
       "videoFile": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆).trimmed.mp4",
@@ -124,50 +98,6 @@
         [
           1397.26,
           1497.01
-        ]
-      ],
-      "date": "2026/11/26"
-    },
-    {
-      "sourceNumber": "EP 07",
-      "sourceTitle": "Speak American English Around Town",
-      "part": "part1",
-      "title": "美式社区日常漫步：街边停车、过马路与垃圾回收",
-      "videoFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).trimmed.mp4",
-      "audioFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).trimmed.m4a",
-      "coverFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).jpg",
-      "polishedFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).polished.json",
-      "durationSec": 506.54,
-      "windows": [
-        [
-          0.0,
-          53.56
-        ],
-        [
-          176.02,
-          629.0
-        ]
-      ],
-      "date": "2026/11/26"
-    },
-    {
-      "sourceNumber": "EP 07",
-      "sourceTitle": "Speak American English Around Town",
-      "part": "part2",
-      "title": "美国银行 Drive-thru 气动管道存款与邮局寄件",
-      "videoFile": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战).trimmed.mp4",
-      "audioFile": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战).trimmed.m4a",
-      "coverFile": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战).jpg",
-      "polishedFile": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战).polished.json",
-      "durationSec": 371.15,
-      "windows": [
-        [
-          880.87,
-          1105.89
-        ],
-        [
-          1194.52,
-          1340.65
         ]
       ],
       "date": "2026/11/26"
@@ -1187,6 +1117,189 @@
         ]
       ],
       "date": "2026/11/26"
+    },
+    {
+      "sourceNumber": "EP 16",
+      "sourceTitle": "Speak American English Around Town",
+      "part": "micro1",
+      "title": "免下车存款：美国银行 Drive-thru 气动管道实景",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "免下车存款：美国银行 Drive-thru 气动管道实景.micro.mp4",
+      "audioFile": "免下车存款：美国银行 Drive-thru 气动管道实景.micro.m4a",
+      "coverFile": "免下车存款：美国银行 Drive-thru 气动管道实景.jpg",
+      "polishedFile": "免下车存款：美国银行 Drive-thru 气动管道实景.polished.json",
+      "durationSec": 182.4,
+      "windows": [
+        [
+          42.57,
+          224.97
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 16",
+      "sourceTitle": "Speak American English Around Town",
+      "part": "micro2",
+      "title": "美国邮局外景打卡：给团队寄出当地手工巧克力",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "美国邮局外景打卡：给团队寄出当地手工巧克力.micro.mp4",
+      "audioFile": "美国邮局外景打卡：给团队寄出当地手工巧克力.micro.m4a",
+      "coverFile": "美国邮局外景打卡：给团队寄出当地手工巧克力.jpg",
+      "polishedFile": "美国邮局外景打卡：给团队寄出当地手工巧克力.polished.json",
+      "durationSec": 75.1,
+      "windows": [
+        [
+          225.07,
+          300.17
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 15",
+      "sourceTitle": "Speak American English Around Town",
+      "part": "micro3",
+      "title": "美式老街区散步：过马路、百年老宅与风铃",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "美式老街区散步：过马路、百年老宅与风铃.micro.mp4",
+      "audioFile": "美式老街区散步：过马路、百年老宅与风铃.micro.m4a",
+      "coverFile": "美式老街区散步：过马路、百年老宅与风铃.jpg",
+      "polishedFile": "美式老街区散步：过马路、百年老宅与风铃.polished.json",
+      "durationSec": 174.65,
+      "windows": [
+        [
+          53.61,
+          228.26
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 15",
+      "sourceTitle": "Speak American English Around Town",
+      "part": "micro4",
+      "title": "美国社区回收日：门前垃圾桶与横穿马路",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "美国社区回收日：门前垃圾桶与横穿马路.micro.mp4",
+      "audioFile": "美国社区回收日：门前垃圾桶与横穿马路.micro.m4a",
+      "coverFile": "美国社区回收日：门前垃圾桶与横穿马路.jpg",
+      "polishedFile": "美国社区回收日：门前垃圾桶与横穿马路.polished.json",
+      "durationSec": 74.92,
+      "windows": [
+        [
+          294.3,
+          369.22
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 15",
+      "sourceTitle": "Speak American English Around Town",
+      "part": "micro5",
+      "title": "Asheville 五角街区：过马路，走向 Greenway",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "Asheville 五角街区：过马路，走向 Greenway.micro.mp4",
+      "audioFile": "Asheville 五角街区：过马路，走向 Greenway.micro.m4a",
+      "coverFile": "Asheville 五角街区：过马路，走向 Greenway.jpg",
+      "polishedFile": "Asheville 五角街区：过马路，走向 Greenway.polished.json",
+      "durationSec": 136.56,
+      "windows": [
+        [
+          368.86,
+          505.42
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 11",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "micro6",
+      "title": "美国复古糖果店：盐水太妃糖与童年零食",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "美国复古糖果店：盐水太妃糖与童年零食.micro.mp4",
+      "audioFile": "美国复古糖果店：盐水太妃糖与童年零食.micro.m4a",
+      "coverFile": "美国复古糖果店：盐水太妃糖与童年零食.jpg",
+      "polishedFile": "美国复古糖果店：盐水太妃糖与童年零食.polished.json",
+      "durationSec": 184.78,
+      "windows": [
+        [
+          37.73,
+          222.51
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 11",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "micro7",
+      "title": "小镇伴手礼店：风铃、明信片与焦糖爆米花",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "小镇伴手礼店：风铃、明信片与焦糖爆米花.micro.mp4",
+      "audioFile": "小镇伴手礼店：风铃、明信片与焦糖爆米花.micro.m4a",
+      "coverFile": "小镇伴手礼店：风铃、明信片与焦糖爆米花.jpg",
+      "polishedFile": "小镇伴手礼店：风铃、明信片与焦糖爆米花.polished.json",
+      "durationSec": 71.32,
+      "windows": [
+        [
+          222.15,
+          293.47
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 11",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "micro8",
+      "title": "手工松露巧克力店：挑礼盒与甜品店趣事",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "手工松露巧克力店：挑礼盒与甜品店趣事.micro.mp4",
+      "audioFile": "手工松露巧克力店：挑礼盒与甜品店趣事.micro.m4a",
+      "coverFile": "手工松露巧克力店：挑礼盒与甜品店趣事.jpg",
+      "polishedFile": "手工松露巧克力店：挑礼盒与甜品店趣事.polished.json",
+      "durationSec": 119.12,
+      "windows": [
+        [
+          334.35,
+          453.47
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 11",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "micro9",
+      "title": "甜品柜台点单：问招牌、点焦糖布蕾与无现金刷卡",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "甜品柜台点单：问招牌、点焦糖布蕾与无现金刷卡.micro.mp4",
+      "audioFile": "甜品柜台点单：问招牌、点焦糖布蕾与无现金刷卡.micro.m4a",
+      "coverFile": "甜品柜台点单：问招牌、点焦糖布蕾与无现金刷卡.jpg",
+      "polishedFile": "甜品柜台点单：问招牌、点焦糖布蕾与无现金刷卡.polished.json",
+      "durationSec": 104.58,
+      "windows": [
+        [
+          453.11,
+          557.69
+        ]
+      ]
     }
+  ],
+  "delistedTitles": [
+    "Why Adding More Is Slowing Your Business Down"
   ]
 }

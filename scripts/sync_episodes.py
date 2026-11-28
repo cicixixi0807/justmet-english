@@ -658,12 +658,15 @@ def compute_effective_wpm(sentences, skip_ranges=None) -> float:
     return round((total_words / max(1.0, spoken_sec)) * 60.0, 1)
 
 
-def evaluate_difficulty_detail(title: str, source_title: str, speaker: str, tags, sentences, duration_sec: int, skip_ranges=None):
+def evaluate_difficulty_detail(title: str, source_title: str, speaker: str, tags, sentences, duration_sec: int, skip_ranges=None, tier_override: str = ""):
     """
     综合 5 维度（场景分档、时长、有效 WPM、字幕结构、抽象/学术/职场重点词）计算难度星级（1–5）。
     严格按规范：基准星（场景+时长） + 语速/重点词调整（合计限 ±1 星），并执行硬锁。
     """
-    tier, tier_reason, uncertain = classify_scene_tier(title, source_title, speaker, tags, sentences)
+    if tier_override in ("A", "B", "C"):
+        tier, tier_reason, uncertain = tier_override, f"指定{tier_override}档情景短课", False
+    else:
+        tier, tier_reason, uncertain = classify_scene_tier(title, source_title, speaker, tags, sentences)
     dur_min = float(duration_sec) / 60.0
 
     # 1) 基准星：场景 + 时长
@@ -724,8 +727,8 @@ def evaluate_difficulty_detail(title: str, source_title: str, speaker: str, tags
     }
 
 
-def infer_difficulty(title: str, sentences, duration_sec: int = 0, source_title: str = "", speaker: str = "", tags=None, skip_ranges=None):
-    return evaluate_difficulty_detail(title, source_title, speaker, tags, sentences, duration_sec, skip_ranges)["difficulty"]
+def infer_difficulty(title: str, sentences, duration_sec: int = 0, source_title: str = "", speaker: str = "", tags=None, skip_ranges=None, tier_override: str = ""):
+    return evaluate_difficulty_detail(title, source_title, speaker, tags, sentences, duration_sec, skip_ranges, tier_override=tier_override)["difficulty"]
 
 
 def format_duration(sec: float) -> str:
@@ -1155,16 +1158,18 @@ def scan_episodes(media_base_url: str):
     manifest_path = ROOT / "scripts" / "cut_sheets" / "trimmed_manifest.json"
     trimmed_manifest = None
     replaced_titles = set()
+    delisted_titles = set()
     if manifest_path.exists():
         try:
             trimmed_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
             replaced_titles = set(trimmed_manifest.get("replacesTitles") or [])
+            delisted_titles = set(trimmed_manifest.get("delistedTitles") or [])
         except Exception as exc:
             print(f"[warn] 读取 trimmed_manifest.json 失败: {exc}")
 
     for stem, files in ordered_groups:
-        # 若该超长集已由用户确认的 Part 1/Part 2 精编副本替代，则保留原文件不动，上架精编副本！
-        if stem in replaced_titles:
+        # 若该集已被用户确认的精编/短课副本替代，或确认下架（保留硬盘原片不删），则跳过原文件上架
+        if stem in replaced_titles or stem in delisted_titles:
             continue
         vid = next((f for f in files if f.suffix.lower() in VIDEO_EXTS), None)
         aud = next((f for f in files if f.suffix.lower() in AUDIO_EXTS), None)
@@ -1225,7 +1230,8 @@ def scan_episodes(media_base_url: str):
             ep_region = infer_region(ep_title + " " + src_title, ep_speaker, raw_sents)
             ep_tags = entry.get("tagsOverride") or infer_tags(ep_title, raw_sents)
             ep_diff = infer_difficulty(
-                ep_title, raw_sents, dur_sec, source_title=src_title, speaker=ep_speaker, tags=ep_tags, skip_ranges=skips
+                ep_title, raw_sents, dur_sec, source_title=src_title, speaker=ep_speaker, tags=ep_tags, skip_ranges=skips,
+                tier_override=entry.get("tierOverride") or "",
             )
             ep_date = entry.get("date") or datetime.fromtimestamp(v_file.stat().st_mtime).strftime("%Y/%m/%d")
             rel_prefix = media_base_url.rstrip("/") if media_base_url else "./content/episodes"

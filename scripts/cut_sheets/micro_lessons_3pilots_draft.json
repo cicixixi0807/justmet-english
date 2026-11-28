@@ -1,5 +1,5 @@
 {
-  "status": "REVISED_READONLY_DRAFT_AWAITING_APPROVAL",
+  "status": "APPROVED_AND_EXPORTED",
   "sourceMediaModified": false,
   "excludedTooShort": [
     {
@@ -150,7 +150,7 @@
       "endSec": 293.27,
       "estDurationSec": 70.92,
       "estDurationLabel": "01:11",
-      "newTitle": "小镇伴手礼店淘宝：风铃、明信片与焦糖爆米花",
+      "newTitle": "小镇伴手礼店：风铃、明信片与焦糖爆米花",
       "speaker": "Speak English With Vanessa",
       "oneThing": "逛同一家杂货店后半段：风铃、Asheville 明信片、白切达与焦糖爆米花，直到出门",
       "expectedTier": "A",
@@ -188,7 +188,7 @@
       "endSec": 557.49,
       "estDurationSec": 104.18,
       "estDurationLabel": "01:44",
-      "newTitle": "甜品柜台点单：问招牌、点曲奇与无现金刷卡",
+      "newTitle": "甜品柜台点单：问招牌、点焦糖布蕾与无现金刷卡",
       "speaker": "Speak English With Vanessa",
       "oneThing": "向店员询问最受欢迎的甜品，点曲奇和焦糖布蕾、无现金刷卡并靠窗入座",
       "expectedTier": "A",
