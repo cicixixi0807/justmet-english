@@ -55946,7 +55946,7 @@ export const LOCAL_EPISODES = [
   {
     "id": "local-18-trimmed-18-part2",
     "number": "EP 32",
-    "title": "美式商场淘宝：潮流服饰、游戏店与综合百货",
+    "title": "美式商场购物：潮流服饰、游戏店与综合百货",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
