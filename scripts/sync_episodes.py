@@ -77,7 +77,10 @@ SPEAKER_RULES = [
     ("Chris Fenning", ["chris fenning", "start any conversation the right way"]),
     ("Elizabeth Cox", ["elizabeth cox", "imposter syndrome"]),
     ("Bob the Canadian", ["bob the canadian", "daily routine in english by watching me act out", "learn english at a hotel", "hotel in canada"]),
-    ("Sydney Serena", ["sydney serena", "alone in new york", "alone but not lonely", "what i eat as a busy girl", "what i spend in a week", "it's sid", "it's syd"]),
+    ("Sydney Serena", [
+        "sydney serena", "alone in new york", "alone but not lonely", "what i eat as a busy girl",
+        "what i spend in a week", "it's sid", "it's syd", "productive & busy day", "natural korean makeup",
+    ]),
     ("Ariannita la Gringa", [
         "ariannita", "arianita", "la gringa", "lagringa", "liginga",
         "downtown vocabulary", "english lesson at the airport", "english phrases for ordering food",
@@ -87,7 +90,7 @@ SPEAKER_RULES = [
         "essential english for skiing", "st. patrick", "patrick’s day", "patrick's day",
         "what do you do for a living", "can you understand my friend", "chipotle", "cincinnati",
     ]),
-    ("Speak English With Vanessa", [
+    ("Vanessa", [
         "vanessa", "speakenglishwithvanessa", "daily life english", "grocery store vocabulary",
         "real life english around the city", "speak american english around town", "order pizza in english", "order food in english",
     ]),
@@ -1280,8 +1283,28 @@ def scan_episodes(media_base_url: str):
             episodes.append(ep)
             counter += 1
 
-    # 列表按最新上传优先展示（EP 32 在最前，EP 01 在最后，与 SayBreeze 一致）
+    # 列表按最新上传优先展示；若存在 catalog_order.json 则严格按审定顺序重编号并保留原内部 id 与错开日期
     episodes.reverse()
+    order_path = ROOT / "scripts" / "cut_sheets" / "catalog_order.json"
+    if order_path.exists():
+        try:
+            order_list = json.loads(order_path.read_text(encoding="utf-8"))
+            order_by_title = {item["title"]: (idx, item) for idx, item in enumerate(order_list)}
+            ordered = []
+            extras = []
+            for ep in episodes:
+                if ep["title"] in order_by_title:
+                    pos, cfg = order_by_title[ep["title"]]
+                    ep["id"] = cfg["id"]
+                    ep["number"] = cfg["newNumber"]
+                    ep["date"] = cfg["date"]
+                    ordered.append((pos, ep))
+                else:
+                    extras.append(ep)
+            ordered.sort(key=lambda x: x[0])
+            episodes = extras + [ep for _, ep in ordered]
+        except Exception as exc:
+            print(f"[warn] 应用 catalog_order.json 失败: {exc}")
 
     js_content = (
         "// 本文件由 scripts/sync_episodes.py 自动生成，请勿手工修改\n"
