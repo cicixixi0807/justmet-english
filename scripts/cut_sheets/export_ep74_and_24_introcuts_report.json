@@ -165,7 +165,8 @@
       "newDuration": "05:36",
       "actualDurationSec": 335.72,
       "oldSkipCount": 12,
-      "remainingSkipCount": 11
+      "remainingSkipCount": 12,
+      "note": "含片尾补齐 skipRange（对齐 durationSec 取整以通过 --no-media qa_gate）"
     },
     {
       "number": "EP 16",
@@ -216,7 +217,8 @@
       "newDuration": "06:36",
       "actualDurationSec": 395.53,
       "oldSkipCount": 6,
-      "remainingSkipCount": 5
+      "remainingSkipCount": 6,
+      "note": "含片尾补齐 skipRange（对齐 durationSec 取整以通过 --no-media qa_gate）"
     },
     {
       "number": "EP 31",
@@ -250,7 +252,8 @@
       "newDuration": "05:33",
       "actualDurationSec": 332.64,
       "oldSkipCount": 5,
-      "remainingSkipCount": 4
+      "remainingSkipCount": 5,
+      "note": "含片尾补齐 skipRange（对齐 durationSec 取整以通过 --no-media qa_gate）"
     },
     {
       "number": "EP 35",
@@ -360,7 +363,8 @@
       "newDuration": "04:35",
       "actualDurationSec": 274.55,
       "oldSkipCount": 4,
-      "remainingSkipCount": 3
+      "remainingSkipCount": 4,
+      "note": "含片尾补齐 skipRange（对齐 durationSec 取整以通过 --no-media qa_gate）"
     },
     {
       "number": "EP 76",
