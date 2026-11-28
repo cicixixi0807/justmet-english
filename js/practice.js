@@ -572,6 +572,11 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     if (shPlay) {
       shPlay.innerHTML = `<span class="shadow-circle-icon">${isPlaying ? '⏸' : '▶'}</span>`;
     }
+
+    const ttMpPlay = document.getElementById('tt-mp-play');
+    if (ttMpPlay) {
+      ttMpPlay.textContent = isPlaying ? '⏸ 暂停' : '▶ 播放';
+    }
   }
 
   function syncChromeUI() {
@@ -613,6 +618,12 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     }
     const railVocabBadge = document.getElementById('rail-vocab-badge');
     if (railVocabBadge) railVocabBadge.textContent = String(s.vocabBook.length);
+
+    const ttMpSpeed = document.getElementById('tt-mp-speed');
+    if (ttMpSpeed) ttMpSpeed.textContent = `${s.playbackRate}x`;
+    document.getElementById('tt-mp-shadow')?.classList.toggle('primary', mode === 'shadow');
+    document.getElementById('tt-mp-cloze')?.classList.toggle('primary', mode === 'cloze');
+    document.getElementById('tt-mp-dict')?.classList.toggle('primary', mode === 'dictation');
 
     const epLearned = document.getElementById('ep-mark-learned');
     if (epLearned) {
@@ -978,6 +989,16 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
       <div class="practice-shell">
         <div id="top-nav-slot"></div>
 
+        <!-- 移动端顶部精简栏（对照 04_screen_practice.png） -->
+        <div class="tt-mobile-practice-head">
+          <button class="tt-mp-back" id="tt-mp-back" title="返回课程列表">‹</button>
+          <div class="tt-mp-title">${escapeHtml(episode.speaker)}</div>
+          <div class="tt-mp-right">
+            <span class="tt-mp-dur">${episode.durationLabel}</span>
+            <button class="tt-mp-more-icon" id="tt-mp-more-top" title="全部学习工具">⋯</button>
+          </div>
+        </div>
+
         <div class="practice-top-collapse">
           <button class="collapse-nav-btn" id="toggle-top-nav" title="展开/收起顶部导航">
             ▼ 导航 / 返回英语自习室
@@ -1090,6 +1111,16 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
             </div>
           </div>
         </footer>
+
+        <!-- 移动端底部精简主控条（对照 04_screen_practice.png：播放 / 倍速 / 跟读 / 挖空 / 听写 + 更多全功能面板） -->
+        <div class="tt-mobile-practice-bar" id="tt-mobile-practice-bar">
+          <button class="tt-mp-pill primary" id="tt-mp-play">▶ 播放</button>
+          <button class="tt-mp-pill" id="tt-mp-speed">${s.playbackRate}x</button>
+          <button class="tt-mp-pill" id="tt-mp-shadow">跟读</button>
+          <button class="tt-mp-pill" id="tt-mp-cloze">挖空</button>
+          <button class="tt-mp-pill" id="tt-mp-dict">听写</button>
+          <button class="tt-mp-pill more" id="tt-mp-more">更多</button>
+        </div>
       </div>
     `;
 
@@ -1135,6 +1166,83 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     // Play controls
     document.getElementById('stage-play-btn')?.addEventListener('click', togglePlay);
     document.getElementById('ctl-play')?.addEventListener('click', togglePlay);
+    document.getElementById('tt-mp-back')?.addEventListener('click', () => {
+      stopPlayback();
+      navigate('#/library');
+    });
+    document.getElementById('tt-mp-play')?.addEventListener('click', togglePlay);
+    document.getElementById('tt-mp-speed')?.addEventListener('click', () => document.getElementById('ctl-speed')?.click());
+    document.getElementById('tt-mp-shadow')?.addEventListener('click', () => {
+      root.querySelector('.mode-tab[data-mode="shadow"]')?.click();
+    });
+    document.getElementById('tt-mp-cloze')?.addEventListener('click', () => {
+      root.querySelector('.mode-tab[data-mode="cloze"]')?.click();
+    });
+    document.getElementById('tt-mp-dict')?.addEventListener('click', () => {
+      root.querySelector('.mode-tab[data-mode="dictation"]')?.click();
+    });
+
+    const openMobileMoreSheet = () => {
+      const st = store.state;
+      const modalRoot = document.getElementById('modal-root');
+      if (!modalRoot) return;
+      const langLabel = langDisplay === 'both' ? '双语' : langDisplay === 'en' ? '仅 EN' : '仅 ZH';
+      modalRoot.innerHTML = `
+        <div class="modal-backdrop" id="tt-more-bg">
+          <div class="modal-card tt-more-sheet">
+            <div class="modal-header">
+              <h3>全部学习工具</h3>
+              <button class="icon-circle-sm" id="tt-more-close">✕</button>
+            </div>
+            <div class="modal-body">
+              <div class="tt-more-grid">
+                <button class="tt-more-item" data-trig="bilingual"><span>⇄</span><strong>${langLabel}切换</strong></button>
+                <button class="tt-more-item" data-trig="ctl-speed"><span>⚡</span><strong>倍速 (${st.playbackRate}x)</strong></button>
+                <button class="tt-more-item" data-trig="ctl-loop"><span>🔁</span><strong>循环 (${st.loopCount === 0 ? '∞' : st.loopCount + 'x'})</strong></button>
+                <button class="tt-more-item ${st.audioOnly ? 'active' : ''}" data-trig="audioOnly"><span>🎧</span><strong>纯音频</strong></button>
+                <button class="tt-more-item ${st.blindListening ? 'active' : ''}" data-trig="ctl-blind"><span>👁</span><strong>盲听遮罩</strong></button>
+                <button class="tt-more-item ${st.showIpa ? 'active' : ''}" data-trig="ctl-ipa"><span>🔤</span><strong>整句 IPA</strong></button>
+                <button class="tt-more-item ${st.autoContinue ? 'active' : ''}" data-trig="ctl-autocont"><span>▶</span><strong>${st.autoContinue ? '连播开' : '句停开'}</strong></button>
+                <button class="tt-more-item ${st.inVideoSubtitle ? 'active' : ''}" data-trig="ctl-subpos"><span>▤</span><strong>字幕位置</strong></button>
+                <button class="tt-more-item" data-trig="ctl-ab"><span>AB</span><strong>AB 复读</strong></button>
+                <button class="tt-more-item ${st.screenVocab ? 'active' : ''}" data-trig="ctl-screenvocab"><span>词</span><strong>屏词</strong></button>
+                <button class="tt-more-item" data-trig="ctl-pip"><span>❐</span><strong>小窗</strong></button>
+                <button class="tt-more-item" data-trig="ctl-full"><span>⛶</span><strong>全屏</strong></button>
+                <button class="tt-more-item" data-trig="ctl-font"><span>T+</span><strong>字号</strong></button>
+                <button class="tt-more-item" data-trig="ctl-theme"><span>🎨</span><strong>护眼主题</strong></button>
+                <button class="tt-more-item" data-trig="ctl-pdf"><span>🖨</span><strong>PDF 讲义</strong></button>
+                <button class="tt-more-item" data-trig="rail-keywords"><span>🔖</span><strong>重点词 (${allEpisodeKeywords.length})</strong></button>
+                <button class="tt-more-item" data-trig="rail-vocab"><span>📒</span><strong>生词本 (${st.vocabBook.length})</strong></button>
+                <button class="tt-more-item" data-trig="rail-catalog"><span>☰</span><strong>剧集目录</strong></button>
+                <button class="tt-more-item" data-trig="rail-learned"><span>✓</span><strong>标记已学</strong></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      const closeMore = () => { modalRoot.innerHTML = ''; };
+      document.getElementById('tt-more-close')?.addEventListener('click', closeMore);
+      document.getElementById('tt-more-bg')?.addEventListener('click', (e) => { if (e.target.id === 'tt-more-bg') closeMore(); });
+      modalRoot.querySelectorAll('[data-trig]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const trig = btn.dataset.trig;
+          closeMore();
+          if (trig === 'bilingual') {
+            root.querySelector('.mode-tab[data-mode="bilingual"]')?.click();
+          } else if (trig === 'audioOnly') {
+            store.set({ audioOnly: !store.state.audioOnly });
+            handleAudioOnlyModeChange();
+            refreshUI(false);
+            showToast(store.state.audioOnly ? '已开启纯音频模式 🎧' : '已切回视频画面');
+          } else {
+            document.getElementById(trig)?.click();
+          }
+        });
+      });
+    };
+
+    document.getElementById('tt-mp-more')?.addEventListener('click', openMobileMoreSheet);
+    document.getElementById('tt-mp-more-top')?.addEventListener('click', openMobileMoreSheet);
     document.getElementById('ctl-prev')?.addEventListener('click', () => playSentenceAt(Math.max(0, currentIdx - 1), true, true));
     document.getElementById('ctl-next')?.addEventListener('click', () => playSentenceAt(Math.min(episode.sentences.length - 1, currentIdx + 1), true, true));
     document.getElementById('dock-scrubber')?.addEventListener('input', (e) => {

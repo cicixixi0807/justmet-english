@@ -2262,3 +2262,592 @@ html[data-dark="true"] .blind-overlay {
     padding: 14px !important;
   }
 }
+
+
+/* ===== Justmet · TalkTalk Mobile Screens (01_enter / 02_studio / 03_courses / 04_practice) ===== */
+.tt-enter-mobile {
+  display: none;
+}
+
+.tt-avatar-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tt-gender-switch {
+  display: inline-flex;
+  background: #F3ECE5;
+  border-radius: 999px;
+  padding: 2px;
+  gap: 2px;
+}
+
+.tt-gender-btn {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #755E57;
+  transition: all 0.16s ease;
+}
+
+.tt-gender-btn.active {
+  background: #7A2D41;
+  color: #fff;
+}
+
+.tt-avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.tt-avatar-grid.compact {
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tt-avatar-item {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  padding: 3px;
+  border: 2.5px solid transparent;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(43, 31, 27, 0.06);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.tt-avatar-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.tt-avatar-item.selected {
+  border-color: #9E4762;
+  transform: scale(1.05);
+}
+
+.tt-enter-cta {
+  width: 100%;
+  padding: 14px 20px;
+  border-radius: 16px;
+  background: #7A2D41;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  box-shadow: 0 8px 20px rgba(122, 45, 65, 0.24);
+  transition: background 0.18s ease, transform 0.15s ease;
+}
+
+.tt-enter-cta:hover {
+  background: #652335;
+}
+
+/* Studio Page (02_screen_studio) */
+.tt-studio-page {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 20px 104px;
+}
+
+.tt-brand-overline {
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #8E7A72;
+  margin-bottom: 18px;
+}
+
+.tt-studio-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.tt-studio-avatar-ring {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  padding: 4px;
+  border: 2.5px solid #9E4762;
+  background: #fff;
+  margin-bottom: 14px;
+}
+
+.tt-studio-avatar-ring img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tt-studio-name {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  font-weight: 700;
+  color: #2B1F1B;
+  margin-bottom: 12px;
+}
+
+.tt-darcy-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #F6EFE6;
+  border: 1px solid #E5D7C6;
+  border-radius: 999px;
+  padding: 6px 16px 6px 8px;
+  font-size: 13px;
+  color: #4A3933;
+  font-weight: 500;
+}
+
+.tt-darcy-chip img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tt-section-label {
+  font-size: 12.5px;
+  color: #8E7A72;
+  margin-bottom: 10px;
+}
+
+.tt-continue-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid #EFE5DD;
+  border-radius: 20px;
+  padding: 14px;
+  box-shadow: 0 4px 16px rgba(43, 31, 27, 0.04);
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.tt-continue-thumb {
+  width: 62px;
+  height: 62px;
+  border-radius: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.tt-continue-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tt-continue-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.tt-continue-speaker {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 700;
+  color: #2B1F1B;
+}
+
+.tt-continue-sub {
+  font-size: 12.5px;
+  color: #755E57;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 3px 0 8px;
+}
+
+.tt-progress-track {
+  height: 5px;
+  border-radius: 999px;
+  background: #EFE5DD;
+  overflow: hidden;
+}
+
+.tt-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: #A95169;
+}
+
+.tt-studio-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.tt-stat-card {
+  background: #F6F1EB;
+  border: 1px solid #EDE4DC;
+  border-radius: 16px;
+  padding: 16px 8px;
+  text-align: center;
+}
+
+.tt-stat-val {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 700;
+  color: #7A2D41;
+}
+
+.tt-stat-lbl {
+  font-size: 12px;
+  color: #755E57;
+  margin-top: 4px;
+}
+
+.tt-studio-quick-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Mobile-only elements hidden on desktop */
+.tt-bottom-nav,
+.tt-mobile-courses-head,
+.tt-mobile-practice-head,
+.tt-mobile-practice-bar {
+  display: none;
+}
+
+/* More Tools Sheet */
+.tt-more-sheet {
+  max-width: 460px !important;
+}
+
+.tt-more-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.tt-more-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 11px 6px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  font-size: 12px;
+  color: var(--text);
+}
+
+.tt-more-item span {
+  font-size: 16px;
+}
+
+.tt-more-item strong {
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.tt-more-item.active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .tt-enter-desktop,
+  .tt-desktop-only-header {
+    display: none !important;
+  }
+
+  .tt-enter-mobile {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 20px 36px;
+    background: #FAF6F0;
+  }
+
+  .tt-enter-card {
+    width: 100%;
+    max-width: 390px;
+    text-align: center;
+  }
+
+  .tt-enter-logo {
+    width: 68px;
+    height: 68px;
+    border-radius: 18px;
+    margin: 0 auto 14px;
+    display: block;
+    object-fit: contain;
+  }
+
+  .tt-enter-title {
+    font-family: var(--font-serif);
+    font-size: 28px;
+    font-weight: 700;
+    color: #2B1F1B;
+    margin-bottom: 6px;
+  }
+
+  .tt-enter-sub {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    color: #7A2D41;
+    margin-bottom: 28px;
+  }
+
+  .tt-enter-form {
+    text-align: left;
+  }
+
+  .tt-field-label {
+    display: block;
+    font-size: 12.5px;
+    color: #755E57;
+    margin-bottom: 8px;
+  }
+
+  .tt-name-input {
+    width: 100%;
+    padding: 13px 16px;
+    border-radius: 14px;
+    border: 1px solid #E8DDD4;
+    background: #fff;
+    font-family: var(--font-serif);
+    font-size: 18px;
+    color: #2B1F1B;
+    margin-bottom: 22px;
+    outline: none;
+  }
+
+  .tt-name-input:focus {
+    border-color: #7A2D41;
+  }
+
+  .tt-enter-credit {
+    margin-top: 22px;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    color: #9C8A83;
+  }
+
+  /* Mobile Bottom Navigation (4 tabs) */
+  .tt-bottom-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1100;
+    background: rgba(250, 246, 240, 0.96);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-top: 1px solid #EAE0D8;
+    padding: 6px 8px calc(8px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .tt-bnav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    font-size: 11px;
+    color: #8E7A72;
+    font-weight: 500;
+  }
+
+  .tt-bnav-ic {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .tt-bnav-item.active {
+    color: #7A2D41;
+    font-weight: 700;
+  }
+
+  /* Mobile Courses Page (03_screen_courses) */
+  .tt-courses-page {
+    padding-bottom: 92px !important;
+  }
+
+  .tt-mobile-courses-head {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .tt-courses-title {
+    font-family: var(--font-serif);
+    font-size: 26px;
+    font-weight: 700;
+    color: #2B1F1B;
+  }
+
+  .tt-courses-page .library-hero,
+  .tt-courses-page .darcy-banner {
+    display: none !important;
+  }
+
+  .tt-courses-page .episode-grid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+
+  .tt-courses-page .episode-card {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    padding: 12px !important;
+    gap: 12px;
+    border-radius: 18px !important;
+    background: #fff !important;
+  }
+
+  .tt-courses-page .episode-thumb {
+    width: 62px !important;
+    height: 62px !important;
+    min-height: 62px !important;
+    border-radius: 14px !important;
+    flex-shrink: 0;
+  }
+
+  .tt-courses-page .episode-thumb-top,
+  .tt-courses-page .episode-thumb .stage-pill,
+  .tt-courses-page .tag-row,
+  .tt-courses-page .ep-progress-row {
+    display: none !important;
+  }
+
+  .tt-courses-page .episode-body {
+    padding: 0 !important;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .tt-courses-page .episode-title {
+    font-family: var(--font-serif);
+    font-size: 15px !important;
+    margin-bottom: 4px !important;
+  }
+
+  /* Mobile Practice Page (04_screen_practice) */
+  .tt-mobile-practice-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px 6px;
+    background: #FAF6F0;
+  }
+
+  .tt-mp-back {
+    font-size: 26px;
+    line-height: 1;
+    color: #2B1F1B;
+    padding: 2px 8px 2px 0;
+  }
+
+  .tt-mp-title {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B1F1B;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tt-mp-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .tt-mp-dur {
+    font-size: 12.5px;
+    color: #8E7A72;
+  }
+
+  .tt-mp-more-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #F3ECE5;
+    color: #2B1F1B;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+  }
+
+  .practice-shell .practice-top-collapse,
+  .practice-shell .tool-rail,
+  .practice-shell .ep-title-bar,
+  .practice-shell .practice-dock {
+    display: none !important;
+  }
+
+  .practice-shell {
+    padding-bottom: 76px;
+  }
+
+  .tt-mobile-practice-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1120;
+    background: rgba(250, 246, 240, 0.96);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-top: 1px solid #EAE0D8;
+    padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .tt-mp-pill {
+    flex: 1;
+    padding: 9px 6px;
+    border-radius: 999px;
+    background: #fff;
+    border: 1px solid #E6DCD4;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #2B1F1B;
+    white-space: nowrap;
+  }
+
+  .tt-mp-pill.primary {
+    flex: 1.35;
+    background: #7A2D41;
+    border-color: #7A2D41;
+    color: #fff;
+  }
+
+  .tt-mp-pill.more {
+    flex: 0.95;
+    background: #F3ECE5;
+  }
+}

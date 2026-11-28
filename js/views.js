@@ -1,6 +1,6 @@
 // Just Met 宇宙登录页、宇宙大厅、资料库详情页与素材导入弹窗
 import { LIBRARIES, DICTIONARY, UPSELL_PACKS, lookupWord } from './data.js';
-import { store, showToast } from './store.js';
+import { store, showToast, USER_AVATARS } from './store.js';
 
 function escapeHtml(str = '') {
   return String(str)
@@ -46,10 +46,79 @@ export function renderHeader(activeRoute) {
   `;
 }
 
-// 1. 全新设计的「刚认识不久 Just met 宇宙」登录 & 产品矩阵首页
+function renderMobileBottomNav(activeKey) {
+  return `
+    <nav class="tt-bottom-nav" aria-label="移动端底部导航">
+      <a class="tt-bnav-item ${activeKey === 'studio' ? 'active' : ''}" href="#/studio">
+        <span class="tt-bnav-ic">⌂</span>
+        <span>自习室</span>
+      </a>
+      <a class="tt-bnav-item ${activeKey === 'library' ? 'active' : ''}" href="#/library">
+        <span class="tt-bnav-ic">▤</span>
+        <span>课程</span>
+      </a>
+      <a class="tt-bnav-item ${activeKey === 'vocab' ? 'active' : ''}" href="#/vocab">
+        <span class="tt-bnav-ic">🔖</span>
+        <span>生词</span>
+      </a>
+      <a class="tt-bnav-item ${activeKey === 'membership' ? 'active' : ''}" href="#/membership">
+        <span class="tt-bnav-ic">☺</span>
+        <span>我的</span>
+      </a>
+    </nav>
+  `;
+}
+
+function getUserSafeAvatar() {
+  const av = store.state.user?.avatar;
+  return USER_AVATARS.includes(av) ? av : USER_AVATARS[1];
+}
+
+// 1. 登录 / 进场页（桌面端完整宇宙入口 + 移动端按 01_screen_enter 精简进场：写名字 + 按性别自动分配/任选 8 张原创头像）
 export function renderLoginPage(root, navigate) {
+  const FEMALE_AVATARS = USER_AVATARS.slice(0, 5);
+  const MALE_AVATARS = USER_AVATARS.slice(5, 8);
+  let selectedGender = 'female';
+  let selectedAvatar = getUserSafeAvatar();
+  if (MALE_AVATARS.includes(selectedAvatar)) selectedGender = 'male';
+
   root.innerHTML = `
-    <div class="login-shell">
+    <div class="tt-enter-mobile">
+      <div class="tt-enter-card">
+        <img class="tt-enter-logo" src="./assets/logo-256.png" alt="JM" />
+        <h1 class="tt-enter-title">Justmet · TalkTalk</h1>
+        <div class="tt-enter-sub">刚认识小屋 · 英语自习室</div>
+
+        <form id="tt-enter-form" class="tt-enter-form">
+          <label class="tt-field-label" for="tt-enter-name">写下你的名字</label>
+          <input class="tt-name-input" id="tt-enter-name" type="text" placeholder="Mila" value="${escapeHtml(store.state.user?.name || 'Mila')}" required />
+
+          <div class="tt-avatar-head">
+            <span class="tt-field-label" style="margin:0;">选择头像</span>
+            <div class="tt-gender-switch" role="group" aria-label="按性别自动分配头像">
+              <button type="button" class="tt-gender-btn ${selectedGender === 'female' ? 'active' : ''}" data-gender="female">女生</button>
+              <button type="button" class="tt-gender-btn ${selectedGender === 'male' ? 'active' : ''}" data-gender="male">男生</button>
+            </div>
+          </div>
+
+          <div class="tt-avatar-grid" id="tt-avatar-grid">
+            ${USER_AVATARS.map(
+              (src, idx) => `
+              <button type="button" class="tt-avatar-item ${src === selectedAvatar ? 'selected' : ''}" data-avatar="${src}" aria-label="头像 ${idx + 1}">
+                <img src="${src}" alt="用户头像 ${idx + 1}" />
+              </button>
+            `
+            ).join('')}
+          </div>
+
+          <button type="submit" class="tt-enter-cta">进入自习室</button>
+        </form>
+
+        <div class="tt-enter-credit">cici · Eddie</div>
+      </div>
+    </div>
+
+    <div class="login-shell tt-enter-desktop">
       <div class="login-topbar">
         <div class="brand-lockup">
           <img class="brand-icon" src="./assets/icon-192.png" alt="Just met logo" />
@@ -130,22 +199,36 @@ export function renderLoginPage(root, navigate) {
 
         <section class="auth-panel">
           <div class="auth-header">
-            <img src="./assets/icon-192.png" alt="JM" />
-            <h2>欢迎来到刚认识小屋</h2>
-            <p>登录同步你的英语自习进度、生词本与小屋通行证</p>
+            <img src="./assets/logo-256.png" alt="JM" />
+            <h2>Justmet · TalkTalk</h2>
+            <p>刚认识小屋 · 英语自习室</p>
           </div>
 
           <form id="login-form">
             <div class="form-group">
-              <label class="form-label" for="login-email">邮箱 / 手机号 / 昵称</label>
-              <input class="form-input" id="login-email" type="text" placeholder="例如：cici@justmet.studio" value="cici" required />
+              <label class="form-label" for="login-email">写下你的名字</label>
+              <input class="form-input" id="login-email" type="text" placeholder="Mila" value="${escapeHtml(store.state.user?.name || 'Mila')}" required />
             </div>
             <div class="form-group">
-              <label class="form-label" for="login-pass">密码</label>
-              <input class="form-input" id="login-pass" type="password" placeholder="输入密码（演示环境任意输入即可）" value="justmet2026" required />
+              <div class="tt-avatar-head" style="margin-bottom:8px;">
+                <label class="form-label" style="margin:0;">选择头像（按性别自动分配）</label>
+                <div class="tt-gender-switch">
+                  <button type="button" class="tt-gender-btn ${selectedGender === 'female' ? 'active' : ''}" data-gender="female">女生</button>
+                  <button type="button" class="tt-gender-btn ${selectedGender === 'male' ? 'active' : ''}" data-gender="male">男生</button>
+                </div>
+              </div>
+              <div class="tt-avatar-grid compact">
+                ${USER_AVATARS.map(
+                  (src, idx) => `
+                  <button type="button" class="tt-avatar-item ${src === selectedAvatar ? 'selected' : ''}" data-avatar="${src}" aria-label="头像 ${idx + 1}">
+                    <img src="${src}" alt="用户头像 ${idx + 1}" />
+                  </button>
+                `
+                ).join('')}
+              </div>
             </div>
-            <button type="submit" class="btn btn-primary" style="width:100%;padding:12px;margin-top:6px;">
-              登录并进入刚认识小屋
+            <button type="submit" class="tt-enter-cta" style="margin-top:6px;">
+              进入自习室
             </button>
           </form>
 
@@ -156,25 +239,56 @@ export function renderLoginPage(root, navigate) {
             <a class="btn btn-outline" href="https://justmet.pages.dev" target="_blank" rel="noopener">💌 玩恋综模拟器</a>
           </div>
 
-          <p style="text-align:center;font-size:12px;color:var(--muted);margin-top:18px;">
-            小屋管家 Darcy 提醒：学习进度与生词本将自动保存在本地浏览器中
+          <p style="text-align:center;font-size:12px;color:var(--muted);margin-top:16px;">
+            cici · Eddie · 学习进度与生词本将自动保存在本地浏览器中
           </p>
         </section>
       </main>
     </div>
   `;
 
-  const enterAs = (targetHash) => {
-    const emailVal = document.getElementById('login-email')?.value || 'Just Met 旅人';
+  const syncAvatarSelectionUI = () => {
+    root.querySelectorAll('.tt-avatar-item').forEach((btn) => {
+      btn.classList.toggle('selected', btn.dataset.avatar === selectedAvatar);
+    });
+    root.querySelectorAll('.tt-gender-btn').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.gender === selectedGender);
+    });
+  };
+
+  root.querySelectorAll('.tt-gender-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      selectedGender = btn.dataset.gender;
+      const pool = selectedGender === 'male' ? MALE_AVATARS : FEMALE_AVATARS;
+      const others = pool.filter((a) => a !== selectedAvatar);
+      selectedAvatar = others[Math.floor(Math.random() * others.length)] || pool[0];
+      syncAvatarSelectionUI();
+    });
+  });
+
+  root.querySelectorAll('.tt-avatar-item').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      selectedAvatar = btn.dataset.avatar;
+      selectedGender = MALE_AVATARS.includes(selectedAvatar) ? 'male' : 'female';
+      syncAvatarSelectionUI();
+    });
+  });
+
+  const enterAs = (targetHash, inputId = 'login-email') => {
+    const emailVal = document.getElementById(inputId)?.value || 'Mila';
     const name = emailVal.includes('@') ? emailVal.split('@')[0] : emailVal;
-    store.login({ name, email: emailVal });
-    showToast(`欢迎回到 Just met 宇宙，${name}`);
+    store.login({ name, email: emailVal, avatar: selectedAvatar });
+    showToast(`欢迎来到自习室，${name}`);
     navigate(targetHash);
   };
 
+  document.getElementById('tt-enter-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    enterAs('#/studio', 'tt-enter-name');
+  });
   document.getElementById('login-form').addEventListener('submit', (e) => {
     e.preventDefault();
-    enterAs('#/universe');
+    enterAs('#/studio', 'login-email');
   });
   document.getElementById('top-guest-enter').addEventListener('click', () => enterAs('#/library'));
   document.getElementById('card-enter-english').addEventListener('click', () => enterAs('#/library'));
@@ -183,6 +297,95 @@ export function renderLoginPage(root, navigate) {
     const firstId = LIBRARIES[0].episodes[0]?.id;
     enterAs(firstId ? `#/episode/${firstId}` : '#/library');
   });
+}
+
+// 1.5 专属自习室页面（严格对照 02_screen_studio.png）
+export function renderStudioPage(root, navigate) {
+  const lib = LIBRARIES[0];
+  const userName = store.state.user?.name || 'Mila';
+  const userAvatar = getUserSafeAvatar();
+  const progressMap = store.state.episodeProgress || {};
+  const startedEps = lib.episodes.filter((ep) => (progressMap[ep.id] || 0) > 0);
+  const resumeEp = startedEps[0] || lib.episodes[0];
+  const resumePct = Math.max(12, Math.round(progressMap[resumeEp?.id] || 35));
+  const learnedCount = Object.keys(store.state.learnedEpisodes || {}).length || Math.max(1, startedEps.length);
+
+  let studyMins = 28;
+  try {
+    const dRaw = JSON.parse(localStorage.getItem('justmet_darcy_companion_v1') || '{}');
+    if (dRaw.todaySec) studyMins = Math.max(1, Math.round(dRaw.todaySec / 60));
+  } catch {}
+
+  root.innerHTML = `
+    <div class="tt-desktop-only-header">${renderHeader('studio')}</div>
+    <main class="tt-studio-page">
+      <div class="tt-brand-overline">Justmet · TalkTalk</div>
+
+      <div class="tt-studio-hero">
+        <div class="tt-studio-avatar-ring">
+          <img src="${userAvatar}" alt="${escapeHtml(userName)}" />
+        </div>
+        <h1 class="tt-studio-name">${escapeHtml(userName)} 的自习室</h1>
+        <button class="tt-darcy-chip" id="studio-darcy-chip">
+          <img src="./assets/icon-dog-180.png" alt="Darcy" />
+          <span>小屋管家 Darcy 陪读中</span>
+        </button>
+      </div>
+
+      ${
+        resumeEp
+          ? `<section class="tt-studio-section">
+               <div class="tt-section-label">继续学习</div>
+               <article class="tt-continue-card" id="studio-continue-card" data-ep="${resumeEp.id}">
+                 <div class="tt-continue-thumb" style="background:${resumeEp.coverGradient};">
+                   ${resumeEp.coverImage ? `<img src="${resumeEp.coverImage}" alt="" />` : ''}
+                 </div>
+                 <div class="tt-continue-info">
+                   <div class="tt-continue-speaker">${escapeHtml(resumeEp.speaker)}</div>
+                   <div class="tt-continue-sub">${escapeHtml(resumeEp.title)} · ${resumeEp.durationLabel}</div>
+                   <div class="tt-progress-track"><div class="tt-progress-fill" style="width:${resumePct}%;"></div></div>
+                 </div>
+               </article>
+             </section>`
+          : ''
+      }
+
+      <section class="tt-studio-stats">
+        <button class="tt-stat-card" id="studio-stat-courses">
+          <div class="tt-stat-val">${learnedCount}</div>
+          <div class="tt-stat-lbl">本周课程</div>
+        </button>
+        <button class="tt-stat-card" id="studio-stat-mins">
+          <div class="tt-stat-val">${studyMins}</div>
+          <div class="tt-stat-lbl">学习分钟</div>
+        </button>
+        <button class="tt-stat-card" id="studio-stat-vocab">
+          <div class="tt-stat-val">${store.state.vocabBook.length}</div>
+          <div class="tt-stat-lbl">生词</div>
+        </button>
+      </section>
+
+      <div class="tt-studio-quick-links">
+        <button class="btn btn-outline" id="studio-go-courses" style="font-size:13px;">浏览全部 ${lib.episodes.length} 节课程 →</button>
+        <button class="btn btn-soft" id="studio-go-universe" style="font-size:13px;">🏠 小屋大厅</button>
+      </div>
+    </main>
+    ${renderMobileBottomNav('studio')}
+  `;
+
+  bindHeaderEvents(navigate);
+  document.getElementById('studio-darcy-chip')?.addEventListener('click', () => {
+    document.getElementById('darcy-fab-btn')?.click();
+  });
+  document.getElementById('studio-continue-card')?.addEventListener('click', (e) => {
+    const epId = e.currentTarget.dataset.ep;
+    if (epId) navigate(`#/episode/${epId}`);
+  });
+  document.getElementById('studio-stat-courses')?.addEventListener('click', () => navigate('#/library'));
+  document.getElementById('studio-stat-mins')?.addEventListener('click', () => document.getElementById('darcy-fab-btn')?.click());
+  document.getElementById('studio-stat-vocab')?.addEventListener('click', () => navigate('#/vocab'));
+  document.getElementById('studio-go-courses')?.addEventListener('click', () => navigate('#/library'));
+  document.getElementById('studio-go-universe')?.addEventListener('click', () => navigate('#/universe'));
 }
 
 // 2. 宇宙大厅页面
@@ -322,7 +525,11 @@ export function renderLibraryPage(root, navigate) {
 
     root.innerHTML = `
       ${renderHeader('library')}
-      <main class="page-container">
+      <main class="page-container tt-courses-page">
+        <div class="tt-mobile-courses-head">
+          <div class="tt-brand-overline">Justmet · TalkTalk</div>
+          <h1 class="tt-courses-title">英语自习室</h1>
+        </div>
         <section class="library-hero">
           <div class="library-cover" style="background:linear-gradient(145deg, #F6E3DE 0%, #E7B3A4 55%, #C86A5B 100%);">
             <div style="display:flex;align-items:center;justify-content:space-between;z-index:2;">
@@ -473,6 +680,7 @@ export function renderLibraryPage(root, navigate) {
             .join('')}
         </section>
       </main>
+      ${renderMobileBottomNav('library')}
     `;
 
     bindHeaderEvents(navigate);
@@ -823,6 +1031,7 @@ export function renderMembershipPage(root, navigate) {
           </div>
         </section>
       </main>
+      ${renderMobileBottomNav('library')}
     `;
 
     bindHeaderEvents(navigate);

@@ -1,6 +1,6 @@
 // Just Met 宇宙路由与应用启动入口
 import { store, applyThemeVars } from './store.js';
-import { renderLoginPage, renderUniverseHub, renderLibraryPage, renderVocabPage, renderMembershipPage } from './views.js';
+import { renderLoginPage, renderStudioPage, renderUniverseHub, renderLibraryPage, renderVocabPage, renderMembershipPage } from './views.js';
 import { renderPracticeWorkspace } from './practice.js';
 import { mountDarcyCompanion } from './darcy_companion.js';
 
@@ -28,6 +28,11 @@ function renderRoute() {
 
   if (hash === '#/login') {
     renderLoginPage(appRoot, navigate);
+    return;
+  }
+
+  if (hash === '#/studio') {
+    renderStudioPage(appRoot, navigate);
     return;
   }
 

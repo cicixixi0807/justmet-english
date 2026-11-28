@@ -1,6 +1,17 @@
 // 本地持久化状态管理（登录信息、学习进度、生词本、收藏句、评测记录、偏好设置）
 import { THEMES } from './data.js';
 
+export const USER_AVATARS = [
+  './assets/avatars/avatar_01.png',
+  './assets/avatars/avatar_02.png',
+  './assets/avatars/avatar_03.png',
+  './assets/avatars/avatar_04.png',
+  './assets/avatars/avatar_05.png',
+  './assets/avatars/avatar_06.png',
+  './assets/avatars/avatar_07.png',
+  './assets/avatars/avatar_08.png',
+];
+
 const STORAGE_KEY = 'justmet_universe_state_v1';
 
 const defaultState = {
@@ -66,12 +77,23 @@ class Store {
     this.notify();
   }
 
-  login({ name, email }) {
+  login({ name, email, avatar }) {
+    const safeAvatar = USER_AVATARS.includes(avatar) ? avatar : USER_AVATARS[1];
     this.state.user = {
-      name: name?.trim() || 'Just Met 旅人',
+      name: name?.trim() || 'Mila',
       email: email?.trim() || 'guest@justmet.universe',
-      avatar: './assets/hosts/darcy_round.webp'
+      avatar: safeAvatar
     };
+    this.notify();
+  }
+
+  updateProfile({ name, avatar }) {
+    if (!this.state.user) {
+      this.login({ name, avatar });
+      return;
+    }
+    if (name && name.trim()) this.state.user.name = name.trim();
+    if (avatar && USER_AVATARS.includes(avatar)) this.state.user.avatar = avatar;
     this.notify();
   }
 
