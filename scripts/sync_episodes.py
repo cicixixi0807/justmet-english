@@ -985,7 +985,21 @@ def scan_episodes(media_base_url: str):
         key=lambda kv: min(f.stat().st_mtime for f in kv[1]),
     )
 
+    # 0) 读取经用户确认并导出的方案 B 精编/拆集清单（scripts/cut_sheets/trimmed_manifest.json）
+    manifest_path = ROOT / "scripts" / "cut_sheets" / "trimmed_manifest.json"
+    trimmed_manifest = None
+    replaced_titles = set()
+    if manifest_path.exists():
+        try:
+            trimmed_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            replaced_titles = set(trimmed_manifest.get("replacesTitles") or [])
+        except Exception as exc:
+            print(f"[warn] 读取 trimmed_manifest.json 失败: {exc}")
+
     for stem, files in ordered_groups:
+        # 若该超长集已由用户确认的 Part 1/Part 2 精编副本替代，则保留原文件不动，上架精编副本！
+        if stem in replaced_titles:
+            continue
         vid = next((f for f in files if f.suffix.lower() in VIDEO_EXTS), None)
         aud = next((f for f in files if f.suffix.lower() in AUDIO_EXTS), None)
         # 跳过正在下载中的（只有字幕/封面还没有任何已完成音视频文件）
@@ -1010,9 +1024,54 @@ def scan_episodes(media_base_url: str):
             episodes.append(ep)
             counter += 1
 
-    # 2) 同时兼容 episodes/ 下的子文件夹模式
+    # 1.5) 上架经用户确认的方案 B 精编/拆集副本（content/episodes/trimmed/），原超长文件完好保留在硬盘
+    if trimmed_manifest:
+        trimmed_dir = EPISODES_DIR / "trimmed"
+        for entry in trimmed_manifest.get("entries", []):
+            v_file = trimmed_dir / entry["videoFile"]
+            a_file = trimmed_dir / entry["audioFile"]
+            c_file = trimmed_dir / entry["coverFile"]
+            p_file = trimmed_dir / entry["polishedFile"]
+            if not v_file.exists() or not a_file.exists() or not p_file.exists():
+                continue
+            raw_sents = json.loads(p_file.read_text(encoding="utf-8"))
+            for si in range(len(raw_sents) - 1):
+                if float(raw_sents[si]["end"]) > float(raw_sents[si + 1]["start"]):
+                    raw_sents[si]["end"] = round(float(raw_sents[si + 1]["start"]), 2)
+            dur = probe_audio_duration(a_file) or float(entry.get("durationSec") or 0)
+            exact_dur = round(float(dur), 2)
+            dur_sec = int(round(exact_dur))
+            skips = build_skip_ranges(raw_sents, max(exact_dur, float(dur_sec)), [])
+            rel_prefix = media_base_url.rstrip("/") if media_base_url else "./content/episodes"
+            sub_path = f"{rel_prefix}/trimmed"
+            slug = re.sub(r"[^a-zA-Z0-9_-]+", "-", entry["title"]).strip("-")[:32] or f"trimmed-{counter}"
+            part_suffix = entry.get("part", f"p{counter}")
+            episodes.append({
+                "id": f"local-{counter}-{slug}-{part_suffix}",
+                "number": f"EP {counter:02d}",
+                "title": entry["title"],
+                "speaker": entry["speaker"],
+                "speakerAvatar": "./assets/hosts/cici_round.webp",
+                "region": entry["region"],
+                "difficulty": int(entry["difficulty"]),
+                "durationSec": dur_sec,
+                "durationLabel": format_duration(dur_sec),
+                "date": datetime.now().strftime("%Y/%m/%d"),
+                "tags": entry["tags"],
+                "coverGradient": COVER_GRADIENTS[(counter - 1) % len(COVER_GRADIENTS)],
+                "coverImage": f"{sub_path}/{quote(c_file.name)}" if c_file.exists() else "",
+                "mediaUrl": f"{sub_path}/{quote(v_file.name)}",
+                "audioUrl": f"{sub_path}/{quote(a_file.name)}",
+                "mediaKind": "video",
+                "sceneBadge": entry["sceneBadge"],
+                "skipRanges": skips,
+                "sentences": raw_sents,
+            })
+            counter += 1
+
+    # 2) 同时兼容 episodes/ 下的子文件夹模式（排除 trimmed 副本目录）
     folders = sorted(
-        [p for p in EPISODES_DIR.iterdir() if p.is_dir() and not p.name.startswith(("_", "."))],
+        [p for p in EPISODES_DIR.iterdir() if p.is_dir() and not p.name.startswith(("_", ".")) and p.name != "trimmed"],
         key=lambda p: p.name.lower(),
     )
     for folder in folders:

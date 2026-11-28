@@ -1,0 +1,198 @@
+{
+  "scheme": "Option B - Version 2 (Part 1 / Part 2 splits for 3 samples)",
+  "replacesTitles": [
+    "Real Life ENGLISH Around the City",
+    "Order FOOD in English： Daily Life English",
+    "Speak American English Around Town"
+  ],
+  "entries": [
+    {
+      "sourceNumber": "EP 05",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "part1",
+      "title": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 3,
+      "tags": [
+        "旅行",
+        "日常对话",
+        "生活英语"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇).trimmed.mp4",
+      "audioFile": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇).trimmed.m4a",
+      "coverFile": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇).jpg",
+      "polishedFile": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇).polished.json",
+      "durationSec": 557.74,
+      "windows": [
+        [
+          0.0,
+          37.68
+        ],
+        [
+          471.59,
+          768.21
+        ],
+        [
+          955.65,
+          1179.09
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 05",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "part2",
+      "title": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 3,
+      "tags": [
+        "旅行",
+        "日常对话",
+        "生活英语"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆).trimmed.mp4",
+      "audioFile": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆).trimmed.m4a",
+      "coverFile": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆).jpg",
+      "polishedFile": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆).polished.json",
+      "durationSec": 483.68,
+      "windows": [
+        [
+          1243.13,
+          1706.6
+        ],
+        [
+          1852.18,
+          1872.39
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 04",
+      "sourceTitle": "Order FOOD in English： Daily Life English",
+      "part": "part1",
+      "title": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料).trimmed.mp4",
+      "audioFile": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料).trimmed.m4a",
+      "coverFile": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料).jpg",
+      "polishedFile": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料).polished.json",
+      "durationSec": 440.83,
+      "windows": [
+        [
+          0.0,
+          51.98
+        ],
+        [
+          151.14,
+          539.99
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 04",
+      "sourceTitle": "Order FOOD in English： Daily Life English",
+      "part": "part2",
+      "title": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "美食",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则).trimmed.mp4",
+      "audioFile": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则).trimmed.m4a",
+      "coverFile": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则).jpg",
+      "polishedFile": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则).polished.json",
+      "durationSec": 375.18,
+      "windows": [
+        [
+          598.02,
+          766.31
+        ],
+        [
+          1113.05,
+          1220.19
+        ],
+        [
+          1397.26,
+          1497.01
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 07",
+      "sourceTitle": "Speak American English Around Town",
+      "part": "part1",
+      "title": "Speak American English Around Town (Part 1：美式社区漫步与日常设施)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "个人成长",
+        "日常对话",
+        "生活英语"
+      ],
+      "sceneBadge": "个人成长",
+      "videoFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).trimmed.mp4",
+      "audioFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).trimmed.m4a",
+      "coverFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).jpg",
+      "polishedFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).polished.json",
+      "durationSec": 602.05,
+      "windows": [
+        [
+          0.0,
+          53.56
+        ],
+        [
+          176.02,
+          724.51
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 07",
+      "sourceTitle": "Speak American English Around Town",
+      "part": "part2",
+      "title": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 4,
+      "tags": [
+        "个人成长",
+        "日常对话",
+        "生活英语"
+      ],
+      "sceneBadge": "个人成长",
+      "videoFile": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战).trimmed.mp4",
+      "audioFile": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战).trimmed.m4a",
+      "coverFile": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战).jpg",
+      "polishedFile": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战).polished.json",
+      "durationSec": 371.15,
+      "windows": [
+        [
+          880.87,
+          1105.89
+        ],
+        [
+          1194.52,
+          1340.65
+        ]
+      ]
+    }
+  ]
+}
