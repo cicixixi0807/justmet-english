@@ -8,8 +8,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 807,
-    "durationLabel": "13:27",
+    "durationSec": 805,
+    "durationLabel": "13:25",
     "date": "2026/11/28",
     "tags": [
       "旅行",
@@ -36,11 +36,11 @@ export const LOCAL_EPISODES = [
         124.2
       ],
       [
-        154.52,
+        154.47,
         162.36
       ],
       [
-        189.8,
+        189.75,
         191.52
       ],
       [
@@ -48,19 +48,19 @@ export const LOCAL_EPISODES = [
         328.48
       ],
       [
-        332.84,
-        336.24
+        332.79,
+        336.28
       ],
       [
-        537.25,
+        537.2,
         554.44
       ],
       [
-        656.47,
+        656.42,
         659.35
       ],
       [
-        756.83,
+        756.78,
         759.48
       ],
       [
@@ -471,7 +471,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 25,
         "start": 142.52,
-        "end": 154.52,
+        "end": 154.47,
         "speaker": "Speaker",
         "en": "Cute, 12 reps is the goal and one.",
         "ipa": "/kyut twɛlv rɛps ɪz ðə ɡoʊl ænd wʌn/",
@@ -581,7 +581,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 32,
         "start": 177.8,
-        "end": 189.8,
+        "end": 189.75,
         "speaker": "Speaker",
         "en": "Yeah, my legs are jelly.",
         "ipa": "/jɛæ maɪ lɛɡz ɑr ˈdʒɛli/",
@@ -1072,7 +1072,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 61,
         "start": 317.4,
-        "end": 332.84,
+        "end": 332.79,
         "speaker": "Speaker",
         "en": "It fits so well in this corner.",
         "ipa": "/ɪn ðɪs ˈkɔrnər./",
@@ -1846,7 +1846,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 105,
         "start": 514.75,
-        "end": 537.25,
+        "end": 537.2,
         "speaker": "Speaker",
         "en": "Like, I've been out here like five times and every time I just, I don't know, I'm just it's a lot of effort to go out.",
         "ipa": "/aɪ dʒʌst aɪ doʊnt noʊ aɪm dʒʌst ɪts ə lɑːt ʌv ˈɛfərt tuː goʊ aʊt/",
@@ -2200,7 +2200,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 124,
         "start": 644.47,
-        "end": 656.47,
+        "end": 656.42,
         "speaker": "Speaker",
         "en": "Oh, I should take out the trash.",
         "ipa": "/ʃʊd teɪk aʊt ðə træʃ ðɪs ɪz wʌt aɪ/",
@@ -2468,7 +2468,7 @@ export const LOCAL_EPISODES = [
         "start": 709.55,
         "end": 723.04,
         "speaker": "Speaker",
-        "en": "Like I truly can't even like articulate to you guys what I've seen. I've seen some things that I probably don't want to see. I saw This couple was arguing, like, really; they were really going at it with each other, and I... was obviously intrigued.",
+        "en": "Like I truly can't even like articulate to you guys what I've seen. I've seen some things that I probably don't want to see. I saw This couple was arguing, like, really; they were really going at it with each other, and I was obviously intrigued.",
         "ipa": "/sin aɪv sin sʌm θɪŋz ðæt aɪ ˈpɑbəbli doʊnt wɑnt tu si aɪ sɔ ðɪs ˈkʌpəl wəz ˈɑːrɡjuɪŋ, laɪk, ˈrɪli; ðeɪ wər ˈrɪli ˈɡoʊɪŋ æt ɪt wɪð iːtʃ ˈʌðər, ænd aɪ... wəz ˈɑːbviəsli ɪnˈtriːɡd. laɪk, aɪ duː laɪk ˈwɑːtʃɪŋ ðə ˈdrɑːmə; aɪ doʊnt laɪk ˈbiːɪŋ.../",
         "zh": "真的，我都无法向你们准确形容我都看到了什么。我确实看过一些我可能根本不想看到的东西，我看到过这对情侣在吵架，是真的在吵，他们吵得不可开交，而我显然被吸引住了。",
         "highlights": [
@@ -2494,7 +2494,7 @@ export const LOCAL_EPISODES = [
         "start": 723.08,
         "end": 729.04,
         "speaker": "Speaker",
-        "en": "Like, I do like watching the drama; I don't like being... in drama, but I'll, like, I'll watch it if it's there.",
+        "en": "Like, I do like watching the drama; I don't like being in drama, but I'll, like, I'll watch it if it's there.",
         "ipa": "/ɪn ˈdrɑːmə, bʌt aɪl, laɪk, aɪl ˈwɑːtʃ ɪt ɪf ɪts ðer. aɪ wəz kənˈfjuːzd bɪˈkəz ˈæftər.../",
         "zh": "我是说，我确实喜欢看戏，我不喜欢身处是非之中，但如果碰上了我还是会看。",
         "highlights": [
@@ -2508,9 +2508,9 @@ export const LOCAL_EPISODES = [
       {
         "id": 142,
         "start": 729.08,
-        "end": 756.83,
+        "end": 756.78,
         "speaker": "Speaker",
-        "en": "I was confused because after... the whole argument happened, they, like, resumed normally, and then I saw him... holding a script, so I think it was all... fake, like, I really don't... know.",
+        "en": "I was confused because after the whole argument happened, they, like, resumed normally, and then I saw him holding a script, so I think it was all fake, like, I really don't know.",
         "ipa": "/ðə hoʊl ˈɑːrɡjəmənt ˈhæpənd, ðeɪ, laɪk, rɪˈzuːmd ˈnɔːrməli, ænd ðen aɪ sɔː hɪm... ˈhoʊldɪŋ ə skrɪpt, soʊ aɪ θɪŋk ɪt wəz ɔːl... feɪk, laɪk, aɪ ˈrɪli doʊnt... noʊ./",
         "zh": "我当时很困惑，因为在整场争吵结束后，他们就像没事人一样恢复了正常，然后我看到他拿着剧本，所以我认为这一切都是演出来的，我是说，我真的不知道该怎么说。",
         "highlights": [
@@ -2572,7 +2572,7 @@ export const LOCAL_EPISODES = [
         "start": 766.72,
         "end": 776.83,
         "speaker": "Speaker",
-        "en": "I'm filming right now, still... but, oh, hello, entertaining... and crazy.",
+        "en": "I'm filming right now, still but, oh, hello, entertaining and crazy.",
         "ipa": "/bʌt, oʊ, həˈloʊ, ˌentərˈteɪnɪŋ... ænd ˈkreɪzi. oʊ jæ, haʊd juː ɡet ðæt? aɪm ˈɡoʊɪŋ tuː ɡoʊ tuː bed naʊ; ɪts ˈmɪdnaɪt. aɪ.../",
         "zh": "我还在拍视频呢但是，哦，你好，真有意思而且很疯狂。",
         "highlights": [
@@ -2625,7 +2625,7 @@ export const LOCAL_EPISODES = [
         "start": 781.3,
         "end": 782.55,
         "speaker": "Speaker",
-        "en": "I... love you guys.",
+        "en": "I love you guys.",
         "ipa": "/lʌv juː ɡaɪz. θæŋk juː soʊ mʌtʃ fɔːr ˈwɑːtʃɪŋ, ænd aɪl siː juː ɪn maɪ nekst.../",
         "zh": "我爱你们。",
         "highlights": []
@@ -2635,7 +2635,7 @@ export const LOCAL_EPISODES = [
         "start": 782.59,
         "end": 788.52,
         "speaker": "Speaker",
-        "en": "Thank you so much for watching, and I'll see you in my next... vlog.",
+        "en": "Thank you so much for watching, and I'll see you in my next vlog.",
         "ipa": "/vlɑːɡ. baɪ.../",
         "zh": "非常感谢大家的观看，我们下个视频见Vlog见。",
         "highlights": [
@@ -2666,8 +2666,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 954,
-    "durationLabel": "15:54",
+    "durationSec": 963,
+    "durationLabel": "16:03",
     "date": "2026/11/28",
     "tags": [
       "美食",
@@ -2694,7 +2694,7 @@ export const LOCAL_EPISODES = [
         103.72
       ],
       [
-        147.79,
+        147.74,
         149.2
       ],
       [
@@ -2702,7 +2702,7 @@ export const LOCAL_EPISODES = [
         202.08
       ],
       [
-        339.21,
+        339.16,
         348.0
       ],
       [
@@ -2730,7 +2730,7 @@ export const LOCAL_EPISODES = [
         724.56
       ],
       [
-        736.56,
+        736.51,
         738.8
       ],
       [
@@ -2740,6 +2740,10 @@ export const LOCAL_EPISODES = [
       [
         877.7,
         885.12
+      ],
+      [
+        953.68,
+        963.0
       ]
     ],
     "sentences": [
@@ -3273,7 +3277,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 33,
         "start": 135.79,
-        "end": 147.79,
+        "end": 147.74,
         "speaker": "Speaker",
         "en": "It is a A little bit chilly.",
         "ipa": "/ɪt ɪz ə ə ˈlɪtəl bɪt ˈtʃɪli./",
@@ -4576,7 +4580,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 120,
         "start": 327.21,
-        "end": 339.21,
+        "end": 339.16,
         "speaker": "Speaker",
         "en": "This is the secret ingredient in my smoothies, the cacao nibs.",
         "ipa": "/ðɪs ɪz ðə ˈsikrət ɪnˈgridiənt ɪn maɪ ˈsmuðiz ðə kəˈkaʊ nɪbz/",
@@ -6763,7 +6767,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 253,
         "start": 724.56,
-        "end": 736.56,
+        "end": 736.51,
         "speaker": "Speaker",
         "en": "Can I get the iced protein latte with sugar-free vanilla?",
         "ipa": "/kæn aɪ gɛt ði aɪst ˈproʊtiːn ˈlɑti wɪð ˈʃʊgər-fri vəˈnɪlə/",
@@ -8150,8 +8154,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 612,
-    "durationLabel": "10:12",
+    "durationSec": 620,
+    "durationLabel": "10:20",
     "date": "2026/11/28",
     "tags": [
       "生活英语",
@@ -8165,35 +8169,39 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "生活英语",
     "skipRanges": [
       [
-        12.0,
+        11.95,
         12.97
       ],
       [
-        54.59,
+        54.54,
         55.0
       ],
       [
-        106.89,
+        106.84,
         115.68
       ],
       [
-        190.39,
+        190.34,
         193.56
       ],
       [
-        286.24,
+        286.19,
         290.72
       ],
       [
-        347.48,
+        347.43,
         353.08
+      ],
+      [
+        611.92,
+        620.0
       ]
     ],
     "sentences": [
       {
         "id": 1,
         "start": 0.0,
-        "end": 12.0,
+        "end": 11.95,
         "speaker": "Speaker",
         "en": "Good morning, guys.",
         "ipa": "/ɡʊd ˈmɔːrnɪŋ ɡaɪz/",
@@ -8305,7 +8313,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 8,
         "start": 32.84,
-        "end": 54.59,
+        "end": 54.54,
         "speaker": "Speaker",
         "en": "I actually have literally nothing planned, but I thought that that would be more fun and more spontaneous to just frolic around New York together.",
         "ipa": "/aɪ ˈækʧuəli hæv ˈlɪtərəli ˈnʌθɪŋ plænd bʌt aɪ θɔt ðæt ðæt wʊd bi mɔr fʌn ænd mɔr spɑnˈteɪniəs tu ʤʌst ˈfrɑlɪk əˈraʊnd nu jɔrk təˈɡɛðər/",
@@ -8630,7 +8638,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 28,
         "start": 92.64,
-        "end": 106.89,
+        "end": 106.84,
         "speaker": "Speaker",
         "en": "Now that I'm here, I feel like I need to go solely for nostalgic purposes.",
         "ipa": "/naʊ ðæt aɪm hir aɪ fil laɪk aɪ nid tu ɡoʊ ˈsoʊli fɔr nəˈstælʤɪk ˈpɜrpəsɪz/",
@@ -8997,7 +9005,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 50,
         "start": 178.39,
-        "end": 190.39,
+        "end": 190.34,
         "speaker": "Speaker",
         "en": "Something about me, I'm always going to pick the electric bike.",
         "ipa": "/ˈsʌmθɪŋ əˈbaʊt mi aɪm ˈɔlweɪz ˈɡoʊɪŋ tu pɪk ðə ɪˈlɛktrɪk baɪk/",
@@ -9358,7 +9366,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 71,
         "start": 274.24,
-        "end": 286.24,
+        "end": 286.19,
         "speaker": "Speaker",
         "en": "I just like hit the tarp.",
         "ipa": "/aɪ ʤʌst laɪk hɪt ðə tɑrp./",
@@ -9650,7 +9658,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 88,
         "start": 335.48,
-        "end": 347.48,
+        "end": 347.43,
         "speaker": "Speaker",
         "en": "Okay, all that golf worked up an appetite I guess.",
         "ipa": "/oʊˈkeɪ, ɔl ðæt gɑlf wɜrkt ʌp ən ˈæpəˌtaɪt aɪ gɛs./",
@@ -11330,8 +11338,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 743,
-    "durationLabel": "12:23",
+    "durationSec": 742,
+    "durationLabel": "12:22",
     "date": "2026/11/28",
     "tags": [
       "生活英语",
@@ -11353,7 +11361,7 @@ export const LOCAL_EPISODES = [
         193.12
       ],
       [
-        305.7,
+        305.65,
         325.4
       ],
       [
@@ -12580,7 +12588,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 77,
         "start": 290.7,
-        "end": 305.7,
+        "end": 305.65,
         "speaker": "Speaker",
         "en": "There's a specific feeling that you get in a bookstore that you don't get anywhere else.",
         "ipa": "/ɪn ə ˈbʊkˌstɔr ðæt ju doʊnt ɡɛt ˈɛniˌwɛr ɛls./",
@@ -13663,7 +13671,7 @@ export const LOCAL_EPISODES = [
         "start": 560.96,
         "end": 574.0,
         "speaker": "Speaker",
-        "en": "Some of you guys saw this a few vlogs ago; I basically asked you guys where you... would prefer me to like have a giveaway, if I should do it on TikTok, Instagram... YouTube, and most of you guys said YouTube; that's why I'm doing it on here.",
+        "en": "Some of you guys saw this a few vlogs ago; I basically asked you guys where you would prefer me to like have a giveaway, if I should do it on TikTok, Instagram... YouTube, and most of you guys said YouTube; that's why I'm doing it on here.",
         "ipa": "/sʌm əv ju gaɪz sɔ ðɪs ə fju vlɑgz əˈgoʊ; aɪ ˈbeɪsɪkli æskt ju gaɪz wɛr ju... wʊd prɪˈfɜr mi tu laɪk hæv ə ˈgɪvəˌweɪ, ɪf aɪ ʃʊd du ɪt ɑn tɪkˌtɑk, ˈɪnstəˌgræm... ˈjuˌtub, ænd moʊst əv ju gaɪz sɛd ˈjuˌtub; ðæts waɪ aɪm ˈduɪŋ ɪt ɑn hir./",
         "zh": "你们有些人几期视频前就看到了，我当时问你们更希望我在哪里做抽奖，是TikTok、Instagram还是YouTube，你们大多数人选了YouTube，所以我才决定在这里做。",
         "highlights": [
@@ -13721,7 +13729,7 @@ export const LOCAL_EPISODES = [
         "start": 580.16,
         "end": 584.94,
         "speaker": "Speaker",
-        "en": "I just have a few things that I wanted to give to you guys because you guys truly... mean the world to me.",
+        "en": "I just have a few things that I wanted to give to you guys because you guys truly mean the world to me.",
         "ipa": "/aɪ ʤʌst hæv ə fju θɪŋz ðæt aɪ ˈwɑntɪd tu gɪv tu ju gaɪz bɪˈkəz ju gaɪz ˈtruli... min ðə wɜrld tu mi. aɪ kænt ˈivɪn laɪk ɪkˈsprɛs haʊ mʌʧ ju gaɪz min tu mi./",
         "zh": "我只是有一些东西想送给你们，因为你们真的对我意义重大。",
         "highlights": [
@@ -13763,7 +13771,7 @@ export const LOCAL_EPISODES = [
         "start": 588.2,
         "end": 592.24,
         "speaker": "Speaker",
-        "en": "So this is just a little thank you, and I'm so excited for one of you guys to get... this stuff.",
+        "en": "So this is just a little thank you, and I'm so excited for one of you guys to get this stuff.",
         "ipa": "/soʊ ðɪs ɪz ʤʌst ə ˈlɪtəl ˈθæŋk ju, ænd aɪm soʊ ɪkˈsaɪtɪd fɔr wʌn əv ju gaɪz tu gɛt... ðɪs stʌf. aɪ lʌv ðiz brændz; ðɛr ˈtruli ðə bɛst. aɪ ʤʌst gɛt soʊ mʌʧ pi-ɑr.../",
         "zh": "所以这只是一个小小的谢意，我很期待你们其中一人能收到这些东西。",
         "highlights": [
@@ -13795,7 +13803,7 @@ export const LOCAL_EPISODES = [
         "start": 594.66,
         "end": 599.04,
         "speaker": "Speaker",
-        "en": "I just get so much PR... sometimes that I like don't have anything to do with it all, by the way.",
+        "en": "I just get so much PR sometimes that I like don't have anything to do with it all, by the way.",
         "ipa": "/ˈsʌmˌtaɪmz ðæt aɪ laɪk doʊnt hæv ˈɛniˌθɪŋ tu du wɪð ɪt ɔl, baɪ ðə weɪ./",
         "zh": "我收到的公关品太多了有时候多到我根本用不完，顺便说一下。",
         "highlights": [
@@ -13933,7 +13941,7 @@ export const LOCAL_EPISODES = [
         "start": 620.45,
         "end": 623.8,
         "speaker": "Speaker",
-        "en": "So, okay, I'm starting to realize this is going to be... a lot of YSL products.",
+        "en": "So, okay, I'm starting to realize this is going to be a lot of YSL products.",
         "ipa": "/ə lɑt əv waɪ-ɛs-ɛl ˈprɑdəkts. ðɪs wʌnz soʊ kul; ðiz ɑr ðɛr ˈlɪpˌstɪks, ˈdɛfənətli.../",
         "zh": "好吧，我开始意识到这会是很多YSL产品。",
         "highlights": [
@@ -13949,7 +13957,7 @@ export const LOCAL_EPISODES = [
         "start": 623.84,
         "end": 629.83,
         "speaker": "Speaker",
-        "en": "This one's so cool; these are their lipsticks, definitely... a variety of different shades in here so you can try them out.",
+        "en": "This one's so cool; these are their lipsticks, definitely a variety of different shades in here so you can try them out.",
         "ipa": "/ə vəˈraɪəti əv ˈdɪfərənt ʃeɪdz ɪn hir soʊ ju kæn traɪ ðɛm aʊt. ˈɛvər sɪns ˈmɪdəl.../",
         "zh": "这个太酷了，这是他们的口红，绝对是里面有各种不同的色号，这样你可以试用。",
         "highlights": [
@@ -13970,7 +13978,7 @@ export const LOCAL_EPISODES = [
         "start": 629.87,
         "end": 636.57,
         "speaker": "Speaker",
-        "en": "Ever since middle... school, I've been a big Benefit girl, and these are two of my favorite products... from them: the Hoola bronzer and the POREfessional.",
+        "en": "Ever since middle school, I've been a big Benefit girl, and these are two of my favorite products from them: the Hoola bronzer and the POREfessional.",
         "ipa": "/skul, aɪv bin ə bɪg ˈbɛnəˌfɪt gɜrl, ænd ðiz ɑr tu əv maɪ ˈfeɪvərɪt ˈprɑdəkts... frʌm ðɛm: ðə ˈhulə ˈbrɑnzər ænd ðə pɔr-ˈfɛʃənəl. ænd jul gɛt ˈivɪn mɔr.../",
         "zh": "从初中开始我就一直是Benefit的忠实粉丝，这是我最喜欢的两款产品来自他们家：Hoola修容粉和反孔精英妆前乳。",
         "highlights": [
@@ -13986,7 +13994,7 @@ export const LOCAL_EPISODES = [
         "start": 636.61,
         "end": 643.5,
         "speaker": "Speaker",
-        "en": "And you'll get even more... Benefit products because they sent me this; they collaborated with Scrub Daddy... which is actually genius.",
+        "en": "And you'll get even more... Benefit products because they sent me this; they collaborated with Scrub Daddy which is actually genius.",
         "ipa": "/ˈbɛnəˌfɪt ˈprɑdəkts bɪˈkəz ðeɪ sɛnt mi ðɪs; ðeɪ kəˈlæbəˌreɪtɪd wɪð skrʌb ˈdædi... wɪʧ ɪz ˈækʧuəli ˈʤinjəs. ænd ðeɪ hæv tʌnz əv ˈskɛrˌkɛr ɪn ðɛr, sʌm ˈmeɪkˌʌp.../",
         "zh": "你还会得到更多Benefit产品，因为他们寄给我这个，他们和Scrub Daddy联名了这真的很有创意。",
         "highlights": [
@@ -14007,7 +14015,7 @@ export const LOCAL_EPISODES = [
         "start": 643.54,
         "end": 650.39,
         "speaker": "Speaker",
-        "en": "And they have tons of skincare in there, some makeup... remover, face masks, setting spray, so you'll be getting this.",
+        "en": "And they have tons of skincare in there, some makeup remover, face masks, setting spray, so you'll be getting this.",
         "ipa": "/riˈmuvər, feɪs mæsks, ˈsɛtɪŋ spreɪ, soʊ jul bi ˈgɛtɪŋ ðɪs. aɪ ˈɔlmoʊst fərˈgɑt.../",
         "zh": "里面有大量的护肤品，还有一些彩妆卸妆液、面膜、定妆喷雾，所以你会收到这些。",
         "highlights": [
@@ -14023,7 +14031,7 @@ export const LOCAL_EPISODES = [
         "start": 650.43,
         "end": 657.37,
         "speaker": "Speaker",
-        "en": "I almost forgot... you'll also be getting this from Benefit; they have a mascara I've been waiting... to give you guys this.",
+        "en": "I almost forgot you'll also be getting this from Benefit; they have a mascara I've been waiting to give you guys this.",
         "ipa": "/jul ˈɔlsoʊ bi ˈgɛtɪŋ ðɪs frʌm ˈbɛnəˌfɪt; ðeɪ hæv ə mæˈskɛrə aɪv bin ˈweɪtɪŋ... tu gɪv ju gaɪz ðɪs. ðɪs hæz bin ˈsɪtɪŋ ɪn ðə ˈkɔrnər əv maɪ rum fɔr laɪk.../",
         "zh": "我差点忘了你还会收到这个Benefit的产品，他们有一款睫毛膏我一直等着送给你们。",
         "highlights": [
@@ -14044,7 +14052,7 @@ export const LOCAL_EPISODES = [
         "start": 657.41,
         "end": 662.14,
         "speaker": "Speaker",
-        "en": "This has been sitting in the corner of my room for like... honestly not that long, probably like 4 weeks.",
+        "en": "This has been sitting in the corner of my room for like honestly not that long, probably like 4 weeks.",
         "ipa": "/ˈɑnəstli nɑt ðæt lɔŋ, ˈprɑbəbli laɪk 4 wiks. ðɪs ɪz soʊ ˈhɛvi; ðɪs ɪz ə bɑks.../",
         "zh": "这个在我的房间角落里放了大概说实话没多久，大概4周吧。",
         "highlights": [
@@ -14065,7 +14073,7 @@ export const LOCAL_EPISODES = [
         "start": 662.18,
         "end": 666.16,
         "speaker": "Speaker",
-        "en": "This is so heavy; this is a box... just filled with Mario Badescu products.",
+        "en": "This is so heavy; this is a box just filled with Mario Badescu products.",
         "ipa": "/ʤʌst fɪld wɪð ˈmɑrioʊ bəˈdɛsku ˈprɑdəkts. ðɪs ɪz ʤʌst soʊ ɪkˈsaɪtɪd bɪˈkəz aɪm ʤʌst.../",
         "zh": "这个好重，这是一个箱子装满了Mario Badescu的产品。",
         "highlights": [
@@ -14081,7 +14089,7 @@ export const LOCAL_EPISODES = [
         "start": 666.2,
         "end": 678.7,
         "speaker": "Speaker",
-        "en": "This is just so exciting because I'm just... like such a big fan of them, and I use a lot of their products all the time, like... you guys saw I just used their drying lotion, and I really want you guys... to also experience them if you haven't.",
+        "en": "This is just so exciting because I'm just like such a big fan of them, and I use a lot of their products all the time, like you guys saw I just used their drying lotion, and I really want you guys to also experience them if you haven't.",
         "ipa": "/laɪk sʌʧ ə bɪg fæn əv ðɛm, ænd aɪ juz ə lɑt əv ðɛr ˈprɑdəkts ɔl ðə taɪm, laɪk... ju gaɪz sɔ aɪ ʤʌst juzd ðɛr ˈdraɪɪŋ ˈloʊʃən, ænd aɪ ˈrɪli wɑnt ju gaɪz... tu ˈɔlsoʊ ɪkˈspɪriəns ðɛm ɪf ju ˈhævənt. ðɪs kʌmz wɪð soʊ mʌʧ; jʊr ˈgoʊɪŋ tu gɛt.../",
         "zh": "这太让人兴奋了，因为我是他们的超级粉丝，我一直都在用他们很多产品，就像你们看到我刚用了他们的祛痘精华，我真的希望你们也能体验一下，如果你们还没试过的话。",
         "highlights": [
@@ -14107,7 +14115,7 @@ export const LOCAL_EPISODES = [
         "start": 678.74,
         "end": 682.86,
         "speaker": "Speaker",
-        "en": "This comes with so much; you're going to get... a lot, but I'll just show you guys a few of them.",
+        "en": "This comes with so much; you're going to get a lot, but I'll just show you guys a few of them.",
         "ipa": "/ə lɑt, bʌt aɪl ʤʌst ʃoʊ ju gaɪz ə fju əv ðɛm. ɪt kʌmz wɪð ðə ˈbraɪtənɪŋ aɪ.../",
         "zh": "这里面东西太多了，你会收到很多，但我先给你们展示几个。",
         "highlights": [
@@ -14123,7 +14131,7 @@ export const LOCAL_EPISODES = [
         "start": 682.9,
         "end": 699.97,
         "speaker": "Speaker",
-        "en": "It comes with the brightening eye... serum, the same drying lotion that I just used, some pimple patches, their pore... minimizer, an overnight mask, vitamin C cream, their facial spray... which is probably my favorite thing from them, a cleanser, basically an entire skincare... routine.",
+        "en": "It comes with the brightening eye serum, the same drying lotion that I just used, some pimple patches, their pore minimizer, an overnight mask, vitamin C cream, their facial spray which is probably my favorite thing from them, a cleanser, basically an entire skincare routine.",
         "ipa": "/ˈsɪrəm, ðə seɪm ˈdraɪɪŋ ˈloʊʃən ðæt aɪ ʤʌst juzd, sʌm ˈpɪmpəl ˈpæʧɪz, ðɛr pɔr... ˈmɪnəˌmaɪzər, ən ˈoʊvərˌnaɪt mæsk, ˈvaɪtəmɪn si krim, ðɛr ˈfeɪʃəl spreɪ... wɪʧ ɪz ˈprɑbəbli maɪ ˈfeɪvərɪt θɪŋ frʌm ðɛm, ə ˈklɛnzər, ˈbeɪsɪkli ən ɛnˈtaɪər ˈskɛrˌkɛr... ruˈtin. soʊ jæ, ɪf ju gaɪz wɑnt tu ˈɛntər, wʌt ʃʊd ju du? aɪ ˈdɪdənt.../",
         "zh": "里面有亮白眼部精华，就是我刚才用的那款祛痘精华，还有一些痘痘贴，他们的毛孔收敛精华，睡眠面膜，维生素C面霜，他们的面部喷雾这大概是我最喜欢他们的一样东西，还有洁面乳，基本上是一整套护肤流程。",
         "highlights": [
@@ -14323,8 +14331,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
-    "durationSec": 949,
-    "durationLabel": "15:49",
+    "durationSec": 952,
+    "durationLabel": "15:52",
     "date": "2026/11/28",
     "tags": [
       "美食",
@@ -14362,7 +14370,7 @@ export const LOCAL_EPISODES = [
         409.48
       ],
       [
-        596.32,
+        596.27,
         597.76
       ],
       [
@@ -14388,6 +14396,10 @@ export const LOCAL_EPISODES = [
       [
         914.38,
         917.12
+      ],
+      [
+        949.16,
+        952.0
       ]
     ],
     "sentences": [
@@ -16977,7 +16989,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 159,
         "start": 584.32,
-        "end": 596.32,
+        "end": 596.27,
         "speaker": "Speaker",
         "en": "We're going to watch something on Netflix, probably like a crime documentary.",
         "ipa": "/wɪər ˈgoʊɪŋ tu wɑtʃ ˈsʌmθɪŋ ɑn ˈnɛtflɪks, ˈprɑbəbli laɪk ə kraɪm ˌdɑkjəˈmɛntəri/",
@@ -22540,6 +22552,10 @@ export const LOCAL_EPISODES = [
         297.45
       ],
       [
+        329.05,
+        330.8
+      ],
+      [
         337.54,
         338.7
       ],
@@ -24057,8 +24073,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "英国",
     "difficulty": 4,
-    "durationSec": 365,
-    "durationLabel": "06:05",
+    "durationSec": 368,
+    "durationLabel": "06:08",
     "date": "2026/11/28",
     "tags": [
       "购物",
@@ -24075,6 +24091,10 @@ export const LOCAL_EPISODES = [
       [
         0.0,
         9.16
+      ],
+      [
+        365.08,
+        368.0
       ]
     ],
     "sentences": [
@@ -28836,7 +28856,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 118,
         "start": 474.92,
-        "end": 490.67,
+        "end": 490.62,
         "speaker": "Speaker",
         "en": "Utensils include forks, spoons, knives, chopsticks, etc., even if they're made of plastic, wood, or other materials.",
         "ipa": "/juˈtɛnsəlz ɪnˈklud fɔrks, spunz, naɪvz, ˈʧɑpˌstɪks, ˈɛtˌsɛtərə, ˈivən ɪf ðɛr meɪd ʌv ˈplæstɪk, wʊd, ɔr ˈʌðər məˈtɪriəlz./",
@@ -30319,6 +30339,10 @@ export const LOCAL_EPISODES = [
         158.64
       ],
       [
+        165.36,
+        167.58
+      ],
+      [
         173.04,
         179.28
       ],
@@ -30368,7 +30392,7 @@ export const LOCAL_EPISODES = [
       ],
       [
         1072.26,
-        1076.0
+        1076.45
       ]
     ],
     "sentences": [
@@ -34133,7 +34157,7 @@ export const LOCAL_EPISODES = [
       ],
       [
         755.72,
-        766.0
+        766.19
       ]
     ],
     "sentences": [
@@ -40621,7 +40645,7 @@ export const LOCAL_EPISODES = [
       ],
       [
         1050.73,
-        1059.0
+        1059.11
       ]
     ],
     "sentences": [
@@ -45125,8 +45149,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
-    "durationSec": 1177,
-    "durationLabel": "19:37",
+    "durationSec": 1178,
+    "durationLabel": "19:38",
     "date": "2026/11/28",
     "tags": [
       "美食",
@@ -45141,8 +45165,12 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        1092.97,
+        1092.92,
         1105.01
+      ],
+      [
+        1176.53,
+        1178.0
       ]
     ],
     "sentences": [
@@ -45926,7 +45954,7 @@ export const LOCAL_EPISODES = [
         "start": 208.22,
         "end": 219.3,
         "speaker": "Speaker",
-        "en": "I'm going to open up the hood of the car, but I'll be honest with you guys, sometimes... it's a bit tricky to find the handle of the hood of the car, but I found it!",
+        "en": "I'm going to open up the hood of the car, but I'll be honest with you guys, sometimes it's a bit tricky to find the handle of the hood of the car, but I found it!",
         "ipa": "/aɪm ˈɡoʊɪŋ tuː ˈoʊpən ʌp ðə hʊd ʌv ðə kɑːr, bʌt aɪl biː ˈɑːnɪst wɪð juː ɡaɪz, ˈsʌmtaɪmz ɪts ə bɪt ˈtrɪki tuː faɪnd ðə ˈhændəl ʌv ðə hʊd ʌv ðə kɑːr, bʌt aɪ faʊnd ɪt/",
         "zh": "我要把车前盖打开，但老实跟你们说，有时候找车前盖的把手有点棘手，但我找到了！",
         "highlights": [
@@ -46181,7 +46209,7 @@ export const LOCAL_EPISODES = [
         "start": 291.89,
         "end": 306.53,
         "speaker": "Speaker",
-        "en": "So you have your high beam lights, which are called your brights, and you usually turn on... your brights when you can't see things far away (when it's really dark outside), and... then you also have your low beam lights, which you always have your low beam lights when you're driving during the night.",
+        "en": "So you have your high beam lights, which are called your brights, and you usually turn on your brights when you can't see things far away (when it's really dark outside), and then you also have your low beam lights, which you always have your low beam lights when you're driving during the night.",
         "ipa": "/soʊ juː hæv jʊər haɪ biːm laɪts, wɪtʃ ɑːr kɔːld jʊər braɪts, ænd juː ˈjuːʒuəli tɜːrn ɑːn jʊər braɪts wɪn juː kænt siː θɪŋz fɑːr əˈweɪ (wɪn ɪts ˈriːəli dɑːrk ˈaʊtˈsaɪd), ænd ðɛn juː ˈɔːlsoʊ hæv jʊər loʊ biːm laɪts, wɪtʃ juː ˈɔːlweɪz hæv jʊər loʊ biːm laɪts wɪn jʊər ˈdraɪvɪŋ ˈdʊrɪŋ ðə naɪt/",
         "zh": "所以你有远光灯，也就是人们常说的“亮灯”，你通常会开启当你看不清远处的东西时（当外面特别黑的时候）会开远光灯，然后你还有近光灯，晚上开车时你一直都会开着近光灯。",
         "highlights": [
@@ -48238,7 +48266,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 175,
         "start": 1069.72,
-        "end": 1092.97,
+        "end": 1092.92,
         "speaker": "Speaker",
         "en": "And they'll tell me to put the car in Neutral, and I don't even have to touch the car, touch the steering wheel, or the gas pedal.",
         "ipa": "/ænd ðel tɛl mi tu pʊt ðə kɑr ɪn ˈnutrəl, ænd aɪ doʊnt ˈivɪn hæv tu tʌtʃ ðə kɑr, tʌtʃ ðə ˈstɪrɪŋ wil, ɔr ðə ɡæs ˈpɛdəl/",
@@ -48519,6 +48547,10 @@ export const LOCAL_EPISODES = [
       [
         486.6,
         489.09
+      ],
+      [
+        762.36,
+        764.19
       ],
       [
         849.65,
@@ -56254,12 +56286,12 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        84.72,
+        84.67,
         101.68
       ],
       [
         478.52,
-        481.0
+        481.49
       ]
     ],
     "sentences": [
@@ -56554,7 +56586,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 19,
         "start": 72.72,
-        "end": 84.72,
+        "end": 84.67,
         "speaker": "Speaker",
         "en": "With the Y.",
         "ipa": "/wɪð ðə waɪ/",
@@ -58400,12 +58432,12 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "购物",
     "skipRanges": [
       [
-        28.45,
+        28.4,
         35.4
       ],
       [
         740.36,
-        752.0
+        752.19
       ]
     ],
     "sentences": [
@@ -58476,7 +58508,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 5,
         "start": 16.45,
-        "end": 28.45,
+        "end": 28.4,
         "speaker": "Speaker",
         "en": "Let's start skiing.",
         "ipa": "/lɛts stɑrt ˈskiɪŋ./",
@@ -61162,11 +61194,11 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "日常对话",
     "skipRanges": [
       [
-        364.97,
+        364.92,
         365.92
       ],
       [
-        900.51,
+        900.46,
         901.04
       ],
       [
@@ -61950,7 +61982,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 48,
         "start": 228.16,
-        "end": 240.16,
+        "end": 240.11,
         "speaker": "Speaker",
         "en": "And this will help support the church.",
         "ipa": "/ænd ðɪs wɪl hɛlp səˈpɔrt ðə ʧɜrʧ./",
@@ -62370,7 +62402,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 73,
         "start": 352.97,
-        "end": 364.97,
+        "end": 364.92,
         "speaker": "Speaker",
         "en": "Let's try to enter the church.",
         "ipa": "/lɛts traɪ tu ˈɛntər ðə tʃɜrtʃ./",
@@ -63914,7 +63946,7 @@ export const LOCAL_EPISODES = [
         "start": 759.22,
         "end": 773.08,
         "speaker": "Speaker",
-        "en": "But in our religion and the Prophet (pbuh), that means God's peace upon him, said that Adam, which was the... first man, was sent down to earth from heaven on a Friday, and also the day of judgment will be on a Friday.",
+        "en": "But in our religion and the Prophet (pbuh), that means God's peace upon him, said that Adam, which was the first man, was sent down to earth from heaven on a Friday, and also the day of judgment will be on a Friday.",
         "ipa": "/bʌt ɪn aʊər rɪˈlɪdʒən ænd ðə ˈprɑfɪt, ðæt minz ɡɑdz pis əˈpɑn hɪm, sɛd ðæt ˈædəm, wɪtʃ wʌz ðə... fɜrst mæn, wʌz sɛnt daʊn tu ɜrθ frʌm ˈhɛvən ɑn ə ˈfraɪdeɪ, ænd ˈɔlsoʊ ðə deɪ ʌv ˈdʒʌdʒmənt wɪl bi ɑn ə ˈfraɪdeɪ./",
         "zh": "但在我们的宗教中，先知（愿真主赐他平安）说过，作为第一个人类的阿丹被从天堂降到地球是在一个星期五，并且审判日也将是在一个星期五。",
         "highlights": [
@@ -64148,7 +64180,7 @@ export const LOCAL_EPISODES = [
         "start": 821.01,
         "end": 831.85,
         "speaker": "Speaker",
-        "en": "So yes, we have Christianity who associates Jesus, peace be upon him, and the Holy Spirit with God, and typically says that they are all one... triune God called the Trinity.",
+        "en": "So yes, we have Christianity who associates Jesus, peace be upon him, and the Holy Spirit with God, and typically says that they are all one triune God called the Trinity.",
         "ipa": "/soʊ jɛs, wi hæv ˌkrɪstʃiˈænəti hu əˈsoʊʃieɪts ˈdʒizəs, pis bi əˈpɑn hɪm, ænd ðə ˈhoʊli ˈspɪrɪt wɪð ɡɑd, ænd ˈtɪpɪkli sɛz ðæt ðeɪ ɑr ɔl wʌn... ˈtraɪˌjun ɡɑd kɔld ðə ˈtrɪnəti./",
         "zh": "所以是的，我们有基督教，它把耶稣（愿他平安）和圣灵与上帝联系在一起，通常说他们都是被称为三位一体的三合一真主。",
         "highlights": [
@@ -64254,7 +64286,7 @@ export const LOCAL_EPISODES = [
         "start": 847.21,
         "end": 855.4,
         "speaker": "Speaker",
-        "en": "When I first came to Islam, I had like some negative views about it, but we invite everyone to do their research because... you don't want to trust every source.",
+        "en": "When I first came to Islam, I had like some negative views about it, but we invite everyone to do their research because you don't want to trust every source.",
         "ipa": "/wɛn aɪ fɜrst keɪm tu ɪˈslɑm, aɪ hæd laɪk sʌm ˈnɛɡətɪv vjuz əˈbaʊt ɪt, bʌt wi ɪnˈvaɪt ˈɛvriwʌn tu du ðɛr ˈrisɜrtʃ bɪˈkʌz... ju doʊnt wɑnt tu trʌst ˈɛvri sɔrs./",
         "zh": "当我最初接触伊斯兰教时，我对它有一些负面的看法，但我们邀请每个人都去自己做研究，因为你不能盲目相信每一个信息来源。",
         "highlights": [
@@ -64411,9 +64443,9 @@ export const LOCAL_EPISODES = [
       {
         "id": 189,
         "start": 888.51,
-        "end": 900.51,
+        "end": 900.46,
         "speaker": "Speaker",
-        "en": "Now let's move on to... the next religion.",
+        "en": "Now let's move on to the next religion.",
         "ipa": "/naʊ lɛts muv ɑn tu... ðə nɛkst rɪˈlɪdʒən./",
         "zh": "现在让我们继续下一个宗教。",
         "highlights": [
@@ -66157,6 +66189,10 @@ export const LOCAL_EPISODES = [
         20.08
       ],
       [
+        63.4,
+        64.36
+      ],
+      [
         131.0,
         132.26
       ],
@@ -66209,6 +66245,10 @@ export const LOCAL_EPISODES = [
         311.26
       ],
       [
+        312.06,
+        314.26
+      ],
+      [
         314.86,
         323.76
       ],
@@ -66235,6 +66275,10 @@ export const LOCAL_EPISODES = [
       [
         385.04,
         387.06
+      ],
+      [
+        401.82,
+        403.18
       ],
       [
         404.38,
@@ -66307,6 +66351,10 @@ export const LOCAL_EPISODES = [
       [
         581.46,
         582.79
+      ],
+      [
+        603.44,
+        604.0
       ],
       [
         619.53,
@@ -67275,7 +67323,7 @@ export const LOCAL_EPISODES = [
         "start": 289.86,
         "end": 301.04,
         "speaker": "Speaker",
-        "en": "So I'm at Forever 21 right now, and I'm about to... get some clothes and some accessories for my look.",
+        "en": "So I'm at Forever 21 right now, and I'm about to get some clothes and some accessories for my look.",
         "ipa": "/səʊ aɪm æt fəˈrevər ˈtwenti wʌn raɪt naʊ, ənd aɪm əˈbaʊt tuː ɡet sʌm kləʊðz ənd sʌm əkˈsesəriz fɔːr maɪ lʊk/",
         "zh": "所以我现在在Forever 21，我正准备为我的造型买些衣服和配饰。",
         "highlights": [
@@ -67559,11 +67607,11 @@ export const LOCAL_EPISODES = [
       {
         "id": 75,
         "start": 406.45,
-        "end": 410.01,
+        "end": 422.31,
         "speaker": "Speaker",
-        "en": "Wait, I think they also do like contour at the same time, so...",
-        "ipa": "/weɪt, aɪ θɪŋk ðeɪ ˈɔːlsəʊ duː laɪk ˈkɒntʊər ət ðə seɪm taɪm, səʊ/",
-        "zh": "等下，我觉得他们好像同时也会修容，所以",
+        "en": "Wait, I think they also do like contour at the same time, so... Now for the most exciting part, I'm going to be baking my face.",
+        "ipa": "/weɪt, aɪ θɪŋk ðeɪ ˈɔːlsəʊ duː laɪk ˈkɒntʊər ət ðə seɪm taɪm, səʊ naʊ fɔːr ðə məʊst ɪkˈsaɪtɪŋ pɑːrt, aɪm ˈɡuːɪŋ tuː biː ˈbeɪkɪŋ maɪ feɪs/",
+        "zh": "等下，我觉得他们好像同时也会修容，所以现在是最激动人心的部分，我要开始给面部烘焙定妆了。",
         "highlights": [
           {
             "text": "contour",
@@ -67574,32 +67622,16 @@ export const LOCAL_EPISODES = [
             "text": "at the same time",
             "key": "at the same time",
             "chip": "indigo"
+          },
+          {
+            "text": "exciting part",
+            "key": "exciting part",
+            "chip": "indigo"
           }
         ]
       },
       {
         "id": 76,
-        "start": 418.63,
-        "end": 422.31,
-        "speaker": "Speaker",
-        "en": "Now for the most exciting part, I'm going to be baking my face.",
-        "ipa": "/naʊ fɔːr ðə məʊst ɪkˈsaɪtɪŋ pɑːrt, aɪm ˈɡuːɪŋ tuː biː ˈbeɪkɪŋ maɪ feɪs/",
-        "zh": "现在是最激动人心的部分，我要开始给面部烘焙定妆了。",
-        "highlights": [
-          {
-            "text": "exciting part",
-            "key": "exciting part",
-            "chip": "indigo"
-          },
-          {
-            "text": "baking",
-            "key": "baking",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 77,
         "start": 431.82,
         "end": 438.9,
         "speaker": "Speaker",
@@ -67620,7 +67652,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 78,
+        "id": 77,
         "start": 440.92,
         "end": 442.7,
         "speaker": "Speaker",
@@ -67636,7 +67668,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 79,
+        "id": 78,
         "start": 442.74,
         "end": 445.94,
         "speaker": "Speaker",
@@ -67657,7 +67689,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 80,
+        "id": 79,
         "start": 450.07,
         "end": 452.1,
         "speaker": "Speaker",
@@ -67673,7 +67705,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 81,
+        "id": 80,
         "start": 456.38,
         "end": 461.28,
         "speaker": "Speaker",
@@ -67689,7 +67721,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 82,
+        "id": 81,
         "start": 464.44,
         "end": 469.3,
         "speaker": "Speaker",
@@ -67705,7 +67737,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 83,
+        "id": 82,
         "start": 469.34,
         "end": 470.94,
         "speaker": "Speaker",
@@ -67721,7 +67753,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 84,
+        "id": 83,
         "start": 476.64,
         "end": 482.22,
         "speaker": "Speaker",
@@ -67737,7 +67769,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 85,
+        "id": 84,
         "start": 486.82,
         "end": 487.42,
         "speaker": "Speaker",
@@ -67747,7 +67779,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 86,
+        "id": 85,
         "start": 491.62,
         "end": 496.72,
         "speaker": "Speaker",
@@ -67763,7 +67795,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 87,
+        "id": 86,
         "start": 512.04,
         "end": 515.2,
         "speaker": "Speaker",
@@ -67779,7 +67811,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 88,
+        "id": 87,
         "start": 517.78,
         "end": 525.05,
         "speaker": "Speaker",
@@ -67800,7 +67832,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 89,
+        "id": 88,
         "start": 533.44,
         "end": 537.09,
         "speaker": "Speaker",
@@ -67816,7 +67848,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 89,
         "start": 541.18,
         "end": 545.82,
         "speaker": "Speaker",
@@ -67832,7 +67864,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 91,
+        "id": 90,
         "start": 547.6,
         "end": 553.2,
         "speaker": "Speaker",
@@ -67848,7 +67880,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 92,
+        "id": 91,
         "start": 553.24,
         "end": 556.71,
         "speaker": "Speaker",
@@ -67864,7 +67896,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 93,
+        "id": 92,
         "start": 568.03,
         "end": 569.54,
         "speaker": "Speaker",
@@ -67880,7 +67912,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 93,
         "start": 569.58,
         "end": 573.26,
         "speaker": "Speaker",
@@ -67896,7 +67928,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 95,
+        "id": 94,
         "start": 575.5,
         "end": 577.17,
         "speaker": "Speaker",
@@ -67912,7 +67944,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 95,
         "start": 577.21,
         "end": 581.46,
         "speaker": "Speaker",
@@ -67928,7 +67960,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 96,
         "start": 582.79,
         "end": 586.1,
         "speaker": "Speaker",
@@ -67944,7 +67976,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 98,
+        "id": 97,
         "start": 586.14,
         "end": 589.82,
         "speaker": "Speaker",
@@ -67960,7 +67992,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 98,
         "start": 589.86,
         "end": 594.58,
         "speaker": "Speaker",
@@ -67976,7 +68008,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 100,
+        "id": 99,
         "start": 594.62,
         "end": 606.72,
         "speaker": "Speaker",
@@ -67997,7 +68029,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 101,
+        "id": 100,
         "start": 606.76,
         "end": 611.38,
         "speaker": "Speaker",
@@ -68013,7 +68045,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 102,
+        "id": 101,
         "start": 611.42,
         "end": 613.22,
         "speaker": "Speaker",
@@ -68029,7 +68061,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 103,
+        "id": 102,
         "start": 613.26,
         "end": 613.8,
         "speaker": "Speaker",
@@ -68039,7 +68071,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 104,
+        "id": 103,
         "start": 614.14,
         "end": 619.53,
         "speaker": "Speaker",
@@ -68055,7 +68087,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 104,
         "start": 622.81,
         "end": 626.45,
         "speaker": "Speaker",
@@ -68071,7 +68103,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 106,
+        "id": 105,
         "start": 626.49,
         "end": 629.7,
         "speaker": "Speaker",
@@ -68092,7 +68124,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 107,
+        "id": 106,
         "start": 642.86,
         "end": 643.78,
         "speaker": "Speaker",
@@ -68108,7 +68140,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 108,
+        "id": 107,
         "start": 645.47,
         "end": 647.47,
         "speaker": "Speaker",
@@ -68118,7 +68150,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 109,
+        "id": 108,
         "start": 653.12,
         "end": 655.12,
         "speaker": "Speaker",
@@ -68134,7 +68166,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 110,
+        "id": 109,
         "start": 673.16,
         "end": 675.91,
         "speaker": "Speaker",
@@ -68150,7 +68182,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 111,
+        "id": 110,
         "start": 675.95,
         "end": 681.68,
         "speaker": "Speaker",
@@ -68171,7 +68203,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 112,
+        "id": 111,
         "start": 681.86,
         "end": 683.73,
         "speaker": "Speaker",
@@ -68181,7 +68213,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 113,
+        "id": 112,
         "start": 683.77,
         "end": 686.16,
         "speaker": "Speaker",
@@ -68197,7 +68229,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 114,
+        "id": 113,
         "start": 687.54,
         "end": 689.46,
         "speaker": "Speaker",
@@ -68207,7 +68239,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 115,
+        "id": 114,
         "start": 689.5,
         "end": 691.25,
         "speaker": "Speaker",
@@ -68217,7 +68249,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 116,
+        "id": 115,
         "start": 691.29,
         "end": 694.32,
         "speaker": "Speaker",
@@ -68233,7 +68265,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 117,
+        "id": 116,
         "start": 694.58,
         "end": 695.52,
         "speaker": "Speaker",
@@ -68249,7 +68281,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 118,
+        "id": 117,
         "start": 695.56,
         "end": 697.26,
         "speaker": "Speaker",
@@ -68270,7 +68302,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 119,
+        "id": 118,
         "start": 697.3,
         "end": 699.58,
         "speaker": "Speaker",
@@ -68286,7 +68318,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 120,
+        "id": 119,
         "start": 699.62,
         "end": 701.26,
         "speaker": "Speaker",
@@ -68302,7 +68334,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 121,
+        "id": 120,
         "start": 701.3,
         "end": 704.83,
         "speaker": "Speaker",
@@ -68318,7 +68350,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 122,
+        "id": 121,
         "start": 704.87,
         "end": 707.86,
         "speaker": "Speaker",
@@ -68334,7 +68366,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 123,
+        "id": 122,
         "start": 707.9,
         "end": 710.64,
         "speaker": "Speaker",
@@ -68350,7 +68382,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 124,
+        "id": 123,
         "start": 710.68,
         "end": 718.17,
         "speaker": "Speaker",
@@ -68366,7 +68398,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 125,
+        "id": 124,
         "start": 718.21,
         "end": 720.8,
         "speaker": "Speaker",
@@ -68409,11 +68441,15 @@ export const LOCAL_EPISODES = [
         16.4
       ],
       [
-        49.64,
+        60.77,
         110.32
       ],
       [
-        130.72,
+        130.67,
+        139.92
+      ],
+      [
+        151.87,
         224.0
       ],
       [
@@ -68421,11 +68457,11 @@ export const LOCAL_EPISODES = [
         244.16
       ],
       [
-        264.27,
+        264.22,
         269.36
       ],
       [
-        361.92,
+        361.87,
         369.76
       ],
       [
@@ -68433,15 +68469,15 @@ export const LOCAL_EPISODES = [
         395.84
       ],
       [
-        407.84,
+        407.79,
         417.68
       ],
       [
-        442.46,
+        442.41,
         465.04
       ],
       [
-        480.79,
+        480.74,
         485.12
       ],
       [
@@ -68451,6 +68487,10 @@ export const LOCAL_EPISODES = [
       [
         511.2,
         528.16
+      ],
+      [
+        585.56,
+        586.33
       ]
     ],
     "sentences": [
@@ -68567,6 +68607,22 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 7,
+        "start": 49.68,
+        "end": 60.77,
+        "speaker": "Speaker",
+        "en": "So.",
+        "ipa": "/soʊ/",
+        "zh": "所以。",
+        "highlights": [
+          {
+            "text": "So",
+            "key": "so",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 8,
         "start": 110.32,
         "end": 118.68,
         "speaker": "Speaker",
@@ -68582,9 +68638,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 8,
+        "id": 9,
         "start": 118.72,
-        "end": 130.72,
+        "end": 130.67,
         "speaker": "Speaker",
         "en": "Gosh, I don't even know where to start.",
         "ipa": "/ɡɑːʃ, aɪ doʊnt ˈiːvən noʊ wɛər tuː stɑːrt/",
@@ -68598,7 +68654,28 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 9,
+        "id": 10,
+        "start": 139.92,
+        "end": 151.87,
+        "speaker": "Speaker",
+        "en": "Uh, so, now.",
+        "ipa": "/ʌ soʊ naʊ/",
+        "zh": "额，所以，现在。",
+        "highlights": [
+          {
+            "text": "Uh",
+            "key": "uh",
+            "chip": "orange"
+          },
+          {
+            "text": "now",
+            "key": "now",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
         "start": 224.0,
         "end": 229.0,
         "speaker": "Speaker",
@@ -68614,7 +68691,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 10,
+        "id": 12,
         "start": 244.16,
         "end": 245.32,
         "speaker": "Speaker",
@@ -68630,7 +68707,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 11,
+        "id": 13,
         "start": 245.36,
         "end": 249.7,
         "speaker": "Speaker",
@@ -68651,7 +68728,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 12,
+        "id": 14,
         "start": 249.74,
         "end": 252.23,
         "speaker": "Speaker",
@@ -68667,9 +68744,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 13,
+        "id": 15,
         "start": 252.27,
-        "end": 264.27,
+        "end": 264.22,
         "speaker": "Speaker",
         "en": "No, this is all I have.",
         "ipa": "/ðɪs ɪz ɔːl aɪ hæv/",
@@ -68683,7 +68760,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 14,
+        "id": 16,
         "start": 269.36,
         "end": 269.74,
         "speaker": "Speaker",
@@ -68693,7 +68770,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 15,
+        "id": 17,
         "start": 269.78,
         "end": 281.3,
         "speaker": "Speaker",
@@ -68719,7 +68796,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 16,
+        "id": 18,
         "start": 281.34,
         "end": 292.77,
         "speaker": "Speaker",
@@ -68745,7 +68822,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 17,
+        "id": 19,
         "start": 292.81,
         "end": 298.34,
         "speaker": "Speaker",
@@ -68766,7 +68843,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 18,
+        "id": 20,
         "start": 298.38,
         "end": 304.52,
         "speaker": "Speaker",
@@ -68782,7 +68859,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 19,
+        "id": 21,
         "start": 304.56,
         "end": 311.62,
         "speaker": "Speaker",
@@ -68798,7 +68875,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 20,
+        "id": 22,
         "start": 311.66,
         "end": 314.78,
         "speaker": "Speaker",
@@ -68814,7 +68891,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 21,
+        "id": 23,
         "start": 314.82,
         "end": 318.44,
         "speaker": "Speaker",
@@ -68835,7 +68912,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 22,
+        "id": 24,
         "start": 318.48,
         "end": 333.24,
         "speaker": "Speaker",
@@ -68861,7 +68938,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 23,
+        "id": 25,
         "start": 333.28,
         "end": 339.56,
         "speaker": "Speaker",
@@ -68882,7 +68959,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 24,
+        "id": 26,
         "start": 339.6,
         "end": 349.88,
         "speaker": "Speaker",
@@ -68903,9 +68980,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 25,
+        "id": 27,
         "start": 349.92,
-        "end": 361.92,
+        "end": 361.87,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/ˈoʊˌkeɪ/",
@@ -68913,7 +68990,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 26,
+        "id": 28,
         "start": 369.76,
         "end": 378.46,
         "speaker": "Speaker",
@@ -68929,7 +69006,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 27,
+        "id": 29,
         "start": 378.5,
         "end": 385.56,
         "speaker": "Speaker",
@@ -68950,7 +69027,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 28,
+        "id": 30,
         "start": 385.6,
         "end": 392.5,
         "speaker": "Speaker",
@@ -68966,9 +69043,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 29,
+        "id": 31,
         "start": 395.84,
-        "end": 407.84,
+        "end": 407.79,
         "speaker": "Speaker",
         "en": "Bean sprouts go in.",
         "ipa": "/bin spraʊts ɡoʊ ɪn/",
@@ -68982,7 +69059,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 30,
+        "id": 32,
         "start": 417.68,
         "end": 428.92,
         "speaker": "Speaker",
@@ -68998,9 +69075,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 31,
+        "id": 33,
         "start": 428.96,
-        "end": 442.46,
+        "end": 442.41,
         "speaker": "Speaker",
         "en": "They're on a Korean drama too, while you're at it, Um, it's quite spicy.",
         "ipa": "/ðɛr ɑn ə kəˈriən ˈdrɑmə tu, waɪl jʊr æt ɪt ʌm ɪts kwaɪt ˈspaɪsi/",
@@ -69019,9 +69096,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 32,
+        "id": 34,
         "start": 465.04,
-        "end": 480.79,
+        "end": 480.74,
         "speaker": "Speaker",
         "en": "All right, today I'm gonna be making garlic pork belly pasta with a little bit of chili.",
         "ipa": "/ɔl raɪt təˈdeɪ aɪm ˈɡɑnə bi ˈmeɪkɪŋ ˈɡɑrlɪk pɔrk ˈbɛli ˈpɑstə wɪð ə ˈlɪtəl bɪt ʌv ˈʧɪli/",
@@ -69035,7 +69112,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 33,
+        "id": 35,
         "start": 485.12,
         "end": 489.19,
         "speaker": "Speaker",
@@ -69051,7 +69128,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 34,
+        "id": 36,
         "start": 489.23,
         "end": 491.37,
         "speaker": "Speaker",
@@ -69067,7 +69144,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 35,
+        "id": 37,
         "start": 491.41,
         "end": 499.91,
         "speaker": "Speaker",
@@ -69083,7 +69160,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 36,
+        "id": 38,
         "start": 507.52,
         "end": 511.2,
         "speaker": "Speaker",
@@ -69093,7 +69170,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 37,
+        "id": 39,
         "start": 528.16,
         "end": 537.47,
         "speaker": "Speaker",
@@ -69114,7 +69191,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 38,
+        "id": 40,
         "start": 537.51,
         "end": 541.67,
         "speaker": "Speaker",
@@ -69130,7 +69207,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 39,
+        "id": 41,
         "start": 541.71,
         "end": 545.88,
         "speaker": "Speaker",
@@ -69146,7 +69223,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 40,
+        "id": 42,
         "start": 545.92,
         "end": 550.28,
         "speaker": "Speaker",
@@ -69156,7 +69233,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 41,
+        "id": 43,
         "start": 550.32,
         "end": 555.4,
         "speaker": "Speaker",
@@ -69172,7 +69249,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 42,
+        "id": 44,
         "start": 555.44,
         "end": 566.12,
         "speaker": "Speaker",
@@ -69193,7 +69270,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 43,
+        "id": 45,
         "start": 566.16,
         "end": 569.89,
         "speaker": "Speaker",
@@ -69209,7 +69286,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 44,
+        "id": 46,
         "start": 569.93,
         "end": 572.6,
         "speaker": "Speaker",
@@ -69225,7 +69302,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 45,
+        "id": 47,
         "start": 572.64,
         "end": 585.56,
         "speaker": "Speaker",
@@ -70057,7 +70134,7 @@ export const LOCAL_EPISODES = [
         "start": 207.36,
         "end": 219.04,
         "speaker": "Speaker",
-        "en": "Now that I... have both my boarding pass and my ID, I am ready to pass through security and head to my gate.",
+        "en": "Now that I have both my boarding pass and my ID, I am ready to pass through security and head to my gate.",
         "ipa": "/naʊ ðæt aɪ... hæv boʊθ maɪ ˈbɔːrdɪŋ pæs ænd maɪ ˈaɪˌdiː, aɪ æm ˈrɛdi tuː pæs θruː sɪˈkjʊrəti ænd hɛd tuː maɪ ɡeɪt./",
         "zh": "既然我我有登机牌和身份证件了，准备过安检并前往登机口。",
         "highlights": [
@@ -70131,7 +70208,7 @@ export const LOCAL_EPISODES = [
         "start": 238.3,
         "end": 257.28,
         "speaker": "Speaker",
-        "en": "And as you can see, the process was a little bit quick, I felt kind of rushed, so I came over here to this area and now I'm going to put... my jacket back on because I had to take this off to get through security, and I'm going to... put my shoes on because you're not allowed to walk through security with your shoes.",
+        "en": "And as you can see, the process was a little bit quick, I felt kind of rushed, so I came over here to this area and now I'm going to put my jacket back on because I had to take this off to get through security, and I'm going to put my shoes on because you're not allowed to walk through security with your shoes.",
         "ipa": "/ænd æz juː kæn siː, ðə ˈproʊsɛs wʌz ə ˈlɪtəl bɪt kwɪk, aɪ fɛlt kaɪnd ʌv rʌʃt, soʊ aɪ keɪm ˈoʊvər hɪr tuː ðɪs ˈɛriə ænd naʊ aɪm ˈɡoʊɪŋ tuː pʊt... maɪ ˈdʒækɪt bæk ɑːn bɪˈkɒz aɪ hæd tuː teɪk ðɪs ɔːf tuː ɡɛt θruː sɪˈkjʊrəti, ænd aɪm ˈɡoʊɪŋ tuː... pʊt maɪ ʃuːz ɑːn bɪˈkɒz jʊr nɑːt əˈlaʊd tuː wɔːk θruː sɪˈkjʊrəti wɪð jʊər ʃuːz./",
         "zh": "如你所见，流程有点快，我感觉有点仓促，所以我来到这边这个区域，现在我要把夹克穿回来，因为我刚才为了过安检把它脱了，我还要把鞋穿上，因为安检时不准穿着鞋走过去。",
         "highlights": [
@@ -72204,6 +72281,10 @@ export const LOCAL_EPISODES = [
         133.74
       ],
       [
+        446.28,
+        448.44
+      ],
+      [
         455.04,
         456.66
       ],
@@ -72212,7 +72293,7 @@ export const LOCAL_EPISODES = [
         576.6
       ],
       [
-        589.35,
+        589.3,
         597.27
       ],
       [
@@ -72222,6 +72303,10 @@ export const LOCAL_EPISODES = [
       [
         731.34,
         733.74
+      ],
+      [
+        770.4,
+        771.3
       ],
       [
         810.0,
@@ -73827,7 +73912,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 94,
         "start": 576.6,
-        "end": 589.35,
+        "end": 589.3,
         "speaker": "Speaker",
         "en": "Okay guys, I just finished my meal and wow, I am so stuffed!",
         "ipa": "/oʊˈkeɪ ɡaɪz, aɪ dʒʌst ˈfɪnɪʃt maɪ miːl ænd waʊ, aɪ æm soʊ stʌft! aɪ æm soʊ fʊl əv ɔl ðə fuːd/",
@@ -74600,8 +74685,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 568,
-    "durationLabel": "09:28",
+    "durationSec": 569,
+    "durationLabel": "09:29",
     "date": "2026/11/28",
     "tags": [
       "购物",
@@ -74634,6 +74719,10 @@ export const LOCAL_EPISODES = [
       [
         414.06,
         415.5
+      ],
+      [
+        567.85,
+        569.0
       ]
     ],
     "sentences": [
@@ -77315,6 +77404,10 @@ export const LOCAL_EPISODES = [
         216.74
       ],
       [
+        220.3,
+        222.06
+      ],
+      [
         224.0,
         225.7
       ],
@@ -77476,7 +77569,7 @@ export const LOCAL_EPISODES = [
       ],
       [
         663.84,
-        667.0
+        667.41
       ]
     ],
     "sentences": [
@@ -82055,8 +82148,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 447,
-    "durationLabel": "07:27",
+    "durationSec": 448,
+    "durationLabel": "07:28",
     "date": "2026/11/28",
     "tags": [
       "名人访谈",
@@ -82072,6 +82165,10 @@ export const LOCAL_EPISODES = [
       [
         0.0,
         3.6
+      ],
+      [
+        447.16,
+        448.0
       ]
     ],
     "sentences": [
@@ -85157,6 +85254,10 @@ export const LOCAL_EPISODES = [
         508.56
       ],
       [
+        509.8,
+        511.43
+      ],
+      [
         524.56,
         525.63
       ],
@@ -85190,7 +85291,7 @@ export const LOCAL_EPISODES = [
       ],
       [
         685.2,
-        704.0
+        704.14
       ]
     ],
     "sentences": [
@@ -87744,7 +87845,7 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        16.48,
+        16.43,
         26.4
       ],
       [
@@ -87756,7 +87857,7 @@ export const LOCAL_EPISODES = [
         100.48
       ],
       [
-        112.48,
+        112.43,
         126.96
       ],
       [
@@ -87764,7 +87865,7 @@ export const LOCAL_EPISODES = [
         155.44
       ],
       [
-        183.5,
+        183.45,
         190.48
       ],
       [
@@ -87780,11 +87881,11 @@ export const LOCAL_EPISODES = [
         389.04
       ],
       [
-        477.04,
+        476.99,
         482.64
       ],
       [
-        500.0,
+        499.95,
         513.44
       ],
       [
@@ -87792,7 +87893,7 @@ export const LOCAL_EPISODES = [
         568.32
       ],
       [
-        592.08,
+        592.03,
         600.48
       ],
       [
@@ -87836,7 +87937,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 2,
         "start": 4.48,
-        "end": 16.48,
+        "end": 16.43,
         "speaker": "Speaker",
         "en": "I'm currently at JFK.",
         "ipa": "/aɪm ˈkɜːrəntli æt dʒeɪ ef keɪ/",
@@ -88021,7 +88122,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 13,
         "start": 100.48,
-        "end": 112.48,
+        "end": 112.43,
         "speaker": "Speaker",
         "en": "Good morning from Paris.",
         "ipa": "/ɡʊd ˈmɔːrnɪŋ frəm ˈpærɪs/",
@@ -88138,7 +88239,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 20,
         "start": 171.5,
-        "end": 183.5,
+        "end": 183.45,
         "speaker": "Speaker",
         "en": "Smells so strong.",
         "ipa": "/smɛlz soʊ strɔːŋ/",
@@ -89314,7 +89415,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 98,
         "start": 465.04,
-        "end": 477.04,
+        "end": 476.99,
         "speaker": "Speaker",
         "en": "For shoes, I'm going to wear my Dolce.",
         "ipa": "/fɔr ʃuz, aɪm ˈɡuɪŋ tu wɛr maɪ ˈdoʊtʃeɪ./",
@@ -89346,7 +89447,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 100,
         "start": 488.0,
-        "end": 500.0,
+        "end": 499.95,
         "speaker": "Speaker",
         "en": "No, no, no, no.",
         "ipa": "/noʊ, noʊ, noʊ, noʊ./",
@@ -89538,7 +89639,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 112,
         "start": 580.08,
-        "end": 592.08,
+        "end": 592.03,
         "speaker": "Speaker",
         "en": "More.",
         "ipa": "/mɔr/",
@@ -89702,6 +89803,10 @@ export const LOCAL_EPISODES = [
         13.6
       ],
       [
+        16.44,
+        17.41
+      ],
+      [
         33.18,
         35.44
       ],
@@ -89716,6 +89821,10 @@ export const LOCAL_EPISODES = [
       [
         153.84,
         155.11
+      ],
+      [
+        157.11,
+        158.95
       ],
       [
         162.87,
@@ -89736,6 +89845,10 @@ export const LOCAL_EPISODES = [
       [
         214.99,
         247.25
+      ],
+      [
+        268.63,
+        269.15
       ],
       [
         276.46,
@@ -89778,6 +89891,26 @@ export const LOCAL_EPISODES = [
         425.24
       ],
       [
+        427.67,
+        428.67
+      ],
+      [
+        430.67,
+        433.14
+      ],
+      [
+        435.14,
+        436.44
+      ],
+      [
+        465.38,
+        466.41
+      ],
+      [
+        467.93,
+        468.84
+      ],
+      [
         481.97,
         484.38
       ],
@@ -89808,6 +89941,10 @@ export const LOCAL_EPISODES = [
       [
         569.39,
         574.8
+      ],
+      [
+        583.22,
+        583.92
       ],
       [
         592.24,
@@ -90087,7 +90224,7 @@ export const LOCAL_EPISODES = [
         "start": 139.11,
         "end": 145.28,
         "speaker": "Speaker",
-        "en": "But I want to share it with you guys in case you guys are pet parents and you... are interested in taking your dog off of kibbles.",
+        "en": "But I want to share it with you guys in case you guys are pet parents and you are interested in taking your dog off of kibbles.",
         "ipa": "/bʌt aɪ wɑnt tu ʃɛr ɪt wɪð ju ɡaɪz ɪn keɪs ju ɡaɪz ɑr pɛt ˈpɛrənts ænd ju... ɑr ˈɪntrəstəd ɪn ˈteɪkɪŋ jɔr dɔɡ ɔf ʌv ˈkɪbəlz./",
         "zh": "但我还是想分享给你们，以防你们也是宠物家长，而且你们有兴趣让你们的狗狗停止吃狗粮。",
         "highlights": [
@@ -91095,7 +91232,7 @@ export const LOCAL_EPISODES = [
         "start": 579.11,
         "end": 587.38,
         "speaker": "Speaker",
-        "en": "I know it wasn't much, especially during this time, doing small little... tasks in my daily life has brought me so much comfort.",
+        "en": "I know it wasn't much, especially during this time, doing small little tasks in my daily life has brought me so much comfort.",
         "ipa": "/aɪ noʊ ɪt ˈwɑzənt mʌʧ, ɪˈspɛʃəli ˈdʊrɪŋ ðɪs taɪm, ˈduɪŋ smɔl ˈlɪtəl... tæsks ɪn maɪ ˈdeɪli laɪf hæz brɔt mi soʊ mʌʧ ˈkʌmfərt./",
         "zh": "我知道也没什么特别的，尤其是在这段特殊时期里，做这些微不足道的日常生活中的小杂务，却给我带来了极大的慰藉。",
         "highlights": [
@@ -91163,8 +91300,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 1342,
-    "durationLabel": "22:22",
+    "durationSec": 1341,
+    "durationLabel": "22:21",
     "date": "2026/11/28",
     "tags": [
       "美食",
@@ -97103,8 +97240,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 1257,
-    "durationLabel": "20:57",
+    "durationSec": 1255,
+    "durationLabel": "20:55",
     "date": "2026/11/28",
     "tags": [
       "美食",
@@ -104472,8 +104609,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
-    "durationSec": 1874,
-    "durationLabel": "31:14",
+    "durationSec": 1872,
+    "durationLabel": "31:12",
     "date": "2026/11/28",
     "tags": [
       "购物",
@@ -111417,8 +111554,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
-    "durationSec": 1499,
-    "durationLabel": "24:59",
+    "durationSec": 1497,
+    "durationLabel": "24:57",
     "date": "2026/11/28",
     "tags": [
       "美食",
@@ -118589,8 +118726,8 @@ export const LOCAL_EPISODES = [
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
-    "durationSec": 570,
-    "durationLabel": "09:30",
+    "durationSec": 571,
+    "durationLabel": "09:31",
     "date": "2026/11/28",
     "tags": [
       "美食",
@@ -118618,7 +118755,7 @@ export const LOCAL_EPISODES = [
       ],
       [
         569.36,
-        570.0
+        571.0
       ]
     ],
     "sentences": [
@@ -119401,7 +119538,7 @@ export const LOCAL_EPISODES = [
         "start": 294.52,
         "end": 308.08,
         "speaker": "Speaker",
-        "en": "Let's say you added cheese but you didn't get enough; if you want to add some... more cheese, you can say, \"Can I have some extra cheese?\" or \"Can I have a little bit more cheese?\"",
+        "en": "Let's say you added cheese but you didn't get enough; if you want to add some more cheese, you can say, \"Can I have some extra cheese?\" or \"Can I have a little bit more cheese?\"",
         "ipa": "/lets seɪ ju ˈædɪd tʃiːz bʌt ju ˈdɪdnt ɡet ɪˈnʌf; ɪf ju wɑːnt tu æd sʌm... mɔːr tʃiːz, ju kæn seɪ, \"kæn aɪ hæv sʌm ˈekstrə tʃiːz?\" ɔːr \"kæn aɪ hæv ə ˈlɪtl bɪt mɔːr tʃiːz?\"/",
         "zh": "假设你加了奶酪但觉得不够；如果你想再加一点更多奶酪，你可以说“能多给我点奶酪吗？”或者“能再多给一点点奶酪吗？”",
         "highlights": [
@@ -119438,7 +119575,7 @@ export const LOCAL_EPISODES = [
         "start": 311.0,
         "end": 324.2,
         "speaker": "Speaker",
-        "en": "But if you don't want a lot of a certain topping—for example, rice—they usually... put a lot of rice, then you can say, \"I want a little bit of rice\" or \"I'd like a little rice.\"",
+        "en": "But if you don't want a lot of a certain topping—for example, rice—they usually put a lot of rice, then you can say, \"I want a little bit of rice\" or \"I'd like a little rice.\"",
         "ipa": "/bʌt ɪf ju doʊnt wɑːnt ə lɑːt əv ə ˈsɜːrtn ˈtɑːpɪŋ—fɔːr ɪɡˈzæmpl, raɪs—ðeɪ ˈjuːʒuəli... pʊt ə lɑːt əv raɪs, ðen ju kæn seɪ, \"aɪ wɑːnt ə ˈlɪtl bɪt əv raɪs\" ɔːr \"aɪd laɪk ə ˈlɪtl raɪs.\"/",
         "zh": "但如果你不想要太多某种配料——比如米饭——他们通常放很多米饭，那么你可以说“我想要一点点米饭”或者“我想要一点米饭”。",
         "highlights": [
@@ -119475,7 +119612,7 @@ export const LOCAL_EPISODES = [
         "start": 326.52,
         "end": 341.64,
         "speaker": "Speaker",
-        "en": "Now, if you want to skip something or you don't want to add that ingredient on top of your bowl—like, for example, beans, because they... might make you... you can say, \"No beans, please\" or \"I don't want any beans.\"",
+        "en": "Now, if you want to skip something or you don't want to add that ingredient on top of your bowl—like, for example, beans, because they might make you... you can say, \"No beans, please\" or \"I don't want any beans.\"",
         "ipa": "/naʊ, ɪf ju wɑːnt tu skɪp ˈsʌmθɪŋ ɔːr ju doʊnt wɑːnt tu æd ðæt ɪnˈɡriːdiənt ɑːn tɑːp əv jɔːr boʊl—laɪk, fɔːr ɪɡˈzæmpl, biːnz, bɪˈkəz ðeɪ... maɪt meɪk ju... ju kæn seɪ, \"noʊ biːnz, pliːz\" ɔːr \"aɪ doʊnt wɑːnt ˈeni biːnz.\"/",
         "zh": "现在，如果你想跳过某种配料，或者不想在碗里加某种食材——比如豆子，因为它们可能会让你你可以说“请不要豆子”或者“我不想要任何豆子”。",
         "highlights": [
@@ -120478,6 +120615,10 @@ export const LOCAL_EPISODES = [
         325.12
       ],
       [
+        345.12,
+        345.68
+      ],
+      [
         357.76,
         358.32
       ],
@@ -120544,6 +120685,10 @@ export const LOCAL_EPISODES = [
       [
         917.44,
         919.76
+      ],
+      [
+        930.2,
+        932.0
       ]
     ],
     "sentences": [
@@ -125133,7 +125278,7 @@ export const LOCAL_EPISODES = [
       ],
       [
         839.4,
-        847.0
+        847.43
       ]
     ],
     "sentences": [

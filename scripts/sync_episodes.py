@@ -727,9 +727,13 @@ def resegment_polished_sentences(sents, music_ranges_out=None):
                 ends_clean = False
             combined_len = len(buf["en"]) + len(a["en"])
 
-            # 同一句话跨纯音乐/空档（如 EP 39 #1/#62/#153）也必须拼成一张完整学习卡，并把中间纯音乐/空白写入 skipRanges！
-            # 只有前一句已经完整结束（ends_clean）且遇到大空档（>2.5s）才断开成两张卡。
-            is_true_continuation = (not ends_clean) or (next_starts_lower and gap <= 2.5) or (next_is_tiny_tail and gap <= 15.0)
+            # 同一句话跨纯音乐/空档（如 EP 39 #1 5.4s / #62 3.4s / #153 13.3s）合并成一张完整学习卡，并把中间纯音乐/空白写入 skipRanges；
+            # 但超过 15s 的大场景切换（如 EP 19 49s 换景）绝不强行跨景合并。
+            is_true_continuation = (
+                (not ends_clean and gap <= 15.0)
+                or (next_starts_lower and gap <= 2.5)
+                or (next_is_tiny_tail and gap <= 15.0)
+            )
             if is_true_continuation and combined_len <= 750:
                 if gap > 0.5 and music_ranges_out is not None:
                     music_ranges_out.append([round(buf["end"], 2), round(a["start"], 2)])
@@ -746,9 +750,14 @@ def resegment_polished_sentences(sents, music_ranges_out=None):
             else:
                 if gap > 0.5 and music_ranges_out is not None:
                     music_ranges_out.append([round(buf["end"], 2), round(a["start"], 2)])
+                # 若因超长换景（>15s）断开且上一句停在逗号/省略，自动补齐句末标点避免留下半截句
+                if not ends_clean and gap > 15.0:
+                    buf["en"] = buf["en"].rstrip(",;: ") + "."
+                    if buf["zh"] and not buf["zh"].endswith(("。", "！", "？")):
+                        buf["zh"] = buf["zh"].rstrip("，、 ") + "。"
                 flush_buf()
                 next_en = a["en"]
-                if next_starts_lower and ends_clean:
+                if next_starts_lower:
                     next_en = next_en[0].upper() + next_en[1:]
                 buf = {
                     "start": a["start"],
@@ -772,7 +781,7 @@ def resegment_polished_sentences(sents, music_ranges_out=None):
         spoken_dur = (s["end"] - s["start"]) - internal_skip
         if spoken_dur > max_speech_dur:
             excess = spoken_dur - max_speech_dur
-            new_end = round(s["end"] - excess, 2)
+            new_end = round(s["end"] - excess - 0.05, 2)
             if new_end > s["start"] + 0.5:
                 if music_ranges_out is not None:
                     music_ranges_out.append([new_end, round(s["end"], 2)])
@@ -868,11 +877,12 @@ def build_episode_item(idx, raw_title, files, rel_folder, media_base_url, meta=N
             sentences = []
     if not sentences:
         sentences = parse_subtitle_files(sub_files, music_ranges_out=music_ranges)
-    duration_sec = int(round(forced_duration)) if forced_duration else (int(round(sentences[-1]["end"])) if sentences else 60)
+    exact_duration = round(float(forced_duration), 2) if forced_duration else (round(float(sentences[-1]["end"]), 2) if sentences else 60.0)
+    duration_sec = int(round(exact_duration))
     if not sentences:
         # 没有字幕文件的视频暂不公开上架，避免用户点开看到无字幕空页
         return None
-    skip_ranges = build_skip_ranges(sentences, duration_sec, music_ranges)
+    skip_ranges = build_skip_ranges(sentences, max(exact_duration, float(duration_sec)), music_ranges)
 
     title = meta.get("title") or raw_title
     speaker = meta.get("speaker") or infer_speaker(title, sentences)
