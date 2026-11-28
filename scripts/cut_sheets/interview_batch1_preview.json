@@ -1,0 +1,2145 @@
+{
+  "status": "PREVIEW_UNPUBLISHED_AWAITING_LEXI_ORDER",
+  "existing83EpisodesModified": false,
+  "sourceMediaModified": false,
+  "lessonCount": 8,
+  "lessons": [
+    {
+      "id": "interview-01-eileen-gu-failure-try",
+      "status": "PREVIEW_UNPUBLISHED_AWAITING_LEXI_ORDER",
+      "speaker": "Eileen Gu",
+      "region": "美国",
+      "title": "谷爱凌谈冬奥心态：最大的失败是不敢尝试",
+      "difficulty": 2,
+      "tags": [
+        "名人访谈",
+        "口语表达"
+      ],
+      "sourceVideoFile": "Eileen Gu Reflects On 2022 Olympics： ‘The Worst Failure Is To Not Try’.f616.mp4",
+      "cutIn": "01:50 (110.36s)",
+      "cutOut": "03:07 (187.33s)",
+      "duration": "01:17 (76.97s)",
+      "sentenceCount": 13,
+      "firstSentence": "#1 [0.0-2.81] Okay, did you study all the time?",
+      "lastSentence": "#13 [70.45-76.97] Well, your mom taught you well, you can tell that she's always supporting you, she's actually here in studio.",
+      "trimmedMp4Path": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-01-eileen-gu-failure-try.trimmed.mp4",
+      "trimmedM4aPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-01-eileen-gu-failure-try.trimmed.m4a",
+      "polishedJsonPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-01-eileen-gu-failure-try.polished.json",
+      "practiceQuestions": [
+        {
+          "qEn": "What did Eileen Gu say was her standout moment at the Beijing Olympics?",
+          "qZh": "谷爱凌说她在北京奥运会上最突出的时刻是什么？",
+          "aEn": "Landing the 1620 in Big Air during her first event.",
+          "aZh": "在首个大跳台比赛中成功落地 1620 度。"
+        },
+        {
+          "qEn": "According to Eileen, what did she consider to be the worst failure?",
+          "qZh": "根据谷爱凌的说法，她认为最糟糕的失败是什么？",
+          "aEn": "She considered the worst failure to be not trying.",
+          "aZh": "她认为最糟糕的失败是不去尝试。"
+        }
+      ],
+      "sentences": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 2.81,
+          "speaker": "Interviewer",
+          "en": "Okay, did you study all the time?",
+          "ipa": "/oʊˈkeɪ, dɪd juː ˈstʌdi duː juː ˈstʌdi ɔːl ðə taɪm?/",
+          "zh": "好的，你平时一直在学习吗？",
+          "highlights": [
+            {
+              "text": "study",
+              "key": "study",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "start": 2.81,
+          "end": 5.17,
+          "speaker": "Interviewer",
+          "en": "Are you a hard worker or do things just come easy for you?",
+          "ipa": "/ɑːr juː ə hɑːrd ˈwɜːrkər ɔːr duː θɪŋz ʤʌst kʌm ˈiːzi fɔːr juː?/",
+          "zh": "你是个工作努力的人，还是事情对你来说轻而易举？",
+          "highlights": [
+            {
+              "text": "hard worker",
+              "key": "hard worker",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "start": 5.39,
+          "end": 11.87,
+          "speaker": "Eileen Gu",
+          "en": "I did take every single available online test for the SAT, so I'm not going to sit back and be like, oh, it was easy.",
+          "ipa": "/aɪ dɪd teɪk ˈɛvri ˈsɪŋɡəl əˈveɪləbəl ˈɑːnˌlaɪn tɛst fɔːr ðə ɛs-eɪ-ti, soʊ aɪm nɑːt ˈɡoʊɪŋ tuː sɪt bæk ænd biː laɪk, oʊ, ɪt wʌz ˈiːzi./",
+          "zh": "我的确参加了 SAT 的所有在线模拟测试，所以我不会坐在那儿说，哦，这很简单。",
+          "highlights": [
+            {
+              "text": "online test",
+              "key": "online test",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "start": 12.31,
+          "end": 16.87,
+          "speaker": "Eileen Gu",
+          "en": "But um, yeah, it was just standardized tests and you can study for them.",
+          "ipa": "/bʌt ʌm, jææ, ɪt wʌz ɪt wʌz ʤʌst ˈstændərˌdaɪzd tɛsts ænd juː kən ˈstʌdi fɔːr ðɛm./",
+          "zh": "但嗯，是的，这只是标准化考试，你可以为它们进行复习。",
+          "highlights": [
+            {
+              "text": "standardized tests",
+              "key": "standardized tests",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "start": 17.0,
+          "end": 19.7,
+          "speaker": "Interviewer",
+          "en": "Well, hard work seems to be your theme.",
+          "ipa": "/wɛl, hɑːrd wɜːrk siːmz tuː biː jɔːr θiːm./",
+          "zh": "嗯，努力工作似乎一直是你的主题。",
+          "highlights": [
+            {
+              "text": "theme",
+              "key": "theme",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "start": 19.7,
+          "end": 29.83,
+          "speaker": "Interviewer",
+          "en": "When you got those medals in Beijing, was it a pinch me moment or was it like lots and lots of practice that happened to work out perfectly on that day?",
+          "ipa": "/ʌ-, wɛn juː ɡɑːt ðoʊz ˈmɛdəlz ɪn bɪˈʤɪŋ, wʌz ɪt wʌz ɪt ə pɪnʧ miː ˈmoʊmənt ɔːr wʌz ɪt laɪk lɑːts ænd lɑːts ʌv ˈpræktɪs ðæt ˈhæpənd tuː wɜːrk aʊt ˈpɜːrfɪktli ɑːn ðæt deɪ?/",
+          "zh": "呃，当你在北京获得那些奖牌时，这是一个“掐我一下”的时刻，还是说大量的练习恰好在那天完美地发挥出来了？",
+          "highlights": [
+            {
+              "text": "pinch me moment",
+              "key": "pinch me moment",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "start": 30.2,
+          "end": 36.3,
+          "speaker": "Eileen Gu",
+          "en": "I think it was both, the really standout moment for me was when I landed that 1620 in Big Air, which was my first event.",
+          "ipa": "/aɪ θɪŋk ɪt wʌz boʊθ, ðə ˈrɪli ˈstændaʊt ˈmoʊmənt fɔːr miː wʌz wɛn aɪ ˈlændɪd ðæt ˈsɪkˈstiːn ˈtwɛnti ɪn bɪɡ ɛr, wɪʧ wʌz maɪ fɜːrst ɪˈvɛnt./",
+          "zh": "我认为两者兼有，对我而言最突出的时刻是我在首个项目大跳台上落地了 1620 度。",
+          "highlights": [
+            {
+              "text": "standout moment",
+              "key": "standout moment",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "start": 36.3,
+          "end": 48.41,
+          "speaker": "Eileen Gu",
+          "en": "And I've always said, you know, my message is about inspiring young girls and inspiring more people to hear about the sport and to use it as a force to create interconnection and cross-cultural communication.",
+          "ipa": "/ænd aɪv ˈɔːlweɪz sɛd, juː noʊ, maɪ ˈmɛsɪʤ ɪz əˈbaʊt ɪnˈspaɪərɪŋ jʌŋ ɡɜːrlz ænd ʌm ɪnˈspaɪərɪŋ mɔːr ˈpiːpəl tuː hɪr əˈbaʊt ðə spɔːrt ænd tuː juːz ɪt æz ə fɔːrs tuː kriˈeɪt ˌɪntərkəˈnɛkʃən ænd krɔːs-ˈkʌlʧərəl kəmˌjunəˈkeɪʃən./",
+          "zh": "我一直都说，你知道，我的传达的信息是激励年轻女孩，并且激励更多人去了解这项运动，并将其作为建立联系和跨文化交流的力量。",
+          "highlights": [
+            {
+              "text": "cross-cultural communication",
+              "key": "cross-cultural communication",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "start": 48.41,
+          "end": 55.18,
+          "speaker": "Eileen Gu",
+          "en": "And I knew that it was such a big moment and there were so many people watching and it was my time to live up to that standard that I've set.",
+          "ipa": "/ænd aɪ nuː ðæt ɪt wʌz sʌʧ ə bɪɡ ˈmoʊmənt ænd ðɛr wɜːr soʊ ˈmɛni ˈpiːpəl ˈwɑːʧɪŋ ænd ɪt wʌz maɪ taɪm tuː lɪv ʌp tuː ðæt ˈstændərd ðæt aɪv sɛt./",
+          "zh": "我知道这是一个非常重大的时刻，有那么多人正在观看，这是我达到我所设定的标准的时候。",
+          "highlights": [
+            {
+              "text": "live up to",
+              "key": "live up to",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "start": 55.18,
+          "end": 61.21,
+          "speaker": "Eileen Gu",
+          "en": "And so in that sense, I was like, no matter what, there is no failure, because if I don't land, the worst failure is to not try.",
+          "ipa": "/ænd soʊ ɪn ðæt sɛns, aɪ wʌz laɪk, noʊ ˈmætər wʌt, ðɛr ɪz noʊ ˈfeɪljər, bɪˈkʌz ɪf aɪ doʊnt lænd, ðə wɜːrst ˈfeɪljər ɪz tuː nɑːt traɪ./",
+          "zh": "所以在某种意义上，我想，无论如何，都没有失败，因为如果我不去落地，最糟糕的失败就是不去尝试。",
+          "highlights": [
+            {
+              "text": "no failure",
+              "key": "no failure",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "start": 61.52,
+          "end": 66.79,
+          "speaker": "Eileen Gu",
+          "en": "So, I just wanted to try it and I'd never done it before, I'd never even tried it on airbag or anything.",
+          "ipa": "/soʊ, aɪ ʤʌst ˈwɑːntɪd tuː traɪ ɪt ænd aɪd ˈnɛvər dʌn ɪt bɪˈfɔːr, aɪd ˈnɛvər ˈiːvən traɪd ɪt ɑːn ˈɛrˌbæɡ ɔːr ˈɛniˌθɪŋ./",
+          "zh": "所以，我只是想去尝试一下，我以前从没做过，甚至在气垫上都从没试过。",
+          "highlights": [
+            {
+              "text": "airbag",
+              "key": "airbag",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "start": 66.79,
+          "end": 70.17,
+          "speaker": "Eileen Gu",
+          "en": "And landed it, got that gold medal and I was on top of the world.",
+          "ipa": "/ænd ˈlændɪd ɪt, ɡɑːt ðæt ɡoʊld ˈmɛdəl ænd aɪ wʌz ɑːn tɑːp ʌv ðə wɜːrld./",
+          "zh": "结果成功落地了，拿到了金牌，我感觉自己站在了世界之巅。",
+          "highlights": [
+            {
+              "text": "gold medal",
+              "key": "gold medal",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "start": 70.45,
+          "end": 76.97,
+          "speaker": "Interviewer",
+          "en": "Well, your mom taught you well, you can tell that she's always supporting you, she's actually here in studio.",
+          "ipa": "/wɛl, jɔːr mɑːm tɔːt juː wɛl, juː kən tɛl ðæt ʃiːz ˈɔːlweɪz səˈpɔːrtɪŋ juː, ʃiːz ˈækʧuəli hɪr ɪn ˈstudiˌoʊ./",
+          "zh": "嗯，你妈妈把你教得很好，看得出她一直都在支持你，她其实就来到我们的演播室了。",
+          "highlights": [
+            {
+              "text": "supporting you",
+              "key": "supporting you",
+              "chip": "indigo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview-02-eileen-gu-nz-flight-china",
+      "status": "PREVIEW_UNPUBLISHED_AWAITING_LEXI_ORDER",
+      "speaker": "Eileen Gu",
+      "region": "美国",
+      "title": "谷爱凌的双面日程：穿滑雪服从新西兰赶飞机去拍摄",
+      "difficulty": 2,
+      "tags": [
+        "名人访谈",
+        "口语表达"
+      ],
+      "sourceVideoFile": "Olympian Eileen Gu, Freestyle Skier on Being a Third Culture Kid.f616.mp4",
+      "cutIn": "01:10 (70.0s)",
+      "cutOut": "01:58 (118.0s)",
+      "duration": "00:48 (48.0s)",
+      "sentenceCount": 9,
+      "firstSentence": "#1 [0.0-2.5] But I can give an example if that's helpful.",
+      "lastSentence": "#9 [40.2-48.0] So that would be a day in the life, but I don't know if I've ever done that day before and I might not do it again, but I think the one thing that stays consistent is the tempo.",
+      "trimmedMp4Path": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-02-eileen-gu-nz-flight-china.trimmed.mp4",
+      "trimmedM4aPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-02-eileen-gu-nz-flight-china.trimmed.m4a",
+      "polishedJsonPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-02-eileen-gu-nz-flight-china.polished.json",
+      "practiceQuestions": [
+        {
+          "qEn": "Where was Eileen Gu training on snow before heading to China?",
+          "qZh": "谷爱凌去中国之前在哪里进行雪上训练？",
+          "aEn": "She was training in New Zealand.",
+          "aZh": "她当时在新西兰训练。"
+        },
+        {
+          "qEn": "How long did Eileen Gu shoot after landing at 6 in the morning?",
+          "qZh": "谷爱凌在早上6点开始拍摄后，拍了多长时间？",
+          "aEn": "She shot for 10 hours.",
+          "aZh": "她拍了10个小时。"
+        },
+        {
+          "qEn": "What does Eileen Gu say remains consistent in her busy life?",
+          "qZh": "谷爱凌认为她忙碌的生活中什么东西是始终保持一致的？",
+          "aEn": "She says the tempo remains consistent.",
+          "aZh": "她说节奏保持着一致。"
+        }
+      ],
+      "sentences": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 2.5,
+          "speaker": "Eileen Gu",
+          "en": "But I can give an example if that's helpful.",
+          "ipa": "/bʌt aɪ kən gɪv ən ɪgˈzæmpəl ɪf ðæts ˈhɛlpfəl/",
+          "zh": "但如果这样有帮助的话，我可以举个例子。",
+          "highlights": [
+            {
+              "text": "example",
+              "key": "example",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "start": 2.5,
+          "end": 7.5,
+          "speaker": "Eileen Gu",
+          "en": "Two days ago, I was in New Zealand, I was training on snow because it's reverse season.",
+          "ipa": "/tu deɪz əˈgoʊ, aɪ wɪz ɪn nu ˈziələnd, aɪ wɪz ˈtreɪnɪŋ ɑn snoʊ bɪˈkəz ɪts rɪˈvɜrs ˈsizən/",
+          "zh": "两天前，我在新西兰，我在雪地上训练，因为那是反季。",
+          "highlights": [
+            {
+              "text": "New Zealand",
+              "key": "new zealand",
+              "chip": "pink"
+            },
+            {
+              "text": "training",
+              "key": "training",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "start": 7.5,
+          "end": 11.8,
+          "speaker": "Eileen Gu",
+          "en": "So I finished skiing, drove straight to the airport in my full ski gear,.",
+          "ipa": "/soʊ aɪ ˈfɪnɪʃt ˈskiɪŋ, droʊv streɪt tu ði ˈɛrpɔrt ɪn maɪ fʊl ski gɪr/",
+          "zh": "所以我滑完雪后，穿着全套滑雪装备直接开车去了机场，",
+          "highlights": [
+            {
+              "text": "ski gear",
+              "key": "ski gear",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "start": 11.8,
+          "end": 16.8,
+          "speaker": "Eileen Gu",
+          "en": "Changed at the airport in five minutes, packed it into a suitcase that I had half-packed.",
+          "ipa": "/ʧeɪnʤd æt ði ˈɛrpɔrt ɪn faɪv ˈmɪnəts, pækt ɪt ˈɪntu ə ˈsutkeɪs ðæt aɪ hæd hæf-pækt/",
+          "zh": "在机场花五分钟换好衣服，把它塞进一个我只装了一半的行李箱里。",
+          "highlights": [
+            {
+              "text": "suitcase",
+              "key": "suitcase",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "start": 16.8,
+          "end": 21.0,
+          "speaker": "Eileen Gu",
+          "en": "And so I put it into the empty half, zipped it up, sent it into the bag check,.",
+          "ipa": "/ænd soʊ aɪ pʊt ɪt ˈɪntu ði ˈɛmpti hæf, zɪpt ɪt ʌp, sɛnt ɪt ˈɪntu ðə bæg ʧɛk/",
+          "zh": "然后我把它放进空着的那半边，拉上拉链，办理了行李托运，",
+          "highlights": [
+            {
+              "text": "bag check",
+              "key": "bag check",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "start": 21.0,
+          "end": 24.2,
+          "speaker": "Eileen Gu",
+          "en": "Flew from New Zealand to China,.",
+          "ipa": "/flu frʌm nu ˈziələnd tu ˈʧaɪnə/",
+          "zh": "从新西兰飞往中国，",
+          "highlights": [
+            {
+              "text": "China",
+              "key": "china",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "start": 24.2,
+          "end": 33.2,
+          "speaker": "Eileen Gu",
+          "en": "And on that flight I, I don't know, read 100 pages of my book, wrote a couple of pages to be published, and then slept the rest of the time.",
+          "ipa": "/ænd ɑn ðæt flaɪt aɪ, aɪ doʊnt noʊ, rid ˈhʌndrəd ˈpeɪʤəz ʌv maɪ bʊk, roʊt ə ˈkʌpəl ʌv ˈpeɪʤəz tu bi ˈpʌblɪʃt, ænd ðɛn slɛpt ðə rɛst ʌv ðə taɪm/",
+          "zh": "在那个航班上，我，我不知道，读了100页书，写了几页准备发表的文章，然后剩下的时间都在睡觉。",
+          "highlights": [
+            {
+              "text": "published",
+              "key": "published",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "start": 33.2,
+          "end": 40.2,
+          "speaker": "Eileen Gu",
+          "en": "Landed at 5 in the morning, started shooting at 6, shot 10 hours, and then ran 10 miles afterwards and went to sleep.",
+          "ipa": "/ˈlændɪd æt faɪv ɪn ðə ˈmɔrnɪŋ, ˈstɑrtɪd ˈʃutɪŋ æt sɪks, ʃɑt tɛn ˈaʊərz, ænd ðɛn ræn tɛn maɪlz ˈæftərwərdz ænd wɛnt tu slip/",
+          "zh": "早上5点落地，6点开始拍摄，拍了10个小时，之后还跑了10英里才去睡觉。",
+          "highlights": [
+            {
+              "text": "shooting",
+              "key": "shooting",
+              "chip": "teal"
+            },
+            {
+              "text": "ran",
+              "key": "ran",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "start": 40.2,
+          "end": 48.0,
+          "speaker": "Eileen Gu",
+          "en": "So that would be a day in the life, but I don't know if I've ever done that day before and I might not do it again, but I think the one thing that stays consistent is the tempo.",
+          "ipa": "/soʊ ðæt wʊd bi ə deɪ ɪn ðə laɪf, bʌt aɪ doʊnt noʊ ɪf aɪv ˈɛvər dʌn ðæt deɪ bɪˈfɔr ænd aɪ maɪt nɑt du ɪt əˈgɛn, bʌt aɪ θɪŋk ðə wʌn θɪŋ ðæt steɪz kənˈsɪstənt ɪz ðə ˈtɛmpoʊ/",
+          "zh": "这就是生活中的一天吧，但我不知道我以前有没有经历过这样的一天，以后可能也不会再这样了，但我认为保持不变的一点是节奏。",
+          "highlights": [
+            {
+              "text": "consistent",
+              "key": "consistent",
+              "chip": "pink"
+            },
+            {
+              "text": "tempo",
+              "key": "tempo",
+              "chip": "teal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview-03-jensen-huang-14-engineer",
+      "status": "PREVIEW_UNPUBLISHED_AWAITING_LEXI_ORDER",
+      "speaker": "Jensen Huang",
+      "region": "美国",
+      "title": "黄仁勋回忆 14 岁：年少时就知道自己想当工程师吗？",
+      "difficulty": 2,
+      "tags": [
+        "名人访谈",
+        "口语表达"
+      ],
+      "sourceVideoFile": "Jen-Hsun Huang's Advice for Students (Extended).f614.mp4",
+      "cutIn": "01:27 (87.0s)",
+      "cutOut": "02:40 (160.0s)",
+      "duration": "01:13 (73.0s)",
+      "sentenceCount": 11,
+      "firstSentence": "#1 [0.0-5.0] When you were my age, which is 14, did you know that you wanted to be an engineer?",
+      "lastSentence": "#11 [62.0-73.0] And so I don't know when I really decided I wanted to be an engineer, but I knew that I wanted to be in the analytical fields and in math and science ever since I was quite young.",
+      "trimmedMp4Path": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-03-jensen-huang-14-engineer.trimmed.mp4",
+      "trimmedM4aPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-03-jensen-huang-14-engineer.trimmed.m4a",
+      "polishedJsonPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-03-jensen-huang-14-engineer.polished.json",
+      "practiceQuestions": [
+        {
+          "qEn": "What did Jensen Huang say about his behavior when he was 14?",
+          "qZh": "黄仁勋谈到自己14岁时的表现时说了什么？",
+          "aEn": "He described himself as rambunctious, noting that he liked setting things on fire and building things.",
+          "aZh": "他形容自己很顽皮，并提到自己喜欢放火烧东西和搞建筑。"
+        },
+        {
+          "qEn": "Which subject was Jensen Huang's favorite topic when he was young?",
+          "qZh": "黄仁勋小时候最喜欢的科目是什么？",
+          "aEn": "Mathematics was his favorite topic.",
+          "aZh": "数学是他最喜欢的科目。"
+        }
+      ],
+      "sentences": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "speaker": "Interviewer",
+          "en": "When you were my age, which is 14, did you know that you wanted to be an engineer?",
+          "ipa": "/wɛn ju wɜr maɪ eɪdʒ, wɪtʃ ɪz ˈfɔrtin, du ju dɪd ju noʊ ðæt ju ˈwɑntɪd tu bi ən ˈɛndʒəˌnɪr?/",
+          "zh": "当你像我这么大，也就是14岁时，你知道自己想成为一名工程师吗？",
+          "highlights": [
+            {
+              "text": "my age",
+              "key": "my age",
+              "chip": "indigo"
+            },
+            {
+              "text": "engineer",
+              "key": "engineer",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "start": 7.0,
+          "end": 13.0,
+          "speaker": "Jensen Huang",
+          "en": "Well, first of all, I think that if I were your mom, I wouldn't want me to tell you what I was doing when I was your age.",
+          "ipa": "/wɛl, fɜrst əv ɔl, aɪ θɪŋk ðæt ɪf aɪ wɜr jʊər mɑm, aɪ ˈwʊdənt wɑnt mi tu tɛl ju wʌt aɪ wʌz ˈduɪŋ wɛn aɪ wʌz jʊər eɪdʒ./",
+          "zh": "嗯，首先，我想如果我是你妈妈，我不会希望我告诉你我像你这么大时在做什么。",
+          "highlights": [
+            {
+              "text": "your mom",
+              "key": "your mom",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "start": 13.0,
+          "end": 17.0,
+          "speaker": "Jensen Huang",
+          "en": "I wasn't a particularly good kid, I just turned out good.",
+          "ipa": "/aɪ ˈwʌzənt ə pərˈtɪkjələrli gʊd kɪd, aɪ dʒʌst tɜrnd aʊt gʊd./",
+          "zh": "我以前不是个特别乖的孩子，我只是后来变好了。",
+          "highlights": [
+            {
+              "text": "good kid",
+              "key": "good kid",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "start": 19.0,
+          "end": 25.0,
+          "speaker": "Jensen Huang",
+          "en": "I was always rambunctious, I was always setting stuff on fire and gluing stuff together and blowing things up and, you know, digging holes in this and building that and whatnot.",
+          "ipa": "/aɪ wʌz ˈɔlweɪz ræmˈbʌŋʃəs, aɪ wʌz ˈɔlweɪz ˈsɛtɪŋ stʌf ɑn ˈfaɪər ənd ˈgluɪŋ stʌf təˈgɛðər ənd ˈbloʊɪŋ θɪŋz ʌp ənd, ju noʊ, ˈdɪgɪŋ hoʊlz ɪn ðɪs ənd ˈbɪldɪŋ ðæt ənd ˈwʌtˌnɑt./",
+          "zh": "我总是很调皮，总是放火烧东西，把东西粘在一起，炸毁东西，你知道，在地上挖洞，建造那些乱七八糟的东西。",
+          "highlights": [
+            {
+              "text": "rambunctious",
+              "key": "rambunctious",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "start": 29.0,
+          "end": 31.0,
+          "speaker": "Jensen Huang",
+          "en": "So I was a rambunctious kid.",
+          "ipa": "/soʊ aɪ wʌz ə ræmˈbʌŋʃəs kɪd./",
+          "zh": "所以我曾经是个很调皮的孩子。",
+          "highlights": []
+        },
+        {
+          "id": 6,
+          "start": 31.0,
+          "end": 36.0,
+          "speaker": "Jensen Huang",
+          "en": "But I always cared deeply about grades and I always knew that I wanted to do something in mathematics.",
+          "ipa": "/bʌt, bʌt ʌm aɪ ˈɔlweɪz kɛrd ˈdipli əˈbaʊt greɪdz ənd aɪ ˈɔlweɪz nu ðæt aɪ ˈwɑntɪd tu du ˈsʌmθɪŋ ɪn ˌmæθəˈmætɪks./",
+          "zh": "但是，嗯，我一直非常关心成绩，我一直知道我想在数学领域做点事情。",
+          "highlights": [
+            {
+              "text": "mathematics",
+              "key": "mathematics",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "start": 36.0,
+          "end": 39.0,
+          "speaker": "Jensen Huang",
+          "en": "That was probably my favorite topic.",
+          "ipa": "/ðæt wʌz ˈprɑbəbli maɪ ˈfeɪvərɪt ˈtɑpɪk./",
+          "zh": "那可能是我最喜欢的科目。",
+          "highlights": []
+        },
+        {
+          "id": 8,
+          "start": 41.0,
+          "end": 45.0,
+          "speaker": "Jensen Huang",
+          "en": "And ultimately, I chose engineering because engineering has a lot of math.",
+          "ipa": "/ænd ˈʌltəmətli, aɪ tʃoʊz ˌɛndʒəˈnɪrɪŋ bɪˈkəz ˌɛndʒəˈnɪrɪŋ hæz ə lɑt əv mæθ./",
+          "zh": "最终，我选择工程学是因为工程学包含很多数学。",
+          "highlights": [
+            {
+              "text": "engineering",
+              "key": "engineering",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "start": 45.0,
+          "end": 57.0,
+          "speaker": "Jensen Huang",
+          "en": "And for somebody who has an analytical mind, who likes to build things, who likes to make things the world's never seen.",
+          "ipa": "/ænd ənd fɔr ˈsʌmbədi hu hu ʌm hu hæz ən ˌænəˈlɪtɪkəl maɪnd, ʌ hu laɪks tu bɪld θɪŋz, ʌ hu laɪks tu ʌ meɪk θɪŋz ðə wɜrldz ˈnɛvər sin./",
+          "zh": "对于那些拥有分析头脑的人来说，喜欢建造东西，喜欢创造前所未见的事物。",
+          "highlights": [
+            {
+              "text": "analytical mind",
+              "key": "analytical mind",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "start": 57.0,
+          "end": 62.0,
+          "speaker": "Jensen Huang",
+          "en": "Being an engineer is the perfect career.",
+          "ipa": "/ʌ ˈbiɪŋ ən ˌɛndʒəˈnɪr ɪz ðə ɪz ðə ˈpɜrfɪkt ˈpɜrfɪkt ʌ ˈpɜrfɪkt kəˈrɪr./",
+          "zh": "成为一名工程师可以说是最完美、最完美的职业。",
+          "highlights": [
+            {
+              "text": "perfect career",
+              "key": "perfect career",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "start": 62.0,
+          "end": 73.0,
+          "speaker": "Jensen Huang",
+          "en": "And so I don't know when I really decided I wanted to be an engineer, but I knew that I wanted to be in the analytical fields and in math and science ever since I was quite young.",
+          "ipa": "/ænd soʊ aɪ doʊnt noʊ wɛn aɪ ˈrɪli dɪˈsaɪdɪd aɪ ˈwɑntɪd tu bi ən ˌɛndʒəˈnɪr, bʌt aɪ aɪ nu ðæt aɪ ˈwɑntɪd tu bi ɪn ði ˌænəˈlɪtɪkəl fildz ənd ʌ ɪn mæθ ənd ˈsaɪəns ˈɛvər sɛns aɪ wʌz kwaɪt jʌŋ./",
+          "zh": "所以我不清楚自己是什么时候真正决定想成为一名工程师的，但我很小的时候就知道自己想从事分析领域，以及数学和科学。",
+          "highlights": [
+            {
+              "text": "analytical fields",
+              "key": "analytical fields",
+              "chip": "teal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview-04-jensen-huang-shyness-speaking",
+      "status": "PREVIEW_UNPUBLISHED_AWAITING_LEXI_ORDER",
+      "speaker": "Jensen Huang",
+      "region": "美国",
+      "title": "黄仁勋谈克服害羞与公开演讲：如何在台前建立自信",
+      "difficulty": 2,
+      "tags": [
+        "名人访谈",
+        "口语表达"
+      ],
+      "sourceVideoFile": "Jen-Hsun Huang's Advice for Students (Extended).f614.mp4",
+      "cutIn": "05:43 (343.0s)",
+      "cutOut": "07:17 (437.0s)",
+      "duration": "01:34 (94.0s)",
+      "sentenceCount": 14,
+      "firstSentence": "#1 [0.0-6.58] So a video I watched said that you were really shy when you were young.",
+      "lastSentence": "#14 [85.64-94.0] And try to make the time that they've spent listening to you worthwhile.",
+      "trimmedMp4Path": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-04-jensen-huang-shyness-speaking.trimmed.mp4",
+      "trimmedM4aPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-04-jensen-huang-shyness-speaking.trimmed.m4a",
+      "polishedJsonPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-04-jensen-huang-shyness-speaking.polished.json",
+      "practiceQuestions": [
+        {
+          "qEn": "What did the interviewer mention about Jensen Huang in his youth?",
+          "qZh": "采访者提到詹森·黄年轻时是什么样的？",
+          "aEn": "He was really shy.",
+          "aZh": "他非常害羞。"
+        },
+        {
+          "qEn": "Does Jensen Huang consider himself completely over his shyness now?",
+          "qZh": "詹森·黄现在认为自己完全克服了害羞吗？",
+          "aEn": "No, he says he is still shy and tries to resist most invitations.",
+          "aZh": "没有，他说自己依然很害羞，并且尽量拒绝大部分邀请。"
+        }
+      ],
+      "sentences": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 6.58,
+          "speaker": "Interviewer",
+          "en": "So a video I watched said that you were really shy when you were young.",
+          "ipa": "/ʌm ənd soʊ ə ˈvɪdioʊ aɪ wɑtʃt sɛd ðæt ju wɜr ˈrɪli ʃaɪ wɛn ju wɜr jʌŋ/",
+          "zh": "嗯，我看到的一个视频说你年轻时非常害羞。",
+          "highlights": [
+            {
+              "text": "really shy",
+              "key": "really shy",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "start": 6.58,
+          "end": 17.26,
+          "speaker": "Interviewer",
+          "en": "Um do you think and I now I see you talk all the time in public do you think that you have to overcome being shy to be good at engineering?",
+          "ipa": "/ʌm du ju θɪŋk ənd aɪ naʊ aɪ si ju tɑk ɔl ðə taɪm ɪn ˈpʌblɪk əm du ju θɪŋk ðæt ju hæv tu ˈoʊvərˌkʌm ˈbiɪŋ ʃaɪ tu bi gʊd æt ˌɛndʒəˈnɪrɪŋ/",
+          "zh": "嗯，你认为，现在我看到你经常在公众场合讲话，嗯，你认为要成为一名优秀的工程师，必须克服害羞吗？",
+          "highlights": [
+            {
+              "text": "overcome",
+              "key": "overcome",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "start": 18.0,
+          "end": 28.5,
+          "speaker": "Jensen Huang",
+          "en": "Um I'm still shy, I still I still don't don't seek out public speaking opportunities, ask your mom.",
+          "ipa": "/ʌm aɪm stɪl ʃaɪ aɪ stɪl aɪ stɪl doʊnt doʊnt əm sik aʊt əm ˈpʌblɪk ˈspikɪŋ ˌɑpərˈtunətiz æsk jʊər mɑm/",
+          "zh": "嗯，我还是很害羞，我还是我还是不会去寻求公众演讲的机会，问问你妈妈就知道了。",
+          "highlights": [
+            {
+              "text": "still shy",
+              "key": "still shy",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "start": 29.0,
+          "end": 35.04,
+          "speaker": "Jensen Huang",
+          "en": "Uh she she I try to resist almost all invitations.",
+          "ipa": "/ʌ əʃi ʃi ə aɪ traɪ tu rɪˈzɪst ˈɔlmoʊst ɔl ˌɪnvəˈteɪʃənz/",
+          "zh": "呃，她，我尽量拒绝几乎所有的邀请。",
+          "highlights": [
+            {
+              "text": "resist",
+              "key": "resist",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "start": 35.04,
+          "end": 40.12,
+          "speaker": "Jensen Huang",
+          "en": "And I and so I'm I'm basically still shy.",
+          "ipa": "/ənd əm aɪ ənd soʊ aɪm aɪm ˈbeɪsɪkli stɪl ʃaɪ/",
+          "zh": "而且嗯，我，所以我基本上还是很害羞。",
+          "highlights": [
+            {
+              "text": "basically still shy",
+              "key": "basically still shy",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "start": 40.12,
+          "end": 50.64,
+          "speaker": "Jensen Huang",
+          "en": "Uh when you communicate though when you're speaking, what when you and I are speaking right now, and when I'm speaking to people I care about,.",
+          "ipa": "/ʌ wɛn ju kəˈmjunəˌkeɪt ðoʊ ə wɛn jʊər ˈspikɪŋ wʌt wɛn ju ənd aɪ ɑr ˈspikɪŋ raɪt naʊ ə ənd wɛn aɪm ˈspikɪŋ tu əm ˈpipəl aɪ kɛr əˈbaʊt/",
+          "zh": "呃，不过当你交流时，呃，当你在说话时，也就是你和我现在谈话时，呃，以及当我向我关心的其他人说话时，",
+          "highlights": [
+            {
+              "text": "communicate",
+              "key": "communicate",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "start": 50.64,
+          "end": 55.24,
+          "speaker": "Jensen Huang",
+          "en": "Uh or talking on a particular matter that's important to me,.",
+          "ipa": "/ʌ ɔr ˈtɑkɪŋ ɑn ə pərˈtɪkjələr ˈmætər ðæts ɪmˈpɔrtənt tu mi/",
+          "zh": "呃，或者谈论对我很重要的某个事情时，",
+          "highlights": [
+            {
+              "text": "important",
+              "key": "important",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "start": 55.24,
+          "end": 63.82,
+          "speaker": "Jensen Huang",
+          "en": "Uh there are several things that that that I've learned that's that's really about at the core important to communications,.",
+          "ipa": "/ʌ ðɛr ɑr ˈsɛvrəl θɪŋz ðæt ðæt ðæt aɪv lɜrnd ðæts ðæts ˈrɪli əˈbaʊt æt ðə kɔr əm ə ɪmˈpɔrtənt tu kəˌmjunəˈkeɪʃənz/",
+          "zh": "呃，我学到了几点，这些可以说是交流的核心，呃，非常重要，",
+          "highlights": [
+            {
+              "text": "core",
+              "key": "core",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "start": 63.82,
+          "end": 66.86,
+          "speaker": "Jensen Huang",
+          "en": "Which is number one, know your subject matter.",
+          "ipa": "/wɪtʃ ɪz ˈnʌmbər wʌn noʊ jʊər ˈsʌbdʒɪkt ˈmætər/",
+          "zh": "第一点是，了解你的主题内容。",
+          "highlights": [
+            {
+              "text": "subject matter",
+              "key": "subject matter",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "start": 67.4,
+          "end": 71.52,
+          "speaker": "Jensen Huang",
+          "en": "Uh don't talk about things you don't know and talk about things you do know.",
+          "ipa": "/ʌ doʊnt tɑk əˈbaʊt θɪŋz ju doʊnt noʊ ənd tɑk əˈbaʊt θɪŋz ju du noʊ/",
+          "zh": "呃，不要谈论你不知道的事情，要谈论你确实知道的事情。",
+          "highlights": [
+            {
+              "text": "do know",
+              "key": "do know",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "start": 71.88,
+          "end": 72.9,
+          "speaker": "Jensen Huang",
+          "en": "Um, but know them.",
+          "ipa": "/ʌm bʌt noʊ ðɛm/",
+          "zh": "嗯，但要真正了解它们。",
+          "highlights": [
+            {
+              "text": "know them",
+              "key": "know them",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "start": 73.14,
+          "end": 75.1,
+          "speaker": "Jensen Huang",
+          "en": "You know, know the things that you know.",
+          "ipa": "/ju noʊ noʊ ðə θɪŋz ðæt ju noʊ ənd/",
+          "zh": "你知道，了解你所了解的事情。",
+          "highlights": [
+            {
+              "text": "know the things",
+              "key": "know the things",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "start": 75.1,
+          "end": 85.64,
+          "speaker": "Jensen Huang",
+          "en": "And and then secondarily, or even more important than that, be thoughtful of the audience you're talking to and be empathetic to what's important to them,.",
+          "ipa": "/ənd ənd ðɛn ˈsɛkənˌdɛrəli əm ə or ˈivən mɔr ɪmˈpɔrtənt ðən ðæt ə bi ˈθɔtfəl ʌv ði ˈɑdiəns jʊər ˈtɑkɪŋ tu ənd bi ˈɛmpəˌθɛtɪk tu ðɛm wʌts ɪmˈpɔrtənt tu ðɛm/",
+          "zh": "然后其次，嗯，甚至更重要的是，呃，要体谅你正在交谈的观众，并对对他们重要的事情产生共鸣，",
+          "highlights": [
+            {
+              "text": "empathetic",
+              "key": "empathetic",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "start": 85.64,
+          "end": 94.0,
+          "speaker": "Jensen Huang",
+          "en": "And try to make the time that they've spent listening to you worthwhile.",
+          "ipa": "/ʌm ənd traɪ tu meɪk ðə taɪm ðæt ðeɪv spɛnt ˈlɪsənɪŋ tu ju ˈwɜrθˈwaɪl/",
+          "zh": "嗯，并努力让听你讲话的时间变得物有所值。",
+          "highlights": [
+            {
+              "text": "worthwhile",
+              "key": "worthwhile",
+              "chip": "pink"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview-05-jennie-nz-alone-music",
+      "status": "PREVIEW_UNPUBLISHED_AWAITING_LEXI_ORDER",
+      "speaker": "Jennie",
+      "region": "新西兰/韩国",
+      "title": "Jennie 回忆新西兰独居留学：差点去佛罗里达，最终回国做音乐",
+      "difficulty": 2,
+      "tags": [
+        "名人访谈",
+        "口语表达"
+      ],
+      "sourceVideoFile": "BLACKPINK Talks 'Kill This Love', Coachella & How They Formed.f616.mp4",
+      "cutIn": "06:25 (384.85s)",
+      "cutOut": "07:54 (474.0s)",
+      "duration": "01:29 (89.15s)",
+      "sentenceCount": 16,
+      "firstSentence": "#1 [0.0-7.13] Okay, Jennie, there's so much here because you guys all have your own stories.",
+      "lastSentence": "#16 [74.51-89.15] So I told my mom, mom, instead of going to a new school, why don't I just come home and do something that I would enjoy for the rest of my life? And she was supportive with it and that's how it all started.",
+      "trimmedMp4Path": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-05-jennie-nz-alone-music.trimmed.mp4",
+      "trimmedM4aPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-05-jennie-nz-alone-music.trimmed.m4a",
+      "polishedJsonPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-05-jennie-nz-alone-music.polished.json",
+      "practiceQuestions": [
+        {
+          "qEn": "How old was Jennie when she went to New Zealand?",
+          "qZh": "珍妮去新西兰时多大？",
+          "aEn": "She was 10 years old.",
+          "aZh": "她当时10岁。"
+        },
+        {
+          "qEn": "Where did Jennie's mother want to move her when she was 14 or 15?",
+          "qZh": "珍妮14或15岁时，她妈妈想让她搬到哪里？",
+          "aEn": "Her mother wanted to move her to Florida in the States.",
+          "aZh": "她妈妈想让她搬去美国的佛罗里达。"
+        },
+        {
+          "qEn": "What did Jennie decide she wanted to do instead of moving to the States?",
+          "qZh": "珍妮决定不做搬去美国的事，而是想做什么？",
+          "aEn": "She decided she wanted to do music and learn how to dance.",
+          "aZh": "她决定想做音乐并学习跳舞。"
+        }
+      ],
+      "sentences": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 7.13,
+          "speaker": "Interviewer",
+          "en": "Okay, Jennie, there's so much here because you guys all have your own stories.",
+          "ipa": "/ðɛrz soʊ mʌtʃ hɪər bɪˈkʌz juː ɡaɪz ɔl hæv jər oʊn ˈstɔriz/",
+          "zh": "好的 Jennie，这里面故事可太多了，因为你们每个人都有自己独特的经历。",
+          "highlights": [
+            {
+              "text": "own stories",
+              "key": "own stories",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "start": 7.13,
+          "end": 11.21,
+          "speaker": "Interviewer",
+          "en": "You learned English by going to school in New Zealand, right?",
+          "ipa": "/juː lɜrnd ˈɪŋɡlɪʃ baɪ ˈɡoʊɪŋ tuː skuːl ɪn nuː ˈziːlənd raɪt/",
+          "zh": "你是在新西兰上学学会英语的，对吧？",
+          "highlights": [
+            {
+              "text": "learned English",
+              "key": "learned english",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "start": 11.21,
+          "end": 19.83,
+          "speaker": "Interviewer",
+          "en": "Why go back to Korea and why dive into the trainee program and...",
+          "ipa": "/waɪ ɡoʊ bæk tuː kəˈriːə ənd waɪ daɪv ˈɪntuː ðə ˈtreɪni ˈproʊɡræm ənd/",
+          "zh": "为什么要回韩国，为什么要投入练习生项目，然后……",
+          "highlights": [
+            {
+              "text": "trainee program",
+              "key": "trainee program",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "start": 19.83,
+          "end": 21.89,
+          "speaker": "Interviewer",
+          "en": "Really, I'm assuming...",
+          "ipa": "/ˈrɪli aɪm əˈsuːmɪŋ/",
+          "zh": "真的，我猜……",
+          "highlights": []
+        },
+        {
+          "id": 5,
+          "start": 21.89,
+          "end": 24.21,
+          "speaker": "Interviewer",
+          "en": "Or did you always want to do this? Like, sorry.",
+          "ipa": "/ɔːr dɪd juː ˈɔlweɪz wɑːnt tuː duː ðɪs laɪk ˈsɑːri/",
+          "zh": "还是你一直都想做这个？抱歉。",
+          "highlights": []
+        },
+        {
+          "id": 6,
+          "start": 24.21,
+          "end": 30.29,
+          "speaker": "Jennie",
+          "en": "So, when I was in New Zealand, I lived by myself, like my family was living in Korea.",
+          "ipa": "/soʊ wɛn aɪ wʌz ɪn nuː ˈziːlənd aɪ lɪvd baɪ maɪˈsɛlf laɪk maɪ ˈfæməli wʌz ˈlɪvɪŋ ɪn kəˈriːə/",
+          "zh": "所以，当我在新西兰的时候，我是自己一个人住，我的家人当时住在韩国。",
+          "highlights": [
+            {
+              "text": "lived by myself",
+              "key": "lived by myself",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "start": 30.29,
+          "end": 31.47,
+          "speaker": "Interviewer",
+          "en": "And you were so young.",
+          "ipa": "/ənd juː wɜr soʊ jʌŋ/",
+          "zh": "而且你当时那么小。",
+          "highlights": []
+        },
+        {
+          "id": 8,
+          "start": 31.47,
+          "end": 35.21,
+          "speaker": "Jennie",
+          "en": "I know, I was I was 10 when I went there.",
+          "ipa": "/aɪ noʊ aɪ wʌz aɪ wʌz tɛn wɛn aɪ wɛnt ðɛər/",
+          "zh": "我知道，我去那里的时候才10岁。",
+          "highlights": []
+        },
+        {
+          "id": 9,
+          "start": 35.21,
+          "end": 44.0,
+          "speaker": "Jennie",
+          "en": "And so by the time I turned 14, 15, my mom wanted me to actually move move me to the States, like.",
+          "ipa": "/ənd soʊ baɪ ðə taɪm aɪ aɪ tɜrnd ˈfɔrtiːn fɪfˈtiːn maɪ mɑːm ˈwɑntɪd miː tuː ˈæktʃuəli muːv miː muːv miː tuː ðə steɪts laɪk/",
+          "zh": "所以到了我14、15岁的时候，我妈妈实际上想让我搬去美国，就像……",
+          "highlights": [
+            {
+              "text": "move to the States",
+              "key": "move to the states",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "start": 44.0,
+          "end": 47.5,
+          "speaker": "Jennie",
+          "en": "I think in Florida, yeah, she had plans to move me.",
+          "ipa": "/aɪ θɪŋk ɪn ˈflɔrɪdə jæʃ iː hæd plænz tuː muːv miː/",
+          "zh": "我想是在佛罗里达，对，她有计划让我搬过去。",
+          "highlights": [
+            {
+              "text": "Florida",
+              "key": "florida",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "start": 47.5,
+          "end": 48.81,
+          "speaker": "Interviewer",
+          "en": "Beautiful Florida.",
+          "ipa": "/ˈbjutəfəl ˈflɔrɪdə/",
+          "zh": "美丽的佛罗里达。",
+          "highlights": []
+        },
+        {
+          "id": 12,
+          "start": 48.81,
+          "end": 55.89,
+          "speaker": "Jennie",
+          "en": "Yeah, we we actually went took a trip to Florida, saw the school, just saw the place that I would live in.",
+          "ipa": "/jæ wiː wiː ˈæktʃuəli wɛnt tʊk ə trɪp tuː ˈflɔrɪdə sɔː ðə skuːl dʒʌst sɔː ðə pleɪs ðæt aɪ wʊd lɪv ɪn/",
+          "zh": "对，我们实际上去佛罗里达旅行了一趟，看了看学校，看了看我将要居住的地方。",
+          "highlights": [
+            {
+              "text": "took a trip",
+              "key": "took a trip",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "start": 55.89,
+          "end": 65.05,
+          "speaker": "Jennie",
+          "en": "And it hit me like, I don't want to live by myself in Florida, not knowing what I want to do.",
+          "ipa": "/ənd ɪt hɪt miː laɪk aɪ doʊnt wɑːnt tuː lɪv baɪ maɪˈsɛlf ɪn ˈflɔrɪdə nɑːt ˈnoʊɪŋ wʌt aɪ wɑːnt tuː duː/",
+          "zh": "然后我突然意识到：我不想一个人住在佛罗里达，还不知道自己想做什么。",
+          "highlights": [
+            {
+              "text": "live by myself",
+              "key": "live by myself",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "start": 65.05,
+          "end": 71.63,
+          "speaker": "Jennie",
+          "en": "And I started thinking what I want to do and it was really like I was like, out of nowhere I was like, I want to do music.",
+          "ipa": "/ənd aɪ ˈstɑrtɪd ˈθɪŋkɪŋ wʌt aɪ wɑːnt tuː duː ənd ɪt wʌz ˈrɪli laɪk aɪ wʌz laɪk aʊt əv ˈnoʊwɛr aɪ wʌz laɪk aɪ wɑːnt tuː duː ˈmjuːzɪk/",
+          "zh": "然后我开始思考我想做什么，真的就像是，突然之间我觉得，我想做音乐。",
+          "highlights": [
+            {
+              "text": "out of nowhere",
+              "key": "out of nowhere",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "start": 71.63,
+          "end": 74.51,
+          "speaker": "Jennie",
+          "en": "I want to like learn how to dance and stuff like that.",
+          "ipa": "/aɪ wɑːnt tuː laɪk lɜrn haʊ tuː dæns ənd stʌf laɪk ðæt/",
+          "zh": "我想学跳舞之类的东西。",
+          "highlights": []
+        },
+        {
+          "id": 16,
+          "start": 74.51,
+          "end": 89.15,
+          "speaker": "Jennie",
+          "en": "So I told my mom, mom, instead of going to a new school, why don't I just come home and do something that I would enjoy for the rest of my life? And she was supportive with it and that's how it all started.",
+          "ipa": "/soʊ aɪ toʊld maɪ mɑːm mɑːm ɪnˈstɛd əv ˈɡoʊɪŋ tuː ə nuː skuːl waɪ doʊnt aɪ dʒʌst kʌm hoʊm ənd duː ˈsʌmθɪŋ ðæt aɪ wʊd ɪnˈdʒɔɪ fɔːr ðə rɛst əv maɪ laɪf ənd ʃiː wʌz səˈpɔrtɪv wɪð ɪt ənd ðæts haʊ ˈɪt ɔl ˈstɑrtɪd/",
+          "zh": "所以我告诉妈妈，妈妈，与其去一所新学校，为什么我不能回家，做一些我余生都会喜欢的事情呢？她很支持我，这就是这一切开始的原因。",
+          "highlights": [
+            {
+              "text": "supportive",
+              "key": "supportive",
+              "chip": "indigo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview-06-jennie-english-rap",
+      "status": "PREVIEW_UNPUBLISHED_AWAITING_LEXI_ORDER",
+      "speaker": "Jennie",
+      "region": "新西兰/韩国",
+      "title": "Jennie 聊成为 Rapper 的契机：因为会说英语才开始唱说唱",
+      "difficulty": 2,
+      "tags": [
+        "名人访谈",
+        "口语表达"
+      ],
+      "sourceVideoFile": "BLACKPINK Talks 'Kill This Love', Coachella & How They Formed.f616.mp4",
+      "cutIn": "23:52 (1432.0s)",
+      "cutOut": "24:40 (1479.95s)",
+      "duration": "00:48 (47.95s)",
+      "sentenceCount": 8,
+      "firstSentence": "#1 [0.0-2.5] Now, Jennie and Lisa, you guys are the rappers, right?",
+      "lastSentence": "#8 [45.0-47.95] Rapper Jennie!",
+      "trimmedMp4Path": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-06-jennie-english-rap.trimmed.mp4",
+      "trimmedM4aPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-06-jennie-english-rap.trimmed.m4a",
+      "polishedJsonPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-06-jennie-english-rap.polished.json",
+      "practiceQuestions": [
+        {
+          "qEn": "Why did Jennie start rapping at YG?",
+          "qZh": "为什么Jennie在YG开始练习说唱？",
+          "aEn": "She started rapping because she was the only one who could speak English among the trainees.",
+          "aZh": "她开始说唱是因为她是练习生里唯一会说英语的人。"
+        },
+        {
+          "qEn": "Did Jennie sing a lot before her debut?",
+          "qZh": "Jennie在出道前唱过很多歌吗？",
+          "aEn": "No, she was mostly a rapper and only started singing around the time of their debut.",
+          "aZh": "没有，她大部分时间都是说唱担当，直到出道前后才开始唱歌。"
+        }
+      ],
+      "sentences": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 2.5,
+          "speaker": "Interviewer",
+          "en": "Now, Jennie and Lisa, you guys are the rappers, right?",
+          "ipa": "/naʊ ˈʤɛni ænd ˈlisə ju gɑːz ɑː ðə ˈræpəz raɪt/",
+          "zh": "珍妮和丽莎，你们两个是说唱担当，对吧？",
+          "highlights": [
+            {
+              "text": "rappers",
+              "key": "rappers",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "start": 2.5,
+          "end": 6.5,
+          "speaker": "Interviewer",
+          "en": "Was rapping something you've always done or is that new when you joined the group?",
+          "ipa": "/wʌz ˈræpɪŋ ˈsʌmθɪŋ juv ˈɔlweɪz dʌn ɔːr ɪz ðæt nu wɛn ju ʤɔɪnd ðə gruːp/",
+          "zh": "说唱是你一直以来都在做的事情，还是加入组合后才开始的新尝试？",
+          "highlights": [
+            {
+              "text": "rapping",
+              "key": "rapping",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "start": 7.5,
+          "end": 17.5,
+          "speaker": "Jennie",
+          "en": "For me, I started rapping because when I first came to YG, I was, I think I was the only one who could speak English in the whole within the trainees.",
+          "ipa": "/fɔːr mi aɪ ˈstɑːrtɪd ˈræpɪŋ bɪˈkʌz wɛn aɪ fɜːrst keɪm tu waɪ ˈʤiː aɪ wʌz aɪ θɪŋk aɪ wʌz ði ˈoʊnli wʌn hu kʊd spiːk ˈɪŋglɪʃ ɪn ðə hoʊl wɪˈðɪn ðə ˈtreɪniːz/",
+          "zh": "对我来说，我开始说唱是因为当我刚来YG时，我是练习生里唯一会说英语的人。",
+          "highlights": [
+            {
+              "text": "started rapping",
+              "key": "started rapping",
+              "chip": "indigo"
+            },
+            {
+              "text": "speak English",
+              "key": "speak english",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "start": 17.5,
+          "end": 26.5,
+          "speaker": "Jennie",
+          "en": "And you know, we had to cover pop songs and they always have raps and they're like, \"You could speak English pretty fast.\"",
+          "ipa": "/ænd ju noʊ wi hɛd tu ˈkʌvər pɑːp sɔːŋz ænd ðeɪ ˈɔlweɪz hæv ræps ænd ðeɪr laɪk ju kʊd spiːk ˈɪŋglɪʃ ˈprɪti fæst/",
+          "zh": "你知道的，我们得翻唱流行歌曲，里面总是有说唱歌词，他们就说：“你英语说得挺快的。”",
+          "highlights": [
+            {
+              "text": "pop songs",
+              "key": "pop songs",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "start": 26.5,
+          "end": 31.0,
+          "speaker": "Jennie",
+          "en": "\"Why don't you try rapping?\" And I'm like, \"Okay,\" and I enjoyed it as soon as I started, so...",
+          "ipa": "/waɪ doʊnt ju traɪ ˈræpɪŋ ænd aɪm laɪk oʊˈkeɪ ænd aɪ ɪnˈʤɔɪd ɪt æz suːn æz aɪ ˈstɑːrtɪd soʊ/",
+          "zh": "“你怎么不试试说唱呢？”然后我说：“好吧，”我一开始就挺喜欢的，所以……",
+          "highlights": [
+            {
+              "text": "try rapping",
+              "key": "try rapping",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "start": 31.0,
+          "end": 37.0,
+          "speaker": "Jennie",
+          "en": "Yeah, I actually haven't sang for a long time, if you really think about it.",
+          "ipa": "/jæ aɪ aɪ ˈækʧuəli ˈhævənt sæŋ fɔːr ə lɔːŋ taɪm ɪf ju ˈrɪli θɪŋk əˈbaʊt ɪt/",
+          "zh": "对，其实仔细想想，我已经很久没有唱歌了。",
+          "highlights": [
+            {
+              "text": "long time",
+              "key": "long time",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "start": 37.0,
+          "end": 45.0,
+          "speaker": "Jennie",
+          "en": "I only just started singing like when we debuted. Until then, I was just a rapper all the way.",
+          "ipa": "/aɪ ˈoʊnli ʤʌst ˈstɑːrtɪd ˈsɪŋɪŋ laɪk wɛn aɪ wɛn wi dɪˈbjuː jæ ənˈtɪl ðɛn aɪ wʌz ʤʌst ˈræpər ɔːl ðoʊz/",
+          "zh": "我直到我们出道才开始唱歌，在那之前我一直都是纯粹的说唱担当。",
+          "highlights": [
+            {
+              "text": "debut",
+              "key": "debut",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "start": 45.0,
+          "end": 47.95,
+          "speaker": "Interviewer",
+          "en": "Rapper Jennie!",
+          "ipa": "/ˈræpər ˈdʒeni/",
+          "zh": "说唱担当 Jennie！",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "interview-07-jennie-wired-nz-marmite-solo",
+      "status": "PREVIEW_UNPUBLISHED_AWAITING_LEXI_ORDER",
+      "speaker": "Jennie",
+      "region": "新西兰/韩国",
+      "title": "Jennie 快问快答：新西兰口音、Marmite 酱与 Solo 舞台",
+      "difficulty": 2,
+      "tags": [
+        "名人访谈",
+        "口语表达"
+      ],
+      "sourceVideoFile": "JENNIE Answers The Web's Most Searched Questions ｜ WIRED.f616.mp4",
+      "cutIn": "00:34 (34.0s)",
+      "cutOut": "01:50 (110.0s)",
+      "duration": "01:16 (76.0s)",
+      "sentenceCount": 14,
+      "firstSentence": "#1 [0.0-2.74] When did Jennie move to New Zealand?",
+      "lastSentence": "#14 [69.26-73.36] So I think that's the biggest difference that I have.",
+      "trimmedMp4Path": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-07-jennie-wired-nz-marmite-solo.trimmed.mp4",
+      "trimmedM4aPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-07-jennie-wired-nz-marmite-solo.trimmed.m4a",
+      "polishedJsonPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-07-jennie-wired-nz-marmite-solo.polished.json",
+      "practiceQuestions": [
+        {
+          "qEn": "How long did Jennie live in New Zealand?",
+          "qZh": "珍妮在新西兰住了多久？",
+          "aEn": "She lived there for five years, from age 9 to 14.",
+          "aZh": "她在那里住了五年，从9岁到14岁。"
+        },
+        {
+          "qEn": "What did Jennie and Rosie get excited about in certain cities?",
+          "qZh": "珍妮和罗茜在某些城市对什么感到兴奋？",
+          "aEn": "They got excited when they were provided with Vegemite or Marmite.",
+          "aZh": "当他们被提供维吉麦或马麦酱时，她们会感到很兴奋。"
+        },
+        {
+          "qEn": "According to Jennie, what is the biggest difference working as a solo artist?",
+          "qZh": "根据珍妮的说法，作为solo歌手工作最大的不同是什么？",
+          "aEn": "She has to make all of the decisions on her own instead of discussing everything with the group.",
+          "aZh": "她必须自己做所有决定，而不是和组合里的其他人一起商量。"
+        }
+      ],
+      "sentences": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 2.74,
+          "speaker": "Interviewer",
+          "en": "When did Jennie move to New Zealand?",
+          "ipa": "/wɛn dɪd ˈʤɛni muv tu nu ˈzilənd/",
+          "zh": "珍妮是什么时候搬到新西兰的？",
+          "highlights": [
+            {
+              "text": "move to",
+              "key": "move to",
+              "chip": "indigo"
+            },
+            {
+              "text": "New Zealand",
+              "key": "new zealand",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "start": 3.0,
+          "end": 6.88,
+          "speaker": "Jennie",
+          "en": "I was nine, and I was there till 14.",
+          "ipa": "/aɪ wəz naɪn, ænd aɪ wəz ðɛr tɪl ˈfɔrtin./",
+          "zh": "我九岁去的，在那里待到了十四岁。",
+          "highlights": [
+            {
+              "text": "nine",
+              "key": "nine",
+              "chip": "teal"
+            },
+            {
+              "text": "14",
+              "key": "14",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "start": 7.02,
+          "end": 8.32,
+          "speaker": "Jennie",
+          "en": "So five good years.",
+          "ipa": "/so faɪv gʊd jɪrz./",
+          "zh": "所以是美好的五年。",
+          "highlights": [
+            {
+              "text": "five good years",
+              "key": "five good years",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "start": 8.58,
+          "end": 16.58,
+          "speaker": "Jennie",
+          "en": "See, I used to have a stronger accent, but it's completely gone.",
+          "ipa": "/si, aɪ juzd tu hæv ə ˈstrɔŋgər ˈæksənt, bʌt ɪts kəmˈplitli gɔn./",
+          "zh": "你看，我以前口音很重，但现在完全没有了。",
+          "highlights": [
+            {
+              "text": "stronger accent",
+              "key": "stronger accent",
+              "chip": "teal"
+            },
+            {
+              "text": "completely gone",
+              "key": "completely gone",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "start": 16.58,
+          "end": 20.52,
+          "speaker": "Jennie",
+          "en": "I think this is a New Zealand thing about me.",
+          "ipa": "/aɪ θɪŋk ðɪs ɪz ə nu ˈzilənd θɪŋ əˈbaʊt mi./",
+          "zh": "我想这是关于我的一个新西兰特色吧。",
+          "highlights": [
+            {
+              "text": "New Zealand thing",
+              "key": "new zealand thing",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "start": 20.52,
+          "end": 29.34,
+          "speaker": "Jennie",
+          "en": "So me and Rosie were the only excited people when we were in a city and they sort provide us with Vegemite or Marmite.",
+          "ipa": "/so mi ænd ˈrozi wɜr ði ˈoʊnli ɪkˈsaɪtəd ˈpipəl wɛn wi wɜr ɪn ə ˈsɪti ænd ðeɪ sɔrt prəˈvaɪd ʌs wɪð ˈvɛʤɪˌmaɪt ɔr ˈmɑrˌmaɪt./",
+          "zh": "所以我和罗茜是仅有的两个很兴奋的人，当我们身处某个城市，而他们提供给我们维吉麦或马麦酱时。",
+          "highlights": [
+            {
+              "text": "excited people",
+              "key": "excited people",
+              "chip": "indigo"
+            },
+            {
+              "text": "Vegemite",
+              "key": "vegemite",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "start": 29.66,
+          "end": 33.54,
+          "speaker": "Interviewer",
+          "en": "When did Jennie release solo?",
+          "ipa": "/wɛn dɪd ˈʤɛni riˈlis ˈsoʊloʊ?/",
+          "zh": "珍妮什么时候发行了个人单曲？",
+          "highlights": [
+            {
+              "text": "release solo",
+              "key": "release solo",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "start": 33.82,
+          "end": 35.68,
+          "speaker": "Jennie",
+          "en": "Five years ago, I want to say.",
+          "ipa": "/faɪv jɪrz əˈgoʊ, aɪ wɑnt tu seɪ./",
+          "zh": "我想说是五年前吧。",
+          "highlights": [
+            {
+              "text": "Five years ago",
+              "key": "five years ago",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "start": 36.02,
+          "end": 40.0,
+          "speaker": "Jennie",
+          "en": "Six years ago, five years ago? I think five, my bets on five.",
+          "ipa": "/sɪks jɪrz əˈgoʊ, faɪv jɪrz əˈgoʊ? aɪ θɪŋk faɪv, maɪ bɛts ɑn faɪv./",
+          "zh": "六年前，五年前？我觉得是五年，我赌五年。",
+          "highlights": [
+            {
+              "text": "bets on five",
+              "key": "bets on five",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "start": 40.24,
+          "end": 52.94,
+          "speaker": "Jennie",
+          "en": "It feels like it was such a long time ago, cuz while preparing for mantra, I looked back at the videos and photos of me from back in the solo days, and I was like, wow, I look so young and cute.",
+          "ipa": "/ɪt filz laɪk ɪt wəz sʌʧ ə lɔŋ taɪm əˈgoʊ, kəz waɪl prɪˈpɛrɪŋ fɔr ˈmɑntrə, aɪ lʊkt bæk æt ði ˈvɪdioʊz ænd ˈfoʊtoʊz ʌv mi frəm bæk ɪn ðə ˈsoʊloʊ deɪz, ænd aɪ wəz laɪk, waʊ, aɪ lʊk soʊ jʌŋ ænd kyut./",
+          "zh": "感觉已经是好久以前的事了，因为在准备《Mantra》时，我翻看了自己当年solo时期的视频和照片，心想：哇，我看起来好年轻好可爱。",
+          "highlights": [
+            {
+              "text": "long time ago",
+              "key": "long time ago",
+              "chip": "pink"
+            },
+            {
+              "text": "young and cute",
+              "key": "young and cute",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "start": 53.16,
+          "end": 55.56,
+          "speaker": "Jennie",
+          "en": "It's definitely different working as a solo artist.",
+          "ipa": "/ɪts ˈdɛfənətli ˈdɪfrənt ˈwɜrkɪŋ æz ə ˈsoʊloʊ ˈɑrtɪst./",
+          "zh": "作为独唱艺人工作确实很不一样。",
+          "highlights": [
+            {
+              "text": "solo artist",
+              "key": "solo artist",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "start": 55.84,
+          "end": 59.24,
+          "speaker": "Jennie",
+          "en": "I'm in this studio alone, first of all.",
+          "ipa": "/aɪm ɪn ðɪs ˈstudioʊ əˈloʊn, fɜrst əv ɔl./",
+          "zh": "首先，我一个人在这个录音室里。",
+          "highlights": [
+            {
+              "text": "studio alone",
+              "key": "studio alone",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "start": 59.24,
+          "end": 69.26,
+          "speaker": "Jennie",
+          "en": "When I was working on the group stuff, I talked a lot with the girls on if we all agree and relate to the song a lot, but now I have to make all of those decisions on my own.",
+          "ipa": "/wɛn aɪ wəz ˈwɜrkɪŋ ɑn ðə grup stʌf, aɪ tɔkt ə lɔt wɪð ðə gɜrlz ɑn ɪf wi ɔl əˈgri ænd rɪˈleɪt tu ðə sɔŋ ə lɔt, bʌt naʊ aɪ hæv tu meɪk ɔl əv ðoʊz dɪˈsɪʒənz ɑn maɪ oʊn./",
+          "zh": "以前做组合的时候，我会和女孩们聊很多，看大家是否都赞同并且对歌曲很有共鸣，但现在我必须自己做所有这些决定。",
+          "highlights": [
+            {
+              "text": "group stuff",
+              "key": "group stuff",
+              "chip": "teal"
+            },
+            {
+              "text": "on my own",
+              "key": "on my own",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "start": 69.26,
+          "end": 73.36,
+          "speaker": "Jennie",
+          "en": "So I think that's the biggest difference that I have.",
+          "ipa": "/soʊ aɪ θɪŋk ðæts ðə ˈbɪgəst ˈdɪfrəns ðæt aɪ hæv./",
+          "zh": "所以我觉得这是我面临的最大区别。",
+          "highlights": [
+            {
+              "text": "biggest difference",
+              "key": "biggest difference",
+              "chip": "pink"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview-08-simone-biles-paris-tom-cruise",
+      "status": "PREVIEW_ONLY_AWAITING_AUTH",
+      "speaker": "Simone Biles",
+      "region": "美国",
+      "title": "Simone Biles 聊巴黎奥运意义与闭幕式把会旗交给汤姆·克鲁斯",
+      "difficulty": 2,
+      "tags": [
+        "名人访谈",
+        "口语表达"
+      ],
+      "sourceVideoFile": "Simone Biles Talks Possibility of Competing in 2028 Olympics and Meeting Tom Cruise in Paris.f137.mp4",
+      "cutIn": "00:23 (23.49s)",
+      "cutOut": "02:12 (132.0s)",
+      "duration": "01:49 (108.51s)",
+      "sentenceCount": 28,
+      "firstSentence": "#1 [0.0-4.42] Has it sunken in? What did it mean to you? What did the Paris Olympics mean to you?",
+      "lastSentence": "#28 [104.84-108.51] No one would do that. Yeah, that's frightening.",
+      "trimmedMp4Path": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-08-simone-biles-paris-tom-cruise.trimmed.mp4",
+      "trimmedM4aPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-08-simone-biles-paris-tom-cruise.trimmed.m4a",
+      "polishedJsonPath": "/Volumes/刚认识不久/JustMet英语素材库/episodes/trimmed/interview-08-simone-biles-paris-tom-cruise.polished.json",
+      "practiceQuestions": [
+        {
+          "qEn": "How did Simone Biles describe the Paris Olympics compared to Tokyo?",
+          "qZh": "西蒙·拜尔斯如何形容巴黎奥运会与东京奥运会的对比？",
+          "aEn": "She said it meant everything, especially coming off of Tokyo where she didn't have her best performance.",
+          "aZh": "她说这意味著一切，尤其是刚经历了她在东京未能发挥出最好水平的奥运会。"
+        },
+        {
+          "qEn": "Why was Simone Biles nervous during the closing ceremonies?",
+          "qZh": "为什么西蒙·拜尔斯在闭幕式上会感到紧张？",
+          "aEn": "She was nervous about handing the flag off to Tom Cruise without making a mistake.",
+          "aZh": "她紧张是因为要把旗帜交接给汤姆·克鲁斯，害怕出错。"
+        },
+        {
+          "qEn": "What did Tom Cruise bring when he met Simone Biles?",
+          "qZh": "汤姆·克鲁斯见西蒙·2拜尔斯时带了什么？",
+          "aEn": "He brought flowers.",
+          "aZh": "他带了花。"
+        }
+      ],
+      "sentences": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 4.42,
+          "speaker": "Simone Biles",
+          "en": "Has it sunken in? What did it mean to you? What did the Paris Olympics mean to you?",
+          "ipa": "/hæz ɪt ˈsʌŋkən ɪn? wʌt dɪd ɪt min tu ju? wʌt dɪd ðə ˈpærɪs oʊˈlɪmpɪks min tu ju?/",
+          "zh": "它沉淀下来了吗？这对你意味着什么？巴黎奥运会对你意味着什么？",
+          "highlights": [
+            {
+              "text": "sunken in",
+              "key": "sunken in",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "start": 4.42,
+          "end": 7.16,
+          "speaker": "Simone Biles",
+          "en": "It meant everything, especially coming off of Tokyo.",
+          "ipa": "/ɪt mɛnt ˈɛvriˌθɪŋ, ɪˈspɛʃəli ˈkʌmɪŋ ɔf ʌv ˈtoʊkyoʊ./",
+          "zh": "这意味著一切，尤其是刚经历了东京奥运会。",
+          "highlights": [
+            {
+              "text": "meant everything",
+              "key": "meant everything",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "start": 7.16,
+          "end": 10.86,
+          "speaker": "Simone Biles",
+          "en": "Um, that wasn't my best performance or how I planned for it to go.",
+          "ipa": "/ʌm, ðæt ˈwɑzənt maɪ bɛst pərˈfɔrməns ɔr haʊ aɪ plænd fər ɪt tu goʊ./",
+          "zh": "嗯，那不是我最好的表现，也不是我计划中的样子。",
+          "highlights": [
+            {
+              "text": "best performance",
+              "key": "best performance",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "start": 10.86,
+          "end": 17.1,
+          "speaker": "Simone Biles",
+          "en": "So, to put the work in mentally and physically and to be back on a world stage, competing at an Olympic Games, meant everything to me.",
+          "ipa": "/soʊ, tu pʊt ðə wɜrk ɪn ˈmɛntəli ənd ˈfɪzɪkli ənd tu bi bæk ɑn ə wɜrld steɪʤ, kəmˈpitɪŋ æt ən oʊˈlɪmpɪk geɪmz mɛnt ˈɛvriˌθɪŋ tu mi./",
+          "zh": "所以，在精神和身体上付出努力，重新回到世界舞台，在奥运会上竞技，对我来说意味著一切。",
+          "highlights": [
+            {
+              "text": "world stage",
+              "key": "world stage",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "start": 17.1,
+          "end": 20.4,
+          "speaker": "Interviewer",
+          "en": "Did it feel like double the pressure because of Tokyo and now you?",
+          "ipa": "/dɪd ɪt fil laɪk ˈdʌbəl ðə ˈprɛʃər bɪˈkʌz ʌv ˈtoʊkyoʊ ənd naʊ ju?/",
+          "zh": "是因为东京奥运会以及现在的你，让你觉得压力倍增吗？",
+          "highlights": [
+            {
+              "text": "double the pressure",
+              "key": "double the pressure",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "start": 20.4,
+          "end": 26.94,
+          "speaker": "Simone Biles",
+          "en": "Not necessarily, I feel like the only pressure I put was on myself because I knew I could do it and I wanted to do it so bad.",
+          "ipa": "/nɑt ˈnɛsəˌsɛrəli, aɪ fil laɪk ði ˈoʊnli ˈprɛʃər aɪ pʊt wʌz ɑn maɪˈsɛlf bɪˈkʌz aɪ nu aɪ kʊd du ɪt ənd aɪ ˈwɑntɪd tu du ɪt soʊ bæd./",
+          "zh": "倒也不见得，我觉得我唯一的压力是施加在自己身上的，因为我知道我能做到，而且我非常渴望做到。",
+          "highlights": [
+            {
+              "text": "on myself",
+              "key": "on myself",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "start": 26.94,
+          "end": 31.36,
+          "speaker": "Simone Biles",
+          "en": "So that was like the only stressful part, everything else was how it was supposed to be.",
+          "ipa": "/soʊ ðæt wʌz laɪk ði ˈoʊnli ˈstrɛsfəl pɑrt, ˈɛvriˌθɪŋ ɛls wʌz haʊ ɪt wʌz səˈpoʊzd tu bi./",
+          "zh": "所以那是唯一让人感到压力的地方，其他一切都按部就班。",
+          "highlights": [
+            {
+              "text": "stressful part",
+              "key": "stressful part",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "start": 31.36,
+          "end": 33.12,
+          "speaker": "Interviewer",
+          "en": "You are so fun to watch.",
+          "ipa": "/ju ɑr soʊ fʌn tu wɑtʃ./",
+          "zh": "看你比赛太有趣了。",
+          "highlights": [
+            {
+              "text": "so fun",
+              "key": "so fun",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "start": 33.12,
+          "end": 35.7,
+          "speaker": "Interviewer",
+          "en": "It is amazing to watch you do anything.",
+          "ipa": "/ɪt ɪz əˈmeɪzɪŋ tu wɑtʃ ju du ˈɛniˌθɪŋ./",
+          "zh": "看你做什么都觉得惊艳。",
+          "highlights": [
+            {
+              "text": "amazing",
+              "key": "amazing",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "start": 35.7,
+          "end": 39.84,
+          "speaker": "Interviewer",
+          "en": "But I I saw you posted this, this is you with your 11 Olympic medals.",
+          "ipa": "/bʌt aɪ aɪ aɪ sɔ ju ˈpoʊstɪd ðɪs, ðɪs ɪz ju wɪð jʊr ɪˈlɛvən oʊˈlɪmpɪk ˈmɛdəlz./",
+          "zh": "不过我看到你发了这张照片，这是你带着11枚奥运奖牌。",
+          "highlights": [
+            {
+              "text": "Olympic medals",
+              "key": "olympic medals",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "start": 44.84,
+          "end": 48.24,
+          "speaker": "Interviewer",
+          "en": "And it says in the bottom, six-year-old me would be proud.",
+          "ipa": "/ænd ɪt sɛz ɪn ðə ˈbɑtəm, sɪks-jɪr-oʊld mi wʊd bi praʊd./",
+          "zh": "底下写著：六岁的小我一定会为我骄傲。",
+          "highlights": [
+            {
+              "text": "would be proud",
+              "key": "would be proud",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "start": 49.96,
+          "end": 51.42,
+          "speaker": "Interviewer",
+          "en": "I mean, she would be proud.",
+          "ipa": "/aɪ min, ʃi wʊd bi praʊd./",
+          "zh": "我的意思是，她一定会骄傲的。",
+          "highlights": [
+            {
+              "text": "she would be proud",
+              "key": "she would be proud",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "start": 51.42,
+          "end": 57.34,
+          "speaker": "Simone Biles",
+          "en": "Yes, she was definitely accomplished more than my wildest dreams whenever I first started gymnastics.",
+          "ipa": "/jɛs, ʃi wʌz ˈdɛfənətli əˈkɑmplɪʃt mɔr ðɛn maɪ ˈwaɪldɪst drimz wɛnˈɛvər aɪ fɜrst ˈstɑrtɪd ʤɪmˈnæstɪks./",
+          "zh": "是的，她取得的成就绝对超过了我刚开始练体操时最狂野的梦想。",
+          "highlights": [
+            {
+              "text": "wildest dreams",
+              "key": "wildest dreams",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "start": 57.8,
+          "end": 60.08,
+          "speaker": "Interviewer",
+          "en": "You you did a great job, the team did a great job.",
+          "ipa": "/ju ju dɪd ə greɪt ʤɑb, ðə tim dɪd ə greɪt ʤɑb./",
+          "zh": "你们表现得太棒了，团队表现得太棒了。",
+          "highlights": [
+            {
+              "text": "great job",
+              "key": "great job",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "start": 60.08,
+          "end": 65.06,
+          "speaker": "Interviewer",
+          "en": "But also then you got to carry the flag at closing ceremonies and hand it off to Tom Cruise.",
+          "ipa": "/bʌt ˈɔlsoʊ ðɛn ju gɑt tu ˈkæri ðə flæg æt ˈkloʊzɪŋ ˈsɛrəˌmoʊniz ænd hænd ɪt ɔf tu tɑm kruz./",
+          "zh": "而且后来你还在闭幕式上举着旗帜，并把它交给了汤姆·克鲁斯。",
+          "highlights": [
+            {
+              "text": "closing ceremonies",
+              "key": "closing ceremonies",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "start": 65.06,
+          "end": 70.54,
+          "speaker": "Interviewer",
+          "en": "And I was thinking, and I was just go, he's the biggest movie star.",
+          "ipa": "/ænd aɪ wʌz ˈθɪŋkɪŋ, ænd aɪ wʌz ʤʌst goʊ, hiz ðə ˈbɪgɪst ˈmuvi stɑr./",
+          "zh": "当时我在想，他可是超级大牌电影明星。",
+          "highlights": [
+            {
+              "text": "biggest movie star",
+              "key": "biggest movie star",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "start": 70.54,
+          "end": 75.2,
+          "speaker": "Interviewer",
+          "en": "I was just like, I know you have pressures on you to do your performance, but that is a little pressure right there to hand off.",
+          "ipa": "/aɪ wʌz ʤʌst laɪk, aɪ noʊ ju hæv ˈprɛʃərz ɑn ju tu du jʊr pərˈfɔrməns, bʌt ðæt ɪz ə ˈlɪtəl ˈprɛʃər raɪt ðɛr tu hænd ɔf./",
+          "zh": "我当时就想，我知道你要承受表演的压力，但把旗帜交出去也是不小的压力。",
+          "highlights": [
+            {
+              "text": "little pressure",
+              "key": "little pressure",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "start": 75.54,
+          "end": 79.02,
+          "speaker": "Simone Biles",
+          "en": "And I'm always tripping, falling downstairs like bad for me.",
+          "ipa": "/ænd aɪm ˈɔlweɪz ˈtrɪpɪŋ, ˈfɔlɪŋ ˈdaʊnˌstɛrz laɪk bæd fər mi./",
+          "zh": "而且我总是笨手笨脚的，下楼梯都会摔倒，对我来说太糟糕了。",
+          "highlights": [
+            {
+              "text": "falling downstairs",
+              "key": "falling downstairs",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "start": 79.02,
+          "end": 87.16,
+          "speaker": "Simone Biles",
+          "en": "So actually that's like the most nervous I was for the whole entire Olympics, I was like, oh god, I have to hand the flag up like, don't mess it up, don't mess it up. I was terrified.",
+          "ipa": "/soʊ ˈækʧuəli ðæts laɪk ðə moʊst ˈnɜrvəs aɪ wʌz fər ðə hoʊl ɪnˈtaɪər oʊˈlɪmpɪks, aɪ wʌz laɪk, oʊ gɑd, aɪ hæv tu hænd ðə flæg ʌp laɪk, doʊnt mɛs ɪt ʌp, doʊnt mɛs ɪt ʌp. aɪ wʌz ˈtɛrəˌfaɪd./",
+          "zh": "所以实际上那是我整个奥运会期间最紧张的一次，我心想，天哪，我得把旗帜递过去，千万别搞砸了。我当时吓坏了。",
+          "highlights": [
+            {
+              "text": "most nervous",
+              "key": "most nervous",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "start": 87.46,
+          "end": 88.1,
+          "speaker": "Interviewer",
+          "en": "Yeah.",
+          "ipa": "/jæ./",
+          "zh": "是啊。",
+          "highlights": [
+            {
+              "text": "Yeah",
+              "key": "yeah",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "start": 88.1,
+          "end": 89.14,
+          "speaker": "Interviewer",
+          "en": "How was Tom Cruise?",
+          "ipa": "/haʊ wʌz tɑm kruz?/",
+          "zh": "汤姆·克鲁斯人怎么样？",
+          "highlights": [
+            {
+              "text": "Tom Cruise",
+              "key": "tom cruise",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "start": 89.14,
+          "end": 91.96,
+          "speaker": "Simone Biles",
+          "en": "He was so sweet, so nice, down to earth.",
+          "ipa": "/hi wʌz soʊ swit, soʊ naɪs, daʊn tu ɜrθ./",
+          "zh": "他超级温柔、人很好，而且非常脚踏实地。",
+          "highlights": [
+            {
+              "text": "down to earth",
+              "key": "down to earth",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "start": 91.96,
+          "end": 95.66,
+          "speaker": "Simone Biles",
+          "en": "He brought flowers, he got to meet my mom, and it was just like so much fun.",
+          "ipa": "/hi brɔt ˈflaʊərz, hi gɑt tu mit maɪ mɑm, ənd ɪt wʌz ʤʌst laɪk soʊ mʌʧ fʌn./",
+          "zh": "他带了花，还见了我妈妈，真的太开心了。",
+          "highlights": [
+            {
+              "text": "brought flowers",
+              "key": "brought flowers",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "start": 95.66,
+          "end": 98.4,
+          "speaker": "Interviewer",
+          "en": "He's a good guy, he's got great stories.",
+          "ipa": "/hiz ə gʊd gaɪ, hiz gɑt greɪt ˈstɔriz./",
+          "zh": "他是个好人，有很多精彩的故事。",
+          "highlights": [
+            {
+              "text": "good guy",
+              "key": "good guy",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "start": 98.4,
+          "end": 101.96,
+          "speaker": "Interviewer",
+          "en": "I mean, I can't even believe he jumped, of course, he had to repel.",
+          "ipa": "/aɪ min, aɪ aɪ kænt ˈivən bɪˈliv hi ʤʌmpt, əv kɔrs, hi hæd tu rɪˈpɛl./",
+          "zh": "我是说，我简直不敢相信他跳伞了，当然，他得速降。",
+          "highlights": [
+            {
+              "text": "jumped",
+              "key": "jumped",
+              "chip": "indigo"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "start": 101.96,
+          "end": 103.1,
+          "speaker": "Simone Biles",
+          "en": "Yeah, I wouldn't do that.",
+          "ipa": "/jæ, aɪ ˈwʊdənt du ðæt./",
+          "zh": "对啊，我可不会那样做。",
+          "highlights": [
+            {
+              "text": "wouldn't do that",
+              "key": "wouldn't do that",
+              "chip": "pink"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "start": 103.82,
+          "end": 104.84,
+          "speaker": "Interviewer",
+          "en": "You wouldn't do that, right?",
+          "ipa": "/ju ˈwʊdənt du ðæt, raɪt?/",
+          "zh": "你不会那样做，对吧？",
+          "highlights": [
+            {
+              "text": "wouldn't do that",
+              "key": "wouldn't do that",
+              "chip": "teal"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "start": 104.84,
+          "end": 108.51,
+          "speaker": "Interviewer",
+          "en": "No one would do that. Yeah, that's frightening.",
+          "ipa": "/noʊ wʌn wʊd du ðæt. jæ, ðæts ˈfraɪtənɪŋ./",
+          "zh": "没人会那样做。对啊，那太吓人了。",
+          "highlights": [
+            {
+              "text": "frightening",
+              "key": "frightening",
+              "chip": "indigo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
