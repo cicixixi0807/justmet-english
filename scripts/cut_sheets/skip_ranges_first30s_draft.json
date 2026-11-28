@@ -1,0 +1,2636 @@
+{
+  "status": "READONLY_DRAFT_AWAITING_APPROVAL",
+  "sourceMediaModified": false,
+  "summary": {
+    "episodesWithSkipRanges": 63,
+    "totalSkipSec": 1474.09,
+    "first30sSegmentCount": 34,
+    "first30sGe2sCount": 25,
+    "ariannitaPrioritySegments": [
+      {
+        "number": "EP 80",
+        "id": "local-56-trimmed-56-part1",
+        "speaker": "Ariannita la Gringa",
+        "title": "滑雪场必备英语：租雪具、买雪票与初上雪道",
+        "startSec": 21.9,
+        "endSec": 35.4,
+        "durationSec": 13.5,
+        "ge2s": true,
+        "priorityCheck": "ARIANNITA_PRIORITY",
+        "prevSentence": "#5 [16.45-21.90] Let's start skiing.",
+        "nextSentence": "#6 [35.40-39.97] Before skiing on the mountain, you need to buy a lift ticket."
+      },
+      {
+        "number": "EP 36",
+        "id": "local-19-trimmed-19-part3",
+        "speaker": "Ariannita la Gringa",
+        "title": "乐高玩具店、柜台结账与商场防盗词汇",
+        "startSec": 7.38,
+        "endSec": 19.5,
+        "durationSec": 12.12,
+        "ge2s": true,
+        "priorityCheck": "ARIANNITA_PRIORITY",
+        "prevSentence": "#1 [0.25-7.38] So this is a toy store for kids or for adults, so let's see what is the most expensive Lego set inside.",
+        "nextSentence": "#2 [19.50-31.49] I wasn't allowed to record inside the LEGO store (the toy store), but I found one of their most expensive sets of Legos (The Eiffel Tower) at $629.99."
+      },
+      {
+        "number": "EP 74",
+        "id": "local-49-trimmed-49-part2",
+        "speaker": "Ariannita la Gringa",
+        "title": "美式快餐开箱试吃与口味评价地道表达",
+        "startSec": 13.4,
+        "endSec": 20.92,
+        "durationSec": 7.52,
+        "ge2s": true,
+        "priorityCheck": "CONFIRMED_READY",
+        "prevSentence": "#1 [0.25-13.40] Okay guys, I just finished my meal and wow, I am so stuffed!",
+        "nextSentence": "#2 [20.92-44.61] I am so full of all the food that I ate inside the store, but now I'm going to show you the third way to order food and that is through the drive-thru, which I actually don't know what I'm going to order because I'm full, so maybe I'll order something for my dad."
+      },
+      {
+        "number": "EP 76",
+        "id": "local-52-trimmed-52-part1",
+        "speaker": "Ariannita la Gringa",
+        "title": "美国街头采访：你是做什么工作的？（职场日常篇）",
+        "startSec": 13.19,
+        "endSec": 20.35,
+        "durationSec": 7.16,
+        "ge2s": true,
+        "priorityCheck": "ARIANNITA_PRIORITY",
+        "prevSentence": "#4 [12.42-13.19] Let's go!",
+        "nextSentence": "#5 [20.35-21.51] Hi, what's your name?"
+      }
+    ]
+  },
+  "first30sSegments": [
+    {
+      "number": "EP 04",
+      "id": "local-24-Living-Alone-Diaries-trimmed",
+      "speaker": "Michelle Choi",
+      "title": "Living Alone Diaries（独居女孩的静谧晨间与午后）",
+      "startSec": 13.92,
+      "endSec": 29.98,
+      "durationSec": 16.06,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#3 [7.89-13.92] So I'm gonna quickly get ready, drop off Dobby at Ivan's, and then go to the grocery market!",
+      "nextSentence": "#4 [29.98-33.07] I'll share with you guys what I am feeding Dobby because it's changed."
+    },
+    {
+      "number": "EP 80",
+      "id": "local-56-trimmed-56-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "滑雪场必备英语：租雪具、买雪票与初上雪道",
+      "startSec": 21.9,
+      "endSec": 35.4,
+      "durationSec": 13.5,
+      "ge2s": true,
+      "priorityCheck": "ARIANNITA_PRIORITY",
+      "prevSentence": "#5 [16.45-21.90] Let's start skiing.",
+      "nextSentence": "#6 [35.40-39.97] Before skiing on the mountain, you need to buy a lift ticket."
+    },
+    {
+      "number": "EP 09",
+      "id": "local-1-Celeste-Headlee-10-ways-to-have-",
+      "speaker": "Celeste Headlee",
+      "title": "Celeste Headlee： 10 ways to have a better conversation ｜ TED",
+      "startSec": 0.0,
+      "endSec": 12.83,
+      "durationSec": 12.83,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "片头 (0.00)",
+      "nextSentence": "#1 [12.83-17.49] All right, I want to see a show of hands: how many of you have unfriended someone on Facebook?"
+    },
+    {
+      "number": "EP 36",
+      "id": "local-19-trimmed-19-part3",
+      "speaker": "Ariannita la Gringa",
+      "title": "乐高玩具店、柜台结账与商场防盗词汇",
+      "startSec": 7.38,
+      "endSec": 19.5,
+      "durationSec": 12.12,
+      "ge2s": true,
+      "priorityCheck": "ARIANNITA_PRIORITY",
+      "prevSentence": "#1 [0.25-7.38] So this is a toy store for kids or for adults, so let's see what is the most expensive Lego set inside.",
+      "nextSentence": "#2 [19.50-31.49] I wasn't allowed to record inside the LEGO store (the toy store), but I found one of their most expensive sets of Legos (The Eiffel Tower) at $629.99."
+    },
+    {
+      "number": "EP 16",
+      "id": "local-25-Living-Alone-Diaries-trimmed",
+      "speaker": "Michelle Choi",
+      "title": "Living Alone Diaries（独居一日三餐与蒜香意面）",
+      "startSec": 17.8,
+      "endSec": 29.85,
+      "durationSec": 12.05,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#2 [8.65-17.80] Gosh, I don't even know where to start.",
+      "nextSentence": "#3 [29.85-35.30] Uh, so, now."
+    },
+    {
+      "number": "EP 35",
+      "id": "local-50-trimmed-50-part1",
+      "speaker": "Sydney Serena",
+      "title": "高效充实的一天：晨间健身课、整理房间与咖啡馆办公",
+      "startSec": 0.0,
+      "endSec": 11.02,
+      "durationSec": 11.02,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "片头 (0.00)",
+      "nextSentence": "#1 [11.02-13.78] Hey guys, good morning and welcome back!"
+    },
+    {
+      "number": "EP 12",
+      "id": "local-9-Learn-How-To-Talk-About-Your-Dai",
+      "speaker": "Bob the Canadian",
+      "title": "Learn How To Talk About Your Daily Routine in English by Watching Me Act Out Mine",
+      "startSec": 0.0,
+      "endSec": 10.51,
+      "durationSec": 10.51,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "片头 (0.00)",
+      "nextSentence": "#1 [10.51-11.97] Hi, Bob the Canadian here."
+    },
+    {
+      "number": "EP 02",
+      "id": "local-8-73-Questions-with-Victoria-Beckh",
+      "speaker": "Victoria Beckham",
+      "title": "73 Questions with Victoria Beckham ｜ Vogue",
+      "startSec": 0.0,
+      "endSec": 9.16,
+      "durationSec": 9.16,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "片头 (0.00)",
+      "nextSentence": "#1 [9.16-13.59] Hey, Daniel, how are you? I'm good. How are you? Good, Victoria, good. Hey, it's good to see you."
+    },
+    {
+      "number": "EP 55",
+      "id": "local-63-ABG-part2",
+      "speaker": "Michelle Choi",
+      "title": "ABG 欧美妆全流程教学：修容、烘焙定妆与惊艳变装",
+      "startSec": 3.85,
+      "endSec": 12.75,
+      "durationSec": 8.9,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#1 [0.25-3.85] [laughing] Aww yes!",
+      "nextSentence": "#2 [12.75-15.99] So I got some new makeup."
+    },
+    {
+      "number": "EP 07",
+      "id": "local-4-What-is-imposter-syndrome-and-ho",
+      "speaker": "Elizabeth Cox",
+      "title": "What is imposter syndrome and how can you combat it？ - Elizabeth Cox",
+      "startSec": 0.0,
+      "endSec": 7.75,
+      "durationSec": 7.75,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "片头 (0.00)",
+      "nextSentence": "#1 [7.75-18.27] Even after writing eleven books and winning several prestigious awards, Maya Angelou couldn’t escape the nagging doubt that she hadn’t really earned her accomplishments."
+    },
+    {
+      "number": "EP 59",
+      "id": "local-64-trimmed-64-part1",
+      "speaker": "Sydney Serena",
+      "title": "独自在纽约的清晨：打卡运动课与城市日常",
+      "startSec": 5.45,
+      "endSec": 12.97,
+      "durationSec": 7.52,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#1 [0.00-5.45] Good morning, guys.",
+      "nextSentence": "#2 [12.97-18.42] It's Sid."
+    },
+    {
+      "number": "EP 74",
+      "id": "local-49-trimmed-49-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "美式快餐开箱试吃与口味评价地道表达",
+      "startSec": 13.4,
+      "endSec": 20.92,
+      "durationSec": 7.52,
+      "ge2s": true,
+      "priorityCheck": "CONFIRMED_READY",
+      "prevSentence": "#1 [0.25-13.40] Okay guys, I just finished my meal and wow, I am so stuffed!",
+      "nextSentence": "#2 [20.92-44.61] I am so full of all the food that I ate inside the store, but now I'm going to show you the third way to order food and that is through the drive-thru, which I actually don't know what I'm going to order because I'm full, so maybe I'll order something for my dad."
+    },
+    {
+      "number": "EP 03",
+      "id": "local-38-trimmed-38-part1",
+      "speaker": "Sydney Serena",
+      "title": "纽约独居一周消费实录：咖啡、出行与日常开支",
+      "startSec": 3.92,
+      "endSec": 11.32,
+      "durationSec": 7.4,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#1 [0.00-3.92] Hey guys, it's Sid.",
+      "nextSentence": "#2 [11.32-18.32] I've been avoiding filming this video because I don't want to know how much I spent in New York and I also don't want you guys to know how much I spent in New York."
+    },
+    {
+      "number": "EP 76",
+      "id": "local-52-trimmed-52-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "美国街头采访：你是做什么工作的？（职场日常篇）",
+      "startSec": 13.19,
+      "endSec": 20.35,
+      "durationSec": 7.16,
+      "ge2s": true,
+      "priorityCheck": "ARIANNITA_PRIORITY",
+      "prevSentence": "#4 [12.42-13.19] Let's go!",
+      "nextSentence": "#5 [20.35-21.51] Hi, what's your name?"
+    },
+    {
+      "number": "EP 13",
+      "id": "local-20-trimmed-20-part1",
+      "speaker": "Vanessa",
+      "title": "逛美国超市前半程：散装区、果蔬与生鲜海产",
+      "startSec": 7.04,
+      "endSec": 13.12,
+      "durationSec": 6.08,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#3 [6.31-7.04] Let's do it.",
+      "nextSentence": "#4 [13.12-15.08] Have you ever been grocery shopping?"
+    },
+    {
+      "number": "EP 20",
+      "id": "local-40-trimmed-40-part1",
+      "speaker": "Sydney Serena",
+      "title": "纽约上班族的一日三餐：快手健康早餐与健身前加餐",
+      "startSec": 7.82,
+      "endSec": 12.76,
+      "durationSec": 4.94,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#2 [1.07-7.82] It's Sid, and welcome back.",
+      "nextSentence": "#3 [12.76-16.92] Yesterday, I was trying to think of videos, and I was like, \"What do you guys even want to see from me now?\""
+    },
+    {
+      "number": "EP 55",
+      "id": "local-63-ABG-part2",
+      "speaker": "Michelle Choi",
+      "title": "ABG 欧美妆全流程教学：修容、烘焙定妆与惊艳变装",
+      "startSec": 15.99,
+      "endSec": 20.73,
+      "durationSec": 4.74,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#2 [12.75-15.99] So I got some new makeup.",
+      "nextSentence": "#3 [20.73-23.72] This is all makeup that I will be using today."
+    },
+    {
+      "number": "EP 08",
+      "id": "local-5-How-to-Start-Any-Conversation-th",
+      "speaker": "Chris Fenning",
+      "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+      "startSec": 0.0,
+      "endSec": 4.26,
+      "durationSec": 4.26,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "片头 (0.00)",
+      "nextSentence": "#1 [4.26-9.32] I want to be long-winded and unclear."
+    },
+    {
+      "number": "EP 18",
+      "id": "local-54-trimmed-54-part1",
+      "speaker": "Bob the Canadian",
+      "title": "加拿大酒店入住实景：前台办理与客房设施英语",
+      "startSec": 4.48,
+      "endSec": 8.54,
+      "durationSec": 4.06,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#2 [1.77-4.48] Let's learn English at a hotel.",
+      "nextSentence": "#3 [8.54-11.98] Well hey, it's Bob the Canadian here."
+    },
+    {
+      "number": "EP 05",
+      "id": "local-2-73-Questions-With-Kendall-Jenner",
+      "speaker": "Kendall Jenner",
+      "title": "73 Questions With Kendall Jenner ｜ Vogue",
+      "startSec": 0.0,
+      "endSec": 3.6,
+      "durationSec": 3.6,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "片头 (0.00)",
+      "nextSentence": "#1 [3.60-4.86] Hey Kendall Jenner, hi!"
+    },
+    {
+      "number": "EP 43",
+      "id": "local-60-trimmed-60-part1",
+      "speaker": "Sydney Serena",
+      "title": "独处但不孤独：纽约一个人的漫步与内心独白",
+      "startSec": 13.94,
+      "endSec": 17.24,
+      "durationSec": 3.3,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#2 [7.99-13.94] It's Sid, and welcome.",
+      "nextSentence": "#3 [17.24-21.32] Back."
+    },
+    {
+      "number": "EP 31",
+      "id": "local-59-trimmed-59-part2",
+      "speaker": "Michelle Choi",
+      "title": "西西里陶尔米纳与卡塔尼亚：慢节奏海边度假日记",
+      "startSec": 27.24,
+      "endSec": 30.25,
+      "durationSec": 3.01,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#9 [25.95-27.24] Wow.",
+      "nextSentence": "#10 [30.25-34.93] Oh my god, I look so nasty."
+    },
+    {
+      "number": "EP 48",
+      "id": "local-29-trimmed-29-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "纽约街头出行：人行横道、地铁与街头热狗摊",
+      "startSec": 6.93,
+      "endSec": 9.93,
+      "durationSec": 3.0,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#2 [2.23-6.93] I'm a pedestrian, so I'm going to walk across the crosswalk and enter the subway.",
+      "nextSentence": "#3 [9.93-11.44] Let's take the subway!"
+    },
+    {
+      "number": "EP 32",
+      "id": "local-17-trimmed-17-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "逛美国购物中心：楼层分区与美食广场点餐",
+      "startSec": 26.82,
+      "endSec": 29.52,
+      "durationSec": 2.7,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#4 [16.90-26.82] This mall is an indoor shopping mall, and that means that all of the stores are inside, so come along with me and let's go and learn some shopping vocabulary at the mall.",
+      "nextSentence": "#5 [29.52-34.41] I just entered through the main entrance of the mall."
+    },
+    {
+      "number": "EP 43",
+      "id": "local-60-trimmed-60-part1",
+      "speaker": "Sydney Serena",
+      "title": "独处但不孤独：纽约一个人的漫步与内心独白",
+      "startSec": 5.49,
+      "endSec": 7.99,
+      "durationSec": 2.5,
+      "ge2s": true,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#1 [0.04-5.49] Good morning, guys!",
+      "nextSentence": "#2 [7.99-13.94] It's Sid, and welcome."
+    },
+    {
+      "number": "EP 08",
+      "id": "local-5-How-to-Start-Any-Conversation-th",
+      "speaker": "Chris Fenning",
+      "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+      "startSec": 9.32,
+      "endSec": 11.14,
+      "durationSec": 1.82,
+      "ge2s": false,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#1 [4.26-9.32] I want to be long-winded and unclear.",
+      "nextSentence": "#2 [11.14-12.94] It's not a common opening line."
+    },
+    {
+      "number": "EP 55",
+      "id": "local-63-ABG-part2",
+      "speaker": "Michelle Choi",
+      "title": "ABG 欧美妆全流程教学：修容、烘焙定妆与惊艳变装",
+      "startSec": 23.72,
+      "endSec": 25.38,
+      "durationSec": 1.66,
+      "ge2s": false,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#3 [20.73-23.72] This is all makeup that I will be using today.",
+      "nextSentence": "#4 [25.38-28.25] Alrighty, well, let's get started."
+    },
+    {
+      "number": "EP 16",
+      "id": "local-25-Living-Alone-Diaries-trimmed",
+      "speaker": "Michelle Choi",
+      "title": "Living Alone Diaries（独居一日三餐与蒜香意面）",
+      "startSec": 7.0,
+      "endSec": 8.65,
+      "durationSec": 1.65,
+      "ge2s": false,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#1 [0.25-7.00] And there we have breakfast.",
+      "nextSentence": "#2 [8.65-17.80] Gosh, I don't even know where to start."
+    },
+    {
+      "number": "EP 59",
+      "id": "local-64-trimmed-64-part1",
+      "speaker": "Sydney Serena",
+      "title": "独自在纽约的清晨：打卡运动课与城市日常",
+      "startSec": 18.42,
+      "endSec": 19.8,
+      "durationSec": 1.38,
+      "ge2s": false,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#2 [12.97-18.42] It's Sid.",
+      "nextSentence": "#3 [19.80-23.77] I was looking at my own YouTube channel last night, which sort of feels weird."
+    },
+    {
+      "number": "EP 11",
+      "id": "local-82-Busking-downtown_micro3",
+      "speaker": "Vanessa",
+      "title": "街头艺人 Busking：路边演奏、打赏与市中心过马路",
+      "startSec": 8.37,
+      "endSec": 9.52,
+      "durationSec": 1.15,
+      "ge2s": false,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#2 [3.52-8.37] I don't know if you can hear it past all the other noise.",
+      "nextSentence": "#3 [9.52-15.17] But it's always nice whenever you see people playing on the side of the street like that; it is called busking."
+    },
+    {
+      "number": "EP 08",
+      "id": "local-5-How-to-Start-Any-Conversation-th",
+      "speaker": "Chris Fenning",
+      "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+      "startSec": 27.0,
+      "endSec": 28.08,
+      "durationSec": 1.08,
+      "ge2s": false,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#4 [18.76-27.00] We can tell pretty quickly if someone’s going to get to the point or if we are in for a long and painful conversation.",
+      "nextSentence": "#5 [28.08-30.92] And this is especially true at work."
+    },
+    {
+      "number": "EP 51",
+      "id": "local-62-trimmed-62-part1",
+      "speaker": "Michelle Choi",
+      "title": "韩系淡妆挑战欧美辣妹风：种睫毛、修眉与逛街挑衣服",
+      "startSec": 6.27,
+      "endSec": 7.27,
+      "durationSec": 1.0,
+      "ge2s": false,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#2 [3.26-6.27] Excuse the look, I'm still kind of sick.",
+      "nextSentence": "#3 [7.27-14.93] Anyways, one of my goals this year is to be more experimental with my makeup, my look, and just to have more fun with it."
+    },
+    {
+      "number": "EP 19",
+      "id": "local-21-trimmed-21-part2",
+      "speaker": "Vanessa",
+      "title": "美国超市结账全流程：纸袋塑料袋、会员卡与刷卡",
+      "startSec": 13.79,
+      "endSec": 14.51,
+      "durationSec": 0.72,
+      "ge2s": false,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#5 [12.32-13.79] Let's go get yogurt.",
+      "nextSentence": "#6 [14.51-15.52] Where's the yogurt?"
+    },
+    {
+      "number": "EP 08",
+      "id": "local-5-How-to-Start-Any-Conversation-th",
+      "speaker": "Chris Fenning",
+      "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+      "startSec": 18.2,
+      "endSec": 18.76,
+      "durationSec": 0.56,
+      "ge2s": false,
+      "priorityCheck": "STANDARD",
+      "prevSentence": "#3 [13.36-18.20] Most people won't tell us when they're going to be long-winded, but we know.",
+      "nextSentence": "#4 [18.76-27.00] We can tell pretty quickly if someone’s going to get to the point or if we are in for a long and painful conversation."
+    }
+  ],
+  "all63EpisodesSkipSummary": [
+    {
+      "number": "EP 81",
+      "id": "local-80-Frosty-fastfood_micro6",
+      "speaker": "Vanessa",
+      "title": "免下车点甜品：巧克力 Frosty 与薯条",
+      "skipCount": 1,
+      "totalSkipSec": 0.65,
+      "skipRanges": [
+        [
+          56.35,
+          57.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 80",
+      "id": "local-56-trimmed-56-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "滑雪场必备英语：租雪具、买雪票与初上雪道",
+      "skipCount": 1,
+      "totalSkipSec": 13.5,
+      "skipRanges": [
+        [
+          21.9,
+          35.4
+        ]
+      ]
+    },
+    {
+      "number": "EP 78",
+      "id": "local-53-trimmed-53-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "美国街头采访：不同职业的真实工作时长与故事",
+      "skipCount": 1,
+      "totalSkipSec": 12.17,
+      "skipRanges": [
+        [
+          372.35,
+          384.52
+        ]
+      ]
+    },
+    {
+      "number": "EP 77",
+      "id": "local-78-1-Happy-Meal-fastfood_micro4",
+      "speaker": "Vanessa",
+      "title": "麦当劳柜台点单：1 号套餐、Happy Meal 与饮料尺寸",
+      "skipCount": 2,
+      "totalSkipSec": 2.4,
+      "skipRanges": [
+        [
+          62.25,
+          63.3
+        ],
+        [
+          119.25,
+          120.6
+        ]
+      ]
+    },
+    {
+      "number": "EP 76",
+      "id": "local-52-trimmed-52-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "美国街头采访：你是做什么工作的？（职场日常篇）",
+      "skipCount": 2,
+      "totalSkipSec": 7.75,
+      "skipRanges": [
+        [
+          13.19,
+          20.35
+        ],
+        [
+          349.41,
+          350.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 74",
+      "id": "local-49-trimmed-49-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "美式快餐开箱试吃与口味评价地道表达",
+      "skipCount": 3,
+      "totalSkipSec": 13.04,
+      "skipRanges": [
+        [
+          13.4,
+          20.92
+        ],
+        [
+          149.77,
+          152.89
+        ],
+        [
+          154.99,
+          157.39
+        ]
+      ]
+    },
+    {
+      "number": "EP 73",
+      "id": "local-76-Chick-fil-A-fastfood_micro2",
+      "speaker": "Vanessa",
+      "title": "Chick-fil-A 拆餐：招牌鸡腿堡、鸡块与鸡柳",
+      "skipCount": 1,
+      "totalSkipSec": 2.94,
+      "skipRanges": [
+        [
+          168.86,
+          171.8
+        ]
+      ]
+    },
+    {
+      "number": "EP 72",
+      "id": "local-48-Drive-thru-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "美国得来速快餐实景：点咖啡与 Drive-thru 下单",
+      "skipCount": 4,
+      "totalSkipSec": 4.26,
+      "skipRanges": [
+        [
+          90.6,
+          91.2
+        ],
+        [
+          106.68,
+          107.76
+        ],
+        [
+          132.78,
+          133.74
+        ],
+        [
+          455.04,
+          456.66
+        ]
+      ]
+    },
+    {
+      "number": "EP 70",
+      "id": "local-47-trimmed-47-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "机场候机与美食区：登机前购物与餐饮表达",
+      "skipCount": 4,
+      "totalSkipSec": 25.2,
+      "skipRanges": [
+        [
+          86.49,
+          87.53
+        ],
+        [
+          176.41,
+          184.01
+        ],
+        [
+          219.89,
+          229.43
+        ],
+        [
+          243.17,
+          250.19
+        ]
+      ]
+    },
+    {
+      "number": "EP 69",
+      "id": "local-74-trimmed-74-micro9",
+      "speaker": "Vanessa",
+      "title": "甜品柜台点单：问招牌、点焦糖布蕾与无现金刷卡",
+      "skipCount": 2,
+      "totalSkipSec": 1.43,
+      "skipRanges": [
+        [
+          100.47,
+          101.28
+        ],
+        [
+          104.38,
+          105.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 68",
+      "id": "local-46-trimmed-46-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "美国机场出行实战：值机、安检与登机口英语",
+      "skipCount": 4,
+      "totalSkipSec": 11.96,
+      "skipRanges": [
+        [
+          149.76,
+          151.44
+        ],
+        [
+          329.48,
+          332.56
+        ],
+        [
+          504.24,
+          510.84
+        ],
+        [
+          534.4,
+          535.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 66",
+      "id": "local-45-trimmed-45-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "用餐中途怎么沟通：续杯加酱、打包与买单英语",
+      "skipCount": 3,
+      "totalSkipSec": 4.93,
+      "skipRanges": [
+        [
+          53.77,
+          56.25
+        ],
+        [
+          60.92,
+          62.25
+        ],
+        [
+          85.93,
+          87.05
+        ]
+      ]
+    },
+    {
+      "number": "EP 65",
+      "id": "local-65-trimmed-65-part2",
+      "speaker": "Sydney Serena",
+      "title": "纽约暴走与贝果探店：一个人的大城市治愈时光",
+      "skipCount": 3,
+      "totalSkipSec": 9.89,
+      "skipRanges": [
+        [
+          55.76,
+          62.61
+        ],
+        [
+          116.24,
+          118.73
+        ],
+        [
+          321.45,
+          322.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 64",
+      "id": "local-44-trimmed-44-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "美国餐厅点餐实战：入座、看菜单与向服务员咨询",
+      "skipCount": 1,
+      "totalSkipSec": 1.34,
+      "skipRanges": [
+        [
+          84.24,
+          85.58
+        ]
+      ]
+    },
+    {
+      "number": "EP 62",
+      "id": "local-43-trimmed-43-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "美式街头俚语精讲：正式说法与地道口语对比",
+      "skipCount": 1,
+      "totalSkipSec": 0.67,
+      "skipRanges": [
+        [
+          365.33,
+          366.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 59",
+      "id": "local-64-trimmed-64-part1",
+      "speaker": "Sydney Serena",
+      "title": "独自在纽约的清晨：打卡运动课与城市日常",
+      "skipCount": 4,
+      "totalSkipSec": 20.81,
+      "skipRanges": [
+        [
+          5.45,
+          12.97
+        ],
+        [
+          18.42,
+          19.8
+        ],
+        [
+          107.39,
+          115.68
+        ],
+        [
+          189.94,
+          193.56
+        ]
+      ]
+    },
+    {
+      "number": "EP 58",
+      "id": "local-37-trimmed-37-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "美国买房流程与二楼卧室参观：房产英语实战",
+      "skipCount": 4,
+      "totalSkipSec": 40.77,
+      "skipRanges": [
+        [
+          51.45,
+          63.34
+        ],
+        [
+          120.02,
+          129.4
+        ],
+        [
+          203.79,
+          221.77
+        ],
+        [
+          234.31,
+          235.83
+        ]
+      ]
+    },
+    {
+      "number": "EP 57",
+      "id": "local-70-Asheville-Greenway-micro5",
+      "speaker": "Vanessa",
+      "title": "Asheville 五角街区：过马路，走向 Greenway",
+      "skipCount": 1,
+      "totalSkipSec": 0.64,
+      "skipRanges": [
+        [
+          136.36,
+          137.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 56",
+      "id": "local-36-trimmed-36-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "美国看房实景：客厅、厨房与后院空间介绍",
+      "skipCount": 5,
+      "totalSkipSec": 28.82,
+      "skipRanges": [
+        [
+          65.55,
+          72.83
+        ],
+        [
+          81.86,
+          83.21
+        ],
+        [
+          155.84,
+          162.96
+        ],
+        [
+          229.53,
+          236.47
+        ],
+        [
+          442.4,
+          448.53
+        ]
+      ]
+    },
+    {
+      "number": "EP 55",
+      "id": "local-63-ABG-part2",
+      "speaker": "Michelle Choi",
+      "title": "ABG 欧美妆全流程教学：修容、烘焙定妆与惊艳变装",
+      "skipCount": 30,
+      "totalSkipSec": 163.89,
+      "skipRanges": [
+        [
+          3.85,
+          12.75
+        ],
+        [
+          15.99,
+          20.73
+        ],
+        [
+          23.72,
+          25.38
+        ],
+        [
+          35.57,
+          44.85
+        ],
+        [
+          52.64,
+          55.47
+        ],
+        [
+          61.51,
+          66.05
+        ],
+        [
+          74.03,
+          76.05
+        ],
+        [
+          93.37,
+          95.44
+        ],
+        [
+          111.3,
+          120.81
+        ],
+        [
+          127.89,
+          129.91
+        ],
+        [
+          134.93,
+          139.06
+        ],
+        [
+          141.09,
+          145.37
+        ],
+        [
+          150.27,
+          153.43
+        ],
+        [
+          159.93,
+          165.63
+        ],
+        [
+          171.21,
+          175.81
+        ],
+        [
+          176.41,
+          180.61
+        ],
+        [
+          185.71,
+          201.03
+        ],
+        [
+          204.19,
+          206.77
+        ],
+        [
+          214.04,
+          222.43
+        ],
+        [
+          226.08,
+          230.17
+        ],
+        [
+          234.81,
+          236.59
+        ],
+        [
+          245.7,
+          257.02
+        ],
+        [
+          262.25,
+          264.49
+        ],
+        [
+          270.45,
+          271.78
+        ],
+        [
+          308.52,
+          311.8
+        ],
+        [
+          318.69,
+          331.85
+        ],
+        [
+          332.77,
+          334.46
+        ],
+        [
+          336.46,
+          342.11
+        ],
+        [
+          344.11,
+          362.15
+        ],
+        [
+          375.15,
+          376.53
+        ]
+      ]
+    },
+    {
+      "number": "EP 54",
+      "id": "local-35-trimmed-35-part3",
+      "speaker": "Ariannita la Gringa",
+      "title": "洗衣服与收纳整理：美式家庭家务高频短语",
+      "skipCount": 5,
+      "totalSkipSec": 15.28,
+      "skipRanges": [
+        [
+          135.22,
+          137.23
+        ],
+        [
+          311.59,
+          312.9
+        ],
+        [
+          316.19,
+          317.09
+        ],
+        [
+          325.36,
+          327.3
+        ],
+        [
+          400.68,
+          409.8
+        ]
+      ]
+    },
+    {
+      "number": "EP 52",
+      "id": "local-34-trimmed-34-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "厨房与客厅清洁：擦拭、抛光与吸尘实用动词",
+      "skipCount": 7,
+      "totalSkipSec": 21.48,
+      "skipRanges": [
+        [
+          32.81,
+          34.59
+        ],
+        [
+          57.3,
+          60.62
+        ],
+        [
+          81.74,
+          84.49
+        ],
+        [
+          104.15,
+          108.45
+        ],
+        [
+          190.83,
+          197.13
+        ],
+        [
+          214.42,
+          216.91
+        ],
+        [
+          442.46,
+          443.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 51",
+      "id": "local-62-trimmed-62-part1",
+      "speaker": "Michelle Choi",
+      "title": "韩系淡妆挑战欧美辣妹风：种睫毛、修眉与逛街挑衣服",
+      "skipCount": 13,
+      "totalSkipSec": 63.51,
+      "skipRanges": [
+        [
+          6.27,
+          7.27
+        ],
+        [
+          118.19,
+          119.45
+        ],
+        [
+          120.89,
+          135.21
+        ],
+        [
+          141.71,
+          144.12
+        ],
+        [
+          167.59,
+          168.57
+        ],
+        [
+          173.41,
+          174.65
+        ],
+        [
+          184.55,
+          185.7
+        ],
+        [
+          199.49,
+          207.79
+        ],
+        [
+          214.14,
+          220.95
+        ],
+        [
+          243.93,
+          248.11
+        ],
+        [
+          251.13,
+          267.17
+        ],
+        [
+          270.59,
+          273.87
+        ],
+        [
+          274.51,
+          277.05
+        ]
+      ]
+    },
+    {
+      "number": "EP 50",
+      "id": "local-33-trimmed-33-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "居家大扫除英语：整理房间与日常家务表达",
+      "skipCount": 4,
+      "totalSkipSec": 8.62,
+      "skipRanges": [
+        [
+          79.36,
+          82.6
+        ],
+        [
+          88.17,
+          90.78
+        ],
+        [
+          205.43,
+          207.36
+        ],
+        [
+          222.54,
+          223.38
+        ]
+      ]
+    },
+    {
+      "number": "EP 49",
+      "id": "local-68-trimmed-68-micro3",
+      "speaker": "Vanessa",
+      "title": "美式老街区散步：过马路、百年老宅与风铃",
+      "skipCount": 1,
+      "totalSkipSec": 0.55,
+      "skipRanges": [
+        [
+          174.45,
+          175.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 48",
+      "id": "local-29-trimmed-29-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "纽约街头出行：人行横道、地铁与街头热狗摊",
+      "skipCount": 5,
+      "totalSkipSec": 7.54,
+      "skipRanges": [
+        [
+          6.93,
+          9.93
+        ],
+        [
+          35.37,
+          37.17
+        ],
+        [
+          47.73,
+          49.29
+        ],
+        [
+          58.47,
+          59.07
+        ],
+        [
+          148.42,
+          149.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 47",
+      "id": "local-61-trimmed-61-part2",
+      "speaker": "Sydney Serena",
+      "title": "一个人的居家沙拉与逛书店：享受独处的松弛感",
+      "skipCount": 2,
+      "totalSkipSec": 10.5,
+      "skipRanges": [
+        [
+          40.3,
+          46.73
+        ],
+        [
+          315.24,
+          319.31
+        ]
+      ]
+    },
+    {
+      "number": "EP 46",
+      "id": "local-28-trimmed-28-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "漫步纽约曼哈顿：摩天大楼、人行道与自行车道",
+      "skipCount": 4,
+      "totalSkipSec": 8.9,
+      "skipRanges": [
+        [
+          42.3,
+          43.32
+        ],
+        [
+          58.54,
+          59.22
+        ],
+        [
+          71.04,
+          76.62
+        ],
+        [
+          97.8,
+          99.42
+        ]
+      ]
+    },
+    {
+      "number": "EP 44",
+      "id": "local-27-Chipotle-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "Chipotle 柜台实景点单：选肉选酱与地道句型",
+      "skipCount": 3,
+      "totalSkipSec": 10.56,
+      "skipRanges": [
+        [
+          135.69,
+          138.85
+        ],
+        [
+          189.53,
+          191.49
+        ],
+        [
+          208.01,
+          213.45
+        ]
+      ]
+    },
+    {
+      "number": "EP 43",
+      "id": "local-60-trimmed-60-part1",
+      "speaker": "Sydney Serena",
+      "title": "独处但不孤独：纽约一个人的漫步与内心独白",
+      "skipCount": 6,
+      "totalSkipSec": 47.74,
+      "skipRanges": [
+        [
+          5.49,
+          7.99
+        ],
+        [
+          13.94,
+          17.24
+        ],
+        [
+          79.57,
+          81.04
+        ],
+        [
+          160.31,
+          174.08
+        ],
+        [
+          185.57,
+          193.12
+        ],
+        [
+          306.25,
+          325.4
+        ]
+      ]
+    },
+    {
+      "number": "EP 40",
+      "id": "local-23-trimmed-23-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "超市烘焙区、保质期怎么看与自助结账机",
+      "skipCount": 3,
+      "totalSkipSec": 6.05,
+      "skipRanges": [
+        [
+          232.46,
+          233.79
+        ],
+        [
+          235.19,
+          236.91
+        ],
+        [
+          241.43,
+          244.43
+        ]
+      ]
+    },
+    {
+      "number": "EP 39",
+      "id": "local-51-trimmed-51-part2",
+      "speaker": "Sydney Serena",
+      "title": "独居公寓采购日：超市买菜、万圣节街景与睡前复盘",
+      "skipCount": 3,
+      "totalSkipSec": 24.45,
+      "skipRanges": [
+        [
+          98.63,
+          105.16
+        ],
+        [
+          204.04,
+          205.29
+        ],
+        [
+          234.33,
+          251.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 38",
+      "id": "local-22-trimmed-22-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "跟外教逛超市：有机果蔬区与挑选成熟牛油果",
+      "skipCount": 3,
+      "totalSkipSec": 1.92,
+      "skipRanges": [
+        [
+          119.84,
+          120.52
+        ],
+        [
+          170.4,
+          171.08
+        ],
+        [
+          202.28,
+          202.84
+        ]
+      ]
+    },
+    {
+      "number": "EP 37",
+      "id": "local-32-trimmed-32-part3",
+      "speaker": "Vanessa",
+      "title": "享用美式披萨与结账打包：完整餐厅收尾对话",
+      "skipCount": 1,
+      "totalSkipSec": 3.09,
+      "skipRanges": [
+        [
+          332.1,
+          335.19
+        ]
+      ]
+    },
+    {
+      "number": "EP 36",
+      "id": "local-19-trimmed-19-part3",
+      "speaker": "Ariannita la Gringa",
+      "title": "乐高玩具店、柜台结账与商场防盗词汇",
+      "skipCount": 4,
+      "totalSkipSec": 16.26,
+      "skipRanges": [
+        [
+          7.38,
+          19.5
+        ],
+        [
+          99.84,
+          100.86
+        ],
+        [
+          126.3,
+          126.84
+        ],
+        [
+          133.68,
+          136.26
+        ]
+      ]
+    },
+    {
+      "number": "EP 35",
+      "id": "local-50-trimmed-50-part1",
+      "speaker": "Sydney Serena",
+      "title": "高效充实的一天：晨间健身课、整理房间与咖啡馆办公",
+      "skipCount": 6,
+      "totalSkipSec": 41.35,
+      "skipRanges": [
+        [
+          0.0,
+          11.02
+        ],
+        [
+          119.91,
+          122.05
+        ],
+        [
+          149.52,
+          160.21
+        ],
+        [
+          182.4,
+          189.37
+        ],
+        [
+          322.89,
+          326.33
+        ],
+        [
+          327.04,
+          334.13
+        ]
+      ]
+    },
+    {
+      "number": "EP 34",
+      "id": "local-18-trimmed-18-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "美式商场购物：潮流服饰、游戏店与综合百货",
+      "skipCount": 7,
+      "totalSkipSec": 17.9,
+      "skipRanges": [
+        [
+          136.54,
+          138.7
+        ],
+        [
+          206.5,
+          207.04
+        ],
+        [
+          212.99,
+          215.35
+        ],
+        [
+          217.72,
+          223.48
+        ],
+        [
+          239.32,
+          240.46
+        ],
+        [
+          320.38,
+          322.0
+        ],
+        [
+          330.04,
+          334.36
+        ]
+      ]
+    },
+    {
+      "number": "EP 32",
+      "id": "local-17-trimmed-17-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "逛美国购物中心：楼层分区与美食广场点餐",
+      "skipCount": 5,
+      "totalSkipSec": 12.0,
+      "skipRanges": [
+        [
+          26.82,
+          29.52
+        ],
+        [
+          73.02,
+          73.68
+        ],
+        [
+          157.74,
+          158.64
+        ],
+        [
+          173.04,
+          179.28
+        ],
+        [
+          324.06,
+          325.56
+        ]
+      ]
+    },
+    {
+      "number": "EP 31",
+      "id": "local-59-trimmed-59-part2",
+      "speaker": "Michelle Choi",
+      "title": "西西里陶尔米纳与卡塔尼亚：慢节奏海边度假日记",
+      "skipCount": 10,
+      "totalSkipSec": 111.62,
+      "skipRanges": [
+        [
+          27.24,
+          30.25
+        ],
+        [
+          115.4,
+          123.85
+        ],
+        [
+          135.16,
+          154.65
+        ],
+        [
+          193.35,
+          209.53
+        ],
+        [
+          214.98,
+          221.29
+        ],
+        [
+          226.74,
+          241.69
+        ],
+        [
+          247.14,
+          265.77
+        ],
+        [
+          269.01,
+          273.21
+        ],
+        [
+          278.66,
+          291.45
+        ],
+        [
+          296.72,
+          304.33
+        ]
+      ]
+    },
+    {
+      "number": "EP 30",
+      "id": "local-16-trimmed-16-part3",
+      "speaker": "Ariannita la Gringa",
+      "title": "中控台、换挡杆与车内清洁：汽车内饰英语",
+      "skipCount": 2,
+      "totalSkipSec": 15.11,
+      "skipRanges": [
+        [
+          240.48,
+          244.65
+        ],
+        [
+          281.62,
+          292.56
+        ]
+      ]
+    },
+    {
+      "number": "EP 29",
+      "id": "local-41-trimmed-41-part2",
+      "speaker": "Sydney Serena",
+      "title": "健身后的高蛋白晚餐与纽约居家备餐日常",
+      "skipCount": 7,
+      "totalSkipSec": 29.1,
+      "skipRanges": [
+        [
+          187.44,
+          188.53
+        ],
+        [
+          197.24,
+          204.45
+        ],
+        [
+          251.66,
+          253.45
+        ],
+        [
+          275.9,
+          278.09
+        ],
+        [
+          401.0,
+          404.97
+        ],
+        [
+          452.75,
+          461.69
+        ],
+        [
+          503.98,
+          507.89
+        ]
+      ]
+    },
+    {
+      "number": "EP 28",
+      "id": "local-15-trimmed-15-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "爆胎、轮毂与仪表盘：自驾必备汽车英语",
+      "skipCount": 1,
+      "totalSkipSec": 0.65,
+      "skipRanges": [
+        [
+          322.35,
+          323.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 26",
+      "id": "local-14-trimmed-14-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "自助洗车与车身外观：入门汽车英语词汇",
+      "skipCount": 1,
+      "totalSkipSec": 1.37,
+      "skipRanges": [
+        [
+          146.65,
+          148.02
+        ]
+      ]
+    },
+    {
+      "number": "EP 25",
+      "id": "local-55-trimmed-55-part2",
+      "speaker": "Bob the Canadian",
+      "title": "酒店卫浴细节、早餐咖啡与退房告别英语",
+      "skipCount": 2,
+      "totalSkipSec": 3.72,
+      "skipRanges": [
+        [
+          107.23,
+          108.17
+        ],
+        [
+          110.71,
+          113.49
+        ]
+      ]
+    },
+    {
+      "number": "EP 22",
+      "id": "local-12-trimmed-12-part2",
+      "speaker": "Ariannita la Gringa",
+      "title": "聊信仰与宗教礼仪：讲道、捐赠与跨文化表达",
+      "skipCount": 1,
+      "totalSkipSec": 0.67,
+      "skipRanges": [
+        [
+          319.33,
+          320.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 20",
+      "id": "local-40-trimmed-40-part1",
+      "speaker": "Sydney Serena",
+      "title": "纽约上班族的一日三餐：快手健康早餐与健身前加餐",
+      "skipCount": 6,
+      "totalSkipSec": 43.96,
+      "skipRanges": [
+        [
+          7.82,
+          12.76
+        ],
+        [
+          98.15,
+          99.68
+        ],
+        [
+          145.4,
+          150.0
+        ],
+        [
+          194.53,
+          211.88
+        ],
+        [
+          297.11,
+          300.48
+        ],
+        [
+          345.83,
+          358.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 19",
+      "id": "local-21-trimmed-21-part2",
+      "speaker": "Vanessa",
+      "title": "美国超市结账全流程：纸袋塑料袋、会员卡与刷卡",
+      "skipCount": 9,
+      "totalSkipSec": 12.08,
+      "skipRanges": [
+        [
+          13.79,
+          14.51
+        ],
+        [
+          39.63,
+          44.43
+        ],
+        [
+          57.63,
+          58.99
+        ],
+        [
+          123.95,
+          124.75
+        ],
+        [
+          132.43,
+          133.95
+        ],
+        [
+          210.75,
+          211.55
+        ],
+        [
+          219.07,
+          219.63
+        ],
+        [
+          291.15,
+          292.11
+        ],
+        [
+          320.27,
+          320.83
+        ]
+      ]
+    },
+    {
+      "number": "EP 18",
+      "id": "local-54-trimmed-54-part1",
+      "speaker": "Bob the Canadian",
+      "title": "加拿大酒店入住实景：前台办理与客房设施英语",
+      "skipCount": 3,
+      "totalSkipSec": 5.69,
+      "skipRanges": [
+        [
+          4.48,
+          8.54
+        ],
+        [
+          164.69,
+          165.6
+        ],
+        [
+          415.28,
+          416.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 17",
+      "id": "local-11-trimmed-11-part1",
+      "speaker": "Ariannita la Gringa",
+      "title": "走进美国教堂：弥撒、圣经与神职英语词汇",
+      "skipCount": 2,
+      "totalSkipSec": 5.79,
+      "skipRanges": [
+        [
+          81.54,
+          83.52
+        ],
+        [
+          236.51,
+          240.32
+        ]
+      ]
+    },
+    {
+      "number": "EP 16",
+      "id": "local-25-Living-Alone-Diaries-trimmed",
+      "speaker": "Michelle Choi",
+      "title": "Living Alone Diaries（独居一日三餐与蒜香意面）",
+      "skipCount": 9,
+      "totalSkipSec": 68.86,
+      "skipRanges": [
+        [
+          7.0,
+          8.65
+        ],
+        [
+          17.8,
+          29.85
+        ],
+        [
+          58.54,
+          61.88
+        ],
+        [
+          67.83,
+          83.72
+        ],
+        [
+          89.17,
+          95.0
+        ],
+        [
+          125.8,
+          129.53
+        ],
+        [
+          144.32,
+          151.93
+        ],
+        [
+          155.61,
+          172.57
+        ],
+        [
+          180.12,
+          181.92
+        ]
+      ]
+    },
+    {
+      "number": "EP 15",
+      "id": "local-7-Interviewing-Native-English-Spea",
+      "speaker": "Ariannita la Gringa",
+      "title": "Interviewing Native English Speakers on St. Patrick’s Day",
+      "skipCount": 3,
+      "totalSkipSec": 28.43,
+      "skipRanges": [
+        [
+          78.17,
+          101.68
+        ],
+        [
+          323.77,
+          325.72
+        ],
+        [
+          478.52,
+          481.49
+        ]
+      ]
+    },
+    {
+      "number": "EP 14",
+      "id": "local-39-trimmed-39-part2",
+      "speaker": "Sydney Serena",
+      "title": "纽约周末夜生活与账单复盘：大城市生活开销",
+      "skipCount": 6,
+      "totalSkipSec": 53.07,
+      "skipRanges": [
+        [
+          46.57,
+          55.05
+        ],
+        [
+          158.51,
+          164.65
+        ],
+        [
+          199.84,
+          210.45
+        ],
+        [
+          221.2,
+          224.69
+        ],
+        [
+          252.24,
+          269.17
+        ],
+        [
+          363.59,
+          371.01
+        ]
+      ]
+    },
+    {
+      "number": "EP 13",
+      "id": "local-20-trimmed-20-part1",
+      "speaker": "Vanessa",
+      "title": "逛美国超市前半程：散装区、果蔬与生鲜海产",
+      "skipCount": 12,
+      "totalSkipSec": 24.08,
+      "skipRanges": [
+        [
+          7.04,
+          13.12
+        ],
+        [
+          64.64,
+          65.44
+        ],
+        [
+          90.88,
+          92.24
+        ],
+        [
+          105.36,
+          108.24
+        ],
+        [
+          118.96,
+          120.32
+        ],
+        [
+          161.12,
+          165.6
+        ],
+        [
+          189.68,
+          190.64
+        ],
+        [
+          215.36,
+          216.0
+        ],
+        [
+          298.0,
+          298.96
+        ],
+        [
+          305.12,
+          306.96
+        ],
+        [
+          314.16,
+          315.6
+        ],
+        [
+          323.84,
+          325.12
+        ]
+      ]
+    },
+    {
+      "number": "EP 12",
+      "id": "local-9-Learn-How-To-Talk-About-Your-Dai",
+      "speaker": "Bob the Canadian",
+      "title": "Learn How To Talk About Your Daily Routine in English by Watching Me Act Out Mine",
+      "skipCount": 10,
+      "totalSkipSec": 37.01,
+      "skipRanges": [
+        [
+          0.0,
+          10.51
+        ],
+        [
+          40.89,
+          42.13
+        ],
+        [
+          63.85,
+          65.83
+        ],
+        [
+          78.93,
+          79.77
+        ],
+        [
+          114.51,
+          117.28
+        ],
+        [
+          296.36,
+          297.45
+        ],
+        [
+          329.05,
+          330.8
+        ],
+        [
+          337.54,
+          338.7
+        ],
+        [
+          340.82,
+          342.31
+        ],
+        [
+          450.82,
+          465.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 11",
+      "id": "local-82-Busking-downtown_micro3",
+      "speaker": "Vanessa",
+      "title": "街头艺人 Busking：路边演奏、打赏与市中心过马路",
+      "skipCount": 1,
+      "totalSkipSec": 1.15,
+      "skipRanges": [
+        [
+          8.37,
+          9.52
+        ]
+      ]
+    },
+    {
+      "number": "EP 10",
+      "id": "local-6-How-To-Order-Coffee-In-English",
+      "speaker": "Ariannita la Gringa",
+      "title": "How To Order Coffee In English",
+      "skipCount": 6,
+      "totalSkipSec": 19.09,
+      "skipRanges": [
+        [
+          46.08,
+          48.78
+        ],
+        [
+          115.98,
+          125.94
+        ],
+        [
+          164.82,
+          166.8
+        ],
+        [
+          341.88,
+          343.74
+        ],
+        [
+          414.06,
+          415.5
+        ],
+        [
+          567.85,
+          569.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 09",
+      "id": "local-1-Celeste-Headlee-10-ways-to-have-",
+      "speaker": "Celeste Headlee",
+      "title": "Celeste Headlee： 10 ways to have a better conversation ｜ TED",
+      "skipCount": 24,
+      "totalSkipSec": 51.47,
+      "skipRanges": [
+        [
+          0.0,
+          12.83
+        ],
+        [
+          115.23,
+          116.16
+        ],
+        [
+          183.73,
+          184.8
+        ],
+        [
+          337.43,
+          338.2
+        ],
+        [
+          352.13,
+          352.86
+        ],
+        [
+          356.56,
+          357.23
+        ],
+        [
+          361.76,
+          363.16
+        ],
+        [
+          403.06,
+          403.73
+        ],
+        [
+          445.53,
+          446.06
+        ],
+        [
+          449.8,
+          450.8
+        ],
+        [
+          466.0,
+          466.63
+        ],
+        [
+          470.33,
+          471.26
+        ],
+        [
+          494.43,
+          495.13
+        ],
+        [
+          506.43,
+          508.56
+        ],
+        [
+          509.8,
+          511.43
+        ],
+        [
+          524.56,
+          525.63
+        ],
+        [
+          541.33,
+          541.86
+        ],
+        [
+          576.36,
+          576.93
+        ],
+        [
+          578.86,
+          579.46
+        ],
+        [
+          627.56,
+          628.96
+        ],
+        [
+          660.76,
+          661.36
+        ],
+        [
+          664.26,
+          664.8
+        ],
+        [
+          683.43,
+          684.03
+        ],
+        [
+          685.2,
+          704.14
+        ]
+      ]
+    },
+    {
+      "number": "EP 08",
+      "id": "local-5-How-to-Start-Any-Conversation-th",
+      "speaker": "Chris Fenning",
+      "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+      "skipCount": 69,
+      "totalSkipSec": 76.53,
+      "skipRanges": [
+        [
+          0.0,
+          4.26
+        ],
+        [
+          9.32,
+          11.14
+        ],
+        [
+          18.2,
+          18.76
+        ],
+        [
+          27.0,
+          28.08
+        ],
+        [
+          30.92,
+          31.88
+        ],
+        [
+          46.42,
+          47.38
+        ],
+        [
+          48.74,
+          49.26
+        ],
+        [
+          53.04,
+          54.8
+        ],
+        [
+          56.5,
+          57.02
+        ],
+        [
+          61.18,
+          61.86
+        ],
+        [
+          64.24,
+          65.22
+        ],
+        [
+          68.9,
+          69.78
+        ],
+        [
+          72.54,
+          73.54
+        ],
+        [
+          78.14,
+          79.94
+        ],
+        [
+          87.0,
+          88.12
+        ],
+        [
+          92.32,
+          93.18
+        ],
+        [
+          98.04,
+          98.84
+        ],
+        [
+          105.62,
+          108.26
+        ],
+        [
+          122.54,
+          123.24
+        ],
+        [
+          127.6,
+          128.22
+        ],
+        [
+          139.46,
+          140.18
+        ],
+        [
+          145.74,
+          146.48
+        ],
+        [
+          147.62,
+          148.82
+        ],
+        [
+          163.48,
+          164.54
+        ],
+        [
+          168.24,
+          169.14
+        ],
+        [
+          191.16,
+          192.08
+        ],
+        [
+          216.0,
+          216.74
+        ],
+        [
+          220.3,
+          222.06
+        ],
+        [
+          224.0,
+          225.7
+        ],
+        [
+          238.54,
+          239.28
+        ],
+        [
+          250.5,
+          251.72
+        ],
+        [
+          256.18,
+          256.7
+        ],
+        [
+          266.08,
+          266.62
+        ],
+        [
+          275.54,
+          276.42
+        ],
+        [
+          284.32,
+          285.64
+        ],
+        [
+          301.6,
+          302.4
+        ],
+        [
+          307.24,
+          308.5
+        ],
+        [
+          317.08,
+          318.24
+        ],
+        [
+          327.9,
+          328.44
+        ],
+        [
+          335.2,
+          336.38
+        ],
+        [
+          353.92,
+          355.44
+        ],
+        [
+          362.96,
+          363.76
+        ],
+        [
+          367.54,
+          368.88
+        ],
+        [
+          379.66,
+          380.18
+        ],
+        [
+          388.96,
+          389.9
+        ],
+        [
+          394.24,
+          394.84
+        ],
+        [
+          415.1,
+          416.66
+        ],
+        [
+          424.28,
+          424.96
+        ],
+        [
+          443.94,
+          444.52
+        ],
+        [
+          449.08,
+          449.82
+        ],
+        [
+          454.9,
+          456.0
+        ],
+        [
+          464.92,
+          466.44
+        ],
+        [
+          483.7,
+          484.28
+        ],
+        [
+          498.2,
+          499.42
+        ],
+        [
+          528.0,
+          528.92
+        ],
+        [
+          544.46,
+          545.9
+        ],
+        [
+          552.28,
+          553.26
+        ],
+        [
+          570.7,
+          571.46
+        ],
+        [
+          589.24,
+          591.08
+        ],
+        [
+          607.32,
+          608.04
+        ],
+        [
+          609.5,
+          610.18
+        ],
+        [
+          616.24,
+          617.06
+        ],
+        [
+          621.62,
+          622.36
+        ],
+        [
+          633.82,
+          634.52
+        ],
+        [
+          640.9,
+          642.18
+        ],
+        [
+          645.58,
+          647.14
+        ],
+        [
+          655.42,
+          656.76
+        ],
+        [
+          661.66,
+          662.72
+        ],
+        [
+          663.84,
+          667.41
+        ]
+      ]
+    },
+    {
+      "number": "EP 07",
+      "id": "local-4-What-is-imposter-syndrome-and-ho",
+      "speaker": "Elizabeth Cox",
+      "title": "What is imposter syndrome and how can you combat it？ - Elizabeth Cox",
+      "skipCount": 2,
+      "totalSkipSec": 25.39,
+      "skipRanges": [
+        [
+          0.0,
+          7.75
+        ],
+        [
+          241.36,
+          259.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 05",
+      "id": "local-2-73-Questions-With-Kendall-Jenner",
+      "speaker": "Kendall Jenner",
+      "title": "73 Questions With Kendall Jenner ｜ Vogue",
+      "skipCount": 2,
+      "totalSkipSec": 4.44,
+      "skipRanges": [
+        [
+          0.0,
+          3.6
+        ],
+        [
+          447.16,
+          448.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 04",
+      "id": "local-24-Living-Alone-Diaries-trimmed",
+      "speaker": "Michelle Choi",
+      "title": "Living Alone Diaries（独居女孩的静谧晨间与午后）",
+      "skipCount": 15,
+      "totalSkipSec": 112.48,
+      "skipRanges": [
+        [
+          13.92,
+          29.98
+        ],
+        [
+          70.71,
+          71.98
+        ],
+        [
+          79.74,
+          85.93
+        ],
+        [
+          102.33,
+          104.86
+        ],
+        [
+          141.58,
+          142.52
+        ],
+        [
+          149.95,
+          151.19
+        ],
+        [
+          160.06,
+          203.17
+        ],
+        [
+          216.66,
+          219.07
+        ],
+        [
+          232.74,
+          233.5
+        ],
+        [
+          235.68,
+          236.28
+        ],
+        [
+          249.96,
+          250.57
+        ],
+        [
+          262.86,
+          284.56
+        ],
+        [
+          287.13,
+          294.4
+        ],
+        [
+          299.7,
+          302.08
+        ],
+        [
+          304.08,
+          309.49
+        ]
+      ]
+    },
+    {
+      "number": "EP 03",
+      "id": "local-38-trimmed-38-part1",
+      "speaker": "Sydney Serena",
+      "title": "纽约独居一周消费实录：咖啡、出行与日常开支",
+      "skipCount": 10,
+      "totalSkipSec": 45.49,
+      "skipRanges": [
+        [
+          3.92,
+          11.32
+        ],
+        [
+          44.97,
+          53.16
+        ],
+        [
+          102.17,
+          103.72
+        ],
+        [
+          143.8,
+          149.2
+        ],
+        [
+          197.8,
+          202.08
+        ],
+        [
+          283.22,
+          287.48
+        ],
+        [
+          338.76,
+          348.0
+        ],
+        [
+          398.89,
+          402.32
+        ],
+        [
+          428.36,
+          429.48
+        ],
+        [
+          502.38,
+          503.0
+        ]
+      ]
+    },
+    {
+      "number": "EP 02",
+      "id": "local-8-73-Questions-with-Victoria-Beckh",
+      "speaker": "Victoria Beckham",
+      "title": "73 Questions with Victoria Beckham ｜ Vogue",
+      "skipCount": 2,
+      "totalSkipSec": 12.08,
+      "skipRanges": [
+        [
+          0.0,
+          9.16
+        ],
+        [
+          365.08,
+          368.0
+        ]
+      ]
+    }
+  ]
+}

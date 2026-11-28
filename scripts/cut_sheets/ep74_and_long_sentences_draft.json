@@ -1,0 +1,3876 @@
+{
+  "status": "READONLY_DRAFT_AWAITING_APPROVAL",
+  "subtitlesModified": false,
+  "summary": {
+    "rule": "durationSec >= 15.0 OR words >= 40 (plus EP 74 #3/#31/#36/#41)",
+    "totalCatalogLongSentences": 107,
+    "ep74LongIncluded": 1,
+    "otherLongSentencesCount": 106,
+    "otherEpisodesCount": 48
+  },
+  "ep74ReadonlyPlan": {
+    "number": "EP 74",
+    "id": "local-49-trimmed-49-part2",
+    "title": "美式快餐开箱试吃与口味评价地道表达",
+    "speaker": "Ariannita la Gringa",
+    "confirmedSkipRange": [
+      13.4,
+      20.92
+    ],
+    "otherSkipRanges": [
+      [
+        149.77,
+        152.89
+      ],
+      [
+        154.99,
+        157.39
+      ]
+    ],
+    "channelOutroCandidate": {
+      "range": "#36(后半) – #41 (约 204.2s – 233.65s)",
+      "sentences": [
+        "#36 [197.36-207.63] I'm gonna go ahead and lick this ice cream, because if not, It will melt down onto the cone, okay guys, that's it for today's YouTube video at McDonald's!",
+        "#37 [207.67-210.93] I hope you have enjoyed all of the English that I taught you today.",
+        "#38 [210.97-217.77] I have my ice cream right here, I'm gonna keep on eating it, but let me know down below what else you would like me to teach you.",
+        "#39 [217.81-221.13] Do you want me to go to a different franchise, a different store?",
+        "#40 [221.17-224.14] Do you want me to order some more food at different places?",
+        "#41 [224.18-233.65] Let me know down below, because I would love to hear your review about this video and make more content for the next video, and don't forget to like and subscribe, bye!"
+      ],
+      "awaitingConfirmation": "是否从目录课裁去频道收尾（that's it for today's YouTube video 至 like and subscribe, bye!）"
+    },
+    "sentenceSplits": [
+      {
+        "sentenceId": 2,
+        "original": {
+          "start": 20.92,
+          "end": 44.61,
+          "durationSec": 23.69,
+          "words": 55,
+          "en": "I am so full of all the food that I ate inside the store, but now I'm going to show you the third way to order food and that is through the drive-thru, which I actually don't know what I'm going to order because I'm full, so maybe I'll order something for my dad."
+        },
+        "proposedParts": [
+          {
+            "part": 1,
+            "start": 20.92,
+            "end": 27.04,
+            "durationSec": 6.12,
+            "words": 14,
+            "en": "I am so full of all the food that I ate inside the store."
+          },
+          {
+            "part": 2,
+            "start": 27.08,
+            "end": 35.82,
+            "durationSec": 8.74,
+            "words": 20,
+            "en": "But now I'm going to show you the third way to order food, and that is through the drive-thru."
+          },
+          {
+            "part": 3,
+            "start": 35.86,
+            "end": 44.61,
+            "durationSec": 8.75,
+            "words": 20,
+            "en": "I actually don't know what I'm going to order because I'm full, so maybe I'll order something for my dad."
+          }
+        ],
+        "note": "按用户指定 3 句拆分；正式写回时将结合音频停顿做精确边界校准。"
+      },
+      {
+        "sentenceId": 3,
+        "original": {
+          "start": 44.65,
+          "end": 55.77,
+          "durationSec": 11.12,
+          "words": 36,
+          "en": "As you can see, you order food through the drive-thru like this truck is doing right now, and it's called drive-thru because you need a car and you drive through it in a lane."
+        },
+        "proposedParts": [
+          {
+            "part": 1,
+            "start": 44.65,
+            "end": 50.19,
+            "durationSec": 5.54,
+            "words": 18,
+            "en": "As you can see, you order food through the drive-thru like this truck is doing right now."
+          },
+          {
+            "part": 2,
+            "start": 50.23,
+            "end": 55.77,
+            "durationSec": 5.54,
+            "words": 18,
+            "en": "And it's called drive-thru because you need a car and you drive through it in a lane."
+          }
+        ],
+        "note": "按用户指定 2 句拆分。"
+      },
+      {
+        "sentenceId": 31,
+        "original": {
+          "start": 163.7,
+          "end": 176.36,
+          "durationSec": 12.66,
+          "words": 37,
+          "en": "As you can see, I just paid through the first window for my ice cream, but I didn't get my ice cream just yet because I have to go to the second window and pick it up."
+        },
+        "proposedParts": [
+          {
+            "part": 1,
+            "start": 163.7,
+            "end": 168.82,
+            "durationSec": 5.12,
+            "words": 15,
+            "en": "As you can see, I just paid through the first window for my ice cream."
+          },
+          {
+            "part": 2,
+            "start": 168.86,
+            "end": 176.36,
+            "durationSec": 7.5,
+            "words": 22,
+            "en": "But I didn't get my ice cream just yet because I have to go to the second window and pick it up."
+          }
+        ],
+        "note": "拆为 2 个完整意群。"
+      },
+      {
+        "sentenceId": 36,
+        "original": {
+          "start": 197.36,
+          "end": 207.63,
+          "durationSec": 10.27,
+          "words": 29,
+          "en": "I'm gonna go ahead and lick this ice cream, because if not, It will melt down onto the cone, okay guys, that's it for today's YouTube video at McDonald's!"
+        },
+        "proposedParts": [
+          {
+            "part": 1,
+            "start": 197.36,
+            "end": 204.06,
+            "durationSec": 6.7,
+            "words": 19,
+            "en": "I'm gonna go ahead and lick this ice cream, because if not, it will melt down onto the cone."
+          },
+          {
+            "part": 2,
+            "start": 204.1,
+            "end": 207.63,
+            "durationSec": 3.53,
+            "words": 10,
+            "en": "Okay guys, that's it for today's YouTube video at McDonald's!"
+          }
+        ],
+        "channelOutroFlag": true,
+        "note": "后半句 'Okay guys, that's it for today's YouTube video at McDonald's!' 起为频道收尾，待确认是否一并裁掉 #36 后半至 #41。"
+      },
+      {
+        "sentenceId": 41,
+        "original": {
+          "start": 224.18,
+          "end": 233.65,
+          "durationSec": 9.47,
+          "words": 32,
+          "en": "Let me know down below, because I would love to hear your review about this video and make more content for the next video, and don't forget to like and subscribe, bye!"
+        },
+        "proposedParts": [
+          {
+            "part": 1,
+            "start": 224.18,
+            "end": 231.25,
+            "durationSec": 7.07,
+            "words": 24,
+            "en": "Let me know down below, because I would love to hear your review about this video and make more content for the next video."
+          },
+          {
+            "part": 2,
+            "start": 231.29,
+            "end": 233.65,
+            "durationSec": 2.36,
+            "words": 8,
+            "en": "And don't forget to like and subscribe, bye!"
+          }
+        ],
+        "channelOutroFlag": true,
+        "note": "含结尾 'like and subscribe, bye!' 频道收尾，待确认是否从目录课中裁去 #36 后半–#41。"
+      }
+    ]
+  },
+  "other105LongSentences": [
+    {
+      "number": "EP 78",
+      "id": "local-53-trimmed-53-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 148,
+      "originalStart": 355.63,
+      "originalEnd": 365.86,
+      "durationSec": 10.23,
+      "words": 42,
+      "originalEn": "-I'm primarily working on our digital messaging chatbot genie right now and so working a lot with our operations partners, working a lot with our developers who work on the chatbot, and figuring out what the chatbot's gonna say in various circumstances.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 355.63,
+          "end": 360.46,
+          "durationSec": 4.83,
+          "words": 20,
+          "en": "-I'm primarily working on our digital messaging chatbot genie right now and so working a lot with our operations partners."
+        },
+        {
+          "part": 2,
+          "start": 360.5,
+          "end": 363.16,
+          "durationSec": 2.66,
+          "words": 11,
+          "en": "Working a lot with our developers who work on the chatbot."
+        },
+        {
+          "part": 3,
+          "start": 363.2,
+          "end": 365.86,
+          "durationSec": 2.66,
+          "words": 11,
+          "en": "And figuring out what the chatbot's gonna say in various circumstances."
+        }
+      ]
+    },
+    {
+      "number": "EP 76",
+      "id": "local-52-trimmed-52-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 68,
+      "originalStart": 196.33,
+      "originalEnd": 209.77,
+      "durationSec": 13.44,
+      "words": 47,
+      "originalEn": "- Each year I think if I was working full-time it would be a lot more, but I think this year it was like $25,000, $22,000-$25,000 um and that's with full-time in the summer and then part-time during the school year.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 196.33,
+          "end": 200.88,
+          "durationSec": 4.55,
+          "words": 16,
+          "en": "- Each year I think if I was working full-time it would be a lot more."
+        },
+        {
+          "part": 2,
+          "start": 200.92,
+          "end": 207.46,
+          "durationSec": 6.54,
+          "words": 23,
+          "en": "But I think this year it was like $25,000, $22,000-$25,000 um and that's with full-time in the summer."
+        },
+        {
+          "part": 3,
+          "start": 207.5,
+          "end": 209.77,
+          "durationSec": 2.27,
+          "words": 8,
+          "en": "And then part-time during the school year."
+        }
+      ]
+    },
+    {
+      "number": "EP 72",
+      "id": "local-48-Drive-thru-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 45,
+      "originalStart": 237.3,
+      "originalEnd": 253.39,
+      "durationSec": 16.09,
+      "words": 46,
+      "originalEn": "So let's go ahead and scroll down, they have Coke products, Sprite, Fanta, they have some iced root... ...beer, and they also have bottles of water and milk for the kids menu, so this is milk, and then... This is going to be the apple juice.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 237.3,
+          "end": 243.56,
+          "durationSec": 6.26,
+          "words": 18,
+          "en": "So let's go ahead and scroll down, they have Coke products, Sprite, Fanta, they have some iced root..."
+        },
+        {
+          "part": 2,
+          "start": 243.6,
+          "end": 250.56,
+          "durationSec": 6.96,
+          "words": 20,
+          "en": "...beer, and they also have bottles of water and milk for the kids menu, so this is milk, and then..."
+        },
+        {
+          "part": 3,
+          "start": 250.6,
+          "end": 253.39,
+          "durationSec": 2.79,
+          "words": 8,
+          "en": "This is going to be the apple juice."
+        }
+      ]
+    },
+    {
+      "number": "EP 72",
+      "id": "local-48-Drive-thru-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 55,
+      "originalStart": 303.06,
+      "originalEnd": 317.85,
+      "durationSec": 14.79,
+      "words": 48,
+      "originalEn": "For example, if you want to sound formal, you would say, \"I would like to order a Big Mac,\" or if you want... ...to sound less formal, you can just say, \"I'd like to order a Big Mac.\" Now I'm going to order some food... ...with the menu.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 303.06,
+          "end": 310.13,
+          "durationSec": 7.07,
+          "words": 23,
+          "en": "For example, if you want to sound formal, you would say, \"I would like to order a Big Mac,\" or if you want..."
+        },
+        {
+          "part": 2,
+          "start": 310.17,
+          "end": 317.85,
+          "durationSec": 7.68,
+          "words": 25,
+          "en": "...to sound less formal, you can just say, \"I'd like to order a Big Mac.\" Now I'm going to order some food... ...with the menu."
+        }
+      ]
+    },
+    {
+      "number": "EP 72",
+      "id": "local-48-Drive-thru-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 81,
+      "originalStart": 404.3,
+      "originalEnd": 420.78,
+      "durationSec": 16.48,
+      "words": 40,
+      "originalEn": "I'm only going to take two, and you also have some creamer, because... ...McDonald's does sell coffee, and they also have some salt and pepper, sugar for your coffee, ...and some Splenda if you cannot eat straight sugar, pure sugar.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 404.3,
+          "end": 409.63,
+          "durationSec": 5.33,
+          "words": 13,
+          "en": "I'm only going to take two, and you also have some creamer, because..."
+        },
+        {
+          "part": 2,
+          "start": 409.67,
+          "end": 414.59,
+          "durationSec": 4.92,
+          "words": 12,
+          "en": "...McDonald's does sell coffee, and they also have some salt and pepper."
+        },
+        {
+          "part": 3,
+          "start": 414.63,
+          "end": 420.78,
+          "durationSec": 6.15,
+          "words": 15,
+          "en": "Sugar for your coffee, ...and some Splenda if you cannot eat straight sugar, pure sugar."
+        }
+      ]
+    },
+    {
+      "number": "EP 72",
+      "id": "local-48-Drive-thru-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 84,
+      "originalStart": 440.7,
+      "originalEnd": 455.04,
+      "durationSec": 14.34,
+      "words": 40,
+      "originalEn": "As you can see, my Coke has some carbonation, so I'm going to go ahead, empty some of it out, ...and then I'm going to grab my large lid, put it on top, and put my straw through the middle.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 440.7,
+          "end": 443.91,
+          "durationSec": 3.21,
+          "words": 9,
+          "en": "As you can see, my Coke has some carbonation."
+        },
+        {
+          "part": 2,
+          "start": 443.95,
+          "end": 452.51,
+          "durationSec": 8.56,
+          "words": 24,
+          "en": "So I'm going to go ahead, empty some of it out, ...and then I'm going to grab my large lid, put it on top."
+        },
+        {
+          "part": 3,
+          "start": 452.55,
+          "end": 455.04,
+          "durationSec": 2.49,
+          "words": 7,
+          "en": "And put my straw through the middle."
+        }
+      ]
+    },
+    {
+      "number": "EP 72",
+      "id": "local-48-Drive-thru-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 89,
+      "originalStart": 463.84,
+      "originalEnd": 478.55,
+      "durationSec": 14.71,
+      "words": 41,
+      "originalEn": "After finishing my meal, now I have some taste for dessert, so I'm going to order... Myself a frappe which is basically a coffee, Frappuccino coffee and milk, so I'm gonna go ahead and go over here and pick it up.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 463.84,
+          "end": 469.56,
+          "durationSec": 5.72,
+          "words": 16,
+          "en": "After finishing my meal, now I have some taste for dessert, so I'm going to order..."
+        },
+        {
+          "part": 2,
+          "start": 469.6,
+          "end": 478.55,
+          "durationSec": 8.95,
+          "words": 25,
+          "en": "Myself a frappe which is basically a coffee, Frappuccino coffee and milk, so I'm gonna go ahead and go over here and pick it up."
+        }
+      ]
+    },
+    {
+      "number": "EP 70",
+      "id": "local-47-trimmed-47-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 7,
+      "originalStart": 29.33,
+      "originalEnd": 41.16,
+      "durationSec": 11.83,
+      "words": 45,
+      "originalEn": "Right now I'm just going to take my time, eat my ice cream, and wait for my plane to arrive, and then I'm going to head to my gate once again and then board the airplane and show you guys the airplane and what's inside.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 29.33,
+          "end": 34.57,
+          "durationSec": 5.24,
+          "words": 20,
+          "en": "Right now I'm just going to take my time, eat my ice cream, and wait for my plane to arrive."
+        },
+        {
+          "part": 2,
+          "start": 34.61,
+          "end": 41.16,
+          "durationSec": 6.55,
+          "words": 25,
+          "en": "And then I'm going to head to my gate once again and then board the airplane and show you guys the airplane and what's inside."
+        }
+      ]
+    },
+    {
+      "number": "EP 70",
+      "id": "local-47-trimmed-47-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 12,
+      "originalStart": 60.71,
+      "originalEnd": 79.19,
+      "durationSec": 18.48,
+      "words": 64,
+      "originalEn": "So when you board a plane, you board by group number, you board by your group, so my group number is group eight, so I'm the last group, I'll be last to board the plane, but if you're in business class or first class, you'll be the first group to board the plane, and because I'm in economy, that's why I'm the last one.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 60.71,
+          "end": 65.3,
+          "durationSec": 4.59,
+          "words": 16,
+          "en": "So when you board a plane, you board by group number, you board by your group."
+        },
+        {
+          "part": 2,
+          "start": 65.34,
+          "end": 70.79,
+          "durationSec": 5.45,
+          "words": 19,
+          "en": "So my group number is group eight, so I'm the last group, I'll be last to board the plane."
+        },
+        {
+          "part": 3,
+          "start": 70.83,
+          "end": 76.28,
+          "durationSec": 5.45,
+          "words": 19,
+          "en": "But if you're in business class or first class, you'll be the first group to board the plane, and."
+        },
+        {
+          "part": 4,
+          "start": 76.32,
+          "end": 79.19,
+          "durationSec": 2.87,
+          "words": 10,
+          "en": "Because I'm in economy, that's why I'm the last one."
+        }
+      ]
+    },
+    {
+      "number": "EP 68",
+      "id": "local-46-trimmed-46-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 50,
+      "originalStart": 238.3,
+      "originalEnd": 257.28,
+      "durationSec": 18.98,
+      "words": 65,
+      "originalEn": "And as you can see, the process was a little bit quick, I felt kind of rushed, so I came over here to this area and now I'm going to put my jacket back on because I had to take this off to get through security, and I'm going to put my shoes on because you're not allowed to walk through security with your shoes.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 238.3,
+          "end": 243.23,
+          "durationSec": 4.93,
+          "words": 17,
+          "en": "And as you can see, the process was a little bit quick, I felt kind of rushed."
+        },
+        {
+          "part": 2,
+          "start": 243.27,
+          "end": 248.49,
+          "durationSec": 5.22,
+          "words": 18,
+          "en": "So I came over here to this area and now I'm going to put my jacket back on."
+        },
+        {
+          "part": 3,
+          "start": 248.53,
+          "end": 251.72,
+          "durationSec": 3.19,
+          "words": 11,
+          "en": "Because I had to take this off to get through security."
+        },
+        {
+          "part": 4,
+          "start": 251.76,
+          "end": 257.28,
+          "durationSec": 5.52,
+          "words": 19,
+          "en": "And I'm going to put my shoes on because you're not allowed to walk through security with your shoes."
+        }
+      ]
+    },
+    {
+      "number": "EP 68",
+      "id": "local-46-trimmed-46-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 70,
+      "originalStart": 358.12,
+      "originalEnd": 364.2,
+      "durationSec": 6.08,
+      "words": 42,
+      "originalEn": "I'm finally at gate A; I still have to walk all the way to get to Gate A16, but all around me are different types of restaurants and fast food chains like Subway, Vino Volo, and they have a pizzeria right here.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 358.12,
+          "end": 358.83,
+          "durationSec": 0.71,
+          "words": 5,
+          "en": "I'm finally at gate A."
+        },
+        {
+          "part": 2,
+          "start": 358.87,
+          "end": 360.73,
+          "durationSec": 1.86,
+          "words": 13,
+          "en": "I still have to walk all the way to get to Gate A16."
+        },
+        {
+          "part": 3,
+          "start": 360.77,
+          "end": 364.2,
+          "durationSec": 3.43,
+          "words": 24,
+          "en": "But all around me are different types of restaurants and fast food chains like Subway, Vino Volo, and they have a pizzeria right here."
+        }
+      ]
+    },
+    {
+      "number": "EP 68",
+      "id": "local-46-trimmed-46-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 71,
+      "originalStart": 364.24,
+      "originalEnd": 382.92,
+      "durationSec": 18.68,
+      "words": 29,
+      "originalEn": "This honestly feels like a mall, and I'm glad they have a lot of different restaurants because people like to eat inside the airport before getting on their plane.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 364.24,
+          "end": 382.92,
+          "durationSec": 18.68,
+          "words": 29,
+          "en": "This honestly feels like a mall, and I'm glad they have a lot of different restaurants because people like to eat inside the airport before getting on their plane."
+        }
+      ]
+    },
+    {
+      "number": "EP 68",
+      "id": "local-46-trimmed-46-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 72,
+      "originalStart": 382.96,
+      "originalEnd": 388.76,
+      "durationSec": 5.8,
+      "words": 53,
+      "originalEn": "Not only do they have restaurants inside the gate area, they also have a mini market or just a store, and it's called Over-the-Rhine, because Cincinnati—in the center of the city—there's a part called Over-the-Rhine, and it's famous because it's right in the middle of the city.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 382.96,
+          "end": 384.03,
+          "durationSec": 1.07,
+          "words": 10,
+          "en": "Not only do they have restaurants inside the gate area."
+        },
+        {
+          "part": 2,
+          "start": 384.07,
+          "end": 385.78,
+          "durationSec": 1.71,
+          "words": 16,
+          "en": "They also have a mini market or just a store, and it's called Over-the-Rhine."
+        },
+        {
+          "part": 3,
+          "start": 385.82,
+          "end": 387.43,
+          "durationSec": 1.61,
+          "words": 15,
+          "en": "Because Cincinnati—in the center of the city—there's a part called Over-the-Rhine."
+        },
+        {
+          "part": 4,
+          "start": 387.47,
+          "end": 388.76,
+          "durationSec": 1.29,
+          "words": 12,
+          "en": "And it's famous because it's right in the middle of the city."
+        }
+      ]
+    },
+    {
+      "number": "EP 68",
+      "id": "local-46-trimmed-46-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 73,
+      "originalStart": 388.8,
+      "originalEnd": 393.72,
+      "durationSec": 4.92,
+      "words": 54,
+      "originalEn": "Not only do they have restaurants inside the gate area, they also have a mini market or just a store, and it's called Over-the-Rhine because in Cincinnati, in the center of the city, there's a part called Over-the-Rhine and it's famous because it's right in the middle of the city.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 388.8,
+          "end": 390.59,
+          "durationSec": 1.79,
+          "words": 20,
+          "en": "Not only do they have restaurants inside the gate area, they also have a mini market or just a store."
+        },
+        {
+          "part": 2,
+          "start": 390.63,
+          "end": 392.87,
+          "durationSec": 2.24,
+          "words": 25,
+          "en": "And it's called Over-the-Rhine because in Cincinnati, in the center of the city, there's a part called Over-the-Rhine and it's famous."
+        },
+        {
+          "part": 3,
+          "start": 392.91,
+          "end": 393.72,
+          "durationSec": 0.81,
+          "words": 9,
+          "en": "Because it's right in the middle of the city."
+        }
+      ]
+    },
+    {
+      "number": "EP 68",
+      "id": "local-46-trimmed-46-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 74,
+      "originalStart": 393.76,
+      "originalEnd": 398.32,
+      "durationSec": 4.56,
+      "words": 54,
+      "originalEn": "Not only do they have restaurants inside the gate area, they also have a mini market or just a store and it's called Over-the-Rhine because in Cincinnati in the center of the city there's a part called Over-the-Rhine and it's famous because it's right in the middle of the city.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 393.76,
+          "end": 394.59,
+          "durationSec": 0.83,
+          "words": 10,
+          "en": "Not only do they have restaurants inside the gate area."
+        },
+        {
+          "part": 2,
+          "start": 394.63,
+          "end": 397.53,
+          "durationSec": 2.9,
+          "words": 35,
+          "en": "They also have a mini market or just a store and it's called Over-the-Rhine because in Cincinnati in the center of the city there's a part called Over-the-Rhine and it's famous."
+        },
+        {
+          "part": 3,
+          "start": 397.57,
+          "end": 398.32,
+          "durationSec": 0.75,
+          "words": 9,
+          "en": "Because it's right in the middle of the city."
+        }
+      ]
+    },
+    {
+      "number": "EP 68",
+      "id": "local-46-trimmed-46-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 82,
+      "originalStart": 431.87,
+      "originalEnd": 436.08,
+      "durationSec": 4.21,
+      "words": 42,
+      "originalEn": "Using NordVPN will give you access to content blocked in countries or not available in your home country, so you will have more opportunities to learn a new language like I did when I traveled to Poland a couple of months ago.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 431.87,
+          "end": 433.66,
+          "durationSec": 1.79,
+          "words": 18,
+          "en": "Using NordVPN will give you access to content blocked in countries or not available in your home country."
+        },
+        {
+          "part": 2,
+          "start": 433.7,
+          "end": 436.08,
+          "durationSec": 2.38,
+          "words": 24,
+          "en": "So you will have more opportunities to learn a new language like I did when I traveled to Poland a couple of months ago."
+        }
+      ]
+    },
+    {
+      "number": "EP 68",
+      "id": "local-46-trimmed-46-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 83,
+      "originalStart": 436.12,
+      "originalEnd": 443.64,
+      "durationSec": 7.52,
+      "words": 42,
+      "originalEn": "Using NordVPN will give you access to content blocked in countries or not available in your home country so you will have more opportunities to learn a new language like I did when I traveled to Poland a couple of months ago.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 436.12,
+          "end": 439.33,
+          "durationSec": 3.21,
+          "words": 18,
+          "en": "Using NordVPN will give you access to content blocked in countries or not available in your home country."
+        },
+        {
+          "part": 2,
+          "start": 439.37,
+          "end": 443.64,
+          "durationSec": 4.27,
+          "words": 24,
+          "en": "So you will have more opportunities to learn a new language like I did when I traveled to Poland a couple of months ago."
+        }
+      ]
+    },
+    {
+      "number": "EP 66",
+      "id": "local-45-trimmed-45-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 38,
+      "originalStart": 126.21,
+      "originalEnd": 143.85,
+      "durationSec": 17.64,
+      "words": 54,
+      "originalEn": "Also, in the U.S. waiters and waitresses rely on a heavy portion of tipping as their pay so if you eat inside a restaurant with a waiter or waitress that is providing you a service you should tip at least 20% of the bill to pay the waiter or waitress for their work.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 126.21,
+          "end": 127.84,
+          "durationSec": 1.63,
+          "words": 5,
+          "en": "Also, in the U.S."
+        },
+        {
+          "part": 2,
+          "start": 127.88,
+          "end": 143.85,
+          "durationSec": 15.97,
+          "words": 49,
+          "en": "Waiters and waitresses rely on a heavy portion of tipping as their pay so if you eat inside a restaurant with a waiter or waitress that is providing you a service you should tip at least 20% of the bill to pay the waiter or waitress for their work."
+        }
+      ]
+    },
+    {
+      "number": "EP 66",
+      "id": "local-45-trimmed-45-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 56,
+      "originalStart": 248.13,
+      "originalEnd": 261.69,
+      "durationSec": 13.56,
+      "words": 46,
+      "originalEn": "Also, when you leave there might be some extra plates or silverware on the table and that's where the busboy or busgirl will help clear the table and set up a new table for the next couple or family who want to eat at a table.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 248.13,
+          "end": 261.69,
+          "durationSec": 13.56,
+          "words": 46,
+          "en": "Also, when you leave there might be some extra plates or silverware on the table and that's where the busboy or busgirl will help clear the table and set up a new table for the next couple or family who want to eat at a table."
+        }
+      ]
+    },
+    {
+      "number": "EP 64",
+      "id": "local-44-trimmed-44-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 54,
+      "originalStart": 188.94,
+      "originalEnd": 200.45,
+      "durationSec": 11.51,
+      "words": 40,
+      "originalEn": "I'm not sure who it is, he or she will introduce himself or herself, and they will ask me what kind of beverage I will be drinking today, and he or she will ask me if I'm ready to order.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 188.94,
+          "end": 192.94,
+          "durationSec": 4.0,
+          "words": 14,
+          "en": "I'm not sure who it is, he or she will introduce himself or herself."
+        },
+        {
+          "part": 2,
+          "start": 192.98,
+          "end": 196.98,
+          "durationSec": 4.0,
+          "words": 14,
+          "en": "And they will ask me what kind of beverage I will be drinking today."
+        },
+        {
+          "part": 3,
+          "start": 197.02,
+          "end": 200.45,
+          "durationSec": 3.43,
+          "words": 12,
+          "en": "And he or she will ask me if I'm ready to order."
+        }
+      ]
+    },
+    {
+      "number": "EP 64",
+      "id": "local-44-trimmed-44-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 118,
+      "originalStart": 474.81,
+      "originalEnd": 490.81,
+      "durationSec": 16.0,
+      "words": 17,
+      "originalEn": "Utensils include forks, spoons, knives, chopsticks, etc., even if they're made of plastic, wood, or other materials.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 474.81,
+          "end": 490.81,
+          "durationSec": 16.0,
+          "words": 17,
+          "en": "Utensils include forks, spoons, knives, chopsticks, etc., even if they're made of plastic, wood, or other materials."
+        }
+      ]
+    },
+    {
+      "number": "EP 62",
+      "id": "local-43-trimmed-43-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 43,
+      "originalStart": 160.25,
+      "originalEnd": 172.83,
+      "durationSec": 12.58,
+      "words": 45,
+      "originalEn": "With the different accents and then using the same word that means something else in a different way, I feel like that would be like very difficult for even us Americans going to another state, rather than a whole person coming from a different country.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 160.25,
+          "end": 165.25,
+          "durationSec": 5.0,
+          "words": 18,
+          "en": "With the different accents and then using the same word that means something else in a different way."
+        },
+        {
+          "part": 2,
+          "start": 165.29,
+          "end": 170.01,
+          "durationSec": 4.72,
+          "words": 17,
+          "en": "I feel like that would be like very difficult for even us Americans going to another state."
+        },
+        {
+          "part": 3,
+          "start": 170.05,
+          "end": 172.83,
+          "durationSec": 2.78,
+          "words": 10,
+          "en": "Rather than a whole person coming from a different country."
+        }
+      ]
+    },
+    {
+      "number": "EP 60",
+      "id": "local-42-trimmed-42-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 94,
+      "originalStart": 306.76,
+      "originalEnd": 318.28,
+      "durationSec": 11.52,
+      "words": 41,
+      "originalEn": "And then like as I got older and like I will like recognize that I say some words with like a little bit of like twang to it or like just like I'll emphasize it a different way someone else would.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 306.76,
+          "end": 318.28,
+          "durationSec": 11.52,
+          "words": 41,
+          "en": "And then like as I got older and like I will like recognize that I say some words with like a little bit of like twang to it or like just like I'll emphasize it a different way someone else would."
+        }
+      ]
+    },
+    {
+      "number": "EP 60",
+      "id": "local-42-trimmed-42-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 148,
+      "originalStart": 517.2,
+      "originalEnd": 527.71,
+      "durationSec": 10.51,
+      "words": 42,
+      "originalEn": "It's a little bit of a curse word, but like if someone is like telling the truth, you can be like, \"Oh, I'm dead ass.\" Okay, he gave us a warning that this one has a little bit of a bad word.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 517.2,
+          "end": 519.19,
+          "durationSec": 1.99,
+          "words": 8,
+          "en": "It's a little bit of a curse word."
+        },
+        {
+          "part": 2,
+          "start": 519.23,
+          "end": 523.7,
+          "durationSec": 4.47,
+          "words": 18,
+          "en": "But like if someone is like telling the truth, you can be like, \"Oh, I'm dead ass.\" Okay."
+        },
+        {
+          "part": 3,
+          "start": 523.74,
+          "end": 527.71,
+          "durationSec": 3.97,
+          "words": 16,
+          "en": "He gave us a warning that this one has a little bit of a bad word."
+        }
+      ]
+    },
+    {
+      "number": "EP 59",
+      "id": "local-64-trimmed-64-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 8,
+      "originalStart": 32.84,
+      "originalEnd": 55.0,
+      "durationSec": 22.16,
+      "words": 25,
+      "originalEn": "I actually have literally nothing planned, but I thought that that would be more fun and more spontaneous to just frolic around New York together.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 32.84,
+          "end": 55.0,
+          "durationSec": 22.16,
+          "words": 25,
+          "en": "I actually have literally nothing planned, but I thought that that would be more fun and more spontaneous to just frolic around New York together."
+        }
+      ]
+    },
+    {
+      "number": "EP 58",
+      "id": "local-37-trimmed-37-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 102,
+      "originalStart": 412.98,
+      "originalEnd": 425.05,
+      "durationSec": 12.07,
+      "words": 47,
+      "originalEn": "So with cash with the money that you have saved up in your bank account or the second way is getting a loan from the bank where the bank will lend you money (you borrow this money) and then you pay off this money with a mortgage.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 412.98,
+          "end": 422.45,
+          "durationSec": 9.47,
+          "words": 37,
+          "en": "So with cash with the money that you have saved up in your bank account or the second way is getting a loan from the bank where the bank will lend you money (you borrow this money)."
+        },
+        {
+          "part": 2,
+          "start": 422.49,
+          "end": 425.05,
+          "durationSec": 2.56,
+          "words": 10,
+          "en": "And then you pay off this money with a mortgage."
+        }
+      ]
+    },
+    {
+      "number": "EP 58",
+      "id": "local-37-trimmed-37-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 114,
+      "originalStart": 469.72,
+      "originalEnd": 483.8,
+      "durationSec": 14.08,
+      "words": 47,
+      "originalEn": "Okay Katherine let's say that I have the loan approved from the bank so I'm going to borrow this money, and then I'm going to put around 3% to 3.5% of the original value of the home, how much would my mortgage payment be every month?",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 469.72,
+          "end": 475.68,
+          "durationSec": 5.96,
+          "words": 20,
+          "en": "Okay Katherine let's say that I have the loan approved from the bank so I'm going to borrow this money."
+        },
+        {
+          "part": 2,
+          "start": 475.72,
+          "end": 481.08,
+          "durationSec": 5.36,
+          "words": 18,
+          "en": "And then I'm going to put around 3% to 3.5% of the original value of the home."
+        },
+        {
+          "part": 3,
+          "start": 481.12,
+          "end": 483.8,
+          "durationSec": 2.68,
+          "words": 9,
+          "en": "How much would my mortgage payment be every month?"
+        }
+      ]
+    },
+    {
+      "number": "EP 56",
+      "id": "local-36-trimmed-36-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 8,
+      "originalStart": 31.14,
+      "originalEnd": 41.43,
+      "durationSec": 10.29,
+      "words": 40,
+      "originalEn": "Stay till the end of the video because Katherine's going to tell us the price of the house and how much it costs and she's going to explain the steps on how to buy a house in the United States.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 31.14,
+          "end": 41.43,
+          "durationSec": 10.29,
+          "words": 40,
+          "en": "Stay till the end of the video because Katherine's going to tell us the price of the house and how much it costs and she's going to explain the steps on how to buy a house in the United States."
+        }
+      ]
+    },
+    {
+      "number": "EP 55",
+      "id": "local-63-ABG-part2",
+      "speaker": "Michelle Choi",
+      "sentenceId": 16,
+      "originalStart": 95.44,
+      "originalEnd": 111.3,
+      "durationSec": 15.86,
+      "words": 26,
+      "originalEn": "Wait, I think they also do like contour at the same time, so... Now for the most exciting part, I'm going to be baking my face.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 95.44,
+          "end": 103.35,
+          "durationSec": 7.91,
+          "words": 13,
+          "en": "Wait, I think they also do like contour at the same time, so..."
+        },
+        {
+          "part": 2,
+          "start": 103.39,
+          "end": 111.3,
+          "durationSec": 7.91,
+          "words": 13,
+          "en": "Now for the most exciting part, I'm going to be baking my face."
+        }
+      ]
+    },
+    {
+      "number": "EP 54",
+      "id": "local-35-trimmed-35-part3",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 7,
+      "originalStart": 19.57,
+      "originalEnd": 35.48,
+      "durationSec": 15.91,
+      "words": 35,
+      "originalEn": "So I swept the kitchen floor, I took out the trash from the trash can, and another household chore you can do in the kitchen is washing your dishes or you can clean your dishes.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 19.57,
+          "end": 26.37,
+          "durationSec": 6.8,
+          "words": 15,
+          "en": "So I swept the kitchen floor, I took out the trash from the trash can."
+        },
+        {
+          "part": 2,
+          "start": 26.41,
+          "end": 35.48,
+          "durationSec": 9.07,
+          "words": 20,
+          "en": "And another household chore you can do in the kitchen is washing your dishes or you can clean your dishes."
+        }
+      ]
+    },
+    {
+      "number": "EP 54",
+      "id": "local-35-trimmed-35-part3",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 9,
+      "originalStart": 37.56,
+      "originalEnd": 59.43,
+      "durationSec": 21.87,
+      "words": 51,
+      "originalEn": "I have a bowl, a small plate, and a cup in the sink and to clean the dishes I have to turn on the water from the faucet (this is a faucet) and I have to scrub the dishes with a sponge and I have to wash it with dish soap.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 37.56,
+          "end": 40.56,
+          "durationSec": 3.0,
+          "words": 7,
+          "en": "I have a bowl, a small plate."
+        },
+        {
+          "part": 2,
+          "start": 40.6,
+          "end": 59.43,
+          "durationSec": 18.83,
+          "words": 44,
+          "en": "And a cup in the sink and to clean the dishes I have to turn on the water from the faucet (this is a faucet) and I have to scrub the dishes with a sponge and I have to wash it with dish soap."
+        }
+      ]
+    },
+    {
+      "number": "EP 52",
+      "id": "local-34-trimmed-34-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 33,
+      "originalStart": 261.2,
+      "originalEnd": 281.47,
+      "durationSec": 20.27,
+      "words": 40,
+      "originalEn": "I have to take off the cap from the glass cleaner and I have to press down this nozzle and spray it on the table and then I will tear off one paper towel and then wipe down this table.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 261.2,
+          "end": 273.84,
+          "durationSec": 12.64,
+          "words": 25,
+          "en": "I have to take off the cap from the glass cleaner and I have to press down this nozzle and spray it on the table."
+        },
+        {
+          "part": 2,
+          "start": 273.88,
+          "end": 281.47,
+          "durationSec": 7.59,
+          "words": 15,
+          "en": "And then I will tear off one paper towel and then wipe down this table."
+        }
+      ]
+    },
+    {
+      "number": "EP 51",
+      "id": "local-62-trimmed-62-part1",
+      "speaker": "Michelle Choi",
+      "sentenceId": 11,
+      "originalStart": 41.23,
+      "originalEnd": 57.03,
+      "durationSec": 15.8,
+      "words": 39,
+      "originalEn": "If you guys don't know about ABGs, I'm not too sure either, but the stereotype around ABG are girls who have a lot of makeup on, Typically long platinum blonde hair, or like black or blonde hair, I guess.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 41.23,
+          "end": 46.07,
+          "durationSec": 4.84,
+          "words": 12,
+          "en": "If you guys don't know about ABGs, I'm not too sure either."
+        },
+        {
+          "part": 2,
+          "start": 46.11,
+          "end": 53.77,
+          "durationSec": 7.66,
+          "words": 19,
+          "en": "But the stereotype around ABG are girls who have a lot of makeup on, Typically long platinum blonde hair."
+        },
+        {
+          "part": 3,
+          "start": 53.81,
+          "end": 57.03,
+          "durationSec": 3.22,
+          "words": 8,
+          "en": "Or like black or blonde hair, I guess."
+        }
+      ]
+    },
+    {
+      "number": "EP 50",
+      "id": "local-33-trimmed-33-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 9,
+      "originalStart": 41.5,
+      "originalEnd": 59.8,
+      "durationSec": 18.3,
+      "words": 49,
+      "originalEn": "So the first thing I'm going to do to clean my room is change my bed sheets because these are my bed sheets and they may look very clean, but if you look closely there may be a lot of dirt or hair because I live with two pets.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 41.5,
+          "end": 52.31,
+          "durationSec": 10.81,
+          "words": 29,
+          "en": "So the first thing I'm going to do to clean my room is change my bed sheets because these are my bed sheets and they may look very clean."
+        },
+        {
+          "part": 2,
+          "start": 52.35,
+          "end": 59.8,
+          "durationSec": 7.45,
+          "words": 20,
+          "en": "But if you look closely there may be a lot of dirt or hair because I live with two pets."
+        }
+      ]
+    },
+    {
+      "number": "EP 49",
+      "id": "local-68-trimmed-68-micro3",
+      "speaker": "Vanessa",
+      "sentenceId": 6,
+      "originalStart": 11.93,
+      "originalEnd": 29.17,
+      "durationSec": 17.24,
+      "words": 45,
+      "originalEn": "Yes, I think my city Asheville is kind of known for art known for some other types of like uh music on the street, these types of things, but where we are is a neighborhood and not where people are playing music on the streets.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 11.93,
+          "end": 22.63,
+          "durationSec": 10.7,
+          "words": 28,
+          "en": "Yes, I think my city Asheville is kind of known for art known for some other types of like uh music on the street, these types of things."
+        },
+        {
+          "part": 2,
+          "start": 22.67,
+          "end": 29.17,
+          "durationSec": 6.5,
+          "words": 17,
+          "en": "But where we are is a neighborhood and not where people are playing music on the streets."
+        }
+      ]
+    },
+    {
+      "number": "EP 47",
+      "id": "local-61-trimmed-61-part2",
+      "speaker": "Sydney Serena",
+      "sentenceId": 48,
+      "originalStart": 138.65,
+      "originalEnd": 151.69,
+      "durationSec": 13.04,
+      "words": 48,
+      "originalEn": "Some of you guys saw this a few vlogs ago; I basically asked you guys where you would prefer me to like have a giveaway, if I should do it on TikTok, Instagram... YouTube, and most of you guys said YouTube; that's why I'm doing it on here.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 138.65,
+          "end": 141.34,
+          "durationSec": 2.69,
+          "words": 10,
+          "en": "Some of you guys saw this a few vlogs ago."
+        },
+        {
+          "part": 2,
+          "start": 141.38,
+          "end": 147.57,
+          "durationSec": 6.19,
+          "words": 23,
+          "en": "I basically asked you guys where you would prefer me to like have a giveaway, if I should do it on TikTok, Instagram..."
+        },
+        {
+          "part": 3,
+          "start": 147.61,
+          "end": 149.76,
+          "durationSec": 2.15,
+          "words": 8,
+          "en": "YouTube, and most of you guys said YouTube."
+        },
+        {
+          "part": 4,
+          "start": 149.8,
+          "end": 151.69,
+          "durationSec": 1.89,
+          "words": 7,
+          "en": "That's why I'm doing it on here."
+        }
+      ]
+    },
+    {
+      "number": "EP 47",
+      "id": "local-61-trimmed-61-part2",
+      "speaker": "Sydney Serena",
+      "sentenceId": 71,
+      "originalStart": 243.89,
+      "originalEnd": 256.39,
+      "durationSec": 12.5,
+      "words": 49,
+      "originalEn": "This is just so exciting because I'm just like such a big fan of them, and I use a lot of their products all the time, like you guys saw I just used their drying lotion, and I really want you guys to also experience them if you haven't.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 243.89,
+          "end": 247.69,
+          "durationSec": 3.8,
+          "words": 15,
+          "en": "This is just so exciting because I'm just like such a big fan of them."
+        },
+        {
+          "part": 2,
+          "start": 247.73,
+          "end": 253.05,
+          "durationSec": 5.32,
+          "words": 21,
+          "en": "And I use a lot of their products all the time, like you guys saw I just used their drying lotion."
+        },
+        {
+          "part": 3,
+          "start": 253.09,
+          "end": 256.39,
+          "durationSec": 3.3,
+          "words": 13,
+          "en": "And I really want you guys to also experience them if you haven't."
+        }
+      ]
+    },
+    {
+      "number": "EP 47",
+      "id": "local-61-trimmed-61-part2",
+      "speaker": "Sydney Serena",
+      "sentenceId": 73,
+      "originalStart": 260.59,
+      "originalEnd": 277.66,
+      "durationSec": 17.07,
+      "words": 45,
+      "originalEn": "It comes with the brightening eye serum, the same drying lotion that I just used, some pimple patches, their pore minimizer, an overnight mask, vitamin C cream, their facial spray which is probably my favorite thing from them, a cleanser, basically an entire skincare routine.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 260.59,
+          "end": 268.54,
+          "durationSec": 7.95,
+          "words": 21,
+          "en": "It comes with the brightening eye serum, the same drying lotion that I just used, some pimple patches, their pore minimizer."
+        },
+        {
+          "part": 2,
+          "start": 268.58,
+          "end": 277.66,
+          "durationSec": 9.08,
+          "words": 24,
+          "en": "An overnight mask, vitamin C cream, their facial spray which is probably my favorite thing from them, a cleanser, basically an entire skincare routine."
+        }
+      ]
+    },
+    {
+      "number": "EP 44",
+      "id": "local-27-Chipotle-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 13,
+      "originalStart": 72.65,
+      "originalEnd": 87.77,
+      "durationSec": 15.12,
+      "words": 41,
+      "originalEn": "Now, if you want to skip something or you don't want to add that ingredient on top of your bowl—like, for example, beans, because they might make you... you can say, \"No beans, please\" or \"I don't want any beans.\"",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 72.65,
+          "end": 80.35,
+          "durationSec": 7.7,
+          "words": 21,
+          "en": "Now, if you want to skip something or you don't want to add that ingredient on top of your bowl—like."
+        },
+        {
+          "part": 2,
+          "start": 80.39,
+          "end": 83.32,
+          "durationSec": 2.93,
+          "words": 8,
+          "en": "For example, beans, because they might make you..."
+        },
+        {
+          "part": 3,
+          "start": 83.36,
+          "end": 87.77,
+          "durationSec": 4.41,
+          "words": 12,
+          "en": "You can say, \"No beans, please\" or \"I don't want any beans.\"."
+        }
+      ]
+    },
+    {
+      "number": "EP 44",
+      "id": "local-27-Chipotle-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 19,
+      "originalStart": 109.61,
+      "originalEnd": 126.53,
+      "durationSec": 16.92,
+      "words": 46,
+      "originalEn": "Now that you guys know the different types of phrases we use when we order food and the different types of toppings they have here at Chipotle, I think it's time to put our English skills to the test and hop in line and order food.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 109.61,
+          "end": 119.52,
+          "durationSec": 9.91,
+          "words": 27,
+          "en": "Now that you guys know the different types of phrases we use when we order food and the different types of toppings they have here at Chipotle."
+        },
+        {
+          "part": 2,
+          "start": 119.56,
+          "end": 126.53,
+          "durationSec": 6.97,
+          "words": 19,
+          "en": "I think it's time to put our English skills to the test and hop in line and order food."
+        }
+      ]
+    },
+    {
+      "number": "EP 43",
+      "id": "local-60-trimmed-60-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 68,
+      "originalStart": 236.42,
+      "originalEnd": 246.7,
+      "durationSec": 10.28,
+      "words": 40,
+      "originalEn": "But when I'm just, like, on my phone for too long, and I'm just scrolling endlessly, I feel like I just compare everything about me to everyone else, and then I feel bad about my own life when I shouldn't.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 236.42,
+          "end": 239.22,
+          "durationSec": 2.8,
+          "words": 11,
+          "en": "But when I'm just, like, on my phone for too long."
+        },
+        {
+          "part": 2,
+          "start": 239.26,
+          "end": 243.59,
+          "durationSec": 4.33,
+          "words": 17,
+          "en": "And I'm just scrolling endlessly, I feel like I just compare everything about me to everyone else."
+        },
+        {
+          "part": 3,
+          "start": 243.63,
+          "end": 246.7,
+          "durationSec": 3.07,
+          "words": 12,
+          "en": "And then I feel bad about my own life when I shouldn't."
+        }
+      ]
+    },
+    {
+      "number": "EP 43",
+      "id": "local-60-trimmed-60-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 71,
+      "originalStart": 253.28,
+      "originalEnd": 271.58,
+      "durationSec": 18.3,
+      "words": 75,
+      "originalEn": "Like, if you guys watched my video three or four years ago, it was called Dear Teenage Girls, and I talked about how I struggled with just comparing myself online to people, because it's such a real thing and it's, like, just an important reminder, I guess, for me to get off my phone and just know that, like, if you're ever feeling bad about yourself on social media, you're only seeing someone's highlight reel.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 253.28,
+          "end": 257.63,
+          "durationSec": 4.35,
+          "words": 18,
+          "en": "Like, if you guys watched my video three or four years ago, it was called Dear Teenage Girls."
+        },
+        {
+          "part": 2,
+          "start": 257.67,
+          "end": 261.06,
+          "durationSec": 3.39,
+          "words": 14,
+          "en": "And I talked about how I struggled with just comparing myself online to people."
+        },
+        {
+          "part": 3,
+          "start": 261.1,
+          "end": 264.24,
+          "durationSec": 3.14,
+          "words": 13,
+          "en": "Because it's such a real thing and it's, like, just an important reminder."
+        },
+        {
+          "part": 4,
+          "start": 264.28,
+          "end": 267.42,
+          "durationSec": 3.14,
+          "words": 13,
+          "en": "I guess, for me to get off my phone and just know that."
+        },
+        {
+          "part": 5,
+          "start": 267.46,
+          "end": 271.58,
+          "durationSec": 4.12,
+          "words": 17,
+          "en": "Like, if you're ever feeling bad about yourself on social media, you're only seeing someone's highlight reel."
+        }
+      ]
+    },
+    {
+      "number": "EP 43",
+      "id": "local-60-trimmed-60-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 77,
+      "originalStart": 290.7,
+      "originalEnd": 306.25,
+      "durationSec": 15.55,
+      "words": 16,
+      "originalEn": "There's a specific feeling that you get in a bookstore that you don't get anywhere else.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 290.7,
+          "end": 306.25,
+          "durationSec": 15.55,
+          "words": 16,
+          "en": "There's a specific feeling that you get in a bookstore that you don't get anywhere else."
+        }
+      ]
+    },
+    {
+      "number": "EP 43",
+      "id": "local-60-trimmed-60-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 87,
+      "originalStart": 352.98,
+      "originalEnd": 364.92,
+      "durationSec": 11.94,
+      "words": 43,
+      "originalEn": "I got this new salad bowl, and it's like making me want to make more salads. I also got this milk. I usually don't even really drink, like, Normal milk, but this is so good that I can't not; it's the little Horizon.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 352.98,
+          "end": 357.39,
+          "durationSec": 4.41,
+          "words": 16,
+          "en": "I got this new salad bowl, and it's like making me want to make more salads."
+        },
+        {
+          "part": 2,
+          "start": 357.43,
+          "end": 358.81,
+          "durationSec": 1.38,
+          "words": 5,
+          "en": "I also got this milk."
+        },
+        {
+          "part": 3,
+          "start": 358.85,
+          "end": 364.92,
+          "durationSec": 6.07,
+          "words": 22,
+          "en": "I usually don't even really drink, like, Normal milk, but this is so good that I can't not; it's the little Horizon."
+        }
+      ]
+    },
+    {
+      "number": "EP 42",
+      "id": "local-26-Chipotle-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 5,
+      "originalStart": 25.69,
+      "originalEnd": 45.49,
+      "durationSec": 19.8,
+      "words": 58,
+      "originalEn": "Well, last time I ate at Chipotle, I saw someone having trouble ordering food, and I'm sure there are many others who also find it difficult or just might not feel comfortable when they order food, so I'm making this video to help you order food easily next time you come here or go to a different place.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 25.69,
+          "end": 30.45,
+          "durationSec": 4.76,
+          "words": 14,
+          "en": "Well, last time I ate at Chipotle, I saw someone having trouble ordering food."
+        },
+        {
+          "part": 2,
+          "start": 30.49,
+          "end": 37.97,
+          "durationSec": 7.48,
+          "words": 22,
+          "en": "And I'm sure there are many others who also find it difficult or just might not feel comfortable when they order food."
+        },
+        {
+          "part": 3,
+          "start": 38.01,
+          "end": 45.49,
+          "durationSec": 7.48,
+          "words": 22,
+          "en": "So I'm making this video to help you order food easily next time you come here or go to a different place."
+        }
+      ]
+    },
+    {
+      "number": "EP 42",
+      "id": "local-26-Chipotle-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 16,
+      "originalStart": 112.81,
+      "originalEnd": 129.89,
+      "durationSec": 17.08,
+      "words": 51,
+      "originalEn": "When you go to a restaurant, the first thing you look at is the menu, but because this is a fast-food chain restaurant, you won't have a physical menu or a physical copy with you, so you'll actually have to look up above the counter and check out the menu.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 112.81,
+          "end": 117.81,
+          "durationSec": 5.0,
+          "words": 15,
+          "en": "When you go to a restaurant, the first thing you look at is the menu."
+        },
+        {
+          "part": 2,
+          "start": 117.85,
+          "end": 124.85,
+          "durationSec": 7.0,
+          "words": 21,
+          "en": "But because this is a fast-food chain restaurant, you won't have a physical menu or a physical copy with you."
+        },
+        {
+          "part": 3,
+          "start": 124.89,
+          "end": 129.89,
+          "durationSec": 5.0,
+          "words": 15,
+          "en": "So you'll actually have to look up above the counter and check out the menu."
+        }
+      ]
+    },
+    {
+      "number": "EP 42",
+      "id": "local-26-Chipotle-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 20,
+      "originalStart": 147.29,
+      "originalEnd": 161.13,
+      "durationSec": 13.84,
+      "words": 43,
+      "originalEn": "But before ordering, let me show you how to get ready to order at the counter, because once you're there, they are going to ask you what type of base you want, what kind of protein you want, and all of the toppings.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 147.29,
+          "end": 152.41,
+          "durationSec": 5.12,
+          "words": 16,
+          "en": "But before ordering, let me show you how to get ready to order at the counter."
+        },
+        {
+          "part": 2,
+          "start": 152.45,
+          "end": 157.57,
+          "durationSec": 5.12,
+          "words": 16,
+          "en": "Because once you're there, they are going to ask you what type of base you want."
+        },
+        {
+          "part": 3,
+          "start": 157.61,
+          "end": 161.13,
+          "durationSec": 3.52,
+          "words": 11,
+          "en": "What kind of protein you want, and all of the toppings."
+        }
+      ]
+    },
+    {
+      "number": "EP 41",
+      "id": "local-66-Drive-thru-micro1",
+      "speaker": "Vanessa",
+      "sentenceId": 29,
+      "originalStart": 116.02,
+      "originalEnd": 129.29,
+      "durationSec": 13.27,
+      "words": 48,
+      "originalEn": "There was only one drive-thru lane, and if you go to the closest drive-thru lane where this other car is over here, there's just a door that opens in the wall, and you put things directly in there, and the bank teller grabs it directly out.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 116.02,
+          "end": 117.94,
+          "durationSec": 1.92,
+          "words": 7,
+          "en": "There was only one drive-thru lane."
+        },
+        {
+          "part": 2,
+          "start": 117.98,
+          "end": 122.64,
+          "durationSec": 4.66,
+          "words": 17,
+          "en": "And if you go to the closest drive-thru lane where this other car is over here."
+        },
+        {
+          "part": 3,
+          "start": 122.68,
+          "end": 125.15,
+          "durationSec": 2.47,
+          "words": 9,
+          "en": "There's just a door that opens in the wall."
+        },
+        {
+          "part": 4,
+          "start": 125.19,
+          "end": 129.29,
+          "durationSec": 4.1,
+          "words": 15,
+          "en": "And you put things directly in there, and the bank teller grabs it directly out."
+        }
+      ]
+    },
+    {
+      "number": "EP 41",
+      "id": "local-66-Drive-thru-micro1",
+      "speaker": "Vanessa",
+      "sentenceId": 48,
+      "originalStart": 159.84,
+      "originalEnd": 173.65,
+      "durationSec": 13.81,
+      "words": 56,
+      "originalEn": "While we're waiting for the checks to get deposited, I wanted to let you know that if you do live in the US and you want to go to the bank, if you want to just deposit a check or if you want to get some cash out, you don't need to go into the bank.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 159.84,
+          "end": 162.05,
+          "durationSec": 2.21,
+          "words": 9,
+          "en": "While we're waiting for the checks to get deposited."
+        },
+        {
+          "part": 2,
+          "start": 162.09,
+          "end": 167.48,
+          "durationSec": 5.39,
+          "words": 22,
+          "en": "I wanted to let you know that if you do live in the US and you want to go to the bank."
+        },
+        {
+          "part": 3,
+          "start": 167.52,
+          "end": 173.65,
+          "durationSec": 6.13,
+          "words": 25,
+          "en": "If you want to just deposit a check or if you want to get some cash out, you don't need to go into the bank."
+        }
+      ]
+    },
+    {
+      "number": "EP 39",
+      "id": "local-51-trimmed-51-part2",
+      "speaker": "Sydney Serena",
+      "sentenceId": 8,
+      "originalStart": 25.11,
+      "originalEnd": 36.22,
+      "durationSec": 11.11,
+      "words": 48,
+      "originalEn": "This is the new clothing rack I got that I showed you guys earlier that I love, and the little side table I also cleaned up a bit. And then my dad also put this little mirror up. I don't know if I showed you guys this yet.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 25.11,
+          "end": 29.0,
+          "durationSec": 3.89,
+          "words": 17,
+          "en": "This is the new clothing rack I got that I showed you guys earlier that I love."
+        },
+        {
+          "part": 2,
+          "start": 29.04,
+          "end": 31.56,
+          "durationSec": 2.52,
+          "words": 11,
+          "en": "And the little side table I also cleaned up a bit."
+        },
+        {
+          "part": 3,
+          "start": 31.6,
+          "end": 33.89,
+          "durationSec": 2.29,
+          "words": 10,
+          "en": "And then my dad also put this little mirror up."
+        },
+        {
+          "part": 4,
+          "start": 33.93,
+          "end": 36.22,
+          "durationSec": 2.29,
+          "words": 10,
+          "en": "I don't know if I showed you guys this yet."
+        }
+      ]
+    },
+    {
+      "number": "EP 39",
+      "id": "local-51-trimmed-51-part2",
+      "speaker": "Sydney Serena",
+      "sentenceId": 35,
+      "originalStart": 155.36,
+      "originalEnd": 168.85,
+      "durationSec": 13.49,
+      "words": 46,
+      "originalEn": "Like I truly can't even like articulate to you guys what I've seen. I've seen some things that I probably don't want to see. I saw This couple was arguing, like, really; they were really going at it with each other, and I was obviously intrigued.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 155.36,
+          "end": 159.14,
+          "durationSec": 3.78,
+          "words": 13,
+          "en": "Like I truly can't even like articulate to you guys what I've seen."
+        },
+        {
+          "part": 2,
+          "start": 159.18,
+          "end": 162.38,
+          "durationSec": 3.2,
+          "words": 11,
+          "en": "I've seen some things that I probably don't want to see."
+        },
+        {
+          "part": 3,
+          "start": 162.42,
+          "end": 164.75,
+          "durationSec": 2.33,
+          "words": 8,
+          "en": "I saw This couple was arguing, like, really."
+        },
+        {
+          "part": 4,
+          "start": 164.79,
+          "end": 168.85,
+          "durationSec": 4.06,
+          "words": 14,
+          "en": "They were really going at it with each other, and I was obviously intrigued."
+        }
+      ]
+    },
+    {
+      "number": "EP 39",
+      "id": "local-51-trimmed-51-part2",
+      "speaker": "Sydney Serena",
+      "sentenceId": 37,
+      "originalStart": 174.89,
+      "originalEnd": 204.04,
+      "durationSec": 29.15,
+      "words": 33,
+      "originalEn": "I was confused because after the whole argument happened, they, like, resumed normally, and then I saw him holding a script, so I think it was all fake, like, I really don't know.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 174.89,
+          "end": 186.34,
+          "durationSec": 11.45,
+          "words": 13,
+          "en": "I was confused because after the whole argument happened, they, like, resumed normally."
+        },
+        {
+          "part": 2,
+          "start": 186.38,
+          "end": 193.43,
+          "durationSec": 7.05,
+          "words": 8,
+          "en": "And then I saw him holding a script."
+        },
+        {
+          "part": 3,
+          "start": 193.47,
+          "end": 204.04,
+          "durationSec": 10.57,
+          "words": 12,
+          "en": "So I think it was all fake, like, I really don't know."
+        }
+      ]
+    },
+    {
+      "number": "EP 37",
+      "id": "local-32-trimmed-32-part3",
+      "speaker": "Vanessa",
+      "sentenceId": 93,
+      "originalStart": 218.36,
+      "originalEnd": 230.8,
+      "durationSec": 12.44,
+      "words": 40,
+      "originalEn": "And I hope that you can learn something about American culture and also yeah, have more confidence when you go to the US and you either go to a restaurant or who knows, maybe you'll even work in a restaurant.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 218.36,
+          "end": 222.7,
+          "durationSec": 4.34,
+          "words": 14,
+          "en": "And I hope that you can learn something about American culture and also yeah."
+        },
+        {
+          "part": 2,
+          "start": 222.74,
+          "end": 230.8,
+          "durationSec": 8.06,
+          "words": 26,
+          "en": "Have more confidence when you go to the US and you either go to a restaurant or who knows, maybe you'll even work in a restaurant."
+        }
+      ]
+    },
+    {
+      "number": "EP 36",
+      "id": "local-19-trimmed-19-part3",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 51,
+      "originalStart": 269.55,
+      "originalEnd": 281.55,
+      "durationSec": 12.0,
+      "words": 44,
+      "originalEn": "Now I'm at the end of the mall at my very last store called Nordstrom and they have things on sale. so on sale means at a reduced price so I'm going to see things on sale to see if it fits my budget.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 269.55,
+          "end": 275.26,
+          "durationSec": 5.71,
+          "words": 21,
+          "en": "Now I'm at the end of the mall at my very last store called Nordstrom and they have things on sale."
+        },
+        {
+          "part": 2,
+          "start": 275.3,
+          "end": 281.55,
+          "durationSec": 6.25,
+          "words": 23,
+          "en": "So on sale means at a reduced price so I'm going to see things on sale to see if it fits my budget."
+        }
+      ]
+    },
+    {
+      "number": "EP 35",
+      "id": "local-50-trimmed-50-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 9,
+      "originalStart": 58.47,
+      "originalEnd": 67.56,
+      "durationSec": 9.09,
+      "words": 44,
+      "originalEn": "If I work out in the morning and I get up early, my the rest of my day is so much better, versus like if I sleep in and I just am lazy, then the rest of my day is so much less productive.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 58.47,
+          "end": 60.93,
+          "durationSec": 2.46,
+          "words": 12,
+          "en": "If I work out in the morning and I get up early."
+        },
+        {
+          "part": 2,
+          "start": 60.97,
+          "end": 65.27,
+          "durationSec": 4.3,
+          "words": 21,
+          "en": "My the rest of my day is so much better, versus like if I sleep in and I just am lazy."
+        },
+        {
+          "part": 3,
+          "start": 65.31,
+          "end": 67.56,
+          "durationSec": 2.25,
+          "words": 11,
+          "en": "Then the rest of my day is so much less productive."
+        }
+      ]
+    },
+    {
+      "number": "EP 35",
+      "id": "local-50-trimmed-50-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 12,
+      "originalStart": 82.54,
+      "originalEnd": 113.71,
+      "durationSec": 31.17,
+      "words": 71,
+      "originalEn": "So I'm bringing like a little workout bag and I'm going to bring these workout shoes, water, oh, I need my purse, vlog camera, think we're good, I have my outfit on. Guys, I think I finally figured out how to use the subway. It definitely took me like a couple months, not that it's that hard, but like when you have to transfer trains, that's where I always got lost.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 82.54,
+          "end": 89.53,
+          "durationSec": 6.99,
+          "words": 16,
+          "en": "So I'm bringing like a little workout bag and I'm going to bring these workout shoes."
+        },
+        {
+          "part": 2,
+          "start": 89.57,
+          "end": 96.56,
+          "durationSec": 6.99,
+          "words": 16,
+          "en": "Water, oh, I need my purse, vlog camera, think we're good, I have my outfit on."
+        },
+        {
+          "part": 3,
+          "start": 96.6,
+          "end": 101.84,
+          "durationSec": 5.24,
+          "words": 12,
+          "en": "Guys, I think I finally figured out how to use the subway."
+        },
+        {
+          "part": 4,
+          "start": 101.88,
+          "end": 107.56,
+          "durationSec": 5.68,
+          "words": 13,
+          "en": "It definitely took me like a couple months, not that it's that hard."
+        },
+        {
+          "part": 5,
+          "start": 107.6,
+          "end": 113.71,
+          "durationSec": 6.11,
+          "words": 14,
+          "en": "But like when you have to transfer trains, that's where I always got lost."
+        }
+      ]
+    },
+    {
+      "number": "EP 35",
+      "id": "local-50-trimmed-50-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 44,
+      "originalStart": 239.76,
+      "originalEnd": 250.96,
+      "durationSec": 11.2,
+      "words": 47,
+      "originalEn": "Basically, every day I like to make a to-do list for what I need to get done, and I usually do that like the night before the day ahead. It just helps to like keep me on track, because I think I can get really distracted.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 239.76,
+          "end": 244.02,
+          "durationSec": 4.26,
+          "words": 18,
+          "en": "Basically, every day I like to make a to-do list for what I need to get done."
+        },
+        {
+          "part": 2,
+          "start": 244.06,
+          "end": 246.9,
+          "durationSec": 2.84,
+          "words": 12,
+          "en": "And I usually do that like the night before the day ahead."
+        },
+        {
+          "part": 3,
+          "start": 246.94,
+          "end": 250.96,
+          "durationSec": 4.02,
+          "words": 17,
+          "en": "It just helps to like keep me on track, because I think I can get really distracted."
+        }
+      ]
+    },
+    {
+      "number": "EP 35",
+      "id": "local-50-trimmed-50-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 78,
+      "originalStart": 391.41,
+      "originalEnd": 406.6,
+      "durationSec": 15.19,
+      "words": 53,
+      "originalEn": "There's a washer and dryer in my apartment complex on the bottom floor, but they broke, so I haven't been able to do my laundry for quite a bit now, and I really desperately need to, so I think I'm going to go to a laundry mat, which I've never been to before.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 391.41,
+          "end": 395.97,
+          "durationSec": 4.56,
+          "words": 16,
+          "en": "There's a washer and dryer in my apartment complex on the bottom floor, but they broke."
+        },
+        {
+          "part": 2,
+          "start": 396.01,
+          "end": 400.0,
+          "durationSec": 3.99,
+          "words": 14,
+          "en": "So I haven't been able to do my laundry for quite a bit now."
+        },
+        {
+          "part": 3,
+          "start": 400.04,
+          "end": 406.6,
+          "durationSec": 6.56,
+          "words": 23,
+          "en": "And I really desperately need to, so I think I'm going to go to a laundry mat, which I've never been to before."
+        }
+      ]
+    },
+    {
+      "number": "EP 35",
+      "id": "local-50-trimmed-50-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 102,
+      "originalStart": 498.64,
+      "originalEnd": 509.99,
+      "durationSec": 11.35,
+      "words": 54,
+      "originalEn": "I don't know if I've said that before, but my favorite part of the day is when it's night time and I know I'm not going anywhere, because then I can just get dressed in comfy clothes, light a candle, and I just like staying in more now, way more than I used to.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 498.64,
+          "end": 500.3,
+          "durationSec": 1.66,
+          "words": 8,
+          "en": "I don't know if I've said that before."
+        },
+        {
+          "part": 2,
+          "start": 500.34,
+          "end": 504.29,
+          "durationSec": 3.95,
+          "words": 19,
+          "en": "But my favorite part of the day is when it's night time and I know I'm not going anywhere."
+        },
+        {
+          "part": 3,
+          "start": 504.33,
+          "end": 507.03,
+          "durationSec": 2.7,
+          "words": 13,
+          "en": "Because then I can just get dressed in comfy clothes, light a candle."
+        },
+        {
+          "part": 4,
+          "start": 507.07,
+          "end": 509.99,
+          "durationSec": 2.92,
+          "words": 14,
+          "en": "And I just like staying in more now, way more than I used to."
+        }
+      ]
+    },
+    {
+      "number": "EP 35",
+      "id": "local-50-trimmed-50-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 104,
+      "originalStart": 512.6,
+      "originalEnd": 536.15,
+      "durationSec": 23.55,
+      "words": 26,
+      "originalEn": "Like, I've been out here like five times and every time I just, I don't know, I'm just it's a lot of effort to go out.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 512.6,
+          "end": 524.36,
+          "durationSec": 11.76,
+          "words": 13,
+          "en": "Like, I've been out here like five times and every time I just."
+        },
+        {
+          "part": 2,
+          "start": 524.4,
+          "end": 536.15,
+          "durationSec": 11.75,
+          "words": 13,
+          "en": "I don't know, I'm just it's a lot of effort to go out."
+        }
+      ]
+    },
+    {
+      "number": "EP 34",
+      "id": "local-18-trimmed-18-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 7,
+      "originalStart": 31.3,
+      "originalEnd": 45.32,
+      "durationSec": 14.02,
+      "words": 44,
+      "originalEn": "Well, stores like clothing stores have mannequins, so when people walk around through the mall, they can look at the mannequins and see, wow, what nice clothes they have, and maybe they can even enter the store and buy the things they're looking at.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 31.3,
+          "end": 33.52,
+          "durationSec": 2.22,
+          "words": 7,
+          "en": "Well, stores like clothing stores have mannequins."
+        },
+        {
+          "part": 2,
+          "start": 33.56,
+          "end": 40.53,
+          "durationSec": 6.97,
+          "words": 22,
+          "en": "So when people walk around through the mall, they can look at the mannequins and see, wow, what nice clothes they have."
+        },
+        {
+          "part": 3,
+          "start": 40.57,
+          "end": 45.32,
+          "durationSec": 4.75,
+          "words": 15,
+          "en": "And maybe they can even enter the store and buy the things they're looking at."
+        }
+      ]
+    },
+    {
+      "number": "EP 33",
+      "id": "local-31-trimmed-31-part2",
+      "speaker": "Vanessa",
+      "sentenceId": 28,
+      "originalStart": 67.42,
+      "originalEnd": 80.14,
+      "durationSec": 12.72,
+      "words": 50,
+      "originalEn": "So, if you are going to work in a restaurant in the US, it's worth asking what is the pay and they'll say, \"Oh, it's, you know, $2.15, but you get that will definitely change.\" You could get paid a lot of money if that restaurant gets good tips.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 67.42,
+          "end": 70.71,
+          "durationSec": 3.29,
+          "words": 13,
+          "en": "So, if you are going to work in a restaurant in the US."
+        },
+        {
+          "part": 2,
+          "start": 70.75,
+          "end": 74.79,
+          "durationSec": 4.04,
+          "words": 16,
+          "en": "It's worth asking what is the pay and they'll say, \"Oh, it's, you know, $2.15."
+        },
+        {
+          "part": 3,
+          "start": 74.83,
+          "end": 80.14,
+          "durationSec": 5.31,
+          "words": 21,
+          "en": "But you get that will definitely change.\" You could get paid a lot of money if that restaurant gets good tips."
+        }
+      ]
+    },
+    {
+      "number": "EP 32",
+      "id": "local-17-trimmed-17-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 7,
+      "originalStart": 39.24,
+      "originalEnd": 52.65,
+      "durationSec": 13.41,
+      "words": 42,
+      "originalEn": "Also, it feels so nice and refreshing to be inside the mall because this mall has A/C and lots of cool air to cool me down, because right now we are in the middle of the summer and it's scorching hot.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 39.24,
+          "end": 47.84,
+          "durationSec": 8.6,
+          "words": 27,
+          "en": "Also, it feels so nice and refreshing to be inside the mall because this mall has A/C and lots of cool air to cool me down."
+        },
+        {
+          "part": 2,
+          "start": 47.88,
+          "end": 52.65,
+          "durationSec": 4.77,
+          "words": 15,
+          "en": "Because right now we are in the middle of the summer and it's scorching hot."
+        }
+      ]
+    },
+    {
+      "number": "EP 32",
+      "id": "local-17-trimmed-17-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 25,
+      "originalStart": 158.64,
+      "originalEnd": 173.04,
+      "durationSec": 14.4,
+      "words": 42,
+      "originalEn": "I'm going to use this to go downstairs to the lower level, but first I'll give you three seconds to tell me what it's called... This is called an escalator, and I'm going to take you guys with me to go down.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 158.64,
+          "end": 167.19,
+          "durationSec": 8.55,
+          "words": 25,
+          "en": "I'm going to use this to go downstairs to the lower level, but first I'll give you three seconds to tell me what it's called..."
+        },
+        {
+          "part": 2,
+          "start": 167.23,
+          "end": 173.04,
+          "durationSec": 5.81,
+          "words": 17,
+          "en": "This is called an escalator, and I'm going to take you guys with me to go down."
+        }
+      ]
+    },
+    {
+      "number": "EP 30",
+      "id": "local-16-trimmed-16-part3",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 13,
+      "originalStart": 74.01,
+      "originalEnd": 87.73,
+      "durationSec": 13.72,
+      "words": 48,
+      "originalEn": "And the most important thing, in order to keep your car clean you need to have a good Mat—so this is just a typical leather mat you would use on the floor of your car, and it is easy to clean because you can just wash it.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 74.01,
+          "end": 84.27,
+          "durationSec": 10.26,
+          "words": 36,
+          "en": "And the most important thing, in order to keep your car clean you need to have a good Mat—so this is just a typical leather mat you would use on the floor of your car."
+        },
+        {
+          "part": 2,
+          "start": 84.31,
+          "end": 87.73,
+          "durationSec": 3.42,
+          "words": 12,
+          "en": "And it is easy to clean because you can just wash it."
+        }
+      ]
+    },
+    {
+      "number": "EP 30",
+      "id": "local-16-trimmed-16-part3",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 24,
+      "originalStart": 160.65,
+      "originalEnd": 172.27,
+      "durationSec": 11.62,
+      "words": 42,
+      "originalEn": "And right here, you can see that I have a backup camera in this car, but in my previous car I did not have a backup camera, so I had to use my side mirrors to guide me when I back up.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 160.65,
+          "end": 164.77,
+          "durationSec": 4.12,
+          "words": 15,
+          "en": "And right here, you can see that I have a backup camera in this car."
+        },
+        {
+          "part": 2,
+          "start": 164.81,
+          "end": 168.11,
+          "durationSec": 3.3,
+          "words": 12,
+          "en": "But in my previous car I did not have a backup camera."
+        },
+        {
+          "part": 3,
+          "start": 168.15,
+          "end": 172.27,
+          "durationSec": 4.12,
+          "words": 15,
+          "en": "So I had to use my side mirrors to guide me when I back up."
+        }
+      ]
+    },
+    {
+      "number": "EP 30",
+      "id": "local-16-trimmed-16-part3",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 40,
+      "originalStart": 257.27,
+      "originalEnd": 281.62,
+      "durationSec": 24.35,
+      "words": 27,
+      "originalEn": "And they'll tell me to put the car in Neutral, and I don't even have to touch the car, touch the steering wheel, or the gas pedal.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 257.27,
+          "end": 266.26,
+          "durationSec": 8.99,
+          "words": 10,
+          "en": "And they'll tell me to put the car in Neutral."
+        },
+        {
+          "part": 2,
+          "start": 266.3,
+          "end": 274.39,
+          "durationSec": 8.09,
+          "words": 9,
+          "en": "And I don't even have to touch the car."
+        },
+        {
+          "part": 3,
+          "start": 274.43,
+          "end": 281.62,
+          "durationSec": 7.19,
+          "words": 8,
+          "en": "Touch the steering wheel, or the gas pedal."
+        }
+      ]
+    },
+    {
+      "number": "EP 29",
+      "id": "local-41-trimmed-41-part2",
+      "speaker": "Sydney Serena",
+      "sentenceId": 37,
+      "originalStart": 105.77,
+      "originalEnd": 121.57,
+      "durationSec": 15.8,
+      "words": 42,
+      "originalEn": "I'm on quinoa and sweet potato duty, so it makes it so much easier, too, when you cook like with your friend or roommate, because making two quantities of something is just so much easier than like making something for one person.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 105.77,
+          "end": 114.78,
+          "durationSec": 9.01,
+          "words": 24,
+          "en": "I'm on quinoa and sweet potato duty, so it makes it so much easier, too, when you cook like with your friend or roommate."
+        },
+        {
+          "part": 2,
+          "start": 114.82,
+          "end": 121.57,
+          "durationSec": 6.75,
+          "words": 18,
+          "en": "Because making two quantities of something is just so much easier than like making something for one person."
+        }
+      ]
+    },
+    {
+      "number": "EP 29",
+      "id": "local-41-trimmed-41-part2",
+      "speaker": "Sydney Serena",
+      "sentenceId": 51,
+      "originalStart": 151.13,
+      "originalEnd": 165.29,
+      "durationSec": 14.16,
+      "words": 43,
+      "originalEn": "We put the quinoa in, spinach, cherry tomatoes chopped up, avocado, some chicken that we baked in the air fryer, and then our potatoes, zucchini, and of course, tzatziki, which is what makes this so good and kind of just like come together.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 151.13,
+          "end": 157.7,
+          "durationSec": 6.57,
+          "words": 20,
+          "en": "We put the quinoa in, spinach, cherry tomatoes chopped up, avocado, some chicken that we baked in the air fryer."
+        },
+        {
+          "part": 2,
+          "start": 157.74,
+          "end": 165.29,
+          "durationSec": 7.55,
+          "words": 23,
+          "en": "And then our potatoes, zucchini, and of course, tzatziki, which is what makes this so good and kind of just like come together."
+        }
+      ]
+    },
+    {
+      "number": "EP 28",
+      "id": "local-15-trimmed-15-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 4,
+      "originalStart": 14.03,
+      "originalEnd": 32.0,
+      "durationSec": 17.97,
+      "words": 56,
+      "originalEn": "Normally if you had an old car you would just press this gas tank and it would open up, but I have to open up this car because it is newer and look for the button (the gas tank button), hold it and then there you go, it clicks and the gas tank is finally open.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 14.03,
+          "end": 20.1,
+          "durationSec": 6.07,
+          "words": 19,
+          "en": "Normally if you had an old car you would just press this gas tank and it would open up."
+        },
+        {
+          "part": 2,
+          "start": 20.14,
+          "end": 27.49,
+          "durationSec": 7.35,
+          "words": 23,
+          "en": "But I have to open up this car because it is newer and look for the button (the gas tank button), hold it."
+        },
+        {
+          "part": 3,
+          "start": 27.53,
+          "end": 32.0,
+          "durationSec": 4.47,
+          "words": 14,
+          "en": "And then there you go, it clicks and the gas tank is finally open."
+        }
+      ]
+    },
+    {
+      "number": "EP 28",
+      "id": "local-15-trimmed-15-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 11,
+      "originalStart": 66.37,
+      "originalEnd": 76.12,
+      "durationSec": 9.75,
+      "words": 40,
+      "originalEn": "But as you saw before in the video, I do not have a license plate in the front of the car, so this state where I live, Ohio, you only need a license plate in the back of the car.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 66.37,
+          "end": 71.47,
+          "durationSec": 5.1,
+          "words": 21,
+          "en": "But as you saw before in the video, I do not have a license plate in the front of the car."
+        },
+        {
+          "part": 2,
+          "start": 71.51,
+          "end": 76.12,
+          "durationSec": 4.61,
+          "words": 19,
+          "en": "So this state where I live, Ohio, you only need a license plate in the back of the car."
+        }
+      ]
+    },
+    {
+      "number": "EP 28",
+      "id": "local-15-trimmed-15-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 17,
+      "originalStart": 112.66,
+      "originalEnd": 123.9,
+      "durationSec": 11.24,
+      "words": 41,
+      "originalEn": "And you open the trunk with the key fob, or in some cars you have to actually go inside the car and open it up inside the car, so I'm going to use the key fob and hold the trunk button.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 112.66,
+          "end": 115.11,
+          "durationSec": 2.45,
+          "words": 9,
+          "en": "And you open the trunk with the key fob."
+        },
+        {
+          "part": 2,
+          "start": 115.15,
+          "end": 120.32,
+          "durationSec": 5.17,
+          "words": 19,
+          "en": "Or in some cars you have to actually go inside the car and open it up inside the car."
+        },
+        {
+          "part": 3,
+          "start": 120.36,
+          "end": 123.9,
+          "durationSec": 3.54,
+          "words": 13,
+          "en": "So I'm going to use the key fob and hold the trunk button."
+        }
+      ]
+    },
+    {
+      "number": "EP 28",
+      "id": "local-15-trimmed-15-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 20,
+      "originalStart": 127.15,
+      "originalEnd": 141.2,
+      "durationSec": 14.05,
+      "words": 43,
+      "originalEn": "And with a sedan, this trunk you cannot see everything inside the car, unlike a hatchback, because a hatchback, when you open up the car, you can see all the seats inside, but with this trunk you have a limited amount of space.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 127.15,
+          "end": 133.34,
+          "durationSec": 6.19,
+          "words": 19,
+          "en": "And with a sedan, this trunk you cannot see everything inside the car, unlike a hatchback, because a hatchback."
+        },
+        {
+          "part": 2,
+          "start": 133.38,
+          "end": 141.2,
+          "durationSec": 7.82,
+          "words": 24,
+          "en": "When you open up the car, you can see all the seats inside, but with this trunk you have a limited amount of space."
+        }
+      ]
+    },
+    {
+      "number": "EP 28",
+      "id": "local-15-trimmed-15-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 32,
+      "originalStart": 213.49,
+      "originalEnd": 229.55,
+      "durationSec": 16.06,
+      "words": 42,
+      "originalEn": "Now I'm really hot, so I'm going to close my door since we're in the middle of the summer, put my key in the ignition, turn on the car, and I'm going to blast the A/C because it is so hot.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 213.49,
+          "end": 220.72,
+          "durationSec": 7.23,
+          "words": 19,
+          "en": "Now I'm really hot, so I'm going to close my door since we're in the middle of the summer."
+        },
+        {
+          "part": 2,
+          "start": 220.76,
+          "end": 224.56,
+          "durationSec": 3.8,
+          "words": 10,
+          "en": "Put my key in the ignition, turn on the car."
+        },
+        {
+          "part": 3,
+          "start": 224.6,
+          "end": 229.55,
+          "durationSec": 4.95,
+          "words": 13,
+          "en": "And I'm going to blast the A/C because it is so hot."
+        }
+      ]
+    },
+    {
+      "number": "EP 28",
+      "id": "local-15-trimmed-15-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 36,
+      "originalStart": 255.22,
+      "originalEnd": 269.28,
+      "durationSec": 14.06,
+      "words": 41,
+      "originalEn": "But inside of the miles per hour, you can see the kilometers per hour, because you can change from miles per hour to kilometers per hour, but I wouldn't recommend that since all of our signs say miles per hour here.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 255.22,
+          "end": 259.99,
+          "durationSec": 4.77,
+          "words": 14,
+          "en": "But inside of the miles per hour, you can see the kilometers per hour."
+        },
+        {
+          "part": 2,
+          "start": 260.03,
+          "end": 264.12,
+          "durationSec": 4.09,
+          "words": 12,
+          "en": "Because you can change from miles per hour to kilometers per hour."
+        },
+        {
+          "part": 3,
+          "start": 264.16,
+          "end": 269.28,
+          "durationSec": 5.12,
+          "words": 15,
+          "en": "But I wouldn't recommend that since all of our signs say miles per hour here."
+        }
+      ]
+    },
+    {
+      "number": "EP 27",
+      "id": "local-30-trimmed-30-part1",
+      "speaker": "Vanessa",
+      "sentenceId": 11,
+      "originalStart": 70.52,
+      "originalEnd": 82.04,
+      "durationSec": 11.52,
+      "words": 40,
+      "originalEn": "So, all you need to do to get that worksheet plus the bonus 50 questions and answers is click on the link in the description, enter your name and email address and voila, it will land in your email inbox.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 70.52,
+          "end": 77.7,
+          "durationSec": 7.18,
+          "words": 25,
+          "en": "So, all you need to do to get that worksheet plus the bonus 50 questions and answers is click on the link in the description."
+        },
+        {
+          "part": 2,
+          "start": 77.74,
+          "end": 82.04,
+          "durationSec": 4.3,
+          "words": 15,
+          "en": "Enter your name and email address and voila, it will land in your email inbox."
+        }
+      ]
+    },
+    {
+      "number": "EP 26",
+      "id": "local-14-trimmed-14-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 14,
+      "originalStart": 63.98,
+      "originalEnd": 70.76,
+      "durationSec": 6.78,
+      "words": 44,
+      "originalEn": "It doesn't matter if you have a well-paying job or if you have a minimum wage job, you can go to the dealership and buy your own car because dealerships will offer you credit so you can pay your car month by month.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 63.98,
+          "end": 66.72,
+          "durationSec": 2.74,
+          "words": 18,
+          "en": "It doesn't matter if you have a well-paying job or if you have a minimum wage job."
+        },
+        {
+          "part": 2,
+          "start": 66.76,
+          "end": 69.35,
+          "durationSec": 2.59,
+          "words": 17,
+          "en": "You can go to the dealership and buy your own car because dealerships will offer you credit."
+        },
+        {
+          "part": 3,
+          "start": 69.39,
+          "end": 70.76,
+          "durationSec": 1.37,
+          "words": 9,
+          "en": "So you can pay your car month by month."
+        }
+      ]
+    },
+    {
+      "number": "EP 26",
+      "id": "local-14-trimmed-14-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 61,
+      "originalStart": 291.86,
+      "originalEnd": 306.5,
+      "durationSec": 14.64,
+      "words": 54,
+      "originalEn": "So you have your high beam lights, which are called your brights, and you usually turn on your brights when you can't see things far away (when it's really dark outside), and then you also have your low beam lights, which you always have your low beam lights when you're driving during the night.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 291.86,
+          "end": 295.1,
+          "durationSec": 3.24,
+          "words": 12,
+          "en": "So you have your high beam lights, which are called your brights."
+        },
+        {
+          "part": 2,
+          "start": 295.14,
+          "end": 300.26,
+          "durationSec": 5.12,
+          "words": 19,
+          "en": "And you usually turn on your brights when you can't see things far away (when it's really dark outside)."
+        },
+        {
+          "part": 3,
+          "start": 300.3,
+          "end": 306.5,
+          "durationSec": 6.2,
+          "words": 23,
+          "en": "And then you also have your low beam lights, which you always have your low beam lights when you're driving during the night."
+        }
+      ]
+    },
+    {
+      "number": "EP 24",
+      "id": "local-13-trimmed-13-part3",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 27,
+      "originalStart": 106.33,
+      "originalEnd": 119.65,
+      "durationSec": 13.32,
+      "words": 50,
+      "originalEn": "I think for Hindus and for other religions, it depends on how committed you are to your faith and whether it's something more cultural where you celebrate the holidays and the ceremonies with your family and friends or whether it's something that you're studying and looking to get deeper into.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 106.33,
+          "end": 108.45,
+          "durationSec": 2.12,
+          "words": 8,
+          "en": "I think for Hindus and for other religions."
+        },
+        {
+          "part": 2,
+          "start": 108.49,
+          "end": 119.65,
+          "durationSec": 11.16,
+          "words": 42,
+          "en": "It depends on how committed you are to your faith and whether it's something more cultural where you celebrate the holidays and the ceremonies with your family and friends or whether it's something that you're studying and looking to get deeper into."
+        }
+      ]
+    },
+    {
+      "number": "EP 24",
+      "id": "local-13-trimmed-13-part3",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 40,
+      "originalStart": 157.93,
+      "originalEnd": 175.17,
+      "durationSec": 17.24,
+      "words": 27,
+      "originalEn": "After you do a ceremony at the Hindu temple, the priest will bless the baskets full of fruit and then he will hand them out to you.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 157.93,
+          "end": 163.65,
+          "durationSec": 5.72,
+          "words": 9,
+          "en": "After you do a ceremony at the Hindu temple."
+        },
+        {
+          "part": 2,
+          "start": 163.69,
+          "end": 169.41,
+          "durationSec": 5.72,
+          "words": 9,
+          "en": "The priest will bless the baskets full of fruit."
+        },
+        {
+          "part": 3,
+          "start": 169.45,
+          "end": 175.17,
+          "durationSec": 5.72,
+          "words": 9,
+          "en": "And then he will hand them out to you."
+        }
+      ]
+    },
+    {
+      "number": "EP 22",
+      "id": "local-12-trimmed-12-part2",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 65,
+      "originalStart": 300.95,
+      "originalEnd": 314.81,
+      "durationSec": 13.86,
+      "words": 43,
+      "originalEn": "But in our religion and the Prophet (pbuh), that means God's peace upon him, said that Adam, which was the first man, was sent down to earth from heaven on a Friday, and also the day of judgment will be on a Friday.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 300.95,
+          "end": 306.4,
+          "durationSec": 5.45,
+          "words": 17,
+          "en": "But in our religion and the Prophet (pbuh), that means God's peace upon him, said that Adam."
+        },
+        {
+          "part": 2,
+          "start": 306.44,
+          "end": 311.25,
+          "durationSec": 4.81,
+          "words": 15,
+          "en": "Which was the first man, was sent down to earth from heaven on a Friday."
+        },
+        {
+          "part": 3,
+          "start": 311.29,
+          "end": 314.81,
+          "durationSec": 3.52,
+          "words": 11,
+          "en": "And also the day of judgment will be on a Friday."
+        }
+      ]
+    },
+    {
+      "number": "EP 20",
+      "id": "local-40-trimmed-40-part1",
+      "speaker": "Sydney Serena",
+      "sentenceId": 70,
+      "originalStart": 273.22,
+      "originalEnd": 285.95,
+      "durationSec": 12.73,
+      "words": 45,
+      "originalEn": "My recent coffee order has been pretty much the same, an iced vanilla latte with skim milk, but I try to ask for half of the vanilla, just because I'm trying to slowly wean off sugar a little bit, at least just do my best.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 273.22,
+          "end": 278.0,
+          "durationSec": 4.78,
+          "words": 17,
+          "en": "My recent coffee order has been pretty much the same, an iced vanilla latte with skim milk."
+        },
+        {
+          "part": 2,
+          "start": 278.04,
+          "end": 281.13,
+          "durationSec": 3.09,
+          "words": 11,
+          "en": "But I try to ask for half of the vanilla, just."
+        },
+        {
+          "part": 3,
+          "start": 281.17,
+          "end": 285.95,
+          "durationSec": 4.78,
+          "words": 17,
+          "en": "Because I'm trying to slowly wean off sugar a little bit, at least just do my best."
+        }
+      ]
+    },
+    {
+      "number": "EP 17",
+      "id": "local-11-trimmed-11-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 3,
+      "originalStart": 3.61,
+      "originalEnd": 20.39,
+      "durationSec": 16.78,
+      "words": 42,
+      "originalEn": "My name is Ariannita la Gringa and in today's video we will talk about different religions in English and we will go to places like a Catholic church, an evangelist church, a mosque, a Hindu temple, a synagogue, all in Cincinnati, Ohio.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 3.61,
+          "end": 14.77,
+          "durationSec": 11.16,
+          "words": 28,
+          "en": "My name is Ariannita la Gringa and in today's video we will talk about different religions in English and we will go to places like a Catholic church."
+        },
+        {
+          "part": 2,
+          "start": 14.81,
+          "end": 20.39,
+          "durationSec": 5.58,
+          "words": 14,
+          "en": "An evangelist church, a mosque, a Hindu temple, a synagogue, all in Cincinnati, Ohio."
+        }
+      ]
+    },
+    {
+      "number": "EP 17",
+      "id": "local-11-trimmed-11-part1",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 59,
+      "originalStart": 279.12,
+      "originalEnd": 309.17,
+      "durationSec": 30.05,
+      "words": 85,
+      "originalEn": "You're meeting with people on a one-on-one basis, maybe doing marriage preparation, maybe doing some grief or bereavement counseling if they've had a loss in the family, possibly celebrating a baptism or a funeral, or anointing somebody who is sick in their home or nursing home or care center or hospital, hearing confessions and any number of just random encounters that the Holy Spirit leads you into to engage other people in the world and hopefully witness to them the love of God.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 279.12,
+          "end": 284.05,
+          "durationSec": 4.93,
+          "words": 14,
+          "en": "You're meeting with people on a one-on-one basis, maybe doing marriage preparation."
+        },
+        {
+          "part": 2,
+          "start": 284.09,
+          "end": 291.84,
+          "durationSec": 7.75,
+          "words": 22,
+          "en": "Maybe doing some grief or bereavement counseling if they've had a loss in the family, possibly celebrating a baptism or a funeral."
+        },
+        {
+          "part": 3,
+          "start": 291.88,
+          "end": 297.87,
+          "durationSec": 5.99,
+          "words": 17,
+          "en": "Or anointing somebody who is sick in their home or nursing home or care center or hospital."
+        },
+        {
+          "part": 4,
+          "start": 297.91,
+          "end": 309.17,
+          "durationSec": 11.26,
+          "words": 32,
+          "en": "Hearing confessions and any number of just random encounters that the Holy Spirit leads you into to engage other people in the world and hopefully witness to them the love of God."
+        }
+      ]
+    },
+    {
+      "number": "EP 16",
+      "id": "local-25-Living-Alone-Diaries-trimmed",
+      "speaker": "Michelle Choi",
+      "sentenceId": 10,
+      "originalStart": 109.45,
+      "originalEnd": 125.8,
+      "durationSec": 16.35,
+      "words": 17,
+      "originalEn": "All right, today I'm gonna be making garlic pork belly pasta with a little bit of chili.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 109.45,
+          "end": 125.8,
+          "durationSec": 16.35,
+          "words": 17,
+          "en": "All right, today I'm gonna be making garlic pork belly pasta with a little bit of chili."
+        }
+      ]
+    },
+    {
+      "number": "EP 15",
+      "id": "local-7-Interviewing-Native-English-Spea",
+      "speaker": "Ariannita la Gringa",
+      "sentenceId": 113,
+      "originalStart": 436.6,
+      "originalEnd": 455.59,
+      "durationSec": 18.99,
+      "words": 56,
+      "originalEn": "So far, going 8:00 a.m. to Meyer getting some Jim Beam, putting it in like a Speedway cup, going down here, having a good old time, seeing everyone, enjoying the view, the happiness, the enjoyment we get around seeing all these like empty boards everywhere on the street fills me with so much joy.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 436.6,
+          "end": 438.96,
+          "durationSec": 2.36,
+          "words": 7,
+          "en": "So far, going 8:00 a.m."
+        },
+        {
+          "part": 2,
+          "start": 439.0,
+          "end": 446.77,
+          "durationSec": 7.77,
+          "words": 23,
+          "en": "To Meyer getting some Jim Beam, putting it in like a Speedway cup, going down here, having a good old time, seeing everyone."
+        },
+        {
+          "part": 3,
+          "start": 446.81,
+          "end": 455.59,
+          "durationSec": 8.78,
+          "words": 26,
+          "en": "Enjoying the view, the happiness, the enjoyment we get around seeing all these like empty boards everywhere on the street fills me with so much joy."
+        }
+      ]
+    },
+    {
+      "number": "EP 14",
+      "id": "local-39-trimmed-39-part2",
+      "speaker": "Sydney Serena",
+      "sentenceId": 8,
+      "originalStart": 14.7,
+      "originalEnd": 22.85,
+      "durationSec": 8.15,
+      "words": 52,
+      "originalEn": "I was walking and I was like, \"Ugh, I want a sweet treat.\" And I've been like craving frozen yogurt so much the past week, so I decided go in, take myself on like a little yogurt date. week, so I decided go in, take myself on like a little yogurt date.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 14.7,
+          "end": 18.58,
+          "durationSec": 3.88,
+          "words": 25,
+          "en": "I was walking and I was like, \"Ugh, I want a sweet treat.\" And I've been like craving frozen yogurt so much the past week."
+        },
+        {
+          "part": 2,
+          "start": 18.62,
+          "end": 20.64,
+          "durationSec": 2.02,
+          "words": 13,
+          "en": "So I decided go in, take myself on like a little yogurt date."
+        },
+        {
+          "part": 3,
+          "start": 20.68,
+          "end": 22.85,
+          "durationSec": 2.17,
+          "words": 14,
+          "en": "Week, so I decided go in, take myself on like a little yogurt date."
+        }
+      ]
+    },
+    {
+      "number": "EP 13",
+      "id": "local-20-trimmed-20-part1",
+      "speaker": "Vanessa",
+      "sentenceId": 10,
+      "originalStart": 43.63,
+      "originalEnd": 57.54,
+      "durationSec": 13.91,
+      "words": 41,
+      "originalEn": "And like always, I have created a free PDF worksheet that you can download with a link in the description with all of today's phrases, expressions, ideas, and at the bottom of the PDF worksheet, you can answer Vanessa's challenge question.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 43.63,
+          "end": 52.76,
+          "durationSec": 9.13,
+          "words": 27,
+          "en": "And like always, I have created a free PDF worksheet that you can download with a link in the description with all of today's phrases, expressions, ideas."
+        },
+        {
+          "part": 2,
+          "start": 52.8,
+          "end": 57.54,
+          "durationSec": 4.74,
+          "words": 14,
+          "en": "And at the bottom of the PDF worksheet, you can answer Vanessa's challenge question."
+        }
+      ]
+    },
+    {
+      "number": "EP 12",
+      "id": "local-9-Learn-How-To-Talk-About-Your-Dai",
+      "speaker": "Bob the Canadian",
+      "sentenceId": 3,
+      "originalStart": 17.44,
+      "originalEnd": 29.5,
+      "durationSec": 12.06,
+      "words": 40,
+      "originalEn": "In this English lesson, I will invite you along with me for part of my day so that you can see my daily routine and along the way, you'll be able to learn how to talk about your daily routine.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 17.44,
+          "end": 25.85,
+          "durationSec": 8.41,
+          "words": 28,
+          "en": "In this English lesson, I will invite you along with me for part of my day so that you can see my daily routine and along the way."
+        },
+        {
+          "part": 2,
+          "start": 25.89,
+          "end": 29.5,
+          "durationSec": 3.61,
+          "words": 12,
+          "en": "You'll be able to learn how to talk about your daily routine."
+        }
+      ]
+    },
+    {
+      "number": "EP 12",
+      "id": "local-9-Learn-How-To-Talk-About-Your-Dai",
+      "speaker": "Bob the Canadian",
+      "sentenceId": 54,
+      "originalStart": 271.3,
+      "originalEnd": 287.48,
+      "durationSec": 16.18,
+      "words": 48,
+      "originalEn": "When I say I grab my things, it means that I grab my keys, I grab my phone, I grab my wallet, I grab my laptop, and I grab the lunch that I made because I'm just about ready to head out the door and go to work.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 271.3,
+          "end": 276.0,
+          "durationSec": 4.7,
+          "words": 14,
+          "en": "When I say I grab my things, it means that I grab my keys."
+        },
+        {
+          "part": 2,
+          "start": 276.04,
+          "end": 280.06,
+          "durationSec": 4.02,
+          "words": 12,
+          "en": "I grab my phone, I grab my wallet, I grab my laptop."
+        },
+        {
+          "part": 3,
+          "start": 280.1,
+          "end": 287.48,
+          "durationSec": 7.38,
+          "words": 22,
+          "en": "And I grab the lunch that I made because I'm just about ready to head out the door and go to work."
+        }
+      ]
+    },
+    {
+      "number": "EP 12",
+      "id": "local-9-Learn-How-To-Talk-About-Your-Dai",
+      "speaker": "Bob the Canadian",
+      "sentenceId": 68,
+      "originalStart": 353.3,
+      "originalEnd": 368.68,
+      "durationSec": 15.38,
+      "words": 33,
+      "originalEn": "Every day after teaching my first class, I go to my teacher work area and I grade student work with my red pen and I plan my lessons for my next two classes.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 353.3,
+          "end": 368.68,
+          "durationSec": 15.38,
+          "words": 33,
+          "en": "Every day after teaching my first class, I go to my teacher work area and I grade student work with my red pen and I plan my lessons for my next two classes."
+        }
+      ]
+    },
+    {
+      "number": "EP 09",
+      "id": "local-1-Celeste-Headlee-10-ways-to-have-",
+      "speaker": "Celeste Headlee",
+      "sentenceId": 6,
+      "originalStart": 47.33,
+      "originalEnd": 64.92,
+      "durationSec": 17.59,
+      "words": 50,
+      "originalEn": "So this world that we live in, this world in which every conversation has the potential to devolve into an argument, where our politicians can't speak to one another and where even the most trivial of issues have someone fighting both passionately for it and against it, it's not normal.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 47.33,
+          "end": 54.7,
+          "durationSec": 7.37,
+          "words": 21,
+          "en": "So this world that we live in, this world in which every conversation has the potential to devolve into an argument."
+        },
+        {
+          "part": 2,
+          "start": 54.74,
+          "end": 64.92,
+          "durationSec": 10.18,
+          "words": 29,
+          "en": "Where our politicians can't speak to one another and where even the most trivial of issues have someone fighting both passionately for it and against it, it's not normal."
+        }
+      ]
+    },
+    {
+      "number": "EP 09",
+      "id": "local-1-Celeste-Headlee-10-ways-to-have-",
+      "speaker": "Celeste Headlee",
+      "sentenceId": 29,
+      "originalStart": 184.8,
+      "originalEnd": 200.96,
+      "durationSec": 16.16,
+      "words": 47,
+      "originalEn": "Many of you have already heard a lot of advice on this, things like look the person in the eye, think of interesting topics to discuss in advance, look, nod and smile to show that you're paying attention, repeat back what you just heard or summarize it.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 184.8,
+          "end": 191.64,
+          "durationSec": 6.84,
+          "words": 20,
+          "en": "Many of you have already heard a lot of advice on this, things like look the person in the eye."
+        },
+        {
+          "part": 2,
+          "start": 191.68,
+          "end": 194.76,
+          "durationSec": 3.08,
+          "words": 9,
+          "en": "Think of interesting topics to discuss in advance, look."
+        },
+        {
+          "part": 3,
+          "start": 194.8,
+          "end": 200.96,
+          "durationSec": 6.16,
+          "words": 18,
+          "en": "Nod and smile to show that you're paying attention, repeat back what you just heard or summarize it."
+        }
+      ]
+    },
+    {
+      "number": "EP 09",
+      "id": "local-1-Celeste-Headlee-10-ways-to-have-",
+      "speaker": "Celeste Headlee",
+      "sentenceId": 85,
+      "originalStart": 431.43,
+      "originalEnd": 437.52,
+      "durationSec": 6.09,
+      "words": 40,
+      "originalEn": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record, and so they're more careful about what they claim to be an expert in and what they claim to know for sure.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 431.43,
+          "end": 434.15,
+          "durationSec": 2.72,
+          "words": 18,
+          "en": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record."
+        },
+        {
+          "part": 2,
+          "start": 434.19,
+          "end": 437.52,
+          "durationSec": 3.33,
+          "words": 22,
+          "en": "And so they're more careful about what they claim to be an expert in and what they claim to know for sure."
+        }
+      ]
+    },
+    {
+      "number": "EP 09",
+      "id": "local-1-Celeste-Headlee-10-ways-to-have-",
+      "speaker": "Celeste Headlee",
+      "sentenceId": 90,
+      "originalStart": 450.8,
+      "originalEnd": 461.79,
+      "durationSec": 10.99,
+      "words": 40,
+      "originalEn": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record, and so they're more careful about what they claim to be an expert in and what they claim to know for sure.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 450.8,
+          "end": 455.73,
+          "durationSec": 4.93,
+          "words": 18,
+          "en": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record."
+        },
+        {
+          "part": 2,
+          "start": 455.77,
+          "end": 461.79,
+          "durationSec": 6.02,
+          "words": 22,
+          "en": "And so they're more careful about what they claim to be an expert in and what they claim to know for sure."
+        }
+      ]
+    },
+    {
+      "number": "EP 08",
+      "id": "local-5-How-to-Start-Any-Conversation-th",
+      "speaker": "Chris Fenning",
+      "sentenceId": 72,
+      "originalStart": 368.88,
+      "originalEnd": 379.66,
+      "durationSec": 10.78,
+      "words": 40,
+      "originalEn": "I'd had a particularly bad day, and I walked into my colleague Tina's office, and I sat down with my head in my hands, and I told her how I'd messed up on an important call with a senior leader.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 368.88,
+          "end": 375.32,
+          "durationSec": 6.44,
+          "words": 24,
+          "en": "I'd had a particularly bad day, and I walked into my colleague Tina's office, and I sat down with my head in my hands."
+        },
+        {
+          "part": 2,
+          "start": 375.36,
+          "end": 379.66,
+          "durationSec": 4.3,
+          "words": 16,
+          "en": "And I told her how I'd messed up on an important call with a senior leader."
+        }
+      ]
+    },
+    {
+      "number": "EP 08",
+      "id": "local-5-How-to-Start-Any-Conversation-th",
+      "speaker": "Chris Fenning",
+      "sentenceId": 108,
+      "originalStart": 504.9,
+      "originalEnd": 515.28,
+      "durationSec": 10.38,
+      "words": 46,
+      "originalEn": "And he'd say, \"Well, first, we're going to the car and then we’ll get in the car, leave the driveway, turn left onto the main street until we get to the post office, and then turn right until we go to a big yellow building.\"",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 504.9,
+          "end": 507.14,
+          "durationSec": 2.24,
+          "words": 10,
+          "en": "And he'd say, \"Well, first, we're going to the car."
+        },
+        {
+          "part": 2,
+          "start": 507.18,
+          "end": 512.55,
+          "durationSec": 5.37,
+          "words": 24,
+          "en": "And then we’ll get in the car, leave the driveway, turn left onto the main street until we get to the post office."
+        },
+        {
+          "part": 3,
+          "start": 512.59,
+          "end": 515.28,
+          "durationSec": 2.69,
+          "words": 12,
+          "en": "And then turn right until we go to a big yellow building.\"."
+        }
+      ]
+    },
+    {
+      "number": "EP 07",
+      "id": "local-4-What-is-imposter-syndrome-and-ho",
+      "speaker": "Elizabeth Cox",
+      "sentenceId": 21,
+      "originalStart": 150.02,
+      "originalEnd": 163.45,
+      "durationSec": 13.43,
+      "words": 42,
+      "originalEn": "Since it’s tough to really know how hard our peers work, how difficult they find certain tasks, or how much they doubt themselves, there’s no easy way to dismiss feelings that we’re less capable than the people around us.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 150.02,
+          "end": 155.76,
+          "durationSec": 5.74,
+          "words": 18,
+          "en": "Since it’s tough to really know how hard our peers work, how difficult they find certain tasks."
+        },
+        {
+          "part": 2,
+          "start": 155.8,
+          "end": 163.45,
+          "durationSec": 7.65,
+          "words": 24,
+          "en": "Or how much they doubt themselves, there’s no easy way to dismiss feelings that we’re less capable than the people around us."
+        }
+      ]
+    },
+    {
+      "number": "EP 06",
+      "id": "local-3-Inside-Emma-Watson-s-Prada-Backp",
+      "speaker": "Emma Watson",
+      "sentenceId": 7,
+      "originalStart": 28.14,
+      "originalEnd": 42.24,
+      "durationSec": 14.1,
+      "words": 50,
+      "originalEn": "Oh, this one, one of my favorite things about Prada is that she does this like incredible tiny tiny mini mini mini bag that you can put inside the bag, and this is what I have with me when I'm at the airport. It's just got my passport in it.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 28.14,
+          "end": 36.55,
+          "durationSec": 8.41,
+          "words": 30,
+          "en": "Oh, this one, one of my favorite things about Prada is that she does this like incredible tiny tiny mini mini mini bag that you can put inside the bag."
+        },
+        {
+          "part": 2,
+          "start": 36.59,
+          "end": 40.24,
+          "durationSec": 3.65,
+          "words": 13,
+          "en": "And this is what I have with me when I'm at the airport."
+        },
+        {
+          "part": 3,
+          "start": 40.28,
+          "end": 42.24,
+          "durationSec": 1.96,
+          "words": 7,
+          "en": "It's just got my passport in it."
+        }
+      ]
+    },
+    {
+      "number": "EP 06",
+      "id": "local-3-Inside-Emma-Watson-s-Prada-Backp",
+      "speaker": "Emma Watson",
+      "sentenceId": 19,
+      "originalStart": 83.81,
+      "originalEnd": 99.2,
+      "durationSec": 15.39,
+      "words": 35,
+      "originalEn": "I've been wearing this for forever. It's disgusting now, but this is from the Body Shop. It's a lip stain, cheek stain, hand wipes, Altoids—you never know, need to have good breath—makeup bag.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 83.81,
+          "end": 86.43,
+          "durationSec": 2.62,
+          "words": 6,
+          "en": "I've been wearing this for forever."
+        },
+        {
+          "part": 2,
+          "start": 86.47,
+          "end": 90.84,
+          "durationSec": 4.37,
+          "words": 10,
+          "en": "It's disgusting now, but this is from the Body Shop."
+        },
+        {
+          "part": 3,
+          "start": 90.88,
+          "end": 99.2,
+          "durationSec": 8.32,
+          "words": 19,
+          "en": "It's a lip stain, cheek stain, hand wipes, Altoids—you never know, need to have good breath—makeup bag."
+        }
+      ]
+    },
+    {
+      "number": "EP 06",
+      "id": "local-3-Inside-Emma-Watson-s-Prada-Backp",
+      "speaker": "Emma Watson",
+      "sentenceId": 26,
+      "originalStart": 120.81,
+      "originalEnd": 130.78,
+      "durationSec": 9.97,
+      "words": 40,
+      "originalEn": "The thing I probably really can't live without is these Body Shop stains, and I think they actually might have stopped doing them, so I had to buy a bunch of them on eBay because I'm so obsessed with them.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 120.81,
+          "end": 126.52,
+          "durationSec": 5.71,
+          "words": 23,
+          "en": "The thing I probably really can't live without is these Body Shop stains, and I think they actually might have stopped doing them."
+        },
+        {
+          "part": 2,
+          "start": 126.56,
+          "end": 130.78,
+          "durationSec": 4.22,
+          "words": 17,
+          "en": "So I had to buy a bunch of them on eBay because I'm so obsessed with them."
+        }
+      ]
+    },
+    {
+      "number": "EP 06",
+      "id": "local-3-Inside-Emma-Watson-s-Prada-Backp",
+      "speaker": "Emma Watson",
+      "sentenceId": 33,
+      "originalStart": 165.6,
+      "originalEnd": 181.18,
+      "durationSec": 15.58,
+      "words": 53,
+      "originalEn": "This is amazing, it has SPF 15 in it and tea tree, so I think I tell myself that it's going to stop me from getting sick as well, bit of a theme coming on here. Okay, this cannot live without, this is my Sleep Master mask. This means I can sleep anywhere.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 165.6,
+          "end": 169.1,
+          "durationSec": 3.5,
+          "words": 12,
+          "en": "This is amazing, it has SPF 15 in it and tea tree."
+        },
+        {
+          "part": 2,
+          "start": 169.14,
+          "end": 176.14,
+          "durationSec": 7.0,
+          "words": 24,
+          "en": "So I think I tell myself that it's going to stop me from getting sick as well, bit of a theme coming on here."
+        },
+        {
+          "part": 3,
+          "start": 176.18,
+          "end": 179.39,
+          "durationSec": 3.21,
+          "words": 11,
+          "en": "Okay, this cannot live without, this is my Sleep Master mask."
+        },
+        {
+          "part": 4,
+          "start": 179.43,
+          "end": 181.18,
+          "durationSec": 1.75,
+          "words": 6,
+          "en": "This means I can sleep anywhere."
+        }
+      ]
+    },
+    {
+      "number": "EP 06",
+      "id": "local-3-Inside-Emma-Watson-s-Prada-Backp",
+      "speaker": "Emma Watson",
+      "sentenceId": 42,
+      "originalStart": 226.72,
+      "originalEnd": 244.09,
+      "durationSec": 17.37,
+      "words": 66,
+      "originalEn": "I really like cats, but I also have physical books because I can't not do that. This is T.S. Eliot, it's the Love Song of J. Alfred Prufrock, but actually this copy has an inscription in it from Steve Chbosky, who I did The Perks of Being a Wallflower with, and it's so sweet the note that he wrote, so I have to read it.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 226.72,
+          "end": 231.95,
+          "durationSec": 5.23,
+          "words": 20,
+          "en": "I really like cats, but I also have physical books because I can't not do that. This is T.S."
+        },
+        {
+          "part": 2,
+          "start": 231.99,
+          "end": 233.82,
+          "durationSec": 1.83,
+          "words": 7,
+          "en": "Eliot, it's the Love Song of J."
+        },
+        {
+          "part": 3,
+          "start": 233.86,
+          "end": 240.13,
+          "durationSec": 6.27,
+          "words": 24,
+          "en": "Alfred Prufrock, but actually this copy has an inscription in it from Steve Chbosky, who I did The Perks of Being a Wallflower with."
+        },
+        {
+          "part": 4,
+          "start": 240.17,
+          "end": 244.09,
+          "durationSec": 3.92,
+          "words": 15,
+          "en": "And it's so sweet the note that he wrote, so I have to read it."
+        }
+      ]
+    },
+    {
+      "number": "EP 06",
+      "id": "local-3-Inside-Emma-Watson-s-Prada-Backp",
+      "speaker": "Emma Watson",
+      "sentenceId": 54,
+      "originalStart": 294.88,
+      "originalEnd": 314.38,
+      "durationSec": 19.5,
+      "words": 70,
+      "originalEn": "This is my ritual, this is my daily, every single day I write in this and I write three things from the day before that were fun or joyful, three things that happened that were kind, either that I did for someone else or they did for me, and then I write three things that I thought I did well from the day before, or that I liked about myself.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 294.88,
+          "end": 297.09,
+          "durationSec": 2.21,
+          "words": 8,
+          "en": "This is my ritual, this is my daily."
+        },
+        {
+          "part": 2,
+          "start": 297.13,
+          "end": 302.94,
+          "durationSec": 5.81,
+          "words": 21,
+          "en": "Every single day I write in this and I write three things from the day before that were fun or joyful."
+        },
+        {
+          "part": 3,
+          "start": 302.98,
+          "end": 308.24,
+          "durationSec": 5.26,
+          "words": 19,
+          "en": "Three things that happened that were kind, either that I did for someone else or they did for me."
+        },
+        {
+          "part": 4,
+          "start": 308.28,
+          "end": 314.38,
+          "durationSec": 6.1,
+          "words": 22,
+          "en": "And then I write three things that I thought I did well from the day before, or that I liked about myself."
+        }
+      ]
+    },
+    {
+      "number": "EP 06",
+      "id": "local-3-Inside-Emma-Watson-s-Prada-Backp",
+      "speaker": "Emma Watson",
+      "sentenceId": 62,
+      "originalStart": 341.84,
+      "originalEnd": 368.41,
+      "durationSec": 26.57,
+      "words": 88,
+      "originalEn": "So yeah, when I fly a lot, I try and use these... Sprays. This one is made from oregano oil, and it's actually really intense. You... Know, you do it and you're like, \"Whoa.\" Oh, my tarot cards! This is fun. A friend gifted... Me a deck. I think it's so much fun. I love the ritual of it. I try and pull one... Every day when I do my journaling. This is actually the original Tarot deck. It's... A classic, but I have a few different ones.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 341.84,
+          "end": 345.72,
+          "durationSec": 3.88,
+          "words": 13,
+          "en": "So yeah, when I fly a lot, I try and use these... Sprays."
+        },
+        {
+          "part": 2,
+          "start": 345.76,
+          "end": 349.64,
+          "durationSec": 3.88,
+          "words": 13,
+          "en": "This one is made from oregano oil, and it's actually really intense. You..."
+        },
+        {
+          "part": 3,
+          "start": 349.68,
+          "end": 355.94,
+          "durationSec": 6.26,
+          "words": 21,
+          "en": "Know, you do it and you're like, \"Whoa.\" Oh, my tarot cards! This is fun. A friend gifted... Me a deck."
+        },
+        {
+          "part": 4,
+          "start": 355.98,
+          "end": 357.77,
+          "durationSec": 1.79,
+          "words": 6,
+          "en": "I think it's so much fun."
+        },
+        {
+          "part": 5,
+          "start": 357.81,
+          "end": 359.6,
+          "durationSec": 1.79,
+          "words": 6,
+          "en": "I love the ritual of it."
+        },
+        {
+          "part": 6,
+          "start": 359.64,
+          "end": 361.13,
+          "durationSec": 1.49,
+          "words": 5,
+          "en": "I try and pull one..."
+        },
+        {
+          "part": 7,
+          "start": 361.17,
+          "end": 363.26,
+          "durationSec": 2.09,
+          "words": 7,
+          "en": "Every day when I do my journaling."
+        },
+        {
+          "part": 8,
+          "start": 363.3,
+          "end": 365.69,
+          "durationSec": 2.39,
+          "words": 8,
+          "en": "This is actually the original Tarot deck. It's..."
+        },
+        {
+          "part": 9,
+          "start": 365.73,
+          "end": 368.41,
+          "durationSec": 2.68,
+          "words": 9,
+          "en": "A classic, but I have a few different ones."
+        }
+      ]
+    },
+    {
+      "number": "EP 06",
+      "id": "local-3-Inside-Emma-Watson-s-Prada-Backp",
+      "speaker": "Emma Watson",
+      "sentenceId": 83,
+      "originalStart": 454.31,
+      "originalEnd": 470.16,
+      "durationSec": 15.85,
+      "words": 35,
+      "originalEn": "Biggest item is definitely the gin, um, so that's going to go... In first. That is all 700 items. I am ready to go to London. Thanks for joining me... For what's in my bag.",
+      "proposedParts": [
+        {
+          "part": 1,
+          "start": 454.31,
+          "end": 460.6,
+          "durationSec": 6.29,
+          "words": 14,
+          "en": "Biggest item is definitely the gin, um, so that's going to go... In first."
+        },
+        {
+          "part": 2,
+          "start": 460.64,
+          "end": 462.89,
+          "durationSec": 2.25,
+          "words": 5,
+          "en": "That is all 700 items."
+        },
+        {
+          "part": 3,
+          "start": 462.93,
+          "end": 467.87,
+          "durationSec": 4.94,
+          "words": 11,
+          "en": "I am ready to go to London. Thanks for joining me..."
+        },
+        {
+          "part": 4,
+          "start": 467.91,
+          "end": 470.16,
+          "durationSec": 2.25,
+          "words": 5,
+          "en": "For what's in my bag."
+        }
+      ]
+    }
+  ]
+}

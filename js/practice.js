@@ -183,21 +183,37 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
     }
 
     let lastDriftFixAt = 0;
+    const resolveSentenceIndexAtTime = (sents, t, current) => {
+      if (!sents.length) return 0;
+      if (t < sents[0].start) return 0;
+      // 严格按 t >= s.start 匹配；若 t 处于两句之间的间隙 [cur.end, next.start)，继续停留在上一句，绝不提前切到下一句
+      let matched = -1;
+      for (let i = 0; i < sents.length; i++) {
+        if (t >= sents[i].start) {
+          matched = i;
+        } else {
+          break;
+        }
+      }
+      return matched === -1 ? current : matched;
+    };
+
     const checkMediaBoundary = () => {
       const clockEl = getClockEl();
       if (isDisposed || !isPlaying || !clockEl) return;
       if (clockEl.paused || clockEl.seeking || clockEl.readyState < 2) return;
       const now = Date.now();
+      // 画面可见时严格以视频帧时间（mediaEl.currentTime）为准；纯音频模式以伴音为准
       const t = clockEl.currentTime;
 
-      // 双轨视频模式下温和校准漂移（纯音频模式不依赖视频时钟）
+      // 双轨视频模式下收紧伴音漂移阈值（>0.18s 即拉齐到视频帧），防止伴音/视频漂移带动字幕错位
       if (
         !isAudioClockMode() &&
         companionAudioEl &&
         !companionAudioEl.paused &&
         now > seekGuardUntil &&
-        now - lastDriftFixAt > 2500 &&
-        Math.abs(companionAudioEl.currentTime - t) > 0.55
+        now - lastDriftFixAt > 1200 &&
+        Math.abs(companionAudioEl.currentTime - t) > 0.18
       ) {
         companionAudioEl.currentTime = t;
         lastDriftFixAt = now;
@@ -228,8 +244,8 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         }
       }
 
-      // 3) 检查当前句结束边界
-      if (curSent && now > seekGuardUntil && t >= curSent.end - 0.04) {
+      // 3) 检查当前句结束边界（严格到达 curSent.end 后才处理，绝不提前 40ms 抢切）
+      if (curSent && now > seekGuardUntil && t >= curSent.end) {
         if (currentLoopRemaining > 1) {
           currentLoopRemaining -= 1;
           seekMediaTo(curSent.start, true);
@@ -239,6 +255,7 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
           playSentenceAt(abRange.startIdx, true);
           return;
         }
+        // 句末停住时保持停留在当前句，绝不提前切到下一句
         if (!store.state.autoContinue || mode === 'shadow' || mode === 'dictation') {
           stopPlayback();
           syncPlayStateUI();
@@ -252,7 +269,7 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         }
         const nextSent = sents[currentIdx + 1];
         const gap = nextSent.start - curSent.end;
-        // 句间空隙 >= 2.0s 时自动跳过纯音乐/长空白；< 2.0s 的自然口播停顿（如 EP 10 的 0.5–1.5s 换气停顿）保持平滑连播不切碎！
+        // 句间空隙 >= 2.0s 时自动跳过纯音乐/长空白；< 2.0s 的自然口播停顿保持平滑连播，且等到 t >= nextSent.start 才切换高亮
         if (gap >= 2.0) {
           const lc = store.state.loopCount;
           currentLoopRemaining = lc === 0 ? 9999 : lc;
@@ -263,7 +280,7 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
       }
 
       // 4) 兜底：若已播到最后一句之后，立即停止
-      if (now > seekGuardUntil && t >= lastSent.end - 0.02) {
+      if (now > seekGuardUntil && t >= lastSent.end) {
         if (abRange) {
           playSentenceAt(abRange.startIdx, true);
         } else {
@@ -293,18 +310,22 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
         }
       }
 
-      // 6) 自然连播跨句：只做轻量级高亮与当前句更新，绝不重绘整页、绝不拆装 video！
-      const foundIdx = sents.findIndex((s) => t >= s.start - 0.05 && t < s.end);
-      if (foundIdx !== -1 && foundIdx !== currentIdx) {
+      // 6) 自然连播跨句：只有时钟真正进入下一句的 start（t >= nextSent.start）才切换高亮、当前句与视频遮罩字幕
+      const foundIdx = resolveSentenceIndexAtTime(sents, t, currentIdx);
+      if (foundIdx !== currentIdx) {
         const lc = store.state.loopCount;
         currentLoopRemaining = lc === 0 ? 9999 : lc;
         setActiveIndex(foundIdx, false);
       }
     };
 
-    mediaEl.addEventListener('timeupdate', checkMediaBoundary);
+    mediaEl.addEventListener('timeupdate', () => {
+      if (!isAudioClockMode()) checkMediaBoundary();
+    });
     if (companionAudioEl) {
-      companionAudioEl.addEventListener('timeupdate', checkMediaBoundary);
+      companionAudioEl.addEventListener('timeupdate', () => {
+        if (isAudioClockMode()) checkMediaBoundary();
+      });
       companionAudioEl.addEventListener('ended', () => {
         if (!isAudioClockMode()) return;
         if (abRange) {
