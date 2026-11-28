@@ -2,14 +2,14 @@
 import { THEMES } from './data.js';
 
 export const USER_AVATARS = [
-  './assets/avatars/animal_01.png?v=2',
-  './assets/avatars/animal_02.png?v=2',
-  './assets/avatars/animal_03.png?v=2',
-  './assets/avatars/animal_04.png?v=2',
-  './assets/avatars/animal_05.png?v=2',
-  './assets/avatars/animal_06.png?v=2',
-  './assets/avatars/animal_07.png?v=2',
-  './assets/avatars/animal_08.png?v=2',
+  './assets/avatars/animal_01.png?v=3',
+  './assets/avatars/animal_02.png?v=3',
+  './assets/avatars/animal_03.png?v=3',
+  './assets/avatars/animal_04.png?v=3',
+  './assets/avatars/animal_05.png?v=3',
+  './assets/avatars/animal_06.png?v=3',
+  './assets/avatars/animal_07.png?v=3',
+  './assets/avatars/animal_08.png?v=3',
 ];
 
 const STORAGE_KEY = 'justmet_universe_state_v1';

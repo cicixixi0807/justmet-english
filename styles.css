@@ -2392,7 +2392,6 @@ html[data-dark="true"] .blind-overlay {
   border-radius: 50%;
   object-fit: cover;
   object-position: center center;
-  transform: scale(1.06);
   display: block;
 }
 
@@ -2788,11 +2787,6 @@ html[data-dark="true"] .blind-overlay {
     margin: 0 !important;
   }
 
-  /* 手机版不显示日期，让卡片更清爽 */
-  .tt-courses-page .episode-meta:last-of-type > span:last-child {
-    display: none !important;
-  }
-
   .tt-courses-page .speaker-row {
     color: #847068 !important;
   }
@@ -2860,12 +2854,15 @@ html[data-dark="true"] .blind-overlay {
     place-items: center;
   }
 
-  /* 隐藏桌面端冗余控制栏（.bottom-dock / .tool-rail / .ep-title-bar），保留极简底部 6 按钮主控条 */
+  .tt-mobile-padded-page {
+    padding-bottom: 92px !important;
+  }
+
+  /* 隐藏桌面端冗余控制栏（真实节点 footer.player-dock / .tool-rail / .ep-title-bar），保留极简底部 6 按钮主控条 */
   .practice-shell .practice-top-collapse,
   .practice-shell .tool-rail,
   .practice-shell .ep-title-bar,
-  .practice-shell .bottom-dock,
-  .practice-shell .practice-dock {
+  .practice-shell footer.player-dock {
     display: none !important;
   }
 

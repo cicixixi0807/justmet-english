@@ -463,7 +463,7 @@ export function renderLibraryPage(root, navigate) {
     }
 
     root.innerHTML = `
-      ${renderHeader('library')}
+      <div class="tt-desktop-only-header">${renderHeader('library')}</div>
       <main class="page-container tt-courses-page">
         <div class="tt-mobile-courses-head">
           <div class="tt-brand-overline">Justmet · TalkTalk</div>
@@ -572,7 +572,7 @@ export function renderLibraryPage(root, navigate) {
               const speakerInitial = (ep.speaker || 'J').trim().charAt(0).toUpperCase();
               return `
                 <article class="episode-card" data-ep-id="${ep.id}" data-locked="${isLocked ? '1' : '0'}">
-                  <div class="episode-thumb" style="background:${ep.coverImage ? `linear-gradient(rgba(27,20,18,0.22),rgba(27,20,18,0.42)), url('${ep.coverImage}') center/cover no-repeat` : ep.coverGradient};overflow:hidden;">
+                  <div class="episode-thumb" style="background:${ep.coverImage ? `url('${ep.coverImage}') center/cover no-repeat` : ep.coverGradient};overflow:hidden;">
                     ${
                       !ep.coverImage && ep.mediaUrl && ep.mediaKind !== 'audio'
                         ? `<video src="${ep.mediaUrl}#t=4" muted playsinline preload="metadata" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;filter:brightness(0.86);"></video>`
@@ -602,9 +602,8 @@ export function renderLibraryPage(root, navigate) {
                       ${ep.tags.slice(0, 3).map((t) => `<span class="tag-chip">${escapeHtml(t)}</span>`).join('')}
                       ${ep.tags.length > 3 ? `<span class="tag-chip">+${ep.tags.length - 3}</span>` : ''}
                     </div>
-                    <div class="episode-meta">
+                    <div class="episode-meta episode-meta-duration">
                       <span>${ep.durationLabel}</span>
-                      <span>${ep.date}</span>
                     </div>
                     <div class="ep-progress-row">
                       <div class="progress-track">
@@ -687,8 +686,11 @@ export function renderVocabPage(root, navigate) {
   const renderInner = () => {
     const items = store.state.vocabBook;
     root.innerHTML = `
-      ${renderHeader('vocab')}
-      <main class="page-container">
+      <div class="tt-desktop-only-header">${renderHeader('vocab')}</div>
+      <main class="page-container tt-mobile-padded-page">
+        <div class="tt-mobile-courses-head">
+          <div class="tt-brand-overline">Justmet · TalkTalk</div>
+        </div>
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
           <div>
             <h1 style="font-family:var(--font-serif);font-size:26px;">我的生词本</h1>
@@ -728,6 +730,7 @@ export function renderVocabPage(root, navigate) {
           }
         </div>
       </main>
+      ${renderMobileBottomNav('vocab')}
     `;
     bindHeaderEvents(navigate);
     root.querySelectorAll('.remove-vocab-btn').forEach((btn) => {
@@ -911,8 +914,11 @@ function bindHeaderEvents(navigate) {
 export function renderMembershipPage(root, navigate) {
   const renderInner = () => {
     root.innerHTML = `
-      ${renderHeader('membership')}
-      <main class="page-container">
+      <div class="tt-desktop-only-header">${renderHeader('membership')}</div>
+      <main class="page-container tt-mobile-padded-page">
+        <div class="tt-mobile-courses-head">
+          <div class="tt-brand-overline">Justmet · TalkTalk</div>
+        </div>
         <section style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:24px;">
           <div>
             <span class="pill" style="margin-bottom:8px;">✦ 300 期精听课程已包含在基础权益 · 以下为进阶提效增值服务</span>
@@ -970,7 +976,7 @@ export function renderMembershipPage(root, navigate) {
           </div>
         </section>
       </main>
-      ${renderMobileBottomNav('library')}
+      ${renderMobileBottomNav('membership')}
     `;
 
     bindHeaderEvents(navigate);

@@ -221,9 +221,10 @@ function downloadPolaroidPng(phrases, whisper, mins, day) {
 function updateDarcyUI() {
   const wrap = document.getElementById('darcy-companion-root');
   if (!wrap) return;
-  const isEnterPage = !window.location.hash || window.location.hash === '#/login';
-  wrap.style.display = isEnterPage ? 'none' : 'block';
-  if (isEnterPage) {
+  const h = window.location.hash || '';
+  const shouldHide = !h || h === '#/login' || h.startsWith('#/episode/');
+  wrap.style.display = shouldHide ? 'none' : 'block';
+  if (shouldHide) {
     nestOpen = false;
     return;
   }
