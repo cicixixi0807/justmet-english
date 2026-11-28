@@ -79,7 +79,7 @@ SPEAKER_RULES = [
     ("Bob the Canadian", ["bob the canadian", "daily routine in english by watching me act out", "learn english at a hotel", "hotel in canada"]),
     ("Sydney Serena", [
         "sydney serena", "alone in new york", "alone but not lonely", "what i eat as a busy girl",
-        "what i spend in a week", "it's sid", "it's syd", "productive & busy day", "natural korean makeup",
+        "what i spend in a week", "it's sid", "it's syd", "productive & busy day",
     ]),
     ("Ariannita la Gringa", [
         "ariannita", "arianita", "la gringa", "lagringa", "liginga",
@@ -94,7 +94,7 @@ SPEAKER_RULES = [
         "vanessa", "speakenglishwithvanessa", "daily life english", "grocery store vocabulary",
         "real life english around the city", "speak american english around town", "order pizza in english", "order food in english",
     ]),
-    ("Michelle Choi", ["michelle choi", "living alone diaries", "homebody on holiday", "homebody in new york", "dobby"]),
+    ("Michelle Choi", ["michelle choi", "living alone diaries", "homebody on holiday", "homebody in new york", "dobby", "natural korean makeup"]),
     ("English with Lucy", ["english with lucy"]),
     ("Jenn Im", ["jenn im"]),
     ("Eva Meloche", ["eva meloche"]),
@@ -1302,6 +1302,10 @@ def scan_episodes(media_base_url: str):
                 else:
                     extras.append(ep)
             ordered.sort(key=lambda x: x[0])
+            # 新导出的未排期短课顺延编号（不重排已有剧集，也不与旧编号冲突）
+            max_existing = max((int(ep["number"].split()[1]) for _, ep in ordered), default=0)
+            for idx_ex, ep in enumerate(reversed(extras), start=1):
+                ep["number"] = f"EP {max_existing + idx_ex:02d}"
             episodes = extras + [ep for _, ep in ordered]
         except Exception as exc:
             print(f"[warn] 应用 catalog_order.json 失败: {exc}")

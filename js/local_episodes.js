@@ -1,6 +1,1028 @@
 // 本文件由 scripts/sync_episodes.py 自动生成，请勿手工修改
 export const LOCAL_EPISODES = [
   {
+    "id": "local-83-Recycling-Landfill-downtown_micro4",
+    "number": "EP 84",
+    "title": "美国街头垃圾桶：Recycling 和 Landfill 怎么分",
+    "speaker": "Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 47,
+    "durationLabel": "00:47",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%EF%BC%9ARecycling%20%E5%92%8C%20Landfill%20%E6%80%8E%E4%B9%88%E5%88%86.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%EF%BC%9ARecycling%20%E5%92%8C%20Landfill%20%E6%80%8E%E4%B9%88%E5%88%86.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%EF%BC%9ARecycling%20%E5%92%8C%20Landfill%20%E6%80%8E%E4%B9%88%E5%88%86.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 3.24,
+        "speaker": "Speaker",
+        "en": "I want to show you the trash cans.",
+        "ipa": "/aɪ wɑnt tu ʃoʊ ju ðə træʃ kænz./",
+        "zh": "我想给你们看看垃圾桶。",
+        "highlights": [
+          {
+            "text": "trash",
+            "key": "trash",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 3.28,
+        "end": 8.44,
+        "speaker": "Speaker",
+        "en": "This is a lovely moment, guys.",
+        "ipa": "/ðɪs ɪz ə ˈlʌvli ˈmoʊmənt, ɡaɪz./",
+        "zh": "这真是个可爱的瞬间，伙计们。",
+        "highlights": [
+          {
+            "text": "lovely",
+            "key": "lovely",
+            "chip": "orange"
+          },
+          {
+            "text": "moment",
+            "key": "moment",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 8.48,
+        "end": 13.64,
+        "speaker": "Speaker",
+        "en": "So, this is becoming more popular in the US, but you will see recycling and landfill.",
+        "ipa": "/soʊ ðɪs ɪz ˈbɪkʌmɪŋ mɔr ˈpɑpjələr ɪn ðə ju ɛs bʌt ju wɪl si ˈrisɪklɪŋ ənd ˈlændfɪl/",
+        "zh": "所以，这在美国正变得越来越普遍，但你会看到分类回收和垃圾填埋桶。",
+        "highlights": [
+          {
+            "text": "becoming more popular",
+            "key": "becoming more popular",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 13.68,
+        "end": 15.48,
+        "speaker": "Speaker",
+        "en": "Landfill is just trash.",
+        "ipa": "/ˈlændfɪl ɪz dʒʌst træʃ/",
+        "zh": "垃圾填埋桶就是装普通垃圾的。",
+        "highlights": [
+          {
+            "text": "Landfill",
+            "key": "Landfill",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 15.52,
+        "end": 18.97,
+        "speaker": "Speaker",
+        "en": "Um, you can see it even says on the side landfill, recycling.",
+        "ipa": "/ʌm ju kən si ɪt ˈivən sɛz ɑn ðə saɪd ˈlændfɪl ˈrisɪklɪŋ/",
+        "zh": "嗯，你可以看到上面侧面甚至写着‘垃圾填埋’和‘回收’。",
+        "highlights": [
+          {
+            "text": "recycling",
+            "key": "recycling",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 19.01,
+        "end": 25.5,
+        "speaker": "Speaker",
+        "en": "In the US, recycling is anything that you could possibly ever recycle, you put in there.",
+        "ipa": "/ɪn ðə ju ɛs ˈrisɪklɪŋ ɪz ˈɛniˌθɪŋ ðæt ju kʊd ˈpɑsəbli ˈɛvər ˈrisɪkl ju pʊt ɪn ðɛr/",
+        "zh": "在美国，回收箱就是只要你觉得可能可以回收的东西，全往里面扔。",
+        "highlights": [
+          {
+            "text": "anything that",
+            "key": "anything that",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 25.54,
+        "end": 32.04,
+        "speaker": "Speaker",
+        "en": "You don't separate it, you just throw all your plastic and glass and paper in the same bin.",
+        "ipa": "/ju doʊnt ˈsɛpəˌreɪt ɪt ju dʒʌst θroʊ ɔl jʊər ˈplæstɪk ənd glæs ənd ˈpeɪpər ɪn ðə seɪm bɪn/",
+        "zh": "你不需要分类，直接把所有的塑料、玻璃和纸张扔进同一个垃圾桶里。",
+        "highlights": [
+          {
+            "text": "separate",
+            "key": "separate",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 32.08,
+        "end": 35.59,
+        "speaker": "Speaker",
+        "en": "Does it actually get recycled really efficiently?",
+        "ipa": "/dʌz ɪt ˈæktʃuəli gɛt ˈrisɪkəld ˈrɪli ɪˈfɪʃəntli/",
+        "zh": "它真的能被高效地回收利用吗？",
+        "highlights": [
+          {
+            "text": "efficiently",
+            "key": "efficiently",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 35.63,
+        "end": 37.32,
+        "speaker": "Speaker",
+        "en": "I don't know.",
+        "ipa": "/aɪ doʊnt noʊ/",
+        "zh": "我不知道。",
+        "highlights": []
+      },
+      {
+        "id": 10,
+        "start": 37.36,
+        "end": 38.51,
+        "speaker": "Speaker",
+        "en": "But, there is an option.",
+        "ipa": "/bʌt ðɛr ɪz ən ˈɑpʃən/",
+        "zh": "不过，总归有这么个选择。",
+        "highlights": [
+          {
+            "text": "option",
+            "key": "option",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 38.55,
+        "end": 47.15,
+        "speaker": "Speaker",
+        "en": "So, as you're walking along the side of the street, you can throw your trash in the recycling or the landfill.",
+        "ipa": "/soʊ æz jʊr ˈwɔkɪŋ əˈlɔŋ ðə saɪd ʌv ðə strit ju kən θroʊ jʊər træʃ ɪn ðə ˈrisɪklɪŋ ɔr ðə ˈlændfɪl/",
+        "zh": "所以，当你走在街边时，你可以把垃圾扔进回收桶或垃圾填埋桶里。",
+        "highlights": [
+          {
+            "text": "walking along",
+            "key": "walking along",
+            "chip": "indigo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-82-Busking-downtown_micro3",
+    "number": "EP 83",
+    "title": "街头艺人 Busking：路边演奏、打赏与市中心过马路",
+    "speaker": "Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 64,
+    "durationLabel": "01:04",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverImage": "./content/episodes/trimmed/%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%20Busking%EF%BC%9A%E8%B7%AF%E8%BE%B9%E6%BC%94%E5%A5%8F%E3%80%81%E6%89%93%E8%B5%8F%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E8%BF%87%E9%A9%AC%E8%B7%AF.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%20Busking%EF%BC%9A%E8%B7%AF%E8%BE%B9%E6%BC%94%E5%A5%8F%E3%80%81%E6%89%93%E8%B5%8F%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E8%BF%87%E9%A9%AC%E8%B7%AF.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%20Busking%EF%BC%9A%E8%B7%AF%E8%BE%B9%E6%BC%94%E5%A5%8F%E3%80%81%E6%89%93%E8%B5%8F%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E8%BF%87%E9%A9%AC%E8%B7%AF.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [
+      [
+        8.37,
+        9.52
+      ]
+    ],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 3.48,
+        "speaker": "Speaker",
+        "en": "There's some very nice music being played across the street there.",
+        "ipa": "/ðɛrz sʌm ˈvɛri naɪs ˈmjuzɪk ˈbiɪŋ pleɪd əˈkrɔs ðə strit ðɛr./",
+        "zh": "街对面有人在演奏非常动听的音乐。",
+        "highlights": [
+          {
+            "text": "played",
+            "key": "played",
+            "chip": "orange"
+          },
+          {
+            "text": "across",
+            "key": "across",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 3.52,
+        "end": 8.37,
+        "speaker": "Speaker",
+        "en": "I don't know if you can hear it past all the other noise.",
+        "ipa": "/aɪ doʊnt noʊ ɪf ju kæn hir ɪt pæst ɔl ði ˈʌðər nɔɪz./",
+        "zh": "我不知道在这些嘈杂声中你能不能听见。",
+        "highlights": [
+          {
+            "text": "noise",
+            "key": "noise",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 9.52,
+        "end": 15.17,
+        "speaker": "Speaker",
+        "en": "But it's always nice whenever you see people playing on the side of the street like that; it is called busking.",
+        "ipa": "/bʌt ɪts ˈɔlweɪz naɪs wɛˈnɛvər ju si ˈpipəl ˈpleɪɪŋ ɑn ðə saɪd əv ðə strit laɪk ðæt; ɪt ɪz kɔld ˈbʌskɪŋ./",
+        "zh": "但每当你看到人们像那样在街边演奏时，总是很棒的；这被称为街头卖艺。",
+        "highlights": [
+          {
+            "text": "busking",
+            "key": "busking",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 15.21,
+        "end": 21.61,
+        "speaker": "Speaker",
+        "en": "I am busking, he is busking, and it means you're playing music on the side of the street with like a little cup, trying to get some money.",
+        "ipa": "/aɪ æm ˈbʌskɪŋ, hi ɪz ˈbʌskɪŋ, ænd ɪt minz jʊr ˈpleɪɪŋ ˈmjuzɪk ɑn ðə saɪd əv ðə strit wɪð laɪk ə ˈlɪtəl kʌp, ˈtraɪɪŋ tu ɡɛt sʌm ˈmʌni./",
+        "zh": "我在街头卖艺，他也在街头卖艺，意思就是你在街边演奏音乐，放个小杯子，试图赚点钱。",
+        "highlights": [
+          {
+            "text": "busking",
+            "key": "busking",
+            "chip": "pink"
+          },
+          {
+            "text": "on the side",
+            "key": "on the side",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 21.65,
+        "end": 23.32,
+        "speaker": "Speaker",
+        "en": "And Asheville's known for buskers.",
+        "ipa": "/ænd ˈæʃvɪlz noʊn fɔr ˈbʌskərz./",
+        "zh": "阿什维尔以街头艺人闻名。",
+        "highlights": [
+          {
+            "text": "Asheville",
+            "key": "asheville",
+            "chip": "orange"
+          },
+          {
+            "text": "buskers",
+            "key": "buskers",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 23.36,
+        "end": 24.83,
+        "speaker": "Speaker",
+        "en": "There's a lot of buskers.",
+        "ipa": "/ðɛrz ə lɑt əv ˈbʌskərz./",
+        "zh": "这里有很多街头艺人。",
+        "highlights": [
+          {
+            "text": "a lot of",
+            "key": "a lot of",
+            "chip": "indigo"
+          },
+          {
+            "text": "buskers",
+            "key": "buskers",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 24.87,
+        "end": 30.4,
+        "speaker": "Speaker",
+        "en": "And if you stop and listen to a busker for like a couple minutes, it's nice to drop a dollar in.",
+        "ipa": "/ænd ɪf ju stɑp ænd ˈlɪsən tu ə ˈbʌskər fɔr laɪk ə ˈkʌpəl ˈmɪnəts, ɪts naɪs tu drɑp ə ˈdɑlər ɪn./",
+        "zh": "如果你停下来听街头艺人演奏几分钟，往杯子里放一美元是件好事。",
+        "highlights": [
+          {
+            "text": "drop a dollar in",
+            "key": "drop a dollar in",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 30.44,
+        "end": 33.8,
+        "speaker": "Speaker",
+        "en": "Just, you know, supporting some musicians along the side of the street.",
+        "ipa": "/dʒʌst, ju noʊ, səˈpɔrtɪŋ sʌm mjuˈzɪʃənz əˈlɔŋ ðə saɪd əv ðə strit./",
+        "zh": "就是，你知道，支持一下街边的音乐人。",
+        "highlights": [
+          {
+            "text": "supporting",
+            "key": "supporting",
+            "chip": "orange"
+          },
+          {
+            "text": "musicians",
+            "key": "musicians",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 33.84,
+        "end": 35.27,
+        "speaker": "Speaker",
+        "en": "They usually have to get a permit.",
+        "ipa": "/ðeɪ ˈjuʒəwəli hæv tu ɡɛt ə ˈpɜrmɪt./",
+        "zh": "他们通常需要获得许可证。",
+        "highlights": [
+          {
+            "text": "permit",
+            "key": "permit",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 35.31,
+        "end": 36.38,
+        "speaker": "Speaker",
+        "en": "It's like an official thing.",
+        "ipa": "/ɪts laɪk ən əˈfɪʃəl θɪŋ./",
+        "zh": "这算是一件官方认可的事情。",
+        "highlights": [
+          {
+            "text": "official",
+            "key": "official",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 36.42,
+        "end": 39.92,
+        "speaker": "Speaker",
+        "en": "You can't just sit down on the side of the road and start playing music.",
+        "ipa": "/ju kænt dʒʌst sɪt daʊn ɑn ðə saɪd əv ðə roʊd ænd stɑrt ˈpleɪɪŋ ˈmjuzɪk./",
+        "zh": "你不能随随便便坐在路边就开始演奏音乐。",
+        "highlights": [
+          {
+            "text": "on the side",
+            "key": "on the side",
+            "chip": "pink"
+          },
+          {
+            "text": "playing",
+            "key": "playing",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 39.96,
+        "end": 46.56,
+        "speaker": "Speaker",
+        "en": "So, before you cross the street in a city center, especially a busy place like this, you should push the button if nobody else has.",
+        "ipa": "/soʊ, bɪˈfɔr ju krɔs ðə strit ɪn ə ˈsɪti ˈsɛntər, əˈpɛʃəli ə ˈbɪzi pleɪs laɪk ðɪs, ju ʃʊd pʊʃ ðə ˈbʌtən ɪf ˈnoʊˌbɑdi ɛls hæz./",
+        "zh": "所以，在市中心过马路之前，特别是在像这样繁忙的地方，如果还没人按，你应该按一下按钮。",
+        "highlights": [
+          {
+            "text": "city center",
+            "key": "city center",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 46.6,
+        "end": 51.12,
+        "speaker": "Speaker",
+        "en": "And it will beep, and then it will light up the crosswalk sign.",
+        "ipa": "/ænd ɪt wɪl bip, ænd ðɛn ɪt wɪl laɪt ʌp ðə ˈkrɔsˌwɔk saɪn./",
+        "zh": "它会发出哔哔声，然后人行横道信号灯就会亮起。",
+        "highlights": [
+          {
+            "text": "crosswalk",
+            "key": "crosswalk",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 51.16,
+        "end": 58.28,
+        "speaker": "Speaker",
+        "en": "This is the one place—I know we talked about jaywalking—but this is the one place when you probably shouldn't.",
+        "ipa": "/ðɪs ɪz ðə wʌn pleɪs—aɪ noʊ wi tɔkt əˈbaʊt ˈdʒeɪˌwɔkɪŋ—bʌt ðɪs ɪz ðə wʌn pleɪs wɛn ju ˈprɑbəbli ˈʃʊdənt./",
+        "zh": "这是个例外——我知道我们谈过乱穿马路——但这地方你可能真的不该乱穿。",
+        "highlights": [
+          {
+            "text": "jaywalking",
+            "key": "jaywalking",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 58.32,
+        "end": 63.96,
+        "speaker": "Speaker",
+        "en": "Not that you'll get in trouble, but it's just not safe because there's actually a lot of cars and a lot of people, and I don't want to get hit.",
+        "ipa": "/nɑt ðæt jul ɡɛt ɪn ˈtrʌbəl, bʌt ɪts dʒʌst nɑt seɪf bɪˈkəz ðɛrz ˈæktʃuəli ə lɑt əv karz ænd ə lɑt əv ˈpipəl, ænd aɪ doʊnt wɑnt tu ɡɛt hɪt./",
+        "zh": "倒不是说你会惹上麻烦，只是这不安全，因为车流和人流确实很多，我可不想被撞到。",
+        "highlights": [
+          {
+            "text": "get in trouble",
+            "key": "get in trouble",
+            "chip": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-81-trimmed-81-downtown_micro2",
+    "number": "EP 82",
+    "title": "美国市中心的写字楼：空置店面与小高楼",
+    "speaker": "Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 88,
+    "durationLabel": "01:28",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E5%86%99%E5%AD%97%E6%A5%BC%EF%BC%9A%E7%A9%BA%E7%BD%AE%E5%BA%97%E9%9D%A2%E4%B8%8E%E5%B0%8F%E9%AB%98%E6%A5%BC.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E5%86%99%E5%AD%97%E6%A5%BC%EF%BC%9A%E7%A9%BA%E7%BD%AE%E5%BA%97%E9%9D%A2%E4%B8%8E%E5%B0%8F%E9%AB%98%E6%A5%BC.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E5%86%99%E5%AD%97%E6%A5%BC%EF%BC%9A%E7%A9%BA%E7%BD%AE%E5%BA%97%E9%9D%A2%E4%B8%8E%E5%B0%8F%E9%AB%98%E6%A5%BC.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 8.36,
+        "speaker": "Speaker",
+        "en": "If I can complain one more time about American downtowns, this building is built for corporate offices.",
+        "ipa": "/ɪf aɪ kæn kəmˈpleɪn wʌn mɔːr taɪm əˈbaʊt əˈmɛrɪkən ˈdaʊntaʊnz, ðɪs ˈbɪldɪŋ ɪz bɪlt fɔːr ˈkɔːrpərɪt ˈɔːfɪsɪz/",
+        "zh": "如果我能再抱怨一次美国市中心的话，这栋楼就是建来做公司办公室的。",
+        "highlights": [
+          {
+            "text": "complain",
+            "key": "抱怨",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 8.4,
+        "end": 11.98,
+        "speaker": "Speaker",
+        "en": "Biltmore is the biggest house in the US and it's in Asheville.",
+        "ipa": "/ˈbɪltmɔːr ɪz ðə ˈbɪɡəst haʊs ɪn ðə juː ɛs ænd ɪts ɪn ˈæʃvɪl/",
+        "zh": "比尔特莫庄园是美国最大的住宅，它就在阿什维尔。",
+        "highlights": [
+          {
+            "text": "Biltmore",
+            "key": "biltmore",
+            "chip": "pink"
+          },
+          {
+            "text": "Asheville",
+            "key": "asheville",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 12.02,
+        "end": 16.04,
+        "speaker": "Speaker",
+        "en": "It's the biggest tourist attraction in Asheville.",
+        "ipa": "/ɪts ðə ˈbɪɡəst ˈtʊrɪst əˈtrækʃən ɪn ˈæʃvɪl/",
+        "zh": "它是阿什维尔最大的旅游景点。",
+        "highlights": [
+          {
+            "text": "tourist attraction",
+            "key": "旅游景点",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 16.08,
+        "end": 24.28,
+        "speaker": "Speaker",
+        "en": "But I think American downtowns could use a little bit more storefront.",
+        "ipa": "/bʌt aɪ θɪŋk əˈmɛrɪkən ˈdaʊntaʊnz kʊd juːz ə ˈlɪtəl bɪt mɔːr ˈstɔːrfrʌnt/",
+        "zh": "但我认为美国市中心可以多一点店面。",
+        "highlights": [
+          {
+            "text": "could use",
+            "key": "需要/可以用到",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 24.32,
+        "end": 30.32,
+        "speaker": "Speaker",
+        "en": "Yeah, storefront space and this is completely unused.",
+        "ipa": "/jæ, ˈstɔːrfrʌnt speɪs ænd ðɪs ɪz kəmˈpliːtli ˌʌnˈjuːzd/",
+        "zh": "是的，店面空间，而这里完全没被利用起来。",
+        "highlights": [
+          {
+            "text": "unused",
+            "key": "未使用的/闲置的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 30.36,
+        "end": 36.0,
+        "speaker": "Speaker",
+        "en": "It's for offices, you know, this isn't like there could be nice little shops, there could be nice little restaurants.",
+        "ipa": "/ɪts fɔːr ˈɔːfɪsɪz, juː noʊ, ðɪs ˈɪzənt laɪk ðɛr kʊd biː naɪs ˈlɪtəl ʃɑːps, ðɛr kʊd biː naɪs ˈlɪtəl ˈrɛstəˌrɑːnts/",
+        "zh": "这是办公用的，你知道，这里本可以开些不错的小店，或者不错的小餐馆。",
+        "highlights": [
+          {
+            "text": "nice little",
+            "key": "不错的小……",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 36.04,
+        "end": 38.92,
+        "speaker": "Speaker",
+        "en": "I don't know, something.",
+        "ipa": "/aɪ doʊnt noʊ, ˈsʌmθɪŋ/",
+        "zh": "我不知道，总之做点什么都好。",
+        "highlights": []
+      },
+      {
+        "id": 8,
+        "start": 38.96,
+        "end": 41.96,
+        "speaker": "Speaker",
+        "en": "Yeah, so this is prime territory, right?",
+        "ipa": "/jæ, soʊ ðɪs ɪz praɪm ˈtɛrɪtɔːri, raɪt/",
+        "zh": "是啊，这可是黄金地段，对吧？",
+        "highlights": [
+          {
+            "text": "prime territory",
+            "key": "黄金地段/核心区域",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 42.0,
+        "end": 50.29,
+        "speaker": "Speaker",
+        "en": "Prime land to be able to do something with, and the whole half of the downtown square is that.",
+        "ipa": "/praɪm lænd tuː biː ˈeɪbəl tuː duː ˈsʌmθɪŋ wɪð, ænd ðə hoʊl hæf əv ðə ˈdaʊntaʊn skwɛr ɪz ðæt/",
+        "zh": "这是可以开发利用的黄金地块，而市中心广场的一半都是这样。",
+        "highlights": [
+          {
+            "text": "downtown",
+            "key": "downtown",
+            "chip": "orange"
+          },
+          {
+            "text": "square",
+            "key": "square",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 50.33,
+        "end": 56.8,
+        "speaker": "Speaker",
+        "en": "Kind of a bummer, but, you know, I guess you can only get what you can get, right?",
+        "ipa": "/kaɪnd əv ə ˈbʌmər, bʌt, ju noʊ, aɪ ɡɛs ju kæn ˈoʊnli ɡɛt wʌt ju kæn ɡɛt, raɪt?/",
+        "zh": "有点扫兴，但你知道，我想这就是能得到的全部了，对吧？",
+        "highlights": [
+          {
+            "text": "bummer",
+            "key": "bummer",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 56.84,
+        "end": 61.08,
+        "speaker": "Speaker",
+        "en": "Some people might call this a skyscraper.",
+        "ipa": "/sʌm ˈpipəl maɪt kɔl ðɪs ə ˈskaɪˌskreɪpər./",
+        "zh": "有些人可能会把这栋楼称为摩天大楼。",
+        "highlights": [
+          {
+            "text": "skyscraper",
+            "key": "skyscraper",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 61.12,
+        "end": 64.84,
+        "speaker": "Speaker",
+        "en": "Um, Asheville is not known for its skyscrapers.",
+        "ipa": "/ʌm, ˈæʃvɪl ɪz nɑt noʊn fɔr ɪts ˈskaɪˌskreɪpərz./",
+        "zh": "嗯，阿什维尔并不是以摩天大楼而闻名的。",
+        "highlights": [
+          {
+            "text": "known for",
+            "key": "known for",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 64.88,
+        "end": 68.32,
+        "speaker": "Speaker",
+        "en": "There's not many skyscrapers here.",
+        "ipa": "/ðɛrz nɑt ˈmɛni ˈskaɪˌskreɪpərz hir./",
+        "zh": "这里没几栋摩天大楼。",
+        "highlights": [
+          {
+            "text": "skyscrapers",
+            "key": "skyscrapers",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 68.36,
+        "end": 74.08,
+        "speaker": "Speaker",
+        "en": "But, um, I guess this is the tallest or one of the tallest buildings here.",
+        "ipa": "/bʌt, ʌm, aɪ ɡɛs ðɪs ɪz ðə ˈtɔləst ɔr wʌn əv ðə ˈtɔləst ˈbɪldɪŋz hir./",
+        "zh": "不过，嗯，我想这应该是这里最高或者最高的建筑之一了。",
+        "highlights": [
+          {
+            "text": "tallest",
+            "key": "tallest",
+            "chip": "pink"
+          },
+          {
+            "text": "buildings",
+            "key": "buildings",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 74.12,
+        "end": 77.49,
+        "speaker": "Speaker",
+        "en": "Most buildings are... what would you say this is?",
+        "ipa": "/moʊst ˈbɪldɪŋz ɑr... wʌt wʊd ju seɪ ðɪs ɪz?/",
+        "zh": "大多数建筑都是你觉得这栋楼有几层？",
+        "highlights": [
+          {
+            "text": "buildings",
+            "key": "buildings",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 77.53,
+        "end": 79.33,
+        "speaker": "Speaker",
+        "en": "Let's take a look.",
+        "ipa": "/lɛts teɪk ə lʊk. wʌn, tu, θri, fɔr, faɪv ˈstɔriz tɔl?/",
+        "zh": "让我们看看。",
+        "highlights": []
+      },
+      {
+        "id": 17,
+        "start": 79.37,
+        "end": 82.12,
+        "speaker": "Speaker",
+        "en": "1, 2, 3, 4, 5 stories tall?",
+        "ipa": "",
+        "zh": "1、2、3、4、5层楼高？",
+        "highlights": [
+          {
+            "text": "stories",
+            "key": "stories",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 82.16,
+        "end": 87.56,
+        "speaker": "Speaker",
+        "en": "That's pretty common, but I guess there's also a few skyscrapers.",
+        "ipa": "/ðæts ˈprɪti ˈkɑmən, bʌt aɪ ɡɛs ðɛrz ˈɔlsoʊ ə fju ˈskaɪˌskreɪpərz./",
+        "zh": "这很常见，但我猜这里也有几栋摩天大楼。",
+        "highlights": [
+          {
+            "text": "common",
+            "key": "common",
+            "chip": "pink"
+          },
+          {
+            "text": "skyscrapers",
+            "key": "skyscrapers",
+            "chip": "orange"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-80-Art-Deco-downtown_micro1",
+    "number": "EP 81",
+    "title": "阿什维尔市中心：Art Deco 建筑与砖砌人行道",
+    "speaker": "Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 70,
+    "durationLabel": "01:10",
+    "date": "2026/11/26",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverImage": "./content/episodes/trimmed/%E9%98%BF%E4%BB%80%E7%BB%B4%E5%B0%94%E5%B8%82%E4%B8%AD%E5%BF%83%EF%BC%9AArt%20Deco%20%E5%BB%BA%E7%AD%91%E4%B8%8E%E7%A0%96%E7%A0%8C%E4%BA%BA%E8%A1%8C%E9%81%93.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E9%98%BF%E4%BB%80%E7%BB%B4%E5%B0%94%E5%B8%82%E4%B8%AD%E5%BF%83%EF%BC%9AArt%20Deco%20%E5%BB%BA%E7%AD%91%E4%B8%8E%E7%A0%96%E7%A0%8C%E4%BA%BA%E8%A1%8C%E9%81%93.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E9%98%BF%E4%BB%80%E7%BB%B4%E5%B0%94%E5%B8%82%E4%B8%AD%E5%BF%83%EF%BC%9AArt%20Deco%20%E5%BB%BA%E7%AD%91%E4%B8%8E%E7%A0%96%E7%A0%8C%E4%BA%BA%E8%A1%8C%E9%81%93.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 4.42,
+        "speaker": "Speaker",
+        "en": "Let's walk down this way and you can see some of the classic buildings.",
+        "ipa": "/lɛts wɔːk daʊn ðɪs weɪ ænd juː kæn siː sʌm əv ðə ˈklæsɪk ˈbɪldɪŋz/",
+        "zh": "我们往这边走，你可以看到一些经典建筑。",
+        "highlights": [
+          {
+            "text": "walk down",
+            "key": "沿着……走",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 4.46,
+        "end": 10.16,
+        "speaker": "Speaker",
+        "en": "So this type of architecture, it's called Art Deco.",
+        "ipa": "/soʊ ðɪs taɪp əv ˈɑːrkɪtɛktʃər, ɪts kɔːld ɑːrt ˈdɛkoʊ/",
+        "zh": "这种建筑风格被称为装饰艺术风格。",
+        "highlights": [
+          {
+            "text": "architecture",
+            "key": "建筑学/建筑风格",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 10.2,
+        "end": 17.55,
+        "speaker": "Speaker",
+        "en": "A lot of the buildings around here, if you know anything about architecture, which I don't really, they are like classic Art Deco.",
+        "ipa": "/ə lɑːt əv ðə ˈbɪldɪŋz əˈraʊnd hɪr, ɪf juː noʊ ˈɛniθɪŋ əˈbaʊt ˈɑːrkɪtɛktʃər, wɪtʃ aɪ doʊnt ˈrɪli, ðeɪ ɑːr laɪk ˈklæsɪk ɑːrt ˈdɛkoʊ/",
+        "zh": "这附近的很多建筑，如果你懂一点建筑学的话（其实我不太懂），它们都属于经典的装饰艺术风格。",
+        "highlights": [
+          {
+            "text": "know anything about",
+            "key": "了解关于……的任何事",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 17.59,
+        "end": 25.76,
+        "speaker": "Speaker",
+        "en": "So you can see here, this style here is considered Art Deco.",
+        "ipa": "/soʊ juː kæn siː hɪr, ðɪs staɪl hɪr ɪz kənˈsɪdərd ɑːrt ˈdɛkoʊ/",
+        "zh": "你看，这里的这种风格被认为是装饰艺术风格。",
+        "highlights": [
+          {
+            "text": "considered",
+            "key": "被认为/被视为",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 25.8,
+        "end": 28.81,
+        "speaker": "Speaker",
+        "en": "It's like a 1920s thing.",
+        "ipa": "/ɪts laɪk ə ˈnaɪntiːn ˈtwɛntiz θɪŋ/",
+        "zh": "这大概是20世纪20年代的产物。",
+        "highlights": [
+          {
+            "text": "1920s thing",
+            "key": "20年代的风格/事物",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 28.85,
+        "end": 37.92,
+        "speaker": "Speaker",
+        "en": "I'm not the person to ask about architecture, but Asheville is kind of known for that style of building.",
+        "ipa": "/aɪm nɑːt ðə ˈpɜːrsən tuː æsk əˈbaʊt ˈɑːrkɪtɛktʃər, bʌt ˈæʃvɪl ɪz kaɪnd əv noʊn fɔːr ðæt staɪl əv ˈbɪldɪŋ/",
+        "zh": "我不是建筑方面的专家，但阿什维尔确实以这种建筑风格闻名。",
+        "highlights": [
+          {
+            "text": "known for",
+            "key": "因……而闻名",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 37.96,
+        "end": 40.81,
+        "speaker": "Speaker",
+        "en": "Let's walk on down here.",
+        "ipa": "/lɛts wɔːk ɑːn daʊn hɪr/",
+        "zh": "我们继续往这边走吧。",
+        "highlights": [
+          {
+            "text": "walk on",
+            "key": "继续走",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 40.85,
+        "end": 47.68,
+        "speaker": "Speaker",
+        "en": "So you can see here some more classic Art Deco buildings.",
+        "ipa": "/soʊ juː kæn siː hɪr sʌm mɔːr ˈklæsɪk ɑːrt ˈdɛkoʊ ˈbɪldɪŋz/",
+        "zh": "你看，这里还有更多经典的装饰艺术风格建筑。",
+        "highlights": [
+          {
+            "text": "classic",
+            "key": "经典的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 47.72,
+        "end": 54.02,
+        "speaker": "Speaker",
+        "en": "Some are covered by trees, but I want to talk about the ground for a moment.",
+        "ipa": "/sʌm ɑːr ˈkʌvərd baɪ triːz, bʌt aɪ wɑːnt tuː tɔːk əˈbaʊt ðə ɡraʊnd fɔːr ə ˈmoʊmənt/",
+        "zh": "有些被树遮住了，但我想聊聊地面。",
+        "highlights": [
+          {
+            "text": "for a moment",
+            "key": "片刻/一会儿",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 54.06,
+        "end": 62.25,
+        "speaker": "Speaker",
+        "en": "In the US, we call this the sidewalk, but this sidewalk is made of bricks, and I think that's really nice.",
+        "ipa": "/ɪn ðə juː ɛs, wiː kɔːl ðɪs ðə ˈsaɪdwɔːk, bʌt ðɪs ˈsaɪdwɔːk ɪz meɪd əv brɪks, ænd aɪ θɪŋk ðæts ˈrɪli naɪs/",
+        "zh": "在美国，我们管这叫人行道，但这条人行道是用砖铺成的，我觉得这很棒。",
+        "highlights": [
+          {
+            "text": "sidewalk",
+            "key": "人行道",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 62.29,
+        "end": 69.86,
+        "speaker": "Speaker",
+        "en": "I know a lot of European cities, all the sidewalks are made of bricks, but here it's not completely common that that's the case.",
+        "ipa": "/aɪ noʊ ə lɑːt əv jʊrəˈpiːən ˈsɪtiz, ɔːl ðə ˈsaɪdwɔːks ɑːr meɪd əv brɪks, bʌt hɪr ɪts nɑːt kəmˈpliːtli ˈkɑːmən ðæt ðæts ðə keɪs/",
+        "zh": "我知道很多欧洲城市的人行道都是砖铺的，但在这里，这种情况并不常见。",
+        "highlights": [
+          {
+            "text": "that's the case",
+            "key": "情况确实如此",
+            "chip": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "local-57-trimmed-57-part2",
     "number": "EP 80",
     "title": "雪山半山腰餐厅歇脚与滑雪体验地道表达",
@@ -15,7 +1037,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%202%29.trimmed.m4a",
@@ -996,7 +2018,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/%E5%85%8D%E4%B8%8B%E8%BD%A6%E7%82%B9%E7%94%9C%E5%93%81%EF%BC%9A%E5%B7%A7%E5%85%8B%E5%8A%9B%20Frosty%20%E4%B8%8E%E8%96%AF%E6%9D%A1.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E5%85%8D%E4%B8%8B%E8%BD%A6%E7%82%B9%E7%94%9C%E5%93%81%EF%BC%9A%E5%B7%A7%E5%85%8B%E5%8A%9B%20Frosty%20%E4%B8%8E%E8%96%AF%E6%9D%A1.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E5%85%8D%E4%B8%8B%E8%BD%A6%E7%82%B9%E7%94%9C%E5%93%81%EF%BC%9A%E5%B7%A7%E5%85%8B%E5%8A%9B%20Frosty%20%E4%B8%8E%E8%96%AF%E6%9D%A1.micro.m4a",
@@ -1348,7 +2370,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.trimmed.m4a",
@@ -3149,7 +4171,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/%E9%BA%A6%E5%BD%93%E5%8A%B3%E5%A5%97%E9%A4%90%E6%8B%86%E8%A7%A3%EF%BC%9ABig%20Mac%20%E4%B8%8E%E5%BF%AB%E9%A4%90%E4%B8%8D%E7%94%A8%E5%B0%8F%E8%B4%B9.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E9%BA%A6%E5%BD%93%E5%8A%B3%E5%A5%97%E9%A4%90%E6%8B%86%E8%A7%A3%EF%BC%9ABig%20Mac%20%E4%B8%8E%E5%BF%AB%E9%A4%90%E4%B8%8D%E7%94%A8%E5%B0%8F%E8%B4%B9.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E9%BA%A6%E5%BD%93%E5%8A%B3%E5%A5%97%E9%A4%90%E6%8B%86%E8%A7%A3%EF%BC%9ABig%20Mac%20%E4%B8%8E%E5%BF%AB%E9%A4%90%E4%B8%8D%E7%94%A8%E5%B0%8F%E8%B4%B9.micro.m4a",
@@ -3433,7 +4455,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%202%29.trimmed.m4a",
@@ -6065,7 +7087,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A1%20%E5%8F%B7%E5%A5%97%E9%A4%90%E3%80%81Happy%20Meal%20%E4%B8%8E%E9%A5%AE%E6%96%99%E5%B0%BA%E5%AF%B8.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A1%20%E5%8F%B7%E5%A5%97%E9%A4%90%E3%80%81Happy%20Meal%20%E4%B8%8E%E9%A5%AE%E6%96%99%E5%B0%BA%E5%AF%B8.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A1%20%E5%8F%B7%E5%A5%97%E9%A4%90%E3%80%81Happy%20Meal%20%E4%B8%8E%E9%A5%AE%E6%96%99%E5%B0%BA%E5%AF%B8.micro.m4a",
@@ -6867,7 +7889,7 @@ export const LOCAL_EPISODES = [
       "日常对话",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.trimmed.m4a",
@@ -8890,7 +9912,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Chick-fil-A%20%E9%85%B1%E6%96%99%E4%B8%8E%E6%94%B6%E6%8D%AE%EF%BC%9A%E7%89%B9%E8%B0%83%E9%85%B1%E3%80%81%E6%B0%B4%E7%89%9B%E5%9F%8E%E9%85%B1%E5%92%8C%E5%8D%8E%E5%A4%AB%E8%96%AF%E6%9D%A1.jpg",
     "mediaUrl": "./content/episodes/trimmed/Chick-fil-A%20%E9%85%B1%E6%96%99%E4%B8%8E%E6%94%B6%E6%8D%AE%EF%BC%9A%E7%89%B9%E8%B0%83%E9%85%B1%E3%80%81%E6%B0%B4%E7%89%9B%E5%9F%8E%E9%85%B1%E5%92%8C%E5%8D%8E%E5%A4%AB%E8%96%AF%E6%9D%A1.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/Chick-fil-A%20%E9%85%B1%E6%96%99%E4%B8%8E%E6%94%B6%E6%8D%AE%EF%BC%9A%E7%89%B9%E8%B0%83%E9%85%B1%E3%80%81%E6%B0%B4%E7%89%9B%E5%9F%8E%E9%85%B1%E5%92%8C%E5%8D%8E%E5%A4%AB%E8%96%AF%E6%9D%A1.micro.m4a",
@@ -9143,7 +10165,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.trimmed.m4a",
@@ -9946,7 +10968,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Chick-fil-A%20%E6%8B%86%E9%A4%90%EF%BC%9A%E6%8B%9B%E7%89%8C%E9%B8%A1%E8%85%BF%E5%A0%A1%E3%80%81%E9%B8%A1%E5%9D%97%E4%B8%8E%E9%B8%A1%E6%9F%B3.jpg",
     "mediaUrl": "./content/episodes/trimmed/Chick-fil-A%20%E6%8B%86%E9%A4%90%EF%BC%9A%E6%8B%9B%E7%89%8C%E9%B8%A1%E8%85%BF%E5%A0%A1%E3%80%81%E9%B8%A1%E5%9D%97%E4%B8%8E%E9%B8%A1%E6%9F%B3.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/Chick-fil-A%20%E6%8B%86%E9%A4%90%EF%BC%9A%E6%8B%9B%E7%89%8C%E9%B8%A1%E8%85%BF%E5%A0%A1%E3%80%81%E9%B8%A1%E5%9D%97%E4%B8%8E%E9%B8%A1%E6%9F%B3.micro.m4a",
@@ -10567,7 +11589,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%201%29.trimmed.m4a",
@@ -12203,7 +13225,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Chick-fil-A%20%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A%E9%B8%A1%E8%82%89%E4%B8%89%E6%98%8E%E6%B2%BB%E3%80%81%E9%B8%A1%E5%9D%97%E4%B8%8E%E5%A0%82%E9%A3%9F%E4%BB%98%E6%AC%BE.jpg",
     "mediaUrl": "./content/episodes/trimmed/Chick-fil-A%20%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A%E9%B8%A1%E8%82%89%E4%B8%89%E6%98%8E%E6%B2%BB%E3%80%81%E9%B8%A1%E5%9D%97%E4%B8%8E%E5%A0%82%E9%A3%9F%E4%BB%98%E6%AC%BE.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/Chick-fil-A%20%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A%E9%B8%A1%E8%82%89%E4%B8%89%E6%98%8E%E6%B2%BB%E3%80%81%E9%B8%A1%E5%9D%97%E4%B8%8E%E5%A0%82%E9%A3%9F%E4%BB%98%E6%AC%BE.micro.m4a",
@@ -12937,7 +13959,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%202%29.trimmed.m4a",
@@ -13968,7 +14990,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/%E7%94%9C%E5%93%81%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A%E9%97%AE%E6%8B%9B%E7%89%8C%E3%80%81%E7%82%B9%E7%84%A6%E7%B3%96%E5%B8%83%E8%95%BE%E4%B8%8E%E6%97%A0%E7%8E%B0%E9%87%91%E5%88%B7%E5%8D%A1.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E7%94%9C%E5%93%81%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A%E9%97%AE%E6%8B%9B%E7%89%8C%E3%80%81%E7%82%B9%E7%84%A6%E7%B3%96%E5%B8%83%E8%95%BE%E4%B8%8E%E6%97%A0%E7%8E%B0%E9%87%91%E5%88%B7%E5%8D%A1.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E7%94%9C%E5%93%81%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%EF%BC%9A%E9%97%AE%E6%8B%9B%E7%89%8C%E3%80%81%E7%82%B9%E7%84%A6%E7%B3%96%E5%B8%83%E8%95%BE%E4%B8%8E%E6%97%A0%E7%8E%B0%E9%87%91%E5%88%B7%E5%8D%A1.micro.m4a",
@@ -14580,7 +15602,7 @@ export const LOCAL_EPISODES = [
       "旅行",
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%201%29.trimmed.m4a",
@@ -16415,7 +17437,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/%E6%89%8B%E5%B7%A5%E6%9D%BE%E9%9C%B2%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%BA%97%EF%BC%9A%E6%8C%91%E7%A4%BC%E7%9B%92%E4%B8%8E%E7%94%9C%E5%93%81%E5%BA%97%E8%B6%A3%E4%BA%8B.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E6%89%8B%E5%B7%A5%E6%9D%BE%E9%9C%B2%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%BA%97%EF%BC%9A%E6%8C%91%E7%A4%BC%E7%9B%92%E4%B8%8E%E7%94%9C%E5%93%81%E5%BA%97%E8%B6%A3%E4%BA%8B.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E6%89%8B%E5%B7%A5%E6%9D%BE%E9%9C%B2%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%BA%97%EF%BC%9A%E6%8C%91%E7%A4%BC%E7%9B%92%E4%B8%8E%E7%94%9C%E5%93%81%E5%BA%97%E8%B6%A3%E4%BA%8B.micro.m4a",
@@ -16806,7 +17828,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%202%29.trimmed.m4a",
@@ -18020,7 +19042,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%202%29.trimmed.m4a",
@@ -19990,7 +21012,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%201%29.trimmed.m4a",
@@ -22194,7 +23216,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/%E5%B0%8F%E9%95%87%E4%BC%B4%E6%89%8B%E7%A4%BC%E5%BA%97%EF%BC%9A%E9%A3%8E%E9%93%83%E3%80%81%E6%98%8E%E4%BF%A1%E7%89%87%E4%B8%8E%E7%84%A6%E7%B3%96%E7%88%86%E7%B1%B3%E8%8A%B1.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E5%B0%8F%E9%95%87%E4%BC%B4%E6%89%8B%E7%A4%BC%E5%BA%97%EF%BC%9A%E9%A3%8E%E9%93%83%E3%80%81%E6%98%8E%E4%BF%A1%E7%89%87%E4%B8%8E%E7%84%A6%E7%B3%96%E7%88%86%E7%B1%B3%E8%8A%B1.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E5%B0%8F%E9%95%87%E4%BC%B4%E6%89%8B%E7%A4%BC%E5%BA%97%EF%BC%9A%E9%A3%8E%E9%93%83%E3%80%81%E6%98%8E%E4%BF%A1%E7%89%87%E4%B8%8E%E7%84%A6%E7%B3%96%E7%88%86%E7%B1%B3%E8%8A%B1.micro.m4a",
@@ -22560,7 +23582,7 @@ export const LOCAL_EPISODES = [
       "日常对话",
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%202%29.trimmed.m4a",
@@ -24351,7 +25373,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%A4%8D%E5%8F%A4%E7%B3%96%E6%9E%9C%E5%BA%97%EF%BC%9A%E7%9B%90%E6%B0%B4%E5%A4%AA%E5%A6%83%E7%B3%96%E4%B8%8E%E7%AB%A5%E5%B9%B4%E9%9B%B6%E9%A3%9F.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%A4%8D%E5%8F%A4%E7%B3%96%E6%9E%9C%E5%BA%97%EF%BC%9A%E7%9B%90%E6%B0%B4%E5%A4%AA%E5%A6%83%E7%B3%96%E4%B8%8E%E7%AB%A5%E5%B9%B4%E9%9B%B6%E9%A3%9F.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%A4%8D%E5%8F%A4%E7%B3%96%E6%9E%9C%E5%BA%97%EF%BC%9A%E7%9B%90%E6%B0%B4%E5%A4%AA%E5%A6%83%E7%B3%96%E4%B8%8E%E7%AB%A5%E5%B9%B4%E9%9B%B6%E9%A3%9F.micro.m4a",
@@ -25147,7 +26169,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%201%29.trimmed.m4a",
@@ -27868,7 +28890,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.trimmed.m4a",
@@ -29091,7 +30113,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%202%29.trimmed.m4a",
@@ -31377,7 +32399,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Asheville%20%E4%BA%94%E8%A7%92%E8%A1%97%E5%8C%BA%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%EF%BC%8C%E8%B5%B0%E5%90%91%20Greenway.jpg",
     "mediaUrl": "./content/episodes/trimmed/Asheville%20%E4%BA%94%E8%A7%92%E8%A1%97%E5%8C%BA%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%EF%BC%8C%E8%B5%B0%E5%90%91%20Greenway.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/Asheville%20%E4%BA%94%E8%A7%92%E8%A1%97%E5%8C%BA%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%EF%BC%8C%E8%B5%B0%E5%90%91%20Greenway.micro.m4a",
@@ -32005,7 +33027,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%201%29.trimmed.m4a",
@@ -34286,7 +35308,7 @@ export const LOCAL_EPISODES = [
     "id": "local-63-ABG-part2",
     "number": "EP 53",
     "title": "ABG 欧美妆全流程教学：修容、烘焙定妆与惊艳变装",
-    "speaker": "Sydney Serena",
+    "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
@@ -34297,7 +35319,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.trimmed.m4a",
@@ -35511,7 +36533,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%203%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%203%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%203%29.trimmed.m4a",
@@ -36834,7 +37856,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E7%A4%BE%E5%8C%BA%E5%9B%9E%E6%94%B6%E6%97%A5%EF%BC%9A%E9%97%A8%E5%89%8D%E5%9E%83%E5%9C%BE%E6%A1%B6%E4%B8%8E%E6%A8%AA%E7%A9%BF%E9%A9%AC%E8%B7%AF.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E7%A4%BE%E5%8C%BA%E5%9B%9E%E6%94%B6%E6%97%A5%EF%BC%9A%E9%97%A8%E5%89%8D%E5%9E%83%E5%9C%BE%E6%A1%B6%E4%B8%8E%E6%A8%AA%E7%A9%BF%E9%A9%AC%E8%B7%AF.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E7%A4%BE%E5%8C%BA%E5%9B%9E%E6%94%B6%E6%97%A5%EF%BC%9A%E9%97%A8%E5%89%8D%E5%9E%83%E5%9C%BE%E6%A1%B6%E4%B8%8E%E6%A8%AA%E7%A9%BF%E9%A9%AC%E8%B7%AF.micro.m4a",
@@ -37298,7 +38320,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%202%29.trimmed.m4a",
@@ -38456,7 +39478,7 @@ export const LOCAL_EPISODES = [
     "id": "local-62-trimmed-62-part1",
     "number": "EP 49",
     "title": "韩系淡妆挑战欧美辣妹风：种睫毛、修眉与逛街挑衣服",
-    "speaker": "Sydney Serena",
+    "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 2,
@@ -38466,7 +39488,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%201%29.trimmed.m4a",
@@ -39496,7 +40518,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%201%29.trimmed.m4a",
@@ -40291,7 +41313,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%BC%8F%E8%80%81%E8%A1%97%E5%8C%BA%E6%95%A3%E6%AD%A5%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%E3%80%81%E7%99%BE%E5%B9%B4%E8%80%81%E5%AE%85%E4%B8%8E%E9%A3%8E%E9%93%83.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%BC%8F%E8%80%81%E8%A1%97%E5%8C%BA%E6%95%A3%E6%AD%A5%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%E3%80%81%E7%99%BE%E5%B9%B4%E8%80%81%E5%AE%85%E4%B8%8E%E9%A3%8E%E9%93%83.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%BC%8F%E8%80%81%E8%A1%97%E5%8C%BA%E6%95%A3%E6%AD%A5%EF%BC%9A%E8%BF%87%E9%A9%AC%E8%B7%AF%E3%80%81%E7%99%BE%E5%B9%B4%E8%80%81%E5%AE%85%E4%B8%8E%E9%A3%8E%E9%93%83.micro.m4a",
@@ -41010,7 +42032,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.trimmed.m4a",
@@ -41625,7 +42647,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%202%29.trimmed.m4a",
@@ -42995,7 +44017,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%201%EF%BC%9A%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E4%B8%8E%E8%A1%97%E9%81%93%E4%BA%BA%E8%A1%8C%E9%81%93%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%201%EF%BC%9A%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E4%B8%8E%E8%A1%97%E9%81%93%E4%BA%BA%E8%A1%8C%E9%81%93%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%201%EF%BC%9A%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E4%B8%8E%E8%A1%97%E9%81%93%E4%BA%BA%E8%A1%8C%E9%81%93%29.trimmed.m4a",
@@ -43887,7 +44909,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E9%82%AE%E5%B1%80%E5%A4%96%E6%99%AF%E6%89%93%E5%8D%A1%EF%BC%9A%E7%BB%99%E5%9B%A2%E9%98%9F%E5%AF%84%E5%87%BA%E5%BD%93%E5%9C%B0%E6%89%8B%E5%B7%A5%E5%B7%A7%E5%85%8B%E5%8A%9B.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E9%82%AE%E5%B1%80%E5%A4%96%E6%99%AF%E6%89%93%E5%8D%A1%EF%BC%9A%E7%BB%99%E5%9B%A2%E9%98%9F%E5%AF%84%E5%87%BA%E5%BD%93%E5%9C%B0%E6%89%8B%E5%B7%A5%E5%B7%A7%E5%85%8B%E5%8A%9B.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E9%82%AE%E5%B1%80%E5%A4%96%E6%99%AF%E6%89%93%E5%8D%A1%EF%BC%9A%E7%BB%99%E5%9B%A2%E9%98%9F%E5%AF%84%E5%87%BA%E5%BD%93%E5%9C%B0%E6%89%8B%E5%B7%A5%E5%B7%A7%E5%85%8B%E5%8A%9B.micro.m4a",
@@ -44150,7 +45172,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%202%EF%BC%9A%E6%9F%9C%E5%8F%B0%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E5%85%A8%E6%B5%81%E7%A8%8B%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%202%EF%BC%9A%E6%9F%9C%E5%8F%B0%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E5%85%A8%E6%B5%81%E7%A8%8B%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%202%EF%BC%9A%E6%9F%9C%E5%8F%B0%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E5%85%A8%E6%B5%81%E7%A8%8B%29.trimmed.m4a",
@@ -45282,7 +46304,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.trimmed.m4a",
@@ -46932,7 +47954,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%201%EF%BC%9A%E8%8F%9C%E5%8D%95%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8A%A0%E6%96%99%E4%BB%B7%E6%A0%BC%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%201%EF%BC%9A%E8%8F%9C%E5%8D%95%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8A%A0%E6%96%99%E4%BB%B7%E6%A0%BC%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%201%EF%BC%9A%E8%8F%9C%E5%8D%95%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8A%A0%E6%96%99%E4%BB%B7%E6%A0%BC%29.trimmed.m4a",
@@ -47592,7 +48614,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/%E5%85%8D%E4%B8%8B%E8%BD%A6%E5%AD%98%E6%AC%BE%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E6%B0%94%E5%8A%A8%E7%AE%A1%E9%81%93%E5%AE%9E%E6%99%AF.jpg",
     "mediaUrl": "./content/episodes/trimmed/%E5%85%8D%E4%B8%8B%E8%BD%A6%E5%AD%98%E6%AC%BE%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E6%B0%94%E5%8A%A8%E7%AE%A1%E9%81%93%E5%AE%9E%E6%99%AF.micro.mp4",
     "audioUrl": "./content/episodes/trimmed/%E5%85%8D%E4%B8%8B%E8%BD%A6%E5%AD%98%E6%AC%BE%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E6%B0%94%E5%8A%A8%E7%AE%A1%E9%81%93%E5%AE%9E%E6%99%AF.micro.m4a",
@@ -48483,7 +49505,7 @@ export const LOCAL_EPISODES = [
       "购物",
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%202%EF%BC%9A%E7%83%98%E7%84%99%E5%8C%BA%E3%80%81%E4%B9%B3%E5%88%B6%E5%93%81%E4%B8%8E%E8%87%AA%E5%8A%A9%E7%BB%93%E8%B4%A6%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%202%EF%BC%9A%E7%83%98%E7%84%99%E5%8C%BA%E3%80%81%E4%B9%B3%E5%88%B6%E5%93%81%E4%B8%8E%E8%87%AA%E5%8A%A9%E7%BB%93%E8%B4%A6%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%202%EF%BC%9A%E7%83%98%E7%84%99%E5%8C%BA%E3%80%81%E4%B9%B3%E5%88%B6%E5%93%81%E4%B8%8E%E8%87%AA%E5%8A%A9%E7%BB%93%E8%B4%A6%29.trimmed.m4a",
@@ -49606,7 +50628,7 @@ export const LOCAL_EPISODES = [
       "购物",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%202%29.trimmed.m4a",
@@ -50420,7 +51442,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%201%EF%BC%9A%E6%9C%89%E6%9C%BA%E6%9E%9C%E8%94%AC%E5%8C%BA%E4%B8%8E%E6%8C%91%E9%80%89%E7%89%9B%E6%B2%B9%E6%9E%9C%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%201%EF%BC%9A%E6%9C%89%E6%9C%BA%E6%9E%9C%E8%94%AC%E5%8C%BA%E4%B8%8E%E6%8C%91%E9%80%89%E7%89%9B%E6%B2%B9%E6%9E%9C%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%201%EF%BC%9A%E6%9C%89%E6%9C%BA%E6%9E%9C%E8%94%AC%E5%8C%BA%E4%B8%8E%E6%8C%91%E9%80%89%E7%89%9B%E6%B2%B9%E6%9E%9C%29.trimmed.m4a",
@@ -51362,7 +52384,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%203%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%203%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%203%29.trimmed.m4a",
@@ -53094,7 +54116,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.trimmed.m4a",
@@ -54124,7 +55146,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.trimmed.m4a",
@@ -55957,7 +56979,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%202%EF%BC%9A%E6%BD%AE%E6%B5%81%E6%9C%8D%E9%A5%B0%E3%80%81%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%A9%E5%85%B7%E5%BA%97%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%202%EF%BC%9A%E6%BD%AE%E6%B5%81%E6%9C%8D%E9%A5%B0%E3%80%81%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%A9%E5%85%B7%E5%BA%97%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%202%EF%BC%9A%E6%BD%AE%E6%B5%81%E6%9C%8D%E9%A5%B0%E3%80%81%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%A9%E5%85%B7%E5%BA%97%29.trimmed.m4a",
@@ -57352,7 +58374,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%202%29.trimmed.m4a",
@@ -60018,7 +61040,7 @@ export const LOCAL_EPISODES = [
       "购物",
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.trimmed.m4a",
@@ -61079,7 +62101,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.trimmed.m4a",
@@ -62037,7 +63059,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B8%AD%E6%8E%A7%E5%8F%B0%E3%80%81%E6%8D%A2%E6%8C%A1%E6%9D%86%E4%B8%8E%E8%BD%A6%E5%86%85%E6%B8%85%E6%B4%81%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B8%AD%E6%8E%A7%E5%8F%B0%E3%80%81%E6%8D%A2%E6%8C%A1%E6%9D%86%E4%B8%8E%E8%BD%A6%E5%86%85%E6%B8%85%E6%B4%81%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B8%AD%E6%8E%A7%E5%8F%B0%E3%80%81%E6%8D%A2%E6%8C%A1%E6%9D%86%E4%B8%8E%E8%BD%A6%E5%86%85%E6%B8%85%E6%B4%81%29.trimmed.m4a",
@@ -62873,7 +63895,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%202%29.trimmed.m4a",
@@ -65938,7 +66960,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%202%EF%BC%9A%E8%BD%AE%E8%83%8E%E3%80%81%E7%88%86%E8%83%8E%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%202%EF%BC%9A%E8%BD%AE%E8%83%8E%E3%80%81%E7%88%86%E8%83%8E%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%202%EF%BC%9A%E8%BD%AE%E8%83%8E%E3%80%81%E7%88%86%E8%83%8E%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98%29.trimmed.m4a",
@@ -66777,7 +67799,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%201%29.trimmed.m4a",
@@ -69659,7 +70681,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%201%EF%BC%9A%E6%B4%97%E8%BD%A6%E4%B8%8E%E8%BD%A6%E8%BA%AB%E5%A4%96%E8%A7%82%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%201%EF%BC%9A%E6%B4%97%E8%BD%A6%E4%B8%8E%E8%BD%A6%E8%BA%AB%E5%A4%96%E8%A7%82%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%201%EF%BC%9A%E6%B4%97%E8%BD%A6%E4%B8%8E%E8%BD%A6%E8%BA%AB%E5%A4%96%E8%A7%82%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
@@ -70745,7 +71767,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%202%29.trimmed.m4a",
@@ -72142,7 +73164,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%203%EF%BC%9A%E5%A4%9A%E5%85%83%E5%AE%97%E6%95%99%E6%96%87%E5%8C%96%E4%B8%8E%E6%80%BB%E7%BB%93%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%203%EF%BC%9A%E5%A4%9A%E5%85%83%E5%AE%97%E6%95%99%E6%96%87%E5%8C%96%E4%B8%8E%E6%80%BB%E7%BB%93%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%203%EF%BC%9A%E5%A4%9A%E5%85%83%E5%AE%97%E6%95%99%E6%96%87%E5%8C%96%E4%B8%8E%E6%80%BB%E7%BB%93%29.trimmed.m4a",
@@ -73471,7 +74493,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.trimmed.m4a",
@@ -74497,7 +75519,7 @@ export const LOCAL_EPISODES = [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BF%A1%E4%BB%B0%E4%BA%A4%E6%B5%81%E4%B8%8E%E7%BB%8F%E5%85%B8%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BF%A1%E4%BB%B0%E4%BA%A4%E6%B5%81%E4%B8%8E%E7%BB%8F%E5%85%B8%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BF%A1%E4%BB%B0%E4%BA%A4%E6%B5%81%E4%B8%8E%E7%BB%8F%E5%85%B8%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
@@ -75748,7 +76770,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.trimmed.m4a",
@@ -77416,7 +78438,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%202%EF%BC%9A%E6%97%A5%E7%94%A8%E8%B4%A7%E6%9E%B6%E4%B8%8E%E8%B6%85%E5%B8%82%E7%BB%93%E8%B4%A6%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%202%EF%BC%9A%E6%97%A5%E7%94%A8%E8%B4%A7%E6%9E%B6%E4%B8%8E%E8%B6%85%E5%B8%82%E7%BB%93%E8%B4%A6%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%202%EF%BC%9A%E6%97%A5%E7%94%A8%E8%B4%A7%E6%9E%B6%E4%B8%8E%E8%B6%85%E5%B8%82%E7%BB%93%E8%B4%A6%29.trimmed.m4a",
@@ -78933,7 +79955,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.trimmed.m4a",
@@ -81017,7 +82039,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%99%E5%A0%82%E5%BC%A5%E6%92%92%E4%B8%8E%E7%A5%9E%E8%81%8C%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%99%E5%A0%82%E5%BC%A5%E6%92%92%E4%B8%8E%E7%A5%9E%E8%81%8C%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%99%E5%A0%82%E5%BC%A5%E6%92%92%E4%B8%8E%E7%A5%9E%E8%81%8C%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
@@ -82147,7 +83169,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.jpg",
     "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.trimmed.m4a",
@@ -84524,7 +85546,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%202%29.trimmed.m4a",
@@ -87087,7 +88109,7 @@ export const LOCAL_EPISODES = [
       "购物",
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.trimmed.m4a",
@@ -103061,7 +104083,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.jpg",
     "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.trimmed.m4a",
@@ -104146,7 +105168,7 @@ export const LOCAL_EPISODES = [
       "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.trimmed.m4a",
@@ -107044,1663 +108066,6 @@ export const LOCAL_EPISODES = [
             "text": "Yeah",
             "key": "Yeah",
             "chip": "orange"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-10-Busking-part2",
-    "number": "EP 02",
-    "title": "漫步美国市中心：街头艺人 Busking 与复古咖啡馆",
-    "speaker": "Vanessa",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 4,
-    "durationSec": 484,
-    "durationLabel": "08:04",
-    "date": "2026/08/11",
-    "tags": [
-      "美食"
-    ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
-    "coverImage": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%202%EF%BC%9A%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%E3%80%81%E5%9F%8E%E5%B8%82%E6%BC%AB%E6%AD%A5%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%202%EF%BC%9A%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%E3%80%81%E5%9F%8E%E5%B8%82%E6%BC%AB%E6%AD%A5%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%202%EF%BC%9A%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%E3%80%81%E5%9F%8E%E5%B8%82%E6%BC%AB%E6%AD%A5%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%29.trimmed.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "美食",
-    "skipRanges": [
-      [
-        243.65,
-        248.66
-      ],
-      [
-        256.83,
-        257.98
-      ],
-      [
-        317.91,
-        318.62
-      ],
-      [
-        482.28,
-        484.0
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.25,
-        "end": 10.08,
-        "speaker": "Speaker",
-        "en": "Um and this is one thing that I find slightly disappointing about American downtowns is that this is not a hangout zone.",
-        "ipa": "/ʌm ænd ðɪs ɪz wʌn θɪŋ ðæt aɪ faɪnd ˈslaɪtli ˌdɪsəˈpɔɪntɪŋ əˈbaʊt əˈmɛrɪkən ˈdaʊnˌtaʊnz ɪz ðæt ðɪs ɪz nɑt ə ˈhæŋˌaʊt zoʊn/",
-        "zh": "嗯，关于美国市中心，我觉得有点小失望的一点是，这里并不是一个适合闲逛的区域。",
-        "highlights": [
-          {
-            "text": "hangout zone",
-            "key": "hangout zone",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 10.12,
-        "end": 26.45,
-        "speaker": "Speaker",
-        "en": "Like this square has a lot of potential and I feel like the European cities I've been to, the downtown square, there's like teenagers hanging out, there's little markets going on and sometimes they have events here, but this isn't the hangout zone, you know? teenagers hanging out, there's little markets going on and sometimes they have events here, but this isn't the hangout zone, you know?",
-        "ipa": "/laɪk ðɪs skwɛr hæz ə lɑt ʌv pəˈtɛntʃəl ænd aɪ fil laɪk ðə ˌjʊrəˈpiən ˈsɪtiz aɪv bɪn tu ðə ˈdaʊnˌtaʊn skwɛr ðɛrz laɪk ˈtinˌeɪdʒərz ˈhæŋɪŋ aʊt ðɛrz ˈlɪtəl ˈmɑrkɪts ˈɡoʊɪŋ ɑn ænd ˈsʌmˌtaɪmz ðeɪ hæv ɪˈvɛnts hɪr bʌt ðɪs ˈɪzənt ðə ˈhæŋˌaʊt zoʊn ju noʊ ˈtinˌeɪdʒərz ˈhæŋɪŋ aʊt ðɛrz ˈlɪtəl ˈmɑrkɪts ˈɡoʊɪŋ ɑn ænd ˈsʌmˌtaɪmz ðeɪ hæv ɪˈvɛnts hɪr bʌt ðɪs ˈɪzənt ðə ˈhæŋˌaʊt zoʊn ju noʊ/",
-        "zh": "就像这个广场其实很有潜力，我觉得我去过的欧洲城市的市中心广场，那里会有青少年在闲逛，有小型集市，有时还会举办活动，但这里并不是那种可以闲逛的地方，你知道吧？青少年在闲逛，有小集市在举办，有时这里也有活动，但这里可不是那种能闲逛的地方，懂吗？",
-        "highlights": [
-          {
-            "text": "hanging out",
-            "key": "hanging out",
-            "chip": "indigo"
-          },
-          {
-            "text": "you know",
-            "key": "you know",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 26.49,
-        "end": 28.21,
-        "speaker": "Speaker",
-        "en": "There's a nice fountain.",
-        "ipa": "/ðɛrz ə naɪs ˈfaʊntən/",
-        "zh": "这里有一个很漂亮的喷泉。",
-        "highlights": [
-          {
-            "text": "fountain",
-            "key": "fountain",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 28.25,
-        "end": 30.53,
-        "speaker": "Speaker",
-        "en": "That's cool.",
-        "ipa": "/ðæts kul/",
-        "zh": "挺酷的。",
-        "highlights": [
-          {
-            "text": "cool",
-            "key": "cool",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 30.57,
-        "end": 36.05,
-        "speaker": "Speaker",
-        "en": "But it's not the vibe of European downtown city centers that I like a lot.",
-        "ipa": "/bʌt ɪts nɑt ðə vaɪb ʌv ˌjʊrəˈpiən ˈdaʊnˌtaʊn ˈsɪti ˈsɛntərz ðæt aɪ laɪk ə lɑt/",
-        "zh": "但这并不是我特别喜欢的欧洲市中心的那种氛围。",
-        "highlights": [
-          {
-            "text": "vibe",
-            "key": "vibe",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 36.09,
-        "end": 37.97,
-        "speaker": "Speaker",
-        "en": "But there is a nice view.",
-        "ipa": "/bʌt ðɛr ɪz ə naɪs vjuː/",
-        "zh": "不过这里的风景很不错。",
-        "highlights": [
-          {
-            "text": "nice view",
-            "key": "风景优美",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 38.01,
-        "end": 42.23,
-        "speaker": "Speaker",
-        "en": "Let's walk down this way and you can see some of the classic buildings.",
-        "ipa": "/lɛts wɔːk daʊn ðɪs weɪ ænd juː kæn siː sʌm əv ðə ˈklæsɪk ˈbɪldɪŋz/",
-        "zh": "我们往这边走，你可以看到一些经典建筑。",
-        "highlights": [
-          {
-            "text": "walk down",
-            "key": "沿着……走",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 42.27,
-        "end": 47.97,
-        "speaker": "Speaker",
-        "en": "So this type of architecture, it's called Art Deco.",
-        "ipa": "/soʊ ðɪs taɪp əv ˈɑːrkɪtɛktʃər, ɪts kɔːld ɑːrt ˈdɛkoʊ/",
-        "zh": "这种建筑风格被称为装饰艺术风格。",
-        "highlights": [
-          {
-            "text": "architecture",
-            "key": "建筑学/建筑风格",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 48.01,
-        "end": 55.36,
-        "speaker": "Speaker",
-        "en": "A lot of the buildings around here, if you know anything about architecture, which I don't really, they are like classic Art Deco.",
-        "ipa": "/ə lɑːt əv ðə ˈbɪldɪŋz əˈraʊnd hɪr, ɪf juː noʊ ˈɛniθɪŋ əˈbaʊt ˈɑːrkɪtɛktʃər, wɪtʃ aɪ doʊnt ˈrɪli, ðeɪ ɑːr laɪk ˈklæsɪk ɑːrt ˈdɛkoʊ/",
-        "zh": "这附近的很多建筑，如果你懂一点建筑学的话（其实我不太懂），它们都属于经典的装饰艺术风格。",
-        "highlights": [
-          {
-            "text": "know anything about",
-            "key": "了解关于……的任何事",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 55.4,
-        "end": 63.57,
-        "speaker": "Speaker",
-        "en": "So you can see here, this style here is considered Art Deco.",
-        "ipa": "/soʊ juː kæn siː hɪr, ðɪs staɪl hɪr ɪz kənˈsɪdərd ɑːrt ˈdɛkoʊ/",
-        "zh": "你看，这里的这种风格被认为是装饰艺术风格。",
-        "highlights": [
-          {
-            "text": "considered",
-            "key": "被认为/被视为",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 63.61,
-        "end": 66.62,
-        "speaker": "Speaker",
-        "en": "It's like a 1920s thing.",
-        "ipa": "/ɪts laɪk ə ˈnaɪntiːn ˈtwɛntiz θɪŋ/",
-        "zh": "这大概是20世纪20年代的产物。",
-        "highlights": [
-          {
-            "text": "1920s thing",
-            "key": "20年代的风格/事物",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 66.66,
-        "end": 75.73,
-        "speaker": "Speaker",
-        "en": "I'm not the person to ask about architecture, but Asheville is kind of known for that style of building.",
-        "ipa": "/aɪm nɑːt ðə ˈpɜːrsən tuː æsk əˈbaʊt ˈɑːrkɪtɛktʃər, bʌt ˈæʃvɪl ɪz kaɪnd əv noʊn fɔːr ðæt staɪl əv ˈbɪldɪŋ/",
-        "zh": "我不是建筑方面的专家，但阿什维尔确实以这种建筑风格闻名。",
-        "highlights": [
-          {
-            "text": "known for",
-            "key": "因……而闻名",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 75.77,
-        "end": 78.62,
-        "speaker": "Speaker",
-        "en": "Let's walk on down here.",
-        "ipa": "/lɛts wɔːk ɑːn daʊn hɪr/",
-        "zh": "我们继续往这边走吧。",
-        "highlights": [
-          {
-            "text": "walk on",
-            "key": "继续走",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 78.66,
-        "end": 85.49,
-        "speaker": "Speaker",
-        "en": "So you can see here some more classic Art Deco buildings.",
-        "ipa": "/soʊ juː kæn siː hɪr sʌm mɔːr ˈklæsɪk ɑːrt ˈdɛkoʊ ˈbɪldɪŋz/",
-        "zh": "你看，这里还有更多经典的装饰艺术风格建筑。",
-        "highlights": [
-          {
-            "text": "classic",
-            "key": "经典的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 85.53,
-        "end": 91.83,
-        "speaker": "Speaker",
-        "en": "Some are covered by trees, but I want to talk about the ground for a moment.",
-        "ipa": "/sʌm ɑːr ˈkʌvərd baɪ triːz, bʌt aɪ wɑːnt tuː tɔːk əˈbaʊt ðə ɡraʊnd fɔːr ə ˈmoʊmənt/",
-        "zh": "有些被树遮住了，但我想聊聊地面。",
-        "highlights": [
-          {
-            "text": "for a moment",
-            "key": "片刻/一会儿",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 91.87,
-        "end": 100.06,
-        "speaker": "Speaker",
-        "en": "In the US, we call this the sidewalk, but this sidewalk is made of bricks, and I think that's really nice.",
-        "ipa": "/ɪn ðə juː ɛs, wiː kɔːl ðɪs ðə ˈsaɪdwɔːk, bʌt ðɪs ˈsaɪdwɔːk ɪz meɪd əv brɪks, ænd aɪ θɪŋk ðæts ˈrɪli naɪs/",
-        "zh": "在美国，我们管这叫人行道，但这条人行道是用砖铺成的，我觉得这很棒。",
-        "highlights": [
-          {
-            "text": "sidewalk",
-            "key": "人行道",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "start": 100.1,
-        "end": 107.67,
-        "speaker": "Speaker",
-        "en": "I know a lot of European cities, all the sidewalks are made of bricks, but here it's not completely common that that's the case.",
-        "ipa": "/aɪ noʊ ə lɑːt əv jʊrəˈpiːən ˈsɪtiz, ɔːl ðə ˈsaɪdwɔːks ɑːr meɪd əv brɪks, bʌt hɪr ɪts nɑːt kəmˈpliːtli ˈkɑːmən ðæt ðæts ðə keɪs/",
-        "zh": "我知道很多欧洲城市的人行道都是砖铺的，但在这里，这种情况并不常见。",
-        "highlights": [
-          {
-            "text": "that's the case",
-            "key": "情况确实如此",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 107.71,
-        "end": 116.18,
-        "speaker": "Speaker",
-        "en": "I think some people are taking pictures, so let's go over this way and not get in their way.",
-        "ipa": "/aɪ θɪŋk sʌm ˈpiːpəl ɑːr ˈteɪkɪŋ ˈpɪktʃərz, soʊ lɛts ɡoʊ ˈoʊvər ðɪs weɪ ænd nɑːt ɡɛt ɪn ðɛr weɪ/",
-        "zh": "好像有人在拍照，我们往这边走，别挡着他们。",
-        "highlights": [
-          {
-            "text": "get in their way",
-            "key": "挡路/妨碍他人",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "start": 116.22,
-        "end": 118.8,
-        "speaker": "Speaker",
-        "en": "Yeah, I think we should walk down the street.",
-        "ipa": "/jæ, aɪ θɪŋk wiː ʃʊd wɔːk daʊn ðə striːt/",
-        "zh": "是啊，我觉得我们应该沿着这条街走。",
-        "highlights": [
-          {
-            "text": "walk down",
-            "key": "沿着……走",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "start": 118.84,
-        "end": 123.9,
-        "speaker": "Speaker",
-        "en": "We still have about 15 minutes before we need to be at our play, and the play is just going to be right over here.",
-        "ipa": "/wiː stɪl hæv əˈbaʊt ˈfɪftiːn ˈmɪnɪts bɪˈfɔːr wiː niːd tuː biː æt ˈaʊər pleɪ, ænd ðə pleɪ ɪz dʒʌst ˈɡoʊɪŋ tuː biː raɪt ˈoʊvər hɪr/",
-        "zh": "距离看戏还有15分钟，剧场就在这附近。",
-        "highlights": [
-          {
-            "text": "right over here",
-            "key": "就在这儿",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "start": 123.94,
-        "end": 128.36,
-        "speaker": "Speaker",
-        "en": "So, are you willing to walk down this way with me and we'll go around the block?",
-        "ipa": "/soʊ, ɑːr juː ˈwɪlɪŋ tuː wɔːk daʊn ðɪs weɪ wɪð miː ænd wiːl ɡoʊ əˈraʊnd ðə blɑːk/",
-        "zh": "那么，你愿意跟我往这边走，绕街区逛一圈吗？",
-        "highlights": [
-          {
-            "text": "go around the block",
-            "key": "绕街区走一圈",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "start": 128.4,
-        "end": 128.74,
-        "speaker": "Speaker",
-        "en": "Okay.",
-        "ipa": "/oʊˈkeɪ/",
-        "zh": "好的。",
-        "highlights": []
-      },
-      {
-        "id": 23,
-        "start": 128.78,
-        "end": 131.66,
-        "speaker": "Speaker",
-        "en": "I love these sycamore trees.",
-        "ipa": "/aɪ lʌv ðiːz ˈsɪkəmɔːr triːz/",
-        "zh": "我喜欢这些悬铃木。",
-        "highlights": [
-          {
-            "text": "sycamore trees",
-            "key": "悬铃木/梧桐树",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "start": 131.7,
-        "end": 132.94,
-        "speaker": "Speaker",
-        "en": "The bark looks so cool.",
-        "ipa": "/ðə bɑːrk lʊks soʊ kuːl/",
-        "zh": "树皮看起来太酷了。",
-        "highlights": [
-          {
-            "text": "bark",
-            "key": "树皮",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "start": 132.98,
-        "end": 134.82,
-        "speaker": "Speaker",
-        "en": "Actually, let's stop for a second.",
-        "ipa": "/ˈæktʃuəli, lɛts stɑːp fɔːr ə ˈsɛkənd/",
-        "zh": "其实，我们停一下。",
-        "highlights": [
-          {
-            "text": "stop for a second",
-            "key": "停一下",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "start": 134.86,
-        "end": 135.86,
-        "speaker": "Speaker",
-        "en": "I got to show you.",
-        "ipa": "/aɪ ɡɑːtə ʃoʊ juː/",
-        "zh": "我得给你看看。",
-        "highlights": [
-          {
-            "text": "got to",
-            "key": "必须/得",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "start": 135.9,
-        "end": 137.39,
-        "speaker": "Speaker",
-        "en": "Look at this.",
-        "ipa": "/lʊk æt ðɪs/",
-        "zh": "看这个。",
-        "highlights": []
-      },
-      {
-        "id": 28,
-        "start": 137.43,
-        "end": 140.22,
-        "speaker": "Speaker",
-        "en": "It looks like a giraffe.",
-        "ipa": "/ɪt lʊks laɪk ə dʒəˈræf/",
-        "zh": "它看起来像只长颈鹿。",
-        "highlights": [
-          {
-            "text": "looks like",
-            "key": "看起来像",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "start": 140.26,
-        "end": 144.18,
-        "speaker": "Speaker",
-        "en": "It looks like someone peeled it off, but that's how it's supposed to be.",
-        "ipa": "/ɪt lʊks laɪk ˈsʌmwʌn piːld ɪt ɔːf, bʌt ðæts haʊ ɪts səˈpoʊzd tuː biː/",
-        "zh": "看起来像是有人把它剥掉了，但它本来就是这样的。",
-        "highlights": [
-          {
-            "text": "supposed to be",
-            "key": "本应如此",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "start": 144.22,
-        "end": 148.04,
-        "speaker": "Speaker",
-        "en": "Our neighbor has one of these trees and they're just so beautiful.",
-        "ipa": "/ˈaʊər ˈneɪbər hæz wʌn əv ðiːz triːz ænd ðeər dʒʌst soʊ ˈbjuːtɪfəl/",
-        "zh": "我们的邻居也有一棵这样的树，它们真的很美。",
-        "highlights": [
-          {
-            "text": "neighbor",
-            "key": "neighbor",
-            "chip": "pink"
-          },
-          {
-            "text": "beautiful",
-            "key": "beautiful",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "start": 148.08,
-        "end": 150.26,
-        "speaker": "Speaker",
-        "en": "All right, let's keep going.",
-        "ipa": "/ɔːl raɪt, lɛts kiːp ˈɡoʊɪŋ/",
-        "zh": "好了，我们继续走吧。",
-        "highlights": [
-          {
-            "text": "keep going",
-            "key": "继续前进",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "start": 150.3,
-        "end": 158.46,
-        "speaker": "Speaker",
-        "en": "If I can complain one more time about American downtowns, this building is built for corporate offices.",
-        "ipa": "/ɪf aɪ kæn kəmˈpleɪn wʌn mɔːr taɪm əˈbaʊt əˈmɛrɪkən ˈdaʊntaʊnz, ðɪs ˈbɪldɪŋ ɪz bɪlt fɔːr ˈkɔːrpərɪt ˈɔːfɪsɪz/",
-        "zh": "如果我能再抱怨一次美国市中心的话，这栋楼就是建来做公司办公室的。",
-        "highlights": [
-          {
-            "text": "complain",
-            "key": "抱怨",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "start": 158.5,
-        "end": 162.08,
-        "speaker": "Speaker",
-        "en": "Biltmore is the biggest house in the US and it's in Asheville.",
-        "ipa": "/ˈbɪltmɔːr ɪz ðə ˈbɪɡəst haʊs ɪn ðə juː ɛs ænd ɪts ɪn ˈæʃvɪl/",
-        "zh": "比尔特莫庄园是美国最大的住宅，它就在阿什维尔。",
-        "highlights": [
-          {
-            "text": "Biltmore",
-            "key": "biltmore",
-            "chip": "pink"
-          },
-          {
-            "text": "Asheville",
-            "key": "asheville",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "start": 162.12,
-        "end": 166.14,
-        "speaker": "Speaker",
-        "en": "It's the biggest tourist attraction in Asheville.",
-        "ipa": "/ɪts ðə ˈbɪɡəst ˈtʊrɪst əˈtrækʃən ɪn ˈæʃvɪl/",
-        "zh": "它是阿什维尔最大的旅游景点。",
-        "highlights": [
-          {
-            "text": "tourist attraction",
-            "key": "旅游景点",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "start": 166.18,
-        "end": 174.38,
-        "speaker": "Speaker",
-        "en": "But I think American downtowns could use a little bit more storefront.",
-        "ipa": "/bʌt aɪ θɪŋk əˈmɛrɪkən ˈdaʊntaʊnz kʊd juːz ə ˈlɪtəl bɪt mɔːr ˈstɔːrfrʌnt/",
-        "zh": "但我认为美国市中心可以多一点店面。",
-        "highlights": [
-          {
-            "text": "could use",
-            "key": "需要/可以用到",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "start": 174.42,
-        "end": 180.42,
-        "speaker": "Speaker",
-        "en": "Yeah, storefront space and this is completely unused.",
-        "ipa": "/jæ, ˈstɔːrfrʌnt speɪs ænd ðɪs ɪz kəmˈpliːtli ˌʌnˈjuːzd/",
-        "zh": "是的，店面空间，而这里完全没被利用起来。",
-        "highlights": [
-          {
-            "text": "unused",
-            "key": "未使用的/闲置的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "start": 180.46,
-        "end": 186.1,
-        "speaker": "Speaker",
-        "en": "It's for offices, you know, this isn't like there could be nice little shops, there could be nice little restaurants.",
-        "ipa": "/ɪts fɔːr ˈɔːfɪsɪz, juː noʊ, ðɪs ˈɪzənt laɪk ðɛr kʊd biː naɪs ˈlɪtəl ʃɑːps, ðɛr kʊd biː naɪs ˈlɪtəl ˈrɛstəˌrɑːnts/",
-        "zh": "这是办公用的，你知道，这里本可以开些不错的小店，或者不错的小餐馆。",
-        "highlights": [
-          {
-            "text": "nice little",
-            "key": "不错的小……",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "start": 186.14,
-        "end": 189.02,
-        "speaker": "Speaker",
-        "en": "I don't know, something.",
-        "ipa": "/aɪ doʊnt noʊ, ˈsʌmθɪŋ/",
-        "zh": "我不知道，总之做点什么都好。",
-        "highlights": []
-      },
-      {
-        "id": 39,
-        "start": 189.06,
-        "end": 192.06,
-        "speaker": "Speaker",
-        "en": "Yeah, so this is prime territory, right?",
-        "ipa": "/jæ, soʊ ðɪs ɪz praɪm ˈtɛrɪtɔːri, raɪt/",
-        "zh": "是啊，这可是黄金地段，对吧？",
-        "highlights": [
-          {
-            "text": "prime territory",
-            "key": "黄金地段/核心区域",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "start": 192.1,
-        "end": 200.39,
-        "speaker": "Speaker",
-        "en": "Prime land to be able to do something with, and the whole half of the downtown square is that.",
-        "ipa": "/praɪm lænd tuː biː ˈeɪbəl tuː duː ˈsʌmθɪŋ wɪð, ænd ðə hoʊl hæf əv ðə ˈdaʊntaʊn skwɛr ɪz ðæt/",
-        "zh": "这是可以开发利用的黄金地块，而市中心广场的一半都是这样。",
-        "highlights": [
-          {
-            "text": "downtown",
-            "key": "downtown",
-            "chip": "orange"
-          },
-          {
-            "text": "square",
-            "key": "square",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "start": 200.43,
-        "end": 206.9,
-        "speaker": "Speaker",
-        "en": "Kind of a bummer, but, you know, I guess you can only get what you can get, right?",
-        "ipa": "/kaɪnd əv ə ˈbʌmər, bʌt, ju noʊ, aɪ ɡɛs ju kæn ˈoʊnli ɡɛt wʌt ju kæn ɡɛt, raɪt?/",
-        "zh": "有点扫兴，但你知道，我想这就是能得到的全部了，对吧？",
-        "highlights": [
-          {
-            "text": "bummer",
-            "key": "bummer",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "start": 206.94,
-        "end": 211.18,
-        "speaker": "Speaker",
-        "en": "Some people might call this a skyscraper.",
-        "ipa": "/sʌm ˈpipəl maɪt kɔl ðɪs ə ˈskaɪˌskreɪpər./",
-        "zh": "有些人可能会把这栋楼称为摩天大楼。",
-        "highlights": [
-          {
-            "text": "skyscraper",
-            "key": "skyscraper",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "start": 211.22,
-        "end": 214.94,
-        "speaker": "Speaker",
-        "en": "Um, Asheville is not known for its skyscrapers.",
-        "ipa": "/ʌm, ˈæʃvɪl ɪz nɑt noʊn fɔr ɪts ˈskaɪˌskreɪpərz./",
-        "zh": "嗯，阿什维尔并不是以摩天大楼而闻名的。",
-        "highlights": [
-          {
-            "text": "known for",
-            "key": "known for",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "start": 214.98,
-        "end": 218.42,
-        "speaker": "Speaker",
-        "en": "There's not many skyscrapers here.",
-        "ipa": "/ðɛrz nɑt ˈmɛni ˈskaɪˌskreɪpərz hir./",
-        "zh": "这里没几栋摩天大楼。",
-        "highlights": [
-          {
-            "text": "skyscrapers",
-            "key": "skyscrapers",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "start": 218.46,
-        "end": 224.18,
-        "speaker": "Speaker",
-        "en": "But, um, I guess this is the tallest or one of the tallest buildings here.",
-        "ipa": "/bʌt, ʌm, aɪ ɡɛs ðɪs ɪz ðə ˈtɔləst ɔr wʌn əv ðə ˈtɔləst ˈbɪldɪŋz hir./",
-        "zh": "不过，嗯，我想这应该是这里最高或者最高的建筑之一了。",
-        "highlights": [
-          {
-            "text": "tallest",
-            "key": "tallest",
-            "chip": "pink"
-          },
-          {
-            "text": "buildings",
-            "key": "buildings",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "start": 224.22,
-        "end": 227.59,
-        "speaker": "Speaker",
-        "en": "Most buildings are... what would you say this is?",
-        "ipa": "/moʊst ˈbɪldɪŋz ɑr... wʌt wʊd ju seɪ ðɪs ɪz?/",
-        "zh": "大多数建筑都是你觉得这栋楼有几层？",
-        "highlights": [
-          {
-            "text": "buildings",
-            "key": "buildings",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "start": 227.63,
-        "end": 229.43,
-        "speaker": "Speaker",
-        "en": "Let's take a look.",
-        "ipa": "/lɛts teɪk ə lʊk. wʌn, tu, θri, fɔr, faɪv ˈstɔriz tɔl?/",
-        "zh": "让我们看看。",
-        "highlights": []
-      },
-      {
-        "id": 48,
-        "start": 229.47,
-        "end": 232.22,
-        "speaker": "Speaker",
-        "en": "1, 2, 3, 4, 5 stories tall?",
-        "ipa": "",
-        "zh": "1、2、3、4、5层楼高？",
-        "highlights": [
-          {
-            "text": "stories",
-            "key": "stories",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 49,
-        "start": 232.26,
-        "end": 237.66,
-        "speaker": "Speaker",
-        "en": "That's pretty common, but I guess there's also a few skyscrapers.",
-        "ipa": "/ðæts ˈprɪti ˈkɑmən, bʌt aɪ ɡɛs ðɛrz ˈɔlsoʊ ə fju ˈskaɪˌskreɪpərz./",
-        "zh": "这很常见，但我猜这里也有几栋摩天大楼。",
-        "highlights": [
-          {
-            "text": "common",
-            "key": "common",
-            "chip": "pink"
-          },
-          {
-            "text": "skyscrapers",
-            "key": "skyscrapers",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 50,
-        "start": 237.7,
-        "end": 243.65,
-        "speaker": "Speaker",
-        "en": "Classic American fire truck.",
-        "ipa": "/ˈklæsɪk əˈmɛrɪkən ˈfaɪər trʌk./",
-        "zh": "经典的美国消防车。",
-        "highlights": [
-          {
-            "text": "Classic",
-            "key": "classic",
-            "chip": "pink"
-          },
-          {
-            "text": "American",
-            "key": "american",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 51,
-        "start": 248.66,
-        "end": 251.94,
-        "speaker": "Speaker",
-        "en": "There's some very nice music being played across the street there.",
-        "ipa": "/ðɛrz sʌm ˈvɛri naɪs ˈmjuzɪk ˈbiɪŋ pleɪd əˈkrɔs ðə strit ðɛr./",
-        "zh": "街对面有人在演奏非常动听的音乐。",
-        "highlights": [
-          {
-            "text": "played",
-            "key": "played",
-            "chip": "orange"
-          },
-          {
-            "text": "across",
-            "key": "across",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 52,
-        "start": 251.98,
-        "end": 256.83,
-        "speaker": "Speaker",
-        "en": "I don't know if you can hear it past all the other noise.",
-        "ipa": "/aɪ doʊnt noʊ ɪf ju kæn hir ɪt pæst ɔl ði ˈʌðər nɔɪz./",
-        "zh": "我不知道在这些嘈杂声中你能不能听见。",
-        "highlights": [
-          {
-            "text": "noise",
-            "key": "noise",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 53,
-        "start": 257.98,
-        "end": 263.63,
-        "speaker": "Speaker",
-        "en": "But it's always nice whenever you see people playing on the side of the street like that; it is called busking.",
-        "ipa": "/bʌt ɪts ˈɔlweɪz naɪs wɛˈnɛvər ju si ˈpipəl ˈpleɪɪŋ ɑn ðə saɪd əv ðə strit laɪk ðæt; ɪt ɪz kɔld ˈbʌskɪŋ./",
-        "zh": "但每当你看到人们像那样在街边演奏时，总是很棒的；这被称为街头卖艺。",
-        "highlights": [
-          {
-            "text": "busking",
-            "key": "busking",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 54,
-        "start": 263.67,
-        "end": 270.07,
-        "speaker": "Speaker",
-        "en": "I am busking, he is busking, and it means you're playing music on the side of the street with like a little cup, trying to get some money.",
-        "ipa": "/aɪ æm ˈbʌskɪŋ, hi ɪz ˈbʌskɪŋ, ænd ɪt minz jʊr ˈpleɪɪŋ ˈmjuzɪk ɑn ðə saɪd əv ðə strit wɪð laɪk ə ˈlɪtəl kʌp, ˈtraɪɪŋ tu ɡɛt sʌm ˈmʌni./",
-        "zh": "我在街头卖艺，他也在街头卖艺，意思就是你在街边演奏音乐，放个小杯子，试图赚点钱。",
-        "highlights": [
-          {
-            "text": "busking",
-            "key": "busking",
-            "chip": "pink"
-          },
-          {
-            "text": "on the side",
-            "key": "on the side",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 55,
-        "start": 270.11,
-        "end": 271.78,
-        "speaker": "Speaker",
-        "en": "And Asheville's known for buskers.",
-        "ipa": "/ænd ˈæʃvɪlz noʊn fɔr ˈbʌskərz./",
-        "zh": "阿什维尔以街头艺人闻名。",
-        "highlights": [
-          {
-            "text": "Asheville",
-            "key": "asheville",
-            "chip": "orange"
-          },
-          {
-            "text": "buskers",
-            "key": "buskers",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 56,
-        "start": 271.82,
-        "end": 273.29,
-        "speaker": "Speaker",
-        "en": "There's a lot of buskers.",
-        "ipa": "/ðɛrz ə lɑt əv ˈbʌskərz./",
-        "zh": "这里有很多街头艺人。",
-        "highlights": [
-          {
-            "text": "a lot of",
-            "key": "a lot of",
-            "chip": "indigo"
-          },
-          {
-            "text": "buskers",
-            "key": "buskers",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 57,
-        "start": 273.33,
-        "end": 278.86,
-        "speaker": "Speaker",
-        "en": "And if you stop and listen to a busker for like a couple minutes, it's nice to drop a dollar in.",
-        "ipa": "/ænd ɪf ju stɑp ænd ˈlɪsən tu ə ˈbʌskər fɔr laɪk ə ˈkʌpəl ˈmɪnəts, ɪts naɪs tu drɑp ə ˈdɑlər ɪn./",
-        "zh": "如果你停下来听街头艺人演奏几分钟，往杯子里放一美元是件好事。",
-        "highlights": [
-          {
-            "text": "drop a dollar in",
-            "key": "drop a dollar in",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 58,
-        "start": 278.9,
-        "end": 282.26,
-        "speaker": "Speaker",
-        "en": "Just, you know, supporting some musicians along the side of the street.",
-        "ipa": "/dʒʌst, ju noʊ, səˈpɔrtɪŋ sʌm mjuˈzɪʃənz əˈlɔŋ ðə saɪd əv ðə strit./",
-        "zh": "就是，你知道，支持一下街边的音乐人。",
-        "highlights": [
-          {
-            "text": "supporting",
-            "key": "supporting",
-            "chip": "orange"
-          },
-          {
-            "text": "musicians",
-            "key": "musicians",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 59,
-        "start": 282.3,
-        "end": 283.73,
-        "speaker": "Speaker",
-        "en": "They usually have to get a permit.",
-        "ipa": "/ðeɪ ˈjuʒəwəli hæv tu ɡɛt ə ˈpɜrmɪt./",
-        "zh": "他们通常需要获得许可证。",
-        "highlights": [
-          {
-            "text": "permit",
-            "key": "permit",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "start": 283.77,
-        "end": 284.84,
-        "speaker": "Speaker",
-        "en": "It's like an official thing.",
-        "ipa": "/ɪts laɪk ən əˈfɪʃəl θɪŋ./",
-        "zh": "这算是一件官方认可的事情。",
-        "highlights": [
-          {
-            "text": "official",
-            "key": "official",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 61,
-        "start": 284.88,
-        "end": 288.38,
-        "speaker": "Speaker",
-        "en": "You can't just sit down on the side of the road and start playing music.",
-        "ipa": "/ju kænt dʒʌst sɪt daʊn ɑn ðə saɪd əv ðə roʊd ænd stɑrt ˈpleɪɪŋ ˈmjuzɪk./",
-        "zh": "你不能随随便便坐在路边就开始演奏音乐。",
-        "highlights": [
-          {
-            "text": "on the side",
-            "key": "on the side",
-            "chip": "pink"
-          },
-          {
-            "text": "playing",
-            "key": "playing",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 62,
-        "start": 288.42,
-        "end": 295.02,
-        "speaker": "Speaker",
-        "en": "So, before you cross the street in a city center, especially a busy place like this, you should push the button if nobody else has.",
-        "ipa": "/soʊ, bɪˈfɔr ju krɔs ðə strit ɪn ə ˈsɪti ˈsɛntər, əˈpɛʃəli ə ˈbɪzi pleɪs laɪk ðɪs, ju ʃʊd pʊʃ ðə ˈbʌtən ɪf ˈnoʊˌbɑdi ɛls hæz./",
-        "zh": "所以，在市中心过马路之前，特别是在像这样繁忙的地方，如果还没人按，你应该按一下按钮。",
-        "highlights": [
-          {
-            "text": "city center",
-            "key": "city center",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "start": 295.06,
-        "end": 299.58,
-        "speaker": "Speaker",
-        "en": "And it will beep, and then it will light up the crosswalk sign.",
-        "ipa": "/ænd ɪt wɪl bip, ænd ðɛn ɪt wɪl laɪt ʌp ðə ˈkrɔsˌwɔk saɪn./",
-        "zh": "它会发出哔哔声，然后人行横道信号灯就会亮起。",
-        "highlights": [
-          {
-            "text": "crosswalk",
-            "key": "crosswalk",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 64,
-        "start": 299.62,
-        "end": 306.74,
-        "speaker": "Speaker",
-        "en": "This is the one place—I know we talked about jaywalking—but this is the one place when you probably shouldn't.",
-        "ipa": "/ðɪs ɪz ðə wʌn pleɪs—aɪ noʊ wi tɔkt əˈbaʊt ˈdʒeɪˌwɔkɪŋ—bʌt ðɪs ɪz ðə wʌn pleɪs wɛn ju ˈprɑbəbli ˈʃʊdənt./",
-        "zh": "这是个例外——我知道我们谈过乱穿马路——但这地方你可能真的不该乱穿。",
-        "highlights": [
-          {
-            "text": "jaywalking",
-            "key": "jaywalking",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 65,
-        "start": 306.78,
-        "end": 312.42,
-        "speaker": "Speaker",
-        "en": "Not that you'll get in trouble, but it's just not safe because there's actually a lot of cars and a lot of people, and I don't want to get hit.",
-        "ipa": "/nɑt ðæt jul ɡɛt ɪn ˈtrʌbəl, bʌt ɪts dʒʌst nɑt seɪf bɪˈkəz ðɛrz ˈæktʃuəli ə lɑt əv karz ænd ə lɑt əv ˈpipəl, ænd aɪ doʊnt wɑnt tu ɡɛt hɪt./",
-        "zh": "倒不是说你会惹上麻烦，只是这不安全，因为车流和人流确实很多，我可不想被撞到。",
-        "highlights": [
-          {
-            "text": "get in trouble",
-            "key": "get in trouble",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "start": 312.46,
-        "end": 317.91,
-        "speaker": "Speaker",
-        "en": "Yeah, I know.",
-        "ipa": "/jæ, aɪ noʊ./",
-        "zh": "是啊，我知道。",
-        "highlights": []
-      },
-      {
-        "id": 67,
-        "start": 318.62,
-        "end": 319.22,
-        "speaker": "Speaker",
-        "en": "I've heard some people say that Asheville is the Paris of the South, like the South of the US.",
-        "ipa": "/aɪv hɜrd sʌm ˈpipəl seɪ ðæt ˈæʃvɪl ɪz ðə ˈpærɪs əv ðə saʊθ, laɪk ðə saʊθ əv ðə ju ɛs./",
-        "zh": "我听过有人说阿什维尔是南方的巴黎，就是美国南部。",
-        "highlights": [
-          {
-            "text": "heard",
-            "key": "heard",
-            "chip": "pink"
-          },
-          {
-            "text": "Asheville",
-            "key": "asheville",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "start": 319.26,
-        "end": 325.74,
-        "speaker": "Speaker",
-        "en": "I don't believe it, but it is nice for a little city center in the South of the US.",
-        "ipa": "/aɪ doʊnt bɪˈliv ɪt, bʌt ɪt ɪz naɪs fɔr ə ˈlɪtəl ˈsɪti ˈsɛntər ɪn ðə saʊθ əv ðə ju ɛs./",
-        "zh": "我不信，但作为美国南部的一个小市中心，它确实不错。",
-        "highlights": [
-          {
-            "text": "believe",
-            "key": "believe",
-            "chip": "orange"
-          },
-          {
-            "text": "center",
-            "key": "center",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 69,
-        "start": 325.78,
-        "end": 334.58,
-        "speaker": "Speaker",
-        "en": "Maybe I'm throwing too much shade on Asheville, as in it's not Paris, but it's a nice place to walk around.",
-        "ipa": "/ˈmeɪbi aɪm ˈθroʊɪŋ tu mʌtʃ ʃeɪd ɑn ˈæʃvɪl, æz ɪn ɪts nɑt ˈpærɪs, bʌt ɪts ə naɪs pleɪs tu wɔk əˈraʊnd./",
-        "zh": "也许我对阿什维尔评价太苛刻了，虽然它不是巴黎，但确实是个适合散步的好地方。",
-        "highlights": [
-          {
-            "text": "throwing too much shade",
-            "key": "throwing shade",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 70,
-        "start": 334.62,
-        "end": 341.02,
-        "speaker": "Speaker",
-        "en": "You can see local shops and hear some buskers, you know, a little bit of culture going on.",
-        "ipa": "/ju kæn si ˈloʊkəl ʃɑps ænd hir sʌm ˈbʌskərz, ju noʊ, ə ˈlɪtəl bɪt əv ˈkʌltʃər ˈɡoʊɪŋ ɑn./",
-        "zh": "你可以逛逛当地商店，听听街头艺人的演奏，你知道，感受一下这里的文化氛围。",
-        "highlights": [
-          {
-            "text": "buskers",
-            "key": "buskers",
-            "chip": "orange"
-          },
-          {
-            "text": "culture",
-            "key": "culture",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 71,
-        "start": 341.06,
-        "end": 349.58,
-        "speaker": "Speaker",
-        "en": "Ah, this coffee shop used to be on the other side of the street and now they're here and they have pastries that are very nice.",
-        "ipa": "/ɑ, ðɪs ˈkɑfi ʃɑp juzd tu bi ɑn ði ˈʌðər saɪd əv ðə strit ænd naʊ ðɛr hir ænd ðeɪ hæv ˈpeɪstriz ðæt ɑr ˈvɛri naɪs./",
-        "zh": "啊，这家咖啡店以前在街对面，现在搬到这儿了，他们的糕点非常棒。",
-        "highlights": [
-          {
-            "text": "pastries",
-            "key": "pastries",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 72,
-        "start": 349.62,
-        "end": 357.74,
-        "speaker": "Speaker",
-        "en": "Dan and I used to go on a date to Old Europe and it is one of the only coffee shops downtown that Dan has not worked for.",
-        "ipa": "/dæn ænd aɪ juzd tu ɡoʊ ɑn ə deɪt tu oʊld ˈjʊrəp ænd ɪt ɪz wʌn əv ði ˈoʊnli ˈkɑfi ʃɑps ˈdaʊnˌtaʊn ðæt dæn hæz nɑt wɜrkt fɔr./",
-        "zh": "丹和我以前常去 Old Europe 约会，这是市中心唯一一家丹没在那儿打过工的咖啡店。",
-        "highlights": [
-          {
-            "text": "coffee",
-            "key": "coffee",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 73,
-        "start": 357.78,
-        "end": 367.06,
-        "speaker": "Speaker",
-        "en": "So, I want to take a little pause for a moment right here.",
-        "ipa": "/soʊ, aɪ wɑnt tu teɪk ə ˈlɪtəl pɔz fɔr ə ˈmoʊmənt raɪt hir./",
-        "zh": "所以，我想在这里稍微停顿一下。",
-        "highlights": [
-          {
-            "text": "take a little pause",
-            "key": "take a pause",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 74,
-        "start": 367.1,
-        "end": 370.14,
-        "speaker": "Speaker",
-        "en": "I want to show you the trash cans.",
-        "ipa": "/aɪ wɑnt tu ʃoʊ ju ðə træʃ kænz./",
-        "zh": "我想给你们看看垃圾桶。",
-        "highlights": [
-          {
-            "text": "trash",
-            "key": "trash",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 75,
-        "start": 370.18,
-        "end": 375.34,
-        "speaker": "Speaker",
-        "en": "This is a lovely moment, guys.",
-        "ipa": "/ðɪs ɪz ə ˈlʌvli ˈmoʊmənt, ɡaɪz./",
-        "zh": "这真是个可爱的瞬间，伙计们。",
-        "highlights": [
-          {
-            "text": "lovely",
-            "key": "lovely",
-            "chip": "orange"
-          },
-          {
-            "text": "moment",
-            "key": "moment",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 76,
-        "start": 375.38,
-        "end": 380.54,
-        "speaker": "Speaker",
-        "en": "So, this is becoming more popular in the US, but you will see recycling and landfill.",
-        "ipa": "/soʊ ðɪs ɪz ˈbɪkʌmɪŋ mɔr ˈpɑpjələr ɪn ðə ju ɛs bʌt ju wɪl si ˈrisɪklɪŋ ənd ˈlændfɪl/",
-        "zh": "所以，这在美国正变得越来越普遍，但你会看到分类回收和垃圾填埋桶。",
-        "highlights": [
-          {
-            "text": "becoming more popular",
-            "key": "becoming more popular",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 77,
-        "start": 380.58,
-        "end": 382.38,
-        "speaker": "Speaker",
-        "en": "Landfill is just trash.",
-        "ipa": "/ˈlændfɪl ɪz dʒʌst træʃ/",
-        "zh": "垃圾填埋桶就是装普通垃圾的。",
-        "highlights": [
-          {
-            "text": "Landfill",
-            "key": "Landfill",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 78,
-        "start": 382.42,
-        "end": 385.87,
-        "speaker": "Speaker",
-        "en": "Um, you can see it even says on the side landfill, recycling.",
-        "ipa": "/ʌm ju kən si ɪt ˈivən sɛz ɑn ðə saɪd ˈlændfɪl ˈrisɪklɪŋ/",
-        "zh": "嗯，你可以看到上面侧面甚至写着‘垃圾填埋’和‘回收’。",
-        "highlights": [
-          {
-            "text": "recycling",
-            "key": "recycling",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 79,
-        "start": 385.91,
-        "end": 392.4,
-        "speaker": "Speaker",
-        "en": "In the US, recycling is anything that you could possibly ever recycle, you put in there.",
-        "ipa": "/ɪn ðə ju ɛs ˈrisɪklɪŋ ɪz ˈɛniˌθɪŋ ðæt ju kʊd ˈpɑsəbli ˈɛvər ˈrisɪkl ju pʊt ɪn ðɛr/",
-        "zh": "在美国，回收箱就是只要你觉得可能可以回收的东西，全往里面扔。",
-        "highlights": [
-          {
-            "text": "anything that",
-            "key": "anything that",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 80,
-        "start": 392.44,
-        "end": 398.94,
-        "speaker": "Speaker",
-        "en": "You don't separate it, you just throw all your plastic and glass and paper in the same bin.",
-        "ipa": "/ju doʊnt ˈsɛpəˌreɪt ɪt ju dʒʌst θroʊ ɔl jʊər ˈplæstɪk ənd glæs ənd ˈpeɪpər ɪn ðə seɪm bɪn/",
-        "zh": "你不需要分类，直接把所有的塑料、玻璃和纸张扔进同一个垃圾桶里。",
-        "highlights": [
-          {
-            "text": "separate",
-            "key": "separate",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 81,
-        "start": 398.98,
-        "end": 402.49,
-        "speaker": "Speaker",
-        "en": "Does it actually get recycled really efficiently?",
-        "ipa": "/dʌz ɪt ˈæktʃuəli gɛt ˈrisɪkəld ˈrɪli ɪˈfɪʃəntli/",
-        "zh": "它真的能被高效地回收利用吗？",
-        "highlights": [
-          {
-            "text": "efficiently",
-            "key": "efficiently",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 82,
-        "start": 402.53,
-        "end": 404.22,
-        "speaker": "Speaker",
-        "en": "I don't know.",
-        "ipa": "/aɪ doʊnt noʊ/",
-        "zh": "我不知道。",
-        "highlights": []
-      },
-      {
-        "id": 83,
-        "start": 404.26,
-        "end": 405.41,
-        "speaker": "Speaker",
-        "en": "But, there is an option.",
-        "ipa": "/bʌt ðɛr ɪz ən ˈɑpʃən/",
-        "zh": "不过，总归有这么个选择。",
-        "highlights": [
-          {
-            "text": "option",
-            "key": "option",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 84,
-        "start": 405.45,
-        "end": 414.05,
-        "speaker": "Speaker",
-        "en": "So, as you're walking along the side of the street, you can throw your trash in the recycling or the landfill.",
-        "ipa": "/soʊ æz jʊr ˈwɔkɪŋ əˈlɔŋ ðə saɪd ʌv ðə strit ju kən θroʊ jʊər træʃ ɪn ðə ˈrisɪklɪŋ ɔr ðə ˈlændfɪl/",
-        "zh": "所以，当你走在街边时，你可以把垃圾扔进回收桶或垃圾填埋桶里。",
-        "highlights": [
-          {
-            "text": "walking along",
-            "key": "walking along",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 85,
-        "start": 414.09,
-        "end": 422.82,
-        "speaker": "Speaker",
-        "en": "All right, let's keep going because it is almost time to go to our play and I don't want to be late.",
-        "ipa": "/ɔl raɪt lɛts kip ˈgoʊɪŋ bɪˈkʌz ɪt ɪz ˈɔlmoʊst taɪm tu goʊ tu ˈaʊər pleɪ ənd aɪ doʊnt wɑnt tu bi leɪt/",
-        "zh": "好了，我们继续走吧，因为快到时间去看话剧了，我可不想迟到。",
-        "highlights": [
-          {
-            "text": "keep going",
-            "key": "keep going",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 86,
-        "start": 422.86,
-        "end": 431.77,
-        "speaker": "Speaker",
-        "en": "So, this place, the Mellow Mushroom, is a really popular pizza restaurant in Asheville.",
-        "ipa": "/soʊ ðɪs pleɪs ðə ˈmɛloʊ ˈmʌʃˌrum ɪz ə ˈrɪli ˈpɑpjələr ˈpitsə ˈrɛstəˌrɑnt ɪn ˈæʃvɪl/",
-        "zh": "所以这个地方——Mellow Mushroom，是阿什维尔一家非常受欢迎的比萨餐厅。",
-        "highlights": [
-          {
-            "text": "popular",
-            "key": "popular",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 87,
-        "start": 431.81,
-        "end": 432.44,
-        "speaker": "Speaker",
-        "en": "Excuse me.",
-        "ipa": "/ɪkˈskjuz mi/",
-        "zh": "打扰一下。",
-        "highlights": [
-          {
-            "text": "Excuse me",
-            "key": "excuse me",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 88,
-        "start": 432.48,
-        "end": 435.14,
-        "speaker": "Speaker",
-        "en": "A popular pizza restaurant in Asheville.",
-        "ipa": "/ə ˈpɑpjələr ˈpitsə ˈrɛstəˌrɑnt ɪn ˈæʃvɪl/",
-        "zh": "阿什维尔一家很受欢迎的比萨餐厅。",
-        "highlights": [
-          {
-            "text": "restaurant",
-            "key": "restaurant",
-            "chip": "orange"
-          },
-          {
-            "text": "Asheville",
-            "key": "asheville",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 89,
-        "start": 435.18,
-        "end": 436.74,
-        "speaker": "Speaker",
-        "en": "And this is the original location.",
-        "ipa": "/ænd ðɪs ɪz ði əˈrɪdʒənəl loʊˈkeɪʃən/",
-        "zh": "而且这是他们的总店（最初的店面）。",
-        "highlights": [
-          {
-            "text": "original location",
-            "key": "original location",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 90,
-        "start": 436.78,
-        "end": 440.52,
-        "speaker": "Speaker",
-        "en": "You'll see them in a couple different towns, too, but they have an interesting vibe.",
-        "ipa": "/jul si ðɛm ɪn ə ˈkʌpəl ˈdɪfərənt taʊnz tu bʌt ðeɪ hæv ən ˈɪntrəstɪŋ vaɪb/",
-        "zh": "你在其他几个不同的城镇也能看到它们，但它们有一种有趣的氛围。",
-        "highlights": [
-          {
-            "text": "a couple different",
-            "key": "a couple different",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 91,
-        "start": 440.56,
-        "end": 448.66,
-        "speaker": "Speaker",
-        "en": "It's not necessarily like the world's greatest pizza, but it's a popular spot and they have a fun Asheville vibe, I would say.",
-        "ipa": "/ɪts nɑt ˈnɛsəˌsɛrəli laɪk ðə wɜrldz ˈgreɪtəst ˈpitsə bʌt ɪts ə ˈpɑpjələr spɑt ənd ðeɪ hæv ə fʌn ˈæʃvɪl vaɪb aɪ wʊd seɪ/",
-        "zh": "倒不一定是世界上最好吃的比萨，但它是一个热门去处，而且我得说，这里有着有趣的阿什维尔风情。",
-        "highlights": [
-          {
-            "text": "not necessarily",
-            "key": "not necessarily",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 92,
-        "start": 448.7,
-        "end": 455.58,
-        "speaker": "Speaker",
-        "en": "Bowling balls stuck in the wall, you know, lots of colors, fun statues.",
-        "ipa": "/ˈboʊlɪŋ bɔlz stʌk ɪn ðə wɔl ju noʊ lɑts ʌv ˈkʌlərz fʌn ˈstætʃuz/",
-        "zh": "保龄球卡在墙里，你知道的，有很多色彩、有趣的雕塑。",
-        "highlights": [
-          {
-            "text": "lots of",
-            "key": "lots of",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 93,
-        "start": 455.62,
-        "end": 458.63,
-        "speaker": "Speaker",
-        "en": "And let's continue and finish our tour in just a minute.",
-        "ipa": "/ænd lɛts kənˈtɪnyu ənd ˈfɪnɪʃ ˈaʊər tʊr ɪn dʒʌst ə ˈmɪnɪt/",
-        "zh": "我们继续，一会儿就结束我们的游览。",
-        "highlights": [
-          {
-            "text": "in just a minute",
-            "key": "in just a minute",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 94,
-        "start": 458.67,
-        "end": 463.22,
-        "speaker": "Speaker",
-        "en": "We're about to get to the theater.",
-        "ipa": "/wɪr əˈbaʊt tu gɛt tu ðə ˈθiətər/",
-        "zh": "我们快要到剧院了。",
-        "highlights": [
-          {
-            "text": "about to",
-            "key": "about to",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 95,
-        "start": 463.72,
-        "end": 463.98,
-        "speaker": "Speaker",
-        "en": "Bye.",
-        "ipa": "/baɪ/",
-        "zh": "再见。",
-        "highlights": [
-          {
-            "text": "Bye",
-            "key": "Bye",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 96,
-        "start": 464.02,
-        "end": 465.47,
-        "speaker": "Speaker",
-        "en": "But wait, do you want more?",
-        "ipa": "/bʌt weɪt, duː juː wʌnt mɔːr/",
-        "zh": "但是等等，你们还想看更多吗？",
-        "highlights": [
-          {
-            "text": "wait",
-            "key": "wait",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 97,
-        "start": 465.51,
-        "end": 482.28,
-        "speaker": "Speaker",
-        "en": "I recommend watching this video next where you will go into a real English American coffee shop and you will learn how to order coffee in English plus some little tips and tricks if you're not quite a coffee person like I am.",
-        "ipa": "/aɪ ˌrɛkəˈmɛnd ˈwɑːtʃɪŋ ðɪs ˈvɪdiˌoʊ nɛkst wɛr juː wɪl goʊ ˈɪntuː ə riːəl ˈɪŋɡlɪʃ əˈmɛrɪkən ˈkɑːfi ʃɑːp ænd juː wɪl lɜːrn haʊ tuː ˈɔːrdər ˈkɑːfi ɪn ˈɪŋɡlɪʃ plʌs sʌm ˈlɪtəl tɪps ænd trɪks ɪf jʊər nɑːt kwaɪt ə ˈkɑːfi ˈpɜːrsən laɪk aɪ æm/",
-        "zh": "我建议接下来观看这个视频，你将走进一家地道的美国咖啡店，学习如何用英语点咖啡，如果你不像我一样那么喜欢喝咖啡的话，还能学到一些小技巧。",
-        "highlights": [
-          {
-            "text": "coffee shop",
-            "key": "coffee shop",
-            "chip": "indigo"
-          },
-          {
-            "text": "tips and tricks",
-            "key": "tips and tricks",
-            "chip": "pink"
-          },
-          {
-            "text": "coffee person",
-            "key": "coffee person",
-            "chip": "pink"
           }
         ]
       }

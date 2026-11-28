@@ -33,28 +33,6 @@
   ],
   "entries": [
     {
-      "sourceNumber": "EP 05",
-      "sourceTitle": "Real Life ENGLISH Around the City",
-      "part": "part2",
-      "title": "漫步美国市中心：街头艺人 Busking 与复古咖啡馆",
-      "videoFile": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆).trimmed.mp4",
-      "audioFile": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆).trimmed.m4a",
-      "coverFile": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆).jpg",
-      "polishedFile": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆).polished.json",
-      "durationSec": 483.68,
-      "windows": [
-        [
-          1243.13,
-          1706.6
-        ],
-        [
-          1852.18,
-          1872.39
-        ]
-      ],
-      "date": "2026/11/26"
-    },
-    {
       "sourceNumber": "EP 18",
       "sourceTitle": "Religious Vocabulary in English",
       "part": "part1",
@@ -1367,6 +1345,86 @@
         [
           230.05,
           286.6
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 02",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "downtown_micro1",
+      "title": "阿什维尔市中心：Art Deco 建筑与砖砌人行道",
+      "speakerOverride": "Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "阿什维尔市中心：Art Deco 建筑与砖砌人行道.micro.mp4",
+      "audioFile": "阿什维尔市中心：Art Deco 建筑与砖砌人行道.micro.m4a",
+      "coverFile": "阿什维尔市中心：Art Deco 建筑与砖砌人行道.jpg",
+      "polishedFile": "阿什维尔市中心：Art Deco 建筑与砖砌人行道.polished.json",
+      "durationSec": 70.06,
+      "windows": [
+        [
+          37.81,
+          107.87
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 02",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "downtown_micro2",
+      "title": "美国市中心的写字楼：空置店面与小高楼",
+      "speakerOverride": "Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "美国市中心的写字楼：空置店面与小高楼.micro.mp4",
+      "audioFile": "美国市中心的写字楼：空置店面与小高楼.micro.m4a",
+      "coverFile": "美国市中心的写字楼：空置店面与小高楼.jpg",
+      "polishedFile": "美国市中心的写字楼：空置店面与小高楼.polished.json",
+      "durationSec": 87.76,
+      "windows": [
+        [
+          150.1,
+          237.86
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 02",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "downtown_micro3",
+      "title": "街头艺人 Busking：路边演奏、打赏与市中心过马路",
+      "speakerOverride": "Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "街头艺人 Busking：路边演奏、打赏与市中心过马路.micro.mp4",
+      "audioFile": "街头艺人 Busking：路边演奏、打赏与市中心过马路.micro.m4a",
+      "coverFile": "街头艺人 Busking：路边演奏、打赏与市中心过马路.jpg",
+      "polishedFile": "街头艺人 Busking：路边演奏、打赏与市中心过马路.polished.json",
+      "durationSec": 64.16,
+      "windows": [
+        [
+          248.46,
+          312.62
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 02",
+      "sourceTitle": "Real Life ENGLISH Around the City",
+      "part": "downtown_micro4",
+      "title": "美国街头垃圾桶：Recycling 和 Landfill 怎么分",
+      "speakerOverride": "Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "美国街头垃圾桶：Recycling 和 Landfill 怎么分.micro.mp4",
+      "audioFile": "美国街头垃圾桶：Recycling 和 Landfill 怎么分.micro.m4a",
+      "coverFile": "美国街头垃圾桶：Recycling 和 Landfill 怎么分.jpg",
+      "polishedFile": "美国街头垃圾桶：Recycling 和 Landfill 怎么分.polished.json",
+      "durationSec": 47.35,
+      "windows": [
+        [
+          366.9,
+          414.25
         ]
       ]
     }
