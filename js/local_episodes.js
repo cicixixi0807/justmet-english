@@ -1,21 +1,21 @@
 // 本文件由 scripts/sync_episodes.py 自动生成，请勿手工修改
 export const LOCAL_EPISODES = [
   {
-    "id": "local-73-alone-in-new-york-but-not-lonely-part2",
-    "number": "EP 73",
-    "title": "alone in new york (but not lonely) (Part 2)",
-    "speaker": "YouTube 博主",
+    "id": "local-71-trimmed-71-part2",
+    "number": "EP 71",
+    "title": "纽约暴走与贝果探店：一个人的大城市治愈时光",
+    "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
+    "difficulty": 5,
     "durationSec": 322,
     "durationLabel": "05:22",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%202%29.trimmed.m4a",
@@ -1972,26 +1972,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-72-alone-in-new-york-but-not-lonely-part1",
-    "number": "EP 72",
-    "title": "alone in new york (but not lonely) (Part 1)",
-    "speaker": "YouTube 博主",
+    "id": "local-70-trimmed-70-part1",
+    "number": "EP 70",
+    "title": "独自在纽约的清晨：打卡运动课与城市日常",
+    "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
+    "difficulty": 3,
     "durationSec": 282,
     "durationLabel": "04:42",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "生活英语",
-      "日常对话"
+      "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/alone%20in%20new%20york%20%28but%20not%20lonely%29%20%28Part%201%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "生活英语",
+    "sceneBadge": "生活",
     "skipRanges": [
       [
         5.45,
@@ -2032,9 +2031,9 @@ export const LOCAL_EPISODES = [
         "start": 12.97,
         "end": 18.42,
         "speaker": "Speaker",
-        "en": "It's said.",
+        "en": "It's Sid.",
         "ipa": "/ɪts sɛd/",
-        "zh": "据说",
+        "zh": "我是 Sid。",
         "highlights": [
           {
             "text": "It's said",
@@ -3195,5288 +3194,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-71-How-to-Start-Any-Conversation-th-part2",
-    "number": "EP 71",
-    "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 2)",
-    "speaker": "Chris Fenning · TED",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 4,
-    "durationSec": 309,
-    "durationLabel": "05:09",
-    "date": "2026/11/28",
-    "tags": [
-      "个人成长",
-      "日常对话"
-    ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
-    "coverImage": "./content/episodes/trimmed/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED%20%28Part%202%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED%20%28Part%202%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED%20%28Part%202%29.trimmed.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "个人成长",
-    "skipRanges": [
-      [
-        7.77,
-        8.57
-      ],
-      [
-        12.35,
-        13.69
-      ],
-      [
-        24.47,
-        24.99
-      ],
-      [
-        33.77,
-        34.71
-      ],
-      [
-        39.05,
-        39.65
-      ],
-      [
-        59.91,
-        61.47
-      ],
-      [
-        69.09,
-        69.77
-      ],
-      [
-        88.75,
-        89.33
-      ],
-      [
-        93.89,
-        94.63
-      ],
-      [
-        99.71,
-        100.81
-      ],
-      [
-        109.73,
-        111.25
-      ],
-      [
-        128.51,
-        129.09
-      ],
-      [
-        143.01,
-        144.23
-      ],
-      [
-        172.81,
-        173.73
-      ],
-      [
-        189.27,
-        190.71
-      ],
-      [
-        197.09,
-        198.07
-      ],
-      [
-        215.51,
-        216.27
-      ],
-      [
-        234.05,
-        235.89
-      ],
-      [
-        252.13,
-        252.85
-      ],
-      [
-        254.31,
-        254.99
-      ],
-      [
-        261.05,
-        261.87
-      ],
-      [
-        266.43,
-        267.17
-      ],
-      [
-        278.63,
-        279.33
-      ],
-      [
-        285.71,
-        286.99
-      ],
-      [
-        290.39,
-        291.95
-      ],
-      [
-        300.23,
-        301.57
-      ],
-      [
-        306.47,
-        307.53
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.25,
-        "end": 2.65,
-        "speaker": "Speaker",
-        "en": "Now that is something we want to avoid at work.",
-        "ipa": "/naʊ ðæt ɪz ˈsʌmθɪŋ wiː wɒnt tuː əˈvɔɪd ət wɜːrk./",
-        "zh": "这正是我们在工作中想要避免的情况。",
-        "highlights": [
-          {
-            "text": "avoid",
-            "key": "avoid",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 2.69,
-        "end": 7.77,
-        "speaker": "Speaker",
-        "en": "But there is another, and perhaps more important reason to make your intent clear.",
-        "ipa": "/bʌt ðɛər ɪz əˈnʌðər, ənd pərˈhæps mɔːr ɪmˈpɔːrtənt ˈriːzən tuː meɪk jʊər ɪnˈtɛnt klɪər./",
-        "zh": "但还有一个或许更重要的原因，那就是要让你的意图明确。",
-        "highlights": [
-          {
-            "text": "intent",
-            "key": "intent",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 8.57,
-        "end": 12.35,
-        "speaker": "Speaker",
-        "en": "You want to avoid frustrating the people you're talking to.",
-        "ipa": "/juː wɒnt tuː əˈvɔɪd ˈfrʌstreɪtɪŋ ðə ˈpiːpəl jʊər ˈtɔːkɪŋ tuː./",
-        "zh": "你希望避免让跟你对话的人感到沮丧或挫败。",
-        "highlights": [
-          {
-            "text": "frustrating",
-            "key": "frustrate",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 13.69,
-        "end": 24.47,
-        "speaker": "Speaker",
-        "en": "I'd had a particularly bad day, and I walked into my colleague Tina's office, and I sat down with my head in my hands, and I told her how I'd messed up on an important call with a senior leader.",
-        "ipa": "/aɪd hæd ə pərˈtɪkjələrli bæd deɪ, ənd aɪ wɔːkt ˈɪntuː maɪ ˈkɑːliːɡ ˈtiːnəz ˈɔːfɪs, ənd aɪ sæt daʊn wɪð maɪ hɛd ɪn maɪ hændz, ənd aɪ toʊld hɜːr haʊ aɪd mɛst ʌp ɒn ən ɪmˈpɔːrtənt kɔːl wɪð ə ˈsiːniər ˈliːdər./",
-        "zh": "那天的我过得特别糟糕，我走进同事蒂娜（Tina）的办公室，双手抱头坐了下来，我告诉她我是怎么在一个与高管的重要电话沟通中把事情搞砸的。",
-        "highlights": [
-          {
-            "text": "particularly",
-            "key": "particularly",
-            "chip": "orange"
-          },
-          {
-            "text": "messed up",
-            "key": "mess up",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 24.99,
-        "end": 31.49,
-        "speaker": "Speaker",
-        "en": "And when I finished talking, Tina very, very helpfully said, \"Oh, why don't you try this and maybe we can avoid this next time.\"",
-        "ipa": "/ənd wɛn aɪ ˈfɪnɪʃt ˈtɔːkɪŋ, ˈtiːnə ˈvɛri, ˈvɛri ˈhɛlpfəli sɛd, 'oʊ, waɪ doʊnt juː traɪ ðɪs ənd ˈmeɪbiː wiː kæn əˈvɔɪd ðɪs nɛkst taɪm.'/",
-        "zh": "等我说完后，蒂娜非常、非常热心地说：“噢，你为什么不试试这个呢，也许下次我们就能避免这种情况了。”",
-        "highlights": [
-          {
-            "text": "why don't you",
-            "key": "why don't you",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 31.53,
-        "end": 33.77,
-        "speaker": "Speaker",
-        "en": "And she was giving me all sorts of advice.",
-        "ipa": "/ənd ʃiː wɒz ˈɡɪvɪŋ miː ɔːl sɔːrts ʌv ədˈvaɪs./",
-        "zh": "接着她开始给我出谋划策，给出了各种各样的建议。",
-        "highlights": [
-          {
-            "text": "all sorts of",
-            "key": "all sorts of",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 34.71,
-        "end": 39.05,
-        "speaker": "Speaker",
-        "en": "The more she spoke, the more frustrated I became.",
-        "ipa": "/ðə mɔːr ʃiː spoʊk, ðə mɔːr ˈfrʌstreɪtɪd aɪ bɪˈkeɪm./",
-        "zh": "她讲得越多，我心里就越觉得沮丧。",
-        "highlights": [
-          {
-            "text": "frustrated",
-            "key": "frustrated",
-            "chip": "orange"
-          },
-          {
-            "text": "became",
-            "key": "became",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 39.65,
-        "end": 41.13,
-        "speaker": "Speaker",
-        "en": "I didn't want her help.",
-        "ipa": "/aɪ ˈdɪdnt wɒnt hɜːr hɛlp./",
-        "zh": "我根本不需要她的帮助。",
-        "highlights": [
-          {
-            "text": "help",
-            "key": "help",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 41.53,
-        "end": 46.91,
-        "speaker": "Speaker",
-        "en": "And that must have been quite obvious because she just put up her hands and said, \"You clearly don't want my help.",
-        "ipa": "/ənd ðæt mʌst həv biːn kwaɪt ˈɑːbviəs bɪˈkʌz ʃiː dʒʌst pʊt ʌp hɜːr hændz ənd sɛd, 'juː ˈklɪrli doʊnt wɒnt maɪ hɛlp./",
-        "zh": "这当时肯定相当明显，因为她直接举起双手说：“你显然不想要我的帮助。”",
-        "highlights": [
-          {
-            "text": "obvious",
-            "key": "obvious",
-            "chip": "orange"
-          },
-          {
-            "text": "clearly",
-            "key": "clearly",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 46.95,
-        "end": 48.41,
-        "speaker": "Speaker",
-        "en": "So why are you here?\"",
-        "ipa": "/soʊ waɪ ɑː juː hɪər?'/",
-        "zh": "“那你来这儿干嘛？”",
-        "highlights": []
-      },
-      {
-        "id": 11,
-        "start": 48.45,
-        "end": 49.97,
-        "speaker": "Speaker",
-        "en": "I said, \"Tina, I'm really sorry.",
-        "ipa": "/aɪ sɛd, 'ˈtiːnə, aɪm ˈrɪəli ˈsɑːri./",
-        "zh": "我说：“蒂娜，我真的很抱歉。”",
-        "highlights": [
-          {
-            "text": "really sorry",
-            "key": "really sorry",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 50.01,
-        "end": 51.83,
-        "speaker": "Speaker",
-        "en": "I just want to get this off my chest.",
-        "ipa": "/aɪ dʒʌst wɒnt tuː ɡɛt ðɪs ɔːf maɪ tʃɛst./",
-        "zh": "我只是想把胸口这股闷气倒出来/一吐为快。",
-        "highlights": [
-          {
-            "text": "get this off my chest",
-            "key": "get something off one's chest",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 51.87,
-        "end": 54.05,
-        "speaker": "Speaker",
-        "en": "Can I just talk for a minute?\"",
-        "ipa": "/kæn aɪ dʒʌst tɔːk fɔːr ə ˈmɪnɪt?'/",
-        "zh": "“能让我自言自语/倾诉一分钟吗？”",
-        "highlights": [
-          {
-            "text": "for a minute",
-            "key": "for a minute",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 54.09,
-        "end": 59.91,
-        "speaker": "Speaker",
-        "en": "And like a mother talking to a small child, she rolled her eyes and said, \"Well, why didn't you start with that?\"",
-        "ipa": "/ənd laɪk ə ˈmʌðər ˈtɔːkɪŋ tuː ə smɔːl tʃaɪld, ʃiː roʊld hɜːr aɪz ənd sɛd, 'wɛl, waɪ ˈdɪdnt juː stɑːrt wɪð ðæt?'/",
-        "zh": "就像母亲对小孩子说话那样，她翻了个白眼说：“好吧，那你怎么不早说呢？”",
-        "highlights": [
-          {
-            "text": "rolled her eyes",
-            "key": "roll one's eyes",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 61.47,
-        "end": 65.79,
-        "speaker": "Speaker",
-        "en": "We need to tell our audience what to do with the information we're giving them.",
-        "ipa": "/wiː niːd tuː tɛl ˈɔːdiəns wʌt tuː duː wɪð ðə ˌɪnfərˈmeɪʃən wɪər ˈɡɪvɪŋ ðɛm./",
-        "zh": "我们需要告诉受众，该如何处理我们提供给他们的信息。",
-        "highlights": [
-          {
-            "text": "audience",
-            "key": "audience",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 65.83,
-        "end": 69.09,
-        "speaker": "Speaker",
-        "en": "Tina was working hard from the moment I started talking.",
-        "ipa": "/ˈtiːnə wɒz ˈwɜːrkɪŋ hɑːrd frʌm ðə ˈmoʊmənt aɪ ˈstɑːrtɪd ˈtɔːkɪŋ./",
-        "zh": "从我开始说话的那一刻起，蒂娜就在努力帮我想办法。",
-        "highlights": [
-          {
-            "text": "working hard",
-            "key": "work hard",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "start": 69.77,
-        "end": 73.91,
-        "speaker": "Speaker",
-        "en": "And all the way through, she was working hard to help me and I didn't want or need that.",
-        "ipa": "/ənd ɔːl ðə weɪ θruː, ʃiː wɒz ˈwɜːrkɪŋ hɑːrd tuː hɛlp miː ənd aɪ ˈdɪdnt wɒnt ɔːr niːd ðæt./",
-        "zh": "而且自始至终，她都在努力帮我，而我其实并不想要也不需要这种帮助。",
-        "highlights": [
-          {
-            "text": "all the way through",
-            "key": "all the way through",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 73.95,
-        "end": 76.13,
-        "speaker": "Speaker",
-        "en": "She was annoyed and rightly so.",
-        "ipa": "/ʃiː wɒz əˈnɔɪd ənd ˈraɪtli soʊ./",
-        "zh": "她生气了，而且生得很合情合理。",
-        "highlights": [
-          {
-            "text": "annoyed",
-            "key": "annoyed",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "start": 76.47,
-        "end": 81.41,
-        "speaker": "Speaker",
-        "en": "So when you start your message, after you've given a clear topic, tell your audience what to do with it.",
-        "ipa": "/soʊ wɛn juː stɑːrt jʊər ˈmɛsɪdʒ, ˈæftər juːv ˈɡɪvɪn ə klɪər ˈtɑːpɪk, tɛl jʊər ˈɔːdiəns wʌt tuː duː wɪð ɪt./",
-        "zh": "所以，当你开始传达信息时，在给出明确的主题之后，要告诉受众如何处理它。",
-        "highlights": [
-          {
-            "text": "topic",
-            "key": "topic",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "start": 81.45,
-        "end": 83.69,
-        "speaker": "Speaker",
-        "en": "And again, you can do this with one line.",
-        "ipa": "/ənd əˈɡɛn, juː kæn duː ðɪs wɪð wʌn laɪn./",
-        "zh": "再说一次，你只需用一句话就能做到这一点。",
-        "highlights": [
-          {
-            "text": "one line",
-            "key": "one line",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "start": 83.73,
-        "end": 85.19,
-        "speaker": "Speaker",
-        "en": "Make your intent clear.",
-        "ipa": "/meɪk jʊər ɪnˈtɛnt klɪər./",
-        "zh": "让你的意图保持清晰明了。",
-        "highlights": [
-          {
-            "text": "intent",
-            "key": "intent",
-            "chip": "orange"
-          },
-          {
-            "text": "clear",
-            "key": "clear",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "start": 85.23,
-        "end": 88.75,
-        "speaker": "Speaker",
-        "en": "If you have a question, say, \"Can I ask you a question?\"",
-        "ipa": "/ɪf juː hæv ə ˈkwɛstʃən, seɪ, 'kæn aɪ ɑːsk juː ə ˈkwɛstʃən?'/",
-        "zh": "如果你有问题，就说：“我能问你个问题吗？”",
-        "highlights": [
-          {
-            "text": "question",
-            "key": "question",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "start": 89.33,
-        "end": 93.89,
-        "speaker": "Speaker",
-        "en": "If you want someone to make a decision, say, \"I'd like your help with this decision.\"",
-        "ipa": "/ɪf juː wɒnt ˈsʌmwʌn tuː meɪk ə dɪˈsɪʒən, seɪ, 'aɪd laɪk jʊər hɛlp wɪð ðɪs dɪˈsɪʒən.'/",
-        "zh": "如果你想让某人做决定，就说：“我希望你能帮我做这个决定。”",
-        "highlights": [
-          {
-            "text": "make a decision",
-            "key": "make a decision",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "start": 94.63,
-        "end": 99.71,
-        "speaker": "Speaker",
-        "en": "If you want to get something off your chest, just say, \"Is it OK if I vent for a minute?\"",
-        "ipa": "/ɪf juː wɒnt tuː ɡɛt ˈsʌmθɪŋ ɔːf jʊər tʃɛst, dʒʌst seɪ, 'ɪz ɪt oʊˈkeɪ ɪf aɪ vɛnt fɔːr ə ˈmɪnɪt?'/",
-        "zh": "如果你想倾诉心事，就直说：“我发泄/吐槽一分钟可以吗？”",
-        "highlights": [
-          {
-            "text": "vent",
-            "key": "vent",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "start": 100.81,
-        "end": 108.09,
-        "speaker": "Speaker",
-        "en": "If you tell your audience what to do with your message, not only will their brains pay more attention, you will avoid frustrating them.",
-        "ipa": "/ɪf juː tɛl jʊər ˈɔːdiəns wʌt tuː duː wɪð jʊər ˈmɛsɪdʒ, nɑːt ˈoʊnli wɪl ðɛər breɪnz peɪ mɔːr əˈtɛnʃən, juː wɪl əˈvɔɪd ˈfrʌstreɪtɪŋ ðɛm./",
-        "zh": "如果你告诉受众如何处理你的信息，不仅他们的大脑会更加专注，你也能避免让他们感到受挫或沮丧。",
-        "highlights": [
-          {
-            "text": "attention",
-            "key": "attention",
-            "chip": "pink"
-          },
-          {
-            "text": "frustrating",
-            "key": "frustrating",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "start": 108.49,
-        "end": 109.73,
-        "speaker": "Speaker",
-        "en": "That's kind of useful.",
-        "ipa": "/ðæts kaɪnd ʌv ˈjuːsfʊl./",
-        "zh": "这还蛮有用的。",
-        "highlights": [
-          {
-            "text": "kind of",
-            "key": "kind of",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "start": 111.25,
-        "end": 113.05,
-        "speaker": "Speaker",
-        "en": "So we've made our topic clear.",
-        "ipa": "/soʊ wɪv meɪd ɑːr ˈtɑːpɪk klɪər./",
-        "zh": "所以，我们已经把主题讲清楚了。",
-        "highlights": [
-          {
-            "text": "topic",
-            "key": "topic",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "start": 113.45,
-        "end": 116.15,
-        "speaker": "Speaker",
-        "en": "We've told our audience what we intend for them to do.",
-        "ipa": "/wɪv toʊld ɑːr ˈɔːdiəns wʌt wiː ɪnˈtɛnd fɔːr ðɛm tuː duː./",
-        "zh": "我们也已经告诉了受众我们希望他们做什么。",
-        "highlights": [
-          {
-            "text": "intend",
-            "key": "intend",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "start": 116.19,
-        "end": 118.29,
-        "speaker": "Speaker",
-        "en": "It's time to get down into the detail, right?",
-        "ipa": "/ɪts taɪm tuː ɡɛt daʊn ˈɪntuː ðə ˈdiːteɪl, raɪt?/",
-        "zh": "接下来是时候深入细节了吧？",
-        "highlights": [
-          {
-            "text": "get down into",
-            "key": "get down into",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "start": 118.33,
-        "end": 119.77,
-        "speaker": "Speaker",
-        "en": "Get into the message.",
-        "ipa": "/ɡɛt ˈɪntuː ðə ˈmɛsɪdʒ./",
-        "zh": "进入正题。",
-        "highlights": [
-          {
-            "text": "Get into",
-            "key": "get into",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "start": 120.17,
-        "end": 121.41,
-        "speaker": "Speaker",
-        "en": "Wrong.",
-        "ipa": "/rɔːŋ./",
-        "zh": "错啦。",
-        "highlights": [
-          {
-            "text": "Wrong",
-            "key": "wrong",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "start": 121.85,
-        "end": 125.21,
-        "speaker": "Speaker",
-        "en": "This is where we need the third part of the tip.",
-        "ipa": "/ðɪs ɪz wɛr wi nid ðə θərd pɑrt ʌv ðə tɪp/",
-        "zh": "这就是我们需要这个技巧的第三部分的地方。",
-        "highlights": [
-          {
-            "text": "third part",
-            "key": "第三部分",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "start": 125.59,
-        "end": 126.79,
-        "speaker": "Speaker",
-        "en": "The P.",
-        "ipa": "/ðə pi/",
-        "zh": "字母 P。",
-        "highlights": [
-          {
-            "text": "The P",
-            "key": "字母P",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "start": 126.83,
-        "end": 128.51,
-        "speaker": "Speaker",
-        "en": "And P stands for point.",
-        "ipa": "/ænd pi stændz fɔr pɔɪnt/",
-        "zh": "P 代表核心观点（Point）。",
-        "highlights": [
-          {
-            "text": "stands for",
-            "key": "代表，象征",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "start": 129.09,
-        "end": 132.81,
-        "speaker": "Speaker",
-        "en": "Point is the most important part of our message.",
-        "ipa": "/pɔɪnt ɪz ðə moʊst ɪmˈpɔrtənt pɑrt ʌv ˈaʊər ˈmɛsɪdʒ/",
-        "zh": "核心观点是我们信息中最重要的一部分。",
-        "highlights": [
-          {
-            "text": "most important part",
-            "key": "最重要的部分",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "start": 133.23,
-        "end": 137.81,
-        "speaker": "Speaker",
-        "en": "If you only had five seconds to speak, it's what you would say.",
-        "ipa": "/ɪf ju ˈoʊnli hæd faɪv ˈsɛkənz tu spik, ɪts wʌt ju wʊd seɪ/",
-        "zh": "如果你只有五秒钟的时间说话，这就是你会说的话。",
-        "highlights": [
-          {
-            "text": "five seconds",
-            "key": "五秒钟",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "start": 138.31,
-        "end": 143.01,
-        "speaker": "Speaker",
-        "en": "And usually it's what your audience cares about the most.",
-        "ipa": "/ænd ˈjuʒəwəli ɪts wʌt jʊər ˈɔdiəns kɛrz əˈbaʊt ðə moʊst/",
-        "zh": "通常这也是你的听众最关心的事情。",
-        "highlights": [
-          {
-            "text": "cares about",
-            "key": "关心，在意",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "start": 144.23,
-        "end": 146.55,
-        "speaker": "Speaker",
-        "en": "When I was a kid, my dad played a game with me.",
-        "ipa": "/wɛn aɪ wəz ə kɪd, maɪ dæd pleɪd ə geɪm wɪð mi/",
-        "zh": "当我还是个孩子的时候，我爸爸和我玩过一个游戏。",
-        "highlights": [
-          {
-            "text": "played a game",
-            "key": "玩游戏",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "start": 146.59,
-        "end": 149.67,
-        "speaker": "Speaker",
-        "en": "If we were going on a journey, I'd go, \"Dad, where are we going?\"",
-        "ipa": "/ɪf wi wər ˈgoʊɪng ɑn ə ˈdʒɜrni, aɪd goʊ, \"dæd, wɛr ɑr wi ˈgoʊɪŋ?\"",
-        "zh": "如果我们正要出门旅行，我会问：“爸爸，我们要去哪里？”",
-        "highlights": [
-          {
-            "text": "journey",
-            "key": "旅程",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "start": 149.71,
-        "end": 160.09,
-        "speaker": "Speaker",
-        "en": "And he'd say, \"Well, first, we're going to the car and then we’ll get in the car, leave the driveway, turn left onto the main street until we get to the post office, and then turn right until we go to a big yellow building.\"",
-        "ipa": "/ænd hid seɪ, \"wɛl, fɜrst, wɪr ˈgoʊɪng tu ðə kɑr ənd ðɛn wil gɛt ɪn ðə kɑr, liv ðə ˈdraɪvˌweɪ, tɜrn lɛft ˈɑntu ðə meɪn strit ənˈtɪl wi gɛt tu ðə poʊst ˈɔfɪs, ənd ðɛn tɜrn raɪt ənˈtɪl wi goʊ tu ə bɪg ˈjɛloʊ ˈbɪldɪŋ.\"",
-        "zh": "他会说：“嗯，首先，我们要去车那儿，然后上车，驶离车道，”“沿着主街向左转，直到我们到达邮局，然后向右转，直到我们去到一栋黄色的建筑。”",
-        "highlights": [
-          {
-            "text": "leave the driveway",
-            "key": "驶离车道",
-            "chip": "indigo"
-          },
-          {
-            "text": "turn left",
-            "key": "向左转",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "start": 160.13,
-        "end": 162.37,
-        "speaker": "Speaker",
-        "en": "I just wanted to scream, \"Where are we going?\"",
-        "ipa": "/aɪ dʒʌst ˈwɑntɪd tu skrim, \"wɛr ɑr wi ˈgoʊɪŋ?\"",
-        "zh": "我当时只想大叫：“我们到底要去哪儿？”",
-        "highlights": [
-          {
-            "text": "wanted to scream",
-            "key": "想尖叫",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "start": 162.69,
-        "end": 164.49,
-        "speaker": "Speaker",
-        "en": "I wanted the short version.",
-        "ipa": "/aɪ ˈwɑntɪd ðə ʃɔrt ˈvɜrʒən/",
-        "zh": "我只想听简短的版本。",
-        "highlights": [
-          {
-            "text": "short version",
-            "key": "精简版",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "start": 164.53,
-        "end": 166.95,
-        "speaker": "Speaker",
-        "en": "I think he just wanted to wind me up a little bit.",
-        "ipa": "/aɪ θɪŋk hi dʒʌst ˈwɑntɪd tu waɪnd mi ʌp ə ˈlɪtəl bɪt/",
-        "zh": "我想他只是想稍微逗逗我（惹恼我）。",
-        "highlights": [
-          {
-            "text": "wind me up",
-            "key": "惹恼，逗弄",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "start": 167.41,
-        "end": 172.81,
-        "speaker": "Speaker",
-        "en": "But fast forward a few years, I was doing the same thing at work.",
-        "ipa": "/bʌt fæst ˈfɔrwərd ə fju jɪrz, aɪ wəz ˈduɪng ðə seɪm θɪŋ æt wɜrk/",
-        "zh": "但快进到几年后，我在工作中做着同样的事情。",
-        "highlights": [
-          {
-            "text": "fast forward",
-            "key": "快进，时光飞逝",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "start": 173.73,
-        "end": 181.99,
-        "speaker": "Speaker",
-        "en": "Someone would ask me a question, or I’d start a conversation, and I would give all the detail, step by step information.",
-        "ipa": "/ˈsʌmwʌn wʊd æsk mi ə ˈkwɛstʃən, ɔr aɪd stɑrt ə ˌkɑnvərˈseɪʃən, ənd aɪ wʊd gɪv ɔl ðə ˈdɪteɪl, stɛp baɪ stɛp ˌɪnfərˈmeɪʃən/",
-        "zh": "有人问我问题，或者我开启一段对话时，我会提供所有细节、一步一步的信息。",
-        "highlights": [
-          {
-            "text": "step by step",
-            "key": "一步一步地",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "start": 182.45,
-        "end": 189.27,
-        "speaker": "Speaker",
-        "en": "And every so often -- OK, quite often -- people would say, \"Chris, just get to the point.\"",
-        "ipa": "/ænd ˈɛvri soʊ ˈɔfən -- oʊˈkeɪ, kwaɪt ˈɔfən -- ˈpipəl wʊd seɪ, \"krɪs, dʒʌst gɛt tu ðə pɔɪnt.\"",
-        "zh": "每隔一段时间——好吧，相当频繁地——人们会说：“克里斯，说重点。”",
-        "highlights": [
-          {
-            "text": "get to the point",
-            "key": "切入正题，说重点",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "start": 190.71,
-        "end": 191.93,
-        "speaker": "Speaker",
-        "en": "And that's what we need.",
-        "ipa": "/ænd ðæts wʌt wi nid/",
-        "zh": "而这正是我们所需要的。",
-        "highlights": [
-          {
-            "text": "what we need",
-            "key": "我们所需要的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "start": 191.97,
-        "end": 197.09,
-        "speaker": "Speaker",
-        "en": "We need a point, we need a headline, something that tells us where this conversation is going.",
-        "ipa": "/wi nid ə pɔɪnt, wi nid ə ˈhɛdˌlaɪn, ˈsʌmθɪŋ ðæt tɛlz ʌs wɛr ðɪs ˌkɑnvərˈseɪʃən ɪz ˈgoʊɪŋ/",
-        "zh": "我们需要一个观点，我们需要一个标题，一个能告诉我们这场对话将走向何方的事物。",
-        "highlights": [
-          {
-            "text": "headline",
-            "key": "核心标题，要点",
-            "orange": true,
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 49,
-        "start": 198.07,
-        "end": 202.65,
-        "speaker": "Speaker",
-        "en": "Now, of course, there's a lot more information we could include, but that comes later.",
-        "ipa": "/naʊ, ʌv kɔrs, ðɛrz ə lɑt mɔr ˌɪnfərˈmeɪʃən wi kʊd ɪnˈklud, bʌt ðæt kʌmz ˈleɪtər/",
-        "zh": "当然，还有很多其他信息我们可以包含在内，但那是后面的事。",
-        "highlights": [
-          {
-            "text": "comes later",
-            "key": "稍后来临",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 50,
-        "start": 202.69,
-        "end": 208.61,
-        "speaker": "Speaker",
-        "en": "That comes after we've set up the audience to understand what the conversation is about.",
-        "ipa": "/ðæt kʌmz ˈæftər wiv sɛt ʌp ðə ˈɔdiəns tu ˌʌndərˈstænd wʌt ðə ˌkɑnvərˈseɪʃən ɪz əˈbaʊt/",
-        "zh": "那是在我们引导听众理解对话内容之后的事。",
-        "highlights": [
-          {
-            "text": "set up",
-            "key": "做好铺垫，引导",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 51,
-        "start": 208.65,
-        "end": 215.51,
-        "speaker": "Speaker",
-        "en": "And we can do this quite simply, as the military likes to say, “Put the bottom line up front.”",
-        "ipa": "/ænd wi kʊd du ðɪs kwaɪt ˈsɪmpli, æz ðə ˈmɪləˌtɛri laɪks tu seɪ, \"pʊt ðə ˈbɑtəm laɪn ʌp frʌnt.\"",
-        "zh": "我们可以非常简单地做到这一点，正如军方常说的那样：“开门见山，把底线放在最前面。”",
-        "highlights": [
-          {
-            "text": "bottom line up front",
-            "key": "开门见山，直奔主题",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 52,
-        "start": 216.27,
-        "end": 220.27,
-        "speaker": "Speaker",
-        "en": "In one sentence, deliver the most important piece of information.",
-        "ipa": "/ɪn wʌn ˈsɛntəns, dɪˈlɪvər ðə moʊst ɪmˈpɔrtənt pis ʌv ˌɪnfərˈmeɪʃən/",
-        "zh": "用一句话，传递最重要的信息。",
-        "highlights": [
-          {
-            "text": "In one sentence",
-            "key": "用一句话",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 53,
-        "start": 220.31,
-        "end": 222.99,
-        "speaker": "Speaker",
-        "en": "\"I want to give a refund for a late delivery.\"",
-        "ipa": "/\"aɪ wɑnt tu gɪv ə ˈriˌfʌnd fɔr ə leɪt dɪˈlɪvəri.\"",
-        "zh": "“我想为延迟交付进行退款。”",
-        "highlights": [
-          {
-            "text": "give a refund",
-            "key": "退款",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 54,
-        "start": 223.03,
-        "end": 225.63,
-        "speaker": "Speaker",
-        "en": "\"Our project launch is going to be delayed by a month.\"",
-        "ipa": "/\"ˈaʊər ˈprɑˌdʒɛkt lɔntʃ ɪz ˈgoʊɪng tu bi dɪˈleɪd baɪ ə mʌnθ.\"",
-        "zh": "“我们的项目发布将推迟一个月。”",
-        "highlights": [
-          {
-            "text": "project launch",
-            "key": "项目发布",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 55,
-        "start": 225.67,
-        "end": 234.05,
-        "speaker": "Speaker",
-        "en": "Say the most important thing, and your audience will know where that conversation is going and they won't be thinking, \"What is your point?\"",
-        "ipa": "/seɪ ðə moʊst ɪmˈpɔrtənt θɪŋ, ənd jʊər ˈɔdiəns wɪl noʊ wɛr ðæt ˌkɑnvərˈseɪʃən ɪz ˈgoʊɪŋ ənd ðeɪ woʊnt bi ˈθɪŋkɪŋ, \"wʌt ɪz jʊər pɔɪnt?\"",
-        "zh": "说出最重要的事情，你的听众就会知道这场对话要去向何方，他们也就不会在心里想：“你的重点是什么？”",
-        "highlights": [
-          {
-            "text": "most important thing",
-            "key": "最重要的事情",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 56,
-        "start": 235.89,
-        "end": 248.53,
-        "speaker": "Speaker",
-        "en": "Now if you start your conversation with topic, intent and point, you are starting with a clear and concise introduction, an introduction that answers the three questions we all have: What are you talking about?",
-        "ipa": "/naʊ ɪf ju stɑrt jʊər ˌkɑnvərˈseɪʃən wɪð ˈtɑpɪk, ɪnˈtɛnt ənd pɔɪnt, ju ɑr ˈstɑrtɪng wɪð ə klɪr ənd kənˈsaɪs ˌɪntrəˈdʌkʃən ən ˌɪntrəˈdʌkʃən ðæt ˈænsərz ðə θri ˈkwɛstʃənz wi ɔl hæv: wʌt ɑr ju ˈtɔkɪŋ əˈbaʊt?",
-        "zh": "现在，如果你以主题、意图和观点开启对话，你就是在进行一个清晰且简明的介绍，这个介绍回答了我们所有人都有的三个问题：你在谈论什么？",
-        "highlights": [
-          {
-            "text": "clear and concise",
-            "key": "清晰简明",
-            "chip": "indigo"
-          },
-          {
-            "text": "What are you talking about",
-            "key": "你在谈论什么",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 57,
-        "start": 248.57,
-        "end": 250.27,
-        "speaker": "Speaker",
-        "en": "Why are you telling me this?",
-        "ipa": "/waɪ ɑr ju ˈtɛlɪŋ mi ðɪs?",
-        "zh": "你为什么要告诉我这些？",
-        "highlights": [
-          {
-            "text": "Why are you telling me this",
-            "key": "你为什么要告诉我这个",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 58,
-        "start": 250.31,
-        "end": 252.13,
-        "speaker": "Speaker",
-        "en": "And what is your point?",
-        "ipa": "/ænd wʌt ɪz jʊər pɔɪnt?",
-        "zh": "你的重点是什么？",
-        "highlights": [
-          {
-            "text": "what is your point",
-            "key": "重点是什么",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 59,
-        "start": 252.85,
-        "end": 254.31,
-        "speaker": "Speaker",
-        "en": "Because here's the truth.",
-        "ipa": "/bɪˈkɔz hɪrz ðə truθ/",
-        "zh": "因为真相是这样的。",
-        "highlights": [
-          {
-            "text": "here's the truth",
-            "key": "真相是这样的",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "start": 254.99,
-        "end": 261.05,
-        "speaker": "Speaker",
-        "en": "Every time we communicate, it is an opportunity to create clarity or confusion.",
-        "ipa": "/ˈɛvri taɪm wi kəmˈjunɪkeɪt, ɪt ɪz ən ˌɑpərˈtunɪti tu kriˈeɪt ˈklærəti ɔr kənˈfjuzʒən/",
-        "zh": "我们每一次交流，都是创造清晰或混乱的机会。",
-        "highlights": [
-          {
-            "text": "clarity or confusion",
-            "key": "清晰还是混乱",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 61,
-        "start": 261.87,
-        "end": 266.43,
-        "speaker": "Speaker",
-        "en": "And topic, intent and point is clarity.",
-        "ipa": "/ænd ˈtɑpɪk, ɪnˈtɛnt ənd pɔɪnt ɪz ˈklærəti/",
-        "zh": "而主题、意图和观点就是清晰。",
-        "highlights": [
-          {
-            "text": "clarity",
-            "key": "清晰，明了",
-            "orange": true,
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 62,
-        "start": 267.17,
-        "end": 268.85,
-        "speaker": "Speaker",
-        "en": "So I have a challenge for you.",
-        "ipa": "/soʊ aɪ hæv ə ˈtʃælənʒ fɔr ju/",
-        "zh": "所以我给你一个挑战。",
-        "highlights": [
-          {
-            "text": "have a challenge",
-            "key": "有个挑战",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "start": 269.29,
-        "end": 278.63,
-        "speaker": "Speaker",
-        "en": "The next time you start a conversation at work, the next time you write a message, take a moment and think to yourself, what is my topic?",
-        "ipa": "/ðə lɛkst taɪm ju stɑrt ə ˌkɑnvərˈseɪʃən æt wɜrk, ðə nɛkst taɪm ju raɪt ə ˈmɛsɪdʒ, teɪk ə ˈmoʊmənt ənd θɪŋk tu jʊərˈsɛlf, wʌt ɪz maɪ ˈtɑpɪk?",
-        "zh": "下次你在工作中发起对话，下次你写信息时，花点时间在心里想想：我的主题是什么？",
-        "highlights": [
-          {
-            "text": "take a moment",
-            "key": "花点时间",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 64,
-        "start": 279.33,
-        "end": 282.81,
-        "speaker": "Speaker",
-        "en": "What do I intend for the other person to do with this message?",
-        "ipa": "/wʌt du aɪ ɪnˈtɛnd fɔr ðə ˈʌðər ˈpɜrsən tu du wɪð ðɪs ˈmɛsɪdʒ/",
-        "zh": "我希望对方用这条信息做什么？",
-        "highlights": [
-          {
-            "text": "intend for",
-            "key": "打算，意欲",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 65,
-        "start": 282.85,
-        "end": 285.71,
-        "speaker": "Speaker",
-        "en": "And what point do I want to deliver?",
-        "ipa": "/ænd wʌt pɔɪnt du aɪ wɑnt tu dɪˈlɪvər?/",
-        "zh": "那么，我想传达的重点是什么呢？",
-        "highlights": [
-          {
-            "text": "deliver",
-            "key": "传达，发表",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "start": 286.99,
-        "end": 290.39,
-        "speaker": "Speaker",
-        "en": "Imagine working somewhere where everybody did this.",
-        "ipa": "/ɪˈmædʒɪn ˈwɜrkɪŋ ˈsʌmˌwɛr wɛr ˈɛvriˌbɑdi dɪd ðɪs./",
-        "zh": "想象一下，如果你在每个人都这样做的地方工作会怎样。",
-        "highlights": [
-          {
-            "text": "Imagine",
-            "key": "想象一下",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "start": 291.95,
-        "end": 297.03,
-        "speaker": "Speaker",
-        "en": "Imagine if everyone always knew what to do with the message you gave them, or understood what it was about.",
-        "ipa": "/ɪˈmædʒɪn ɪf ˈɛvriˌwʌn ˈɔlˌweɪz nu wʌt tu du wɪð ðə ˈmɛsɪdʒ ju ɡeɪv ðɛm, ɔr ˌʌndərˈstʊd wʌt ɪt wʌz əˈbaʊt./",
-        "zh": "想象一下，如果每个人都能立刻明白你传达的信息，或者理解其核心含义。",
-        "highlights": [
-          {
-            "text": "what to do with",
-            "key": "如何处理",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "start": 297.07,
-        "end": 300.23,
-        "speaker": "Speaker",
-        "en": "How much smoother, how much easier would our jobs be?",
-        "ipa": "/haʊ mʌtʃ ˈsmuðər, haʊ mʌtʃ ˈiziər wʊd ˈaʊər dʒɑbz bi?/",
-        "zh": "我们的工作会变得多么顺畅、多么轻松啊？",
-        "highlights": [
-          {
-            "text": "smoother",
-            "key": "更顺畅的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 69,
-        "start": 301.57,
-        "end": 306.47,
-        "speaker": "Speaker",
-        "en": "That, ladies and gentlemen, is the power of the first minute.",
-        "ipa": "/ðæt, ˈleɪdiz ænd ˈdʒɛntəlmən, ɪz ðə ˈpaʊər ʌv ðə fɜrst ˈmɪnɪt./",
-        "zh": "女士们，先生们，这就是第一分钟的力量。",
-        "highlights": [
-          {
-            "text": "the power of",
-            "key": "……的力量",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 70,
-        "start": 307.53,
-        "end": 308.65,
-        "speaker": "Speaker",
-        "en": "Thank you.",
-        "ipa": "/θæŋk ju./",
-        "zh": "谢谢大家。",
-        "highlights": []
-      }
-    ]
-  },
-  {
-    "id": "local-70-How-to-Start-Any-Conversation-th-part1",
-    "number": "EP 70",
-    "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED (Part 1)",
-    "speaker": "Chris Fenning · TED",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 4,
-    "durationSec": 350,
-    "durationLabel": "05:50",
-    "date": "2026/11/28",
-    "tags": [
-      "个人成长",
-      "日常对话"
-    ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
-    "coverImage": "./content/episodes/trimmed/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED%20%28Part%201%29.trimmed.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "个人成长",
-    "skipRanges": [
-      [
-        5.31,
-        7.13
-      ],
-      [
-        14.19,
-        14.75
-      ],
-      [
-        22.99,
-        24.07
-      ],
-      [
-        26.91,
-        27.87
-      ],
-      [
-        42.41,
-        43.37
-      ],
-      [
-        44.73,
-        45.25
-      ],
-      [
-        49.03,
-        50.79
-      ],
-      [
-        52.49,
-        53.01
-      ],
-      [
-        57.17,
-        57.85
-      ],
-      [
-        60.23,
-        61.21
-      ],
-      [
-        64.89,
-        65.77
-      ],
-      [
-        68.53,
-        69.53
-      ],
-      [
-        74.13,
-        75.93
-      ],
-      [
-        82.99,
-        84.11
-      ],
-      [
-        88.31,
-        89.17
-      ],
-      [
-        94.03,
-        94.83
-      ],
-      [
-        101.61,
-        104.25
-      ],
-      [
-        118.53,
-        119.23
-      ],
-      [
-        123.59,
-        124.21
-      ],
-      [
-        135.45,
-        136.17
-      ],
-      [
-        141.73,
-        142.47
-      ],
-      [
-        143.61,
-        144.81
-      ],
-      [
-        159.47,
-        160.53
-      ],
-      [
-        164.23,
-        165.13
-      ],
-      [
-        187.15,
-        188.07
-      ],
-      [
-        211.99,
-        212.73
-      ],
-      [
-        219.99,
-        221.69
-      ],
-      [
-        234.53,
-        235.27
-      ],
-      [
-        246.49,
-        247.71
-      ],
-      [
-        252.17,
-        252.69
-      ],
-      [
-        262.07,
-        262.61
-      ],
-      [
-        271.53,
-        272.41
-      ],
-      [
-        280.31,
-        281.63
-      ],
-      [
-        297.59,
-        298.39
-      ],
-      [
-        303.23,
-        304.49
-      ],
-      [
-        313.07,
-        314.23
-      ],
-      [
-        323.89,
-        324.43
-      ],
-      [
-        331.19,
-        332.37
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.25,
-        "end": 5.31,
-        "speaker": "Speaker",
-        "en": "I want to be long-winded and unclear.",
-        "ipa": "/aɪ wɑnt tu bi lɔŋ ˈwɪndɪd ænd ˌʌnˈklɪr/",
-        "zh": "我想表现得冗长又含糊不清。",
-        "highlights": [
-          {
-            "text": "long-winded",
-            "key": "冗长的，啰嗦的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 7.13,
-        "end": 8.93,
-        "speaker": "Speaker",
-        "en": "It's not a common opening line.",
-        "ipa": "/ɪts nɑt ə ˈkɑmən ˈoʊpənɪŋ laɪn/",
-        "zh": "这不是一句常见的开场白。",
-        "highlights": [
-          {
-            "text": "opening line",
-            "key": "开场白",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 9.35,
-        "end": 14.19,
-        "speaker": "Speaker",
-        "en": "Most people won't tell us when they're going to be long-winded, but we know.",
-        "ipa": "/moʊst ˈpipəl woʊnt tɛl ʌs wɛn ðɛr ˈgoʊɪŋ tu bi lɔŋ ˈwɪndɪd, bʌt wi noʊ/",
-        "zh": "大多数人在长篇大论之前不会特意告诉我们，但我们心知肚明。",
-        "highlights": [
-          {
-            "text": "long-winded",
-            "key": "啰嗦的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 14.75,
-        "end": 22.99,
-        "speaker": "Speaker",
-        "en": "We can tell pretty quickly if someone’s going to get to the point or if we are in for a long and painful conversation.",
-        "ipa": "/wi kən tɛl ˈprɪti ˈkwɪkli ɪf ˈsʌmwʌnz ˈgoʊɪŋ tu gɛt tu ðə pɔɪnt ɔr ɪf wi ɑr ɪn fɔr ə lɔŋ ænd ˈpeɪnfəl ˌkɑnvərˈseɪʃən/",
-        "zh": "我们很快就能看出对方是会直奔主题，还是会展开一场漫长而痛苦的对话。",
-        "highlights": [
-          {
-            "text": "get to the point",
-            "key": "直奔主题",
-            "chip": "pink"
-          },
-          {
-            "text": "in for",
-            "key": "即将遭遇，免不了",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 24.07,
-        "end": 26.91,
-        "speaker": "Speaker",
-        "en": "And this is especially true at work.",
-        "ipa": "/ænd ðɪs ɪz ɪˈspɛʃəli tru æt wɜrk/",
-        "zh": "在工作中尤其如此。",
-        "highlights": [
-          {
-            "text": "especially true",
-            "key": "尤其如此",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 27.87,
-        "end": 34.71,
-        "speaker": "Speaker",
-        "en": "Every year, poor communication costs businesses hundreds of billions of dollars in lost productivity.",
-        "ipa": "/ˈɛvri jɪr, pur kəˌmjunəˈkeɪʃən kɔsts ˈbɪznəsɪz ˈhʌndrədz ʌv ˈbɪljənz ʌv ˈdɑlərz ɪn lɔst ˌprʌdʌkˈtɪvəti/",
-        "zh": "每年，糟糕的沟通都会给企业造成数千亿美元的生产力损失。",
-        "highlights": [
-          {
-            "text": "productivity",
-            "key": "生产力",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 35.09,
-        "end": 42.41,
-        "speaker": "Speaker",
-        "en": "And I have to confess, in the early part of my career, I was responsible for at least some of that.",
-        "ipa": "/ænd aɪ hæv tu kənˈfɛs, ɪn ði ˈɜrli pɑrt ʌv maɪ kəˈrɪr, aɪ wʌz rɪˈspɑnsəbəl fɔr æt liːst sʌm ʌv ðæt/",
-        "zh": "我不得不承认，在我职业生涯的早期，至少有一部分责任在我。",
-        "highlights": [
-          {
-            "text": "confess",
-            "key": "承认，坦白",
-            "chip": "orange"
-          },
-          {
-            "text": "responsible for",
-            "key": "对……负责",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 43.37,
-        "end": 44.73,
-        "speaker": "Speaker",
-        "en": "But I'm not alone.",
-        "ipa": "/bʌt aɪm nɑt əˈloʊn/",
-        "zh": "不过我并不孤单（大家都有过）。",
-        "highlights": [
-          {
-            "text": "alone",
-            "key": "独自一人",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 45.25,
-        "end": 49.03,
-        "speaker": "Speaker",
-        "en": "Hands up if you work with someone who is long winded or unclear.",
-        "ipa": "/hændz ʌp ɪf ju wɜrk wɪð ˈsʌmwʌn hu ɪz lɔŋ ˈwɪndɪd ɔr ˌʌnˈklɪr/",
-        "zh": "如果你身边有同事说话啰嗦或者含糊不清，请举手。",
-        "highlights": [
-          {
-            "text": "Hands up",
-            "key": "举手",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 50.79,
-        "end": 52.49,
-        "speaker": "Speaker",
-        "en": "That's a lot of hands.",
-        "ipa": "/ðæts ə lɑt ʌv hændz/",
-        "zh": "举起的手可真不少。",
-        "highlights": [
-          {
-            "text": "a lot of",
-            "key": "许多",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 53.01,
-        "end": 57.17,
-        "speaker": "Speaker",
-        "en": "Now I’m sure we are all thinking about people outside this room, right?",
-        "ipa": "/naʊ aɪm ʃʊr wi ɑr ɔl ˈθɪŋkɪŋ əˈbaʊt ˈpipəl ˈaʊtˈsaɪd ðɪs rum, raɪt/",
-        "zh": "现在我确信大家都在想这个房间以外的人，对吧？",
-        "highlights": [
-          {
-            "text": "thinking about",
-            "key": "想起，考虑",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 57.85,
-        "end": 60.23,
-        "speaker": "Speaker",
-        "en": "Except for those of you pointing at each other.",
-        "ipa": "/ɪkˈsɛpt fɔr ðoʊz ʌv ju ˈpɔɪntɪŋ æt ˈiʧ ˈʌðər/",
-        "zh": "除了那些互相指指点点的人。",
-        "highlights": [
-          {
-            "text": "Except for",
-            "key": "除了……之外",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 61.21,
-        "end": 64.89,
-        "speaker": "Speaker",
-        "en": "But what would happen if we asked the people outside this room?",
-        "ipa": "/bʌt wʌt wʊd ˈhæpən ɪf wi æskt ðə ˈpipəl ˈaʊtˈsaɪd ðɪs rum/",
-        "zh": "但如果我们去问问房间外面的人会发生什么呢？",
-        "highlights": [
-          {
-            "text": "what would happen",
-            "key": "会发生什么",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 65.77,
-        "end": 68.53,
-        "speaker": "Speaker",
-        "en": "They might be thinking about us.",
-        "ipa": "/ðeɪ maɪt bi ˈθɪŋkɪŋ əˈbaʊt ʌs/",
-        "zh": "他们可能正在想我们呢。",
-        "highlights": [
-          {
-            "text": "thinking about",
-            "key": "想起，惦记",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 69.53,
-        "end": 74.13,
-        "speaker": "Speaker",
-        "en": "And while our goal is to be clear and concise, do we really know how?",
-        "ipa": "/ænd waɪl ˈaʊər goʊl ɪz tu bi klɪr ænd kənˈsaɪs, du wi ˈrɪəli noʊ haʊ/",
-        "zh": "尽管我们的目标是表达清晰、言简意赅，但我们真的知道该怎么做吗？",
-        "highlights": [
-          {
-            "text": "concise",
-            "key": "简明的，简洁的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 75.93,
-        "end": 82.99,
-        "speaker": "Speaker",
-        "en": "Every time we communicate, we have an opportunity to create clarity or confusion.",
-        "ipa": "/ˈɛvri taɪm wi kəˈmjunəˌkeɪt, wi hæv ən ˌɑpərˈtunəti tu kriˈeɪt ˈklɛrəti ɔr kənˈfjuʒən/",
-        "zh": "每次我们沟通，都是一次创造清晰或造成混淆的机会。",
-        "highlights": [
-          {
-            "text": "opportunity",
-            "key": "机会",
-            "chip": "orange"
-          },
-          {
-            "text": "clarity",
-            "key": "清晰度",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "start": 84.11,
-        "end": 88.31,
-        "speaker": "Speaker",
-        "en": "And clarity begins from the very first minute.",
-        "ipa": "/ænd ˈklɛrəti bɪˈgɪnz frʌm ðə ˈvɛri fɜrst ˈmɪnɪt/",
-        "zh": "而清晰的沟通始于第一分钟。",
-        "highlights": [
-          {
-            "text": "begins from",
-            "key": "始于",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 89.17,
-        "end": 94.03,
-        "speaker": "Speaker",
-        "en": "If you get the first minute right, you set your conversation up for success.",
-        "ipa": "/ɪf ju gɛt ðə fɜrst ˈmɪnɪt raɪt, ju sɛt jʊr ˌkɑnvərˈseɪʃən ʌp fɔr səkˈsɛs/",
-        "zh": "如果你把握好了第一分钟，你就为成功的对话奠定了基础。",
-        "highlights": [
-          {
-            "text": "conversation",
-            "key": "conversation",
-            "chip": "orange"
-          },
-          {
-            "text": "success",
-            "key": "success",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "start": 94.83,
-        "end": 101.61,
-        "speaker": "Speaker",
-        "en": "Get it wrong, and your conversations will be longer, less effective and more frustrating.",
-        "ipa": "/gɛt ɪt rɔŋ, ænd jʊr ˌkɑnvərˈseɪʃənz wɪl bi ˈlɔŋgər, lɛs ɪˈfɛktɪv ænd mɔr ˈfrʌstreɪtɪŋ/",
-        "zh": "如果没把握好，你的对话就会更长、效率更低，也更令人沮丧。",
-        "highlights": [
-          {
-            "text": "less effective",
-            "key": "效率更低",
-            "chip": "pink"
-          },
-          {
-            "text": "frustrating",
-            "key": "令人沮丧的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "start": 104.25,
-        "end": 112.87,
-        "speaker": "Speaker",
-        "en": "Now on the off chance we could all use a little more clarity, I'm going to share a tip with you today.",
-        "ipa": "/naʊ ɑn ði ɔf ʧæns wi kʊd ɔl juz ə ˈlɪtəl mɔr ˈklɛrəti, aɪm ˈgoʊɪŋ tu ʃɛr ə tɪp wɪð ju təˈdeɪ/",
-        "zh": "鉴于我们可能都需要多一点清晰度，我主要跟大家分享一个小技巧。",
-        "highlights": [
-          {
-            "text": "on the off chance",
-            "key": "碰巧，万一",
-            "chip": "pink"
-          },
-          {
-            "text": "share a tip",
-            "key": "分享技巧",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "start": 112.91,
-        "end": 118.53,
-        "speaker": "Speaker",
-        "en": "A tip that will help each of you improve the success of your communication at work.",
-        "ipa": "/ə tɪp ðæt wɪl hɛlp iʧ ʌv ju ɪmˈpruv ðə səkˈsɛs ʌv jʊr kəˌmjunəˈkeɪʃən æt wɜrk/",
-        "zh": "这个技巧将帮助你们每个人提高在工作中沟通的成功率。",
-        "highlights": [
-          {
-            "text": "improve",
-            "key": "提高，改善",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "start": 119.23,
-        "end": 123.59,
-        "speaker": "Speaker",
-        "en": "A tip that has been tested by more than 75,000 people around the world.",
-        "ipa": "/ə tɪp ðæt hæz bɪn ˈtɛstɪd baɪ mɔr ðæn ˈsɛvəti-faɪv ˈθaʊzənd ˈpipəl əˈraʊnd ðə wɜrld/",
-        "zh": "这个技巧已经通过了全球75000多人的测试。",
-        "highlights": [
-          {
-            "text": "tested",
-            "key": "测试，检验",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "start": 124.21,
-        "end": 128.43,
-        "speaker": "Speaker",
-        "en": "And a tip that will help each of you get the first minute right.",
-        "ipa": "/ænd ə tɪp ðæt wɪl hɛlp iʧ ʌv ju gɛt ðə fɜrst ˈmɪnɪt raɪt/",
-        "zh": "这个技巧能帮助你们每个人把握好第一分钟。",
-        "highlights": [
-          {
-            "text": "minute",
-            "key": "minute",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "start": 128.89,
-        "end": 130.07,
-        "speaker": "Speaker",
-        "en": "And here it is.",
-        "ipa": "/ænd hɪr ɪt ɪz/",
-        "zh": "就是这个。",
-        "highlights": [
-          {
-            "text": "here it is",
-            "key": "就是这个，给你",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "start": 130.11,
-        "end": 135.45,
-        "speaker": "Speaker",
-        "en": "There are three things we must include at the start of our work messages.",
-        "ipa": "/ðɛr ɑr θri θɪŋz wi mʌst ɪnˈklud æt ðə stɑrt ʌv ˈaʊər wɜrk ˈmɛsəjɪz/",
-        "zh": "在工作信息的开头，我们必须包含三件事。",
-        "highlights": [
-          {
-            "text": "include",
-            "key": "包含",
-            "chip": "orange"
-          },
-          {
-            "text": "at the start of",
-            "key": "在……开始时",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "start": 136.17,
-        "end": 141.73,
-        "speaker": "Speaker",
-        "en": "And those three things begin with T, I and P.",
-        "ipa": "/ænd ðoʊz θri θɪŋz bɪˈgɪn wɪð ti, aɪ ænd pɪp/",
-        "zh": "这三件事分别以 T、I 和 P 开头。",
-        "highlights": [
-          {
-            "text": "begin with",
-            "key": "以……开头",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "start": 142.47,
-        "end": 143.61,
-        "speaker": "Speaker",
-        "en": "It's a TIP.",
-        "ipa": "/ɪts ə tɪp/",
-        "zh": "这就是 TIP（提示/秘诀）。",
-        "highlights": [
-          {
-            "text": "TIP",
-            "key": "小贴士，秘诀",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "start": 144.81,
-        "end": 149.55,
-        "speaker": "Speaker",
-        "en": "Now the first part of the tip is the T, and T stands for topic.",
-        "ipa": "/naʊ ðə fɜrst pɑrt ʌv ðə tɪp ɪz ðə ti, ænd ti stændz fɔr ˈtɑpɪk/",
-        "zh": "这个技巧的第一部分是 T，T 代表 Topic（主题）。",
-        "highlights": [
-          {
-            "text": "stands for",
-            "key": "代表，象征",
-            "chip": "indigo"
-          },
-          {
-            "text": "topic",
-            "key": "主题",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "start": 149.85,
-        "end": 152.41,
-        "speaker": "Speaker",
-        "en": "Every conversation at work needs a clear topic.",
-        "ipa": "/ˈɛvri ˌkɑnvərˈseɪʃən æt wɜrk nidz ə klɪr ˈtɑpɪk/",
-        "zh": "工作中的每一次对话都需要一个清晰的主题。",
-        "highlights": [
-          {
-            "text": "clear topic",
-            "key": "清晰的主题",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "start": 152.45,
-        "end": 156.37,
-        "speaker": "Speaker",
-        "en": "When the topic is clear, everyone knows what we're talking about.",
-        "ipa": "/wɛn ðə ˈtɑpɪk ɪz klɪr, ˈɛvriwʌn noʊz wʌt wɪr ˈtɑkɪŋ əˈbaʊt/",
-        "zh": "当主题明确时，每个人都知道我们在谈论什么。",
-        "highlights": [
-          {
-            "text": "talking about",
-            "key": "谈论",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "start": 156.41,
-        "end": 157.65,
-        "speaker": "Speaker",
-        "en": "Everyone's in sync.",
-        "ipa": "/ˈɛvriwʌnz ɪn sɪŋk/",
-        "zh": "大家步调一致。",
-        "highlights": [
-          {
-            "text": "in sync",
-            "key": "同步，步调一致",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "start": 157.69,
-        "end": 159.47,
-        "speaker": "Speaker",
-        "en": "Everybody understands.",
-        "ipa": "/ˈɛvriˌbɑdi ˌʌndərˈstændz/",
-        "zh": "每个人都心领神会。",
-        "highlights": [
-          {
-            "text": "understands",
-            "key": "理解",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "start": 160.53,
-        "end": 164.23,
-        "speaker": "Speaker",
-        "en": "Unfortunately, reality isn't always like this, is it?",
-        "ipa": "/ʌnˈfɔrʧənətli, riˈæləti ˈɪzənt ˈɔlweɪz laɪk ðɪs, ɪz ɪt/",
-        "zh": "不幸的是，现实并非总是如此，对吧？",
-        "highlights": [
-          {
-            "text": "Unfortunately",
-            "key": "不幸的是",
-            "chip": "orange"
-          },
-          {
-            "text": "reality",
-            "key": "现实",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "start": 165.13,
-        "end": 170.95,
-        "speaker": "Speaker",
-        "en": "How often are you in a conversation and you find yourself thinking, what are you talking about?",
-        "ipa": "/haʊ ˈɔfən ɑr jʊr ɪn ə ˌkɑnvərˈseɪʃən ænd ju faɪnd jʊrˈsɛlf ˈθɪŋkɪŋ, wʌt ɑr ju ˈtɑkɪŋ əˈbaʊt/",
-        "zh": "你有多经常在对话中发现自己心里在想：你到底在说什么呀？",
-        "highlights": [
-          {
-            "text": "find yourself",
-            "key": "发现自己",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "start": 170.99,
-        "end": 176.31,
-        "speaker": "Speaker",
-        "en": "That happens when the topic is not clear.",
-        "ipa": "/(ˈlæftər) ðæt ˈhæpənz wɛn ðə ˈtɑpɪk ɪz nɑt klɪr/",
-        "zh": "这种情况发生时，往往是因为主题不够清晰。",
-        "highlights": [
-          {
-            "text": "happens",
-            "key": "发生",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "start": 176.73,
-        "end": 187.15,
-        "speaker": "Speaker",
-        "en": "Now usually the consequences are pretty minor -- a little bit of wasted time, some minor frustration -- but sometimes, the consequences are more significant.",
-        "ipa": "/naʊ ˈjuːʒuəli ðə ˈkɑːnsəkwənsɪz ɑːr ˈprɪti ˈmaɪnər -- ə ˈlɪtəl bɪt əv ˈweɪstɪd taɪm, sʌm ˈmaɪnər frʌˈstreɪʃən -- bʌt ˈsʌmtaɪmz, ðə ˈkɑːnsəkwənsɪz ɑːr mɔːr sɪɡˈnɪfɪkənt/",
-        "zh": "通常后果都比较轻微——浪费了一点时间，或者有一点小沮丧——但有时，后果会更严重。",
-        "highlights": [
-          {
-            "text": "consequences",
-            "key": "consequences",
-            "chip": "orange"
-          },
-          {
-            "text": "a little bit of",
-            "key": "a little bit of",
-            "chip": "indigo"
-          },
-          {
-            "text": "significant",
-            "key": "significant",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "start": 188.07,
-        "end": 195.13,
-        "speaker": "Speaker",
-        "en": "In 2006, I was part of an engineering team writing a bid -- a proposal -- that was worth a lot of money to our company.",
-        "ipa": "/ɪn ˈtwɛntɪ ˈzɪroʊ ˈsɪks, aɪ wʌz pɑːrt əv ən ˌɛndʒɪˈnɪərɪŋ tiːm ˈraɪtɪŋ ə bɪd -- ə prəˈpoʊzəl -- ðæt wʌz wɜːrθ ə lɑːt əv ˈmʌni tuː ˈaʊər ˈkʌmpəni/",
-        "zh": "2006年，我是工程团队的一员，当时正在写一份对公司价值不菲的投标书——一份提案。",
-        "highlights": [
-          {
-            "text": "proposal",
-            "key": "proposal",
-            "chip": "orange"
-          },
-          {
-            "text": "worth a lot of money",
-            "key": "worth a lot of money",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "start": 195.57,
-        "end": 202.59,
-        "speaker": "Speaker",
-        "en": "And a couple of days before the big meeting, my boss came up to me and said, \"Hey, Chris, I need you to change the meeting from Tuesday to Thursday.\"",
-        "ipa": "/ænd ə ˈkʌpəl əv deɪz bɪˈfɔːr ðə bɪɡ ˈmiːtɪŋ, maɪ bɑːs keɪm ʌp tuː miː aɪnd sɛd heɪ, krɪs, aɪ niːd juː tuː tʃeɪndʒ ðə ˈmiːtɪŋ frʌm ˈtuːzdeɪ tuː ˈθɜːrzdeɪ/",
-        "zh": "就在那场重要会议开始前几天，我老板走到我面前说：“嘿，克里斯，我需要你把会议从周二改到周四。”",
-        "highlights": [
-          {
-            "text": "came up to",
-            "key": "come up to",
-            "chip": "indigo"
-          },
-          {
-            "text": "I need you to",
-            "key": "I need you to",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "start": 202.63,
-        "end": 204.93,
-        "speaker": "Speaker",
-        "en": "So off I went and I changed the meeting.",
-        "ipa": "/soʊ ɔːf aɪ wɛnt ænd aɪ tʃeɪndʒd ðə ˈmiːtɪŋ/",
-        "zh": "于是我就去把会议时间改了。",
-        "highlights": [
-          {
-            "text": "off I went",
-            "key": "off one goes",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "start": 204.97,
-        "end": 209.21,
-        "speaker": "Speaker",
-        "en": "I typed an email, sent it to the client saying, \"Something’s come up, we've got to change.\"",
-        "ipa": "/aɪ taɪpt ən ˈiːmeɪl, sɛnt ɪt tuː ðə ˈklaɪənt ˈseɪɪŋ, ˈsʌmθɪŋz kʌm ʌp, wiːv ɡɑːt tuː tʃeɪndʒ/",
-        "zh": "我打了一封邮件发给客户，说：“有点突发状况，我们得改个时间。”",
-        "highlights": [
-          {
-            "text": "Something’s come up",
-            "key": "something has come up",
-            "chip": "pink"
-          },
-          {
-            "text": "got to change",
-            "key": "have got to",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "start": 209.25,
-        "end": 211.99,
-        "speaker": "Speaker",
-        "en": "And about a minute after I hit send, my phone rings.",
-        "ipa": "/ænd əˈbaʊt ə ˈmɪnɪt ˈæftər aɪ hɪt sɛnd, maɪ foʊn rɪŋz/",
-        "zh": "就在我点击发送大约一分钟后，我的电话响了。",
-        "highlights": [
-          {
-            "text": "hit send",
-            "key": "hit send",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "start": 212.73,
-        "end": 214.13,
-        "speaker": "Speaker",
-        "en": "It's my boss.",
-        "ipa": "/ɪts maɪ bɑːs/",
-        "zh": "是我老板。",
-        "highlights": []
-      },
-      {
-        "id": 43,
-        "start": 214.17,
-        "end": 219.99,
-        "speaker": "Speaker",
-        "en": "He had one question: \"Why did you change the meeting?\"",
-        "ipa": "/hiː hæd wʌn ˈkwɛstʃən waɪ dɪd juː tʃeɪndʒ ðə ˈmiːtɪŋ/",
-        "zh": "他只有一个问题：“你为什么要改会议时间？”",
-        "highlights": [
-          {
-            "text": "question",
-            "key": "question",
-            "chip": "orange"
-          },
-          {
-            "text": "change",
-            "key": "change",
-            "chip": "pink"
-          },
-          {
-            "text": "meeting",
-            "key": "meeting",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "start": 221.69,
-        "end": 227.75,
-        "speaker": "Speaker",
-        "en": "You see, he was talking about our one-to-one, and I was thinking about the client meeting.",
-        "ipa": "/juː siː, hiː wʌz ˈtɔːkɪŋ əˈbaʊt ˈaʊər wʌn tuː wʌn, ænd aɪ wʌz ˈθɪŋkɪŋ əˈbaʊt ðə ˈklaɪənt ˈmiːtɪŋ/",
-        "zh": "你看，他说的是我们俩的单独沟通会，而我想的是客户会议。",
-        "highlights": [
-          {
-            "text": "one-to-one",
-            "key": "one-to-one",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "start": 228.25,
-        "end": 234.53,
-        "speaker": "Speaker",
-        "en": "The lack of a clear topic meant he and I were thinking about two very different things.",
-        "ipa": "/ðə læk əv ə klɪr ˈtɑːpɪk mɛnt hiː ænd aɪ wɜːr ˈθɪŋkɪŋ əˈbaʊt tuː ˈvɛri ˈdɪfrənt θɪŋz/",
-        "zh": "缺乏一个清晰的主题，意味着我和他当时想的是两件完全不同的事。",
-        "highlights": [
-          {
-            "text": "lack of",
-            "key": "lack of",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "start": 235.27,
-        "end": 246.49,
-        "speaker": "Speaker",
-        "en": "Now that might be the single biggest contribution I’ve made to the cost of bad communication, but it also marks the moment at which I began to be interested in improving how we communicate at work.",
-        "ipa": "/naʊ ðæt maɪt biː ðə ˈsɪŋɡəl ˈbɪɡɪst ˌkɑːntrɪˈbjuːʃən aɪv meɪd tuː ðə kɑːst əv bæd ˌkɑːmjuːnɪˈkeɪʃən, bʌt ɪt ˈɔːlsoʊ mɑːrks ðə ˈmoʊmənt æt wɪtʃ aɪ bɪˈɡæn tuː biː ˈɪntrɪstɪd ɪn ɪmˈпруːvɪŋ haʊ wiː kəˈmjuːnɪkeɪt æt wɜːrk/",
-        "zh": "这或许是我对“沟通不畅所付出的代价”做出的最大“贡献”，但它也标志着这样一个时刻从那时起，我开始对改善我们在工作中的沟通方式感兴趣。",
-        "highlights": [
-          {
-            "text": "contribution",
-            "key": "contribution",
-            "chip": "orange"
-          },
-          {
-            "text": "be interested in",
-            "key": "be interested in",
-            "chip": "indigo"
-          },
-          {
-            "text": "improving",
-            "key": "improve",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "start": 247.71,
-        "end": 250.61,
-        "speaker": "Speaker",
-        "en": "So all our messages have to begin with a clear topic.",
-        "ipa": "/soʊ ɔːl ˈaʊər ˈmɛsɪdʒɪz hæv tuː bɪˈɡɪn wɪθ ə klɪr ˈtɑːpɪk/",
-        "zh": "所以，我们所有的信息都必须以一个清晰的主题开始。",
-        "highlights": [
-          {
-            "text": "begin with",
-            "key": "begin with",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "start": 250.65,
-        "end": 251.08,
-        "speaker": "Speaker",
-        "en": "But how?",
-        "ipa": "/bʌt haʊ/",
-        "zh": "但怎么做呢？",
-        "highlights": []
-      },
-      {
-        "id": 49,
-        "start": 251.12,
-        "end": 252.17,
-        "speaker": "Speaker",
-        "en": "How do we do this?",
-        "ipa": "/haʊ duː wiː duː ðɪs/",
-        "zh": "我们该怎么做？",
-        "highlights": []
-      },
-      {
-        "id": 50,
-        "start": 252.69,
-        "end": 254.13,
-        "speaker": "Speaker",
-        "en": "It's really easy.",
-        "ipa": "/ɪts ˈriːəli ˈiːzi/",
-        "zh": "其实很简单。",
-        "highlights": []
-      },
-      {
-        "id": 51,
-        "start": 254.45,
-        "end": 262.07,
-        "speaker": "Speaker",
-        "en": "Start your message with one sentence that names the topic you want to talk about, and the more specific, the better.",
-        "ipa": "/stɑːrt jʊər ˈmɛsɪdʒ wɪθ wʌn ˈsɛntəns ðæt neɪmz ðə ˈtɑːpɪk juː wɑːnt tuː tɔːk əˈbaʊt, ænd ðə mɔːr spɪˈsɪfɪk, ðə ˈbɛtər/",
-        "zh": "发信息时，先用一句话点明你想讨论的主题，而且越具体越好。",
-        "highlights": [
-          {
-            "text": "specific",
-            "key": "specific",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 52,
-        "start": 262.61,
-        "end": 265.55,
-        "speaker": "Speaker",
-        "en": "You could say, \"I'd like to talk about July sales figures.\"",
-        "ipa": "/juː kʊd seɪ, aɪd laɪk tuː tɔːk əˈbaʊt dʒuˈlaɪ seɪlz ˈfɪɡjərz/",
-        "zh": "你可以说：“我想谈谈7月份的销售数据。”",
-        "highlights": [
-          {
-            "text": "sales figures",
-            "key": "sales figures",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 53,
-        "start": 265.59,
-        "end": 268.53,
-        "speaker": "Speaker",
-        "en": "\"I want to talk about Project Everest's timeline.\"",
-        "ipa": "/aɪ wɑːnt tuː tɔːk əˈbaʊt ˈprɑːdʒɛkt ˈɛvərɪsts ˈtaɪmˌlaɪn/",
-        "zh": "“我想谈谈珠穆朗玛峰项目的时间表。”",
-        "highlights": [
-          {
-            "text": "timeline",
-            "key": "timeline",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 54,
-        "start": 268.57,
-        "end": 271.53,
-        "speaker": "Speaker",
-        "en": "Or \"Can I talk about our one-to-one this week?\"",
-        "ipa": "/ɔːr kæn aɪ tɔːk əˈbaʊt ˈaʊər wʌn tuː wʌn ðɪs wiːk/",
-        "zh": "或者“我能谈谈我们这周的单独沟通吗？”",
-        "highlights": []
-      },
-      {
-        "id": 55,
-        "start": 272.41,
-        "end": 276.75,
-        "speaker": "Speaker",
-        "en": "One message, one sentence that lets your audience know what the topic is.",
-        "ipa": "/wʌn ˈmɛsɪdʒ, wʌn ˈsɛntəns ðæt lɛts jʊər ˈɔːdiəns noʊ wʌt ðə ˈtɑːpɪk ɪz/",
-        "zh": "一条信息，一句话，让你的听众知道主题是什么。",
-        "highlights": [
-          {
-            "text": "audience",
-            "key": "audience",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 56,
-        "start": 276.79,
-        "end": 280.31,
-        "speaker": "Speaker",
-        "en": "They won't be thinking, \"What are you talking about?\"",
-        "ipa": "/ðeɪ woʊnt biː ˈθɪŋkɪŋ, wʌt ɑːr juː ˈtɔːkɪŋ əˈbaʊt/",
-        "zh": "他们就不会一直在想：“你在说什么呢？”",
-        "highlights": [
-          {
-            "text": "What are you talking about?",
-            "key": "what are you talking about",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 57,
-        "start": 281.63,
-        "end": 285.73,
-        "speaker": "Speaker",
-        "en": "Now having a clear topic is a great start, but it's not enough.",
-        "ipa": "/naʊ ˈhævɪŋ ə klɪr ˈtɑːpɪk ɪz ə ɡreɪt stɑːrt, bʌt ɪts nɑːt ɪˈnʌf/",
-        "zh": "拥有一个清晰的主题是个很好的开始，但这还不够。",
-        "highlights": [
-          {
-            "text": "a great start",
-            "key": "a great start",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 58,
-        "start": 285.77,
-        "end": 290.29,
-        "speaker": "Speaker",
-        "en": "We need the second part of the tip, which is the I.",
-        "ipa": "/wiː niːd ðə ˈsɛkənd pɑːrt əv ðə tɪp, wɪtʃ ɪz ði aɪ/",
-        "zh": "我们需要这个小建议的第二部分，也就是字母 I。",
-        "highlights": []
-      },
-      {
-        "id": 59,
-        "start": 290.33,
-        "end": 292.63,
-        "speaker": "Speaker",
-        "en": "And I stands for intent.",
-        "ipa": "/ænd aɪ stændz fɔːr ɪnˈtɛnt/",
-        "zh": "I 代表意图（Intent）。",
-        "highlights": [
-          {
-            "text": "stands for",
-            "key": "stand for",
-            "chip": "indigo"
-          },
-          {
-            "text": "intent",
-            "key": "intent",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "start": 292.67,
-        "end": 297.59,
-        "speaker": "Speaker",
-        "en": "Intent is what we want the other person to do with our message.",
-        "ipa": "/ɪnˈtɛnt ɪz wʌt wiː wɑːnt ði ˈʌðər ˈpɜːrsən tuː duː wɪθ ˈaʊər ˈmɛsɪdʒ/",
-        "zh": "意图是指我们希望对方如何处理我们的信息。",
-        "highlights": [
-          {
-            "text": "Intent",
-            "key": "intent",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 61,
-        "start": 298.39,
-        "end": 303.23,
-        "speaker": "Speaker",
-        "en": "Have you ever been in a conversation and a few minutes in thought, \"Why are you telling me this?\"",
-        "ipa": "/hæv juː ˈɛvər biːn ɪn ə ˌkɑːnvərˈseɪʃən ænd ə fjuː ˈmɪnɪts ɪn θɔːt, waɪ ɑːr juː ˈtɛlɪŋ miː ðɪs/",
-        "zh": "你有没有过这样的经历：在对话进行了几分钟后，心里在想：“你为什么跟我说这些？”",
-        "highlights": [
-          {
-            "text": "conversation",
-            "key": "conversation",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 62,
-        "start": 304.49,
-        "end": 313.07,
-        "speaker": "Speaker",
-        "en": "That happens when the intent isn't clear, when the speaker hasn't told you what to do with the information that they are giving you.",
-        "ipa": "/ðæt ˈhæpənz wɛn ði ɪnˈtɛnt ˈɪzənt klɪr, wɛn ðə ˈspiːkər ˈhæzənt toʊld juː wʌt tuː duː wɪθ ði ˌɪnfərˈmeɪʃən ðæt ðeɪ ɑːr ˈɡɪvɪŋ juː/",
-        "zh": "这种情况发生时，往往是因为意图不够明确，说话者没有告诉你该如何处理他们提供给你的信息。",
-        "highlights": [
-          {
-            "text": "information",
-            "key": "information",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "start": 314.23,
-        "end": 323.89,
-        "speaker": "Speaker",
-        "en": "Now there’s a process in our brains called selective attention, and this filters incoming information and tells you what is important and what is not.",
-        "ipa": "/naʊ ðɛrz ə ˈprɑːsɛs ɪn ˈaʊər breɪnz kɔːld sɪˈlɛktɪv əˈtɛnʃən, ænd ðɪs ˈfɪltərz ˈɪnkʌmɪŋ ˌɪnfərˈmeɪʃən ænd tɛlz juː wʌt ɪz ɪmˈpɔːrtənt ænd wʌt ɪz nɑːt/",
-        "zh": "我们的大脑中有一个被称为“选择性注意”的过程，它会过滤传入的信息，并告诉你什么重要什么不重要。",
-        "highlights": [
-          {
-            "text": "selective attention",
-            "key": "selective attention",
-            "chip": "indigo"
-          },
-          {
-            "text": "filters",
-            "key": "filter",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 64,
-        "start": 324.43,
-        "end": 329.23,
-        "speaker": "Speaker",
-        "en": "And if you don't know what to do with a message, your brain says, not important.",
-        "ipa": "/ænd ɪf juː doʊnt noʊ wʌt tuː duː wɪθ ə ˈmɛsɪdʒ, jʊər breɪn sɛz, nɑːt ɪmˈpɔːrtənt/",
-        "zh": "如果你不知道该如何处理一条信息，你的大脑就会判定：不重要。",
-        "highlights": [
-          {
-            "text": "important",
-            "key": "important",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 65,
-        "start": 329.27,
-        "end": 331.19,
-        "speaker": "Speaker",
-        "en": "And we stop listening.",
-        "ipa": "/ænd wiː stɑːp ˈlɪsənɪŋ/",
-        "zh": "于是我们就不再听了。",
-        "highlights": [
-          {
-            "text": "stop listening",
-            "key": "stop listening",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "start": 332.37,
-        "end": 338.91,
-        "speaker": "Speaker",
-        "en": "At the beginning of this talk, I told you I would give you a tip that would help improve the success of your communication at work.",
-        "ipa": "/æt ðə bɪˈɡɪnɪŋ ʌv ðɪs tɔːk, aɪ toʊld juː aɪ wʊd ɡɪv juː ə tɪp ðæt wʊd hɛlp ɪmˈpruːv ðə səkˈsɛs ʌv jʊər kəˌmjuːnɪˈkeɪʃən ət wɜːrk./",
-        "zh": "在这场演讲的一开始，我告诉过大家，我会分享一个有助于提升你在职场中沟通成功率的小建议。",
-        "highlights": [
-          {
-            "text": "communication",
-            "key": "communication",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "start": 338.95,
-        "end": 342.13,
-        "speaker": "Speaker",
-        "en": "That told your brains what to do with this information.",
-        "ipa": "/ðæt toʊld jʊər breɪnz wʌt tuː duː wɪð ðɪs ˌɪnfərˈmeɪʃən./",
-        "zh": "那句话告诉了你们的大脑应该如何处理这些信息。",
-        "highlights": [
-          {
-            "text": "information",
-            "key": "information",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "start": 342.61,
-        "end": 349.91,
-        "speaker": "Speaker",
-        "en": "If I hadn't done that, I could be faced with a room full of people smiling politely while all thinking, \"Why are you telling us this?\"",
-        "ipa": "/ɪf aɪ ˈhædənt dʌn ðæt, aɪ kʊd biː feɪst wɪð ə ruːm fʊl ʌv ˈpiːpəl ˈsmaɪlɪŋ pəˈlaɪtli waɪl ɔːl ˈθɪŋɪŋ, 'waɪ ɑː juː ˈtɛlɪŋ ʌs ðɪs?'/",
-        "zh": "如果我刚才没这么做，我可能会面对满屋子面带礼貌微笑、心里却在想“你跟我们说这些干嘛”的人。",
-        "highlights": [
-          {
-            "text": "faced with",
-            "key": "face with",
-            "chip": "indigo"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-69-Celeste-Headlee-10-ways-to-have--part2",
+    "id": "local-69-ABG-part2",
     "number": "EP 69",
-    "title": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 2)",
-    "speaker": "Celeste Headlee · TED",
+    "title": "ABG 欧美妆全流程教学：修容、烘焙定妆与惊艳变装",
+    "speaker": "待补讲者",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
-    "durationSec": 177,
-    "durationLabel": "02:57",
-    "date": "2026/11/28",
-    "tags": [
-      "美食",
-      "个人成长",
-      "日常对话"
-    ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
-    "coverImage": "./content/episodes/trimmed/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED%20%28Part%202%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED%20%28Part%202%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED%20%28Part%202%29.trimmed.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "美食",
-    "skipRanges": [
-      [
-        16.25,
-        17.32
-      ],
-      [
-        33.02,
-        33.55
-      ],
-      [
-        68.05,
-        68.62
-      ],
-      [
-        70.55,
-        71.15
-      ],
-      [
-        119.25,
-        120.65
-      ],
-      [
-        152.45,
-        153.05
-      ],
-      [
-        155.95,
-        156.49
-      ],
-      [
-        175.12,
-        175.72
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.25,
-        "end": 4.48,
-        "speaker": "Speaker",
-        "en": "Number seven: Try not to repeat yourself.",
-        "ipa": "/ˈnʌmbər ˈsɛvən traɪ nɑt tu rɪˈpit jʊərˈsɛlf./",
-        "zh": "第七点：尽量不要重复自己说的话。",
-        "highlights": [
-          {
-            "text": "Number",
-            "key": "number",
-            "chip": "orange"
-          },
-          {
-            "text": "seven",
-            "key": "seven",
-            "chip": "pink"
-          },
-          {
-            "text": "repeat yourself",
-            "key": "重复自己",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 4.52,
-        "end": 8.58,
-        "speaker": "Speaker",
-        "en": "It's condescending, and it's really boring, and we tend to do it a lot.",
-        "ipa": "/ɪts ˌkɑndəˈsɛndɪŋ, ænd ɪts ˈrɪli ˈbɔrɪŋ, ænd wi tɛnd tu du ɪt ə lɑt./",
-        "zh": "这显得居高临下，而且真的很无聊，但我们往往经常这样做。",
-        "highlights": [
-          {
-            "text": "condescending",
-            "key": "居高临下的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 8.62,
-        "end": 16.25,
-        "speaker": "Speaker",
-        "en": "Especially in work conversations or in conversations with our kids, we have a point to make, so we just keep rephrasing it over and over.",
-        "ipa": "/əˈpɛʃəli ɪn wɜrk ˌkɑnvərˈseɪʃənz ɔr ɪn ˌkɑnvərˈseɪʃənz wɪð ˈaʊər kɪdz, wi hæv ə pɔɪnt tu meɪk, soʊ wi dʒʌst kip riˈfreɪzɪŋ ɪt ˈoʊvər ænd ˈoʊvər./",
-        "zh": "特别是在工作交流或与孩子谈话时，我们为了表达一个观点，就会不停地换着法子重复。",
-        "highlights": [
-          {
-            "text": "rephrasing",
-            "key": "换个说法",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 17.32,
-        "end": 18.51,
-        "speaker": "Speaker",
-        "en": "Don't do that.",
-        "ipa": "/doʊnt du ðæt./",
-        "zh": "别那样做。",
-        "highlights": []
-      },
-      {
-        "id": 5,
-        "start": 18.55,
-        "end": 20.85,
-        "speaker": "Speaker",
-        "en": "Number eight: Stay out of the weeds.",
-        "ipa": "/ˈnʌmbər eɪt: steɪ aʊt əv ðə widz./",
-        "zh": "第八点：别纠结于细枝末节。",
-        "highlights": [
-          {
-            "text": "Number",
-            "key": "number",
-            "chip": "orange"
-          },
-          {
-            "text": "eight",
-            "key": "eight",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 20.89,
-        "end": 30.78,
-        "speaker": "Speaker",
-        "en": "Frankly, people don't care about the years, the names, the dates, all those details that you're struggling to come up with in your mind.",
-        "ipa": "/ˈfræŋkli, ˈpipəl doʊnt kɛr əˈbaʊt ðə jɪrz, ðə neɪmz, ðə deɪts, ɔl ðoʊz ˈditeɪlz ðæt jʊr ˈstrʌɡəlɪŋ tu kʌm ʌp wɪð ɪn jʊər maɪnd./",
-        "zh": "坦白说，人们并不在乎年份、名字、日期，那些你绞尽脑汁想要想起来的细节。",
-        "highlights": [
-          {
-            "text": "struggling to come up with",
-            "key": "费力想出",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 30.82,
-        "end": 31.58,
-        "speaker": "Speaker",
-        "en": "They don't care.",
-        "ipa": "/ðeɪ doʊnt kɛr./",
-        "zh": "他们不在乎。",
-        "highlights": []
-      },
-      {
-        "id": 8,
-        "start": 31.62,
-        "end": 33.02,
-        "speaker": "Speaker",
-        "en": "What they care about is you.",
-        "ipa": "/wʌt ðeɪ kɛr əˈbaʊt ɪz ju./",
-        "zh": "他们在乎的是你。",
-        "highlights": []
-      },
-      {
-        "id": 9,
-        "start": 33.55,
-        "end": 37.45,
-        "speaker": "Speaker",
-        "en": "They care about what you're like, what you have in common.",
-        "ipa": "/ðeɪ kɛr əˈbaʊt wʌt jʊr laɪk, wʌt ju hæv ɪn ˈkɑmən./",
-        "zh": "他们在乎你是个什么样的人，你们有什么共同点。",
-        "highlights": [
-          {
-            "text": "have in common",
-            "key": "有共同点",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 37.49,
-        "end": 39.01,
-        "speaker": "Speaker",
-        "en": "So forget the details.",
-        "ipa": "/soʊ fərˈɡɛt ðə ˈditeɪlz./",
-        "zh": "所以忘了那些细节吧。",
-        "highlights": [
-          {
-            "text": "forget",
-            "key": "forget",
-            "chip": "pink"
-          },
-          {
-            "text": "details",
-            "key": "details",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 39.05,
-        "end": 40.12,
-        "speaker": "Speaker",
-        "en": "Leave them out.",
-        "ipa": "/liv ðɛm aʊt./",
-        "zh": "把它们省掉。",
-        "highlights": []
-      },
-      {
-        "id": 12,
-        "start": 40.55,
-        "end": 45.05,
-        "speaker": "Speaker",
-        "en": "Number nine: This is not the last one, but it is the most important one.",
-        "ipa": "/ˈnʌmbər naɪn: ðɪs ɪz nɑt ðə læst wʌn, bʌt ɪt ɪz ðə moʊst ɪmˈpɔrtənt wʌn./",
-        "zh": "第九点：这不是最后一点，但它是最重要的一点。",
-        "highlights": [
-          {
-            "text": "Number",
-            "key": "number",
-            "chip": "pink"
-          },
-          {
-            "text": "important",
-            "key": "important",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 45.09,
-        "end": 46.29,
-        "speaker": "Speaker",
-        "en": "Listen.",
-        "ipa": "/ˈlɪsən./",
-        "zh": "倾听。",
-        "highlights": [
-          {
-            "text": "Listen",
-            "key": "listen",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 46.65,
-        "end": 55.21,
-        "speaker": "Speaker",
-        "en": "I cannot tell you how many really important people have said that listening is perhaps the most, the number one most important skill that you could develop.",
-        "ipa": "/aɪ ˈkænɑt tɛl ju haʊ ˈmɛni ˈrɪli ɪmˈpɔrtənt ˈpipəl hæv sɛd ðæt ˈlɪsənɪŋ ɪz pərˈhæps ðə moʊst, ðə ˈnʌmbər wʌn moʊst ɪmˈpɔrtənt skɪl ðæt ju kʊd dɪˈvɛləp./",
-        "zh": "我无法告诉你，有多少真正重要的人物说过，倾听或许是第一重要的技能。你可以培养的（技能）。",
-        "highlights": [
-          {
-            "text": "number one",
-            "key": "第一位的",
-            "chip": "orange"
-          },
-          {
-            "text": "develop",
-            "key": "培养/发展",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 55.25,
-        "end": 59.68,
-        "speaker": "Speaker",
-        "en": "Buddha said, and I'm paraphrasing, \"If your mouth is open, you're not learning.\"",
-        "ipa": "/ˈbuːdə sɛd, ænd aɪm ˈpærəˌfreɪzɪŋ, \"ɪf jʊər maʊθ ɪz ˈoʊpən, jʊr nɑt ˈlɜrnɪŋ.\"/",
-        "zh": "佛陀曾说——我转述一下——“如果你的嘴张着，你就学不到东西。”",
-        "highlights": [
-          {
-            "text": "paraphrasing",
-            "key": "转述/意译",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 59.72,
-        "end": 64.02,
-        "speaker": "Speaker",
-        "en": "And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
-        "ipa": "/ænd ˈkælvɪn ˈkulɪdʒ sɛd, \"noʊ mæn ˈɛvər ˈlɪsənd hɪz weɪ aʊt əv ə dʒɑb.\"/",
-        "zh": "卡尔文·柯立芝也说过：“没有人是因为听得太多而丢掉工作的。”",
-        "highlights": [
-          {
-            "text": "Coolidge",
-            "key": "coolidge",
-            "chip": "orange"
-          },
-          {
-            "text": "listened",
-            "key": "listened",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "start": 64.35,
-        "end": 68.05,
-        "speaker": "Speaker",
-        "en": "Why do we not listen to each other?",
-        "ipa": "/waɪ du wi nɑt ˈlɪsən tu iːtʃ ˈʌðər?/",
-        "zh": "为什么我们不倾听彼此呢？",
-        "highlights": [
-          {
-            "text": "listen",
-            "key": "listen",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 68.62,
-        "end": 70.55,
-        "speaker": "Speaker",
-        "en": "Number one, we'd rather talk.",
-        "ipa": "/ˈnʌmbər wʌn, wid ˈræðər tɔk./",
-        "zh": "第一，我们更喜欢说话。",
-        "highlights": [
-          {
-            "text": "Number",
-            "key": "number",
-            "chip": "orange"
-          },
-          {
-            "text": "rather",
-            "key": "rather",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "start": 71.15,
-        "end": 72.98,
-        "speaker": "Speaker",
-        "en": "When I'm talking, I'm in control.",
-        "ipa": "/wɛn aɪm ˈtɔkɪŋ, aɪm ɪn kənˈtroʊl./",
-        "zh": "当我说话时，我掌控着局面。",
-        "highlights": [
-          {
-            "text": "in control",
-            "key": "掌控局面",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "start": 73.02,
-        "end": 75.45,
-        "speaker": "Speaker",
-        "en": "I don't have to hear anything I'm not interested in.",
-        "ipa": "/aɪ doʊnt hæv tu hɪr ˈɛniˌθɪŋ aɪm nɑt ˈɪntrəstɪd ɪn./",
-        "zh": "我就不必去听任何我不感兴趣的东西。",
-        "highlights": [
-          {
-            "text": "interested",
-            "key": "interested",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "start": 75.49,
-        "end": 76.85,
-        "speaker": "Speaker",
-        "en": "I'm the center of attention.",
-        "ipa": "/aɪm ðə ˈsɛntər ʌv əˈtɛnʃən/",
-        "zh": "我是注意力的中心。",
-        "highlights": [
-          {
-            "text": "center of attention",
-            "key": "attention",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "start": 76.89,
-        "end": 78.78,
-        "speaker": "Speaker",
-        "en": "I can bolster my own identity.",
-        "ipa": "/aɪ kən ˈboʊstər maɪ oʊn aɪˈdɛntəti/",
-        "zh": "我可以增强我自己的认同感。",
-        "highlights": [
-          {
-            "text": "bolster",
-            "key": "bolster",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "start": 78.82,
-        "end": 81.65,
-        "speaker": "Speaker",
-        "en": "But there's another reason: We get distracted.",
-        "ipa": "/bʌt ðɛrz əˈnʌðər ˈrizən: wi gɛt dɪˈstræktɪd/",
-        "zh": "但还有另一个原因：我们分心了。",
-        "highlights": [
-          {
-            "text": "distracted",
-            "key": "distract",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "start": 81.69,
-        "end": 89.51,
-        "speaker": "Speaker",
-        "en": "The average person talks at about 225 words per minute, but we can listen at up to 500 words per minute.",
-        "ipa": "/ði ˈævərɪdʒ ˈpɜrsən tɔks ət əˈbaʊt ˈtuː ˈhʌndrəd ˈtwɛnti faɪv wɜrdz pɜr ˈmɪnɪt, bʌt wi kən ˈlɪsən ət ʌp tu faɪv ˈhʌndrəd wɜrdz pɜr ˈmɪnɪt/",
-        "zh": "普通人的说话速度大约是每分钟225个词，但我们的听力理解速度最高可达每分钟500个词。",
-        "highlights": [
-          {
-            "text": "average person",
-            "key": "average",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "start": 89.55,
-        "end": 93.51,
-        "speaker": "Speaker",
-        "en": "So our minds are filling in those other 275 words.",
-        "ipa": "/soʊ ˈaʊər maɪndz ɑr ˈfɪlɪŋ ɪn ðoʊz ˈʌðər ˈtuː ˈhʌndrəd ˈsɛvənti faɪv wɜrdz/",
-        "zh": "所以我们的大脑正在填补那另外的275个词。",
-        "highlights": [
-          {
-            "text": "filling in",
-            "key": "fill in",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "start": 93.55,
-        "end": 102.05,
-        "speaker": "Speaker",
-        "en": "And look, I know, it takes effort and energy to actually pay attention to someone, but if you can't do that, you're not in a conversation.",
-        "ipa": "/ænd lʊk, aɪ noʊ, ɪt teɪks ˈɛfərt ənd ˈɛnərdʒi tu ˈæktʃuəli peɪ əˈtɛnʃən tu ˈsʌmwʌn, bʌt ɪf ju kænt du ðæt, jʊr nɑt ɪn ə ˌkɑnvəˈseɪʃən/",
-        "zh": "听着，我知道，真正专注听别人说话需要付出精力和心力，但如果你做不到这一点，你就不算是在对话。",
-        "highlights": [
-          {
-            "text": "pay attention to",
-            "key": "attention",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "start": 102.09,
-        "end": 106.21,
-        "speaker": "Speaker",
-        "en": "You're just two people shouting out barely related sentences in the same place.",
-        "ipa": "/jʊr dʒʌst tu ˈpipəl ˈʃaʊtɪŋ aʊt ˈbɛrli rɪˈleɪtɪd ˈsɛntənsɪz ɪn ðə seɪm pleɪs/",
-        "zh": "你们只是两个人在同一个地方大声说些几乎毫无关联的句子。",
-        "highlights": [
-          {
-            "text": "barely related",
-            "key": "barely",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "start": 106.25,
-        "end": 110.65,
-        "speaker": "Speaker",
-        "en": "You have to listen to one another.",
-        "ipa": "/(ˈlæftər) ju hæv tu ˈlɪsən tu wʌn əˈnʌðər/",
-        "zh": "你们必须听彼此说话。",
-        "highlights": [
-          {
-            "text": "listen to one another",
-            "key": "listen",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "start": 110.69,
-        "end": 112.58,
-        "speaker": "Speaker",
-        "en": "Stephen Covey said it very beautifully.",
-        "ipa": "/ˈstivən ˈkʌvi sɛd ɪt ˈvɛri ˈbjutəfʊli/",
-        "zh": "史蒂芬·柯维说得非常精妙。",
-        "highlights": [
-          {
-            "text": "beautifully",
-            "key": "beautiful",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "start": 112.62,
-        "end": 116.51,
-        "speaker": "Speaker",
-        "en": "He said, \"Most of us don't listen with the intent to understand.",
-        "ipa": "/hi sɛd, \"moʊst ʌv ʌs doʊnt ˈlɪsən wɪð ði ɪnˈtɛnt tu ˌʌndərˈstænd/",
-        "zh": "他说：“我们大多数人听别人说话，并不是为了理解。”",
-        "highlights": [
-          {
-            "text": "intent to understand",
-            "key": "intent",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "start": 116.55,
-        "end": 119.25,
-        "speaker": "Speaker",
-        "en": "We listen with the intent to reply.\"",
-        "ipa": "/wi ˈlɪsən wɪð ði ɪnˈtɛnt tu rɪˈplaɪ.\"",
-        "zh": "我们倾听是为了回答。”",
-        "highlights": [
-          {
-            "text": "intent to reply",
-            "key": "reply",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "start": 120.65,
-        "end": 124.49,
-        "speaker": "Speaker",
-        "en": "One more rule, number 10, and it’s this one: Be brief.",
-        "ipa": "/wʌn mɔr rul, ˈnʌmbər tɛn, ənd ɪts ðɪs wʌn: bi brif/",
-        "zh": "还有一条规则，第10条，就是这个：简明扼要。",
-        "highlights": [
-          {
-            "text": "Be brief",
-            "key": "brief",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "start": 124.69,
-        "end": 127.52,
-        "speaker": "Speaker",
-        "en": "Be interested in other people.",
-        "ipa": "/bi ˈɪntrɪstɪd ɪn ˈʌðər ˈpipəl/",
-        "zh": "对别人感兴趣。",
-        "highlights": [
-          {
-            "text": "Be interested in",
-            "key": "interested",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "start": 127.59,
-        "end": 132.09,
-        "speaker": "Speaker",
-        "en": "You know, I grew up with a very famous grandfather, and there was kind of a ritual in my home.",
-        "ipa": "/ju noʊ, aɪ gru ʌp wɪð ə ˈvɛri ˈfeɪməs ˈgrændˌfɑðər, ənd ðɛr wʌz kaɪnd ʌv ə ˈrɪtʃuəl ɪn maɪ hoʊm/",
-        "zh": "你知道的，我在一个非常著名的祖父身边长大，我家有一种类似仪式的传统。",
-        "highlights": [
-          {
-            "text": "grew up",
-            "key": "grow up",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "start": 132.15,
-        "end": 139.78,
-        "speaker": "Speaker",
-        "en": "People would come over to talk to my grandparents, and after they would leave, my mother would come over to us, and she’d say, “Do you know who that was?",
-        "ipa": "/ˈpipəl wʊd kʌm ˈoʊvər tu tɔk tu maɪ ˈgrændˌpɛrənts, ənd ˈæftər ðeɪ wʊd liv, maɪ ˈmʌðər wʊd kʌm ˈoʊvər tu ʌs ænd ʃid seɪ, “du ju noʊ hu ðæt wʌz/",
-        "zh": "人们会过来和我祖父母聊天，等他们离开后，我母亲就会走到我们身边，然后她会说：“你知道刚才那是谁吗？",
-        "highlights": [
-          {
-            "text": "come over",
-            "key": "come over",
-            "chip": "indigo"
-          },
-          {
-            "text": "Do you know who",
-            "key": "know",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "start": 139.82,
-        "end": 141.68,
-        "speaker": "Speaker",
-        "en": "She was the runner-up to Miss America.",
-        "ipa": "/ʃi wʌz ðə ˈrʌnərˌʌp tu mɪs əˈmɛrɪkə/",
-        "zh": "她是美国小姐的亚军。",
-        "highlights": [
-          {
-            "text": "runner-up",
-            "key": "runner-up",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "start": 141.72,
-        "end": 143.41,
-        "speaker": "Speaker",
-        "en": "He was the mayor of Sacramento.",
-        "ipa": "/hi wʌz ðə ˈmeɪər ʌv ˈsækrəˌmɛntoʊ/",
-        "zh": "他是萨克拉门托的市长。",
-        "highlights": [
-          {
-            "text": "mayor",
-            "key": "mayor",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "start": 143.45,
-        "end": 144.66,
-        "speaker": "Speaker",
-        "en": "She won a Pulitzer Prize.",
-        "ipa": "/ʃi wʌn ə ˈpʊlɪtsər praɪz/",
-        "zh": "她获得过普利策奖。",
-        "highlights": [
-          {
-            "text": "Pulitzer Prize",
-            "key": "Pulitzer",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "start": 144.7,
-        "end": 146.19,
-        "speaker": "Speaker",
-        "en": "He's a Russian ballet dancer.\"",
-        "ipa": "/hiz ə ˈrʌʃən bæˈleɪ ˈdænsər.\"",
-        "zh": "他是一位俄罗斯芭蕾舞演员。”",
-        "highlights": [
-          {
-            "text": "ballet dancer",
-            "key": "ballet",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "start": 146.25,
-        "end": 152.45,
-        "speaker": "Speaker",
-        "en": "And I kind of grew up assuming everyone has some hidden, amazing thing about them.",
-        "ipa": "/ænd aɪ kaɪnd ʌv gru ʌp əˈsumɪŋ ˈɛvriˌwʌn hæz sʌm ˈhɪdən, əˈmeɪzɪŋ θɪŋ əˈbaʊt ðɛm/",
-        "zh": "我差不多是在这种假设中长大的：每个人身上都有一些不为人知的、神奇的事情。",
-        "highlights": [
-          {
-            "text": "assuming",
-            "key": "assume",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "start": 153.05,
-        "end": 155.95,
-        "speaker": "Speaker",
-        "en": "And honestly, I think it's what makes me a better host.",
-        "ipa": "/ænd ˈɑnəstli, aɪ θɪŋk ɪts hwʌt meɪks mi ə ˈbɛtər hoʊst/",
-        "zh": "说实话，我觉得正是这一点让我成为了一个更好的主持人。",
-        "highlights": [
-          {
-            "text": "honestly",
-            "key": "honest",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "start": 156.49,
-        "end": 159.29,
-        "speaker": "Speaker",
-        "en": "I keep my mouth shut as often as I possibly can.",
-        "ipa": "/aɪ kip maɪ maʊθ ʃʌt æz ˈɔfən æz aɪ ˈpɑsəbli kæn/",
-        "zh": "我尽可能经常地闭紧嘴巴。",
-        "highlights": [
-          {
-            "text": "keep my mouth shut",
-            "key": "mouth",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "start": 159.35,
-        "end": 161.25,
-        "speaker": "Speaker",
-        "en": "I keep my mind open.",
-        "ipa": "/aɪ kip maɪ maɪnd ˈoʊpən/",
-        "zh": "我保持思想开放。",
-        "highlights": [
-          {
-            "text": "keep my mind open",
-            "key": "open",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "start": 161.32,
-        "end": 166.09,
-        "speaker": "Speaker",
-        "en": "And I’m always prepared to be amazed, and I'm never disappointed.",
-        "ipa": "/ænd aɪm ˈɔlweɪz prɪˈpɛrd tu bi əˈmeɪzd, ənd aɪm ˈnɛvər ˌdɪsəˈpɔɪntɪd/",
-        "zh": "而且我随时准备好感到惊叹，我也从来没有失望过。",
-        "highlights": [
-          {
-            "text": "prepared to be amazed",
-            "key": "amazed",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "start": 166.15,
-        "end": 167.85,
-        "speaker": "Speaker",
-        "en": "You do the same thing.",
-        "ipa": "/ju du ðə seɪm θɪŋ/",
-        "zh": "你们也这样做吧。",
-        "highlights": [
-          {
-            "text": "same thing",
-            "key": "same",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "start": 167.95,
-        "end": 175.12,
-        "speaker": "Speaker",
-        "en": "Go out, talk to people, listen to people, and, most importantly, be prepared to be amazed.",
-        "ipa": "/goʊ aʊt, tɔk tu ˈpipəl, ˈlɪsən tu ˈpipəl, ənd, moʊst ɪmˈpɔrtəntli, bi prɪˈpɛrd tu bi əˈmeɪzd/",
-        "zh": "走出去，和人们交谈，倾听他们说话，最重要的是，随时准备好迎接惊奇。",
-        "highlights": [
-          {
-            "text": "most importantly",
-            "key": "importantly",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "start": 175.72,
-        "end": 176.89,
-        "speaker": "Speaker",
-        "en": "Thanks.",
-        "ipa": "/ðæŋks/",
-        "zh": "谢谢。",
-        "highlights": [
-          {
-            "text": "Thanks",
-            "key": "thanks",
-            "chip": "orange"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-68-Celeste-Headlee-10-ways-to-have--part1",
-    "number": "EP 68",
-    "title": "Celeste Headlee： 10 ways to have a better conversation ｜ TED (Part 1)",
-    "speaker": "Celeste Headlee · TED",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 4,
-    "durationSec": 494,
-    "durationLabel": "08:14",
-    "date": "2026/11/28",
-    "tags": [
-      "美食",
-      "个人成长",
-      "日常对话"
-    ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
-    "coverImage": "./content/episodes/trimmed/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED%20%28Part%201%29.trimmed.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "美食",
-    "skipRanges": [
-      [
-        102.65,
-        103.58
-      ],
-      [
-        171.15,
-        172.22
-      ],
-      [
-        324.85,
-        325.62
-      ],
-      [
-        339.55,
-        340.28
-      ],
-      [
-        343.98,
-        344.65
-      ],
-      [
-        349.18,
-        350.58
-      ],
-      [
-        390.48,
-        391.15
-      ],
-      [
-        432.95,
-        433.48
-      ],
-      [
-        437.22,
-        438.22
-      ],
-      [
-        453.42,
-        454.05
-      ],
-      [
-        457.75,
-        458.68
-      ],
-      [
-        481.85,
-        482.55
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.25,
-        "end": 4.91,
-        "speaker": "Speaker",
-        "en": "All right, I want to see a show of hands: how many of you have unfriended someone on Facebook?",
-        "ipa": "/ɔl raɪt, aɪ wɑnt tu si ə ʃoʊ əv hændz: haʊ mɛni əv ju hæv ˌʌnˈfrɛndɪd ˈsʌmwʌn ɑn ˈfeɪsˌbʊk?/",
-        "zh": "好了，我想请大家举个手：你们中有多少人在 Facebook 上删过好友？",
-        "highlights": [
-          {
-            "text": "show of hands",
-            "key": "举手表决",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 4.95,
-        "end": 10.64,
-        "speaker": "Speaker",
-        "en": "Because they said something offensive about politics or religion, childcare, food?",
-        "ipa": "/bɪˈkəz ðeɪ sɛd ˈsʌmθɪŋ əˈfɛnsɪv əˈbaʊt ˈpɑləˌtɪks ɔr rɪˈlɪdʒən, ˈʧaɪldˌkɛr, fud?/",
-        "zh": "因为他们对政治、宗教、育儿或食物发表了冒犯性的言论？",
-        "highlights": [
-          {
-            "text": "offensive",
-            "key": "冒犯的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 10.68,
-        "end": 17.78,
-        "speaker": "Speaker",
-        "en": "And how many of you know at least one person that you avoid because you just don't want to talk to them?",
-        "ipa": "/(ˈlæftər) ænd haʊ mɛni əv ju noʊ ət list wʌn ˈpɜrsən ðæt ju əˈvɔɪd bɪˈkəz ju ʤʌst doʊnt wɑnt tu tɔk tu ðɛm?/",
-        "zh": "你们中有多少人认识至少一个人，因为不想和他们说话而刻意回避？",
-        "highlights": [
-          {
-            "text": "at least",
-            "key": "至少",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 18.28,
-        "end": 28.64,
-        "speaker": "Speaker",
-        "en": "You know, it used to be that in order to have a polite conversation, we just had to follow the advice of Henry Higgins in \"My Fair Lady\": Stick to the weather and your health.",
-        "ipa": "/(ˈlæftər) ju noʊ, ɪt juzd tu bi ðæt ɪn ˈɔrdər tu hæv ə pəˈlaɪt ˌkɑnvərˈseɪʃən, wi ʤʌst hæd tu ˈfɑloʊ ði ədˈvaɪs əv ˈhɛnri ˈhɪɡɪnz ɪn \"maɪ fɛr ˈleɪdi\": stɪk tu ðə ˈwɛðər ænd jʊər hɛlθ./",
-        "zh": "你知道，过去为了进行一场礼貌的对话，我们只需要遵循《窈窕淑女》中亨利·希金斯的建议：只聊天气和健康。",
-        "highlights": [
-          {
-            "text": "used to be",
-            "key": "曾经是",
-            "chip": "indigo"
-          },
-          {
-            "text": "Stick to",
-            "key": "坚持聊/局限于",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 28.68,
-        "end": 34.71,
-        "speaker": "Speaker",
-        "en": "But these days, with climate change and anti-vaxxing, those subjects -- are not safe either.",
-        "ipa": "/bʌt ðiz deɪz, wɪð ˈklaɪmət ʧeɪnʤ ænd ˈænti-ˈvæksɪŋ, ðoʊz ˈsʌbʤɪkts -- (ˈlæftər) ɑr nɑt seɪf ˈiðər./",
-        "zh": "但如今，随着气候变化和反疫苗运动，这些话题——也不再安全了。",
-        "highlights": [
-          {
-            "text": "these days",
-            "key": "如今",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 34.75,
-        "end": 52.34,
-        "speaker": "Speaker",
-        "en": "So this world that we live in, this world in which every conversation has the potential to devolve into an argument, where our politicians can't speak to one another and where even the most trivial of issues have someone fighting both passionately for it and against it, it's not normal.",
-        "ipa": "/soʊ ðɪs wɜrld ðæt wi lɪv ɪn, ðɪs wɜrld ɪn wɪʧ ˈɛvri ˌkɑnvərˈseɪʃən hæz ðə pəˈtɛnʃəl tu dɪˈvɑlv ˈɪntu ən ˈɑrɡjəmənt, wɛr ˈaʊər ˌpɑləˈtɪʃənz kænt spik tu wʌn əˈnʌðər ænd wɛr ˈivən ðə moʊst ˈtrɪviəl əv ˈɪʃuz hæv ˈsʌmwʌn ˈfaɪtɪŋ boʊθ ˈpæʃənətli fɔr ɪt ænd əˈɡɛnst ɪt, ɪts nɑt ˈnɔrməl./",
-        "zh": "所以我们生活的这个世界，在这个世界里，每一场对话都有可能演变成争吵，我们的政客无法彼此交谈，甚至连最琐碎的问题都有人充满激情地支持或反对，这很不正常。",
-        "highlights": [
-          {
-            "text": "devolve into",
-            "key": "演变成（负面）",
-            "chip": "orange"
-          },
-          {
-            "text": "trivial",
-            "key": "琐碎的",
-            "chip": "orange"
-          },
-          {
-            "text": "passionately",
-            "key": "充满激情地",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 52.38,
-        "end": 62.34,
-        "speaker": "Speaker",
-        "en": "Pew Research did a study of 10,000 American adults, and they found that at this moment, we are more polarized, we are more divided, than we ever have been in history.",
-        "ipa": "/pju rɪˈsɜrʧ dɪd ə ˈstʌdi əv ˈtɛn ˈθaʊzənd əˈmɛrɪkən əˈdʌlts, ænd ðeɪ faʊnd ðæt æt ðɪs ˈmoʊmənt, wi ɑr mɔr ˈpoʊləˌraɪzd, wi ɑr mɔr dɪˈvaɪdɪd, ðæn wi ˈɛvər hæv bin ɪn ˈhɪstəri./",
-        "zh": "皮尤研究中心对 10,000 名美国成年人进行了一项研究，他们发现此刻我们更加两极分化，更加分裂，比历史上任何时候都要严重。",
-        "highlights": [
-          {
-            "text": "polarized",
-            "key": "两极分化的",
-            "chip": "orange"
-          },
-          {
-            "text": "than we ever have been",
-            "key": "比以往任何时候",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 62.38,
-        "end": 66.14,
-        "speaker": "Speaker",
-        "en": "We're less likely to compromise, which means we're not listening to each other.",
-        "ipa": "/wɪr lɛs ˈlaɪkli tu ˈkɑmprəˌmaɪz, wɪʧ minz wɪr nɑt ˈlɪsənɪŋ tu iʧ ˈʌðər./",
-        "zh": "我们不太愿意妥协，这意味着我们没有在倾听彼此。",
-        "highlights": [
-          {
-            "text": "compromise",
-            "key": "妥协",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 66.18,
-        "end": 73.44,
-        "speaker": "Speaker",
-        "en": "And we make decisions about where to live, who to marry and even who our friends are going to be, based on what we already believe.",
-        "ipa": "/ænd wi meɪk dɪˈɪʒənz əˈbaʊt wɛr tu lɪv, hu tu ˈmɛri ænd ˈivən hu ˈaʊər frɛndz ɑr ˈɡoʊɪŋ tu bi, beɪst ɑn wʌt wi ɔlˈrɛdi bɪˈliv./",
-        "zh": "我们基于自己已有的信仰来决定住在哪里、和谁结婚，甚至谁会成为我们的朋友。",
-        "highlights": [
-          {
-            "text": "based on",
-            "key": "基于",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 73.48,
-        "end": 76.44,
-        "speaker": "Speaker",
-        "en": "Again, that means we're not listening to each other.",
-        "ipa": "/əˈɡɛn, ðæt minz wɪr nɑt ˈlɪsənɪŋ tu iʧ ˈʌðər./",
-        "zh": "再说一次，这意味着我们没有在倾听彼此。",
-        "highlights": [
-          {
-            "text": "Again",
-            "key": "重申/再说一次",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 76.48,
-        "end": 82.51,
-        "speaker": "Speaker",
-        "en": "A conversation requires a balance between talking and listening, and somewhere along the way, we lost that balance.",
-        "ipa": "/ə ˌkɑnvərˈseɪʃən rɪˈkwaɪərz ə ˈbæləns bɪˈtwin ˈtɔkɪŋ ænd ˈlɪsənɪŋ, ænd ˈsʌmˌwɛr əˈlɔŋ ðə weɪ, wi lɔst ðæt ˈbæləns./",
-        "zh": "对话需要说话和倾听之间的平衡，而在某个过程中，我们失去了这种平衡。",
-        "highlights": [
-          {
-            "text": "along the way",
-            "key": "在过程中",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 82.55,
-        "end": 84.41,
-        "speaker": "Speaker",
-        "en": "Now, part of that is due to technology.",
-        "ipa": "/naʊ, pɑrt əv ðæt ɪz du tu tɛkˈnɑləʤi./",
-        "zh": "现在，部分原因是科技。",
-        "highlights": [
-          {
-            "text": "due to",
-            "key": "由于",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 84.45,
-        "end": 89.71,
-        "speaker": "Speaker",
-        "en": "The smartphones that you all either have in your hands or close enough that you could grab them really quickly.",
-        "ipa": "/ðə ˈsmɑrtˌfoʊnz ðæt ju ɔl ˈiðər hæv ɪn jʊər hændz ɔr kloʊs ɪˈnʌf ðæt ju kʊd ɡræb ðɛm ˈrɪli ˈkwɪkli./",
-        "zh": "你们手中拿着的，或者放在触手可及之处的智能手机。",
-        "highlights": [
-          {
-            "text": "close enough",
-            "key": "足够近",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 89.75,
-        "end": 95.94,
-        "speaker": "Speaker",
-        "en": "According to Pew Research, about a third of American teenagers send more than a hundred texts a day.",
-        "ipa": "/əˈkɔrdɪŋ tu pju rɪˈsɜrʧ, əˈbaʊt ə θɜrd əv əˈmɛrɪkən ˈtinˌeɪʤərz sɛnd mɔr ðæn ə ˈhʌndrəd tɛksts ə deɪ./",
-        "zh": "据皮尤研究中心统计，约三分之一的美国青少年每天发送超过一百条短信。",
-        "highlights": [
-          {
-            "text": "According to",
-            "key": "根据",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 95.98,
-        "end": 102.65,
-        "speaker": "Speaker",
-        "en": "And many of them, almost most of them, are more likely to text their friends than they are to talk to them face to face.",
-        "ipa": "/ænd ˈmɛni əv ðɛm, ˈɔlˌmoʊst moʊst əv ðɛm, ɑr mɔr ˈlaɪkli tu tɛkst ðɛr frɛndz ðæn ðeɪ ɑr tu tɔk tu ðɛm feɪs tu feɪs./",
-        "zh": "他们中的许多人，几乎是大多数人，更倾向于给朋友发短信，而不是面对面交谈。",
-        "highlights": [
-          {
-            "text": "face to face",
-            "key": "面对面",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 103.58,
-        "end": 105.54,
-        "speaker": "Speaker",
-        "en": "There's this great piece in The Atlantic.",
-        "ipa": "/ðɛrz ðɪs ɡreɪt pis ɪn ði ætˈlæntɪk./",
-        "zh": "《大西洋月刊》上有一篇很棒的文章。",
-        "highlights": [
-          {
-            "text": "piece",
-            "key": "文章/作品",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "start": 105.58,
-        "end": 108.41,
-        "speaker": "Speaker",
-        "en": "It was written by a high school teacher named Paul Barnwell.",
-        "ipa": "/ɪt wʌz ˈrɪtən baɪ ə haɪ skul ˈtiʧər neɪmd pɔl ˈbɑrnˌwɛl./",
-        "zh": "它是由一位名叫保罗·巴恩韦尔的高中老师写的。",
-        "highlights": [
-          {
-            "text": "high school teacher",
-            "key": "高中老师",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 108.45,
-        "end": 110.58,
-        "speaker": "Speaker",
-        "en": "And he gave his kids a communication project.",
-        "ipa": "/ænd hi ɡeɪv hɪz kɪdz ə kəˌmjunɪˈkeɪʃən ˈprɑˌʤɛkt./",
-        "zh": "他给他的学生布置了一个交流项目。",
-        "highlights": [
-          {
-            "text": "communication project",
-            "key": "交流项目",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "start": 110.62,
-        "end": 114.34,
-        "speaker": "Speaker",
-        "en": "He wanted to teach them how to speak on a specific subject without using notes.",
-        "ipa": "/hi ˈwɑntɪd tu tiʧ ðɛm haʊ tu spik ɑn ə spəˈsɪfɪk ˈsʌbʤɪkt wɪˈθaʊt ˈjuzɪŋ noʊts./",
-        "zh": "他想教他们如何在不使用笔记的情况下就特定主题进行演讲。",
-        "highlights": [
-          {
-            "text": "specific subject",
-            "key": "特定主题",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "start": 114.38,
-        "end": 126.91,
-        "speaker": "Speaker",
-        "en": "And he said this: “I came to realize...” \"I came to realize that conversational competence might be the single most overlooked skill we fail to teach.",
-        "ipa": "/ænd hi sɛd ðɪs: “aɪ keɪm tu ˈriəˌlaɪz...” (ˈlæftər) \"aɪ keɪm tu ˈriəˌlaɪz ðæt ˌkɑnvərˈseɪʃənəl ˈkɑmpətəns maɪt bi ðə ˈsɪŋɡəl moʊst ˈoʊvərˌlʊkt skɪl wi feɪl tu tiʧ./",
-        "zh": "他说：“我意识到”“我意识到，对话能力可能是我们最容易忽视的、没能教给学生的技能。",
-        "highlights": [
-          {
-            "text": "came to realize",
-            "key": "开始意识到",
-            "chip": "indigo"
-          },
-          {
-            "text": "conversational competence",
-            "key": "对话能力",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "start": 126.95,
-        "end": 135.71,
-        "speaker": "Speaker",
-        "en": "Kids spend hours each day engaging with ideas and each other through screens, but rarely do they have an opportunity to hone their interpersonal communications skills.",
-        "ipa": "/kɪdz spɛnd ˈaʊərz iʧ deɪ ɛnˈɡeɪʤɪŋ wɪð aɪˈdiəz ænd iʧ ˈʌðər θru skrinz, bʌt ˈrɛrli du ðeɪ hæv ən ˌɑpərˈtunɪti tu hoʊn ðɛr ˌɪntərˈpɜrsənəl kəˌmjunɪˈkeɪʃənz skɪlz./",
-        "zh": "孩子们每天花几个小时通过屏幕与观点和彼此互动，但他们很少有机会去磨练他们的人际沟通技巧。",
-        "highlights": [
-          {
-            "text": "engaging with",
-            "key": "与...互动/接触",
-            "chip": "indigo"
-          },
-          {
-            "text": "hone",
-            "key": "磨练",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "start": 135.75,
-        "end": 146.44,
-        "speaker": "Speaker",
-        "en": "It might sound like a funny question, but we have to ask ourselves: Is there any 21st-century skill more important than being able to sustain coherent, confident conversation?\"",
-        "ipa": "/ɪt maɪt saʊnd laɪk ə ˈfʌni ˈkwɛsʧən, bʌt wi hæv tu æsk ˈaʊərˌsɛlvz: ɪz ðɛr ˈɛni ˈtwɛnti-fɜrst-ˈsɛnʧəri skɪl mɔr ɪmˈpɔrtənt ðæn ˈbiɪŋ ˈeɪbəl tu səˈsteɪn koʊˈhɪrənt, ˈkɑnfɪdənt ˌkɑnvərˈseɪʃən?\"/",
-        "zh": "这听起来可能是一个有趣的问题，但我们必须问自己：有什么 21 世纪的技能比能够维持连贯、自信的对话更重要吗？\"",
-        "highlights": [
-          {
-            "text": "ask ourselves",
-            "key": "问问自己",
-            "chip": "pink"
-          },
-          {
-            "text": "sustain",
-            "key": "维持",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "start": 146.48,
-        "end": 155.98,
-        "speaker": "Speaker",
-        "en": "Now, I make my living talking to people: Nobel Prize winners, truck drivers, billionaires, kindergarten teachers, heads of state, plumbers.",
-        "ipa": "/naʊ, aɪ meɪk maɪ ˈlɪvɪŋ ˈtɔkɪŋ tu ˈpipəl: noʊˈbɛl praɪz ˈwɪnərz, trʌk ˈdraɪvərz, ˈbɪljəˌnɛrz, ˈkɪndərˌɡɑrtən ˈtiʧərz, hɛdz əv steɪt, ˈplʌmərz./",
-        "zh": "现在，我靠与人交谈为生：诺贝尔奖得主、卡车司机、亿万富翁、幼儿园老师、国家元首、水管工。",
-        "highlights": [
-          {
-            "text": "make my living",
-            "key": "谋生",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "start": 156.05,
-        "end": 157.45,
-        "speaker": "Speaker",
-        "en": "I talk to people that I like.",
-        "ipa": "/aɪ tɔk tu ˈpipəl ðæt aɪ laɪk./",
-        "zh": "我和我喜欢的人交谈。",
-        "highlights": [
-          {
-            "text": "talk to",
-            "key": "与...交谈",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "start": 157.49,
-        "end": 159.21,
-        "speaker": "Speaker",
-        "en": "I talk to people that I don’t like.",
-        "ipa": "/aɪ tɔk tu ˈpipəl ðæt aɪ doʊnt laɪk./",
-        "zh": "我也和我不喜欢的人交谈。",
-        "highlights": []
-      },
-      {
-        "id": 26,
-        "start": 159.25,
-        "end": 163.01,
-        "speaker": "Speaker",
-        "en": "I talk to some people that I disagree with deeply on a personal level.",
-        "ipa": "/aɪ tɔk tu sʌm ˈpipəl ðæt aɪ ˌdɪsəˈɡri wɪð ˈdipli ɑn ə ˈpɜrsənəl ˈlɛvəl./",
-        "zh": "我和一些在个人层面上深感不合的人交谈。",
-        "highlights": [
-          {
-            "text": "disagree with",
-            "key": "不同意/有分歧",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "start": 163.05,
-        "end": 165.81,
-        "speaker": "Speaker",
-        "en": "But I still have a great conversation with them.",
-        "ipa": "/bʌt aɪ stɪl hæv ə ɡreɪt ˌkɑnvərˈseɪʃən wɪð ðɛm./",
-        "zh": "但我仍然能和他们进行很好的对话。",
-        "highlights": [
-          {
-            "text": "great conversation",
-            "key": "很棒的对话",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "start": 165.85,
-        "end": 171.15,
-        "speaker": "Speaker",
-        "en": "So I'd like to spend the next 10 minutes or so teaching you how to talk and how to listen.",
-        "ipa": "/soʊ aɪd laɪk tu spɛnd ðə nɛkst 10 ˈmɪnɪts ɔr soʊ ˈtiʧɪŋ ju haʊ tu tɔk ænd haʊ tu ˈlɪsən./",
-        "zh": "所以我想花接下来的 10 分钟左右教你们如何交谈和如何倾听。",
-        "highlights": [
-          {
-            "text": "or so",
-            "key": "左右",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "start": 172.22,
-        "end": 188.38,
-        "speaker": "Speaker",
-        "en": "Many of you have already heard a lot of advice on this, things like look the person in the eye, think of interesting topics to discuss in advance, look, nod and smile to show that you're paying attention, repeat back what you just heard or summarize it.",
-        "ipa": "/ˈmɛni əv ju həv ɔlˈrɛdi hɜrd ə lɑt əv ædˈvaɪs ɑn ðɪs, θɪŋz laɪk lʊk ðə ˈpɜrsən ɪn ði aɪ, θɪŋk əv ˈɪntrəstɪŋ ˈtɑpɪks tu dɪˈskʌs ɪn ædˈvæns, lʊk, nɑd ənd smaɪl tu ʃoʊ ðæt jʊr ˈpeɪɪŋ əˈtɛnʃən, rɪˈpit bæk wʌt ju ʤʌst hɜrd ɔr ˈsʌməˌraɪz ɪt./",
-        "zh": "你们很多人可能已经听过很多关于这方面的建议了，比如直视对方的眼睛，提前想好有趣的话题去讨论，看着对方、点头并微笑着表现出你在专注听，复述你刚刚听到的话或者总结一下。",
-        "highlights": [
-          {
-            "text": "advice",
-            "key": "建议",
-            "chip": "orange"
-          },
-          {
-            "text": "in advance",
-            "key": "提前",
-            "chip": "indigo"
-          },
-          {
-            "text": "paying attention",
-            "key": "注意，专注",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "start": 188.42,
-        "end": 190.14,
-        "speaker": "Speaker",
-        "en": "So I want you to forget all of that.",
-        "ipa": "/soʊ aɪ wɑnt ju tu fərˈɡɛt ɔl əv ðæt./",
-        "zh": "所以我希望你们把这些统统忘掉。",
-        "highlights": [
-          {
-            "text": "forget",
-            "key": "忘记",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "start": 190.18,
-        "end": 191.38,
-        "speaker": "Speaker",
-        "en": "It is crap.",
-        "ipa": "/ɪt ɪz kræp./",
-        "zh": "这都是废话。",
-        "highlights": [
-          {
-            "text": "crap",
-            "key": "废话，垃圾",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "start": 191.42,
-        "end": 202.38,
-        "speaker": "Speaker",
-        "en": "There is no reason to learn how to show you're paying attention if you are in fact paying attention.",
-        "ipa": "/(ˈlæftər) ðɛr ɪz noʊ ˈrizən tu lɜrn haʊ tu ʃoʊ jʊr ˈpeɪɪŋ əˈtɛnʃən ɪf ju ɑr ɪn fækt ˈpeɪɪŋ əˈtɛnʃən./",
-        "zh": "如果你本来就在专心听，根本没必要去学怎么表现得在专心听。如果你确实在专心听的话。",
-        "highlights": [
-          {
-            "text": "no reason to",
-            "key": "没有理由去",
-            "chip": "indigo"
-          },
-          {
-            "text": "in fact",
-            "key": "事实上",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "start": 202.42,
-        "end": 213.81,
-        "speaker": "Speaker",
-        "en": "Now, I actually use the exact same skills as a professional interviewer that I do in regular life.",
-        "ipa": "/(ˈlæftər) (əˈplɔz) naʊ, aɪ ˈæktʃuəli juz ði ɪɡˈzækt seɪm skɪlz æz ə prəˈfɛʃənəl ˈɪntəˌvjuər ðæt aɪ du ɪn ˈrɛɡjələr laɪf./",
-        "zh": "其实，我作为一个专业采访者，所运用的技巧和我在日常生活中用的是完全一样的。",
-        "highlights": [
-          {
-            "text": "exact same",
-            "key": "完全相同的",
-            "chip": "pink"
-          },
-          {
-            "text": "regular life",
-            "key": "日常生活",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "start": 213.85,
-        "end": 221.14,
-        "speaker": "Speaker",
-        "en": "So, I'm going to teach you how to interview people, and that's actually going to help you learn how to be better conversationalists.",
-        "ipa": "/soʊ, aɪm ˈɡoʊɪŋ tu tiːtʃ ju haʊ tu ˈɪntəˌvju ˈpipəl, ənd ðæts ˈæktʃuəli ˈɡoʊɪŋ tu hɛlp ju lɜrn haʊ tu bi ˈbɛtər ˌkɑnvərˈseɪʃənəlɪsts./",
-        "zh": "所以，我要教你们如何去采访别人，这其实会帮你们学会如何成为更好的对话者。",
-        "highlights": [
-          {
-            "text": "conversationalists",
-            "key": "擅长对话的人",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "start": 221.18,
-        "end": 228.21,
-        "speaker": "Speaker",
-        "en": "Learn to have a conversation without wasting your time, without getting bored, and, please God, without offending anybody.",
-        "ipa": "/lɜrn tu hæv ə ˌkɑnvərˈseɪʃən wɪˈaʊt ˈweɪstɪŋ jʊər taɪm, wɪˈaʊt ˈɡɛtɪŋ bɔrd, ənd, pliz ɡɑd, wɪˈaʊt əˈfɛndɪŋ ˈɛniˌbɑdi./",
-        "zh": "学会进行一场对话，既不浪费时间，又不会感到无聊，而且——老天保佑——不会冒犯任何人。",
-        "highlights": [
-          {
-            "text": "without wasting",
-            "key": "不浪费",
-            "chip": "indigo"
-          },
-          {
-            "text": "offending",
-            "key": "冒犯",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "start": 228.25,
-        "end": 230.44,
-        "speaker": "Speaker",
-        "en": "We've all had really great conversations.",
-        "ipa": "/wiv ɔl hæd ˈrɪli ɡreɪt ˌkɑnvərˈseɪʃənz./",
-        "zh": "我们都经历过非常棒的对话。",
-        "highlights": [
-          {
-            "text": "great conversations",
-            "key": "精彩的对话",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "start": 230.48,
-        "end": 231.52,
-        "speaker": "Speaker",
-        "en": "We've had them before.",
-        "ipa": "/wiv hæd ðɛm bɪˈfɔr./",
-        "zh": "我们以前有过。",
-        "highlights": [
-          {
-            "text": "before",
-            "key": "以前",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "start": 231.56,
-        "end": 232.64,
-        "speaker": "Speaker",
-        "en": "We know what it's like.",
-        "ipa": "/wi noʊ wʌt ɪts laɪk./",
-        "zh": "我们知道那是什么感觉。",
-        "highlights": [
-          {
-            "text": "what it's like",
-            "key": "……是怎样的",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "start": 232.68,
-        "end": 240.98,
-        "speaker": "Speaker",
-        "en": "The kind of conversation where you walk away feeling engaged and inspired, or where you feel like you've made a real connection or you've been perfectly understood.",
-        "ipa": "/ðə kaɪnd əv ˌkɑnvərˈseɪʃən wɛr ju wɔk əˈweɪ ˈfilɪŋ ɪnˈɡeɪʤd ənd ɪnˈspaɪərd, ɔr wɛr ju fil laɪk ðiv meɪd ə riəl kəˈnɛkʃən ɔr juv bin ˈpɜrfɪktli ˌʌndərˈstʊd./",
-        "zh": "那种让你离开时感到投入且受到启发，或者让你觉得你们建立了真正的连接的对话，或者觉得自己被完全理解了。",
-        "highlights": [
-          {
-            "text": "engaged",
-            "key": "投入的",
-            "chip": "orange"
-          },
-          {
-            "text": "inspired",
-            "key": "受到启发的",
-            "chip": "orange"
-          },
-          {
-            "text": "perfectly understood",
-            "key": "被完全理解",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "start": 241.02,
-        "end": 245.51,
-        "speaker": "Speaker",
-        "en": "There is no reason why most of your interactions can't be like that.",
-        "ipa": "/ðɛr ɪz noʊ ˈrizən waɪ moʊst əv jʊər ˌɪntərˈækʃənz kænt bi laɪk ðæt./",
-        "zh": "没有任何理由让你的大部分互动不能变成那样。",
-        "highlights": [
-          {
-            "text": "interactions",
-            "key": "互动",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "start": 245.55,
-        "end": 246.7,
-        "speaker": "Speaker",
-        "en": "So I have 10 basic rules.",
-        "ipa": "/soʊ aɪ hæv tɛn ˈbeɪsɪk rulz./",
-        "zh": "所以我总结了10条基本规则。",
-        "highlights": [
-          {
-            "text": "basic rules",
-            "key": "基本规则",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "start": 246.74,
-        "end": 255.24,
-        "speaker": "Speaker",
-        "en": "I'm going to walk you through all of them, but honestly, if you just choose one of them and master it, you'll already enjoy better conversations.",
-        "ipa": "/aɪm ˈɡoʊɪŋ tu wɔk ju θru ɔl əv ðɛm, bət ˈɑnstli, ɪf ju ʤʌst ʧuz wʌn əv ðɛm ənd ˈmæstər ɪt, jul ɔlˈrɛdi ɪnˈʤɔɪ ˈbɛtər ˌkɑnvərˈseɪʃənz./",
-        "zh": "我会带大家过一遍所有的规则，但说实话，如果你只要挑出其中一条并掌握它，你就能享受到更好的对话了。",
-        "highlights": [
-          {
-            "text": "master",
-            "key": "掌握",
-            "chip": "orange"
-          },
-          {
-            "text": "enjoy",
-            "key": "享受",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "start": 255.28,
-        "end": 257.51,
-        "speaker": "Speaker",
-        "en": "Number one: Don't multitask.",
-        "ipa": "/ˈnʌmbər wʌn: doʊnt ˈmʌltiˌtæsk./",
-        "zh": "第一条：不要分心多用（不要同时做多件事）。",
-        "highlights": [
-          {
-            "text": "multitask",
-            "key": "多任务处理，同时做多事",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "start": 257.55,
-        "end": 262.58,
-        "speaker": "Speaker",
-        "en": "And I don't mean just set down your cell phone or your tablet or your car keys or whatever is in your hand.",
-        "ipa": "/ænd aɪ doʊnt min ʤʌst sɛt daʊn jʊər sɛl foʊn ɔr jʊər ˈtæblət ɔr jʊər kɑr kiz ɔr wʌtˈɛvər ɪz ɪn jʊər hænd./",
-        "zh": "我指的不仅仅是放下你的手机、平板、车钥匙或者手里拿的任何东西。",
-        "highlights": [
-          {
-            "text": "set down",
-            "key": "放下",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "start": 262.62,
-        "end": 264.51,
-        "speaker": "Speaker",
-        "en": "I mean, be present.",
-        "ipa": "/aɪ min, bi ˈprɛzənt./",
-        "zh": "我的意思是，专注于当下。",
-        "highlights": [
-          {
-            "text": "be present",
-            "key": "活在当下，注意力集中",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "start": 264.55,
-        "end": 266.78,
-        "speaker": "Speaker",
-        "en": "Be in that moment.",
-        "ipa": "/bi ɪn ðæt ˈmoʊmənt./",
-        "zh": "融入那个时刻。",
-        "highlights": [
-          {
-            "text": "in that moment",
-            "key": "在那个时刻",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "start": 266.82,
-        "end": 269.41,
-        "speaker": "Speaker",
-        "en": "Don't think about your argument you had with your boss.",
-        "ipa": "/doʊnt θɪŋk əˈbaʊt jʊər ˈɑrɡjəmənt ju hæd wɪd jʊər bɑs./",
-        "zh": "不要去想你和老板吵的那次架。",
-        "highlights": [
-          {
-            "text": "argument",
-            "key": "争吵，争论",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "start": 269.45,
-        "end": 272.04,
-        "speaker": "Speaker",
-        "en": "Don't think about what you're going to have for dinner.",
-        "ipa": "/doʊnt θɪŋk əˈbaʊt wʌt jʊr ˈɡoʊɪŋ tu hæv fɔr ˈdɪnər./",
-        "zh": "不要去想你晚餐打算吃什么。",
-        "highlights": [
-          {
-            "text": "for dinner",
-            "key": "作为晚餐",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 49,
-        "start": 272.08,
-        "end": 277.71,
-        "speaker": "Speaker",
-        "en": "If you want to get out of the conversation, get out of the conversation, but don't be half in it and half out of it.",
-        "ipa": "/ɪf ju wɑnt tu ɡɛt aʊt əv ðə ˌkɑnvərˈseɪʃən, ɡɛt aʊt əv ðə ˌkɑnvərˈseɪʃən, bət doʊnt bi hæf ɪn ɪt ənd hæf aʊt əv ɪt./",
-        "zh": "如果你想结束对话，那就离开对话，但不要心不在焉、半心半意。",
-        "highlights": [
-          {
-            "text": "get out of",
-            "key": "离开，退出",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 50,
-        "start": 277.75,
-        "end": 280.31,
-        "speaker": "Speaker",
-        "en": "Number two: Don't pontificate.",
-        "ipa": "/ˈnʌmbər tu: doʊnt pɑnˈtɪfəˌkeɪt./",
-        "zh": "第二条：不要高谈阔论、好为人师。",
-        "highlights": [
-          {
-            "text": "pontificate",
-            "key": "自以为是地发表高见",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 51,
-        "start": 280.35,
-        "end": 289.94,
-        "speaker": "Speaker",
-        "en": "If you want to state your opinion without any opportunity for response or argument or pushback or growth, write a blog.",
-        "ipa": "/ɪf ju wɑnt tu steɪt jʊər əˈpɪnjən wɪˈaʊt ˈɛni ˌɑpərˈtunəti fɔr rɪˈspɑns ɔr ˈɑrɡjəmənt ɔr ˈpʊʃˌbæk ɔr ɡroʊθ, raɪt ə blɑɡ./",
-        "zh": "如果你只想表达自己的观点，却不给别人任何回应、反驳、推翻或成长的机会，那就去写博客吧。",
-        "highlights": [
-          {
-            "text": "state your opinion",
-            "key": "表达观点",
-            "chip": "indigo"
-          },
-          {
-            "text": "pushback",
-            "key": "反弹，反对意见",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 52,
-        "start": 289.98,
-        "end": 298.21,
-        "speaker": "Speaker",
-        "en": "Now, there's a really good reason why I don't allow pundits on my show: Because they're really boring.",
-        "ipa": "/(ˈlæftər) naʊ, ðɛrz ə ˈrɪli ɡʊd ˈrizən waɪ aɪ doʊnt əˈlaʊ ˈpʌndɪts ɑn maɪ ʃoʊ: bɪˈkəz ðɛr ˈrɪli ˈbɔrɪŋ./",
-        "zh": "现在，我节目里不允许名嘴或评论员上场，这其实有个很好的理由：因为他们真的很无聊。",
-        "highlights": [
-          {
-            "text": "pundits",
-            "key": "专家权威，评论员",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 53,
-        "start": 298.25,
-        "end": 302.11,
-        "speaker": "Speaker",
-        "en": "If they're conservative, they're going to hate Obama and food stamps and abortion.",
-        "ipa": "/ɪf ðɛr kənˈsɜrvətɪv, ðɛr ˈɡoʊɪŋ tu heɪt oʊˈbɑmə ənd fud stæmps ənd əˈbɔrʃən./",
-        "zh": "如果他们是保守派，他们就会痛恨奥巴马、食品券和堕胎。",
-        "highlights": [
-          {
-            "text": "conservative",
-            "key": "保守的，保守派",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 54,
-        "start": 302.15,
-        "end": 306.34,
-        "speaker": "Speaker",
-        "en": "If they're liberal, they're going to hate big banks and oil corporations and Dick Cheney.",
-        "ipa": "/ɪf ðɛr ˈlɪbərəl, ðɛr ˈɡoʊɪŋ tu heɪt bɪɡ bæŋks ənd ɔɪl ˌkɔrpəˈreɪʃənz ənd dɪk ˈʧeɪni./",
-        "zh": "如果他们是自由派，他们就会痛恨大银行、石油公司和迪克·切尼。",
-        "highlights": [
-          {
-            "text": "liberal",
-            "key": "自由派的，自由主义者",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 55,
-        "start": 306.38,
-        "end": 307.61,
-        "speaker": "Speaker",
-        "en": "Totally predictable.",
-        "ipa": "/ˈtoʊtəli prɪˈdɪktəbəl./",
-        "zh": "完全可以预料。",
-        "highlights": [
-          {
-            "text": "predictable",
-            "key": "可预测的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 56,
-        "start": 307.65,
-        "end": 309.34,
-        "speaker": "Speaker",
-        "en": "And you don't want to be like that.",
-        "ipa": "/ænd ju doʊnt wɑnt tu bi laɪk ðæt./",
-        "zh": "你可不想变成那样。",
-        "highlights": [
-          {
-            "text": "be like that",
-            "key": "变成那样",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 57,
-        "start": 309.38,
-        "end": 314.91,
-        "speaker": "Speaker",
-        "en": "You need to enter every conversation assuming that you have something to learn.",
-        "ipa": "/ju nid tu ˈɛntər ˈɛvri ˌkɑnvərˈseɪʃən əˈsumɪŋ ðæt ju hæv ˈsʌmθɪŋ tu lɜrn./",
-        "zh": "你进入每一场对话时，都应该抱着“自己能从中学到东西”的心态。",
-        "highlights": [
-          {
-            "text": "assuming that",
-            "key": "假设，怀着……的心态",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 58,
-        "start": 314.95,
-        "end": 316.18,
-        "speaker": "Speaker",
-        "en": "The famed therapist M. Scott Peck said that true listening requires a setting aside of oneself.",
-        "ipa": "/ðə feɪmd ˈθɛrəpɪst ɛm skɑt pɛk sɛd ðæt tru ˈlɪsənɪŋ rɪˈkwaɪərz ə ˈsɛtɪŋ əˈsaɪd ʌv wʌnˈsɛlf/",
-        "zh": "著名心理治疗师 M. 斯科特·派克曾说，真正的倾听需要放下自我。",
-        "highlights": [
-          {
-            "text": "setting aside",
-            "key": "放下，搁置",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 59,
-        "start": 316.22,
-        "end": 321.51,
-        "speaker": "Speaker",
-        "en": "And sometimes that means setting aside your personal opinion.",
-        "ipa": "/ænd ˈsʌmtaɪmz ðæt minz ˈsɛtɪŋ əˈsaɪd jʊər ˈpɜrsənəl əˈpɪnjən/",
-        "zh": "有时这意味着要放下你个人的观点。",
-        "highlights": [
-          {
-            "text": "personal opinion",
-            "key": "个人观点",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "start": 321.55,
-        "end": 324.85,
-        "speaker": "Speaker",
-        "en": "He said that sensing this acceptance, the speaker will become less and less vulnerable and more and more likely to open up the inner recesses of his or her mind to the listener.",
-        "ipa": "/hi sɛd ðæt ˈsɛnsɪŋ ðɪs ækˈsɛptəns, ðə ˈspikər wɪl bɪˈkʌm lɛs ænd lɛs ˈvʌlnərəbəl ænd mɔr ænd mɔr ˈlaɪkli tu ˈoʊpən ʌp ði ˈɪnər ˈrisɛsəz ʌv hɪz ɔr hɜr maɪnd tu ðə ˈlɪsənər/",
-        "zh": "他说，感受到这种接纳，说话者会变得越来越不设防，也更愿意向倾听者敞开心扉。",
-        "highlights": [
-          {
-            "text": "open up",
-            "key": "敞开心扉",
-            "chip": "pink"
-          },
-          {
-            "text": "vulnerable",
-            "key": "脆弱的，易受伤害的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 61,
-        "start": 325.62,
-        "end": 334.04,
-        "speaker": "Speaker",
-        "en": "Again, assume that you have something to learn.",
-        "ipa": "/əˈɡɛn, əˈsum ðæt ju hæv ˈsʌmθɪŋ tu lɜrn/",
-        "zh": "再说一次，假设你总能从别人身上学到东西。",
-        "highlights": [
-          {
-            "text": "assume",
-            "key": "假设，假定",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 62,
-        "start": 334.08,
-        "end": 336.74,
-        "speaker": "Speaker",
-        "en": "Bill Nye: \"Everyone you will ever meet knows something that you don't.\"",
-        "ipa": "/bɪl naɪ: ˈɛvriˌwʌn ju wɪl ˈɛvər mit noʊz ˈsʌmθɪŋ ðæt ju doʊnt/",
-        "zh": "比尔·奈说：“你遇到的每一个人，都知道一些你所不知道的事情。”",
-        "highlights": [
-          {
-            "text": "Everyone you will ever meet",
-            "key": "你遇到的每一个人",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "start": 336.78,
-        "end": 339.55,
-        "speaker": "Speaker",
-        "en": "I put it this way: Everybody is an expert in something.",
-        "ipa": "/aɪ pʊt ɪt ðɪs weɪ: ˈɛvriˌbɑdi ɪz ən ˈɛkspɜrt ɪn ˈsʌmθɪŋ/",
-        "zh": "我是这样理解的：每个人在某方面都是专家。",
-        "highlights": [
-          {
-            "text": "put it this way",
-            "key": "换句话说，我是这样看的",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 64,
-        "start": 340.28,
-        "end": 343.98,
-        "speaker": "Speaker",
-        "en": "Number three: Use open-ended questions.",
-        "ipa": "/ˈnʌmbər θri: juz ˈoʊpən-ˈɛndəd ˈkwɛstʃənz/",
-        "zh": "第三点：使用开放式问题。",
-        "highlights": [
-          {
-            "text": "open-ended questions",
-            "key": "开放式问题",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 65,
-        "start": 344.65,
-        "end": 349.18,
-        "speaker": "Speaker",
-        "en": "In this case, take a cue from journalists.",
-        "ipa": "/ɪn ðɪs keɪs, teɪk ə kju frʌm ˈdʒɜrnəlɪsts/",
-        "zh": "在这种情况下，可以借鉴一下记者们的做法。",
-        "highlights": [
-          {
-            "text": "take a cue from",
-            "key": "借鉴，从……得到启发",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "start": 350.58,
-        "end": 353.38,
-        "speaker": "Speaker",
-        "en": "Start your questions with who, what, when, where, why or how.",
-        "ipa": "/stɑrt jʊər ˈkwɛstʃənz wɪð hu, wʌt, wɛn, wɛr, waɪ ɔr haʊ/",
-        "zh": "用“谁、什么、何时、何地、为什么或如何”来开始你的提问。",
-        "highlights": [
-          {
-            "text": "Start your questions with",
-            "key": "以……开头提问",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "start": 353.42,
-        "end": 355.44,
-        "speaker": "Speaker",
-        "en": "If you put in a complicated question, you're going to get a simple answer out.",
-        "ipa": "/ɪf ju pʊt ɪn ə ˈkɑmpləˌkeɪtəd ˈkwɛstʃən, jʊr ˈɡoʊɪŋ tu ɡɛt ə ˈsɪmpəl ˈænsər aʊt/",
-        "zh": "如果你问一个复杂的问题，你只会得到一个简单的回答。",
-        "highlights": [
-          {
-            "text": "complicated",
-            "key": "复杂的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "start": 355.48,
-        "end": 358.58,
-        "speaker": "Speaker",
-        "en": "If I ask you, \"Were you terrified?\" you're going to respond to the most powerful word in that sentence, which is \"terrified,\" and the answer is \"Yes, I was\" or \"No, I wasn't.\"",
-        "ipa": "/ɪf aɪ æsk ju, wɜr ju ˈtɛrəˌfaɪd? jʊr ˈɡoʊɪŋ tu rɪˈspɑnd tu ðə moʊst ˈpaʊərfəl wɜrd ɪn ðæt ˈsɛntəns, wɪtʃ ɪz ˈtɛrəˌfaɪd, ænd ði ˈænsər ɪz jɛs, aɪ wʌz ɔr noʊ, aɪ ˈwʌzənt/",
-        "zh": "如果我问你：“你当时害怕吗？”你只会对那句话里最有冲击力的词——“害怕”——做出回应，答案就是“是的，我害怕”或“不，我不害怕”。",
-        "highlights": [
-          {
-            "text": "respond to",
-            "key": "回应",
-            "chip": "indigo"
-          },
-          {
-            "text": "terrified",
-            "key": "极度恐惧的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 69,
-        "start": 358.62,
-        "end": 362.31,
-        "speaker": "Speaker",
-        "en": "\"Were you angry?\" \"Yes, I was very angry.\"",
-        "ipa": "/wɜr ju ˈæŋɡri? jɛs, aɪ wʌz ˈvɛri ˈæŋɡri/",
-        "zh": "“你生气了吗？”“是的，我非常生气。”",
-        "highlights": [
-          {
-            "text": "angry",
-            "key": "生气的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 70,
-        "start": 362.35,
-        "end": 364.64,
-        "speaker": "Speaker",
-        "en": "Let them describe it.",
-        "ipa": "/lɛt ðɛm dɪˈskraɪb ɪt/",
-        "zh": "让他们自己去描述吧。",
-        "highlights": [
-          {
-            "text": "describe",
-            "key": "描述",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 71,
-        "start": 364.68,
-        "end": 371.21,
-        "speaker": "Speaker",
-        "en": "They're the ones that know.",
-        "ipa": "/ðɛr ði wʌnz ðæt noʊ/",
-        "zh": "他们才是最了解情况的人。",
-        "highlights": [
-          {
-            "text": "the ones that know",
-            "key": "知情者",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 72,
-        "start": 371.25,
-        "end": 373.24,
-        "speaker": "Speaker",
-        "en": "Try asking them things like, \"What was that like?\"",
-        "ipa": "/traɪ ˈæskɪŋ ðɛm θɪŋz laɪk, wʌt wʌz ðæt laɪk/",
-        "zh": "试着问他们一些类似“那是什么样的感觉？”的问题。",
-        "highlights": [
-          {
-            "text": "What was that like?",
-            "key": "那是什么样的？（询问感受）",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 73,
-        "start": 373.28,
-        "end": 374.58,
-        "speaker": "Speaker",
-        "en": "\"How did that feel?\"",
-        "ipa": "/haʊ dɪd ðæt fil/",
-        "zh": "“那感觉如何？”",
-        "highlights": [
-          {
-            "text": "How did that feel?",
-            "key": "那感觉如何？",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 74,
-        "start": 374.62,
-        "end": 376.34,
-        "speaker": "Speaker",
-        "en": "Because then they might have to stop for a moment and think about it, and you're going to get a much more interesting response.",
-        "ipa": "/bɪˈkəz ðɛn ðeɪ maɪt hæv tu stɑp fɔr ə ˈmoʊmənt ænd θɪŋk əˈbaʊt ɪt, ænd jʊr ˈɡoʊɪŋ tu ɡɛt ə mʌtʃ mɔr ˈɪntrəstɪŋ rɪˈspɑns/",
-        "zh": "因为这样他们可能需要停顿一下去思考，而你会得到一个更有趣的回答。",
-        "highlights": [
-          {
-            "text": "stop for a moment",
-            "key": "停顿片刻",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 75,
-        "start": 376.38,
-        "end": 379.34,
-        "speaker": "Speaker",
-        "en": "Number four: Go with the flow.",
-        "ipa": "/ˈnʌmbər fɔr: ɡoʊ wɪð ðə floʊ/",
-        "zh": "第四点：顺其自然。",
-        "highlights": [
-          {
-            "text": "Go with the flow",
-            "key": "顺其自然，随遇而安",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 76,
-        "start": 379.38,
-        "end": 380.81,
-        "speaker": "Speaker",
-        "en": "That means thoughts will come into your mind and you need to let them go out of your mind.",
-        "ipa": "/ðæt minz θɔts wɪl kʌm ˈɪntu jʊər maɪnd ænd ju nid tu lɛt ðɛm ɡoʊ aʊt ʌv jʊər maɪnd/",
-        "zh": "这意味着当思绪涌入脑海时，你需要让它们自然流走。",
-        "highlights": [
-          {
-            "text": "come into your mind",
-            "key": "浮现在脑海中",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 77,
-        "start": 380.85,
-        "end": 388.14,
-        "speaker": "Speaker",
-        "en": "We've heard interviews often in which a guest is talking for several minutes and then the host comes back in and asks a question which seems like it comes out of nowhere, or it's already been answered.",
-        "ipa": "/wiv hɜrd ˈɪntərvjuːz ˈɔfən ɪn wɪtʃ ə ɡɛst ɪz ˈtɔkɪŋ fɔr ˈsɛvrəl ˈmɪnəts ænd ðɛn ðə hoʊst kʌmz bæk ɪn ænd æsks ə ˈkwɛstʃən wɪtʃ simz laɪk ɪt kʌmz aʊt ʌv ˈnoʊˌwɛr, ɔr ɪts ɔlˈrɛdi bin ˈænsərd/",
-        "zh": "我们经常听到这样的采访：嘉宾讲了几分钟，然后主持人插话问了一个问题，看起来像是没头没脑冒出来的，或者其实对方已经回答过了。",
-        "highlights": [
-          {
-            "text": "comes out of nowhere",
-            "key": "突然冒出来，没头没脑",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 78,
-        "start": 388.18,
-        "end": 390.48,
-        "speaker": "Speaker",
-        "en": "That means the host probably stopped listening two minutes ago because he thought of this really clever question, and he was just bound and determined to say that.",
-        "ipa": "/ðæt minz ðə hoʊst ˈprɑbəbli stɑpt ˈlɪsənɪŋ tu ˈmɪnəts əˈɡoʊ bɪˈkəz hi θɔt ʌv ðɪs ˈrɪli ˈklɛvər ˈkwɛstʃən, ænd hi wʌz dʒʌst baʊnd ænd dɪˈtɜrmɪnd tu seɪ ðæt/",
-        "zh": "这意味着主持人可能两分钟前就不在听了，因为他想到了一个非常巧妙的问题，并且一心只想把它问出来。",
-        "highlights": [
-          {
-            "text": "bound and determined",
-            "key": "一心想，下定决心",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 79,
-        "start": 391.15,
-        "end": 397.01,
-        "speaker": "Speaker",
-        "en": "And we do the exact same thing.",
-        "ipa": "/ænd wi du ði ɪɡˈzækt seɪm θɪŋ/",
-        "zh": "我们自己也经常做同样的事。",
-        "highlights": [
-          {
-            "text": "exact same thing",
-            "key": "完全一样的事",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 80,
-        "start": 397.05,
-        "end": 403.94,
-        "speaker": "Speaker",
-        "en": "We're sitting there having a conversation with someone, and then we remember that time that we met Hugh Jackman in a coffee shop.",
-        "ipa": "/wʊr ˈsɪtɪŋ ðɛr ˈhævɪŋ ə ˌkɑnvərˈseɪʃən wɪð ˈsʌmˌwʌn, ænd ðɛn wi rɪˈmɛmbər ðæt taɪm ðæt wi mɛt hju ˈdʒækmən ɪn ə ˈkɑfi ʃɑp/",
-        "zh": "我们坐在那儿和人聊天，然后突然想起有次在咖啡店遇见休·杰克曼的事。",
-        "highlights": [
-          {
-            "text": "having a conversation",
-            "key": "进行交谈",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 81,
-        "start": 403.98,
-        "end": 407.38,
-        "speaker": "Speaker",
-        "en": "And we stop listening.",
-        "ipa": "/ˈlæftər ænd wi stɑp ˈlɪsənɪŋ/",
-        "zh": "然后我们就停止倾听了。",
-        "highlights": [
-          {
-            "text": "stop listening",
-            "key": "停止倾听",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 82,
-        "start": 407.42,
-        "end": 413.78,
-        "speaker": "Speaker",
-        "en": "Stories and ideas are going to come to you.",
-        "ipa": "/ˈstɔriz ænd aɪˈdiəz ɑr ˈɡoʊɪŋ tu kʌm tu ju/",
-        "zh": "故事和想法总会涌入你的脑海。",
-        "highlights": [
-          {
-            "text": "come to you",
-            "key": "浮现，来到",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 83,
-        "start": 413.82,
-        "end": 416.81,
-        "speaker": "Speaker",
-        "en": "You need to let them come and let them go.",
-        "ipa": "/ju nid tu lɛt ðɛm kʌm ænd lɛt ðɛm ɡoʊ/",
-        "zh": "你需要让它们来，也要让它们走。",
-        "highlights": [
-          {
-            "text": "let them come and let them go",
-            "key": "顺其自然（让思绪来去自由）",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 84,
-        "start": 416.85,
-        "end": 418.81,
-        "speaker": "Speaker",
-        "en": "Number five: If you don't know, say that you don't know.",
-        "ipa": "/ˈnʌmbər faɪv: ɪf ju doʊnt noʊ, seɪ ðæt ju doʊnt noʊ/",
-        "zh": "第五点：如果你不知道，就说你不知道。",
-        "highlights": [
-          {
-            "text": "say that you don't know",
-            "key": "坦诚自己不知道",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 85,
-        "start": 418.85,
-        "end": 424.94,
-        "speaker": "Speaker",
-        "en": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record, and so they're more careful about what they claim to be an expert in and what they claim to know for sure.",
-        "ipa": "/naʊ, ˈpipəl ɑn ðə ˈreɪdiˌoʊ, əˈpɛʃəli ɑn ɛn-pi-ɑr, ɑr mʌtʃ mɔr əˈwɛr ðæt ðeɪr ˈɡoʊɪŋ ɑn ðə ˈrɛkərd, ænd soʊ ðeɪr mɔr ˈkɛrfəl əˈbaʊt wʌt ðeɪ kleɪm tu bi ən ˈɛkspɜrt ɪn ænd wʌt ðeɪ kleɪm tu noʊ fɔr ʃʊr/",
-        "zh": "在电台工作的人，尤其是 NPR 的人，非常清楚他们是在公开记录中发言，所以他们对于自己声称是专家或确定知道的事情会更加谨慎。",
-        "highlights": [
-          {
-            "text": "on the record",
-            "key": "公开记录，正式发言",
-            "chip": "indigo"
-          },
-          {
-            "text": "know for sure",
-            "key": "确切知道",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 86,
-        "start": 424.98,
-        "end": 427.94,
-        "speaker": "Speaker",
-        "en": "Do that.",
-        "ipa": "/du ðæt/",
-        "zh": "试着这样做吧。",
-        "highlights": [
-          {
-            "text": "Do that",
-            "key": "这样做",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 87,
-        "start": 427.98,
-        "end": 430.01,
-        "speaker": "Speaker",
-        "en": "Stories and ideas are going to come to you.",
-        "ipa": "/ˈstɔriz ənd aɪˈdiəz ər ˈɡuɪŋ tu kʌm tu ju/",
-        "zh": "各种故事和想法会不断涌现到你脑海中。",
-        "highlights": [
-          {
-            "text": "come to you",
-            "key": "come to you",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 88,
-        "start": 430.05,
-        "end": 432.95,
-        "speaker": "Speaker",
-        "en": "You need to let them come and let them go.",
-        "ipa": "/ju nid tu lɛt ðəm kʌm ənd lɛt ðəm ɡo/",
-        "zh": "你需要任由它们来，也任由它们去。",
-        "highlights": [
-          {
-            "text": "let them come",
-            "key": "let come",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 89,
-        "start": 433.48,
-        "end": 437.22,
-        "speaker": "Speaker",
-        "en": "Number five: If you don't know, say that you don't know.",
-        "ipa": "/ˈnʌmbər faɪv: ɪf ju doʊnt noʊ, seɪ ðæt ju doʊnt noʊ/",
-        "zh": "第五点：如果你不知道，就说你不知道。",
-        "highlights": [
-          {
-            "text": "don't know",
-            "key": "don't know",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 90,
-        "start": 438.22,
-        "end": 449.21,
-        "speaker": "Speaker",
-        "en": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record, and so they're more careful about what they claim to be an expert in and what they claim to know for sure.",
-        "ipa": "/naʊ, ˈpipəl ɑn ðə ˈreɪdioʊ, ɪˈspɛʃəli ɑn ɛn-pi-ɑr, ər mʌʧ mɔər əˈwɛr ðæt ðɛr ˈɡuɪŋ ɑn ðə ˈrɛkərd ənd soʊ ðɛr mɔər ˈkɛrfəl əˈbaʊt wʌt ðeɪ kleɪm tu bi ən ˈɛkspərt ɪn ənd wʌt ðeɪ kleɪm tu noʊ fɔr ʃʊr/",
-        "zh": "现在，电台里的人，尤其是NPR（美国国家公共电台）的人，更加清楚他们是在正式表态记录在案的，所以他们对于自己声称是专家的事情，以及确切知道的事情会更加谨慎。",
-        "highlights": [
-          {
-            "text": "on the record",
-            "key": "on the record",
-            "chip": "indigo"
-          },
-          {
-            "text": "for sure",
-            "key": "for sure",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 91,
-        "start": 449.25,
-        "end": 449.75,
-        "speaker": "Speaker",
-        "en": "Do that.",
-        "ipa": "/du ðæt/",
-        "zh": "照着做吧。",
-        "highlights": [
-          {
-            "text": "Do that",
-            "key": "do that",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 92,
-        "start": 449.79,
-        "end": 451.61,
-        "speaker": "Speaker",
-        "en": "Err on the side of caution.",
-        "ipa": "/ɜr ɑn ðə saɪd əv ˈkɔʃən/",
-        "zh": "宁可谨慎过头，也不要冒险。",
-        "highlights": [
-          {
-            "text": "Err on the side of",
-            "key": "宁可偏向于...",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 93,
-        "start": 451.65,
-        "end": 453.42,
-        "speaker": "Speaker",
-        "en": "Talk should not be cheap.",
-        "ipa": "/tɔk ʃʊd nɑt bi tʃip/",
-        "zh": "光说不练假把式。",
-        "highlights": [
-          {
-            "text": "cheap",
-            "key": "cheap",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 94,
-        "start": 454.05,
-        "end": 457.75,
-        "speaker": "Speaker",
-        "en": "Number six: Don't equate your experience with theirs.",
-        "ipa": "/ˈnʌmbər sɪks: doʊnt ɪˈkweɪt jʊər ɪkˈspɪriəns wɪð ðɛrz/",
-        "zh": "第六点：不要把你的经历和别人的等同起来。",
-        "highlights": [
-          {
-            "text": "equate",
-            "key": "等同",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 95,
-        "start": 458.68,
-        "end": 464.34,
-        "speaker": "Speaker",
-        "en": "If they're talking about having lost a family member, don't start talking about the time you lost a family member.",
-        "ipa": "/ɪf ðɛr ˈtɔkɪŋ əˈbaʊt ˈhævɪŋ lɔst ə ˈfæməli ˈmɛmbər, doʊnt stɑrt ˈtɔkɪŋ əˈbaʊt ðə taɪm ju lɔst ə ˈfæməli ˈmɛmbər/",
-        "zh": "如果他们在谈论失去亲人的痛苦，不要立刻开始讲你自己失去亲人的经历。",
-        "highlights": [
-          {
-            "text": "lost a family member",
-            "key": "失去亲人",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 96,
-        "start": 464.38,
-        "end": 469.58,
-        "speaker": "Speaker",
-        "en": "If they're talking about the trouble they're having at work, don't tell them about how much you hate your job.",
-        "ipa": "/ɪf ðɛr ˈtɔkɪŋ əˈbaʊt ðə ˈtrʌbəl ðeɪr ˈhævɪŋ æt wɜrk, doʊnt tɛl ðɛm əˈbaʊt haʊ mʌtʃ ju heɪt jʊər dʒɑb/",
-        "zh": "如果他们在谈论工作上的麻烦，不要跟他们抱怨你有多讨厌自己的工作。",
-        "highlights": [
-          {
-            "text": "trouble",
-            "key": "麻烦",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 97,
-        "start": 469.62,
-        "end": 470.47,
-        "speaker": "Speaker",
-        "en": "It's not the same.",
-        "ipa": "/ɪts nɑt ðə seɪm/",
-        "zh": "这根本不一样。",
-        "highlights": []
-      },
-      {
-        "id": 98,
-        "start": 470.51,
-        "end": 471.54,
-        "speaker": "Speaker",
-        "en": "It is never the same.",
-        "ipa": "/ɪt ɪz ˈnɛvər ðə seɪm/",
-        "zh": "永远都不一样。",
-        "highlights": []
-      },
-      {
-        "id": 99,
-        "start": 471.58,
-        "end": 473.34,
-        "speaker": "Speaker",
-        "en": "All experiences are individual.",
-        "ipa": "/ɔl ɪkˈspɪriənsɪz ɑr ˌɪndəˈvɪdʒuəl/",
-        "zh": "每个人的经历都是独特的。",
-        "highlights": [
-          {
-            "text": "individual",
-            "key": "独特的/个人的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 100,
-        "start": 473.38,
-        "end": 476.05,
-        "speaker": "Speaker",
-        "en": "And, more importantly, it is not about you.",
-        "ipa": "/ænd, mɔr ˈɪmpɔrtəntli, ɪt ɪz nɑt əˈbaʊt ju/",
-        "zh": "而且更重要的是，这并不是关于你自己的事。",
-        "highlights": [
-          {
-            "text": "not about you",
-            "key": "不是关于你的",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 101,
-        "start": 476.55,
-        "end": 481.85,
-        "speaker": "Speaker",
-        "en": "You don't need to take that moment to prove how amazing you are or how much you've suffered.",
-        "ipa": "/ju doʊnt nid tu teɪk ðæt ˈmoʊmənt tu pruv haʊ əˈmeɪzɪŋ ju ɑr ɔr haʊ mʌtʃ juv ˈsʌfərd/",
-        "zh": "你不需要利用那个时刻去证明你有多了不起，或者你受了多少苦。",
-        "highlights": [
-          {
-            "text": "prove",
-            "key": "证明",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 102,
-        "start": 482.55,
-        "end": 486.48,
-        "speaker": "Speaker",
-        "en": "Somebody asked Stephen Hawking once what his IQ was, and he said, \"I have no idea.",
-        "ipa": "/ˈsʌmbɑdi æskt ˈstivən ˈhɔkɪŋ wʌns wʌt hɪz aɪ-kju wʌz, ænd hi sɛd, \"aɪ hæv noʊ aɪˈdiə./",
-        "zh": "有人曾问史蒂芬·霍金他的智商是多少，他说：“我不知道。",
-        "highlights": [
-          {
-            "text": "Somebody",
-            "key": "somebody",
-            "chip": "orange"
-          },
-          {
-            "text": "Stephen",
-            "key": "stephen",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 103,
-        "start": 486.52,
-        "end": 488.61,
-        "speaker": "Speaker",
-        "en": "People who brag about their IQs are losers.\"",
-        "ipa": "/ˈpipəl hu bræg əˈbaʊt ðɛr aɪ-kjuz ɑr ˈluzərz./",
-        "zh": "那些吹嘘自己智商的人都是失败者。”",
-        "highlights": [
-          {
-            "text": "brag about",
-            "key": "吹嘘",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 104,
-        "start": 488.65,
-        "end": 493.85,
-        "speaker": "Speaker",
-        "en": "Conversations are not a promotional opportunity.",
-        "ipa": "/ˈkɑnvərˈseɪʃənz ɑr nɑt ə prəˈmoʊʃənəl ˌɑpərˈtunəti./",
-        "zh": "谈话不是自我推销的机会。",
-        "highlights": [
-          {
-            "text": "promotional opportunity",
-            "key": "推销机会",
-            "chip": "indigo"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-67-Natural-Korean-Makeup-to-IG-Badd-part2",
-    "number": "EP 67",
-    "title": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 2)",
-    "speaker": "YouTube 博主",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 2,
+    "difficulty": 1,
     "durationSec": 410,
     "durationLabel": "06:50",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%202%29.trimmed.m4a",
@@ -9676,26 +4408,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-66-Natural-Korean-Makeup-to-IG-Badd-part1",
-    "number": "EP 66",
-    "title": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock) (Part 1)",
-    "speaker": "YouTube 博主",
+    "id": "local-68-trimmed-68-part1",
+    "number": "EP 68",
+    "title": "韩系淡妆挑战欧美辣妹风：种睫毛、修眉与逛街挑衣服",
+    "speaker": "待补讲者",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 2,
+    "difficulty": 3,
     "durationSec": 288,
     "durationLabel": "04:48",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "生活英语",
-      "日常对话"
+      "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Natural%20Korean%20Makeup%20to%20IG%20Baddie%E2%A7%B8Asian%20Baby%20Girl%20%28ABG%29%20Transformation%20%28still%20in%20shock%29%20%28Part%201%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "生活英语",
+    "sceneBadge": "购物",
     "skipRanges": [
       [
         6.27,
@@ -10707,21 +5438,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-65-Alone-but-Not-Lonely---ep-1-Part-part2",
-    "number": "EP 65",
-    "title": "Alone but Not Lonely - ep. 1 (Part 2)",
-    "speaker": "YouTube 博主",
+    "id": "local-67-trimmed-67-part2",
+    "number": "EP 67",
+    "title": "一个人的居家沙拉与逛书店：享受独处的松弛感",
+    "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
+    "difficulty": 5,
     "durationSec": 319,
     "durationLabel": "05:19",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%202%29.trimmed.m4a",
@@ -12077,21 +6808,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-64-Alone-but-Not-Lonely---ep-1-Part-part1",
-    "number": "EP 64",
-    "title": "Alone but Not Lonely - ep. 1 (Part 1)",
-    "speaker": "YouTube 博主",
+    "id": "local-66-trimmed-66-part1",
+    "number": "EP 66",
+    "title": "独处但不孤独：纽约一个人的漫步与内心独白",
+    "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 409,
     "durationLabel": "06:49",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "生活英语",
       "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Alone%20but%20Not%20Lonely%20-%20ep.%201%20%28Part%201%29.trimmed.m4a",
@@ -13728,21 +8459,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-63-Homebody-on-Holiday-a-summer-dre-part2",
-    "number": "EP 63",
-    "title": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 2)",
+    "id": "local-65-trimmed-65-part2",
+    "number": "EP 65",
+    "title": "西西里陶尔米纳与卡塔尼亚：慢节奏海边度假日记",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
+    "difficulty": 1,
     "durationSec": 326,
     "durationLabel": "05:26",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%202%29.trimmed.m4a",
@@ -14687,21 +9418,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-62-Homebody-on-Holiday-a-summer-dre-part1",
-    "number": "EP 62",
-    "title": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food! (Part 1)",
+    "id": "local-64-trimmed-64-part1",
+    "number": "EP 64",
+    "title": "宅女的夏日海岛假期：出发、美食与悠闲时光",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
+    "difficulty": 1,
     "durationSec": 334,
     "durationLabel": "05:34",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "美食",
       "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.trimmed.m4a",
@@ -15713,27 +10444,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-61-Essential-English-for-Skiing-Par-part2",
-    "number": "EP 61",
-    "title": "Essential English for Skiing (Part 2)",
+    "id": "local-63-trimmed-63-part2",
+    "number": "EP 63",
+    "title": "雪山半山腰餐厅歇脚与滑雪体验地道表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 242,
     "durationLabel": "04:02",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
-      "旅行",
-      "生活英语"
+      "美食",
+      "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "美食",
     "skipRanges": [],
     "sentences": [
       {
@@ -16695,27 +11425,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-60-Essential-English-for-Skiing-Par-part1",
-    "number": "EP 60",
-    "title": "Essential English for Skiing (Part 1)",
+    "id": "local-62-trimmed-62-part1",
+    "number": "EP 62",
+    "title": "滑雪场必备英语：租雪具、买雪票与初上雪道",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 496,
     "durationLabel": "08:16",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
-      "旅行",
-      "生活英语"
+      "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Essential%20English%20for%20Skiing%20%28Part%201%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "旅行",
     "skipRanges": [
       [
         21.9,
@@ -18498,26 +13226,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-59-Let-s-Learn-English-at-a-Hotel-A-part2",
-    "number": "EP 59",
-    "title": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 2)",
-    "speaker": "YouTube 博主",
+    "id": "local-61-trimmed-61-part2",
+    "number": "EP 61",
+    "title": "酒店卫浴细节、早餐咖啡与退房告别英语",
+    "speaker": "Bob the Canadian",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 4,
+    "region": "加拿大",
+    "difficulty": 3,
     "durationSec": 349,
     "durationLabel": "05:49",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "旅行",
-      "生活英语"
+      "美食",
+      "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "旅行",
+    "sceneBadge": "美食",
     "skipRanges": [
       [
         107.23,
@@ -19895,21 +14623,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-58-Let-s-Learn-English-at-a-Hotel-A-part1",
-    "number": "EP 58",
-    "title": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles (Part 1)",
-    "speaker": "YouTube 博主",
+    "id": "local-60-trimmed-60-part1",
+    "number": "EP 60",
+    "title": "加拿大酒店入住实景：前台办理与客房设施英语",
+    "speaker": "Bob the Canadian",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
+    "region": "加拿大",
     "difficulty": 4,
     "durationSec": 416,
     "durationLabel": "06:56",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "旅行",
-      "生活英语"
+      "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Let%27s%20Learn%20English%20at%20a%20Hotel%21%20%EF%BD%9C%20An%20English%20Travel%20Lesson%20with%20Subtitles%20%28Part%201%29.trimmed.m4a",
@@ -21980,25 +16707,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-57-Asking-people-What-do-you-do-for-part2",
-    "number": "EP 57",
-    "title": "Asking people 'What do you do for a living？' in USA (Part 2)",
+    "id": "local-59-trimmed-59-part2",
+    "number": "EP 59",
+    "title": "美国街头采访：不同职业的真实工作时长与故事",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
     "durationSec": 399,
     "durationLabel": "06:39",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "生活英语"
+      "名人访谈",
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "生活英语",
+    "sceneBadge": "名人访谈",
     "skipRanges": [
       [
         372.35,
@@ -24612,25 +19340,27 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-56-Asking-people-What-do-you-do-for-part1",
-    "number": "EP 56",
-    "title": "Asking people 'What do you do for a living？' in USA (Part 1)",
+    "id": "local-58-trimmed-58-part1",
+    "number": "EP 58",
+    "title": "美国街头采访：你是做什么工作的？（职场日常篇）",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
     "durationSec": 350,
     "durationLabel": "05:50",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "生活英语"
+      "名人访谈",
+      "日常对话",
+      "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Asking%20people%20%27What%20do%20you%20do%20for%20a%20living%EF%BC%9F%27%20in%20USA%20%28Part%201%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "生活英语",
+    "sceneBadge": "名人访谈",
     "skipRanges": [
       [
         13.19,
@@ -26635,26 +21365,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-55-VLOG-a-productive-busy-day-in-my-part2",
-    "number": "EP 55",
-    "title": "VLOG ★ a productive & busy day in my life (Part 2)",
-    "speaker": "YouTube 博主",
+    "id": "local-57-trimmed-57-part2",
+    "number": "EP 57",
+    "title": "独居公寓采购日：超市买菜、万圣节街景与睡前复盘",
+    "speaker": "待补讲者",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 251,
     "durationLabel": "04:11",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "旅行",
+      "购物",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "旅行",
+    "sceneBadge": "购物",
     "skipRanges": [
       [
         98.63,
@@ -27450,30 +22180,29 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-54-VLOG-a-productive-busy-day-in-my-part1",
-    "number": "EP 54",
-    "title": "VLOG ★ a productive & busy day in my life (Part 1)",
-    "speaker": "YouTube 博主",
+    "id": "local-56-trimmed-56-part1",
+    "number": "EP 56",
+    "title": "高效充实的一天：晨间健身课、整理房间与咖啡馆办公",
+    "speaker": "待补讲者",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 536,
     "durationLabel": "08:56",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "旅行",
-      "生活"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/VLOG%20%E2%98%85%20a%20productive%20%26%20busy%20day%20in%20my%20life%20%28Part%201%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "旅行",
+    "sceneBadge": "美食",
     "skipRanges": [
       [
-        5.13,
-        10.53
+        0.0,
+        11.02
       ],
       [
         119.91,
@@ -27499,22 +22228,6 @@ export const LOCAL_EPISODES = [
     "sentences": [
       {
         "id": 1,
-        "start": 0.25,
-        "end": 10.98,
-        "speaker": "Speaker",
-        "en": "It's just something you can do.",
-        "ipa": "/ɪts dʒʌst ˈsʌmθɪŋ ju kæn du heɪ ɡaɪz ɡʊd ˈmɔrnɪŋ ænd ˈwɛlkəm bæk soʊ ðɪs ˈmɔrnɪŋ aɪ æm ˈɡɛtɪŋ ˈrɛdi/",
-        "zh": "这只是你能做的事。",
-        "highlights": [
-          {
-            "text": "something",
-            "key": "something",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 2,
         "start": 11.02,
         "end": 13.78,
         "speaker": "Speaker",
@@ -27535,7 +22248,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 3,
+        "id": 2,
         "start": 13.82,
         "end": 24.74,
         "speaker": "Speaker",
@@ -27561,7 +22274,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 4,
+        "id": 3,
         "start": 24.78,
         "end": 27.61,
         "speaker": "Speaker",
@@ -27571,7 +22284,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 5,
+        "id": 4,
         "start": 27.65,
         "end": 29.79,
         "speaker": "Speaker",
@@ -27587,7 +22300,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 6,
+        "id": 5,
         "start": 29.83,
         "end": 35.34,
         "speaker": "Speaker",
@@ -27603,7 +22316,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 7,
+        "id": 6,
         "start": 35.38,
         "end": 42.92,
         "speaker": "Speaker",
@@ -27624,7 +22337,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 8,
+        "id": 7,
         "start": 42.96,
         "end": 49.85,
         "speaker": "Speaker",
@@ -27640,7 +22353,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 9,
+        "id": 8,
         "start": 49.89,
         "end": 58.43,
         "speaker": "Speaker",
@@ -27661,7 +22374,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 10,
+        "id": 9,
         "start": 58.47,
         "end": 67.56,
         "speaker": "Speaker",
@@ -27682,7 +22395,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 11,
+        "id": 10,
         "start": 67.6,
         "end": 72.0,
         "speaker": "Speaker",
@@ -27698,7 +22411,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 12,
+        "id": 11,
         "start": 72.04,
         "end": 82.5,
         "speaker": "Speaker",
@@ -27719,7 +22432,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 13,
+        "id": 12,
         "start": 82.54,
         "end": 113.71,
         "speaker": "Speaker",
@@ -27745,7 +22458,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 14,
+        "id": 13,
         "start": 113.75,
         "end": 116.18,
         "speaker": "Speaker",
@@ -27761,7 +22474,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 15,
+        "id": 14,
         "start": 116.22,
         "end": 119.91,
         "speaker": "Speaker",
@@ -27777,7 +22490,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 16,
+        "id": 15,
         "start": 122.05,
         "end": 123.48,
         "speaker": "Speaker",
@@ -27787,7 +22500,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 17,
+        "id": 16,
         "start": 123.52,
         "end": 124.74,
         "speaker": "Speaker",
@@ -27797,7 +22510,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 18,
+        "id": 17,
         "start": 124.78,
         "end": 125.65,
         "speaker": "Speaker",
@@ -27807,7 +22520,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 19,
+        "id": 18,
         "start": 125.69,
         "end": 127.43,
         "speaker": "Speaker",
@@ -27823,7 +22536,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 20,
+        "id": 19,
         "start": 127.47,
         "end": 128.72,
         "speaker": "Speaker",
@@ -27833,7 +22546,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 21,
+        "id": 20,
         "start": 128.76,
         "end": 130.63,
         "speaker": "Speaker",
@@ -27849,7 +22562,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 22,
+        "id": 21,
         "start": 130.67,
         "end": 136.25,
         "speaker": "Speaker",
@@ -27865,7 +22578,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 23,
+        "id": 22,
         "start": 136.29,
         "end": 137.64,
         "speaker": "Speaker",
@@ -27881,7 +22594,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 24,
+        "id": 23,
         "start": 137.68,
         "end": 140.33,
         "speaker": "Speaker",
@@ -27897,7 +22610,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 25,
+        "id": 24,
         "start": 140.37,
         "end": 149.52,
         "speaker": "Speaker",
@@ -27918,7 +22631,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 26,
+        "id": 25,
         "start": 160.21,
         "end": 163.71,
         "speaker": "Speaker",
@@ -27934,7 +22647,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 27,
+        "id": 26,
         "start": 163.75,
         "end": 165.32,
         "speaker": "Speaker",
@@ -27950,7 +22663,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 28,
+        "id": 27,
         "start": 165.36,
         "end": 166.45,
         "speaker": "Speaker",
@@ -27960,7 +22673,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 29,
+        "id": 28,
         "start": 166.49,
         "end": 167.34,
         "speaker": "Speaker",
@@ -27970,7 +22683,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 30,
+        "id": 29,
         "start": 167.38,
         "end": 168.17,
         "speaker": "Speaker",
@@ -27986,7 +22699,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 31,
+        "id": 30,
         "start": 168.21,
         "end": 175.61,
         "speaker": "Speaker",
@@ -28007,7 +22720,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 32,
+        "id": 31,
         "start": 175.65,
         "end": 182.4,
         "speaker": "Speaker",
@@ -28023,7 +22736,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 33,
+        "id": 32,
         "start": 189.37,
         "end": 199.29,
         "speaker": "Speaker",
@@ -28049,7 +22762,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 34,
+        "id": 33,
         "start": 199.33,
         "end": 203.85,
         "speaker": "Speaker",
@@ -28070,7 +22783,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 35,
+        "id": 34,
         "start": 203.89,
         "end": 209.5,
         "speaker": "Speaker",
@@ -28086,7 +22799,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 36,
+        "id": 35,
         "start": 209.54,
         "end": 213.18,
         "speaker": "Speaker",
@@ -28102,7 +22815,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 37,
+        "id": 36,
         "start": 213.22,
         "end": 215.05,
         "speaker": "Speaker",
@@ -28118,7 +22831,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 38,
+        "id": 37,
         "start": 215.09,
         "end": 222.0,
         "speaker": "Speaker",
@@ -28139,7 +22852,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 39,
+        "id": 38,
         "start": 222.04,
         "end": 223.4,
         "speaker": "Speaker",
@@ -28149,7 +22862,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 40,
+        "id": 39,
         "start": 223.44,
         "end": 225.87,
         "speaker": "Speaker",
@@ -28165,7 +22878,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 41,
+        "id": 40,
         "start": 225.91,
         "end": 228.24,
         "speaker": "Speaker",
@@ -28181,7 +22894,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 42,
+        "id": 41,
         "start": 228.28,
         "end": 233.42,
         "speaker": "Speaker",
@@ -28197,7 +22910,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 43,
+        "id": 42,
         "start": 233.46,
         "end": 235.78,
         "speaker": "Speaker",
@@ -28213,7 +22926,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 44,
+        "id": 43,
         "start": 235.82,
         "end": 239.72,
         "speaker": "Speaker",
@@ -28229,7 +22942,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 45,
+        "id": 44,
         "start": 239.76,
         "end": 250.96,
         "speaker": "Speaker",
@@ -28255,7 +22968,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 46,
+        "id": 45,
         "start": 251.0,
         "end": 255.25,
         "speaker": "Speaker",
@@ -28271,7 +22984,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 47,
+        "id": 46,
         "start": 255.29,
         "end": 258.4,
         "speaker": "Speaker",
@@ -28287,7 +23000,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 48,
+        "id": 47,
         "start": 258.44,
         "end": 262.22,
         "speaker": "Speaker",
@@ -28303,7 +23016,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 49,
+        "id": 48,
         "start": 262.26,
         "end": 265.72,
         "speaker": "Speaker",
@@ -28319,7 +23032,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 50,
+        "id": 49,
         "start": 265.76,
         "end": 270.41,
         "speaker": "Speaker",
@@ -28335,7 +23048,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 51,
+        "id": 50,
         "start": 270.45,
         "end": 275.22,
         "speaker": "Speaker",
@@ -28356,7 +23069,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 52,
+        "id": 51,
         "start": 275.26,
         "end": 278.13,
         "speaker": "Speaker",
@@ -28366,7 +23079,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 53,
+        "id": 52,
         "start": 278.17,
         "end": 285.36,
         "speaker": "Speaker",
@@ -28382,7 +23095,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 54,
+        "id": 53,
         "start": 285.4,
         "end": 293.99,
         "speaker": "Speaker",
@@ -28408,7 +23121,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 55,
+        "id": 54,
         "start": 294.03,
         "end": 296.79,
         "speaker": "Speaker",
@@ -28424,7 +23137,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 56,
+        "id": 55,
         "start": 296.83,
         "end": 298.88,
         "speaker": "Speaker",
@@ -28440,7 +23153,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 57,
+        "id": 56,
         "start": 298.92,
         "end": 300.12,
         "speaker": "Speaker",
@@ -28450,7 +23163,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 58,
+        "id": 57,
         "start": 300.16,
         "end": 304.83,
         "speaker": "Speaker",
@@ -28466,7 +23179,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 59,
+        "id": 58,
         "start": 304.87,
         "end": 308.05,
         "speaker": "Speaker",
@@ -28482,7 +23195,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 60,
+        "id": 59,
         "start": 308.09,
         "end": 315.21,
         "speaker": "Speaker",
@@ -28498,7 +23211,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 61,
+        "id": 60,
         "start": 315.25,
         "end": 327.04,
         "speaker": "Speaker",
@@ -28519,7 +23232,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 62,
+        "id": 61,
         "start": 334.13,
         "end": 335.35,
         "speaker": "Speaker",
@@ -28529,7 +23242,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 63,
+        "id": 62,
         "start": 335.39,
         "end": 337.67,
         "speaker": "Speaker",
@@ -28545,7 +23258,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 64,
+        "id": 63,
         "start": 337.71,
         "end": 349.57,
         "speaker": "Speaker",
@@ -28566,7 +23279,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 65,
+        "id": 64,
         "start": 349.61,
         "end": 354.78,
         "speaker": "Speaker",
@@ -28582,7 +23295,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 66,
+        "id": 65,
         "start": 354.82,
         "end": 357.16,
         "speaker": "Speaker",
@@ -28603,7 +23316,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 67,
+        "id": 66,
         "start": 357.2,
         "end": 361.25,
         "speaker": "Speaker",
@@ -28624,7 +23337,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 68,
+        "id": 67,
         "start": 361.29,
         "end": 361.97,
         "speaker": "Speaker",
@@ -28640,7 +23353,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 69,
+        "id": 68,
         "start": 362.01,
         "end": 364.46,
         "speaker": "Speaker",
@@ -28656,7 +23369,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 70,
+        "id": 69,
         "start": 364.5,
         "end": 365.41,
         "speaker": "Speaker",
@@ -28672,7 +23385,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 71,
+        "id": 70,
         "start": 365.45,
         "end": 367.27,
         "speaker": "Speaker",
@@ -28688,7 +23401,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 72,
+        "id": 71,
         "start": 367.31,
         "end": 369.08,
         "speaker": "Speaker",
@@ -28704,7 +23417,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 73,
+        "id": 72,
         "start": 369.12,
         "end": 370.51,
         "speaker": "Speaker",
@@ -28725,7 +23438,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 74,
+        "id": 73,
         "start": 370.55,
         "end": 371.91,
         "speaker": "Speaker",
@@ -28741,7 +23454,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 75,
+        "id": 74,
         "start": 371.95,
         "end": 374.82,
         "speaker": "Speaker",
@@ -28757,7 +23470,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 76,
+        "id": 75,
         "start": 374.86,
         "end": 386.44,
         "speaker": "Speaker",
@@ -28783,7 +23496,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 77,
+        "id": 76,
         "start": 386.48,
         "end": 390.45,
         "speaker": "Speaker",
@@ -28799,7 +23512,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 78,
+        "id": 77,
         "start": 390.49,
         "end": 391.37,
         "speaker": "Speaker",
@@ -28815,7 +23528,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 79,
+        "id": 78,
         "start": 391.41,
         "end": 406.6,
         "speaker": "Speaker",
@@ -28841,7 +23554,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 80,
+        "id": 79,
         "start": 406.64,
         "end": 409.65,
         "speaker": "Speaker",
@@ -28857,7 +23570,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 81,
+        "id": 80,
         "start": 409.69,
         "end": 417.36,
         "speaker": "Speaker",
@@ -28878,7 +23591,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 82,
+        "id": 81,
         "start": 417.4,
         "end": 421.73,
         "speaker": "Speaker",
@@ -28894,7 +23607,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 83,
+        "id": 82,
         "start": 421.77,
         "end": 422.43,
         "speaker": "Speaker",
@@ -28910,7 +23623,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 84,
+        "id": 83,
         "start": 422.47,
         "end": 426.44,
         "speaker": "Speaker",
@@ -28926,7 +23639,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 85,
+        "id": 84,
         "start": 426.48,
         "end": 428.0,
         "speaker": "Speaker",
@@ -28942,7 +23655,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 86,
+        "id": 85,
         "start": 428.04,
         "end": 429.22,
         "speaker": "Speaker",
@@ -28952,7 +23665,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 87,
+        "id": 86,
         "start": 429.26,
         "end": 438.04,
         "speaker": "Speaker",
@@ -28973,7 +23686,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 88,
+        "id": 87,
         "start": 438.08,
         "end": 440.79,
         "speaker": "Speaker",
@@ -28983,7 +23696,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 89,
+        "id": 88,
         "start": 440.83,
         "end": 443.11,
         "speaker": "Speaker",
@@ -28999,7 +23712,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 89,
         "start": 443.15,
         "end": 445.53,
         "speaker": "Speaker",
@@ -29009,7 +23722,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 91,
+        "id": 90,
         "start": 445.57,
         "end": 446.32,
         "speaker": "Speaker",
@@ -29019,7 +23732,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 92,
+        "id": 91,
         "start": 446.36,
         "end": 450.14,
         "speaker": "Speaker",
@@ -29035,7 +23748,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 93,
+        "id": 92,
         "start": 450.18,
         "end": 453.34,
         "speaker": "Speaker",
@@ -29051,7 +23764,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 93,
         "start": 453.38,
         "end": 463.75,
         "speaker": "Speaker",
@@ -29077,7 +23790,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 95,
+        "id": 94,
         "start": 463.79,
         "end": 466.36,
         "speaker": "Speaker",
@@ -29098,7 +23811,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 95,
         "start": 466.4,
         "end": 471.39,
         "speaker": "Speaker",
@@ -29114,7 +23827,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 96,
         "start": 471.43,
         "end": 473.46,
         "speaker": "Speaker",
@@ -29130,7 +23843,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 98,
+        "id": 97,
         "start": 473.5,
         "end": 474.42,
         "speaker": "Speaker",
@@ -29146,7 +23859,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 98,
         "start": 474.46,
         "end": 480.19,
         "speaker": "Speaker",
@@ -29162,7 +23875,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 100,
+        "id": 99,
         "start": 480.23,
         "end": 486.54,
         "speaker": "Speaker",
@@ -29183,7 +23896,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 101,
+        "id": 100,
         "start": 486.58,
         "end": 491.35,
         "speaker": "Speaker",
@@ -29204,7 +23917,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 102,
+        "id": 101,
         "start": 491.39,
         "end": 498.6,
         "speaker": "Speaker",
@@ -29230,7 +23943,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 103,
+        "id": 102,
         "start": 498.64,
         "end": 509.99,
         "speaker": "Speaker",
@@ -29256,7 +23969,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 104,
+        "id": 103,
         "start": 510.03,
         "end": 512.56,
         "speaker": "Speaker",
@@ -29272,7 +23985,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 104,
         "start": 512.6,
         "end": 536.15,
         "speaker": "Speaker",
@@ -29300,21 +24013,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-53-How-to-Order-Fast-Food-in-Englis-part2",
-    "number": "EP 53",
-    "title": "How to Order Fast Food in English (Part 2)",
+    "id": "local-55-trimmed-55-part2",
+    "number": "EP 55",
+    "title": "美式快餐开箱试吃与口味评价地道表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 234,
     "durationLabel": "03:54",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%202%29.trimmed.m4a",
@@ -30104,21 +24816,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-52-How-to-Order-Fast-Food-in-Englis-part1",
-    "number": "EP 52",
-    "title": "How to Order Fast Food in English (Part 1)",
+    "id": "local-54-Drive-thru-part1",
+    "number": "EP 54",
+    "title": "美国得来速快餐实景：点咖啡与 Drive-thru 下单",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
+    "difficulty": 5,
     "durationSec": 512,
     "durationLabel": "08:32",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Order%20Fast%20Food%20in%20English%20%28Part%201%29.trimmed.m4a",
@@ -31741,26 +26452,27 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-51-English-Lesson-At-The-Airport-Pa-part2",
-    "number": "EP 51",
-    "title": "English Lesson At The Airport (Part 2)",
+    "id": "local-53-trimmed-53-part2",
+    "number": "EP 53",
+    "title": "机场候机与美食区：登机前购物与餐饮表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
     "durationSec": 286,
     "durationLabel": "04:46",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "旅行",
-      "生活英语"
+      "购物",
+      "美食",
+      "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "旅行",
+    "sceneBadge": "购物",
     "skipRanges": [
       [
         86.49,
@@ -32772,21 +27484,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-50-English-Lesson-At-The-Airport-Pa-part1",
-    "number": "EP 50",
-    "title": "English Lesson At The Airport (Part 1)",
+    "id": "local-52-trimmed-52-part1",
+    "number": "EP 52",
+    "title": "美国机场出行实战：值机、安检与登机口英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
     "durationSec": 535,
     "durationLabel": "08:55",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "旅行",
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/English%20Lesson%20At%20The%20Airport%20%28Part%201%29.trimmed.m4a",
@@ -34607,26 +29319,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-49-How-To-Order-Food-In-a-Restauran-part2",
-    "number": "EP 49",
-    "title": "How To Order Food In a Restaurant (Part 2)",
+    "id": "local-51-trimmed-51-part2",
+    "number": "EP 51",
+    "title": "用餐中途怎么沟通：续杯加酱、打包与买单英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
+    "difficulty": 5,
     "durationSec": 313,
     "durationLabel": "05:13",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语"
+      "生活英语",
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         53.77,
@@ -35821,21 +30533,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-48-How-To-Order-Food-In-a-Restauran-part1",
-    "number": "EP 48",
-    "title": "How To Order Food In a Restaurant (Part 1)",
+    "id": "local-50-trimmed-50-part1",
+    "number": "EP 50",
+    "title": "美国餐厅点餐实战：入座、看菜单与向服务员咨询",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 545,
     "durationLabel": "09:05",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20To%20Order%20Food%20In%20a%20Restaurant%20%28Part%201%29.trimmed.m4a",
@@ -38025,21 +32736,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-47-Can-you-understand-my-friend-Eng-part2",
-    "number": "EP 47",
-    "title": "Can you understand my friend？ ｜ English Conversation (Part 2)",
-    "speaker": "YouTube 博主",
+    "id": "local-49-trimmed-49-part2",
+    "number": "EP 49",
+    "title": "美式街头俚语精讲：正式说法与地道口语对比",
+    "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
     "durationSec": 366,
     "durationLabel": "06:06",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "日常对话",
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%202%29.trimmed.m4a",
@@ -39816,26 +34527,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-46-Can-you-understand-my-friend-Eng-part1",
-    "number": "EP 46",
-    "title": "Can you understand my friend？ ｜ English Conversation (Part 1)",
-    "speaker": "YouTube 博主",
+    "id": "local-48-trimmed-48-part1",
+    "number": "EP 48",
+    "title": "你能听懂美国年轻人的俚语吗？辛辛那提好友访谈",
+    "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 5,
+    "difficulty": 4,
     "durationSec": 546,
     "durationLabel": "09:06",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "日常对话",
-      "生活英语"
+      "名人访谈",
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation%20%28Part%201%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "日常对话",
+    "sceneBadge": "名人访谈",
     "skipRanges": [],
     "sentences": [
       {
@@ -42538,26 +37249,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-45-what-i-eat-as-a-busy-girl-living-part2",
-    "number": "EP 45",
-    "title": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 2)",
-    "speaker": "YouTube 博主",
+    "id": "local-47-trimmed-47-part2",
+    "number": "EP 47",
+    "title": "健身后的高蛋白晚餐与纽约居家备餐日常",
+    "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
     "durationSec": 540,
     "durationLabel": "09:00",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "旅行"
+      "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "生活",
     "skipRanges": [
       [
         187.44,
@@ -45603,21 +40313,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-44-what-i-eat-as-a-busy-girl-living-part1",
-    "number": "EP 44",
-    "title": "what i eat as a busy girl living in nyc ｜ healthy & easy meals (Part 1)",
-    "speaker": "YouTube 博主",
+    "id": "local-46-trimmed-46-part1",
+    "number": "EP 46",
+    "title": "纽约上班族的一日三餐：快手健康早餐与健身前加餐",
+    "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 5,
+    "difficulty": 4,
     "durationSec": 400,
     "durationLabel": "06:40",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "旅行"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20eat%20as%20a%20busy%20girl%20living%20in%20nyc%20%EF%BD%9C%20healthy%20%26%20easy%20meals%20%28Part%201%29.trimmed.m4a",
@@ -47272,27 +41981,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-43-what-i-spend-in-a-week-living-in-part2",
-    "number": "EP 43",
-    "title": "what i spend in a week living in nyc (Part 2)",
-    "speaker": "YouTube 博主",
+    "id": "local-45-trimmed-45-part2",
+    "number": "EP 45",
+    "title": "纽约周末夜生活与账单复盘：大城市生活开销",
+    "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 440,
     "durationLabel": "07:20",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "旅行",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "生活",
     "skipRanges": [
       [
         46.57,
@@ -49836,22 +44543,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-42-what-i-spend-in-a-week-living-in-part1",
-    "number": "EP 42",
-    "title": "what i spend in a week living in nyc (Part 1)",
-    "speaker": "YouTube 博主",
+    "id": "local-44-trimmed-44-part1",
+    "number": "EP 44",
+    "title": "纽约独居一周消费实录：咖啡、出行与日常开支",
+    "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 503,
     "durationLabel": "08:23",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "美食",
-      "旅行",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/what%20i%20spend%20in%20a%20week%20living%20in%20nyc%20%28Part%201%29.trimmed.m4a",
@@ -49871,7 +44577,7 @@ export const LOCAL_EPISODES = [
         103.72
       ],
       [
-        144.14,
+        143.8,
         149.2
       ],
       [
@@ -50430,11 +45136,11 @@ export const LOCAL_EPISODES = [
       {
         "id": 33,
         "start": 135.79,
-        "end": 144.14,
+        "end": 143.8,
         "speaker": "Speaker",
-        "en": "It is a A little bit chilly.",
+        "en": "It is a little bit chilly.",
         "ipa": "/ɪt ɪz ə ə ˈlɪtəl bɪt ˈtʃɪli./",
-        "zh": "这真是个有点冷。",
+        "zh": "天气有点冷。",
         "highlights": [
           {
             "text": "It is",
@@ -52755,27 +47461,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-41-How-to-Buy-a-House-in-USA-Part-2-part2",
-    "number": "EP 41",
-    "title": "How to Buy a House in USA (Part 2)",
+    "id": "local-43-trimmed-43-part2",
+    "number": "EP 43",
+    "title": "美国买房流程与二楼卧室参观：房产英语实战",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
     "durationSec": 539,
     "durationLabel": "08:59",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
       "生活英语",
-      "生活"
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         51.45,
@@ -55042,27 +49747,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-40-How-to-Buy-a-House-in-USA-Part-1-part1",
-    "number": "EP 40",
-    "title": "How to Buy a House in USA (Part 1)",
+    "id": "local-42-trimmed-42-part1",
+    "number": "EP 42",
+    "title": "美国看房实景：客厅、厨房与后院空间介绍",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 5,
+    "difficulty": 4,
     "durationSec": 512,
     "durationLabel": "08:32",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
       "生活英语",
-      "生活"
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/How%20to%20Buy%20a%20House%20in%20USA%20%28Part%201%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         65.55,
@@ -57335,21 +52039,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-39-Household-Chores-In-English-Part-part3",
-    "number": "EP 39",
-    "title": "Household Chores In English (Part 3)",
+    "id": "local-41-trimmed-41-part3",
+    "number": "EP 41",
+    "title": "洗衣服与收纳整理：美式家庭家务高频短语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
     "durationSec": 450,
     "durationLabel": "07:30",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "生活英语",
-      "生活"
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%203%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%203%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%203%29.trimmed.m4a",
@@ -58658,21 +53362,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-38-Household-Chores-In-English-Part-part2",
-    "number": "EP 38",
-    "title": "Household Chores In English (Part 2)",
+    "id": "local-40-trimmed-40-part2",
+    "number": "EP 40",
+    "title": "厨房与客厅清洁：擦拭、抛光与吸尘实用动词",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
     "durationSec": 443,
     "durationLabel": "07:23",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "生活英语",
-      "生活"
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%202%29.trimmed.m4a",
@@ -59827,26 +54531,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-37-Household-Chores-In-English-Part-part1",
-    "number": "EP 37",
-    "title": "Household Chores In English (Part 1)",
+    "id": "local-39-trimmed-39-part1",
+    "number": "EP 39",
+    "title": "居家大扫除英语：整理房间与日常家务表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
     "durationSec": 266,
     "durationLabel": "04:26",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "生活英语",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Household%20Chores%20In%20English%20%28Part%201%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "生活英语",
+    "sceneBadge": "生活",
     "skipRanges": [
       [
         79.36,
@@ -60622,27 +55325,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-36-Order-PIZZA-in-English-Daily-Lif-part3",
-    "number": "EP 36",
-    "title": "Order PIZZA in English： Daily Life English Lesson (Part 3)",
+    "id": "local-38-trimmed-38-part3",
+    "number": "EP 38",
+    "title": "享用美式披萨与结账打包：完整餐厅收尾对话",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 335,
     "durationLabel": "05:35",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
       "生活英语",
-      "生活"
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%203%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%203%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%203%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         332.1,
@@ -62356,27 +57058,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-35-Order-PIZZA-in-English-Daily-Lif-part2",
-    "number": "EP 35",
-    "title": "Order PIZZA in English： Daily Life English Lesson (Part 2)",
+    "id": "local-37-trimmed-37-part2",
+    "number": "EP 37",
+    "title": "披萨店餐桌闲聊：餐厅打工趣事与地道口语",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 477,
     "durationLabel": "07:57",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
       "生活英语",
-      "生活"
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%202%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%202%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%202%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "生活英语",
     "skipRanges": [],
     "sentences": [
       {
@@ -65023,22 +59724,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-34-Order-PIZZA-in-English-Daily-Lif-part1",
-    "number": "EP 34",
-    "title": "Order PIZZA in English： Daily Life English Lesson (Part 1)",
+    "id": "local-36-trimmed-36-part1",
+    "number": "EP 36",
+    "title": "美式披萨店实景点单：菜单解读与开胃小食",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
+    "difficulty": 5,
     "durationSec": 444,
     "durationLabel": "07:24",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语",
-      "生活"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%201%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%201%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson%20%28Part%201%29.trimmed.m4a",
@@ -67907,21 +62606,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-33-Downtown-NYC-Vocabulary-Part-2-part2",
-    "number": "EP 33",
-    "title": "Downtown NYC Vocabulary (Part 2：人行横道、地铁与街头热狗)",
+    "id": "local-35-trimmed-35-part2",
+    "number": "EP 35",
+    "title": "纽约街头出行：人行横道、地铁与街头热狗摊",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 149,
     "durationLabel": "02:29",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "旅行",
-      "生活英语"
+      "旅行"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BA%BA%E8%A1%8C%E6%A8%AA%E9%81%93%E3%80%81%E5%9C%B0%E9%93%81%E4%B8%8E%E8%A1%97%E5%A4%B4%E7%83%AD%E7%8B%97%29.trimmed.m4a",
@@ -68522,26 +63220,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-32-Downtown-NYC-Vocabulary-Part-1-part1",
-    "number": "EP 32",
-    "title": "Downtown NYC Vocabulary (Part 1：摩天大楼与街道人行道)",
+    "id": "local-34-trimmed-34-part1",
+    "number": "EP 34",
+    "title": "漫步纽约曼哈顿：摩天大楼、人行道与自行车道",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 282,
     "durationLabel": "04:42",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "旅行",
-      "生活英语"
+      "生活英语",
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%201%EF%BC%9A%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E4%B8%8E%E8%A1%97%E9%81%93%E4%BA%BA%E8%A1%8C%E9%81%93%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%201%EF%BC%9A%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E4%B8%8E%E8%A1%97%E9%81%93%E4%BA%BA%E8%A1%8C%E9%81%93%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Downtown%20NYC%20Vocabulary%20%28Part%201%EF%BC%9A%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E4%B8%8E%E8%A1%97%E9%81%93%E4%BA%BA%E8%A1%8C%E9%81%93%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "旅行",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         42.3,
@@ -69415,21 +64113,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-31-Ordering-Food-at-Chipotle-Part-2-part2",
-    "number": "EP 31",
-    "title": "Ordering Food at Chipotle (Part 2：柜台实景点单全流程)",
+    "id": "local-33-Chipotle-part2",
+    "number": "EP 33",
+    "title": "Chipotle 柜台实景点单：选肉选酱与地道句型",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 300,
     "durationLabel": "05:00",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%202%EF%BC%9A%E6%9F%9C%E5%8F%B0%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E5%85%A8%E6%B5%81%E7%A8%8B%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%202%EF%BC%9A%E6%9F%9C%E5%8F%B0%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E5%85%A8%E6%B5%81%E7%A8%8B%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%202%EF%BC%9A%E6%9F%9C%E5%8F%B0%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E5%85%A8%E6%B5%81%E7%A8%8B%29.trimmed.m4a",
@@ -70547,21 +65244,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-30-Ordering-Food-at-Chipotle-Part-1-part1",
-    "number": "EP 30",
-    "title": "Ordering Food at Chipotle (Part 1：菜单选择与加料价格)",
+    "id": "local-32-Chipotle-part1",
+    "number": "EP 32",
+    "title": "Chipotle 墨西哥卷点餐前必懂：菜单与加料计价",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 254,
     "durationLabel": "04:14",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%201%EF%BC%9A%E8%8F%9C%E5%8D%95%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8A%A0%E6%96%99%E4%BB%B7%E6%A0%BC%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%201%EF%BC%9A%E8%8F%9C%E5%8D%95%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8A%A0%E6%96%99%E4%BB%B7%E6%A0%BC%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Ordering%20Food%20at%20Chipotle%20%28Part%201%EF%BC%9A%E8%8F%9C%E5%8D%95%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8A%A0%E6%96%99%E4%BB%B7%E6%A0%BC%29.trimmed.m4a",
@@ -71207,8 +65903,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-29-Living-Alone-Diaries-trimmed",
-    "number": "EP 29",
+    "id": "local-31-Living-Alone-Diaries-trimmed",
+    "number": "EP 31",
     "title": "Living Alone Diaries（独居一日三餐与蒜香意面）",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -71216,12 +65912,12 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 217,
     "durationLabel": "03:37",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.jpg",
     "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E4%B8%80%E6%97%A5%E4%B8%89%E9%A4%90%E4%B8%8E%E8%92%9C%E9%A6%99%E6%84%8F%E9%9D%A2%EF%BC%89.trimmed.m4a",
@@ -71634,27 +66330,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-28-Living-Alone-Diaries-trimmed",
-    "number": "EP 28",
+    "id": "local-30-Living-Alone-Diaries-trimmed",
+    "number": "EP 30",
     "title": "Living Alone Diaries（独居女孩的静谧晨间与午后）",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 1,
+    "difficulty": 2,
     "durationSec": 327,
     "durationLabel": "05:27",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
       "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.jpg",
     "mediaUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Living%20Alone%20Diaries%EF%BC%88%E7%B2%BE%E7%BC%96%E7%89%88%EF%BC%9A%E7%8B%AC%E5%B1%85%E5%A5%B3%E5%AD%A9%E7%9A%84%E9%9D%99%E8%B0%A7%E6%99%A8%E9%97%B4%E4%B8%8E%E5%8D%88%E5%90%8E%EF%BC%89.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "美食",
     "skipRanges": [
       [
         13.92,
@@ -72720,21 +67415,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-27-Grocery-Shopping-Part-2-part2",
-    "number": "EP 27",
-    "title": "Grocery Shopping (Part 2：烘焙区、乳制品与自助结账)",
+    "id": "local-29-trimmed-29-part2",
+    "number": "EP 29",
+    "title": "超市烘焙区、保质期怎么看与自助结账机",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 275,
     "durationLabel": "04:35",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "购物",
-      "生活英语"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%202%EF%BC%9A%E7%83%98%E7%84%99%E5%8C%BA%E3%80%81%E4%B9%B3%E5%88%B6%E5%93%81%E4%B8%8E%E8%87%AA%E5%8A%A9%E7%BB%93%E8%B4%A6%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%202%EF%BC%9A%E7%83%98%E7%84%99%E5%8C%BA%E3%80%81%E4%B9%B3%E5%88%B6%E5%93%81%E4%B8%8E%E8%87%AA%E5%8A%A9%E7%BB%93%E8%B4%A6%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%202%EF%BC%9A%E7%83%98%E7%84%99%E5%8C%BA%E3%80%81%E4%B9%B3%E5%88%B6%E5%93%81%E4%B8%8E%E8%87%AA%E5%8A%A9%E7%BB%93%E8%B4%A6%29.trimmed.m4a",
@@ -73843,21 +68538,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-26-Grocery-Shopping-Part-1-part1",
-    "number": "EP 26",
-    "title": "Grocery Shopping (Part 1：有机果蔬区与挑选牛油果)",
+    "id": "local-28-trimmed-28-part1",
+    "number": "EP 28",
+    "title": "跟外教逛超市：有机果蔬区与挑选成熟牛油果",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 268,
     "durationLabel": "04:28",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
-      "生活英语"
+      "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%201%EF%BC%9A%E6%9C%89%E6%9C%BA%E6%9E%9C%E8%94%AC%E5%8C%BA%E4%B8%8E%E6%8C%91%E9%80%89%E7%89%9B%E6%B2%B9%E6%9E%9C%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%201%EF%BC%9A%E6%9C%89%E6%9C%BA%E6%9E%9C%E8%94%AC%E5%8C%BA%E4%B8%8E%E6%8C%91%E9%80%89%E7%89%9B%E6%B2%B9%E6%9E%9C%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Shopping%20%28Part%201%EF%BC%9A%E6%9C%89%E6%9C%BA%E6%9E%9C%E8%94%AC%E5%8C%BA%E4%B8%8E%E6%8C%91%E9%80%89%E7%89%9B%E6%B2%B9%E6%9E%9C%29.trimmed.m4a",
@@ -74785,22 +69479,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-25-Grocery-Store-Vocabulary-Part-2-part2",
-    "number": "EP 25",
-    "title": "Grocery Store Vocabulary (Part 2：日用货架与超市结账)",
+    "id": "local-27-trimmed-27-part2",
+    "number": "EP 27",
+    "title": "美国超市结账全流程：纸袋塑料袋、会员卡与刷卡",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 342,
     "durationLabel": "05:42",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
-      "生活英语",
-      "生活"
+      "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%202%EF%BC%9A%E6%97%A5%E7%94%A8%E8%B4%A7%E6%9E%B6%E4%B8%8E%E8%B6%85%E5%B8%82%E7%BB%93%E8%B4%A6%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%202%EF%BC%9A%E6%97%A5%E7%94%A8%E8%B4%A7%E6%9E%B6%E4%B8%8E%E8%B6%85%E5%B8%82%E7%BB%93%E8%B4%A6%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%202%EF%BC%9A%E6%97%A5%E7%94%A8%E8%B4%A7%E6%9E%B6%E4%B8%8E%E8%B6%85%E5%B8%82%E7%BB%93%E8%B4%A6%29.trimmed.m4a",
@@ -76304,22 +70996,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-24-Grocery-Store-Vocabulary-Part-1-part1",
-    "number": "EP 24",
-    "title": "Grocery Store Vocabulary (Part 1：散装区、果蔬与海鲜)",
+    "id": "local-26-trimmed-26-part1",
+    "number": "EP 26",
+    "title": "逛美国超市前半程：散装区、果蔬与生鲜海产",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 342,
     "durationLabel": "05:42",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "购物",
-      "生活英语",
-      "生活"
+      "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Grocery%20Store%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%A3%E8%A3%85%E5%8C%BA%E3%80%81%E6%9E%9C%E8%94%AC%E4%B8%8E%E6%B5%B7%E9%B2%9C%29.trimmed.m4a",
@@ -77978,27 +72669,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-23-Mall-Vocabulary-Part-3-part3",
-    "number": "EP 23",
-    "title": "Mall Vocabulary (Part 3：乐高玩具、排队结账与奢侈品区)",
+    "id": "local-25-trimmed-25-part3",
+    "number": "EP 25",
+    "title": "乐高玩具店、柜台结账与商场防盗词汇",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 314,
     "durationLabel": "05:14",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
-      "美食",
-      "旅行"
+      "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B9%90%E9%AB%98%E7%8E%A9%E5%85%B7%E3%80%81%E6%8E%92%E9%98%9F%E7%BB%93%E8%B4%A6%E4%B8%8E%E5%A5%A2%E4%BE%88%E5%93%81%E5%8C%BA%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         7.38,
@@ -79010,22 +73699,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-22-Mall-Vocabulary-Part-2-part2",
-    "number": "EP 22",
-    "title": "Mall Vocabulary (Part 2：潮流服饰、游戏与玩具店)",
+    "id": "local-24-trimmed-24-part2",
+    "number": "EP 24",
+    "title": "美式商场淘宝：潮流服饰、游戏店与综合百货",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 336,
     "durationLabel": "05:36",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
-      "美食",
-      "旅行"
+      "购物"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%202%EF%BC%9A%E6%BD%AE%E6%B5%81%E6%9C%8D%E9%A5%B0%E3%80%81%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%A9%E5%85%B7%E5%BA%97%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%202%EF%BC%9A%E6%BD%AE%E6%B5%81%E6%9C%8D%E9%A5%B0%E3%80%81%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%A9%E5%85%B7%E5%BA%97%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%202%EF%BC%9A%E6%BD%AE%E6%B5%81%E6%9C%8D%E9%A5%B0%E3%80%81%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%A9%E5%85%B7%E5%BA%97%29.trimmed.m4a",
@@ -80406,22 +75093,21 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-21-Mall-Vocabulary-Part-1-part1",
-    "number": "EP 21",
-    "title": "Mall Vocabulary (Part 1：商场分区与美食广场点餐)",
+    "id": "local-23-trimmed-23-part1",
+    "number": "EP 23",
+    "title": "逛美国购物中心：楼层分区与美食广场点餐",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 335,
     "durationLabel": "05:35",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "购物",
-      "美食",
-      "旅行"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Mall%20Vocabulary%20%28Part%201%EF%BC%9A%E5%95%86%E5%9C%BA%E5%88%86%E5%8C%BA%E4%B8%8E%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%9C%BA%E7%82%B9%E9%A4%90%29.trimmed.m4a",
@@ -81468,27 +76154,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-20-Car-Vocabulary-Part-3-part3",
-    "number": "EP 20",
-    "title": "Car Vocabulary (Part 3：中控台、换挡杆与车内清洁)",
+    "id": "local-22-trimmed-22-part3",
+    "number": "EP 22",
+    "title": "中控台、换挡杆与车内清洁：汽车内饰英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 321,
     "durationLabel": "05:21",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语",
-      "生活"
+      "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B8%AD%E6%8E%A7%E5%8F%B0%E3%80%81%E6%8D%A2%E6%8C%A1%E6%9D%86%E4%B8%8E%E8%BD%A6%E5%86%85%E6%B8%85%E6%B4%81%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B8%AD%E6%8E%A7%E5%8F%B0%E3%80%81%E6%8D%A2%E6%8C%A1%E6%9D%86%E4%B8%8E%E8%BD%A6%E5%86%85%E6%B8%85%E6%B4%81%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%203%EF%BC%9A%E4%B8%AD%E6%8E%A7%E5%8F%B0%E3%80%81%E6%8D%A2%E6%8C%A1%E6%9D%86%E4%B8%8E%E8%BD%A6%E5%86%85%E6%B8%85%E6%B4%81%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         240.48,
@@ -82306,27 +76990,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-19-Car-Vocabulary-Part-2-part2",
-    "number": "EP 19",
-    "title": "Car Vocabulary (Part 2：轮胎、爆胎与仪表盘)",
+    "id": "local-21-trimmed-21-part2",
+    "number": "EP 21",
+    "title": "爆胎、轮毂与仪表盘：自驾必备汽车英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 323,
     "durationLabel": "05:23",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
       "生活英语",
-      "生活"
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%202%EF%BC%9A%E8%BD%AE%E8%83%8E%E3%80%81%E7%88%86%E8%83%8E%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%202%EF%BC%9A%E8%BD%AE%E8%83%8E%E3%80%81%E7%88%86%E8%83%8E%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%202%EF%BC%9A%E8%BD%AE%E8%83%8E%E3%80%81%E7%88%86%E8%83%8E%E4%B8%8E%E4%BB%AA%E8%A1%A8%E7%9B%98%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         322.35,
@@ -83147,27 +77830,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-18-Car-Vocabulary-Part-1-part1",
-    "number": "EP 18",
-    "title": "Car Vocabulary (Part 1：洗车与车身外观词汇)",
+    "id": "local-20-trimmed-20-part1",
+    "number": "EP 20",
+    "title": "自助洗车与车身外观：入门汽车英语词汇",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 307,
     "durationLabel": "05:07",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语",
-      "生活"
+      "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%201%EF%BC%9A%E6%B4%97%E8%BD%A6%E4%B8%8E%E8%BD%A6%E8%BA%AB%E5%A4%96%E8%A7%82%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%201%EF%BC%9A%E6%B4%97%E8%BD%A6%E4%B8%8E%E8%BD%A6%E8%BA%AB%E5%A4%96%E8%A7%82%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Car%20Vocabulary%20%28Part%201%EF%BC%9A%E6%B4%97%E8%BD%A6%E4%B8%8E%E8%BD%A6%E8%BA%AB%E5%A4%96%E8%A7%82%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         146.65,
@@ -84234,26 +78915,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-17-Religious-Vocabulary-Part-3-part3",
-    "number": "EP 17",
-    "title": "Religious Vocabulary (Part 3：多元宗教文化与总结)",
-    "speaker": "YouTube 博主",
+    "id": "local-19-trimmed-19-part3",
+    "number": "EP 19",
+    "title": "探访印度教寺庙与犹太会堂：多元宗教文化英语",
+    "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 321,
     "durationLabel": "05:21",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "日常对话",
-      "生活英语"
+      "生活英语",
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%203%EF%BC%9A%E5%A4%9A%E5%85%83%E5%AE%97%E6%95%99%E6%96%87%E5%8C%96%E4%B8%8E%E6%80%BB%E7%BB%93%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%203%EF%BC%9A%E5%A4%9A%E5%85%83%E5%AE%97%E6%95%99%E6%96%87%E5%8C%96%E4%B8%8E%E6%80%BB%E7%BB%93%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%203%EF%BC%9A%E5%A4%9A%E5%85%83%E5%AE%97%E6%95%99%E6%96%87%E5%8C%96%E4%B8%8E%E6%80%BB%E7%BB%93%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "日常对话",
+    "sceneBadge": "生活英语",
     "skipRanges": [],
     "sentences": [
       {
@@ -85563,26 +80244,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-16-Religious-Vocabulary-Part-2-part2",
-    "number": "EP 16",
-    "title": "Religious Vocabulary (Part 2：信仰交流与经典词汇)",
-    "speaker": "YouTube 博主",
+    "id": "local-18-trimmed-18-part2",
+    "number": "EP 18",
+    "title": "聊信仰与宗教礼仪：讲道、捐赠与跨文化表达",
+    "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 320,
     "durationLabel": "05:20",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "日常对话",
-      "生活英语"
+      "生活英语",
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BF%A1%E4%BB%B0%E4%BA%A4%E6%B5%81%E4%B8%8E%E7%BB%8F%E5%85%B8%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BF%A1%E4%BB%B0%E4%BA%A4%E6%B5%81%E4%B8%8E%E7%BB%8F%E5%85%B8%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%202%EF%BC%9A%E4%BF%A1%E4%BB%B0%E4%BA%A4%E6%B5%81%E4%B8%8E%E7%BB%8F%E5%85%B8%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "日常对话",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         319.33,
@@ -86815,26 +81496,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-15-Religious-Vocabulary-Part-1-part1",
-    "number": "EP 15",
-    "title": "Religious Vocabulary (Part 1：教堂弥撒与神职词汇)",
-    "speaker": "YouTube 博主",
+    "id": "local-17-trimmed-17-part1",
+    "number": "EP 17",
+    "title": "走进美国教堂：弥撒、圣经与神职英语词汇",
+    "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 1,
     "durationSec": 326,
     "durationLabel": "05:26",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "日常对话",
       "生活英语"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%99%E5%A0%82%E5%BC%A5%E6%92%92%E4%B8%8E%E7%A5%9E%E8%81%8C%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%99%E5%A0%82%E5%BC%A5%E6%92%92%E4%B8%8E%E7%A5%9E%E8%81%8C%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Religious%20Vocabulary%20%28Part%201%EF%BC%9A%E6%95%99%E5%A0%82%E5%BC%A5%E6%92%92%E4%B8%8E%E7%A5%9E%E8%81%8C%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "日常对话",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         81.54,
@@ -86883,9 +81563,9 @@ export const LOCAL_EPISODES = [
         "start": 3.61,
         "end": 20.39,
         "speaker": "Speaker",
-        "en": "My name is Arianita Lagringa and in today's video we will talk about different religions in English and we will go to places like a Catholic church, an evangelist church, a mosque, a Hindu temple, a synagogue, all in Cincinnati, Ohio.",
+        "en": "My name is Ariannita la Gringa and in today's video we will talk about different religions in English and we will go to places like a Catholic church, an evangelist church, a mosque, a Hindu temple, a synagogue, all in Cincinnati, Ohio.",
         "ipa": "/maɪ neɪm ɪz ... ænd ɪn təˈdeɪz ˈvɪdioʊ wi wɪl tɔk əˈbaʊt ˈdɪfərənt rɪˈlɪdʒənz ɪn ˈɪŋɡlɪʃ ænd wi wɪl ɡoʊ tu ˈpleɪsɪz laɪk ə ˈkæθlɪk ʧɜrʧ, ən ɪˈvændʒəlɪst ʧɜrʧ, ə mɑsk, ə ˈhɪndu ˈtɛmpəl, ə ˈsɪnəˌɡɑɡ, ɔl ɪn ˈsɪnsəˌnæti, oʊˈhaɪoʊ/",
-        "zh": "我是 Arianita Lagringa，在今天的视频中，我们将用英语聊聊不同的宗教，我们会去一些地方，比如天主教堂、福音教堂、清真寺、印度教寺庙、犹太会堂，都在俄亥俄州的辛辛那提。",
+        "zh": "我是 Ariannita la Gringa，在今天的视频中，我们将用英语聊聊不同的宗教，我们会去一些地方，比如天主教堂、福音教堂、清真寺、印度教寺庙、犹太会堂，都在俄亥俄州的辛辛那提。",
         "highlights": [
           {
             "text": "religions",
@@ -87945,27 +82625,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-14-Speak-American-English-Around-To-part2",
-    "number": "EP 14",
-    "title": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战)",
+    "id": "local-16-Drive-thru-part2",
+    "number": "EP 16",
+    "title": "美国银行 Drive-thru 气动管道存款与邮局寄件",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 371,
     "durationLabel": "06:11",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "个人成长",
-      "日常对话",
-      "生活英语"
+      "生活英语",
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%202%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E4%B8%8E%E9%82%AE%E5%B1%80%E5%AE%9E%E6%88%98%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%202%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E4%B8%8E%E9%82%AE%E5%B1%80%E5%AE%9E%E6%88%98%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%202%EF%BC%9A%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%20Drive-thru%20%E4%B8%8E%E9%82%AE%E5%B1%80%E5%AE%9E%E6%88%98%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "个人成长",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         369.67,
@@ -89638,27 +84317,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-13-Speak-American-English-Around-To-part1",
-    "number": "EP 13",
-    "title": "Speak American English Around Town (Part 1：美式社区漫步与日常设施)",
+    "id": "local-15-trimmed-15-part1",
+    "number": "EP 15",
+    "title": "美式社区日常漫步：街边停车、过马路与垃圾回收",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 507,
     "durationLabel": "08:27",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "个人成长",
-      "日常对话",
-      "生活英语"
+      "生活英语",
+      "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%201%EF%BC%9A%E7%BE%8E%E5%BC%8F%E7%A4%BE%E5%8C%BA%E6%BC%AB%E6%AD%A5%E4%B8%8E%E6%97%A5%E5%B8%B8%E8%AE%BE%E6%96%BD%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%201%EF%BC%9A%E7%BE%8E%E5%BC%8F%E7%A4%BE%E5%8C%BA%E6%BC%AB%E6%AD%A5%E4%B8%8E%E6%97%A5%E5%B8%B8%E8%AE%BE%E6%96%BD%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Speak%20American%20English%20Around%20Town%20%28Part%201%EF%BC%9A%E7%BE%8E%E5%BC%8F%E7%A4%BE%E5%8C%BA%E6%BC%AB%E6%AD%A5%E4%B8%8E%E6%97%A5%E5%B8%B8%E8%AE%BE%E6%96%BD%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "个人成长",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         505.22,
@@ -91901,22 +86579,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-12-Order-FOOD-in-English-Part-2-part2",
-    "number": "EP 12",
-    "title": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则)",
+    "id": "local-14-trimmed-14-part2",
+    "number": "EP 14",
+    "title": "麦当劳柜台实景点单与美式小费文化",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 4,
+    "difficulty": 3,
     "durationSec": 375,
     "durationLabel": "06:15",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语",
-      "生活"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%202%EF%BC%9A%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%E4%B8%8E%E7%BE%8E%E5%BC%8F%E5%B0%8F%E8%B4%B9%E8%A7%84%E5%88%99%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%202%EF%BC%9A%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%E4%B8%8E%E7%BE%8E%E5%BC%8F%E5%B0%8F%E8%B4%B9%E8%A7%84%E5%88%99%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%202%EF%BC%9A%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%9F%9C%E5%8F%B0%E7%82%B9%E5%8D%95%E4%B8%8E%E7%BE%8E%E5%BC%8F%E5%B0%8F%E8%B4%B9%E8%A7%84%E5%88%99%29.trimmed.m4a",
@@ -93699,22 +88375,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-11-Order-FOOD-in-English-Part-1-Chi-part1",
-    "number": "EP 11",
-    "title": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料)",
+    "id": "local-13-Chick-fil-A-part1",
+    "number": "EP 13",
+    "title": "Chick-fil-A 实景点单：鸡肉三明治与酱料表达",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 441,
     "durationLabel": "07:21",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "生活英语",
-      "生活"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%201%EF%BC%9AChick-fil-A%20%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E4%B8%8E%E9%85%B1%E6%96%99%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%201%EF%BC%9AChick-fil-A%20%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E4%B8%8E%E9%85%B1%E6%96%99%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Order%20FOOD%20in%20English%20%28Part%201%EF%BC%9AChick-fil-A%20%E5%AE%9E%E6%99%AF%E7%82%B9%E5%8D%95%E4%B8%8E%E9%85%B1%E6%96%99%29.trimmed.m4a",
@@ -95642,27 +90316,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-10-Real-Life-ENGLISH-Around-the-Cit-part2",
-    "number": "EP 10",
-    "title": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆)",
+    "id": "local-12-Busking-part2",
+    "number": "EP 12",
+    "title": "漫步美国市中心：街头艺人 Busking 与复古咖啡馆",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 3,
+    "difficulty": 4,
     "durationSec": 484,
     "durationLabel": "08:04",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "旅行",
-      "日常对话",
-      "生活英语"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%202%EF%BC%9A%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%E3%80%81%E5%9F%8E%E5%B8%82%E6%BC%AB%E6%AD%A5%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%202%EF%BC%9A%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%E3%80%81%E5%9F%8E%E5%B8%82%E6%BC%AB%E6%AD%A5%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%202%EF%BC%9A%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%E3%80%81%E5%9F%8E%E5%B8%82%E6%BC%AB%E6%AD%A5%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "旅行",
+    "sceneBadge": "美食",
     "skipRanges": [
       [
         243.65,
@@ -97301,27 +91973,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-9-Real-Life-ENGLISH-Around-the-Cit-part1",
-    "number": "EP 09",
-    "title": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇)",
+    "id": "local-11-Asheville-part1",
+    "number": "EP 11",
+    "title": "Asheville 小镇漫步：糖果店与美式街头美食",
     "speaker": "Speak English With Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 3,
     "durationSec": 558,
     "durationLabel": "09:18",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "旅行",
-      "日常对话",
-      "生活英语"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%201%EF%BC%9A%E5%B0%8F%E9%95%87%E7%B3%96%E6%9E%9C%E5%BA%97%E4%B8%8E%E7%BE%8E%E9%A3%9F%E8%AF%8D%E6%B1%87%29.jpg",
     "mediaUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%201%EF%BC%9A%E5%B0%8F%E9%95%87%E7%B3%96%E6%9E%9C%E5%BA%97%E4%B8%8E%E7%BE%8E%E9%A3%9F%E8%AF%8D%E6%B1%87%29.trimmed.mp4",
     "audioUrl": "./content/episodes/trimmed/Real%20Life%20ENGLISH%20Around%20the%20City%20%28Part%201%EF%BC%9A%E5%B0%8F%E9%95%87%E7%B3%96%E6%9E%9C%E5%BA%97%E4%B8%8E%E7%BE%8E%E9%A3%9F%E8%AF%8D%E6%B1%87%29.trimmed.m4a",
     "mediaKind": "video",
-    "sceneBadge": "旅行",
+    "sceneBadge": "美食",
     "skipRanges": [
       [
         553.58,
@@ -99681,27 +94351,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-8-Learn-How-To-Talk-About-Your-Dai",
-    "number": "EP 08",
+    "id": "local-10-Learn-How-To-Talk-About-Your-Dai",
+    "number": "EP 10",
     "title": "Learn How To Talk About Your Daily Routine in English by Watching Me Act Out Mine",
-    "speaker": "YouTube 博主",
+    "speaker": "Bob the Canadian",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
+    "region": "加拿大",
     "difficulty": 4,
     "durationSec": 465,
     "durationLabel": "07:45",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "日常对话",
-      "生活英语",
+      "美食",
       "生活"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.webp",
     "mediaUrl": "./content/episodes/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.f399.mp4",
     "audioUrl": "./content/episodes/Learn%20How%20To%20Talk%20About%20Your%20Daily%20Routine%20in%20English%20by%20Watching%20Me%20Act%20Out%20Mine.f140.m4a",
     "mediaKind": "video",
-    "sceneBadge": "日常对话",
+    "sceneBadge": "美食",
     "skipRanges": [
       [
         0.0,
@@ -101242,27 +95911,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-7-73-Questions-with-Victoria-Beckh",
-    "number": "EP 07",
+    "id": "local-9-73-Questions-with-Victoria-Beckh",
+    "number": "EP 09",
     "title": "73 Questions with Victoria Beckham ｜ Vogue",
-    "speaker": "Vogue",
+    "speaker": "Victoria Beckham",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "英国",
     "difficulty": 4,
     "durationSec": 368,
     "durationLabel": "06:08",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
-      "名人访谈",
-      "生活"
+      "名人访谈"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.webp",
     "mediaUrl": "./content/episodes/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.f616.mp4",
     "audioUrl": "./content/episodes/73%20Questions%20with%20Victoria%20Beckham%20%EF%BD%9C%20Vogue.f140.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "名人访谈",
     "skipRanges": [
       [
         0.0,
@@ -104067,27 +98734,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-6-Interviewing-Native-English-Spea",
-    "number": "EP 06",
+    "id": "local-8-Interviewing-Native-English-Spea",
+    "number": "EP 08",
     "title": "Interviewing Native English Speakers on St. Patrick’s Day",
-    "speaker": "YouTube 博主",
+    "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 481,
     "durationLabel": "08:01",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "美食",
-      "旅行",
-      "生活英语"
+      "日常对话"
     ],
-    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/Interviewing%20Native%20English%20Speakers%20on%20St.%20Patrick%E2%80%99s%20Day.webp",
     "mediaUrl": "./content/episodes/Interviewing%20Native%20English%20Speakers%20on%20St.%20Patrick%E2%80%99s%20Day.f401.mp4",
     "audioUrl": "./content/episodes/Interviewing%20Native%20English%20Speakers%20on%20St.%20Patrick%E2%80%99s%20Day.f140-17.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "日常对话",
     "skipRanges": [
       [
         78.17,
@@ -104124,9 +98789,9 @@ export const LOCAL_EPISODES = [
         "start": 2.08,
         "end": 6.02,
         "speaker": "Speaker",
-        "en": "It's Arianita Liginga and welcome back to my YouTube channel.",
+        "en": "It's Ariannita la Gringa and welcome back to my YouTube channel.",
         "ipa": "/ɪts ˌɛriəˈnitə lɪˈɡɪŋɡə ənd ˈwɛlkəm bæk tu maɪ ˈjubu ˈʧænəl/",
-        "zh": "我是 Arianita Liginga，欢迎回到我的 YouTube 频道。",
+        "zh": "我是 Ariannita la Gringa，欢迎回到我的 YouTube 频道。",
         "highlights": [
           {
             "text": "welcome back",
@@ -106020,8 +100685,8 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-5-How-To-Order-Coffee-In-English",
-    "number": "EP 05",
+    "id": "local-7-How-To-Order-Coffee-In-English",
+    "number": "EP 07",
     "title": "How To Order Coffee In English",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -106029,18 +100694,16 @@ export const LOCAL_EPISODES = [
     "difficulty": 4,
     "durationSec": 569,
     "durationLabel": "09:29",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
-      "美食",
-      "生活英语"
+      "美食"
     ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/How%20To%20Order%20Coffee%20In%20English.webp",
     "mediaUrl": "./content/episodes/How%20To%20Order%20Coffee%20In%20English.f401.mp4",
     "audioUrl": "./content/episodes/How%20To%20Order%20Coffee%20In%20English.f140-12.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "美食",
     "skipRanges": [
       [
         46.08,
@@ -108218,26 +102881,25 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-4-Why-Adding-More-Is-Slowing-Your-",
-    "number": "EP 04",
+    "id": "local-6-Why-Adding-More-Is-Slowing-Your-",
+    "number": "EP 06",
     "title": "Why Adding More Is Slowing Your Business Down",
-    "speaker": "YouTube 博主",
+    "speaker": "待补讲者",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
     "durationSec": 97,
     "durationLabel": "01:37",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "生活英语",
-      "日常对话"
+      "个人成长"
     ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/Why%20Adding%20More%20Is%20Slowing%20Your%20Business%20Down.webp",
     "mediaUrl": "./content/episodes/Why%20Adding%20More%20Is%20Slowing%20Your%20Business%20Down.f399.mp4",
     "audioUrl": "./content/episodes/Why%20Adding%20More%20Is%20Slowing%20Your%20Business%20Down.f140-19.m4a",
     "mediaKind": "video",
-    "sceneBadge": "生活英语",
+    "sceneBadge": "个人成长",
     "skipRanges": [
       [
         88.53,
@@ -108596,20 +103258,2619 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-3-What-is-imposter-syndrome-and-ho",
-    "number": "EP 03",
+    "id": "local-5-How-to-Start-Any-Conversation-th",
+    "number": "EP 05",
+    "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+    "speaker": "Chris Fenning",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 5,
+    "durationSec": 667,
+    "durationLabel": "11:07",
+    "date": "2026/11/26",
+    "tags": [
+      "个人成长",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverImage": "./content/episodes/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED.webp",
+    "mediaUrl": "./content/episodes/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED.f399.mp4",
+    "audioUrl": "./content/episodes/How%20to%20Start%20Any%20Conversation%20the%20Right%20Way%20%EF%BD%9C%20Chris%20Fenning%20%EF%BD%9C%20TED.f140.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "个人成长",
+    "skipRanges": [
+      [
+        0.0,
+        4.26
+      ],
+      [
+        9.32,
+        11.14
+      ],
+      [
+        18.2,
+        18.76
+      ],
+      [
+        27.0,
+        28.08
+      ],
+      [
+        30.92,
+        31.88
+      ],
+      [
+        46.42,
+        47.38
+      ],
+      [
+        48.74,
+        49.26
+      ],
+      [
+        53.04,
+        54.8
+      ],
+      [
+        56.5,
+        57.02
+      ],
+      [
+        61.18,
+        61.86
+      ],
+      [
+        64.24,
+        65.22
+      ],
+      [
+        68.9,
+        69.78
+      ],
+      [
+        72.54,
+        73.54
+      ],
+      [
+        78.14,
+        79.94
+      ],
+      [
+        87.0,
+        88.12
+      ],
+      [
+        92.32,
+        93.18
+      ],
+      [
+        98.04,
+        98.84
+      ],
+      [
+        105.62,
+        108.26
+      ],
+      [
+        122.54,
+        123.24
+      ],
+      [
+        127.6,
+        128.22
+      ],
+      [
+        139.46,
+        140.18
+      ],
+      [
+        145.74,
+        146.48
+      ],
+      [
+        147.62,
+        148.82
+      ],
+      [
+        163.48,
+        164.54
+      ],
+      [
+        168.24,
+        169.14
+      ],
+      [
+        191.16,
+        192.08
+      ],
+      [
+        216.0,
+        216.74
+      ],
+      [
+        220.3,
+        222.06
+      ],
+      [
+        224.0,
+        225.7
+      ],
+      [
+        238.54,
+        239.28
+      ],
+      [
+        250.5,
+        251.72
+      ],
+      [
+        256.18,
+        256.7
+      ],
+      [
+        266.08,
+        266.62
+      ],
+      [
+        275.54,
+        276.42
+      ],
+      [
+        284.32,
+        285.64
+      ],
+      [
+        301.6,
+        302.4
+      ],
+      [
+        307.24,
+        308.5
+      ],
+      [
+        317.08,
+        318.24
+      ],
+      [
+        327.9,
+        328.44
+      ],
+      [
+        335.2,
+        336.38
+      ],
+      [
+        353.92,
+        355.44
+      ],
+      [
+        362.96,
+        363.76
+      ],
+      [
+        367.54,
+        368.88
+      ],
+      [
+        379.66,
+        380.18
+      ],
+      [
+        388.96,
+        389.9
+      ],
+      [
+        394.24,
+        394.84
+      ],
+      [
+        415.1,
+        416.66
+      ],
+      [
+        424.28,
+        424.96
+      ],
+      [
+        443.94,
+        444.52
+      ],
+      [
+        449.08,
+        449.82
+      ],
+      [
+        454.9,
+        456.0
+      ],
+      [
+        464.92,
+        466.44
+      ],
+      [
+        483.7,
+        484.28
+      ],
+      [
+        498.2,
+        499.42
+      ],
+      [
+        528.0,
+        528.92
+      ],
+      [
+        544.46,
+        545.9
+      ],
+      [
+        552.28,
+        553.26
+      ],
+      [
+        570.7,
+        571.46
+      ],
+      [
+        589.24,
+        591.08
+      ],
+      [
+        607.32,
+        608.04
+      ],
+      [
+        609.5,
+        610.18
+      ],
+      [
+        616.24,
+        617.06
+      ],
+      [
+        621.62,
+        622.36
+      ],
+      [
+        633.82,
+        634.52
+      ],
+      [
+        640.9,
+        642.18
+      ],
+      [
+        645.58,
+        647.14
+      ],
+      [
+        655.42,
+        656.76
+      ],
+      [
+        661.66,
+        662.72
+      ],
+      [
+        663.84,
+        667.41
+      ]
+    ],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 4.26,
+        "end": 9.32,
+        "speaker": "Speaker",
+        "en": "I want to be long-winded and unclear.",
+        "ipa": "/aɪ wɑnt tu bi lɔŋ ˈwɪndɪd ænd ˌʌnˈklɪr/",
+        "zh": "我想表现得冗长又含糊不清。",
+        "highlights": [
+          {
+            "text": "long-winded",
+            "key": "冗长的，啰嗦的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 11.14,
+        "end": 12.94,
+        "speaker": "Speaker",
+        "en": "It's not a common opening line.",
+        "ipa": "/ɪts nɑt ə ˈkɑmən ˈoʊpənɪŋ laɪn/",
+        "zh": "这不是一句常见的开场白。",
+        "highlights": [
+          {
+            "text": "opening line",
+            "key": "开场白",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 13.36,
+        "end": 18.2,
+        "speaker": "Speaker",
+        "en": "Most people won't tell us when they're going to be long-winded, but we know.",
+        "ipa": "/moʊst ˈpipəl woʊnt tɛl ʌs wɛn ðɛr ˈgoʊɪŋ tu bi lɔŋ ˈwɪndɪd, bʌt wi noʊ/",
+        "zh": "大多数人在长篇大论之前不会特意告诉我们，但我们心知肚明。",
+        "highlights": [
+          {
+            "text": "long-winded",
+            "key": "啰嗦的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 18.76,
+        "end": 27.0,
+        "speaker": "Speaker",
+        "en": "We can tell pretty quickly if someone’s going to get to the point or if we are in for a long and painful conversation.",
+        "ipa": "/wi kən tɛl ˈprɪti ˈkwɪkli ɪf ˈsʌmwʌnz ˈgoʊɪŋ tu gɛt tu ðə pɔɪnt ɔr ɪf wi ɑr ɪn fɔr ə lɔŋ ænd ˈpeɪnfəl ˌkɑnvərˈseɪʃən/",
+        "zh": "我们很快就能看出对方是会直奔主题，还是会展开一场漫长而痛苦的对话。",
+        "highlights": [
+          {
+            "text": "get to the point",
+            "key": "直奔主题",
+            "chip": "pink"
+          },
+          {
+            "text": "in for",
+            "key": "即将遭遇，免不了",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 28.08,
+        "end": 30.92,
+        "speaker": "Speaker",
+        "en": "And this is especially true at work.",
+        "ipa": "/ænd ðɪs ɪz ɪˈspɛʃəli tru æt wɜrk/",
+        "zh": "在工作中尤其如此。",
+        "highlights": [
+          {
+            "text": "especially true",
+            "key": "尤其如此",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 31.88,
+        "end": 38.72,
+        "speaker": "Speaker",
+        "en": "Every year, poor communication costs businesses hundreds of billions of dollars in lost productivity.",
+        "ipa": "/ˈɛvri jɪr, pur kəˌmjunəˈkeɪʃən kɔsts ˈbɪznəsɪz ˈhʌndrədz ʌv ˈbɪljənz ʌv ˈdɑlərz ɪn lɔst ˌprʌdʌkˈtɪvəti/",
+        "zh": "每年，糟糕的沟通都会给企业造成数千亿美元的生产力损失。",
+        "highlights": [
+          {
+            "text": "productivity",
+            "key": "生产力",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 39.1,
+        "end": 46.42,
+        "speaker": "Speaker",
+        "en": "And I have to confess, in the early part of my career, I was responsible for at least some of that.",
+        "ipa": "/ænd aɪ hæv tu kənˈfɛs, ɪn ði ˈɜrli pɑrt ʌv maɪ kəˈrɪr, aɪ wʌz rɪˈspɑnsəbəl fɔr æt liːst sʌm ʌv ðæt/",
+        "zh": "我不得不承认，在我职业生涯的早期，至少有一部分责任在我。",
+        "highlights": [
+          {
+            "text": "confess",
+            "key": "承认，坦白",
+            "chip": "orange"
+          },
+          {
+            "text": "responsible for",
+            "key": "对……负责",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 47.38,
+        "end": 48.74,
+        "speaker": "Speaker",
+        "en": "But I'm not alone.",
+        "ipa": "/bʌt aɪm nɑt əˈloʊn/",
+        "zh": "不过我并不孤单（大家都有过）。",
+        "highlights": [
+          {
+            "text": "alone",
+            "key": "独自一人",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 49.26,
+        "end": 53.04,
+        "speaker": "Speaker",
+        "en": "Hands up if you work with someone who is long winded or unclear.",
+        "ipa": "/hændz ʌp ɪf ju wɜrk wɪð ˈsʌmwʌn hu ɪz lɔŋ ˈwɪndɪd ɔr ˌʌnˈklɪr/",
+        "zh": "如果你身边有同事说话啰嗦或者含糊不清，请举手。",
+        "highlights": [
+          {
+            "text": "Hands up",
+            "key": "举手",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 54.8,
+        "end": 56.5,
+        "speaker": "Speaker",
+        "en": "That's a lot of hands.",
+        "ipa": "/ðæts ə lɑt ʌv hændz/",
+        "zh": "举起的手可真不少。",
+        "highlights": [
+          {
+            "text": "a lot of",
+            "key": "许多",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 57.02,
+        "end": 61.18,
+        "speaker": "Speaker",
+        "en": "Now I’m sure we are all thinking about people outside this room, right?",
+        "ipa": "/naʊ aɪm ʃʊr wi ɑr ɔl ˈθɪŋkɪŋ əˈbaʊt ˈpipəl ˈaʊtˈsaɪd ðɪs rum, raɪt/",
+        "zh": "现在我确信大家都在想这个房间以外的人，对吧？",
+        "highlights": [
+          {
+            "text": "thinking about",
+            "key": "想起，考虑",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 61.86,
+        "end": 64.24,
+        "speaker": "Speaker",
+        "en": "Except for those of you pointing at each other.",
+        "ipa": "/ɪkˈsɛpt fɔr ðoʊz ʌv ju ˈpɔɪntɪŋ æt ˈiʧ ˈʌðər/",
+        "zh": "除了那些互相指指点点的人。",
+        "highlights": [
+          {
+            "text": "Except for",
+            "key": "除了……之外",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 65.22,
+        "end": 68.9,
+        "speaker": "Speaker",
+        "en": "But what would happen if we asked the people outside this room?",
+        "ipa": "/bʌt wʌt wʊd ˈhæpən ɪf wi æskt ðə ˈpipəl ˈaʊtˈsaɪd ðɪs rum/",
+        "zh": "但如果我们去问问房间外面的人会发生什么呢？",
+        "highlights": [
+          {
+            "text": "what would happen",
+            "key": "会发生什么",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 69.78,
+        "end": 72.54,
+        "speaker": "Speaker",
+        "en": "They might be thinking about us.",
+        "ipa": "/ðeɪ maɪt bi ˈθɪŋkɪŋ əˈbaʊt ʌs/",
+        "zh": "他们可能正在想我们呢。",
+        "highlights": [
+          {
+            "text": "thinking about",
+            "key": "想起，惦记",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 73.54,
+        "end": 78.14,
+        "speaker": "Speaker",
+        "en": "And while our goal is to be clear and concise, do we really know how?",
+        "ipa": "/ænd waɪl ˈaʊər goʊl ɪz tu bi klɪr ænd kənˈsaɪs, du wi ˈrɪəli noʊ haʊ/",
+        "zh": "尽管我们的目标是表达清晰、言简意赅，但我们真的知道该怎么做吗？",
+        "highlights": [
+          {
+            "text": "concise",
+            "key": "简明的，简洁的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 79.94,
+        "end": 87.0,
+        "speaker": "Speaker",
+        "en": "Every time we communicate, we have an opportunity to create clarity or confusion.",
+        "ipa": "/ˈɛvri taɪm wi kəˈmjunəˌkeɪt, wi hæv ən ˌɑpərˈtunəti tu kriˈeɪt ˈklɛrəti ɔr kənˈfjuʒən/",
+        "zh": "每次我们沟通，都是一次创造清晰或造成混淆的机会。",
+        "highlights": [
+          {
+            "text": "opportunity",
+            "key": "机会",
+            "chip": "orange"
+          },
+          {
+            "text": "clarity",
+            "key": "清晰度",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 88.12,
+        "end": 92.32,
+        "speaker": "Speaker",
+        "en": "And clarity begins from the very first minute.",
+        "ipa": "/ænd ˈklɛrəti bɪˈgɪnz frʌm ðə ˈvɛri fɜrst ˈmɪnɪt/",
+        "zh": "而清晰的沟通始于第一分钟。",
+        "highlights": [
+          {
+            "text": "begins from",
+            "key": "始于",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 93.18,
+        "end": 98.04,
+        "speaker": "Speaker",
+        "en": "If you get the first minute right, you set your conversation up for success.",
+        "ipa": "/ɪf ju gɛt ðə fɜrst ˈmɪnɪt raɪt, ju sɛt jʊr ˌkɑnvərˈseɪʃən ʌp fɔr səkˈsɛs/",
+        "zh": "如果你把握好了第一分钟，你就为成功的对话奠定了基础。",
+        "highlights": [
+          {
+            "text": "conversation",
+            "key": "conversation",
+            "chip": "orange"
+          },
+          {
+            "text": "success",
+            "key": "success",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "start": 98.84,
+        "end": 105.62,
+        "speaker": "Speaker",
+        "en": "Get it wrong, and your conversations will be longer, less effective and more frustrating.",
+        "ipa": "/gɛt ɪt rɔŋ, ænd jʊr ˌkɑnvərˈseɪʃənz wɪl bi ˈlɔŋgər, lɛs ɪˈfɛktɪv ænd mɔr ˈfrʌstreɪtɪŋ/",
+        "zh": "如果没把握好，你的对话就会更长、效率更低，也更令人沮丧。",
+        "highlights": [
+          {
+            "text": "less effective",
+            "key": "效率更低",
+            "chip": "pink"
+          },
+          {
+            "text": "frustrating",
+            "key": "令人沮丧的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 108.26,
+        "end": 116.88,
+        "speaker": "Speaker",
+        "en": "Now on the off chance we could all use a little more clarity, I'm going to share a tip with you today.",
+        "ipa": "/naʊ ɑn ði ɔf ʧæns wi kʊd ɔl juz ə ˈlɪtəl mɔr ˈklɛrəti, aɪm ˈgoʊɪŋ tu ʃɛr ə tɪp wɪð ju təˈdeɪ/",
+        "zh": "鉴于我们可能都需要多一点清晰度，我主要跟大家分享一个小技巧。",
+        "highlights": [
+          {
+            "text": "on the off chance",
+            "key": "碰巧，万一",
+            "chip": "pink"
+          },
+          {
+            "text": "share a tip",
+            "key": "分享技巧",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 116.92,
+        "end": 122.54,
+        "speaker": "Speaker",
+        "en": "A tip that will help each of you improve the success of your communication at work.",
+        "ipa": "/ə tɪp ðæt wɪl hɛlp iʧ ʌv ju ɪmˈpruv ðə səkˈsɛs ʌv jʊr kəˌmjunəˈkeɪʃən æt wɜrk/",
+        "zh": "这个技巧将帮助你们每个人提高在工作中沟通的成功率。",
+        "highlights": [
+          {
+            "text": "improve",
+            "key": "提高，改善",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "start": 123.24,
+        "end": 127.6,
+        "speaker": "Speaker",
+        "en": "A tip that has been tested by more than 75,000 people around the world.",
+        "ipa": "/ə tɪp ðæt hæz bɪn ˈtɛstɪd baɪ mɔr ðæn ˈsɛvəti-faɪv ˈθaʊzənd ˈpipəl əˈraʊnd ðə wɜrld/",
+        "zh": "这个技巧已经通过了全球75000多人的测试。",
+        "highlights": [
+          {
+            "text": "tested",
+            "key": "测试，检验",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "start": 128.22,
+        "end": 132.44,
+        "speaker": "Speaker",
+        "en": "And a tip that will help each of you get the first minute right.",
+        "ipa": "/ænd ə tɪp ðæt wɪl hɛlp iʧ ʌv ju gɛt ðə fɜrst ˈmɪnɪt raɪt/",
+        "zh": "这个技巧能帮助你们每个人把握好第一分钟。",
+        "highlights": [
+          {
+            "text": "minute",
+            "key": "minute",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "start": 132.9,
+        "end": 134.08,
+        "speaker": "Speaker",
+        "en": "And here it is.",
+        "ipa": "/ænd hɪr ɪt ɪz/",
+        "zh": "就是这个。",
+        "highlights": [
+          {
+            "text": "here it is",
+            "key": "就是这个，给你",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "start": 134.12,
+        "end": 139.46,
+        "speaker": "Speaker",
+        "en": "There are three things we must include at the start of our work messages.",
+        "ipa": "/ðɛr ɑr θri θɪŋz wi mʌst ɪnˈklud æt ðə stɑrt ʌv ˈaʊər wɜrk ˈmɛsəjɪz/",
+        "zh": "在工作信息的开头，我们必须包含三件事。",
+        "highlights": [
+          {
+            "text": "include",
+            "key": "包含",
+            "chip": "orange"
+          },
+          {
+            "text": "at the start of",
+            "key": "在……开始时",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "start": 140.18,
+        "end": 145.74,
+        "speaker": "Speaker",
+        "en": "And those three things begin with T, I and P.",
+        "ipa": "/ænd ðoʊz θri θɪŋz bɪˈgɪn wɪð ti, aɪ ænd pɪp/",
+        "zh": "这三件事分别以 T、I 和 P 开头。",
+        "highlights": [
+          {
+            "text": "begin with",
+            "key": "以……开头",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "start": 146.48,
+        "end": 147.62,
+        "speaker": "Speaker",
+        "en": "It's a TIP.",
+        "ipa": "/ɪts ə tɪp/",
+        "zh": "这就是 TIP（提示/秘诀）。",
+        "highlights": [
+          {
+            "text": "TIP",
+            "key": "小贴士，秘诀",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "start": 148.82,
+        "end": 153.56,
+        "speaker": "Speaker",
+        "en": "Now the first part of the tip is the T, and T stands for topic.",
+        "ipa": "/naʊ ðə fɜrst pɑrt ʌv ðə tɪp ɪz ðə ti, ænd ti stændz fɔr ˈtɑpɪk/",
+        "zh": "这个技巧的第一部分是 T，T 代表 Topic（主题）。",
+        "highlights": [
+          {
+            "text": "stands for",
+            "key": "代表，象征",
+            "chip": "indigo"
+          },
+          {
+            "text": "topic",
+            "key": "主题",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "start": 153.86,
+        "end": 156.42,
+        "speaker": "Speaker",
+        "en": "Every conversation at work needs a clear topic.",
+        "ipa": "/ˈɛvri ˌkɑnvərˈseɪʃən æt wɜrk nidz ə klɪr ˈtɑpɪk/",
+        "zh": "工作中的每一次对话都需要一个清晰的主题。",
+        "highlights": [
+          {
+            "text": "clear topic",
+            "key": "清晰的主题",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "start": 156.46,
+        "end": 160.38,
+        "speaker": "Speaker",
+        "en": "When the topic is clear, everyone knows what we're talking about.",
+        "ipa": "/wɛn ðə ˈtɑpɪk ɪz klɪr, ˈɛvriwʌn noʊz wʌt wɪr ˈtɑkɪŋ əˈbaʊt/",
+        "zh": "当主题明确时，每个人都知道我们在谈论什么。",
+        "highlights": [
+          {
+            "text": "talking about",
+            "key": "谈论",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "start": 160.42,
+        "end": 161.66,
+        "speaker": "Speaker",
+        "en": "Everyone's in sync.",
+        "ipa": "/ˈɛvriwʌnz ɪn sɪŋk/",
+        "zh": "大家步调一致。",
+        "highlights": [
+          {
+            "text": "in sync",
+            "key": "同步，步调一致",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "start": 161.7,
+        "end": 163.48,
+        "speaker": "Speaker",
+        "en": "Everybody understands.",
+        "ipa": "/ˈɛvriˌbɑdi ˌʌndərˈstændz/",
+        "zh": "每个人都心领神会。",
+        "highlights": [
+          {
+            "text": "understands",
+            "key": "理解",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "start": 164.54,
+        "end": 168.24,
+        "speaker": "Speaker",
+        "en": "Unfortunately, reality isn't always like this, is it?",
+        "ipa": "/ʌnˈfɔrʧənətli, riˈæləti ˈɪzənt ˈɔlweɪz laɪk ðɪs, ɪz ɪt/",
+        "zh": "不幸的是，现实并非总是如此，对吧？",
+        "highlights": [
+          {
+            "text": "Unfortunately",
+            "key": "不幸的是",
+            "chip": "orange"
+          },
+          {
+            "text": "reality",
+            "key": "现实",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "start": 169.14,
+        "end": 174.96,
+        "speaker": "Speaker",
+        "en": "How often are you in a conversation and you find yourself thinking, what are you talking about?",
+        "ipa": "/haʊ ˈɔfən ɑr jʊr ɪn ə ˌkɑnvərˈseɪʃən ænd ju faɪnd jʊrˈsɛlf ˈθɪŋkɪŋ, wʌt ɑr ju ˈtɑkɪŋ əˈbaʊt/",
+        "zh": "你有多经常在对话中发现自己心里在想：你到底在说什么呀？",
+        "highlights": [
+          {
+            "text": "find yourself",
+            "key": "发现自己",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "start": 175.0,
+        "end": 180.32,
+        "speaker": "Speaker",
+        "en": "That happens when the topic is not clear.",
+        "ipa": "/(ˈlæftər) ðæt ˈhæpənz wɛn ðə ˈtɑpɪk ɪz nɑt klɪr/",
+        "zh": "这种情况发生时，往往是因为主题不够清晰。",
+        "highlights": [
+          {
+            "text": "happens",
+            "key": "发生",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "start": 180.74,
+        "end": 191.16,
+        "speaker": "Speaker",
+        "en": "Now usually the consequences are pretty minor -- a little bit of wasted time, some minor frustration -- but sometimes, the consequences are more significant.",
+        "ipa": "/naʊ ˈjuːʒuəli ðə ˈkɑːnsəkwənsɪz ɑːr ˈprɪti ˈmaɪnər -- ə ˈlɪtəl bɪt əv ˈweɪstɪd taɪm, sʌm ˈmaɪnər frʌˈstreɪʃən -- bʌt ˈsʌmtaɪmz, ðə ˈkɑːnsəkwənsɪz ɑːr mɔːr sɪɡˈnɪfɪkənt/",
+        "zh": "通常后果都比较轻微——浪费了一点时间，或者有一点小沮丧——但有时，后果会更严重。",
+        "highlights": [
+          {
+            "text": "consequences",
+            "key": "consequences",
+            "chip": "orange"
+          },
+          {
+            "text": "a little bit of",
+            "key": "a little bit of",
+            "chip": "indigo"
+          },
+          {
+            "text": "significant",
+            "key": "significant",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "start": 192.08,
+        "end": 199.14,
+        "speaker": "Speaker",
+        "en": "In 2006, I was part of an engineering team writing a bid -- a proposal -- that was worth a lot of money to our company.",
+        "ipa": "/ɪn ˈtwɛntɪ ˈzɪroʊ ˈsɪks, aɪ wʌz pɑːrt əv ən ˌɛndʒɪˈnɪərɪŋ tiːm ˈraɪtɪŋ ə bɪd -- ə prəˈpoʊzəl -- ðæt wʌz wɜːrθ ə lɑːt əv ˈmʌni tuː ˈaʊər ˈkʌmpəni/",
+        "zh": "2006年，我是工程团队的一员，当时正在写一份对公司价值不菲的投标书——一份提案。",
+        "highlights": [
+          {
+            "text": "proposal",
+            "key": "proposal",
+            "chip": "orange"
+          },
+          {
+            "text": "worth a lot of money",
+            "key": "worth a lot of money",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "start": 199.58,
+        "end": 206.6,
+        "speaker": "Speaker",
+        "en": "And a couple of days before the big meeting, my boss came up to me and said, \"Hey, Chris, I need you to change the meeting from Tuesday to Thursday.\"",
+        "ipa": "/ænd ə ˈkʌpəl əv deɪz bɪˈfɔːr ðə bɪɡ ˈmiːtɪŋ, maɪ bɑːs keɪm ʌp tuː miː aɪnd sɛd heɪ, krɪs, aɪ niːd juː tuː tʃeɪndʒ ðə ˈmiːtɪŋ frʌm ˈtuːzdeɪ tuː ˈθɜːrzdeɪ/",
+        "zh": "就在那场重要会议开始前几天，我老板走到我面前说：“嘿，克里斯，我需要你把会议从周二改到周四。”",
+        "highlights": [
+          {
+            "text": "came up to",
+            "key": "come up to",
+            "chip": "indigo"
+          },
+          {
+            "text": "I need you to",
+            "key": "I need you to",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "start": 206.64,
+        "end": 208.94,
+        "speaker": "Speaker",
+        "en": "So off I went and I changed the meeting.",
+        "ipa": "/soʊ ɔːf aɪ wɛnt ænd aɪ tʃeɪndʒd ðə ˈmiːtɪŋ/",
+        "zh": "于是我就去把会议时间改了。",
+        "highlights": [
+          {
+            "text": "off I went",
+            "key": "off one goes",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "start": 208.98,
+        "end": 213.22,
+        "speaker": "Speaker",
+        "en": "I typed an email, sent it to the client saying, \"Something’s come up, we've got to change.\"",
+        "ipa": "/aɪ taɪpt ən ˈiːmeɪl, sɛnt ɪt tuː ðə ˈklaɪənt ˈseɪɪŋ, ˈsʌmθɪŋz kʌm ʌp, wiːv ɡɑːt tuː tʃeɪndʒ/",
+        "zh": "我打了一封邮件发给客户，说：“有点突发状况，我们得改个时间。”",
+        "highlights": [
+          {
+            "text": "Something’s come up",
+            "key": "something has come up",
+            "chip": "pink"
+          },
+          {
+            "text": "got to change",
+            "key": "have got to",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "start": 213.26,
+        "end": 216.0,
+        "speaker": "Speaker",
+        "en": "And about a minute after I hit send, my phone rings.",
+        "ipa": "/ænd əˈbaʊt ə ˈmɪnɪt ˈæftər aɪ hɪt sɛnd, maɪ foʊn rɪŋz/",
+        "zh": "就在我点击发送大约一分钟后，我的电话响了。",
+        "highlights": [
+          {
+            "text": "hit send",
+            "key": "hit send",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "start": 216.74,
+        "end": 218.14,
+        "speaker": "Speaker",
+        "en": "It's my boss.",
+        "ipa": "/ɪts maɪ bɑːs/",
+        "zh": "是我老板。",
+        "highlights": []
+      },
+      {
+        "id": 43,
+        "start": 218.18,
+        "end": 224.0,
+        "speaker": "Speaker",
+        "en": "He had one question: \"Why did you change the meeting?\"",
+        "ipa": "/hiː hæd wʌn ˈkwɛstʃən waɪ dɪd juː tʃeɪndʒ ðə ˈmiːtɪŋ/",
+        "zh": "他只有一个问题：“你为什么要改会议时间？”",
+        "highlights": [
+          {
+            "text": "question",
+            "key": "question",
+            "chip": "orange"
+          },
+          {
+            "text": "change",
+            "key": "change",
+            "chip": "pink"
+          },
+          {
+            "text": "meeting",
+            "key": "meeting",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "start": 225.7,
+        "end": 231.76,
+        "speaker": "Speaker",
+        "en": "You see, he was talking about our one-to-one, and I was thinking about the client meeting.",
+        "ipa": "/juː siː, hiː wʌz ˈtɔːkɪŋ əˈbaʊt ˈaʊər wʌn tuː wʌn, ænd aɪ wʌz ˈθɪŋkɪŋ əˈbaʊt ðə ˈklaɪənt ˈmiːtɪŋ/",
+        "zh": "你看，他说的是我们俩的单独沟通会，而我想的是客户会议。",
+        "highlights": [
+          {
+            "text": "one-to-one",
+            "key": "one-to-one",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "start": 232.26,
+        "end": 238.54,
+        "speaker": "Speaker",
+        "en": "The lack of a clear topic meant he and I were thinking about two very different things.",
+        "ipa": "/ðə læk əv ə klɪr ˈtɑːpɪk mɛnt hiː ænd aɪ wɜːr ˈθɪŋkɪŋ əˈbaʊt tuː ˈvɛri ˈdɪfrənt θɪŋz/",
+        "zh": "缺乏一个清晰的主题，意味着我和他当时想的是两件完全不同的事。",
+        "highlights": [
+          {
+            "text": "lack of",
+            "key": "lack of",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "start": 239.28,
+        "end": 250.5,
+        "speaker": "Speaker",
+        "en": "Now that might be the single biggest contribution I’ve made to the cost of bad communication, but it also marks the moment at which I began to be interested in improving how we communicate at work.",
+        "ipa": "/naʊ ðæt maɪt biː ðə ˈsɪŋɡəl ˈbɪɡɪst ˌkɑːntrɪˈbjuːʃən aɪv meɪd tuː ðə kɑːst əv bæd ˌkɑːmjuːnɪˈkeɪʃən, bʌt ɪt ˈɔːlsoʊ mɑːrks ðə ˈmoʊmənt æt wɪtʃ aɪ bɪˈɡæn tuː biː ˈɪntrɪstɪd ɪn ɪmˈпруːvɪŋ haʊ wiː kəˈmjuːnɪkeɪt æt wɜːrk/",
+        "zh": "这或许是我对“沟通不畅所付出的代价”做出的最大“贡献”，但它也标志着这样一个时刻从那时起，我开始对改善我们在工作中的沟通方式感兴趣。",
+        "highlights": [
+          {
+            "text": "contribution",
+            "key": "contribution",
+            "chip": "orange"
+          },
+          {
+            "text": "be interested in",
+            "key": "be interested in",
+            "chip": "indigo"
+          },
+          {
+            "text": "improving",
+            "key": "improve",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "start": 251.72,
+        "end": 254.62,
+        "speaker": "Speaker",
+        "en": "So all our messages have to begin with a clear topic.",
+        "ipa": "/soʊ ɔːl ˈaʊər ˈmɛsɪdʒɪz hæv tuː bɪˈɡɪn wɪθ ə klɪr ˈtɑːpɪk/",
+        "zh": "所以，我们所有的信息都必须以一个清晰的主题开始。",
+        "highlights": [
+          {
+            "text": "begin with",
+            "key": "begin with",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "start": 254.66,
+        "end": 255.09,
+        "speaker": "Speaker",
+        "en": "But how?",
+        "ipa": "/bʌt haʊ/",
+        "zh": "但怎么做呢？",
+        "highlights": []
+      },
+      {
+        "id": 49,
+        "start": 255.13,
+        "end": 256.18,
+        "speaker": "Speaker",
+        "en": "How do we do this?",
+        "ipa": "/haʊ duː wiː duː ðɪs/",
+        "zh": "我们该怎么做？",
+        "highlights": []
+      },
+      {
+        "id": 50,
+        "start": 256.7,
+        "end": 258.14,
+        "speaker": "Speaker",
+        "en": "It's really easy.",
+        "ipa": "/ɪts ˈriːəli ˈiːzi/",
+        "zh": "其实很简单。",
+        "highlights": []
+      },
+      {
+        "id": 51,
+        "start": 258.46,
+        "end": 266.08,
+        "speaker": "Speaker",
+        "en": "Start your message with one sentence that names the topic you want to talk about, and the more specific, the better.",
+        "ipa": "/stɑːrt jʊər ˈmɛsɪdʒ wɪθ wʌn ˈsɛntəns ðæt neɪmz ðə ˈtɑːpɪk juː wɑːnt tuː tɔːk əˈbaʊt, ænd ðə mɔːr spɪˈsɪfɪk, ðə ˈbɛtər/",
+        "zh": "发信息时，先用一句话点明你想讨论的主题，而且越具体越好。",
+        "highlights": [
+          {
+            "text": "specific",
+            "key": "specific",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "start": 266.62,
+        "end": 269.56,
+        "speaker": "Speaker",
+        "en": "You could say, \"I'd like to talk about July sales figures.\"",
+        "ipa": "/juː kʊd seɪ, aɪd laɪk tuː tɔːk əˈbaʊt dʒuˈlaɪ seɪlz ˈfɪɡjərz/",
+        "zh": "你可以说：“我想谈谈7月份的销售数据。”",
+        "highlights": [
+          {
+            "text": "sales figures",
+            "key": "sales figures",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "start": 269.6,
+        "end": 272.54,
+        "speaker": "Speaker",
+        "en": "\"I want to talk about Project Everest's timeline.\"",
+        "ipa": "/aɪ wɑːnt tuː tɔːk əˈbaʊt ˈprɑːdʒɛkt ˈɛvərɪsts ˈtaɪmˌlaɪn/",
+        "zh": "“我想谈谈珠穆朗玛峰项目的时间表。”",
+        "highlights": [
+          {
+            "text": "timeline",
+            "key": "timeline",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "start": 272.58,
+        "end": 275.54,
+        "speaker": "Speaker",
+        "en": "Or \"Can I talk about our one-to-one this week?\"",
+        "ipa": "/ɔːr kæn aɪ tɔːk əˈbaʊt ˈaʊər wʌn tuː wʌn ðɪs wiːk/",
+        "zh": "或者“我能谈谈我们这周的单独沟通吗？”",
+        "highlights": []
+      },
+      {
+        "id": 55,
+        "start": 276.42,
+        "end": 280.76,
+        "speaker": "Speaker",
+        "en": "One message, one sentence that lets your audience know what the topic is.",
+        "ipa": "/wʌn ˈmɛsɪdʒ, wʌn ˈsɛntəns ðæt lɛts jʊər ˈɔːdiəns noʊ wʌt ðə ˈtɑːpɪk ɪz/",
+        "zh": "一条信息，一句话，让你的听众知道主题是什么。",
+        "highlights": [
+          {
+            "text": "audience",
+            "key": "audience",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "start": 280.8,
+        "end": 284.32,
+        "speaker": "Speaker",
+        "en": "They won't be thinking, \"What are you talking about?\"",
+        "ipa": "/ðeɪ woʊnt biː ˈθɪŋkɪŋ, wʌt ɑːr juː ˈtɔːkɪŋ əˈbaʊt/",
+        "zh": "他们就不会一直在想：“你在说什么呢？”",
+        "highlights": [
+          {
+            "text": "What are you talking about?",
+            "key": "what are you talking about",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "start": 285.64,
+        "end": 289.74,
+        "speaker": "Speaker",
+        "en": "Now having a clear topic is a great start, but it's not enough.",
+        "ipa": "/naʊ ˈhævɪŋ ə klɪr ˈtɑːpɪk ɪz ə ɡreɪt stɑːrt, bʌt ɪts nɑːt ɪˈnʌf/",
+        "zh": "拥有一个清晰的主题是个很好的开始，但这还不够。",
+        "highlights": [
+          {
+            "text": "a great start",
+            "key": "a great start",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "start": 289.78,
+        "end": 294.3,
+        "speaker": "Speaker",
+        "en": "We need the second part of the tip, which is the I.",
+        "ipa": "/wiː niːd ðə ˈsɛkənd pɑːrt əv ðə tɪp, wɪtʃ ɪz ði aɪ/",
+        "zh": "我们需要这个小建议的第二部分，也就是字母 I。",
+        "highlights": []
+      },
+      {
+        "id": 59,
+        "start": 294.34,
+        "end": 296.64,
+        "speaker": "Speaker",
+        "en": "And I stands for intent.",
+        "ipa": "/ænd aɪ stændz fɔːr ɪnˈtɛnt/",
+        "zh": "I 代表意图（Intent）。",
+        "highlights": [
+          {
+            "text": "stands for",
+            "key": "stand for",
+            "chip": "indigo"
+          },
+          {
+            "text": "intent",
+            "key": "intent",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "start": 296.68,
+        "end": 301.6,
+        "speaker": "Speaker",
+        "en": "Intent is what we want the other person to do with our message.",
+        "ipa": "/ɪnˈtɛnt ɪz wʌt wiː wɑːnt ði ˈʌðər ˈpɜːrsən tuː duː wɪθ ˈaʊər ˈmɛsɪdʒ/",
+        "zh": "意图是指我们希望对方如何处理我们的信息。",
+        "highlights": [
+          {
+            "text": "Intent",
+            "key": "intent",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "start": 302.4,
+        "end": 307.24,
+        "speaker": "Speaker",
+        "en": "Have you ever been in a conversation and a few minutes in thought, \"Why are you telling me this?\"",
+        "ipa": "/hæv juː ˈɛvər biːn ɪn ə ˌkɑːnvərˈseɪʃən ænd ə fjuː ˈmɪnɪts ɪn θɔːt, waɪ ɑːr juː ˈtɛlɪŋ miː ðɪs/",
+        "zh": "你有没有过这样的经历：在对话进行了几分钟后，心里在想：“你为什么跟我说这些？”",
+        "highlights": [
+          {
+            "text": "conversation",
+            "key": "conversation",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "start": 308.5,
+        "end": 317.08,
+        "speaker": "Speaker",
+        "en": "That happens when the intent isn't clear, when the speaker hasn't told you what to do with the information that they are giving you.",
+        "ipa": "/ðæt ˈhæpənz wɛn ði ɪnˈtɛnt ˈɪzənt klɪr, wɛn ðə ˈspiːkər ˈhæzənt toʊld juː wʌt tuː duː wɪθ ði ˌɪnfərˈmeɪʃən ðæt ðeɪ ɑːr ˈɡɪvɪŋ juː/",
+        "zh": "这种情况发生时，往往是因为意图不够明确，说话者没有告诉你该如何处理他们提供给你的信息。",
+        "highlights": [
+          {
+            "text": "information",
+            "key": "information",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "start": 318.24,
+        "end": 327.9,
+        "speaker": "Speaker",
+        "en": "Now there’s a process in our brains called selective attention, and this filters incoming information and tells you what is important and what is not.",
+        "ipa": "/naʊ ðɛrz ə ˈprɑːsɛs ɪn ˈaʊər breɪnz kɔːld sɪˈlɛktɪv əˈtɛnʃən, ænd ðɪs ˈfɪltərz ˈɪnkʌmɪŋ ˌɪnfərˈmeɪʃən ænd tɛlz juː wʌt ɪz ɪmˈpɔːrtənt ænd wʌt ɪz nɑːt/",
+        "zh": "我们的大脑中有一个被称为“选择性注意”的过程，它会过滤传入的信息，并告诉你什么重要什么不重要。",
+        "highlights": [
+          {
+            "text": "selective attention",
+            "key": "selective attention",
+            "chip": "indigo"
+          },
+          {
+            "text": "filters",
+            "key": "filter",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "start": 328.44,
+        "end": 333.24,
+        "speaker": "Speaker",
+        "en": "And if you don't know what to do with a message, your brain says, not important.",
+        "ipa": "/ænd ɪf juː doʊnt noʊ wʌt tuː duː wɪθ ə ˈmɛsɪdʒ, jʊər breɪn sɛz, nɑːt ɪmˈpɔːrtənt/",
+        "zh": "如果你不知道该如何处理一条信息，你的大脑就会判定：不重要。",
+        "highlights": [
+          {
+            "text": "important",
+            "key": "important",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "start": 333.28,
+        "end": 335.2,
+        "speaker": "Speaker",
+        "en": "And we stop listening.",
+        "ipa": "/ænd wiː stɑːp ˈlɪsənɪŋ/",
+        "zh": "于是我们就不再听了。",
+        "highlights": [
+          {
+            "text": "stop listening",
+            "key": "stop listening",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "start": 336.38,
+        "end": 342.92,
+        "speaker": "Speaker",
+        "en": "At the beginning of this talk, I told you I would give you a tip that would help improve the success of your communication at work.",
+        "ipa": "/æt ðə bɪˈɡɪnɪŋ ʌv ðɪs tɔːk, aɪ toʊld juː aɪ wʊd ɡɪv juː ə tɪp ðæt wʊd hɛlp ɪmˈpruːv ðə səkˈsɛs ʌv jʊər kəˌmjuːnɪˈkeɪʃən ət wɜːrk./",
+        "zh": "在这场演讲的一开始，我告诉过大家，我会分享一个有助于提升你在职场中沟通成功率的小建议。",
+        "highlights": [
+          {
+            "text": "communication",
+            "key": "communication",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "start": 342.96,
+        "end": 346.14,
+        "speaker": "Speaker",
+        "en": "That told your brains what to do with this information.",
+        "ipa": "/ðæt toʊld jʊər breɪnz wʌt tuː duː wɪð ðɪs ˌɪnfərˈmeɪʃən./",
+        "zh": "那句话告诉了你们的大脑应该如何处理这些信息。",
+        "highlights": [
+          {
+            "text": "information",
+            "key": "information",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "start": 346.62,
+        "end": 353.92,
+        "speaker": "Speaker",
+        "en": "If I hadn't done that, I could be faced with a room full of people smiling politely while all thinking, \"Why are you telling us this?\"",
+        "ipa": "/ɪf aɪ ˈhædənt dʌn ðæt, aɪ kʊd biː feɪst wɪð ə ruːm fʊl ʌv ˈpiːpəl ˈsmaɪlɪŋ pəˈlaɪtli waɪl ɔːl ˈθɪŋɪŋ, 'waɪ ɑː juː ˈtɛlɪŋ ʌs ðɪs?'/",
+        "zh": "如果我刚才没这么做，我可能会面对满屋子面带礼貌微笑、心里却在想“你跟我们说这些干嘛”的人。",
+        "highlights": [
+          {
+            "text": "faced with",
+            "key": "face with",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "start": 355.44,
+        "end": 357.84,
+        "speaker": "Speaker",
+        "en": "Now that is something we want to avoid at work.",
+        "ipa": "/naʊ ðæt ɪz ˈsʌmθɪŋ wiː wɒnt tuː əˈvɔɪd ət wɜːrk./",
+        "zh": "这正是我们在工作中想要避免的情况。",
+        "highlights": [
+          {
+            "text": "avoid",
+            "key": "avoid",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "start": 357.88,
+        "end": 362.96,
+        "speaker": "Speaker",
+        "en": "But there is another, and perhaps more important reason to make your intent clear.",
+        "ipa": "/bʌt ðɛər ɪz əˈnʌðər, ənd pərˈhæps mɔːr ɪmˈpɔːrtənt ˈriːzən tuː meɪk jʊər ɪnˈtɛnt klɪər./",
+        "zh": "但还有一个或许更重要的原因，那就是要让你的意图明确。",
+        "highlights": [
+          {
+            "text": "intent",
+            "key": "intent",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 71,
+        "start": 363.76,
+        "end": 367.54,
+        "speaker": "Speaker",
+        "en": "You want to avoid frustrating the people you're talking to.",
+        "ipa": "/juː wɒnt tuː əˈvɔɪd ˈfrʌstreɪtɪŋ ðə ˈpiːpəl jʊər ˈtɔːkɪŋ tuː./",
+        "zh": "你希望避免让跟你对话的人感到沮丧或挫败。",
+        "highlights": [
+          {
+            "text": "frustrating",
+            "key": "frustrate",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "start": 368.88,
+        "end": 379.66,
+        "speaker": "Speaker",
+        "en": "I'd had a particularly bad day, and I walked into my colleague Tina's office, and I sat down with my head in my hands, and I told her how I'd messed up on an important call with a senior leader.",
+        "ipa": "/aɪd hæd ə pərˈtɪkjələrli bæd deɪ, ənd aɪ wɔːkt ˈɪntuː maɪ ˈkɑːliːɡ ˈtiːnəz ˈɔːfɪs, ənd aɪ sæt daʊn wɪð maɪ hɛd ɪn maɪ hændz, ənd aɪ toʊld hɜːr haʊ aɪd mɛst ʌp ɒn ən ɪmˈpɔːrtənt kɔːl wɪð ə ˈsiːniər ˈliːdər./",
+        "zh": "那天的我过得特别糟糕，我走进同事蒂娜（Tina）的办公室，双手抱头坐了下来，我告诉她我是怎么在一个与高管的重要电话沟通中把事情搞砸的。",
+        "highlights": [
+          {
+            "text": "particularly",
+            "key": "particularly",
+            "chip": "orange"
+          },
+          {
+            "text": "messed up",
+            "key": "mess up",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "start": 380.18,
+        "end": 386.68,
+        "speaker": "Speaker",
+        "en": "And when I finished talking, Tina very, very helpfully said, \"Oh, why don't you try this and maybe we can avoid this next time.\"",
+        "ipa": "/ənd wɛn aɪ ˈfɪnɪʃt ˈtɔːkɪŋ, ˈtiːnə ˈvɛri, ˈvɛri ˈhɛlpfəli sɛd, 'oʊ, waɪ doʊnt juː traɪ ðɪs ənd ˈmeɪbiː wiː kæn əˈvɔɪd ðɪs nɛkst taɪm.'/",
+        "zh": "等我说完后，蒂娜非常、非常热心地说：“噢，你为什么不试试这个呢，也许下次我们就能避免这种情况了。”",
+        "highlights": [
+          {
+            "text": "why don't you",
+            "key": "why don't you",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "start": 386.72,
+        "end": 388.96,
+        "speaker": "Speaker",
+        "en": "And she was giving me all sorts of advice.",
+        "ipa": "/ənd ʃiː wɒz ˈɡɪvɪŋ miː ɔːl sɔːrts ʌv ədˈvaɪs./",
+        "zh": "接着她开始给我出谋划策，给出了各种各样的建议。",
+        "highlights": [
+          {
+            "text": "all sorts of",
+            "key": "all sorts of",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "start": 389.9,
+        "end": 394.24,
+        "speaker": "Speaker",
+        "en": "The more she spoke, the more frustrated I became.",
+        "ipa": "/ðə mɔːr ʃiː spoʊk, ðə mɔːr ˈfrʌstreɪtɪd aɪ bɪˈkeɪm./",
+        "zh": "她讲得越多，我心里就越觉得沮丧。",
+        "highlights": [
+          {
+            "text": "frustrated",
+            "key": "frustrated",
+            "chip": "orange"
+          },
+          {
+            "text": "became",
+            "key": "became",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "start": 394.84,
+        "end": 396.32,
+        "speaker": "Speaker",
+        "en": "I didn't want her help.",
+        "ipa": "/aɪ ˈdɪdnt wɒnt hɜːr hɛlp./",
+        "zh": "我根本不需要她的帮助。",
+        "highlights": [
+          {
+            "text": "help",
+            "key": "help",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "start": 396.72,
+        "end": 402.1,
+        "speaker": "Speaker",
+        "en": "And that must have been quite obvious because she just put up her hands and said, \"You clearly don't want my help.",
+        "ipa": "/ənd ðæt mʌst həv biːn kwaɪt ˈɑːbviəs bɪˈkʌz ʃiː dʒʌst pʊt ʌp hɜːr hændz ənd sɛd, 'juː ˈklɪrli doʊnt wɒnt maɪ hɛlp./",
+        "zh": "这当时肯定相当明显，因为她直接举起双手说：“你显然不想要我的帮助。”",
+        "highlights": [
+          {
+            "text": "obvious",
+            "key": "obvious",
+            "chip": "orange"
+          },
+          {
+            "text": "clearly",
+            "key": "clearly",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "start": 402.14,
+        "end": 403.6,
+        "speaker": "Speaker",
+        "en": "So why are you here?\"",
+        "ipa": "/soʊ waɪ ɑː juː hɪər?'/",
+        "zh": "“那你来这儿干嘛？”",
+        "highlights": []
+      },
+      {
+        "id": 79,
+        "start": 403.64,
+        "end": 405.16,
+        "speaker": "Speaker",
+        "en": "I said, \"Tina, I'm really sorry.",
+        "ipa": "/aɪ sɛd, 'ˈtiːnə, aɪm ˈrɪəli ˈsɑːri./",
+        "zh": "我说：“蒂娜，我真的很抱歉。”",
+        "highlights": [
+          {
+            "text": "really sorry",
+            "key": "really sorry",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "start": 405.2,
+        "end": 407.02,
+        "speaker": "Speaker",
+        "en": "I just want to get this off my chest.",
+        "ipa": "/aɪ dʒʌst wɒnt tuː ɡɛt ðɪs ɔːf maɪ tʃɛst./",
+        "zh": "我只是想把胸口这股闷气倒出来/一吐为快。",
+        "highlights": [
+          {
+            "text": "get this off my chest",
+            "key": "get something off one's chest",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "start": 407.06,
+        "end": 409.24,
+        "speaker": "Speaker",
+        "en": "Can I just talk for a minute?\"",
+        "ipa": "/kæn aɪ dʒʌst tɔːk fɔːr ə ˈmɪnɪt?'/",
+        "zh": "“能让我自言自语/倾诉一分钟吗？”",
+        "highlights": [
+          {
+            "text": "for a minute",
+            "key": "for a minute",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "start": 409.28,
+        "end": 415.1,
+        "speaker": "Speaker",
+        "en": "And like a mother talking to a small child, she rolled her eyes and said, \"Well, why didn't you start with that?\"",
+        "ipa": "/ənd laɪk ə ˈmʌðər ˈtɔːkɪŋ tuː ə smɔːl tʃaɪld, ʃiː roʊld hɜːr aɪz ənd sɛd, 'wɛl, waɪ ˈdɪdnt juː stɑːrt wɪð ðæt?'/",
+        "zh": "就像母亲对小孩子说话那样，她翻了个白眼说：“好吧，那你怎么不早说呢？”",
+        "highlights": [
+          {
+            "text": "rolled her eyes",
+            "key": "roll one's eyes",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "start": 416.66,
+        "end": 420.98,
+        "speaker": "Speaker",
+        "en": "We need to tell our audience what to do with the information we're giving them.",
+        "ipa": "/wiː niːd tuː tɛl ˈɔːdiəns wʌt tuː duː wɪð ðə ˌɪnfərˈmeɪʃən wɪər ˈɡɪvɪŋ ðɛm./",
+        "zh": "我们需要告诉受众，该如何处理我们提供给他们的信息。",
+        "highlights": [
+          {
+            "text": "audience",
+            "key": "audience",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "start": 421.02,
+        "end": 424.28,
+        "speaker": "Speaker",
+        "en": "Tina was working hard from the moment I started talking.",
+        "ipa": "/ˈtiːnə wɒz ˈwɜːrkɪŋ hɑːrd frʌm ðə ˈmoʊmənt aɪ ˈstɑːrtɪd ˈtɔːkɪŋ./",
+        "zh": "从我开始说话的那一刻起，蒂娜就在努力帮我想办法。",
+        "highlights": [
+          {
+            "text": "working hard",
+            "key": "work hard",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "start": 424.96,
+        "end": 429.1,
+        "speaker": "Speaker",
+        "en": "And all the way through, she was working hard to help me and I didn't want or need that.",
+        "ipa": "/ənd ɔːl ðə weɪ θruː, ʃiː wɒz ˈwɜːrkɪŋ hɑːrd tuː hɛlp miː ənd aɪ ˈdɪdnt wɒnt ɔːr niːd ðæt./",
+        "zh": "而且自始至终，她都在努力帮我，而我其实并不想要也不需要这种帮助。",
+        "highlights": [
+          {
+            "text": "all the way through",
+            "key": "all the way through",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "start": 429.14,
+        "end": 431.32,
+        "speaker": "Speaker",
+        "en": "She was annoyed and rightly so.",
+        "ipa": "/ʃiː wɒz əˈnɔɪd ənd ˈraɪtli soʊ./",
+        "zh": "她生气了，而且生得很合情合理。",
+        "highlights": [
+          {
+            "text": "annoyed",
+            "key": "annoyed",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "start": 431.66,
+        "end": 436.6,
+        "speaker": "Speaker",
+        "en": "So when you start your message, after you've given a clear topic, tell your audience what to do with it.",
+        "ipa": "/soʊ wɛn juː stɑːrt jʊər ˈmɛsɪdʒ, ˈæftər juːv ˈɡɪvɪn ə klɪər ˈtɑːpɪk, tɛl jʊər ˈɔːdiəns wʌt tuː duː wɪð ɪt./",
+        "zh": "所以，当你开始传达信息时，在给出明确的主题之后，要告诉受众如何处理它。",
+        "highlights": [
+          {
+            "text": "topic",
+            "key": "topic",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "start": 436.64,
+        "end": 438.88,
+        "speaker": "Speaker",
+        "en": "And again, you can do this with one line.",
+        "ipa": "/ənd əˈɡɛn, juː kæn duː ðɪs wɪð wʌn laɪn./",
+        "zh": "再说一次，你只需用一句话就能做到这一点。",
+        "highlights": [
+          {
+            "text": "one line",
+            "key": "one line",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "start": 438.92,
+        "end": 440.38,
+        "speaker": "Speaker",
+        "en": "Make your intent clear.",
+        "ipa": "/meɪk jʊər ɪnˈtɛnt klɪər./",
+        "zh": "让你的意图保持清晰明了。",
+        "highlights": [
+          {
+            "text": "intent",
+            "key": "intent",
+            "chip": "orange"
+          },
+          {
+            "text": "clear",
+            "key": "clear",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "start": 440.42,
+        "end": 443.94,
+        "speaker": "Speaker",
+        "en": "If you have a question, say, \"Can I ask you a question?\"",
+        "ipa": "/ɪf juː hæv ə ˈkwɛstʃən, seɪ, 'kæn aɪ ɑːsk juː ə ˈkwɛstʃən?'/",
+        "zh": "如果你有问题，就说：“我能问你个问题吗？”",
+        "highlights": [
+          {
+            "text": "question",
+            "key": "question",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "start": 444.52,
+        "end": 449.08,
+        "speaker": "Speaker",
+        "en": "If you want someone to make a decision, say, \"I'd like your help with this decision.\"",
+        "ipa": "/ɪf juː wɒnt ˈsʌmwʌn tuː meɪk ə dɪˈsɪʒən, seɪ, 'aɪd laɪk jʊər hɛlp wɪð ðɪs dɪˈsɪʒən.'/",
+        "zh": "如果你想让某人做决定，就说：“我希望你能帮我做这个决定。”",
+        "highlights": [
+          {
+            "text": "make a decision",
+            "key": "make a decision",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "start": 449.82,
+        "end": 454.9,
+        "speaker": "Speaker",
+        "en": "If you want to get something off your chest, just say, \"Is it OK if I vent for a minute?\"",
+        "ipa": "/ɪf juː wɒnt tuː ɡɛt ˈsʌmθɪŋ ɔːf jʊər tʃɛst, dʒʌst seɪ, 'ɪz ɪt oʊˈkeɪ ɪf aɪ vɛnt fɔːr ə ˈmɪnɪt?'/",
+        "zh": "如果你想倾诉心事，就直说：“我发泄/吐槽一分钟可以吗？”",
+        "highlights": [
+          {
+            "text": "vent",
+            "key": "vent",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "start": 456.0,
+        "end": 463.28,
+        "speaker": "Speaker",
+        "en": "If you tell your audience what to do with your message, not only will their brains pay more attention, you will avoid frustrating them.",
+        "ipa": "/ɪf juː tɛl jʊər ˈɔːdiəns wʌt tuː duː wɪð jʊər ˈmɛsɪdʒ, nɑːt ˈoʊnli wɪl ðɛər breɪnz peɪ mɔːr əˈtɛnʃən, juː wɪl əˈvɔɪd ˈfrʌstreɪtɪŋ ðɛm./",
+        "zh": "如果你告诉受众如何处理你的信息，不仅他们的大脑会更加专注，你也能避免让他们感到受挫或沮丧。",
+        "highlights": [
+          {
+            "text": "attention",
+            "key": "attention",
+            "chip": "pink"
+          },
+          {
+            "text": "frustrating",
+            "key": "frustrating",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "start": 463.68,
+        "end": 464.92,
+        "speaker": "Speaker",
+        "en": "That's kind of useful.",
+        "ipa": "/ðæts kaɪnd ʌv ˈjuːsfʊl./",
+        "zh": "这还蛮有用的。",
+        "highlights": [
+          {
+            "text": "kind of",
+            "key": "kind of",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "start": 466.44,
+        "end": 468.24,
+        "speaker": "Speaker",
+        "en": "So we've made our topic clear.",
+        "ipa": "/soʊ wɪv meɪd ɑːr ˈtɑːpɪk klɪər./",
+        "zh": "所以，我们已经把主题讲清楚了。",
+        "highlights": [
+          {
+            "text": "topic",
+            "key": "topic",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "start": 468.64,
+        "end": 471.34,
+        "speaker": "Speaker",
+        "en": "We've told our audience what we intend for them to do.",
+        "ipa": "/wɪv toʊld ɑːr ˈɔːdiəns wʌt wiː ɪnˈtɛnd fɔːr ðɛm tuː duː./",
+        "zh": "我们也已经告诉了受众我们希望他们做什么。",
+        "highlights": [
+          {
+            "text": "intend",
+            "key": "intend",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "start": 471.38,
+        "end": 473.48,
+        "speaker": "Speaker",
+        "en": "It's time to get down into the detail, right?",
+        "ipa": "/ɪts taɪm tuː ɡɛt daʊn ˈɪntuː ðə ˈdiːteɪl, raɪt?/",
+        "zh": "接下来是时候深入细节了吧？",
+        "highlights": [
+          {
+            "text": "get down into",
+            "key": "get down into",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "start": 473.52,
+        "end": 474.96,
+        "speaker": "Speaker",
+        "en": "Get into the message.",
+        "ipa": "/ɡɛt ˈɪntuː ðə ˈmɛsɪdʒ./",
+        "zh": "进入正题。",
+        "highlights": [
+          {
+            "text": "Get into",
+            "key": "get into",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "start": 475.36,
+        "end": 476.6,
+        "speaker": "Speaker",
+        "en": "Wrong.",
+        "ipa": "/rɔːŋ./",
+        "zh": "错啦。",
+        "highlights": [
+          {
+            "text": "Wrong",
+            "key": "wrong",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 100,
+        "start": 477.04,
+        "end": 480.4,
+        "speaker": "Speaker",
+        "en": "This is where we need the third part of the tip.",
+        "ipa": "/ðɪs ɪz wɛr wi nid ðə θərd pɑrt ʌv ðə tɪp/",
+        "zh": "这就是我们需要这个技巧的第三部分的地方。",
+        "highlights": [
+          {
+            "text": "third part",
+            "key": "第三部分",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "start": 480.78,
+        "end": 481.98,
+        "speaker": "Speaker",
+        "en": "The P.",
+        "ipa": "/ðə pi/",
+        "zh": "字母 P。",
+        "highlights": [
+          {
+            "text": "The P",
+            "key": "字母P",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "start": 482.02,
+        "end": 483.7,
+        "speaker": "Speaker",
+        "en": "And P stands for point.",
+        "ipa": "/ænd pi stændz fɔr pɔɪnt/",
+        "zh": "P 代表核心观点（Point）。",
+        "highlights": [
+          {
+            "text": "stands for",
+            "key": "代表，象征",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "start": 484.28,
+        "end": 488.0,
+        "speaker": "Speaker",
+        "en": "Point is the most important part of our message.",
+        "ipa": "/pɔɪnt ɪz ðə moʊst ɪmˈpɔrtənt pɑrt ʌv ˈaʊər ˈmɛsɪdʒ/",
+        "zh": "核心观点是我们信息中最重要的一部分。",
+        "highlights": [
+          {
+            "text": "most important part",
+            "key": "最重要的部分",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "start": 488.42,
+        "end": 493.0,
+        "speaker": "Speaker",
+        "en": "If you only had five seconds to speak, it's what you would say.",
+        "ipa": "/ɪf ju ˈoʊnli hæd faɪv ˈsɛkənz tu spik, ɪts wʌt ju wʊd seɪ/",
+        "zh": "如果你只有五秒钟的时间说话，这就是你会说的话。",
+        "highlights": [
+          {
+            "text": "five seconds",
+            "key": "五秒钟",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "start": 493.5,
+        "end": 498.2,
+        "speaker": "Speaker",
+        "en": "And usually it's what your audience cares about the most.",
+        "ipa": "/ænd ˈjuʒəwəli ɪts wʌt jʊər ˈɔdiəns kɛrz əˈbaʊt ðə moʊst/",
+        "zh": "通常这也是你的听众最关心的事情。",
+        "highlights": [
+          {
+            "text": "cares about",
+            "key": "关心，在意",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "start": 499.42,
+        "end": 501.74,
+        "speaker": "Speaker",
+        "en": "When I was a kid, my dad played a game with me.",
+        "ipa": "/wɛn aɪ wəz ə kɪd, maɪ dæd pleɪd ə geɪm wɪð mi/",
+        "zh": "当我还是个孩子的时候，我爸爸和我玩过一个游戏。",
+        "highlights": [
+          {
+            "text": "played a game",
+            "key": "玩游戏",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "start": 501.78,
+        "end": 504.86,
+        "speaker": "Speaker",
+        "en": "If we were going on a journey, I'd go, \"Dad, where are we going?\"",
+        "ipa": "/ɪf wi wər ˈgoʊɪng ɑn ə ˈdʒɜrni, aɪd goʊ, \"dæd, wɛr ɑr wi ˈgoʊɪŋ?\"",
+        "zh": "如果我们正要出门旅行，我会问：“爸爸，我们要去哪里？”",
+        "highlights": [
+          {
+            "text": "journey",
+            "key": "旅程",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "start": 504.9,
+        "end": 515.28,
+        "speaker": "Speaker",
+        "en": "And he'd say, \"Well, first, we're going to the car and then we’ll get in the car, leave the driveway, turn left onto the main street until we get to the post office, and then turn right until we go to a big yellow building.\"",
+        "ipa": "/ænd hid seɪ, \"wɛl, fɜrst, wɪr ˈgoʊɪng tu ðə kɑr ənd ðɛn wil gɛt ɪn ðə kɑr, liv ðə ˈdraɪvˌweɪ, tɜrn lɛft ˈɑntu ðə meɪn strit ənˈtɪl wi gɛt tu ðə poʊst ˈɔfɪs, ənd ðɛn tɜrn raɪt ənˈtɪl wi goʊ tu ə bɪg ˈjɛloʊ ˈbɪldɪŋ.\"",
+        "zh": "他会说：“嗯，首先，我们要去车那儿，然后上车，驶离车道，”“沿着主街向左转，直到我们到达邮局，然后向右转，直到我们去到一栋黄色的建筑。”",
+        "highlights": [
+          {
+            "text": "leave the driveway",
+            "key": "驶离车道",
+            "chip": "indigo"
+          },
+          {
+            "text": "turn left",
+            "key": "向左转",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "start": 515.32,
+        "end": 517.56,
+        "speaker": "Speaker",
+        "en": "I just wanted to scream, \"Where are we going?\"",
+        "ipa": "/aɪ dʒʌst ˈwɑntɪd tu skrim, \"wɛr ɑr wi ˈgoʊɪŋ?\"",
+        "zh": "我当时只想大叫：“我们到底要去哪儿？”",
+        "highlights": [
+          {
+            "text": "wanted to scream",
+            "key": "想尖叫",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "start": 517.88,
+        "end": 519.68,
+        "speaker": "Speaker",
+        "en": "I wanted the short version.",
+        "ipa": "/aɪ ˈwɑntɪd ðə ʃɔrt ˈvɜrʒən/",
+        "zh": "我只想听简短的版本。",
+        "highlights": [
+          {
+            "text": "short version",
+            "key": "精简版",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "start": 519.72,
+        "end": 522.14,
+        "speaker": "Speaker",
+        "en": "I think he just wanted to wind me up a little bit.",
+        "ipa": "/aɪ θɪŋk hi dʒʌst ˈwɑntɪd tu waɪnd mi ʌp ə ˈlɪtəl bɪt/",
+        "zh": "我想他只是想稍微逗逗我（惹恼我）。",
+        "highlights": [
+          {
+            "text": "wind me up",
+            "key": "惹恼，逗弄",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "start": 522.6,
+        "end": 528.0,
+        "speaker": "Speaker",
+        "en": "But fast forward a few years, I was doing the same thing at work.",
+        "ipa": "/bʌt fæst ˈfɔrwərd ə fju jɪrz, aɪ wəz ˈduɪng ðə seɪm θɪŋ æt wɜrk/",
+        "zh": "但快进到几年后，我在工作中做着同样的事情。",
+        "highlights": [
+          {
+            "text": "fast forward",
+            "key": "快进，时光飞逝",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "start": 528.92,
+        "end": 537.18,
+        "speaker": "Speaker",
+        "en": "Someone would ask me a question, or I’d start a conversation, and I would give all the detail, step by step information.",
+        "ipa": "/ˈsʌmwʌn wʊd æsk mi ə ˈkwɛstʃən, ɔr aɪd stɑrt ə ˌkɑnvərˈseɪʃən, ənd aɪ wʊd gɪv ɔl ðə ˈdɪteɪl, stɛp baɪ stɛp ˌɪnfərˈmeɪʃən/",
+        "zh": "有人问我问题，或者我开启一段对话时，我会提供所有细节、一步一步的信息。",
+        "highlights": [
+          {
+            "text": "step by step",
+            "key": "一步一步地",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "start": 537.64,
+        "end": 544.46,
+        "speaker": "Speaker",
+        "en": "And every so often -- OK, quite often -- people would say, \"Chris, just get to the point.\"",
+        "ipa": "/ænd ˈɛvri soʊ ˈɔfən -- oʊˈkeɪ, kwaɪt ˈɔfən -- ˈpipəl wʊd seɪ, \"krɪs, dʒʌst gɛt tu ðə pɔɪnt.\"",
+        "zh": "每隔一段时间——好吧，相当频繁地——人们会说：“克里斯，说重点。”",
+        "highlights": [
+          {
+            "text": "get to the point",
+            "key": "切入正题，说重点",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "start": 545.9,
+        "end": 547.12,
+        "speaker": "Speaker",
+        "en": "And that's what we need.",
+        "ipa": "/ænd ðæts wʌt wi nid/",
+        "zh": "而这正是我们所需要的。",
+        "highlights": [
+          {
+            "text": "what we need",
+            "key": "我们所需要的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "start": 547.16,
+        "end": 552.28,
+        "speaker": "Speaker",
+        "en": "We need a point, we need a headline, something that tells us where this conversation is going.",
+        "ipa": "/wi nid ə pɔɪnt, wi nid ə ˈhɛdˌlaɪn, ˈsʌmθɪŋ ðæt tɛlz ʌs wɛr ðɪs ˌkɑnvərˈseɪʃən ɪz ˈgoʊɪŋ/",
+        "zh": "我们需要一个观点，我们需要一个标题，一个能告诉我们这场对话将走向何方的事物。",
+        "highlights": [
+          {
+            "text": "headline",
+            "key": "核心标题，要点",
+            "orange": true,
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 117,
+        "start": 553.26,
+        "end": 557.84,
+        "speaker": "Speaker",
+        "en": "Now, of course, there's a lot more information we could include, but that comes later.",
+        "ipa": "/naʊ, ʌv kɔrs, ðɛrz ə lɑt mɔr ˌɪnfərˈmeɪʃən wi kʊd ɪnˈklud, bʌt ðæt kʌmz ˈleɪtər/",
+        "zh": "当然，还有很多其他信息我们可以包含在内，但那是后面的事。",
+        "highlights": [
+          {
+            "text": "comes later",
+            "key": "稍后来临",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 118,
+        "start": 557.88,
+        "end": 563.8,
+        "speaker": "Speaker",
+        "en": "That comes after we've set up the audience to understand what the conversation is about.",
+        "ipa": "/ðæt kʌmz ˈæftər wiv sɛt ʌp ðə ˈɔdiəns tu ˌʌndərˈstænd wʌt ðə ˌkɑnvərˈseɪʃən ɪz əˈbaʊt/",
+        "zh": "那是在我们引导听众理解对话内容之后的事。",
+        "highlights": [
+          {
+            "text": "set up",
+            "key": "做好铺垫，引导",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 119,
+        "start": 563.84,
+        "end": 570.7,
+        "speaker": "Speaker",
+        "en": "And we can do this quite simply, as the military likes to say, “Put the bottom line up front.”",
+        "ipa": "/ænd wi kʊd du ðɪs kwaɪt ˈsɪmpli, æz ðə ˈmɪləˌtɛri laɪks tu seɪ, \"pʊt ðə ˈbɑtəm laɪn ʌp frʌnt.\"",
+        "zh": "我们可以非常简单地做到这一点，正如军方常说的那样：“开门见山，把底线放在最前面。”",
+        "highlights": [
+          {
+            "text": "bottom line up front",
+            "key": "开门见山，直奔主题",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 120,
+        "start": 571.46,
+        "end": 575.46,
+        "speaker": "Speaker",
+        "en": "In one sentence, deliver the most important piece of information.",
+        "ipa": "/ɪn wʌn ˈsɛntəns, dɪˈlɪvər ðə moʊst ɪmˈpɔrtənt pis ʌv ˌɪnfərˈmeɪʃən/",
+        "zh": "用一句话，传递最重要的信息。",
+        "highlights": [
+          {
+            "text": "In one sentence",
+            "key": "用一句话",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 121,
+        "start": 575.5,
+        "end": 578.18,
+        "speaker": "Speaker",
+        "en": "\"I want to give a refund for a late delivery.\"",
+        "ipa": "/\"aɪ wɑnt tu gɪv ə ˈriˌfʌnd fɔr ə leɪt dɪˈlɪvəri.\"",
+        "zh": "“我想为延迟交付进行退款。”",
+        "highlights": [
+          {
+            "text": "give a refund",
+            "key": "退款",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "start": 578.22,
+        "end": 580.82,
+        "speaker": "Speaker",
+        "en": "\"Our project launch is going to be delayed by a month.\"",
+        "ipa": "/\"ˈaʊər ˈprɑˌdʒɛkt lɔntʃ ɪz ˈgoʊɪng tu bi dɪˈleɪd baɪ ə mʌnθ.\"",
+        "zh": "“我们的项目发布将推迟一个月。”",
+        "highlights": [
+          {
+            "text": "project launch",
+            "key": "项目发布",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "start": 580.86,
+        "end": 589.24,
+        "speaker": "Speaker",
+        "en": "Say the most important thing, and your audience will know where that conversation is going and they won't be thinking, \"What is your point?\"",
+        "ipa": "/seɪ ðə moʊst ɪmˈpɔrtənt θɪŋ, ənd jʊər ˈɔdiəns wɪl noʊ wɛr ðæt ˌkɑnvərˈseɪʃən ɪz ˈgoʊɪŋ ənd ðeɪ woʊnt bi ˈθɪŋkɪŋ, \"wʌt ɪz jʊər pɔɪnt?\"",
+        "zh": "说出最重要的事情，你的听众就会知道这场对话要去向何方，他们也就不会在心里想：“你的重点是什么？”",
+        "highlights": [
+          {
+            "text": "most important thing",
+            "key": "最重要的事情",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 124,
+        "start": 591.08,
+        "end": 603.72,
+        "speaker": "Speaker",
+        "en": "Now if you start your conversation with topic, intent and point, you are starting with a clear and concise introduction, an introduction that answers the three questions we all have: What are you talking about?",
+        "ipa": "/naʊ ɪf ju stɑrt jʊər ˌkɑnvərˈseɪʃən wɪð ˈtɑpɪk, ɪnˈtɛnt ənd pɔɪnt, ju ɑr ˈstɑrtɪng wɪð ə klɪr ənd kənˈsaɪs ˌɪntrəˈdʌkʃən ən ˌɪntrəˈdʌkʃən ðæt ˈænsərz ðə θri ˈkwɛstʃənz wi ɔl hæv: wʌt ɑr ju ˈtɔkɪŋ əˈbaʊt?",
+        "zh": "现在，如果你以主题、意图和观点开启对话，你就是在进行一个清晰且简明的介绍，这个介绍回答了我们所有人都有的三个问题：你在谈论什么？",
+        "highlights": [
+          {
+            "text": "clear and concise",
+            "key": "清晰简明",
+            "chip": "indigo"
+          },
+          {
+            "text": "What are you talking about",
+            "key": "你在谈论什么",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 125,
+        "start": 603.76,
+        "end": 605.46,
+        "speaker": "Speaker",
+        "en": "Why are you telling me this?",
+        "ipa": "/waɪ ɑr ju ˈtɛlɪŋ mi ðɪs?",
+        "zh": "你为什么要告诉我这些？",
+        "highlights": [
+          {
+            "text": "Why are you telling me this",
+            "key": "你为什么要告诉我这个",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 126,
+        "start": 605.5,
+        "end": 607.32,
+        "speaker": "Speaker",
+        "en": "And what is your point?",
+        "ipa": "/ænd wʌt ɪz jʊər pɔɪnt?",
+        "zh": "你的重点是什么？",
+        "highlights": [
+          {
+            "text": "what is your point",
+            "key": "重点是什么",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 127,
+        "start": 608.04,
+        "end": 609.5,
+        "speaker": "Speaker",
+        "en": "Because here's the truth.",
+        "ipa": "/bɪˈkɔz hɪrz ðə truθ/",
+        "zh": "因为真相是这样的。",
+        "highlights": [
+          {
+            "text": "here's the truth",
+            "key": "真相是这样的",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "start": 610.18,
+        "end": 616.24,
+        "speaker": "Speaker",
+        "en": "Every time we communicate, it is an opportunity to create clarity or confusion.",
+        "ipa": "/ˈɛvri taɪm wi kəmˈjunɪkeɪt, ɪt ɪz ən ˌɑpərˈtunɪti tu kriˈeɪt ˈklærəti ɔr kənˈfjuzʒən/",
+        "zh": "我们每一次交流，都是创造清晰或混乱的机会。",
+        "highlights": [
+          {
+            "text": "clarity or confusion",
+            "key": "清晰还是混乱",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 129,
+        "start": 617.06,
+        "end": 621.62,
+        "speaker": "Speaker",
+        "en": "And topic, intent and point is clarity.",
+        "ipa": "/ænd ˈtɑpɪk, ɪnˈtɛnt ənd pɔɪnt ɪz ˈklærəti/",
+        "zh": "而主题、意图和观点就是清晰。",
+        "highlights": [
+          {
+            "text": "clarity",
+            "key": "清晰，明了",
+            "orange": true,
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 130,
+        "start": 622.36,
+        "end": 624.04,
+        "speaker": "Speaker",
+        "en": "So I have a challenge for you.",
+        "ipa": "/soʊ aɪ hæv ə ˈtʃælənʒ fɔr ju/",
+        "zh": "所以我给你一个挑战。",
+        "highlights": [
+          {
+            "text": "have a challenge",
+            "key": "有个挑战",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 131,
+        "start": 624.48,
+        "end": 633.82,
+        "speaker": "Speaker",
+        "en": "The next time you start a conversation at work, the next time you write a message, take a moment and think to yourself, what is my topic?",
+        "ipa": "/ðə lɛkst taɪm ju stɑrt ə ˌkɑnvərˈseɪʃən æt wɜrk, ðə nɛkst taɪm ju raɪt ə ˈmɛsɪdʒ, teɪk ə ˈmoʊmənt ənd θɪŋk tu jʊərˈsɛlf, wʌt ɪz maɪ ˈtɑpɪk?",
+        "zh": "下次你在工作中发起对话，下次你写信息时，花点时间在心里想想：我的主题是什么？",
+        "highlights": [
+          {
+            "text": "take a moment",
+            "key": "花点时间",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "start": 634.52,
+        "end": 638.0,
+        "speaker": "Speaker",
+        "en": "What do I intend for the other person to do with this message?",
+        "ipa": "/wʌt du aɪ ɪnˈtɛnd fɔr ðə ˈʌðər ˈpɜrsən tu du wɪð ðɪs ˈmɛsɪdʒ/",
+        "zh": "我希望对方用这条信息做什么？",
+        "highlights": [
+          {
+            "text": "intend for",
+            "key": "打算，意欲",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "start": 638.04,
+        "end": 640.9,
+        "speaker": "Speaker",
+        "en": "And what point do I want to deliver?",
+        "ipa": "/ænd wʌt pɔɪnt du aɪ wɑnt tu dɪˈlɪvər?/",
+        "zh": "那么，我想传达的重点是什么呢？",
+        "highlights": [
+          {
+            "text": "deliver",
+            "key": "传达，发表",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "start": 642.18,
+        "end": 645.58,
+        "speaker": "Speaker",
+        "en": "Imagine working somewhere where everybody did this.",
+        "ipa": "/ɪˈmædʒɪn ˈwɜrkɪŋ ˈsʌmˌwɛr wɛr ˈɛvriˌbɑdi dɪd ðɪs./",
+        "zh": "想象一下，如果你在每个人都这样做的地方工作会怎样。",
+        "highlights": [
+          {
+            "text": "Imagine",
+            "key": "想象一下",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 135,
+        "start": 647.14,
+        "end": 652.22,
+        "speaker": "Speaker",
+        "en": "Imagine if everyone always knew what to do with the message you gave them, or understood what it was about.",
+        "ipa": "/ɪˈmædʒɪn ɪf ˈɛvriˌwʌn ˈɔlˌweɪz nu wʌt tu du wɪð ðə ˈmɛsɪdʒ ju ɡeɪv ðɛm, ɔr ˌʌndərˈstʊd wʌt ɪt wʌz əˈbaʊt./",
+        "zh": "想象一下，如果每个人都能立刻明白你传达的信息，或者理解其核心含义。",
+        "highlights": [
+          {
+            "text": "what to do with",
+            "key": "如何处理",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 136,
+        "start": 652.26,
+        "end": 655.42,
+        "speaker": "Speaker",
+        "en": "How much smoother, how much easier would our jobs be?",
+        "ipa": "/haʊ mʌtʃ ˈsmuðər, haʊ mʌtʃ ˈiziər wʊd ˈaʊər dʒɑbz bi?/",
+        "zh": "我们的工作会变得多么顺畅、多么轻松啊？",
+        "highlights": [
+          {
+            "text": "smoother",
+            "key": "更顺畅的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 137,
+        "start": 656.76,
+        "end": 661.66,
+        "speaker": "Speaker",
+        "en": "That, ladies and gentlemen, is the power of the first minute.",
+        "ipa": "/ðæt, ˈleɪdiz ænd ˈdʒɛntəlmən, ɪz ðə ˈpaʊər ʌv ðə fɜrst ˈmɪnɪt./",
+        "zh": "女士们，先生们，这就是第一分钟的力量。",
+        "highlights": [
+          {
+            "text": "the power of",
+            "key": "……的力量",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 138,
+        "start": 662.72,
+        "end": 663.84,
+        "speaker": "Speaker",
+        "en": "Thank you.",
+        "ipa": "/θæŋk ju./",
+        "zh": "谢谢大家。",
+        "highlights": []
+      }
+    ]
+  },
+  {
+    "id": "local-4-What-is-imposter-syndrome-and-ho",
+    "number": "EP 04",
     "title": "What is imposter syndrome and how can you combat it？ - Elizabeth Cox",
-    "speaker": "TED-Ed",
+    "speaker": "Elizabeth Cox",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 259,
     "durationLabel": "04:19",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
       "个人成长"
     ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/What%20is%20imposter%20syndrome%20and%20how%20can%20you%20combat%20it%EF%BC%9F%20-%20Elizabeth%20Cox.webp",
     "mediaUrl": "./content/episodes/What%20is%20imposter%20syndrome%20and%20how%20can%20you%20combat%20it%EF%BC%9F%20-%20Elizabeth%20Cox.f399.mp4",
     "audioUrl": "./content/episodes/What%20is%20imposter%20syndrome%20and%20how%20can%20you%20combat%20it%EF%BC%9F%20-%20Elizabeth%20Cox.f140.m4a",
@@ -109317,27 +106578,26 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-2-Inside-Emma-Watson-s-Prada-Backp",
-    "number": "EP 02",
+    "id": "local-3-Inside-Emma-Watson-s-Prada-Backp",
+    "number": "EP 03",
     "title": "Inside Emma Watson's Prada Backpack ｜ In The Bag ｜ Vogue",
-    "speaker": "Emma Watson · Vogue",
+    "speaker": "Emma Watson",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "英国",
     "difficulty": 4,
     "durationSec": 470,
     "durationLabel": "07:50",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "购物",
       "旅行",
       "名人访谈"
     ],
-    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/Inside%20Emma%20Watson%27s%20Prada%20Backpack%20%EF%BD%9C%20In%20The%20Bag%20%EF%BD%9C%20Vogue.webp",
     "mediaUrl": "./content/episodes/Inside%20Emma%20Watson%27s%20Prada%20Backpack%20%EF%BD%9C%20In%20The%20Bag%20%EF%BD%9C%20Vogue.f616.mp4",
     "audioUrl": "./content/episodes/Inside%20Emma%20Watson%27s%20Prada%20Backpack%20%EF%BD%9C%20In%20The%20Bag%20%EF%BD%9C%20Vogue.f140.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "旅行",
     "skipRanges": [],
     "sentences": [
       {
@@ -110864,21 +108124,20 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
-    "id": "local-1-73-Questions-With-Kendall-Jenner",
-    "number": "EP 01",
+    "id": "local-2-73-Questions-With-Kendall-Jenner",
+    "number": "EP 02",
     "title": "73 Questions With Kendall Jenner ｜ Vogue",
-    "speaker": "Kendall Jenner · Vogue",
+    "speaker": "Kendall Jenner",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
     "durationSec": 448,
     "durationLabel": "07:28",
-    "date": "2026/11/28",
+    "date": "2026/11/26",
     "tags": [
-      "名人访谈",
-      "生活"
+      "名人访谈"
     ],
-    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/73%20Questions%20With%20Kendall%20Jenner%20%EF%BD%9C%20Vogue.webp",
     "mediaUrl": "./content/episodes/73%20Questions%20With%20Kendall%20Jenner%20%EF%BD%9C%20Vogue.f616.mp4",
     "audioUrl": "./content/episodes/73%20Questions%20With%20Kendall%20Jenner%20%EF%BD%9C%20Vogue.f140.m4a",
@@ -113892,6 +111151,2652 @@ export const LOCAL_EPISODES = [
             "text": "Thanks, guys",
             "key": "Thanks, guys",
             "chip": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-1-Celeste-Headlee-10-ways-to-have-",
+    "number": "EP 01",
+    "title": "Celeste Headlee： 10 ways to have a better conversation ｜ TED",
+    "speaker": "Celeste Headlee",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 5,
+    "durationSec": 704,
+    "durationLabel": "11:44",
+    "date": "2026/11/26",
+    "tags": [
+      "个人成长",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
+    "coverImage": "./content/episodes/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED.webp",
+    "mediaUrl": "./content/episodes/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED.f399-sr.mp4",
+    "audioUrl": "./content/episodes/Celeste%20Headlee%EF%BC%9A%2010%20ways%20to%20have%20a%20better%20conversation%20%EF%BD%9C%20TED.f140.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "个人成长",
+    "skipRanges": [
+      [
+        0.0,
+        12.83
+      ],
+      [
+        115.23,
+        116.16
+      ],
+      [
+        183.73,
+        184.8
+      ],
+      [
+        337.43,
+        338.2
+      ],
+      [
+        352.13,
+        352.86
+      ],
+      [
+        356.56,
+        357.23
+      ],
+      [
+        361.76,
+        363.16
+      ],
+      [
+        403.06,
+        403.73
+      ],
+      [
+        445.53,
+        446.06
+      ],
+      [
+        449.8,
+        450.8
+      ],
+      [
+        466.0,
+        466.63
+      ],
+      [
+        470.33,
+        471.26
+      ],
+      [
+        494.43,
+        495.13
+      ],
+      [
+        506.43,
+        508.56
+      ],
+      [
+        509.8,
+        511.43
+      ],
+      [
+        524.56,
+        525.63
+      ],
+      [
+        541.33,
+        541.86
+      ],
+      [
+        576.36,
+        576.93
+      ],
+      [
+        578.86,
+        579.46
+      ],
+      [
+        627.56,
+        628.96
+      ],
+      [
+        660.76,
+        661.36
+      ],
+      [
+        664.26,
+        664.8
+      ],
+      [
+        683.43,
+        684.03
+      ],
+      [
+        685.2,
+        704.14
+      ]
+    ],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 12.83,
+        "end": 17.49,
+        "speaker": "Speaker",
+        "en": "All right, I want to see a show of hands: how many of you have unfriended someone on Facebook?",
+        "ipa": "/ɔl raɪt, aɪ wɑnt tu si ə ʃoʊ əv hændz: haʊ mɛni əv ju hæv ˌʌnˈfrɛndɪd ˈsʌmwʌn ɑn ˈfeɪsˌbʊk?/",
+        "zh": "好了，我想请大家举个手：你们中有多少人在 Facebook 上删过好友？",
+        "highlights": [
+          {
+            "text": "show of hands",
+            "key": "举手表决",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 17.53,
+        "end": 23.22,
+        "speaker": "Speaker",
+        "en": "Because they said something offensive about politics or religion, childcare, food?",
+        "ipa": "/bɪˈkəz ðeɪ sɛd ˈsʌmθɪŋ əˈfɛnsɪv əˈbaʊt ˈpɑləˌtɪks ɔr rɪˈlɪdʒən, ˈʧaɪldˌkɛr, fud?/",
+        "zh": "因为他们对政治、宗教、育儿或食物发表了冒犯性的言论？",
+        "highlights": [
+          {
+            "text": "offensive",
+            "key": "冒犯的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 23.26,
+        "end": 30.36,
+        "speaker": "Speaker",
+        "en": "And how many of you know at least one person that you avoid because you just don't want to talk to them?",
+        "ipa": "/(ˈlæftər) ænd haʊ mɛni əv ju noʊ ət list wʌn ˈpɜrsən ðæt ju əˈvɔɪd bɪˈkəz ju ʤʌst doʊnt wɑnt tu tɔk tu ðɛm?/",
+        "zh": "你们中有多少人认识至少一个人，因为不想和他们说话而刻意回避？",
+        "highlights": [
+          {
+            "text": "at least",
+            "key": "至少",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 30.86,
+        "end": 41.22,
+        "speaker": "Speaker",
+        "en": "You know, it used to be that in order to have a polite conversation, we just had to follow the advice of Henry Higgins in \"My Fair Lady\": Stick to the weather and your health.",
+        "ipa": "/(ˈlæftər) ju noʊ, ɪt juzd tu bi ðæt ɪn ˈɔrdər tu hæv ə pəˈlaɪt ˌkɑnvərˈseɪʃən, wi ʤʌst hæd tu ˈfɑloʊ ði ədˈvaɪs əv ˈhɛnri ˈhɪɡɪnz ɪn \"maɪ fɛr ˈleɪdi\": stɪk tu ðə ˈwɛðər ænd jʊər hɛlθ./",
+        "zh": "你知道，过去为了进行一场礼貌的对话，我们只需要遵循《窈窕淑女》中亨利·希金斯的建议：只聊天气和健康。",
+        "highlights": [
+          {
+            "text": "used to be",
+            "key": "曾经是",
+            "chip": "indigo"
+          },
+          {
+            "text": "Stick to",
+            "key": "坚持聊/局限于",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 41.26,
+        "end": 47.29,
+        "speaker": "Speaker",
+        "en": "But these days, with climate change and anti-vaxxing, those subjects -- are not safe either.",
+        "ipa": "/bʌt ðiz deɪz, wɪð ˈklaɪmət ʧeɪnʤ ænd ˈænti-ˈvæksɪŋ, ðoʊz ˈsʌbʤɪkts -- (ˈlæftər) ɑr nɑt seɪf ˈiðər./",
+        "zh": "但如今，随着气候变化和反疫苗运动，这些话题——也不再安全了。",
+        "highlights": [
+          {
+            "text": "these days",
+            "key": "如今",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 47.33,
+        "end": 64.92,
+        "speaker": "Speaker",
+        "en": "So this world that we live in, this world in which every conversation has the potential to devolve into an argument, where our politicians can't speak to one another and where even the most trivial of issues have someone fighting both passionately for it and against it, it's not normal.",
+        "ipa": "/soʊ ðɪs wɜrld ðæt wi lɪv ɪn, ðɪs wɜrld ɪn wɪʧ ˈɛvri ˌkɑnvərˈseɪʃən hæz ðə pəˈtɛnʃəl tu dɪˈvɑlv ˈɪntu ən ˈɑrɡjəmənt, wɛr ˈaʊər ˌpɑləˈtɪʃənz kænt spik tu wʌn əˈnʌðər ænd wɛr ˈivən ðə moʊst ˈtrɪviəl əv ˈɪʃuz hæv ˈsʌmwʌn ˈfaɪtɪŋ boʊθ ˈpæʃənətli fɔr ɪt ænd əˈɡɛnst ɪt, ɪts nɑt ˈnɔrməl./",
+        "zh": "所以我们生活的这个世界，在这个世界里，每一场对话都有可能演变成争吵，我们的政客无法彼此交谈，甚至连最琐碎的问题都有人充满激情地支持或反对，这很不正常。",
+        "highlights": [
+          {
+            "text": "devolve into",
+            "key": "演变成（负面）",
+            "chip": "orange"
+          },
+          {
+            "text": "trivial",
+            "key": "琐碎的",
+            "chip": "orange"
+          },
+          {
+            "text": "passionately",
+            "key": "充满激情地",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 64.96,
+        "end": 74.92,
+        "speaker": "Speaker",
+        "en": "Pew Research did a study of 10,000 American adults, and they found that at this moment, we are more polarized, we are more divided, than we ever have been in history.",
+        "ipa": "/pju rɪˈsɜrʧ dɪd ə ˈstʌdi əv ˈtɛn ˈθaʊzənd əˈmɛrɪkən əˈdʌlts, ænd ðeɪ faʊnd ðæt æt ðɪs ˈmoʊmənt, wi ɑr mɔr ˈpoʊləˌraɪzd, wi ɑr mɔr dɪˈvaɪdɪd, ðæn wi ˈɛvər hæv bin ɪn ˈhɪstəri./",
+        "zh": "皮尤研究中心对 10,000 名美国成年人进行了一项研究，他们发现此刻我们更加两极分化，更加分裂，比历史上任何时候都要严重。",
+        "highlights": [
+          {
+            "text": "polarized",
+            "key": "两极分化的",
+            "chip": "orange"
+          },
+          {
+            "text": "than we ever have been",
+            "key": "比以往任何时候",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 74.96,
+        "end": 78.72,
+        "speaker": "Speaker",
+        "en": "We're less likely to compromise, which means we're not listening to each other.",
+        "ipa": "/wɪr lɛs ˈlaɪkli tu ˈkɑmprəˌmaɪz, wɪʧ minz wɪr nɑt ˈlɪsənɪŋ tu iʧ ˈʌðər./",
+        "zh": "我们不太愿意妥协，这意味着我们没有在倾听彼此。",
+        "highlights": [
+          {
+            "text": "compromise",
+            "key": "妥协",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 78.76,
+        "end": 86.02,
+        "speaker": "Speaker",
+        "en": "And we make decisions about where to live, who to marry and even who our friends are going to be, based on what we already believe.",
+        "ipa": "/ænd wi meɪk dɪˈɪʒənz əˈbaʊt wɛr tu lɪv, hu tu ˈmɛri ænd ˈivən hu ˈaʊər frɛndz ɑr ˈɡoʊɪŋ tu bi, beɪst ɑn wʌt wi ɔlˈrɛdi bɪˈliv./",
+        "zh": "我们基于自己已有的信仰来决定住在哪里、和谁结婚，甚至谁会成为我们的朋友。",
+        "highlights": [
+          {
+            "text": "based on",
+            "key": "基于",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 86.06,
+        "end": 89.02,
+        "speaker": "Speaker",
+        "en": "Again, that means we're not listening to each other.",
+        "ipa": "/əˈɡɛn, ðæt minz wɪr nɑt ˈlɪsənɪŋ tu iʧ ˈʌðər./",
+        "zh": "再说一次，这意味着我们没有在倾听彼此。",
+        "highlights": [
+          {
+            "text": "Again",
+            "key": "重申/再说一次",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 89.06,
+        "end": 95.09,
+        "speaker": "Speaker",
+        "en": "A conversation requires a balance between talking and listening, and somewhere along the way, we lost that balance.",
+        "ipa": "/ə ˌkɑnvərˈseɪʃən rɪˈkwaɪərz ə ˈbæləns bɪˈtwin ˈtɔkɪŋ ænd ˈlɪsənɪŋ, ænd ˈsʌmˌwɛr əˈlɔŋ ðə weɪ, wi lɔst ðæt ˈbæləns./",
+        "zh": "对话需要说话和倾听之间的平衡，而在某个过程中，我们失去了这种平衡。",
+        "highlights": [
+          {
+            "text": "along the way",
+            "key": "在过程中",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 95.13,
+        "end": 96.99,
+        "speaker": "Speaker",
+        "en": "Now, part of that is due to technology.",
+        "ipa": "/naʊ, pɑrt əv ðæt ɪz du tu tɛkˈnɑləʤi./",
+        "zh": "现在，部分原因是科技。",
+        "highlights": [
+          {
+            "text": "due to",
+            "key": "由于",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 97.03,
+        "end": 102.29,
+        "speaker": "Speaker",
+        "en": "The smartphones that you all either have in your hands or close enough that you could grab them really quickly.",
+        "ipa": "/ðə ˈsmɑrtˌfoʊnz ðæt ju ɔl ˈiðər hæv ɪn jʊər hændz ɔr kloʊs ɪˈnʌf ðæt ju kʊd ɡræb ðɛm ˈrɪli ˈkwɪkli./",
+        "zh": "你们手中拿着的，或者放在触手可及之处的智能手机。",
+        "highlights": [
+          {
+            "text": "close enough",
+            "key": "足够近",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 102.33,
+        "end": 108.52,
+        "speaker": "Speaker",
+        "en": "According to Pew Research, about a third of American teenagers send more than a hundred texts a day.",
+        "ipa": "/əˈkɔrdɪŋ tu pju rɪˈsɜrʧ, əˈbaʊt ə θɜrd əv əˈmɛrɪkən ˈtinˌeɪʤərz sɛnd mɔr ðæn ə ˈhʌndrəd tɛksts ə deɪ./",
+        "zh": "据皮尤研究中心统计，约三分之一的美国青少年每天发送超过一百条短信。",
+        "highlights": [
+          {
+            "text": "According to",
+            "key": "根据",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 108.56,
+        "end": 115.23,
+        "speaker": "Speaker",
+        "en": "And many of them, almost most of them, are more likely to text their friends than they are to talk to them face to face.",
+        "ipa": "/ænd ˈmɛni əv ðɛm, ˈɔlˌmoʊst moʊst əv ðɛm, ɑr mɔr ˈlaɪkli tu tɛkst ðɛr frɛndz ðæn ðeɪ ɑr tu tɔk tu ðɛm feɪs tu feɪs./",
+        "zh": "他们中的许多人，几乎是大多数人，更倾向于给朋友发短信，而不是面对面交谈。",
+        "highlights": [
+          {
+            "text": "face to face",
+            "key": "面对面",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 116.16,
+        "end": 118.12,
+        "speaker": "Speaker",
+        "en": "There's this great piece in The Atlantic.",
+        "ipa": "/ðɛrz ðɪs ɡreɪt pis ɪn ði ætˈlæntɪk./",
+        "zh": "《大西洋月刊》上有一篇很棒的文章。",
+        "highlights": [
+          {
+            "text": "piece",
+            "key": "文章/作品",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "start": 118.16,
+        "end": 120.99,
+        "speaker": "Speaker",
+        "en": "It was written by a high school teacher named Paul Barnwell.",
+        "ipa": "/ɪt wʌz ˈrɪtən baɪ ə haɪ skul ˈtiʧər neɪmd pɔl ˈbɑrnˌwɛl./",
+        "zh": "它是由一位名叫保罗·巴恩韦尔的高中老师写的。",
+        "highlights": [
+          {
+            "text": "high school teacher",
+            "key": "高中老师",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 121.03,
+        "end": 123.16,
+        "speaker": "Speaker",
+        "en": "And he gave his kids a communication project.",
+        "ipa": "/ænd hi ɡeɪv hɪz kɪdz ə kəˌmjunɪˈkeɪʃən ˈprɑˌʤɛkt./",
+        "zh": "他给他的学生布置了一个交流项目。",
+        "highlights": [
+          {
+            "text": "communication project",
+            "key": "交流项目",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "start": 123.2,
+        "end": 126.92,
+        "speaker": "Speaker",
+        "en": "He wanted to teach them how to speak on a specific subject without using notes.",
+        "ipa": "/hi ˈwɑntɪd tu tiʧ ðɛm haʊ tu spik ɑn ə spəˈsɪfɪk ˈsʌbʤɪkt wɪˈθaʊt ˈjuzɪŋ noʊts./",
+        "zh": "他想教他们如何在不使用笔记的情况下就特定主题进行演讲。",
+        "highlights": [
+          {
+            "text": "specific subject",
+            "key": "特定主题",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "start": 126.96,
+        "end": 139.49,
+        "speaker": "Speaker",
+        "en": "And he said this: “I came to realize...” \"I came to realize that conversational competence might be the single most overlooked skill we fail to teach.",
+        "ipa": "/ænd hi sɛd ðɪs: “aɪ keɪm tu ˈriəˌlaɪz...” (ˈlæftər) \"aɪ keɪm tu ˈriəˌlaɪz ðæt ˌkɑnvərˈseɪʃənəl ˈkɑmpətəns maɪt bi ðə ˈsɪŋɡəl moʊst ˈoʊvərˌlʊkt skɪl wi feɪl tu tiʧ./",
+        "zh": "他说：“我意识到”“我意识到，对话能力可能是我们最容易忽视的、没能教给学生的技能。",
+        "highlights": [
+          {
+            "text": "came to realize",
+            "key": "开始意识到",
+            "chip": "indigo"
+          },
+          {
+            "text": "conversational competence",
+            "key": "对话能力",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "start": 139.53,
+        "end": 148.29,
+        "speaker": "Speaker",
+        "en": "Kids spend hours each day engaging with ideas and each other through screens, but rarely do they have an opportunity to hone their interpersonal communications skills.",
+        "ipa": "/kɪdz spɛnd ˈaʊərz iʧ deɪ ɛnˈɡeɪʤɪŋ wɪð aɪˈdiəz ænd iʧ ˈʌðər θru skrinz, bʌt ˈrɛrli du ðeɪ hæv ən ˌɑpərˈtunɪti tu hoʊn ðɛr ˌɪntərˈpɜrsənəl kəˌmjunɪˈkeɪʃənz skɪlz./",
+        "zh": "孩子们每天花几个小时通过屏幕与观点和彼此互动，但他们很少有机会去磨练他们的人际沟通技巧。",
+        "highlights": [
+          {
+            "text": "engaging with",
+            "key": "与...互动/接触",
+            "chip": "indigo"
+          },
+          {
+            "text": "hone",
+            "key": "磨练",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "start": 148.33,
+        "end": 159.02,
+        "speaker": "Speaker",
+        "en": "It might sound like a funny question, but we have to ask ourselves: Is there any 21st-century skill more important than being able to sustain coherent, confident conversation?\"",
+        "ipa": "/ɪt maɪt saʊnd laɪk ə ˈfʌni ˈkwɛsʧən, bʌt wi hæv tu æsk ˈaʊərˌsɛlvz: ɪz ðɛr ˈɛni ˈtwɛnti-fɜrst-ˈsɛnʧəri skɪl mɔr ɪmˈpɔrtənt ðæn ˈbiɪŋ ˈeɪbəl tu səˈsteɪn koʊˈhɪrənt, ˈkɑnfɪdənt ˌkɑnvərˈseɪʃən?\"/",
+        "zh": "这听起来可能是一个有趣的问题，但我们必须问自己：有什么 21 世纪的技能比能够维持连贯、自信的对话更重要吗？\"",
+        "highlights": [
+          {
+            "text": "ask ourselves",
+            "key": "问问自己",
+            "chip": "pink"
+          },
+          {
+            "text": "sustain",
+            "key": "维持",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "start": 159.06,
+        "end": 168.56,
+        "speaker": "Speaker",
+        "en": "Now, I make my living talking to people: Nobel Prize winners, truck drivers, billionaires, kindergarten teachers, heads of state, plumbers.",
+        "ipa": "/naʊ, aɪ meɪk maɪ ˈlɪvɪŋ ˈtɔkɪŋ tu ˈpipəl: noʊˈbɛl praɪz ˈwɪnərz, trʌk ˈdraɪvərz, ˈbɪljəˌnɛrz, ˈkɪndərˌɡɑrtən ˈtiʧərz, hɛdz əv steɪt, ˈplʌmərz./",
+        "zh": "现在，我靠与人交谈为生：诺贝尔奖得主、卡车司机、亿万富翁、幼儿园老师、国家元首、水管工。",
+        "highlights": [
+          {
+            "text": "make my living",
+            "key": "谋生",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "start": 168.63,
+        "end": 170.03,
+        "speaker": "Speaker",
+        "en": "I talk to people that I like.",
+        "ipa": "/aɪ tɔk tu ˈpipəl ðæt aɪ laɪk./",
+        "zh": "我和我喜欢的人交谈。",
+        "highlights": [
+          {
+            "text": "talk to",
+            "key": "与...交谈",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "start": 170.07,
+        "end": 171.79,
+        "speaker": "Speaker",
+        "en": "I talk to people that I don’t like.",
+        "ipa": "/aɪ tɔk tu ˈpipəl ðæt aɪ doʊnt laɪk./",
+        "zh": "我也和我不喜欢的人交谈。",
+        "highlights": []
+      },
+      {
+        "id": 26,
+        "start": 171.83,
+        "end": 175.59,
+        "speaker": "Speaker",
+        "en": "I talk to some people that I disagree with deeply on a personal level.",
+        "ipa": "/aɪ tɔk tu sʌm ˈpipəl ðæt aɪ ˌdɪsəˈɡri wɪð ˈdipli ɑn ə ˈpɜrsənəl ˈlɛvəl./",
+        "zh": "我和一些在个人层面上深感不合的人交谈。",
+        "highlights": [
+          {
+            "text": "disagree with",
+            "key": "不同意/有分歧",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "start": 175.63,
+        "end": 178.39,
+        "speaker": "Speaker",
+        "en": "But I still have a great conversation with them.",
+        "ipa": "/bʌt aɪ stɪl hæv ə ɡreɪt ˌkɑnvərˈseɪʃən wɪð ðɛm./",
+        "zh": "但我仍然能和他们进行很好的对话。",
+        "highlights": [
+          {
+            "text": "great conversation",
+            "key": "很棒的对话",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "start": 178.43,
+        "end": 183.73,
+        "speaker": "Speaker",
+        "en": "So I'd like to spend the next 10 minutes or so teaching you how to talk and how to listen.",
+        "ipa": "/soʊ aɪd laɪk tu spɛnd ðə nɛkst 10 ˈmɪnɪts ɔr soʊ ˈtiʧɪŋ ju haʊ tu tɔk ænd haʊ tu ˈlɪsən./",
+        "zh": "所以我想花接下来的 10 分钟左右教你们如何交谈和如何倾听。",
+        "highlights": [
+          {
+            "text": "or so",
+            "key": "左右",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "start": 184.8,
+        "end": 200.96,
+        "speaker": "Speaker",
+        "en": "Many of you have already heard a lot of advice on this, things like look the person in the eye, think of interesting topics to discuss in advance, look, nod and smile to show that you're paying attention, repeat back what you just heard or summarize it.",
+        "ipa": "/ˈmɛni əv ju həv ɔlˈrɛdi hɜrd ə lɑt əv ædˈvaɪs ɑn ðɪs, θɪŋz laɪk lʊk ðə ˈpɜrsən ɪn ði aɪ, θɪŋk əv ˈɪntrəstɪŋ ˈtɑpɪks tu dɪˈskʌs ɪn ædˈvæns, lʊk, nɑd ənd smaɪl tu ʃoʊ ðæt jʊr ˈpeɪɪŋ əˈtɛnʃən, rɪˈpit bæk wʌt ju ʤʌst hɜrd ɔr ˈsʌməˌraɪz ɪt./",
+        "zh": "你们很多人可能已经听过很多关于这方面的建议了，比如直视对方的眼睛，提前想好有趣的话题去讨论，看着对方、点头并微笑着表现出你在专注听，复述你刚刚听到的话或者总结一下。",
+        "highlights": [
+          {
+            "text": "advice",
+            "key": "建议",
+            "chip": "orange"
+          },
+          {
+            "text": "in advance",
+            "key": "提前",
+            "chip": "indigo"
+          },
+          {
+            "text": "paying attention",
+            "key": "注意，专注",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "start": 201.0,
+        "end": 202.72,
+        "speaker": "Speaker",
+        "en": "So I want you to forget all of that.",
+        "ipa": "/soʊ aɪ wɑnt ju tu fərˈɡɛt ɔl əv ðæt./",
+        "zh": "所以我希望你们把这些统统忘掉。",
+        "highlights": [
+          {
+            "text": "forget",
+            "key": "忘记",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "start": 202.76,
+        "end": 203.96,
+        "speaker": "Speaker",
+        "en": "It is crap.",
+        "ipa": "/ɪt ɪz kræp./",
+        "zh": "这都是废话。",
+        "highlights": [
+          {
+            "text": "crap",
+            "key": "废话，垃圾",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "start": 204.0,
+        "end": 214.96,
+        "speaker": "Speaker",
+        "en": "There is no reason to learn how to show you're paying attention if you are in fact paying attention.",
+        "ipa": "/(ˈlæftər) ðɛr ɪz noʊ ˈrizən tu lɜrn haʊ tu ʃoʊ jʊr ˈpeɪɪŋ əˈtɛnʃən ɪf ju ɑr ɪn fækt ˈpeɪɪŋ əˈtɛnʃən./",
+        "zh": "如果你本来就在专心听，根本没必要去学怎么表现得在专心听。如果你确实在专心听的话。",
+        "highlights": [
+          {
+            "text": "no reason to",
+            "key": "没有理由去",
+            "chip": "indigo"
+          },
+          {
+            "text": "in fact",
+            "key": "事实上",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "start": 215.0,
+        "end": 226.39,
+        "speaker": "Speaker",
+        "en": "Now, I actually use the exact same skills as a professional interviewer that I do in regular life.",
+        "ipa": "/(ˈlæftər) (əˈplɔz) naʊ, aɪ ˈæktʃuəli juz ði ɪɡˈzækt seɪm skɪlz æz ə prəˈfɛʃənəl ˈɪntəˌvjuər ðæt aɪ du ɪn ˈrɛɡjələr laɪf./",
+        "zh": "其实，我作为一个专业采访者，所运用的技巧和我在日常生活中用的是完全一样的。",
+        "highlights": [
+          {
+            "text": "exact same",
+            "key": "完全相同的",
+            "chip": "pink"
+          },
+          {
+            "text": "regular life",
+            "key": "日常生活",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "start": 226.43,
+        "end": 233.72,
+        "speaker": "Speaker",
+        "en": "So, I'm going to teach you how to interview people, and that's actually going to help you learn how to be better conversationalists.",
+        "ipa": "/soʊ, aɪm ˈɡoʊɪŋ tu tiːtʃ ju haʊ tu ˈɪntəˌvju ˈpipəl, ənd ðæts ˈæktʃuəli ˈɡoʊɪŋ tu hɛlp ju lɜrn haʊ tu bi ˈbɛtər ˌkɑnvərˈseɪʃənəlɪsts./",
+        "zh": "所以，我要教你们如何去采访别人，这其实会帮你们学会如何成为更好的对话者。",
+        "highlights": [
+          {
+            "text": "conversationalists",
+            "key": "擅长对话的人",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "start": 233.76,
+        "end": 240.79,
+        "speaker": "Speaker",
+        "en": "Learn to have a conversation without wasting your time, without getting bored, and, please God, without offending anybody.",
+        "ipa": "/lɜrn tu hæv ə ˌkɑnvərˈseɪʃən wɪˈaʊt ˈweɪstɪŋ jʊər taɪm, wɪˈaʊt ˈɡɛtɪŋ bɔrd, ənd, pliz ɡɑd, wɪˈaʊt əˈfɛndɪŋ ˈɛniˌbɑdi./",
+        "zh": "学会进行一场对话，既不浪费时间，又不会感到无聊，而且——老天保佑——不会冒犯任何人。",
+        "highlights": [
+          {
+            "text": "without wasting",
+            "key": "不浪费",
+            "chip": "indigo"
+          },
+          {
+            "text": "offending",
+            "key": "冒犯",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "start": 240.83,
+        "end": 243.02,
+        "speaker": "Speaker",
+        "en": "We've all had really great conversations.",
+        "ipa": "/wiv ɔl hæd ˈrɪli ɡreɪt ˌkɑnvərˈseɪʃənz./",
+        "zh": "我们都经历过非常棒的对话。",
+        "highlights": [
+          {
+            "text": "great conversations",
+            "key": "精彩的对话",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "start": 243.06,
+        "end": 244.1,
+        "speaker": "Speaker",
+        "en": "We've had them before.",
+        "ipa": "/wiv hæd ðɛm bɪˈfɔr./",
+        "zh": "我们以前有过。",
+        "highlights": [
+          {
+            "text": "before",
+            "key": "以前",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "start": 244.14,
+        "end": 245.22,
+        "speaker": "Speaker",
+        "en": "We know what it's like.",
+        "ipa": "/wi noʊ wʌt ɪts laɪk./",
+        "zh": "我们知道那是什么感觉。",
+        "highlights": [
+          {
+            "text": "what it's like",
+            "key": "……是怎样的",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "start": 245.26,
+        "end": 253.56,
+        "speaker": "Speaker",
+        "en": "The kind of conversation where you walk away feeling engaged and inspired, or where you feel like you've made a real connection or you've been perfectly understood.",
+        "ipa": "/ðə kaɪnd əv ˌkɑnvərˈseɪʃən wɛr ju wɔk əˈweɪ ˈfilɪŋ ɪnˈɡeɪʤd ənd ɪnˈspaɪərd, ɔr wɛr ju fil laɪk ðiv meɪd ə riəl kəˈnɛkʃən ɔr juv bin ˈpɜrfɪktli ˌʌndərˈstʊd./",
+        "zh": "那种让你离开时感到投入且受到启发，或者让你觉得你们建立了真正的连接的对话，或者觉得自己被完全理解了。",
+        "highlights": [
+          {
+            "text": "engaged",
+            "key": "投入的",
+            "chip": "orange"
+          },
+          {
+            "text": "inspired",
+            "key": "受到启发的",
+            "chip": "orange"
+          },
+          {
+            "text": "perfectly understood",
+            "key": "被完全理解",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "start": 253.6,
+        "end": 258.09,
+        "speaker": "Speaker",
+        "en": "There is no reason why most of your interactions can't be like that.",
+        "ipa": "/ðɛr ɪz noʊ ˈrizən waɪ moʊst əv jʊər ˌɪntərˈækʃənz kænt bi laɪk ðæt./",
+        "zh": "没有任何理由让你的大部分互动不能变成那样。",
+        "highlights": [
+          {
+            "text": "interactions",
+            "key": "互动",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "start": 258.13,
+        "end": 259.28,
+        "speaker": "Speaker",
+        "en": "So I have 10 basic rules.",
+        "ipa": "/soʊ aɪ hæv tɛn ˈbeɪsɪk rulz./",
+        "zh": "所以我总结了10条基本规则。",
+        "highlights": [
+          {
+            "text": "basic rules",
+            "key": "基本规则",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "start": 259.32,
+        "end": 267.82,
+        "speaker": "Speaker",
+        "en": "I'm going to walk you through all of them, but honestly, if you just choose one of them and master it, you'll already enjoy better conversations.",
+        "ipa": "/aɪm ˈɡoʊɪŋ tu wɔk ju θru ɔl əv ðɛm, bət ˈɑnstli, ɪf ju ʤʌst ʧuz wʌn əv ðɛm ənd ˈmæstər ɪt, jul ɔlˈrɛdi ɪnˈʤɔɪ ˈbɛtər ˌkɑnvərˈseɪʃənz./",
+        "zh": "我会带大家过一遍所有的规则，但说实话，如果你只要挑出其中一条并掌握它，你就能享受到更好的对话了。",
+        "highlights": [
+          {
+            "text": "master",
+            "key": "掌握",
+            "chip": "orange"
+          },
+          {
+            "text": "enjoy",
+            "key": "享受",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "start": 267.86,
+        "end": 270.09,
+        "speaker": "Speaker",
+        "en": "Number one: Don't multitask.",
+        "ipa": "/ˈnʌmbər wʌn: doʊnt ˈmʌltiˌtæsk./",
+        "zh": "第一条：不要分心多用（不要同时做多件事）。",
+        "highlights": [
+          {
+            "text": "multitask",
+            "key": "多任务处理，同时做多事",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "start": 270.13,
+        "end": 275.16,
+        "speaker": "Speaker",
+        "en": "And I don't mean just set down your cell phone or your tablet or your car keys or whatever is in your hand.",
+        "ipa": "/ænd aɪ doʊnt min ʤʌst sɛt daʊn jʊər sɛl foʊn ɔr jʊər ˈtæblət ɔr jʊər kɑr kiz ɔr wʌtˈɛvər ɪz ɪn jʊər hænd./",
+        "zh": "我指的不仅仅是放下你的手机、平板、车钥匙或者手里拿的任何东西。",
+        "highlights": [
+          {
+            "text": "set down",
+            "key": "放下",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "start": 275.2,
+        "end": 277.09,
+        "speaker": "Speaker",
+        "en": "I mean, be present.",
+        "ipa": "/aɪ min, bi ˈprɛzənt./",
+        "zh": "我的意思是，专注于当下。",
+        "highlights": [
+          {
+            "text": "be present",
+            "key": "活在当下，注意力集中",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "start": 277.13,
+        "end": 279.36,
+        "speaker": "Speaker",
+        "en": "Be in that moment.",
+        "ipa": "/bi ɪn ðæt ˈmoʊmənt./",
+        "zh": "融入那个时刻。",
+        "highlights": [
+          {
+            "text": "in that moment",
+            "key": "在那个时刻",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "start": 279.4,
+        "end": 281.99,
+        "speaker": "Speaker",
+        "en": "Don't think about your argument you had with your boss.",
+        "ipa": "/doʊnt θɪŋk əˈbaʊt jʊər ˈɑrɡjəmənt ju hæd wɪd jʊər bɑs./",
+        "zh": "不要去想你和老板吵的那次架。",
+        "highlights": [
+          {
+            "text": "argument",
+            "key": "争吵，争论",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "start": 282.03,
+        "end": 284.62,
+        "speaker": "Speaker",
+        "en": "Don't think about what you're going to have for dinner.",
+        "ipa": "/doʊnt θɪŋk əˈbaʊt wʌt jʊr ˈɡoʊɪŋ tu hæv fɔr ˈdɪnər./",
+        "zh": "不要去想你晚餐打算吃什么。",
+        "highlights": [
+          {
+            "text": "for dinner",
+            "key": "作为晚餐",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "start": 284.66,
+        "end": 290.29,
+        "speaker": "Speaker",
+        "en": "If you want to get out of the conversation, get out of the conversation, but don't be half in it and half out of it.",
+        "ipa": "/ɪf ju wɑnt tu ɡɛt aʊt əv ðə ˌkɑnvərˈseɪʃən, ɡɛt aʊt əv ðə ˌkɑnvərˈseɪʃən, bət doʊnt bi hæf ɪn ɪt ənd hæf aʊt əv ɪt./",
+        "zh": "如果你想结束对话，那就离开对话，但不要心不在焉、半心半意。",
+        "highlights": [
+          {
+            "text": "get out of",
+            "key": "离开，退出",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "start": 290.33,
+        "end": 292.89,
+        "speaker": "Speaker",
+        "en": "Number two: Don't pontificate.",
+        "ipa": "/ˈnʌmbər tu: doʊnt pɑnˈtɪfəˌkeɪt./",
+        "zh": "第二条：不要高谈阔论、好为人师。",
+        "highlights": [
+          {
+            "text": "pontificate",
+            "key": "自以为是地发表高见",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "start": 292.93,
+        "end": 302.52,
+        "speaker": "Speaker",
+        "en": "If you want to state your opinion without any opportunity for response or argument or pushback or growth, write a blog.",
+        "ipa": "/ɪf ju wɑnt tu steɪt jʊər əˈpɪnjən wɪˈaʊt ˈɛni ˌɑpərˈtunəti fɔr rɪˈspɑns ɔr ˈɑrɡjəmənt ɔr ˈpʊʃˌbæk ɔr ɡroʊθ, raɪt ə blɑɡ./",
+        "zh": "如果你只想表达自己的观点，却不给别人任何回应、反驳、推翻或成长的机会，那就去写博客吧。",
+        "highlights": [
+          {
+            "text": "state your opinion",
+            "key": "表达观点",
+            "chip": "indigo"
+          },
+          {
+            "text": "pushback",
+            "key": "反弹，反对意见",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "start": 302.56,
+        "end": 310.79,
+        "speaker": "Speaker",
+        "en": "Now, there's a really good reason why I don't allow pundits on my show: Because they're really boring.",
+        "ipa": "/(ˈlæftər) naʊ, ðɛrz ə ˈrɪli ɡʊd ˈrizən waɪ aɪ doʊnt əˈlaʊ ˈpʌndɪts ɑn maɪ ʃoʊ: bɪˈkəz ðɛr ˈrɪli ˈbɔrɪŋ./",
+        "zh": "现在，我节目里不允许名嘴或评论员上场，这其实有个很好的理由：因为他们真的很无聊。",
+        "highlights": [
+          {
+            "text": "pundits",
+            "key": "专家权威，评论员",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "start": 310.83,
+        "end": 314.69,
+        "speaker": "Speaker",
+        "en": "If they're conservative, they're going to hate Obama and food stamps and abortion.",
+        "ipa": "/ɪf ðɛr kənˈsɜrvətɪv, ðɛr ˈɡoʊɪŋ tu heɪt oʊˈbɑmə ənd fud stæmps ənd əˈbɔrʃən./",
+        "zh": "如果他们是保守派，他们就会痛恨奥巴马、食品券和堕胎。",
+        "highlights": [
+          {
+            "text": "conservative",
+            "key": "保守的，保守派",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "start": 314.73,
+        "end": 318.92,
+        "speaker": "Speaker",
+        "en": "If they're liberal, they're going to hate big banks and oil corporations and Dick Cheney.",
+        "ipa": "/ɪf ðɛr ˈlɪbərəl, ðɛr ˈɡoʊɪŋ tu heɪt bɪɡ bæŋks ənd ɔɪl ˌkɔrpəˈreɪʃənz ənd dɪk ˈʧeɪni./",
+        "zh": "如果他们是自由派，他们就会痛恨大银行、石油公司和迪克·切尼。",
+        "highlights": [
+          {
+            "text": "liberal",
+            "key": "自由派的，自由主义者",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "start": 318.96,
+        "end": 320.19,
+        "speaker": "Speaker",
+        "en": "Totally predictable.",
+        "ipa": "/ˈtoʊtəli prɪˈdɪktəbəl./",
+        "zh": "完全可以预料。",
+        "highlights": [
+          {
+            "text": "predictable",
+            "key": "可预测的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "start": 320.23,
+        "end": 321.92,
+        "speaker": "Speaker",
+        "en": "And you don't want to be like that.",
+        "ipa": "/ænd ju doʊnt wɑnt tu bi laɪk ðæt./",
+        "zh": "你可不想变成那样。",
+        "highlights": [
+          {
+            "text": "be like that",
+            "key": "变成那样",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "start": 321.96,
+        "end": 327.49,
+        "speaker": "Speaker",
+        "en": "You need to enter every conversation assuming that you have something to learn.",
+        "ipa": "/ju nid tu ˈɛntər ˈɛvri ˌkɑnvərˈseɪʃən əˈsumɪŋ ðæt ju hæv ˈsʌmθɪŋ tu lɜrn./",
+        "zh": "你进入每一场对话时，都应该抱着“自己能从中学到东西”的心态。",
+        "highlights": [
+          {
+            "text": "assuming that",
+            "key": "假设，怀着……的心态",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "start": 327.53,
+        "end": 328.76,
+        "speaker": "Speaker",
+        "en": "The famed therapist M. Scott Peck said that true listening requires a setting aside of oneself.",
+        "ipa": "/ðə feɪmd ˈθɛrəpɪst ɛm skɑt pɛk sɛd ðæt tru ˈlɪsənɪŋ rɪˈkwaɪərz ə ˈsɛtɪŋ əˈsaɪd ʌv wʌnˈsɛlf/",
+        "zh": "著名心理治疗师 M. 斯科特·派克曾说，真正的倾听需要放下自我。",
+        "highlights": [
+          {
+            "text": "setting aside",
+            "key": "放下，搁置",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "start": 328.8,
+        "end": 334.09,
+        "speaker": "Speaker",
+        "en": "And sometimes that means setting aside your personal opinion.",
+        "ipa": "/ænd ˈsʌmtaɪmz ðæt minz ˈsɛtɪŋ əˈsaɪd jʊər ˈpɜrsənəl əˈpɪnjən/",
+        "zh": "有时这意味着要放下你个人的观点。",
+        "highlights": [
+          {
+            "text": "personal opinion",
+            "key": "个人观点",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "start": 334.13,
+        "end": 337.43,
+        "speaker": "Speaker",
+        "en": "He said that sensing this acceptance, the speaker will become less and less vulnerable and more and more likely to open up the inner recesses of his or her mind to the listener.",
+        "ipa": "/hi sɛd ðæt ˈsɛnsɪŋ ðɪs ækˈsɛptəns, ðə ˈspikər wɪl bɪˈkʌm lɛs ænd lɛs ˈvʌlnərəbəl ænd mɔr ænd mɔr ˈlaɪkli tu ˈoʊpən ʌp ði ˈɪnər ˈrisɛsəz ʌv hɪz ɔr hɜr maɪnd tu ðə ˈlɪsənər/",
+        "zh": "他说，感受到这种接纳，说话者会变得越来越不设防，也更愿意向倾听者敞开心扉。",
+        "highlights": [
+          {
+            "text": "open up",
+            "key": "敞开心扉",
+            "chip": "pink"
+          },
+          {
+            "text": "vulnerable",
+            "key": "脆弱的，易受伤害的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "start": 338.2,
+        "end": 346.62,
+        "speaker": "Speaker",
+        "en": "Again, assume that you have something to learn.",
+        "ipa": "/əˈɡɛn, əˈsum ðæt ju hæv ˈsʌmθɪŋ tu lɜrn/",
+        "zh": "再说一次，假设你总能从别人身上学到东西。",
+        "highlights": [
+          {
+            "text": "assume",
+            "key": "假设，假定",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "start": 346.66,
+        "end": 349.32,
+        "speaker": "Speaker",
+        "en": "Bill Nye: \"Everyone you will ever meet knows something that you don't.\"",
+        "ipa": "/bɪl naɪ: ˈɛvriˌwʌn ju wɪl ˈɛvər mit noʊz ˈsʌmθɪŋ ðæt ju doʊnt/",
+        "zh": "比尔·奈说：“你遇到的每一个人，都知道一些你所不知道的事情。”",
+        "highlights": [
+          {
+            "text": "Everyone you will ever meet",
+            "key": "你遇到的每一个人",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "start": 349.36,
+        "end": 352.13,
+        "speaker": "Speaker",
+        "en": "I put it this way: Everybody is an expert in something.",
+        "ipa": "/aɪ pʊt ɪt ðɪs weɪ: ˈɛvriˌbɑdi ɪz ən ˈɛkspɜrt ɪn ˈsʌmθɪŋ/",
+        "zh": "我是这样理解的：每个人在某方面都是专家。",
+        "highlights": [
+          {
+            "text": "put it this way",
+            "key": "换句话说，我是这样看的",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "start": 352.86,
+        "end": 356.56,
+        "speaker": "Speaker",
+        "en": "Number three: Use open-ended questions.",
+        "ipa": "/ˈnʌmbər θri: juz ˈoʊpən-ˈɛndəd ˈkwɛstʃənz/",
+        "zh": "第三点：使用开放式问题。",
+        "highlights": [
+          {
+            "text": "open-ended questions",
+            "key": "开放式问题",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "start": 357.23,
+        "end": 361.76,
+        "speaker": "Speaker",
+        "en": "In this case, take a cue from journalists.",
+        "ipa": "/ɪn ðɪs keɪs, teɪk ə kju frʌm ˈdʒɜrnəlɪsts/",
+        "zh": "在这种情况下，可以借鉴一下记者们的做法。",
+        "highlights": [
+          {
+            "text": "take a cue from",
+            "key": "借鉴，从……得到启发",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "start": 363.16,
+        "end": 365.96,
+        "speaker": "Speaker",
+        "en": "Start your questions with who, what, when, where, why or how.",
+        "ipa": "/stɑrt jʊər ˈkwɛstʃənz wɪð hu, wʌt, wɛn, wɛr, waɪ ɔr haʊ/",
+        "zh": "用“谁、什么、何时、何地、为什么或如何”来开始你的提问。",
+        "highlights": [
+          {
+            "text": "Start your questions with",
+            "key": "以……开头提问",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "start": 366.0,
+        "end": 368.02,
+        "speaker": "Speaker",
+        "en": "If you put in a complicated question, you're going to get a simple answer out.",
+        "ipa": "/ɪf ju pʊt ɪn ə ˈkɑmpləˌkeɪtəd ˈkwɛstʃən, jʊr ˈɡoʊɪŋ tu ɡɛt ə ˈsɪmpəl ˈænsər aʊt/",
+        "zh": "如果你问一个复杂的问题，你只会得到一个简单的回答。",
+        "highlights": [
+          {
+            "text": "complicated",
+            "key": "复杂的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "start": 368.06,
+        "end": 371.16,
+        "speaker": "Speaker",
+        "en": "If I ask you, \"Were you terrified?\" you're going to respond to the most powerful word in that sentence, which is \"terrified,\" and the answer is \"Yes, I was\" or \"No, I wasn't.\"",
+        "ipa": "/ɪf aɪ æsk ju, wɜr ju ˈtɛrəˌfaɪd? jʊr ˈɡoʊɪŋ tu rɪˈspɑnd tu ðə moʊst ˈpaʊərfəl wɜrd ɪn ðæt ˈsɛntəns, wɪtʃ ɪz ˈtɛrəˌfaɪd, ænd ði ˈænsər ɪz jɛs, aɪ wʌz ɔr noʊ, aɪ ˈwʌzənt/",
+        "zh": "如果我问你：“你当时害怕吗？”你只会对那句话里最有冲击力的词——“害怕”——做出回应，答案就是“是的，我害怕”或“不，我不害怕”。",
+        "highlights": [
+          {
+            "text": "respond to",
+            "key": "回应",
+            "chip": "indigo"
+          },
+          {
+            "text": "terrified",
+            "key": "极度恐惧的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "start": 371.2,
+        "end": 374.89,
+        "speaker": "Speaker",
+        "en": "\"Were you angry?\" \"Yes, I was very angry.\"",
+        "ipa": "/wɜr ju ˈæŋɡri? jɛs, aɪ wʌz ˈvɛri ˈæŋɡri/",
+        "zh": "“你生气了吗？”“是的，我非常生气。”",
+        "highlights": [
+          {
+            "text": "angry",
+            "key": "生气的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "start": 374.93,
+        "end": 377.22,
+        "speaker": "Speaker",
+        "en": "Let them describe it.",
+        "ipa": "/lɛt ðɛm dɪˈskraɪb ɪt/",
+        "zh": "让他们自己去描述吧。",
+        "highlights": [
+          {
+            "text": "describe",
+            "key": "描述",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 71,
+        "start": 377.26,
+        "end": 383.79,
+        "speaker": "Speaker",
+        "en": "They're the ones that know.",
+        "ipa": "/ðɛr ði wʌnz ðæt noʊ/",
+        "zh": "他们才是最了解情况的人。",
+        "highlights": [
+          {
+            "text": "the ones that know",
+            "key": "知情者",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "start": 383.83,
+        "end": 385.82,
+        "speaker": "Speaker",
+        "en": "Try asking them things like, \"What was that like?\"",
+        "ipa": "/traɪ ˈæskɪŋ ðɛm θɪŋz laɪk, wʌt wʌz ðæt laɪk/",
+        "zh": "试着问他们一些类似“那是什么样的感觉？”的问题。",
+        "highlights": [
+          {
+            "text": "What was that like?",
+            "key": "那是什么样的？（询问感受）",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "start": 385.86,
+        "end": 387.16,
+        "speaker": "Speaker",
+        "en": "\"How did that feel?\"",
+        "ipa": "/haʊ dɪd ðæt fil/",
+        "zh": "“那感觉如何？”",
+        "highlights": [
+          {
+            "text": "How did that feel?",
+            "key": "那感觉如何？",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "start": 387.2,
+        "end": 388.92,
+        "speaker": "Speaker",
+        "en": "Because then they might have to stop for a moment and think about it, and you're going to get a much more interesting response.",
+        "ipa": "/bɪˈkəz ðɛn ðeɪ maɪt hæv tu stɑp fɔr ə ˈmoʊmənt ænd θɪŋk əˈbaʊt ɪt, ænd jʊr ˈɡoʊɪŋ tu ɡɛt ə mʌtʃ mɔr ˈɪntrəstɪŋ rɪˈspɑns/",
+        "zh": "因为这样他们可能需要停顿一下去思考，而你会得到一个更有趣的回答。",
+        "highlights": [
+          {
+            "text": "stop for a moment",
+            "key": "停顿片刻",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "start": 388.96,
+        "end": 391.92,
+        "speaker": "Speaker",
+        "en": "Number four: Go with the flow.",
+        "ipa": "/ˈnʌmbər fɔr: ɡoʊ wɪð ðə floʊ/",
+        "zh": "第四点：顺其自然。",
+        "highlights": [
+          {
+            "text": "Go with the flow",
+            "key": "顺其自然，随遇而安",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "start": 391.96,
+        "end": 393.39,
+        "speaker": "Speaker",
+        "en": "That means thoughts will come into your mind and you need to let them go out of your mind.",
+        "ipa": "/ðæt minz θɔts wɪl kʌm ˈɪntu jʊər maɪnd ænd ju nid tu lɛt ðɛm ɡoʊ aʊt ʌv jʊər maɪnd/",
+        "zh": "这意味着当思绪涌入脑海时，你需要让它们自然流走。",
+        "highlights": [
+          {
+            "text": "come into your mind",
+            "key": "浮现在脑海中",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "start": 393.43,
+        "end": 400.72,
+        "speaker": "Speaker",
+        "en": "We've heard interviews often in which a guest is talking for several minutes and then the host comes back in and asks a question which seems like it comes out of nowhere, or it's already been answered.",
+        "ipa": "/wiv hɜrd ˈɪntərvjuːz ˈɔfən ɪn wɪtʃ ə ɡɛst ɪz ˈtɔkɪŋ fɔr ˈsɛvrəl ˈmɪnəts ænd ðɛn ðə hoʊst kʌmz bæk ɪn ænd æsks ə ˈkwɛstʃən wɪtʃ simz laɪk ɪt kʌmz aʊt ʌv ˈnoʊˌwɛr, ɔr ɪts ɔlˈrɛdi bin ˈænsərd/",
+        "zh": "我们经常听到这样的采访：嘉宾讲了几分钟，然后主持人插话问了一个问题，看起来像是没头没脑冒出来的，或者其实对方已经回答过了。",
+        "highlights": [
+          {
+            "text": "comes out of nowhere",
+            "key": "突然冒出来，没头没脑",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "start": 400.76,
+        "end": 403.06,
+        "speaker": "Speaker",
+        "en": "That means the host probably stopped listening two minutes ago because he thought of this really clever question, and he was just bound and determined to say that.",
+        "ipa": "/ðæt minz ðə hoʊst ˈprɑbəbli stɑpt ˈlɪsənɪŋ tu ˈmɪnəts əˈɡoʊ bɪˈkəz hi θɔt ʌv ðɪs ˈrɪli ˈklɛvər ˈkwɛstʃən, ænd hi wʌz dʒʌst baʊnd ænd dɪˈtɜrmɪnd tu seɪ ðæt/",
+        "zh": "这意味着主持人可能两分钟前就不在听了，因为他想到了一个非常巧妙的问题，并且一心只想把它问出来。",
+        "highlights": [
+          {
+            "text": "bound and determined",
+            "key": "一心想，下定决心",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "start": 403.73,
+        "end": 409.59,
+        "speaker": "Speaker",
+        "en": "And we do the exact same thing.",
+        "ipa": "/ænd wi du ði ɪɡˈzækt seɪm θɪŋ/",
+        "zh": "我们自己也经常做同样的事。",
+        "highlights": [
+          {
+            "text": "exact same thing",
+            "key": "完全一样的事",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "start": 409.63,
+        "end": 416.52,
+        "speaker": "Speaker",
+        "en": "We're sitting there having a conversation with someone, and then we remember that time that we met Hugh Jackman in a coffee shop.",
+        "ipa": "/wʊr ˈsɪtɪŋ ðɛr ˈhævɪŋ ə ˌkɑnvərˈseɪʃən wɪð ˈsʌmˌwʌn, ænd ðɛn wi rɪˈmɛmbər ðæt taɪm ðæt wi mɛt hju ˈdʒækmən ɪn ə ˈkɑfi ʃɑp/",
+        "zh": "我们坐在那儿和人聊天，然后突然想起有次在咖啡店遇见休·杰克曼的事。",
+        "highlights": [
+          {
+            "text": "having a conversation",
+            "key": "进行交谈",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "start": 416.56,
+        "end": 419.96,
+        "speaker": "Speaker",
+        "en": "And we stop listening.",
+        "ipa": "/ˈlæftər ænd wi stɑp ˈlɪsənɪŋ/",
+        "zh": "然后我们就停止倾听了。",
+        "highlights": [
+          {
+            "text": "stop listening",
+            "key": "停止倾听",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "start": 420.0,
+        "end": 426.36,
+        "speaker": "Speaker",
+        "en": "Stories and ideas are going to come to you.",
+        "ipa": "/ˈstɔriz ænd aɪˈdiəz ɑr ˈɡoʊɪŋ tu kʌm tu ju/",
+        "zh": "故事和想法总会涌入你的脑海。",
+        "highlights": [
+          {
+            "text": "come to you",
+            "key": "浮现，来到",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "start": 426.4,
+        "end": 429.39,
+        "speaker": "Speaker",
+        "en": "You need to let them come and let them go.",
+        "ipa": "/ju nid tu lɛt ðɛm kʌm ænd lɛt ðɛm ɡoʊ/",
+        "zh": "你需要让它们来，也要让它们走。",
+        "highlights": [
+          {
+            "text": "let them come and let them go",
+            "key": "顺其自然（让思绪来去自由）",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "start": 429.43,
+        "end": 431.39,
+        "speaker": "Speaker",
+        "en": "Number five: If you don't know, say that you don't know.",
+        "ipa": "/ˈnʌmbər faɪv: ɪf ju doʊnt noʊ, seɪ ðæt ju doʊnt noʊ/",
+        "zh": "第五点：如果你不知道，就说你不知道。",
+        "highlights": [
+          {
+            "text": "say that you don't know",
+            "key": "坦诚自己不知道",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "start": 431.43,
+        "end": 437.52,
+        "speaker": "Speaker",
+        "en": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record, and so they're more careful about what they claim to be an expert in and what they claim to know for sure.",
+        "ipa": "/naʊ, ˈpipəl ɑn ðə ˈreɪdiˌoʊ, əˈpɛʃəli ɑn ɛn-pi-ɑr, ɑr mʌtʃ mɔr əˈwɛr ðæt ðeɪr ˈɡoʊɪŋ ɑn ðə ˈrɛkərd, ænd soʊ ðeɪr mɔr ˈkɛrfəl əˈbaʊt wʌt ðeɪ kleɪm tu bi ən ˈɛkspɜrt ɪn ænd wʌt ðeɪ kleɪm tu noʊ fɔr ʃʊr/",
+        "zh": "在电台工作的人，尤其是 NPR 的人，非常清楚他们是在公开记录中发言，所以他们对于自己声称是专家或确定知道的事情会更加谨慎。",
+        "highlights": [
+          {
+            "text": "on the record",
+            "key": "公开记录，正式发言",
+            "chip": "indigo"
+          },
+          {
+            "text": "know for sure",
+            "key": "确切知道",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "start": 437.56,
+        "end": 440.52,
+        "speaker": "Speaker",
+        "en": "Do that.",
+        "ipa": "/du ðæt/",
+        "zh": "试着这样做吧。",
+        "highlights": [
+          {
+            "text": "Do that",
+            "key": "这样做",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "start": 440.56,
+        "end": 442.59,
+        "speaker": "Speaker",
+        "en": "Stories and ideas are going to come to you.",
+        "ipa": "/ˈstɔriz ənd aɪˈdiəz ər ˈɡuɪŋ tu kʌm tu ju/",
+        "zh": "各种故事和想法会不断涌现到你脑海中。",
+        "highlights": [
+          {
+            "text": "come to you",
+            "key": "come to you",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "start": 442.63,
+        "end": 445.53,
+        "speaker": "Speaker",
+        "en": "You need to let them come and let them go.",
+        "ipa": "/ju nid tu lɛt ðəm kʌm ənd lɛt ðəm ɡo/",
+        "zh": "你需要任由它们来，也任由它们去。",
+        "highlights": [
+          {
+            "text": "let them come",
+            "key": "let come",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "start": 446.06,
+        "end": 449.8,
+        "speaker": "Speaker",
+        "en": "Number five: If you don't know, say that you don't know.",
+        "ipa": "/ˈnʌmbər faɪv: ɪf ju doʊnt noʊ, seɪ ðæt ju doʊnt noʊ/",
+        "zh": "第五点：如果你不知道，就说你不知道。",
+        "highlights": [
+          {
+            "text": "don't know",
+            "key": "don't know",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "start": 450.8,
+        "end": 461.79,
+        "speaker": "Speaker",
+        "en": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record, and so they're more careful about what they claim to be an expert in and what they claim to know for sure.",
+        "ipa": "/naʊ, ˈpipəl ɑn ðə ˈreɪdioʊ, ɪˈspɛʃəli ɑn ɛn-pi-ɑr, ər mʌʧ mɔər əˈwɛr ðæt ðɛr ˈɡuɪŋ ɑn ðə ˈrɛkərd ənd soʊ ðɛr mɔər ˈkɛrfəl əˈbaʊt wʌt ðeɪ kleɪm tu bi ən ˈɛkspərt ɪn ənd wʌt ðeɪ kleɪm tu noʊ fɔr ʃʊr/",
+        "zh": "现在，电台里的人，尤其是NPR（美国国家公共电台）的人，更加清楚他们是在正式表态记录在案的，所以他们对于自己声称是专家的事情，以及确切知道的事情会更加谨慎。",
+        "highlights": [
+          {
+            "text": "on the record",
+            "key": "on the record",
+            "chip": "indigo"
+          },
+          {
+            "text": "for sure",
+            "key": "for sure",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "start": 461.83,
+        "end": 462.33,
+        "speaker": "Speaker",
+        "en": "Do that.",
+        "ipa": "/du ðæt/",
+        "zh": "照着做吧。",
+        "highlights": [
+          {
+            "text": "Do that",
+            "key": "do that",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "start": 462.37,
+        "end": 464.19,
+        "speaker": "Speaker",
+        "en": "Err on the side of caution.",
+        "ipa": "/ɜr ɑn ðə saɪd əv ˈkɔʃən/",
+        "zh": "宁可谨慎过头，也不要冒险。",
+        "highlights": [
+          {
+            "text": "Err on the side of",
+            "key": "宁可偏向于...",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "start": 464.23,
+        "end": 466.0,
+        "speaker": "Speaker",
+        "en": "Talk should not be cheap.",
+        "ipa": "/tɔk ʃʊd nɑt bi tʃip/",
+        "zh": "光说不练假把式。",
+        "highlights": [
+          {
+            "text": "cheap",
+            "key": "cheap",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "start": 466.63,
+        "end": 470.33,
+        "speaker": "Speaker",
+        "en": "Number six: Don't equate your experience with theirs.",
+        "ipa": "/ˈnʌmbər sɪks: doʊnt ɪˈkweɪt jʊər ɪkˈspɪriəns wɪð ðɛrz/",
+        "zh": "第六点：不要把你的经历和别人的等同起来。",
+        "highlights": [
+          {
+            "text": "equate",
+            "key": "等同",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "start": 471.26,
+        "end": 476.92,
+        "speaker": "Speaker",
+        "en": "If they're talking about having lost a family member, don't start talking about the time you lost a family member.",
+        "ipa": "/ɪf ðɛr ˈtɔkɪŋ əˈbaʊt ˈhævɪŋ lɔst ə ˈfæməli ˈmɛmbər, doʊnt stɑrt ˈtɔkɪŋ əˈbaʊt ðə taɪm ju lɔst ə ˈfæməli ˈmɛmbər/",
+        "zh": "如果他们在谈论失去亲人的痛苦，不要立刻开始讲你自己失去亲人的经历。",
+        "highlights": [
+          {
+            "text": "lost a family member",
+            "key": "失去亲人",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "start": 476.96,
+        "end": 482.16,
+        "speaker": "Speaker",
+        "en": "If they're talking about the trouble they're having at work, don't tell them about how much you hate your job.",
+        "ipa": "/ɪf ðɛr ˈtɔkɪŋ əˈbaʊt ðə ˈtrʌbəl ðeɪr ˈhævɪŋ æt wɜrk, doʊnt tɛl ðɛm əˈbaʊt haʊ mʌtʃ ju heɪt jʊər dʒɑb/",
+        "zh": "如果他们在谈论工作上的麻烦，不要跟他们抱怨你有多讨厌自己的工作。",
+        "highlights": [
+          {
+            "text": "trouble",
+            "key": "麻烦",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "start": 482.2,
+        "end": 483.05,
+        "speaker": "Speaker",
+        "en": "It's not the same.",
+        "ipa": "/ɪts nɑt ðə seɪm/",
+        "zh": "这根本不一样。",
+        "highlights": []
+      },
+      {
+        "id": 98,
+        "start": 483.09,
+        "end": 484.12,
+        "speaker": "Speaker",
+        "en": "It is never the same.",
+        "ipa": "/ɪt ɪz ˈnɛvər ðə seɪm/",
+        "zh": "永远都不一样。",
+        "highlights": []
+      },
+      {
+        "id": 99,
+        "start": 484.16,
+        "end": 485.92,
+        "speaker": "Speaker",
+        "en": "All experiences are individual.",
+        "ipa": "/ɔl ɪkˈspɪriənsɪz ɑr ˌɪndəˈvɪdʒuəl/",
+        "zh": "每个人的经历都是独特的。",
+        "highlights": [
+          {
+            "text": "individual",
+            "key": "独特的/个人的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 100,
+        "start": 485.96,
+        "end": 488.63,
+        "speaker": "Speaker",
+        "en": "And, more importantly, it is not about you.",
+        "ipa": "/ænd, mɔr ˈɪmpɔrtəntli, ɪt ɪz nɑt əˈbaʊt ju/",
+        "zh": "而且更重要的是，这并不是关于你自己的事。",
+        "highlights": [
+          {
+            "text": "not about you",
+            "key": "不是关于你的",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "start": 489.13,
+        "end": 494.43,
+        "speaker": "Speaker",
+        "en": "You don't need to take that moment to prove how amazing you are or how much you've suffered.",
+        "ipa": "/ju doʊnt nid tu teɪk ðæt ˈmoʊmənt tu pruv haʊ əˈmeɪzɪŋ ju ɑr ɔr haʊ mʌtʃ juv ˈsʌfərd/",
+        "zh": "你不需要利用那个时刻去证明你有多了不起，或者你受了多少苦。",
+        "highlights": [
+          {
+            "text": "prove",
+            "key": "证明",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "start": 495.13,
+        "end": 499.06,
+        "speaker": "Speaker",
+        "en": "Somebody asked Stephen Hawking once what his IQ was, and he said, \"I have no idea.",
+        "ipa": "/ˈsʌmbɑdi æskt ˈstivən ˈhɔkɪŋ wʌns wʌt hɪz aɪ-kju wʌz, ænd hi sɛd, \"aɪ hæv noʊ aɪˈdiə./",
+        "zh": "有人曾问史蒂芬·霍金他的智商是多少，他说：“我不知道。",
+        "highlights": [
+          {
+            "text": "Somebody",
+            "key": "somebody",
+            "chip": "orange"
+          },
+          {
+            "text": "Stephen",
+            "key": "stephen",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "start": 499.1,
+        "end": 501.19,
+        "speaker": "Speaker",
+        "en": "People who brag about their IQs are losers.\"",
+        "ipa": "/ˈpipəl hu bræg əˈbaʊt ðɛr aɪ-kjuz ɑr ˈluzərz./",
+        "zh": "那些吹嘘自己智商的人都是失败者。”",
+        "highlights": [
+          {
+            "text": "brag about",
+            "key": "吹嘘",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "start": 501.23,
+        "end": 506.43,
+        "speaker": "Speaker",
+        "en": "Conversations are not a promotional opportunity.",
+        "ipa": "/ˈkɑnvərˈseɪʃənz ɑr nɑt ə prəˈmoʊʃənəl ˌɑpərˈtunəti./",
+        "zh": "谈话不是自我推销的机会。",
+        "highlights": [
+          {
+            "text": "promotional opportunity",
+            "key": "推销机会",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "start": 508.56,
+        "end": 512.79,
+        "speaker": "Speaker",
+        "en": "Number seven: Try not to repeat yourself.",
+        "ipa": "/ˈnʌmbər ˈsɛvən traɪ nɑt tu rɪˈpit jʊərˈsɛlf./",
+        "zh": "第七点：尽量不要重复自己说的话。",
+        "highlights": [
+          {
+            "text": "Number",
+            "key": "number",
+            "chip": "orange"
+          },
+          {
+            "text": "seven",
+            "key": "seven",
+            "chip": "pink"
+          },
+          {
+            "text": "repeat yourself",
+            "key": "重复自己",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "start": 512.83,
+        "end": 516.89,
+        "speaker": "Speaker",
+        "en": "It's condescending, and it's really boring, and we tend to do it a lot.",
+        "ipa": "/ɪts ˌkɑndəˈsɛndɪŋ, ænd ɪts ˈrɪli ˈbɔrɪŋ, ænd wi tɛnd tu du ɪt ə lɑt./",
+        "zh": "这显得居高临下，而且真的很无聊，但我们往往经常这样做。",
+        "highlights": [
+          {
+            "text": "condescending",
+            "key": "居高临下的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "start": 516.93,
+        "end": 524.56,
+        "speaker": "Speaker",
+        "en": "Especially in work conversations or in conversations with our kids, we have a point to make, so we just keep rephrasing it over and over.",
+        "ipa": "/əˈpɛʃəli ɪn wɜrk ˌkɑnvərˈseɪʃənz ɔr ɪn ˌkɑnvərˈseɪʃənz wɪð ˈaʊər kɪdz, wi hæv ə pɔɪnt tu meɪk, soʊ wi dʒʌst kip riˈfreɪzɪŋ ɪt ˈoʊvər ænd ˈoʊvər./",
+        "zh": "特别是在工作交流或与孩子谈话时，我们为了表达一个观点，就会不停地换着法子重复。",
+        "highlights": [
+          {
+            "text": "rephrasing",
+            "key": "换个说法",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "start": 525.63,
+        "end": 526.82,
+        "speaker": "Speaker",
+        "en": "Don't do that.",
+        "ipa": "/doʊnt du ðæt./",
+        "zh": "别那样做。",
+        "highlights": []
+      },
+      {
+        "id": 109,
+        "start": 526.86,
+        "end": 529.16,
+        "speaker": "Speaker",
+        "en": "Number eight: Stay out of the weeds.",
+        "ipa": "/ˈnʌmbər eɪt: steɪ aʊt əv ðə widz./",
+        "zh": "第八点：别纠结于细枝末节。",
+        "highlights": [
+          {
+            "text": "Number",
+            "key": "number",
+            "chip": "orange"
+          },
+          {
+            "text": "eight",
+            "key": "eight",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "start": 529.2,
+        "end": 539.09,
+        "speaker": "Speaker",
+        "en": "Frankly, people don't care about the years, the names, the dates, all those details that you're struggling to come up with in your mind.",
+        "ipa": "/ˈfræŋkli, ˈpipəl doʊnt kɛr əˈbaʊt ðə jɪrz, ðə neɪmz, ðə deɪts, ɔl ðoʊz ˈditeɪlz ðæt jʊr ˈstrʌɡəlɪŋ tu kʌm ʌp wɪð ɪn jʊər maɪnd./",
+        "zh": "坦白说，人们并不在乎年份、名字、日期，那些你绞尽脑汁想要想起来的细节。",
+        "highlights": [
+          {
+            "text": "struggling to come up with",
+            "key": "费力想出",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "start": 539.13,
+        "end": 539.89,
+        "speaker": "Speaker",
+        "en": "They don't care.",
+        "ipa": "/ðeɪ doʊnt kɛr./",
+        "zh": "他们不在乎。",
+        "highlights": []
+      },
+      {
+        "id": 112,
+        "start": 539.93,
+        "end": 541.33,
+        "speaker": "Speaker",
+        "en": "What they care about is you.",
+        "ipa": "/wʌt ðeɪ kɛr əˈbaʊt ɪz ju./",
+        "zh": "他们在乎的是你。",
+        "highlights": []
+      },
+      {
+        "id": 113,
+        "start": 541.86,
+        "end": 545.76,
+        "speaker": "Speaker",
+        "en": "They care about what you're like, what you have in common.",
+        "ipa": "/ðeɪ kɛr əˈbaʊt wʌt jʊr laɪk, wʌt ju hæv ɪn ˈkɑmən./",
+        "zh": "他们在乎你是个什么样的人，你们有什么共同点。",
+        "highlights": [
+          {
+            "text": "have in common",
+            "key": "有共同点",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "start": 545.8,
+        "end": 547.32,
+        "speaker": "Speaker",
+        "en": "So forget the details.",
+        "ipa": "/soʊ fərˈɡɛt ðə ˈditeɪlz./",
+        "zh": "所以忘了那些细节吧。",
+        "highlights": [
+          {
+            "text": "forget",
+            "key": "forget",
+            "chip": "pink"
+          },
+          {
+            "text": "details",
+            "key": "details",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "start": 547.36,
+        "end": 548.43,
+        "speaker": "Speaker",
+        "en": "Leave them out.",
+        "ipa": "/liv ðɛm aʊt./",
+        "zh": "把它们省掉。",
+        "highlights": []
+      },
+      {
+        "id": 116,
+        "start": 548.86,
+        "end": 553.36,
+        "speaker": "Speaker",
+        "en": "Number nine: This is not the last one, but it is the most important one.",
+        "ipa": "/ˈnʌmbər naɪn: ðɪs ɪz nɑt ðə læst wʌn, bʌt ɪt ɪz ðə moʊst ɪmˈpɔrtənt wʌn./",
+        "zh": "第九点：这不是最后一点，但它是最重要的一点。",
+        "highlights": [
+          {
+            "text": "Number",
+            "key": "number",
+            "chip": "pink"
+          },
+          {
+            "text": "important",
+            "key": "important",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 117,
+        "start": 553.4,
+        "end": 554.6,
+        "speaker": "Speaker",
+        "en": "Listen.",
+        "ipa": "/ˈlɪsən./",
+        "zh": "倾听。",
+        "highlights": [
+          {
+            "text": "Listen",
+            "key": "listen",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 118,
+        "start": 554.96,
+        "end": 563.52,
+        "speaker": "Speaker",
+        "en": "I cannot tell you how many really important people have said that listening is perhaps the most, the number one most important skill that you could develop.",
+        "ipa": "/aɪ ˈkænɑt tɛl ju haʊ ˈmɛni ˈrɪli ɪmˈpɔrtənt ˈpipəl hæv sɛd ðæt ˈlɪsənɪŋ ɪz pərˈhæps ðə moʊst, ðə ˈnʌmbər wʌn moʊst ɪmˈpɔrtənt skɪl ðæt ju kʊd dɪˈvɛləp./",
+        "zh": "我无法告诉你，有多少真正重要的人物说过，倾听或许是第一重要的技能。你可以培养的（技能）。",
+        "highlights": [
+          {
+            "text": "number one",
+            "key": "第一位的",
+            "chip": "orange"
+          },
+          {
+            "text": "develop",
+            "key": "培养/发展",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 119,
+        "start": 563.56,
+        "end": 567.99,
+        "speaker": "Speaker",
+        "en": "Buddha said, and I'm paraphrasing, \"If your mouth is open, you're not learning.\"",
+        "ipa": "/ˈbuːdə sɛd, ænd aɪm ˈpærəˌfreɪzɪŋ, \"ɪf jʊər maʊθ ɪz ˈoʊpən, jʊr nɑt ˈlɜrnɪŋ.\"/",
+        "zh": "佛陀曾说——我转述一下——“如果你的嘴张着，你就学不到东西。”",
+        "highlights": [
+          {
+            "text": "paraphrasing",
+            "key": "转述/意译",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 120,
+        "start": 568.03,
+        "end": 572.33,
+        "speaker": "Speaker",
+        "en": "And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
+        "ipa": "/ænd ˈkælvɪn ˈkulɪdʒ sɛd, \"noʊ mæn ˈɛvər ˈlɪsənd hɪz weɪ aʊt əv ə dʒɑb.\"/",
+        "zh": "卡尔文·柯立芝也说过：“没有人是因为听得太多而丢掉工作的。”",
+        "highlights": [
+          {
+            "text": "Coolidge",
+            "key": "coolidge",
+            "chip": "orange"
+          },
+          {
+            "text": "listened",
+            "key": "listened",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 121,
+        "start": 572.66,
+        "end": 576.36,
+        "speaker": "Speaker",
+        "en": "Why do we not listen to each other?",
+        "ipa": "/waɪ du wi nɑt ˈlɪsən tu iːtʃ ˈʌðər?/",
+        "zh": "为什么我们不倾听彼此呢？",
+        "highlights": [
+          {
+            "text": "listen",
+            "key": "listen",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "start": 576.93,
+        "end": 578.86,
+        "speaker": "Speaker",
+        "en": "Number one, we'd rather talk.",
+        "ipa": "/ˈnʌmbər wʌn, wid ˈræðər tɔk./",
+        "zh": "第一，我们更喜欢说话。",
+        "highlights": [
+          {
+            "text": "Number",
+            "key": "number",
+            "chip": "orange"
+          },
+          {
+            "text": "rather",
+            "key": "rather",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "start": 579.46,
+        "end": 581.29,
+        "speaker": "Speaker",
+        "en": "When I'm talking, I'm in control.",
+        "ipa": "/wɛn aɪm ˈtɔkɪŋ, aɪm ɪn kənˈtroʊl./",
+        "zh": "当我说话时，我掌控着局面。",
+        "highlights": [
+          {
+            "text": "in control",
+            "key": "掌控局面",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 124,
+        "start": 581.33,
+        "end": 583.76,
+        "speaker": "Speaker",
+        "en": "I don't have to hear anything I'm not interested in.",
+        "ipa": "/aɪ doʊnt hæv tu hɪr ˈɛniˌθɪŋ aɪm nɑt ˈɪntrəstɪd ɪn./",
+        "zh": "我就不必去听任何我不感兴趣的东西。",
+        "highlights": [
+          {
+            "text": "interested",
+            "key": "interested",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 125,
+        "start": 583.8,
+        "end": 585.16,
+        "speaker": "Speaker",
+        "en": "I'm the center of attention.",
+        "ipa": "/aɪm ðə ˈsɛntər ʌv əˈtɛnʃən/",
+        "zh": "我是注意力的中心。",
+        "highlights": [
+          {
+            "text": "center of attention",
+            "key": "attention",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 126,
+        "start": 585.2,
+        "end": 587.09,
+        "speaker": "Speaker",
+        "en": "I can bolster my own identity.",
+        "ipa": "/aɪ kən ˈboʊstər maɪ oʊn aɪˈdɛntəti/",
+        "zh": "我可以增强我自己的认同感。",
+        "highlights": [
+          {
+            "text": "bolster",
+            "key": "bolster",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 127,
+        "start": 587.13,
+        "end": 589.96,
+        "speaker": "Speaker",
+        "en": "But there's another reason: We get distracted.",
+        "ipa": "/bʌt ðɛrz əˈnʌðər ˈrizən: wi gɛt dɪˈstræktɪd/",
+        "zh": "但还有另一个原因：我们分心了。",
+        "highlights": [
+          {
+            "text": "distracted",
+            "key": "distract",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "start": 590.0,
+        "end": 597.82,
+        "speaker": "Speaker",
+        "en": "The average person talks at about 225 words per minute, but we can listen at up to 500 words per minute.",
+        "ipa": "/ði ˈævərɪdʒ ˈpɜrsən tɔks ət əˈbaʊt ˈtuː ˈhʌndrəd ˈtwɛnti faɪv wɜrdz pɜr ˈmɪnɪt, bʌt wi kən ˈlɪsən ət ʌp tu faɪv ˈhʌndrəd wɜrdz pɜr ˈmɪnɪt/",
+        "zh": "普通人的说话速度大约是每分钟225个词，但我们的听力理解速度最高可达每分钟500个词。",
+        "highlights": [
+          {
+            "text": "average person",
+            "key": "average",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 129,
+        "start": 597.86,
+        "end": 601.82,
+        "speaker": "Speaker",
+        "en": "So our minds are filling in those other 275 words.",
+        "ipa": "/soʊ ˈaʊər maɪndz ɑr ˈfɪlɪŋ ɪn ðoʊz ˈʌðər ˈtuː ˈhʌndrəd ˈsɛvənti faɪv wɜrdz/",
+        "zh": "所以我们的大脑正在填补那另外的275个词。",
+        "highlights": [
+          {
+            "text": "filling in",
+            "key": "fill in",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 130,
+        "start": 601.86,
+        "end": 610.36,
+        "speaker": "Speaker",
+        "en": "And look, I know, it takes effort and energy to actually pay attention to someone, but if you can't do that, you're not in a conversation.",
+        "ipa": "/ænd lʊk, aɪ noʊ, ɪt teɪks ˈɛfərt ənd ˈɛnərdʒi tu ˈæktʃuəli peɪ əˈtɛnʃən tu ˈsʌmwʌn, bʌt ɪf ju kænt du ðæt, jʊr nɑt ɪn ə ˌkɑnvəˈseɪʃən/",
+        "zh": "听着，我知道，真正专注听别人说话需要付出精力和心力，但如果你做不到这一点，你就不算是在对话。",
+        "highlights": [
+          {
+            "text": "pay attention to",
+            "key": "attention",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 131,
+        "start": 610.4,
+        "end": 614.52,
+        "speaker": "Speaker",
+        "en": "You're just two people shouting out barely related sentences in the same place.",
+        "ipa": "/jʊr dʒʌst tu ˈpipəl ˈʃaʊtɪŋ aʊt ˈbɛrli rɪˈleɪtɪd ˈsɛntənsɪz ɪn ðə seɪm pleɪs/",
+        "zh": "你们只是两个人在同一个地方大声说些几乎毫无关联的句子。",
+        "highlights": [
+          {
+            "text": "barely related",
+            "key": "barely",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "start": 614.56,
+        "end": 618.96,
+        "speaker": "Speaker",
+        "en": "You have to listen to one another.",
+        "ipa": "/(ˈlæftər) ju hæv tu ˈlɪsən tu wʌn əˈnʌðər/",
+        "zh": "你们必须听彼此说话。",
+        "highlights": [
+          {
+            "text": "listen to one another",
+            "key": "listen",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "start": 619.0,
+        "end": 620.89,
+        "speaker": "Speaker",
+        "en": "Stephen Covey said it very beautifully.",
+        "ipa": "/ˈstivən ˈkʌvi sɛd ɪt ˈvɛri ˈbjutəfʊli/",
+        "zh": "史蒂芬·柯维说得非常精妙。",
+        "highlights": [
+          {
+            "text": "beautifully",
+            "key": "beautiful",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "start": 620.93,
+        "end": 624.82,
+        "speaker": "Speaker",
+        "en": "He said, \"Most of us don't listen with the intent to understand.",
+        "ipa": "/hi sɛd, \"moʊst ʌv ʌs doʊnt ˈlɪsən wɪð ði ɪnˈtɛnt tu ˌʌndərˈstænd/",
+        "zh": "他说：“我们大多数人听别人说话，并不是为了理解。”",
+        "highlights": [
+          {
+            "text": "intent to understand",
+            "key": "intent",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 135,
+        "start": 624.86,
+        "end": 627.56,
+        "speaker": "Speaker",
+        "en": "We listen with the intent to reply.\"",
+        "ipa": "/wi ˈlɪsən wɪð ði ɪnˈtɛnt tu rɪˈplaɪ.\"",
+        "zh": "我们倾听是为了回答。”",
+        "highlights": [
+          {
+            "text": "intent to reply",
+            "key": "reply",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 136,
+        "start": 628.96,
+        "end": 632.8,
+        "speaker": "Speaker",
+        "en": "One more rule, number 10, and it’s this one: Be brief.",
+        "ipa": "/wʌn mɔr rul, ˈnʌmbər tɛn, ənd ɪts ðɪs wʌn: bi brif/",
+        "zh": "还有一条规则，第10条，就是这个：简明扼要。",
+        "highlights": [
+          {
+            "text": "Be brief",
+            "key": "brief",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 137,
+        "start": 633.0,
+        "end": 635.83,
+        "speaker": "Speaker",
+        "en": "Be interested in other people.",
+        "ipa": "/bi ˈɪntrɪstɪd ɪn ˈʌðər ˈpipəl/",
+        "zh": "对别人感兴趣。",
+        "highlights": [
+          {
+            "text": "Be interested in",
+            "key": "interested",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 138,
+        "start": 635.9,
+        "end": 640.4,
+        "speaker": "Speaker",
+        "en": "You know, I grew up with a very famous grandfather, and there was kind of a ritual in my home.",
+        "ipa": "/ju noʊ, aɪ gru ʌp wɪð ə ˈvɛri ˈfeɪməs ˈgrændˌfɑðər, ənd ðɛr wʌz kaɪnd ʌv ə ˈrɪtʃuəl ɪn maɪ hoʊm/",
+        "zh": "你知道的，我在一个非常著名的祖父身边长大，我家有一种类似仪式的传统。",
+        "highlights": [
+          {
+            "text": "grew up",
+            "key": "grow up",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 139,
+        "start": 640.46,
+        "end": 648.09,
+        "speaker": "Speaker",
+        "en": "People would come over to talk to my grandparents, and after they would leave, my mother would come over to us, and she’d say, “Do you know who that was?",
+        "ipa": "/ˈpipəl wʊd kʌm ˈoʊvər tu tɔk tu maɪ ˈgrændˌpɛrənts, ənd ˈæftər ðeɪ wʊd liv, maɪ ˈmʌðər wʊd kʌm ˈoʊvər tu ʌs ænd ʃid seɪ, “du ju noʊ hu ðæt wʌz/",
+        "zh": "人们会过来和我祖父母聊天，等他们离开后，我母亲就会走到我们身边，然后她会说：“你知道刚才那是谁吗？",
+        "highlights": [
+          {
+            "text": "come over",
+            "key": "come over",
+            "chip": "indigo"
+          },
+          {
+            "text": "Do you know who",
+            "key": "know",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 140,
+        "start": 648.13,
+        "end": 649.99,
+        "speaker": "Speaker",
+        "en": "She was the runner-up to Miss America.",
+        "ipa": "/ʃi wʌz ðə ˈrʌnərˌʌp tu mɪs əˈmɛrɪkə/",
+        "zh": "她是美国小姐的亚军。",
+        "highlights": [
+          {
+            "text": "runner-up",
+            "key": "runner-up",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 141,
+        "start": 650.03,
+        "end": 651.72,
+        "speaker": "Speaker",
+        "en": "He was the mayor of Sacramento.",
+        "ipa": "/hi wʌz ðə ˈmeɪər ʌv ˈsækrəˌmɛntoʊ/",
+        "zh": "他是萨克拉门托的市长。",
+        "highlights": [
+          {
+            "text": "mayor",
+            "key": "mayor",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 142,
+        "start": 651.76,
+        "end": 652.97,
+        "speaker": "Speaker",
+        "en": "She won a Pulitzer Prize.",
+        "ipa": "/ʃi wʌn ə ˈpʊlɪtsər praɪz/",
+        "zh": "她获得过普利策奖。",
+        "highlights": [
+          {
+            "text": "Pulitzer Prize",
+            "key": "Pulitzer",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 143,
+        "start": 653.01,
+        "end": 654.5,
+        "speaker": "Speaker",
+        "en": "He's a Russian ballet dancer.\"",
+        "ipa": "/hiz ə ˈrʌʃən bæˈleɪ ˈdænsər.\"",
+        "zh": "他是一位俄罗斯芭蕾舞演员。”",
+        "highlights": [
+          {
+            "text": "ballet dancer",
+            "key": "ballet",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 144,
+        "start": 654.56,
+        "end": 660.76,
+        "speaker": "Speaker",
+        "en": "And I kind of grew up assuming everyone has some hidden, amazing thing about them.",
+        "ipa": "/ænd aɪ kaɪnd ʌv gru ʌp əˈsumɪŋ ˈɛvriˌwʌn hæz sʌm ˈhɪdən, əˈmeɪzɪŋ θɪŋ əˈbaʊt ðɛm/",
+        "zh": "我差不多是在这种假设中长大的：每个人身上都有一些不为人知的、神奇的事情。",
+        "highlights": [
+          {
+            "text": "assuming",
+            "key": "assume",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 145,
+        "start": 661.36,
+        "end": 664.26,
+        "speaker": "Speaker",
+        "en": "And honestly, I think it's what makes me a better host.",
+        "ipa": "/ænd ˈɑnəstli, aɪ θɪŋk ɪts hwʌt meɪks mi ə ˈbɛtər hoʊst/",
+        "zh": "说实话，我觉得正是这一点让我成为了一个更好的主持人。",
+        "highlights": [
+          {
+            "text": "honestly",
+            "key": "honest",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 146,
+        "start": 664.8,
+        "end": 667.6,
+        "speaker": "Speaker",
+        "en": "I keep my mouth shut as often as I possibly can.",
+        "ipa": "/aɪ kip maɪ maʊθ ʃʌt æz ˈɔfən æz aɪ ˈpɑsəbli kæn/",
+        "zh": "我尽可能经常地闭紧嘴巴。",
+        "highlights": [
+          {
+            "text": "keep my mouth shut",
+            "key": "mouth",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 147,
+        "start": 667.66,
+        "end": 669.56,
+        "speaker": "Speaker",
+        "en": "I keep my mind open.",
+        "ipa": "/aɪ kip maɪ maɪnd ˈoʊpən/",
+        "zh": "我保持思想开放。",
+        "highlights": [
+          {
+            "text": "keep my mind open",
+            "key": "open",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 148,
+        "start": 669.63,
+        "end": 674.4,
+        "speaker": "Speaker",
+        "en": "And I’m always prepared to be amazed, and I'm never disappointed.",
+        "ipa": "/ænd aɪm ˈɔlweɪz prɪˈpɛrd tu bi əˈmeɪzd, ənd aɪm ˈnɛvər ˌdɪsəˈpɔɪntɪd/",
+        "zh": "而且我随时准备好感到惊叹，我也从来没有失望过。",
+        "highlights": [
+          {
+            "text": "prepared to be amazed",
+            "key": "amazed",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 149,
+        "start": 674.46,
+        "end": 676.16,
+        "speaker": "Speaker",
+        "en": "You do the same thing.",
+        "ipa": "/ju du ðə seɪm θɪŋ/",
+        "zh": "你们也这样做吧。",
+        "highlights": [
+          {
+            "text": "same thing",
+            "key": "same",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 150,
+        "start": 676.26,
+        "end": 683.43,
+        "speaker": "Speaker",
+        "en": "Go out, talk to people, listen to people, and, most importantly, be prepared to be amazed.",
+        "ipa": "/goʊ aʊt, tɔk tu ˈpipəl, ˈlɪsən tu ˈpipəl, ənd, moʊst ɪmˈpɔrtəntli, bi prɪˈpɛrd tu bi əˈmeɪzd/",
+        "zh": "走出去，和人们交谈，倾听他们说话，最重要的是，随时准备好迎接惊奇。",
+        "highlights": [
+          {
+            "text": "most importantly",
+            "key": "importantly",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 151,
+        "start": 684.03,
+        "end": 685.2,
+        "speaker": "Speaker",
+        "en": "Thanks.",
+        "ipa": "/ðæŋks/",
+        "zh": "谢谢。",
+        "highlights": [
+          {
+            "text": "Thanks",
+            "key": "thanks",
+            "chip": "orange"
           }
         ]
       }

@@ -57,33 +57,45 @@ KNOWN_KEYWORDS = [
 ]
 
 TAG_RULES = [
-    ("购物", ["grocery", "shop", "shopping", "store", "mall", "buy", "bag", "haul", "超市", "购物", "买"]),
-    ("美食", ["food", "coffee", "restaurant", "cook", "cooking", "order", "eat", "cafe", "bakery", "美食", "点餐", "咖啡", "做饭"]),
-    ("旅行", ["travel", "trip", "airport", "hotel", "city", "vacation", "vlog", "tokyo", "paris", "nyc", "旅行", "旅游", "出行"]),
-    ("名人访谈", ["vogue", "73 questions", "interview", "jensen", "jennie", "emma", "taylor", "kendall", "eileen", "访谈", "采访", "谷爱凌", "黄仁勋"]),
-    ("个人成长", ["ted", "imposter", "confidence", "boundary", "boundaries", "habit", "growth", "mindset", "overthinking", "podcast", "成长", "自信", "边界", "内耗"]),
-    ("日常对话", ["conversation", "small talk", "speak", "talk", "chat", "dialogue", "对话", "寒暄", "口语"]),
-    ("生活英语", ["vocabulary", "phrases", "english", "lesson", "teacher", "vanessa", "lucy", "ariannita", "生活英语", "词汇"]),
-    ("生活", ["living alone", "morning routine", "daily", "life", "apartment", "home", "day in my life", "独居", "日常", "生活"]),
+    ("购物", ["grocery", "supermarket", "shopping", "mall", "thrift", "haul", "self-checkout", "shoplifting", "超市", "购物", "逛街", "百货"]),
+    ("美食", ["pizza", "coffee", "restaurant", "bakery", "chipotle", "chick-fil-a", "mcdonald", "fast food", "pasta", "breakfast", "salad", "cook", "cooking", "meal", "meals", "snacks", "candy", "popcorn", "hot dog", "美食", "点餐", "咖啡", "做饭", "意面", "早餐", "甜点"]),
+    ("旅行", ["travel", "trip", "airport", "hotel", "vacation", "holiday", "skiing", "slope", "chair lift", "subway", "downtown", "旅行", "旅游", "机场", "酒店", "滑雪", "度假"]),
+    ("名人访谈", ["vogue", "73 questions", "interview", "victoria beckham", "emma watson", "kendall jenner", "taylor swift", "jensen", "访谈", "采访"]),
+    ("个人成长", ["ted", "tedx", "imposter syndrome", "better conversation", "start any conversation", "confidence", "boundary", "boundaries", "mindset", "overthinking", "business", "成长", "演讲", "沟通技巧"]),
+    ("日常对话", ["conversation", "small talk", "slang", "interviewing native", "what do you do for a living", "can you understand", "日常对话", "地道对话", "俚语", "街头采访"]),
+    ("生活英语", ["vocabulary", "phrases", "english lesson", "around town", "around the city", "household chores", "buy a house", "car", "bank", "post office", "religious", "生活英语", "词汇", "实用英语"]),
+    ("生活", ["living alone", "morning routine", "daily routine", "day in my life", "busy day", "apartment", "alone in new york", "alone but not lonely", "what i spend", "makeup", "独居", "日常", "生活"]),
 ]
 
 SPEAKER_RULES = [
-    ("Ariannita la Gringa", ["ariannita", "la gringa", "downtown vocabulary", "english lesson at the airport", "english phrases for ordering food", "grocery shopping with your english teacher", "how to order coffee in english", "how to order fast food", "shopping at the best mall"]),
-    ("Speak English With Vanessa", ["vanessa", "speakenglishwithvanessa", "daily life english", "grocery store vocabulary", "real life english around the city", "speak american english around town"]),
+    # 讲者一律写片中主人公真名（绝不用 Vogue / TED / TED-Ed / YouTube 博主 代替人名）
+    ("Victoria Beckham", ["victoria beckham"]),
+    ("Emma Watson", ["emma watson"]),
+    ("Kendall Jenner", ["kendall jenner"]),
+    ("Taylor Swift", ["taylor swift"]),
+    ("Celeste Headlee", ["celeste headlee", "10 ways to have a better conversation"]),
+    ("Chris Fenning", ["chris fenning", "start any conversation the right way"]),
+    ("Elizabeth Cox", ["elizabeth cox", "imposter syndrome"]),
+    ("Bob the Canadian", ["bob the canadian", "daily routine in english by watching me act out", "learn english at a hotel", "hotel in canada"]),
+    ("Sydney Serena", ["sydney serena", "alone in new york", "alone but not lonely", "what i eat as a busy girl", "what i spend in a week", "it's sid", "it's syd"]),
+    ("Ariannita la Gringa", [
+        "ariannita", "arianita", "la gringa", "lagringa", "liginga",
+        "downtown vocabulary", "english lesson at the airport", "english phrases for ordering food",
+        "grocery shopping with your english teacher", "how to order coffee in english",
+        "how to order fast food", "how to order food in a restaurant", "mall vocabulary",
+        "car vocabulary", "household chores", "how to buy a house", "religious vocabulary",
+        "essential english for skiing", "st. patrick", "patrick’s day", "patrick's day",
+        "what do you do for a living", "can you understand my friend", "chipotle", "cincinnati",
+    ]),
+    ("Speak English With Vanessa", [
+        "vanessa", "speakenglishwithvanessa", "daily life english", "grocery store vocabulary",
+        "real life english around the city", "speak american english around town", "order pizza in english", "order food in english",
+    ]),
     ("Michelle Choi", ["michelle choi", "living alone diaries", "homebody on holiday", "homebody in new york", "dobby"]),
-    ("English with Lucy", ["english with lucy", "lucy"]),
+    ("English with Lucy", ["english with lucy"]),
     ("Jenn Im", ["jenn im"]),
     ("Eva Meloche", ["eva meloche"]),
-    ("Sydney Serena", ["sydney serena"]),
     ("Taylor R", ["taylor r"]),
-    ("Emma Watson · Vogue", ["emma watson"]),
-    ("Kendall Jenner · Vogue", ["kendall jenner"]),
-    ("Taylor Swift · Vogue", ["taylor swift"]),
-    ("Vogue", ["vogue", "73 questions", "in the bag"]),
-    ("Celeste Headlee · TED", ["celeste headlee"]),
-    ("Chris Fenning · TED", ["chris fenning"]),
-    ("TED-Ed", ["imposter syndrome", "ted-ed", "maya angelou"]),
-    ("TED", ["ted", "tedx"]),
     ("Jensen Huang", ["jensen", "黄仁勋"]),
     ("Ali Abdaal", ["ali abdaal"]),
     ("Jay Shetty", ["jay shetty"]),
@@ -91,8 +103,8 @@ SPEAKER_RULES = [
 ]
 
 REGION_RULES = [
-    ("英国", ["emma watson", "lucy", "ali abdaal", "london", "british", "victoria beckham"]),
-    ("加拿大", ["bob the canadian", "canada"]),
+    ("英国", ["emma watson", "victoria beckham", "lucy", "ali abdaal", "london", "british"]),
+    ("加拿大", ["bob the canadian", "hotel in canada", "canada"]),
 ]
 
 COVER_GRADIENTS = [
@@ -515,45 +527,59 @@ def parse_subtitle_files(sub_files, music_ranges_out=None):
 
 
 def _kw_match(kw: str, sample: str) -> bool:
-    if re.fullmatch(r"[a-z0-9\s\-]+", kw):
-        return bool(re.search(rf"\b{re.escape(kw)}\b", sample))
+    if re.fullmatch(r"[a-z0-9\s\-'’\.]+", kw):
+        return bool(re.search(rf"(?<![a-z0-9]){re.escape(kw)}(?![a-z0-9])", sample))
     return kw in sample
 
 
 def infer_tags(title: str, sentences):
-    sample = (title + " " + " ".join(s["en"] for s in sentences[:12])).lower()
+    title_l = title.lower()
+    body_l = " ".join(s.get("en", "") for s in sentences[:25]).lower()
     tags = []
     for tag, kws in TAG_RULES:
-        if any(_kw_match(kw, sample) for kw in kws):
+        # 标题强命中，或正文命中 >= 2 个不同领域关键词，彻底杜绝 "in order to" / "order an Uber" / "childcare, food?" 误标
+        title_hit = any(_kw_match(kw, title_l) for kw in kws)
+        body_hits = sum(1 for kw in kws if _kw_match(kw, body_l))
+        if title_hit or body_hits >= 2:
             tags.append(tag)
         if len(tags) >= 3:
             break
     return tags or ["生活英语", "日常对话"]
 
 
-def infer_speaker(title: str, sentences=None):
-    sample = (title + " " + " ".join(s.get("en", "") for s in (sentences or [])[:6])).lower()
+def infer_speaker(title: str, sentences=None, source_title: str = ""):
+    sample = (title + " " + source_title + " " + " ".join(s.get("en", "") for s in (sentences or [])[:10])).lower()
     for sp, kws in SPEAKER_RULES:
         if any(_kw_match(kw, sample) for kw in kws):
             return sp
-    return "YouTube 博主"
+    # 尝试从前 5 句 "I'm X" / "My name is X" / "It's X" 抽取真名，绝不回退成 "YouTube 博主"
+    intro_text = " ".join(s.get("en", "") for s in (sentences or [])[:5])
+    m = re.search(r"\b(?:my name is|i'm|i am)\s+([A-Z][a-z]{2,15}(?:\s+[A-Z][a-z]{2,15})?)\b", intro_text)
+    if m:
+        cand = m.group(1)
+        if cand.lower() not in {"here", "going", "sorry", "back", "excited", "doing", "ready", "still", "just", "kind"}:
+            return cand
+    return "待补讲者"
 
 
-def infer_region(title: str, speaker: str):
-    sample = (title + " " + speaker).lower()
+def infer_region(title: str, speaker: str, sentences=None):
+    sample = (title + " " + speaker + " " + " ".join(s.get("en", "") for s in (sentences or [])[:6])).lower()
     for reg, kws in REGION_RULES:
-        if any(kw in sample for kw in kws):
+        if any(_kw_match(kw, sample) for kw in kws):
             return reg
     return "美国"
 
 
-def infer_difficulty(title: str, sentences):
+def infer_difficulty(title: str, sentences, duration_sec: int = 0):
     lower = title.lower()
-    if any(k in lower for k in ["jensen", "黄仁勋", "podcast", "keynote", "economics", "ceo"]):
+    if any(_kw_match(k, lower) for k in ["jensen", "黄仁勋", "podcast", "keynote", "economics", "ceo"]):
         return 5
-    if any(k in lower for k in ["vogue", "73 questions", "interview", "ted", "imposter", "访谈"]):
+    # 10-15 分钟完整 TED 正式演讲评定为 5 星
+    if _kw_match("ted", lower) and duration_sec >= 600:
+        return 5
+    if any(_kw_match(k, lower) for k in ["vogue", "73 questions", "interview", "ted", "imposter", "访谈"]):
         return 4
-    if any(k in lower for k in ["grocery", "ordering food", "beginner", "vocabulary", "shop in english"]):
+    if any(_kw_match(k, lower) for k in ["grocery", "ordering food", "beginner", "vocabulary", "shop in english"]):
         return 1
     if not sentences:
         return 2
@@ -908,9 +934,16 @@ def build_episode_item(idx, raw_title, files, rel_folder, media_base_url, meta=N
 
     title = meta.get("title") or raw_title
     speaker = meta.get("speaker") or infer_speaker(title, sentences)
-    region = meta.get("region") or infer_region(title, speaker)
-    difficulty = int(meta.get("difficulty") or infer_difficulty(title, sentences))
+    region = meta.get("region") or infer_region(title, speaker, sentences)
+    difficulty = int(meta.get("difficulty") or infer_difficulty(title, sentences, duration_sec))
     tags = meta.get("tags") or infer_tags(title, sentences)
+    # 校正已知的常见 ASR 专名与叠词错字
+    for s in sentences:
+        s["en"] = re.sub(r"\bArianita\s+(?:Lagringa|Liginga)\b", "Ariannita la Gringa", s["en"], flags=re.I)
+        s["zh"] = re.sub(r"Arianita\s+(?:Lagringa|Liginga)", "Ariannita la Gringa", s["zh"], flags=re.I)
+        s["en"] = re.sub(r"\bIt is a A little bit chilly\b", "It is a little bit chilly", s["en"])
+    file_mtime = min((f.stat().st_mtime for f in files if f.exists()), default=datetime.now().timestamp())
+    ep_date = meta.get("date") or datetime.fromtimestamp(file_mtime).strftime("%Y/%m/%d")
 
     rel_prefix = media_base_url.rstrip("/") if media_base_url else "./content/episodes"
     sub_path = f"{rel_prefix}/{quote(rel_folder)}" if rel_folder else rel_prefix
@@ -929,7 +962,7 @@ def build_episode_item(idx, raw_title, files, rel_folder, media_base_url, meta=N
         "difficulty": difficulty,
         "durationSec": duration_sec,
         "durationLabel": format_duration(duration_sec),
-        "date": meta.get("date") or datetime.now().strftime("%Y/%m/%d"),
+        "date": ep_date,
         "tags": tags,
         "coverGradient": meta.get("coverGradient") or COVER_GRADIENTS[(idx - 1) % len(COVER_GRADIENTS)],
         "coverImage": cover_url,
@@ -1038,32 +1071,50 @@ def scan_episodes(media_base_url: str):
             for si in range(len(raw_sents) - 1):
                 if float(raw_sents[si]["end"]) > float(raw_sents[si + 1]["start"]):
                     raw_sents[si]["end"] = round(float(raw_sents[si + 1]["start"]), 2)
+            # 校正已知 ASR 错字与专名
+            for s in raw_sents:
+                s["en"] = re.sub(r"\bArianita\s+(?:Lagringa|Liginga)\b", "Ariannita la Gringa", s["en"], flags=re.I)
+                s["zh"] = re.sub(r"Arianita\s+(?:Lagringa|Liginga)", "Ariannita la Gringa", s["zh"], flags=re.I)
+                if s["en"].strip() == "It is a A little bit chilly.":
+                    s["en"] = "It is a little bit chilly."
+                    s["zh"] = "天气有点冷。"
+                if s["en"].strip() == "It's said." and "alone in new york" in entry.get("sourceTitle", "").lower():
+                    s["en"] = "It's Sid."
+                    s["zh"] = "我是 Sid。"
             dur = probe_audio_duration(a_file) or float(entry.get("durationSec") or 0)
             exact_dur = round(float(dur), 2)
             dur_sec = int(round(exact_dur))
             skips = build_skip_ranges(raw_sents, max(exact_dur, float(dur_sec)), entry.get("internalSkips") or [])
+            # 动态重新推断讲者、地区、标签、难度（不再死抄 manifest 旧值）
+            ep_title = entry["title"]
+            src_title = entry.get("sourceTitle") or ""
+            ep_speaker = entry.get("speakerOverride") or infer_speaker(ep_title, raw_sents, source_title=src_title)
+            ep_region = infer_region(ep_title + " " + src_title, ep_speaker, raw_sents)
+            ep_tags = entry.get("tagsOverride") or infer_tags(ep_title, raw_sents)
+            ep_diff = int(entry.get("difficultyOverride") or infer_difficulty(ep_title + " " + src_title, raw_sents, dur_sec))
+            ep_date = entry.get("date") or datetime.fromtimestamp(v_file.stat().st_mtime).strftime("%Y/%m/%d")
             rel_prefix = media_base_url.rstrip("/") if media_base_url else "./content/episodes"
             sub_path = f"{rel_prefix}/trimmed"
-            slug = re.sub(r"[^a-zA-Z0-9_-]+", "-", entry["title"]).strip("-")[:32] or f"trimmed-{counter}"
+            slug = re.sub(r"[^a-zA-Z0-9_-]+", "-", ep_title).strip("-")[:32] or f"trimmed-{counter}"
             part_suffix = entry.get("part", f"p{counter}")
             episodes.append({
                 "id": f"local-{counter}-{slug}-{part_suffix}",
                 "number": f"EP {counter:02d}",
-                "title": entry["title"],
-                "speaker": entry["speaker"],
+                "title": ep_title,
+                "speaker": ep_speaker,
                 "speakerAvatar": "./assets/hosts/cici_round.webp",
-                "region": entry["region"],
-                "difficulty": int(entry["difficulty"]),
+                "region": ep_region,
+                "difficulty": ep_diff,
                 "durationSec": dur_sec,
                 "durationLabel": format_duration(dur_sec),
-                "date": datetime.now().strftime("%Y/%m/%d"),
-                "tags": entry["tags"],
+                "date": ep_date,
+                "tags": ep_tags,
                 "coverGradient": COVER_GRADIENTS[(counter - 1) % len(COVER_GRADIENTS)],
                 "coverImage": f"{sub_path}/{quote(c_file.name)}" if c_file.exists() else "",
                 "mediaUrl": f"{sub_path}/{quote(v_file.name)}",
                 "audioUrl": f"{sub_path}/{quote(a_file.name)}",
                 "mediaKind": "video",
-                "sceneBadge": entry["sceneBadge"],
+                "sceneBadge": ep_tags[0],
                 "skipRanges": skips,
                 "sentences": raw_sents,
             })
