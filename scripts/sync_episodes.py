@@ -60,7 +60,7 @@ TAG_RULES = [
     ("购物", ["grocery", "supermarket", "shopping", "mall", "thrift", "haul", "self-checkout", "shoplifting", "超市", "购物", "逛街", "百货"]),
     ("美食", ["pizza", "coffee", "restaurant", "bakery", "chipotle", "chick-fil-a", "mcdonald", "fast food", "pasta", "breakfast", "salad", "cook", "cooking", "meal", "meals", "snacks", "candy", "popcorn", "hot dog", "美食", "点餐", "咖啡", "做饭", "意面", "早餐", "甜点"]),
     ("旅行", ["travel", "trip", "airport", "hotel", "vacation", "holiday", "skiing", "slope", "chair lift", "subway", "downtown", "旅行", "旅游", "机场", "酒店", "滑雪", "度假"]),
-    ("名人访谈", ["vogue", "73 questions", "interview", "victoria beckham", "emma watson", "kendall jenner", "taylor swift", "jensen", "访谈", "采访"]),
+    ("名人访谈", ["vogue", "73 questions", "victoria beckham", "emma watson", "kendall jenner", "taylor swift", "jensen", "名人访谈"]),
     ("个人成长", ["ted", "tedx", "imposter syndrome", "better conversation", "start any conversation", "confidence", "boundary", "boundaries", "mindset", "overthinking", "business", "成长", "演讲", "沟通技巧"]),
     ("日常对话", ["conversation", "small talk", "slang", "interviewing native", "what do you do for a living", "can you understand", "日常对话", "地道对话", "俚语", "街头采访"]),
     ("生活英语", ["vocabulary", "phrases", "english lesson", "around town", "around the city", "household chores", "buy a house", "car", "bank", "post office", "religious", "生活英语", "词汇", "实用英语"]),
@@ -570,31 +570,158 @@ def infer_region(title: str, speaker: str, sentences=None):
     return "美国"
 
 
-def infer_difficulty(title: str, sentences, duration_sec: int = 0):
-    lower = title.lower()
-    if any(_kw_match(k, lower) for k in ["jensen", "黄仁勋", "podcast", "keynote", "economics", "ceo"]):
-        return 5
-    # 10-15 分钟完整 TED 正式演讲评定为 5 星
-    if _kw_match("ted", lower) and duration_sec >= 600:
-        return 5
-    if any(_kw_match(k, lower) for k in ["vogue", "73 questions", "interview", "ted", "imposter", "访谈"]):
-        return 4
-    if any(_kw_match(k, lower) for k in ["grocery", "ordering food", "beginner", "vocabulary", "shop in english"]):
-        return 1
+ABSTRACT_WORKPLACE_TERMS = [
+    "imposter syndrome", "perspective", "empathy", "vulnerability", "authentic", "authenticity",
+    "assumption", "assumptions", "stereotype", "stereotypes", "productivity", "strategy",
+    "revenue", "client", "clients", "business", "framework", "psychology", "research",
+    "evidence", "argument", "economy", "inflation", "mortgage", "investment", "cultural",
+    "tradition", "traditions", "philosophy", "religion", "religions", "politics",
+    "professional", "corporate", "colleague", "colleagues", "leadership", "management",
+    "negotiate", "negotiation", "feedback", "boundary", "boundaries", "burnout", "mindset",
+    "priority", "priorities", "self-conscious", "introvert", "extrovert", "bias", "biases",
+    "nuance", "metaphor", "conversation", "communicate", "communication", "masterclass",
+    "meeting", "agenda", "context", "principle", "principles", "identity", "confidence",
+    "anxiety", "depression", "therapy", "diagnosis", "accomplishment", "achievement",
+    "fulfillment", "tectonic", "inexorable", "consequences", "responsibility", "opportunity",
+]
+
+
+def classify_scene_tier(title: str, source_title: str, speaker: str, tags, sentences):
+    """
+    场景分档（A / B / C）—— 看课的实际内容，不只看标题：
+    - C 高信息密度：名人访谈（73 Questions/In The Bag）、TED/正式演讲、keynote、深度访谈、商业方法论
+    - B 日常进阶：生活 vlog、多场景城市英语、内容较密的日常记录
+    - A 入门情景：日常对话、生活英语教学、购物、点餐、词汇课、超市/咖啡店/酒店/机场/街头采访等情景教学
+    返回 (tier, tier_reason, uncertain_flag)
+    """
+    combo = f"{title} {source_title} {speaker}".lower()
+    body = " ".join(s.get("en", "") for s in (sentences or [])[:30]).lower()
+
+    # C 档：正式演讲 / 名人访谈 / 商业深度内容
+    c_signals = [
+        "ted", "tedx", "ted-ed", "imposter syndrome", "73 questions", "in the bag", "vogue",
+        "keynote", "podcast", "celeste headlee", "chris fenning", "elizabeth cox",
+        "victoria beckham", "emma watson", "kendall jenner", "taylor swift", "jensen",
+        "slowing your business down",
+    ]
+    if any(_kw_match(k, combo) for k in c_signals) or "名人访谈" in (tags or []):
+        return "C", "高信息密度（正式演讲/名人访谈/商业观点）", False
+
+    # B 档：生活 vlog、多场景城市英语、内容较密的日常记录
+    b_signals = [
+        "living alone diaries", "homebody", "alone in new york", "alone but not lonely",
+        "what i eat", "what i spend", "productive & busy day", "natural korean makeup",
+        "around the city", "around town", "buy a house", "can you understand my friend",
+        "sydney serena", "michelle choi",
+    ]
+    if any(_kw_match(k, combo) for k in b_signals):
+        # 标记边界项：多场景城市教学 / 买房 / 俚语访谈（介于 A 与 B 之间）
+        borderline = any(_kw_match(k, combo) for k in ["around the city", "around town", "buy a house", "can you understand my friend"])
+        reason = "日常进阶（多场景城市英语/生活记录）" if borderline else "日常进阶（生活Vlog/日常记录）"
+        return "B", reason, borderline
+
+    # A 档：生活英语教学、购物、点餐、词汇课、短情景对话
+    a_signals = [
+        "vocabulary", "grocery", "order", "ordering", "pizza", "coffee", "restaurant",
+        "fast food", "chipotle", "mall", "car", "household chores", "airport", "hotel",
+        "skiing", "daily routine", "religious", "st. patrick", "what do you do for a living",
+        "ariannita", "bob the canadian", "vanessa",
+    ]
+    if any(_kw_match(k, combo) for k in a_signals) or any(_kw_match(k, body) for k in ["vocabulary", "grocery store", "order food"]):
+        return "A", "入门情景（词汇/点餐/购物/生活情景教学）", False
+
+    return "B", "日常进阶（默认归档，建议人工复核）", True
+
+
+def compute_effective_wpm(sentences, skip_ranges=None) -> float:
+    """按去掉 skipRanges / 纯音乐与句间空档后的有效口语时长计算 WPM"""
     if not sentences:
-        return 2
-    total_words = sum(len(s["en"].split()) for s in sentences)
-    total_sec = max(1.0, sentences[-1]["end"] - sentences[0]["start"])
-    wpm = (total_words / total_sec) * 60.0
-    if wpm < 105:
-        return 1
-    if wpm < 130:
-        return 2
-    if wpm < 155:
-        return 3
-    if wpm < 180:
-        return 4
-    return 5
+        return 130.0
+    skips = skip_ranges or []
+    total_words = 0
+    spoken_sec = 0.0
+    for s in sentences:
+        en = (s.get("en") or "").strip()
+        words = re.findall(r"[A-Za-z0-9']+", en)
+        total_words += len(words)
+        s0, s1 = float(s["start"]), float(s["end"])
+        iskip = sum(
+            max(0.0, min(s1, float(r[1])) - max(s0, float(r[0])))
+            for r in skips
+            if isinstance(r, list) and len(r) == 2
+        )
+        spoken_sec += max(0.15, (s1 - s0) - iskip)
+    return round((total_words / max(1.0, spoken_sec)) * 60.0, 1)
+
+
+def evaluate_difficulty_detail(title: str, source_title: str, speaker: str, tags, sentences, duration_sec: int, skip_ranges=None):
+    """
+    综合 5 维度（场景分档、时长、有效 WPM、字幕结构、抽象/学术/职场重点词）计算难度星级（1–5）。
+    严格按规范：基准星（场景+时长） + 语速/重点词调整（合计限 ±1 星），并执行硬锁。
+    """
+    tier, tier_reason, uncertain = classify_scene_tier(title, source_title, speaker, tags, sentences)
+    dur_min = float(duration_sec) / 60.0
+
+    # 1) 基准星：场景 + 时长
+    if tier == "A":
+        base = 1 if dur_min <= 2.5 else (2 if dur_min <= 5.0 else 3)
+    elif tier == "B":
+        base = 2 if dur_min <= 5.0 else (3 if dur_min <= 8.0 else 4)
+    else:  # C
+        base = 3 if dur_min <= 5.0 else (4 if dur_min <= 8.0 else 5)
+
+    # 2) 有效语速 WPM 调整
+    wpm = compute_effective_wpm(sentences, skip_ranges)
+    if wpm < 105.0:
+        wpm_adj = -1
+    elif wpm >= 180.0:
+        wpm_adj = 1
+    else:
+        wpm_adj = 0
+
+    # 3) 抽象/学术/职场/观点类重点词调整（词边界/短语匹配）
+    full_en = " ".join((s.get("en") or "") for s in (sentences or [])).lower()
+    distinct_hits = [term for term in ABSTRACT_WORKPLACE_TERMS if _kw_match(term, full_en)]
+    sent_hits = sum(
+        1 for s in (sentences or [])
+        if any(_kw_match(term, (s.get("en") or "").lower()) for term in ABSTRACT_WORKPLACE_TERMS)
+    )
+    hit_ratio = sent_hits / max(1, len(sentences or []))
+    lex_adj = 1 if (len(distinct_hits) >= 6 or (len(distinct_hits) >= 3 and hit_ratio >= 0.12)) else 0
+
+    # 4) 合并微调（最多 ±1 星）+ 硬限制
+    adj = max(-1, min(1, wpm_adj + lex_adj))
+    star = base + adj
+
+    notes = [f"{tier}档({dur_min:.1f}m)基准{base}★", f"WPM={wpm:.0f}({wpm_adj:+d})"]
+    if lex_adj > 0:
+        notes.append(f"抽象/职场词{len(distinct_hits)}个(+1)")
+
+    if tier == "A" and dur_min <= 2.5:
+        star = 1
+        notes.append("A≤2.5m锁1★")
+    elif tier == "A" and star > 3:
+        star = 3
+        notes.append("A档封顶3★")
+    elif tier == "C" and dur_min > 8.0 and star < 4:
+        star = 4
+        notes.append("C>8m保底4★")
+
+    star = max(1, min(5, star))
+    return {
+        "difficulty": star,
+        "tier": tier,
+        "wpm": wpm,
+        "base": base,
+        "wpm_adj": wpm_adj,
+        "lex_adj": lex_adj,
+        "uncertain": uncertain,
+        "reason": "；".join(notes),
+    }
+
+
+def infer_difficulty(title: str, sentences, duration_sec: int = 0, source_title: str = "", speaker: str = "", tags=None, skip_ranges=None):
+    return evaluate_difficulty_detail(title, source_title, speaker, tags, sentences, duration_sec, skip_ranges)["difficulty"]
 
 
 def format_duration(sec: float) -> str:
@@ -935,8 +1062,10 @@ def build_episode_item(idx, raw_title, files, rel_folder, media_base_url, meta=N
     title = meta.get("title") or raw_title
     speaker = meta.get("speaker") or infer_speaker(title, sentences)
     region = meta.get("region") or infer_region(title, speaker, sentences)
-    difficulty = int(meta.get("difficulty") or infer_difficulty(title, sentences, duration_sec))
     tags = meta.get("tags") or infer_tags(title, sentences)
+    difficulty = int(meta["difficulty"]) if meta.get("difficulty") else infer_difficulty(
+        title, sentences, duration_sec, source_title=raw_title, speaker=speaker, tags=tags, skip_ranges=skip_ranges
+    )
     # 校正已知的常见 ASR 专名与叠词错字
     for s in sentences:
         s["en"] = re.sub(r"\bArianita\s+(?:Lagringa|Liginga)\b", "Ariannita la Gringa", s["en"], flags=re.I)
@@ -1091,7 +1220,9 @@ def scan_episodes(media_base_url: str):
             ep_speaker = entry.get("speakerOverride") or infer_speaker(ep_title, raw_sents, source_title=src_title)
             ep_region = infer_region(ep_title + " " + src_title, ep_speaker, raw_sents)
             ep_tags = entry.get("tagsOverride") or infer_tags(ep_title, raw_sents)
-            ep_diff = int(entry.get("difficultyOverride") or infer_difficulty(ep_title + " " + src_title, raw_sents, dur_sec))
+            ep_diff = infer_difficulty(
+                ep_title, raw_sents, dur_sec, source_title=src_title, speaker=ep_speaker, tags=ep_tags, skip_ranges=skips
+            )
             ep_date = entry.get("date") or datetime.fromtimestamp(v_file.stat().st_mtime).strftime("%Y/%m/%d")
             rel_prefix = media_base_url.rstrip("/") if media_base_url else "./content/episodes"
             sub_path = f"{rel_prefix}/trimmed"
