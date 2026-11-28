@@ -55,54 +55,6 @@
       "date": "2026/11/26"
     },
     {
-      "sourceNumber": "EP 04",
-      "sourceTitle": "Order FOOD in English： Daily Life English",
-      "part": "part1",
-      "title": "Chick-fil-A 实景点单：鸡肉三明治与酱料表达",
-      "videoFile": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料).trimmed.mp4",
-      "audioFile": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料).trimmed.m4a",
-      "coverFile": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料).jpg",
-      "polishedFile": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料).polished.json",
-      "durationSec": 440.83,
-      "windows": [
-        [
-          0.0,
-          51.98
-        ],
-        [
-          151.14,
-          539.99
-        ]
-      ],
-      "date": "2026/11/26"
-    },
-    {
-      "sourceNumber": "EP 04",
-      "sourceTitle": "Order FOOD in English： Daily Life English",
-      "part": "part2",
-      "title": "麦当劳柜台实景点单与美式小费文化",
-      "videoFile": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则).trimmed.mp4",
-      "audioFile": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则).trimmed.m4a",
-      "coverFile": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则).jpg",
-      "polishedFile": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则).polished.json",
-      "durationSec": 375.18,
-      "windows": [
-        [
-          598.02,
-          766.31
-        ],
-        [
-          1113.05,
-          1220.19
-        ],
-        [
-          1397.26,
-          1497.01
-        ]
-      ],
-      "date": "2026/11/26"
-    },
-    {
       "sourceNumber": "EP 18",
       "sourceTitle": "Religious Vocabulary in English",
       "part": "part1",
@@ -1295,6 +1247,126 @@
         [
           453.11,
           557.69
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 11",
+      "sourceTitle": "Order FOOD in English： Daily Life English",
+      "part": "fastfood_micro1",
+      "title": "Chick-fil-A 柜台点单：鸡肉三明治、鸡块与堂食付款",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "Chick-fil-A 柜台点单：鸡肉三明治、鸡块与堂食付款.micro.mp4",
+      "audioFile": "Chick-fil-A 柜台点单：鸡肉三明治、鸡块与堂食付款.micro.m4a",
+      "coverFile": "Chick-fil-A 柜台点单：鸡肉三明治、鸡块与堂食付款.jpg",
+      "polishedFile": "Chick-fil-A 柜台点单：鸡肉三明治、鸡块与堂食付款.polished.json",
+      "durationSec": 105.26,
+      "windows": [
+        [
+          52.03,
+          157.29
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 11",
+      "sourceTitle": "Order FOOD in English： Daily Life English",
+      "part": "fastfood_micro2",
+      "title": "Chick-fil-A 拆餐：招牌鸡腿堡、鸡块与鸡柳",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "Chick-fil-A 拆餐：招牌鸡腿堡、鸡块与鸡柳.micro.mp4",
+      "audioFile": "Chick-fil-A 拆餐：招牌鸡腿堡、鸡块与鸡柳.micro.m4a",
+      "coverFile": "Chick-fil-A 拆餐：招牌鸡腿堡、鸡块与鸡柳.jpg",
+      "polishedFile": "Chick-fil-A 拆餐：招牌鸡腿堡、鸡块与鸡柳.polished.json",
+      "durationSec": 174.96,
+      "windows": [
+        [
+          156.93,
+          331.89
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 11",
+      "sourceTitle": "Order FOOD in English： Daily Life English",
+      "part": "fastfood_micro3",
+      "title": "Chick-fil-A 酱料与收据：特调酱、水牛城酱和华夫薯条",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "Chick-fil-A 酱料与收据：特调酱、水牛城酱和华夫薯条.micro.mp4",
+      "audioFile": "Chick-fil-A 酱料与收据：特调酱、水牛城酱和华夫薯条.micro.m4a",
+      "coverFile": "Chick-fil-A 酱料与收据：特调酱、水牛城酱和华夫薯条.jpg",
+      "polishedFile": "Chick-fil-A 酱料与收据：特调酱、水牛城酱和华夫薯条.polished.json",
+      "durationSec": 58.96,
+      "windows": [
+        [
+          331.53,
+          390.49
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 12",
+      "sourceTitle": "Order FOOD in English： Daily Life English",
+      "part": "fastfood_micro4",
+      "title": "麦当劳柜台点单：1 号套餐、Happy Meal 与饮料尺寸",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "麦当劳柜台点单：1 号套餐、Happy Meal 与饮料尺寸.micro.mp4",
+      "audioFile": "麦当劳柜台点单：1 号套餐、Happy Meal 与饮料尺寸.micro.m4a",
+      "coverFile": "麦当劳柜台点单：1 号套餐、Happy Meal 与饮料尺寸.jpg",
+      "polishedFile": "麦当劳柜台点单：1 号套餐、Happy Meal 与饮料尺寸.polished.json",
+      "durationSec": 133.15,
+      "windows": [
+        [
+          6.68,
+          139.83
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 12",
+      "sourceTitle": "Order FOOD in English： Daily Life English",
+      "part": "fastfood_micro5",
+      "title": "麦当劳套餐拆解：Big Mac 与快餐不用小费",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "麦当劳套餐拆解：Big Mac 与快餐不用小费.micro.mp4",
+      "audioFile": "麦当劳套餐拆解：Big Mac 与快餐不用小费.micro.m4a",
+      "coverFile": "麦当劳套餐拆解：Big Mac 与快餐不用小费.jpg",
+      "polishedFile": "麦当劳套餐拆解：Big Mac 与快餐不用小费.polished.json",
+      "durationSec": 72.83,
+      "windows": [
+        [
+          139.47,
+          212.3
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 12",
+      "sourceTitle": "Order FOOD in English： Daily Life English",
+      "part": "fastfood_micro6",
+      "title": "免下车点甜品：巧克力 Frosty 与薯条",
+      "speakerOverride": "Speak English With Vanessa",
+      "tierOverride": "A",
+      "date": "2026/11/26",
+      "videoFile": "免下车点甜品：巧克力 Frosty 与薯条.micro.mp4",
+      "audioFile": "免下车点甜品：巧克力 Frosty 与薯条.micro.m4a",
+      "coverFile": "免下车点甜品：巧克力 Frosty 与薯条.jpg",
+      "polishedFile": "免下车点甜品：巧克力 Frosty 与薯条.polished.json",
+      "durationSec": 56.55,
+      "windows": [
+        [
+          230.05,
+          286.6
         ]
       ]
     }
