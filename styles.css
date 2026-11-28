@@ -2391,7 +2391,8 @@ html[data-dark="true"] .blind-overlay {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  transform: scale(1.08);
+  object-position: center center;
+  transform: scale(1.06);
   display: block;
 }
 
@@ -2785,6 +2786,11 @@ html[data-dark="true"] .blind-overlay {
     color: #847068 !important;
     font-size: 11.5px !important;
     margin: 0 !important;
+  }
+
+  /* 手机版不显示日期，让卡片更清爽 */
+  .tt-courses-page .episode-meta:last-of-type > span:last-child {
+    display: none !important;
   }
 
   .tt-courses-page .speaker-row {
