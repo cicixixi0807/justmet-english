@@ -1,0 +1,550 @@
+{
+  "status": "DRAFT_AWAITING_USER_APPROVAL",
+  "sourceMediaModified": false,
+  "plans": [
+    {
+      "sourceNumber": "EP 18",
+      "sourceTitle": "Religious Vocabulary in English",
+      "difficulty": 1,
+      "originalDurationSec": 1336,
+      "originalDurationLabel": "22:16",
+      "vadSafeCutSec": 4.39,
+      "note": "1★ 超长词汇课拆 3 期，每期约 5.5 分钟",
+      "parts": [
+        {
+          "part": "part1",
+          "newTitle": "Religious Vocabulary (Part 1：教堂弥撒与神职词汇)",
+          "estDurationSec": 325.6,
+          "estDurationLabel": "05:26",
+          "estSentences": 66,
+          "segments": [
+            {
+              "label": "开场 + 教堂弥撒与牧师词汇",
+              "reason": "聚焦基督教/教堂日常高频词",
+              "startSec": 0.16,
+              "endSec": 325.8,
+              "durationSec": 325.64,
+              "firstSentenceId": 1,
+              "lastSentenceId": 66,
+              "sentenceCount": 66
+            }
+          ]
+        },
+        {
+          "part": "part2",
+          "newTitle": "Religious Vocabulary (Part 2：信仰交流与经典词汇)",
+          "estDurationSec": 319.1,
+          "estDurationLabel": "05:19",
+          "estSentences": 67,
+          "segments": [
+            {
+              "label": "讲道、捐赠与跨宗教交流表达",
+              "reason": "去掉过长过渡，保留核心表达",
+              "startSec": 458.52,
+              "endSec": 777.6,
+              "durationSec": 319.08,
+              "firstSentenceId": 96,
+              "lastSentenceId": 162,
+              "sentenceCount": 67
+            }
+          ]
+        },
+        {
+          "part": "part3",
+          "newTitle": "Religious Vocabulary (Part 3：多元宗教文化与总结)",
+          "estDurationSec": 320.9,
+          "estDurationLabel": "05:21",
+          "estSentences": 74,
+          "segments": [
+            {
+              "label": "南亚与希伯来经典文化词汇",
+              "reason": "完整收束世界宗教基础词汇",
+              "startSec": 913.52,
+              "endSec": 1234.47,
+              "durationSec": 320.95,
+              "firstSentenceId": 193,
+              "lastSentenceId": 266,
+              "sentenceCount": 74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "EP 23",
+      "sourceTitle": "Car Vocabulary",
+      "difficulty": 1,
+      "originalDurationSec": 1178,
+      "originalDurationLabel": "19:38",
+      "vadSafeCutSec": 0,
+      "note": "1★ 汽车词汇课拆 3 期，每期约 5.5 分钟",
+      "parts": [
+        {
+          "part": "part1",
+          "newTitle": "Car Vocabulary (Part 1：洗车与车身外观词汇)",
+          "estDurationSec": 323.3,
+          "estDurationLabel": "05:23",
+          "estSentences": 65,
+          "segments": [
+            {
+              "label": "开场 + 洗车与车身外部部件",
+              "reason": "入门汽车外部词汇",
+              "startSec": 0.28,
+              "endSec": 323.56,
+              "durationSec": 323.28,
+              "firstSentenceId": 1,
+              "lastSentenceId": 65,
+              "sentenceCount": 65
+            }
+          ]
+        },
+        {
+          "part": "part2",
+          "newTitle": "Car Vocabulary (Part 2：轮胎、爆胎与仪表盘)",
+          "estDurationSec": 322.1,
+          "estDurationLabel": "05:22",
+          "estSentences": 45,
+          "segments": [
+            {
+              "label": "轮胎/轮毂/爆胎 + 仪表盘油表",
+              "reason": "高频实用自驾词汇",
+              "startSec": 402.82,
+              "endSec": 724.92,
+              "durationSec": 322.1,
+              "firstSentenceId": 80,
+              "lastSentenceId": 124,
+              "sentenceCount": 45
+            }
+          ]
+        },
+        {
+          "part": "part3",
+          "newTitle": "Car Vocabulary (Part 3：中控台、换挡杆与车内清洁)",
+          "estDurationSec": 320.5,
+          "estDurationLabel": "05:20",
+          "estSentences": 43,
+          "segments": [
+            {
+              "label": "中控台/换挡杆 + 车内清洁收尾",
+              "reason": "汽车内饰完整闭环",
+              "startSec": 812.7,
+              "endSec": 1133.2,
+              "durationSec": 320.5,
+              "firstSentenceId": 136,
+              "lastSentenceId": 178,
+              "sentenceCount": 43
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "EP 27",
+      "sourceTitle": "Mall Vocabulary In English",
+      "difficulty": 1,
+      "originalDurationSec": 1076,
+      "originalDurationLabel": "17:56",
+      "vadSafeCutSec": 26.87,
+      "note": "1★ 逛商场课拆 3 期，每期约 5–5.5 分钟",
+      "parts": [
+        {
+          "part": "part1",
+          "newTitle": "Mall Vocabulary (Part 1：商场分区与美食广场点餐)",
+          "estDurationSec": 324.1,
+          "estDurationLabel": "05:24",
+          "estSentences": 59,
+          "segments": [
+            {
+              "label": "开场 + 男女装分区 + 套餐点单",
+              "reason": "逛街与美食广场高频句",
+              "startSec": 0.0,
+              "endSec": 324.06,
+              "durationSec": 324.06,
+              "firstSentenceId": 1,
+              "lastSentenceId": 59,
+              "sentenceCount": 59
+            }
+          ]
+        },
+        {
+          "part": "part2",
+          "newTitle": "Mall Vocabulary (Part 2：潮流服饰、游戏与玩具店)",
+          "estDurationSec": 322.7,
+          "estDurationLabel": "05:23",
+          "estSentences": 76,
+          "segments": [
+            {
+              "label": "潮流穿搭 + 游戏店 + 综合百货",
+              "reason": "生活购物核心词汇",
+              "startSec": 361.85,
+              "endSec": 684.53,
+              "durationSec": 322.68,
+              "firstSentenceId": 64,
+              "lastSentenceId": 139,
+              "sentenceCount": 76
+            }
+          ]
+        },
+        {
+          "part": "part3",
+          "newTitle": "Mall Vocabulary (Part 3：乐高玩具、排队结账与奢侈品区)",
+          "estDurationSec": 313.4,
+          "estDurationLabel": "05:13",
+          "estSentences": 57,
+          "segments": [
+            {
+              "label": "玩具店 + 柜台结账 + Gucci 逛店",
+              "reason": "购物结账实用闭环",
+              "startSec": 726.55,
+              "endSec": 1039.94,
+              "durationSec": 313.39,
+              "firstSentenceId": 155,
+              "lastSentenceId": 211,
+              "sentenceCount": 57
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "EP 02",
+      "sourceTitle": "Grocery Store Vocabulary： shop in English",
+      "difficulty": 1,
+      "originalDurationSec": 954,
+      "originalDurationLabel": "15:54",
+      "vadSafeCutSec": 9.9,
+      "note": "1★ 超市课去推广并拆 2 期，每期约 5.5 分钟",
+      "parts": [
+        {
+          "part": "part1",
+          "newTitle": "Grocery Store Vocabulary (Part 1：散装区、果蔬与海鲜)",
+          "estDurationSec": 341.6,
+          "estDurationLabel": "05:42",
+          "estSentences": 100,
+          "segments": [
+            {
+              "label": "开场 + 散装区 + 生鲜冷冻海产",
+              "reason": "逛超市前半程高频词汇",
+              "startSec": 0.0,
+              "endSec": 341.55,
+              "durationSec": 341.55,
+              "firstSentenceId": 1,
+              "lastSentenceId": 100,
+              "sentenceCount": 100
+            }
+          ]
+        },
+        {
+          "part": "part2",
+          "newTitle": "Grocery Store Vocabulary (Part 2：日用货架与超市结账)",
+          "estDurationSec": 340.3,
+          "estDurationLabel": "05:40",
+          "estSentences": 87,
+          "segments": [
+            {
+              "label": "调味烘焙区 + 购物习惯与结账",
+              "reason": "去掉 14:25 后 PDF 推广广告",
+              "startSec": 430.35,
+              "endSec": 770.63,
+              "durationSec": 340.28,
+              "firstSentenceId": 133,
+              "lastSentenceId": 219,
+              "sentenceCount": 87
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "EP 01",
+      "sourceTitle": "Grocery shopping with your English Teacher",
+      "difficulty": 1,
+      "originalDurationSec": 847,
+      "originalDurationLabel": "14:07",
+      "vadSafeCutSec": 10.13,
+      "note": "1★ 超市课去口播广告并拆 2 期（约 4.5m / 5m）",
+      "parts": [
+        {
+          "part": "part1",
+          "newTitle": "Grocery Shopping (Part 1：有机果蔬区与挑选牛油果)",
+          "estDurationSec": 273.6,
+          "estDurationLabel": "04:34",
+          "estSentences": 55,
+          "segments": [
+            {
+              "label": "开场 + 有机果蔬区 + 成熟牛油果",
+              "reason": "去掉 04:45–06:20 Preply 口播广告",
+              "startSec": 0.16,
+              "endSec": 273.8,
+              "durationSec": 273.64,
+              "firstSentenceId": 1,
+              "lastSentenceId": 55,
+              "sentenceCount": 55
+            }
+          ]
+        },
+        {
+          "part": "part2",
+          "newTitle": "Grocery Shopping (Part 2：烘焙区、乳制品与自助结账)",
+          "estDurationSec": 288.8,
+          "estDurationLabel": "04:49",
+          "estSentences": 71,
+          "segments": [
+            {
+              "label": "烘焙区与保质期表达",
+              "reason": "实用日期与烘焙词",
+              "startSec": 385.6,
+              "endSec": 513.64,
+              "durationSec": 128.04,
+              "firstSentenceId": 81,
+              "lastSentenceId": 112,
+              "sentenceCount": 32
+            },
+            {
+              "label": "乳制品区 + 自助结账机 + 收尾",
+              "reason": "去掉中段闲聊，保留实用结账",
+              "startSec": 678.6,
+              "endSec": 839.4,
+              "durationSec": 160.8,
+              "firstSentenceId": 158,
+              "lastSentenceId": 196,
+              "sentenceCount": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "EP 05",
+      "sourceTitle": "Living Alone Diaries ｜ My simple, quiet morning and afternoon!",
+      "difficulty": 1,
+      "originalDurationSec": 601,
+      "originalDurationLabel": "10:01",
+      "vadSafeCutSec": 15.41,
+      "note": "1★ 独居 Vlog 去掉 4+ 分钟纯音乐/空档，收成 1 期约 5.5 分钟短课",
+      "parts": [
+        {
+          "part": "trimmed",
+          "newTitle": "Living Alone Diaries（精编版：独居女孩的静谧晨间与午后）",
+          "estDurationSec": 325.7,
+          "estDurationLabel": "05:26",
+          "estSentences": 59,
+          "segments": [
+            {
+              "label": "晨间瑜伽拉伸与日常护理",
+              "reason": "去掉片头与大段纯音乐",
+              "startSec": 83.38,
+              "endSec": 195.0,
+              "durationSec": 111.62,
+              "firstSentenceId": 7,
+              "lastSentenceId": 26,
+              "sentenceCount": 20
+            },
+            {
+              "label": "手机消毒与生活小插曲",
+              "reason": "地道居家口语",
+              "startSec": 247.25,
+              "endSec": 339.11,
+              "durationSec": 91.86,
+              "firstSentenceId": 29,
+              "lastSentenceId": 40,
+              "sentenceCount": 12
+            },
+            {
+              "label": "追剧闲聊、做冰饮与收尾",
+              "reason": "去掉中段长静音，保留流畅口播",
+              "startSec": 470.04,
+              "endSec": 592.24,
+              "durationSec": 122.2,
+              "firstSentenceId": 52,
+              "lastSentenceId": 78,
+              "sentenceCount": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "EP 16",
+      "sourceTitle": "Living Alone Diaries ｜ What I Eat in a Day in the new apartment!",
+      "difficulty": 1,
+      "originalDurationSec": 586,
+      "originalDurationLabel": "09:46",
+      "vadSafeCutSec": 83.84,
+      "note": "1★ 独居美食 Vlog 去赞助广告与 84s 纯音乐，收成 1 期约 4.5 分钟",
+      "parts": [
+        {
+          "part": "trimmed",
+          "newTitle": "Living Alone Diaries（精编版：独居一日三餐与蒜香意面）",
+          "estDurationSec": 198.6,
+          "estDurationLabel": "03:19",
+          "estSentences": 19,
+          "segments": [
+            {
+              "label": "新家早餐时光",
+              "reason": "去掉片头长静音",
+              "startSec": 110.32,
+              "endSec": 145.37,
+              "durationSec": 35.05,
+              "firstSentenceId": 8,
+              "lastSentenceId": 10,
+              "sentenceCount": 3
+            },
+            {
+              "label": "韩式豆芽拌饭制作",
+              "reason": "去掉 04:45–06:05 Madewell 牛仔裤赞助广告",
+              "startSec": 369.76,
+              "endSec": 442.91,
+              "durationSec": 73.15,
+              "firstSentenceId": 28,
+              "lastSentenceId": 33,
+              "sentenceCount": 6
+            },
+            {
+              "label": "蒜香五花肉意面与试吃",
+              "reason": "保留核心做饭口语，去掉片尾赞助感谢",
+              "startSec": 465.04,
+              "endSec": 555.4,
+              "durationSec": 90.36,
+              "firstSentenceId": 34,
+              "lastSentenceId": 43,
+              "sentenceCount": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "EP 03",
+      "sourceTitle": "English Phrases for Ordering Food",
+      "difficulty": 1,
+      "originalDurationSec": 571,
+      "originalDurationLabel": "09:31",
+      "vadSafeCutSec": 7.4,
+      "note": "1★ 点餐对话拆 2 期，每期约 4.5 分钟",
+      "parts": [
+        {
+          "part": "part1",
+          "newTitle": "Ordering Food at Chipotle (Part 1：菜单选择与加料价格)",
+          "estDurationSec": 274.4,
+          "estDurationLabel": "04:34",
+          "estSentences": 38,
+          "segments": [
+            {
+              "label": "开场 + 卷饼/碗/塔可菜单与加料计价",
+              "reason": "点餐前必懂菜单词汇",
+              "startSec": 0.4,
+              "endSec": 274.76,
+              "durationSec": 274.36,
+              "firstSentenceId": 1,
+              "lastSentenceId": 38,
+              "sentenceCount": 38
+            }
+          ]
+        },
+        {
+          "part": "part2",
+          "newTitle": "Ordering Food at Chipotle (Part 2：柜台实景点单全流程)",
+          "estDurationSec": 270.5,
+          "estDurationLabel": "04:30",
+          "estSentences": 63,
+          "segments": [
+            {
+              "label": "选肉选酱、要求拌匀、点饮料与结账",
+              "reason": "完整柜台实景对话",
+              "startSec": 283.4,
+              "endSec": 553.92,
+              "durationSec": 270.52,
+              "firstSentenceId": 41,
+              "lastSentenceId": 103,
+              "sentenceCount": 63
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "EP 25",
+      "sourceTitle": "Downtown Vocabulary In New York",
+      "difficulty": 1,
+      "originalDurationSec": 549,
+      "originalDurationLabel": "09:09",
+      "vadSafeCutSec": 2.4,
+      "note": "1★ 纽约街头课去赞助广告并拆 2 期（约 4.8m / 2.6m）",
+      "parts": [
+        {
+          "part": "part1",
+          "newTitle": "Downtown NYC Vocabulary (Part 1：摩天大楼与街道人行道)",
+          "estDurationSec": 292.6,
+          "estDurationLabel": "04:53",
+          "estSentences": 53,
+          "segments": [
+            {
+              "label": "开场 + 摩天大楼 + 人行道与街道词汇",
+              "reason": "去掉 05:15–06:30 优惠码赞助广告",
+              "startSec": 0.12,
+              "endSec": 292.67,
+              "durationSec": 292.55,
+              "firstSentenceId": 1,
+              "lastSentenceId": 53,
+              "sentenceCount": 53
+            }
+          ]
+        },
+        {
+          "part": "part2",
+          "newTitle": "Downtown NYC Vocabulary (Part 2：人行横道、地铁与街头热狗)",
+          "estDurationSec": 148.2,
+          "estDurationLabel": "02:28",
+          "estSentences": 34,
+          "segments": [
+            {
+              "label": "过马路 + 纽约地铁 + 街头热狗摊收尾",
+              "reason": "高实用度城市出行词汇",
+              "startSec": 396.64,
+              "endSec": 544.81,
+              "durationSec": 148.17,
+              "firstSentenceId": 72,
+              "lastSentenceId": 105,
+              "sentenceCount": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceNumber": "EP 41 (原 EP 07 Part 1)",
+      "sourceTitle": "Speak American English Around Town",
+      "difficulty": 4,
+      "originalDurationSec": 602,
+      "originalDurationLabel": "10:02",
+      "vadSafeCutSec": 0,
+      "note": "将 Part 1 第二段从 12:04 收短至 10:30（去掉末尾 1.5 分钟绿道慢走），从 10:02 稳稳收进 08:30",
+      "parts": [
+        {
+          "part": "part1",
+          "newTitle": "Speak American English Around Town (Part 1：美式社区漫步与日常设施)",
+          "estDurationSec": 506.0,
+          "estDurationLabel": "08:26",
+          "estSentences": 122,
+          "segments": [
+            {
+              "label": "开场引入",
+              "reason": "保留社区主题开场",
+              "startSec": 0.0,
+              "endSec": 53.31,
+              "durationSec": 53.31
+            },
+            {
+              "label": "街边停车、过马路与垃圾分类回收",
+              "reason": "收尾于绿道入口前，严控 9 分钟以内",
+              "startSec": 176.27,
+              "endSec": 629.0,
+              "durationSec": 452.73
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

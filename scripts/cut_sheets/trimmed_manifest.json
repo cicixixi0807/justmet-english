@@ -1,8 +1,17 @@
 {
   "scheme": "Option B - Version 2 (Part 1 / Part 2 splits for 3 samples)",
   "replacesTitles": [
-    "Real Life ENGLISH Around the City",
+    "Car Vocabulary",
+    "Downtown Vocabulary In New York",
+    "English Phrases for Ordering Food",
+    "Grocery Store Vocabulary： shop in English",
+    "Grocery shopping with your English Teacher",
+    "Living Alone Diaries ｜ My simple, quiet morning and afternoon!",
+    "Living Alone Diaries ｜ What I Eat in a Day in the new apartment!",
+    "Mall Vocabulary In English",
     "Order FOOD in English： Daily Life English",
+    "Real Life ENGLISH Around the City",
+    "Religious Vocabulary in English",
     "Speak American English Around Town"
   ],
   "entries": [
@@ -152,7 +161,7 @@
       "audioFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).trimmed.m4a",
       "coverFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).jpg",
       "polishedFile": "Speak American English Around Town (Part 1：美式社区漫步与日常设施).polished.json",
-      "durationSec": 602.05,
+      "durationSec": 506.54,
       "windows": [
         [
           0.0,
@@ -160,7 +169,7 @@
         ],
         [
           176.02,
-          724.51
+          629.0
         ]
       ]
     },
@@ -191,6 +200,510 @@
         [
           1194.52,
           1340.65
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 18",
+      "sourceTitle": "Religious Vocabulary in English",
+      "part": "part1",
+      "title": "Religious Vocabulary (Part 1：教堂弥撒与神职词汇)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "日常对话",
+        "生活英语"
+      ],
+      "sceneBadge": "日常对话",
+      "videoFile": "Religious Vocabulary (Part 1：教堂弥撒与神职词汇).trimmed.mp4",
+      "audioFile": "Religious Vocabulary (Part 1：教堂弥撒与神职词汇).trimmed.m4a",
+      "coverFile": "Religious Vocabulary (Part 1：教堂弥撒与神职词汇).jpg",
+      "polishedFile": "Religious Vocabulary (Part 1：教堂弥撒与神职词汇).polished.json",
+      "durationSec": 326.05,
+      "windows": [
+        [
+          0.0,
+          326.05
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 18",
+      "sourceTitle": "Religious Vocabulary in English",
+      "part": "part2",
+      "title": "Religious Vocabulary (Part 2：信仰交流与经典词汇)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "日常对话",
+        "生活英语"
+      ],
+      "sceneBadge": "日常对话",
+      "videoFile": "Religious Vocabulary (Part 2：信仰交流与经典词汇).trimmed.mp4",
+      "audioFile": "Religious Vocabulary (Part 2：信仰交流与经典词汇).trimmed.m4a",
+      "coverFile": "Religious Vocabulary (Part 2：信仰交流与经典词汇).jpg",
+      "polishedFile": "Religious Vocabulary (Part 2：信仰交流与经典词汇).polished.json",
+      "durationSec": 319.58,
+      "windows": [
+        [
+          458.27,
+          777.85
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 18",
+      "sourceTitle": "Religious Vocabulary in English",
+      "part": "part3",
+      "title": "Religious Vocabulary (Part 3：多元宗教文化与总结)",
+      "speaker": "YouTube 博主",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "日常对话",
+        "生活英语"
+      ],
+      "sceneBadge": "日常对话",
+      "videoFile": "Religious Vocabulary (Part 3：多元宗教文化与总结).trimmed.mp4",
+      "audioFile": "Religious Vocabulary (Part 3：多元宗教文化与总结).trimmed.m4a",
+      "coverFile": "Religious Vocabulary (Part 3：多元宗教文化与总结).jpg",
+      "polishedFile": "Religious Vocabulary (Part 3：多元宗教文化与总结).polished.json",
+      "durationSec": 321.45,
+      "windows": [
+        [
+          913.27,
+          1234.72
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 23",
+      "sourceTitle": "Car Vocabulary",
+      "part": "part1",
+      "title": "Car Vocabulary (Part 1：洗车与车身外观词汇)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "美食",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Car Vocabulary (Part 1：洗车与车身外观词汇).trimmed.mp4",
+      "audioFile": "Car Vocabulary (Part 1：洗车与车身外观词汇).trimmed.m4a",
+      "coverFile": "Car Vocabulary (Part 1：洗车与车身外观词汇).jpg",
+      "polishedFile": "Car Vocabulary (Part 1：洗车与车身外观词汇).polished.json",
+      "durationSec": 306.75,
+      "windows": [
+        [
+          0.03,
+          306.78
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 23",
+      "sourceTitle": "Car Vocabulary",
+      "part": "part2",
+      "title": "Car Vocabulary (Part 2：轮胎、爆胎与仪表盘)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "美食",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Car Vocabulary (Part 2：轮胎、爆胎与仪表盘).trimmed.mp4",
+      "audioFile": "Car Vocabulary (Part 2：轮胎、爆胎与仪表盘).trimmed.m4a",
+      "coverFile": "Car Vocabulary (Part 2：轮胎、爆胎与仪表盘).jpg",
+      "polishedFile": "Car Vocabulary (Part 2：轮胎、爆胎与仪表盘).polished.json",
+      "durationSec": 322.6,
+      "windows": [
+        [
+          402.57,
+          725.17
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 23",
+      "sourceTitle": "Car Vocabulary",
+      "part": "part3",
+      "title": "Car Vocabulary (Part 3：中控台、换挡杆与车内清洁)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "美食",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Car Vocabulary (Part 3：中控台、换挡杆与车内清洁).trimmed.mp4",
+      "audioFile": "Car Vocabulary (Part 3：中控台、换挡杆与车内清洁).trimmed.m4a",
+      "coverFile": "Car Vocabulary (Part 3：中控台、换挡杆与车内清洁).jpg",
+      "polishedFile": "Car Vocabulary (Part 3：中控台、换挡杆与车内清洁).polished.json",
+      "durationSec": 321.0,
+      "windows": [
+        [
+          812.45,
+          1133.45
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 27",
+      "sourceTitle": "Mall Vocabulary In English",
+      "part": "part1",
+      "title": "Mall Vocabulary (Part 1：商场分区与美食广场点餐)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "购物",
+        "美食",
+        "旅行"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Mall Vocabulary (Part 1：商场分区与美食广场点餐).trimmed.mp4",
+      "audioFile": "Mall Vocabulary (Part 1：商场分区与美食广场点餐).trimmed.m4a",
+      "coverFile": "Mall Vocabulary (Part 1：商场分区与美食广场点餐).jpg",
+      "polishedFile": "Mall Vocabulary (Part 1：商场分区与美食广场点餐).polished.json",
+      "durationSec": 335.32,
+      "windows": [
+        [
+          0.0,
+          335.32
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 27",
+      "sourceTitle": "Mall Vocabulary In English",
+      "part": "part2",
+      "title": "Mall Vocabulary (Part 2：潮流服饰、游戏与玩具店)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "购物",
+        "美食",
+        "旅行"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Mall Vocabulary (Part 2：潮流服饰、游戏与玩具店).trimmed.mp4",
+      "audioFile": "Mall Vocabulary (Part 2：潮流服饰、游戏与玩具店).trimmed.m4a",
+      "coverFile": "Mall Vocabulary (Part 2：潮流服饰、游戏与玩具店).jpg",
+      "polishedFile": "Mall Vocabulary (Part 2：潮流服饰、游戏与玩具店).polished.json",
+      "durationSec": 336.22,
+      "windows": [
+        [
+          348.56,
+          684.78
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 27",
+      "sourceTitle": "Mall Vocabulary In English",
+      "part": "part3",
+      "title": "Mall Vocabulary (Part 3：乐高玩具、排队结账与奢侈品区)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "购物",
+        "美食",
+        "旅行"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Mall Vocabulary (Part 3：乐高玩具、排队结账与奢侈品区).trimmed.mp4",
+      "audioFile": "Mall Vocabulary (Part 3：乐高玩具、排队结账与奢侈品区).trimmed.m4a",
+      "coverFile": "Mall Vocabulary (Part 3：乐高玩具、排队结账与奢侈品区).jpg",
+      "polishedFile": "Mall Vocabulary (Part 3：乐高玩具、排队结账与奢侈品区).polished.json",
+      "durationSec": 313.89,
+      "windows": [
+        [
+          726.3,
+          1040.19
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 02",
+      "sourceTitle": "Grocery Store Vocabulary： shop in English",
+      "part": "part1",
+      "title": "Grocery Store Vocabulary (Part 1：散装区、果蔬与海鲜)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "购物",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Grocery Store Vocabulary (Part 1：散装区、果蔬与海鲜).trimmed.mp4",
+      "audioFile": "Grocery Store Vocabulary (Part 1：散装区、果蔬与海鲜).trimmed.m4a",
+      "coverFile": "Grocery Store Vocabulary (Part 1：散装区、果蔬与海鲜).jpg",
+      "polishedFile": "Grocery Store Vocabulary (Part 1：散装区、果蔬与海鲜).polished.json",
+      "durationSec": 341.8,
+      "windows": [
+        [
+          0.0,
+          341.8
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 02",
+      "sourceTitle": "Grocery Store Vocabulary： shop in English",
+      "part": "part2",
+      "title": "Grocery Store Vocabulary (Part 2：日用货架与超市结账)",
+      "speaker": "Speak English With Vanessa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "购物",
+        "生活英语",
+        "生活"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Grocery Store Vocabulary (Part 2：日用货架与超市结账).trimmed.mp4",
+      "audioFile": "Grocery Store Vocabulary (Part 2：日用货架与超市结账).trimmed.m4a",
+      "coverFile": "Grocery Store Vocabulary (Part 2：日用货架与超市结账).jpg",
+      "polishedFile": "Grocery Store Vocabulary (Part 2：日用货架与超市结账).polished.json",
+      "durationSec": 341.91,
+      "windows": [
+        [
+          495.41,
+          837.32
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 01",
+      "sourceTitle": "Grocery shopping with your English Teacher",
+      "part": "part1",
+      "title": "Grocery Shopping (Part 1：有机果蔬区与挑选牛油果)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "购物",
+        "生活英语"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Grocery Shopping (Part 1：有机果蔬区与挑选牛油果).trimmed.mp4",
+      "audioFile": "Grocery Shopping (Part 1：有机果蔬区与挑选牛油果).trimmed.m4a",
+      "coverFile": "Grocery Shopping (Part 1：有机果蔬区与挑选牛油果).jpg",
+      "polishedFile": "Grocery Shopping (Part 1：有机果蔬区与挑选牛油果).polished.json",
+      "durationSec": 268.17,
+      "windows": [
+        [
+          0.0,
+          268.17
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 01",
+      "sourceTitle": "Grocery shopping with your English Teacher",
+      "part": "part2",
+      "title": "Grocery Shopping (Part 2：烘焙区、乳制品与自助结账)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "购物",
+        "生活英语"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Grocery Shopping (Part 2：烘焙区、乳制品与自助结账).trimmed.mp4",
+      "audioFile": "Grocery Shopping (Part 2：烘焙区、乳制品与自助结账).trimmed.m4a",
+      "coverFile": "Grocery Shopping (Part 2：烘焙区、乳制品与自助结账).jpg",
+      "polishedFile": "Grocery Shopping (Part 2：烘焙区、乳制品与自助结账).polished.json",
+      "durationSec": 274.88,
+      "windows": [
+        [
+          385.35,
+          498.93
+        ],
+        [
+          678.35,
+          839.65
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 05",
+      "sourceTitle": "Living Alone Diaries ｜ My simple, quiet morning and afternoon!",
+      "part": "trimmed",
+      "title": "Living Alone Diaries（精编版：独居女孩的静谧晨间与午后）",
+      "speaker": "Michelle Choi",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "购物",
+        "美食",
+        "生活"
+      ],
+      "sceneBadge": "购物",
+      "videoFile": "Living Alone Diaries（精编版：独居女孩的静谧晨间与午后）.trimmed.mp4",
+      "audioFile": "Living Alone Diaries（精编版：独居女孩的静谧晨间与午后）.trimmed.m4a",
+      "coverFile": "Living Alone Diaries（精编版：独居女孩的静谧晨间与午后）.jpg",
+      "polishedFile": "Living Alone Diaries（精编版：独居女孩的静谧晨间与午后）.polished.json",
+      "durationSec": 327.18,
+      "windows": [
+        [
+          83.13,
+          195.25
+        ],
+        [
+          247.0,
+          339.36
+        ],
+        [
+          469.79,
+          592.49
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 16",
+      "sourceTitle": "Living Alone Diaries ｜ What I Eat in a Day in the new apartment!",
+      "part": "trimmed",
+      "title": "Living Alone Diaries（精编版：独居一日三餐与蒜香意面）",
+      "speaker": "Michelle Choi",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "美食",
+        "生活"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Living Alone Diaries（精编版：独居一日三餐与蒜香意面）.trimmed.mp4",
+      "audioFile": "Living Alone Diaries（精编版：独居一日三餐与蒜香意面）.trimmed.m4a",
+      "coverFile": "Living Alone Diaries（精编版：独居一日三餐与蒜香意面）.jpg",
+      "polishedFile": "Living Alone Diaries（精编版：独居一日三餐与蒜香意面）.polished.json",
+      "durationSec": 217.26,
+      "windows": [
+        [
+          110.07,
+          145.62
+        ],
+        [
+          369.51,
+          443.16
+        ],
+        [
+          464.79,
+          572.85
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 03",
+      "sourceTitle": "English Phrases for Ordering Food",
+      "part": "part1",
+      "title": "Ordering Food at Chipotle (Part 1：菜单选择与加料价格)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "美食",
+        "生活英语"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Ordering Food at Chipotle (Part 1：菜单选择与加料价格).trimmed.mp4",
+      "audioFile": "Ordering Food at Chipotle (Part 1：菜单选择与加料价格).trimmed.m4a",
+      "coverFile": "Ordering Food at Chipotle (Part 1：菜单选择与加料价格).jpg",
+      "polishedFile": "Ordering Food at Chipotle (Part 1：菜单选择与加料价格).polished.json",
+      "durationSec": 254.18,
+      "windows": [
+        [
+          0.15,
+          254.33
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 03",
+      "sourceTitle": "English Phrases for Ordering Food",
+      "part": "part2",
+      "title": "Ordering Food at Chipotle (Part 2：柜台实景点单全流程)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "美食",
+        "生活英语"
+      ],
+      "sceneBadge": "美食",
+      "videoFile": "Ordering Food at Chipotle (Part 2：柜台实景点单全流程).trimmed.mp4",
+      "audioFile": "Ordering Food at Chipotle (Part 2：柜台实景点单全流程).trimmed.m4a",
+      "coverFile": "Ordering Food at Chipotle (Part 2：柜台实景点单全流程).jpg",
+      "polishedFile": "Ordering Food at Chipotle (Part 2：柜台实景点单全流程).polished.json",
+      "durationSec": 300.3,
+      "windows": [
+        [
+          253.87,
+          554.17
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 25",
+      "sourceTitle": "Downtown Vocabulary In New York",
+      "part": "part1",
+      "title": "Downtown NYC Vocabulary (Part 1：摩天大楼与街道人行道)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "旅行",
+        "生活英语"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "Downtown NYC Vocabulary (Part 1：摩天大楼与街道人行道).trimmed.mp4",
+      "audioFile": "Downtown NYC Vocabulary (Part 1：摩天大楼与街道人行道).trimmed.m4a",
+      "coverFile": "Downtown NYC Vocabulary (Part 1：摩天大楼与街道人行道).jpg",
+      "polishedFile": "Downtown NYC Vocabulary (Part 1：摩天大楼与街道人行道).polished.json",
+      "durationSec": 282.35,
+      "windows": [
+        [
+          0.0,
+          282.35
+        ]
+      ]
+    },
+    {
+      "sourceNumber": "EP 25",
+      "sourceTitle": "Downtown Vocabulary In New York",
+      "part": "part2",
+      "title": "Downtown NYC Vocabulary (Part 2：人行横道、地铁与街头热狗)",
+      "speaker": "Ariannita la Gringa",
+      "region": "美国",
+      "difficulty": 1,
+      "tags": [
+        "旅行",
+        "生活英语"
+      ],
+      "sceneBadge": "旅行",
+      "videoFile": "Downtown NYC Vocabulary (Part 2：人行横道、地铁与街头热狗).trimmed.mp4",
+      "audioFile": "Downtown NYC Vocabulary (Part 2：人行横道、地铁与街头热狗).trimmed.m4a",
+      "coverFile": "Downtown NYC Vocabulary (Part 2：人行横道、地铁与街头热狗).jpg",
+      "polishedFile": "Downtown NYC Vocabulary (Part 2：人行横道、地铁与街头热狗).polished.json",
+      "durationSec": 148.67,
+      "windows": [
+        [
+          396.39,
+          545.06
         ]
       ]
     }
