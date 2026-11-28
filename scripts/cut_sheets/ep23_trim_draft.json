@@ -1,0 +1,206 @@
+{
+  "status": "READONLY_DRAFT_AWAITING_APPROVAL",
+  "sourceMediaModified": false,
+  "targetEpisode": {
+    "number": "EP 23",
+    "id": "local-58-trimmed-58-part1",
+    "title": "宅女的夏日海岛假期：出发、美食与悠闲时光",
+    "speaker": "Michelle Choi",
+    "originalDurationSec": 334,
+    "originalDurationLabel": "05:34"
+  },
+  "removedSegments": [
+    {
+      "type": "intro_song_and_jfk",
+      "startSec": 0.0,
+      "endSec": 26.4,
+      "durationSec": 26.4,
+      "reason": "删 #1 歌词 'Feel like falling deeper.' + #2 叠歌口播 'I'm currently at JFK.' + skipRange [10.43, 26.40]"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 35.06,
+      "endSec": 38.0,
+      "durationSec": 2.94,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 52.19,
+      "endSec": 74.72,
+      "durationSec": 22.53,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 87.77,
+      "endSec": 90.8,
+      "durationSec": 3.03,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 97.63,
+      "endSec": 100.48,
+      "durationSec": 2.85,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 106.43,
+      "endSec": 126.96,
+      "durationSec": 20.53,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 140.02,
+      "endSec": 155.44,
+      "durationSec": 15.42,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 176.95,
+      "endSec": 190.48,
+      "durationSec": 13.53,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 197.23,
+      "endSec": 198.8,
+      "durationSec": 1.57,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 203.18,
+      "endSec": 207.2,
+      "durationSec": 4.02,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 255.5,
+      "endSec": 256.71,
+      "durationSec": 1.21,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 311.69,
+      "endSec": 312.4,
+      "durationSec": 0.71,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    },
+    {
+      "type": "mid_skipRange",
+      "startSec": 317.85,
+      "endSec": 319.44,
+      "durationSec": 1.59,
+      "reason": "彻底剪除句间纯音乐/空档 skipRange"
+    }
+  ],
+  "keptWindows": [
+    {
+      "startSec": 26.4,
+      "endSec": 35.06,
+      "durationSec": 8.66,
+      "firstSentenceId": 3,
+      "lastSentenceId": 4
+    },
+    {
+      "startSec": 38.0,
+      "endSec": 52.19,
+      "durationSec": 14.19,
+      "firstSentenceId": 5,
+      "lastSentenceId": 7
+    },
+    {
+      "startSec": 74.72,
+      "endSec": 87.77,
+      "durationSec": 13.05,
+      "firstSentenceId": 8,
+      "lastSentenceId": 10
+    },
+    {
+      "startSec": 90.8,
+      "endSec": 97.63,
+      "durationSec": 6.83,
+      "firstSentenceId": 11,
+      "lastSentenceId": 12
+    },
+    {
+      "startSec": 100.48,
+      "endSec": 106.43,
+      "durationSec": 5.95,
+      "firstSentenceId": 13,
+      "lastSentenceId": 13
+    },
+    {
+      "startSec": 126.96,
+      "endSec": 140.02,
+      "durationSec": 13.06,
+      "firstSentenceId": 14,
+      "lastSentenceId": 16
+    },
+    {
+      "startSec": 155.44,
+      "endSec": 176.95,
+      "durationSec": 21.51,
+      "firstSentenceId": 17,
+      "lastSentenceId": 20
+    },
+    {
+      "startSec": 190.48,
+      "endSec": 197.23,
+      "durationSec": 6.75,
+      "firstSentenceId": 21,
+      "lastSentenceId": 21
+    },
+    {
+      "startSec": 198.8,
+      "endSec": 203.18,
+      "durationSec": 4.38,
+      "firstSentenceId": 22,
+      "lastSentenceId": 22
+    },
+    {
+      "startSec": 207.2,
+      "endSec": 255.5,
+      "durationSec": 48.3,
+      "firstSentenceId": 23,
+      "lastSentenceId": 33
+    },
+    {
+      "startSec": 256.71,
+      "endSec": 311.69,
+      "durationSec": 54.98,
+      "firstSentenceId": 34,
+      "lastSentenceId": 54
+    },
+    {
+      "startSec": 312.4,
+      "endSec": 317.85,
+      "durationSec": 5.45,
+      "firstSentenceId": 55,
+      "lastSentenceId": 55
+    },
+    {
+      "startSec": 319.44,
+      "endSec": 333.99,
+      "durationSec": 14.55,
+      "firstSentenceId": 56,
+      "lastSentenceId": 61
+    }
+  ],
+  "firstSentenceAfterTrim": "#3 I'm with Blurry Salman and this will be our first time.",
+  "lastSentenceAfterTrim": "#61 It's okay.",
+  "keptSentenceCount": 59,
+  "estDurationSec": 217.66,
+  "estDurationLabel": "03:38",
+  "estWpm": 110.5,
+  "expectedTier": "B",
+  "expectedDifficulty": 2
+}

@@ -304,6 +304,149 @@ export const DICTIONARY = {
     ],
     exampleEn: 'Once product and marketing are aligned, execution moves fast.',
     exampleZh: '一旦产品和市场目标对齐，执行起来就会非常快。'
+  },
+  'show of hands': {
+    headword: 'show of hands',
+    pos: 'noun phrase',
+    type: 'expression',
+    level: '高频地道短语',
+    us: '/ʃoʊ əv hændz/',
+    uk: '/ʃəʊ əv hændz/',
+    meanings: [
+      { en: 'A quick vote or poll taken by asking people to raise their hands.', zh: '举手表决；举手示意' }
+    ],
+    exampleEn: 'Can I get a quick show of hands for who wants to join dinner?',
+    exampleZh: '想一起吃晚饭的，可以举一下手示意吗？'
+  },
+  'used to be': {
+    headword: 'used to be',
+    pos: 'verb phrase',
+    type: 'expression',
+    level: '日常高频',
+    us: '/ˈjuːst tə biː/',
+    uk: '/ˈjuːst tə biː/',
+    meanings: [
+      { en: 'Existed or was true in the past, but is no longer the case.', zh: '过去曾经是；以前是' }
+    ],
+    exampleEn: 'This neighborhood used to be super quiet five years ago.',
+    exampleZh: '这个街区五年前曾经非常安静。'
+  },
+  'at least': {
+    headword: 'at least',
+    pos: 'adverbial phrase',
+    type: 'expression',
+    level: '日常高频',
+    us: '/æt liːst/',
+    uk: '/æt liːst/',
+    meanings: [
+      { en: 'Not less than; at the minimum; or used to highlight a positive side.', zh: '至少；起码' }
+    ],
+    exampleEn: 'It rained all afternoon, but at least we found a cozy café.',
+    exampleZh: '下了一整个下午的雨，但起码我们找到了一家很舒服的咖啡馆。'
+  },
+  'first time': {
+    headword: 'first time',
+    pos: 'noun phrase',
+    type: 'expression',
+    level: '日常高频',
+    us: '/fɜːrst taɪm/',
+    uk: '/fɜːst taɪm/',
+    meanings: [
+      { en: 'The very first occasion of doing or experiencing something.', zh: '第一次；初次' }
+    ],
+    exampleEn: 'This will be our first time visiting the island together.',
+    exampleZh: '这将是我们第一次一起去这座海岛玩。'
+  },
+  'give it a try': {
+    headword: 'give it a try',
+    pos: 'verb phrase',
+    type: 'expression',
+    level: '口语地道',
+    us: '/ɡɪv ɪt ə traɪ/',
+    uk: '/ɡɪv ɪt ə traɪ/',
+    meanings: [
+      { en: 'To attempt or test something to see if you like it or if it works.', zh: '试一试；尝试一下' }
+    ],
+    exampleEn: 'If you have never tried dipping fries in a Frosty, give it a try!',
+    exampleZh: '如果你从来没试过薯条蘸奶昔，一定要试一试！'
+  },
+  'for here': {
+    headword: 'for here',
+    pos: 'prepositional phrase',
+    type: 'expression',
+    level: '点单高频',
+    us: '/fɔːr hɪr/',
+    uk: '/fɔː hɪə/',
+    meanings: [
+      { en: 'Eating or drinking inside the restaurant rather than taking it away.', zh: '堂食；在这里吃' }
+    ],
+    exampleEn: 'Will that be for here or to go?',
+    exampleZh: '请问是堂食还是打包带走？'
+  },
+  'to go': {
+    headword: 'to go',
+    pos: 'phrase',
+    type: 'expression',
+    level: '点单高频',
+    us: '/tə ɡoʊ/',
+    uk: '/tə ɡəʊ/',
+    meanings: [
+      { en: 'Ordered to be packed and taken away from the restaurant.', zh: '打包；带走；外带' }
+    ],
+    exampleEn: 'Can I get an iced latte to go, please?',
+    exampleZh: '请问可以来一杯冰拿铁外带吗？'
+  },
+  'on the side': {
+    headword: 'on the side',
+    pos: 'prepositional phrase',
+    type: 'expression',
+    level: '点单高频',
+    us: '/ɑːn ðə saɪd/',
+    uk: '/ɒn ðə saɪd/',
+    meanings: [
+      { en: 'Served in a separate dish or container instead of mixed in.', zh: '单独放旁边；另装（酱料/配菜）' }
+    ],
+    exampleEn: 'Could I have the dressing on the side?',
+    exampleZh: '可以把沙拉酱单独装在旁边吗？'
+  },
+  'make sure': {
+    headword: 'make sure',
+    pos: 'verb phrase',
+    type: 'expression',
+    level: '日常高频',
+    us: '/meɪk ʃʊr/',
+    uk: '/meɪk ʃʊə/',
+    meanings: [
+      { en: 'To check or take care so that something is certain to happen.', zh: '确保；务必确认' }
+    ],
+    exampleEn: 'Make sure you grab a couple of extra napkins.',
+    exampleZh: '记得多拿几张餐巾纸。'
+  },
+  'in order to': {
+    headword: 'in order to',
+    pos: 'conjunction phrase',
+    type: 'expression',
+    level: '高频连词',
+    us: '/ɪn ˈɔːrdər tuː/',
+    uk: '/ɪn ˈɔːdə tuː/',
+    meanings: [
+      { en: 'With the purpose or intention of doing something.', zh: '为了；以便' }
+    ],
+    exampleEn: 'We left early in order to beat the airport traffic.',
+    exampleZh: '我们提前出发，为了避开去机场的堵车。'
+  },
+  'take a look': {
+    headword: 'take a look',
+    pos: 'verb phrase',
+    type: 'expression',
+    level: '日常高频',
+    us: '/teɪk ə lʊk/',
+    uk: '/teɪk ə lʊk/',
+    meanings: [
+      { en: 'To look at or inspect something briefly.', zh: '看一看；瞧一瞧' }
+    ],
+    exampleEn: 'Let us take a look inside the souvenir shop.',
+    exampleZh: '咱们进去伴手礼店里瞧一瞧吧。'
   }
 };
 

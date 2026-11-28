@@ -2,7 +2,11 @@
 """
 支持 HTTP Range（206 Partial Content）+ 实时真词典 API (/api/define) 的本地服务：
 1. 大体积 MP4/MP3 视频秒级拖动、逐句跳转、双轨音画同步；
-2. 点击任意单词/短语调用 /api/define 返回真实中英文释义、美/英音标、词性与双语例句，并永久缓存到外接硬盘。
+2. 点击任意单词或完整短语调用 /api/define，依次走：
+   ① 外接硬盘持久化缓存（_dictionary_cache.json）
+   ② Gemini 实时词典（需 GEMINI_API_KEY）
+   ③ 国内直连可用兜底：有道词典 API（支持整段英文短语，如 show of hands / used to be / at least / first time）
+   ④ Free Dictionary API（仅限单词级兜底，绝不把短语截断为第一个单词）
 """
 import json
 import os
@@ -44,12 +48,52 @@ def save_dict_cache(cache):
 DICT_CACHE = load_dict_cache()
 
 
+def query_youdao_domestic(word: str, context: str = ""):
+    """国内直连可用的有道词典兜底（支持完整英文短语整段查询）"""
+    q = urllib.parse.quote(word.strip())
+    headers = {"User-Agent": "Mozilla/5.0"}
+    # 1) 有道 suggest 接口（国内稳定、响应快、原生支持短语）
+    try:
+        url = f"https://dict.youdao.com/suggest?num=3&ver=3.0&doctype=json&cache=false&le=en&q={q}"
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=6) as resp:
+            body = json.loads(resp.read().decode("utf-8"))
+            entries = (body.get("data") or {}).get("entries") or []
+            # 优先精确匹配完整词/短语
+            exact = next((e for e in entries if (e.get("entry") or "").strip().lower() == word.strip().lower()), None)
+            chosen = exact or (entries[0] if entries else None)
+            if chosen and chosen.get("explain"):
+                expl = chosen["explain"].strip()
+                # 拆分词性与中文释义
+                pos_m = re.match(r"^([a-z]+\.)\s*(.+)$", expl)
+                pos = pos_m.group(1) if pos_m else ("phrase" if " " in word.strip() else "word")
+                zh = pos_m.group(2) if pos_m else expl
+                return {
+                    "headword": word.strip(),
+                    "pos": pos,
+                    "type": "expression" if " " in word.strip() else "vocab",
+                    "level": "有道词典",
+                    "us": "",
+                    "uk": "",
+                    "meanings": [{"zh": zh, "en": ""}],
+                    "exampleEn": context or "",
+                    "exampleZh": "",
+                }
+    except Exception:
+        pass
+    return None
+
+
 def query_real_dictionary(word: str, context: str = ""):
     key = word.strip().lower()
     if key in DICT_CACHE:
-        return DICT_CACHE[key]
+        cached = DICT_CACHE[key]
+        # 避免历史旧缓存里把英文释义直接填进 zh 的脏条目继续污染短语
+        if isinstance(cached, dict) and cached.get("meanings"):
+            return cached, "cache", ""
 
-    api_key = os.environ.get("GEMINI_API_KEY", "")
+    errors = []
+    api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if api_key:
         models = ["gemini-flash-lite-latest", "gemini-2.5-flash-lite", "gemini-3.1-flash-lite"]
         user_msg = f"Word/Phrase: {word}\nContext sentence: {context}" if context else f"Word/Phrase: {word}"
@@ -67,53 +111,68 @@ def query_real_dictionary(word: str, context: str = ""):
                     headers={"Content-Type": "application/json", "x-goog-api-key": api_key},
                     method="POST",
                 )
-                with urllib.request.urlopen(req, timeout=20) as resp:
+                with urllib.request.urlopen(req, timeout=10) as resp:
                     body = json.loads(resp.read().decode("utf-8"))
                     text = body["candidates"][0]["content"]["parts"][0]["text"]
                     entry = json.loads(text)
                     if isinstance(entry, dict) and entry.get("meanings"):
+                        entry["headword"] = entry.get("headword") or word.strip()
                         DICT_CACHE[key] = entry
                         save_dict_cache(DICT_CACHE)
-                        return entry
-            except Exception:
+                        return entry, "gemini", ""
+            except Exception as exc:
+                errors.append(f"gemini({m}): {type(exc).__name__}")
                 continue
+    else:
+        errors.append("未配置 GEMINI_API_KEY")
 
-    # Fallback: Free Dictionary API (English definitions + IPA)
-    try:
-        single = key.split()[0]
-        url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{urllib.parse.quote(single)}"
-        with urllib.request.urlopen(url, timeout=8) as resp:
-            arr = json.loads(resp.read().decode("utf-8"))
-            if isinstance(arr, list) and arr:
-                item = arr[0]
-                phon = item.get("phonetic") or next((p.get("text") for p in item.get("phonetics", []) if p.get("text")), f"/{word}/")
-                ms = item.get("meanings", [])
-                pos = ms[0].get("partOfSpeech", "word") if ms else "word"
-                defs = []
-                ex_en = ""
-                for m_obj in ms[:2]:
-                    for d in m_obj.get("definitions", [])[:1]:
-                        defs.append({"en": d.get("definition", ""), "zh": d.get("definition", "")})
-                        if not ex_en and d.get("example"):
-                            ex_en = d["example"]
-                entry = {
-                    "headword": word,
-                    "pos": pos,
-                    "type": "expression" if " " in key else "vocab",
-                    "level": "常用词汇",
-                    "us": phon,
-                    "uk": phon,
-                    "meanings": defs or [{"en": "English vocabulary entry.", "zh": "暂无中文释义"}],
-                    "exampleEn": ex_en or context or "",
-                    "exampleZh": "",
-                }
-                DICT_CACHE[key] = entry
-                save_dict_cache(DICT_CACHE)
-                return entry
-    except Exception:
-        pass
+    # 国内可用兜底：有道词典（支持完整英文短语整段查询）
+    yd = query_youdao_domestic(word, context)
+    if yd:
+        DICT_CACHE[key] = yd
+        save_dict_cache(DICT_CACHE)
+        return yd, "youdao", ""
+    errors.append("youdao: 不可达或未收录")
 
-    return None
+    # 仅对单个英文单词尝试 Free Dictionary API（绝不把短语截断成第一个单词）
+    if " " not in key:
+        try:
+            url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{urllib.parse.quote(key)}"
+            with urllib.request.urlopen(url, timeout=6) as resp:
+                arr = json.loads(resp.read().decode("utf-8"))
+                if isinstance(arr, list) and arr:
+                    item = arr[0]
+                    phon = item.get("phonetic") or next((p.get("text") for p in item.get("phonetics", []) if p.get("text")), "")
+                    ms = item.get("meanings", [])
+                    pos = ms[0].get("partOfSpeech", "word") if ms else "word"
+                    defs = []
+                    ex_en = ""
+                    for m_obj in ms[:2]:
+                        for d in m_obj.get("definitions", [])[:1]:
+                            en_def = d.get("definition", "")
+                            if en_def:
+                                defs.append({"en": en_def, "zh": ""})
+                            if not ex_en and d.get("example"):
+                                ex_en = d["example"]
+                    if defs:
+                        entry = {
+                            "headword": word.strip(),
+                            "pos": pos,
+                            "type": "vocab",
+                            "level": "英英词典兜底",
+                            "us": phon,
+                            "uk": phon,
+                            "meanings": defs,
+                            "exampleEn": ex_en or context or "",
+                            "exampleZh": "",
+                        }
+                        DICT_CACHE[key] = entry
+                        save_dict_cache(DICT_CACHE)
+                        return entry, "dictionaryapi", ""
+        except Exception as exc:
+            errors.append(f"dictionaryapi: {type(exc).__name__}")
+
+    return None, "none", "；".join(errors)
 
 
 class RangeHTTPRequestHandler(SimpleHTTPRequestHandler):
@@ -126,8 +185,14 @@ class RangeHTTPRequestHandler(SimpleHTTPRequestHandler):
             qs = urllib.parse.parse_qs(parsed.query)
             word = (qs.get("word") or [""])[0].strip()
             context = (qs.get("context") or [""])[0].strip()
-            entry = query_real_dictionary(word, context) if word else None
-            payload = json.dumps({"ok": bool(entry), "entry": entry}, ensure_ascii=False).encode("utf-8")
+            if not word:
+                payload = json.dumps({"ok": False, "entry": None, "error": "缺少查询词"}, ensure_ascii=False).encode("utf-8")
+            else:
+                entry, source, err = query_real_dictionary(word, context)
+                payload = json.dumps(
+                    {"ok": bool(entry), "entry": entry, "source": source, "error": err},
+                    ensure_ascii=False,
+                ).encode("utf-8")
             self.send_response(200)
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self.send_header("Content-Length", str(len(payload)))
