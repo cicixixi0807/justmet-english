@@ -597,28 +597,32 @@ def classify_scene_tier(title: str, source_title: str, speaker: str, tags, sente
     combo = f"{title} {source_title} {speaker}".lower()
     body = " ".join(s.get("en", "") for s in (sentences or [])[:30]).lower()
 
-    # C 档：正式演讲 / 名人访谈 / 商业深度内容
+    # C 档：正式演讲 / 名人访谈 / 深度好友访谈 / 商业观点
     c_signals = [
         "ted", "tedx", "ted-ed", "imposter syndrome", "73 questions", "in the bag", "vogue",
         "keynote", "podcast", "celeste headlee", "chris fenning", "elizabeth cox",
         "victoria beckham", "emma watson", "kendall jenner", "taylor swift", "jensen",
-        "slowing your business down",
+        "slowing your business down", "辛辛那提好友访谈",
     ]
     if any(_kw_match(k, combo) for k in c_signals) or "名人访谈" in (tags or []):
-        return "C", "高信息密度（正式演讲/名人访谈/商业观点）", False
+        return "C", "高信息密度（正式演讲/访谈/商业观点）", False
 
-    # B 档：生活 vlog、多场景城市英语、内容较密的日常记录
+    # A 档优先识别明确入门情景（银行邮局、购物、点餐、词汇课等，封顶 3★）
+    a_explicit = [
+        "银行", "邮局", "drive-thru 气动管道",
+    ]
+    if any(_kw_match(k, combo) for k in a_explicit):
+        return "A", "入门情景（银行/邮局生活情景教学）", False
+
+    # B 档：生活 vlog、多场景城市英语、俚语对比精讲、看房实战、内容较密的日常记录
     b_signals = [
         "living alone diaries", "homebody", "alone in new york", "alone but not lonely",
         "what i eat", "what i spend", "productive & busy day", "natural korean makeup",
         "around the city", "around town", "buy a house", "can you understand my friend",
-        "sydney serena", "michelle choi",
+        "美式街头俚语精讲", "sydney serena", "michelle choi",
     ]
     if any(_kw_match(k, combo) for k in b_signals):
-        # 标记边界项：多场景城市教学 / 买房 / 俚语访谈（介于 A 与 B 之间）
-        borderline = any(_kw_match(k, combo) for k in ["around the city", "around town", "buy a house", "can you understand my friend"])
-        reason = "日常进阶（多场景城市英语/生活记录）" if borderline else "日常进阶（生活Vlog/日常记录）"
-        return "B", reason, borderline
+        return "B", "日常进阶（生活Vlog/多场景城市英语/实战精讲）", False
 
     # A 档：生活英语教学、购物、点餐、词汇课、短情景对话
     a_signals = [
