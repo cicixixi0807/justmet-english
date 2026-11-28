@@ -88,7 +88,28 @@ def is_bad_split(left: str, right: str) -> bool:
     return False
 
 
-def split_sentence_cleanly(text: str, total_dur: float) -> list[str]:
+MANUAL_CLEAN_SPLITS = {
+    ("EP 12", 3): [
+        "In this English lesson, I will invite you along with me for part of my day.",
+        "So that you can see my daily routine.",
+        "And along the way, you'll be able to learn how to talk about your daily routine.",
+    ],
+    ("EP 66", 38): [
+        "Also, in the U.S. waiters and waitresses rely on a heavy portion of tipping as their pay.",
+        "So if you eat inside a restaurant with a waiter or waitress that is providing you a service.",
+        "You should tip at least 20% of the bill to pay the waiter or waitress for their work.",
+    ],
+    ("EP 35", 104): [
+        "Like, I've been out here like five times.",
+        "And every time I just, I don't know.",
+        "I'm just, it's a lot of effort to go out.",
+    ],
+}
+
+
+def split_sentence_cleanly(text: str, total_dur: float, key=None) -> list[str]:
+    if key and key in MANUAL_CLEAN_SPLITS:
+        return list(MANUAL_CLEAN_SPLITS[key])
     """
     Split a long sentence into >= 2 complete-thought chunks (~<=10s each).
     - Protects ALL ellipses (`...`/`…`), `a.m.`/`p.m.`, acronyms (`U.S.`, `T.S.`),
@@ -392,8 +413,12 @@ def main():
     valley_hits = 0
     total_cuts = 0
 
+    over15_parts = 0
+    over40_parts = 0
+    ep68_flagged = []
+
     for ep, s, dur, wc in targets:
-        chunks = split_sentence_cleanly(s["en"], dur)
+        chunks = split_sentence_cleanly(s["en"], dur, key=(ep["number"], s["id"]))
         if len(chunks) < 2:
             unsplit_cnt += 1
         for c in chunks:
@@ -403,13 +428,17 @@ def main():
         sr, samples = audio_cache[ep["id"]]
         aligned = align_chunks_acoustically(chunks, s["start"], s["end"], samples, sr)
         for p in aligned:
+            if p["durationSec"] >= 15.0:
+                over15_parts += 1
+            if p["words"] >= 40:
+                over40_parts += 1
             sp = p.get("splitAfterAcousticPause")
             if sp:
                 total_cuts += 1
                 if sp["method"] == "acoustic_pause_valley":
                     valley_hits += 1
 
-        results.append({
+        entry_obj = {
             "number": ep["number"],
             "id": ep["id"],
             "speaker": ep["speaker"],
@@ -420,7 +449,17 @@ def main():
             "words": wc,
             "originalEn": s["en"],
             "proposedParts": aligned,
-        })
+        }
+        if ep["number"] == "EP 68" and dur < 8.0 and wc >= 40:
+            entry_obj["needsOriginalAudioTimestampCheck"] = True
+            entry_obj["timestampWarning"] = "原字幕时长偏短（高密度口播或原时间轴压缩），写回前须先对照原片重新校对整体时间轴，暂不写回"
+            ep68_flagged.append(s["id"])
+        results.append(entry_obj)
+
+    assert unsplit_cnt == 0, f"unsplit_cnt={unsplit_cnt}"
+    assert ellipsis_bad_cuts == 0, f"ellipsis_bad_cuts={ellipsis_bad_cuts}"
+    assert over15_parts == 0, f"over15_parts={over15_parts}"
+    assert over40_parts == 0, f"over40_parts={over40_parts}"
 
     payload = {
         "status": "READONLY_DRAFT_REVISED_AWAITING_LEXI_APPROVAL",
@@ -432,6 +471,9 @@ def main():
             "episodesCount": len(ep_ids),
             "unsplitCount": unsplit_cnt,
             "ellipsisBadCutCount": ellipsis_bad_cuts,
+            "partsGe15sCount": over15_parts,
+            "partsGe40wCount": over40_parts,
+            "ep68TimestampHoldSentenceIds": ep68_flagged,
             "calibrationMethod": "acoustic_pause_afconvert_16k_rms",
             "totalSplitPoints": total_cuts,
             "acousticPauseValleyHits": valley_hits,

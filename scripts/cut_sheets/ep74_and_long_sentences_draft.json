@@ -8,9 +8,19 @@
     "episodesCount": 48,
     "unsplitCount": 0,
     "ellipsisBadCutCount": 0,
+    "partsGe15sCount": 0,
+    "partsGe40wCount": 0,
+    "ep68TimestampHoldSentenceIds": [
+      70,
+      72,
+      73,
+      74,
+      82,
+      83
+    ],
     "calibrationMethod": "acoustic_pause_afconvert_16k_rms",
-    "totalSplitPoints": 219,
-    "acousticPauseValleyHits": 217,
+    "totalSplitPoints": 221,
+    "acousticPauseValleyHits": 219,
     "ep74Status": "EP 74 已在 commit f574b83 完成非破坏性导出与声学断句，本表仅包含其余 106 条 / 48 集。"
   },
   "longSentences106": [
@@ -680,7 +690,9 @@
           "words": 7,
           "en": "And they have a pizzeria right here."
         }
-      ]
+      ],
+      "needsOriginalAudioTimestampCheck": true,
+      "timestampWarning": "原字幕时长偏短（高密度口播或原时间轴压缩），写回前须先对照原片重新校对整体时间轴，暂不写回"
     },
     {
       "number": "EP 68",
@@ -779,7 +791,9 @@
           "words": 27,
           "en": "Because Cincinnati—in the center of the city—there's a part called Over-the-Rhine, and it's famous because it's right in the middle of the city."
         }
-      ]
+      ],
+      "needsOriginalAudioTimestampCheck": true,
+      "timestampWarning": "原字幕时长偏短（高密度口播或原时间轴压缩），写回前须先对照原片重新校对整体时间轴，暂不写回"
     },
     {
       "number": "EP 68",
@@ -838,7 +852,9 @@
           "words": 12,
           "en": "And it's famous because it's right in the middle of the city."
         }
-      ]
+      ],
+      "needsOriginalAudioTimestampCheck": true,
+      "timestampWarning": "原字幕时长偏短（高密度口播或原时间轴压缩），写回前须先对照原片重新校对整体时间轴，暂不写回"
     },
     {
       "number": "EP 68",
@@ -897,7 +913,9 @@
           "words": 12,
           "en": "And it's famous because it's right in the middle of the city."
         }
-      ]
+      ],
+      "needsOriginalAudioTimestampCheck": true,
+      "timestampWarning": "原字幕时长偏短（高密度口播或原时间轴压缩），写回前须先对照原片重新校对整体时间轴，暂不写回"
     },
     {
       "number": "EP 68",
@@ -937,7 +955,9 @@
           "words": 24,
           "en": "So you will have more opportunities to learn a new language like I did when I traveled to Poland a couple of months ago."
         }
-      ]
+      ],
+      "needsOriginalAudioTimestampCheck": true,
+      "timestampWarning": "原字幕时长偏短（高密度口播或原时间轴压缩），写回前须先对照原片重新校对整体时间轴，暂不写回"
     },
     {
       "number": "EP 68",
@@ -996,7 +1016,9 @@
           "words": 10,
           "en": "When I traveled to Poland a couple of months ago."
         }
-      ]
+      ],
+      "needsOriginalAudioTimestampCheck": true,
+      "timestampWarning": "原字幕时长偏短（高密度口播或原时间轴压缩），写回前须先对照原片重新校对整体时间轴，暂不写回"
     },
     {
       "number": "EP 66",
@@ -1014,27 +1036,46 @@
           "start": 126.21,
           "end": 132.77,
           "durationSec": 6.56,
-          "words": 25,
-          "en": "Also, in the U.S. waiters and waitresses rely on a heavy portion of tipping as their pay so if you eat inside a restaurant.",
+          "words": 18,
+          "en": "Also, in the U.S. waiters and waitresses rely on a heavy portion of tipping as their pay.",
           "splitAfterAcousticPause": {
             "cutEnd": 132.77,
             "cutNextStart": 132.81,
-            "pauseStart": 132.55,
-            "pauseEnd": 133.03,
-            "pauseDurationSec": 0.48,
+            "pauseStart": 132.57,
+            "pauseEnd": 133.01,
+            "pauseDurationSec": 0.44,
             "minRms": 20.7,
-            "searchAnchor": 134.38,
-            "deltaFromAnchorSec": -1.59,
+            "searchAnchor": 132.09,
+            "deltaFromAnchorSec": 0.7,
             "method": "acoustic_pause_valley"
           }
         },
         {
           "part": 2,
           "start": 132.81,
+          "end": 139.33,
+          "durationSec": 6.52,
+          "words": 18,
+          "en": "So if you eat inside a restaurant with a waiter or waitress that is providing you a service.",
+          "splitAfterAcousticPause": {
+            "cutEnd": 139.33,
+            "cutNextStart": 139.37,
+            "pauseStart": 139.13,
+            "pauseEnd": 139.57,
+            "pauseDurationSec": 0.44,
+            "minRms": 119.8,
+            "searchAnchor": 137.97,
+            "deltaFromAnchorSec": 1.38,
+            "method": "acoustic_pause_valley"
+          }
+        },
+        {
+          "part": 3,
+          "start": 139.37,
           "end": 143.85,
-          "durationSec": 11.04,
-          "words": 29,
-          "en": "With a waiter or waitress that is providing you a service you should tip at least 20% of the bill to pay the waiter or waitress for their work."
+          "durationSec": 4.48,
+          "words": 18,
+          "en": "You should tip at least 20% of the bill to pay the waiter or waitress for their work."
         }
       ]
     },
@@ -3547,10 +3588,29 @@
         {
           "part": 2,
           "start": 508.36,
+          "end": 513.94,
+          "durationSec": 5.58,
+          "words": 8,
+          "en": "And every time I just, I don't know.",
+          "splitAfterAcousticPause": {
+            "cutEnd": 513.94,
+            "cutNextStart": 513.98,
+            "pauseStart": 513.58,
+            "pauseEnd": 514.34,
+            "pauseDurationSec": 0.76,
+            "minRms": 2838.7,
+            "searchAnchor": 516.07,
+            "deltaFromAnchorSec": -2.11,
+            "method": "acoustic_pause_valley"
+          }
+        },
+        {
+          "part": 3,
+          "start": 513.98,
           "end": 525.13,
-          "durationSec": 16.77,
-          "words": 18,
-          "en": "And every time I just, I don't know, I'm just it's a lot of effort to go out."
+          "durationSec": 11.15,
+          "words": 10,
+          "en": "I'm just, it's a lot of effort to go out."
         }
       ]
     },
@@ -5222,8 +5282,8 @@
           "start": 10.52,
           "end": 15.81,
           "durationSec": 5.29,
-          "words": 12,
-          "en": "So that you can see my daily routine and along the way.",
+          "words": 8,
+          "en": "So that you can see my daily routine.",
           "splitAfterAcousticPause": {
             "cutEnd": 15.81,
             "cutNextStart": 15.85,
@@ -5231,8 +5291,8 @@
             "pauseEnd": 16.05,
             "pauseDurationSec": 0.44,
             "minRms": 23.7,
-            "searchAnchor": 15.37,
-            "deltaFromAnchorSec": 0.46,
+            "searchAnchor": 14.17,
+            "deltaFromAnchorSec": 1.66,
             "method": "acoustic_pause_valley"
           }
         },
@@ -5241,8 +5301,8 @@
           "start": 15.85,
           "end": 18.99,
           "durationSec": 3.14,
-          "words": 12,
-          "en": "You'll be able to learn how to talk about your daily routine."
+          "words": 16,
+          "en": "And along the way, you'll be able to learn how to talk about your daily routine."
         }
       ]
     },
