@@ -13,6 +13,7 @@ import os
 import re
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
@@ -29,10 +30,50 @@ DICT_PROMPT = (
 )
 
 
+CJK_RE = re.compile(r"[\u4e00-\u9fff]")
+
+
+def is_clean_dict_entry(entry, allow_en_only=False) -> bool:
+    """过滤历史旧缓存里中英文释义相同或把英文释义直接填进 zh 的脏条目。"""
+    if not isinstance(entry, dict):
+        return False
+    meanings = entry.get("meanings")
+    if not isinstance(meanings, list) or not meanings:
+        return False
+    has_zh = False
+    for m in meanings:
+        if not isinstance(m, dict):
+            return False
+        zh = (m.get("zh") or "").strip()
+        en = (m.get("en") or "").strip()
+        if zh and en and zh.lower() == en.lower():
+            return False
+        if zh and not CJK_RE.search(zh):
+            return False
+        if zh and CJK_RE.search(zh):
+            has_zh = True
+    if not allow_en_only and not has_zh:
+        return False
+    return True
+
+
 def load_dict_cache():
     if DICT_CACHE_PATH.exists():
         try:
-            return json.loads(DICT_CACHE_PATH.read_text(encoding="utf-8"))
+            raw = json.loads(DICT_CACHE_PATH.read_text(encoding="utf-8"))
+            if not isinstance(raw, dict):
+                return {}
+            cleaned = {}
+            dirty_removed = 0
+            for k, v in raw.items():
+                allow_en = isinstance(v, dict) and v.get("level") == "英英词典兜底"
+                if is_clean_dict_entry(v, allow_en_only=allow_en):
+                    cleaned[k] = v
+                else:
+                    dirty_removed += 1
+            if dirty_removed > 0:
+                save_dict_cache(cleaned)
+            return cleaned
         except Exception:
             return {}
     return {}
@@ -84,61 +125,99 @@ def query_youdao_domestic(word: str, context: str = ""):
     return None
 
 
+def query_gemini_dictionary(word: str, context: str, api_key: str):
+    """快速查询 Gemini 词典（缩短单次超时，确保不拖垮前端 8.5s 预算）。"""
+    errors = []
+    models = ["gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+    user_msg = f"Word/Phrase: {word}\nContext sentence: {context}" if context else f"Word/Phrase: {word}"
+    for m in models:
+        try:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
+            payload = {
+                "systemInstruction": {"parts": [{"text": DICT_PROMPT}]},
+                "contents": [{"role": "user", "parts": [{"text": user_msg}]}],
+                "generationConfig": {"temperature": 0.1, "responseMimeType": "application/json"},
+            }
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={"Content-Type": "application/json", "x-goog-api-key": api_key},
+                method="POST",
+            )
+            with urllib.request.urlopen(req, timeout=3.5) as resp:
+                body = json.loads(resp.read().decode("utf-8"))
+                text = body["candidates"][0]["content"]["parts"][0]["text"]
+                entry = json.loads(text)
+                if is_clean_dict_entry(entry, allow_en_only=False):
+                    entry["headword"] = entry.get("headword") or word.strip()
+                    return entry, ""
+                errors.append(f"gemini({m}): invalid_entry")
+        except Exception as exc:
+            errors.append(f"gemini({m}): {type(exc).__name__}")
+            continue
+    return None, "；".join(errors)
+
+
 def query_real_dictionary(word: str, context: str = ""):
     key = word.strip().lower()
     if key in DICT_CACHE:
         cached = DICT_CACHE[key]
-        # 避免历史旧缓存里把英文释义直接填进 zh 的脏条目继续污染短语
-        if isinstance(cached, dict) and cached.get("meanings"):
+        allow_en = isinstance(cached, dict) and cached.get("level") == "英英词典兜底"
+        if is_clean_dict_entry(cached, allow_en_only=allow_en):
             return cached, "cache", ""
+        # 命中脏缓存时立刻剔除并回写，避免继续污染
+        DICT_CACHE.pop(key, None)
+        save_dict_cache(DICT_CACHE)
 
     errors = []
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+
+    # 并行发起 Gemini 与国内有道词典：
+    # - Gemini 在 5.0 秒内返回有效结果时优先用 Gemini（音标+中英释义+例句更全）
+    # - Gemini 偏慢、超时或无 key 时，直接采用已并行完成的有道兜底，确保远在前端 8.5 秒超时前返回
     if api_key:
-        models = ["gemini-flash-lite-latest", "gemini-2.5-flash-lite", "gemini-3.1-flash-lite"]
-        user_msg = f"Word/Phrase: {word}\nContext sentence: {context}" if context else f"Word/Phrase: {word}"
-        for m in models:
-            try:
-                url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
-                payload = {
-                    "systemInstruction": {"parts": [{"text": DICT_PROMPT}]},
-                    "contents": [{"role": "user", "parts": [{"text": user_msg}]}],
-                    "generationConfig": {"temperature": 0.1, "responseMimeType": "application/json"},
-                }
-                req = urllib.request.Request(
-                    url,
-                    data=json.dumps(payload).encode("utf-8"),
-                    headers={"Content-Type": "application/json", "x-goog-api-key": api_key},
-                    method="POST",
-                )
-                with urllib.request.urlopen(req, timeout=10) as resp:
-                    body = json.loads(resp.read().decode("utf-8"))
-                    text = body["candidates"][0]["content"]["parts"][0]["text"]
-                    entry = json.loads(text)
-                    if isinstance(entry, dict) and entry.get("meanings"):
-                        entry["headword"] = entry.get("headword") or word.strip()
-                        DICT_CACHE[key] = entry
-                        save_dict_cache(DICT_CACHE)
-                        return entry, "gemini", ""
-            except Exception as exc:
-                errors.append(f"gemini({m}): {type(exc).__name__}")
-                continue
+        pool = ThreadPoolExecutor(max_workers=2)
+        f_gem = pool.submit(query_gemini_dictionary, word, context, api_key)
+        f_yd = pool.submit(query_youdao_domestic, word, context)
+        try:
+            gem_entry, gem_err = f_gem.result(timeout=5.0)
+            if gem_entry:
+                DICT_CACHE[key] = gem_entry
+                save_dict_cache(DICT_CACHE)
+                pool.shutdown(wait=False, cancel_futures=True)
+                return gem_entry, "gemini", ""
+            if gem_err:
+                errors.append(gem_err)
+        except FuturesTimeoutError:
+            errors.append("gemini: 超时(>5.0s)，已自动切换有道兜底")
+        except Exception as exc:
+            errors.append(f"gemini: {type(exc).__name__}")
+
+        try:
+            yd = f_yd.result(timeout=2.5)
+            if is_clean_dict_entry(yd, allow_en_only=False):
+                DICT_CACHE[key] = yd
+                save_dict_cache(DICT_CACHE)
+                pool.shutdown(wait=False, cancel_futures=True)
+                return yd, "youdao", ""
+        except Exception:
+            pass
+        pool.shutdown(wait=False, cancel_futures=True)
+        errors.append("youdao: 不可达或未收录")
     else:
         errors.append("未配置 GEMINI_API_KEY")
-
-    # 国内可用兜底：有道词典（支持完整英文短语整段查询）
-    yd = query_youdao_domestic(word, context)
-    if yd:
-        DICT_CACHE[key] = yd
-        save_dict_cache(DICT_CACHE)
-        return yd, "youdao", ""
-    errors.append("youdao: 不可达或未收录")
+        yd = query_youdao_domestic(word, context)
+        if is_clean_dict_entry(yd, allow_en_only=False):
+            DICT_CACHE[key] = yd
+            save_dict_cache(DICT_CACHE)
+            return yd, "youdao", ""
+        errors.append("youdao: 不可达或未收录")
 
     # 仅对单个英文单词尝试 Free Dictionary API（绝不把短语截断成第一个单词）
     if " " not in key:
         try:
             url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{urllib.parse.quote(key)}"
-            with urllib.request.urlopen(url, timeout=6) as resp:
+            with urllib.request.urlopen(url, timeout=4) as resp:
                 arr = json.loads(resp.read().decode("utf-8"))
                 if isinstance(arr, list) and arr:
                     item = arr[0]

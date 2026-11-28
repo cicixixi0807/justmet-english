@@ -73664,9 +73664,9 @@ export const LOCAL_EPISODES = [
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
-    "difficulty": 3,
-    "durationSec": 334,
-    "durationLabel": "05:34",
+    "difficulty": 2,
+    "durationSec": 218,
+    "durationLabel": "03:38",
     "date": "2026/09/29",
     "tags": [
       "美食",
@@ -73674,101 +73674,16 @@ export const LOCAL_EPISODES = [
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.jpg",
-    "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.trimmed.mp4",
-    "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.trimmed.m4a",
+    "mediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.clean.trimmed.mp4",
+    "audioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.clean.trimmed.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
-    "skipRanges": [
-      [
-        10.43,
-        26.4
-      ],
-      [
-        35.06,
-        38.0
-      ],
-      [
-        52.19,
-        74.72
-      ],
-      [
-        87.77,
-        90.8
-      ],
-      [
-        97.63,
-        100.48
-      ],
-      [
-        106.43,
-        126.96
-      ],
-      [
-        140.02,
-        155.44
-      ],
-      [
-        176.95,
-        190.48
-      ],
-      [
-        197.23,
-        198.8
-      ],
-      [
-        203.18,
-        207.2
-      ],
-      [
-        255.5,
-        256.71
-      ],
-      [
-        311.69,
-        312.4
-      ],
-      [
-        317.85,
-        319.44
-      ]
-    ],
+    "skipRanges": [],
     "sentences": [
       {
         "id": 1,
         "start": 0.0,
-        "end": 4.44,
-        "speaker": "Speaker",
-        "en": "Feel like falling deeper.",
-        "ipa": "/fiːl laɪk ˈfɔːlɪŋ ˈdiːpər/",
-        "zh": "感觉越陷越深了。",
-        "highlights": [
-          {
-            "text": "falling deeper",
-            "key": "falling deeper",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 4.48,
-        "end": 10.43,
-        "speaker": "Speaker",
-        "en": "I'm currently at JFK.",
-        "ipa": "/aɪm ˈkɜːrəntli æt dʒeɪ ef keɪ/",
-        "zh": "我现在在肯尼迪机场。",
-        "highlights": [
-          {
-            "text": "currently",
-            "key": "currently",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 26.4,
-        "end": 28.27,
+        "end": 1.87,
         "speaker": "Speaker",
         "en": "I'm with Blurry Salman and this will be our first time.",
         "ipa": "/aɪm wɪð ˈblɜːri sælˈmɑːn ænd ðɪs wɪl bi ˈaʊər fɜːrst taɪm/",
@@ -73782,9 +73697,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 4,
-        "start": 28.31,
-        "end": 35.06,
+        "id": 2,
+        "start": 1.91,
+        "end": 8.66,
         "speaker": "Speaker",
         "en": "I am with Blurry Salman.",
         "ipa": "/aɪ æm wɪð ˈblɜːri sælˈmɑːn/",
@@ -73803,9 +73718,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 5,
-        "start": 38.0,
-        "end": 41.0,
+        "id": 3,
+        "start": 8.66,
+        "end": 11.66,
         "speaker": "Speaker",
         "en": "This is the start of our Euro summer.",
         "ipa": "/ðɪs ɪz ðə stɑːrt əv ˈaʊər ˈjʊroʊ ˈsʌmər/",
@@ -73819,9 +73734,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 6,
-        "start": 41.04,
-        "end": 44.92,
+        "id": 4,
+        "start": 11.7,
+        "end": 15.58,
         "speaker": "Speaker",
         "en": "Hopefully everything goes smoothly.",
         "ipa": "/ˈhoʊpfəli ˈevriθɪŋ ɡoʊz ˈsmuːðli/",
@@ -73835,9 +73750,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 7,
-        "start": 44.96,
-        "end": 52.19,
+        "id": 5,
+        "start": 15.62,
+        "end": 22.85,
         "speaker": "Speaker",
         "en": "Just made it to our hotel.",
         "ipa": "/dʒʌst meɪd ɪt tu ˈaʊər hoʊˈtel/",
@@ -73851,9 +73766,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 8,
-        "start": 74.72,
-        "end": 76.63,
+        "id": 6,
+        "start": 22.85,
+        "end": 24.76,
         "speaker": "Speaker",
         "en": "It's so beautiful.",
         "ipa": "/ɪts soʊ ˈbjuːtɪfl/",
@@ -73867,9 +73782,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 9,
-        "start": 76.67,
-        "end": 82.28,
+        "id": 7,
+        "start": 24.8,
+        "end": 30.41,
         "speaker": "Speaker",
         "en": "Before all the madness happens, quick hotel tour.",
         "ipa": "/bɪˈfɔːr ɔːl ðə ˈmædnəs ˈhæpənz, kwɪk hoʊˈtel tʊr/",
@@ -73883,9 +73798,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 10,
-        "start": 82.32,
-        "end": 87.77,
+        "id": 8,
+        "start": 30.45,
+        "end": 35.9,
         "speaker": "Speaker",
         "en": "So nice.",
         "ipa": "/soʊ naɪs/",
@@ -73893,9 +73808,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 11,
-        "start": 90.8,
-        "end": 91.5,
+        "id": 9,
+        "start": 35.9,
+        "end": 36.6,
         "speaker": "Speaker",
         "en": "We're staying at the Madame Rêve Hotel.",
         "ipa": "/wɪr ˈsteɪɪŋ æt ðə məˈdæm rɛv hoʊˈtel/",
@@ -73914,9 +73829,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 12,
-        "start": 91.54,
-        "end": 97.63,
+        "id": 10,
+        "start": 36.64,
+        "end": 42.73,
         "speaker": "Speaker",
         "en": "Oh, there's another bathroom closet.",
         "ipa": "/oʊ, ðɛrz əˈnʌðər ˈbæθruːm ˈklɑːzɪt/",
@@ -73935,9 +73850,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 13,
-        "start": 100.48,
-        "end": 106.43,
+        "id": 11,
+        "start": 42.73,
+        "end": 48.68,
         "speaker": "Speaker",
         "en": "Good morning from Paris.",
         "ipa": "/ɡʊd ˈmɔːrnɪŋ frəm ˈpærɪs/",
@@ -73956,9 +73871,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 14,
-        "start": 126.96,
-        "end": 129.33,
+        "id": 12,
+        "start": 48.68,
+        "end": 51.05,
         "speaker": "Speaker",
         "en": "It is our first official day.",
         "ipa": "/ɪt ɪz ˈaʊər fɜːrst əˈfɪʃl deɪ/",
@@ -73972,9 +73887,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 15,
-        "start": 129.37,
-        "end": 135.08,
+        "id": 13,
+        "start": 51.09,
+        "end": 56.8,
         "speaker": "Speaker",
         "en": "Oh, I'm so thirsty.",
         "ipa": "/oʊ, aɪm soʊ ˈθɜːrsti/",
@@ -73988,9 +73903,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 16,
-        "start": 135.12,
-        "end": 140.02,
+        "id": 14,
+        "start": 56.84,
+        "end": 61.74,
         "speaker": "Speaker",
         "en": "It's also Salman's and my first time in Paris and just Europe in general.",
         "ipa": "/ɪts ˈɔːlsoʊ ˈsælmənz ænd maɪ fɜːrst taɪm ɪn ˈpærɪs ænd dʒʌst ˈjʊrəp ɪn ˈdʒenrəl/",
@@ -74004,9 +73919,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 17,
-        "start": 155.44,
-        "end": 161.7,
+        "id": 15,
+        "start": 61.74,
+        "end": 68.0,
         "speaker": "Speaker",
         "en": "So, we're really excited to be here.",
         "ipa": "/soʊ, wɪr ˈrɪli ɪkˈsaɪtɪd tu bi hɪr/",
@@ -74020,9 +73935,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 18,
-        "start": 161.74,
-        "end": 163.97,
+        "id": 16,
+        "start": 68.04,
+        "end": 70.27,
         "speaker": "Speaker",
         "en": "I really wanted to visit the Memo Paris flagship store.",
         "ipa": "/aɪ ˈrɪli ˈwɑːntɪd tu ˈvɪzɪt ðə ˈmemoʊ ˈpærɪs ˈflæɡʃɪp stɔːr/",
@@ -74036,9 +73951,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 19,
-        "start": 164.01,
-        "end": 171.46,
+        "id": 17,
+        "start": 70.31,
+        "end": 77.76,
         "speaker": "Speaker",
         "en": "I'm a huge fan of the brand.",
         "ipa": "/aɪm ə hjuːdʒ fæn əv ðə brænd/",
@@ -74052,9 +73967,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 20,
-        "start": 171.5,
-        "end": 176.95,
+        "id": 18,
+        "start": 77.8,
+        "end": 83.25,
         "speaker": "Speaker",
         "en": "Smells so strong.",
         "ipa": "/smɛlz soʊ strɔːŋ/",
@@ -74073,9 +73988,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 21,
-        "start": 190.48,
-        "end": 197.23,
+        "id": 19,
+        "start": 83.25,
+        "end": 90.0,
         "speaker": "Speaker",
         "en": "Straight up tastes like tequila.",
         "ipa": "/streɪt ʌp teɪsts laɪk təˈkiːlə/",
@@ -74094,9 +74009,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 22,
-        "start": 198.8,
-        "end": 203.18,
+        "id": 20,
+        "start": 90.0,
+        "end": 94.38,
         "speaker": "Speaker",
         "en": "Hello from Paris.",
         "ipa": "/həˈloʊ frəm ˈpærɪs/",
@@ -74110,9 +74025,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 23,
-        "start": 207.2,
-        "end": 208.31,
+        "id": 21,
+        "start": 94.38,
+        "end": 95.49,
         "speaker": "Speaker",
         "en": "We just came back from the Memo Paris flagship store and I wanted to introduce to you guys Memo.",
         "ipa": "/wi dʒʌst keɪm bæk frəm ðə ˈmemoʊ ˈpærɪs ˈflæɡʃɪp stɔːr ænd aɪ ˈwɑːntɪd tu ˌɪntrəˈduːs tu ju ɡaɪz ˈmemoʊ/",
@@ -74126,9 +74041,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 24,
-        "start": 208.35,
-        "end": 215.32,
+        "id": 22,
+        "start": 95.53,
+        "end": 102.5,
         "speaker": "Speaker",
         "en": "They're a niche fragrance brand and all of their scents are inspired by travel.",
         "ipa": "/ðɛr ə niːʃ ˈfreɪɡrəns brænd ænd ɔːl əv ðɛr sɛnts ɑːr ɪnˈspaɪərd baɪ ˈtrævl/",
@@ -74142,9 +74057,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 25,
-        "start": 215.36,
-        "end": 220.04,
+        "id": 23,
+        "start": 102.54,
+        "end": 107.22,
         "speaker": "Speaker",
         "en": "So, I thought what better scent to introduce to you guys than Odeon.",
         "ipa": "/soʊ, aɪ θɔːt wʌt ˈbetər sɛnt tu ˌɪntrəˈduːs tu ju ɡaɪz ðæn oʊˈdiːən/",
@@ -74163,9 +74078,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 26,
-        "start": 220.08,
-        "end": 224.06,
+        "id": 24,
+        "start": 107.26,
+        "end": 111.24,
         "speaker": "Speaker",
         "en": "This is a scent inspired by the Odeon district here in Paris.",
         "ipa": "/ðɪs ɪz ə sɛnt ɪnˈspaɪərd baɪ ðə oʊˈdiːən ˈdɪstrɪkt hɪr ɪn ˈpærɪs/",
@@ -74184,9 +74099,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 27,
-        "start": 224.1,
-        "end": 228.43,
+        "id": 25,
+        "start": 111.28,
+        "end": 115.61,
         "speaker": "Speaker",
         "en": "Odeon is inspired by the creativity, the arts, and culture of the Odeon district.",
         "ipa": "/oʊˈdiːən ɪz ɪnˈspaɪərd baɪ ðə ˌkriːeɪˈtɪvəti, ðə ɑːrts, ænd ˈkʌltʃər əv ðə oʊˈdiːən ˈdɪstrɪkt/",
@@ -74200,9 +74115,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 28,
-        "start": 228.47,
-        "end": 233.55,
+        "id": 26,
+        "start": 115.65,
+        "end": 120.73,
         "speaker": "Speaker",
         "en": "There are three key notes.",
         "ipa": "/ðɛr ɑːr θriː kiː noʊts/",
@@ -74216,9 +74131,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 29,
-        "start": 233.59,
-        "end": 235.24,
+        "id": 27,
+        "start": 120.77,
+        "end": 122.42,
         "speaker": "Speaker",
         "en": "Turkish rose, which is inspired by the red curtains in the Odeon theater.",
         "ipa": "/ˈtɜːrkɪʃ roʊz, wɪtʃ ɪz ɪnˈspaɪərd baɪ ðə red ˈkɜːrtnz ɪn ðə oʊˈdiːən ˈθiːətər/",
@@ -74237,9 +74152,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 30,
-        "start": 235.28,
-        "end": 239.31,
+        "id": 28,
+        "start": 122.46,
+        "end": 126.49,
         "speaker": "Speaker",
         "en": "Second one is patchouli, which is inspired by the Luxembourg Garden.",
         "ipa": "/ˈsekənd wʌn ɪz pəˈtʃuːli, wɪtʃ ɪz ɪnˈspaɪərd baɪ ðə ˈlʌksəmbɜːrɡ ˈɡɑːrdn/",
@@ -74253,9 +74168,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 31,
-        "start": 239.35,
-        "end": 243.37,
+        "id": 29,
+        "start": 126.53,
+        "end": 130.55,
         "speaker": "Speaker",
         "en": "Lastly, there's tonka beans, which is inspired by the cafes that are all around the area.",
         "ipa": "/ˈlæstli, ðɛrz ˈtɑːŋkə biːnz, wɪtʃ ɪz ɪnˈspaɪərd baɪ ðə kæˈfeɪz ðæt ɑːr ɔːl əˈraʊnd ði ˈeriə/",
@@ -74269,9 +74184,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 32,
-        "start": 243.41,
-        "end": 248.71,
+        "id": 30,
+        "start": 130.59,
+        "end": 135.89,
         "speaker": "Speaker",
         "en": "To me, I think this smells very like amber floral; the perfect evening date night scent, which is the scent I'm wearing for today.",
         "ipa": "/tu mi, aɪ θɪŋk ðɪs smɛlz ˈvɛri laɪk ˈæmbər ˈflɔːrəl; ðə ˈpɜːrfɪkt ˈiːvnɪŋ deɪt naɪt sɛnt, wɪtʃ ɪz ðə sɛnt aɪm ˈwɛrɪŋ fɔːr təˈdeɪ/",
@@ -74285,9 +74200,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 33,
-        "start": 248.75,
-        "end": 255.5,
+        "id": 31,
+        "start": 135.93,
+        "end": 142.68,
         "speaker": "Speaker",
         "en": "This one is so good.",
         "ipa": "/ðɪs wʌn ɪz soʊ ɡʊd/",
@@ -74295,9 +74210,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 34,
-        "start": 256.71,
-        "end": 258.1,
+        "id": 32,
+        "start": 142.68,
+        "end": 144.07,
         "speaker": "Speaker",
         "en": "This is Oud Memo.",
         "ipa": "/ðɪs ɪz uːd ˈmemoʊ/",
@@ -74305,9 +74220,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 35,
-        "start": 258.14,
-        "end": 259.52,
+        "id": 33,
+        "start": 144.11,
+        "end": 145.49,
         "speaker": "Speaker",
         "en": "This is a good memo.",
         "ipa": "/ðɪs ɪz ə gʊd ˈmɛmoʊ/",
@@ -74321,9 +74236,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 36,
-        "start": 259.56,
-        "end": 262.75,
+        "id": 34,
+        "start": 145.53,
+        "end": 148.72,
         "speaker": "Speaker",
         "en": "Oh my gosh, this is so beautiful.",
         "ipa": "/oʊ maɪ ɡɑʃ, ðɪs ɪz soʊ ˈbjuːtəfəl./",
@@ -74337,9 +74252,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 37,
-        "start": 262.79,
-        "end": 263.46,
+        "id": 35,
+        "start": 148.76,
+        "end": 149.43,
         "speaker": "Speaker",
         "en": "Green tea.",
         "ipa": "/ɡrin ti./",
@@ -74353,9 +74268,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 38,
-        "start": 263.5,
-        "end": 269.24,
+        "id": 36,
+        "start": 149.47,
+        "end": 155.21,
         "speaker": "Speaker",
         "en": "It has the green tea and I love tea scents.",
         "ipa": "/ɪt hæz ðə ɡrin ti ænd aɪ lʌv ti sɛnts./",
@@ -74369,9 +74284,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 39,
-        "start": 269.28,
-        "end": 270.59,
+        "id": 37,
+        "start": 155.25,
+        "end": 156.56,
         "speaker": "Speaker",
         "en": "Oh, smells so good.",
         "ipa": "/oʊ, smɛlz soʊ ɡʊd./",
@@ -74385,9 +74300,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 40,
-        "start": 270.63,
-        "end": 271.16,
+        "id": 38,
+        "start": 156.6,
+        "end": 157.13,
         "speaker": "Speaker",
         "en": "So nice.",
         "ipa": "/soʊ naɪs./",
@@ -74395,9 +74310,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 41,
-        "start": 271.2,
-        "end": 272.11,
+        "id": 39,
+        "start": 157.17,
+        "end": 158.08,
         "speaker": "Speaker",
         "en": "Love this one.",
         "ipa": "/lʌv ðɪs wʌn./",
@@ -74405,9 +74320,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 42,
-        "start": 272.15,
-        "end": 273.12,
+        "id": 40,
+        "start": 158.12,
+        "end": 159.09,
         "speaker": "Speaker",
         "en": "It's powdery.",
         "ipa": "/ɪts ˈpaʊdəri./",
@@ -74421,9 +74336,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 43,
-        "start": 273.16,
-        "end": 278.65,
+        "id": 41,
+        "start": 159.13,
+        "end": 164.62,
         "speaker": "Speaker",
         "en": "Like if I can be known for a scent, I feel like I would want to be known for a memo.",
         "ipa": "/laɪk ɪf aɪ kæn bi noʊn fɔr ə sɛnt, aɪ fil laɪk aɪ wʊd wɑnt tu bi noʊn fɔr ə ˈmɛmoʊ./",
@@ -74437,9 +74352,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 44,
-        "start": 278.69,
-        "end": 280.12,
+        "id": 42,
+        "start": 164.66,
+        "end": 166.09,
         "speaker": "Speaker",
         "en": "Smelling good, people.",
         "ipa": "/ˈsmɛlɪŋ ɡʊd, ˈpipəl./",
@@ -74453,9 +74368,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 45,
-        "start": 280.16,
-        "end": 281.74,
+        "id": 43,
+        "start": 166.13,
+        "end": 167.71,
         "speaker": "Speaker",
         "en": "I've been smelling good.",
         "ipa": "/aɪv bin ˈsmɛlɪŋ ɡʊd./",
@@ -74469,9 +74384,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 46,
-        "start": 281.78,
-        "end": 285.69,
+        "id": 44,
+        "start": 167.75,
+        "end": 171.66,
         "speaker": "Speaker",
         "en": "I will say that about to go to Italy.",
         "ipa": "/aɪ wɪl seɪ ðæt əˈbaʊt tu ɡoʊ tu ˈɪtəli./",
@@ -74485,9 +74400,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 47,
-        "start": 285.73,
-        "end": 290.02,
+        "id": 45,
+        "start": 171.7,
+        "end": 175.99,
         "speaker": "Speaker",
         "en": "I was in Paris for a little trip with Blair Salsa Man.",
         "ipa": "/aɪ wʌz ɪn ˈpærɪs fɔr ə ˈlɪtəl trɪp wɪð blɛr ˈsɑlsə mæn./",
@@ -74506,9 +74421,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 48,
-        "start": 290.06,
-        "end": 291.96,
+        "id": 46,
+        "start": 176.03,
+        "end": 177.93,
         "speaker": "Speaker",
         "en": "I just landed.",
         "ipa": "/aɪ dʒʌst ˈlændəd./",
@@ -74522,9 +74437,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 49,
-        "start": 292.0,
-        "end": 297.13,
+        "id": 47,
+        "start": 177.97,
+        "end": 183.1,
         "speaker": "Speaker",
         "en": "Guess who I found in the office.",
         "ipa": "/ɡɛs hu aɪ faʊnd ɪn ði ˈɔfɪs./",
@@ -74538,9 +74453,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 50,
-        "start": 297.17,
-        "end": 298.96,
+        "id": 48,
+        "start": 183.14,
+        "end": 184.93,
         "speaker": "Speaker",
         "en": "Good morning.",
         "ipa": "/ɡʊd ˈmɔrnɪŋ./",
@@ -74554,9 +74469,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 51,
-        "start": 299.0,
-        "end": 299.8,
+        "id": 49,
+        "start": 184.97,
+        "end": 185.77,
         "speaker": "Speaker",
         "en": "Hello.",
         "ipa": "/həˈloʊ./",
@@ -74564,9 +74479,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 52,
-        "start": 299.84,
-        "end": 300.53,
+        "id": 50,
+        "start": 185.81,
+        "end": 186.5,
         "speaker": "Speaker",
         "en": "All right.",
         "ipa": "/ɔl raɪt./",
@@ -74574,9 +74489,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 53,
-        "start": 300.57,
-        "end": 306.2,
+        "id": 51,
+        "start": 186.54,
+        "end": 192.17,
         "speaker": "Speaker",
         "en": "Just landed here in Sicily and we got our rental car.",
         "ipa": "/dʒʌst ˈlændəd hir ɪn ˈsɪsəli ænd wi ɡɑt ˈaʊər ˈrɛntəl kɑr./",
@@ -74590,9 +74505,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 54,
-        "start": 306.24,
-        "end": 311.69,
+        "id": 52,
+        "start": 192.21,
+        "end": 197.66,
         "speaker": "Speaker",
         "en": "At BMW.",
         "ipa": "/æt bi-ɛm-ˈdʌbəlju./",
@@ -74600,9 +74515,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 55,
-        "start": 312.4,
-        "end": 317.85,
+        "id": 53,
+        "start": 197.66,
+        "end": 203.11,
         "speaker": "Speaker",
         "en": "So cool.",
         "ipa": "/soʊ kul./",
@@ -74610,9 +74525,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 56,
-        "start": 319.44,
-        "end": 321.61,
+        "id": 54,
+        "start": 203.11,
+        "end": 205.28,
         "speaker": "Speaker",
         "en": "Wait.",
         "ipa": "/weɪt./",
@@ -74620,9 +74535,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 57,
-        "start": 321.65,
-        "end": 325.16,
+        "id": 55,
+        "start": 205.32,
+        "end": 208.83,
         "speaker": "Speaker",
         "en": "Perfect.",
         "ipa": "/ˈpɜrfɪkt./",
@@ -74636,9 +74551,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 58,
-        "start": 325.2,
-        "end": 326.41,
+        "id": 56,
+        "start": 208.87,
+        "end": 210.08,
         "speaker": "Speaker",
         "en": "Oh my god.",
         "ipa": "/oʊ maɪ ɡɑd./",
@@ -74646,9 +74561,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 59,
-        "start": 326.45,
-        "end": 328.16,
+        "id": 57,
+        "start": 210.12,
+        "end": 211.83,
         "speaker": "Speaker",
         "en": "Oh, my laptop.",
         "ipa": "/oʊ, maɪ ˈlæptɑp./",
@@ -74662,9 +74577,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 60,
-        "start": 328.2,
-        "end": 331.3,
+        "id": 58,
+        "start": 211.87,
+        "end": 214.97,
         "speaker": "Speaker",
         "en": "Oh I'm so sorry.",
         "ipa": "/oʊ aɪm soʊ ˈsɑri./",
@@ -74672,9 +74587,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 61,
-        "start": 331.34,
-        "end": 333.99,
+        "id": 59,
+        "start": 215.01,
+        "end": 217.66,
         "speaker": "Speaker",
         "en": "It's okay.",
         "ipa": "/ɪts oʊˈkeɪ./",

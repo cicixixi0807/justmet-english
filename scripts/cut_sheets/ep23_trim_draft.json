@@ -1,5 +1,5 @@
 {
-  "status": "READONLY_DRAFT_AWAITING_APPROVAL",
+  "status": "EXPORTED_NON_DESTRUCTIVE",
   "sourceMediaModified": false,
   "targetEpisode": {
     "number": "EP 23",
@@ -202,5 +202,9 @@
   "estDurationLabel": "03:38",
   "estWpm": 110.5,
   "expectedTier": "B",
-  "expectedDifficulty": 2
+  "expectedDifficulty": 2,
+  "actualDurationSec": 217.87,
+  "actualDurationLabel": "03:38",
+  "exportedMediaUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.clean.trimmed.mp4",
+  "exportedAudioUrl": "./content/episodes/trimmed/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21%20%28Part%201%29.clean.trimmed.m4a"
 }
