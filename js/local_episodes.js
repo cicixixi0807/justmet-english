@@ -1,829 +1,8 @@
 // 本文件由 scripts/sync_episodes.py 自动生成，请勿手工修改
 export const LOCAL_EPISODES = [
   {
-    "id": "local-83-Recycling-Landfill-downtown_micro4",
-    "number": "EP 84",
-    "title": "美国街头垃圾桶：Recycling 和 Landfill 怎么分",
-    "speaker": "Vanessa",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 1,
-    "durationSec": 47,
-    "durationLabel": "00:47",
-    "date": "2026/11/26",
-    "tags": [
-      "生活英语",
-      "日常对话"
-    ],
-    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
-    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%EF%BC%9ARecycling%20%E5%92%8C%20Landfill%20%E6%80%8E%E4%B9%88%E5%88%86.jpg",
-    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%EF%BC%9ARecycling%20%E5%92%8C%20Landfill%20%E6%80%8E%E4%B9%88%E5%88%86.micro.mp4",
-    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%EF%BC%9ARecycling%20%E5%92%8C%20Landfill%20%E6%80%8E%E4%B9%88%E5%88%86.micro.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "生活英语",
-    "skipRanges": [],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.2,
-        "end": 3.24,
-        "speaker": "Speaker",
-        "en": "I want to show you the trash cans.",
-        "ipa": "/aɪ wɑnt tu ʃoʊ ju ðə træʃ kænz./",
-        "zh": "我想给你们看看垃圾桶。",
-        "highlights": [
-          {
-            "text": "trash",
-            "key": "trash",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 3.28,
-        "end": 8.44,
-        "speaker": "Speaker",
-        "en": "This is a lovely moment, guys.",
-        "ipa": "/ðɪs ɪz ə ˈlʌvli ˈmoʊmənt, ɡaɪz./",
-        "zh": "这真是个可爱的瞬间，伙计们。",
-        "highlights": [
-          {
-            "text": "lovely",
-            "key": "lovely",
-            "chip": "orange"
-          },
-          {
-            "text": "moment",
-            "key": "moment",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 8.48,
-        "end": 13.64,
-        "speaker": "Speaker",
-        "en": "So, this is becoming more popular in the US, but you will see recycling and landfill.",
-        "ipa": "/soʊ ðɪs ɪz ˈbɪkʌmɪŋ mɔr ˈpɑpjələr ɪn ðə ju ɛs bʌt ju wɪl si ˈrisɪklɪŋ ənd ˈlændfɪl/",
-        "zh": "所以，这在美国正变得越来越普遍，但你会看到分类回收和垃圾填埋桶。",
-        "highlights": [
-          {
-            "text": "becoming more popular",
-            "key": "becoming more popular",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 13.68,
-        "end": 15.48,
-        "speaker": "Speaker",
-        "en": "Landfill is just trash.",
-        "ipa": "/ˈlændfɪl ɪz dʒʌst træʃ/",
-        "zh": "垃圾填埋桶就是装普通垃圾的。",
-        "highlights": [
-          {
-            "text": "Landfill",
-            "key": "Landfill",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 15.52,
-        "end": 18.97,
-        "speaker": "Speaker",
-        "en": "Um, you can see it even says on the side landfill, recycling.",
-        "ipa": "/ʌm ju kən si ɪt ˈivən sɛz ɑn ðə saɪd ˈlændfɪl ˈrisɪklɪŋ/",
-        "zh": "嗯，你可以看到上面侧面甚至写着‘垃圾填埋’和‘回收’。",
-        "highlights": [
-          {
-            "text": "recycling",
-            "key": "recycling",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 19.01,
-        "end": 25.5,
-        "speaker": "Speaker",
-        "en": "In the US, recycling is anything that you could possibly ever recycle, you put in there.",
-        "ipa": "/ɪn ðə ju ɛs ˈrisɪklɪŋ ɪz ˈɛniˌθɪŋ ðæt ju kʊd ˈpɑsəbli ˈɛvər ˈrisɪkl ju pʊt ɪn ðɛr/",
-        "zh": "在美国，回收箱就是只要你觉得可能可以回收的东西，全往里面扔。",
-        "highlights": [
-          {
-            "text": "anything that",
-            "key": "anything that",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 25.54,
-        "end": 32.04,
-        "speaker": "Speaker",
-        "en": "You don't separate it, you just throw all your plastic and glass and paper in the same bin.",
-        "ipa": "/ju doʊnt ˈsɛpəˌreɪt ɪt ju dʒʌst θroʊ ɔl jʊər ˈplæstɪk ənd glæs ənd ˈpeɪpər ɪn ðə seɪm bɪn/",
-        "zh": "你不需要分类，直接把所有的塑料、玻璃和纸张扔进同一个垃圾桶里。",
-        "highlights": [
-          {
-            "text": "separate",
-            "key": "separate",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 32.08,
-        "end": 35.59,
-        "speaker": "Speaker",
-        "en": "Does it actually get recycled really efficiently?",
-        "ipa": "/dʌz ɪt ˈæktʃuəli gɛt ˈrisɪkəld ˈrɪli ɪˈfɪʃəntli/",
-        "zh": "它真的能被高效地回收利用吗？",
-        "highlights": [
-          {
-            "text": "efficiently",
-            "key": "efficiently",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 35.63,
-        "end": 37.32,
-        "speaker": "Speaker",
-        "en": "I don't know.",
-        "ipa": "/aɪ doʊnt noʊ/",
-        "zh": "我不知道。",
-        "highlights": []
-      },
-      {
-        "id": 10,
-        "start": 37.36,
-        "end": 38.51,
-        "speaker": "Speaker",
-        "en": "But, there is an option.",
-        "ipa": "/bʌt ðɛr ɪz ən ˈɑpʃən/",
-        "zh": "不过，总归有这么个选择。",
-        "highlights": [
-          {
-            "text": "option",
-            "key": "option",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 38.55,
-        "end": 47.15,
-        "speaker": "Speaker",
-        "en": "So, as you're walking along the side of the street, you can throw your trash in the recycling or the landfill.",
-        "ipa": "/soʊ æz jʊr ˈwɔkɪŋ əˈlɔŋ ðə saɪd ʌv ðə strit ju kən θroʊ jʊər træʃ ɪn ðə ˈrisɪklɪŋ ɔr ðə ˈlændfɪl/",
-        "zh": "所以，当你走在街边时，你可以把垃圾扔进回收桶或垃圾填埋桶里。",
-        "highlights": [
-          {
-            "text": "walking along",
-            "key": "walking along",
-            "chip": "indigo"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-82-Busking-downtown_micro3",
-    "number": "EP 83",
-    "title": "街头艺人 Busking：路边演奏、打赏与市中心过马路",
-    "speaker": "Vanessa",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 1,
-    "durationSec": 64,
-    "durationLabel": "01:04",
-    "date": "2026/11/26",
-    "tags": [
-      "生活英语",
-      "日常对话"
-    ],
-    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
-    "coverImage": "./content/episodes/trimmed/%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%20Busking%EF%BC%9A%E8%B7%AF%E8%BE%B9%E6%BC%94%E5%A5%8F%E3%80%81%E6%89%93%E8%B5%8F%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E8%BF%87%E9%A9%AC%E8%B7%AF.jpg",
-    "mediaUrl": "./content/episodes/trimmed/%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%20Busking%EF%BC%9A%E8%B7%AF%E8%BE%B9%E6%BC%94%E5%A5%8F%E3%80%81%E6%89%93%E8%B5%8F%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E8%BF%87%E9%A9%AC%E8%B7%AF.micro.mp4",
-    "audioUrl": "./content/episodes/trimmed/%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%20Busking%EF%BC%9A%E8%B7%AF%E8%BE%B9%E6%BC%94%E5%A5%8F%E3%80%81%E6%89%93%E8%B5%8F%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E8%BF%87%E9%A9%AC%E8%B7%AF.micro.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "生活英语",
-    "skipRanges": [
-      [
-        8.37,
-        9.52
-      ]
-    ],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.2,
-        "end": 3.48,
-        "speaker": "Speaker",
-        "en": "There's some very nice music being played across the street there.",
-        "ipa": "/ðɛrz sʌm ˈvɛri naɪs ˈmjuzɪk ˈbiɪŋ pleɪd əˈkrɔs ðə strit ðɛr./",
-        "zh": "街对面有人在演奏非常动听的音乐。",
-        "highlights": [
-          {
-            "text": "played",
-            "key": "played",
-            "chip": "orange"
-          },
-          {
-            "text": "across",
-            "key": "across",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 3.52,
-        "end": 8.37,
-        "speaker": "Speaker",
-        "en": "I don't know if you can hear it past all the other noise.",
-        "ipa": "/aɪ doʊnt noʊ ɪf ju kæn hir ɪt pæst ɔl ði ˈʌðər nɔɪz./",
-        "zh": "我不知道在这些嘈杂声中你能不能听见。",
-        "highlights": [
-          {
-            "text": "noise",
-            "key": "noise",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 9.52,
-        "end": 15.17,
-        "speaker": "Speaker",
-        "en": "But it's always nice whenever you see people playing on the side of the street like that; it is called busking.",
-        "ipa": "/bʌt ɪts ˈɔlweɪz naɪs wɛˈnɛvər ju si ˈpipəl ˈpleɪɪŋ ɑn ðə saɪd əv ðə strit laɪk ðæt; ɪt ɪz kɔld ˈbʌskɪŋ./",
-        "zh": "但每当你看到人们像那样在街边演奏时，总是很棒的；这被称为街头卖艺。",
-        "highlights": [
-          {
-            "text": "busking",
-            "key": "busking",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 15.21,
-        "end": 21.61,
-        "speaker": "Speaker",
-        "en": "I am busking, he is busking, and it means you're playing music on the side of the street with like a little cup, trying to get some money.",
-        "ipa": "/aɪ æm ˈbʌskɪŋ, hi ɪz ˈbʌskɪŋ, ænd ɪt minz jʊr ˈpleɪɪŋ ˈmjuzɪk ɑn ðə saɪd əv ðə strit wɪð laɪk ə ˈlɪtəl kʌp, ˈtraɪɪŋ tu ɡɛt sʌm ˈmʌni./",
-        "zh": "我在街头卖艺，他也在街头卖艺，意思就是你在街边演奏音乐，放个小杯子，试图赚点钱。",
-        "highlights": [
-          {
-            "text": "busking",
-            "key": "busking",
-            "chip": "pink"
-          },
-          {
-            "text": "on the side",
-            "key": "on the side",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 21.65,
-        "end": 23.32,
-        "speaker": "Speaker",
-        "en": "And Asheville's known for buskers.",
-        "ipa": "/ænd ˈæʃvɪlz noʊn fɔr ˈbʌskərz./",
-        "zh": "阿什维尔以街头艺人闻名。",
-        "highlights": [
-          {
-            "text": "Asheville",
-            "key": "asheville",
-            "chip": "orange"
-          },
-          {
-            "text": "buskers",
-            "key": "buskers",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 23.36,
-        "end": 24.83,
-        "speaker": "Speaker",
-        "en": "There's a lot of buskers.",
-        "ipa": "/ðɛrz ə lɑt əv ˈbʌskərz./",
-        "zh": "这里有很多街头艺人。",
-        "highlights": [
-          {
-            "text": "a lot of",
-            "key": "a lot of",
-            "chip": "indigo"
-          },
-          {
-            "text": "buskers",
-            "key": "buskers",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 24.87,
-        "end": 30.4,
-        "speaker": "Speaker",
-        "en": "And if you stop and listen to a busker for like a couple minutes, it's nice to drop a dollar in.",
-        "ipa": "/ænd ɪf ju stɑp ænd ˈlɪsən tu ə ˈbʌskər fɔr laɪk ə ˈkʌpəl ˈmɪnəts, ɪts naɪs tu drɑp ə ˈdɑlər ɪn./",
-        "zh": "如果你停下来听街头艺人演奏几分钟，往杯子里放一美元是件好事。",
-        "highlights": [
-          {
-            "text": "drop a dollar in",
-            "key": "drop a dollar in",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "start": 30.44,
-        "end": 33.8,
-        "speaker": "Speaker",
-        "en": "Just, you know, supporting some musicians along the side of the street.",
-        "ipa": "/dʒʌst, ju noʊ, səˈpɔrtɪŋ sʌm mjuˈzɪʃənz əˈlɔŋ ðə saɪd əv ðə strit./",
-        "zh": "就是，你知道，支持一下街边的音乐人。",
-        "highlights": [
-          {
-            "text": "supporting",
-            "key": "supporting",
-            "chip": "orange"
-          },
-          {
-            "text": "musicians",
-            "key": "musicians",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 33.84,
-        "end": 35.27,
-        "speaker": "Speaker",
-        "en": "They usually have to get a permit.",
-        "ipa": "/ðeɪ ˈjuʒəwəli hæv tu ɡɛt ə ˈpɜrmɪt./",
-        "zh": "他们通常需要获得许可证。",
-        "highlights": [
-          {
-            "text": "permit",
-            "key": "permit",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 35.31,
-        "end": 36.38,
-        "speaker": "Speaker",
-        "en": "It's like an official thing.",
-        "ipa": "/ɪts laɪk ən əˈfɪʃəl θɪŋ./",
-        "zh": "这算是一件官方认可的事情。",
-        "highlights": [
-          {
-            "text": "official",
-            "key": "official",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 36.42,
-        "end": 39.92,
-        "speaker": "Speaker",
-        "en": "You can't just sit down on the side of the road and start playing music.",
-        "ipa": "/ju kænt dʒʌst sɪt daʊn ɑn ðə saɪd əv ðə roʊd ænd stɑrt ˈpleɪɪŋ ˈmjuzɪk./",
-        "zh": "你不能随随便便坐在路边就开始演奏音乐。",
-        "highlights": [
-          {
-            "text": "on the side",
-            "key": "on the side",
-            "chip": "pink"
-          },
-          {
-            "text": "playing",
-            "key": "playing",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 39.96,
-        "end": 46.56,
-        "speaker": "Speaker",
-        "en": "So, before you cross the street in a city center, especially a busy place like this, you should push the button if nobody else has.",
-        "ipa": "/soʊ, bɪˈfɔr ju krɔs ðə strit ɪn ə ˈsɪti ˈsɛntər, əˈpɛʃəli ə ˈbɪzi pleɪs laɪk ðɪs, ju ʃʊd pʊʃ ðə ˈbʌtən ɪf ˈnoʊˌbɑdi ɛls hæz./",
-        "zh": "所以，在市中心过马路之前，特别是在像这样繁忙的地方，如果还没人按，你应该按一下按钮。",
-        "highlights": [
-          {
-            "text": "city center",
-            "key": "city center",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 46.6,
-        "end": 51.12,
-        "speaker": "Speaker",
-        "en": "And it will beep, and then it will light up the crosswalk sign.",
-        "ipa": "/ænd ɪt wɪl bip, ænd ðɛn ɪt wɪl laɪt ʌp ðə ˈkrɔsˌwɔk saɪn./",
-        "zh": "它会发出哔哔声，然后人行横道信号灯就会亮起。",
-        "highlights": [
-          {
-            "text": "crosswalk",
-            "key": "crosswalk",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 51.16,
-        "end": 58.28,
-        "speaker": "Speaker",
-        "en": "This is the one place—I know we talked about jaywalking—but this is the one place when you probably shouldn't.",
-        "ipa": "/ðɪs ɪz ðə wʌn pleɪs—aɪ noʊ wi tɔkt əˈbaʊt ˈdʒeɪˌwɔkɪŋ—bʌt ðɪs ɪz ðə wʌn pleɪs wɛn ju ˈprɑbəbli ˈʃʊdənt./",
-        "zh": "这是个例外——我知道我们谈过乱穿马路——但这地方你可能真的不该乱穿。",
-        "highlights": [
-          {
-            "text": "jaywalking",
-            "key": "jaywalking",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 58.32,
-        "end": 63.96,
-        "speaker": "Speaker",
-        "en": "Not that you'll get in trouble, but it's just not safe because there's actually a lot of cars and a lot of people, and I don't want to get hit.",
-        "ipa": "/nɑt ðæt jul ɡɛt ɪn ˈtrʌbəl, bʌt ɪts dʒʌst nɑt seɪf bɪˈkəz ðɛrz ˈæktʃuəli ə lɑt əv karz ænd ə lɑt əv ˈpipəl, ænd aɪ doʊnt wɑnt tu ɡɛt hɪt./",
-        "zh": "倒不是说你会惹上麻烦，只是这不安全，因为车流和人流确实很多，我可不想被撞到。",
-        "highlights": [
-          {
-            "text": "get in trouble",
-            "key": "get in trouble",
-            "chip": "pink"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "local-81-trimmed-81-downtown_micro2",
-    "number": "EP 82",
-    "title": "美国市中心的写字楼：空置店面与小高楼",
-    "speaker": "Vanessa",
-    "speakerAvatar": "./assets/hosts/cici_round.webp",
-    "region": "美国",
-    "difficulty": 1,
-    "durationSec": 88,
-    "durationLabel": "01:28",
-    "date": "2026/11/26",
-    "tags": [
-      "生活英语",
-      "日常对话"
-    ],
-    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
-    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E5%86%99%E5%AD%97%E6%A5%BC%EF%BC%9A%E7%A9%BA%E7%BD%AE%E5%BA%97%E9%9D%A2%E4%B8%8E%E5%B0%8F%E9%AB%98%E6%A5%BC.jpg",
-    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E5%86%99%E5%AD%97%E6%A5%BC%EF%BC%9A%E7%A9%BA%E7%BD%AE%E5%BA%97%E9%9D%A2%E4%B8%8E%E5%B0%8F%E9%AB%98%E6%A5%BC.micro.mp4",
-    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E5%86%99%E5%AD%97%E6%A5%BC%EF%BC%9A%E7%A9%BA%E7%BD%AE%E5%BA%97%E9%9D%A2%E4%B8%8E%E5%B0%8F%E9%AB%98%E6%A5%BC.micro.m4a",
-    "mediaKind": "video",
-    "sceneBadge": "生活英语",
-    "skipRanges": [],
-    "sentences": [
-      {
-        "id": 1,
-        "start": 0.2,
-        "end": 8.36,
-        "speaker": "Speaker",
-        "en": "If I can complain one more time about American downtowns, this building is built for corporate offices.",
-        "ipa": "/ɪf aɪ kæn kəmˈpleɪn wʌn mɔːr taɪm əˈbaʊt əˈmɛrɪkən ˈdaʊntaʊnz, ðɪs ˈbɪldɪŋ ɪz bɪlt fɔːr ˈkɔːrpərɪt ˈɔːfɪsɪz/",
-        "zh": "如果我能再抱怨一次美国市中心的话，这栋楼就是建来做公司办公室的。",
-        "highlights": [
-          {
-            "text": "complain",
-            "key": "抱怨",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "start": 8.4,
-        "end": 11.98,
-        "speaker": "Speaker",
-        "en": "Biltmore is the biggest house in the US and it's in Asheville.",
-        "ipa": "/ˈbɪltmɔːr ɪz ðə ˈbɪɡəst haʊs ɪn ðə juː ɛs ænd ɪts ɪn ˈæʃvɪl/",
-        "zh": "比尔特莫庄园是美国最大的住宅，它就在阿什维尔。",
-        "highlights": [
-          {
-            "text": "Biltmore",
-            "key": "biltmore",
-            "chip": "pink"
-          },
-          {
-            "text": "Asheville",
-            "key": "asheville",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "start": 12.02,
-        "end": 16.04,
-        "speaker": "Speaker",
-        "en": "It's the biggest tourist attraction in Asheville.",
-        "ipa": "/ɪts ðə ˈbɪɡəst ˈtʊrɪst əˈtrækʃən ɪn ˈæʃvɪl/",
-        "zh": "它是阿什维尔最大的旅游景点。",
-        "highlights": [
-          {
-            "text": "tourist attraction",
-            "key": "旅游景点",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "start": 16.08,
-        "end": 24.28,
-        "speaker": "Speaker",
-        "en": "But I think American downtowns could use a little bit more storefront.",
-        "ipa": "/bʌt aɪ θɪŋk əˈmɛrɪkən ˈdaʊntaʊnz kʊd juːz ə ˈlɪtəl bɪt mɔːr ˈstɔːrfrʌnt/",
-        "zh": "但我认为美国市中心可以多一点店面。",
-        "highlights": [
-          {
-            "text": "could use",
-            "key": "需要/可以用到",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "start": 24.32,
-        "end": 30.32,
-        "speaker": "Speaker",
-        "en": "Yeah, storefront space and this is completely unused.",
-        "ipa": "/jæ, ˈstɔːrfrʌnt speɪs ænd ðɪs ɪz kəmˈpliːtli ˌʌnˈjuːzd/",
-        "zh": "是的，店面空间，而这里完全没被利用起来。",
-        "highlights": [
-          {
-            "text": "unused",
-            "key": "未使用的/闲置的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "start": 30.36,
-        "end": 36.0,
-        "speaker": "Speaker",
-        "en": "It's for offices, you know, this isn't like there could be nice little shops, there could be nice little restaurants.",
-        "ipa": "/ɪts fɔːr ˈɔːfɪsɪz, juː noʊ, ðɪs ˈɪzənt laɪk ðɛr kʊd biː naɪs ˈlɪtəl ʃɑːps, ðɛr kʊd biː naɪs ˈlɪtəl ˈrɛstəˌrɑːnts/",
-        "zh": "这是办公用的，你知道，这里本可以开些不错的小店，或者不错的小餐馆。",
-        "highlights": [
-          {
-            "text": "nice little",
-            "key": "不错的小……",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "start": 36.04,
-        "end": 38.92,
-        "speaker": "Speaker",
-        "en": "I don't know, something.",
-        "ipa": "/aɪ doʊnt noʊ, ˈsʌmθɪŋ/",
-        "zh": "我不知道，总之做点什么都好。",
-        "highlights": []
-      },
-      {
-        "id": 8,
-        "start": 38.96,
-        "end": 41.96,
-        "speaker": "Speaker",
-        "en": "Yeah, so this is prime territory, right?",
-        "ipa": "/jæ, soʊ ðɪs ɪz praɪm ˈtɛrɪtɔːri, raɪt/",
-        "zh": "是啊，这可是黄金地段，对吧？",
-        "highlights": [
-          {
-            "text": "prime territory",
-            "key": "黄金地段/核心区域",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "start": 42.0,
-        "end": 50.29,
-        "speaker": "Speaker",
-        "en": "Prime land to be able to do something with, and the whole half of the downtown square is that.",
-        "ipa": "/praɪm lænd tuː biː ˈeɪbəl tuː duː ˈsʌmθɪŋ wɪð, ænd ðə hoʊl hæf əv ðə ˈdaʊntaʊn skwɛr ɪz ðæt/",
-        "zh": "这是可以开发利用的黄金地块，而市中心广场的一半都是这样。",
-        "highlights": [
-          {
-            "text": "downtown",
-            "key": "downtown",
-            "chip": "orange"
-          },
-          {
-            "text": "square",
-            "key": "square",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "start": 50.33,
-        "end": 56.8,
-        "speaker": "Speaker",
-        "en": "Kind of a bummer, but, you know, I guess you can only get what you can get, right?",
-        "ipa": "/kaɪnd əv ə ˈbʌmər, bʌt, ju noʊ, aɪ ɡɛs ju kæn ˈoʊnli ɡɛt wʌt ju kæn ɡɛt, raɪt?/",
-        "zh": "有点扫兴，但你知道，我想这就是能得到的全部了，对吧？",
-        "highlights": [
-          {
-            "text": "bummer",
-            "key": "bummer",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "start": 56.84,
-        "end": 61.08,
-        "speaker": "Speaker",
-        "en": "Some people might call this a skyscraper.",
-        "ipa": "/sʌm ˈpipəl maɪt kɔl ðɪs ə ˈskaɪˌskreɪpər./",
-        "zh": "有些人可能会把这栋楼称为摩天大楼。",
-        "highlights": [
-          {
-            "text": "skyscraper",
-            "key": "skyscraper",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "start": 61.12,
-        "end": 64.84,
-        "speaker": "Speaker",
-        "en": "Um, Asheville is not known for its skyscrapers.",
-        "ipa": "/ʌm, ˈæʃvɪl ɪz nɑt noʊn fɔr ɪts ˈskaɪˌskreɪpərz./",
-        "zh": "嗯，阿什维尔并不是以摩天大楼而闻名的。",
-        "highlights": [
-          {
-            "text": "known for",
-            "key": "known for",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "start": 64.88,
-        "end": 68.32,
-        "speaker": "Speaker",
-        "en": "There's not many skyscrapers here.",
-        "ipa": "/ðɛrz nɑt ˈmɛni ˈskaɪˌskreɪpərz hir./",
-        "zh": "这里没几栋摩天大楼。",
-        "highlights": [
-          {
-            "text": "skyscrapers",
-            "key": "skyscrapers",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "start": 68.36,
-        "end": 74.08,
-        "speaker": "Speaker",
-        "en": "But, um, I guess this is the tallest or one of the tallest buildings here.",
-        "ipa": "/bʌt, ʌm, aɪ ɡɛs ðɪs ɪz ðə ˈtɔləst ɔr wʌn əv ðə ˈtɔləst ˈbɪldɪŋz hir./",
-        "zh": "不过，嗯，我想这应该是这里最高或者最高的建筑之一了。",
-        "highlights": [
-          {
-            "text": "tallest",
-            "key": "tallest",
-            "chip": "pink"
-          },
-          {
-            "text": "buildings",
-            "key": "buildings",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "start": 74.12,
-        "end": 77.49,
-        "speaker": "Speaker",
-        "en": "Most buildings are... what would you say this is?",
-        "ipa": "/moʊst ˈbɪldɪŋz ɑr... wʌt wʊd ju seɪ ðɪs ɪz?/",
-        "zh": "大多数建筑都是你觉得这栋楼有几层？",
-        "highlights": [
-          {
-            "text": "buildings",
-            "key": "buildings",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "start": 77.53,
-        "end": 79.33,
-        "speaker": "Speaker",
-        "en": "Let's take a look.",
-        "ipa": "/lɛts teɪk ə lʊk. wʌn, tu, θri, fɔr, faɪv ˈstɔriz tɔl?/",
-        "zh": "让我们看看。",
-        "highlights": []
-      },
-      {
-        "id": 17,
-        "start": 79.37,
-        "end": 82.12,
-        "speaker": "Speaker",
-        "en": "1, 2, 3, 4, 5 stories tall?",
-        "ipa": "",
-        "zh": "1、2、3、4、5层楼高？",
-        "highlights": [
-          {
-            "text": "stories",
-            "key": "stories",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "start": 82.16,
-        "end": 87.56,
-        "speaker": "Speaker",
-        "en": "That's pretty common, but I guess there's also a few skyscrapers.",
-        "ipa": "/ðæts ˈprɪti ˈkɑmən, bʌt aɪ ɡɛs ðɛrz ˈɔlsoʊ ə fju ˈskaɪˌskreɪpərz./",
-        "zh": "这很常见，但我猜这里也有几栋摩天大楼。",
-        "highlights": [
-          {
-            "text": "common",
-            "key": "common",
-            "chip": "pink"
-          },
-          {
-            "text": "skyscrapers",
-            "key": "skyscrapers",
-            "chip": "orange"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "local-80-Art-Deco-downtown_micro1",
-    "number": "EP 81",
+    "number": "EP 83",
     "title": "阿什维尔市中心：Art Deco 建筑与砖砌人行道",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -831,7 +10,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 70,
     "durationLabel": "01:10",
-    "date": "2026/11/26",
+    "date": "2026/11/28",
     "tags": [
       "生活英语",
       "日常对话"
@@ -1024,7 +203,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-57-trimmed-57-part2",
-    "number": "EP 80",
+    "number": "EP 82",
     "title": "雪山半山腰餐厅歇脚与滑雪体验地道表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -1032,7 +211,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 242,
     "durationLabel": "04:02",
-    "date": "2026/11/28",
+    "date": "2026/11/27",
     "tags": [
       "美食",
       "旅行"
@@ -2005,7 +1184,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-80-Frosty-fastfood_micro6",
-    "number": "EP 79",
+    "number": "EP 81",
     "title": "免下车点甜品：巧克力 Frosty 与薯条",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -2013,7 +1192,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 57,
     "durationLabel": "00:57",
-    "date": "2026/11/27",
+    "date": "2026/11/26",
     "tags": [
       "生活英语",
       "日常对话"
@@ -2358,7 +1537,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-56-trimmed-56-part1",
-    "number": "EP 78",
+    "number": "EP 80",
     "title": "滑雪场必备英语：租雪具、买雪票与初上雪道",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -4159,7 +3338,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-79-Big-Mac-fastfood_micro5",
-    "number": "EP 77",
+    "number": "EP 79",
     "title": "麦当劳套餐拆解：Big Mac 与快餐不用小费",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -4443,7 +3622,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-53-trimmed-53-part2",
-    "number": "EP 76",
+    "number": "EP 78",
     "title": "美国街头采访：不同职业的真实工作时长与故事",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -4451,7 +3630,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 399,
     "durationLabel": "06:39",
-    "date": "2026/11/22",
+    "date": "2026/11/23",
     "tags": [
       "日常对话"
     ],
@@ -7075,7 +6254,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-78-1-Happy-Meal-fastfood_micro4",
-    "number": "EP 75",
+    "number": "EP 77",
     "title": "麦当劳柜台点单：1 号套餐、Happy Meal 与饮料尺寸",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -7083,7 +6262,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 133,
     "durationLabel": "02:13",
-    "date": "2026/11/21",
+    "date": "2026/11/22",
     "tags": [
       "美食"
     ],
@@ -7876,7 +7055,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-52-trimmed-52-part1",
-    "number": "EP 74",
+    "number": "EP 76",
     "title": "美国街头采访：你是做什么工作的？（职场日常篇）",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -7884,7 +7063,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 350,
     "durationLabel": "05:50",
-    "date": "2026/11/20",
+    "date": "2026/11/21",
     "tags": [
       "日常对话",
       "生活"
@@ -9900,7 +9079,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-77-Chick-fil-A-fastfood_micro3",
-    "number": "EP 73",
+    "number": "EP 75",
     "title": "Chick-fil-A 酱料与收据：特调酱、水牛城酱和华夫薯条",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -9908,7 +9087,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 59,
     "durationLabel": "00:59",
-    "date": "2026/11/18",
+    "date": "2026/11/20",
     "tags": [
       "美食"
     ],
@@ -10153,7 +9332,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-49-trimmed-49-part2",
-    "number": "EP 72",
+    "number": "EP 74",
     "title": "美式快餐开箱试吃与口味评价地道表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -10161,7 +9340,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 234,
     "durationLabel": "03:54",
-    "date": "2026/11/17",
+    "date": "2026/11/19",
     "tags": [
       "美食"
     ],
@@ -10956,7 +10135,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-76-Chick-fil-A-fastfood_micro2",
-    "number": "EP 71",
+    "number": "EP 73",
     "title": "Chick-fil-A 拆餐：招牌鸡腿堡、鸡块与鸡柳",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -10964,7 +10143,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 175,
     "durationLabel": "02:55",
-    "date": "2026/11/15",
+    "date": "2026/11/18",
     "tags": [
       "美食"
     ],
@@ -11577,7 +10756,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-48-Drive-thru-part1",
-    "number": "EP 70",
+    "number": "EP 72",
     "title": "美国得来速快餐实景：点咖啡与 Drive-thru 下单",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -11585,7 +10764,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 512,
     "durationLabel": "08:32",
-    "date": "2026/11/14",
+    "date": "2026/11/17",
     "tags": [
       "美食"
     ],
@@ -13213,7 +12392,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-75-Chick-fil-A-fastfood_micro1",
-    "number": "EP 69",
+    "number": "EP 71",
     "title": "Chick-fil-A 柜台点单：鸡肉三明治、鸡块与堂食付款",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -13221,7 +12400,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 105,
     "durationLabel": "01:45",
-    "date": "2026/11/13",
+    "date": "2026/11/16",
     "tags": [
       "美食"
     ],
@@ -13945,7 +13124,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-47-trimmed-47-part2",
-    "number": "EP 68",
+    "number": "EP 70",
     "title": "机场候机与美食区：登机前购物与餐饮表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -13953,7 +13132,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 286,
     "durationLabel": "04:46",
-    "date": "2026/11/11",
+    "date": "2026/11/15",
     "tags": [
       "购物",
       "美食",
@@ -14977,7 +14156,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-74-trimmed-74-micro9",
-    "number": "EP 67",
+    "number": "EP 69",
     "title": "甜品柜台点单：问招牌、点焦糖布蕾与无现金刷卡",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -14985,7 +14164,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 105,
     "durationLabel": "01:45",
-    "date": "2026/11/10",
+    "date": "2026/11/14",
     "tags": [
       "生活英语",
       "日常对话"
@@ -15589,7 +14768,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-46-trimmed-46-part1",
-    "number": "EP 66",
+    "number": "EP 68",
     "title": "美国机场出行实战：值机、安检与登机口英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -15597,7 +14776,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 535,
     "durationLabel": "08:55",
-    "date": "2026/11/09",
+    "date": "2026/11/13",
     "tags": [
       "旅行",
       "生活英语"
@@ -17424,7 +16603,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-73-trimmed-73-micro8",
-    "number": "EP 65",
+    "number": "EP 67",
     "title": "手工松露巧克力店：挑礼盒与甜品店趣事",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -17432,7 +16611,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 119,
     "durationLabel": "01:59",
-    "date": "2026/11/07",
+    "date": "2026/11/12",
     "tags": [
       "生活英语",
       "日常对话"
@@ -17815,7 +16994,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-45-trimmed-45-part2",
-    "number": "EP 64",
+    "number": "EP 66",
     "title": "用餐中途怎么沟通：续杯加酱、打包与买单英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -17823,7 +17002,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 313,
     "durationLabel": "05:13",
-    "date": "2026/11/06",
+    "date": "2026/11/11",
     "tags": [
       "生活英语",
       "日常对话"
@@ -19029,7 +18208,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-65-trimmed-65-part2",
-    "number": "EP 63",
+    "number": "EP 65",
     "title": "纽约暴走与贝果探店：一个人的大城市治愈时光",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -19037,7 +18216,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 4,
     "durationSec": 322,
     "durationLabel": "05:22",
-    "date": "2026/11/04",
+    "date": "2026/11/10",
     "tags": [
       "生活英语",
       "日常对话"
@@ -21000,7 +20179,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-44-trimmed-44-part1",
-    "number": "EP 62",
+    "number": "EP 64",
     "title": "美国餐厅点餐实战：入座、看菜单与向服务员咨询",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -21008,7 +20187,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 545,
     "durationLabel": "09:05",
-    "date": "2026/11/03",
+    "date": "2026/11/09",
     "tags": [
       "美食"
     ],
@@ -23203,7 +22382,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-72-trimmed-72-micro7",
-    "number": "EP 61",
+    "number": "EP 63",
     "title": "小镇伴手礼店：风铃、明信片与焦糖爆米花",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -23211,7 +22390,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 71,
     "durationLabel": "01:11",
-    "date": "2026/11/02",
+    "date": "2026/11/08",
     "tags": [
       "生活英语",
       "日常对话"
@@ -23569,7 +22748,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-43-trimmed-43-part2",
-    "number": "EP 60",
+    "number": "EP 62",
     "title": "美式街头俚语精讲：正式说法与地道口语对比",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -23577,7 +22756,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 4,
     "durationSec": 366,
     "durationLabel": "06:06",
-    "date": "2026/10/31",
+    "date": "2026/11/07",
     "tags": [
       "日常对话",
       "生活英语"
@@ -25360,7 +24539,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-71-trimmed-71-micro6",
-    "number": "EP 59",
+    "number": "EP 61",
     "title": "美国复古糖果店：盐水太妃糖与童年零食",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -25368,7 +24547,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 185,
     "durationLabel": "03:05",
-    "date": "2026/10/30",
+    "date": "2026/11/06",
     "tags": [
       "生活英语",
       "日常对话"
@@ -26157,7 +25336,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-42-trimmed-42-part1",
-    "number": "EP 58",
+    "number": "EP 60",
     "title": "你能听懂美国年轻人的俚语吗？辛辛那提好友访谈",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -26165,7 +25344,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 546,
     "durationLabel": "09:06",
-    "date": "2026/10/28",
+    "date": "2026/11/05",
     "tags": [
       "日常对话"
     ],
@@ -28878,7 +28057,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-64-trimmed-64-part1",
-    "number": "EP 57",
+    "number": "EP 59",
     "title": "独自在纽约的清晨：打卡运动课与城市日常",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -28886,7 +28065,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 282,
     "durationLabel": "04:42",
-    "date": "2026/10/27",
+    "date": "2026/11/04",
     "tags": [
       "生活"
     ],
@@ -30100,7 +29279,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-37-trimmed-37-part2",
-    "number": "EP 56",
+    "number": "EP 58",
     "title": "美国买房流程与二楼卧室参观：房产英语实战",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -30108,7 +29287,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 539,
     "durationLabel": "08:59",
-    "date": "2026/10/26",
+    "date": "2026/11/03",
     "tags": [
       "生活英语",
       "日常对话"
@@ -32386,7 +31565,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-70-Asheville-Greenway-micro5",
-    "number": "EP 55",
+    "number": "EP 57",
     "title": "Asheville 五角街区：过马路，走向 Greenway",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -32394,7 +31573,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 137,
     "durationLabel": "02:17",
-    "date": "2026/10/24",
+    "date": "2026/11/02",
     "tags": [
       "生活英语",
       "日常对话"
@@ -33014,7 +32193,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-36-trimmed-36-part1",
-    "number": "EP 54",
+    "number": "EP 56",
     "title": "美国看房实景：客厅、厨房与后院空间介绍",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -33022,7 +32201,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 512,
     "durationLabel": "08:32",
-    "date": "2026/10/23",
+    "date": "2026/11/01",
     "tags": [
       "生活英语",
       "日常对话"
@@ -35306,7 +34485,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-63-ABG-part2",
-    "number": "EP 53",
+    "number": "EP 55",
     "title": "ABG 欧美妆全流程教学：修容、烘焙定妆与惊艳变装",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -35314,7 +34493,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 410,
     "durationLabel": "06:50",
-    "date": "2026/10/21",
+    "date": "2026/10/31",
     "tags": [
       "生活英语",
       "日常对话"
@@ -36520,7 +35699,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-35-trimmed-35-part3",
-    "number": "EP 52",
+    "number": "EP 54",
     "title": "洗衣服与收纳整理：美式家庭家务高频短语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -36528,7 +35707,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 450,
     "durationLabel": "07:30",
-    "date": "2026/10/20",
+    "date": "2026/10/30",
     "tags": [
       "生活英语",
       "日常对话"
@@ -37843,7 +37022,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-69-trimmed-69-micro4",
-    "number": "EP 51",
+    "number": "EP 53",
     "title": "美国社区回收日：门前垃圾桶与横穿马路",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -37851,7 +37030,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 75,
     "durationLabel": "01:15",
-    "date": "2026/10/19",
+    "date": "2026/10/29",
     "tags": [
       "生活英语",
       "日常对话"
@@ -38307,7 +37486,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-34-trimmed-34-part2",
-    "number": "EP 50",
+    "number": "EP 52",
     "title": "厨房与客厅清洁：擦拭、抛光与吸尘实用动词",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -38315,7 +37494,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 443,
     "durationLabel": "07:23",
-    "date": "2026/10/17",
+    "date": "2026/10/28",
     "tags": [
       "生活英语",
       "日常对话"
@@ -39476,7 +38655,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-62-trimmed-62-part1",
-    "number": "EP 49",
+    "number": "EP 51",
     "title": "韩系淡妆挑战欧美辣妹风：种睫毛、修眉与逛街挑衣服",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -39484,7 +38663,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 288,
     "durationLabel": "04:48",
-    "date": "2026/10/16",
+    "date": "2026/10/27",
     "tags": [
       "购物"
     ],
@@ -40506,7 +39685,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-33-trimmed-33-part1",
-    "number": "EP 48",
+    "number": "EP 50",
     "title": "居家大扫除英语：整理房间与日常家务表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -40514,7 +39693,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 266,
     "durationLabel": "04:26",
-    "date": "2026/10/14",
+    "date": "2026/10/26",
     "tags": [
       "生活"
     ],
@@ -41300,7 +40479,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-68-trimmed-68-micro3",
-    "number": "EP 47",
+    "number": "EP 49",
     "title": "美式老街区散步：过马路、百年老宅与风铃",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -41308,7 +40487,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 175,
     "durationLabel": "02:55",
-    "date": "2026/10/13",
+    "date": "2026/10/25",
     "tags": [
       "生活英语",
       "日常对话"
@@ -42020,7 +41199,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-29-trimmed-29-part2",
-    "number": "EP 46",
+    "number": "EP 48",
     "title": "纽约街头出行：人行横道、地铁与街头热狗摊",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -42028,7 +41207,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 149,
     "durationLabel": "02:29",
-    "date": "2026/10/12",
+    "date": "2026/10/24",
     "tags": [
       "旅行"
     ],
@@ -42634,7 +41813,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-61-trimmed-61-part2",
-    "number": "EP 45",
+    "number": "EP 47",
     "title": "一个人的居家沙拉与逛书店：享受独处的松弛感",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -42642,7 +41821,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 4,
     "durationSec": 319,
     "durationLabel": "05:19",
-    "date": "2026/10/10",
+    "date": "2026/10/23",
     "tags": [
       "生活英语",
       "日常对话"
@@ -44004,7 +43183,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-28-trimmed-28-part1",
-    "number": "EP 44",
+    "number": "EP 46",
     "title": "漫步纽约曼哈顿：摩天大楼、人行道与自行车道",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -44012,7 +43191,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 282,
     "durationLabel": "04:42",
-    "date": "2026/10/09",
+    "date": "2026/10/22",
     "tags": [
       "生活英语",
       "日常对话"
@@ -44897,7 +44076,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-67-trimmed-67-micro2",
-    "number": "EP 43",
+    "number": "EP 45",
     "title": "美国邮局外景打卡：给团队寄出当地手工巧克力",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -44905,7 +44084,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 75,
     "durationLabel": "01:15",
-    "date": "2026/10/07",
+    "date": "2026/10/21",
     "tags": [
       "生活英语"
     ],
@@ -45160,7 +44339,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-27-Chipotle-part2",
-    "number": "EP 42",
+    "number": "EP 44",
     "title": "Chipotle 柜台实景点单：选肉选酱与地道句型",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -45168,7 +44347,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 300,
     "durationLabel": "05:00",
-    "date": "2026/10/06",
+    "date": "2026/10/20",
     "tags": [
       "美食"
     ],
@@ -46291,7 +45470,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-60-trimmed-60-part1",
-    "number": "EP 41",
+    "number": "EP 43",
     "title": "独处但不孤独：纽约一个人的漫步与内心独白",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -46299,7 +45478,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 4,
     "durationSec": 409,
     "durationLabel": "06:49",
-    "date": "2026/10/05",
+    "date": "2026/10/19",
     "tags": [
       "生活英语",
       "日常对话"
@@ -47942,7 +47121,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-26-Chipotle-part1",
-    "number": "EP 40",
+    "number": "EP 42",
     "title": "Chipotle 墨西哥卷点餐前必懂：菜单与加料计价",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -47950,7 +47129,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 254,
     "durationLabel": "04:14",
-    "date": "2026/10/03",
+    "date": "2026/10/18",
     "tags": [
       "美食"
     ],
@@ -48601,7 +47780,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-66-Drive-thru-micro1",
-    "number": "EP 39",
+    "number": "EP 41",
     "title": "免下车存款：美国银行 Drive-thru 气动管道实景",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -48609,7 +47788,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 182,
     "durationLabel": "03:02",
-    "date": "2026/10/02",
+    "date": "2026/10/17",
     "tags": [
       "生活英语",
       "日常对话"
@@ -49492,7 +48671,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-23-trimmed-23-part2",
-    "number": "EP 38",
+    "number": "EP 40",
     "title": "超市烘焙区、保质期怎么看与自助结账机",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -49500,7 +48679,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 275,
     "durationLabel": "04:35",
-    "date": "2026/10/01",
+    "date": "2026/10/16",
     "tags": [
       "购物",
       "美食"
@@ -50615,7 +49794,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-51-trimmed-51-part2",
-    "number": "EP 37",
+    "number": "EP 39",
     "title": "独居公寓采购日：超市买菜、万圣节街景与睡前复盘",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -50623,7 +49802,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 251,
     "durationLabel": "04:11",
-    "date": "2026/09/29",
+    "date": "2026/10/15",
     "tags": [
       "购物",
       "生活"
@@ -51430,7 +50609,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-22-trimmed-22-part1",
-    "number": "EP 36",
+    "number": "EP 38",
     "title": "跟外教逛超市：有机果蔬区与挑选成熟牛油果",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -51438,7 +50617,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 268,
     "durationLabel": "04:28",
-    "date": "2026/09/28",
+    "date": "2026/10/14",
     "tags": [
       "购物"
     ],
@@ -52371,7 +51550,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-32-trimmed-32-part3",
-    "number": "EP 35",
+    "number": "EP 37",
     "title": "享用美式披萨与结账打包：完整餐厅收尾对话",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -52379,7 +51558,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 335,
     "durationLabel": "05:35",
-    "date": "2026/09/26",
+    "date": "2026/10/13",
     "tags": [
       "生活英语",
       "日常对话"
@@ -54104,7 +53283,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-19-trimmed-19-part3",
-    "number": "EP 34",
+    "number": "EP 36",
     "title": "乐高玩具店、柜台结账与商场防盗词汇",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -54112,7 +53291,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 314,
     "durationLabel": "05:14",
-    "date": "2026/09/25",
+    "date": "2026/10/12",
     "tags": [
       "生活英语"
     ],
@@ -55134,7 +54313,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-50-trimmed-50-part1",
-    "number": "EP 33",
+    "number": "EP 35",
     "title": "高效充实的一天：晨间健身课、整理房间与咖啡馆办公",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -55142,7 +54321,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 536,
     "durationLabel": "08:56",
-    "date": "2026/09/24",
+    "date": "2026/10/11",
     "tags": [
       "美食"
     ],
@@ -56967,7 +56146,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-18-trimmed-18-part2",
-    "number": "EP 32",
+    "number": "EP 34",
     "title": "美式商场购物：潮流服饰、游戏店与综合百货",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -56975,7 +56154,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 336,
     "durationLabel": "05:36",
-    "date": "2026/09/22",
+    "date": "2026/10/10",
     "tags": [
       "购物"
     ],
@@ -58361,7 +57540,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-31-trimmed-31-part2",
-    "number": "EP 31",
+    "number": "EP 33",
     "title": "披萨店餐桌闲聊：餐厅打工趣事与地道口语",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -58369,7 +57548,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 477,
     "durationLabel": "07:57",
-    "date": "2026/09/21",
+    "date": "2026/10/09",
     "tags": [
       "生活英语",
       "日常对话"
@@ -61027,7 +60206,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-17-trimmed-17-part1",
-    "number": "EP 30",
+    "number": "EP 32",
     "title": "逛美国购物中心：楼层分区与美食广场点餐",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -61035,7 +60214,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 335,
     "durationLabel": "05:35",
-    "date": "2026/09/19",
+    "date": "2026/10/08",
     "tags": [
       "购物",
       "美食"
@@ -62088,7 +61267,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-59-trimmed-59-part2",
-    "number": "EP 29",
+    "number": "EP 31",
     "title": "西西里陶尔米纳与卡塔尼亚：慢节奏海边度假日记",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -62096,7 +61275,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 2,
     "durationSec": 326,
     "durationLabel": "05:26",
-    "date": "2026/09/18",
+    "date": "2026/10/07",
     "tags": [
       "美食",
       "旅行"
@@ -63047,7 +62226,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-16-trimmed-16-part3",
-    "number": "EP 28",
+    "number": "EP 30",
     "title": "中控台、换挡杆与车内清洁：汽车内饰英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -63055,7 +62234,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 321,
     "durationLabel": "05:21",
-    "date": "2026/09/17",
+    "date": "2026/10/06",
     "tags": [
       "生活英语"
     ],
@@ -63883,7 +63062,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-41-trimmed-41-part2",
-    "number": "EP 27",
+    "number": "EP 29",
     "title": "健身后的高蛋白晚餐与纽约居家备餐日常",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -63891,7 +63070,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 540,
     "durationLabel": "09:00",
-    "date": "2026/09/15",
+    "date": "2026/10/05",
     "tags": [
       "生活"
     ],
@@ -66947,7 +66126,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-15-trimmed-15-part2",
-    "number": "EP 26",
+    "number": "EP 28",
     "title": "爆胎、轮毂与仪表盘：自驾必备汽车英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -66955,7 +66134,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 323,
     "durationLabel": "05:23",
-    "date": "2026/09/14",
+    "date": "2026/10/04",
     "tags": [
       "生活英语",
       "日常对话"
@@ -67787,7 +66966,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-30-trimmed-30-part1",
-    "number": "EP 25",
+    "number": "EP 27",
     "title": "美式披萨店实景点单：菜单解读与开胃小食",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -67795,7 +66974,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 444,
     "durationLabel": "07:24",
-    "date": "2026/09/12",
+    "date": "2026/10/03",
     "tags": [
       "美食"
     ],
@@ -70669,7 +69848,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-14-trimmed-14-part1",
-    "number": "EP 24",
+    "number": "EP 26",
     "title": "自助洗车与车身外观：入门汽车英语词汇",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -70677,7 +69856,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 307,
     "durationLabel": "05:07",
-    "date": "2026/09/11",
+    "date": "2026/10/02",
     "tags": [
       "生活英语"
     ],
@@ -71754,7 +70933,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-55-trimmed-55-part2",
-    "number": "EP 23",
+    "number": "EP 25",
     "title": "酒店卫浴细节、早餐咖啡与退房告别英语",
     "speaker": "Bob the Canadian",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -71762,7 +70941,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 349,
     "durationLabel": "05:49",
-    "date": "2026/09/10",
+    "date": "2026/10/01",
     "tags": [
       "美食",
       "旅行"
@@ -73151,7 +72330,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-13-trimmed-13-part3",
-    "number": "EP 22",
+    "number": "EP 24",
     "title": "探访印度教寺庙与犹太会堂：多元宗教文化英语",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -73159,7 +72338,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 321,
     "durationLabel": "05:21",
-    "date": "2026/09/08",
+    "date": "2026/09/30",
     "tags": [
       "生活英语",
       "日常对话"
@@ -74480,7 +73659,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-58-trimmed-58-part1",
-    "number": "EP 21",
+    "number": "EP 23",
     "title": "宅女的夏日海岛假期：出发、美食与悠闲时光",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -74488,7 +73667,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 334,
     "durationLabel": "05:34",
-    "date": "2026/09/07",
+    "date": "2026/09/29",
     "tags": [
       "美食",
       "旅行"
@@ -75506,7 +74685,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-12-trimmed-12-part2",
-    "number": "EP 20",
+    "number": "EP 22",
     "title": "聊信仰与宗教礼仪：讲道、捐赠与跨文化表达",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -75514,7 +74693,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 320,
     "durationLabel": "05:20",
-    "date": "2026/09/05",
+    "date": "2026/09/28",
     "tags": [
       "生活英语",
       "日常对话"
@@ -76757,8 +75936,329 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
+    "id": "local-81-trimmed-81-downtown_micro2",
+    "number": "EP 21",
+    "title": "美国市中心的写字楼：空置店面与小高楼",
+    "speaker": "Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 88,
+    "durationLabel": "01:28",
+    "date": "2026/09/27",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
+    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E5%86%99%E5%AD%97%E6%A5%BC%EF%BC%9A%E7%A9%BA%E7%BD%AE%E5%BA%97%E9%9D%A2%E4%B8%8E%E5%B0%8F%E9%AB%98%E6%A5%BC.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E5%86%99%E5%AD%97%E6%A5%BC%EF%BC%9A%E7%A9%BA%E7%BD%AE%E5%BA%97%E9%9D%A2%E4%B8%8E%E5%B0%8F%E9%AB%98%E6%A5%BC.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E5%86%99%E5%AD%97%E6%A5%BC%EF%BC%9A%E7%A9%BA%E7%BD%AE%E5%BA%97%E9%9D%A2%E4%B8%8E%E5%B0%8F%E9%AB%98%E6%A5%BC.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 8.36,
+        "speaker": "Speaker",
+        "en": "If I can complain one more time about American downtowns, this building is built for corporate offices.",
+        "ipa": "/ɪf aɪ kæn kəmˈpleɪn wʌn mɔːr taɪm əˈbaʊt əˈmɛrɪkən ˈdaʊntaʊnz, ðɪs ˈbɪldɪŋ ɪz bɪlt fɔːr ˈkɔːrpərɪt ˈɔːfɪsɪz/",
+        "zh": "如果我能再抱怨一次美国市中心的话，这栋楼就是建来做公司办公室的。",
+        "highlights": [
+          {
+            "text": "complain",
+            "key": "抱怨",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 8.4,
+        "end": 11.98,
+        "speaker": "Speaker",
+        "en": "Biltmore is the biggest house in the US and it's in Asheville.",
+        "ipa": "/ˈbɪltmɔːr ɪz ðə ˈbɪɡəst haʊs ɪn ðə juː ɛs ænd ɪts ɪn ˈæʃvɪl/",
+        "zh": "比尔特莫庄园是美国最大的住宅，它就在阿什维尔。",
+        "highlights": [
+          {
+            "text": "Biltmore",
+            "key": "biltmore",
+            "chip": "pink"
+          },
+          {
+            "text": "Asheville",
+            "key": "asheville",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 12.02,
+        "end": 16.04,
+        "speaker": "Speaker",
+        "en": "It's the biggest tourist attraction in Asheville.",
+        "ipa": "/ɪts ðə ˈbɪɡəst ˈtʊrɪst əˈtrækʃən ɪn ˈæʃvɪl/",
+        "zh": "它是阿什维尔最大的旅游景点。",
+        "highlights": [
+          {
+            "text": "tourist attraction",
+            "key": "旅游景点",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 16.08,
+        "end": 24.28,
+        "speaker": "Speaker",
+        "en": "But I think American downtowns could use a little bit more storefront.",
+        "ipa": "/bʌt aɪ θɪŋk əˈmɛrɪkən ˈdaʊntaʊnz kʊd juːz ə ˈlɪtəl bɪt mɔːr ˈstɔːrfrʌnt/",
+        "zh": "但我认为美国市中心可以多一点店面。",
+        "highlights": [
+          {
+            "text": "could use",
+            "key": "需要/可以用到",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 24.32,
+        "end": 30.32,
+        "speaker": "Speaker",
+        "en": "Yeah, storefront space and this is completely unused.",
+        "ipa": "/jæ, ˈstɔːrfrʌnt speɪs ænd ðɪs ɪz kəmˈpliːtli ˌʌnˈjuːzd/",
+        "zh": "是的，店面空间，而这里完全没被利用起来。",
+        "highlights": [
+          {
+            "text": "unused",
+            "key": "未使用的/闲置的",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 30.36,
+        "end": 36.0,
+        "speaker": "Speaker",
+        "en": "It's for offices, you know, this isn't like there could be nice little shops, there could be nice little restaurants.",
+        "ipa": "/ɪts fɔːr ˈɔːfɪsɪz, juː noʊ, ðɪs ˈɪzənt laɪk ðɛr kʊd biː naɪs ˈlɪtəl ʃɑːps, ðɛr kʊd biː naɪs ˈlɪtəl ˈrɛstəˌrɑːnts/",
+        "zh": "这是办公用的，你知道，这里本可以开些不错的小店，或者不错的小餐馆。",
+        "highlights": [
+          {
+            "text": "nice little",
+            "key": "不错的小……",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 36.04,
+        "end": 38.92,
+        "speaker": "Speaker",
+        "en": "I don't know, something.",
+        "ipa": "/aɪ doʊnt noʊ, ˈsʌmθɪŋ/",
+        "zh": "我不知道，总之做点什么都好。",
+        "highlights": []
+      },
+      {
+        "id": 8,
+        "start": 38.96,
+        "end": 41.96,
+        "speaker": "Speaker",
+        "en": "Yeah, so this is prime territory, right?",
+        "ipa": "/jæ, soʊ ðɪs ɪz praɪm ˈtɛrɪtɔːri, raɪt/",
+        "zh": "是啊，这可是黄金地段，对吧？",
+        "highlights": [
+          {
+            "text": "prime territory",
+            "key": "黄金地段/核心区域",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 42.0,
+        "end": 50.29,
+        "speaker": "Speaker",
+        "en": "Prime land to be able to do something with, and the whole half of the downtown square is that.",
+        "ipa": "/praɪm lænd tuː biː ˈeɪbəl tuː duː ˈsʌmθɪŋ wɪð, ænd ðə hoʊl hæf əv ðə ˈdaʊntaʊn skwɛr ɪz ðæt/",
+        "zh": "这是可以开发利用的黄金地块，而市中心广场的一半都是这样。",
+        "highlights": [
+          {
+            "text": "downtown",
+            "key": "downtown",
+            "chip": "orange"
+          },
+          {
+            "text": "square",
+            "key": "square",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 50.33,
+        "end": 56.8,
+        "speaker": "Speaker",
+        "en": "Kind of a bummer, but, you know, I guess you can only get what you can get, right?",
+        "ipa": "/kaɪnd əv ə ˈbʌmər, bʌt, ju noʊ, aɪ ɡɛs ju kæn ˈoʊnli ɡɛt wʌt ju kæn ɡɛt, raɪt?/",
+        "zh": "有点扫兴，但你知道，我想这就是能得到的全部了，对吧？",
+        "highlights": [
+          {
+            "text": "bummer",
+            "key": "bummer",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 56.84,
+        "end": 61.08,
+        "speaker": "Speaker",
+        "en": "Some people might call this a skyscraper.",
+        "ipa": "/sʌm ˈpipəl maɪt kɔl ðɪs ə ˈskaɪˌskreɪpər./",
+        "zh": "有些人可能会把这栋楼称为摩天大楼。",
+        "highlights": [
+          {
+            "text": "skyscraper",
+            "key": "skyscraper",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 61.12,
+        "end": 64.84,
+        "speaker": "Speaker",
+        "en": "Um, Asheville is not known for its skyscrapers.",
+        "ipa": "/ʌm, ˈæʃvɪl ɪz nɑt noʊn fɔr ɪts ˈskaɪˌskreɪpərz./",
+        "zh": "嗯，阿什维尔并不是以摩天大楼而闻名的。",
+        "highlights": [
+          {
+            "text": "known for",
+            "key": "known for",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 64.88,
+        "end": 68.32,
+        "speaker": "Speaker",
+        "en": "There's not many skyscrapers here.",
+        "ipa": "/ðɛrz nɑt ˈmɛni ˈskaɪˌskreɪpərz hir./",
+        "zh": "这里没几栋摩天大楼。",
+        "highlights": [
+          {
+            "text": "skyscrapers",
+            "key": "skyscrapers",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 68.36,
+        "end": 74.08,
+        "speaker": "Speaker",
+        "en": "But, um, I guess this is the tallest or one of the tallest buildings here.",
+        "ipa": "/bʌt, ʌm, aɪ ɡɛs ðɪs ɪz ðə ˈtɔləst ɔr wʌn əv ðə ˈtɔləst ˈbɪldɪŋz hir./",
+        "zh": "不过，嗯，我想这应该是这里最高或者最高的建筑之一了。",
+        "highlights": [
+          {
+            "text": "tallest",
+            "key": "tallest",
+            "chip": "pink"
+          },
+          {
+            "text": "buildings",
+            "key": "buildings",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 74.12,
+        "end": 77.49,
+        "speaker": "Speaker",
+        "en": "Most buildings are... what would you say this is?",
+        "ipa": "/moʊst ˈbɪldɪŋz ɑr... wʌt wʊd ju seɪ ðɪs ɪz?/",
+        "zh": "大多数建筑都是你觉得这栋楼有几层？",
+        "highlights": [
+          {
+            "text": "buildings",
+            "key": "buildings",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "start": 77.53,
+        "end": 79.33,
+        "speaker": "Speaker",
+        "en": "Let's take a look.",
+        "ipa": "/lɛts teɪk ə lʊk. wʌn, tu, θri, fɔr, faɪv ˈstɔriz tɔl?/",
+        "zh": "让我们看看。",
+        "highlights": []
+      },
+      {
+        "id": 17,
+        "start": 79.37,
+        "end": 82.12,
+        "speaker": "Speaker",
+        "en": "1, 2, 3, 4, 5 stories tall?",
+        "ipa": "",
+        "zh": "1、2、3、4、5层楼高？",
+        "highlights": [
+          {
+            "text": "stories",
+            "key": "stories",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "start": 82.16,
+        "end": 87.56,
+        "speaker": "Speaker",
+        "en": "That's pretty common, but I guess there's also a few skyscrapers.",
+        "ipa": "/ðæts ˈprɪti ˈkɑmən, bʌt aɪ ɡɛs ðɛrz ˈɔlsoʊ ə fju ˈskaɪˌskreɪpərz./",
+        "zh": "这很常见，但我猜这里也有几栋摩天大楼。",
+        "highlights": [
+          {
+            "text": "common",
+            "key": "common",
+            "chip": "pink"
+          },
+          {
+            "text": "skyscrapers",
+            "key": "skyscrapers",
+            "chip": "orange"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "local-40-trimmed-40-part1",
-    "number": "EP 19",
+    "number": "EP 20",
     "title": "纽约上班族的一日三餐：快手健康早餐与健身前加餐",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -76766,7 +76266,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 4,
     "durationSec": 400,
     "durationLabel": "06:40",
-    "date": "2026/09/04",
+    "date": "2026/09/26",
     "tags": [
       "美食"
     ],
@@ -78426,7 +77926,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-21-trimmed-21-part2",
-    "number": "EP 18",
+    "number": "EP 19",
     "title": "美国超市结账全流程：纸袋塑料袋、会员卡与刷卡",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -78434,7 +77934,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 342,
     "durationLabel": "05:42",
-    "date": "2026/09/03",
+    "date": "2026/09/25",
     "tags": [
       "购物"
     ],
@@ -79943,7 +79443,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-54-trimmed-54-part1",
-    "number": "EP 17",
+    "number": "EP 18",
     "title": "加拿大酒店入住实景：前台办理与客房设施英语",
     "speaker": "Bob the Canadian",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -79951,7 +79451,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 416,
     "durationLabel": "06:56",
-    "date": "2026/09/01",
+    "date": "2026/09/24",
     "tags": [
       "旅行"
     ],
@@ -82027,7 +81527,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-11-trimmed-11-part1",
-    "number": "EP 16",
+    "number": "EP 17",
     "title": "走进美国教堂：弥撒、圣经与神职英语词汇",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -82035,7 +81535,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 326,
     "durationLabel": "05:26",
-    "date": "2026/08/31",
+    "date": "2026/09/23",
     "tags": [
       "生活英语"
     ],
@@ -83156,7 +82656,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-25-Living-Alone-Diaries-trimmed",
-    "number": "EP 15",
+    "number": "EP 16",
     "title": "Living Alone Diaries（独居一日三餐与蒜香意面）",
     "speaker": "Michelle Choi",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -83164,7 +82664,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 1,
     "durationSec": 217,
     "durationLabel": "03:37",
-    "date": "2026/08/29",
+    "date": "2026/09/22",
     "tags": [
       "美食",
       "生活"
@@ -83583,7 +83083,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-7-Interviewing-Native-English-Spea",
-    "number": "EP 14",
+    "number": "EP 15",
     "title": "Interviewing Native English Speakers on St. Patrick’s Day",
     "speaker": "Ariannita la Gringa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -83591,7 +83091,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 481,
     "durationLabel": "08:01",
-    "date": "2026/08/28",
+    "date": "2026/09/21",
     "tags": [
       "日常对话"
     ],
@@ -85534,7 +85034,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-39-trimmed-39-part2",
-    "number": "EP 13",
+    "number": "EP 14",
     "title": "纽约周末夜生活与账单复盘：大城市生活开销",
     "speaker": "Sydney Serena",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -85542,7 +85042,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 4,
     "durationSec": 440,
     "durationLabel": "07:20",
-    "date": "2026/08/27",
+    "date": "2026/09/20",
     "tags": [
       "生活"
     ],
@@ -88096,7 +87596,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-20-trimmed-20-part1",
-    "number": "EP 12",
+    "number": "EP 13",
     "title": "逛美国超市前半程：散装区、果蔬与生鲜海产",
     "speaker": "Vanessa",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -88104,7 +87604,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 342,
     "durationLabel": "05:42",
-    "date": "2026/08/25",
+    "date": "2026/09/19",
     "tags": [
       "购物",
       "生活英语"
@@ -89769,7 +89269,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-9-Learn-How-To-Talk-About-Your-Dai",
-    "number": "EP 11",
+    "number": "EP 12",
     "title": "Learn How To Talk About Your Daily Routine in English by Watching Me Act Out Mine",
     "speaker": "Bob the Canadian",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -89777,7 +89277,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 465,
     "durationLabel": "07:45",
-    "date": "2026/08/24",
+    "date": "2026/09/18",
     "tags": [
       "美食",
       "生活"
@@ -91328,6 +90828,306 @@ export const LOCAL_EPISODES = [
     ]
   },
   {
+    "id": "local-82-Busking-downtown_micro3",
+    "number": "EP 11",
+    "title": "街头艺人 Busking：路边演奏、打赏与市中心过马路",
+    "speaker": "Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 64,
+    "durationLabel": "01:04",
+    "date": "2026/09/17",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
+    "coverImage": "./content/episodes/trimmed/%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%20Busking%EF%BC%9A%E8%B7%AF%E8%BE%B9%E6%BC%94%E5%A5%8F%E3%80%81%E6%89%93%E8%B5%8F%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E8%BF%87%E9%A9%AC%E8%B7%AF.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%20Busking%EF%BC%9A%E8%B7%AF%E8%BE%B9%E6%BC%94%E5%A5%8F%E3%80%81%E6%89%93%E8%B5%8F%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E8%BF%87%E9%A9%AC%E8%B7%AF.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E8%A1%97%E5%A4%B4%E8%89%BA%E4%BA%BA%20Busking%EF%BC%9A%E8%B7%AF%E8%BE%B9%E6%BC%94%E5%A5%8F%E3%80%81%E6%89%93%E8%B5%8F%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E8%BF%87%E9%A9%AC%E8%B7%AF.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [
+      [
+        8.37,
+        9.52
+      ]
+    ],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 3.48,
+        "speaker": "Speaker",
+        "en": "There's some very nice music being played across the street there.",
+        "ipa": "/ðɛrz sʌm ˈvɛri naɪs ˈmjuzɪk ˈbiɪŋ pleɪd əˈkrɔs ðə strit ðɛr./",
+        "zh": "街对面有人在演奏非常动听的音乐。",
+        "highlights": [
+          {
+            "text": "played",
+            "key": "played",
+            "chip": "orange"
+          },
+          {
+            "text": "across",
+            "key": "across",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 3.52,
+        "end": 8.37,
+        "speaker": "Speaker",
+        "en": "I don't know if you can hear it past all the other noise.",
+        "ipa": "/aɪ doʊnt noʊ ɪf ju kæn hir ɪt pæst ɔl ði ˈʌðər nɔɪz./",
+        "zh": "我不知道在这些嘈杂声中你能不能听见。",
+        "highlights": [
+          {
+            "text": "noise",
+            "key": "noise",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 9.52,
+        "end": 15.17,
+        "speaker": "Speaker",
+        "en": "But it's always nice whenever you see people playing on the side of the street like that; it is called busking.",
+        "ipa": "/bʌt ɪts ˈɔlweɪz naɪs wɛˈnɛvər ju si ˈpipəl ˈpleɪɪŋ ɑn ðə saɪd əv ðə strit laɪk ðæt; ɪt ɪz kɔld ˈbʌskɪŋ./",
+        "zh": "但每当你看到人们像那样在街边演奏时，总是很棒的；这被称为街头卖艺。",
+        "highlights": [
+          {
+            "text": "busking",
+            "key": "busking",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 15.21,
+        "end": 21.61,
+        "speaker": "Speaker",
+        "en": "I am busking, he is busking, and it means you're playing music on the side of the street with like a little cup, trying to get some money.",
+        "ipa": "/aɪ æm ˈbʌskɪŋ, hi ɪz ˈbʌskɪŋ, ænd ɪt minz jʊr ˈpleɪɪŋ ˈmjuzɪk ɑn ðə saɪd əv ðə strit wɪð laɪk ə ˈlɪtəl kʌp, ˈtraɪɪŋ tu ɡɛt sʌm ˈmʌni./",
+        "zh": "我在街头卖艺，他也在街头卖艺，意思就是你在街边演奏音乐，放个小杯子，试图赚点钱。",
+        "highlights": [
+          {
+            "text": "busking",
+            "key": "busking",
+            "chip": "pink"
+          },
+          {
+            "text": "on the side",
+            "key": "on the side",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 21.65,
+        "end": 23.32,
+        "speaker": "Speaker",
+        "en": "And Asheville's known for buskers.",
+        "ipa": "/ænd ˈæʃvɪlz noʊn fɔr ˈbʌskərz./",
+        "zh": "阿什维尔以街头艺人闻名。",
+        "highlights": [
+          {
+            "text": "Asheville",
+            "key": "asheville",
+            "chip": "orange"
+          },
+          {
+            "text": "buskers",
+            "key": "buskers",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 23.36,
+        "end": 24.83,
+        "speaker": "Speaker",
+        "en": "There's a lot of buskers.",
+        "ipa": "/ðɛrz ə lɑt əv ˈbʌskərz./",
+        "zh": "这里有很多街头艺人。",
+        "highlights": [
+          {
+            "text": "a lot of",
+            "key": "a lot of",
+            "chip": "indigo"
+          },
+          {
+            "text": "buskers",
+            "key": "buskers",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 24.87,
+        "end": 30.4,
+        "speaker": "Speaker",
+        "en": "And if you stop and listen to a busker for like a couple minutes, it's nice to drop a dollar in.",
+        "ipa": "/ænd ɪf ju stɑp ænd ˈlɪsən tu ə ˈbʌskər fɔr laɪk ə ˈkʌpəl ˈmɪnəts, ɪts naɪs tu drɑp ə ˈdɑlər ɪn./",
+        "zh": "如果你停下来听街头艺人演奏几分钟，往杯子里放一美元是件好事。",
+        "highlights": [
+          {
+            "text": "drop a dollar in",
+            "key": "drop a dollar in",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 30.44,
+        "end": 33.8,
+        "speaker": "Speaker",
+        "en": "Just, you know, supporting some musicians along the side of the street.",
+        "ipa": "/dʒʌst, ju noʊ, səˈpɔrtɪŋ sʌm mjuˈzɪʃənz əˈlɔŋ ðə saɪd əv ðə strit./",
+        "zh": "就是，你知道，支持一下街边的音乐人。",
+        "highlights": [
+          {
+            "text": "supporting",
+            "key": "supporting",
+            "chip": "orange"
+          },
+          {
+            "text": "musicians",
+            "key": "musicians",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 33.84,
+        "end": 35.27,
+        "speaker": "Speaker",
+        "en": "They usually have to get a permit.",
+        "ipa": "/ðeɪ ˈjuʒəwəli hæv tu ɡɛt ə ˈpɜrmɪt./",
+        "zh": "他们通常需要获得许可证。",
+        "highlights": [
+          {
+            "text": "permit",
+            "key": "permit",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "start": 35.31,
+        "end": 36.38,
+        "speaker": "Speaker",
+        "en": "It's like an official thing.",
+        "ipa": "/ɪts laɪk ən əˈfɪʃəl θɪŋ./",
+        "zh": "这算是一件官方认可的事情。",
+        "highlights": [
+          {
+            "text": "official",
+            "key": "official",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 36.42,
+        "end": 39.92,
+        "speaker": "Speaker",
+        "en": "You can't just sit down on the side of the road and start playing music.",
+        "ipa": "/ju kænt dʒʌst sɪt daʊn ɑn ðə saɪd əv ðə roʊd ænd stɑrt ˈpleɪɪŋ ˈmjuzɪk./",
+        "zh": "你不能随随便便坐在路边就开始演奏音乐。",
+        "highlights": [
+          {
+            "text": "on the side",
+            "key": "on the side",
+            "chip": "pink"
+          },
+          {
+            "text": "playing",
+            "key": "playing",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "start": 39.96,
+        "end": 46.56,
+        "speaker": "Speaker",
+        "en": "So, before you cross the street in a city center, especially a busy place like this, you should push the button if nobody else has.",
+        "ipa": "/soʊ, bɪˈfɔr ju krɔs ðə strit ɪn ə ˈsɪti ˈsɛntər, əˈpɛʃəli ə ˈbɪzi pleɪs laɪk ðɪs, ju ʃʊd pʊʃ ðə ˈbʌtən ɪf ˈnoʊˌbɑdi ɛls hæz./",
+        "zh": "所以，在市中心过马路之前，特别是在像这样繁忙的地方，如果还没人按，你应该按一下按钮。",
+        "highlights": [
+          {
+            "text": "city center",
+            "key": "city center",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "start": 46.6,
+        "end": 51.12,
+        "speaker": "Speaker",
+        "en": "And it will beep, and then it will light up the crosswalk sign.",
+        "ipa": "/ænd ɪt wɪl bip, ænd ðɛn ɪt wɪl laɪt ʌp ðə ˈkrɔsˌwɔk saɪn./",
+        "zh": "它会发出哔哔声，然后人行横道信号灯就会亮起。",
+        "highlights": [
+          {
+            "text": "crosswalk",
+            "key": "crosswalk",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "start": 51.16,
+        "end": 58.28,
+        "speaker": "Speaker",
+        "en": "This is the one place—I know we talked about jaywalking—but this is the one place when you probably shouldn't.",
+        "ipa": "/ðɪs ɪz ðə wʌn pleɪs—aɪ noʊ wi tɔkt əˈbaʊt ˈdʒeɪˌwɔkɪŋ—bʌt ðɪs ɪz ðə wʌn pleɪs wɛn ju ˈprɑbəbli ˈʃʊdənt./",
+        "zh": "这是个例外——我知道我们谈过乱穿马路——但这地方你可能真的不该乱穿。",
+        "highlights": [
+          {
+            "text": "jaywalking",
+            "key": "jaywalking",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "start": 58.32,
+        "end": 63.96,
+        "speaker": "Speaker",
+        "en": "Not that you'll get in trouble, but it's just not safe because there's actually a lot of cars and a lot of people, and I don't want to get hit.",
+        "ipa": "/nɑt ðæt jul ɡɛt ɪn ˈtrʌbəl, bʌt ɪts dʒʌst nɑt seɪf bɪˈkəz ðɛrz ˈæktʃuəli ə lɑt əv karz ænd ə lɑt əv ˈpipəl, ænd aɪ doʊnt wɑnt tu ɡɛt hɪt./",
+        "zh": "倒不是说你会惹上麻烦，只是这不安全，因为车流和人流确实很多，我可不想被撞到。",
+        "highlights": [
+          {
+            "text": "get in trouble",
+            "key": "get in trouble",
+            "chip": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "local-6-How-To-Order-Coffee-In-English",
     "number": "EP 10",
     "title": "How To Order Coffee In English",
@@ -91337,7 +91137,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 3,
     "durationSec": 569,
     "durationLabel": "09:29",
-    "date": "2026/08/23",
+    "date": "2026/09/16",
     "tags": [
       "美食"
     ],
@@ -93533,7 +93333,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 704,
     "durationLabel": "11:44",
-    "date": "2026/08/21",
+    "date": "2026/09/15",
     "tags": [
       "个人成长",
       "日常对话"
@@ -96179,7 +95979,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 667,
     "durationLabel": "11:07",
-    "date": "2026/08/20",
+    "date": "2026/09/14",
     "tags": [
       "个人成长",
       "日常对话"
@@ -98778,7 +98578,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 4,
     "durationSec": 259,
     "durationLabel": "04:19",
-    "date": "2026/08/18",
+    "date": "2026/09/13",
     "tags": [
       "个人成长"
     ],
@@ -99499,7 +99299,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 470,
     "durationLabel": "07:50",
-    "date": "2026/08/17",
+    "date": "2026/09/12",
     "tags": [
       "旅行",
       "名人访谈"
@@ -101045,7 +100845,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 448,
     "durationLabel": "07:28",
-    "date": "2026/08/16",
+    "date": "2026/09/11",
     "tags": [
       "名人访谈"
     ],
@@ -104078,7 +103878,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 4,
     "durationSec": 327,
     "durationLabel": "05:27",
-    "date": "2026/08/14",
+    "date": "2026/09/10",
     "tags": [
       "美食",
       "生活"
@@ -105163,7 +104963,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 503,
     "durationLabel": "08:23",
-    "date": "2026/08/13",
+    "date": "2026/09/09",
     "tags": [
       "美食",
       "生活"
@@ -108073,7 +107873,7 @@ export const LOCAL_EPISODES = [
   },
   {
     "id": "local-8-73-Questions-with-Victoria-Beckh",
-    "number": "EP 01",
+    "number": "EP 02",
     "title": "73 Questions with Victoria Beckham ｜ Vogue",
     "speaker": "Victoria Beckham",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
@@ -108081,7 +107881,7 @@ export const LOCAL_EPISODES = [
     "difficulty": 5,
     "durationSec": 368,
     "durationLabel": "06:08",
-    "date": "2026/08/10",
+    "date": "2026/09/08",
     "tags": [
       "名人访谈"
     ],
@@ -110889,6 +110689,206 @@ export const LOCAL_EPISODES = [
             "text": "subscribe to",
             "key": "订阅",
             "chip": "orange"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-83-Recycling-Landfill-downtown_micro4",
+    "number": "EP 01",
+    "title": "美国街头垃圾桶：Recycling 和 Landfill 怎么分",
+    "speaker": "Vanessa",
+    "speakerAvatar": "./assets/hosts/cici_round.webp",
+    "region": "美国",
+    "difficulty": 1,
+    "durationSec": 47,
+    "durationLabel": "00:47",
+    "date": "2026/09/07",
+    "tags": [
+      "生活英语",
+      "日常对话"
+    ],
+    "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
+    "coverImage": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%EF%BC%9ARecycling%20%E5%92%8C%20Landfill%20%E6%80%8E%E4%B9%88%E5%88%86.jpg",
+    "mediaUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%EF%BC%9ARecycling%20%E5%92%8C%20Landfill%20%E6%80%8E%E4%B9%88%E5%88%86.micro.mp4",
+    "audioUrl": "./content/episodes/trimmed/%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%EF%BC%9ARecycling%20%E5%92%8C%20Landfill%20%E6%80%8E%E4%B9%88%E5%88%86.micro.m4a",
+    "mediaKind": "video",
+    "sceneBadge": "生活英语",
+    "skipRanges": [],
+    "sentences": [
+      {
+        "id": 1,
+        "start": 0.2,
+        "end": 3.24,
+        "speaker": "Speaker",
+        "en": "I want to show you the trash cans.",
+        "ipa": "/aɪ wɑnt tu ʃoʊ ju ðə træʃ kænz./",
+        "zh": "我想给你们看看垃圾桶。",
+        "highlights": [
+          {
+            "text": "trash",
+            "key": "trash",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 3.28,
+        "end": 8.44,
+        "speaker": "Speaker",
+        "en": "This is a lovely moment, guys.",
+        "ipa": "/ðɪs ɪz ə ˈlʌvli ˈmoʊmənt, ɡaɪz./",
+        "zh": "这真是个可爱的瞬间，伙计们。",
+        "highlights": [
+          {
+            "text": "lovely",
+            "key": "lovely",
+            "chip": "orange"
+          },
+          {
+            "text": "moment",
+            "key": "moment",
+            "chip": "pink"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "start": 8.48,
+        "end": 13.64,
+        "speaker": "Speaker",
+        "en": "So, this is becoming more popular in the US, but you will see recycling and landfill.",
+        "ipa": "/soʊ ðɪs ɪz ˈbɪkʌmɪŋ mɔr ˈpɑpjələr ɪn ðə ju ɛs bʌt ju wɪl si ˈrisɪklɪŋ ənd ˈlændfɪl/",
+        "zh": "所以，这在美国正变得越来越普遍，但你会看到分类回收和垃圾填埋桶。",
+        "highlights": [
+          {
+            "text": "becoming more popular",
+            "key": "becoming more popular",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "start": 13.68,
+        "end": 15.48,
+        "speaker": "Speaker",
+        "en": "Landfill is just trash.",
+        "ipa": "/ˈlændfɪl ɪz dʒʌst træʃ/",
+        "zh": "垃圾填埋桶就是装普通垃圾的。",
+        "highlights": [
+          {
+            "text": "Landfill",
+            "key": "Landfill",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "start": 15.52,
+        "end": 18.97,
+        "speaker": "Speaker",
+        "en": "Um, you can see it even says on the side landfill, recycling.",
+        "ipa": "/ʌm ju kən si ɪt ˈivən sɛz ɑn ðə saɪd ˈlændfɪl ˈrisɪklɪŋ/",
+        "zh": "嗯，你可以看到上面侧面甚至写着‘垃圾填埋’和‘回收’。",
+        "highlights": [
+          {
+            "text": "recycling",
+            "key": "recycling",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "start": 19.01,
+        "end": 25.5,
+        "speaker": "Speaker",
+        "en": "In the US, recycling is anything that you could possibly ever recycle, you put in there.",
+        "ipa": "/ɪn ðə ju ɛs ˈrisɪklɪŋ ɪz ˈɛniˌθɪŋ ðæt ju kʊd ˈpɑsəbli ˈɛvər ˈrisɪkl ju pʊt ɪn ðɛr/",
+        "zh": "在美国，回收箱就是只要你觉得可能可以回收的东西，全往里面扔。",
+        "highlights": [
+          {
+            "text": "anything that",
+            "key": "anything that",
+            "chip": "indigo"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "start": 25.54,
+        "end": 32.04,
+        "speaker": "Speaker",
+        "en": "You don't separate it, you just throw all your plastic and glass and paper in the same bin.",
+        "ipa": "/ju doʊnt ˈsɛpəˌreɪt ɪt ju dʒʌst θroʊ ɔl jʊər ˈplæstɪk ənd glæs ənd ˈpeɪpər ɪn ðə seɪm bɪn/",
+        "zh": "你不需要分类，直接把所有的塑料、玻璃和纸张扔进同一个垃圾桶里。",
+        "highlights": [
+          {
+            "text": "separate",
+            "key": "separate",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "start": 32.08,
+        "end": 35.59,
+        "speaker": "Speaker",
+        "en": "Does it actually get recycled really efficiently?",
+        "ipa": "/dʌz ɪt ˈæktʃuəli gɛt ˈrisɪkəld ˈrɪli ɪˈfɪʃəntli/",
+        "zh": "它真的能被高效地回收利用吗？",
+        "highlights": [
+          {
+            "text": "efficiently",
+            "key": "efficiently",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "start": 35.63,
+        "end": 37.32,
+        "speaker": "Speaker",
+        "en": "I don't know.",
+        "ipa": "/aɪ doʊnt noʊ/",
+        "zh": "我不知道。",
+        "highlights": []
+      },
+      {
+        "id": 10,
+        "start": 37.36,
+        "end": 38.51,
+        "speaker": "Speaker",
+        "en": "But, there is an option.",
+        "ipa": "/bʌt ðɛr ɪz ən ˈɑpʃən/",
+        "zh": "不过，总归有这么个选择。",
+        "highlights": [
+          {
+            "text": "option",
+            "key": "option",
+            "chip": "orange"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "start": 38.55,
+        "end": 47.15,
+        "speaker": "Speaker",
+        "en": "So, as you're walking along the side of the street, you can throw your trash in the recycling or the landfill.",
+        "ipa": "/soʊ æz jʊr ˈwɔkɪŋ əˈlɔŋ ðə saɪd ʌv ðə strit ju kən θroʊ jʊər træʃ ɪn ðə ˈrisɪklɪŋ ɔr ðə ˈlændfɪl/",
+        "zh": "所以，当你走在街边时，你可以把垃圾扔进回收桶或垃圾填埋桶里。",
+        "highlights": [
+          {
+            "text": "walking along",
+            "key": "walking along",
+            "chip": "indigo"
           }
         ]
       }
