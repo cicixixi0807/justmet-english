@@ -1,5 +1,5 @@
 // 沉浸式英语精听与跟读工作台（完整复刻 SayBreeze 全部核心交互）
-import { LIBRARIES, THEMES, findEpisodeById, lookupWord, saveCachedWord } from './data.js';
+import { LIBRARIES, THEMES, findEpisodeById, lookupWord, saveCachedWord, isCleanDictEntry } from './data.js';
 import { store, applyThemeVars, showToast } from './store.js';
 import { speechEngine } from './speech.js';
 import { openUpsellModal } from './views.js';
@@ -1266,6 +1266,7 @@ export function renderPracticeWorkspace(root, episodeId, navigate) {
   window.visualViewport?.addEventListener('resize', syncVisualViewport);
 
   mountShell();
+  prefetchEpisodeKeywords(episode, () => isDisposed);
 
   return () => {
     isDisposed = true;
@@ -1294,167 +1295,273 @@ function closeModal() {
 }
 
 const clientDictCache = {};
+const inflightDictRequests = new Map();
+let activeDictModalToken = 0;
+
+async function fetchDefineWithTimeout(cleanWord, contextEn = '', timeoutMs = 8500) {
+  const cacheKey = cleanWord.toLowerCase();
+  const cached = lookupWord(cleanWord) || clientDictCache[cacheKey];
+  if (cached && isCleanDictEntry(cached)) {
+    return { ok: true, entry: cached, source: 'cache', error: '' };
+  }
+  if (inflightDictRequests.has(cacheKey)) {
+    return inflightDictRequests.get(cacheKey);
+  }
+
+  const p = (async () => {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const qs = new URLSearchParams({ word: cleanWord, context: contextEn || '' });
+      const resp = await fetch(`/api/define?${qs.toString()}`, { signal: controller.signal });
+      clearTimeout(timer);
+      if (!resp.ok) {
+        return { ok: false, entry: null, source: 'none', error: `词典接口返回 HTTP ${resp.status}` };
+      }
+      const data = await resp.json();
+      if (data?.ok && data.entry && isCleanDictEntry(data.entry)) {
+        const cleanEntry = { ...data.entry, headword: cleanWord };
+        clientDictCache[cacheKey] = cleanEntry;
+        saveCachedWord(cleanWord, cleanEntry);
+        return { ok: true, entry: cleanEntry, source: data.source || 'api', error: '' };
+      }
+      return {
+        ok: false,
+        entry: null,
+        source: 'none',
+        error: data?.error ? `在线词典未返回有效释义（${data.error}）` : '在线词典暂未收录该词条',
+      };
+    } catch (err) {
+      clearTimeout(timer);
+      const errReason =
+        err?.name === 'AbortError'
+          ? '在线词典请求超过 8.5 秒超时'
+          : '无法连接本地词典接口（请确认 dev_server.py 正在运行）';
+      return { ok: false, entry: null, source: 'none', error: errReason };
+    } finally {
+      inflightDictRequests.delete(cacheKey);
+    }
+  })();
+
+  inflightDictRequests.set(cacheKey, p);
+  return p;
+}
+
+function prefetchEpisodeKeywords(episode, isDisposedFn) {
+  if (!episode || !Array.isArray(episode.sentences)) return;
+  const seen = new Set();
+  const queue = [];
+  for (const sent of episode.sentences) {
+    for (const h of sent.highlights || []) {
+      const raw = (h.text || h.key || '').trim();
+      const clean = raw.replace(/^[^a-zA-Z'-]+|[^a-zA-Z'-]+$/g, '');
+      const key = clean.toLowerCase();
+      if (!clean || seen.has(key)) continue;
+      seen.add(key);
+      if (lookupWord(clean) || clientDictCache[key]) continue;
+      queue.push({ word: clean, context: sent.en || '' });
+      if (queue.length >= 36) break;
+    }
+    if (queue.length >= 36) break;
+  }
+  if (queue.length === 0) return;
+
+  // 后台低并发静默预取（每批 2 个），不阻塞首屏与播放，离开页面立即停止
+  const CONCURRENCY = 2;
+  let cursor = 0;
+  const runWorker = async () => {
+    while (cursor < queue.length && !isDisposedFn()) {
+      const item = queue[cursor++];
+      if (lookupWord(item.word) || clientDictCache[item.word.toLowerCase()]) continue;
+      await fetchDefineWithTimeout(item.word, item.context, 7000);
+    }
+  };
+  setTimeout(() => {
+    if (isDisposedFn()) return;
+    for (let i = 0; i < Math.min(CONCURRENCY, queue.length); i++) {
+      runWorker();
+    }
+  }, 450);
+}
 
 async function openWordDictionaryModal(rawWord, episode, onUpdate, ctxSent = null) {
   const cleanWord = String(rawWord || '').trim().replace(/^[^a-zA-Z'-]+|[^a-zA-Z'-]+$/g, '');
   if (!cleanWord) return;
   const cacheKey = cleanWord.toLowerCase();
+  const displayHeadword = cleanWord;
+  const modalToken = ++activeDictModalToken;
+
+  const fallbackSent =
+    ctxSent ||
+    episode.sentences.find((s) => s.en.toLowerCase().includes(cacheKey)) ||
+    null;
   const occurrences = episode.sentences.filter((s) =>
     s.en.toLowerCase().includes(cacheKey)
   ).length;
   const inVocab = store.hasVocab(cacheKey);
   const modalRoot = document.getElementById('modal-root');
 
-  const renderEntry = (entry, loading = false, fallbackNote = '') => {
-    const displayHeadword = cleanWord;
-    modalRoot.innerHTML = `
-      <div class="modal-backdrop" id="m-bg">
-        <div class="modal-card">
-          <div class="modal-header">
-            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
-              <h3>${escapeHtml(displayHeadword)}</h3>
-              ${entry?.pos ? `<span class="pill">${escapeHtml(entry.pos)}</span>` : ''}
-              ${entry?.level ? `<span class="tag-chip">${escapeHtml(entry.level)}</span>` : ''}
-            </div>
-            <button class="icon-circle-sm" id="m-close">✕</button>
+  const buildFallbackEntry = () => ({
+    headword: displayHeadword,
+    pos: cleanWord.includes(' ') ? 'phrase' : 'word',
+    level: '语境兜底',
+    us: '',
+    uk: '',
+    meanings: [
+      {
+        zh: fallbackSent?.zh
+          ? `本句语境参考：${fallbackSent.zh}`
+          : '已展示本词基础信息，可点击发音或加入生词本',
+        en: '',
+      },
+    ],
+    exampleEn: '',
+    exampleZh: '',
+  });
+
+  const renderBadgesHtml = (entry) => `
+    ${entry?.pos ? `<span class="pill">${escapeHtml(entry.pos)}</span>` : ''}
+    ${entry?.level ? `<span class="tag-chip">${escapeHtml(entry.level)}</span>` : ''}
+  `;
+
+  const renderMeaningsHtml = (entry) =>
+    (entry?.meanings || [])
+      .map(
+        (m, i) => `
+        <div style="background:var(--bg);padding:12px 14px;border-radius:12px;border:1px solid var(--border);">
+          <div style="font-size:12px;color:var(--accent);font-weight:700;margin-bottom:4px;">Meaning ${i + 1}</div>
+          ${m.zh ? `<div style="font-size:14px;font-weight:600;margin-bottom:4px;">${escapeHtml(m.zh)}</div>` : ''}
+          ${m.en && m.en !== m.zh ? `<div style="font-size:13px;color:var(--muted);">${escapeHtml(m.en)}</div>` : ''}
+        </div>
+      `
+      )
+      .join('');
+
+  const renderExampleHtml = (entry) =>
+    entry?.exampleEn
+      ? `<div style="background:var(--bg);padding:12px 14px;border-radius:12px;border:1px solid var(--border);">
+           <div style="font-size:12px;color:var(--muted);margin-bottom:4px;">双语例句 Example</div>
+           <div style="font-size:14px;font-weight:600;">${escapeHtml(entry.exampleEn)}</div>
+           ${entry.exampleZh ? `<div style="font-size:13px;color:var(--muted);margin-top:4px;">${escapeHtml(entry.exampleZh)}</div>` : ''}
+         </div>`
+      : '';
+
+  const renderStatusHtml = (statusMode, note = '') => {
+    if (statusMode === 'syncing') {
+      return `<div style="background:var(--bg);padding:8px 12px;border-radius:10px;border:1px solid var(--border);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:8px;">
+                <span>✨ 已先展示语境兜底，正在后台补充音标与详细释义…</span>
+              </div>`;
+    }
+    if (statusMode === 'error') {
+      return `<div style="background:var(--accent-soft);padding:10px 12px;border-radius:10px;border:1px dashed var(--accent);font-size:12px;color:var(--text);display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">
+                <span>⚠️ ${escapeHtml(note)}</span>
+                <button class="btn btn-outline" id="retry-define-btn" style="padding:4px 10px;font-size:12px;">🔄 重新查询</button>
+              </div>`;
+    }
+    return '';
+  };
+
+  let currentEntry = lookupWord(cleanWord) || clientDictCache[cacheKey];
+  const isCacheHit = Boolean(currentEntry && isCleanDictEntry(currentEntry));
+  if (!isCacheHit) {
+    currentEntry = buildFallbackEntry();
+  }
+
+  // 立即渲染完整可用卡片（绝不全屏 loading，标题永远是所点单词本身）
+  modalRoot.innerHTML = `
+    <div class="modal-backdrop" id="m-bg" data-dict-token="${modalToken}">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+            <h3>${escapeHtml(displayHeadword)}</h3>
+            <span id="dict-badges-slot" style="display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;">${renderBadgesHtml(currentEntry)}</span>
           </div>
-          <div class="modal-body">
-            ${
-              loading
-                ? `<div style="text-align:center;padding:34px 12px;color:var(--muted);">
-                     <div style="font-size:15px;font-weight:600;margin-bottom:6px;">正在查询真实词典释义与音标...</div>
-                     <div style="font-size:12px;">首次查询将自动缓存，后续秒开</div>
-                   </div>`
-                : `<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
-                     <button class="btn btn-soft" id="speak-us" style="padding:6px 12px;font-size:12px;">🔊 US ${escapeHtml(entry.us || '')}</button>
-                     <button class="btn btn-soft" id="speak-uk" style="padding:6px 12px;font-size:12px;">🔊 UK ${escapeHtml(entry.uk || entry.us || '')}</button>
-                     <span style="font-size:12px;color:var(--muted);">本集出现 ${Math.max(1, occurrences)} 次</span>
-                   </div>
-                   ${
-                     fallbackNote
-                       ? `<div style="background:var(--accent-soft);padding:10px 12px;border-radius:10px;border:1px dashed var(--accent);font-size:12px;color:var(--text);display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">
-                            <span>⚠️ ${escapeHtml(fallbackNote)}</span>
-                            <button class="btn btn-outline" id="retry-define-btn" style="padding:4px 10px;font-size:12px;">🔄 重新查询</button>
-                          </div>`
-                       : ''
-                   }
-                   ${(entry.meanings || [])
-                     .map(
-                       (m, i) => `
-                       <div style="background:var(--bg);padding:12px 14px;border-radius:12px;border:1px solid var(--border);">
-                         <div style="font-size:12px;color:var(--accent);font-weight:700;margin-bottom:4px;">Meaning ${i + 1}</div>
-                         ${m.zh ? `<div style="font-size:14px;font-weight:600;margin-bottom:4px;">${escapeHtml(m.zh)}</div>` : ''}
-                         ${m.en && m.en !== m.zh ? `<div style="font-size:13px;color:var(--muted);">${escapeHtml(m.en)}</div>` : ''}
-                       </div>
-                     `
-                     )
-                     .join('')}
-                   ${
-                     entry.exampleEn
-                       ? `<div style="background:var(--bg);padding:12px 14px;border-radius:12px;border:1px solid var(--border);">
-                            <div style="font-size:12px;color:var(--muted);margin-bottom:4px;">双语例句 Example</div>
-                            <div style="font-size:14px;font-weight:600;">${escapeHtml(entry.exampleEn)}</div>
-                            ${entry.exampleZh ? `<div style="font-size:13px;color:var(--muted);margin-top:4px;">${escapeHtml(entry.exampleZh)}</div>` : ''}
-                          </div>`
-                       : ''
-                   }
-                   ${
-                     ctxSent
-                       ? `<div style="background:var(--accent-soft);padding:11px 14px;border-radius:12px;border:1px solid var(--border);">
-                            <div style="font-size:11px;color:var(--accent);font-weight:700;margin-bottom:3px;">本集原句语境 #${ctxSent.id}</div>
-                            <div style="font-size:13px;font-weight:600;">${escapeHtml(ctxSent.en)}</div>
-                            ${ctxSent.zh ? `<div style="font-size:12px;color:var(--muted);margin-top:2px;">${escapeHtml(ctxSent.zh)}</div>` : ''}
-                          </div>`
-                       : ''
-                   }
-                   <div style="display:flex;justify-content:flex-end;gap:10px;">
-                     <button class="btn btn-outline" id="copy-word">复制词条</button>
-                     <button class="btn ${inVocab ? 'btn-soft' : 'btn-primary'}" id="toggle-vocab-btn">
-                       ${inVocab ? '★ 已在生词本（点击移除）' : '☆ 加入生词本'}
-                     </button>
-                   </div>`
-            }
+          <button class="icon-circle-sm" id="m-close">✕</button>
+        </div>
+        <div class="modal-body">
+          <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+            <button class="btn btn-soft" id="speak-us" style="padding:6px 12px;font-size:12px;">🔊 US <span id="dict-us-ipa">${escapeHtml(currentEntry.us || '')}</span></button>
+            <button class="btn btn-soft" id="speak-uk" style="padding:6px 12px;font-size:12px;">🔊 UK <span id="dict-uk-ipa">${escapeHtml(currentEntry.uk || currentEntry.us || '')}</span></button>
+            <span style="font-size:12px;color:var(--muted);">本集出现 ${Math.max(1, occurrences)} 次</span>
+          </div>
+          <div id="dict-status-slot">${isCacheHit ? '' : renderStatusHtml('syncing')}</div>
+          <div id="dict-meanings-slot" style="display:flex;flex-direction:column;gap:10px;">${renderMeaningsHtml(currentEntry)}</div>
+          <div id="dict-example-slot">${renderExampleHtml(currentEntry)}</div>
+          ${
+            fallbackSent
+              ? `<div style="background:var(--accent-soft);padding:11px 14px;border-radius:12px;border:1px solid var(--border);">
+                   <div style="font-size:11px;color:var(--accent);font-weight:700;margin-bottom:3px;">本集原句语境 #${fallbackSent.id}</div>
+                   <div style="font-size:13px;font-weight:600;">${escapeHtml(fallbackSent.en)}</div>
+                   ${fallbackSent.zh ? `<div style="font-size:12px;color:var(--muted);margin-top:2px;">${escapeHtml(fallbackSent.zh)}</div>` : ''}
+                 </div>`
+              : ''
+          }
+          <div style="display:flex;justify-content:flex-end;gap:10px;">
+            <button class="btn btn-outline" id="copy-word">复制词条</button>
+            <button class="btn ${inVocab ? 'btn-soft' : 'btn-primary'}" id="toggle-vocab-btn">
+              ${inVocab ? '★ 已在生词本（点击移除）' : '☆ 加入生词本'}
+            </button>
           </div>
         </div>
       </div>
-    `;
+    </div>
+  `;
 
-    document.getElementById('m-close')?.addEventListener('click', closeModal);
-    document.getElementById('m-bg')?.addEventListener('click', (e) => { if (e.target.id === 'm-bg') closeModal(); });
-    document.getElementById('retry-define-btn')?.addEventListener('click', () => doFetchDefine());
-    if (!loading && entry) {
-      document.getElementById('speak-us')?.addEventListener('click', () => speechEngine.speak(displayHeadword, { accent: 'US' }));
-      document.getElementById('speak-uk')?.addEventListener('click', () => speechEngine.speak(displayHeadword, { accent: 'UK' }));
-      document.getElementById('copy-word')?.addEventListener('click', () => {
-        navigator.clipboard?.writeText(`${displayHeadword} ${entry.us || ''} - ${entry.meanings?.[0]?.zh || ''}`).catch(() => {});
-        showToast('已复制词条');
-      });
-      document.getElementById('toggle-vocab-btn')?.addEventListener('click', () => {
-        const added = store.toggleVocab(displayHeadword);
-        showToast(added ? `已将 "${displayHeadword}" 加入生词本` : `已从生词本移除 "${displayHeadword}"`);
-        closeModal();
-        onUpdate();
-      });
-    }
+  const isStillOpen = () => {
+    const bg = document.getElementById('m-bg');
+    return Boolean(bg && Number(bg.dataset.dictToken) === modalToken && activeDictModalToken === modalToken);
   };
 
-  // 1) 先查内置词典或本地持久化真词典缓存（整段短语优先）
-  const cached = lookupWord(cleanWord) || clientDictCache[cacheKey];
-  if (cached) {
-    renderEntry(cached, false);
-    return;
+  const patchInPlace = (entry, statusMode = 'done', note = '') => {
+    if (!isStillOpen()) return;
+    currentEntry = entry;
+    const badgesEl = document.getElementById('dict-badges-slot');
+    const usEl = document.getElementById('dict-us-ipa');
+    const ukEl = document.getElementById('dict-uk-ipa');
+    const statusEl = document.getElementById('dict-status-slot');
+    const meaningsEl = document.getElementById('dict-meanings-slot');
+    const exampleEl = document.getElementById('dict-example-slot');
+    if (badgesEl) badgesEl.innerHTML = renderBadgesHtml(entry);
+    if (usEl) usEl.textContent = entry.us || '';
+    if (ukEl) ukEl.textContent = entry.uk || entry.us || '';
+    if (statusEl) statusEl.innerHTML = renderStatusHtml(statusMode, note);
+    if (meaningsEl) meaningsEl.innerHTML = renderMeaningsHtml(entry);
+    if (exampleEl) exampleEl.innerHTML = renderExampleHtml(entry);
+    document.getElementById('retry-define-btn')?.addEventListener('click', () => runBackgroundLookup());
+  };
+
+  const runBackgroundLookup = async () => {
+    if (isStillOpen()) {
+      const statusEl = document.getElementById('dict-status-slot');
+      if (statusEl) statusEl.innerHTML = renderStatusHtml('syncing');
+    }
+    const res = await fetchDefineWithTimeout(cleanWord, fallbackSent?.en || '', 8500);
+    if (res.ok && res.entry) {
+      patchInPlace(res.entry, 'done', '');
+      return;
+    }
+    patchInPlace(currentEntry, 'error', `${res.error}；当前保留语境兜底，可点击重试`);
+  };
+
+  document.getElementById('m-close')?.addEventListener('click', closeModal);
+  document.getElementById('m-bg')?.addEventListener('click', (e) => { if (e.target.id === 'm-bg') closeModal(); });
+  document.getElementById('speak-us')?.addEventListener('click', () => speechEngine.speak(displayHeadword, { accent: 'US' }));
+  document.getElementById('speak-uk')?.addEventListener('click', () => speechEngine.speak(displayHeadword, { accent: 'UK' }));
+  document.getElementById('copy-word')?.addEventListener('click', () => {
+    navigator.clipboard?.writeText(`${displayHeadword} ${currentEntry?.us || ''} - ${currentEntry?.meanings?.[0]?.zh || ''}`).catch(() => {});
+    showToast('已复制词条');
+  });
+  document.getElementById('toggle-vocab-btn')?.addEventListener('click', () => {
+    const added = store.toggleVocab(displayHeadword);
+    showToast(added ? `已将 "${displayHeadword}" 加入生词本` : `已从生词本移除 "${displayHeadword}"`);
+    closeModal();
+    onUpdate();
+  });
+
+  // 命中内置词典或本地缓存直接结束，不发任何请求；未命中则在后台静默补充并就地刷新
+  if (!isCacheHit) {
+    runBackgroundLookup();
   }
-
-  // 2) 实时请求本地词典 API（Gemini -> 有道国内兜底 -> 单词英英兜底），明确超时与错误原因
-  const doFetchDefine = async () => {
-    renderEntry({ headword: cleanWord }, true);
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 8500);
-    let errReason = '';
-    try {
-      const qs = new URLSearchParams({ word: cleanWord, context: ctxSent?.en || '' });
-      const resp = await fetch(`/api/define?${qs.toString()}`, { signal: controller.signal });
-      clearTimeout(timer);
-      if (!resp.ok) {
-        errReason = `词典接口返回 HTTP ${resp.status}`;
-      } else {
-        const data = await resp.json();
-        if (data?.ok && data.entry) {
-          clientDictCache[cacheKey] = data.entry;
-          saveCachedWord(cleanWord, data.entry);
-          renderEntry(data.entry, false);
-          return;
-        }
-        errReason = data?.error ? `在线词典未返回释义（${data.error}）` : '在线词典暂未收录该词条';
-      }
-    } catch (err) {
-      clearTimeout(timer);
-      errReason = err?.name === 'AbortError' ? '在线词典请求超过 8.5 秒超时' : '无法连接本地词典接口（请确认 dev_server.py 正在运行）';
-    }
-
-    // 兜底：绝不把英文释义当标题，使用本句中文译文做临时语境参考并允许一键重试
-    renderEntry(
-      {
-        headword: cleanWord,
-        pos: cleanWord.includes(' ') ? 'phrase' : 'word',
-        level: '语境兜底',
-        us: '',
-        uk: '',
-        meanings: [
-          {
-            zh: ctxSent?.zh ? `语境参考译文：${ctxSent.zh}` : '暂未获取到在线释义，请点击上方「重新查询」重试',
-            en: '',
-          },
-        ],
-        exampleEn: '',
-        exampleZh: '',
-      },
-      false,
-      `${errReason}；当前展示本句语境兜底，可点击重试`
-    );
-  };
-
-  await doFetchDefine();
 }
 
 function openKeywordsModal(keywords, episode, curSent) {

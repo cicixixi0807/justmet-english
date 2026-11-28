@@ -513,20 +513,42 @@ if (Array.isArray(LOCAL_EPISODES) && LOCAL_EPISODES.length > 0) {
 
 const DICT_LOCAL_STORAGE_KEY = 'justmet_dict_cache_v1';
 
+export function isCleanDictEntry(entry) {
+  if (!entry || typeof entry !== 'object' || !Array.isArray(entry.meanings) || entry.meanings.length === 0) {
+    return false;
+  }
+  const allowEnOnly = entry.level === '英英词典兜底';
+  let hasZh = false;
+  for (const m of entry.meanings) {
+    if (!m || typeof m !== 'object') return false;
+    const zh = String(m.zh || '').trim();
+    const en = String(m.en || '').trim();
+    if (zh && en && zh.toLowerCase() === en.toLowerCase()) return false;
+    if (zh && !/[\u4e00-\u9fff]/.test(zh)) return false;
+    if (zh && /[\u4e00-\u9fff]/.test(zh)) hasZh = true;
+  }
+  if (!allowEnOnly && !hasZh) return false;
+  return true;
+}
+
 export function getCachedWord(rawWord) {
   const clean = String(rawWord || '').toLowerCase().trim().replace(/^[^a-z'-]+|[^a-z'-]+$/g, '');
   if (!clean) return null;
   if (DICTIONARY[clean]) return DICTIONARY[clean];
   try {
     const cache = JSON.parse(localStorage.getItem(DICT_LOCAL_STORAGE_KEY) || '{}');
-    if (cache[clean]) return cache[clean];
+    if (cache[clean]) {
+      if (isCleanDictEntry(cache[clean])) return cache[clean];
+      delete cache[clean];
+      localStorage.setItem(DICT_LOCAL_STORAGE_KEY, JSON.stringify(cache));
+    }
   } catch {}
   return null;
 }
 
 export function saveCachedWord(rawWord, entry) {
   const clean = String(rawWord || '').toLowerCase().trim().replace(/^[^a-z'-]+|[^a-z'-]+$/g, '');
-  if (!clean || !entry) return;
+  if (!clean || !isCleanDictEntry(entry)) return;
   try {
     const cache = JSON.parse(localStorage.getItem(DICT_LOCAL_STORAGE_KEY) || '{}');
     cache[clean] = entry;
