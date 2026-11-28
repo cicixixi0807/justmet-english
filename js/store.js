@@ -21,13 +21,8 @@ const defaultState = {
   ],
   starredSentences: {}, // `${epId}:${sentenceId}` -> true
   learnedEpisodes: {}, // epId -> true
-  episodeProgress: {
-    'ep-101': 42,
-    'ep-102': 20
-  },
-  favoriteEpisodes: {
-    'ep-101': true
-  },
+  episodeProgress: {},
+  favoriteEpisodes: {},
   evalScores: {}, // `${epId}:${sentenceId}` -> evalResult
   credits: 5, // AI 发音评测积分余额
   unlockedPremium: false, // 是否已解锁进阶专享剧集

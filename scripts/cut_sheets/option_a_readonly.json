@@ -1,0 +1,2601 @@
+[
+  {
+    "number": "EP 39",
+    "id": "local-39-VLOG-a-productive-busy-day-in-my",
+    "title": "VLOG ★ a productive & busy day in my life",
+    "audioFile": "VLOG ★ a productive & busy day in my life.f140-11.m4a",
+    "durationSec": 804.76,
+    "sentenceCount": 151,
+    "safeCutSec": 0,
+    "estTrimmedSec": 804.76,
+    "safeCutCount": 0,
+    "speechWarningCount": 9,
+    "safeCuts": [],
+    "speechWarnings": [
+      {
+        "type": "intro",
+        "start": 0.0,
+        "end": 2.1,
+        "dur": 2.1,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.667,
+        "avg_db": -13.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 7.58,
+        "end": 12.38,
+        "dur": 4.8,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.469,
+        "avg_db": -14.2,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 154.77,
+        "end": 162.06,
+        "dur": 7.29,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.781,
+        "avg_db": -15.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 325.34,
+        "end": 328.18,
+        "dur": 2.84,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.421,
+        "avg_db": -14.7,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 333.09,
+        "end": 335.98,
+        "dur": 2.89,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.414,
+        "avg_db": -11.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 537.5,
+        "end": 554.14,
+        "dur": 16.64,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.675,
+        "avg_db": -11.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 656.72,
+        "end": 659.05,
+        "dur": 2.33,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.87,
+        "avg_db": -12.8,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 757.08,
+        "end": 759.18,
+        "dur": 2.1,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.357,
+        "avg_db": -17.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 790.69,
+        "end": 803.38,
+        "dur": 12.69,
+        "silence_ratio": 0.004,
+        "speech_ratio": 0.382,
+        "avg_db": -16.9,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 38",
+    "id": "local-38-what-i-spend-in-a-week-living-in",
+    "title": "what i spend in a week living in nyc",
+    "audioFile": "what i spend in a week living in nyc.f140-19.m4a",
+    "durationSec": 962.81,
+    "sentenceCount": 337,
+    "safeCutSec": 9.95,
+    "estTrimmedSec": 952.86,
+    "safeCutCount": 3,
+    "speechWarningCount": 9,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 49.42,
+        "end": 52.86,
+        "dur": 3.44,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.043,
+        "avg_db": -19.6,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 198.1,
+        "end": 201.78,
+        "dur": 3.68,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.257,
+        "avg_db": -14.1,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 399.19,
+        "end": 402.02,
+        "dur": 2.83,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.035,
+        "avg_db": -11.7,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 4.22,
+        "end": 11.02,
+        "dur": 6.8,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.816,
+        "avg_db": -16.2,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 339.46,
+        "end": 347.7,
+        "dur": 8.24,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.677,
+        "avg_db": -19.7,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 502.68,
+        "end": 514.06,
+        "dur": 11.38,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.447,
+        "avg_db": -20.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 560.98,
+        "end": 568.86,
+        "dur": 7.88,
+        "silence_ratio": 0.139,
+        "speech_ratio": 0.759,
+        "avg_db": -23.9,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 673.64,
+        "end": 678.46,
+        "dur": 4.82,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.495,
+        "avg_db": -14.8,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 714.25,
+        "end": 724.26,
+        "dur": 10.01,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.72,
+        "avg_db": -16.2,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 766.65,
+        "end": 782.98,
+        "dur": 16.33,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.413,
+        "avg_db": -12.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 878.0,
+        "end": 884.82,
+        "dur": 6.82,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.728,
+        "avg_db": -15.2,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 953.98,
+        "end": 962.81,
+        "dur": 8.83,
+        "silence_ratio": 0.006,
+        "speech_ratio": 0.65,
+        "avg_db": -14.4,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 37",
+    "id": "local-37-alone-in-new-york-but-not-lonely",
+    "title": "alone in new york (but not lonely)",
+    "audioFile": "alone in new york (but not lonely).f140-17.m4a",
+    "durationSec": 619.51,
+    "sentenceCount": 192,
+    "safeCutSec": 18.89,
+    "estTrimmedSec": 600.62,
+    "safeCutCount": 4,
+    "speechWarningCount": 1,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 190.64,
+        "end": 193.26,
+        "dur": 2.62,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.302,
+        "avg_db": -14.9,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 286.49,
+        "end": 290.42,
+        "dur": 3.93,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.127,
+        "avg_db": -11.8,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 347.73,
+        "end": 352.78,
+        "dur": 5.05,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.178,
+        "avg_db": -15.6,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "outro",
+        "start": 612.22,
+        "end": 619.51,
+        "dur": 7.29,
+        "silence_ratio": 0.014,
+        "speech_ratio": 0.233,
+        "avg_db": -19.0,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 107.14,
+        "end": 115.38,
+        "dur": 8.24,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.491,
+        "avg_db": -20.5,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 36",
+    "id": "local-36-Alone-but-Not-Lonely---ep-1",
+    "title": "Alone but Not Lonely - ep. 1",
+    "audioFile": "Alone but Not Lonely - ep. 1.f140-8.m4a",
+    "durationSec": 741.62,
+    "sentenceCount": 183,
+    "safeCutSec": 19.03,
+    "estTrimmedSec": 722.59,
+    "safeCutCount": 2,
+    "speechWarningCount": 3,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 160.75,
+        "end": 173.78,
+        "dur": 13.03,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.262,
+        "avg_db": -8.9,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 186.82,
+        "end": 192.82,
+        "dur": 6.0,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.292,
+        "avg_db": -7.1,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 305.95,
+        "end": 325.1,
+        "dur": 19.15,
+        "silence_ratio": 0.039,
+        "speech_ratio": 0.755,
+        "avg_db": -23.7,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 409.53,
+        "end": 422.26,
+        "dur": 12.73,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.831,
+        "avg_db": -20.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 462.91,
+        "end": 468.74,
+        "dur": 5.83,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.552,
+        "avg_db": -14.7,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 35",
+    "id": "local-35-what-i-eat-as-a-busy-girl-living",
+    "title": "what i eat as a busy girl living in nyc ｜ healthy & easy meals",
+    "audioFile": "what i eat as a busy girl living in nyc ｜ healthy & easy meals.f140-19.m4a",
+    "durationSec": 951.81,
+    "sentenceCount": 282,
+    "safeCutSec": 26.8,
+    "estTrimmedSec": 925.01,
+    "safeCutCount": 3,
+    "speechWarningCount": 6,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 346.13,
+        "end": 357.7,
+        "dur": 11.57,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.32,
+        "avg_db": -18.7,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 400.5,
+        "end": 409.18,
+        "dur": 8.68,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.168,
+        "avg_db": -13.6,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 606.83,
+        "end": 613.38,
+        "dur": 6.55,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.137,
+        "avg_db": -12.8,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 145.7,
+        "end": 149.7,
+        "dur": 4.0,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.487,
+        "avg_db": -14.8,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 194.83,
+        "end": 211.58,
+        "dur": 16.75,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.496,
+        "avg_db": -11.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 810.53,
+        "end": 813.9,
+        "dur": 3.37,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.701,
+        "avg_db": -16.2,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 862.28,
+        "end": 870.62,
+        "dur": 8.34,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.689,
+        "avg_db": -18.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 914.68,
+        "end": 916.82,
+        "dur": 2.14,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.628,
+        "avg_db": -19.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 949.46,
+        "end": 951.81,
+        "dur": 2.35,
+        "silence_ratio": 0.085,
+        "speech_ratio": 0.745,
+        "avg_db": -22.7,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 34",
+    "id": "local-34-Let-s-Learn-English-at-a-Hotel-A",
+    "title": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles",
+    "audioFile": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles.f140.m4a",
+    "durationSec": 763.84,
+    "sentenceCount": 212,
+    "safeCutSec": 0,
+    "estTrimmedSec": 763.84,
+    "safeCutCount": 0,
+    "speechWarningCount": 2,
+    "safeCuts": [],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 4.78,
+        "end": 8.24,
+        "dur": 3.46,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.739,
+        "avg_db": -28.5,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 526.08,
+        "end": 528.26,
+        "dur": 2.18,
+        "silence_ratio": 0.568,
+        "speech_ratio": 0.432,
+        "avg_db": -36.0,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 33",
+    "id": "local-33-Learn-How-To-Talk-About-Your-Dai",
+    "title": "Learn How To Talk About Your Daily Routine in English by Watching Me Act Out Mine",
+    "audioFile": "Learn How To Talk About Your Daily Routine in English by Watching Me Act Out Mine.f140.m4a",
+    "durationSec": 464.63,
+    "sentenceCount": 85,
+    "safeCutSec": 2.17,
+    "estTrimmedSec": 462.46,
+    "safeCutCount": 1,
+    "speechWarningCount": 2,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 114.81,
+        "end": 116.98,
+        "dur": 2.17,
+        "silence_ratio": 0.767,
+        "speech_ratio": 0.209,
+        "avg_db": -47.9,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "intro",
+        "start": 0.0,
+        "end": 10.21,
+        "dur": 10.21,
+        "silence_ratio": 0.314,
+        "speech_ratio": 0.559,
+        "avg_db": -37.5,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 451.12,
+        "end": 464.63,
+        "dur": 13.51,
+        "silence_ratio": 0.007,
+        "speech_ratio": 0.659,
+        "avg_db": -28.1,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 32",
+    "id": "local-32-73-Questions-with-Victoria-Beckh",
+    "title": "73 Questions with Victoria Beckham ｜ Vogue",
+    "audioFile": "73 Questions with Victoria Beckham ｜ Vogue.f140.m4a",
+    "durationSec": 367.69,
+    "sentenceCount": 171,
+    "safeCutSec": 11.17,
+    "estTrimmedSec": 356.52,
+    "safeCutCount": 2,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "intro",
+        "start": 0.0,
+        "end": 8.86,
+        "dur": 8.86,
+        "silence_ratio": 0.785,
+        "speech_ratio": 0.096,
+        "avg_db": -39.6,
+        "label": "silence"
+      },
+      {
+        "type": "outro",
+        "start": 365.38,
+        "end": 367.69,
+        "dur": 2.31,
+        "silence_ratio": 1.0,
+        "speech_ratio": 0.0,
+        "avg_db": -140.0,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 31",
+    "id": "local-31-How-To-Order-Food-In-a-Restauran",
+    "title": "How To Order Food In a Restaurant",
+    "audioFile": "How To Order Food In a Restaurant.f140.m4a",
+    "durationSec": 876.58,
+    "sentenceCount": 201,
+    "safeCutSec": 0,
+    "estTrimmedSec": 876.58,
+    "safeCutCount": 0,
+    "speechWarningCount": 2,
+    "safeCuts": [],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 545.08,
+        "end": 556.18,
+        "dur": 11.1,
+        "silence_ratio": 0.153,
+        "speech_ratio": 0.793,
+        "avg_db": -32.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 869.34,
+        "end": 876.58,
+        "dur": 7.24,
+        "silence_ratio": 0.09,
+        "speech_ratio": 0.641,
+        "avg_db": -33.1,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 30",
+    "id": "local-30-Mall-Vocabulary-In-English",
+    "title": "Mall Vocabulary In English",
+    "audioFile": "Mall Vocabulary In English.f140.m4a",
+    "durationSec": 1076.45,
+    "sentenceCount": 218,
+    "safeCutSec": 26.87,
+    "estTrimmedSec": 1049.58,
+    "safeCutCount": 5,
+    "speechWarningCount": 2,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 27.12,
+        "end": 29.22,
+        "dur": 2.1,
+        "silence_ratio": 0.952,
+        "speech_ratio": 0.048,
+        "avg_db": -43.9,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 173.34,
+        "end": 178.98,
+        "dur": 5.64,
+        "silence_ratio": 0.929,
+        "speech_ratio": 0.062,
+        "avg_db": -40.7,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 678.9,
+        "end": 682.62,
+        "dur": 3.72,
+        "silence_ratio": 0.56,
+        "speech_ratio": 0.16,
+        "avg_db": -36.7,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 733.98,
+        "end": 745.5,
+        "dur": 11.52,
+        "silence_ratio": 0.316,
+        "speech_ratio": 0.19,
+        "avg_db": -34.4,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "outro",
+        "start": 1072.56,
+        "end": 1076.45,
+        "dur": 3.89,
+        "silence_ratio": 0.526,
+        "speech_ratio": 0.179,
+        "avg_db": -36.8,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 566.58,
+        "end": 571.74,
+        "dur": 5.16,
+        "silence_ratio": 0.107,
+        "speech_ratio": 0.495,
+        "avg_db": -29.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 860.28,
+        "end": 862.26,
+        "dur": 1.98,
+        "silence_ratio": 0.15,
+        "speech_ratio": 0.725,
+        "avg_db": -31.6,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 29",
+    "id": "local-29-Asking-people-What-do-you-do-for",
+    "title": "Asking people 'What do you do for a living？' in USA",
+    "audioFile": "Asking people 'What do you do for a living？' in USA.f140.m4a",
+    "durationSec": 766.19,
+    "sentenceCount": 273,
+    "safeCutSec": 25.55,
+    "estTrimmedSec": 740.64,
+    "safeCutCount": 3,
+    "speechWarningCount": 1,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 13.49,
+        "end": 20.05,
+        "dur": 6.56,
+        "silence_ratio": 0.803,
+        "speech_ratio": 0.106,
+        "avg_db": -44.3,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 349.71,
+        "end": 357.13,
+        "dur": 7.42,
+        "silence_ratio": 0.791,
+        "speech_ratio": 0.203,
+        "avg_db": -41.8,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 729.83,
+        "end": 741.4,
+        "dur": 11.57,
+        "silence_ratio": 0.779,
+        "speech_ratio": 0.156,
+        "avg_db": -42.9,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "outro",
+        "start": 756.02,
+        "end": 766.19,
+        "dur": 10.17,
+        "silence_ratio": 0.394,
+        "speech_ratio": 0.414,
+        "avg_db": -37.7,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 28",
+    "id": "local-28-Downtown-Vocabulary-In-New-York",
+    "title": "Downtown Vocabulary In New York",
+    "audioFile": "Downtown Vocabulary In New York.f140-15.m4a",
+    "durationSec": 548.73,
+    "sentenceCount": 105,
+    "safeCutSec": 2.4,
+    "estTrimmedSec": 546.33,
+    "safeCutCount": 1,
+    "speechWarningCount": 2,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 403.62,
+        "end": 406.02,
+        "dur": 2.4,
+        "silence_ratio": 0.625,
+        "speech_ratio": 0.333,
+        "avg_db": -39.1,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 71.34,
+        "end": 76.32,
+        "dur": 4.98,
+        "silence_ratio": 0.49,
+        "speech_ratio": 0.46,
+        "avg_db": -37.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 545.11,
+        "end": 548.73,
+        "dur": 3.62,
+        "silence_ratio": 0.333,
+        "speech_ratio": 0.486,
+        "avg_db": -33.6,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 27",
+    "id": "local-27-How-to-Buy-a-House-in-USA",
+    "title": "How to Buy a House in USA",
+    "audioFile": "How to Buy a House in USA.f140.m4a",
+    "durationSec": 1059.11,
+    "sentenceCount": 258,
+    "safeCutSec": 13.2,
+    "estTrimmedSec": 1045.91,
+    "safeCutCount": 2,
+    "speechWarningCount": 6,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 65.85,
+        "end": 72.53,
+        "dur": 6.68,
+        "silence_ratio": 0.53,
+        "speech_ratio": 0.201,
+        "avg_db": -37.9,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 156.14,
+        "end": 162.66,
+        "dur": 6.52,
+        "silence_ratio": 0.527,
+        "speech_ratio": 0.198,
+        "avg_db": -37.9,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 229.83,
+        "end": 236.17,
+        "dur": 6.34,
+        "silence_ratio": 0.48,
+        "speech_ratio": 0.441,
+        "avg_db": -36.2,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 442.7,
+        "end": 448.23,
+        "dur": 5.53,
+        "silence_ratio": 0.491,
+        "speech_ratio": 0.455,
+        "avg_db": -36.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 563.58,
+        "end": 574.87,
+        "dur": 11.29,
+        "silence_ratio": 0.305,
+        "speech_ratio": 0.681,
+        "avg_db": -33.9,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 632.15,
+        "end": 640.93,
+        "dur": 8.78,
+        "silence_ratio": 0.46,
+        "speech_ratio": 0.449,
+        "avg_db": -35.7,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 715.92,
+        "end": 733.3,
+        "dur": 17.38,
+        "silence_ratio": 0.395,
+        "speech_ratio": 0.556,
+        "avg_db": -35.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 1051.03,
+        "end": 1059.11,
+        "dur": 8.08,
+        "silence_ratio": 0.284,
+        "speech_ratio": 0.549,
+        "avg_db": -32.9,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 26",
+    "id": "local-26-Car-Vocabulary",
+    "title": "Car Vocabulary",
+    "audioFile": "Car Vocabulary.f140-8.m4a",
+    "durationSec": 1177.71,
+    "sentenceCount": 186,
+    "safeCutSec": 0,
+    "estTrimmedSec": 1177.71,
+    "safeCutCount": 0,
+    "speechWarningCount": 1,
+    "safeCuts": [],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 1093.22,
+        "end": 1104.71,
+        "dur": 11.49,
+        "silence_ratio": 0.257,
+        "speech_ratio": 0.391,
+        "avg_db": -31.9,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 25",
+    "id": "local-25-Household-Chores-In-English",
+    "title": "Household Chores In English",
+    "audioFile": "Household Chores In English.f140.m4a",
+    "durationSec": 1170.61,
+    "sentenceCount": 179,
+    "safeCutSec": 39.52,
+    "estTrimmedSec": 1131.09,
+    "safeCutCount": 9,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 79.66,
+        "end": 82.3,
+        "dur": 2.64,
+        "silence_ratio": 0.808,
+        "speech_ratio": 0.192,
+        "avg_db": -39.9,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 88.47,
+        "end": 90.48,
+        "dur": 2.01,
+        "silence_ratio": 0.775,
+        "speech_ratio": 0.225,
+        "avg_db": -39.8,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 265.95,
+        "end": 272.13,
+        "dur": 6.18,
+        "silence_ratio": 0.742,
+        "speech_ratio": 0.25,
+        "avg_db": -39.1,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 329.78,
+        "end": 332.5,
+        "dur": 2.72,
+        "silence_ratio": 1.0,
+        "speech_ratio": 0.0,
+        "avg_db": -63.1,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 354.22,
+        "end": 356.37,
+        "dur": 2.15,
+        "silence_ratio": 0.837,
+        "speech_ratio": 0.14,
+        "avg_db": -50.2,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 376.63,
+        "end": 380.33,
+        "dur": 3.7,
+        "silence_ratio": 0.797,
+        "speech_ratio": 0.189,
+        "avg_db": -39.9,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 463.31,
+        "end": 469.01,
+        "dur": 5.7,
+        "silence_ratio": 0.982,
+        "speech_ratio": 0.018,
+        "avg_db": -52.7,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 1115.41,
+        "end": 1123.93,
+        "dur": 8.52,
+        "silence_ratio": 0.706,
+        "speech_ratio": 0.165,
+        "avg_db": -41.5,
+        "label": "silence"
+      },
+      {
+        "type": "outro",
+        "start": 1164.71,
+        "end": 1170.61,
+        "dur": 5.9,
+        "silence_ratio": 0.737,
+        "speech_ratio": 0.102,
+        "avg_db": -43.0,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 24",
+    "id": "local-24-Can-you-understand-my-friend-Eng",
+    "title": "Can you understand my friend？ ｜ English Conversation",
+    "audioFile": "Can you understand my friend？ ｜ English Conversation.f140-20.m4a",
+    "durationSec": 915.91,
+    "sentenceCount": 263,
+    "safeCutSec": 4.49,
+    "estTrimmedSec": 911.42,
+    "safeCutCount": 1,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "outro",
+        "start": 911.42,
+        "end": 915.91,
+        "dur": 4.49,
+        "silence_ratio": 1.0,
+        "speech_ratio": 0.0,
+        "avg_db": -140.0,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 23",
+    "id": "local-23-Interviewing-Native-English-Spea",
+    "title": "Interviewing Native English Speakers on St. Patrick’s Day",
+    "audioFile": "Interviewing Native English Speakers on St. Patrick’s Day.f140-17.m4a",
+    "durationSec": 481.49,
+    "sentenceCount": 132,
+    "safeCutSec": 2.67,
+    "estTrimmedSec": 478.82,
+    "safeCutCount": 1,
+    "speechWarningCount": 1,
+    "safeCuts": [
+      {
+        "type": "outro",
+        "start": 478.82,
+        "end": 481.49,
+        "dur": 2.67,
+        "silence_ratio": 1.0,
+        "speech_ratio": 0.0,
+        "avg_db": -126.0,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 84.97,
+        "end": 101.38,
+        "dur": 16.41,
+        "silence_ratio": 0.037,
+        "speech_ratio": 0.899,
+        "avg_db": -32.8,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 22",
+    "id": "local-22-Essential-English-for-Skiing",
+    "title": "Essential English for Skiing",
+    "audioFile": "Essential English for Skiing.f140-6.m4a",
+    "durationSec": 752.19,
+    "sentenceCount": 165,
+    "safeCutSec": 17.93,
+    "estTrimmedSec": 734.26,
+    "safeCutCount": 2,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 28.7,
+        "end": 35.1,
+        "dur": 6.4,
+        "silence_ratio": 0.938,
+        "speech_ratio": 0.016,
+        "avg_db": -42.6,
+        "label": "silence"
+      },
+      {
+        "type": "outro",
+        "start": 740.66,
+        "end": 752.19,
+        "dur": 11.53,
+        "silence_ratio": 1.0,
+        "speech_ratio": 0.0,
+        "avg_db": -70.2,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 21",
+    "id": "local-21-Religious-Vocabulary-in-English",
+    "title": "Religious Vocabulary in English",
+    "audioFile": "Religious Vocabulary in English.f140-12.m4a",
+    "durationSec": 1335.61,
+    "sentenceCount": 284,
+    "safeCutSec": 4.39,
+    "estTrimmedSec": 1331.22,
+    "safeCutCount": 1,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "outro",
+        "start": 1331.22,
+        "end": 1335.61,
+        "dur": 4.39,
+        "silence_ratio": 1.0,
+        "speech_ratio": 0.0,
+        "avg_db": -131.5,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 20",
+    "id": "local-20-Natural-Korean-Makeup-to-IG-Badd",
+    "title": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock)",
+    "audioFile": "Natural Korean Makeup to IG Baddie⧸Asian Baby Girl (ABG) Transformation (still in shock).f140.m4a",
+    "durationSec": 728.92,
+    "sentenceCount": 124,
+    "safeCutSec": 62.54,
+    "estTrimmedSec": 666.38,
+    "safeCutCount": 10,
+    "speechWarningCount": 22,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 134.0,
+        "end": 147.72,
+        "dur": 13.72,
+        "silence_ratio": 0.026,
+        "speech_ratio": 0.347,
+        "avg_db": -20.2,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 283.7,
+        "end": 286.38,
+        "dur": 2.68,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.333,
+        "avg_db": -15.3,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 363.95,
+        "end": 366.18,
+        "dur": 2.23,
+        "silence_ratio": 0.4,
+        "speech_ratio": 0.178,
+        "avg_db": -35.1,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 410.31,
+        "end": 418.33,
+        "dur": 8.02,
+        "silence_ratio": 0.25,
+        "speech_ratio": 0.212,
+        "avg_db": -34.0,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 446.24,
+        "end": 449.77,
+        "dur": 3.53,
+        "silence_ratio": 0.169,
+        "speech_ratio": 0.268,
+        "avg_db": -33.6,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 452.4,
+        "end": 456.08,
+        "dur": 3.68,
+        "silence_ratio": 0.122,
+        "speech_ratio": 0.284,
+        "avg_db": -31.3,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 497.02,
+        "end": 511.74,
+        "dur": 14.72,
+        "silence_ratio": 0.02,
+        "speech_ratio": 0.313,
+        "avg_db": -25.8,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 525.35,
+        "end": 533.14,
+        "dur": 7.79,
+        "silence_ratio": 0.232,
+        "speech_ratio": 0.258,
+        "avg_db": -34.0,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 537.39,
+        "end": 540.88,
+        "dur": 3.49,
+        "silence_ratio": 0.286,
+        "speech_ratio": 0.214,
+        "avg_db": -34.4,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 619.83,
+        "end": 622.51,
+        "dur": 2.68,
+        "silence_ratio": 0.241,
+        "speech_ratio": 0.278,
+        "avg_db": -31.5,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "intro",
+        "start": 0.0,
+        "end": 12.76,
+        "dur": 12.76,
+        "silence_ratio": 0.275,
+        "speech_ratio": 0.608,
+        "avg_db": -29.2,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 212.6,
+        "end": 220.3,
+        "dur": 7.7,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.409,
+        "avg_db": -11.9,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 227.1,
+        "end": 233.46,
+        "dur": 6.36,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.394,
+        "avg_db": -14.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 257.04,
+        "end": 260.62,
+        "dur": 3.58,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.569,
+        "avg_db": -22.6,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 264.24,
+        "end": 279.68,
+        "dur": 15.44,
+        "silence_ratio": 0.023,
+        "speech_ratio": 0.515,
+        "avg_db": -24.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 287.62,
+        "end": 289.56,
+        "dur": 1.94,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.436,
+        "avg_db": -19.9,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 301.34,
+        "end": 310.96,
+        "dur": 9.62,
+        "silence_ratio": 0.057,
+        "speech_ratio": 0.44,
+        "avg_db": -22.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 315.16,
+        "end": 323.46,
+        "dur": 8.3,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.62,
+        "avg_db": -20.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 327.3,
+        "end": 331.44,
+        "dur": 4.14,
+        "silence_ratio": 0.061,
+        "speech_ratio": 0.89,
+        "avg_db": -25.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 346.88,
+        "end": 355.56,
+        "dur": 8.68,
+        "silence_ratio": 0.011,
+        "speech_ratio": 0.448,
+        "avg_db": -22.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 372.82,
+        "end": 376.76,
+        "dur": 3.94,
+        "silence_ratio": 0.139,
+        "speech_ratio": 0.405,
+        "avg_db": -32.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 422.61,
+        "end": 431.52,
+        "dur": 8.91,
+        "silence_ratio": 0.208,
+        "speech_ratio": 0.455,
+        "avg_db": -33.9,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 461.58,
+        "end": 464.14,
+        "dur": 2.56,
+        "silence_ratio": 0.02,
+        "speech_ratio": 0.451,
+        "avg_db": -24.8,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 471.24,
+        "end": 476.34,
+        "dur": 5.1,
+        "silence_ratio": 0.167,
+        "speech_ratio": 0.51,
+        "avg_db": -34.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 482.52,
+        "end": 486.52,
+        "dur": 4.0,
+        "silence_ratio": 0.138,
+        "speech_ratio": 0.512,
+        "avg_db": -33.5,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 487.72,
+        "end": 491.32,
+        "dur": 3.6,
+        "silence_ratio": 0.222,
+        "speech_ratio": 0.431,
+        "avg_db": -34.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 515.5,
+        "end": 517.48,
+        "dur": 1.98,
+        "silence_ratio": 0.256,
+        "speech_ratio": 0.462,
+        "avg_db": -33.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 557.01,
+        "end": 567.73,
+        "dur": 10.72,
+        "silence_ratio": 0.005,
+        "speech_ratio": 0.617,
+        "avg_db": -24.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 630.0,
+        "end": 642.56,
+        "dur": 12.56,
+        "silence_ratio": 0.088,
+        "speech_ratio": 0.49,
+        "avg_db": -28.6,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 647.77,
+        "end": 652.82,
+        "dur": 5.05,
+        "silence_ratio": 0.277,
+        "speech_ratio": 0.515,
+        "avg_db": -34.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 655.42,
+        "end": 672.86,
+        "dur": 17.44,
+        "silence_ratio": 0.266,
+        "speech_ratio": 0.61,
+        "avg_db": -30.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 721.1,
+        "end": 728.92,
+        "dur": 7.82,
+        "silence_ratio": 0.013,
+        "speech_ratio": 0.596,
+        "avg_db": -14.3,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 19",
+    "id": "local-19-Living-Alone-Diaries-What-I-Eat-",
+    "title": "Living Alone Diaries ｜ What I Eat in a Day in the new apartment!",
+    "audioFile": "Living Alone Diaries ｜ What I Eat in a Day in the new apartment!.f140.m4a",
+    "durationSec": 586.33,
+    "sentenceCount": 47,
+    "safeCutSec": 83.84,
+    "estTrimmedSec": 502.49,
+    "safeCutCount": 5,
+    "speechWarningCount": 8,
+    "safeCuts": [
+      {
+        "type": "intro",
+        "start": 0.0,
+        "end": 7.14,
+        "dur": 7.14,
+        "silence_ratio": 0.746,
+        "speech_ratio": 0.148,
+        "avg_db": -99.2,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 61.07,
+        "end": 110.02,
+        "dur": 48.95,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.157,
+        "avg_db": -19.9,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 130.97,
+        "end": 139.62,
+        "dur": 8.65,
+        "silence_ratio": 0.89,
+        "speech_ratio": 0.098,
+        "avg_db": -39.3,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 229.3,
+        "end": 243.86,
+        "dur": 14.56,
+        "silence_ratio": 0.46,
+        "speech_ratio": 0.261,
+        "avg_db": -36.0,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 264.52,
+        "end": 269.06,
+        "dur": 4.54,
+        "silence_ratio": 0.868,
+        "speech_ratio": 0.088,
+        "avg_db": -40.6,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 152.17,
+        "end": 223.7,
+        "dur": 71.53,
+        "silence_ratio": 0.224,
+        "speech_ratio": 0.381,
+        "avg_db": -32.7,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 362.17,
+        "end": 369.46,
+        "dur": 7.29,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.404,
+        "avg_db": -26.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 392.8,
+        "end": 395.54,
+        "dur": 2.74,
+        "silence_ratio": 0.019,
+        "speech_ratio": 0.444,
+        "avg_db": -22.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 408.09,
+        "end": 417.38,
+        "dur": 9.29,
+        "silence_ratio": 0.054,
+        "speech_ratio": 0.597,
+        "avg_db": -27.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 442.71,
+        "end": 464.74,
+        "dur": 22.03,
+        "silence_ratio": 0.555,
+        "speech_ratio": 0.364,
+        "avg_db": -34.9,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 481.04,
+        "end": 484.82,
+        "dur": 3.78,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.934,
+        "avg_db": -20.5,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 500.21,
+        "end": 507.22,
+        "dur": 7.01,
+        "silence_ratio": 0.007,
+        "speech_ratio": 0.564,
+        "avg_db": -26.5,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 511.5,
+        "end": 527.86,
+        "dur": 16.36,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.352,
+        "avg_db": -23.6,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 18",
+    "id": "local-18-English-Lesson-At-The-Airport",
+    "title": "English Lesson At The Airport",
+    "audioFile": "English Lesson At The Airport.f140-10.m4a",
+    "durationSec": 828.97,
+    "sentenceCount": 157,
+    "safeCutSec": 24.84,
+    "estTrimmedSec": 804.13,
+    "safeCutCount": 4,
+    "speechWarningCount": 2,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 329.78,
+        "end": 332.26,
+        "dur": 2.48,
+        "silence_ratio": 0.9,
+        "speech_ratio": 0.08,
+        "avg_db": -40.1,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 719.26,
+        "end": 726.26,
+        "dur": 7.0,
+        "silence_ratio": 0.464,
+        "speech_ratio": 0.186,
+        "avg_db": -35.2,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 762.74,
+        "end": 771.68,
+        "dur": 8.94,
+        "silence_ratio": 0.391,
+        "speech_ratio": 0.229,
+        "avg_db": -34.6,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 786.02,
+        "end": 792.44,
+        "dur": 6.42,
+        "silence_ratio": 0.312,
+        "speech_ratio": 0.188,
+        "avg_db": -34.7,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 504.54,
+        "end": 510.54,
+        "dur": 6.0,
+        "silence_ratio": 0.092,
+        "speech_ratio": 0.558,
+        "avg_db": -29.2,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 534.7,
+        "end": 542.5,
+        "dur": 7.8,
+        "silence_ratio": 0.224,
+        "speech_ratio": 0.474,
+        "avg_db": -31.1,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 17",
+    "id": "local-17-How-to-Order-Fast-Food-in-Englis",
+    "title": "How to Order Fast Food in English",
+    "audioFile": "How to Order Fast Food in English.f140-10.m4a",
+    "durationSec": 811.7,
+    "sentenceCount": 134,
+    "safeCutSec": 2.52,
+    "estTrimmedSec": 809.18,
+    "safeCutCount": 1,
+    "speechWarningCount": 2,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 726.42,
+        "end": 728.94,
+        "dur": 2.52,
+        "silence_ratio": 0.92,
+        "speech_ratio": 0.08,
+        "avg_db": -39.0,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 511.98,
+        "end": 576.3,
+        "dur": 64.32,
+        "silence_ratio": 0.359,
+        "speech_ratio": 0.62,
+        "avg_db": -34.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 589.6,
+        "end": 596.97,
+        "dur": 7.37,
+        "silence_ratio": 0.293,
+        "speech_ratio": 0.694,
+        "avg_db": -32.2,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 16",
+    "id": "local-16-How-To-Order-Coffee-In-English",
+    "title": "How To Order Coffee In English",
+    "audioFile": "How To Order Coffee In English.f140-12.m4a",
+    "durationSec": 568.52,
+    "sentenceCount": 131,
+    "safeCutSec": 11.46,
+    "estTrimmedSec": 557.06,
+    "safeCutCount": 2,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 46.38,
+        "end": 48.48,
+        "dur": 2.1,
+        "silence_ratio": 0.976,
+        "speech_ratio": 0.024,
+        "avg_db": -42.5,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 116.28,
+        "end": 125.64,
+        "dur": 9.36,
+        "silence_ratio": 0.807,
+        "speech_ratio": 0.16,
+        "avg_db": -39.9,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 15",
+    "id": "local-15-Why-Adding-More-Is-Slowing-Your-",
+    "title": "Why Adding More Is Slowing Your Business Down",
+    "audioFile": "Why Adding More Is Slowing Your Business Down.f140-19.m4a",
+    "durationSec": 96.62,
+    "sentenceCount": 18,
+    "safeCutSec": 7.79,
+    "estTrimmedSec": 88.83,
+    "safeCutCount": 1,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "outro",
+        "start": 88.83,
+        "end": 96.62,
+        "dur": 7.79,
+        "silence_ratio": 1.0,
+        "speech_ratio": 0.0,
+        "avg_db": -140.0,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 14",
+    "id": "local-14-How-to-Start-Any-Conversation-th",
+    "title": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED",
+    "audioFile": "How to Start Any Conversation the Right Way ｜ Chris Fenning ｜ TED.f140.m4a",
+    "durationSec": 667.41,
+    "sentenceCount": 138,
+    "safeCutSec": 2.04,
+    "estTrimmedSec": 665.37,
+    "safeCutCount": 1,
+    "speechWarningCount": 2,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 105.92,
+        "end": 107.96,
+        "dur": 2.04,
+        "silence_ratio": 0.756,
+        "speech_ratio": 0.22,
+        "avg_db": -45.2,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "intro",
+        "start": 0.0,
+        "end": 3.96,
+        "dur": 3.96,
+        "silence_ratio": 0.177,
+        "speech_ratio": 0.608,
+        "avg_db": -24.5,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 664.14,
+        "end": 667.41,
+        "dur": 3.27,
+        "silence_ratio": 0.015,
+        "speech_ratio": 0.909,
+        "avg_db": -17.6,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 13",
+    "id": "local-13-What-is-imposter-syndrome-and-ho",
+    "title": "What is imposter syndrome and how can you combat it？ - Elizabeth Cox",
+    "audioFile": "What is imposter syndrome and how can you combat it？ - Elizabeth Cox.f140.m4a",
+    "durationSec": 258.74,
+    "sentenceCount": 33,
+    "safeCutSec": 24.53,
+    "estTrimmedSec": 234.21,
+    "safeCutCount": 2,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "intro",
+        "start": 0.0,
+        "end": 7.45,
+        "dur": 7.45,
+        "silence_ratio": 0.188,
+        "speech_ratio": 0.087,
+        "avg_db": -24.8,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "outro",
+        "start": 241.66,
+        "end": 258.74,
+        "dur": 17.08,
+        "silence_ratio": 0.287,
+        "speech_ratio": 0.331,
+        "avg_db": -34.0,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 12",
+    "id": "local-12-Inside-Emma-Watson-s-Prada-Backp",
+    "title": "Inside Emma Watson's Prada Backpack ｜ In The Bag ｜ Vogue",
+    "audioFile": "Inside Emma Watson's Prada Backpack ｜ In The Bag ｜ Vogue.f140.m4a",
+    "durationSec": 469.78,
+    "sentenceCount": 83,
+    "safeCutSec": 0,
+    "estTrimmedSec": 469.78,
+    "safeCutCount": 0,
+    "speechWarningCount": 0,
+    "safeCuts": [],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 11",
+    "id": "local-11-73-Questions-With-Kendall-Jenner",
+    "title": "73 Questions With Kendall Jenner ｜ Vogue",
+    "audioFile": "73 Questions With Kendall Jenner ｜ Vogue.f140.m4a",
+    "durationSec": 447.8,
+    "sentenceCount": 184,
+    "safeCutSec": 3.3,
+    "estTrimmedSec": 444.5,
+    "safeCutCount": 1,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "intro",
+        "start": 0.0,
+        "end": 3.3,
+        "dur": 3.3,
+        "silence_ratio": 0.5,
+        "speech_ratio": 0.273,
+        "avg_db": -33.5,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 10",
+    "id": "local-10-Celeste-Headlee-10-ways-to-have-",
+    "title": "Celeste Headlee： 10 ways to have a better conversation ｜ TED",
+    "audioFile": "Celeste Headlee： 10 ways to have a better conversation ｜ TED.f140.m4a",
+    "durationSec": 704.14,
+    "sentenceCount": 151,
+    "safeCutSec": 0,
+    "estTrimmedSec": 704.14,
+    "safeCutCount": 0,
+    "speechWarningCount": 2,
+    "safeCuts": [],
+    "speechWarnings": [
+      {
+        "type": "intro",
+        "start": 0.0,
+        "end": 12.53,
+        "dur": 12.53,
+        "silence_ratio": 0.12,
+        "speech_ratio": 0.452,
+        "avg_db": -25.8,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 685.5,
+        "end": 704.14,
+        "dur": 18.64,
+        "silence_ratio": 0.258,
+        "speech_ratio": 0.481,
+        "avg_db": -28.0,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 09",
+    "id": "local-9-Homebody-on-Holiday-a-summer-dre",
+    "title": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food!",
+    "audioFile": "Homebody on Holiday ｜ a summer dream destination recharging and having unlimited appetite for food!.f140.m4a",
+    "durationSec": 748.05,
+    "sentenceCount": 119,
+    "safeCutSec": 51.41,
+    "estTrimmedSec": 696.64,
+    "safeCutCount": 6,
+    "speechWarningCount": 12,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 16.73,
+        "end": 26.1,
+        "dur": 9.37,
+        "silence_ratio": 0.074,
+        "speech_ratio": 0.346,
+        "avg_db": -24.7,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 52.49,
+        "end": 74.42,
+        "dur": 21.93,
+        "silence_ratio": 0.018,
+        "speech_ratio": 0.287,
+        "avg_db": -20.6,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 183.75,
+        "end": 190.18,
+        "dur": 6.43,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.094,
+        "avg_db": -18.3,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 203.48,
+        "end": 206.9,
+        "dur": 3.42,
+        "silence_ratio": 0.232,
+        "speech_ratio": 0.145,
+        "avg_db": -45.9,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 386.33,
+        "end": 388.74,
+        "dur": 2.41,
+        "silence_ratio": 0.25,
+        "speech_ratio": 0.271,
+        "avg_db": -31.3,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 592.33,
+        "end": 600.18,
+        "dur": 7.85,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.318,
+        "avg_db": -21.7,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 97.93,
+        "end": 100.18,
+        "dur": 2.25,
+        "silence_ratio": 0.267,
+        "speech_ratio": 0.422,
+        "avg_db": -32.7,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 112.73,
+        "end": 126.66,
+        "dur": 13.93,
+        "silence_ratio": 0.029,
+        "speech_ratio": 0.595,
+        "avg_db": -27.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 140.32,
+        "end": 155.14,
+        "dur": 14.82,
+        "silence_ratio": 0.361,
+        "speech_ratio": 0.426,
+        "avg_db": -33.7,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 334.29,
+        "end": 358.74,
+        "dur": 24.45,
+        "silence_ratio": 0.067,
+        "speech_ratio": 0.601,
+        "avg_db": -21.1,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 477.29,
+        "end": 482.34,
+        "dur": 5.05,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.96,
+        "avg_db": -28.8,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 500.25,
+        "end": 513.14,
+        "dur": 12.89,
+        "silence_ratio": 0.043,
+        "speech_ratio": 0.35,
+        "avg_db": -22.6,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 552.44,
+        "end": 568.02,
+        "dur": 15.58,
+        "silence_ratio": 0.003,
+        "speech_ratio": 0.657,
+        "avg_db": -22.9,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 606.85,
+        "end": 624.26,
+        "dur": 17.41,
+        "silence_ratio": 0.014,
+        "speech_ratio": 0.572,
+        "avg_db": -24.6,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 628.1,
+        "end": 631.7,
+        "dur": 3.6,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.472,
+        "avg_db": -19.6,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 638.96,
+        "end": 649.94,
+        "dur": 10.98,
+        "silence_ratio": 0.096,
+        "speech_ratio": 0.543,
+        "avg_db": -26.6,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 655.81,
+        "end": 662.82,
+        "dur": 7.01,
+        "silence_ratio": 0.021,
+        "speech_ratio": 0.957,
+        "avg_db": -29.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 685.22,
+        "end": 748.05,
+        "dur": 62.83,
+        "silence_ratio": 0.155,
+        "speech_ratio": 0.649,
+        "avg_db": -26.1,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 08",
+    "id": "local-8-Living-Alone-Diaries-My-simple-q",
+    "title": "Living Alone Diaries ｜ My simple, quiet morning and afternoon!",
+    "audioFile": "Living Alone Diaries ｜ My simple, quiet morning and afternoon!.f140.m4a",
+    "durationSec": 600.98,
+    "sentenceCount": 78,
+    "safeCutSec": 15.41,
+    "estTrimmedSec": 585.57,
+    "safeCutCount": 4,
+    "speechWarningCount": 12,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 185.76,
+        "end": 187.69,
+        "dur": 1.93,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.237,
+        "avg_db": -21.5,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 403.02,
+        "end": 405.02,
+        "dur": 2.0,
+        "silence_ratio": 0.875,
+        "speech_ratio": 0.125,
+        "avg_db": -40.3,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 552.74,
+        "end": 559.41,
+        "dur": 6.67,
+        "silence_ratio": 0.104,
+        "speech_ratio": 0.328,
+        "avg_db": -25.1,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 569.69,
+        "end": 574.5,
+        "dur": 4.81,
+        "silence_ratio": 0.278,
+        "speech_ratio": 0.165,
+        "avg_db": -31.5,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 5.73,
+        "end": 13.3,
+        "dur": 7.57,
+        "silence_ratio": 0.007,
+        "speech_ratio": 0.474,
+        "avg_db": -23.5,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 40.8,
+        "end": 83.08,
+        "dur": 42.28,
+        "silence_ratio": 0.177,
+        "speech_ratio": 0.416,
+        "avg_db": -23.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 97.35,
+        "end": 112.81,
+        "dur": 15.46,
+        "silence_ratio": 0.077,
+        "speech_ratio": 0.661,
+        "avg_db": -24.5,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 163.17,
+        "end": 168.76,
+        "dur": 5.59,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.812,
+        "avg_db": -22.8,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 201.51,
+        "end": 211.64,
+        "dur": 10.13,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.47,
+        "avg_db": -17.5,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 215.29,
+        "end": 246.95,
+        "dur": 31.66,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.542,
+        "avg_db": -19.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 295.24,
+        "end": 337.75,
+        "dur": 42.51,
+        "silence_ratio": 0.007,
+        "speech_ratio": 0.566,
+        "avg_db": -20.9,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 339.41,
+        "end": 378.8,
+        "dur": 39.39,
+        "silence_ratio": 0.077,
+        "speech_ratio": 0.454,
+        "avg_db": -25.4,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 392.35,
+        "end": 400.02,
+        "dur": 7.67,
+        "silence_ratio": 0.098,
+        "speech_ratio": 0.582,
+        "avg_db": -33.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 411.52,
+        "end": 418.88,
+        "dur": 7.36,
+        "silence_ratio": 0.014,
+        "speech_ratio": 0.639,
+        "avg_db": -26.3,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 528.47,
+        "end": 549.57,
+        "dur": 21.1,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.507,
+        "avg_db": -15.7,
+        "label": "speech_warning"
+      },
+      {
+        "type": "outro",
+        "start": 592.54,
+        "end": 600.98,
+        "dur": 8.44,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.68,
+        "avg_db": -18.0,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 07",
+    "id": "local-7-Speak-American-English-Around-To",
+    "title": "Speak American English Around Town",
+    "audioFile": "Speak American English Around Town.f140.m4a",
+    "durationSec": 1340.65,
+    "sentenceCount": 340,
+    "safeCutSec": 0,
+    "estTrimmedSec": 1340.65,
+    "safeCutCount": 0,
+    "speechWarningCount": 0,
+    "safeCuts": [],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 06",
+    "id": "local-6-Order-PIZZA-in-English-Daily-Lif",
+    "title": "Order PIZZA in English： Daily Life English Lesson",
+    "audioFile": "Order PIZZA in English： Daily Life English Lesson.f140.m4a",
+    "durationSec": 1254.94,
+    "sentenceCount": 470,
+    "safeCutSec": 0,
+    "estTrimmedSec": 1254.94,
+    "safeCutCount": 0,
+    "speechWarningCount": 0,
+    "safeCuts": [],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 05",
+    "id": "local-5-Real-Life-ENGLISH-Around-the-Cit",
+    "title": "Real Life ENGLISH Around the City",
+    "audioFile": "Real Life ENGLISH Around the City.f140.m4a",
+    "durationSec": 1872.39,
+    "sentenceCount": 416,
+    "safeCutSec": 0,
+    "estTrimmedSec": 1872.39,
+    "safeCutCount": 0,
+    "speechWarningCount": 2,
+    "safeCuts": [],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 861.62,
+        "end": 872.16,
+        "dur": 10.54,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.976,
+        "avg_db": -13.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 1488.47,
+        "end": 1491.49,
+        "dur": 3.02,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.967,
+        "avg_db": -11.6,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 04",
+    "id": "local-4-Order-FOOD-in-English-Daily-Life",
+    "title": "Order FOOD in English： Daily Life English",
+    "audioFile": "Order FOOD in English： Daily Life English.f140.m4a",
+    "durationSec": 1497.01,
+    "sentenceCount": 447,
+    "safeCutSec": 0,
+    "estTrimmedSec": 1497.01,
+    "safeCutCount": 0,
+    "speechWarningCount": 0,
+    "safeCuts": [],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 03",
+    "id": "local-3-English-Phrases-for-Ordering-Foo",
+    "title": "English Phrases for Ordering Food",
+    "audioFile": "English Phrases for Ordering Food.f140-5.m4a",
+    "durationSec": 570.54,
+    "sentenceCount": 106,
+    "safeCutSec": 7.4,
+    "estTrimmedSec": 563.14,
+    "safeCutCount": 2,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 389.86,
+        "end": 392.42,
+        "dur": 2.56,
+        "silence_ratio": 1.0,
+        "speech_ratio": 0.0,
+        "avg_db": -140.0,
+        "label": "silence"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 462.18,
+        "end": 467.02,
+        "dur": 4.84,
+        "silence_ratio": 0.691,
+        "speech_ratio": 0.237,
+        "avg_db": -78.8,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": []
+  },
+  {
+    "number": "EP 02",
+    "id": "local-2-Grocery-Store-Vocabulary-shop-in",
+    "title": "Grocery Store Vocabulary： shop in English",
+    "audioFile": "Grocery Store Vocabulary： shop in English.f140.m4a",
+    "durationSec": 953.64,
+    "sentenceCount": 275,
+    "safeCutSec": 9.9,
+    "estTrimmedSec": 943.74,
+    "safeCutCount": 2,
+    "speechWarningCount": 6,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 7.34,
+        "end": 12.82,
+        "dur": 5.48,
+        "silence_ratio": 0.5,
+        "speech_ratio": 0.309,
+        "avg_db": -43.9,
+        "label": "music_or_ambient"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 888.08,
+        "end": 892.5,
+        "dur": 4.42,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.27,
+        "avg_db": -29.7,
+        "label": "music_or_ambient"
+      }
+    ],
+    "speechWarnings": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 105.66,
+        "end": 107.94,
+        "dur": 2.28,
+        "silence_ratio": 0.311,
+        "speech_ratio": 0.689,
+        "avg_db": -25.9,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 161.42,
+        "end": 165.3,
+        "dur": 3.88,
+        "silence_ratio": 0.128,
+        "speech_ratio": 0.628,
+        "avg_db": -32.7,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 436.14,
+        "end": 438.5,
+        "dur": 2.36,
+        "silence_ratio": 0.583,
+        "speech_ratio": 0.396,
+        "avg_db": -33.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 472.86,
+        "end": 477.38,
+        "dur": 4.52,
+        "silence_ratio": 0.322,
+        "speech_ratio": 0.489,
+        "avg_db": -27.8,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 535.34,
+        "end": 539.54,
+        "dur": 4.2,
+        "silence_ratio": 0.155,
+        "speech_ratio": 0.357,
+        "avg_db": -31.0,
+        "label": "speech_warning"
+      },
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 904.94,
+        "end": 908.34,
+        "dur": 3.4,
+        "silence_ratio": 0.0,
+        "speech_ratio": 0.368,
+        "avg_db": -27.9,
+        "label": "speech_warning"
+      }
+    ]
+  },
+  {
+    "number": "EP 01",
+    "id": "local-1-Grocery-shopping-with-your-Engli",
+    "title": "Grocery shopping with your English Teacher",
+    "audioFile": "Grocery shopping with your English Teacher.f140-10.m4a",
+    "durationSec": 847.43,
+    "sentenceCount": 196,
+    "safeCutSec": 10.13,
+    "estTrimmedSec": 837.3,
+    "safeCutCount": 2,
+    "speechWarningCount": 0,
+    "safeCuts": [
+      {
+        "type": "mid_gap_or_bgm",
+        "start": 806.5,
+        "end": 808.9,
+        "dur": 2.4,
+        "silence_ratio": 0.979,
+        "speech_ratio": 0.0,
+        "avg_db": -52.0,
+        "label": "silence"
+      },
+      {
+        "type": "outro",
+        "start": 839.7,
+        "end": 847.43,
+        "dur": 7.73,
+        "silence_ratio": 0.981,
+        "speech_ratio": 0.019,
+        "avg_db": -129.4,
+        "label": "silence"
+      }
+    ],
+    "speechWarnings": []
+  }
+]

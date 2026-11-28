@@ -514,11 +514,17 @@ def parse_subtitle_files(sub_files, music_ranges_out=None):
     return cues
 
 
+def _kw_match(kw: str, sample: str) -> bool:
+    if re.fullmatch(r"[a-z0-9\s\-]+", kw):
+        return bool(re.search(rf"\b{re.escape(kw)}\b", sample))
+    return kw in sample
+
+
 def infer_tags(title: str, sentences):
     sample = (title + " " + " ".join(s["en"] for s in sentences[:12])).lower()
     tags = []
     for tag, kws in TAG_RULES:
-        if any(kw in sample for kw in kws):
+        if any(_kw_match(kw, sample) for kw in kws):
             tags.append(tag)
         if len(tags) >= 3:
             break
@@ -528,7 +534,7 @@ def infer_tags(title: str, sentences):
 def infer_speaker(title: str, sentences=None):
     sample = (title + " " + " ".join(s.get("en", "") for s in (sentences or [])[:6])).lower()
     for sp, kws in SPEAKER_RULES:
-        if any(kw in sample for kw in kws):
+        if any(_kw_match(kw, sample) for kw in kws):
             return sp
     return "YouTube 博主"
 
@@ -770,10 +776,10 @@ def resegment_polished_sentences(sents, music_ranges_out=None):
 
     flush_buf()
 
-    # 3) 合理保护每句时长：扣除句内 skipRanges 后的实际口播时长若仍超长（> max(12s, wc*0.75+3s)），温和裁尾并写入 skipRanges
+    # 3) 合理保护每句时长：扣除句内 skipRanges 后的实际口播时长若仍超长（短句收紧至 5.5s 下限，杜绝 2-5 词短句拖 12s 纯音乐），温和裁尾并写入 skipRanges
     for i, s in enumerate(rebuilt):
         wc = max(1, len(s["en"].split()))
-        max_speech_dur = max(12.0, wc * 0.75 + 3.0)
+        max_speech_dur = max(5.5, wc * 0.8 + 2.8)
         internal_skip = 0.0
         for rs, re_ in (music_ranges_out or []):
             ov = max(0.0, min(s["end"], re_) - max(s["start"], rs))
@@ -812,6 +818,22 @@ def resegment_polished_sentences(sents, music_ranges_out=None):
             cleaned[-1]["en"] = last_en.rstrip(",;:") + "."
             if cleaned[-1]["zh"] and not cleaned[-1]["zh"].endswith(("。", "！", "？")):
                 cleaned[-1]["zh"] = cleaned[-1]["zh"].rstrip("，、") + "。"
+
+    # 5) 过滤相邻完全重复句或紧跟的尾部回声残片（如 EP 23 "St. Patrick's Day?" 后的重复 "Patrick's Day?"）
+    deduped = []
+    for s in cleaned:
+        if deduped:
+            prev_en = deduped[-1]["en"].strip().lower()
+            cur_en = s["en"].strip().lower()
+            if cur_en == prev_en or (
+                len(cur_en) >= 12
+                and prev_en.endswith(cur_en)
+                and (float(s["start"]) - float(deduped[-1]["end"])) <= 0.6
+            ):
+                deduped[-1]["end"] = max(deduped[-1]["end"], s["end"])
+                continue
+        deduped.append(s)
+    cleaned = deduped
 
     for idx, s in enumerate(cleaned, start=1):
         s["id"] = idx

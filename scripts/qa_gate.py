@@ -155,7 +155,7 @@ def main():
                 empty_zh += 1
             elif not re.search(r"[\u4e00-\u9fffA-Za-z0-9]", zh):
                 punct_only_zh += 1
-            if spoken_dur > max(12.0, wc * 0.75 + 3.0):
+            if spoken_dur > max(6.0, wc * 0.85 + 3.0):
                 bgm_bloated += 1
             if re.match(r"^[a-z]", en):
                 low_starts += 1

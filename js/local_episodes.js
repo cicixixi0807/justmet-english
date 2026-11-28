@@ -4,7 +4,7 @@ export const LOCAL_EPISODES = [
     "id": "local-39-VLOG-a-productive-busy-day-in-my",
     "number": "EP 39",
     "title": "VLOG ★ a productive & busy day in my life",
-    "speaker": "TED",
+    "speaker": "YouTube 博主",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
@@ -13,7 +13,6 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "旅行",
-      "个人成长",
       "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
@@ -36,11 +35,11 @@ export const LOCAL_EPISODES = [
         124.2
       ],
       [
-        154.47,
+        151.67,
         162.36
       ],
       [
-        189.75,
+        184.55,
         191.52
       ],
       [
@@ -48,19 +47,19 @@ export const LOCAL_EPISODES = [
         328.48
       ],
       [
-        332.79,
+        329.19,
         336.28
       ],
       [
-        537.2,
+        538.3,
         554.44
       ],
       [
-        656.42,
+        652.82,
         659.35
       ],
       [
-        756.78,
+        758.23,
         759.48
       ],
       [
@@ -471,7 +470,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 25,
         "start": 142.52,
-        "end": 154.47,
+        "end": 151.67,
         "speaker": "Speaker",
         "en": "Cute, 12 reps is the goal and one.",
         "ipa": "/kyut twɛlv rɛps ɪz ðə ɡoʊl ænd wʌn/",
@@ -581,7 +580,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 32,
         "start": 177.8,
-        "end": 189.75,
+        "end": 184.55,
         "speaker": "Speaker",
         "en": "Yeah, my legs are jelly.",
         "ipa": "/jɛæ maɪ lɛɡz ɑr ˈdʒɛli/",
@@ -1072,7 +1071,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 61,
         "start": 317.4,
-        "end": 332.79,
+        "end": 329.19,
         "speaker": "Speaker",
         "en": "It fits so well in this corner.",
         "ipa": "/ɪn ðɪs ˈkɔrnər./",
@@ -1846,7 +1845,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 105,
         "start": 514.75,
-        "end": 537.2,
+        "end": 538.3,
         "speaker": "Speaker",
         "en": "Like, I've been out here like five times and every time I just, I don't know, I'm just it's a lot of effort to go out.",
         "ipa": "/aɪ dʒʌst aɪ doʊnt noʊ aɪm dʒʌst ɪts ə lɑːt ʌv ˈɛfərt tuː goʊ aʊt/",
@@ -2200,7 +2199,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 124,
         "start": 644.47,
-        "end": 656.42,
+        "end": 652.82,
         "speaker": "Speaker",
         "en": "Oh, I should take out the trash.",
         "ipa": "/ʃʊd teɪk aʊt ðə træʃ ðɪs ɪz wʌt aɪ/",
@@ -2508,7 +2507,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 142,
         "start": 729.08,
-        "end": 756.78,
+        "end": 758.23,
         "speaker": "Speaker",
         "en": "I was confused because after the whole argument happened, they, like, resumed normally, and then I saw him holding a script, so I think it was all fake, like, I really don't know.",
         "ipa": "/ðə hoʊl ˈɑːrɡjəmənt ˈhæpənd, ðeɪ, laɪk, rɪˈzuːmd ˈnɔːrməli, ænd ðen aɪ sɔː hɪm... ˈhoʊldɪŋ ə skrɪpt, soʊ aɪ θɪŋk ɪt wəz ɔːl... feɪk, laɪk, aɪ ˈrɪli doʊnt... noʊ./",
@@ -2662,7 +2661,7 @@ export const LOCAL_EPISODES = [
     "id": "local-38-what-i-spend-in-a-week-living-in",
     "number": "EP 38",
     "title": "what i spend in a week living in nyc",
-    "speaker": "TED",
+    "speaker": "YouTube 博主",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
@@ -2672,7 +2671,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食",
       "旅行",
-      "个人成长"
+      "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/what%20i%20spend%20in%20a%20week%20living%20in%20nyc.webp",
@@ -2686,7 +2685,7 @@ export const LOCAL_EPISODES = [
         11.32
       ],
       [
-        49.12,
+        44.97,
         53.16
       ],
       [
@@ -2694,7 +2693,7 @@ export const LOCAL_EPISODES = [
         103.72
       ],
       [
-        147.74,
+        144.14,
         149.2
       ],
       [
@@ -2702,7 +2701,11 @@ export const LOCAL_EPISODES = [
         202.08
       ],
       [
-        339.16,
+        283.22,
+        287.48
+      ],
+      [
+        338.76,
         348.0
       ],
       [
@@ -2722,7 +2725,7 @@ export const LOCAL_EPISODES = [
         569.16
       ],
       [
-        673.34,
+        672.62,
         678.76
       ],
       [
@@ -2730,7 +2733,7 @@ export const LOCAL_EPISODES = [
         724.56
       ],
       [
-        736.51,
+        735.31,
         738.8
       ],
       [
@@ -2867,7 +2870,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 8,
         "start": 37.42,
-        "end": 49.12,
+        "end": 44.97,
         "speaker": "Speaker",
         "en": "Please go easy on me, guys.",
         "ipa": "/pliːz ɡoʊ ˈiːzi ɑːn miː ɡaɪz/",
@@ -3277,7 +3280,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 33,
         "start": 135.79,
-        "end": 147.74,
+        "end": 144.14,
         "speaker": "Speaker",
         "en": "It is a A little bit chilly.",
         "ipa": "/ɪt ɪz ə ə ˈlɪtəl bɪt ˈtʃɪli./",
@@ -4260,7 +4263,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 100,
         "start": 277.77,
-        "end": 287.44,
+        "end": 283.22,
         "speaker": "Speaker",
         "en": "I better not.",
         "ipa": "/aɪ ˈbɛtər nɑt/",
@@ -4580,7 +4583,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 120,
         "start": 327.21,
-        "end": 339.16,
+        "end": 338.76,
         "speaker": "Speaker",
         "en": "This is the secret ingredient in my smoothies, the cacao nibs.",
         "ipa": "/ðɪs ɪz ðə ˈsikrət ɪnˈgridiənt ɪn maɪ ˈsmuðiz ðə kəˈkaʊ nɪbz/",
@@ -4745,7 +4748,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 130,
         "start": 361.71,
-        "end": 362.13,
+        "end": 362.59,
         "speaker": "Speaker",
         "en": "Yes.",
         "ipa": "/jɛs/",
@@ -4760,22 +4763,6 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 131,
-        "start": 362.17,
-        "end": 362.59,
-        "speaker": "Speaker",
-        "en": "Yes.",
-        "ipa": "/jɛs/",
-        "zh": "没错。",
-        "highlights": [
-          {
-            "text": "Yes",
-            "key": "是的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 132,
         "start": 362.63,
         "end": 362.93,
         "speaker": "Speaker",
@@ -4791,7 +4778,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 133,
+        "id": 132,
         "start": 362.97,
         "end": 364.24,
         "speaker": "Speaker",
@@ -4807,7 +4794,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 134,
+        "id": 133,
         "start": 364.28,
         "end": 365.57,
         "speaker": "Speaker",
@@ -4823,7 +4810,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 135,
+        "id": 134,
         "start": 365.61,
         "end": 368.48,
         "speaker": "Speaker",
@@ -4839,7 +4826,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 136,
+        "id": 135,
         "start": 368.52,
         "end": 369.36,
         "speaker": "Speaker",
@@ -4855,7 +4842,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 137,
+        "id": 136,
         "start": 369.4,
         "end": 372.06,
         "speaker": "Speaker",
@@ -4871,7 +4858,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 138,
+        "id": 137,
         "start": 372.1,
         "end": 374.0,
         "speaker": "Speaker",
@@ -4887,7 +4874,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 139,
+        "id": 138,
         "start": 374.04,
         "end": 377.08,
         "speaker": "Speaker",
@@ -4903,7 +4890,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 140,
+        "id": 139,
         "start": 377.12,
         "end": 380.02,
         "speaker": "Speaker",
@@ -4919,7 +4906,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 141,
+        "id": 140,
         "start": 380.06,
         "end": 381.28,
         "speaker": "Speaker",
@@ -4935,7 +4922,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 142,
+        "id": 141,
         "start": 381.32,
         "end": 384.64,
         "speaker": "Speaker",
@@ -4951,24 +4938,8 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 143,
+        "id": 142,
         "start": 384.68,
-        "end": 387.54,
-        "speaker": "Speaker",
-        "en": "Cheers.",
-        "ipa": "/tʃɪrz./",
-        "zh": "干杯。",
-        "highlights": [
-          {
-            "text": "Cheers",
-            "key": "cheers",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 144,
-        "start": 387.58,
         "end": 390.44,
         "speaker": "Speaker",
         "en": "Cheers.",
@@ -4983,7 +4954,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 145,
+        "id": 143,
         "start": 390.48,
         "end": 391.36,
         "speaker": "Speaker",
@@ -4999,7 +4970,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 146,
+        "id": 144,
         "start": 391.4,
         "end": 391.88,
         "speaker": "Speaker",
@@ -5015,7 +4986,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 147,
+        "id": 145,
         "start": 391.92,
         "end": 393.26,
         "speaker": "Speaker",
@@ -5031,7 +5002,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 148,
+        "id": 146,
         "start": 393.3,
         "end": 394.22,
         "speaker": "Speaker",
@@ -5047,7 +5018,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 149,
+        "id": 147,
         "start": 394.26,
         "end": 395.16,
         "speaker": "Speaker",
@@ -5063,7 +5034,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 150,
+        "id": 148,
         "start": 395.2,
         "end": 398.89,
         "speaker": "Speaker",
@@ -5079,7 +5050,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 151,
+        "id": 149,
         "start": 402.32,
         "end": 404.1,
         "speaker": "Speaker",
@@ -5095,7 +5066,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 152,
+        "id": 150,
         "start": 404.14,
         "end": 411.09,
         "speaker": "Speaker",
@@ -5111,7 +5082,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 153,
+        "id": 151,
         "start": 411.13,
         "end": 419.0,
         "speaker": "Speaker",
@@ -5132,7 +5103,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 154,
+        "id": 152,
         "start": 419.04,
         "end": 420.49,
         "speaker": "Speaker",
@@ -5148,7 +5119,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 155,
+        "id": 153,
         "start": 420.53,
         "end": 422.15,
         "speaker": "Speaker",
@@ -5164,7 +5135,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 156,
+        "id": 154,
         "start": 422.19,
         "end": 423.78,
         "speaker": "Speaker",
@@ -5180,7 +5151,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 157,
+        "id": 155,
         "start": 423.82,
         "end": 428.36,
         "speaker": "Speaker",
@@ -5196,7 +5167,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 158,
+        "id": 156,
         "start": 429.48,
         "end": 432.87,
         "speaker": "Speaker",
@@ -5212,7 +5183,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 159,
+        "id": 157,
         "start": 432.91,
         "end": 435.98,
         "speaker": "Speaker",
@@ -5228,7 +5199,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 160,
+        "id": 158,
         "start": 436.02,
         "end": 440.36,
         "speaker": "Speaker",
@@ -5244,7 +5215,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 161,
+        "id": 159,
         "start": 440.4,
         "end": 442.08,
         "speaker": "Speaker",
@@ -5260,7 +5231,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 162,
+        "id": 160,
         "start": 442.12,
         "end": 443.05,
         "speaker": "Speaker",
@@ -5276,7 +5247,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 163,
+        "id": 161,
         "start": 443.09,
         "end": 446.64,
         "speaker": "Speaker",
@@ -5292,7 +5263,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 164,
+        "id": 162,
         "start": 446.68,
         "end": 449.52,
         "speaker": "Speaker",
@@ -5308,7 +5279,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 165,
+        "id": 163,
         "start": 449.56,
         "end": 454.96,
         "speaker": "Speaker",
@@ -5324,7 +5295,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 166,
+        "id": 164,
         "start": 455.0,
         "end": 458.76,
         "speaker": "Speaker",
@@ -5340,7 +5311,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 167,
+        "id": 165,
         "start": 458.8,
         "end": 461.99,
         "speaker": "Speaker",
@@ -5356,7 +5327,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 168,
+        "id": 166,
         "start": 462.03,
         "end": 465.68,
         "speaker": "Speaker",
@@ -5372,7 +5343,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 169,
+        "id": 167,
         "start": 465.72,
         "end": 470.34,
         "speaker": "Speaker",
@@ -5388,7 +5359,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 170,
+        "id": 168,
         "start": 470.38,
         "end": 471.58,
         "speaker": "Speaker",
@@ -5404,7 +5375,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 171,
+        "id": 169,
         "start": 471.62,
         "end": 474.4,
         "speaker": "Speaker",
@@ -5414,7 +5385,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 172,
+        "id": 170,
         "start": 474.44,
         "end": 475.97,
         "speaker": "Speaker",
@@ -5435,7 +5406,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 173,
+        "id": 171,
         "start": 476.01,
         "end": 477.02,
         "speaker": "Speaker",
@@ -5451,7 +5422,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 174,
+        "id": 172,
         "start": 477.06,
         "end": 477.99,
         "speaker": "Speaker",
@@ -5467,7 +5438,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 175,
+        "id": 173,
         "start": 478.03,
         "end": 480.33,
         "speaker": "Speaker",
@@ -5483,7 +5454,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 176,
+        "id": 174,
         "start": 480.37,
         "end": 484.57,
         "speaker": "Speaker",
@@ -5504,7 +5475,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 177,
+        "id": 175,
         "start": 484.61,
         "end": 485.08,
         "speaker": "Speaker",
@@ -5520,7 +5491,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 178,
+        "id": 176,
         "start": 485.12,
         "end": 486.44,
         "speaker": "Speaker",
@@ -5536,7 +5507,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 179,
+        "id": 177,
         "start": 486.48,
         "end": 488.93,
         "speaker": "Speaker",
@@ -5552,7 +5523,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 180,
+        "id": 178,
         "start": 488.97,
         "end": 490.52,
         "speaker": "Speaker",
@@ -5568,7 +5539,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 181,
+        "id": 179,
         "start": 490.56,
         "end": 491.55,
         "speaker": "Speaker",
@@ -5584,7 +5555,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 182,
+        "id": 180,
         "start": 491.59,
         "end": 492.4,
         "speaker": "Speaker",
@@ -5600,7 +5571,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 183,
+        "id": 181,
         "start": 492.44,
         "end": 498.88,
         "speaker": "Speaker",
@@ -5616,7 +5587,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 184,
+        "id": 182,
         "start": 498.92,
         "end": 502.38,
         "speaker": "Speaker",
@@ -5632,7 +5603,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 185,
+        "id": 183,
         "start": 514.36,
         "end": 515.88,
         "speaker": "Speaker",
@@ -5648,7 +5619,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 186,
+        "id": 184,
         "start": 515.92,
         "end": 517.5,
         "speaker": "Speaker",
@@ -5664,7 +5635,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 187,
+        "id": 185,
         "start": 517.54,
         "end": 519.69,
         "speaker": "Speaker",
@@ -5685,7 +5656,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 188,
+        "id": 186,
         "start": 519.73,
         "end": 521.77,
         "speaker": "Speaker",
@@ -5701,7 +5672,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 189,
+        "id": 187,
         "start": 521.81,
         "end": 524.77,
         "speaker": "Speaker",
@@ -5722,7 +5693,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 190,
+        "id": 188,
         "start": 524.81,
         "end": 526.98,
         "speaker": "Speaker",
@@ -5738,7 +5709,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 191,
+        "id": 189,
         "start": 527.02,
         "end": 528.77,
         "speaker": "Speaker",
@@ -5754,7 +5725,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 192,
+        "id": 190,
         "start": 528.81,
         "end": 536.96,
         "speaker": "Speaker",
@@ -5780,7 +5751,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 193,
+        "id": 191,
         "start": 537.0,
         "end": 538.99,
         "speaker": "Speaker",
@@ -5796,7 +5767,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 194,
+        "id": 192,
         "start": 539.03,
         "end": 540.27,
         "speaker": "Speaker",
@@ -5812,7 +5783,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 195,
+        "id": 193,
         "start": 540.31,
         "end": 541.93,
         "speaker": "Speaker",
@@ -5828,7 +5799,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 196,
+        "id": 194,
         "start": 541.97,
         "end": 547.21,
         "speaker": "Speaker",
@@ -5849,7 +5820,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 197,
+        "id": 195,
         "start": 547.25,
         "end": 548.6,
         "speaker": "Speaker",
@@ -5865,7 +5836,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 198,
+        "id": 196,
         "start": 548.64,
         "end": 549.97,
         "speaker": "Speaker",
@@ -5881,7 +5852,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 199,
+        "id": 197,
         "start": 550.01,
         "end": 551.49,
         "speaker": "Speaker",
@@ -5897,7 +5868,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 200,
+        "id": 198,
         "start": 551.53,
         "end": 553.99,
         "speaker": "Speaker",
@@ -5913,7 +5884,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 201,
+        "id": 199,
         "start": 554.03,
         "end": 560.68,
         "speaker": "Speaker",
@@ -5929,7 +5900,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 202,
+        "id": 200,
         "start": 569.16,
         "end": 570.2,
         "speaker": "Speaker",
@@ -5945,7 +5916,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 203,
+        "id": 201,
         "start": 570.24,
         "end": 571.56,
         "speaker": "Speaker",
@@ -5961,7 +5932,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 204,
+        "id": 202,
         "start": 571.6,
         "end": 574.73,
         "speaker": "Speaker",
@@ -5982,7 +5953,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 205,
+        "id": 203,
         "start": 574.77,
         "end": 579.81,
         "speaker": "Speaker",
@@ -6003,7 +5974,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 206,
+        "id": 204,
         "start": 579.85,
         "end": 581.75,
         "speaker": "Speaker",
@@ -6019,7 +5990,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 207,
+        "id": 205,
         "start": 581.79,
         "end": 582.86,
         "speaker": "Speaker",
@@ -6035,7 +6006,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 208,
+        "id": 206,
         "start": 582.9,
         "end": 584.28,
         "speaker": "Speaker",
@@ -6051,7 +6022,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 209,
+        "id": 207,
         "start": 584.32,
         "end": 587.68,
         "speaker": "Speaker",
@@ -6067,7 +6038,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 210,
+        "id": 208,
         "start": 587.72,
         "end": 589.68,
         "speaker": "Speaker",
@@ -6083,7 +6054,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 211,
+        "id": 209,
         "start": 589.72,
         "end": 595.18,
         "speaker": "Speaker",
@@ -6099,7 +6070,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 212,
+        "id": 210,
         "start": 595.22,
         "end": 599.52,
         "speaker": "Speaker",
@@ -6115,7 +6086,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 213,
+        "id": 211,
         "start": 599.56,
         "end": 601.4,
         "speaker": "Speaker",
@@ -6131,7 +6102,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 214,
+        "id": 212,
         "start": 601.44,
         "end": 602.61,
         "speaker": "Speaker",
@@ -6147,7 +6118,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 215,
+        "id": 213,
         "start": 602.65,
         "end": 603.74,
         "speaker": "Speaker",
@@ -6163,7 +6134,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 216,
+        "id": 214,
         "start": 603.78,
         "end": 605.23,
         "speaker": "Speaker",
@@ -6179,7 +6150,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 217,
+        "id": 215,
         "start": 605.27,
         "end": 607.06,
         "speaker": "Speaker",
@@ -6195,7 +6166,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 218,
+        "id": 216,
         "start": 607.1,
         "end": 609.79,
         "speaker": "Speaker",
@@ -6211,7 +6182,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 219,
+        "id": 217,
         "start": 609.83,
         "end": 612.93,
         "speaker": "Speaker",
@@ -6227,7 +6198,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 220,
+        "id": 218,
         "start": 612.97,
         "end": 616.55,
         "speaker": "Speaker",
@@ -6243,7 +6214,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 221,
+        "id": 219,
         "start": 616.59,
         "end": 618.6,
         "speaker": "Speaker",
@@ -6259,7 +6230,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 222,
+        "id": 220,
         "start": 618.64,
         "end": 620.07,
         "speaker": "Speaker",
@@ -6275,7 +6246,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 223,
+        "id": 221,
         "start": 620.11,
         "end": 621.25,
         "speaker": "Speaker",
@@ -6291,7 +6262,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 224,
+        "id": 222,
         "start": 621.29,
         "end": 622.92,
         "speaker": "Speaker",
@@ -6307,7 +6278,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 225,
+        "id": 223,
         "start": 622.96,
         "end": 625.06,
         "speaker": "Speaker",
@@ -6323,7 +6294,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 226,
+        "id": 224,
         "start": 625.1,
         "end": 628.77,
         "speaker": "Speaker",
@@ -6339,7 +6310,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 227,
+        "id": 225,
         "start": 628.81,
         "end": 631.17,
         "speaker": "Speaker",
@@ -6355,7 +6326,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 228,
+        "id": 226,
         "start": 631.21,
         "end": 633.14,
         "speaker": "Speaker",
@@ -6371,7 +6342,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 229,
+        "id": 227,
         "start": 633.18,
         "end": 636.79,
         "speaker": "Speaker",
@@ -6387,7 +6358,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 230,
+        "id": 228,
         "start": 636.83,
         "end": 641.36,
         "speaker": "Speaker",
@@ -6403,7 +6374,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 231,
+        "id": 229,
         "start": 641.4,
         "end": 646.34,
         "speaker": "Speaker",
@@ -6419,7 +6390,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 232,
+        "id": 230,
         "start": 646.38,
         "end": 647.57,
         "speaker": "Speaker",
@@ -6435,7 +6406,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 233,
+        "id": 231,
         "start": 647.61,
         "end": 649.1,
         "speaker": "Speaker",
@@ -6451,7 +6422,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 234,
+        "id": 232,
         "start": 649.14,
         "end": 651.44,
         "speaker": "Speaker",
@@ -6467,7 +6438,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 235,
+        "id": 233,
         "start": 651.48,
         "end": 656.03,
         "speaker": "Speaker",
@@ -6483,7 +6454,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 236,
+        "id": 234,
         "start": 656.07,
         "end": 660.41,
         "speaker": "Speaker",
@@ -6499,7 +6470,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 237,
+        "id": 235,
         "start": 660.45,
         "end": 661.95,
         "speaker": "Speaker",
@@ -6515,7 +6486,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 238,
+        "id": 236,
         "start": 661.99,
         "end": 663.07,
         "speaker": "Speaker",
@@ -6531,7 +6502,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 239,
+        "id": 237,
         "start": 663.11,
         "end": 667.13,
         "speaker": "Speaker",
@@ -6547,9 +6518,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 240,
+        "id": 238,
         "start": 667.17,
-        "end": 673.34,
+        "end": 672.62,
         "speaker": "Speaker",
         "en": "She's usually not.",
         "ipa": "/ʃiz juʒuəli nɑt/",
@@ -6563,7 +6534,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 241,
+        "id": 239,
         "start": 678.76,
         "end": 680.6,
         "speaker": "Speaker",
@@ -6579,7 +6550,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 242,
+        "id": 240,
         "start": 680.64,
         "end": 683.6,
         "speaker": "Speaker",
@@ -6595,7 +6566,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 243,
+        "id": 241,
         "start": 683.64,
         "end": 685.29,
         "speaker": "Speaker",
@@ -6611,7 +6582,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 244,
+        "id": 242,
         "start": 685.33,
         "end": 686.8,
         "speaker": "Speaker",
@@ -6627,7 +6598,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 245,
+        "id": 243,
         "start": 686.84,
         "end": 688.53,
         "speaker": "Speaker",
@@ -6643,7 +6614,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 246,
+        "id": 244,
         "start": 688.57,
         "end": 691.12,
         "speaker": "Speaker",
@@ -6659,7 +6630,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 247,
+        "id": 245,
         "start": 691.16,
         "end": 692.96,
         "speaker": "Speaker",
@@ -6675,7 +6646,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 248,
+        "id": 246,
         "start": 693.0,
         "end": 693.93,
         "speaker": "Speaker",
@@ -6691,7 +6662,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 249,
+        "id": 247,
         "start": 693.97,
         "end": 694.96,
         "speaker": "Speaker",
@@ -6707,7 +6678,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 250,
+        "id": 248,
         "start": 695.0,
         "end": 696.07,
         "speaker": "Speaker",
@@ -6723,7 +6694,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 251,
+        "id": 249,
         "start": 696.11,
         "end": 703.04,
         "speaker": "Speaker",
@@ -6744,7 +6715,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 252,
+        "id": 250,
         "start": 703.08,
         "end": 713.95,
         "speaker": "Speaker",
@@ -6765,9 +6736,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 253,
+        "id": 251,
         "start": 724.56,
-        "end": 736.51,
+        "end": 735.31,
         "speaker": "Speaker",
         "en": "Can I get the iced protein latte with sugar-free vanilla?",
         "ipa": "/kæn aɪ gɛt ði aɪst ˈproʊtiːn ˈlɑti wɪð ˈʃʊgər-fri vəˈnɪlə/",
@@ -6786,7 +6757,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 254,
+        "id": 252,
         "start": 738.8,
         "end": 739.98,
         "speaker": "Speaker",
@@ -6802,7 +6773,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 255,
+        "id": 253,
         "start": 740.02,
         "end": 742.52,
         "speaker": "Speaker",
@@ -6818,7 +6789,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 256,
+        "id": 254,
         "start": 742.56,
         "end": 744.19,
         "speaker": "Speaker",
@@ -6834,7 +6805,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 257,
+        "id": 255,
         "start": 744.23,
         "end": 747.17,
         "speaker": "Speaker",
@@ -6850,7 +6821,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 258,
+        "id": 256,
         "start": 747.21,
         "end": 750.03,
         "speaker": "Speaker",
@@ -6871,7 +6842,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 259,
+        "id": 257,
         "start": 750.07,
         "end": 751.16,
         "speaker": "Speaker",
@@ -6887,7 +6858,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 260,
+        "id": 258,
         "start": 751.2,
         "end": 751.97,
         "speaker": "Speaker",
@@ -6903,7 +6874,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 261,
+        "id": 259,
         "start": 752.01,
         "end": 754.94,
         "speaker": "Speaker",
@@ -6919,7 +6890,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 262,
+        "id": 260,
         "start": 754.98,
         "end": 759.51,
         "speaker": "Speaker",
@@ -6935,7 +6906,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 263,
+        "id": 261,
         "start": 759.55,
         "end": 766.35,
         "speaker": "Speaker",
@@ -6951,7 +6922,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 264,
+        "id": 262,
         "start": 783.28,
         "end": 787.05,
         "speaker": "Speaker",
@@ -6967,7 +6938,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 265,
+        "id": 263,
         "start": 787.09,
         "end": 789.44,
         "speaker": "Speaker",
@@ -6983,7 +6954,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 266,
+        "id": 264,
         "start": 789.48,
         "end": 791.08,
         "speaker": "Speaker",
@@ -6999,7 +6970,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 267,
+        "id": 265,
         "start": 791.12,
         "end": 795.31,
         "speaker": "Speaker",
@@ -7015,7 +6986,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 268,
+        "id": 266,
         "start": 795.35,
         "end": 800.2,
         "speaker": "Speaker",
@@ -7031,7 +7002,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 269,
+        "id": 267,
         "start": 800.24,
         "end": 802.06,
         "speaker": "Speaker",
@@ -7047,7 +7018,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 270,
+        "id": 268,
         "start": 802.1,
         "end": 804.72,
         "speaker": "Speaker",
@@ -7063,7 +7034,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 271,
+        "id": 269,
         "start": 804.76,
         "end": 806.4,
         "speaker": "Speaker",
@@ -7079,7 +7050,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 272,
+        "id": 270,
         "start": 806.44,
         "end": 807.74,
         "speaker": "Speaker",
@@ -7095,7 +7066,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 273,
+        "id": 271,
         "start": 807.78,
         "end": 809.73,
         "speaker": "Speaker",
@@ -7111,7 +7082,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 274,
+        "id": 272,
         "start": 809.77,
         "end": 812.32,
         "speaker": "Speaker",
@@ -7127,7 +7098,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 275,
+        "id": 273,
         "start": 812.36,
         "end": 813.78,
         "speaker": "Speaker",
@@ -7143,7 +7114,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 276,
+        "id": 274,
         "start": 813.82,
         "end": 815.36,
         "speaker": "Speaker",
@@ -7159,7 +7130,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 277,
+        "id": 275,
         "start": 815.4,
         "end": 816.52,
         "speaker": "Speaker",
@@ -7175,7 +7146,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 278,
+        "id": 276,
         "start": 816.56,
         "end": 818.21,
         "speaker": "Speaker",
@@ -7191,7 +7162,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 279,
+        "id": 277,
         "start": 818.25,
         "end": 818.63,
         "speaker": "Speaker",
@@ -7207,7 +7178,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 280,
+        "id": 278,
         "start": 818.67,
         "end": 820.59,
         "speaker": "Speaker",
@@ -7223,7 +7194,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 281,
+        "id": 279,
         "start": 820.63,
         "end": 822.05,
         "speaker": "Speaker",
@@ -7239,7 +7210,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 282,
+        "id": 280,
         "start": 822.09,
         "end": 823.08,
         "speaker": "Speaker",
@@ -7255,7 +7226,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 283,
+        "id": 281,
         "start": 823.12,
         "end": 823.69,
         "speaker": "Speaker",
@@ -7271,7 +7242,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 284,
+        "id": 282,
         "start": 823.73,
         "end": 824.57,
         "speaker": "Speaker",
@@ -7287,7 +7258,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 285,
+        "id": 283,
         "start": 824.61,
         "end": 825.64,
         "speaker": "Speaker",
@@ -7303,7 +7274,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 286,
+        "id": 284,
         "start": 825.68,
         "end": 826.8,
         "speaker": "Speaker",
@@ -7319,7 +7290,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 287,
+        "id": 285,
         "start": 826.84,
         "end": 828.93,
         "speaker": "Speaker",
@@ -7335,7 +7306,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 288,
+        "id": 286,
         "start": 828.97,
         "end": 830.36,
         "speaker": "Speaker",
@@ -7351,7 +7322,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 289,
+        "id": 287,
         "start": 830.4,
         "end": 832.69,
         "speaker": "Speaker",
@@ -7367,7 +7338,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 290,
+        "id": 288,
         "start": 832.73,
         "end": 840.36,
         "speaker": "Speaker",
@@ -7388,7 +7359,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 291,
+        "id": 289,
         "start": 840.4,
         "end": 845.27,
         "speaker": "Speaker",
@@ -7404,7 +7375,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 292,
+        "id": 290,
         "start": 845.31,
         "end": 847.08,
         "speaker": "Speaker",
@@ -7420,7 +7391,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 293,
+        "id": 291,
         "start": 847.12,
         "end": 848.4,
         "speaker": "Speaker",
@@ -7436,7 +7407,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 294,
+        "id": 292,
         "start": 848.44,
         "end": 849.81,
         "speaker": "Speaker",
@@ -7452,7 +7423,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 295,
+        "id": 293,
         "start": 849.85,
         "end": 851.56,
         "speaker": "Speaker",
@@ -7468,7 +7439,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 296,
+        "id": 294,
         "start": 851.6,
         "end": 852.19,
         "speaker": "Speaker",
@@ -7484,7 +7455,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 297,
+        "id": 295,
         "start": 852.23,
         "end": 853.44,
         "speaker": "Speaker",
@@ -7500,7 +7471,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 298,
+        "id": 296,
         "start": 853.48,
         "end": 855.4,
         "speaker": "Speaker",
@@ -7516,7 +7487,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 299,
+        "id": 297,
         "start": 855.44,
         "end": 856.68,
         "speaker": "Speaker",
@@ -7532,7 +7503,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 300,
+        "id": 298,
         "start": 856.72,
         "end": 858.07,
         "speaker": "Speaker",
@@ -7548,7 +7519,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 301,
+        "id": 299,
         "start": 858.11,
         "end": 859.96,
         "speaker": "Speaker",
@@ -7564,7 +7535,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 302,
+        "id": 300,
         "start": 860.0,
         "end": 865.74,
         "speaker": "Speaker",
@@ -7580,7 +7551,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 303,
+        "id": 301,
         "start": 865.78,
         "end": 866.82,
         "speaker": "Speaker",
@@ -7596,7 +7567,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 304,
+        "id": 302,
         "start": 866.86,
         "end": 868.44,
         "speaker": "Speaker",
@@ -7612,7 +7583,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 305,
+        "id": 303,
         "start": 868.48,
         "end": 869.18,
         "speaker": "Speaker",
@@ -7628,7 +7599,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 306,
+        "id": 304,
         "start": 869.22,
         "end": 870.17,
         "speaker": "Speaker",
@@ -7644,7 +7615,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 307,
+        "id": 305,
         "start": 870.21,
         "end": 877.7,
         "speaker": "Speaker",
@@ -7660,7 +7631,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 308,
+        "id": 306,
         "start": 885.12,
         "end": 886.09,
         "speaker": "Speaker",
@@ -7676,7 +7647,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 309,
+        "id": 307,
         "start": 886.13,
         "end": 888.42,
         "speaker": "Speaker",
@@ -7692,7 +7663,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 310,
+        "id": 308,
         "start": 888.46,
         "end": 889.64,
         "speaker": "Speaker",
@@ -7708,7 +7679,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 311,
+        "id": 309,
         "start": 889.68,
         "end": 891.74,
         "speaker": "Speaker",
@@ -7724,7 +7695,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 312,
+        "id": 310,
         "start": 891.78,
         "end": 894.64,
         "speaker": "Speaker",
@@ -7740,7 +7711,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 313,
+        "id": 311,
         "start": 894.68,
         "end": 895.89,
         "speaker": "Speaker",
@@ -7756,7 +7727,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 314,
+        "id": 312,
         "start": 895.93,
         "end": 897.01,
         "speaker": "Speaker",
@@ -7772,7 +7743,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 315,
+        "id": 313,
         "start": 897.05,
         "end": 898.76,
         "speaker": "Speaker",
@@ -7788,7 +7759,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 316,
+        "id": 314,
         "start": 898.8,
         "end": 903.04,
         "speaker": "Speaker",
@@ -7804,7 +7775,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 317,
+        "id": 315,
         "start": 903.08,
         "end": 906.72,
         "speaker": "Speaker",
@@ -7820,7 +7791,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 318,
+        "id": 316,
         "start": 906.76,
         "end": 911.27,
         "speaker": "Speaker",
@@ -7836,7 +7807,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 319,
+        "id": 317,
         "start": 911.31,
         "end": 913.08,
         "speaker": "Speaker",
@@ -7852,7 +7823,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 320,
+        "id": 318,
         "start": 913.12,
         "end": 914.91,
         "speaker": "Speaker",
@@ -7868,7 +7839,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 321,
+        "id": 319,
         "start": 914.95,
         "end": 917.02,
         "speaker": "Speaker",
@@ -7884,7 +7855,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 322,
+        "id": 320,
         "start": 917.06,
         "end": 920.2,
         "speaker": "Speaker",
@@ -7900,7 +7871,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 323,
+        "id": 321,
         "start": 920.24,
         "end": 921.58,
         "speaker": "Speaker",
@@ -7916,7 +7887,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 324,
+        "id": 322,
         "start": 921.62,
         "end": 926.11,
         "speaker": "Speaker",
@@ -7932,7 +7903,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 325,
+        "id": 323,
         "start": 926.15,
         "end": 928.5,
         "speaker": "Speaker",
@@ -7948,7 +7919,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 326,
+        "id": 324,
         "start": 928.54,
         "end": 928.8,
         "speaker": "Speaker",
@@ -7964,7 +7935,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 327,
+        "id": 325,
         "start": 928.84,
         "end": 932.2,
         "speaker": "Speaker",
@@ -7980,7 +7951,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 328,
+        "id": 326,
         "start": 932.24,
         "end": 939.85,
         "speaker": "Speaker",
@@ -8001,7 +7972,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 329,
+        "id": 327,
         "start": 939.89,
         "end": 940.56,
         "speaker": "Speaker",
@@ -8017,7 +7988,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 330,
+        "id": 328,
         "start": 940.6,
         "end": 942.3,
         "speaker": "Speaker",
@@ -8033,7 +8004,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 331,
+        "id": 329,
         "start": 942.34,
         "end": 944.27,
         "speaker": "Speaker",
@@ -8049,7 +8020,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 332,
+        "id": 330,
         "start": 944.31,
         "end": 945.44,
         "speaker": "Speaker",
@@ -8065,7 +8036,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 333,
+        "id": 331,
         "start": 945.48,
         "end": 946.92,
         "speaker": "Speaker",
@@ -8081,7 +8052,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 334,
+        "id": 332,
         "start": 946.96,
         "end": 948.92,
         "speaker": "Speaker",
@@ -8097,7 +8068,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 335,
+        "id": 333,
         "start": 948.96,
         "end": 950.67,
         "speaker": "Speaker",
@@ -8113,7 +8084,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 336,
+        "id": 334,
         "start": 950.71,
         "end": 952.94,
         "speaker": "Speaker",
@@ -8129,7 +8100,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 337,
+        "id": 335,
         "start": 952.98,
         "end": 953.68,
         "speaker": "Speaker",
@@ -8169,28 +8140,32 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "生活英语",
     "skipRanges": [
       [
-        11.95,
+        5.45,
         12.97
       ],
       [
-        54.54,
-        55.0
+        18.42,
+        19.8
       ],
       [
-        106.84,
+        107.39,
         115.68
       ],
       [
-        190.34,
+        189.94,
         193.56
       ],
       [
-        286.19,
+        281.79,
         290.72
       ],
       [
-        347.43,
+        346.23,
         353.08
+      ],
+      [
+        406.71,
+        409.2
       ],
       [
         611.92,
@@ -8201,7 +8176,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 1,
         "start": 0.0,
-        "end": 11.95,
+        "end": 5.45,
         "speaker": "Speaker",
         "en": "Good morning, guys.",
         "ipa": "/ɡʊd ˈmɔːrnɪŋ ɡaɪz/",
@@ -8217,7 +8192,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 2,
         "start": 12.97,
-        "end": 19.76,
+        "end": 18.42,
         "speaker": "Speaker",
         "en": "It's said.",
         "ipa": "/ɪts sɛd/",
@@ -8313,7 +8288,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 8,
         "start": 32.84,
-        "end": 54.54,
+        "end": 55.0,
         "speaker": "Speaker",
         "en": "I actually have literally nothing planned, but I thought that that would be more fun and more spontaneous to just frolic around New York together.",
         "ipa": "/aɪ ˈækʧuəli hæv ˈlɪtərəli ˈnʌθɪŋ plænd bʌt aɪ θɔt ðæt ðæt wʊd bi mɔr fʌn ænd mɔr spɑnˈteɪniəs tu ʤʌst ˈfrɑlɪk əˈraʊnd nu jɔrk təˈɡɛðər/",
@@ -8638,7 +8613,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 28,
         "start": 92.64,
-        "end": 106.84,
+        "end": 107.39,
         "speaker": "Speaker",
         "en": "Now that I'm here, I feel like I need to go solely for nostalgic purposes.",
         "ipa": "/naʊ ðæt aɪm hir aɪ fil laɪk aɪ nid tu ɡoʊ ˈsoʊli fɔr nəˈstælʤɪk ˈpɜrpəsɪz/",
@@ -9005,7 +8980,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 50,
         "start": 178.39,
-        "end": 190.34,
+        "end": 189.94,
         "speaker": "Speaker",
         "en": "Something about me, I'm always going to pick the electric bike.",
         "ipa": "/ˈsʌmθɪŋ əˈbaʊt mi aɪm ˈɔlweɪz ˈɡoʊɪŋ tu pɪk ðə ɪˈlɛktrɪk baɪk/",
@@ -9366,7 +9341,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 71,
         "start": 274.24,
-        "end": 286.19,
+        "end": 281.79,
         "speaker": "Speaker",
         "en": "I just like hit the tarp.",
         "ipa": "/aɪ ʤʌst laɪk hɪt ðə tɑrp./",
@@ -9658,7 +9633,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 88,
         "start": 335.48,
-        "end": 347.43,
+        "end": 346.23,
         "speaker": "Speaker",
         "en": "Okay, all that golf worked up an appetite I guess.",
         "ipa": "/oʊˈkeɪ, ɔl ðæt gɑlf wɜrkt ʌp ən ˈæpəˌtaɪt aɪ gɛs./",
@@ -9954,7 +9929,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 105,
         "start": 401.26,
-        "end": 409.16,
+        "end": 406.71,
         "speaker": "Speaker",
         "en": "I'm enjoying it.",
         "ipa": "/aɪm ɛnˈdʒɔɪɪŋ ɪt./",
@@ -10985,22 +10960,6 @@ export const LOCAL_EPISODES = [
       {
         "id": 172,
         "start": 568.64,
-        "end": 569.68,
-        "speaker": "Speaker",
-        "en": "Shout out Justin.",
-        "ipa": "/ʃaʊt aʊt ˈdʒʌstɪn/",
-        "zh": "感谢贾斯汀。",
-        "highlights": [
-          {
-            "text": "Shout out",
-            "key": "shout out",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 173,
-        "start": 569.72,
         "end": 570.64,
         "speaker": "Speaker",
         "en": "Shout out Justin.",
@@ -11015,7 +10974,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 174,
+        "id": 173,
         "start": 570.68,
         "end": 571.32,
         "speaker": "Speaker",
@@ -11031,7 +10990,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 175,
+        "id": 174,
         "start": 571.36,
         "end": 572.28,
         "speaker": "Speaker",
@@ -11047,7 +11006,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 176,
+        "id": 175,
         "start": 572.32,
         "end": 572.92,
         "speaker": "Speaker",
@@ -11063,7 +11022,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 177,
+        "id": 176,
         "start": 572.96,
         "end": 577.24,
         "speaker": "Speaker",
@@ -11079,7 +11038,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 178,
+        "id": 177,
         "start": 577.28,
         "end": 579.54,
         "speaker": "Speaker",
@@ -11095,7 +11054,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 179,
+        "id": 178,
         "start": 579.58,
         "end": 581.13,
         "speaker": "Speaker",
@@ -11111,7 +11070,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 180,
+        "id": 179,
         "start": 581.17,
         "end": 582.0,
         "speaker": "Speaker",
@@ -11127,7 +11086,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 181,
+        "id": 180,
         "start": 582.04,
         "end": 582.52,
         "speaker": "Speaker",
@@ -11143,7 +11102,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 182,
+        "id": 181,
         "start": 582.56,
         "end": 583.43,
         "speaker": "Speaker",
@@ -11159,7 +11118,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 183,
+        "id": 182,
         "start": 583.47,
         "end": 588.59,
         "speaker": "Speaker",
@@ -11180,7 +11139,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 184,
+        "id": 183,
         "start": 588.63,
         "end": 592.0,
         "speaker": "Speaker",
@@ -11196,7 +11155,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 185,
+        "id": 184,
         "start": 592.04,
         "end": 594.34,
         "speaker": "Speaker",
@@ -11212,7 +11171,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 186,
+        "id": 185,
         "start": 594.38,
         "end": 597.45,
         "speaker": "Speaker",
@@ -11228,7 +11187,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 187,
+        "id": 186,
         "start": 597.49,
         "end": 599.29,
         "speaker": "Speaker",
@@ -11244,7 +11203,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 188,
+        "id": 187,
         "start": 599.33,
         "end": 602.32,
         "speaker": "Speaker",
@@ -11265,7 +11224,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 189,
+        "id": 188,
         "start": 602.36,
         "end": 603.95,
         "speaker": "Speaker",
@@ -11281,7 +11240,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 190,
+        "id": 189,
         "start": 603.99,
         "end": 608.48,
         "speaker": "Speaker",
@@ -11297,7 +11256,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 191,
+        "id": 190,
         "start": 608.52,
         "end": 611.12,
         "speaker": "Speaker",
@@ -11313,7 +11272,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 192,
+        "id": 191,
         "start": 611.16,
         "end": 611.92,
         "speaker": "Speaker",
@@ -11353,19 +11312,31 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "生活英语",
     "skipRanges": [
       [
-        160.45,
+        5.49,
+        7.99
+      ],
+      [
+        13.94,
+        17.24
+      ],
+      [
+        79.57,
+        81.04
+      ],
+      [
+        160.31,
         174.08
       ],
       [
-        186.52,
+        185.57,
         193.12
       ],
       [
-        305.65,
+        306.25,
         325.4
       ],
       [
-        409.23,
+        408.95,
         422.56
       ],
       [
@@ -11377,7 +11348,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 1,
         "start": 0.04,
-        "end": 7.95,
+        "end": 5.49,
         "speaker": "Speaker",
         "en": "Good morning, guys!",
         "ipa": "/ɡʊd ˈmɔːrnɪŋ ɡaɪz ɪts sɪd ænd ˈwɛlkəm/",
@@ -11393,7 +11364,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 2,
         "start": 7.99,
-        "end": 17.2,
+        "end": 13.94,
         "speaker": "Speaker",
         "en": "It's Sid, and welcome.",
         "ipa": "",
@@ -11652,7 +11623,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 19,
         "start": 74.12,
-        "end": 81.0,
+        "end": 79.57,
         "speaker": "Speaker",
         "en": "Coffee, let's.",
         "ipa": "/ˈkɑːfi lɛts/",
@@ -12136,7 +12107,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 52,
         "start": 153.56,
-        "end": 160.45,
+        "end": 160.31,
         "speaker": "Speaker",
         "en": "Oh, I love New York.",
         "ipa": "/oʊ aɪ lʌv nu jɔːrk/",
@@ -12193,7 +12164,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 56,
         "start": 180.12,
-        "end": 186.52,
+        "end": 185.57,
         "speaker": "Speaker",
         "en": "Over here.",
         "ipa": "/ˈoʊvər hɪr/",
@@ -12588,7 +12559,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 77,
         "start": 290.7,
-        "end": 305.65,
+        "end": 306.25,
         "speaker": "Speaker",
         "en": "There's a specific feeling that you get in a bookstore that you don't get anywhere else.",
         "ipa": "/ɪn ə ˈbʊkˌstɔr ðæt ju doʊnt ɡɛt ˈɛniˌwɛr ɛls./",
@@ -12968,7 +12939,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 100,
         "start": 401.4,
-        "end": 409.23,
+        "end": 408.95,
         "speaker": "Speaker",
         "en": "You and us, you and me.",
         "ipa": "/ju ænd ʌs, ju ænd mi./",
@@ -13432,7 +13403,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 132,
         "start": 510.16,
-        "end": 518.84,
+        "end": 518.51,
         "speaker": "Speaker",
         "en": "It's going to erupt on my face.",
         "ipa": "/ɪts ˈɡoʊɪŋ tu ɪˈrʌpt ɑːn maɪ feɪs./",
@@ -14314,7 +14285,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 183,
         "start": 737.59,
-        "end": 743.43,
+        "end": 743.04,
         "speaker": "Speaker",
         "en": "Bye, guys!",
         "ipa": "",
@@ -14346,8 +14317,12 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        11.12,
+        7.82,
         12.76
+      ],
+      [
+        98.15,
+        99.68
       ],
       [
         145.4,
@@ -14358,7 +14333,7 @@ export const LOCAL_EPISODES = [
         211.88
       ],
       [
-        299.33,
+        297.11,
         300.48
       ],
       [
@@ -14370,11 +14345,11 @@ export const LOCAL_EPISODES = [
         409.48
       ],
       [
-        596.27,
+        596.67,
         597.76
       ],
       [
-        606.53,
+        606.47,
         613.68
       ],
       [
@@ -14394,7 +14369,7 @@ export const LOCAL_EPISODES = [
         870.92
       ],
       [
-        914.38,
+        913.21,
         917.12
       ],
       [
@@ -14422,7 +14397,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 2,
         "start": 1.07,
-        "end": 11.12,
+        "end": 7.82,
         "speaker": "Speaker",
         "en": "It's Sid, and welcome back.",
         "ipa": "/ɪts sɪd ənd ˈwɛlkəm bæk/",
@@ -14822,7 +14797,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 27,
         "start": 92.2,
-        "end": 99.64,
+        "end": 98.15,
         "speaker": "Speaker",
         "en": "Maybe Oh, it's here.",
         "ipa": "/ˈmeɪbi oʊ ɪts hɪə/",
@@ -15604,7 +15579,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 74,
         "start": 290.36,
-        "end": 299.33,
+        "end": 297.11,
         "speaker": "Speaker",
         "en": "I brought my Chomps stick.",
         "ipa": "/aɪ brɔt maɪ tʃɑmps stɪk/",
@@ -16989,7 +16964,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 159,
         "start": 584.32,
-        "end": 596.27,
+        "end": 596.67,
         "speaker": "Speaker",
         "en": "We're going to watch something on Netflix, probably like a crime documentary.",
         "ipa": "/wɪər ˈgoʊɪŋ tu wɑtʃ ˈsʌmθɪŋ ɑn ˈnɛtflɪks, ˈprɑbəbli laɪk ə kraɪm ˌdɑkjəˈmɛntəri/",
@@ -17026,7 +17001,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 161,
         "start": 598.92,
-        "end": 606.53,
+        "end": 606.47,
         "speaker": "Speaker",
         "en": "I'm making my same smoothie again.",
         "ipa": "/aɪm ˈmeɪkɪŋ maɪ seɪm ˈsmuði əˈgɛn/",
@@ -18807,7 +18782,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 269,
         "start": 905.66,
-        "end": 914.38,
+        "end": 913.21,
         "speaker": "Speaker",
         "en": "So, I will keep you updated.",
         "ipa": "/soʊ, aɪ wɪl kip ju ˈʌpˌdeɪtɪd/",
@@ -19039,7 +19014,7 @@ export const LOCAL_EPISODES = [
     "id": "local-34-Let-s-Learn-English-at-a-Hotel-A",
     "number": "EP 34",
     "title": "Let's Learn English at a Hotel! ｜ An English Travel Lesson with Subtitles",
-    "speaker": "TED",
+    "speaker": "YouTube 博主",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 4,
@@ -19048,7 +19023,6 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "旅行",
-      "个人成长",
       "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
@@ -20120,7 +20094,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 68,
         "start": 162.31,
-        "end": 162.7,
+        "end": 162.89,
         "speaker": "Speaker",
         "en": "Yeah.",
         "ipa": "/jæ/",
@@ -20135,22 +20109,6 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 69,
-        "start": 162.74,
-        "end": 162.89,
-        "speaker": "Speaker",
-        "en": "Yeah.",
-        "ipa": "/jæ/",
-        "zh": "是的。",
-        "highlights": [
-          {
-            "text": "Yeah",
-            "key": "yeah",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 70,
         "start": 162.9,
         "end": 163.49,
         "speaker": "Speaker",
@@ -20166,7 +20124,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 71,
+        "id": 70,
         "start": 163.53,
         "end": 164.25,
         "speaker": "Speaker",
@@ -20182,7 +20140,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 72,
+        "id": 71,
         "start": 164.29,
         "end": 164.69,
         "speaker": "Speaker",
@@ -20198,7 +20156,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 73,
+        "id": 72,
         "start": 165.6,
         "end": 166.6,
         "speaker": "Speaker",
@@ -20214,7 +20172,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 74,
+        "id": 73,
         "start": 166.74,
         "end": 168.72,
         "speaker": "Speaker",
@@ -20230,7 +20188,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 75,
+        "id": 74,
         "start": 168.76,
         "end": 172.72,
         "speaker": "Speaker",
@@ -20246,7 +20204,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 76,
+        "id": 75,
         "start": 172.76,
         "end": 176.98,
         "speaker": "Speaker",
@@ -20262,7 +20220,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 77,
+        "id": 76,
         "start": 177.02,
         "end": 183.96,
         "speaker": "Speaker",
@@ -20278,7 +20236,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 78,
+        "id": 77,
         "start": 184.0,
         "end": 189.2,
         "speaker": "Speaker",
@@ -20294,7 +20252,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 79,
+        "id": 78,
         "start": 189.24,
         "end": 193.0,
         "speaker": "Speaker",
@@ -20310,7 +20268,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 80,
+        "id": 79,
         "start": 193.04,
         "end": 204.11,
         "speaker": "Speaker",
@@ -20331,7 +20289,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 81,
+        "id": 80,
         "start": 204.15,
         "end": 209.11,
         "speaker": "Speaker",
@@ -20347,7 +20305,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 82,
+        "id": 81,
         "start": 209.15,
         "end": 211.5,
         "speaker": "Speaker",
@@ -20363,7 +20321,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 83,
+        "id": 82,
         "start": 211.54,
         "end": 215.68,
         "speaker": "Speaker",
@@ -20379,7 +20337,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 84,
+        "id": 83,
         "start": 215.72,
         "end": 222.75,
         "speaker": "Speaker",
@@ -20395,7 +20353,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 85,
+        "id": 84,
         "start": 222.79,
         "end": 224.34,
         "speaker": "Speaker",
@@ -20411,7 +20369,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 86,
+        "id": 85,
         "start": 224.38,
         "end": 230.09,
         "speaker": "Speaker",
@@ -20427,7 +20385,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 87,
+        "id": 86,
         "start": 230.13,
         "end": 235.02,
         "speaker": "Speaker",
@@ -20443,7 +20401,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 88,
+        "id": 87,
         "start": 235.06,
         "end": 237.22,
         "speaker": "Speaker",
@@ -20459,7 +20417,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 89,
+        "id": 88,
         "start": 237.26,
         "end": 241.02,
         "speaker": "Speaker",
@@ -20475,7 +20433,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 89,
         "start": 241.06,
         "end": 243.39,
         "speaker": "Speaker",
@@ -20491,7 +20449,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 91,
+        "id": 90,
         "start": 243.43,
         "end": 244.93,
         "speaker": "Speaker",
@@ -20507,7 +20465,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 92,
+        "id": 91,
         "start": 244.97,
         "end": 250.9,
         "speaker": "Speaker",
@@ -20523,7 +20481,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 93,
+        "id": 92,
         "start": 250.94,
         "end": 253.69,
         "speaker": "Speaker",
@@ -20539,7 +20497,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 93,
         "start": 253.73,
         "end": 258.59,
         "speaker": "Speaker",
@@ -20555,7 +20513,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 95,
+        "id": 94,
         "start": 258.63,
         "end": 259.59,
         "speaker": "Speaker",
@@ -20571,7 +20529,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 95,
         "start": 259.63,
         "end": 262.36,
         "speaker": "Speaker",
@@ -20587,7 +20545,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 96,
         "start": 262.4,
         "end": 268.68,
         "speaker": "Speaker",
@@ -20603,7 +20561,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 98,
+        "id": 97,
         "start": 268.72,
         "end": 271.39,
         "speaker": "Speaker",
@@ -20619,7 +20577,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 98,
         "start": 271.43,
         "end": 276.35,
         "speaker": "Speaker",
@@ -20635,7 +20593,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 100,
+        "id": 99,
         "start": 276.39,
         "end": 279.51,
         "speaker": "Speaker",
@@ -20651,7 +20609,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 101,
+        "id": 100,
         "start": 279.55,
         "end": 284.33,
         "speaker": "Speaker",
@@ -20667,7 +20625,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 102,
+        "id": 101,
         "start": 284.37,
         "end": 289.05,
         "speaker": "Speaker",
@@ -20683,7 +20641,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 103,
+        "id": 102,
         "start": 289.09,
         "end": 290.45,
         "speaker": "Speaker",
@@ -20699,7 +20657,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 104,
+        "id": 103,
         "start": 290.49,
         "end": 297.05,
         "speaker": "Speaker",
@@ -20715,7 +20673,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 104,
         "start": 297.09,
         "end": 298.55,
         "speaker": "Speaker",
@@ -20731,7 +20689,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 106,
+        "id": 105,
         "start": 298.59,
         "end": 303.52,
         "speaker": "Speaker",
@@ -20752,7 +20710,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 107,
+        "id": 106,
         "start": 303.56,
         "end": 306.71,
         "speaker": "Speaker",
@@ -20773,7 +20731,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 108,
+        "id": 107,
         "start": 306.75,
         "end": 309.4,
         "speaker": "Speaker",
@@ -20789,7 +20747,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 109,
+        "id": 108,
         "start": 309.44,
         "end": 312.09,
         "speaker": "Speaker",
@@ -20805,7 +20763,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 110,
+        "id": 109,
         "start": 312.13,
         "end": 319.45,
         "speaker": "Speaker",
@@ -20826,7 +20784,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 111,
+        "id": 110,
         "start": 319.49,
         "end": 322.86,
         "speaker": "Speaker",
@@ -20842,7 +20800,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 112,
+        "id": 111,
         "start": 322.9,
         "end": 328.27,
         "speaker": "Speaker",
@@ -20858,7 +20816,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 113,
+        "id": 112,
         "start": 328.31,
         "end": 334.63,
         "speaker": "Speaker",
@@ -20874,7 +20832,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 114,
+        "id": 113,
         "start": 334.67,
         "end": 340.26,
         "speaker": "Speaker",
@@ -20890,7 +20848,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 115,
+        "id": 114,
         "start": 340.3,
         "end": 345.47,
         "speaker": "Speaker",
@@ -20906,7 +20864,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 116,
+        "id": 115,
         "start": 345.51,
         "end": 352.27,
         "speaker": "Speaker",
@@ -20922,7 +20880,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 117,
+        "id": 116,
         "start": 352.31,
         "end": 356.05,
         "speaker": "Speaker",
@@ -20938,7 +20896,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 118,
+        "id": 117,
         "start": 356.09,
         "end": 365.25,
         "speaker": "Speaker",
@@ -20959,7 +20917,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 119,
+        "id": 118,
         "start": 365.29,
         "end": 368.81,
         "speaker": "Speaker",
@@ -20975,7 +20933,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 120,
+        "id": 119,
         "start": 368.85,
         "end": 376.48,
         "speaker": "Speaker",
@@ -20996,7 +20954,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 121,
+        "id": 120,
         "start": 376.52,
         "end": 380.88,
         "speaker": "Speaker",
@@ -21012,7 +20970,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 122,
+        "id": 121,
         "start": 380.92,
         "end": 385.05,
         "speaker": "Speaker",
@@ -21028,7 +20986,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 123,
+        "id": 122,
         "start": 385.09,
         "end": 391.15,
         "speaker": "Speaker",
@@ -21044,7 +21002,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 124,
+        "id": 123,
         "start": 391.19,
         "end": 394.96,
         "speaker": "Speaker",
@@ -21060,7 +21018,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 125,
+        "id": 124,
         "start": 395.0,
         "end": 398.04,
         "speaker": "Speaker",
@@ -21076,7 +21034,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 126,
+        "id": 125,
         "start": 398.08,
         "end": 401.24,
         "speaker": "Speaker",
@@ -21092,7 +21050,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 127,
+        "id": 126,
         "start": 401.28,
         "end": 405.24,
         "speaker": "Speaker",
@@ -21108,7 +21066,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 128,
+        "id": 127,
         "start": 405.28,
         "end": 411.84,
         "speaker": "Speaker",
@@ -21124,7 +21082,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 129,
+        "id": 128,
         "start": 411.88,
         "end": 415.28,
         "speaker": "Speaker",
@@ -21140,7 +21098,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 130,
+        "id": 129,
         "start": 415.32,
         "end": 417.57,
         "speaker": "Speaker",
@@ -21156,7 +21114,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 131,
+        "id": 130,
         "start": 417.61,
         "end": 420.2,
         "speaker": "Speaker",
@@ -21172,7 +21130,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 132,
+        "id": 131,
         "start": 420.24,
         "end": 423.24,
         "speaker": "Speaker",
@@ -21188,7 +21146,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 133,
+        "id": 132,
         "start": 423.28,
         "end": 425.31,
         "speaker": "Speaker",
@@ -21204,7 +21162,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 134,
+        "id": 133,
         "start": 425.35,
         "end": 428.77,
         "speaker": "Speaker",
@@ -21220,7 +21178,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 135,
+        "id": 134,
         "start": 428.81,
         "end": 433.05,
         "speaker": "Speaker",
@@ -21236,7 +21194,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 136,
+        "id": 135,
         "start": 433.09,
         "end": 435.64,
         "speaker": "Speaker",
@@ -21252,7 +21210,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 137,
+        "id": 136,
         "start": 435.68,
         "end": 440.74,
         "speaker": "Speaker",
@@ -21268,7 +21226,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 138,
+        "id": 137,
         "start": 440.78,
         "end": 442.35,
         "speaker": "Speaker",
@@ -21284,7 +21242,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 139,
+        "id": 138,
         "start": 442.39,
         "end": 445.25,
         "speaker": "Speaker",
@@ -21305,7 +21263,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 140,
+        "id": 139,
         "start": 445.29,
         "end": 446.87,
         "speaker": "Speaker",
@@ -21321,7 +21279,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 141,
+        "id": 140,
         "start": 446.91,
         "end": 450.78,
         "speaker": "Speaker",
@@ -21337,7 +21295,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 142,
+        "id": 141,
         "start": 450.82,
         "end": 452.3,
         "speaker": "Speaker",
@@ -21353,7 +21311,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 143,
+        "id": 142,
         "start": 452.34,
         "end": 453.84,
         "speaker": "Speaker",
@@ -21369,7 +21327,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 144,
+        "id": 143,
         "start": 453.88,
         "end": 457.61,
         "speaker": "Speaker",
@@ -21385,7 +21343,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 145,
+        "id": 144,
         "start": 457.65,
         "end": 461.93,
         "speaker": "Speaker",
@@ -21401,7 +21359,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 146,
+        "id": 145,
         "start": 461.97,
         "end": 467.68,
         "speaker": "Speaker",
@@ -21417,7 +21375,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 147,
+        "id": 146,
         "start": 467.72,
         "end": 474.16,
         "speaker": "Speaker",
@@ -21438,7 +21396,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 148,
+        "id": 147,
         "start": 474.2,
         "end": 476.69,
         "speaker": "Speaker",
@@ -21454,7 +21412,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 149,
+        "id": 148,
         "start": 476.73,
         "end": 482.91,
         "speaker": "Speaker",
@@ -21470,7 +21428,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 150,
+        "id": 149,
         "start": 482.95,
         "end": 485.15,
         "speaker": "Speaker",
@@ -21486,7 +21444,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 151,
+        "id": 150,
         "start": 485.19,
         "end": 497.02,
         "speaker": "Speaker",
@@ -21507,7 +21465,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 152,
+        "id": 151,
         "start": 497.06,
         "end": 500.68,
         "speaker": "Speaker",
@@ -21523,7 +21481,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 153,
+        "id": 152,
         "start": 500.72,
         "end": 504.16,
         "speaker": "Speaker",
@@ -21539,7 +21497,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 154,
+        "id": 153,
         "start": 504.2,
         "end": 507.22,
         "speaker": "Speaker",
@@ -21555,7 +21513,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 155,
+        "id": 154,
         "start": 507.26,
         "end": 509.03,
         "speaker": "Speaker",
@@ -21571,7 +21529,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 156,
+        "id": 155,
         "start": 509.07,
         "end": 512.3,
         "speaker": "Speaker",
@@ -21587,7 +21545,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 157,
+        "id": 156,
         "start": 512.34,
         "end": 515.96,
         "speaker": "Speaker",
@@ -21603,7 +21561,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 158,
+        "id": 157,
         "start": 516.0,
         "end": 522.3,
         "speaker": "Speaker",
@@ -21619,7 +21577,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 159,
+        "id": 158,
         "start": 523.24,
         "end": 525.78,
         "speaker": "Speaker",
@@ -21635,7 +21593,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 160,
+        "id": 159,
         "start": 528.56,
         "end": 533.07,
         "speaker": "Speaker",
@@ -21651,7 +21609,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 161,
+        "id": 160,
         "start": 533.11,
         "end": 534.64,
         "speaker": "Speaker",
@@ -21667,7 +21625,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 162,
+        "id": 161,
         "start": 534.68,
         "end": 536.91,
         "speaker": "Speaker",
@@ -21683,7 +21641,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 163,
+        "id": 162,
         "start": 536.95,
         "end": 539.45,
         "speaker": "Speaker",
@@ -21699,7 +21657,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 164,
+        "id": 163,
         "start": 539.49,
         "end": 544.32,
         "speaker": "Speaker",
@@ -21715,7 +21673,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 165,
+        "id": 164,
         "start": 544.36,
         "end": 548.21,
         "speaker": "Speaker",
@@ -21731,7 +21689,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 166,
+        "id": 165,
         "start": 548.25,
         "end": 557.65,
         "speaker": "Speaker",
@@ -21752,7 +21710,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 167,
+        "id": 166,
         "start": 557.69,
         "end": 569.89,
         "speaker": "Speaker",
@@ -21773,7 +21731,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 168,
+        "id": 167,
         "start": 569.93,
         "end": 573.41,
         "speaker": "Speaker",
@@ -21789,7 +21747,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 169,
+        "id": 168,
         "start": 573.45,
         "end": 579.12,
         "speaker": "Speaker",
@@ -21805,7 +21763,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 170,
+        "id": 169,
         "start": 579.16,
         "end": 581.78,
         "speaker": "Speaker",
@@ -21821,7 +21779,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 171,
+        "id": 170,
         "start": 581.82,
         "end": 584.56,
         "speaker": "Speaker",
@@ -21842,7 +21800,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 172,
+        "id": 171,
         "start": 584.6,
         "end": 586.02,
         "speaker": "Speaker",
@@ -21858,7 +21816,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 173,
+        "id": 172,
         "start": 586.06,
         "end": 588.12,
         "speaker": "Speaker",
@@ -21874,7 +21832,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 174,
+        "id": 173,
         "start": 588.16,
         "end": 590.25,
         "speaker": "Speaker",
@@ -21890,7 +21848,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 175,
+        "id": 174,
         "start": 590.29,
         "end": 594.69,
         "speaker": "Speaker",
@@ -21906,7 +21864,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 176,
+        "id": 175,
         "start": 594.73,
         "end": 599.07,
         "speaker": "Speaker",
@@ -21922,7 +21880,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 177,
+        "id": 176,
         "start": 599.11,
         "end": 602.36,
         "speaker": "Speaker",
@@ -21938,7 +21896,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 178,
+        "id": 177,
         "start": 602.4,
         "end": 609.13,
         "speaker": "Speaker",
@@ -21954,7 +21912,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 179,
+        "id": 178,
         "start": 609.17,
         "end": 611.47,
         "speaker": "Speaker",
@@ -21970,7 +21928,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 180,
+        "id": 179,
         "start": 611.51,
         "end": 619.14,
         "speaker": "Speaker",
@@ -21986,7 +21944,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 181,
+        "id": 180,
         "start": 619.18,
         "end": 622.26,
         "speaker": "Speaker",
@@ -22002,7 +21960,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 182,
+        "id": 181,
         "start": 622.3,
         "end": 626.64,
         "speaker": "Speaker",
@@ -22018,7 +21976,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 183,
+        "id": 182,
         "start": 626.68,
         "end": 629.97,
         "speaker": "Speaker",
@@ -22034,7 +21992,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 184,
+        "id": 183,
         "start": 630.01,
         "end": 634.02,
         "speaker": "Speaker",
@@ -22050,7 +22008,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 185,
+        "id": 184,
         "start": 634.06,
         "end": 639.23,
         "speaker": "Speaker",
@@ -22066,7 +22024,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 186,
+        "id": 185,
         "start": 639.27,
         "end": 642.91,
         "speaker": "Speaker",
@@ -22082,7 +22040,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 187,
+        "id": 186,
         "start": 642.95,
         "end": 649.84,
         "speaker": "Speaker",
@@ -22098,7 +22056,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 188,
+        "id": 187,
         "start": 649.88,
         "end": 657.33,
         "speaker": "Speaker",
@@ -22114,7 +22072,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 189,
+        "id": 188,
         "start": 657.37,
         "end": 663.94,
         "speaker": "Speaker",
@@ -22130,7 +22088,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 190,
+        "id": 189,
         "start": 663.98,
         "end": 667.22,
         "speaker": "Speaker",
@@ -22146,7 +22104,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 191,
+        "id": 190,
         "start": 667.26,
         "end": 673.0,
         "speaker": "Speaker",
@@ -22162,7 +22120,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 192,
+        "id": 191,
         "start": 673.04,
         "end": 676.87,
         "speaker": "Speaker",
@@ -22178,7 +22136,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 193,
+        "id": 192,
         "start": 676.91,
         "end": 681.23,
         "speaker": "Speaker",
@@ -22194,7 +22152,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 194,
+        "id": 193,
         "start": 681.27,
         "end": 685.49,
         "speaker": "Speaker",
@@ -22210,7 +22168,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 195,
+        "id": 194,
         "start": 685.53,
         "end": 688.31,
         "speaker": "Speaker",
@@ -22226,7 +22184,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 196,
+        "id": 195,
         "start": 688.35,
         "end": 691.73,
         "speaker": "Speaker",
@@ -22242,7 +22200,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 197,
+        "id": 196,
         "start": 691.77,
         "end": 696.07,
         "speaker": "Speaker",
@@ -22258,7 +22216,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 198,
+        "id": 197,
         "start": 696.11,
         "end": 700.56,
         "speaker": "Speaker",
@@ -22274,7 +22232,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 199,
+        "id": 198,
         "start": 700.6,
         "end": 704.27,
         "speaker": "Speaker",
@@ -22290,7 +22248,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 200,
+        "id": 199,
         "start": 704.31,
         "end": 710.87,
         "speaker": "Speaker",
@@ -22306,7 +22264,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 201,
+        "id": 200,
         "start": 710.91,
         "end": 716.29,
         "speaker": "Speaker",
@@ -22322,7 +22280,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 202,
+        "id": 201,
         "start": 716.33,
         "end": 722.31,
         "speaker": "Speaker",
@@ -22338,7 +22296,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 203,
+        "id": 202,
         "start": 722.35,
         "end": 724.93,
         "speaker": "Speaker",
@@ -22354,7 +22312,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 204,
+        "id": 203,
         "start": 724.97,
         "end": 728.27,
         "speaker": "Speaker",
@@ -22370,7 +22328,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 205,
+        "id": 204,
         "start": 728.31,
         "end": 729.81,
         "speaker": "Speaker",
@@ -22386,7 +22344,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 206,
+        "id": 205,
         "start": 729.85,
         "end": 731.61,
         "speaker": "Speaker",
@@ -22402,7 +22360,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 207,
+        "id": 206,
         "start": 731.65,
         "end": 737.83,
         "speaker": "Speaker",
@@ -22418,7 +22376,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 208,
+        "id": 207,
         "start": 737.87,
         "end": 745.03,
         "speaker": "Speaker",
@@ -22434,7 +22392,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 209,
+        "id": 208,
         "start": 745.07,
         "end": 746.3,
         "speaker": "Speaker",
@@ -22450,7 +22408,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 210,
+        "id": 209,
         "start": 746.34,
         "end": 756.84,
         "speaker": "Speaker",
@@ -22471,7 +22429,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 211,
+        "id": 210,
         "start": 756.88,
         "end": 757.84,
         "speaker": "Speaker",
@@ -22487,7 +22445,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 212,
+        "id": 211,
         "start": 757.88,
         "end": 763.66,
         "speaker": "Speaker",
@@ -26875,7 +26833,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 170,
         "start": 357.64,
-        "end": 360.72,
+        "end": 365.08,
         "speaker": "Speaker",
         "en": "For more 73 Questions, subscribe to The Vogue Channel.",
         "ipa": "/fɔːr mɔːr 73 ˈkwɛstʃənz, səbˈskraɪb tu ðə voʊɡ ˈtʃænl./",
@@ -26885,22 +26843,6 @@ export const LOCAL_EPISODES = [
             "text": "subscribe to",
             "key": "订阅",
             "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 171,
-        "start": 360.76,
-        "end": 365.08,
-        "speaker": "Speaker",
-        "en": "Subscribe to The Vogue Channel.",
-        "ipa": "/səbˈskraɪb tuː ðə voʊɡ ˈtʃænl/",
-        "zh": "订阅 Vogue 频道。",
-        "highlights": [
-          {
-            "text": "Subscribe to",
-            "key": "subscribe to",
-            "chip": "indigo"
           }
         ]
       }
@@ -26918,7 +26860,6 @@ export const LOCAL_EPISODES = [
     "durationLabel": "14:37",
     "date": "2026/11/28",
     "tags": [
-      "购物",
       "美食",
       "生活英语"
     ],
@@ -26927,8 +26868,12 @@ export const LOCAL_EPISODES = [
     "mediaUrl": "./content/episodes/How%20To%20Order%20Food%20In%20a%20Restaurant.f401.mp4",
     "audioUrl": "./content/episodes/How%20To%20Order%20Food%20In%20a%20Restaurant.f140.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "美食",
     "skipRanges": [
+      [
+        84.35,
+        85.69
+      ],
       [
         544.78,
         556.48
@@ -27236,7 +27181,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 18,
         "start": 75.2,
-        "end": 85.65,
+        "end": 84.35,
         "speaker": "Speaker",
         "en": "Now it's time to walk inside the restaurant.",
         "ipa": "/naʊ ɪts taɪm tu wɔk ˈɪnsaɪd ðə ˈrɛstərənt/",
@@ -28856,7 +28801,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 118,
         "start": 474.92,
-        "end": 490.62,
+        "end": 490.92,
         "speaker": "Speaker",
         "en": "Utensils include forks, spoons, knives, chopsticks, etc., even if they're made of plastic, wood, or other materials.",
         "ipa": "/juˈtɛnsəlz ɪnˈklud fɔrks, spunz, naɪvz, ˈʧɑpˌstɪks, ˈɛtˌsɛtərə, ˈivən ɪf ðɛr meɪd ʌv ˈplæstɪk, wʊd, ɔr ˈʌðər məˈtɪriəlz./",
@@ -30357,6 +30302,10 @@ export const LOCAL_EPISODES = [
       [
         555.06,
         555.6
+      ],
+      [
+        561.55,
+        563.91
       ],
       [
         566.28,
@@ -32315,7 +32264,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 113,
         "start": 555.6,
-        "end": 563.87,
+        "end": 561.55,
         "speaker": "Speaker",
         "en": "Now let's go inside.",
         "ipa": "/naʊ lɛts ɡoʊ ɪnˈsaɪd./",
@@ -38768,16 +38717,15 @@ export const LOCAL_EPISODES = [
     "durationLabel": "09:09",
     "date": "2026/11/28",
     "tags": [
-      "购物",
       "旅行",
-      "个人成长"
+      "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "./content/episodes/Downtown%20Vocabulary%20In%20New%20York.webp",
     "mediaUrl": "./content/episodes/Downtown%20Vocabulary%20In%20New%20York.f401.mp4",
     "audioUrl": "./content/episodes/Downtown%20Vocabulary%20In%20New%20York.f140-15.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "旅行",
     "skipRanges": [
       [
         42.3,
@@ -40597,8 +40545,8 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "购物",
-      "个人成长",
-      "生活英语"
+      "生活英语",
+      "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/How%20to%20Buy%20a%20House%20in%20USA.webp",
@@ -45154,8 +45102,8 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "美食",
-      "个人成长",
-      "日常对话"
+      "生活英语",
+      "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/Car%20Vocabulary.webp",
@@ -45165,7 +45113,15 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        1092.92,
+        146.68,
+        148.05
+      ],
+      [
+        1052.93,
+        1057.1
+      ],
+      [
+        1094.07,
         1105.01
       ],
       [
@@ -45680,7 +45636,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 29,
         "start": 139.13,
-        "end": 148.01,
+        "end": 146.68,
         "speaker": "Speaker",
         "en": "Now, what is this part called?",
         "ipa": "/naʊ, wʌt ɪz ðɪs pɑːrt kɔːld/",
@@ -48229,7 +48185,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 173,
         "start": 1046.18,
-        "end": 1057.06,
+        "end": 1052.93,
         "speaker": "Speaker",
         "en": "So come along with me!",
         "ipa": "/soʊ kʌm əˈlɔːŋ wɪð miː/",
@@ -48266,7 +48222,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 175,
         "start": 1069.72,
-        "end": 1092.92,
+        "end": 1094.07,
         "speaker": "Speaker",
         "en": "And they'll tell me to put the car in Neutral, and I don't even have to touch the car, touch the steering wheel, or the gas pedal.",
         "ipa": "/ænd ðel tɛl mi tu pʊt ðə kɑr ɪn ˈnutrəl, ænd aɪ doʊnt ˈivɪn hæv tu tʌtʃ ðə kɑr, tʌtʃ ðə ˈstɪrɪŋ wil, ɔr ðə ɡæs ˈpɛdəl/",
@@ -51729,7 +51685,7 @@ export const LOCAL_EPISODES = [
     "id": "local-24-Can-you-understand-my-friend-Eng",
     "number": "EP 24",
     "title": "Can you understand my friend？ ｜ English Conversation",
-    "speaker": "TED",
+    "speaker": "YouTube 博主",
     "speakerAvatar": "./assets/hosts/cici_round.webp",
     "region": "美国",
     "difficulty": 5,
@@ -51737,16 +51693,15 @@ export const LOCAL_EPISODES = [
     "durationLabel": "15:16",
     "date": "2026/11/28",
     "tags": [
-      "美食",
-      "名人访谈",
-      "个人成长"
+      "日常对话",
+      "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation.webp",
     "mediaUrl": "./content/episodes/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation.f401.mp4",
     "audioUrl": "./content/episodes/Can%20you%20understand%20my%20friend%EF%BC%9F%20%EF%BD%9C%20English%20Conversation.f140-20.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "日常对话",
     "skipRanges": [
       [
         911.12,
@@ -52772,7 +52727,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 58,
         "start": 179.48,
-        "end": 180.68,
+        "end": 182.32,
         "speaker": "Speaker",
         "en": "No, not soccer football, American football.",
         "ipa": "/noʊ, nɑt ˈsɑkər ˈfʊtˌbɔl, əˈmɛrəkən ˈfʊtˌbɔl./",
@@ -52787,38 +52742,6 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 59,
-        "start": 180.72,
-        "end": 181.28,
-        "speaker": "Speaker",
-        "en": "American football.",
-        "ipa": "/əˈmɛrəkən ˈfʊtˌbɔl./",
-        "zh": "美式橄榄球。",
-        "highlights": [
-          {
-            "text": "American football",
-            "key": "American football",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "start": 181.32,
-        "end": 182.32,
-        "speaker": "Speaker",
-        "en": "American football.",
-        "ipa": "/əˈmɛrəkən ˈfʊtˌbɔl./",
-        "zh": "美式橄榄球。",
-        "highlights": [
-          {
-            "text": "American football",
-            "key": "American football",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 61,
         "start": 182.36,
         "end": 184.02,
         "speaker": "Speaker",
@@ -52834,7 +52757,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 62,
+        "id": 60,
         "start": 184.06,
         "end": 185.56,
         "speaker": "Speaker",
@@ -52850,7 +52773,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 63,
+        "id": 61,
         "start": 185.6,
         "end": 188.51,
         "speaker": "Speaker",
@@ -52871,7 +52794,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 64,
+        "id": 62,
         "start": 188.55,
         "end": 192.16,
         "speaker": "Speaker",
@@ -52887,7 +52810,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 65,
+        "id": 63,
         "start": 192.2,
         "end": 198.4,
         "speaker": "Speaker",
@@ -52908,7 +52831,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 66,
+        "id": 64,
         "start": 198.44,
         "end": 201.71,
         "speaker": "Speaker",
@@ -52929,7 +52852,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 67,
+        "id": 65,
         "start": 201.75,
         "end": 203.16,
         "speaker": "Speaker",
@@ -52945,7 +52868,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 68,
+        "id": 66,
         "start": 203.2,
         "end": 205.31,
         "speaker": "Speaker",
@@ -52966,7 +52889,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 69,
+        "id": 67,
         "start": 205.35,
         "end": 206.75,
         "speaker": "Speaker",
@@ -52982,7 +52905,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 70,
+        "id": 68,
         "start": 206.79,
         "end": 209.16,
         "speaker": "Speaker",
@@ -52998,7 +52921,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 71,
+        "id": 69,
         "start": 209.2,
         "end": 210.26,
         "speaker": "Speaker",
@@ -53014,7 +52937,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 72,
+        "id": 70,
         "start": 210.3,
         "end": 211.18,
         "speaker": "Speaker",
@@ -53030,7 +52953,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 73,
+        "id": 71,
         "start": 211.22,
         "end": 212.75,
         "speaker": "Speaker",
@@ -53046,7 +52969,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 74,
+        "id": 72,
         "start": 212.79,
         "end": 216.55,
         "speaker": "Speaker",
@@ -53062,7 +52985,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 75,
+        "id": 73,
         "start": 216.59,
         "end": 220.0,
         "speaker": "Speaker",
@@ -53078,7 +53001,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 76,
+        "id": 74,
         "start": 220.04,
         "end": 221.84,
         "speaker": "Speaker",
@@ -53094,7 +53017,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 77,
+        "id": 75,
         "start": 221.88,
         "end": 223.54,
         "speaker": "Speaker",
@@ -53110,7 +53033,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 78,
+        "id": 76,
         "start": 223.58,
         "end": 224.45,
         "speaker": "Speaker",
@@ -53126,7 +53049,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 79,
+        "id": 77,
         "start": 224.49,
         "end": 227.96,
         "speaker": "Speaker",
@@ -53142,7 +53065,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 80,
+        "id": 78,
         "start": 228.0,
         "end": 230.36,
         "speaker": "Speaker",
@@ -53158,7 +53081,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 81,
+        "id": 79,
         "start": 230.4,
         "end": 238.13,
         "speaker": "Speaker",
@@ -53174,7 +53097,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 82,
+        "id": 80,
         "start": 238.17,
         "end": 247.34,
         "speaker": "Speaker",
@@ -53195,7 +53118,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 83,
+        "id": 81,
         "start": 247.38,
         "end": 250.14,
         "speaker": "Speaker",
@@ -53211,7 +53134,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 84,
+        "id": 82,
         "start": 250.18,
         "end": 252.73,
         "speaker": "Speaker",
@@ -53227,7 +53150,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 85,
+        "id": 83,
         "start": 252.77,
         "end": 255.4,
         "speaker": "Speaker",
@@ -53243,7 +53166,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 86,
+        "id": 84,
         "start": 255.44,
         "end": 259.86,
         "speaker": "Speaker",
@@ -53259,7 +53182,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 87,
+        "id": 85,
         "start": 259.9,
         "end": 263.45,
         "speaker": "Speaker",
@@ -53275,7 +53198,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 88,
+        "id": 86,
         "start": 263.49,
         "end": 265.24,
         "speaker": "Speaker",
@@ -53291,7 +53214,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 89,
+        "id": 87,
         "start": 265.28,
         "end": 266.02,
         "speaker": "Speaker",
@@ -53307,7 +53230,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 88,
         "start": 266.06,
         "end": 274.51,
         "speaker": "Speaker",
@@ -53328,7 +53251,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 91,
+        "id": 89,
         "start": 274.55,
         "end": 283.21,
         "speaker": "Speaker",
@@ -53349,7 +53272,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 92,
+        "id": 90,
         "start": 283.25,
         "end": 292.24,
         "speaker": "Speaker",
@@ -53370,7 +53293,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 93,
+        "id": 91,
         "start": 292.28,
         "end": 295.8,
         "speaker": "Speaker",
@@ -53386,7 +53309,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 92,
         "start": 295.84,
         "end": 299.32,
         "speaker": "Speaker",
@@ -53407,7 +53330,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 95,
+        "id": 93,
         "start": 299.36,
         "end": 306.72,
         "speaker": "Speaker",
@@ -53428,7 +53351,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 94,
         "start": 306.76,
         "end": 318.28,
         "speaker": "Speaker",
@@ -53449,7 +53372,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 95,
         "start": 318.32,
         "end": 322.15,
         "speaker": "Speaker",
@@ -53465,7 +53388,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 98,
+        "id": 96,
         "start": 322.19,
         "end": 326.71,
         "speaker": "Speaker",
@@ -53481,7 +53404,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 97,
         "start": 326.75,
         "end": 331.65,
         "speaker": "Speaker",
@@ -53502,7 +53425,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 100,
+        "id": 98,
         "start": 331.69,
         "end": 335.0,
         "speaker": "Speaker",
@@ -53518,7 +53441,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 101,
+        "id": 99,
         "start": 335.04,
         "end": 337.64,
         "speaker": "Speaker",
@@ -53534,7 +53457,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 102,
+        "id": 100,
         "start": 337.68,
         "end": 341.3,
         "speaker": "Speaker",
@@ -53550,7 +53473,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 103,
+        "id": 101,
         "start": 341.34,
         "end": 349.41,
         "speaker": "Speaker",
@@ -53571,7 +53494,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 104,
+        "id": 102,
         "start": 349.45,
         "end": 357.43,
         "speaker": "Speaker",
@@ -53592,7 +53515,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 103,
         "start": 357.47,
         "end": 365.62,
         "speaker": "Speaker",
@@ -53613,7 +53536,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 106,
+        "id": 104,
         "start": 365.66,
         "end": 368.18,
         "speaker": "Speaker",
@@ -53629,7 +53552,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 107,
+        "id": 105,
         "start": 368.22,
         "end": 372.2,
         "speaker": "Speaker",
@@ -53645,7 +53568,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 108,
+        "id": 106,
         "start": 372.24,
         "end": 376.71,
         "speaker": "Speaker",
@@ -53666,7 +53589,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 109,
+        "id": 107,
         "start": 376.75,
         "end": 382.14,
         "speaker": "Speaker",
@@ -53687,7 +53610,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 110,
+        "id": 108,
         "start": 382.18,
         "end": 386.65,
         "speaker": "Speaker",
@@ -53708,7 +53631,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 111,
+        "id": 109,
         "start": 386.69,
         "end": 395.57,
         "speaker": "Speaker",
@@ -53729,7 +53652,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 112,
+        "id": 110,
         "start": 395.61,
         "end": 400.58,
         "speaker": "Speaker",
@@ -53745,7 +53668,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 113,
+        "id": 111,
         "start": 400.62,
         "end": 403.18,
         "speaker": "Speaker",
@@ -53761,7 +53684,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 114,
+        "id": 112,
         "start": 403.22,
         "end": 407.06,
         "speaker": "Speaker",
@@ -53777,7 +53700,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 115,
+        "id": 113,
         "start": 407.1,
         "end": 415.23,
         "speaker": "Speaker",
@@ -53798,7 +53721,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 116,
+        "id": 114,
         "start": 415.27,
         "end": 420.21,
         "speaker": "Speaker",
@@ -53819,7 +53742,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 117,
+        "id": 115,
         "start": 420.25,
         "end": 423.37,
         "speaker": "Speaker",
@@ -53835,7 +53758,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 118,
+        "id": 116,
         "start": 423.41,
         "end": 426.76,
         "speaker": "Speaker",
@@ -53856,7 +53779,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 119,
+        "id": 117,
         "start": 426.8,
         "end": 430.94,
         "speaker": "Speaker",
@@ -53872,7 +53795,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 120,
+        "id": 118,
         "start": 430.98,
         "end": 432.85,
         "speaker": "Speaker",
@@ -53888,7 +53811,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 121,
+        "id": 119,
         "start": 432.89,
         "end": 435.6,
         "speaker": "Speaker",
@@ -53904,7 +53827,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 122,
+        "id": 120,
         "start": 435.64,
         "end": 445.96,
         "speaker": "Speaker",
@@ -53925,7 +53848,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 123,
+        "id": 121,
         "start": 446.0,
         "end": 452.7,
         "speaker": "Speaker",
@@ -53946,7 +53869,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 124,
+        "id": 122,
         "start": 452.74,
         "end": 456.38,
         "speaker": "Speaker",
@@ -53962,7 +53885,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 125,
+        "id": 123,
         "start": 456.42,
         "end": 459.94,
         "speaker": "Speaker",
@@ -53978,7 +53901,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 126,
+        "id": 124,
         "start": 459.98,
         "end": 461.56,
         "speaker": "Speaker",
@@ -53994,7 +53917,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 127,
+        "id": 125,
         "start": 461.6,
         "end": 464.11,
         "speaker": "Speaker",
@@ -54010,7 +53933,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 128,
+        "id": 126,
         "start": 464.15,
         "end": 466.55,
         "speaker": "Speaker",
@@ -54026,7 +53949,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 129,
+        "id": 127,
         "start": 466.59,
         "end": 468.34,
         "speaker": "Speaker",
@@ -54042,7 +53965,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 130,
+        "id": 128,
         "start": 468.38,
         "end": 473.11,
         "speaker": "Speaker",
@@ -54058,7 +53981,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 131,
+        "id": 129,
         "start": 473.15,
         "end": 479.12,
         "speaker": "Speaker",
@@ -54074,7 +53997,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 132,
+        "id": 130,
         "start": 479.16,
         "end": 482.77,
         "speaker": "Speaker",
@@ -54090,7 +54013,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 133,
+        "id": 131,
         "start": 482.81,
         "end": 483.53,
         "speaker": "Speaker",
@@ -54106,7 +54029,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 134,
+        "id": 132,
         "start": 483.57,
         "end": 484.12,
         "speaker": "Speaker",
@@ -54122,7 +54045,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 135,
+        "id": 133,
         "start": 484.16,
         "end": 485.84,
         "speaker": "Speaker",
@@ -54138,7 +54061,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 136,
+        "id": 134,
         "start": 485.88,
         "end": 487.45,
         "speaker": "Speaker",
@@ -54154,7 +54077,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 137,
+        "id": 135,
         "start": 487.49,
         "end": 489.41,
         "speaker": "Speaker",
@@ -54175,7 +54098,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 138,
+        "id": 136,
         "start": 489.45,
         "end": 492.76,
         "speaker": "Speaker",
@@ -54191,7 +54114,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 139,
+        "id": 137,
         "start": 492.8,
         "end": 493.82,
         "speaker": "Speaker",
@@ -54207,7 +54130,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 140,
+        "id": 138,
         "start": 493.86,
         "end": 497.35,
         "speaker": "Speaker",
@@ -54223,7 +54146,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 141,
+        "id": 139,
         "start": 497.39,
         "end": 498.28,
         "speaker": "Speaker",
@@ -54239,7 +54162,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 142,
+        "id": 140,
         "start": 498.32,
         "end": 499.19,
         "speaker": "Speaker",
@@ -54255,7 +54178,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 143,
+        "id": 141,
         "start": 499.23,
         "end": 501.0,
         "speaker": "Speaker",
@@ -54271,7 +54194,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 144,
+        "id": 142,
         "start": 501.04,
         "end": 501.84,
         "speaker": "Speaker",
@@ -54287,7 +54210,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 145,
+        "id": 143,
         "start": 501.88,
         "end": 505.23,
         "speaker": "Speaker",
@@ -54303,7 +54226,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 146,
+        "id": 144,
         "start": 505.27,
         "end": 509.95,
         "speaker": "Speaker",
@@ -54319,7 +54242,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 147,
+        "id": 145,
         "start": 509.99,
         "end": 515.4,
         "speaker": "Speaker",
@@ -54335,7 +54258,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 148,
+        "id": 146,
         "start": 515.44,
         "end": 516.75,
         "speaker": "Speaker",
@@ -54351,7 +54274,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 149,
+        "id": 147,
         "start": 516.79,
         "end": 517.16,
         "speaker": "Speaker",
@@ -54367,7 +54290,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 150,
+        "id": 148,
         "start": 517.2,
         "end": 527.71,
         "speaker": "Speaker",
@@ -54388,7 +54311,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 151,
+        "id": 149,
         "start": 527.75,
         "end": 530.54,
         "speaker": "Speaker",
@@ -54404,7 +54327,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 152,
+        "id": 150,
         "start": 530.58,
         "end": 532.09,
         "speaker": "Speaker",
@@ -54420,7 +54343,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 153,
+        "id": 151,
         "start": 532.13,
         "end": 538.35,
         "speaker": "Speaker",
@@ -54436,7 +54359,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 154,
+        "id": 152,
         "start": 538.39,
         "end": 539.87,
         "speaker": "Speaker",
@@ -54452,7 +54375,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 155,
+        "id": 153,
         "start": 539.91,
         "end": 541.34,
         "speaker": "Speaker",
@@ -54468,7 +54391,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 156,
+        "id": 154,
         "start": 541.38,
         "end": 546.0,
         "speaker": "Speaker",
@@ -54484,7 +54407,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 157,
+        "id": 155,
         "start": 546.04,
         "end": 549.1,
         "speaker": "Speaker",
@@ -54500,7 +54423,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 158,
+        "id": 156,
         "start": 549.14,
         "end": 558.6,
         "speaker": "Speaker",
@@ -54521,7 +54444,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 159,
+        "id": 157,
         "start": 558.64,
         "end": 560.11,
         "speaker": "Speaker",
@@ -54537,7 +54460,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 160,
+        "id": 158,
         "start": 560.15,
         "end": 562.29,
         "speaker": "Speaker",
@@ -54553,7 +54476,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 161,
+        "id": 159,
         "start": 562.33,
         "end": 563.75,
         "speaker": "Speaker",
@@ -54569,7 +54492,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 162,
+        "id": 160,
         "start": 563.79,
         "end": 566.13,
         "speaker": "Speaker",
@@ -54585,7 +54508,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 163,
+        "id": 161,
         "start": 566.17,
         "end": 576.42,
         "speaker": "Speaker",
@@ -54606,7 +54529,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 164,
+        "id": 162,
         "start": 576.46,
         "end": 577.16,
         "speaker": "Speaker",
@@ -54622,7 +54545,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 165,
+        "id": 163,
         "start": 577.2,
         "end": 578.2,
         "speaker": "Speaker",
@@ -54638,7 +54561,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 166,
+        "id": 164,
         "start": 578.24,
         "end": 579.12,
         "speaker": "Speaker",
@@ -54654,7 +54577,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 167,
+        "id": 165,
         "start": 579.16,
         "end": 580.96,
         "speaker": "Speaker",
@@ -54670,7 +54593,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 168,
+        "id": 166,
         "start": 581.0,
         "end": 584.95,
         "speaker": "Speaker",
@@ -54686,7 +54609,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 169,
+        "id": 167,
         "start": 584.99,
         "end": 588.64,
         "speaker": "Speaker",
@@ -54702,7 +54625,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 170,
+        "id": 168,
         "start": 588.68,
         "end": 590.17,
         "speaker": "Speaker",
@@ -54718,7 +54641,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 171,
+        "id": 169,
         "start": 590.21,
         "end": 591.36,
         "speaker": "Speaker",
@@ -54734,7 +54657,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 172,
+        "id": 170,
         "start": 591.4,
         "end": 593.8,
         "speaker": "Speaker",
@@ -54750,7 +54673,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 173,
+        "id": 171,
         "start": 593.84,
         "end": 595.32,
         "speaker": "Speaker",
@@ -54766,7 +54689,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 174,
+        "id": 172,
         "start": 595.36,
         "end": 598.45,
         "speaker": "Speaker",
@@ -54787,7 +54710,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 175,
+        "id": 173,
         "start": 598.49,
         "end": 601.36,
         "speaker": "Speaker",
@@ -54803,7 +54726,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 176,
+        "id": 174,
         "start": 601.4,
         "end": 602.31,
         "speaker": "Speaker",
@@ -54819,7 +54742,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 177,
+        "id": 175,
         "start": 602.35,
         "end": 610.66,
         "speaker": "Speaker",
@@ -54840,7 +54763,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 178,
+        "id": 176,
         "start": 610.7,
         "end": 616.42,
         "speaker": "Speaker",
@@ -54856,7 +54779,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 179,
+        "id": 177,
         "start": 616.46,
         "end": 619.83,
         "speaker": "Speaker",
@@ -54872,7 +54795,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 180,
+        "id": 178,
         "start": 619.87,
         "end": 626.25,
         "speaker": "Speaker",
@@ -54888,7 +54811,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 181,
+        "id": 179,
         "start": 626.29,
         "end": 629.6,
         "speaker": "Speaker",
@@ -54904,7 +54827,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 182,
+        "id": 180,
         "start": 629.64,
         "end": 633.28,
         "speaker": "Speaker",
@@ -54920,7 +54843,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 183,
+        "id": 181,
         "start": 633.32,
         "end": 636.11,
         "speaker": "Speaker",
@@ -54936,7 +54859,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 184,
+        "id": 182,
         "start": 636.15,
         "end": 641.09,
         "speaker": "Speaker",
@@ -54952,7 +54875,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 185,
+        "id": 183,
         "start": 641.13,
         "end": 643.84,
         "speaker": "Speaker",
@@ -54968,7 +54891,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 186,
+        "id": 184,
         "start": 643.88,
         "end": 650.92,
         "speaker": "Speaker",
@@ -54984,7 +54907,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 187,
+        "id": 185,
         "start": 650.96,
         "end": 653.36,
         "speaker": "Speaker",
@@ -55000,7 +54923,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 188,
+        "id": 186,
         "start": 653.4,
         "end": 656.84,
         "speaker": "Speaker",
@@ -55016,7 +54939,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 189,
+        "id": 187,
         "start": 656.88,
         "end": 662.24,
         "speaker": "Speaker",
@@ -55032,7 +54955,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 190,
+        "id": 188,
         "start": 662.28,
         "end": 670.36,
         "speaker": "Speaker",
@@ -55053,7 +54976,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 191,
+        "id": 189,
         "start": 670.4,
         "end": 675.62,
         "speaker": "Speaker",
@@ -55069,7 +54992,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 192,
+        "id": 190,
         "start": 675.66,
         "end": 678.46,
         "speaker": "Speaker",
@@ -55085,7 +55008,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 193,
+        "id": 191,
         "start": 678.5,
         "end": 685.43,
         "speaker": "Speaker",
@@ -55101,7 +55024,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 194,
+        "id": 192,
         "start": 685.47,
         "end": 690.2,
         "speaker": "Speaker",
@@ -55117,7 +55040,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 195,
+        "id": 193,
         "start": 690.24,
         "end": 697.8,
         "speaker": "Speaker",
@@ -55133,7 +55056,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 196,
+        "id": 194,
         "start": 697.84,
         "end": 702.56,
         "speaker": "Speaker",
@@ -55149,7 +55072,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 197,
+        "id": 195,
         "start": 702.6,
         "end": 703.97,
         "speaker": "Speaker",
@@ -55165,7 +55088,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 198,
+        "id": 196,
         "start": 704.01,
         "end": 706.0,
         "speaker": "Speaker",
@@ -55181,7 +55104,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 199,
+        "id": 197,
         "start": 706.04,
         "end": 718.62,
         "speaker": "Speaker",
@@ -55202,7 +55125,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 200,
+        "id": 198,
         "start": 718.66,
         "end": 720.92,
         "speaker": "Speaker",
@@ -55218,7 +55141,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 201,
+        "id": 199,
         "start": 720.96,
         "end": 723.37,
         "speaker": "Speaker",
@@ -55234,7 +55157,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 202,
+        "id": 200,
         "start": 723.41,
         "end": 724.85,
         "speaker": "Speaker",
@@ -55250,7 +55173,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 203,
+        "id": 201,
         "start": 724.89,
         "end": 729.04,
         "speaker": "Speaker",
@@ -55266,7 +55189,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 204,
+        "id": 202,
         "start": 729.08,
         "end": 730.75,
         "speaker": "Speaker",
@@ -55282,7 +55205,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 205,
+        "id": 203,
         "start": 730.79,
         "end": 738.25,
         "speaker": "Speaker",
@@ -55303,7 +55226,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 206,
+        "id": 204,
         "start": 738.29,
         "end": 741.73,
         "speaker": "Speaker",
@@ -55324,7 +55247,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 207,
+        "id": 205,
         "start": 741.77,
         "end": 744.79,
         "speaker": "Speaker",
@@ -55340,7 +55263,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 208,
+        "id": 206,
         "start": 744.83,
         "end": 746.41,
         "speaker": "Speaker",
@@ -55356,7 +55279,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 209,
+        "id": 207,
         "start": 746.45,
         "end": 748.67,
         "speaker": "Speaker",
@@ -55372,7 +55295,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 210,
+        "id": 208,
         "start": 748.71,
         "end": 749.48,
         "speaker": "Speaker",
@@ -55388,7 +55311,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 211,
+        "id": 209,
         "start": 749.52,
         "end": 754.96,
         "speaker": "Speaker",
@@ -55404,7 +55327,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 212,
+        "id": 210,
         "start": 755.0,
         "end": 757.36,
         "speaker": "Speaker",
@@ -55420,7 +55343,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 213,
+        "id": 211,
         "start": 757.4,
         "end": 758.58,
         "speaker": "Speaker",
@@ -55436,7 +55359,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 214,
+        "id": 212,
         "start": 758.62,
         "end": 761.56,
         "speaker": "Speaker",
@@ -55452,7 +55375,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 215,
+        "id": 213,
         "start": 761.6,
         "end": 763.04,
         "speaker": "Speaker",
@@ -55468,7 +55391,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 216,
+        "id": 214,
         "start": 763.08,
         "end": 766.44,
         "speaker": "Speaker",
@@ -55484,7 +55407,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 217,
+        "id": 215,
         "start": 766.48,
         "end": 768.64,
         "speaker": "Speaker",
@@ -55500,7 +55423,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 218,
+        "id": 216,
         "start": 768.68,
         "end": 770.68,
         "speaker": "Speaker",
@@ -55516,7 +55439,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 219,
+        "id": 217,
         "start": 770.72,
         "end": 772.26,
         "speaker": "Speaker",
@@ -55532,7 +55455,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 220,
+        "id": 218,
         "start": 772.3,
         "end": 774.36,
         "speaker": "Speaker",
@@ -55548,7 +55471,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 221,
+        "id": 219,
         "start": 774.4,
         "end": 775.86,
         "speaker": "Speaker",
@@ -55564,7 +55487,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 222,
+        "id": 220,
         "start": 775.9,
         "end": 778.04,
         "speaker": "Speaker",
@@ -55580,7 +55503,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 223,
+        "id": 221,
         "start": 778.08,
         "end": 780.32,
         "speaker": "Speaker",
@@ -55596,7 +55519,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 224,
+        "id": 222,
         "start": 780.36,
         "end": 782.28,
         "speaker": "Speaker",
@@ -55612,7 +55535,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 225,
+        "id": 223,
         "start": 782.32,
         "end": 784.12,
         "speaker": "Speaker",
@@ -55628,7 +55551,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 226,
+        "id": 224,
         "start": 784.16,
         "end": 786.56,
         "speaker": "Speaker",
@@ -55644,7 +55567,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 227,
+        "id": 225,
         "start": 786.6,
         "end": 786.98,
         "speaker": "Speaker",
@@ -55660,7 +55583,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 228,
+        "id": 226,
         "start": 787.02,
         "end": 788.42,
         "speaker": "Speaker",
@@ -55676,7 +55599,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 229,
+        "id": 227,
         "start": 788.46,
         "end": 789.45,
         "speaker": "Speaker",
@@ -55692,7 +55615,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 230,
+        "id": 228,
         "start": 789.49,
         "end": 790.48,
         "speaker": "Speaker",
@@ -55708,7 +55631,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 231,
+        "id": 229,
         "start": 790.52,
         "end": 790.97,
         "speaker": "Speaker",
@@ -55724,7 +55647,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 232,
+        "id": 230,
         "start": 791.01,
         "end": 793.39,
         "speaker": "Speaker",
@@ -55740,7 +55663,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 233,
+        "id": 231,
         "start": 793.43,
         "end": 794.04,
         "speaker": "Speaker",
@@ -55756,7 +55679,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 234,
+        "id": 232,
         "start": 794.08,
         "end": 796.09,
         "speaker": "Speaker",
@@ -55772,7 +55695,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 235,
+        "id": 233,
         "start": 796.13,
         "end": 797.84,
         "speaker": "Speaker",
@@ -55788,7 +55711,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 236,
+        "id": 234,
         "start": 797.88,
         "end": 799.24,
         "speaker": "Speaker",
@@ -55804,7 +55727,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 237,
+        "id": 235,
         "start": 799.28,
         "end": 806.32,
         "speaker": "Speaker",
@@ -55825,7 +55748,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 238,
+        "id": 236,
         "start": 806.36,
         "end": 809.22,
         "speaker": "Speaker",
@@ -55841,24 +55764,8 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 239,
+        "id": 237,
         "start": 809.26,
-        "end": 810.21,
-        "speaker": "Speaker",
-        "en": "Not Paris, France.",
-        "ipa": "/nɑːt ˈpærɪs fræns/",
-        "zh": "不是法国巴黎。",
-        "highlights": [
-          {
-            "text": "Not Paris",
-            "key": "not paris",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 240,
-        "start": 810.25,
         "end": 811.12,
         "speaker": "Speaker",
         "en": "Not Paris, France.",
@@ -55873,7 +55780,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 241,
+        "id": 238,
         "start": 811.16,
         "end": 816.6,
         "speaker": "Speaker",
@@ -55894,7 +55801,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 242,
+        "id": 239,
         "start": 816.64,
         "end": 820.64,
         "speaker": "Speaker",
@@ -55910,7 +55817,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 243,
+        "id": 240,
         "start": 820.68,
         "end": 823.72,
         "speaker": "Speaker",
@@ -55926,7 +55833,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 244,
+        "id": 241,
         "start": 823.76,
         "end": 831.62,
         "speaker": "Speaker",
@@ -55947,7 +55854,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 245,
+        "id": 242,
         "start": 831.66,
         "end": 836.08,
         "speaker": "Speaker",
@@ -55963,7 +55870,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 246,
+        "id": 243,
         "start": 836.12,
         "end": 836.58,
         "speaker": "Speaker",
@@ -55979,7 +55886,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 247,
+        "id": 244,
         "start": 836.62,
         "end": 839.55,
         "speaker": "Speaker",
@@ -55995,7 +55902,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 248,
+        "id": 245,
         "start": 839.59,
         "end": 842.89,
         "speaker": "Speaker",
@@ -56011,7 +55918,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 249,
+        "id": 246,
         "start": 842.93,
         "end": 847.14,
         "speaker": "Speaker",
@@ -56027,7 +55934,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 250,
+        "id": 247,
         "start": 847.18,
         "end": 847.51,
         "speaker": "Speaker",
@@ -56043,7 +55950,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 251,
+        "id": 248,
         "start": 847.55,
         "end": 850.48,
         "speaker": "Speaker",
@@ -56059,7 +55966,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 252,
+        "id": 249,
         "start": 850.52,
         "end": 855.76,
         "speaker": "Speaker",
@@ -56075,7 +55982,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 253,
+        "id": 250,
         "start": 855.8,
         "end": 860.22,
         "speaker": "Speaker",
@@ -56091,7 +55998,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 254,
+        "id": 251,
         "start": 860.26,
         "end": 866.94,
         "speaker": "Speaker",
@@ -56107,7 +56014,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 255,
+        "id": 252,
         "start": 866.98,
         "end": 874.52,
         "speaker": "Speaker",
@@ -56123,7 +56030,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 256,
+        "id": 253,
         "start": 874.56,
         "end": 878.51,
         "speaker": "Speaker",
@@ -56139,7 +56046,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 257,
+        "id": 254,
         "start": 878.55,
         "end": 884.32,
         "speaker": "Speaker",
@@ -56155,7 +56062,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 258,
+        "id": 255,
         "start": 884.36,
         "end": 886.84,
         "speaker": "Speaker",
@@ -56171,7 +56078,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 259,
+        "id": 256,
         "start": 886.88,
         "end": 892.68,
         "speaker": "Speaker",
@@ -56187,7 +56094,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 260,
+        "id": 257,
         "start": 892.72,
         "end": 896.02,
         "speaker": "Speaker",
@@ -56203,7 +56110,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 261,
+        "id": 258,
         "start": 896.06,
         "end": 902.56,
         "speaker": "Speaker",
@@ -56224,7 +56131,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 262,
+        "id": 259,
         "start": 902.6,
         "end": 910.2,
         "speaker": "Speaker",
@@ -56245,7 +56152,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 263,
+        "id": 260,
         "start": 910.24,
         "end": 911.12,
         "speaker": "Speaker",
@@ -56276,7 +56183,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "美食",
       "旅行",
-      "名人访谈"
+      "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/Interviewing%20Native%20English%20Speakers%20on%20St.%20Patrick%E2%80%99s%20Day.webp",
@@ -56286,8 +56193,12 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        84.67,
+        78.17,
         101.68
+      ],
+      [
+        323.77,
+        325.72
       ],
       [
         478.52,
@@ -56330,7 +56241,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 3,
         "start": 6.06,
-        "end": 11.54,
+        "end": 12.57,
         "speaker": "Speaker",
         "en": "Today, we're in the Windy City in Chicago and today we're celebrating St. Patrick's Day.",
         "ipa": "/təˈdeɪ wir ɪn ðə ˈwɪndi ˈsɪti ɪn ʃɪˈkɑɡoʊ ənd təˈdeɪ wir ˈsɛlɪˌbreɪtɪŋ seɪnt ˈpætrɪks deɪ/",
@@ -56345,22 +56256,6 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 4,
-        "start": 11.58,
-        "end": 12.57,
-        "speaker": "Speaker",
-        "en": "Patrick's Day.",
-        "ipa": "/ˈpætrɪks deɪ/",
-        "zh": "圣帕特里克节。",
-        "highlights": [
-          {
-            "text": "Patrick",
-            "key": "patrick",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 5,
         "start": 12.61,
         "end": 15.88,
         "speaker": "Speaker",
@@ -56376,7 +56271,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 6,
+        "id": 5,
         "start": 15.92,
         "end": 18.64,
         "speaker": "Speaker",
@@ -56392,7 +56287,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 7,
+        "id": 6,
         "start": 18.68,
         "end": 21.6,
         "speaker": "Speaker",
@@ -56408,7 +56303,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 8,
+        "id": 7,
         "start": 21.64,
         "end": 25.13,
         "speaker": "Speaker",
@@ -56424,7 +56319,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 9,
+        "id": 8,
         "start": 25.17,
         "end": 29.79,
         "speaker": "Speaker",
@@ -56440,7 +56335,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 10,
+        "id": 9,
         "start": 29.83,
         "end": 32.93,
         "speaker": "Speaker",
@@ -56456,7 +56351,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 11,
+        "id": 10,
         "start": 32.97,
         "end": 38.94,
         "speaker": "Speaker",
@@ -56472,7 +56367,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 12,
+        "id": 11,
         "start": 38.98,
         "end": 43.73,
         "speaker": "Speaker",
@@ -56488,7 +56383,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 13,
+        "id": 12,
         "start": 43.77,
         "end": 46.13,
         "speaker": "Speaker",
@@ -56504,7 +56399,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 14,
+        "id": 13,
         "start": 46.17,
         "end": 51.14,
         "speaker": "Speaker",
@@ -56520,7 +56415,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 15,
+        "id": 14,
         "start": 51.18,
         "end": 54.41,
         "speaker": "Speaker",
@@ -56536,7 +56431,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 16,
+        "id": 15,
         "start": 54.45,
         "end": 62.5,
         "speaker": "Speaker",
@@ -56552,7 +56447,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 17,
+        "id": 16,
         "start": 62.54,
         "end": 66.31,
         "speaker": "Speaker",
@@ -56568,7 +56463,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 18,
+        "id": 17,
         "start": 66.35,
         "end": 72.68,
         "speaker": "Speaker",
@@ -56584,9 +56479,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 19,
+        "id": 18,
         "start": 72.72,
-        "end": 84.67,
+        "end": 78.17,
         "speaker": "Speaker",
         "en": "With the Y.",
         "ipa": "/wɪð ðə waɪ/",
@@ -56594,7 +56489,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 20,
+        "id": 19,
         "start": 101.68,
         "end": 105.81,
         "speaker": "Speaker",
@@ -56610,7 +56505,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 21,
+        "id": 20,
         "start": 105.85,
         "end": 109.49,
         "speaker": "Speaker",
@@ -56626,7 +56521,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 22,
+        "id": 21,
         "start": 109.53,
         "end": 113.44,
         "speaker": "Speaker",
@@ -56642,7 +56537,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 23,
+        "id": 22,
         "start": 113.48,
         "end": 118.88,
         "speaker": "Speaker",
@@ -56658,7 +56553,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 24,
+        "id": 23,
         "start": 118.92,
         "end": 120.22,
         "speaker": "Speaker",
@@ -56674,7 +56569,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 25,
+        "id": 24,
         "start": 120.26,
         "end": 128.33,
         "speaker": "Speaker",
@@ -56690,9 +56585,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 26,
+        "id": 25,
         "start": 128.37,
-        "end": 129.84,
+        "end": 130.72,
         "speaker": "Speaker",
         "en": "Now, what is St. Patrick's Day?",
         "ipa": "/naʊ wʌt ɪz seɪnt ˈpætrɪks deɪ/",
@@ -56706,23 +56601,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 27,
-        "start": 129.88,
-        "end": 130.72,
-        "speaker": "Speaker",
-        "en": "Patrick's Day?",
-        "ipa": "/ˈpætrɪks deɪ/",
-        "zh": "圣帕特里克节？",
-        "highlights": [
-          {
-            "text": "Patrick",
-            "key": "patrick",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 28,
+        "id": 26,
         "start": 130.76,
         "end": 130.91,
         "speaker": "Speaker",
@@ -56738,7 +56617,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 29,
+        "id": 27,
         "start": 130.95,
         "end": 135.17,
         "speaker": "Speaker",
@@ -56754,7 +56633,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 30,
+        "id": 28,
         "start": 135.21,
         "end": 135.74,
         "speaker": "Speaker",
@@ -56770,7 +56649,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 31,
+        "id": 29,
         "start": 135.78,
         "end": 142.7,
         "speaker": "Speaker",
@@ -56786,9 +56665,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 32,
+        "id": 30,
         "start": 142.74,
-        "end": 152.08,
+        "end": 157.49,
         "speaker": "Speaker",
         "en": "Chicago actually has one of the most famous celebrations in the world including the Chicago St. Patrick's Day parade.",
         "ipa": "/ʃɪˈkɑɡoʊ ˈækʧuəli hæz wʌn ʌv ðə moʊst ˈfeɪməs ˌsɛlɪˈbreɪʃənz ɪn ðə wɜrld ɪnˈkludɪŋ ðə ʃɪˈkɑɡoʊ seɪnt ˈpætrɪks deɪ pəˈreɪd/",
@@ -56802,30 +56681,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 33,
-        "start": 152.12,
-        "end": 157.49,
-        "speaker": "Speaker",
-        "en": "Patrick's Day parade.",
-        "ipa": "/ˈpætrɪks deɪ pəˈreɪd/",
-        "zh": "帕特里克节游行。",
-        "highlights": [
-          {
-            "text": "Patrick",
-            "key": "patrick",
-            "chip": "orange"
-          },
-          {
-            "text": "parade",
-            "key": "parade",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 34,
+        "id": 31,
         "start": 157.53,
-        "end": 159.12,
+        "end": 161.72,
         "speaker": "Speaker",
         "en": "Lauren, how do you celebrate St. Patrick's Day?",
         "ipa": "/ˈlɔrən haʊ du ju ˈsɛlɪˌbreɪt seɪnt ˈpætrɪks deɪ/",
@@ -56839,39 +56697,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 35,
-        "start": 159.16,
-        "end": 160.8,
-        "speaker": "Speaker",
-        "en": "Lauren, how do you celebrate St. Patrick's Day?",
-        "ipa": "/ˈlɔːrən, haʊ duː juː ˈsɛlɪbreɪt seɪnt ˈpætrɪks deɪ/",
-        "zh": "劳伦，你们是怎么庆祝圣帕特里克节的？",
-        "highlights": [
-          {
-            "text": "celebrate",
-            "key": "celebrate",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "start": 160.84,
-        "end": 161.72,
-        "speaker": "Speaker",
-        "en": "Patrick's Day?",
-        "ipa": "/ˈpætrɪks deɪ/",
-        "zh": "圣帕特里克节吗？",
-        "highlights": [
-          {
-            "text": "Patrick's Day",
-            "key": "圣帕特里克节",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 37,
+        "id": 32,
         "start": 161.76,
         "end": 165.32,
         "speaker": "Speaker",
@@ -56887,7 +56713,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 38,
+        "id": 33,
         "start": 165.36,
         "end": 168.67,
         "speaker": "Speaker",
@@ -56903,7 +56729,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 39,
+        "id": 34,
         "start": 168.71,
         "end": 172.71,
         "speaker": "Speaker",
@@ -56919,7 +56745,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 40,
+        "id": 35,
         "start": 172.75,
         "end": 174.77,
         "speaker": "Speaker",
@@ -56935,7 +56761,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 41,
+        "id": 36,
         "start": 174.81,
         "end": 175.51,
         "speaker": "Speaker",
@@ -56951,7 +56777,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 42,
+        "id": 37,
         "start": 175.55,
         "end": 181.59,
         "speaker": "Speaker",
@@ -56967,7 +56793,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 43,
+        "id": 38,
         "start": 181.63,
         "end": 188.8,
         "speaker": "Speaker",
@@ -56983,9 +56809,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 44,
+        "id": 39,
         "start": 188.84,
-        "end": 190.52,
+        "end": 192.7,
         "speaker": "Speaker",
         "en": "A lot of people come here during St. Patrick's Day to be on the river.",
         "ipa": "/ə lɑt əv ˈpipəl kʌm hɪr ˈdʊrɪŋ seɪnt ˈpætrɪks deɪ tu bi ɑn ðə ˈrɪvər/",
@@ -56999,23 +56825,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 45,
-        "start": 190.56,
-        "end": 192.7,
-        "speaker": "Speaker",
-        "en": "Patrick's Day to be on the river.",
-        "ipa": "/ˈpætrɪks deɪ tu bi ɑn ðə ˈrɪvər/",
-        "zh": "圣帕特里克节在河上活动。",
-        "highlights": [
-          {
-            "text": "on the river",
-            "key": "在河上",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 46,
+        "id": 40,
         "start": 192.74,
         "end": 197.54,
         "speaker": "Speaker",
@@ -57031,9 +56841,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 47,
+        "id": 41,
         "start": 197.58,
-        "end": 200.32,
+        "end": 203.83,
         "speaker": "Speaker",
         "en": "One fun activity you can do this St. Patrick's Day is go on a boat ride in Chicago.",
         "ipa": "/wʌn fʌn ækˈtɪvəti ju kæn du ðɪs seɪnt ˈpætrɪks deɪ ɪz ɡoʊ ɑn ə boʊt raɪd ɪn ʃɪˈkɑɡoʊ/",
@@ -57047,23 +56857,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 48,
-        "start": 200.36,
-        "end": 203.83,
-        "speaker": "Speaker",
-        "en": "Patrick's Day is go on a boat ride in Chicago.",
-        "ipa": "/ˈpætrɪks deɪ ɪz ɡoʊ ɑn ə boʊt raɪd ɪn ʃɪˈkɑɡoʊ/",
-        "zh": "圣帕特里克节去芝加哥坐船游览。",
-        "highlights": [
-          {
-            "text": "boat ride",
-            "key": "乘船游览",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 49,
+        "id": 42,
         "start": 203.87,
         "end": 212.84,
         "speaker": "Speaker",
@@ -57084,7 +56878,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 50,
+        "id": 43,
         "start": 212.88,
         "end": 217.55,
         "speaker": "Speaker",
@@ -57100,7 +56894,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 51,
+        "id": 44,
         "start": 217.59,
         "end": 220.63,
         "speaker": "Speaker",
@@ -57116,9 +56910,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 52,
+        "id": 45,
         "start": 220.67,
-        "end": 223.56,
+        "end": 226.39,
         "speaker": "Speaker",
         "en": "In American culture, if you don't wear green on St. Patrick's Day, you get pinched.",
         "ipa": "/ɪn əˈmɛrɪkən ˈkʌltʃər ɪf ju doʊnt wɛr ɡrin ɑn seɪnt ˈpætrɪks deɪ ju ɡɛt pɪntʃt/",
@@ -57132,23 +56926,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 53,
-        "start": 223.6,
-        "end": 226.39,
-        "speaker": "Speaker",
-        "en": "Patrick's Day, you get pinched.",
-        "ipa": "/ˈpætrɪks deɪ ju ɡɛt pɪntʃt/",
-        "zh": "圣帕特里克节，你会被掐。",
-        "highlights": [
-          {
-            "text": "pinched",
-            "key": "掐",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 54,
+        "id": 46,
         "start": 226.43,
         "end": 227.25,
         "speaker": "Speaker",
@@ -57164,7 +56942,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 55,
+        "id": 47,
         "start": 227.29,
         "end": 233.11,
         "speaker": "Speaker",
@@ -57180,7 +56958,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 56,
+        "id": 48,
         "start": 233.15,
         "end": 238.48,
         "speaker": "Speaker",
@@ -57196,7 +56974,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 57,
+        "id": 49,
         "start": 238.52,
         "end": 238.91,
         "speaker": "Speaker",
@@ -57212,7 +56990,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 58,
+        "id": 50,
         "start": 238.95,
         "end": 248.11,
         "speaker": "Speaker",
@@ -57228,7 +57006,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 59,
+        "id": 51,
         "start": 248.15,
         "end": 249.36,
         "speaker": "Speaker",
@@ -57244,7 +57022,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 60,
+        "id": 52,
         "start": 249.4,
         "end": 254.64,
         "speaker": "Speaker",
@@ -57265,7 +57043,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 61,
+        "id": 53,
         "start": 254.68,
         "end": 258.65,
         "speaker": "Speaker",
@@ -57281,7 +57059,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 62,
+        "id": 54,
         "start": 258.69,
         "end": 261.08,
         "speaker": "Speaker",
@@ -57297,7 +57075,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 63,
+        "id": 55,
         "start": 261.12,
         "end": 264.05,
         "speaker": "Speaker",
@@ -57313,7 +57091,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 64,
+        "id": 56,
         "start": 264.09,
         "end": 270.73,
         "speaker": "Speaker",
@@ -57329,7 +57107,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 65,
+        "id": 57,
         "start": 270.77,
         "end": 272.2,
         "speaker": "Speaker",
@@ -57345,7 +57123,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 66,
+        "id": 58,
         "start": 272.24,
         "end": 274.18,
         "speaker": "Speaker",
@@ -57361,7 +57139,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 67,
+        "id": 59,
         "start": 274.22,
         "end": 276.68,
         "speaker": "Speaker",
@@ -57377,7 +57155,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 68,
+        "id": 60,
         "start": 276.72,
         "end": 281.57,
         "speaker": "Speaker",
@@ -57393,7 +57171,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 69,
+        "id": 61,
         "start": 281.61,
         "end": 285.68,
         "speaker": "Speaker",
@@ -57409,7 +57187,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 70,
+        "id": 62,
         "start": 285.72,
         "end": 286.74,
         "speaker": "Speaker",
@@ -57425,7 +57203,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 71,
+        "id": 63,
         "start": 286.78,
         "end": 289.92,
         "speaker": "Speaker",
@@ -57441,7 +57219,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 72,
+        "id": 64,
         "start": 289.96,
         "end": 291.78,
         "speaker": "Speaker",
@@ -57457,7 +57235,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 73,
+        "id": 65,
         "start": 291.82,
         "end": 292.47,
         "speaker": "Speaker",
@@ -57473,7 +57251,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 74,
+        "id": 66,
         "start": 292.51,
         "end": 296.12,
         "speaker": "Speaker",
@@ -57489,7 +57267,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 75,
+        "id": 67,
         "start": 296.16,
         "end": 297.56,
         "speaker": "Speaker",
@@ -57499,7 +57277,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 76,
+        "id": 68,
         "start": 297.6,
         "end": 299.28,
         "speaker": "Speaker",
@@ -57515,7 +57293,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 77,
+        "id": 69,
         "start": 299.32,
         "end": 305.56,
         "speaker": "Speaker",
@@ -57531,7 +57309,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 78,
+        "id": 70,
         "start": 305.6,
         "end": 307.4,
         "speaker": "Speaker",
@@ -57547,7 +57325,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 79,
+        "id": 71,
         "start": 307.44,
         "end": 309.88,
         "speaker": "Speaker",
@@ -57557,7 +57335,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 80,
+        "id": 72,
         "start": 309.92,
         "end": 317.54,
         "speaker": "Speaker",
@@ -57578,7 +57356,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 81,
+        "id": 73,
         "start": 317.58,
         "end": 318.28,
         "speaker": "Speaker",
@@ -57594,9 +57372,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 82,
+        "id": 74,
         "start": 318.32,
-        "end": 325.68,
+        "end": 323.77,
         "speaker": "Speaker",
         "en": "Not from Amazon.",
         "ipa": "/nɑt frʌm ˈæməˌzɑn./",
@@ -57610,7 +57388,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 83,
+        "id": 75,
         "start": 325.72,
         "end": 326.53,
         "speaker": "Speaker",
@@ -57626,7 +57404,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 84,
+        "id": 76,
         "start": 326.57,
         "end": 328.03,
         "speaker": "Speaker",
@@ -57636,7 +57414,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 85,
+        "id": 77,
         "start": 328.07,
         "end": 329.32,
         "speaker": "Speaker",
@@ -57652,7 +57430,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 86,
+        "id": 78,
         "start": 329.36,
         "end": 332.05,
         "speaker": "Speaker",
@@ -57668,7 +57446,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 87,
+        "id": 79,
         "start": 332.09,
         "end": 334.52,
         "speaker": "Speaker",
@@ -57684,7 +57462,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 88,
+        "id": 80,
         "start": 334.56,
         "end": 335.58,
         "speaker": "Speaker",
@@ -57700,7 +57478,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 89,
+        "id": 81,
         "start": 335.62,
         "end": 340.72,
         "speaker": "Speaker",
@@ -57716,9 +57494,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 82,
         "start": 340.76,
-        "end": 346.96,
+        "end": 346.71,
         "speaker": "Speaker",
         "en": "Well, you know what?",
         "ipa": "/wɛl, ju noʊ wʌt?/",
@@ -57726,7 +57504,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 91,
+        "id": 83,
         "start": 347.0,
         "end": 348.2,
         "speaker": "Speaker",
@@ -57742,9 +57520,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 92,
+        "id": 84,
         "start": 348.24,
-        "end": 354.32,
+        "end": 354.19,
         "speaker": "Speaker",
         "en": "What is a leprechaun?",
         "ipa": "/wʌt ɪz ə ˈlɛprəˌkɔn?/",
@@ -57758,7 +57536,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 93,
+        "id": 85,
         "start": 354.36,
         "end": 355.93,
         "speaker": "Speaker",
@@ -57774,7 +57552,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 86,
         "start": 355.97,
         "end": 358.29,
         "speaker": "Speaker",
@@ -57790,7 +57568,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 95,
+        "id": 87,
         "start": 358.33,
         "end": 364.64,
         "speaker": "Speaker",
@@ -57806,7 +57584,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 88,
         "start": 364.68,
         "end": 370.04,
         "speaker": "Speaker",
@@ -57822,7 +57600,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 89,
         "start": 370.08,
         "end": 374.02,
         "speaker": "Speaker",
@@ -57838,7 +57616,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 98,
+        "id": 90,
         "start": 374.06,
         "end": 377.4,
         "speaker": "Speaker",
@@ -57854,7 +57632,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 91,
         "start": 377.44,
         "end": 378.32,
         "speaker": "Speaker",
@@ -57864,7 +57642,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 100,
+        "id": 92,
         "start": 378.36,
         "end": 380.64,
         "speaker": "Speaker",
@@ -57880,7 +57658,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 101,
+        "id": 93,
         "start": 380.68,
         "end": 382.92,
         "speaker": "Speaker",
@@ -57896,7 +57674,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 102,
+        "id": 94,
         "start": 382.96,
         "end": 384.34,
         "speaker": "Speaker",
@@ -57917,7 +57695,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 103,
+        "id": 95,
         "start": 384.38,
         "end": 390.41,
         "speaker": "Speaker",
@@ -57933,7 +57711,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 104,
+        "id": 96,
         "start": 390.45,
         "end": 392.04,
         "speaker": "Speaker",
@@ -57949,7 +57727,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 97,
         "start": 392.08,
         "end": 392.8,
         "speaker": "Speaker",
@@ -57965,7 +57743,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 106,
+        "id": 98,
         "start": 392.84,
         "end": 394.96,
         "speaker": "Speaker",
@@ -57981,7 +57759,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 107,
+        "id": 99,
         "start": 395.0,
         "end": 398.92,
         "speaker": "Speaker",
@@ -57997,7 +57775,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 108,
+        "id": 100,
         "start": 398.96,
         "end": 401.12,
         "speaker": "Speaker",
@@ -58013,7 +57791,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 109,
+        "id": 101,
         "start": 401.16,
         "end": 404.32,
         "speaker": "Speaker",
@@ -58029,7 +57807,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 110,
+        "id": 102,
         "start": 404.36,
         "end": 408.96,
         "speaker": "Speaker",
@@ -58045,7 +57823,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 111,
+        "id": 103,
         "start": 409.0,
         "end": 416.92,
         "speaker": "Speaker",
@@ -58061,7 +57839,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 112,
+        "id": 104,
         "start": 416.96,
         "end": 419.13,
         "speaker": "Speaker",
@@ -58077,7 +57855,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 113,
+        "id": 105,
         "start": 419.17,
         "end": 420.04,
         "speaker": "Speaker",
@@ -58093,7 +57871,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 114,
+        "id": 106,
         "start": 420.08,
         "end": 422.52,
         "speaker": "Speaker",
@@ -58109,7 +57887,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 115,
+        "id": 107,
         "start": 422.56,
         "end": 424.12,
         "speaker": "Speaker",
@@ -58125,9 +57903,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 116,
+        "id": 108,
         "start": 424.16,
-        "end": 425.77,
+        "end": 427.2,
         "speaker": "Speaker",
         "en": "Many people during St. Patrick's Day drink.",
         "ipa": "/ˈmɛni ˈpipəl ˈdʊrɪŋ seɪnt ˈpætrɪks deɪ drɪŋk./",
@@ -58141,23 +57919,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 117,
-        "start": 425.81,
-        "end": 427.2,
-        "speaker": "Speaker",
-        "en": "Patrick's Day drink.",
-        "ipa": "/ˈpætrɪks deɪ drɪŋk./",
-        "zh": "帕特里克节喝酒。",
-        "highlights": [
-          {
-            "text": "drink",
-            "key": "drink",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 118,
+        "id": 109,
         "start": 427.24,
         "end": 428.55,
         "speaker": "Speaker",
@@ -58173,7 +57935,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 119,
+        "id": 110,
         "start": 428.59,
         "end": 431.32,
         "speaker": "Speaker",
@@ -58189,7 +57951,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 120,
+        "id": 111,
         "start": 431.36,
         "end": 434.08,
         "speaker": "Speaker",
@@ -58205,9 +57967,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 121,
+        "id": 112,
         "start": 434.12,
-        "end": 435.56,
+        "end": 436.56,
         "speaker": "Speaker",
         "en": "Sam, how are you celebrating St. Patrick's Day?",
         "ipa": "/sæm, haʊ ɑr ju ˈsɛləˌbreɪtɪŋ seɪnt ˈpætrɪks deɪ?/",
@@ -58221,23 +57983,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 122,
-        "start": 435.6,
-        "end": 436.56,
-        "speaker": "Speaker",
-        "en": "Patrick's Day?",
-        "ipa": "/ˈpætrɪks deɪ?/",
-        "zh": "帕特里克节？",
-        "highlights": [
-          {
-            "text": "Patrick's Day",
-            "key": "Patrick's Day",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 123,
+        "id": 113,
         "start": 436.6,
         "end": 455.59,
         "speaker": "Speaker",
@@ -58263,7 +58009,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 124,
+        "id": 114,
         "start": 455.63,
         "end": 457.12,
         "speaker": "Speaker",
@@ -58279,7 +58025,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 125,
+        "id": 115,
         "start": 457.16,
         "end": 461.12,
         "speaker": "Speaker",
@@ -58295,7 +58041,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 126,
+        "id": 116,
         "start": 461.16,
         "end": 463.46,
         "speaker": "Speaker",
@@ -58311,9 +58057,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 127,
+        "id": 117,
         "start": 463.5,
-        "end": 464.68,
+        "end": 466.4,
         "speaker": "Speaker",
         "en": "Do you celebrate St. Patrick's Day in your city?",
         "ipa": "/du ju ˈsɛləˌbreɪt seɪnt ˈpætrɪks deɪ ɪn jɔr ˈsɪti?/",
@@ -58327,23 +58073,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 128,
-        "start": 464.72,
-        "end": 466.4,
-        "speaker": "Speaker",
-        "en": "Patrick's Day in your city?",
-        "ipa": "/ˈpætrɪks deɪ ɪn jɔr ˈsɪti?/",
-        "zh": "你们城市庆祝圣帕特里克节吗？",
-        "highlights": [
-          {
-            "text": "city",
-            "key": "city",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 129,
+        "id": 118,
         "start": 466.44,
         "end": 468.05,
         "speaker": "Speaker",
@@ -58359,7 +58089,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 130,
+        "id": 119,
         "start": 468.09,
         "end": 475.36,
         "speaker": "Speaker",
@@ -58375,9 +58105,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 131,
+        "id": 120,
         "start": 475.4,
-        "end": 476.58,
+        "end": 478.52,
         "speaker": "Speaker",
         "en": "Happy St. Patrick's Day.",
         "ipa": "/ˈhæpi seɪnt ˈpætrɪks deɪ./",
@@ -58386,22 +58116,6 @@ export const LOCAL_EPISODES = [
           {
             "text": "Happy",
             "key": "Happy",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 132,
-        "start": 476.62,
-        "end": 478.52,
-        "speaker": "Speaker",
-        "en": "Patrick's Day.",
-        "ipa": "/ˈpætrɪks deɪ./",
-        "zh": "圣帕特里克节。",
-        "highlights": [
-          {
-            "text": "Patrick's Day",
-            "key": "Patrick's Day",
             "chip": "orange"
           }
         ]
@@ -58432,8 +58146,12 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "购物",
     "skipRanges": [
       [
-        28.4,
+        21.9,
         35.4
+      ],
+      [
+        496.1,
+        498.52
       ],
       [
         740.36,
@@ -58508,7 +58226,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 5,
         "start": 16.45,
-        "end": 28.4,
+        "end": 21.9,
         "speaker": "Speaker",
         "en": "Let's start skiing.",
         "ipa": "/lɛts stɑrt ˈskiɪŋ./",
@@ -60200,7 +59918,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 105,
         "start": 488.55,
-        "end": 498.48,
+        "end": 496.1,
         "speaker": "Speaker",
         "en": "I'll see you guys down there.",
         "ipa": "/aɪl si ju ɡaɪz daʊn ðɛr./",
@@ -61194,11 +60912,19 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "日常对话",
     "skipRanges": [
       [
-        364.92,
+        81.54,
+        83.52
+      ],
+      [
+        236.51,
+        240.32
+      ],
+      [
+        360.52,
         365.92
       ],
       [
-        900.46,
+        897.66,
         901.04
       ],
       [
@@ -61471,7 +61197,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 17,
         "start": 72.39,
-        "end": 83.48,
+        "end": 81.54,
         "speaker": "Speaker",
         "en": "It can be big, small, plain, or fancy.",
         "ipa": "/ɪt kən bi bɪɡ, smɔl, pleɪn, ɔr ˈfænsi/",
@@ -61982,7 +61708,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 48,
         "start": 228.16,
-        "end": 240.11,
+        "end": 236.51,
         "speaker": "Speaker",
         "en": "And this will help support the church.",
         "ipa": "/ænd ðɪs wɪl hɛlp səˈpɔrt ðə ʧɜrʧ./",
@@ -62402,7 +62128,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 73,
         "start": 352.97,
-        "end": 364.92,
+        "end": 360.52,
         "speaker": "Speaker",
         "en": "Let's try to enter the church.",
         "ipa": "/lɛts traɪ tu ˈɛntər ðə tʃɜrtʃ./",
@@ -64443,7 +64169,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 189,
         "start": 888.51,
-        "end": 900.46,
+        "end": 897.66,
         "speaker": "Speaker",
         "en": "Now let's move on to the next religion.",
         "ipa": "/naʊ lɛts muv ɑn tu... ðə nɛkst rɪˈlɪdʒən./",
@@ -68422,7 +68148,6 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "美食",
-      "个人成长",
       "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
@@ -68437,19 +68162,27 @@ export const LOCAL_EPISODES = [
         7.44
       ],
       [
-        14.66,
+        12.89,
         16.4
       ],
       [
-        60.77,
+        43.85,
+        49.68
+      ],
+      [
+        55.13,
         110.32
       ],
       [
-        130.67,
+        117.07,
+        118.72
+      ],
+      [
+        127.87,
         139.92
       ],
       [
-        151.87,
+        145.37,
         224.0
       ],
       [
@@ -68457,11 +68190,11 @@ export const LOCAL_EPISODES = [
         244.16
       ],
       [
-        264.22,
+        259.82,
         269.36
       ],
       [
-        361.87,
+        355.37,
         369.76
       ],
       [
@@ -68469,15 +68202,19 @@ export const LOCAL_EPISODES = [
         395.84
       ],
       [
-        407.79,
+        401.79,
         417.68
       ],
       [
-        442.41,
+        423.13,
+        428.96
+      ],
+      [
+        442.91,
         465.04
       ],
       [
-        480.74,
+        481.39,
         485.12
       ],
       [
@@ -68489,6 +68226,10 @@ export const LOCAL_EPISODES = [
         528.16
       ],
       [
+        535.71,
+        537.51
+      ],
+      [
         585.56,
         586.33
       ]
@@ -68497,7 +68238,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 1,
         "start": 7.44,
-        "end": 14.66,
+        "end": 12.89,
         "speaker": "Speaker",
         "en": "So.",
         "ipa": "/soʊ/",
@@ -68592,7 +68333,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 6,
         "start": 38.4,
-        "end": 49.64,
+        "end": 43.85,
         "speaker": "Speaker",
         "en": "Good boy.",
         "ipa": "/ɡʊd bɔɪ/",
@@ -68608,7 +68349,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 7,
         "start": 49.68,
-        "end": 60.77,
+        "end": 55.13,
         "speaker": "Speaker",
         "en": "So.",
         "ipa": "/soʊ/",
@@ -68624,7 +68365,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 8,
         "start": 110.32,
-        "end": 118.68,
+        "end": 117.07,
         "speaker": "Speaker",
         "en": "And there we have breakfast.",
         "ipa": "/ænd ðɛər wiː hæv ˈbrɛkfəst/",
@@ -68640,7 +68381,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 9,
         "start": 118.72,
-        "end": 130.67,
+        "end": 127.87,
         "speaker": "Speaker",
         "en": "Gosh, I don't even know where to start.",
         "ipa": "/ɡɑːʃ, aɪ doʊnt ˈiːvən noʊ wɛər tuː stɑːrt/",
@@ -68656,7 +68397,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 10,
         "start": 139.92,
-        "end": 151.87,
+        "end": 145.37,
         "speaker": "Speaker",
         "en": "Uh, so, now.",
         "ipa": "/ʌ soʊ naʊ/",
@@ -68746,7 +68487,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 15,
         "start": 252.27,
-        "end": 264.22,
+        "end": 259.82,
         "speaker": "Speaker",
         "en": "No, this is all I have.",
         "ipa": "/ðɪs ɪz ɔːl aɪ hæv/",
@@ -68982,7 +68723,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 27,
         "start": 349.92,
-        "end": 361.87,
+        "end": 355.37,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/ˈoʊˌkeɪ/",
@@ -69045,7 +68786,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 31,
         "start": 395.84,
-        "end": 407.79,
+        "end": 401.79,
         "speaker": "Speaker",
         "en": "Bean sprouts go in.",
         "ipa": "/bin spraʊts ɡoʊ ɪn/",
@@ -69061,7 +68802,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 32,
         "start": 417.68,
-        "end": 428.92,
+        "end": 423.13,
         "speaker": "Speaker",
         "en": "I'm so excited.",
         "ipa": "/aɪm soʊ ɪkˈsaɪtɪd/",
@@ -69077,7 +68818,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 33,
         "start": 428.96,
-        "end": 442.41,
+        "end": 442.91,
         "speaker": "Speaker",
         "en": "They're on a Korean drama too, while you're at it, Um, it's quite spicy.",
         "ipa": "/ðɛr ɑn ə kəˈriən ˈdrɑmə tu, waɪl jʊr æt ɪt ʌm ɪts kwaɪt ˈspaɪsi/",
@@ -69098,7 +68839,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 34,
         "start": 465.04,
-        "end": 480.74,
+        "end": 481.39,
         "speaker": "Speaker",
         "en": "All right, today I'm gonna be making garlic pork belly pasta with a little bit of chili.",
         "ipa": "/ɔl raɪt təˈdeɪ aɪm ˈɡɑnə bi ˈmeɪkɪŋ ˈɡɑrlɪk pɔrk ˈbɛli ˈpɑstə wɪð ə ˈlɪtəl bɪt ʌv ˈʧɪli/",
@@ -69172,7 +68913,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 39,
         "start": 528.16,
-        "end": 537.47,
+        "end": 535.71,
         "speaker": "Speaker",
         "en": "So, Spicy, and this is dinner.",
         "ipa": "/soʊ ˈspaɪsi, ænd ðɪs ɪz ˈdɪnər. hɪr wi ɡoʊ/",
@@ -69332,7 +69073,6 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "旅行",
-      "个人成长",
       "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
@@ -70591,7 +70331,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 71,
         "start": 364.24,
-        "end": 371.41,
+        "end": 382.92,
         "speaker": "Speaker",
         "en": "This honestly feels like a mall, and I'm glad they have a lot of different restaurants because people like to eat inside the airport before getting on their plane.",
         "ipa": "/ðɪs ˈɑnstli ﬁlz laɪk ə mɔl, ænd aɪm glæd ðeɪ hæv ə lɑt ʌv ˈdɪfərənt ˈrɛstərɑnts bɪˈkʌz ˈpipəl laɪk tu iːt ˈɪnsaɪd ði ˈɛrˌpɔrt bɪˈfɔr ˈgɛtɪŋ ɑn ðɛr pleɪn/",
@@ -70611,43 +70351,6 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 72,
-        "start": 371.45,
-        "end": 374.24,
-        "speaker": "Speaker",
-        "en": "This honestly feels like a mall, and I'm glad they have a lot of different restaurants because people like to eat inside the airport before getting on their plane.",
-        "ipa": "/ðɪs ˈɑnstli ﬁlz laɪk ə mɔl, ænd aɪm glæd ðeɪ hæv ə lɑt ʌv ˈdɪfərənt ˈrɛstərɑnts bɪˈkʌz ˈpipəl laɪk tu iːt ˈɪnsaɪd ði ˈɛrˌpɔrt bɪˈfɔr ˈgɛtɪŋ ɑn ðɛr pleɪn/",
-        "zh": "老实说，这里感觉就像个商场，我很高兴这里有很多不同的餐馆，因为人们喜欢在上飞机前在机场里吃东西。",
-        "highlights": [
-          {
-            "text": "feels like",
-            "key": "feel like",
-            "chip": "indigo"
-          },
-          {
-            "text": "a lot of",
-            "key": "a lot of",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 73,
-        "start": 374.28,
-        "end": 382.92,
-        "speaker": "Speaker",
-        "en": "This honestly feels like a mall, and I'm glad they have a lot of different restaurants because people like to eat inside the airport before getting on their plane.",
-        "ipa": "/ðɪs ˈɑnstli ﬁlz laɪk ə mɔl, ænd aɪm glæd ðeɪ hæv ə lɑt ʌv ˈdɪfərənt ˈrɛstərɑnts bɪˈkʌz ˈpipəl laɪk tu iːt ˈɪnsaɪd ði ˈɛrˌpɔrt bɪˈfɔr ˈgɛtɪŋ ɑn ðɛr pleɪn/",
-        "zh": "老实说，这里感觉就像个商场，我很高兴这里有很多不同的餐馆，因为人们喜欢在上飞机前在机场里吃东西。",
-        "highlights": [
-          {
-            "text": "inside",
-            "key": "inside",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 74,
         "start": 382.96,
         "end": 388.76,
         "speaker": "Speaker",
@@ -70668,7 +70371,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 75,
+        "id": 73,
         "start": 388.8,
         "end": 393.72,
         "speaker": "Speaker",
@@ -70689,7 +70392,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 76,
+        "id": 74,
         "start": 393.76,
         "end": 398.32,
         "speaker": "Speaker",
@@ -70705,7 +70408,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 77,
+        "id": 75,
         "start": 398.36,
         "end": 402.41,
         "speaker": "Speaker",
@@ -70721,7 +70424,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 78,
+        "id": 76,
         "start": 402.45,
         "end": 409.48,
         "speaker": "Speaker",
@@ -70742,7 +70445,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 79,
+        "id": 77,
         "start": 409.52,
         "end": 414.66,
         "speaker": "Speaker",
@@ -70758,7 +70461,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 80,
+        "id": 78,
         "start": 414.7,
         "end": 420.98,
         "speaker": "Speaker",
@@ -70779,7 +70482,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 81,
+        "id": 79,
         "start": 421.02,
         "end": 424.92,
         "speaker": "Speaker",
@@ -70795,7 +70498,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 82,
+        "id": 80,
         "start": 424.96,
         "end": 428.73,
         "speaker": "Speaker",
@@ -70811,7 +70514,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 83,
+        "id": 81,
         "start": 428.77,
         "end": 431.83,
         "speaker": "Speaker",
@@ -70832,7 +70535,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 84,
+        "id": 82,
         "start": 431.87,
         "end": 436.08,
         "speaker": "Speaker",
@@ -70853,9 +70556,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 85,
+        "id": 83,
         "start": 436.12,
-        "end": 439.96,
+        "end": 443.64,
         "speaker": "Speaker",
         "en": "Using NordVPN will give you access to content blocked in countries or not available in your home country so you will have more opportunities to learn a new language like I did when I traveled to Poland a couple of months ago.",
         "ipa": "/ˈjuzɪŋ nɔrd-vi-pi-ɛn wɪl gɪv ju ˈæksɛs tu ˈkɑntɛnt blɑkt ɪn ˈkʌntriz ɔr nɑt əˈveɪləbəl ɪn jʊr hoʊm ˈkʌntri soʊ ju wɪl hæv mɔr ˌɑpərˈtunətiz tu lɜrn ə nu ˈlæŋgwɪʤ laɪk aɪ dɪd wɛn aɪ ˈtrævəld tu ˈpoʊlənd ə ˈkʌpəl ʌv mʌnθs əˈgoʊ/",
@@ -70874,23 +70577,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 86,
-        "start": 440.0,
-        "end": 443.64,
-        "speaker": "Speaker",
-        "en": "Using NordVPN will give you access to content blocked in countries or not available in your home country so you will have more opportunities to learn a new language like I did when I traveled to Poland a couple of months ago.",
-        "ipa": "/ˈjuzɪŋ nɔrd-vi-pi-ɛn wɪl gɪv ju ˈæksɛs tu ˈkɑntɛnt blɑkt ɪn ˈkʌntriz ɔr nɑt əˈveɪləbəl ɪn jʊr hoʊm ˈkʌntri soʊ ju wɪl hæv mɔr ˌɑpərˈtunətiz tu lɜrn ə nu ˈlæŋgwɪʤ laɪk aɪ dɪd wɛn aɪ ˈtrævəld tu ˈpoʊlənd ə ˈkʌpəl ʌv mʌnθs əˈgoʊ/",
-        "zh": "使用 NordVPN 可以让你访问在某些国家被屏蔽或在你本国无法获取的内容，这样你就会有更多机会学习一门新语言，就像几个月前我去波兰旅行时那样。",
-        "highlights": [
-          {
-            "text": "opportunities",
-            "key": "opportunity",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 87,
+        "id": 84,
         "start": 443.68,
         "end": 449.5,
         "speaker": "Speaker",
@@ -70911,7 +70598,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 88,
+        "id": 85,
         "start": 449.54,
         "end": 451.51,
         "speaker": "Speaker",
@@ -70927,7 +70614,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 89,
+        "id": 86,
         "start": 451.55,
         "end": 457.61,
         "speaker": "Speaker",
@@ -70943,7 +70630,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 87,
         "start": 457.65,
         "end": 466.94,
         "speaker": "Speaker",
@@ -70969,9 +70656,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 91,
+        "id": 88,
         "start": 466.98,
-        "end": 469.76,
+        "end": 474.48,
         "speaker": "Speaker",
         "en": "If you want to improve a language by watching a game, movie, or series that is not available in your country, you can watch them using NordVPN.",
         "ipa": "/ɪf ju wɑnt tu ɪmˈpruv ə ˈlæŋgwɪʤ baɪ ˈwɑʧɪŋ ə geɪm, ˈmuvi, ɔr ˈsɪriz ðæt ɪz nɑt əˈveɪləbəl ɪn jʊr ˈkʌntri, ju kən wɑʧ ðɛm ˈjuzɪŋ nɔrd-vi-pi-ɛn/",
@@ -70990,23 +70677,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 92,
-        "start": 469.8,
-        "end": 474.48,
-        "speaker": "Speaker",
-        "en": "If you want to improve a language by watching a game, movie, or series that is not available in your country, you can watch them using NordVPN.",
-        "ipa": "/ɪf ju wɑnt tu ɪmˈpruv ə ˈlæŋgwɪʤ baɪ ˈwɑʧɪŋ ə geɪm, ˈmuvi, ɔr ˈsɪriz ðæt ɪz nɑt əˈveɪləbəl ɪn jʊr ˈkʌntri, ju kən wɑʧ ðɛm ˈjuzɪŋ nɔrd-vi-pi-ɛn/",
-        "zh": "如果你想通过观看在你所在国家无法观看的比赛、电影或剧集来提高语言水平，你可以使用 NordVPN 来观看它们。",
-        "highlights": [
-          {
-            "text": "by watching",
-            "key": "by doing",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 93,
+        "id": 89,
         "start": 474.52,
         "end": 480.84,
         "speaker": "Speaker",
@@ -71027,7 +70698,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 90,
         "start": 480.88,
         "end": 485.44,
         "speaker": "Speaker",
@@ -71048,7 +70719,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 95,
+        "id": 91,
         "start": 485.48,
         "end": 487.96,
         "speaker": "Speaker",
@@ -71069,7 +70740,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 92,
         "start": 488.0,
         "end": 489.96,
         "speaker": "Speaker",
@@ -71085,7 +70756,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 93,
         "start": 490.0,
         "end": 493.37,
         "speaker": "Speaker",
@@ -71101,7 +70772,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 98,
+        "id": 94,
         "start": 493.41,
         "end": 497.21,
         "speaker": "Speaker",
@@ -71122,7 +70793,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 95,
         "start": 497.25,
         "end": 498.99,
         "speaker": "Speaker",
@@ -71138,7 +70809,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 100,
+        "id": 96,
         "start": 499.03,
         "end": 503.18,
         "speaker": "Speaker",
@@ -71154,7 +70825,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 101,
+        "id": 97,
         "start": 503.22,
         "end": 504.24,
         "speaker": "Speaker",
@@ -71170,7 +70841,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 102,
+        "id": 98,
         "start": 510.84,
         "end": 515.54,
         "speaker": "Speaker",
@@ -71186,7 +70857,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 103,
+        "id": 99,
         "start": 515.58,
         "end": 521.26,
         "speaker": "Speaker",
@@ -71202,7 +70873,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 104,
+        "id": 100,
         "start": 521.3,
         "end": 529.99,
         "speaker": "Speaker",
@@ -71223,7 +70894,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 101,
         "start": 530.03,
         "end": 534.4,
         "speaker": "Speaker",
@@ -71239,7 +70910,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 106,
+        "id": 102,
         "start": 542.8,
         "end": 550.37,
         "speaker": "Speaker",
@@ -71255,7 +70926,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 107,
+        "id": 103,
         "start": 550.41,
         "end": 557.7,
         "speaker": "Speaker",
@@ -71271,7 +70942,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 108,
+        "id": 104,
         "start": 557.74,
         "end": 557.93,
         "speaker": "Speaker",
@@ -71281,7 +70952,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 109,
+        "id": 105,
         "start": 557.97,
         "end": 559.12,
         "speaker": "Speaker",
@@ -71302,7 +70973,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 110,
+        "id": 106,
         "start": 559.16,
         "end": 565.12,
         "speaker": "Speaker",
@@ -71318,7 +70989,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 111,
+        "id": 107,
         "start": 565.16,
         "end": 571.84,
         "speaker": "Speaker",
@@ -71334,7 +71005,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 112,
+        "id": 108,
         "start": 571.88,
         "end": 583.71,
         "speaker": "Speaker",
@@ -71355,7 +71026,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 113,
+        "id": 109,
         "start": 583.75,
         "end": 585.84,
         "speaker": "Speaker",
@@ -71376,7 +71047,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 114,
+        "id": 110,
         "start": 585.88,
         "end": 590.23,
         "speaker": "Speaker",
@@ -71392,7 +71063,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 115,
+        "id": 111,
         "start": 590.27,
         "end": 597.52,
         "speaker": "Speaker",
@@ -71408,7 +71079,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 116,
+        "id": 112,
         "start": 597.56,
         "end": 603.22,
         "speaker": "Speaker",
@@ -71424,7 +71095,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 117,
+        "id": 113,
         "start": 603.26,
         "end": 621.74,
         "speaker": "Speaker",
@@ -71450,7 +71121,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 118,
+        "id": 114,
         "start": 621.78,
         "end": 624.04,
         "speaker": "Speaker",
@@ -71466,7 +71137,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 119,
+        "id": 115,
         "start": 624.08,
         "end": 629.04,
         "speaker": "Speaker",
@@ -71487,7 +71158,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 120,
+        "id": 116,
         "start": 630.08,
         "end": 630.53,
         "speaker": "Speaker",
@@ -71497,7 +71168,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 121,
+        "id": 117,
         "start": 630.57,
         "end": 640.64,
         "speaker": "Speaker",
@@ -71518,7 +71189,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 122,
+        "id": 118,
         "start": 640.68,
         "end": 643.2,
         "speaker": "Speaker",
@@ -71539,7 +71210,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 123,
+        "id": 119,
         "start": 643.24,
         "end": 644.62,
         "speaker": "Speaker",
@@ -71555,7 +71226,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 124,
+        "id": 120,
         "start": 644.66,
         "end": 649.92,
         "speaker": "Speaker",
@@ -71576,7 +71247,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 125,
+        "id": 121,
         "start": 649.96,
         "end": 653.49,
         "speaker": "Speaker",
@@ -71592,7 +71263,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 126,
+        "id": 122,
         "start": 653.53,
         "end": 657.24,
         "speaker": "Speaker",
@@ -71608,7 +71279,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 127,
+        "id": 123,
         "start": 657.28,
         "end": 663.08,
         "speaker": "Speaker",
@@ -71634,7 +71305,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 128,
+        "id": 124,
         "start": 663.12,
         "end": 666.41,
         "speaker": "Speaker",
@@ -71655,7 +71326,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 129,
+        "id": 125,
         "start": 666.45,
         "end": 672.96,
         "speaker": "Speaker",
@@ -71681,7 +71352,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 130,
+        "id": 126,
         "start": 673.0,
         "end": 674.52,
         "speaker": "Speaker",
@@ -71697,7 +71368,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 131,
+        "id": 127,
         "start": 674.56,
         "end": 678.19,
         "speaker": "Speaker",
@@ -71718,7 +71389,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 132,
+        "id": 128,
         "start": 678.23,
         "end": 679.87,
         "speaker": "Speaker",
@@ -71734,7 +71405,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 133,
+        "id": 129,
         "start": 679.91,
         "end": 687.62,
         "speaker": "Speaker",
@@ -71760,7 +71431,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 134,
+        "id": 130,
         "start": 687.66,
         "end": 694.49,
         "speaker": "Speaker",
@@ -71781,7 +71452,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 135,
+        "id": 131,
         "start": 694.53,
         "end": 699.13,
         "speaker": "Speaker",
@@ -71802,7 +71473,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 136,
+        "id": 132,
         "start": 699.17,
         "end": 700.84,
         "speaker": "Speaker",
@@ -71823,7 +71494,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 137,
+        "id": 133,
         "start": 700.88,
         "end": 704.73,
         "speaker": "Speaker",
@@ -71844,7 +71515,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 138,
+        "id": 134,
         "start": 704.77,
         "end": 712.52,
         "speaker": "Speaker",
@@ -71865,7 +71536,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 139,
+        "id": 135,
         "start": 712.56,
         "end": 718.96,
         "speaker": "Speaker",
@@ -71886,7 +71557,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 140,
+        "id": 136,
         "start": 726.56,
         "end": 732.48,
         "speaker": "Speaker",
@@ -71907,7 +71578,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 141,
+        "id": 137,
         "start": 732.52,
         "end": 741.81,
         "speaker": "Speaker",
@@ -71933,7 +71604,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 142,
+        "id": 138,
         "start": 741.85,
         "end": 749.48,
         "speaker": "Speaker",
@@ -71954,7 +71625,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 143,
+        "id": 139,
         "start": 749.52,
         "end": 751.28,
         "speaker": "Speaker",
@@ -71970,7 +71641,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 144,
+        "id": 140,
         "start": 751.32,
         "end": 756.83,
         "speaker": "Speaker",
@@ -71986,7 +71657,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 145,
+        "id": 141,
         "start": 756.87,
         "end": 762.44,
         "speaker": "Speaker",
@@ -72002,7 +71673,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 146,
+        "id": 142,
         "start": 771.98,
         "end": 776.99,
         "speaker": "Speaker",
@@ -72023,7 +71694,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 147,
+        "id": 143,
         "start": 777.03,
         "end": 785.72,
         "speaker": "Speaker",
@@ -72049,7 +71720,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 148,
+        "id": 144,
         "start": 792.74,
         "end": 796.7,
         "speaker": "Speaker",
@@ -72070,7 +71741,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 149,
+        "id": 145,
         "start": 796.74,
         "end": 800.58,
         "speaker": "Speaker",
@@ -72091,7 +71762,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 150,
+        "id": 146,
         "start": 800.62,
         "end": 802.56,
         "speaker": "Speaker",
@@ -72107,7 +71778,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 151,
+        "id": 147,
         "start": 802.6,
         "end": 807.66,
         "speaker": "Speaker",
@@ -72128,7 +71799,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 152,
+        "id": 148,
         "start": 807.7,
         "end": 813.55,
         "speaker": "Speaker",
@@ -72149,7 +71820,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 153,
+        "id": 149,
         "start": 813.59,
         "end": 816.78,
         "speaker": "Speaker",
@@ -72170,7 +71841,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 154,
+        "id": 150,
         "start": 816.82,
         "end": 820.11,
         "speaker": "Speaker",
@@ -72191,7 +71862,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 155,
+        "id": 151,
         "start": 820.15,
         "end": 822.84,
         "speaker": "Speaker",
@@ -72207,7 +71878,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 156,
+        "id": 152,
         "start": 822.88,
         "end": 828.64,
         "speaker": "Speaker",
@@ -72228,7 +71899,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 157,
+        "id": 153,
         "start": 828.68,
         "end": 829.08,
         "speaker": "Speaker",
@@ -72258,7 +71929,6 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "美食",
-      "个人成长",
       "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
@@ -72293,7 +71963,7 @@ export const LOCAL_EPISODES = [
         576.6
       ],
       [
-        589.3,
+        589.75,
         597.27
       ],
       [
@@ -73912,7 +73582,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 94,
         "start": 576.6,
-        "end": 589.3,
+        "end": 589.75,
         "speaker": "Speaker",
         "en": "Okay guys, I just finished my meal and wow, I am so stuffed!",
         "ipa": "/oʊˈkeɪ ɡaɪz, aɪ dʒʌst ˈfɪnɪʃt maɪ miːl ænd waʊ, aɪ æm soʊ stʌft! aɪ æm soʊ fʊl əv ɔl ðə fuːd/",
@@ -75771,7 +75441,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 63,
         "start": 289.88,
-        "end": 297.71,
+        "end": 304.05,
         "speaker": "Speaker",
         "en": "My favorite type of sweet treat that they have here is the banana loaf bread.",
         "ipa": "/maɪ ˈfeɪvərɪt taɪp ʌv swit trit ðæt ðeɪ hæv hɪr ɪz ðə bəˈnænə loʊf brɛd/",
@@ -75786,27 +75456,6 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 64,
-        "start": 297.75,
-        "end": 304.05,
-        "speaker": "Speaker",
-        "en": "My favorite type of sweet treat that they have here is the banana loaf bread.",
-        "ipa": "/maɪ ˈfeɪvərɪt taɪp əv swiːt triːt ðæt ðeɪ hæv hɪər ɪz ðə bəˈnænə loʊf bred/",
-        "zh": "他们家我最喜欢的一种甜点是香蕉面包。",
-        "highlights": [
-          {
-            "text": "sweet treat",
-            "key": "甜点/小零食",
-            "chip": "pink"
-          },
-          {
-            "text": "banana loaf bread",
-            "key": "香蕉面包",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 65,
         "start": 304.09,
         "end": 305.41,
         "speaker": "Speaker",
@@ -75822,7 +75471,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 66,
+        "id": 65,
         "start": 305.45,
         "end": 313.52,
         "speaker": "Speaker",
@@ -75838,7 +75487,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 67,
+        "id": 66,
         "start": 313.56,
         "end": 316.66,
         "speaker": "Speaker",
@@ -75854,7 +75503,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 68,
+        "id": 67,
         "start": 316.7,
         "end": 321.32,
         "speaker": "Speaker",
@@ -75870,7 +75519,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 69,
+        "id": 68,
         "start": 321.36,
         "end": 324.04,
         "speaker": "Speaker",
@@ -75886,7 +75535,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 70,
+        "id": 69,
         "start": 324.08,
         "end": 326.23,
         "speaker": "Speaker",
@@ -75902,7 +75551,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 71,
+        "id": 70,
         "start": 326.27,
         "end": 326.96,
         "speaker": "Speaker",
@@ -75918,7 +75567,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 72,
+        "id": 71,
         "start": 327.0,
         "end": 327.5,
         "speaker": "Speaker",
@@ -75934,7 +75583,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 73,
+        "id": 72,
         "start": 327.54,
         "end": 329.76,
         "speaker": "Speaker",
@@ -75950,7 +75599,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 74,
+        "id": 73,
         "start": 329.8,
         "end": 332.13,
         "speaker": "Speaker",
@@ -75966,7 +75615,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 75,
+        "id": 74,
         "start": 332.17,
         "end": 333.32,
         "speaker": "Speaker",
@@ -75982,7 +75631,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 76,
+        "id": 75,
         "start": 333.36,
         "end": 335.25,
         "speaker": "Speaker",
@@ -75998,7 +75647,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 77,
+        "id": 76,
         "start": 335.29,
         "end": 335.7,
         "speaker": "Speaker",
@@ -76014,7 +75663,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 78,
+        "id": 77,
         "start": 335.74,
         "end": 337.12,
         "speaker": "Speaker",
@@ -76030,7 +75679,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 79,
+        "id": 78,
         "start": 337.16,
         "end": 337.62,
         "speaker": "Speaker",
@@ -76040,7 +75689,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 80,
+        "id": 79,
         "start": 337.66,
         "end": 338.22,
         "speaker": "Speaker",
@@ -76056,7 +75705,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 81,
+        "id": 80,
         "start": 338.26,
         "end": 339.3,
         "speaker": "Speaker",
@@ -76072,7 +75721,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 82,
+        "id": 81,
         "start": 339.34,
         "end": 339.52,
         "speaker": "Speaker",
@@ -76082,7 +75731,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 83,
+        "id": 82,
         "start": 339.56,
         "end": 339.67,
         "speaker": "Speaker",
@@ -76092,7 +75741,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 84,
+        "id": 83,
         "start": 339.67,
         "end": 341.88,
         "speaker": "Speaker",
@@ -76108,7 +75757,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 85,
+        "id": 84,
         "start": 343.74,
         "end": 344.4,
         "speaker": "Speaker",
@@ -76124,7 +75773,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 86,
+        "id": 85,
         "start": 344.44,
         "end": 346.33,
         "speaker": "Speaker",
@@ -76140,7 +75789,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 87,
+        "id": 86,
         "start": 346.37,
         "end": 347.3,
         "speaker": "Speaker",
@@ -76150,7 +75799,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 88,
+        "id": 87,
         "start": 347.34,
         "end": 348.09,
         "speaker": "Speaker",
@@ -76166,7 +75815,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 89,
+        "id": 88,
         "start": 348.13,
         "end": 349.14,
         "speaker": "Speaker",
@@ -76182,7 +75831,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 89,
         "start": 349.18,
         "end": 350.02,
         "speaker": "Speaker",
@@ -76192,7 +75841,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 91,
+        "id": 90,
         "start": 350.06,
         "end": 352.08,
         "speaker": "Speaker",
@@ -76208,7 +75857,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 92,
+        "id": 91,
         "start": 352.12,
         "end": 352.54,
         "speaker": "Speaker",
@@ -76218,7 +75867,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 93,
+        "id": 92,
         "start": 352.58,
         "end": 360.34,
         "speaker": "Speaker",
@@ -76234,7 +75883,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 93,
         "start": 360.38,
         "end": 369.2,
         "speaker": "Speaker",
@@ -76255,7 +75904,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 95,
+        "id": 94,
         "start": 369.24,
         "end": 373.91,
         "speaker": "Speaker",
@@ -76271,7 +75920,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 95,
         "start": 373.95,
         "end": 382.98,
         "speaker": "Speaker",
@@ -76287,7 +75936,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 96,
         "start": 383.02,
         "end": 391.98,
         "speaker": "Speaker",
@@ -76303,7 +75952,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 98,
+        "id": 97,
         "start": 392.02,
         "end": 395.33,
         "speaker": "Speaker",
@@ -76319,7 +75968,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 98,
         "start": 395.37,
         "end": 403.57,
         "speaker": "Speaker",
@@ -76340,7 +75989,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 100,
+        "id": 99,
         "start": 403.61,
         "end": 414.06,
         "speaker": "Speaker",
@@ -76366,7 +76015,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 101,
+        "id": 100,
         "start": 415.5,
         "end": 415.81,
         "speaker": "Speaker",
@@ -76376,7 +76025,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 102,
+        "id": 101,
         "start": 415.85,
         "end": 416.86,
         "speaker": "Speaker",
@@ -76386,7 +76035,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 103,
+        "id": 102,
         "start": 416.9,
         "end": 420.28,
         "speaker": "Speaker",
@@ -76402,7 +76051,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 104,
+        "id": 103,
         "start": 420.32,
         "end": 422.82,
         "speaker": "Speaker",
@@ -76418,7 +76067,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 104,
         "start": 422.86,
         "end": 429.97,
         "speaker": "Speaker",
@@ -76434,7 +76083,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 106,
+        "id": 105,
         "start": 430.01,
         "end": 432.73,
         "speaker": "Speaker",
@@ -76450,7 +76099,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 107,
+        "id": 106,
         "start": 432.77,
         "end": 439.51,
         "speaker": "Speaker",
@@ -76466,7 +76115,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 108,
+        "id": 107,
         "start": 439.55,
         "end": 444.55,
         "speaker": "Speaker",
@@ -76482,7 +76131,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 109,
+        "id": 108,
         "start": 444.59,
         "end": 453.2,
         "speaker": "Speaker",
@@ -76498,7 +76147,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 110,
+        "id": 109,
         "start": 453.24,
         "end": 458.82,
         "speaker": "Speaker",
@@ -76519,7 +76168,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 111,
+        "id": 110,
         "start": 458.86,
         "end": 467.92,
         "speaker": "Speaker",
@@ -76540,7 +76189,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 112,
+        "id": 111,
         "start": 467.96,
         "end": 480.45,
         "speaker": "Speaker",
@@ -76566,7 +76215,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 113,
+        "id": 112,
         "start": 480.49,
         "end": 487.12,
         "speaker": "Speaker",
@@ -76582,7 +76231,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 114,
+        "id": 113,
         "start": 487.16,
         "end": 488.7,
         "speaker": "Speaker",
@@ -76598,7 +76247,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 115,
+        "id": 114,
         "start": 488.74,
         "end": 499.47,
         "speaker": "Speaker",
@@ -76619,7 +76268,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 116,
+        "id": 115,
         "start": 499.51,
         "end": 509.76,
         "speaker": "Speaker",
@@ -76640,7 +76289,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 117,
+        "id": 116,
         "start": 509.8,
         "end": 514.4,
         "speaker": "Speaker",
@@ -76656,7 +76305,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 118,
+        "id": 117,
         "start": 514.44,
         "end": 522.89,
         "speaker": "Speaker",
@@ -76672,7 +76321,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 119,
+        "id": 118,
         "start": 522.93,
         "end": 526.02,
         "speaker": "Speaker",
@@ -76688,7 +76337,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 120,
+        "id": 119,
         "start": 526.06,
         "end": 528.15,
         "speaker": "Speaker",
@@ -76704,7 +76353,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 121,
+        "id": 120,
         "start": 528.19,
         "end": 530.9,
         "speaker": "Speaker",
@@ -76720,7 +76369,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 122,
+        "id": 121,
         "start": 530.94,
         "end": 532.57,
         "speaker": "Speaker",
@@ -76736,7 +76385,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 123,
+        "id": 122,
         "start": 532.61,
         "end": 535.34,
         "speaker": "Speaker",
@@ -76752,7 +76401,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 124,
+        "id": 123,
         "start": 535.38,
         "end": 537.83,
         "speaker": "Speaker",
@@ -76768,7 +76417,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 125,
+        "id": 124,
         "start": 537.87,
         "end": 540.67,
         "speaker": "Speaker",
@@ -76784,7 +76433,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 126,
+        "id": 125,
         "start": 540.71,
         "end": 543.08,
         "speaker": "Speaker",
@@ -76800,7 +76449,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 127,
+        "id": 126,
         "start": 543.12,
         "end": 547.63,
         "speaker": "Speaker",
@@ -76816,7 +76465,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 128,
+        "id": 127,
         "start": 547.67,
         "end": 558.63,
         "speaker": "Speaker",
@@ -76842,7 +76491,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 129,
+        "id": 128,
         "start": 558.67,
         "end": 565.5,
         "speaker": "Speaker",
@@ -76858,7 +76507,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 130,
+        "id": 129,
         "start": 565.54,
         "end": 567.41,
         "speaker": "Speaker",
@@ -76879,7 +76528,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 131,
+        "id": 130,
         "start": 567.45,
         "end": 567.85,
         "speaker": "Speaker",
@@ -76908,14 +76557,15 @@ export const LOCAL_EPISODES = [
     "durationLabel": "01:37",
     "date": "2026/11/28",
     "tags": [
-      "美食"
+      "生活英语",
+      "日常对话"
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/Why%20Adding%20More%20Is%20Slowing%20Your%20Business%20Down.webp",
     "mediaUrl": "./content/episodes/Why%20Adding%20More%20Is%20Slowing%20Your%20Business%20Down.f399.mp4",
     "audioUrl": "./content/episodes/Why%20Adding%20More%20Is%20Slowing%20Your%20Business%20Down.f140-19.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
+    "sceneBadge": "生活英语",
     "skipRanges": [
       [
         88.53,
@@ -80606,8 +80256,8 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "购物",
-      "美食",
-      "旅行"
+      "旅行",
+      "名人访谈"
     ],
     "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/Inside%20Emma%20Watson%27s%20Prada%20Backpack%20%EF%BD%9C%20In%20The%20Bag%20%EF%BD%9C%20Vogue.webp",
@@ -87834,8 +87484,7 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "美食",
-      "旅行",
-      "个人成长"
+      "旅行"
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
     "coverImage": "./content/episodes/Homebody%20on%20Holiday%20%EF%BD%9C%20a%20summer%20dream%20destination%20recharging%20and%20having%20unlimited%20appetite%20for%20food%21.webp",
@@ -87845,19 +87494,27 @@ export const LOCAL_EPISODES = [
     "sceneBadge": "美食",
     "skipRanges": [
       [
-        16.43,
+        10.43,
         26.4
+      ],
+      [
+        35.06,
+        38.0
       ],
       [
         52.19,
         74.72
       ],
       [
+        87.77,
+        90.8
+      ],
+      [
         97.63,
         100.48
       ],
       [
-        112.43,
+        106.43,
         126.96
       ],
       [
@@ -87865,12 +87522,28 @@ export const LOCAL_EPISODES = [
         155.44
       ],
       [
-        183.45,
+        176.95,
         190.48
+      ],
+      [
+        197.23,
+        198.8
       ],
       [
         203.18,
         207.2
+      ],
+      [
+        255.5,
+        256.71
+      ],
+      [
+        311.69,
+        312.4
+      ],
+      [
+        317.85,
+        319.44
       ],
       [
         333.99,
@@ -87881,11 +87554,11 @@ export const LOCAL_EPISODES = [
         389.04
       ],
       [
-        476.99,
+        474.19,
         482.64
       ],
       [
-        499.95,
+        493.95,
         513.44
       ],
       [
@@ -87893,11 +87566,15 @@ export const LOCAL_EPISODES = [
         568.32
       ],
       [
-        592.03,
+        573.77,
+        580.08
+      ],
+      [
+        585.53,
         600.48
       ],
       [
-        606.55,
+        605.93,
         624.56
       ],
       [
@@ -87905,7 +87582,7 @@ export const LOCAL_EPISODES = [
         632.0
       ],
       [
-        638.66,
+        637.45,
         650.24
       ],
       [
@@ -87937,7 +87614,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 2,
         "start": 4.48,
-        "end": 16.43,
+        "end": 10.43,
         "speaker": "Speaker",
         "en": "I'm currently at JFK.",
         "ipa": "/aɪm ˈkɜːrəntli æt dʒeɪ ef keɪ/",
@@ -87969,7 +87646,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 4,
         "start": 28.31,
-        "end": 37.96,
+        "end": 35.06,
         "speaker": "Speaker",
         "en": "I am with Blurry Salman.",
         "ipa": "/aɪ æm wɪð ˈblɜːri sælˈmɑːn/",
@@ -88070,7 +87747,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 10,
         "start": 82.32,
-        "end": 90.76,
+        "end": 87.77,
         "speaker": "Speaker",
         "en": "So nice.",
         "ipa": "/soʊ naɪs/",
@@ -88122,7 +87799,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 13,
         "start": 100.48,
-        "end": 112.43,
+        "end": 106.43,
         "speaker": "Speaker",
         "en": "Good morning from Paris.",
         "ipa": "/ɡʊd ˈmɔːrnɪŋ frəm ˈpærɪs/",
@@ -88239,7 +87916,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 20,
         "start": 171.5,
-        "end": 183.45,
+        "end": 176.95,
         "speaker": "Speaker",
         "en": "Smells so strong.",
         "ipa": "/smɛlz soʊ strɔːŋ/",
@@ -88260,7 +87937,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 21,
         "start": 190.48,
-        "end": 198.76,
+        "end": 197.23,
         "speaker": "Speaker",
         "en": "Straight up tastes like tequila.",
         "ipa": "/streɪt ʌp teɪsts laɪk təˈkiːlə/",
@@ -88472,7 +88149,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 33,
         "start": 248.75,
-        "end": 256.67,
+        "end": 255.5,
         "speaker": "Speaker",
         "en": "This one is so good.",
         "ipa": "/ðɪs wʌn ɪz soʊ ɡʊd/",
@@ -88777,7 +88454,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 54,
         "start": 306.24,
-        "end": 312.36,
+        "end": 311.69,
         "speaker": "Speaker",
         "en": "At BMW.",
         "ipa": "/æt bi-ɛm-ˈdʌbəlju./",
@@ -88787,7 +88464,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 55,
         "start": 312.4,
-        "end": 319.4,
+        "end": 317.85,
         "speaker": "Speaker",
         "en": "So cool.",
         "ipa": "/soʊ kul./",
@@ -88885,7 +88562,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 63,
         "start": 363.04,
-        "end": 369.88,
+        "end": 369.79,
         "speaker": "Speaker",
         "en": "I love this like wow.",
         "ipa": "/aɪ lʌv ðɪs laɪk waʊ./",
@@ -88969,7 +88646,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 69,
         "start": 378.64,
-        "end": 384.7,
+        "end": 384.59,
         "speaker": "Speaker",
         "en": "Yeah, this is nice.",
         "ipa": "/jæ, ðɪs ɪz naɪs./",
@@ -89213,7 +88890,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 85,
         "start": 433.17,
-        "end": 434.44,
+        "end": 435.61,
         "speaker": "Speaker",
         "en": "It was 2018.",
         "ipa": "/ɪt wʌz tuˈθaʊzənd ˈeɪtin./",
@@ -89228,16 +88905,6 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 86,
-        "start": 434.48,
-        "end": 435.61,
-        "speaker": "Speaker",
-        "en": "It was 2018.",
-        "ipa": "/ɪt wʌz tuˈθaʊzənd ˈeɪtin. ˈsɛvən jɪrz./",
-        "zh": "是2018年。",
-        "highlights": []
-      },
-      {
-        "id": 87,
         "start": 435.65,
         "end": 436.43,
         "speaker": "Speaker",
@@ -89253,7 +88920,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 88,
+        "id": 87,
         "start": 436.47,
         "end": 438.99,
         "speaker": "Speaker",
@@ -89269,7 +88936,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 89,
+        "id": 88,
         "start": 439.03,
         "end": 439.92,
         "speaker": "Speaker",
@@ -89285,7 +88952,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 89,
         "start": 439.96,
         "end": 443.4,
         "speaker": "Speaker",
@@ -89301,7 +88968,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 91,
+        "id": 90,
         "start": 443.44,
         "end": 445.4,
         "speaker": "Speaker",
@@ -89317,7 +88984,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 92,
+        "id": 91,
         "start": 445.44,
         "end": 446.31,
         "speaker": "Speaker",
@@ -89333,7 +89000,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 93,
+        "id": 92,
         "start": 446.35,
         "end": 448.05,
         "speaker": "Speaker",
@@ -89349,7 +89016,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 93,
         "start": 448.09,
         "end": 456.36,
         "speaker": "Speaker",
@@ -89365,7 +89032,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 95,
+        "id": 94,
         "start": 456.4,
         "end": 462.12,
         "speaker": "Speaker",
@@ -89381,7 +89048,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 95,
         "start": 462.16,
         "end": 464.37,
         "speaker": "Speaker",
@@ -89397,7 +89064,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 96,
         "start": 464.41,
         "end": 465.0,
         "speaker": "Speaker",
@@ -89413,9 +89080,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 98,
+        "id": 97,
         "start": 465.04,
-        "end": 476.99,
+        "end": 474.19,
         "speaker": "Speaker",
         "en": "For shoes, I'm going to wear my Dolce.",
         "ipa": "/fɔr ʃuz, aɪm ˈɡuɪŋ tu wɛr maɪ ˈdoʊtʃeɪ./",
@@ -89429,7 +89096,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 98,
         "start": 482.64,
         "end": 487.96,
         "speaker": "Speaker",
@@ -89445,9 +89112,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 100,
+        "id": 99,
         "start": 488.0,
-        "end": 499.95,
+        "end": 493.95,
         "speaker": "Speaker",
         "en": "No, no, no, no.",
         "ipa": "/noʊ, noʊ, noʊ, noʊ./",
@@ -89461,7 +89128,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 101,
+        "id": 100,
         "start": 513.44,
         "end": 515.11,
         "speaker": "Speaker",
@@ -89477,7 +89144,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 102,
+        "id": 101,
         "start": 515.15,
         "end": 517.92,
         "speaker": "Speaker",
@@ -89493,7 +89160,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 103,
+        "id": 102,
         "start": 517.96,
         "end": 519.56,
         "speaker": "Speaker",
@@ -89509,7 +89176,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 104,
+        "id": 103,
         "start": 519.6,
         "end": 523.72,
         "speaker": "Speaker",
@@ -89525,7 +89192,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 104,
         "start": 523.76,
         "end": 525.76,
         "speaker": "Speaker",
@@ -89541,7 +89208,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 106,
+        "id": 105,
         "start": 525.8,
         "end": 529.21,
         "speaker": "Speaker",
@@ -89557,7 +89224,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 107,
+        "id": 106,
         "start": 529.25,
         "end": 536.2,
         "speaker": "Speaker",
@@ -89573,7 +89240,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 108,
+        "id": 107,
         "start": 536.24,
         "end": 541.8,
         "speaker": "Speaker",
@@ -89589,7 +89256,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 109,
+        "id": 108,
         "start": 541.84,
         "end": 547.06,
         "speaker": "Speaker",
@@ -89605,7 +89272,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 110,
+        "id": 109,
         "start": 547.1,
         "end": 552.14,
         "speaker": "Speaker",
@@ -89621,9 +89288,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 111,
+        "id": 110,
         "start": 568.32,
-        "end": 580.04,
+        "end": 573.77,
         "speaker": "Speaker",
         "en": "Oh my god.",
         "ipa": "/oʊ maɪ ɡɑd/",
@@ -89637,9 +89304,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 112,
+        "id": 111,
         "start": 580.08,
-        "end": 592.03,
+        "end": 585.53,
         "speaker": "Speaker",
         "en": "More.",
         "ipa": "/mɔr/",
@@ -89653,9 +89320,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 113,
+        "id": 112,
         "start": 600.48,
-        "end": 606.55,
+        "end": 605.93,
         "speaker": "Speaker",
         "en": "Awesome.",
         "ipa": "/ˈɔsəm/",
@@ -89669,7 +89336,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 114,
+        "id": 113,
         "start": 624.56,
         "end": 627.8,
         "speaker": "Speaker",
@@ -89685,9 +89352,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 115,
+        "id": 114,
         "start": 632.0,
-        "end": 638.66,
+        "end": 637.45,
         "speaker": "Speaker",
         "en": "Okay.",
         "ipa": "/oʊˈkeɪ/",
@@ -89701,7 +89368,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 116,
+        "id": 115,
         "start": 650.24,
         "end": 655.51,
         "speaker": "Speaker",
@@ -89717,7 +89384,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 117,
+        "id": 116,
         "start": 663.12,
         "end": 666.23,
         "speaker": "Speaker",
@@ -89733,7 +89400,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 118,
+        "id": 117,
         "start": 666.27,
         "end": 669.93,
         "speaker": "Speaker",
@@ -89749,7 +89416,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 119,
+        "id": 118,
         "start": 669.97,
         "end": 684.92,
         "speaker": "Speaker",
@@ -89785,7 +89452,7 @@ export const LOCAL_EPISODES = [
     "tags": [
       "购物",
       "美食",
-      "旅行"
+      "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "./content/episodes/Living%20Alone%20Diaries%20%EF%BD%9C%20My%20simple%2C%20quiet%20morning%20and%20afternoon%21.webp",
@@ -91304,17 +90971,26 @@ export const LOCAL_EPISODES = [
     "durationLabel": "22:21",
     "date": "2026/11/28",
     "tags": [
-      "美食",
       "个人成长",
-      "日常对话"
+      "日常对话",
+      "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "./content/episodes/Speak%20American%20English%20Around%20Town.webp",
     "mediaUrl": "./content/episodes/Speak%20American%20English%20Around%20Town.f616.mp4",
     "audioUrl": "./content/episodes/Speak%20American%20English%20Around%20Town.f140.m4a",
     "mediaKind": "video",
-    "sceneBadge": "美食",
-    "skipRanges": [],
+    "sceneBadge": "个人成长",
+    "skipRanges": [
+      [
+        855.02,
+        856.44
+      ],
+      [
+        864.79,
+        865.48
+      ]
+    ],
     "sentences": [
       {
         "id": 1,
@@ -94876,7 +94552,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 203,
         "start": 847.47,
-        "end": 856.4,
+        "end": 855.02,
         "speaker": "Speaker",
         "en": "First thing is this old game.",
         "ipa": "/fɜːrst θɪŋ ɪz ðɪs oʊld ɡeɪm/",
@@ -94892,7 +94568,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 204,
         "start": 856.44,
-        "end": 865.44,
+        "end": 864.79,
         "speaker": "Speaker",
         "en": "Second thing, a dart board, another game.",
         "ipa": "/ˈsɛkənd θɪŋ, ə dɑːrt bɔːrd, əˈnʌðər ɡeɪm/",
@@ -96000,22 +95676,6 @@ export const LOCAL_EPISODES = [
       {
         "id": 272,
         "start": 1062.08,
-        "end": 1062.29,
-        "speaker": "Speaker",
-        "en": "Good.",
-        "ipa": "/ɡʊd/",
-        "zh": "很好。",
-        "highlights": [
-          {
-            "text": "Good",
-            "key": "good",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 273,
-        "start": 1062.33,
         "end": 1062.54,
         "speaker": "Speaker",
         "en": "Good.",
@@ -96030,7 +95690,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 274,
+        "id": 273,
         "start": 1062.58,
         "end": 1064.56,
         "speaker": "Speaker",
@@ -96051,7 +95711,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 275,
+        "id": 274,
         "start": 1064.6,
         "end": 1064.74,
         "speaker": "Speaker",
@@ -96067,7 +95727,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 276,
+        "id": 275,
         "start": 1064.74,
         "end": 1066.12,
         "speaker": "Speaker",
@@ -96088,7 +95748,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 277,
+        "id": 276,
         "start": 1066.16,
         "end": 1068.94,
         "speaker": "Speaker",
@@ -96098,7 +95758,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 278,
+        "id": 277,
         "start": 1068.98,
         "end": 1070.36,
         "speaker": "Speaker",
@@ -96114,7 +95774,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 279,
+        "id": 278,
         "start": 1070.4,
         "end": 1070.76,
         "speaker": "Speaker",
@@ -96130,7 +95790,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 280,
+        "id": 279,
         "start": 1070.8,
         "end": 1074.16,
         "speaker": "Speaker",
@@ -96151,7 +95811,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 281,
+        "id": 280,
         "start": 1074.2,
         "end": 1078.53,
         "speaker": "Speaker",
@@ -96172,7 +95832,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 282,
+        "id": 281,
         "start": 1078.57,
         "end": 1079.48,
         "speaker": "Speaker",
@@ -96188,7 +95848,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 283,
+        "id": 282,
         "start": 1079.52,
         "end": 1082.07,
         "speaker": "Speaker",
@@ -96209,7 +95869,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 284,
+        "id": 283,
         "start": 1082.11,
         "end": 1083.24,
         "speaker": "Speaker",
@@ -96225,7 +95885,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 285,
+        "id": 284,
         "start": 1083.28,
         "end": 1097.09,
         "speaker": "Speaker",
@@ -96251,7 +95911,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 286,
+        "id": 285,
         "start": 1097.13,
         "end": 1101.12,
         "speaker": "Speaker",
@@ -96272,7 +95932,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 287,
+        "id": 286,
         "start": 1101.16,
         "end": 1105.64,
         "speaker": "Speaker",
@@ -96288,7 +95948,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 288,
+        "id": 287,
         "start": 1105.68,
         "end": 1114.36,
         "speaker": "Speaker",
@@ -96314,7 +95974,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 289,
+        "id": 288,
         "start": 1114.4,
         "end": 1116.28,
         "speaker": "Speaker",
@@ -96335,7 +95995,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 290,
+        "id": 289,
         "start": 1116.32,
         "end": 1119.46,
         "speaker": "Speaker",
@@ -96356,7 +96016,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 291,
+        "id": 290,
         "start": 1119.5,
         "end": 1131.84,
         "speaker": "Speaker",
@@ -96382,7 +96042,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 292,
+        "id": 291,
         "start": 1131.88,
         "end": 1134.04,
         "speaker": "Speaker",
@@ -96398,7 +96058,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 293,
+        "id": 292,
         "start": 1134.08,
         "end": 1135.77,
         "speaker": "Speaker",
@@ -96414,7 +96074,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 294,
+        "id": 293,
         "start": 1135.81,
         "end": 1138.36,
         "speaker": "Speaker",
@@ -96430,7 +96090,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 295,
+        "id": 294,
         "start": 1138.4,
         "end": 1139.07,
         "speaker": "Speaker",
@@ -96446,7 +96106,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 296,
+        "id": 295,
         "start": 1139.11,
         "end": 1139.64,
         "speaker": "Speaker",
@@ -96462,7 +96122,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 297,
+        "id": 296,
         "start": 1139.68,
         "end": 1142.52,
         "speaker": "Speaker",
@@ -96478,7 +96138,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 298,
+        "id": 297,
         "start": 1142.56,
         "end": 1144.84,
         "speaker": "Speaker",
@@ -96494,7 +96154,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 299,
+        "id": 298,
         "start": 1144.88,
         "end": 1147.16,
         "speaker": "Speaker",
@@ -96510,7 +96170,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 300,
+        "id": 299,
         "start": 1147.2,
         "end": 1150.08,
         "speaker": "Speaker",
@@ -96526,7 +96186,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 301,
+        "id": 300,
         "start": 1150.12,
         "end": 1151.16,
         "speaker": "Speaker",
@@ -96542,7 +96202,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 302,
+        "id": 301,
         "start": 1151.2,
         "end": 1154.08,
         "speaker": "Speaker",
@@ -96558,7 +96218,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 303,
+        "id": 302,
         "start": 1154.12,
         "end": 1157.76,
         "speaker": "Speaker",
@@ -96574,7 +96234,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 304,
+        "id": 303,
         "start": 1157.8,
         "end": 1159.2,
         "speaker": "Speaker",
@@ -96590,7 +96250,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 305,
+        "id": 304,
         "start": 1159.24,
         "end": 1161.24,
         "speaker": "Speaker",
@@ -96606,7 +96266,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 306,
+        "id": 305,
         "start": 1161.28,
         "end": 1166.28,
         "speaker": "Speaker",
@@ -96622,7 +96282,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 307,
+        "id": 306,
         "start": 1166.32,
         "end": 1169.36,
         "speaker": "Speaker",
@@ -96638,7 +96298,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 308,
+        "id": 307,
         "start": 1169.4,
         "end": 1170.55,
         "speaker": "Speaker",
@@ -96654,7 +96314,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 309,
+        "id": 308,
         "start": 1170.59,
         "end": 1173.04,
         "speaker": "Speaker",
@@ -96670,24 +96330,8 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 310,
+        "id": 309,
         "start": 1173.08,
-        "end": 1174.7,
-        "speaker": "Speaker",
-        "en": "Run away.",
-        "ipa": "/rʌn əˈweɪ/",
-        "zh": "快跑。",
-        "highlights": [
-          {
-            "text": "Run away",
-            "key": "run away",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 311,
-        "start": 1174.74,
         "end": 1176.36,
         "speaker": "Speaker",
         "en": "Run away.",
@@ -96702,7 +96346,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 312,
+        "id": 310,
         "start": 1176.4,
         "end": 1179.72,
         "speaker": "Speaker",
@@ -96718,7 +96362,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 313,
+        "id": 311,
         "start": 1179.76,
         "end": 1181.4,
         "speaker": "Speaker",
@@ -96734,7 +96378,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 314,
+        "id": 312,
         "start": 1181.44,
         "end": 1194.73,
         "speaker": "Speaker",
@@ -96755,7 +96399,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 315,
+        "id": 313,
         "start": 1194.77,
         "end": 1204.65,
         "speaker": "Speaker",
@@ -96776,7 +96420,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 316,
+        "id": 314,
         "start": 1204.69,
         "end": 1205.4,
         "speaker": "Speaker",
@@ -96792,7 +96436,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 317,
+        "id": 315,
         "start": 1205.44,
         "end": 1208.2,
         "speaker": "Speaker",
@@ -96808,7 +96452,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 318,
+        "id": 316,
         "start": 1208.24,
         "end": 1212.88,
         "speaker": "Speaker",
@@ -96824,7 +96468,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 319,
+        "id": 317,
         "start": 1212.92,
         "end": 1219.85,
         "speaker": "Speaker",
@@ -96840,7 +96484,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 320,
+        "id": 318,
         "start": 1219.89,
         "end": 1222.29,
         "speaker": "Speaker",
@@ -96856,7 +96500,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 321,
+        "id": 319,
         "start": 1222.33,
         "end": 1228.81,
         "speaker": "Speaker",
@@ -96872,7 +96516,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 322,
+        "id": 320,
         "start": 1228.85,
         "end": 1230.68,
         "speaker": "Speaker",
@@ -96888,7 +96532,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 323,
+        "id": 321,
         "start": 1230.72,
         "end": 1232.28,
         "speaker": "Speaker",
@@ -96904,7 +96548,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 324,
+        "id": 322,
         "start": 1232.32,
         "end": 1245.48,
         "speaker": "Speaker",
@@ -96925,7 +96569,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 325,
+        "id": 323,
         "start": 1245.52,
         "end": 1251.22,
         "speaker": "Speaker",
@@ -96941,7 +96585,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 326,
+        "id": 324,
         "start": 1251.26,
         "end": 1254.79,
         "speaker": "Speaker",
@@ -96957,7 +96601,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 327,
+        "id": 325,
         "start": 1254.83,
         "end": 1264.67,
         "speaker": "Speaker",
@@ -96978,7 +96622,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 328,
+        "id": 326,
         "start": 1264.71,
         "end": 1269.47,
         "speaker": "Speaker",
@@ -96994,7 +96638,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 329,
+        "id": 327,
         "start": 1269.51,
         "end": 1273.11,
         "speaker": "Speaker",
@@ -97010,7 +96654,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 330,
+        "id": 328,
         "start": 1273.15,
         "end": 1279.72,
         "speaker": "Speaker",
@@ -97031,7 +96675,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 331,
+        "id": 329,
         "start": 1279.76,
         "end": 1284.65,
         "speaker": "Speaker",
@@ -97052,7 +96696,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 332,
+        "id": 330,
         "start": 1284.69,
         "end": 1300.27,
         "speaker": "Speaker",
@@ -97078,7 +96722,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 333,
+        "id": 331,
         "start": 1300.31,
         "end": 1301.92,
         "speaker": "Speaker",
@@ -97094,7 +96738,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 334,
+        "id": 332,
         "start": 1301.96,
         "end": 1310.86,
         "speaker": "Speaker",
@@ -97120,7 +96764,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 335,
+        "id": 333,
         "start": 1310.9,
         "end": 1314.41,
         "speaker": "Speaker",
@@ -97136,7 +96780,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 336,
+        "id": 334,
         "start": 1314.45,
         "end": 1322.05,
         "speaker": "Speaker",
@@ -97157,7 +96801,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 337,
+        "id": 335,
         "start": 1322.09,
         "end": 1322.37,
         "speaker": "Speaker",
@@ -97173,7 +96817,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 338,
+        "id": 336,
         "start": 1322.41,
         "end": 1323.98,
         "speaker": "Speaker",
@@ -97189,7 +96833,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 339,
+        "id": 337,
         "start": 1324.02,
         "end": 1339.17,
         "speaker": "Speaker",
@@ -97215,7 +96859,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 340,
+        "id": 338,
         "start": 1339.21,
         "end": 1342.36,
         "speaker": "Speaker",
@@ -97245,8 +96889,8 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "美食",
-      "个人成长",
-      "日常对话"
+      "生活英语",
+      "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #DDE4F0 0%, #6B82A8 100%)",
     "coverImage": "./content/episodes/Order%20PIZZA%20in%20English%EF%BC%9A%20Daily%20Life%20English%20Lesson.webp",
@@ -99701,16 +99345,6 @@ export const LOCAL_EPISODES = [
       {
         "id": 151,
         "start": 346.8,
-        "end": 346.99,
-        "speaker": "Speaker",
-        "en": "Yeah.",
-        "ipa": "/jæ/",
-        "zh": "对。",
-        "highlights": []
-      },
-      {
-        "id": 152,
-        "start": 347.03,
         "end": 347.22,
         "speaker": "Speaker",
         "en": "Yeah.",
@@ -99719,7 +99353,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 153,
+        "id": 152,
         "start": 347.26,
         "end": 349.16,
         "speaker": "Speaker",
@@ -99729,7 +99363,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 154,
+        "id": 153,
         "start": 349.2,
         "end": 352.44,
         "speaker": "Speaker",
@@ -99745,7 +99379,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 155,
+        "id": 154,
         "start": 352.48,
         "end": 352.7,
         "speaker": "Speaker",
@@ -99755,7 +99389,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 156,
+        "id": 155,
         "start": 352.74,
         "end": 354.36,
         "speaker": "Speaker",
@@ -99771,7 +99405,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 157,
+        "id": 156,
         "start": 354.4,
         "end": 357.73,
         "speaker": "Speaker",
@@ -99792,7 +99426,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 158,
+        "id": 157,
         "start": 357.77,
         "end": 358.44,
         "speaker": "Speaker",
@@ -99802,7 +99436,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 159,
+        "id": 158,
         "start": 358.48,
         "end": 360.28,
         "speaker": "Speaker",
@@ -99823,7 +99457,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 160,
+        "id": 159,
         "start": 360.32,
         "end": 360.51,
         "speaker": "Speaker",
@@ -99833,7 +99467,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 161,
+        "id": 160,
         "start": 360.55,
         "end": 363.72,
         "speaker": "Speaker",
@@ -99849,7 +99483,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 162,
+        "id": 161,
         "start": 363.76,
         "end": 375.88,
         "speaker": "Speaker",
@@ -99875,7 +99509,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 163,
+        "id": 162,
         "start": 375.92,
         "end": 378.36,
         "speaker": "Speaker",
@@ -99891,7 +99525,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 164,
+        "id": 163,
         "start": 378.4,
         "end": 380.04,
         "speaker": "Speaker",
@@ -99907,7 +99541,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 165,
+        "id": 164,
         "start": 380.08,
         "end": 385.17,
         "speaker": "Speaker",
@@ -99923,7 +99557,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 166,
+        "id": 165,
         "start": 385.21,
         "end": 389.32,
         "speaker": "Speaker",
@@ -99939,7 +99573,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 167,
+        "id": 166,
         "start": 389.36,
         "end": 389.56,
         "speaker": "Speaker",
@@ -99949,7 +99583,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 168,
+        "id": 167,
         "start": 389.6,
         "end": 399.17,
         "speaker": "Speaker",
@@ -99965,7 +99599,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 169,
+        "id": 168,
         "start": 399.21,
         "end": 404.01,
         "speaker": "Speaker",
@@ -99981,7 +99615,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 170,
+        "id": 169,
         "start": 404.05,
         "end": 407.16,
         "speaker": "Speaker",
@@ -99997,7 +99631,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 171,
+        "id": 170,
         "start": 407.2,
         "end": 410.04,
         "speaker": "Speaker",
@@ -100013,7 +99647,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 172,
+        "id": 171,
         "start": 410.08,
         "end": 413.25,
         "speaker": "Speaker",
@@ -100029,7 +99663,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 173,
+        "id": 172,
         "start": 413.29,
         "end": 417.74,
         "speaker": "Speaker",
@@ -100045,7 +99679,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 174,
+        "id": 173,
         "start": 417.78,
         "end": 424.84,
         "speaker": "Speaker",
@@ -100061,7 +99695,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 175,
+        "id": 174,
         "start": 424.88,
         "end": 426.6,
         "speaker": "Speaker",
@@ -100077,7 +99711,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 176,
+        "id": 175,
         "start": 426.64,
         "end": 435.24,
         "speaker": "Speaker",
@@ -100093,7 +99727,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 177,
+        "id": 176,
         "start": 435.28,
         "end": 437.91,
         "speaker": "Speaker",
@@ -100109,7 +99743,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 178,
+        "id": 177,
         "start": 437.95,
         "end": 443.64,
         "speaker": "Speaker",
@@ -100125,7 +99759,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 179,
+        "id": 178,
         "start": 443.68,
         "end": 443.98,
         "speaker": "Speaker",
@@ -100135,7 +99769,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 180,
+        "id": 179,
         "start": 444.02,
         "end": 449.56,
         "speaker": "Speaker",
@@ -100152,7 +99786,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 181,
+        "id": 180,
         "start": 449.6,
         "end": 450.04,
         "speaker": "Speaker",
@@ -100162,7 +99796,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 182,
+        "id": 181,
         "start": 450.08,
         "end": 451.68,
         "speaker": "Speaker",
@@ -100172,7 +99806,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 183,
+        "id": 182,
         "start": 451.72,
         "end": 458.2,
         "speaker": "Speaker",
@@ -100188,7 +99822,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 184,
+        "id": 183,
         "start": 458.24,
         "end": 459.0,
         "speaker": "Speaker",
@@ -100204,7 +99838,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 185,
+        "id": 184,
         "start": 459.04,
         "end": 460.84,
         "speaker": "Speaker",
@@ -100214,7 +99848,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 186,
+        "id": 185,
         "start": 460.88,
         "end": 462.28,
         "speaker": "Speaker",
@@ -100230,7 +99864,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 187,
+        "id": 186,
         "start": 462.32,
         "end": 463.71,
         "speaker": "Speaker",
@@ -100251,7 +99885,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 188,
+        "id": 187,
         "start": 463.75,
         "end": 466.69,
         "speaker": "Speaker",
@@ -100267,7 +99901,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 189,
+        "id": 188,
         "start": 466.73,
         "end": 469.06,
         "speaker": "Speaker",
@@ -100283,7 +99917,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 190,
+        "id": 189,
         "start": 469.1,
         "end": 475.0,
         "speaker": "Speaker",
@@ -100299,7 +99933,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 191,
+        "id": 190,
         "start": 475.04,
         "end": 475.27,
         "speaker": "Speaker",
@@ -100309,7 +99943,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 192,
+        "id": 191,
         "start": 475.31,
         "end": 478.92,
         "speaker": "Speaker",
@@ -100325,7 +99959,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 193,
+        "id": 192,
         "start": 478.96,
         "end": 480.12,
         "speaker": "Speaker",
@@ -100341,7 +99975,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 194,
+        "id": 193,
         "start": 480.16,
         "end": 481.08,
         "speaker": "Speaker",
@@ -100351,7 +99985,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 195,
+        "id": 194,
         "start": 481.12,
         "end": 483.8,
         "speaker": "Speaker",
@@ -100361,7 +99995,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 196,
+        "id": 195,
         "start": 483.84,
         "end": 485.0,
         "speaker": "Speaker",
@@ -100377,7 +100011,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 197,
+        "id": 196,
         "start": 485.04,
         "end": 486.2,
         "speaker": "Speaker",
@@ -100393,7 +100027,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 198,
+        "id": 197,
         "start": 486.24,
         "end": 486.76,
         "speaker": "Speaker",
@@ -100403,7 +100037,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 199,
+        "id": 198,
         "start": 486.8,
         "end": 488.52,
         "speaker": "Speaker",
@@ -100424,7 +100058,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 200,
+        "id": 199,
         "start": 488.56,
         "end": 489.8,
         "speaker": "Speaker",
@@ -100434,7 +100068,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 201,
+        "id": 200,
         "start": 489.84,
         "end": 492.96,
         "speaker": "Speaker",
@@ -100444,7 +100078,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 202,
+        "id": 201,
         "start": 493.0,
         "end": 497.94,
         "speaker": "Speaker",
@@ -100460,7 +100094,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 203,
+        "id": 202,
         "start": 497.98,
         "end": 502.84,
         "speaker": "Speaker",
@@ -100481,7 +100115,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 204,
+        "id": 203,
         "start": 502.88,
         "end": 509.48,
         "speaker": "Speaker",
@@ -100502,9 +100136,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 205,
+        "id": 204,
         "start": 509.52,
-        "end": 510.28,
+        "end": 510.81,
         "speaker": "Speaker",
         "en": "Yeah, that's true.",
         "ipa": "/jæðæts truː/",
@@ -100518,23 +100152,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 206,
-        "start": 510.32,
-        "end": 510.81,
-        "speaker": "Speaker",
-        "en": "That's true.",
-        "ipa": "/ðæts truː/",
-        "zh": "确实。",
-        "highlights": [
-          {
-            "text": "That's true",
-            "key": "that's true",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 207,
+        "id": 205,
         "start": 510.85,
         "end": 523.57,
         "speaker": "Speaker",
@@ -100560,7 +100178,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 208,
+        "id": 206,
         "start": 523.61,
         "end": 530.12,
         "speaker": "Speaker",
@@ -100576,7 +100194,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 209,
+        "id": 207,
         "start": 530.16,
         "end": 531.84,
         "speaker": "Speaker",
@@ -100592,7 +100210,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 210,
+        "id": 208,
         "start": 531.88,
         "end": 536.12,
         "speaker": "Speaker",
@@ -100608,7 +100226,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 211,
+        "id": 209,
         "start": 536.16,
         "end": 538.6,
         "speaker": "Speaker",
@@ -100624,7 +100242,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 212,
+        "id": 210,
         "start": 538.64,
         "end": 541.4,
         "speaker": "Speaker",
@@ -100640,7 +100258,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 213,
+        "id": 211,
         "start": 541.44,
         "end": 546.05,
         "speaker": "Speaker",
@@ -100656,7 +100274,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 214,
+        "id": 212,
         "start": 546.09,
         "end": 549.69,
         "speaker": "Speaker",
@@ -100677,7 +100295,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 215,
+        "id": 213,
         "start": 549.73,
         "end": 552.6,
         "speaker": "Speaker",
@@ -100693,7 +100311,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 216,
+        "id": 214,
         "start": 552.64,
         "end": 555.08,
         "speaker": "Speaker",
@@ -100709,7 +100327,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 217,
+        "id": 215,
         "start": 555.12,
         "end": 558.68,
         "speaker": "Speaker",
@@ -100730,7 +100348,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 218,
+        "id": 216,
         "start": 558.72,
         "end": 562.82,
         "speaker": "Speaker",
@@ -100746,7 +100364,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 219,
+        "id": 217,
         "start": 562.86,
         "end": 565.64,
         "speaker": "Speaker",
@@ -100762,7 +100380,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 220,
+        "id": 218,
         "start": 565.68,
         "end": 569.83,
         "speaker": "Speaker",
@@ -100783,7 +100401,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 221,
+        "id": 219,
         "start": 569.87,
         "end": 574.24,
         "speaker": "Speaker",
@@ -100799,7 +100417,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 222,
+        "id": 220,
         "start": 574.28,
         "end": 578.8,
         "speaker": "Speaker",
@@ -100820,7 +100438,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 223,
+        "id": 221,
         "start": 578.84,
         "end": 580.8,
         "speaker": "Speaker",
@@ -100836,7 +100454,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 224,
+        "id": 222,
         "start": 580.84,
         "end": 582.29,
         "speaker": "Speaker",
@@ -100852,7 +100470,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 225,
+        "id": 223,
         "start": 582.33,
         "end": 582.58,
         "speaker": "Speaker",
@@ -100868,7 +100486,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 226,
+        "id": 224,
         "start": 582.62,
         "end": 583.32,
         "speaker": "Speaker",
@@ -100884,7 +100502,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 227,
+        "id": 225,
         "start": 583.36,
         "end": 586.28,
         "speaker": "Speaker",
@@ -100900,7 +100518,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 228,
+        "id": 226,
         "start": 586.32,
         "end": 593.16,
         "speaker": "Speaker",
@@ -100921,7 +100539,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 229,
+        "id": 227,
         "start": 593.2,
         "end": 597.96,
         "speaker": "Speaker",
@@ -100937,7 +100555,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 230,
+        "id": 228,
         "start": 598.0,
         "end": 598.75,
         "speaker": "Speaker",
@@ -100953,7 +100571,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 231,
+        "id": 229,
         "start": 598.79,
         "end": 599.72,
         "speaker": "Speaker",
@@ -100969,7 +100587,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 232,
+        "id": 230,
         "start": 599.76,
         "end": 601.03,
         "speaker": "Speaker",
@@ -100985,7 +100603,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 233,
+        "id": 231,
         "start": 601.07,
         "end": 605.95,
         "speaker": "Speaker",
@@ -101006,7 +100624,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 234,
+        "id": 232,
         "start": 605.99,
         "end": 609.32,
         "speaker": "Speaker",
@@ -101022,7 +100640,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 235,
+        "id": 233,
         "start": 609.36,
         "end": 618.45,
         "speaker": "Speaker",
@@ -101038,7 +100656,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 236,
+        "id": 234,
         "start": 618.49,
         "end": 628.92,
         "speaker": "Speaker",
@@ -101059,7 +100677,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 237,
+        "id": 235,
         "start": 628.96,
         "end": 637.48,
         "speaker": "Speaker",
@@ -101080,7 +100698,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 238,
+        "id": 236,
         "start": 637.52,
         "end": 645.16,
         "speaker": "Speaker",
@@ -101101,7 +100719,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 239,
+        "id": 237,
         "start": 645.2,
         "end": 645.43,
         "speaker": "Speaker",
@@ -101111,7 +100729,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 240,
+        "id": 238,
         "start": 645.47,
         "end": 647.45,
         "speaker": "Speaker",
@@ -101127,7 +100745,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 241,
+        "id": 239,
         "start": 647.49,
         "end": 653.64,
         "speaker": "Speaker",
@@ -101148,7 +100766,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 242,
+        "id": 240,
         "start": 653.68,
         "end": 663.08,
         "speaker": "Speaker",
@@ -101169,7 +100787,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 243,
+        "id": 241,
         "start": 663.12,
         "end": 671.01,
         "speaker": "Speaker",
@@ -101190,7 +100808,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 244,
+        "id": 242,
         "start": 671.05,
         "end": 672.7,
         "speaker": "Speaker",
@@ -101206,7 +100824,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 245,
+        "id": 243,
         "start": 672.74,
         "end": 679.52,
         "speaker": "Speaker",
@@ -101227,7 +100845,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 246,
+        "id": 244,
         "start": 679.56,
         "end": 679.82,
         "speaker": "Speaker",
@@ -101237,7 +100855,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 247,
+        "id": 245,
         "start": 679.86,
         "end": 683.56,
         "speaker": "Speaker",
@@ -101258,7 +100876,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 248,
+        "id": 246,
         "start": 683.6,
         "end": 684.89,
         "speaker": "Speaker",
@@ -101274,7 +100892,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 249,
+        "id": 247,
         "start": 684.93,
         "end": 691.48,
         "speaker": "Speaker",
@@ -101295,7 +100913,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 250,
+        "id": 248,
         "start": 691.52,
         "end": 694.28,
         "speaker": "Speaker",
@@ -101316,7 +100934,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 251,
+        "id": 249,
         "start": 694.32,
         "end": 697.24,
         "speaker": "Speaker",
@@ -101332,7 +100950,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 252,
+        "id": 250,
         "start": 697.28,
         "end": 697.88,
         "speaker": "Speaker",
@@ -101342,7 +100960,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 253,
+        "id": 251,
         "start": 697.92,
         "end": 699.18,
         "speaker": "Speaker",
@@ -101352,7 +100970,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 254,
+        "id": 252,
         "start": 699.22,
         "end": 701.08,
         "speaker": "Speaker",
@@ -101368,7 +100986,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 255,
+        "id": 253,
         "start": 701.12,
         "end": 701.64,
         "speaker": "Speaker",
@@ -101378,7 +100996,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 256,
+        "id": 254,
         "start": 701.68,
         "end": 702.7,
         "speaker": "Speaker",
@@ -101394,7 +101012,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 257,
+        "id": 255,
         "start": 702.74,
         "end": 703.2,
         "speaker": "Speaker",
@@ -101410,7 +101028,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 258,
+        "id": 256,
         "start": 703.24,
         "end": 704.92,
         "speaker": "Speaker",
@@ -101426,7 +101044,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 259,
+        "id": 257,
         "start": 704.96,
         "end": 705.89,
         "speaker": "Speaker",
@@ -101442,7 +101060,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 260,
+        "id": 258,
         "start": 705.93,
         "end": 707.32,
         "speaker": "Speaker",
@@ -101458,7 +101076,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 261,
+        "id": 259,
         "start": 707.36,
         "end": 710.52,
         "speaker": "Speaker",
@@ -101474,7 +101092,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 262,
+        "id": 260,
         "start": 710.56,
         "end": 710.74,
         "speaker": "Speaker",
@@ -101484,7 +101102,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 263,
+        "id": 261,
         "start": 710.78,
         "end": 713.48,
         "speaker": "Speaker",
@@ -101500,7 +101118,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 264,
+        "id": 262,
         "start": 713.52,
         "end": 716.52,
         "speaker": "Speaker",
@@ -101516,7 +101134,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 265,
+        "id": 263,
         "start": 716.56,
         "end": 716.93,
         "speaker": "Speaker",
@@ -101526,7 +101144,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 266,
+        "id": 264,
         "start": 716.97,
         "end": 722.52,
         "speaker": "Speaker",
@@ -101547,7 +101165,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 267,
+        "id": 265,
         "start": 722.56,
         "end": 725.4,
         "speaker": "Speaker",
@@ -101557,7 +101175,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 268,
+        "id": 266,
         "start": 725.44,
         "end": 729.72,
         "speaker": "Speaker",
@@ -101573,7 +101191,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 269,
+        "id": 267,
         "start": 729.76,
         "end": 731.96,
         "speaker": "Speaker",
@@ -101589,7 +101207,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 270,
+        "id": 268,
         "start": 732.0,
         "end": 732.44,
         "speaker": "Speaker",
@@ -101599,7 +101217,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 271,
+        "id": 269,
         "start": 732.48,
         "end": 733.69,
         "speaker": "Speaker",
@@ -101615,7 +101233,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 272,
+        "id": 270,
         "start": 733.73,
         "end": 736.84,
         "speaker": "Speaker",
@@ -101631,7 +101249,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 273,
+        "id": 271,
         "start": 736.88,
         "end": 739.82,
         "speaker": "Speaker",
@@ -101647,7 +101265,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 274,
+        "id": 272,
         "start": 739.86,
         "end": 741.08,
         "speaker": "Speaker",
@@ -101663,7 +101281,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 275,
+        "id": 273,
         "start": 741.12,
         "end": 745.32,
         "speaker": "Speaker",
@@ -101679,7 +101297,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 276,
+        "id": 274,
         "start": 745.36,
         "end": 747.21,
         "speaker": "Speaker",
@@ -101695,7 +101313,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 277,
+        "id": 275,
         "start": 747.25,
         "end": 748.6,
         "speaker": "Speaker",
@@ -101711,7 +101329,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 278,
+        "id": 276,
         "start": 748.64,
         "end": 750.44,
         "speaker": "Speaker",
@@ -101727,7 +101345,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 279,
+        "id": 277,
         "start": 750.48,
         "end": 751.08,
         "speaker": "Speaker",
@@ -101737,7 +101355,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 280,
+        "id": 278,
         "start": 751.12,
         "end": 752.68,
         "speaker": "Speaker",
@@ -101753,7 +101371,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 281,
+        "id": 279,
         "start": 752.72,
         "end": 755.88,
         "speaker": "Speaker",
@@ -101763,7 +101381,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 282,
+        "id": 280,
         "start": 755.92,
         "end": 759.7,
         "speaker": "Speaker",
@@ -101779,7 +101397,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 283,
+        "id": 281,
         "start": 759.74,
         "end": 765.08,
         "speaker": "Speaker",
@@ -101795,7 +101413,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 284,
+        "id": 282,
         "start": 765.12,
         "end": 771.4,
         "speaker": "Speaker",
@@ -101811,7 +101429,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 285,
+        "id": 283,
         "start": 771.44,
         "end": 772.52,
         "speaker": "Speaker",
@@ -101827,7 +101445,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 286,
+        "id": 284,
         "start": 772.56,
         "end": 776.84,
         "speaker": "Speaker",
@@ -101843,7 +101461,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 287,
+        "id": 285,
         "start": 776.88,
         "end": 780.76,
         "speaker": "Speaker",
@@ -101859,7 +101477,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 288,
+        "id": 286,
         "start": 780.8,
         "end": 786.84,
         "speaker": "Speaker",
@@ -101875,7 +101493,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 289,
+        "id": 287,
         "start": 786.88,
         "end": 793.08,
         "speaker": "Speaker",
@@ -101891,7 +101509,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 290,
+        "id": 288,
         "start": 793.12,
         "end": 793.8,
         "speaker": "Speaker",
@@ -101907,7 +101525,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 291,
+        "id": 289,
         "start": 793.84,
         "end": 794.42,
         "speaker": "Speaker",
@@ -101923,7 +101541,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 292,
+        "id": 290,
         "start": 794.46,
         "end": 806.68,
         "speaker": "Speaker",
@@ -101944,7 +101562,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 293,
+        "id": 291,
         "start": 806.72,
         "end": 809.56,
         "speaker": "Speaker",
@@ -101954,7 +101572,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 294,
+        "id": 292,
         "start": 809.6,
         "end": 810.68,
         "speaker": "Speaker",
@@ -101970,7 +101588,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 295,
+        "id": 293,
         "start": 810.72,
         "end": 811.16,
         "speaker": "Speaker",
@@ -101980,9 +101598,9 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 296,
+        "id": 294,
         "start": 811.2,
-        "end": 813.0,
+        "end": 814.84,
         "speaker": "Speaker",
         "en": "Holy cow.",
         "ipa": "/ˈhoʊli kaʊ/",
@@ -101996,17 +101614,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 297,
-        "start": 813.04,
-        "end": 814.84,
-        "speaker": "Speaker",
-        "en": "Holy cow.",
-        "ipa": "/ˈhoʊli kaʊ/",
-        "zh": "我的天呐。",
-        "highlights": []
-      },
-      {
-        "id": 298,
+        "id": 295,
         "start": 814.88,
         "end": 815.8,
         "speaker": "Speaker",
@@ -102022,7 +101630,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 299,
+        "id": 296,
         "start": 815.84,
         "end": 816.36,
         "speaker": "Speaker",
@@ -102032,7 +101640,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 300,
+        "id": 297,
         "start": 816.4,
         "end": 819.4,
         "speaker": "Speaker",
@@ -102048,7 +101656,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 301,
+        "id": 298,
         "start": 819.44,
         "end": 820.35,
         "speaker": "Speaker",
@@ -102058,7 +101666,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 302,
+        "id": 299,
         "start": 820.39,
         "end": 821.88,
         "speaker": "Speaker",
@@ -102074,7 +101682,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 303,
+        "id": 300,
         "start": 821.92,
         "end": 823.0,
         "speaker": "Speaker",
@@ -102084,7 +101692,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 304,
+        "id": 301,
         "start": 823.04,
         "end": 823.77,
         "speaker": "Speaker",
@@ -102100,7 +101708,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 305,
+        "id": 302,
         "start": 823.81,
         "end": 826.8,
         "speaker": "Speaker",
@@ -102116,7 +101724,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 306,
+        "id": 303,
         "start": 826.84,
         "end": 828.76,
         "speaker": "Speaker",
@@ -102132,7 +101740,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 307,
+        "id": 304,
         "start": 828.8,
         "end": 829.38,
         "speaker": "Speaker",
@@ -102148,7 +101756,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 308,
+        "id": 305,
         "start": 829.42,
         "end": 832.28,
         "speaker": "Speaker",
@@ -102164,7 +101772,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 309,
+        "id": 306,
         "start": 832.32,
         "end": 833.08,
         "speaker": "Speaker",
@@ -102174,40 +101782,8 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 310,
+        "id": 307,
         "start": 833.12,
-        "end": 833.48,
-        "speaker": "Speaker",
-        "en": "Pizza.",
-        "ipa": "/ˈpiːtsə/",
-        "zh": "披萨。",
-        "highlights": [
-          {
-            "text": "Pizza",
-            "key": "pizza",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 311,
-        "start": 833.52,
-        "end": 833.88,
-        "speaker": "Speaker",
-        "en": "Pizza.",
-        "ipa": "/ˈpiːtsə/",
-        "zh": "披萨。",
-        "highlights": [
-          {
-            "text": "Pizza",
-            "key": "pizza",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 312,
-        "start": 833.92,
         "end": 834.28,
         "speaker": "Speaker",
         "en": "Pizza.",
@@ -102222,7 +101798,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 313,
+        "id": 308,
         "start": 834.32,
         "end": 836.36,
         "speaker": "Speaker",
@@ -102238,7 +101814,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 314,
+        "id": 309,
         "start": 836.4,
         "end": 839.0,
         "speaker": "Speaker",
@@ -102254,7 +101830,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 315,
+        "id": 310,
         "start": 839.04,
         "end": 840.12,
         "speaker": "Speaker",
@@ -102264,7 +101840,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 316,
+        "id": 311,
         "start": 840.16,
         "end": 841.4,
         "speaker": "Speaker",
@@ -102280,7 +101856,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 317,
+        "id": 312,
         "start": 841.44,
         "end": 841.91,
         "speaker": "Speaker",
@@ -102296,7 +101872,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 318,
+        "id": 313,
         "start": 841.95,
         "end": 843.43,
         "speaker": "Speaker",
@@ -102312,29 +101888,8 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 319,
+        "id": 314,
         "start": 843.47,
-        "end": 844.76,
-        "speaker": "Speaker",
-        "en": "No tomato sauce.",
-        "ipa": "/noʊ təˈmeɪtoʊ sɔːs/",
-        "zh": "没有番茄酱。",
-        "highlights": [
-          {
-            "text": "tomato",
-            "key": "tomato",
-            "chip": "orange"
-          },
-          {
-            "text": "sauce",
-            "key": "sauce",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 320,
-        "start": 844.8,
         "end": 846.44,
         "speaker": "Speaker",
         "en": "No tomato sauce.",
@@ -102354,7 +101909,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 321,
+        "id": 315,
         "start": 846.48,
         "end": 851.72,
         "speaker": "Speaker",
@@ -102370,9 +101925,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 322,
+        "id": 316,
         "start": 851.76,
-        "end": 859.0,
+        "end": 862.92,
         "speaker": "Speaker",
         "en": "I like tomato sauce on pizza, but she recommended it because we're making this video.",
         "ipa": "/aɪ laɪk təˈmeɪtoʊ sɔːs ɑːn ˈpiːtsə, bʌt ʃi ˌrekəˈmendəd ɪt bɪˈkəz wiːr ˈmeɪkɪŋ ðɪs ˈvɪdioʊ/",
@@ -102386,17 +101941,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 323,
-        "start": 859.04,
-        "end": 862.92,
-        "speaker": "Speaker",
-        "en": "We're making this video.",
-        "ipa": "/wɪr ˈmeɪkɪŋ ðɪs ˈvɪdioʊ/",
-        "zh": "我们在拍这个视频。",
-        "highlights": []
-      },
-      {
-        "id": 324,
+        "id": 317,
         "start": 862.96,
         "end": 865.08,
         "speaker": "Speaker",
@@ -102412,7 +101957,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 325,
+        "id": 318,
         "start": 865.12,
         "end": 866.44,
         "speaker": "Speaker",
@@ -102422,7 +101967,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 326,
+        "id": 319,
         "start": 866.48,
         "end": 868.2,
         "speaker": "Speaker",
@@ -102438,7 +101983,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 327,
+        "id": 320,
         "start": 868.24,
         "end": 869.93,
         "speaker": "Speaker",
@@ -102454,7 +101999,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 328,
+        "id": 321,
         "start": 869.97,
         "end": 871.19,
         "speaker": "Speaker",
@@ -102464,7 +102009,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 329,
+        "id": 322,
         "start": 871.23,
         "end": 875.74,
         "speaker": "Speaker",
@@ -102480,7 +102025,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 330,
+        "id": 323,
         "start": 875.78,
         "end": 878.2,
         "speaker": "Speaker",
@@ -102496,7 +102041,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 331,
+        "id": 324,
         "start": 878.24,
         "end": 879.01,
         "speaker": "Speaker",
@@ -102506,7 +102051,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 332,
+        "id": 325,
         "start": 879.05,
         "end": 879.64,
         "speaker": "Speaker",
@@ -102516,7 +102061,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 333,
+        "id": 326,
         "start": 879.68,
         "end": 881.85,
         "speaker": "Speaker",
@@ -102526,7 +102071,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 334,
+        "id": 327,
         "start": 881.89,
         "end": 882.84,
         "speaker": "Speaker",
@@ -102536,7 +102081,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 335,
+        "id": 328,
         "start": 882.88,
         "end": 889.4,
         "speaker": "Speaker",
@@ -102552,7 +102097,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 336,
+        "id": 329,
         "start": 889.44,
         "end": 892.17,
         "speaker": "Speaker",
@@ -102573,7 +102118,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 337,
+        "id": 330,
         "start": 892.21,
         "end": 894.28,
         "speaker": "Speaker",
@@ -102589,7 +102134,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 338,
+        "id": 331,
         "start": 894.32,
         "end": 895.51,
         "speaker": "Speaker",
@@ -102605,7 +102150,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 339,
+        "id": 332,
         "start": 895.55,
         "end": 899.08,
         "speaker": "Speaker",
@@ -102621,7 +102166,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 340,
+        "id": 333,
         "start": 899.12,
         "end": 901.16,
         "speaker": "Speaker",
@@ -102631,7 +102176,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 341,
+        "id": 334,
         "start": 901.2,
         "end": 902.92,
         "speaker": "Speaker",
@@ -102647,7 +102192,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 342,
+        "id": 335,
         "start": 902.96,
         "end": 903.25,
         "speaker": "Speaker",
@@ -102663,7 +102208,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 343,
+        "id": 336,
         "start": 903.29,
         "end": 905.88,
         "speaker": "Speaker",
@@ -102679,7 +102224,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 344,
+        "id": 337,
         "start": 905.92,
         "end": 906.59,
         "speaker": "Speaker",
@@ -102695,7 +102240,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 345,
+        "id": 338,
         "start": 906.63,
         "end": 907.08,
         "speaker": "Speaker",
@@ -102711,7 +102256,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 346,
+        "id": 339,
         "start": 907.12,
         "end": 909.56,
         "speaker": "Speaker",
@@ -102727,7 +102272,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 347,
+        "id": 340,
         "start": 909.6,
         "end": 910.27,
         "speaker": "Speaker",
@@ -102743,7 +102288,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 348,
+        "id": 341,
         "start": 910.31,
         "end": 912.12,
         "speaker": "Speaker",
@@ -102759,7 +102304,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 349,
+        "id": 342,
         "start": 912.16,
         "end": 913.4,
         "speaker": "Speaker",
@@ -102775,7 +102320,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 350,
+        "id": 343,
         "start": 913.44,
         "end": 913.74,
         "speaker": "Speaker",
@@ -102791,7 +102336,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 351,
+        "id": 344,
         "start": 913.78,
         "end": 915.32,
         "speaker": "Speaker",
@@ -102807,7 +102352,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 352,
+        "id": 345,
         "start": 915.36,
         "end": 918.04,
         "speaker": "Speaker",
@@ -102823,7 +102368,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 353,
+        "id": 346,
         "start": 918.08,
         "end": 918.37,
         "speaker": "Speaker",
@@ -102839,7 +102384,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 354,
+        "id": 347,
         "start": 918.41,
         "end": 919.96,
         "speaker": "Speaker",
@@ -102855,7 +102400,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 355,
+        "id": 348,
         "start": 920.0,
         "end": 921.53,
         "speaker": "Speaker",
@@ -102871,7 +102416,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 356,
+        "id": 349,
         "start": 921.57,
         "end": 925.32,
         "speaker": "Speaker",
@@ -102887,7 +102432,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 357,
+        "id": 350,
         "start": 925.36,
         "end": 927.72,
         "speaker": "Speaker",
@@ -102903,7 +102448,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 358,
+        "id": 351,
         "start": 927.76,
         "end": 928.68,
         "speaker": "Speaker",
@@ -102919,7 +102464,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 359,
+        "id": 352,
         "start": 928.72,
         "end": 932.82,
         "speaker": "Speaker",
@@ -102935,7 +102480,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 360,
+        "id": 353,
         "start": 932.86,
         "end": 933.18,
         "speaker": "Speaker",
@@ -102951,7 +102496,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 361,
+        "id": 354,
         "start": 933.22,
         "end": 934.04,
         "speaker": "Speaker",
@@ -102967,7 +102512,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 362,
+        "id": 355,
         "start": 934.08,
         "end": 934.92,
         "speaker": "Speaker",
@@ -102983,7 +102528,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 363,
+        "id": 356,
         "start": 934.96,
         "end": 935.96,
         "speaker": "Speaker",
@@ -102999,24 +102544,8 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 364,
+        "id": 357,
         "start": 936.0,
-        "end": 936.68,
-        "speaker": "Speaker",
-        "en": "Wow.",
-        "ipa": "/waʊ/",
-        "zh": "哇。",
-        "highlights": [
-          {
-            "text": "Wow",
-            "key": "Wow",
-            "chip": "pink"
-          }
-        ]
-      },
-      {
-        "id": 365,
-        "start": 936.72,
         "end": 936.97,
         "speaker": "Speaker",
         "en": "Wow.",
@@ -103031,7 +102560,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 366,
+        "id": 358,
         "start": 937.01,
         "end": 938.04,
         "speaker": "Speaker",
@@ -103047,7 +102576,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 367,
+        "id": 359,
         "start": 938.08,
         "end": 938.9,
         "speaker": "Speaker",
@@ -103063,7 +102592,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 368,
+        "id": 360,
         "start": 938.94,
         "end": 939.76,
         "speaker": "Speaker",
@@ -103079,7 +102608,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 369,
+        "id": 361,
         "start": 939.8,
         "end": 942.36,
         "speaker": "Speaker",
@@ -103095,7 +102624,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 370,
+        "id": 362,
         "start": 942.4,
         "end": 943.72,
         "speaker": "Speaker",
@@ -103111,7 +102640,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 371,
+        "id": 363,
         "start": 943.76,
         "end": 950.73,
         "speaker": "Speaker",
@@ -103127,7 +102656,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 372,
+        "id": 364,
         "start": 950.77,
         "end": 952.41,
         "speaker": "Speaker",
@@ -103143,7 +102672,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 373,
+        "id": 365,
         "start": 952.45,
         "end": 955.03,
         "speaker": "Speaker",
@@ -103159,7 +102688,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 374,
+        "id": 366,
         "start": 955.07,
         "end": 955.88,
         "speaker": "Speaker",
@@ -103169,7 +102698,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 375,
+        "id": 367,
         "start": 955.92,
         "end": 960.37,
         "speaker": "Speaker",
@@ -103185,7 +102714,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 376,
+        "id": 368,
         "start": 960.41,
         "end": 964.32,
         "speaker": "Speaker",
@@ -103201,7 +102730,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 377,
+        "id": 369,
         "start": 964.36,
         "end": 965.65,
         "speaker": "Speaker",
@@ -103217,7 +102746,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 378,
+        "id": 370,
         "start": 965.69,
         "end": 967.25,
         "speaker": "Speaker",
@@ -103233,7 +102762,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 379,
+        "id": 371,
         "start": 967.29,
         "end": 972.2,
         "speaker": "Speaker",
@@ -103243,7 +102772,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 380,
+        "id": 372,
         "start": 972.24,
         "end": 973.63,
         "speaker": "Speaker",
@@ -103259,7 +102788,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 381,
+        "id": 373,
         "start": 973.67,
         "end": 977.7,
         "speaker": "Speaker",
@@ -103269,7 +102798,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 382,
+        "id": 374,
         "start": 977.74,
         "end": 980.92,
         "speaker": "Speaker",
@@ -103285,7 +102814,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 383,
+        "id": 375,
         "start": 980.96,
         "end": 985.48,
         "speaker": "Speaker",
@@ -103301,7 +102830,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 384,
+        "id": 376,
         "start": 985.52,
         "end": 989.23,
         "speaker": "Speaker",
@@ -103317,7 +102846,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 385,
+        "id": 377,
         "start": 989.27,
         "end": 995.32,
         "speaker": "Speaker",
@@ -103333,7 +102862,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 386,
+        "id": 378,
         "start": 995.36,
         "end": 998.48,
         "speaker": "Speaker",
@@ -103349,7 +102878,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 387,
+        "id": 379,
         "start": 998.52,
         "end": 1001.89,
         "speaker": "Speaker",
@@ -103359,7 +102888,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 388,
+        "id": 380,
         "start": 1001.93,
         "end": 1005.43,
         "speaker": "Speaker",
@@ -103375,7 +102904,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 389,
+        "id": 381,
         "start": 1005.47,
         "end": 1005.72,
         "speaker": "Speaker",
@@ -103385,7 +102914,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 390,
+        "id": 382,
         "start": 1005.76,
         "end": 1007.0,
         "speaker": "Speaker",
@@ -103395,7 +102924,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 391,
+        "id": 383,
         "start": 1007.04,
         "end": 1008.85,
         "speaker": "Speaker",
@@ -103411,7 +102940,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 392,
+        "id": 384,
         "start": 1008.89,
         "end": 1009.4,
         "speaker": "Speaker",
@@ -103421,7 +102950,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 393,
+        "id": 385,
         "start": 1009.44,
         "end": 1012.12,
         "speaker": "Speaker",
@@ -103437,7 +102966,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 394,
+        "id": 386,
         "start": 1012.16,
         "end": 1012.86,
         "speaker": "Speaker",
@@ -103447,7 +102976,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 395,
+        "id": 387,
         "start": 1012.9,
         "end": 1015.08,
         "speaker": "Speaker",
@@ -103463,7 +102992,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 396,
+        "id": 388,
         "start": 1015.12,
         "end": 1015.38,
         "speaker": "Speaker",
@@ -103473,7 +103002,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 397,
+        "id": 389,
         "start": 1015.42,
         "end": 1021.45,
         "speaker": "Speaker",
@@ -103489,7 +103018,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 398,
+        "id": 390,
         "start": 1021.49,
         "end": 1025.56,
         "speaker": "Speaker",
@@ -103499,7 +103028,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 399,
+        "id": 391,
         "start": 1025.6,
         "end": 1028.04,
         "speaker": "Speaker",
@@ -103515,7 +103044,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 400,
+        "id": 392,
         "start": 1028.08,
         "end": 1036.76,
         "speaker": "Speaker",
@@ -103531,7 +103060,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 401,
+        "id": 393,
         "start": 1036.8,
         "end": 1039.96,
         "speaker": "Speaker",
@@ -103547,7 +103076,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 402,
+        "id": 394,
         "start": 1040.0,
         "end": 1040.37,
         "speaker": "Speaker",
@@ -103557,7 +103086,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 403,
+        "id": 395,
         "start": 1040.41,
         "end": 1043.32,
         "speaker": "Speaker",
@@ -103578,7 +103107,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 404,
+        "id": 396,
         "start": 1043.36,
         "end": 1044.04,
         "speaker": "Speaker",
@@ -103588,7 +103117,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 405,
+        "id": 397,
         "start": 1044.08,
         "end": 1046.28,
         "speaker": "Speaker",
@@ -103598,7 +103127,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 406,
+        "id": 398,
         "start": 1046.32,
         "end": 1048.68,
         "speaker": "Speaker",
@@ -103614,7 +103143,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 407,
+        "id": 399,
         "start": 1048.72,
         "end": 1050.64,
         "speaker": "Speaker",
@@ -103630,7 +103159,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 408,
+        "id": 400,
         "start": 1050.68,
         "end": 1052.6,
         "speaker": "Speaker",
@@ -103651,7 +103180,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 409,
+        "id": 401,
         "start": 1052.64,
         "end": 1052.84,
         "speaker": "Speaker",
@@ -103661,7 +103190,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 410,
+        "id": 402,
         "start": 1052.88,
         "end": 1053.98,
         "speaker": "Speaker",
@@ -103671,7 +103200,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 411,
+        "id": 403,
         "start": 1054.02,
         "end": 1055.11,
         "speaker": "Speaker",
@@ -103687,7 +103216,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 412,
+        "id": 404,
         "start": 1055.15,
         "end": 1057.08,
         "speaker": "Speaker",
@@ -103703,7 +103232,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 413,
+        "id": 405,
         "start": 1057.12,
         "end": 1057.85,
         "speaker": "Speaker",
@@ -103719,7 +103248,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 414,
+        "id": 406,
         "start": 1057.89,
         "end": 1059.48,
         "speaker": "Speaker",
@@ -103735,7 +103264,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 415,
+        "id": 407,
         "start": 1059.52,
         "end": 1060.39,
         "speaker": "Speaker",
@@ -103751,7 +103280,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 416,
+        "id": 408,
         "start": 1060.43,
         "end": 1062.36,
         "speaker": "Speaker",
@@ -103767,18 +103296,8 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 417,
+        "id": 409,
         "start": 1062.4,
-        "end": 1062.96,
-        "speaker": "Speaker",
-        "en": "Mhm.",
-        "ipa": "/m̩ˈhʌm/",
-        "zh": "嗯。",
-        "highlights": []
-      },
-      {
-        "id": 418,
-        "start": 1063.0,
         "end": 1063.56,
         "speaker": "Speaker",
         "en": "Mhm.",
@@ -103787,7 +103306,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 419,
+        "id": 410,
         "start": 1063.6,
         "end": 1065.16,
         "speaker": "Speaker",
@@ -103797,7 +103316,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 420,
+        "id": 411,
         "start": 1065.2,
         "end": 1067.0,
         "speaker": "Speaker",
@@ -103813,7 +103332,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 421,
+        "id": 412,
         "start": 1067.04,
         "end": 1068.52,
         "speaker": "Speaker",
@@ -103829,7 +103348,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 422,
+        "id": 413,
         "start": 1068.56,
         "end": 1068.84,
         "speaker": "Speaker",
@@ -103839,7 +103358,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 423,
+        "id": 414,
         "start": 1068.88,
         "end": 1069.03,
         "speaker": "Speaker",
@@ -103849,7 +103368,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 424,
+        "id": 415,
         "start": 1069.06,
         "end": 1070.33,
         "speaker": "Speaker",
@@ -103865,7 +103384,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 425,
+        "id": 416,
         "start": 1070.37,
         "end": 1072.92,
         "speaker": "Speaker",
@@ -103881,7 +103400,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 426,
+        "id": 417,
         "start": 1072.96,
         "end": 1073.8,
         "speaker": "Speaker",
@@ -103897,7 +103416,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 427,
+        "id": 418,
         "start": 1073.84,
         "end": 1075.88,
         "speaker": "Speaker",
@@ -103913,7 +103432,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 428,
+        "id": 419,
         "start": 1075.92,
         "end": 1077.4,
         "speaker": "Speaker",
@@ -103923,7 +103442,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 429,
+        "id": 420,
         "start": 1077.44,
         "end": 1077.68,
         "speaker": "Speaker",
@@ -103933,7 +103452,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 430,
+        "id": 421,
         "start": 1077.72,
         "end": 1080.49,
         "speaker": "Speaker",
@@ -103949,7 +103468,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 431,
+        "id": 422,
         "start": 1080.53,
         "end": 1081.56,
         "speaker": "Speaker",
@@ -103965,7 +103484,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 432,
+        "id": 423,
         "start": 1081.6,
         "end": 1083.51,
         "speaker": "Speaker",
@@ -103981,7 +103500,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 433,
+        "id": 424,
         "start": 1083.55,
         "end": 1083.8,
         "speaker": "Speaker",
@@ -103991,7 +103510,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 434,
+        "id": 425,
         "start": 1083.84,
         "end": 1087.0,
         "speaker": "Speaker",
@@ -104001,7 +103520,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 435,
+        "id": 426,
         "start": 1087.04,
         "end": 1089.81,
         "speaker": "Speaker",
@@ -104011,7 +103530,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 436,
+        "id": 427,
         "start": 1089.85,
         "end": 1094.44,
         "speaker": "Speaker",
@@ -104027,7 +103546,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 437,
+        "id": 428,
         "start": 1094.48,
         "end": 1099.21,
         "speaker": "Speaker",
@@ -104048,7 +103567,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 438,
+        "id": 429,
         "start": 1099.25,
         "end": 1109.72,
         "speaker": "Speaker",
@@ -104069,7 +103588,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 439,
+        "id": 430,
         "start": 1109.76,
         "end": 1111.8,
         "speaker": "Speaker",
@@ -104085,7 +103604,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 440,
+        "id": 431,
         "start": 1111.84,
         "end": 1114.84,
         "speaker": "Speaker",
@@ -104101,7 +103620,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 441,
+        "id": 432,
         "start": 1114.88,
         "end": 1117.88,
         "speaker": "Speaker",
@@ -104117,7 +103636,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 442,
+        "id": 433,
         "start": 1117.92,
         "end": 1120.44,
         "speaker": "Speaker",
@@ -104133,7 +103652,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 443,
+        "id": 434,
         "start": 1120.48,
         "end": 1124.76,
         "speaker": "Speaker",
@@ -104149,7 +103668,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 444,
+        "id": 435,
         "start": 1124.8,
         "end": 1125.24,
         "speaker": "Speaker",
@@ -104159,7 +103678,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 445,
+        "id": 436,
         "start": 1125.28,
         "end": 1127.38,
         "speaker": "Speaker",
@@ -104175,7 +103694,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 446,
+        "id": 437,
         "start": 1127.42,
         "end": 1131.48,
         "speaker": "Speaker",
@@ -104191,7 +103710,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 447,
+        "id": 438,
         "start": 1131.52,
         "end": 1134.36,
         "speaker": "Speaker",
@@ -104207,7 +103726,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 448,
+        "id": 439,
         "start": 1134.4,
         "end": 1138.07,
         "speaker": "Speaker",
@@ -104223,7 +103742,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 449,
+        "id": 440,
         "start": 1138.11,
         "end": 1150.55,
         "speaker": "Speaker",
@@ -104244,7 +103763,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 450,
+        "id": 441,
         "start": 1150.59,
         "end": 1153.88,
         "speaker": "Speaker",
@@ -104260,7 +103779,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 451,
+        "id": 442,
         "start": 1153.92,
         "end": 1168.76,
         "speaker": "Speaker",
@@ -104281,7 +103800,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 452,
+        "id": 443,
         "start": 1168.8,
         "end": 1180.42,
         "speaker": "Speaker",
@@ -104302,7 +103821,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 453,
+        "id": 444,
         "start": 1180.46,
         "end": 1184.05,
         "speaker": "Speaker",
@@ -104318,7 +103837,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 454,
+        "id": 445,
         "start": 1184.09,
         "end": 1190.6,
         "speaker": "Speaker",
@@ -104334,7 +103853,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 455,
+        "id": 446,
         "start": 1190.64,
         "end": 1195.89,
         "speaker": "Speaker",
@@ -104355,7 +103874,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 456,
+        "id": 447,
         "start": 1195.93,
         "end": 1206.7,
         "speaker": "Speaker",
@@ -104376,7 +103895,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 457,
+        "id": 448,
         "start": 1206.74,
         "end": 1207.81,
         "speaker": "Speaker",
@@ -104392,7 +103911,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 458,
+        "id": 449,
         "start": 1207.85,
         "end": 1211.63,
         "speaker": "Speaker",
@@ -104408,7 +103927,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 459,
+        "id": 450,
         "start": 1211.67,
         "end": 1213.24,
         "speaker": "Speaker",
@@ -104424,7 +103943,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 460,
+        "id": 451,
         "start": 1213.28,
         "end": 1216.44,
         "speaker": "Speaker",
@@ -104440,7 +103959,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 461,
+        "id": 452,
         "start": 1216.48,
         "end": 1224.24,
         "speaker": "Speaker",
@@ -104456,7 +103975,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 462,
+        "id": 453,
         "start": 1224.28,
         "end": 1227.64,
         "speaker": "Speaker",
@@ -104472,7 +103991,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 463,
+        "id": 454,
         "start": 1227.68,
         "end": 1234.66,
         "speaker": "Speaker",
@@ -104488,7 +104007,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 464,
+        "id": 455,
         "start": 1234.7,
         "end": 1235.52,
         "speaker": "Speaker",
@@ -104504,7 +104023,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 465,
+        "id": 456,
         "start": 1235.56,
         "end": 1239.27,
         "speaker": "Speaker",
@@ -104520,7 +104039,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 466,
+        "id": 457,
         "start": 1239.31,
         "end": 1239.57,
         "speaker": "Speaker",
@@ -104536,7 +104055,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 467,
+        "id": 458,
         "start": 1239.61,
         "end": 1241.46,
         "speaker": "Speaker",
@@ -104552,7 +104071,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 468,
+        "id": 459,
         "start": 1241.5,
         "end": 1247.06,
         "speaker": "Speaker",
@@ -104568,7 +104087,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 469,
+        "id": 460,
         "start": 1247.1,
         "end": 1251.85,
         "speaker": "Speaker",
@@ -104584,7 +104103,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 470,
+        "id": 461,
         "start": 1251.89,
         "end": 1256.56,
         "speaker": "Speaker",
@@ -104613,32 +104132,56 @@ export const LOCAL_EPISODES = [
     "durationLabel": "31:12",
     "date": "2026/11/28",
     "tags": [
-      "购物",
-      "美食",
-      "旅行"
+      "旅行",
+      "日常对话",
+      "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #DCE7E2 0%, #6D9A86 100%)",
     "coverImage": "./content/episodes/Real%20Life%20ENGLISH%20Around%20the%20City.webp",
     "mediaUrl": "./content/episodes/Real%20Life%20ENGLISH%20Around%20the%20City.f616.mp4",
     "audioUrl": "./content/episodes/Real%20Life%20ENGLISH%20Around%20the%20City.f140.m4a",
     "mediaKind": "video",
-    "sceneBadge": "购物",
+    "sceneBadge": "旅行",
     "skipRanges": [
+      [
+        334.9,
+        336.69
+      ],
+      [
+        368.82,
+        374.77
+      ],
       [
         861.32,
         872.46
+      ],
+      [
+        1174.93,
+        1175.74
+      ],
+      [
+        1198.13,
+        1201.66
+      ],
+      [
+        1212.25,
+        1212.78
       ],
       [
         1229.44,
         1230.83
       ],
       [
-        1488.17,
+        1486.78,
         1491.79
       ],
       [
         1499.96,
         1501.11
+      ],
+      [
+        1561.04,
+        1561.75
       ]
     ],
     "sentences": [
@@ -104741,7 +104284,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 7,
         "start": 24.5,
-        "end": 30.92,
+        "end": 37.43,
         "speaker": "Speaker",
         "en": "If you're new here, hi, I'm Vanessa from speakenglishwithvanessa.com, and I have been teaching real life English here on my YouTube channel for over the past 10 years to now more than 7 million of you.",
         "ipa": "/ɪf yur nu hir, haɪ, aɪm vəˈnɛsə frʌm speakenglishwithvanessa.com, ænd aɪ hæv bin ˈtitʃɪŋ ril laɪf ˈɪŋglɪʃ hir ɑn maɪ ˈjutub ˈtʃænəl fɔr ˈoʊvər ðə pæst 10 jɪrz tu naʊ mɔr ðæn 7 ˈmɪljən əv ju./",
@@ -104756,24 +104299,8 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 8,
-        "start": 30.96,
-        "end": 37.43,
-        "speaker": "Speaker",
-        "en": "English here on my YouTube channel for over the past 10 years to now more than 7 million of you.",
-        "ipa": "/ˈɪŋglɪʃ hir ɑn maɪ ˈjutub ˈtʃænəl fɔr ˈoʊvər ðə pæst 10 jɪrz tu naʊ mɔr ðæn 7 ˈmɪljən əv ju./",
-        "zh": "在我的 YouTube 频道上教英语已经超过十年，现在有超过 700 万粉丝了。",
-        "highlights": [
-          {
-            "text": "over the past",
-            "key": "在过去...",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 9,
         "start": 37.47,
-        "end": 46.24,
+        "end": 48.67,
         "speaker": "Speaker",
         "en": "Thank you so much for learning English with me, and like always, I have created a free worksheet where you can learn all of the expressions that you're about to hear today.",
         "ipa": "/θæŋk ju soʊ mʌtʃ fɔr ˈlɜrnɪŋ ˈɪŋglɪʃ wɪð mi, ænd laɪk ˈɔlˌweɪz, aɪ hæv kriˈeɪtəd ə fri ˈwɜrkˌʃit wɛr ju kæn lɜrn ɔl əv ði ɪkˈsprɛʃənz ðæt yur əˈbaʊt tu hir təˈdeɪ./",
@@ -104787,23 +104314,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 10,
-        "start": 46.28,
-        "end": 48.67,
-        "speaker": "Speaker",
-        "en": "Expressions that you're about to hear today.",
-        "ipa": "/ɪkˈsprɛʃənz ðæt yur əˈbaʊt tu hir təˈdeɪ./",
-        "zh": "你们今天即将听到的表达。",
-        "highlights": [
-          {
-            "text": "about to",
-            "key": "即将",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 11,
+        "id": 9,
         "start": 48.71,
         "end": 51.72,
         "speaker": "Speaker",
@@ -104819,9 +104330,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 12,
+        "id": 10,
         "start": 51.76,
-        "end": 60.48,
+        "end": 62.29,
         "speaker": "Speaker",
         "en": "I'm going to add a free speaking practice so that you can practice all of these words, all of the sentences, and really be able to use this when you go out into the real world.",
         "ipa": "/aɪm ˈgoʊɪŋ tu æd ə fri ˈspikɪŋ ˈpræktɪs soʊ ðæt ju kæn ˈpræktɪs ɔl əv ðiz wɜrdz, ɔl əv ðə ˈsɛntənsəz, ænd ˈrɪli bi ˈeɪbəl tu juz ðɪs wɛn ju goʊ aʊt ˈɪntu ðə ril wɜrld./",
@@ -104835,23 +104346,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 13,
-        "start": 60.52,
-        "end": 62.29,
-        "speaker": "Speaker",
-        "en": "This when you go out into the real world.",
-        "ipa": "/ðɪs wɛn ju goʊ aʊt ˈɪntu ðə ril wɜrld./",
-        "zh": "当你走进现实世界时使用它。",
-        "highlights": [
-          {
-            "text": "go out into",
-            "key": "走进/进入",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 14,
+        "id": 11,
         "start": 62.33,
         "end": 66.21,
         "speaker": "Speaker",
@@ -104867,7 +104362,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 15,
+        "id": 12,
         "start": 66.25,
         "end": 73.99,
         "speaker": "Speaker",
@@ -104883,7 +104378,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 16,
+        "id": 13,
         "start": 74.03,
         "end": 75.58,
         "speaker": "Speaker",
@@ -104899,7 +104394,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 17,
+        "id": 14,
         "start": 75.62,
         "end": 78.6,
         "speaker": "Speaker",
@@ -104915,7 +104410,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 18,
+        "id": 15,
         "start": 78.64,
         "end": 86.74,
         "speaker": "Speaker",
@@ -104931,7 +104426,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 19,
+        "id": 16,
         "start": 86.78,
         "end": 88.48,
         "speaker": "Speaker",
@@ -104947,7 +104442,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 20,
+        "id": 17,
         "start": 88.52,
         "end": 92.44,
         "speaker": "Speaker",
@@ -104963,7 +104458,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 21,
+        "id": 18,
         "start": 92.48,
         "end": 99.08,
         "speaker": "Speaker",
@@ -104979,7 +104474,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 22,
+        "id": 19,
         "start": 99.12,
         "end": 101.19,
         "speaker": "Speaker",
@@ -104995,7 +104490,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 23,
+        "id": 20,
         "start": 101.23,
         "end": 105.98,
         "speaker": "Speaker",
@@ -105011,7 +104506,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 24,
+        "id": 21,
         "start": 106.02,
         "end": 108.67,
         "speaker": "Speaker",
@@ -105027,7 +104522,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 25,
+        "id": 22,
         "start": 108.71,
         "end": 113.25,
         "speaker": "Speaker",
@@ -105043,7 +104538,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 26,
+        "id": 23,
         "start": 113.29,
         "end": 115.68,
         "speaker": "Speaker",
@@ -105059,9 +104554,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 27,
+        "id": 24,
         "start": 115.72,
-        "end": 124.61,
+        "end": 125.87,
         "speaker": "Speaker",
         "en": "This is a parking meter, and uh you need to pay the meter if you're going to park on the street, but we did not park on the side of the street.",
         "ipa": "/ðɪs ɪz ə ˈpɑrkɪŋ ˈmitər, ænd uh ju nid tu peɪ ðə ˈmitər ɪf yur ˈgoʊɪŋ tu pɑrk ɑn ðə strit, bʌt wi dɪd nɑt pɑrk ɑn ðə saɪd əv ðə strit./",
@@ -105075,23 +104570,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 28,
-        "start": 124.65,
-        "end": 125.87,
-        "speaker": "Speaker",
-        "en": "The side of the street.",
-        "ipa": "/ðə saɪd əv ðə strit./",
-        "zh": "路边。",
-        "highlights": [
-          {
-            "text": "side of the street",
-            "key": "路边",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 29,
+        "id": 25,
         "start": 125.91,
         "end": 128.42,
         "speaker": "Speaker",
@@ -105107,7 +104586,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 30,
+        "id": 26,
         "start": 128.46,
         "end": 132.01,
         "speaker": "Speaker",
@@ -105123,7 +104602,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 31,
+        "id": 27,
         "start": 132.05,
         "end": 139.62,
         "speaker": "Speaker",
@@ -105139,7 +104618,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 32,
+        "id": 28,
         "start": 139.66,
         "end": 142.53,
         "speaker": "Speaker",
@@ -105155,7 +104634,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 33,
+        "id": 29,
         "start": 142.57,
         "end": 146.67,
         "speaker": "Speaker",
@@ -105171,7 +104650,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 34,
+        "id": 30,
         "start": 146.71,
         "end": 151.93,
         "speaker": "Speaker",
@@ -105187,7 +104666,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 35,
+        "id": 31,
         "start": 151.97,
         "end": 153.58,
         "speaker": "Speaker",
@@ -105203,7 +104682,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 36,
+        "id": 32,
         "start": 153.62,
         "end": 154.97,
         "speaker": "Speaker",
@@ -105219,7 +104698,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 37,
+        "id": 33,
         "start": 155.01,
         "end": 163.29,
         "speaker": "Speaker",
@@ -105235,7 +104714,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 38,
+        "id": 34,
         "start": 163.33,
         "end": 182.99,
         "speaker": "Speaker",
@@ -105261,7 +104740,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 39,
+        "id": 35,
         "start": 183.03,
         "end": 187.11,
         "speaker": "Speaker",
@@ -105277,7 +104756,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 40,
+        "id": 36,
         "start": 187.15,
         "end": 189.05,
         "speaker": "Speaker",
@@ -105293,7 +104772,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 41,
+        "id": 37,
         "start": 189.09,
         "end": 190.62,
         "speaker": "Speaker",
@@ -105309,7 +104788,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 42,
+        "id": 38,
         "start": 190.66,
         "end": 192.44,
         "speaker": "Speaker",
@@ -105325,7 +104804,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 43,
+        "id": 39,
         "start": 192.48,
         "end": 204.41,
         "speaker": "Speaker",
@@ -105351,7 +104830,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 44,
+        "id": 40,
         "start": 204.45,
         "end": 205.85,
         "speaker": "Speaker",
@@ -105367,7 +104846,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 45,
+        "id": 41,
         "start": 205.89,
         "end": 220.64,
         "speaker": "Speaker",
@@ -105388,7 +104867,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 46,
+        "id": 42,
         "start": 220.68,
         "end": 223.09,
         "speaker": "Speaker",
@@ -105404,7 +104883,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 47,
+        "id": 43,
         "start": 223.13,
         "end": 226.25,
         "speaker": "Speaker",
@@ -105420,7 +104899,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 48,
+        "id": 44,
         "start": 226.29,
         "end": 227.93,
         "speaker": "Speaker",
@@ -105436,7 +104915,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 49,
+        "id": 45,
         "start": 227.97,
         "end": 228.81,
         "speaker": "Speaker",
@@ -105452,7 +104931,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 50,
+        "id": 46,
         "start": 228.85,
         "end": 229.59,
         "speaker": "Speaker",
@@ -105468,7 +104947,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 51,
+        "id": 47,
         "start": 229.63,
         "end": 234.93,
         "speaker": "Speaker",
@@ -105484,7 +104963,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 52,
+        "id": 48,
         "start": 234.97,
         "end": 248.41,
         "speaker": "Speaker",
@@ -105510,7 +104989,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 53,
+        "id": 49,
         "start": 248.45,
         "end": 249.39,
         "speaker": "Speaker",
@@ -105526,7 +105005,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 54,
+        "id": 50,
         "start": 249.43,
         "end": 258.0,
         "speaker": "Speaker",
@@ -105547,7 +105026,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 55,
+        "id": 51,
         "start": 258.04,
         "end": 260.69,
         "speaker": "Speaker",
@@ -105563,7 +105042,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 56,
+        "id": 52,
         "start": 260.73,
         "end": 272.16,
         "speaker": "Speaker",
@@ -105589,7 +105068,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 57,
+        "id": 53,
         "start": 272.2,
         "end": 274.12,
         "speaker": "Speaker",
@@ -105605,7 +105084,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 58,
+        "id": 54,
         "start": 274.16,
         "end": 277.85,
         "speaker": "Speaker",
@@ -105621,7 +105100,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 59,
+        "id": 55,
         "start": 277.89,
         "end": 282.94,
         "speaker": "Speaker",
@@ -105637,7 +105116,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 60,
+        "id": 56,
         "start": 282.98,
         "end": 285.55,
         "speaker": "Speaker",
@@ -105653,7 +105132,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 61,
+        "id": 57,
         "start": 285.59,
         "end": 294.22,
         "speaker": "Speaker",
@@ -105669,7 +105148,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 62,
+        "id": 58,
         "start": 294.26,
         "end": 303.02,
         "speaker": "Speaker",
@@ -105690,7 +105169,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 63,
+        "id": 59,
         "start": 303.06,
         "end": 305.05,
         "speaker": "Speaker",
@@ -105706,7 +105185,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 64,
+        "id": 60,
         "start": 305.09,
         "end": 313.73,
         "speaker": "Speaker",
@@ -105727,7 +105206,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 65,
+        "id": 61,
         "start": 313.77,
         "end": 321.17,
         "speaker": "Speaker",
@@ -105748,7 +105227,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 66,
+        "id": 62,
         "start": 321.21,
         "end": 327.13,
         "speaker": "Speaker",
@@ -105764,7 +105243,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 67,
+        "id": 63,
         "start": 327.17,
         "end": 328.07,
         "speaker": "Speaker",
@@ -105780,7 +105259,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 68,
+        "id": 64,
         "start": 328.11,
         "end": 329.41,
         "speaker": "Speaker",
@@ -105796,9 +105275,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 69,
+        "id": 65,
         "start": 329.45,
-        "end": 336.65,
+        "end": 334.9,
         "speaker": "Speaker",
         "en": "Let's go.",
         "ipa": "/lɛts goʊ./",
@@ -105812,7 +105291,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 70,
+        "id": 66,
         "start": 336.69,
         "end": 338.09,
         "speaker": "Speaker",
@@ -105822,7 +105301,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 71,
+        "id": 67,
         "start": 338.13,
         "end": 346.09,
         "speaker": "Speaker",
@@ -105838,7 +105317,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 72,
+        "id": 68,
         "start": 346.13,
         "end": 349.65,
         "speaker": "Speaker",
@@ -105854,7 +105333,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 73,
+        "id": 69,
         "start": 349.69,
         "end": 353.33,
         "speaker": "Speaker",
@@ -105870,7 +105349,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 74,
+        "id": 70,
         "start": 353.37,
         "end": 363.33,
         "speaker": "Speaker",
@@ -105886,9 +105365,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 75,
+        "id": 71,
         "start": 363.37,
-        "end": 374.73,
+        "end": 368.82,
         "speaker": "Speaker",
         "en": "Let's go see.",
         "ipa": "/lɛts goʊ si./",
@@ -105902,7 +105381,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 76,
+        "id": 72,
         "start": 374.77,
         "end": 378.21,
         "speaker": "Speaker",
@@ -105918,7 +105397,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 77,
+        "id": 73,
         "start": 378.25,
         "end": 381.48,
         "speaker": "Speaker",
@@ -105934,7 +105413,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 78,
+        "id": 74,
         "start": 381.52,
         "end": 385.76,
         "speaker": "Speaker",
@@ -105950,7 +105429,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 79,
+        "id": 75,
         "start": 385.8,
         "end": 388.26,
         "speaker": "Speaker",
@@ -105966,7 +105445,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 80,
+        "id": 76,
         "start": 388.3,
         "end": 389.82,
         "speaker": "Speaker",
@@ -105982,7 +105461,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 81,
+        "id": 77,
         "start": 389.86,
         "end": 398.94,
         "speaker": "Speaker",
@@ -106003,7 +105482,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 82,
+        "id": 78,
         "start": 398.98,
         "end": 415.82,
         "speaker": "Speaker",
@@ -106029,7 +105508,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 83,
+        "id": 79,
         "start": 415.86,
         "end": 418.34,
         "speaker": "Speaker",
@@ -106045,7 +105524,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 84,
+        "id": 80,
         "start": 418.38,
         "end": 420.53,
         "speaker": "Speaker",
@@ -106061,7 +105540,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 85,
+        "id": 81,
         "start": 420.57,
         "end": 429.17,
         "speaker": "Speaker",
@@ -106077,7 +105556,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 86,
+        "id": 82,
         "start": 429.21,
         "end": 432.09,
         "speaker": "Speaker",
@@ -106093,7 +105572,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 87,
+        "id": 83,
         "start": 432.13,
         "end": 436.09,
         "speaker": "Speaker",
@@ -106109,7 +105588,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 88,
+        "id": 84,
         "start": 436.13,
         "end": 438.02,
         "speaker": "Speaker",
@@ -106125,7 +105604,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 89,
+        "id": 85,
         "start": 438.06,
         "end": 443.7,
         "speaker": "Speaker",
@@ -106141,7 +105620,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 86,
         "start": 443.74,
         "end": 446.06,
         "speaker": "Speaker",
@@ -106157,7 +105636,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 91,
+        "id": 87,
         "start": 446.1,
         "end": 448.09,
         "speaker": "Speaker",
@@ -106173,7 +105652,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 92,
+        "id": 88,
         "start": 448.13,
         "end": 451.85,
         "speaker": "Speaker",
@@ -106194,7 +105673,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 93,
+        "id": 89,
         "start": 451.89,
         "end": 457.06,
         "speaker": "Speaker",
@@ -106210,7 +105689,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 90,
         "start": 457.1,
         "end": 458.06,
         "speaker": "Speaker",
@@ -106220,7 +105699,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 95,
+        "id": 91,
         "start": 458.1,
         "end": 460.18,
         "speaker": "Speaker",
@@ -106236,7 +105715,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 92,
         "start": 460.22,
         "end": 464.47,
         "speaker": "Speaker",
@@ -106252,7 +105731,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 93,
         "start": 464.51,
         "end": 471.8,
         "speaker": "Speaker",
@@ -106273,7 +105752,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 98,
+        "id": 94,
         "start": 471.84,
         "end": 476.9,
         "speaker": "Speaker",
@@ -106289,7 +105768,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 95,
         "start": 476.94,
         "end": 479.73,
         "speaker": "Speaker",
@@ -106305,7 +105784,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 100,
+        "id": 96,
         "start": 479.77,
         "end": 481.13,
         "speaker": "Speaker",
@@ -106321,7 +105800,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 101,
+        "id": 97,
         "start": 481.17,
         "end": 483.58,
         "speaker": "Speaker",
@@ -106337,7 +105816,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 102,
+        "id": 98,
         "start": 483.62,
         "end": 496.66,
         "speaker": "Speaker",
@@ -106358,7 +105837,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 103,
+        "id": 99,
         "start": 496.7,
         "end": 501.42,
         "speaker": "Speaker",
@@ -106374,7 +105853,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 104,
+        "id": 100,
         "start": 501.46,
         "end": 503.66,
         "speaker": "Speaker",
@@ -106390,7 +105869,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 101,
         "start": 503.7,
         "end": 507.7,
         "speaker": "Speaker",
@@ -106406,7 +105885,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 106,
+        "id": 102,
         "start": 507.74,
         "end": 509.3,
         "speaker": "Speaker",
@@ -106422,7 +105901,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 107,
+        "id": 103,
         "start": 509.34,
         "end": 518.18,
         "speaker": "Speaker",
@@ -106438,7 +105917,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 108,
+        "id": 104,
         "start": 518.22,
         "end": 523.13,
         "speaker": "Speaker",
@@ -106454,7 +105933,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 109,
+        "id": 105,
         "start": 523.17,
         "end": 534.14,
         "speaker": "Speaker",
@@ -106475,7 +105954,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 110,
+        "id": 106,
         "start": 534.18,
         "end": 539.59,
         "speaker": "Speaker",
@@ -106491,7 +105970,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 111,
+        "id": 107,
         "start": 539.63,
         "end": 543.33,
         "speaker": "Speaker",
@@ -106512,7 +105991,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 112,
+        "id": 108,
         "start": 543.37,
         "end": 545.42,
         "speaker": "Speaker",
@@ -106528,7 +106007,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 113,
+        "id": 109,
         "start": 545.46,
         "end": 551.76,
         "speaker": "Speaker",
@@ -106544,7 +106023,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 114,
+        "id": 110,
         "start": 551.8,
         "end": 554.1,
         "speaker": "Speaker",
@@ -106560,7 +106039,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 115,
+        "id": 111,
         "start": 554.14,
         "end": 558.54,
         "speaker": "Speaker",
@@ -106576,7 +106055,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 116,
+        "id": 112,
         "start": 558.58,
         "end": 562.46,
         "speaker": "Speaker",
@@ -106592,7 +106071,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 117,
+        "id": 113,
         "start": 562.5,
         "end": 566.46,
         "speaker": "Speaker",
@@ -106608,7 +106087,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 118,
+        "id": 114,
         "start": 566.5,
         "end": 568.01,
         "speaker": "Speaker",
@@ -106624,7 +106103,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 119,
+        "id": 115,
         "start": 568.05,
         "end": 571.22,
         "speaker": "Speaker",
@@ -106640,7 +106119,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 120,
+        "id": 116,
         "start": 571.26,
         "end": 574.78,
         "speaker": "Speaker",
@@ -106656,7 +106135,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 121,
+        "id": 117,
         "start": 574.82,
         "end": 576.5,
         "speaker": "Speaker",
@@ -106672,7 +106151,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 122,
+        "id": 118,
         "start": 576.54,
         "end": 580.7,
         "speaker": "Speaker",
@@ -106688,7 +106167,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 123,
+        "id": 119,
         "start": 580.74,
         "end": 581.98,
         "speaker": "Speaker",
@@ -106704,7 +106183,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 124,
+        "id": 120,
         "start": 582.02,
         "end": 582.33,
         "speaker": "Speaker",
@@ -106720,7 +106199,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 125,
+        "id": 121,
         "start": 582.37,
         "end": 584.1,
         "speaker": "Speaker",
@@ -106736,7 +106215,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 126,
+        "id": 122,
         "start": 584.14,
         "end": 585.5,
         "speaker": "Speaker",
@@ -106752,7 +106231,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 127,
+        "id": 123,
         "start": 585.54,
         "end": 587.42,
         "speaker": "Speaker",
@@ -106768,7 +106247,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 128,
+        "id": 124,
         "start": 587.46,
         "end": 592.5,
         "speaker": "Speaker",
@@ -106784,7 +106263,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 129,
+        "id": 125,
         "start": 592.54,
         "end": 593.94,
         "speaker": "Speaker",
@@ -106800,7 +106279,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 130,
+        "id": 126,
         "start": 593.98,
         "end": 600.62,
         "speaker": "Speaker",
@@ -106816,7 +106295,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 131,
+        "id": 127,
         "start": 600.66,
         "end": 602.78,
         "speaker": "Speaker",
@@ -106832,7 +106311,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 132,
+        "id": 128,
         "start": 602.82,
         "end": 604.18,
         "speaker": "Speaker",
@@ -106848,7 +106327,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 133,
+        "id": 129,
         "start": 604.22,
         "end": 607.26,
         "speaker": "Speaker",
@@ -106864,7 +106343,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 134,
+        "id": 130,
         "start": 607.3,
         "end": 611.14,
         "speaker": "Speaker",
@@ -106880,7 +106359,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 135,
+        "id": 131,
         "start": 611.18,
         "end": 620.99,
         "speaker": "Speaker",
@@ -106901,7 +106380,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 136,
+        "id": 132,
         "start": 621.03,
         "end": 625.46,
         "speaker": "Speaker",
@@ -106917,7 +106396,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 137,
+        "id": 133,
         "start": 625.5,
         "end": 631.25,
         "speaker": "Speaker",
@@ -106933,7 +106412,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 138,
+        "id": 134,
         "start": 631.29,
         "end": 632.86,
         "speaker": "Speaker",
@@ -106949,7 +106428,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 139,
+        "id": 135,
         "start": 632.9,
         "end": 635.98,
         "speaker": "Speaker",
@@ -106965,7 +106444,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 140,
+        "id": 136,
         "start": 636.02,
         "end": 637.55,
         "speaker": "Speaker",
@@ -106981,7 +106460,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 141,
+        "id": 137,
         "start": 637.59,
         "end": 643.31,
         "speaker": "Speaker",
@@ -106997,7 +106476,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 142,
+        "id": 138,
         "start": 643.35,
         "end": 644.57,
         "speaker": "Speaker",
@@ -107013,7 +106492,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 143,
+        "id": 139,
         "start": 644.61,
         "end": 652.66,
         "speaker": "Speaker",
@@ -107029,7 +106508,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 144,
+        "id": 140,
         "start": 652.7,
         "end": 656.22,
         "speaker": "Speaker",
@@ -107045,7 +106524,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 145,
+        "id": 141,
         "start": 656.26,
         "end": 659.55,
         "speaker": "Speaker",
@@ -107061,7 +106540,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 146,
+        "id": 142,
         "start": 659.59,
         "end": 663.86,
         "speaker": "Speaker",
@@ -107077,7 +106556,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 147,
+        "id": 143,
         "start": 663.9,
         "end": 669.1,
         "speaker": "Speaker",
@@ -107093,7 +106572,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 148,
+        "id": 144,
         "start": 669.14,
         "end": 674.1,
         "speaker": "Speaker",
@@ -107109,7 +106588,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 149,
+        "id": 145,
         "start": 674.14,
         "end": 677.42,
         "speaker": "Speaker",
@@ -107125,7 +106604,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 150,
+        "id": 146,
         "start": 677.46,
         "end": 678.18,
         "speaker": "Speaker",
@@ -107141,7 +106620,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 151,
+        "id": 147,
         "start": 678.22,
         "end": 681.06,
         "speaker": "Speaker",
@@ -107157,7 +106636,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 152,
+        "id": 148,
         "start": 681.1,
         "end": 689.3,
         "speaker": "Speaker",
@@ -107178,7 +106657,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 153,
+        "id": 149,
         "start": 689.34,
         "end": 691.11,
         "speaker": "Speaker",
@@ -107194,7 +106673,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 154,
+        "id": 150,
         "start": 691.15,
         "end": 691.38,
         "speaker": "Speaker",
@@ -107210,7 +106689,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 155,
+        "id": 151,
         "start": 691.42,
         "end": 694.54,
         "speaker": "Speaker",
@@ -107226,7 +106705,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 156,
+        "id": 152,
         "start": 694.58,
         "end": 696.54,
         "speaker": "Speaker",
@@ -107242,7 +106721,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 157,
+        "id": 153,
         "start": 696.58,
         "end": 701.38,
         "speaker": "Speaker",
@@ -107258,7 +106737,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 158,
+        "id": 154,
         "start": 701.42,
         "end": 705.46,
         "speaker": "Speaker",
@@ -107274,7 +106753,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 159,
+        "id": 155,
         "start": 705.5,
         "end": 709.75,
         "speaker": "Speaker",
@@ -107290,7 +106769,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 160,
+        "id": 156,
         "start": 709.79,
         "end": 710.22,
         "speaker": "Speaker",
@@ -107306,7 +106785,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 161,
+        "id": 157,
         "start": 710.26,
         "end": 712.67,
         "speaker": "Speaker",
@@ -107322,7 +106801,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 162,
+        "id": 158,
         "start": 712.71,
         "end": 716.78,
         "speaker": "Speaker",
@@ -107338,7 +106817,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 163,
+        "id": 159,
         "start": 716.82,
         "end": 720.1,
         "speaker": "Speaker",
@@ -107354,7 +106833,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 164,
+        "id": 160,
         "start": 720.14,
         "end": 722.02,
         "speaker": "Speaker",
@@ -107370,7 +106849,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 165,
+        "id": 161,
         "start": 722.06,
         "end": 727.18,
         "speaker": "Speaker",
@@ -107386,7 +106865,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 166,
+        "id": 162,
         "start": 727.22,
         "end": 729.74,
         "speaker": "Speaker",
@@ -107402,7 +106881,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 167,
+        "id": 163,
         "start": 729.78,
         "end": 732.44,
         "speaker": "Speaker",
@@ -107418,7 +106897,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 168,
+        "id": 164,
         "start": 732.48,
         "end": 737.9,
         "speaker": "Speaker",
@@ -107434,7 +106913,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 169,
+        "id": 165,
         "start": 737.94,
         "end": 738.37,
         "speaker": "Speaker",
@@ -107450,7 +106929,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 170,
+        "id": 166,
         "start": 738.41,
         "end": 740.97,
         "speaker": "Speaker",
@@ -107466,7 +106945,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 171,
+        "id": 167,
         "start": 741.01,
         "end": 743.66,
         "speaker": "Speaker",
@@ -107482,7 +106961,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 172,
+        "id": 168,
         "start": 743.7,
         "end": 747.5,
         "speaker": "Speaker",
@@ -107498,7 +106977,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 173,
+        "id": 169,
         "start": 747.54,
         "end": 754.58,
         "speaker": "Speaker",
@@ -107514,7 +106993,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 174,
+        "id": 170,
         "start": 754.62,
         "end": 757.94,
         "speaker": "Speaker",
@@ -107530,9 +107009,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 175,
+        "id": 171,
         "start": 757.98,
-        "end": 760.84,
+        "end": 763.78,
         "speaker": "Speaker",
         "en": "Everything hippie.",
         "ipa": "/ˈɛvriˌθɪŋ ˈhɪpi. ˈɛvriˌθɪŋ ˈhɪpi/",
@@ -107546,23 +107025,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 176,
-        "start": 760.88,
-        "end": 763.78,
-        "speaker": "Speaker",
-        "en": "Everything hippie.",
-        "ipa": "",
-        "zh": "（鼻息声）全都是嬉皮士风格。",
-        "highlights": [
-          {
-            "text": "hippie",
-            "key": "嬉皮士的",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 177,
+        "id": 172,
         "start": 763.82,
         "end": 767.96,
         "speaker": "Speaker",
@@ -107578,7 +107041,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 178,
+        "id": 173,
         "start": 768.0,
         "end": 777.66,
         "speaker": "Speaker",
@@ -107594,7 +107057,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 179,
+        "id": 174,
         "start": 777.7,
         "end": 779.81,
         "speaker": "Speaker",
@@ -107610,7 +107073,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 180,
+        "id": 175,
         "start": 779.85,
         "end": 783.18,
         "speaker": "Speaker",
@@ -107626,7 +107089,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 181,
+        "id": 176,
         "start": 783.22,
         "end": 785.29,
         "speaker": "Speaker",
@@ -107642,7 +107105,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 182,
+        "id": 177,
         "start": 785.33,
         "end": 788.58,
         "speaker": "Speaker",
@@ -107658,7 +107121,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 183,
+        "id": 178,
         "start": 788.62,
         "end": 791.62,
         "speaker": "Speaker",
@@ -107674,7 +107137,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 184,
+        "id": 179,
         "start": 791.66,
         "end": 796.34,
         "speaker": "Speaker",
@@ -107691,7 +107154,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 185,
+        "id": 180,
         "start": 796.38,
         "end": 802.68,
         "speaker": "Speaker",
@@ -107707,7 +107170,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 186,
+        "id": 181,
         "start": 802.72,
         "end": 811.56,
         "speaker": "Speaker",
@@ -107728,7 +107191,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 187,
+        "id": 182,
         "start": 811.6,
         "end": 817.44,
         "speaker": "Speaker",
@@ -107744,7 +107207,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 188,
+        "id": 183,
         "start": 817.48,
         "end": 820.36,
         "speaker": "Speaker",
@@ -107760,7 +107223,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 189,
+        "id": 184,
         "start": 820.4,
         "end": 823.26,
         "speaker": "Speaker",
@@ -107776,7 +107239,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 190,
+        "id": 185,
         "start": 823.3,
         "end": 827.78,
         "speaker": "Speaker",
@@ -107792,7 +107255,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 191,
+        "id": 186,
         "start": 827.82,
         "end": 830.67,
         "speaker": "Speaker",
@@ -107808,7 +107271,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 192,
+        "id": 187,
         "start": 830.71,
         "end": 838.54,
         "speaker": "Speaker",
@@ -107824,7 +107287,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 193,
+        "id": 188,
         "start": 838.58,
         "end": 841.31,
         "speaker": "Speaker",
@@ -107840,7 +107303,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 194,
+        "id": 189,
         "start": 841.35,
         "end": 842.82,
         "speaker": "Speaker",
@@ -107856,7 +107319,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 195,
+        "id": 190,
         "start": 842.86,
         "end": 845.96,
         "speaker": "Speaker",
@@ -107872,7 +107335,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 196,
+        "id": 191,
         "start": 846.0,
         "end": 849.38,
         "speaker": "Speaker",
@@ -107888,7 +107351,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 197,
+        "id": 192,
         "start": 849.42,
         "end": 851.8,
         "speaker": "Speaker",
@@ -107904,7 +107367,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 198,
+        "id": 193,
         "start": 851.84,
         "end": 859.91,
         "speaker": "Speaker",
@@ -107925,7 +107388,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 199,
+        "id": 194,
         "start": 859.95,
         "end": 861.32,
         "speaker": "Speaker",
@@ -107941,7 +107404,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 200,
+        "id": 195,
         "start": 872.46,
         "end": 873.53,
         "speaker": "Speaker",
@@ -107957,7 +107420,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 201,
+        "id": 196,
         "start": 873.57,
         "end": 875.5,
         "speaker": "Speaker",
@@ -107973,7 +107436,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 202,
+        "id": 197,
         "start": 875.54,
         "end": 878.91,
         "speaker": "Speaker",
@@ -107989,7 +107452,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 203,
+        "id": 198,
         "start": 878.95,
         "end": 880.19,
         "speaker": "Speaker",
@@ -108005,7 +107468,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 204,
+        "id": 199,
         "start": 880.23,
         "end": 882.5,
         "speaker": "Speaker",
@@ -108021,7 +107484,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 205,
+        "id": 200,
         "start": 882.54,
         "end": 882.8,
         "speaker": "Speaker",
@@ -108037,7 +107500,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 206,
+        "id": 201,
         "start": 882.84,
         "end": 884.93,
         "speaker": "Speaker",
@@ -108053,7 +107516,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 207,
+        "id": 202,
         "start": 884.97,
         "end": 887.12,
         "speaker": "Speaker",
@@ -108069,7 +107532,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 208,
+        "id": 203,
         "start": 887.16,
         "end": 888.49,
         "speaker": "Speaker",
@@ -108085,7 +107548,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 209,
+        "id": 204,
         "start": 888.53,
         "end": 890.66,
         "speaker": "Speaker",
@@ -108101,7 +107564,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 210,
+        "id": 205,
         "start": 890.7,
         "end": 892.27,
         "speaker": "Speaker",
@@ -108117,7 +107580,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 211,
+        "id": 206,
         "start": 892.31,
         "end": 895.03,
         "speaker": "Speaker",
@@ -108133,7 +107596,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 212,
+        "id": 207,
         "start": 895.07,
         "end": 900.62,
         "speaker": "Speaker",
@@ -108154,7 +107617,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 213,
+        "id": 208,
         "start": 900.66,
         "end": 902.9,
         "speaker": "Speaker",
@@ -108170,7 +107633,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 214,
+        "id": 209,
         "start": 902.94,
         "end": 903.54,
         "speaker": "Speaker",
@@ -108186,7 +107649,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 215,
+        "id": 210,
         "start": 903.58,
         "end": 910.46,
         "speaker": "Speaker",
@@ -108207,7 +107670,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 216,
+        "id": 211,
         "start": 910.5,
         "end": 916.56,
         "speaker": "Speaker",
@@ -108228,7 +107691,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 217,
+        "id": 212,
         "start": 916.6,
         "end": 919.91,
         "speaker": "Speaker",
@@ -108249,7 +107712,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 218,
+        "id": 213,
         "start": 919.95,
         "end": 922.23,
         "speaker": "Speaker",
@@ -108265,7 +107728,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 219,
+        "id": 214,
         "start": 922.27,
         "end": 926.3,
         "speaker": "Speaker",
@@ -108281,7 +107744,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 220,
+        "id": 215,
         "start": 926.34,
         "end": 942.55,
         "speaker": "Speaker",
@@ -108307,7 +107770,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 221,
+        "id": 216,
         "start": 942.59,
         "end": 951.7,
         "speaker": "Speaker",
@@ -108333,7 +107796,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 222,
+        "id": 217,
         "start": 951.74,
         "end": 955.86,
         "speaker": "Speaker",
@@ -108349,7 +107812,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 223,
+        "id": 218,
         "start": 955.9,
         "end": 970.06,
         "speaker": "Speaker",
@@ -108375,7 +107838,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 224,
+        "id": 219,
         "start": 970.1,
         "end": 972.66,
         "speaker": "Speaker",
@@ -108391,7 +107854,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 225,
+        "id": 220,
         "start": 972.7,
         "end": 974.78,
         "speaker": "Speaker",
@@ -108407,7 +107870,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 226,
+        "id": 221,
         "start": 974.82,
         "end": 978.4,
         "speaker": "Speaker",
@@ -108428,7 +107891,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 227,
+        "id": 222,
         "start": 978.44,
         "end": 981.82,
         "speaker": "Speaker",
@@ -108449,7 +107912,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 228,
+        "id": 223,
         "start": 981.86,
         "end": 986.66,
         "speaker": "Speaker",
@@ -108470,7 +107933,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 229,
+        "id": 224,
         "start": 986.7,
         "end": 995.6,
         "speaker": "Speaker",
@@ -108486,7 +107949,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 230,
+        "id": 225,
         "start": 995.64,
         "end": 1005.18,
         "speaker": "Speaker",
@@ -108502,7 +107965,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 231,
+        "id": 226,
         "start": 1005.22,
         "end": 1006.17,
         "speaker": "Speaker",
@@ -108518,7 +107981,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 232,
+        "id": 227,
         "start": 1006.21,
         "end": 1013.74,
         "speaker": "Speaker",
@@ -108534,7 +107997,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 233,
+        "id": 228,
         "start": 1013.78,
         "end": 1024.32,
         "speaker": "Speaker",
@@ -108555,7 +108018,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 234,
+        "id": 229,
         "start": 1024.36,
         "end": 1031.02,
         "speaker": "Speaker",
@@ -108571,7 +108034,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 235,
+        "id": 230,
         "start": 1031.06,
         "end": 1032.52,
         "speaker": "Speaker",
@@ -108587,7 +108050,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 236,
+        "id": 231,
         "start": 1032.56,
         "end": 1041.3,
         "speaker": "Speaker",
@@ -108603,7 +108066,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 237,
+        "id": 232,
         "start": 1041.34,
         "end": 1046.38,
         "speaker": "Speaker",
@@ -108619,7 +108082,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 238,
+        "id": 233,
         "start": 1046.42,
         "end": 1055.18,
         "speaker": "Speaker",
@@ -108635,7 +108098,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 239,
+        "id": 234,
         "start": 1055.22,
         "end": 1057.25,
         "speaker": "Speaker",
@@ -108651,7 +108114,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 240,
+        "id": 235,
         "start": 1057.29,
         "end": 1063.3,
         "speaker": "Speaker",
@@ -108667,7 +108130,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 241,
+        "id": 236,
         "start": 1063.34,
         "end": 1069.14,
         "speaker": "Speaker",
@@ -108683,7 +108146,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 242,
+        "id": 237,
         "start": 1069.18,
         "end": 1070.37,
         "speaker": "Speaker",
@@ -108699,7 +108162,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 243,
+        "id": 238,
         "start": 1070.41,
         "end": 1074.62,
         "speaker": "Speaker",
@@ -108715,7 +108178,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 244,
+        "id": 239,
         "start": 1074.66,
         "end": 1080.5,
         "speaker": "Speaker",
@@ -108731,7 +108194,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 245,
+        "id": 240,
         "start": 1080.54,
         "end": 1083.7,
         "speaker": "Speaker",
@@ -108747,7 +108210,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 246,
+        "id": 241,
         "start": 1083.74,
         "end": 1085.78,
         "speaker": "Speaker",
@@ -108763,7 +108226,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 247,
+        "id": 242,
         "start": 1085.82,
         "end": 1086.66,
         "speaker": "Speaker",
@@ -108773,7 +108236,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 248,
+        "id": 243,
         "start": 1086.7,
         "end": 1089.34,
         "speaker": "Speaker",
@@ -108789,7 +108252,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 249,
+        "id": 244,
         "start": 1089.38,
         "end": 1090.02,
         "speaker": "Speaker",
@@ -108799,7 +108262,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 250,
+        "id": 245,
         "start": 1090.06,
         "end": 1091.02,
         "speaker": "Speaker",
@@ -108815,7 +108278,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 251,
+        "id": 246,
         "start": 1091.06,
         "end": 1092.14,
         "speaker": "Speaker",
@@ -108825,7 +108288,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 252,
+        "id": 247,
         "start": 1092.18,
         "end": 1093.26,
         "speaker": "Speaker",
@@ -108841,7 +108304,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 253,
+        "id": 248,
         "start": 1093.3,
         "end": 1096.09,
         "speaker": "Speaker",
@@ -108857,7 +108320,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 254,
+        "id": 249,
         "start": 1096.13,
         "end": 1101.51,
         "speaker": "Speaker",
@@ -108873,7 +108336,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 255,
+        "id": 250,
         "start": 1101.55,
         "end": 1102.34,
         "speaker": "Speaker",
@@ -108883,7 +108346,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 256,
+        "id": 251,
         "start": 1102.38,
         "end": 1104.84,
         "speaker": "Speaker",
@@ -108899,7 +108362,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 257,
+        "id": 252,
         "start": 1104.88,
         "end": 1107.14,
         "speaker": "Speaker",
@@ -108915,7 +108378,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 258,
+        "id": 253,
         "start": 1107.18,
         "end": 1110.06,
         "speaker": "Speaker",
@@ -108931,7 +108394,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 259,
+        "id": 254,
         "start": 1110.1,
         "end": 1111.74,
         "speaker": "Speaker",
@@ -108947,7 +108410,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 260,
+        "id": 255,
         "start": 1111.78,
         "end": 1114.3,
         "speaker": "Speaker",
@@ -108963,7 +108426,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 261,
+        "id": 256,
         "start": 1114.34,
         "end": 1114.93,
         "speaker": "Speaker",
@@ -108973,7 +108436,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 262,
+        "id": 257,
         "start": 1114.97,
         "end": 1118.15,
         "speaker": "Speaker",
@@ -108989,7 +108452,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 263,
+        "id": 258,
         "start": 1118.19,
         "end": 1119.86,
         "speaker": "Speaker",
@@ -109005,7 +108468,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 264,
+        "id": 259,
         "start": 1119.9,
         "end": 1122.06,
         "speaker": "Speaker",
@@ -109021,7 +108484,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 265,
+        "id": 260,
         "start": 1122.1,
         "end": 1122.78,
         "speaker": "Speaker",
@@ -109037,7 +108500,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 266,
+        "id": 261,
         "start": 1122.82,
         "end": 1125.38,
         "speaker": "Speaker",
@@ -109053,7 +108516,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 267,
+        "id": 262,
         "start": 1125.42,
         "end": 1128.3,
         "speaker": "Speaker",
@@ -109069,7 +108532,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 268,
+        "id": 263,
         "start": 1128.34,
         "end": 1130.82,
         "speaker": "Speaker",
@@ -109085,7 +108548,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 269,
+        "id": 264,
         "start": 1130.86,
         "end": 1131.5,
         "speaker": "Speaker",
@@ -109101,7 +108564,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 270,
+        "id": 265,
         "start": 1131.54,
         "end": 1134.95,
         "speaker": "Speaker",
@@ -109117,7 +108580,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 271,
+        "id": 266,
         "start": 1134.99,
         "end": 1136.14,
         "speaker": "Speaker",
@@ -109133,7 +108596,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 272,
+        "id": 267,
         "start": 1136.18,
         "end": 1141.72,
         "speaker": "Speaker",
@@ -109149,7 +108612,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 273,
+        "id": 268,
         "start": 1141.76,
         "end": 1143.62,
         "speaker": "Speaker",
@@ -109165,7 +108628,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 274,
+        "id": 269,
         "start": 1143.66,
         "end": 1146.98,
         "speaker": "Speaker",
@@ -109181,7 +108644,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 275,
+        "id": 270,
         "start": 1147.02,
         "end": 1152.92,
         "speaker": "Speaker",
@@ -109197,7 +108660,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 276,
+        "id": 271,
         "start": 1152.96,
         "end": 1159.7,
         "speaker": "Speaker",
@@ -109213,7 +108676,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 277,
+        "id": 272,
         "start": 1159.74,
         "end": 1162.1,
         "speaker": "Speaker",
@@ -109229,7 +108692,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 278,
+        "id": 273,
         "start": 1162.14,
         "end": 1167.34,
         "speaker": "Speaker",
@@ -109245,9 +108708,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 279,
+        "id": 274,
         "start": 1167.38,
-        "end": 1175.7,
+        "end": 1174.93,
         "speaker": "Speaker",
         "en": "Let's go sit in the window.",
         "ipa": "/lɛts ɡoʊ sɪt ɪn ðə ˈwɪndoʊ/",
@@ -109261,7 +108724,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 280,
+        "id": 275,
         "start": 1175.74,
         "end": 1176.03,
         "speaker": "Speaker",
@@ -109277,7 +108740,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 281,
+        "id": 276,
         "start": 1176.07,
         "end": 1178.84,
         "speaker": "Speaker",
@@ -109293,7 +108756,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 282,
+        "id": 277,
         "start": 1178.88,
         "end": 1189.74,
         "speaker": "Speaker",
@@ -109314,9 +108777,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 283,
+        "id": 278,
         "start": 1189.78,
-        "end": 1201.62,
+        "end": 1198.13,
         "speaker": "Speaker",
         "en": "And inside is this beautiful chocolate. chocolate.",
         "ipa": "/ænd ˈɪnˌsaɪd ɪz ðɪs ˈbjutəfəl ˈtʃɑklət ˈtʃɑklət/",
@@ -109335,7 +108798,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 284,
+        "id": 279,
         "start": 1201.66,
         "end": 1204.66,
         "speaker": "Speaker",
@@ -109351,9 +108814,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 285,
+        "id": 280,
         "start": 1204.7,
-        "end": 1212.74,
+        "end": 1212.25,
         "speaker": "Speaker",
         "en": "It tastes like smooth chocolate icing.",
         "ipa": "/ɪt teɪsts laɪk smuð ˈtʃɑklət ˈaɪsɪŋ/",
@@ -109367,7 +108830,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 286,
+        "id": 281,
         "start": 1212.78,
         "end": 1229.44,
         "speaker": "Speaker",
@@ -109388,7 +108851,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 287,
+        "id": 282,
         "start": 1230.83,
         "end": 1235.03,
         "speaker": "Speaker",
@@ -109404,7 +108867,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 288,
+        "id": 283,
         "start": 1235.07,
         "end": 1243.34,
         "speaker": "Speaker",
@@ -109420,7 +108883,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 289,
+        "id": 284,
         "start": 1243.38,
         "end": 1253.21,
         "speaker": "Speaker",
@@ -109436,7 +108899,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 290,
+        "id": 285,
         "start": 1253.25,
         "end": 1269.58,
         "speaker": "Speaker",
@@ -109457,7 +108920,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 291,
+        "id": 286,
         "start": 1269.62,
         "end": 1271.34,
         "speaker": "Speaker",
@@ -109473,7 +108936,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 292,
+        "id": 287,
         "start": 1271.38,
         "end": 1273.66,
         "speaker": "Speaker",
@@ -109489,7 +108952,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 293,
+        "id": 288,
         "start": 1273.7,
         "end": 1279.18,
         "speaker": "Speaker",
@@ -109505,7 +108968,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 294,
+        "id": 289,
         "start": 1279.22,
         "end": 1281.1,
         "speaker": "Speaker",
@@ -109521,7 +108984,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 295,
+        "id": 290,
         "start": 1281.14,
         "end": 1285.36,
         "speaker": "Speaker",
@@ -109537,7 +109000,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 296,
+        "id": 291,
         "start": 1285.4,
         "end": 1291.1,
         "speaker": "Speaker",
@@ -109553,7 +109016,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 297,
+        "id": 292,
         "start": 1291.14,
         "end": 1298.49,
         "speaker": "Speaker",
@@ -109569,7 +109032,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 298,
+        "id": 293,
         "start": 1298.53,
         "end": 1306.7,
         "speaker": "Speaker",
@@ -109585,7 +109048,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 299,
+        "id": 294,
         "start": 1306.74,
         "end": 1309.75,
         "speaker": "Speaker",
@@ -109601,7 +109064,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 300,
+        "id": 295,
         "start": 1309.79,
         "end": 1318.86,
         "speaker": "Speaker",
@@ -109617,7 +109080,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 301,
+        "id": 296,
         "start": 1318.9,
         "end": 1321.75,
         "speaker": "Speaker",
@@ -109633,7 +109096,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 302,
+        "id": 297,
         "start": 1321.79,
         "end": 1328.62,
         "speaker": "Speaker",
@@ -109649,7 +109112,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 303,
+        "id": 298,
         "start": 1328.66,
         "end": 1334.96,
         "speaker": "Speaker",
@@ -109665,7 +109128,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 304,
+        "id": 299,
         "start": 1335.0,
         "end": 1343.19,
         "speaker": "Speaker",
@@ -109681,7 +109144,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 305,
+        "id": 300,
         "start": 1343.23,
         "end": 1350.8,
         "speaker": "Speaker",
@@ -109697,7 +109160,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 306,
+        "id": 301,
         "start": 1350.84,
         "end": 1359.31,
         "speaker": "Speaker",
@@ -109713,7 +109176,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 307,
+        "id": 302,
         "start": 1359.35,
         "end": 1361.93,
         "speaker": "Speaker",
@@ -109729,7 +109192,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 308,
+        "id": 303,
         "start": 1361.97,
         "end": 1367.03,
         "speaker": "Speaker",
@@ -109745,7 +109208,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 309,
+        "id": 304,
         "start": 1367.07,
         "end": 1371.49,
         "speaker": "Speaker",
@@ -109761,7 +109224,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 310,
+        "id": 305,
         "start": 1371.53,
         "end": 1371.87,
         "speaker": "Speaker",
@@ -109771,7 +109234,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 311,
+        "id": 306,
         "start": 1371.91,
         "end": 1374.79,
         "speaker": "Speaker",
@@ -109787,7 +109250,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 312,
+        "id": 307,
         "start": 1374.83,
         "end": 1376.07,
         "speaker": "Speaker",
@@ -109803,7 +109266,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 313,
+        "id": 308,
         "start": 1376.11,
         "end": 1377.95,
         "speaker": "Speaker",
@@ -109819,7 +109282,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 314,
+        "id": 309,
         "start": 1377.99,
         "end": 1378.99,
         "speaker": "Speaker",
@@ -109835,7 +109298,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 315,
+        "id": 310,
         "start": 1379.03,
         "end": 1380.52,
         "speaker": "Speaker",
@@ -109845,7 +109308,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 316,
+        "id": 311,
         "start": 1380.56,
         "end": 1383.35,
         "speaker": "Speaker",
@@ -109861,7 +109324,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 317,
+        "id": 312,
         "start": 1383.39,
         "end": 1387.31,
         "speaker": "Speaker",
@@ -109877,7 +109340,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 318,
+        "id": 313,
         "start": 1387.35,
         "end": 1391.17,
         "speaker": "Speaker",
@@ -109898,7 +109361,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 319,
+        "id": 314,
         "start": 1391.21,
         "end": 1393.39,
         "speaker": "Speaker",
@@ -109914,7 +109377,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 320,
+        "id": 315,
         "start": 1393.43,
         "end": 1401.59,
         "speaker": "Speaker",
@@ -109930,7 +109393,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 321,
+        "id": 316,
         "start": 1401.63,
         "end": 1405.21,
         "speaker": "Speaker",
@@ -109951,7 +109414,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 322,
+        "id": 317,
         "start": 1405.25,
         "end": 1409.27,
         "speaker": "Speaker",
@@ -109967,7 +109430,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 323,
+        "id": 318,
         "start": 1409.31,
         "end": 1417.51,
         "speaker": "Speaker",
@@ -109983,7 +109446,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 324,
+        "id": 319,
         "start": 1417.55,
         "end": 1423.55,
         "speaker": "Speaker",
@@ -109999,7 +109462,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 325,
+        "id": 320,
         "start": 1423.59,
         "end": 1429.23,
         "speaker": "Speaker",
@@ -110015,7 +109478,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 326,
+        "id": 321,
         "start": 1429.27,
         "end": 1432.15,
         "speaker": "Speaker",
@@ -110025,7 +109488,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 327,
+        "id": 322,
         "start": 1432.19,
         "end": 1435.19,
         "speaker": "Speaker",
@@ -110041,7 +109504,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 328,
+        "id": 323,
         "start": 1435.23,
         "end": 1443.52,
         "speaker": "Speaker",
@@ -110062,7 +109525,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 329,
+        "id": 324,
         "start": 1443.56,
         "end": 1450.03,
         "speaker": "Speaker",
@@ -110078,7 +109541,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 330,
+        "id": 325,
         "start": 1450.07,
         "end": 1454.31,
         "speaker": "Speaker",
@@ -110094,7 +109557,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 331,
+        "id": 326,
         "start": 1454.35,
         "end": 1458.07,
         "speaker": "Speaker",
@@ -110110,7 +109573,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 332,
+        "id": 327,
         "start": 1458.11,
         "end": 1461.55,
         "speaker": "Speaker",
@@ -110126,7 +109589,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 333,
+        "id": 328,
         "start": 1461.59,
         "end": 1467.31,
         "speaker": "Speaker",
@@ -110147,7 +109610,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 334,
+        "id": 329,
         "start": 1467.35,
         "end": 1470.72,
         "speaker": "Speaker",
@@ -110163,7 +109626,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 335,
+        "id": 330,
         "start": 1470.76,
         "end": 1472.56,
         "speaker": "Speaker",
@@ -110173,7 +109636,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 336,
+        "id": 331,
         "start": 1472.6,
         "end": 1475.35,
         "speaker": "Speaker",
@@ -110189,7 +109652,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 337,
+        "id": 332,
         "start": 1475.39,
         "end": 1480.79,
         "speaker": "Speaker",
@@ -110210,9 +109673,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 338,
+        "id": 333,
         "start": 1480.83,
-        "end": 1488.17,
+        "end": 1486.78,
         "speaker": "Speaker",
         "en": "Classic American fire truck.",
         "ipa": "/ˈklæsɪk əˈmɛrɪkən ˈfaɪər trʌk./",
@@ -110231,7 +109694,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 339,
+        "id": 334,
         "start": 1491.79,
         "end": 1495.07,
         "speaker": "Speaker",
@@ -110252,7 +109715,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 340,
+        "id": 335,
         "start": 1495.11,
         "end": 1499.96,
         "speaker": "Speaker",
@@ -110268,7 +109731,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 341,
+        "id": 336,
         "start": 1501.11,
         "end": 1506.76,
         "speaker": "Speaker",
@@ -110284,7 +109747,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 342,
+        "id": 337,
         "start": 1506.8,
         "end": 1513.2,
         "speaker": "Speaker",
@@ -110305,7 +109768,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 343,
+        "id": 338,
         "start": 1513.24,
         "end": 1514.91,
         "speaker": "Speaker",
@@ -110326,7 +109789,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 344,
+        "id": 339,
         "start": 1514.95,
         "end": 1516.42,
         "speaker": "Speaker",
@@ -110347,7 +109810,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 345,
+        "id": 340,
         "start": 1516.46,
         "end": 1521.99,
         "speaker": "Speaker",
@@ -110363,7 +109826,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 346,
+        "id": 341,
         "start": 1522.03,
         "end": 1525.39,
         "speaker": "Speaker",
@@ -110384,7 +109847,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 347,
+        "id": 342,
         "start": 1525.43,
         "end": 1526.86,
         "speaker": "Speaker",
@@ -110400,7 +109863,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 348,
+        "id": 343,
         "start": 1526.9,
         "end": 1527.97,
         "speaker": "Speaker",
@@ -110416,7 +109879,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 349,
+        "id": 344,
         "start": 1528.01,
         "end": 1531.51,
         "speaker": "Speaker",
@@ -110437,7 +109900,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 350,
+        "id": 345,
         "start": 1531.55,
         "end": 1538.15,
         "speaker": "Speaker",
@@ -110453,7 +109916,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 351,
+        "id": 346,
         "start": 1538.19,
         "end": 1542.71,
         "speaker": "Speaker",
@@ -110469,7 +109932,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 352,
+        "id": 347,
         "start": 1542.75,
         "end": 1549.87,
         "speaker": "Speaker",
@@ -110485,7 +109948,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 353,
+        "id": 348,
         "start": 1549.91,
         "end": 1555.55,
         "speaker": "Speaker",
@@ -110501,9 +109964,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 354,
+        "id": 349,
         "start": 1555.59,
-        "end": 1561.71,
+        "end": 1561.04,
         "speaker": "Speaker",
         "en": "Yeah, I know.",
         "ipa": "/jæ, aɪ noʊ./",
@@ -110511,7 +109974,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 355,
+        "id": 350,
         "start": 1561.75,
         "end": 1562.35,
         "speaker": "Speaker",
@@ -110532,7 +109995,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 356,
+        "id": 351,
         "start": 1562.39,
         "end": 1568.87,
         "speaker": "Speaker",
@@ -110553,7 +110016,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 357,
+        "id": 352,
         "start": 1568.91,
         "end": 1577.71,
         "speaker": "Speaker",
@@ -110569,7 +110032,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 358,
+        "id": 353,
         "start": 1577.75,
         "end": 1584.15,
         "speaker": "Speaker",
@@ -110590,7 +110053,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 359,
+        "id": 354,
         "start": 1584.19,
         "end": 1592.71,
         "speaker": "Speaker",
@@ -110606,7 +110069,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 360,
+        "id": 355,
         "start": 1592.75,
         "end": 1600.87,
         "speaker": "Speaker",
@@ -110622,7 +110085,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 361,
+        "id": 356,
         "start": 1600.91,
         "end": 1610.19,
         "speaker": "Speaker",
@@ -110638,7 +110101,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 362,
+        "id": 357,
         "start": 1610.23,
         "end": 1613.27,
         "speaker": "Speaker",
@@ -110654,9 +110117,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 363,
+        "id": 358,
         "start": 1613.31,
-        "end": 1616.06,
+        "end": 1618.47,
         "speaker": "Speaker",
         "en": "This is a lovely moment, guys.",
         "ipa": "/ðɪs ɪz ə ˈlʌvli ˈmoʊmənt, ɡaɪz./",
@@ -110675,23 +110138,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 364,
-        "start": 1616.1,
-        "end": 1618.47,
-        "speaker": "Speaker",
-        "en": "This is a lovely moment, guys.",
-        "ipa": "/ðɪs ɪz ə ˈlʌvli ˈmoʊmənt, ɡaɪz/",
-        "zh": "大家，这是一个美好的时刻。",
-        "highlights": [
-          {
-            "text": "lovely moment",
-            "key": "lovely moment",
-            "chip": "indigo"
-          }
-        ]
-      },
-      {
-        "id": 365,
+        "id": 359,
         "start": 1618.51,
         "end": 1623.67,
         "speaker": "Speaker",
@@ -110707,7 +110154,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 366,
+        "id": 360,
         "start": 1623.71,
         "end": 1625.51,
         "speaker": "Speaker",
@@ -110723,7 +110170,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 367,
+        "id": 361,
         "start": 1625.55,
         "end": 1629.0,
         "speaker": "Speaker",
@@ -110739,7 +110186,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 368,
+        "id": 362,
         "start": 1629.04,
         "end": 1635.53,
         "speaker": "Speaker",
@@ -110755,7 +110202,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 369,
+        "id": 363,
         "start": 1635.57,
         "end": 1642.07,
         "speaker": "Speaker",
@@ -110771,7 +110218,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 370,
+        "id": 364,
         "start": 1642.11,
         "end": 1645.62,
         "speaker": "Speaker",
@@ -110787,7 +110234,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 371,
+        "id": 365,
         "start": 1645.66,
         "end": 1647.35,
         "speaker": "Speaker",
@@ -110797,7 +110244,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 372,
+        "id": 366,
         "start": 1647.39,
         "end": 1648.54,
         "speaker": "Speaker",
@@ -110813,7 +110260,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 373,
+        "id": 367,
         "start": 1648.58,
         "end": 1657.18,
         "speaker": "Speaker",
@@ -110829,7 +110276,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 374,
+        "id": 368,
         "start": 1657.22,
         "end": 1665.95,
         "speaker": "Speaker",
@@ -110845,7 +110292,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 375,
+        "id": 369,
         "start": 1665.99,
         "end": 1674.9,
         "speaker": "Speaker",
@@ -110861,7 +110308,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 376,
+        "id": 370,
         "start": 1674.94,
         "end": 1675.57,
         "speaker": "Speaker",
@@ -110877,7 +110324,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 377,
+        "id": 371,
         "start": 1675.61,
         "end": 1678.27,
         "speaker": "Speaker",
@@ -110898,7 +110345,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 378,
+        "id": 372,
         "start": 1678.31,
         "end": 1679.87,
         "speaker": "Speaker",
@@ -110914,7 +110361,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 379,
+        "id": 373,
         "start": 1679.91,
         "end": 1683.65,
         "speaker": "Speaker",
@@ -110930,7 +110377,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 380,
+        "id": 374,
         "start": 1683.69,
         "end": 1691.79,
         "speaker": "Speaker",
@@ -110946,7 +110393,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 381,
+        "id": 375,
         "start": 1691.83,
         "end": 1698.71,
         "speaker": "Speaker",
@@ -110962,7 +110409,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 382,
+        "id": 376,
         "start": 1698.75,
         "end": 1701.76,
         "speaker": "Speaker",
@@ -110978,7 +110425,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 383,
+        "id": 377,
         "start": 1701.8,
         "end": 1706.35,
         "speaker": "Speaker",
@@ -110994,7 +110441,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 384,
+        "id": 378,
         "start": 1706.39,
         "end": 1714.11,
         "speaker": "Speaker",
@@ -111010,7 +110457,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 385,
+        "id": 379,
         "start": 1714.15,
         "end": 1721.59,
         "speaker": "Speaker",
@@ -111026,7 +110473,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 386,
+        "id": 380,
         "start": 1721.63,
         "end": 1729.07,
         "speaker": "Speaker",
@@ -111042,7 +110489,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 387,
+        "id": 381,
         "start": 1729.11,
         "end": 1730.19,
         "speaker": "Speaker",
@@ -111052,7 +110499,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 388,
+        "id": 382,
         "start": 1730.23,
         "end": 1734.65,
         "speaker": "Speaker",
@@ -111068,7 +110515,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 389,
+        "id": 383,
         "start": 1734.69,
         "end": 1737.1,
         "speaker": "Speaker",
@@ -111084,7 +110531,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 390,
+        "id": 384,
         "start": 1737.14,
         "end": 1741.07,
         "speaker": "Speaker",
@@ -111100,7 +110547,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 391,
+        "id": 385,
         "start": 1741.11,
         "end": 1746.95,
         "speaker": "Speaker",
@@ -111116,7 +110563,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 392,
+        "id": 386,
         "start": 1746.99,
         "end": 1756.23,
         "speaker": "Speaker",
@@ -111132,7 +110579,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 393,
+        "id": 387,
         "start": 1756.27,
         "end": 1758.03,
         "speaker": "Speaker",
@@ -111142,7 +110589,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 394,
+        "id": 388,
         "start": 1758.07,
         "end": 1764.55,
         "speaker": "Speaker",
@@ -111158,7 +110605,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 395,
+        "id": 389,
         "start": 1764.59,
         "end": 1768.83,
         "speaker": "Speaker",
@@ -111174,7 +110621,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 396,
+        "id": 390,
         "start": 1768.87,
         "end": 1771.84,
         "speaker": "Speaker",
@@ -111190,7 +110637,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 397,
+        "id": 391,
         "start": 1771.88,
         "end": 1784.79,
         "speaker": "Speaker",
@@ -111211,7 +110658,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 398,
+        "id": 392,
         "start": 1784.83,
         "end": 1788.15,
         "speaker": "Speaker",
@@ -111227,7 +110674,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 399,
+        "id": 393,
         "start": 1788.19,
         "end": 1788.91,
         "speaker": "Speaker",
@@ -111243,7 +110690,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 400,
+        "id": 394,
         "start": 1788.95,
         "end": 1794.75,
         "speaker": "Speaker",
@@ -111264,7 +110711,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 401,
+        "id": 395,
         "start": 1794.79,
         "end": 1796.64,
         "speaker": "Speaker",
@@ -111280,7 +110727,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 402,
+        "id": 396,
         "start": 1796.68,
         "end": 1799.78,
         "speaker": "Speaker",
@@ -111296,7 +110743,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 403,
+        "id": 397,
         "start": 1799.82,
         "end": 1804.88,
         "speaker": "Speaker",
@@ -111312,7 +110759,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 404,
+        "id": 398,
         "start": 1804.92,
         "end": 1808.5,
         "speaker": "Speaker",
@@ -111328,7 +110775,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 405,
+        "id": 399,
         "start": 1808.54,
         "end": 1812.35,
         "speaker": "Speaker",
@@ -111344,7 +110791,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 406,
+        "id": 400,
         "start": 1812.39,
         "end": 1817.23,
         "speaker": "Speaker",
@@ -111365,7 +110812,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 407,
+        "id": 401,
         "start": 1817.27,
         "end": 1825.37,
         "speaker": "Speaker",
@@ -111386,7 +110833,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 408,
+        "id": 402,
         "start": 1825.41,
         "end": 1827.61,
         "speaker": "Speaker",
@@ -111402,7 +110849,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 409,
+        "id": 403,
         "start": 1827.65,
         "end": 1833.1,
         "speaker": "Speaker",
@@ -111418,7 +110865,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 410,
+        "id": 404,
         "start": 1833.14,
         "end": 1841.12,
         "speaker": "Speaker",
@@ -111439,7 +110886,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 411,
+        "id": 405,
         "start": 1841.16,
         "end": 1842.96,
         "speaker": "Speaker",
@@ -111455,7 +110902,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 412,
+        "id": 406,
         "start": 1843.0,
         "end": 1852.39,
         "speaker": "Speaker",
@@ -111471,7 +110918,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 413,
+        "id": 407,
         "start": 1852.43,
         "end": 1852.69,
         "speaker": "Speaker",
@@ -111487,7 +110934,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 414,
+        "id": 408,
         "start": 1852.73,
         "end": 1854.18,
         "speaker": "Speaker",
@@ -111503,7 +110950,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 415,
+        "id": 409,
         "start": 1854.22,
         "end": 1870.99,
         "speaker": "Speaker",
@@ -111529,7 +110976,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 416,
+        "id": 410,
         "start": 1871.03,
         "end": 1874.11,
         "speaker": "Speaker",
@@ -111559,8 +111006,8 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "美食",
-      "个人成长",
-      "日常对话"
+      "生活英语",
+      "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #F0D5DC 0%, #C77C8E 100%)",
     "coverImage": "",
@@ -111568,7 +111015,24 @@ export const LOCAL_EPISODES = [
     "audioUrl": "./content/episodes/Order%20FOOD%20in%20English%EF%BC%9A%20Daily%20Life%20English.f140.m4a",
     "mediaKind": "video",
     "sceneBadge": "美食",
-    "skipRanges": [],
+    "skipRanges": [
+      [
+        424.95,
+        427.89
+      ],
+      [
+        666.95,
+        668.0
+      ],
+      [
+        723.95,
+        725.3
+      ],
+      [
+        912.3,
+        915.7
+      ]
+    ],
     "sentences": [
       {
         "id": 1,
@@ -112153,7 +111617,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 36,
         "start": 161.49,
-        "end": 165.45,
+        "end": 167.35,
         "speaker": "Speaker",
         "en": "Okay, I would like to get two Chick-fil-A chicken sandwiches.",
         "ipa": "/ˈoʊˈkeɪ aɪ wʊd laɪk tu ɡɛt tu tʃɪk fɪl eɪ ˈtʃɪkən ˈsændwɪtʃɪz/",
@@ -112168,22 +111632,6 @@ export const LOCAL_EPISODES = [
       },
       {
         "id": 37,
-        "start": 165.49,
-        "end": 167.35,
-        "speaker": "Speaker",
-        "en": "Two Chick-fil-A chicken sandwiches.",
-        "ipa": "/tu tʃɪk fɪl eɪ ˈtʃɪkən ˈsændwɪtʃɪz/",
-        "zh": "两个福乐鸡肉三明治。",
-        "highlights": [
-          {
-            "text": "chicken sandwiches",
-            "key": "poultry burgers",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 38,
         "start": 167.39,
         "end": 172.31,
         "speaker": "Speaker",
@@ -112199,7 +111647,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 39,
+        "id": 38,
         "start": 172.35,
         "end": 174.95,
         "speaker": "Speaker",
@@ -112215,7 +111663,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 40,
+        "id": 39,
         "start": 174.99,
         "end": 176.01,
         "speaker": "Speaker",
@@ -112231,7 +111679,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 41,
+        "id": 40,
         "start": 176.05,
         "end": 178.35,
         "speaker": "Speaker",
@@ -112247,7 +111695,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 42,
+        "id": 41,
         "start": 178.39,
         "end": 179.75,
         "speaker": "Speaker",
@@ -112263,7 +111711,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 43,
+        "id": 42,
         "start": 179.79,
         "end": 180.16,
         "speaker": "Speaker",
@@ -112279,7 +111727,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 44,
+        "id": 43,
         "start": 180.2,
         "end": 181.75,
         "speaker": "Speaker",
@@ -112295,7 +111743,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 45,
+        "id": 44,
         "start": 181.79,
         "end": 188.45,
         "speaker": "Speaker",
@@ -112311,7 +111759,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 46,
+        "id": 45,
         "start": 188.49,
         "end": 191.85,
         "speaker": "Speaker",
@@ -112327,7 +111775,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 47,
+        "id": 46,
         "start": 191.89,
         "end": 195.45,
         "speaker": "Speaker",
@@ -112343,7 +111791,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 48,
+        "id": 47,
         "start": 195.49,
         "end": 195.81,
         "speaker": "Speaker",
@@ -112359,7 +111807,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 49,
+        "id": 48,
         "start": 195.85,
         "end": 198.45,
         "speaker": "Speaker",
@@ -112375,7 +111823,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 50,
+        "id": 49,
         "start": 198.49,
         "end": 199.15,
         "speaker": "Speaker",
@@ -112391,7 +111839,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 51,
+        "id": 50,
         "start": 199.19,
         "end": 201.35,
         "speaker": "Speaker",
@@ -112407,7 +111855,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 52,
+        "id": 51,
         "start": 201.39,
         "end": 203.45,
         "speaker": "Speaker",
@@ -112423,7 +111871,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 53,
+        "id": 52,
         "start": 203.49,
         "end": 204.65,
         "speaker": "Speaker",
@@ -112439,7 +111887,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 54,
+        "id": 53,
         "start": 204.69,
         "end": 208.65,
         "speaker": "Speaker",
@@ -112455,7 +111903,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 55,
+        "id": 54,
         "start": 208.69,
         "end": 210.15,
         "speaker": "Speaker",
@@ -112471,7 +111919,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 56,
+        "id": 55,
         "start": 210.19,
         "end": 210.74,
         "speaker": "Speaker",
@@ -112487,7 +111935,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 57,
+        "id": 56,
         "start": 210.78,
         "end": 212.74,
         "speaker": "Speaker",
@@ -112503,7 +111951,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 58,
+        "id": 57,
         "start": 212.78,
         "end": 214.96,
         "speaker": "Speaker",
@@ -112519,7 +111967,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 59,
+        "id": 58,
         "start": 215.0,
         "end": 218.71,
         "speaker": "Speaker",
@@ -112535,7 +111983,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 60,
+        "id": 59,
         "start": 218.75,
         "end": 221.37,
         "speaker": "Speaker",
@@ -112551,7 +111999,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 61,
+        "id": 60,
         "start": 221.41,
         "end": 224.05,
         "speaker": "Speaker",
@@ -112567,7 +112015,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 62,
+        "id": 61,
         "start": 224.09,
         "end": 224.65,
         "speaker": "Speaker",
@@ -112583,7 +112031,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 63,
+        "id": 62,
         "start": 224.69,
         "end": 227.35,
         "speaker": "Speaker",
@@ -112599,7 +112047,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 64,
+        "id": 63,
         "start": 227.39,
         "end": 230.25,
         "speaker": "Speaker",
@@ -112615,7 +112063,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 65,
+        "id": 64,
         "start": 230.29,
         "end": 231.55,
         "speaker": "Speaker",
@@ -112631,7 +112079,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 66,
+        "id": 65,
         "start": 231.59,
         "end": 233.65,
         "speaker": "Speaker",
@@ -112647,7 +112095,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 67,
+        "id": 66,
         "start": 233.69,
         "end": 234.55,
         "speaker": "Speaker",
@@ -112663,7 +112111,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 68,
+        "id": 67,
         "start": 234.59,
         "end": 235.75,
         "speaker": "Speaker",
@@ -112679,7 +112127,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 69,
+        "id": 68,
         "start": 235.79,
         "end": 237.55,
         "speaker": "Speaker",
@@ -112695,7 +112143,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 70,
+        "id": 69,
         "start": 237.59,
         "end": 239.55,
         "speaker": "Speaker",
@@ -112705,7 +112153,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 71,
+        "id": 70,
         "start": 239.59,
         "end": 243.25,
         "speaker": "Speaker",
@@ -112721,7 +112169,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 72,
+        "id": 71,
         "start": 243.29,
         "end": 246.25,
         "speaker": "Speaker",
@@ -112737,7 +112185,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 73,
+        "id": 72,
         "start": 246.29,
         "end": 247.59,
         "speaker": "Speaker",
@@ -112753,7 +112201,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 74,
+        "id": 73,
         "start": 247.63,
         "end": 248.65,
         "speaker": "Speaker",
@@ -112769,7 +112217,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 75,
+        "id": 74,
         "start": 248.69,
         "end": 250.05,
         "speaker": "Speaker",
@@ -112785,7 +112233,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 76,
+        "id": 75,
         "start": 250.09,
         "end": 251.35,
         "speaker": "Speaker",
@@ -112801,7 +112249,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 77,
+        "id": 76,
         "start": 251.39,
         "end": 252.75,
         "speaker": "Speaker",
@@ -112817,7 +112265,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 78,
+        "id": 77,
         "start": 252.79,
         "end": 254.95,
         "speaker": "Speaker",
@@ -112833,7 +112281,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 79,
+        "id": 78,
         "start": 254.99,
         "end": 256.25,
         "speaker": "Speaker",
@@ -112843,7 +112291,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 80,
+        "id": 79,
         "start": 256.29,
         "end": 262.35,
         "speaker": "Speaker",
@@ -112859,7 +112307,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 81,
+        "id": 80,
         "start": 262.39,
         "end": 263.44,
         "speaker": "Speaker",
@@ -112869,7 +112317,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 82,
+        "id": 81,
         "start": 263.48,
         "end": 268.97,
         "speaker": "Speaker",
@@ -112885,7 +112333,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 83,
+        "id": 82,
         "start": 269.01,
         "end": 275.55,
         "speaker": "Speaker",
@@ -112901,7 +112349,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 84,
+        "id": 83,
         "start": 275.59,
         "end": 283.65,
         "speaker": "Speaker",
@@ -112917,7 +112365,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 85,
+        "id": 84,
         "start": 283.69,
         "end": 285.91,
         "speaker": "Speaker",
@@ -112933,7 +112381,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 86,
+        "id": 85,
         "start": 285.95,
         "end": 291.35,
         "speaker": "Speaker",
@@ -112949,7 +112397,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 87,
+        "id": 86,
         "start": 291.39,
         "end": 296.03,
         "speaker": "Speaker",
@@ -112965,7 +112413,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 88,
+        "id": 87,
         "start": 296.07,
         "end": 299.1,
         "speaker": "Speaker",
@@ -112981,7 +112429,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 89,
+        "id": 88,
         "start": 299.14,
         "end": 300.7,
         "speaker": "Speaker",
@@ -112997,7 +112445,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 90,
+        "id": 89,
         "start": 300.74,
         "end": 303.55,
         "speaker": "Speaker",
@@ -113013,7 +112461,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 91,
+        "id": 90,
         "start": 303.59,
         "end": 309.47,
         "speaker": "Speaker",
@@ -113029,7 +112477,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 92,
+        "id": 91,
         "start": 309.51,
         "end": 316.05,
         "speaker": "Speaker",
@@ -113045,7 +112493,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 93,
+        "id": 92,
         "start": 316.09,
         "end": 320.55,
         "speaker": "Speaker",
@@ -113061,7 +112509,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 94,
+        "id": 93,
         "start": 320.59,
         "end": 323.28,
         "speaker": "Speaker",
@@ -113077,7 +112525,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 95,
+        "id": 94,
         "start": 323.32,
         "end": 325.95,
         "speaker": "Speaker",
@@ -113093,7 +112541,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 96,
+        "id": 95,
         "start": 325.99,
         "end": 331.25,
         "speaker": "Speaker",
@@ -113109,7 +112557,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 97,
+        "id": 96,
         "start": 331.29,
         "end": 333.25,
         "speaker": "Speaker",
@@ -113119,7 +112567,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 98,
+        "id": 97,
         "start": 333.29,
         "end": 341.35,
         "speaker": "Speaker",
@@ -113140,7 +112588,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 99,
+        "id": 98,
         "start": 341.39,
         "end": 345.25,
         "speaker": "Speaker",
@@ -113156,7 +112604,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 100,
+        "id": 99,
         "start": 345.29,
         "end": 347.15,
         "speaker": "Speaker",
@@ -113166,7 +112614,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 101,
+        "id": 100,
         "start": 347.19,
         "end": 350.4,
         "speaker": "Speaker",
@@ -113182,7 +112630,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 102,
+        "id": 101,
         "start": 350.44,
         "end": 351.87,
         "speaker": "Speaker",
@@ -113198,7 +112646,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 103,
+        "id": 102,
         "start": 351.91,
         "end": 364.05,
         "speaker": "Speaker",
@@ -113224,7 +112672,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 104,
+        "id": 103,
         "start": 364.09,
         "end": 365.76,
         "speaker": "Speaker",
@@ -113240,7 +112688,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 105,
+        "id": 104,
         "start": 365.8,
         "end": 366.38,
         "speaker": "Speaker",
@@ -113250,7 +112698,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 106,
+        "id": 105,
         "start": 366.42,
         "end": 370.15,
         "speaker": "Speaker",
@@ -113260,7 +112708,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 107,
+        "id": 106,
         "start": 370.19,
         "end": 371.99,
         "speaker": "Speaker",
@@ -113276,7 +112724,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 108,
+        "id": 107,
         "start": 372.03,
         "end": 373.44,
         "speaker": "Speaker",
@@ -113292,7 +112740,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 109,
+        "id": 108,
         "start": 373.48,
         "end": 387.26,
         "speaker": "Speaker",
@@ -113313,7 +112761,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 110,
+        "id": 109,
         "start": 387.3,
         "end": 390.65,
         "speaker": "Speaker",
@@ -113329,7 +112777,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 111,
+        "id": 110,
         "start": 390.69,
         "end": 397.15,
         "speaker": "Speaker",
@@ -113345,7 +112793,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 112,
+        "id": 111,
         "start": 397.19,
         "end": 401.02,
         "speaker": "Speaker",
@@ -113361,7 +112809,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 113,
+        "id": 112,
         "start": 401.06,
         "end": 410.26,
         "speaker": "Speaker",
@@ -113377,7 +112825,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 114,
+        "id": 113,
         "start": 410.3,
         "end": 413.75,
         "speaker": "Speaker",
@@ -113393,7 +112841,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 115,
+        "id": 114,
         "start": 413.79,
         "end": 418.96,
         "speaker": "Speaker",
@@ -113409,9 +112857,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 116,
+        "id": 115,
         "start": 419.0,
-        "end": 427.85,
+        "end": 424.95,
         "speaker": "Speaker",
         "en": "All right, let's see.",
         "ipa": "/ɔl raɪt, lɛts si/",
@@ -113425,7 +112873,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 117,
+        "id": 116,
         "start": 427.89,
         "end": 430.85,
         "speaker": "Speaker",
@@ -113435,7 +112883,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 118,
+        "id": 117,
         "start": 430.89,
         "end": 436.07,
         "speaker": "Speaker",
@@ -113451,7 +112899,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 119,
+        "id": 118,
         "start": 436.11,
         "end": 440.55,
         "speaker": "Speaker",
@@ -113467,7 +112915,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 120,
+        "id": 119,
         "start": 440.59,
         "end": 448.8,
         "speaker": "Speaker",
@@ -113488,7 +112936,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 121,
+        "id": 120,
         "start": 448.84,
         "end": 452.46,
         "speaker": "Speaker",
@@ -113504,7 +112952,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 122,
+        "id": 121,
         "start": 452.5,
         "end": 454.65,
         "speaker": "Speaker",
@@ -113520,7 +112968,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 123,
+        "id": 122,
         "start": 454.69,
         "end": 462.06,
         "speaker": "Speaker",
@@ -113536,7 +112984,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 124,
+        "id": 123,
         "start": 462.1,
         "end": 464.06,
         "speaker": "Speaker",
@@ -113552,7 +113000,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 125,
+        "id": 124,
         "start": 464.1,
         "end": 467.76,
         "speaker": "Speaker",
@@ -113568,7 +113016,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 126,
+        "id": 125,
         "start": 467.8,
         "end": 473.35,
         "speaker": "Speaker",
@@ -113584,7 +113032,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 127,
+        "id": 126,
         "start": 473.39,
         "end": 476.85,
         "speaker": "Speaker",
@@ -113600,7 +113048,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 128,
+        "id": 127,
         "start": 476.89,
         "end": 480.15,
         "speaker": "Speaker",
@@ -113616,7 +113064,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 129,
+        "id": 128,
         "start": 480.19,
         "end": 482.14,
         "speaker": "Speaker",
@@ -113632,7 +113080,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 130,
+        "id": 129,
         "start": 482.18,
         "end": 484.46,
         "speaker": "Speaker",
@@ -113648,7 +113096,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 131,
+        "id": 130,
         "start": 484.5,
         "end": 489.45,
         "speaker": "Speaker",
@@ -113664,7 +113112,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 132,
+        "id": 131,
         "start": 489.49,
         "end": 496.68,
         "speaker": "Speaker",
@@ -113680,7 +113128,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 133,
+        "id": 132,
         "start": 496.72,
         "end": 498.86,
         "speaker": "Speaker",
@@ -113696,7 +113144,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 134,
+        "id": 133,
         "start": 498.9,
         "end": 499.86,
         "speaker": "Speaker",
@@ -113712,7 +113160,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 135,
+        "id": 134,
         "start": 499.9,
         "end": 507.56,
         "speaker": "Speaker",
@@ -113728,7 +113176,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 136,
+        "id": 135,
         "start": 507.6,
         "end": 516.76,
         "speaker": "Speaker",
@@ -113749,7 +113197,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 137,
+        "id": 136,
         "start": 516.8,
         "end": 519.51,
         "speaker": "Speaker",
@@ -113765,7 +113213,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 138,
+        "id": 137,
         "start": 519.55,
         "end": 524.65,
         "speaker": "Speaker",
@@ -113781,7 +113229,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 139,
+        "id": 138,
         "start": 524.69,
         "end": 526.61,
         "speaker": "Speaker",
@@ -113797,7 +113245,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 140,
+        "id": 139,
         "start": 526.65,
         "end": 527.24,
         "speaker": "Speaker",
@@ -113813,7 +113261,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 141,
+        "id": 140,
         "start": 527.28,
         "end": 534.46,
         "speaker": "Speaker",
@@ -113829,7 +113277,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 142,
+        "id": 141,
         "start": 534.5,
         "end": 535.96,
         "speaker": "Speaker",
@@ -113845,7 +113293,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 143,
+        "id": 142,
         "start": 536.0,
         "end": 537.76,
         "speaker": "Speaker",
@@ -113861,7 +113309,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 144,
+        "id": 143,
         "start": 537.8,
         "end": 539.74,
         "speaker": "Speaker",
@@ -113877,7 +113325,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 145,
+        "id": 144,
         "start": 539.78,
         "end": 542.06,
         "speaker": "Speaker",
@@ -113893,7 +113341,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 146,
+        "id": 145,
         "start": 542.1,
         "end": 543.56,
         "speaker": "Speaker",
@@ -113909,7 +113357,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 147,
+        "id": 146,
         "start": 543.6,
         "end": 546.16,
         "speaker": "Speaker",
@@ -113925,7 +113373,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 148,
+        "id": 147,
         "start": 546.2,
         "end": 547.29,
         "speaker": "Speaker",
@@ -113941,7 +113389,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 149,
+        "id": 148,
         "start": 547.33,
         "end": 548.66,
         "speaker": "Speaker",
@@ -113957,7 +113405,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 150,
+        "id": 149,
         "start": 548.7,
         "end": 552.86,
         "speaker": "Speaker",
@@ -113973,7 +113421,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 151,
+        "id": 150,
         "start": 552.9,
         "end": 553.47,
         "speaker": "Speaker",
@@ -113989,7 +113437,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 152,
+        "id": 151,
         "start": 553.51,
         "end": 556.26,
         "speaker": "Speaker",
@@ -114005,7 +113453,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 153,
+        "id": 152,
         "start": 556.3,
         "end": 562.66,
         "speaker": "Speaker",
@@ -114021,7 +113469,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 154,
+        "id": 153,
         "start": 562.7,
         "end": 564.02,
         "speaker": "Speaker",
@@ -114037,7 +113485,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 155,
+        "id": 154,
         "start": 564.06,
         "end": 566.26,
         "speaker": "Speaker",
@@ -114053,7 +113501,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 156,
+        "id": 155,
         "start": 566.3,
         "end": 567.23,
         "speaker": "Speaker",
@@ -114069,7 +113517,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 157,
+        "id": 156,
         "start": 567.27,
         "end": 567.86,
         "speaker": "Speaker",
@@ -114085,7 +113533,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 158,
+        "id": 157,
         "start": 567.9,
         "end": 572.06,
         "speaker": "Speaker",
@@ -114101,7 +113549,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 159,
+        "id": 158,
         "start": 572.1,
         "end": 572.78,
         "speaker": "Speaker",
@@ -114117,7 +113565,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 160,
+        "id": 159,
         "start": 572.82,
         "end": 578.16,
         "speaker": "Speaker",
@@ -114133,7 +113581,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 161,
+        "id": 160,
         "start": 578.2,
         "end": 580.97,
         "speaker": "Speaker",
@@ -114149,7 +113597,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 162,
+        "id": 161,
         "start": 581.01,
         "end": 584.16,
         "speaker": "Speaker",
@@ -114165,7 +113613,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 163,
+        "id": 162,
         "start": 584.2,
         "end": 585.76,
         "speaker": "Speaker",
@@ -114181,7 +113629,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 164,
+        "id": 163,
         "start": 585.8,
         "end": 588.86,
         "speaker": "Speaker",
@@ -114197,7 +113645,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 165,
+        "id": 164,
         "start": 588.9,
         "end": 598.23,
         "speaker": "Speaker",
@@ -114218,7 +113666,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 166,
+        "id": 165,
         "start": 598.27,
         "end": 601.16,
         "speaker": "Speaker",
@@ -114234,7 +113682,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 167,
+        "id": 166,
         "start": 601.2,
         "end": 602.46,
         "speaker": "Speaker",
@@ -114250,7 +113698,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 168,
+        "id": 167,
         "start": 602.5,
         "end": 604.86,
         "speaker": "Speaker",
@@ -114266,7 +113714,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 169,
+        "id": 168,
         "start": 604.9,
         "end": 611.08,
         "speaker": "Speaker",
@@ -114282,7 +113730,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 170,
+        "id": 169,
         "start": 611.12,
         "end": 616.82,
         "speaker": "Speaker",
@@ -114298,7 +113746,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 171,
+        "id": 170,
         "start": 616.86,
         "end": 618.4,
         "speaker": "Speaker",
@@ -114314,7 +113762,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 172,
+        "id": 171,
         "start": 618.44,
         "end": 622.66,
         "speaker": "Speaker",
@@ -114330,7 +113778,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 173,
+        "id": 172,
         "start": 622.7,
         "end": 627.76,
         "speaker": "Speaker",
@@ -114346,7 +113794,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 174,
+        "id": 173,
         "start": 627.8,
         "end": 629.26,
         "speaker": "Speaker",
@@ -114362,7 +113810,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 175,
+        "id": 174,
         "start": 629.3,
         "end": 631.86,
         "speaker": "Speaker",
@@ -114378,24 +113826,8 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 176,
+        "id": 175,
         "start": 631.9,
-        "end": 633.06,
-        "speaker": "Speaker",
-        "en": "What?",
-        "ipa": "/wʌt?/",
-        "zh": "什么？",
-        "highlights": [
-          {
-            "text": "What",
-            "key": "What",
-            "chip": "orange"
-          }
-        ]
-      },
-      {
-        "id": 177,
-        "start": 633.1,
         "end": 633.3,
         "speaker": "Speaker",
         "en": "What?",
@@ -114410,7 +113842,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 178,
+        "id": 176,
         "start": 633.34,
         "end": 636.86,
         "speaker": "Speaker",
@@ -114426,7 +113858,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 179,
+        "id": 177,
         "start": 636.9,
         "end": 638.05,
         "speaker": "Speaker",
@@ -114442,7 +113874,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 180,
+        "id": 178,
         "start": 638.09,
         "end": 643.95,
         "speaker": "Speaker",
@@ -114458,7 +113890,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 181,
+        "id": 179,
         "start": 643.99,
         "end": 645.96,
         "speaker": "Speaker",
@@ -114474,7 +113906,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 182,
+        "id": 180,
         "start": 646.0,
         "end": 649.86,
         "speaker": "Speaker",
@@ -114490,7 +113922,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 183,
+        "id": 181,
         "start": 649.9,
         "end": 651.16,
         "speaker": "Speaker",
@@ -114506,7 +113938,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 184,
+        "id": 182,
         "start": 651.2,
         "end": 654.96,
         "speaker": "Speaker",
@@ -114522,7 +113954,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 185,
+        "id": 183,
         "start": 655.0,
         "end": 657.06,
         "speaker": "Speaker",
@@ -114538,7 +113970,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 186,
+        "id": 184,
         "start": 657.1,
         "end": 657.4,
         "speaker": "Speaker",
@@ -114554,7 +113986,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 187,
+        "id": 185,
         "start": 657.44,
         "end": 659.36,
         "speaker": "Speaker",
@@ -114570,7 +114002,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 188,
+        "id": 186,
         "start": 659.4,
         "end": 660.26,
         "speaker": "Speaker",
@@ -114586,7 +114018,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 189,
+        "id": 187,
         "start": 660.3,
         "end": 661.46,
         "speaker": "Speaker",
@@ -114602,9 +114034,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 190,
+        "id": 188,
         "start": 661.5,
-        "end": 667.96,
+        "end": 666.95,
         "speaker": "Speaker",
         "en": "Small meal.",
         "ipa": "/smɔl mil./",
@@ -114618,7 +114050,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 191,
+        "id": 189,
         "start": 668.0,
         "end": 670.66,
         "speaker": "Speaker",
@@ -114634,7 +114066,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 192,
+        "id": 190,
         "start": 670.7,
         "end": 672.76,
         "speaker": "Speaker",
@@ -114650,7 +114082,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 193,
+        "id": 191,
         "start": 672.8,
         "end": 674.66,
         "speaker": "Speaker",
@@ -114666,7 +114098,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 194,
+        "id": 192,
         "start": 674.7,
         "end": 676.16,
         "speaker": "Speaker",
@@ -114682,7 +114114,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 195,
+        "id": 193,
         "start": 676.2,
         "end": 677.27,
         "speaker": "Speaker",
@@ -114698,7 +114130,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 196,
+        "id": 194,
         "start": 677.31,
         "end": 677.66,
         "speaker": "Speaker",
@@ -114714,7 +114146,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 197,
+        "id": 195,
         "start": 677.7,
         "end": 678.36,
         "speaker": "Speaker",
@@ -114730,7 +114162,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 198,
+        "id": 196,
         "start": 678.4,
         "end": 679.86,
         "speaker": "Speaker",
@@ -114746,7 +114178,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 199,
+        "id": 197,
         "start": 679.9,
         "end": 681.06,
         "speaker": "Speaker",
@@ -114762,7 +114194,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 200,
+        "id": 198,
         "start": 681.1,
         "end": 686.06,
         "speaker": "Speaker",
@@ -114778,7 +114210,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 201,
+        "id": 199,
         "start": 686.1,
         "end": 686.32,
         "speaker": "Speaker",
@@ -114794,7 +114226,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 202,
+        "id": 200,
         "start": 686.36,
         "end": 687.46,
         "speaker": "Speaker",
@@ -114810,7 +114242,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 203,
+        "id": 201,
         "start": 687.5,
         "end": 691.2,
         "speaker": "Speaker",
@@ -114826,7 +114258,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 204,
+        "id": 202,
         "start": 691.24,
         "end": 693.26,
         "speaker": "Speaker",
@@ -114842,7 +114274,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 205,
+        "id": 203,
         "start": 693.3,
         "end": 695.96,
         "speaker": "Speaker",
@@ -114852,7 +114284,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 206,
+        "id": 204,
         "start": 696.0,
         "end": 696.99,
         "speaker": "Speaker",
@@ -114862,7 +114294,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 207,
+        "id": 205,
         "start": 697.03,
         "end": 699.46,
         "speaker": "Speaker",
@@ -114878,7 +114310,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 208,
+        "id": 206,
         "start": 699.5,
         "end": 703.76,
         "speaker": "Speaker",
@@ -114894,7 +114326,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 209,
+        "id": 207,
         "start": 703.8,
         "end": 709.06,
         "speaker": "Speaker",
@@ -114910,7 +114342,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 210,
+        "id": 208,
         "start": 709.1,
         "end": 710.66,
         "speaker": "Speaker",
@@ -114926,7 +114358,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 211,
+        "id": 209,
         "start": 710.7,
         "end": 713.86,
         "speaker": "Speaker",
@@ -114936,7 +114368,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 212,
+        "id": 210,
         "start": 713.9,
         "end": 714.66,
         "speaker": "Speaker",
@@ -114946,7 +114378,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 213,
+        "id": 211,
         "start": 714.7,
         "end": 716.86,
         "speaker": "Speaker",
@@ -114962,7 +114394,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 214,
+        "id": 212,
         "start": 716.9,
         "end": 718.46,
         "speaker": "Speaker",
@@ -114978,9 +114410,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 215,
+        "id": 213,
         "start": 718.5,
-        "end": 725.26,
+        "end": 723.95,
         "speaker": "Speaker",
         "en": "Uh, for here.",
         "ipa": "/ʌ, fɔr hir./",
@@ -114994,7 +114426,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 216,
+        "id": 214,
         "start": 725.3,
         "end": 727.66,
         "speaker": "Speaker",
@@ -115004,7 +114436,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 217,
+        "id": 215,
         "start": 727.7,
         "end": 730.46,
         "speaker": "Speaker",
@@ -115014,7 +114446,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 218,
+        "id": 216,
         "start": 730.5,
         "end": 733.26,
         "speaker": "Speaker",
@@ -115030,7 +114462,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 219,
+        "id": 217,
         "start": 733.3,
         "end": 736.76,
         "speaker": "Speaker",
@@ -115040,7 +114472,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 220,
+        "id": 218,
         "start": 736.8,
         "end": 737.65,
         "speaker": "Speaker",
@@ -115050,7 +114482,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 221,
+        "id": 219,
         "start": 737.69,
         "end": 745.86,
         "speaker": "Speaker",
@@ -115066,7 +114498,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 222,
+        "id": 220,
         "start": 745.9,
         "end": 747.52,
         "speaker": "Speaker",
@@ -115082,7 +114514,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 223,
+        "id": 221,
         "start": 747.56,
         "end": 753.16,
         "speaker": "Speaker",
@@ -115098,7 +114530,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 224,
+        "id": 222,
         "start": 753.2,
         "end": 756.84,
         "speaker": "Speaker",
@@ -115114,7 +114546,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 225,
+        "id": 223,
         "start": 756.88,
         "end": 764.46,
         "speaker": "Speaker",
@@ -115130,7 +114562,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 226,
+        "id": 224,
         "start": 764.5,
         "end": 766.06,
         "speaker": "Speaker",
@@ -115146,7 +114578,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 227,
+        "id": 225,
         "start": 766.1,
         "end": 770.06,
         "speaker": "Speaker",
@@ -115162,7 +114594,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 228,
+        "id": 226,
         "start": 770.1,
         "end": 776.26,
         "speaker": "Speaker",
@@ -115178,7 +114610,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 229,
+        "id": 227,
         "start": 776.3,
         "end": 777.06,
         "speaker": "Speaker",
@@ -115188,7 +114620,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 230,
+        "id": 228,
         "start": 777.1,
         "end": 792.26,
         "speaker": "Speaker",
@@ -115209,7 +114641,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 231,
+        "id": 229,
         "start": 792.3,
         "end": 799.26,
         "speaker": "Speaker",
@@ -115225,7 +114657,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 232,
+        "id": 230,
         "start": 799.3,
         "end": 805.46,
         "speaker": "Speaker",
@@ -115241,7 +114673,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 233,
+        "id": 231,
         "start": 805.5,
         "end": 808.37,
         "speaker": "Speaker",
@@ -115257,7 +114689,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 234,
+        "id": 232,
         "start": 808.41,
         "end": 810.92,
         "speaker": "Speaker",
@@ -115273,7 +114705,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 235,
+        "id": 233,
         "start": 810.96,
         "end": 812.86,
         "speaker": "Speaker",
@@ -115289,7 +114721,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 236,
+        "id": 234,
         "start": 812.9,
         "end": 817.41,
         "speaker": "Speaker",
@@ -115305,7 +114737,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 237,
+        "id": 235,
         "start": 817.45,
         "end": 820.26,
         "speaker": "Speaker",
@@ -115321,7 +114753,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 238,
+        "id": 236,
         "start": 820.3,
         "end": 822.36,
         "speaker": "Speaker",
@@ -115337,7 +114769,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 239,
+        "id": 237,
         "start": 822.4,
         "end": 826.76,
         "speaker": "Speaker",
@@ -115353,7 +114785,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 240,
+        "id": 238,
         "start": 826.8,
         "end": 827.86,
         "speaker": "Speaker",
@@ -115369,7 +114801,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 241,
+        "id": 239,
         "start": 827.9,
         "end": 832.06,
         "speaker": "Speaker",
@@ -115385,7 +114817,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 242,
+        "id": 240,
         "start": 832.1,
         "end": 835.36,
         "speaker": "Speaker",
@@ -115401,7 +114833,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 243,
+        "id": 241,
         "start": 835.4,
         "end": 835.69,
         "speaker": "Speaker",
@@ -115417,7 +114849,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 244,
+        "id": 242,
         "start": 835.73,
         "end": 837.96,
         "speaker": "Speaker",
@@ -115433,7 +114865,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 245,
+        "id": 243,
         "start": 838.0,
         "end": 839.62,
         "speaker": "Speaker",
@@ -115449,7 +114881,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 246,
+        "id": 244,
         "start": 839.66,
         "end": 840.46,
         "speaker": "Speaker",
@@ -115465,7 +114897,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 247,
+        "id": 245,
         "start": 840.5,
         "end": 841.26,
         "speaker": "Speaker",
@@ -115481,7 +114913,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 248,
+        "id": 246,
         "start": 841.3,
         "end": 842.69,
         "speaker": "Speaker",
@@ -115497,7 +114929,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 249,
+        "id": 247,
         "start": 842.73,
         "end": 849.26,
         "speaker": "Speaker",
@@ -115513,7 +114945,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 250,
+        "id": 248,
         "start": 849.3,
         "end": 849.7,
         "speaker": "Speaker",
@@ -115529,7 +114961,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 251,
+        "id": 249,
         "start": 849.74,
         "end": 853.76,
         "speaker": "Speaker",
@@ -115545,7 +114977,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 252,
+        "id": 250,
         "start": 853.8,
         "end": 858.46,
         "speaker": "Speaker",
@@ -115561,7 +114993,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 253,
+        "id": 251,
         "start": 858.5,
         "end": 861.76,
         "speaker": "Speaker",
@@ -115577,7 +115009,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 254,
+        "id": 252,
         "start": 861.8,
         "end": 869.96,
         "speaker": "Speaker",
@@ -115593,7 +115025,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 255,
+        "id": 253,
         "start": 870.0,
         "end": 870.2,
         "speaker": "Speaker",
@@ -115609,7 +115041,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 256,
+        "id": 254,
         "start": 870.24,
         "end": 870.51,
         "speaker": "Speaker",
@@ -115625,7 +115057,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 257,
+        "id": 255,
         "start": 870.55,
         "end": 875.26,
         "speaker": "Speaker",
@@ -115641,7 +115073,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 258,
+        "id": 256,
         "start": 875.3,
         "end": 877.56,
         "speaker": "Speaker",
@@ -115657,7 +115089,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 259,
+        "id": 257,
         "start": 877.6,
         "end": 879.26,
         "speaker": "Speaker",
@@ -115673,7 +115105,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 260,
+        "id": 258,
         "start": 879.3,
         "end": 880.76,
         "speaker": "Speaker",
@@ -115689,7 +115121,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 261,
+        "id": 259,
         "start": 880.8,
         "end": 881.46,
         "speaker": "Speaker",
@@ -115705,7 +115137,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 262,
+        "id": 260,
         "start": 881.5,
         "end": 882.66,
         "speaker": "Speaker",
@@ -115721,7 +115153,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 263,
+        "id": 261,
         "start": 882.7,
         "end": 883.06,
         "speaker": "Speaker",
@@ -115737,7 +115169,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 264,
+        "id": 262,
         "start": 883.1,
         "end": 884.06,
         "speaker": "Speaker",
@@ -115753,7 +115185,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 265,
+        "id": 263,
         "start": 884.1,
         "end": 884.86,
         "speaker": "Speaker",
@@ -115769,7 +115201,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 266,
+        "id": 264,
         "start": 884.9,
         "end": 885.07,
         "speaker": "Speaker",
@@ -115785,7 +115217,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 267,
+        "id": 265,
         "start": 885.11,
         "end": 887.46,
         "speaker": "Speaker",
@@ -115801,7 +115233,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 268,
+        "id": 266,
         "start": 887.5,
         "end": 888.16,
         "speaker": "Speaker",
@@ -115817,7 +115249,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 269,
+        "id": 267,
         "start": 888.2,
         "end": 890.06,
         "speaker": "Speaker",
@@ -115833,7 +115265,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 270,
+        "id": 268,
         "start": 890.1,
         "end": 892.76,
         "speaker": "Speaker",
@@ -115849,7 +115281,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 271,
+        "id": 269,
         "start": 892.8,
         "end": 893.96,
         "speaker": "Speaker",
@@ -115865,7 +115297,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 272,
+        "id": 270,
         "start": 894.0,
         "end": 895.83,
         "speaker": "Speaker",
@@ -115881,7 +115313,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 273,
+        "id": 271,
         "start": 895.87,
         "end": 902.18,
         "speaker": "Speaker",
@@ -115897,7 +115329,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 274,
+        "id": 272,
         "start": 902.22,
         "end": 906.31,
         "speaker": "Speaker",
@@ -115913,9 +115345,9 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 275,
+        "id": 273,
         "start": 906.35,
-        "end": 915.66,
+        "end": 912.3,
         "speaker": "Speaker",
         "en": "Let's just be honest.",
         "ipa": "/lɛts ʤʌst bi ˈɑnɪst./",
@@ -115929,7 +115361,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 276,
+        "id": 274,
         "start": 915.7,
         "end": 920.56,
         "speaker": "Speaker",
@@ -115945,7 +115377,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 277,
+        "id": 275,
         "start": 920.6,
         "end": 923.36,
         "speaker": "Speaker",
@@ -115961,7 +115393,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 278,
+        "id": 276,
         "start": 923.4,
         "end": 925.36,
         "speaker": "Speaker",
@@ -115977,7 +115409,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 279,
+        "id": 277,
         "start": 925.4,
         "end": 926.76,
         "speaker": "Speaker",
@@ -115993,7 +115425,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 280,
+        "id": 278,
         "start": 926.8,
         "end": 927.66,
         "speaker": "Speaker",
@@ -116009,7 +115441,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 281,
+        "id": 279,
         "start": 927.7,
         "end": 928.66,
         "speaker": "Speaker",
@@ -116025,7 +115457,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 282,
+        "id": 280,
         "start": 928.7,
         "end": 931.66,
         "speaker": "Speaker",
@@ -116041,7 +115473,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 283,
+        "id": 281,
         "start": 931.7,
         "end": 934.39,
         "speaker": "Speaker",
@@ -116057,7 +115489,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 284,
+        "id": 282,
         "start": 934.43,
         "end": 936.76,
         "speaker": "Speaker",
@@ -116073,7 +115505,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 285,
+        "id": 283,
         "start": 936.8,
         "end": 938.76,
         "speaker": "Speaker",
@@ -116089,7 +115521,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 286,
+        "id": 284,
         "start": 938.8,
         "end": 947.41,
         "speaker": "Speaker",
@@ -116110,7 +115542,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 287,
+        "id": 285,
         "start": 947.45,
         "end": 950.96,
         "speaker": "Speaker",
@@ -116126,7 +115558,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 288,
+        "id": 286,
         "start": 951.0,
         "end": 961.52,
         "speaker": "Speaker",
@@ -116147,7 +115579,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 289,
+        "id": 287,
         "start": 961.56,
         "end": 964.9,
         "speaker": "Speaker",
@@ -116163,7 +115595,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 290,
+        "id": 288,
         "start": 964.94,
         "end": 969.67,
         "speaker": "Speaker",
@@ -116179,7 +115611,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 291,
+        "id": 289,
         "start": 969.71,
         "end": 973.28,
         "speaker": "Speaker",
@@ -116195,7 +115627,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 292,
+        "id": 290,
         "start": 973.32,
         "end": 975.92,
         "speaker": "Speaker",
@@ -116211,7 +115643,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 293,
+        "id": 291,
         "start": 975.96,
         "end": 978.26,
         "speaker": "Speaker",
@@ -116227,7 +115659,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 294,
+        "id": 292,
         "start": 978.3,
         "end": 983.36,
         "speaker": "Speaker",
@@ -116243,7 +115675,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 295,
+        "id": 293,
         "start": 983.4,
         "end": 988.66,
         "speaker": "Speaker",
@@ -116259,7 +115691,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 296,
+        "id": 294,
         "start": 988.7,
         "end": 994.15,
         "speaker": "Speaker",
@@ -116275,7 +115707,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 297,
+        "id": 295,
         "start": 994.19,
         "end": 1002.16,
         "speaker": "Speaker",
@@ -116291,7 +115723,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 298,
+        "id": 296,
         "start": 1002.2,
         "end": 1004.66,
         "speaker": "Speaker",
@@ -116307,7 +115739,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 299,
+        "id": 297,
         "start": 1004.7,
         "end": 1007.46,
         "speaker": "Speaker",
@@ -116323,7 +115755,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 300,
+        "id": 298,
         "start": 1007.5,
         "end": 1011.41,
         "speaker": "Speaker",
@@ -116339,7 +115771,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 301,
+        "id": 299,
         "start": 1011.45,
         "end": 1013.26,
         "speaker": "Speaker",
@@ -116355,7 +115787,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 302,
+        "id": 300,
         "start": 1013.3,
         "end": 1015.66,
         "speaker": "Speaker",
@@ -116371,7 +115803,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 303,
+        "id": 301,
         "start": 1015.7,
         "end": 1021.73,
         "speaker": "Speaker",
@@ -116387,7 +115819,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 304,
+        "id": 302,
         "start": 1021.77,
         "end": 1025.26,
         "speaker": "Speaker",
@@ -116403,7 +115835,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 305,
+        "id": 303,
         "start": 1025.3,
         "end": 1030.3,
         "speaker": "Speaker",
@@ -116419,7 +115851,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 306,
+        "id": 304,
         "start": 1030.34,
         "end": 1036.95,
         "speaker": "Speaker",
@@ -116440,7 +115872,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 307,
+        "id": 305,
         "start": 1036.99,
         "end": 1038.76,
         "speaker": "Speaker",
@@ -116456,7 +115888,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 308,
+        "id": 306,
         "start": 1038.8,
         "end": 1041.86,
         "speaker": "Speaker",
@@ -116472,7 +115904,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 309,
+        "id": 307,
         "start": 1041.9,
         "end": 1045.56,
         "speaker": "Speaker",
@@ -116488,7 +115920,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 310,
+        "id": 308,
         "start": 1045.6,
         "end": 1049.26,
         "speaker": "Speaker",
@@ -116504,7 +115936,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 311,
+        "id": 309,
         "start": 1049.3,
         "end": 1050.22,
         "speaker": "Speaker",
@@ -116520,7 +115952,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 312,
+        "id": 310,
         "start": 1050.26,
         "end": 1052.54,
         "speaker": "Speaker",
@@ -116536,7 +115968,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 313,
+        "id": 311,
         "start": 1052.58,
         "end": 1056.86,
         "speaker": "Speaker",
@@ -116552,7 +115984,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 314,
+        "id": 312,
         "start": 1056.9,
         "end": 1061.06,
         "speaker": "Speaker",
@@ -116573,7 +116005,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 315,
+        "id": 313,
         "start": 1061.1,
         "end": 1061.76,
         "speaker": "Speaker",
@@ -116589,7 +116021,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 316,
+        "id": 314,
         "start": 1061.8,
         "end": 1063.96,
         "speaker": "Speaker",
@@ -116605,7 +116037,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 317,
+        "id": 315,
         "start": 1064.0,
         "end": 1066.56,
         "speaker": "Speaker",
@@ -116621,7 +116053,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 318,
+        "id": 316,
         "start": 1066.6,
         "end": 1071.06,
         "speaker": "Speaker",
@@ -116631,7 +116063,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 319,
+        "id": 317,
         "start": 1071.1,
         "end": 1073.06,
         "speaker": "Speaker",
@@ -116647,7 +116079,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 320,
+        "id": 318,
         "start": 1073.1,
         "end": 1075.46,
         "speaker": "Speaker",
@@ -116657,7 +116089,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 321,
+        "id": 319,
         "start": 1075.5,
         "end": 1081.16,
         "speaker": "Speaker",
@@ -116673,7 +116105,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 322,
+        "id": 320,
         "start": 1081.2,
         "end": 1083.66,
         "speaker": "Speaker",
@@ -116689,7 +116121,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 323,
+        "id": 321,
         "start": 1083.7,
         "end": 1087.26,
         "speaker": "Speaker",
@@ -116710,7 +116142,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 324,
+        "id": 322,
         "start": 1087.3,
         "end": 1101.76,
         "speaker": "Speaker",
@@ -116736,7 +116168,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 325,
+        "id": 323,
         "start": 1101.8,
         "end": 1108.53,
         "speaker": "Speaker",
@@ -116757,7 +116189,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 326,
+        "id": 324,
         "start": 1108.57,
         "end": 1109.6,
         "speaker": "Speaker",
@@ -116773,7 +116205,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 327,
+        "id": 325,
         "start": 1109.64,
         "end": 1113.26,
         "speaker": "Speaker",
@@ -116789,7 +116221,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 328,
+        "id": 326,
         "start": 1113.3,
         "end": 1117.16,
         "speaker": "Speaker",
@@ -116805,7 +116237,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 329,
+        "id": 327,
         "start": 1117.2,
         "end": 1120.5,
         "speaker": "Speaker",
@@ -116821,7 +116253,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 330,
+        "id": 328,
         "start": 1120.54,
         "end": 1129.13,
         "speaker": "Speaker",
@@ -116842,7 +116274,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 331,
+        "id": 329,
         "start": 1129.17,
         "end": 1132.45,
         "speaker": "Speaker",
@@ -116858,7 +116290,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 332,
+        "id": 330,
         "start": 1132.49,
         "end": 1134.73,
         "speaker": "Speaker",
@@ -116874,7 +116306,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 333,
+        "id": 331,
         "start": 1134.77,
         "end": 1136.53,
         "speaker": "Speaker",
@@ -116890,7 +116322,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 334,
+        "id": 332,
         "start": 1136.57,
         "end": 1144.16,
         "speaker": "Speaker",
@@ -116911,7 +116343,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 335,
+        "id": 333,
         "start": 1144.2,
         "end": 1150.66,
         "speaker": "Speaker",
@@ -116932,7 +116364,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 336,
+        "id": 334,
         "start": 1150.7,
         "end": 1156.86,
         "speaker": "Speaker",
@@ -116953,7 +116385,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 337,
+        "id": 335,
         "start": 1156.9,
         "end": 1167.29,
         "speaker": "Speaker",
@@ -116979,7 +116411,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 338,
+        "id": 336,
         "start": 1167.33,
         "end": 1173.07,
         "speaker": "Speaker",
@@ -117000,7 +116432,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 339,
+        "id": 337,
         "start": 1173.11,
         "end": 1174.97,
         "speaker": "Speaker",
@@ -117016,7 +116448,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 340,
+        "id": 338,
         "start": 1175.01,
         "end": 1177.2,
         "speaker": "Speaker",
@@ -117032,7 +116464,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 341,
+        "id": 339,
         "start": 1177.24,
         "end": 1181.86,
         "speaker": "Speaker",
@@ -117048,7 +116480,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 342,
+        "id": 340,
         "start": 1181.9,
         "end": 1183.66,
         "speaker": "Speaker",
@@ -117058,7 +116490,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 343,
+        "id": 341,
         "start": 1183.7,
         "end": 1184.74,
         "speaker": "Speaker",
@@ -117074,7 +116506,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 344,
+        "id": 342,
         "start": 1184.78,
         "end": 1188.86,
         "speaker": "Speaker",
@@ -117090,7 +116522,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 345,
+        "id": 343,
         "start": 1188.9,
         "end": 1189.76,
         "speaker": "Speaker",
@@ -117106,7 +116538,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 346,
+        "id": 344,
         "start": 1189.8,
         "end": 1191.96,
         "speaker": "Speaker",
@@ -117122,7 +116554,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 347,
+        "id": 345,
         "start": 1192.0,
         "end": 1196.96,
         "speaker": "Speaker",
@@ -117138,7 +116570,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 348,
+        "id": 346,
         "start": 1197.0,
         "end": 1197.76,
         "speaker": "Speaker",
@@ -117154,7 +116586,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 349,
+        "id": 347,
         "start": 1197.8,
         "end": 1198.76,
         "speaker": "Speaker",
@@ -117170,7 +116602,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 350,
+        "id": 348,
         "start": 1198.8,
         "end": 1200.66,
         "speaker": "Speaker",
@@ -117180,7 +116612,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 351,
+        "id": 349,
         "start": 1200.7,
         "end": 1203.16,
         "speaker": "Speaker",
@@ -117196,7 +116628,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 352,
+        "id": 350,
         "start": 1203.2,
         "end": 1204.46,
         "speaker": "Speaker",
@@ -117206,7 +116638,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 353,
+        "id": 351,
         "start": 1204.5,
         "end": 1206.36,
         "speaker": "Speaker",
@@ -117222,7 +116654,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 354,
+        "id": 352,
         "start": 1206.4,
         "end": 1208.26,
         "speaker": "Speaker",
@@ -117238,7 +116670,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 355,
+        "id": 353,
         "start": 1208.3,
         "end": 1212.36,
         "speaker": "Speaker",
@@ -117254,7 +116686,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 356,
+        "id": 354,
         "start": 1212.4,
         "end": 1214.66,
         "speaker": "Speaker",
@@ -117270,7 +116702,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 357,
+        "id": 355,
         "start": 1214.7,
         "end": 1218.56,
         "speaker": "Speaker",
@@ -117286,7 +116718,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 358,
+        "id": 356,
         "start": 1218.6,
         "end": 1219.94,
         "speaker": "Speaker",
@@ -117302,7 +116734,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 359,
+        "id": 357,
         "start": 1219.98,
         "end": 1221.05,
         "speaker": "Speaker",
@@ -117312,7 +116744,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 360,
+        "id": 358,
         "start": 1221.09,
         "end": 1223.36,
         "speaker": "Speaker",
@@ -117328,7 +116760,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 361,
+        "id": 359,
         "start": 1223.4,
         "end": 1230.27,
         "speaker": "Speaker",
@@ -117344,7 +116776,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 362,
+        "id": 360,
         "start": 1230.31,
         "end": 1232.27,
         "speaker": "Speaker",
@@ -117360,7 +116792,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 363,
+        "id": 361,
         "start": 1232.31,
         "end": 1237.97,
         "speaker": "Speaker",
@@ -117376,7 +116808,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 364,
+        "id": 362,
         "start": 1238.01,
         "end": 1240.86,
         "speaker": "Speaker",
@@ -117392,7 +116824,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 365,
+        "id": 363,
         "start": 1240.9,
         "end": 1244.97,
         "speaker": "Speaker",
@@ -117408,7 +116840,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 366,
+        "id": 364,
         "start": 1245.01,
         "end": 1249.47,
         "speaker": "Speaker",
@@ -117418,7 +116850,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 367,
+        "id": 365,
         "start": 1249.51,
         "end": 1252.77,
         "speaker": "Speaker",
@@ -117434,7 +116866,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 368,
+        "id": 366,
         "start": 1252.81,
         "end": 1256.07,
         "speaker": "Speaker",
@@ -117450,7 +116882,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 369,
+        "id": 367,
         "start": 1256.11,
         "end": 1257.42,
         "speaker": "Speaker",
@@ -117460,7 +116892,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 370,
+        "id": 368,
         "start": 1257.46,
         "end": 1258.77,
         "speaker": "Speaker",
@@ -117470,7 +116902,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 371,
+        "id": 369,
         "start": 1258.81,
         "end": 1259.27,
         "speaker": "Speaker",
@@ -117480,7 +116912,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 372,
+        "id": 370,
         "start": 1259.31,
         "end": 1260.36,
         "speaker": "Speaker",
@@ -117490,7 +116922,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 373,
+        "id": 371,
         "start": 1260.4,
         "end": 1261.66,
         "speaker": "Speaker",
@@ -117506,7 +116938,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 374,
+        "id": 372,
         "start": 1261.7,
         "end": 1263.07,
         "speaker": "Speaker",
@@ -117522,7 +116954,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 375,
+        "id": 373,
         "start": 1263.11,
         "end": 1264.27,
         "speaker": "Speaker",
@@ -117538,7 +116970,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 376,
+        "id": 374,
         "start": 1264.31,
         "end": 1267.39,
         "speaker": "Speaker",
@@ -117554,7 +116986,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 377,
+        "id": 375,
         "start": 1267.43,
         "end": 1271.27,
         "speaker": "Speaker",
@@ -117570,7 +117002,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 378,
+        "id": 376,
         "start": 1271.31,
         "end": 1276.77,
         "speaker": "Speaker",
@@ -117586,7 +117018,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 379,
+        "id": 377,
         "start": 1276.81,
         "end": 1279.27,
         "speaker": "Speaker",
@@ -117602,7 +117034,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 380,
+        "id": 378,
         "start": 1279.31,
         "end": 1279.58,
         "speaker": "Speaker",
@@ -117618,7 +117050,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 381,
+        "id": 379,
         "start": 1279.62,
         "end": 1281.36,
         "speaker": "Speaker",
@@ -117634,7 +117066,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 382,
+        "id": 380,
         "start": 1281.4,
         "end": 1282.27,
         "speaker": "Speaker",
@@ -117650,7 +117082,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 383,
+        "id": 381,
         "start": 1282.31,
         "end": 1287.97,
         "speaker": "Speaker",
@@ -117666,7 +117098,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 384,
+        "id": 382,
         "start": 1288.01,
         "end": 1292.27,
         "speaker": "Speaker",
@@ -117682,7 +117114,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 385,
+        "id": 383,
         "start": 1292.31,
         "end": 1294.36,
         "speaker": "Speaker",
@@ -117698,7 +117130,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 386,
+        "id": 384,
         "start": 1294.4,
         "end": 1295.16,
         "speaker": "Speaker",
@@ -117714,7 +117146,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 387,
+        "id": 385,
         "start": 1295.2,
         "end": 1296.86,
         "speaker": "Speaker",
@@ -117730,7 +117162,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 388,
+        "id": 386,
         "start": 1296.9,
         "end": 1298.16,
         "speaker": "Speaker",
@@ -117746,7 +117178,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 389,
+        "id": 387,
         "start": 1298.2,
         "end": 1299.66,
         "speaker": "Speaker",
@@ -117762,7 +117194,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 390,
+        "id": 388,
         "start": 1299.7,
         "end": 1300.57,
         "speaker": "Speaker",
@@ -117778,7 +117210,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 391,
+        "id": 389,
         "start": 1300.61,
         "end": 1303.27,
         "speaker": "Speaker",
@@ -117794,7 +117226,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 392,
+        "id": 390,
         "start": 1303.31,
         "end": 1315.57,
         "speaker": "Speaker",
@@ -117815,7 +117247,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 393,
+        "id": 391,
         "start": 1315.61,
         "end": 1316.07,
         "speaker": "Speaker",
@@ -117831,7 +117263,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 394,
+        "id": 392,
         "start": 1316.11,
         "end": 1316.86,
         "speaker": "Speaker",
@@ -117847,7 +117279,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 395,
+        "id": 393,
         "start": 1316.9,
         "end": 1317.86,
         "speaker": "Speaker",
@@ -117863,7 +117295,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 396,
+        "id": 394,
         "start": 1317.9,
         "end": 1321.16,
         "speaker": "Speaker",
@@ -117879,7 +117311,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 397,
+        "id": 395,
         "start": 1321.2,
         "end": 1322.57,
         "speaker": "Speaker",
@@ -117895,7 +117327,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 398,
+        "id": 396,
         "start": 1322.61,
         "end": 1324.07,
         "speaker": "Speaker",
@@ -117911,7 +117343,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 399,
+        "id": 397,
         "start": 1324.11,
         "end": 1328.47,
         "speaker": "Speaker",
@@ -117932,7 +117364,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 400,
+        "id": 398,
         "start": 1328.51,
         "end": 1329.97,
         "speaker": "Speaker",
@@ -117948,7 +117380,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 401,
+        "id": 399,
         "start": 1330.01,
         "end": 1332.97,
         "speaker": "Speaker",
@@ -117964,7 +117396,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 402,
+        "id": 400,
         "start": 1333.01,
         "end": 1336.07,
         "speaker": "Speaker",
@@ -117980,7 +117412,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 403,
+        "id": 401,
         "start": 1336.11,
         "end": 1337.27,
         "speaker": "Speaker",
@@ -117996,7 +117428,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 404,
+        "id": 402,
         "start": 1337.31,
         "end": 1338.66,
         "speaker": "Speaker",
@@ -118012,7 +117444,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 405,
+        "id": 403,
         "start": 1338.7,
         "end": 1340.27,
         "speaker": "Speaker",
@@ -118028,7 +117460,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 406,
+        "id": 404,
         "start": 1340.31,
         "end": 1342.57,
         "speaker": "Speaker",
@@ -118044,7 +117476,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 407,
+        "id": 405,
         "start": 1342.61,
         "end": 1342.89,
         "speaker": "Speaker",
@@ -118060,7 +117492,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 408,
+        "id": 406,
         "start": 1342.93,
         "end": 1345.27,
         "speaker": "Speaker",
@@ -118076,7 +117508,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 409,
+        "id": 407,
         "start": 1345.31,
         "end": 1347.77,
         "speaker": "Speaker",
@@ -118092,7 +117524,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 410,
+        "id": 408,
         "start": 1347.81,
         "end": 1350.07,
         "speaker": "Speaker",
@@ -118108,7 +117540,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 411,
+        "id": 409,
         "start": 1350.11,
         "end": 1350.9,
         "speaker": "Speaker",
@@ -118124,7 +117556,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 412,
+        "id": 410,
         "start": 1350.94,
         "end": 1353.63,
         "speaker": "Speaker",
@@ -118140,7 +117572,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 413,
+        "id": 411,
         "start": 1353.67,
         "end": 1355.57,
         "speaker": "Speaker",
@@ -118156,7 +117588,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 414,
+        "id": 412,
         "start": 1355.61,
         "end": 1359.17,
         "speaker": "Speaker",
@@ -118172,7 +117604,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 415,
+        "id": 413,
         "start": 1359.21,
         "end": 1359.47,
         "speaker": "Speaker",
@@ -118182,7 +117614,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 416,
+        "id": 414,
         "start": 1359.51,
         "end": 1364.17,
         "speaker": "Speaker",
@@ -118198,7 +117630,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 417,
+        "id": 415,
         "start": 1364.21,
         "end": 1365.96,
         "speaker": "Speaker",
@@ -118214,7 +117646,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 418,
+        "id": 416,
         "start": 1366.0,
         "end": 1367.97,
         "speaker": "Speaker",
@@ -118230,7 +117662,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 419,
+        "id": 417,
         "start": 1368.01,
         "end": 1368.37,
         "speaker": "Speaker",
@@ -118240,7 +117672,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 420,
+        "id": 418,
         "start": 1368.41,
         "end": 1369.57,
         "speaker": "Speaker",
@@ -118256,7 +117688,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 421,
+        "id": 419,
         "start": 1369.61,
         "end": 1370.07,
         "speaker": "Speaker",
@@ -118266,7 +117698,7 @@ export const LOCAL_EPISODES = [
         "highlights": []
       },
       {
-        "id": 422,
+        "id": 420,
         "start": 1370.11,
         "end": 1382.77,
         "speaker": "Speaker",
@@ -118287,7 +117719,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 423,
+        "id": 421,
         "start": 1382.81,
         "end": 1385.52,
         "speaker": "Speaker",
@@ -118303,7 +117735,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 424,
+        "id": 422,
         "start": 1385.56,
         "end": 1386.46,
         "speaker": "Speaker",
@@ -118319,7 +117751,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 425,
+        "id": 423,
         "start": 1386.5,
         "end": 1390.63,
         "speaker": "Speaker",
@@ -118335,7 +117767,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 426,
+        "id": 424,
         "start": 1390.67,
         "end": 1393.57,
         "speaker": "Speaker",
@@ -118351,7 +117783,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 427,
+        "id": 425,
         "start": 1393.61,
         "end": 1397.47,
         "speaker": "Speaker",
@@ -118367,7 +117799,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 428,
+        "id": 426,
         "start": 1397.51,
         "end": 1405.42,
         "speaker": "Speaker",
@@ -118388,7 +117820,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 429,
+        "id": 427,
         "start": 1405.46,
         "end": 1408.23,
         "speaker": "Speaker",
@@ -118404,7 +117836,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 430,
+        "id": 428,
         "start": 1408.27,
         "end": 1410.09,
         "speaker": "Speaker",
@@ -118420,7 +117852,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 431,
+        "id": 429,
         "start": 1410.13,
         "end": 1411.99,
         "speaker": "Speaker",
@@ -118436,7 +117868,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 432,
+        "id": 430,
         "start": 1412.03,
         "end": 1421.12,
         "speaker": "Speaker",
@@ -118457,7 +117889,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 433,
+        "id": 431,
         "start": 1421.16,
         "end": 1424.0,
         "speaker": "Speaker",
@@ -118473,7 +117905,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 434,
+        "id": 432,
         "start": 1424.04,
         "end": 1429.23,
         "speaker": "Speaker",
@@ -118489,7 +117921,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 435,
+        "id": 433,
         "start": 1429.27,
         "end": 1438.17,
         "speaker": "Speaker",
@@ -118505,7 +117937,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 436,
+        "id": 434,
         "start": 1438.21,
         "end": 1445.34,
         "speaker": "Speaker",
@@ -118521,7 +117953,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 437,
+        "id": 435,
         "start": 1445.38,
         "end": 1451.57,
         "speaker": "Speaker",
@@ -118537,7 +117969,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 438,
+        "id": 436,
         "start": 1451.61,
         "end": 1457.67,
         "speaker": "Speaker",
@@ -118558,7 +117990,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 439,
+        "id": 437,
         "start": 1457.71,
         "end": 1461.37,
         "speaker": "Speaker",
@@ -118574,7 +118006,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 440,
+        "id": 438,
         "start": 1461.41,
         "end": 1468.78,
         "speaker": "Speaker",
@@ -118595,7 +118027,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 441,
+        "id": 439,
         "start": 1468.82,
         "end": 1471.43,
         "speaker": "Speaker",
@@ -118611,7 +118043,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 442,
+        "id": 440,
         "start": 1471.47,
         "end": 1478.07,
         "speaker": "Speaker",
@@ -118627,7 +118059,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 443,
+        "id": 441,
         "start": 1478.11,
         "end": 1478.47,
         "speaker": "Speaker",
@@ -118643,7 +118075,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 444,
+        "id": 442,
         "start": 1478.51,
         "end": 1479.3,
         "speaker": "Speaker",
@@ -118659,7 +118091,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 445,
+        "id": 443,
         "start": 1479.34,
         "end": 1486.96,
         "speaker": "Speaker",
@@ -118680,7 +118112,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 446,
+        "id": 444,
         "start": 1487.0,
         "end": 1495.29,
         "speaker": "Speaker",
@@ -118701,7 +118133,7 @@ export const LOCAL_EPISODES = [
         ]
       },
       {
-        "id": 447,
+        "id": 445,
         "start": 1495.33,
         "end": 1498.51,
         "speaker": "Speaker",
@@ -118731,7 +118163,6 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "美食",
-      "个人成长",
       "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #E7D8C9 0%, #B88B72 100%)",
@@ -120556,8 +119987,8 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "购物",
-      "美食",
-      "个人成长"
+      "生活英语",
+      "生活"
     ],
     "coverGradient": "linear-gradient(135deg, #F7E1D7 0%, #E6A995 100%)",
     "coverImage": "",
@@ -125246,8 +124677,7 @@ export const LOCAL_EPISODES = [
     "date": "2026/11/28",
     "tags": [
       "购物",
-      "美食",
-      "个人成长"
+      "生活英语"
     ],
     "coverGradient": "linear-gradient(135deg, #F4D9D0 0%, #D98B7A 100%)",
     "coverImage": "",
@@ -125267,6 +124697,10 @@ export const LOCAL_EPISODES = [
       [
         202.28,
         202.84
+      ],
+      [
+        797.23,
+        798.56
       ],
       [
         799.96,
@@ -128362,7 +127796,7 @@ export const LOCAL_EPISODES = [
       {
         "id": 185,
         "start": 790.48,
-        "end": 798.52,
+        "end": 797.23,
         "speaker": "Speaker",
         "en": "Yes, thank you so much.",
         "ipa": "/jɛs, θæŋk ju soʊ mʌtʃ./",

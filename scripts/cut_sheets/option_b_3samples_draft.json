@@ -1,0 +1,409 @@
+{
+  "status": "DRAFT_AWAITING_USER_APPROVAL",
+  "sourceMediaModified": false,
+  "detectionBasis": "afconvert 16kHz PCM + RMS dBFS silencedetect (<-36dBFS) + speech-band acoustic VAD + manual sentence-boundary alignment (0.30s breathing padding)",
+  "samples": [
+    {
+      "number": "EP 05",
+      "title": "Real Life ENGLISH Around the City",
+      "originalDurationSec": 1872.39,
+      "originalSentences": 410,
+      "vadSummary": "全片高密度口播（afinfo 1872.39s），仅 2 处声学警告空档、0 处纯音乐/静音段，必须靠话题精编瘦身。",
+      "tightSingleEpisode": {
+        "newTitle": "Real Life ENGLISH Around the City（精编版：小镇逛吃与街头英语）",
+        "segments": [
+          {
+            "label": "开场引入 Asheville 小镇",
+            "reason": "保留城市漫步背景引入，去掉后续 PDF 推广与空街慢走",
+            "startSec": 0.0,
+            "endSec": 37.43,
+            "durationSec": 37.43,
+            "firstSentenceId": 1,
+            "lastSentenceId": 7,
+            "sentenceCount": 7,
+            "firstEn": "Welcome to my town here in the US, this small town, Asheville, North Carolina, where I live.",
+            "lastEn": "If you're new here, hi, I'm Vanessa from speakenglishwithvanessa.com, and I have been teaching real life English here on my YouTube channel for over the past 10 years to now more than 7 million of you."
+          },
+          {
+            "label": "糖果店与焦糖爆米花地道词汇",
+            "reason": "高密度地道零食词汇（bull's eye / cow tail / white cheddar popcorn）",
+            "startSec": 534.18,
+            "endSec": 722.02,
+            "durationSec": 187.84,
+            "firstSentenceId": 106,
+            "lastSentenceId": 160,
+            "sentenceCount": 55,
+            "firstEn": "Oh, these are These are the thing that I would always try to get um at Halloween.",
+            "lastEn": "It's probably about true."
+          },
+          {
+            "label": "Farm-to-Table 餐厅与刷卡/现金表达",
+            "reason": "实用美式餐饮与支付场景",
+            "startSec": 970.1,
+            "endSec": 1152.92,
+            "durationSec": 182.82,
+            "firstSentenceId": 219,
+            "lastSentenceId": 270,
+            "sentenceCount": 52,
+            "firstEn": "All right, let's go in.",
+            "lastEn": "It's very appreciated to give a cash tip, but you can tip with your card, too."
+          },
+          {
+            "label": "街头艺人 Busking 与 Old Europe 咖啡馆",
+            "reason": "生活文化高频表达 + 咖啡馆语境",
+            "startSec": 1501.11,
+            "endSec": 1657.18,
+            "durationSec": 156.07,
+            "firstSentenceId": 336,
+            "lastSentenceId": 367,
+            "sentenceCount": 32,
+            "firstEn": "But it's always nice whenever you see people playing on the side of the street like that; it is called busking.",
+            "lastEn": "So, as you're walking along the side of the street, you can throw your trash in the recycling or the landfill."
+          }
+        ],
+        "estDurationSec": 564.2,
+        "estSentences": 146
+      },
+      "partSplitOption": {
+        "part1": {
+          "newTitle": "Real Life ENGLISH Around the City (Part 1：小镇糖果店与美食词汇)",
+          "segments": [
+            {
+              "label": "开场引入",
+              "reason": "建立小镇背景",
+              "startSec": 0.0,
+              "endSec": 37.43,
+              "durationSec": 37.43,
+              "firstSentenceId": 1,
+              "lastSentenceId": 7,
+              "sentenceCount": 7,
+              "firstEn": "Welcome to my town here in the US, this small town, Asheville, North Carolina, where I live.",
+              "lastEn": "If you're new here, hi, I'm Vanessa from speakenglishwithvanessa.com, and I have been teaching real life English here on my YouTube channel for over the past 10 years to now more than 7 million of you."
+            },
+            {
+              "label": "糖果店、焦糖爆米花与特色餐厅",
+              "reason": "完整保留美食购物主线",
+              "startSec": 471.84,
+              "endSec": 767.96,
+              "durationSec": 296.12,
+              "firstSentenceId": 94,
+              "lastSentenceId": 172,
+              "sentenceCount": 79,
+              "firstEn": "I used to love this too as a kid.",
+              "lastEn": "This is what some people say is the best Indian restaurant in Asheville, Mayfel's."
+            },
+            {
+              "label": "Farm-to-Table 与甜点刷卡",
+              "reason": "自然收束餐饮篇",
+              "startSec": 955.9,
+              "endSec": 1178.84,
+              "durationSec": 222.94,
+              "firstSentenceId": 218,
+              "lastSentenceId": 276,
+              "sentenceCount": 59,
+              "firstEn": "Um lots of They have ice cream, they have little truffles, they have hot chocolate, they have so many different chocolate things, and I think it's not too busy right now, so I guess we should go.",
+              "lastEn": "So, here we have our chocolate creme brulee."
+            }
+          ],
+          "estDurationSec": 556.5,
+          "estSentences": 145
+        },
+        "part2": {
+          "newTitle": "Real Life ENGLISH Around the City (Part 2：街头艺人、城市漫步与咖啡馆)",
+          "segments": [
+            {
+              "label": "市中心街道、街头艺人 Busking 与 Old Europe 咖啡馆",
+              "reason": "完整保留城市漫步与文化观察主线",
+              "startSec": 1243.38,
+              "endSec": 1706.35,
+              "durationSec": 462.97,
+              "firstSentenceId": 284,
+              "lastSentenceId": 377,
+              "sentenceCount": 94,
+              "firstEn": "Um and this is one thing that I find slightly disappointing about American downtowns is that this is not a hangout zone.",
+              "lastEn": "We're about to get to the theater."
+            },
+            {
+              "label": "自然收尾告别",
+              "reason": "保留干净收尾",
+              "startSec": 1852.43,
+              "endSec": 1874.11,
+              "durationSec": 21.68,
+              "firstSentenceId": 407,
+              "lastSentenceId": 410,
+              "sentenceCount": 4,
+              "firstEn": "Bye.",
+              "lastEn": "I hope to see you there."
+            }
+          ],
+          "estDurationSec": 484.7,
+          "estSentences": 98
+        }
+      }
+    },
+    {
+      "number": "EP 04",
+      "title": "Order FOOD in English： Daily Life English",
+      "originalDurationSec": 1497.01,
+      "originalSentences": 445,
+      "vadSummary": "全片高密度口播（afinfo 1497.01s），0 处纯音乐/静音段，适合按快餐店实景点单场景精编。",
+      "tightSingleEpisode": {
+        "newTitle": "Order FOOD in English（精编版：Chick-fil-A & 麦当劳实景点单 + 小费规则）",
+        "segments": [
+          {
+            "label": "开场引入美式快餐点单",
+            "reason": "去掉 PDF 免费领取引流与车内寒暄",
+            "startSec": 0.1,
+            "endSec": 51.73,
+            "durationSec": 51.63,
+            "firstSentenceId": 1,
+            "lastSentenceId": 10,
+            "sentenceCount": 10,
+            "firstEn": "Are you ready to do something very American with me?",
+            "lastEn": "Thank you so much for learning English with me."
+          },
+          {
+            "label": "Chick-fil-A 实景点单与酱料表达",
+            "reason": "高频鸡肉三明治、华夫薯条与酱料点单对话",
+            "startSec": 151.39,
+            "endSec": 418.96,
+            "durationSec": 267.57,
+            "firstSentenceId": 34,
+            "lastSentenceId": 114,
+            "sentenceCount": 81,
+            "firstEn": "And this is where you go up to order.",
+            "lastEn": "And you dip it in this little sauce, or you can, I guess, pour the sauce on it."
+          },
+          {
+            "label": "McDonald's 进店柜台点单对比",
+            "reason": "保留完整柜台点单实景，去掉后续童年 Beanie Babies 离题回忆",
+            "startSec": 598.27,
+            "endSec": 747.52,
+            "durationSec": 149.25,
+            "firstSentenceId": 165,
+            "lastSentenceId": 220,
+            "sentenceCount": 56,
+            "firstEn": "I'll see you over at McDonald's.",
+            "lastEn": "This is the number one meal."
+          },
+          {
+            "label": "美式 20% 小费文化总结",
+            "reason": "高价值实用知识点收尾，去掉 Wendy's 试吃闲聊与片尾推广",
+            "startSec": 1113.3,
+            "endSec": 1204.46,
+            "durationSec": 91.16,
+            "firstSentenceId": 326,
+            "lastSentenceId": 350,
+            "sentenceCount": 25,
+            "firstEn": "In fact, I think even at Chick-fil-A it says no tips, please.",
+            "lastEn": "All right."
+          }
+        ],
+        "estDurationSec": 559.6,
+        "estSentences": 172
+      },
+      "partSplitOption": {
+        "part1": {
+          "newTitle": "Order FOOD in English (Part 1：Chick-fil-A 实景点单与酱料)",
+          "segments": [
+            {
+              "label": "开场引入",
+              "reason": "点单主题开场",
+              "startSec": 0.1,
+              "endSec": 51.73,
+              "durationSec": 51.63,
+              "firstSentenceId": 1,
+              "lastSentenceId": 10,
+              "sentenceCount": 10,
+              "firstEn": "Are you ready to do something very American with me?",
+              "lastEn": "Thank you so much for learning English with me."
+            },
+            {
+              "label": "Chick-fil-A 完整点单与品尝",
+              "reason": "单一餐厅闭环",
+              "startSec": 151.39,
+              "endSec": 539.74,
+              "durationSec": 388.35,
+              "firstSentenceId": 34,
+              "lastSentenceId": 143,
+              "sentenceCount": 110,
+              "firstEn": "And this is where you go up to order.",
+              "lastEn": "Well, I'll tell you one thing I'm not excited about."
+            }
+          ],
+          "estDurationSec": 440.0,
+          "estSentences": 120
+        },
+        "part2": {
+          "newTitle": "Order FOOD in English (Part 2：麦当劳柜台点单与美式小费规则)",
+          "segments": [
+            {
+              "label": "McDonald's 进店点单实景",
+              "reason": "对比前集点单方式",
+              "startSec": 598.27,
+              "endSec": 766.06,
+              "durationSec": 167.79,
+              "firstSentenceId": 165,
+              "lastSentenceId": 224,
+              "sentenceCount": 60,
+              "firstEn": "I'll see you over at McDonald's.",
+              "lastEn": "It's pretty wild."
+            },
+            {
+              "label": "美式小费规则总结",
+              "reason": "高价值文化知识点",
+              "startSec": 1113.3,
+              "endSec": 1219.94,
+              "durationSec": 106.64,
+              "firstSentenceId": 326,
+              "lastSentenceId": 356,
+              "sentenceCount": 31,
+              "firstEn": "In fact, I think even at Chick-fil-A it says no tips, please.",
+              "lastEn": "9.92 All righty."
+            },
+            {
+              "label": "Frosty 小结与自然收尾",
+              "reason": "保留干净收尾",
+              "startSec": 1397.51,
+              "endSec": 1498.51,
+              "durationSec": 101.0,
+              "firstSentenceId": 426,
+              "lastSentenceId": 445,
+              "sentenceCount": 20,
+              "firstEn": "Maybe it's because you want to try it or maybe it's just because nothing else is open late at night and you're hungry and that's all that there is.",
+              "lastEn": "I'll see you there."
+            }
+          ],
+          "estDurationSec": 375.4,
+          "estSentences": 111
+        }
+      }
+    },
+    {
+      "number": "EP 07",
+      "title": "Speak American English Around Town",
+      "originalDurationSec": 1340.65,
+      "originalSentences": 338,
+      "vadSummary": "全片高密度口播（afinfo 1340.65s），0 处纯音乐/静音段，适合按“社区办事三站”精编。",
+      "tightSingleEpisode": {
+        "newTitle": "Speak American English Around Town（精编版：街区出行、银行管道与邮局）",
+        "segments": [
+          {
+            "label": "开场引入社区办事路线",
+            "reason": "去掉课程广告与慢走铺垫",
+            "startSec": 0.0,
+            "endSec": 53.31,
+            "durationSec": 53.31,
+            "firstSentenceId": 1,
+            "lastSentenceId": 9,
+            "sentenceCount": 9,
+            "firstEn": "Today, you are coming with me to walk around in my neighborhood and go to the bank and the post office so that you can.",
+            "lastEn": "And like always, I have created a free PDF worksheet that includes everything valuable that you are going to learn today."
+          },
+          {
+            "label": "街边停车、过马路与垃圾分类回收",
+            "reason": "高实用度社区生活词汇（recycling bin / crosswalk）",
+            "startSec": 176.27,
+            "endSec": 414.56,
+            "durationSec": 238.29,
+            "firstSentenceId": 35,
+            "lastSentenceId": 94,
+            "sentenceCount": 60,
+            "firstEn": "So, they park on the streets.",
+            "lastEn": "Well, there's some green grass, I guess."
+          },
+          {
+            "label": "美国银行 Drive-thru 气动管道存款实景",
+            "reason": "最具特色的美式生活场景，去掉中间绿道与二手店离题故事",
+            "startSec": 881.12,
+            "endSec": 1083.24,
+            "durationSec": 202.12,
+            "firstSentenceId": 216,
+            "lastSentenceId": 283,
+            "sentenceCount": 68,
+            "firstEn": "All right, a one million.",
+            "lastEn": "Let's see."
+          },
+          {
+            "label": "邮局寄件实景与收尾",
+            "reason": "完成开场承诺的银行+邮局闭环",
+            "startSec": 1194.77,
+            "endSec": 1284.65,
+            "durationSec": 89.88,
+            "firstSentenceId": 313,
+            "lastSentenceId": 329,
+            "sentenceCount": 17,
+            "firstEn": "Now, unfortunately, I'm not going to be taking you into the post office with me, but we will drive up to the post office and you'll see what happens.",
+            "lastEn": "This is an essential part of helping you actually to become a fluent English speaker."
+          }
+        ],
+        "estDurationSec": 583.6,
+        "estSentences": 154
+      },
+      "partSplitOption": {
+        "part1": {
+          "newTitle": "Speak American English Around Town (Part 1：美式社区漫步与日常设施)",
+          "segments": [
+            {
+              "label": "开场引入",
+              "reason": "社区主题引入",
+              "startSec": 0.0,
+              "endSec": 53.31,
+              "durationSec": 53.31,
+              "firstSentenceId": 1,
+              "lastSentenceId": 9,
+              "sentenceCount": 9,
+              "firstEn": "Today, you are coming with me to walk around in my neighborhood and go to the bank and the post office so that you can.",
+              "lastEn": "And like always, I have created a free PDF worksheet that includes everything valuable that you are going to learn today."
+            },
+            {
+              "label": "街边停车、过马路、回收箱与绿道",
+              "reason": "户外社区英语闭环",
+              "startSec": 176.27,
+              "endSec": 724.26,
+              "durationSec": 547.99,
+              "firstSentenceId": 35,
+              "lastSentenceId": 169,
+              "sentenceCount": 135,
+              "firstEn": "So, they park on the streets.",
+              "lastEn": "The first errand that we're going to run is dropping off some books that my kids no longer read in our neighborhood's free book box."
+            }
+          ],
+          "estDurationSec": 601.3,
+          "estSentences": 144
+        },
+        "part2": {
+          "newTitle": "Speak American English Around Town (Part 2：美国银行 Drive-thru 与邮局实战)",
+          "segments": [
+            {
+              "label": "银行 Drive-thru 气动管道实景",
+              "reason": "银行办事核心口语",
+              "startSec": 881.12,
+              "endSec": 1105.64,
+              "durationSec": 224.52,
+              "firstSentenceId": 216,
+              "lastSentenceId": 286,
+              "sentenceCount": 71,
+              "firstEn": "All right, a one million.",
+              "lastEn": "But, if you want to open a bank account, you have to go into the bank."
+            },
+            {
+              "label": "邮局寄件与告别",
+              "reason": "邮局实战 + 自然收尾",
+              "startSec": 1194.77,
+              "endSec": 1342.36,
+              "durationSec": 147.59,
+              "firstSentenceId": 313,
+              "lastSentenceId": 338,
+              "sentenceCount": 26,
+              "firstEn": "Now, unfortunately, I'm not going to be taking you into the post office with me, but we will drive up to the post office and you'll see what happens.",
+              "lastEn": "I'll see you there."
+            }
+          ],
+          "estDurationSec": 372.1,
+          "estSentences": 97
+        }
+      }
+    }
+  ]
+}
