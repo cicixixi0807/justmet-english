@@ -2,6 +2,7 @@
 import { store, applyThemeVars } from './store.js';
 import { renderLoginPage, renderUniverseHub, renderLibraryPage, renderVocabPage, renderMembershipPage } from './views.js';
 import { renderPracticeWorkspace } from './practice.js';
+import { mountDarcyCompanion } from './darcy_companion.js';
 
 const appRoot = document.getElementById('app');
 let cleanupCurrentView = null;
@@ -61,3 +62,4 @@ function renderRoute() {
 
 window.addEventListener('hashchange', renderRoute);
 renderRoute();
+mountDarcyCompanion();

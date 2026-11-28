@@ -77,13 +77,11 @@ export function renderLoginPage(root, navigate) {
 
           <div class="hosts-strip">
             <div class="avatar-stack">
-              <img src="./assets/hosts/cici_round.webp" alt="cici" title="cici" />
-              <img src="./assets/hosts/eddie_round.webp" alt="Eddie" title="Eddie" />
-              <img src="./assets/hosts/darcy_round.webp" alt="Darcy" title="小屋管家 Darcy" />
+              <img src="./assets/hosts/darcy_round.webp" alt="Darcy" title="陪读管家 Darcy" />
             </div>
             <div class="hosts-meta">
-              <strong>cici · Eddie</strong>（主理搭档） &amp; <strong>Darcy</strong>（小屋管家）<br />
-              所有 Just met 宇宙产品，一个账号统一通行
+              <strong>cici · Eddie</strong> 主理 &amp; <strong>Darcy</strong> 陪读陪伴<br />
+              所有产品一个账号统一通行
             </div>
           </div>
 
@@ -336,7 +334,7 @@ export function renderLibraryPage(root, navigate) {
                 <div style="font-size:11px;opacity:0.92;letter-spacing:0.04em;">JUST MET HOUSE</div>
                 <div style="font-family:var(--font-serif);font-size:20px;font-weight:700;margin-top:2px;">英语自习室</div>
               </div>
-              <img src="./assets/hosts/trio.webp" alt="cici Eddie Darcy" style="width:76px;height:auto;border-radius:10px;filter:drop-shadow(0 4px 10px rgba(43,31,27,0.22));" />
+              <img src="./assets/icon-dog-180.png" alt="Darcy" style="width:54px;height:54px;border-radius:50%;border:2px solid rgba(255,255,255,0.88);box-shadow:0 4px 12px rgba(43,31,27,0.22);object-fit:cover;" />
             </div>
           </div>
           <div>
@@ -378,10 +376,9 @@ export function renderLibraryPage(root, navigate) {
               <span style="color:var(--muted);">放松一下～</span>
             </div>
           </div>
-          <div class="avatar-stack" style="flex-shrink:0;">
-            <img src="./assets/hosts/cici_round.webp" alt="cici" style="width:30px;height:30px;border-width:2px;" />
-            <img src="./assets/hosts/eddie_round.webp" alt="Eddie" style="width:30px;height:30px;border-width:2px;" />
-          </div>
+          <button class="btn btn-soft" id="open-darcy-banner-btn" style="flex-shrink:0;padding:7px 14px;font-size:12px;">
+            🐾 打开 Darcy 小窝
+          </button>
         </section>
 
         <section class="filter-bar">
